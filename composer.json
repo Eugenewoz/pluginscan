@@ -1,0 +1,21 @@
+{
+    "name": "eugenewoz/pluginscan",
+    "description": "WP-CLI command to scan plugins and identify suspicious ones not in official repository or custom allowlist",
+    "type": "wp-cli-package",
+    "homepage": "https://github.com/eugenewoz/pluginscan",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "EugeneWoz",
+            "email": "your-email@example.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "files": [ "plugin-scanner.php" ]
+    },
+    "require": {
+        "wp-cli/wp-cli": "^2.0"
+    }
+}
