@@ -3,7 +3,7 @@
  * Plugin Scanner Command for WP-CLI
  * 
  * Scans all WordPress plugins and compares them with WordPress.org API and a custom JSON allowlist
- * to identify potentially suspicious plugins. Also allows whitelisting plugins.
+ * to identify potentially suspicious plugins. Also scans filesystem for hidden plugin folders.
  * 
  * @package           PluginScanner
  * @author            EugeneWoz
@@ -49,6 +49,7 @@ class Plugin_Scanner_Command {
 
     /**
      * Scans all plugins and compares against WordPress.org API and a custom JSON allowlist.
+     * Also scans filesystem for hidden plugin folders.
      * 
      * ## OPTIONS
      * 
@@ -57,6 +58,9 @@ class Plugin_Scanner_Command {
      * 
      * [--skip-wp-org]
      * : Skip checking plugins against WordPress.org Plugin API
+     * 
+     * [--skip-filesystem]
+     * : Skip scanning filesystem for hidden plugin folders
      * 
      * [--format=<format>]
      * : Output format. Accepts: table, csv, json, count, ids, yaml. Default: table
@@ -71,6 +75,9 @@ class Plugin_Scanner_Command {
      * 
      *     # Scan plugins with only custom allowlist (skip WordPress.org API)
      *     $ wp pluginscan --skip-wp-org
+     * 
+     *     # Skip filesystem scan for hidden plugin folders
+     *     $ wp pluginscan --skip-filesystem
      * 
      *     # Scan plugins with custom JSON allowlist URL
      *     $ wp pluginscan --custom-json=https://example.com/custom-allowlist.json
@@ -92,6 +99,12 @@ class Plugin_Scanner_Command {
         $skip_wp_org = \WP_CLI\Utils\get_flag_value(
             $assoc_args,
             'skip-wp-org',
+            false
+        );
+        
+        $skip_filesystem = \WP_CLI\Utils\get_flag_value(
+            $assoc_args,
+            'skip-filesystem',
             false
         );
         
@@ -137,14 +150,10 @@ class Plugin_Scanner_Command {
             $suspicious_plugins = $this->filter_allowed_plugins($suspicious_plugins, $custom_allowed_plugins);
         }
         
-        // Output results
-        if (empty($suspicious_plugins)) {
-            WP_CLI::success("All plugins are either in the WordPress.org repository or your custom allowlist. No suspicious plugins found.");
-            return;
-        }
-        
-        // Prepare data for output
+        // Prepare items for output
         $items = [];
+        
+        // Add suspicious registered plugins to items
         foreach ($suspicious_plugins as $plugin_file => $plugin_data) {
             $items[] = [
                 'name' => $plugin_data['Name'],
@@ -152,16 +161,48 @@ class Plugin_Scanner_Command {
                 'version' => $plugin_data['Version'],
                 'author' => strip_tags($plugin_data['Author']),
                 'status' => is_plugin_active($plugin_file) ? 'active' : 'inactive',
-                'path' => WP_PLUGIN_DIR . '/' . $plugin_file
+                'path' => WP_PLUGIN_DIR . '/' . $plugin_file,
+                'type' => 'registered'
             ];
         }
         
+        // Scan filesystem for hidden plugin directories if not skipped
+        if (!$skip_filesystem) {
+            WP_CLI::log("Scanning filesystem for hidden plugin directories...");
+            $hidden_plugins = $this->scan_filesystem_for_plugins($installed_plugins, $custom_allowed_plugins);
+            
+            if (!empty($hidden_plugins)) {
+                WP_CLI::log(sprintf("Found %d hidden plugin directories.", count($hidden_plugins)));
+                
+                // Add hidden plugins to items
+                foreach ($hidden_plugins as $hidden_plugin) {
+                    $items[] = [
+                        'name' => $hidden_plugin['name'],
+                        'slug' => $hidden_plugin['slug'],
+                        'version' => 'Unknown',
+                        'author' => 'Unknown',
+                        'status' => 'hidden',
+                        'path' => $hidden_plugin['path'],
+                        'type' => 'hidden'
+                    ];
+                }
+            } else {
+                WP_CLI::log("No hidden plugin directories found.");
+            }
+        }
+        
+        // Output results
+        if (empty($items)) {
+            WP_CLI::success("All plugins are either in the WordPress.org repository or your custom allowlist. No suspicious plugins found.");
+            return;
+        }
+        
         // Format and display output
-        $fields = ['name', 'slug', 'version', 'author', 'status', 'path'];
+        $fields = ['name', 'slug', 'version', 'author', 'status', 'path', 'type'];
         
         \WP_CLI\Utils\format_items($format, $items, $fields);
         
-        WP_CLI::warning(sprintf("Found %d suspicious plugins not in the WordPress.org repository or your custom allowlist.", count($suspicious_plugins)));
+        WP_CLI::warning(sprintf("Found %d suspicious plugins.", count($items)));
     }
 
     /**
@@ -578,6 +619,144 @@ class Plugin_Scanner_Command {
         }
         
         WP_CLI::success("Plugin '{$plugin_name}' has been added to the allowlist.");
+    }
+
+    /**
+     * Scans the filesystem for plugin directories that are not registered in WordPress.
+     * 
+     * @param array $installed_plugins Array of installed plugins.
+     * @param array $allowed_plugins Array of allowed plugins from JSON.
+     * @return array Array of hidden plugin directories.
+     */
+    private function scan_filesystem_for_plugins($installed_plugins, $allowed_plugins) {
+        $hidden_plugins = [];
+        $plugins_dir = WP_PLUGIN_DIR;
+        
+        // Get list of registered plugin slugs
+        $registered_slugs = [];
+        foreach ($installed_plugins as $plugin_file => $plugin_data) {
+            $slug = dirname($plugin_file);
+            if ($slug === '.') {
+                $slug = basename($plugin_file, '.php');
+            }
+            $registered_slugs[] = $slug;
+        }
+        
+        // Get list of allowed plugin slugs
+        $allowed_slugs = [];
+        if (is_array($allowed_plugins)) {
+            foreach ($allowed_plugins as $allowed_plugin) {
+                if (isset($allowed_plugin['slug'])) {
+                    $allowed_slugs[] = $allowed_plugin['slug'];
+                }
+            }
+        }
+        
+        // Scan the plugins directory
+        if (is_dir($plugins_dir) && $handle = opendir($plugins_dir)) {
+            while (false !== ($entry = readdir($handle))) {
+                // Skip . and .. directories
+                if ($entry === '.' || $entry === '..') {
+                    continue;
+                }
+                
+                $path = $plugins_dir . '/' . $entry;
+                
+                // Check if it's a directory
+                if (is_dir($path)) {
+                    // Check if it's not a registered plugin and not in the allowlist
+                    if (!in_array($entry, $registered_slugs) && !in_array($entry, $allowed_slugs)) {
+                        // Check if it looks like a plugin directory (contains PHP files or has a specific structure)
+                        if ($this->is_likely_plugin_dir($path)) {
+                            // Get a name for the plugin
+                            $name = $this->get_plugin_name_from_directory($path, $entry);
+                            
+                            $hidden_plugins[] = [
+                                'slug' => $entry,
+                                'name' => $name,
+                                'path' => $path
+                            ];
+                        }
+                    }
+                }
+            }
+            
+            closedir($handle);
+        }
+        
+        return $hidden_plugins;
+    }
+    
+    /**
+     * Checks if a directory is likely a plugin directory.
+     * 
+     * @param string $dir_path Path to the directory.
+     * @return bool Whether the directory is likely a plugin directory.
+     */
+    private function is_likely_plugin_dir($dir_path) {
+        // Check for PHP files
+        if ($handle = opendir($dir_path)) {
+            while (false !== ($entry = readdir($handle))) {
+                if ($entry === '.' || $entry === '..') {
+                    continue;
+                }
+                
+                // If it has PHP files, it's likely a plugin
+                if (pathinfo($entry, PATHINFO_EXTENSION) === 'php') {
+                    closedir($handle);
+                    return true;
+                }
+                
+                // Check for common plugin directories
+                if (is_dir($dir_path . '/' . $entry)) {
+                    if (in_array($entry, ['includes', 'admin', 'assets', 'templates', 'vendor', 'src', 'inc'])) {
+                        closedir($handle);
+                        return true;
+                    }
+                }
+            }
+            
+            closedir($handle);
+        }
+        
+        // If directory contains specific files that are common in plugins
+        $plugin_files = ['index.php', 'readme.txt', 'README.md', 'plugin.php', 'uninstall.php'];
+        foreach ($plugin_files as $file) {
+            if (file_exists($dir_path . '/' . $file)) {
+                return true;
+            }
+        }
+        
+        return false;
+    }
+    
+    /**
+     * Tries to get a plugin name from a directory.
+     * 
+     * @param string $dir_path Path to the directory.
+     * @param string $dir_name Directory name (slug).
+     * @return string Plugin name.
+     */
+    private function get_plugin_name_from_directory($dir_path, $dir_name) {
+        // First try to look for a main plugin file
+        $potential_plugin_files = [
+            "{$dir_name}.php",
+            "plugin.php",
+            "index.php"
+        ];
+        
+        foreach ($potential_plugin_files as $file) {
+            $file_path = $dir_path . '/' . $file;
+            if (file_exists($file_path)) {
+                $plugin_data = get_plugin_data($file_path, false, false);
+                if (!empty($plugin_data['Name'])) {
+                    return $plugin_data['Name'];
+                }
+            }
+        }
+        
+        // If we couldn't find the name, use the directory name
+        return ucwords(str_replace(['-', '_'], ' ', $dir_name));
     }
 }
 
