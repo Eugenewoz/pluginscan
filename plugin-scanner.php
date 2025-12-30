@@ -760,5 +760,10 @@ class Plugin_Scanner_Command {
     }
 }
 
+require_once __DIR__ . '/plugin-checksum.php';
+
 // Register the main command
 WP_CLI::add_command('pluginscan', 'Plugin_Scanner_Command');
+
+// Register the checksum subcommand
+WP_CLI::add_command('pluginscan checksum', 'Plugin_Checksum_Command');
