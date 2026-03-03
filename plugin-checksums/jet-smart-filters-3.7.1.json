@@ -1,0 +1,3078 @@
+{
+  "plugin": "jet-smart-filters",
+  "version": "3.7.1",
+  "files": {
+    "index.php": {
+      "md5": "809c5e873bc38105986956e3ef168b3b",
+      "sha256": "e172b63157a78755fc98271e485ba8dca2a687db2d90e62f57a435bd7f0b3354"
+    },
+    "jet-smart-filters.php": {
+      "md5": "3d384d01e4ceca8795c88659f5234c53",
+      "sha256": "e86abd7b018a278aa0a3da29e842188dd7272114d72a77e7f7be4ce5c3459899"
+    },
+    "README.md": {
+      "md5": "4bf826c9c71aa6abfa3c9412468299ca",
+      "sha256": "3288f69d7c5ff3e25f23ebcbc876d4ae270961b7be37e03ebfb0445f9f006da3"
+    },
+    "wpml-config.xml": {
+      "md5": "49bd2f05c0ef88ef885940e5e69d023e",
+      "sha256": "6043b3a8b71b7b90305480c656155a4a520dc8198503c3b12b6185dccf6ed8cf"
+    },
+    ".vscode/settings.json": {
+      "md5": "05e47f5a9733fdb4dedb3d2b5a9b992e",
+      "sha256": "cb1ac12bebcef9ed41557b257685218ad2eafbdd9176087be3cc6b214d9657cd"
+    },
+    "admin/admin.php": {
+      "md5": "eab825ed31647060391d6bbba24f25a1",
+      "sha256": "17e2b52021b7b8700c803e2fbd7b18da70d3ffdd8d00e8f63091417a8aa3df5a"
+    },
+    "admin/admin-classic/admin.php": {
+      "md5": "cfc630ca42f6030bb3c82506327e87c1",
+      "sha256": "d4b2a5aae5005d3da731a994993a5c336e116a04724183afe7a2fe65f5ff56f1"
+    },
+    "admin/admin-classic/assets/css/admin-classic.css": {
+      "md5": "1024f4c91bdbbebff49654a70627117d",
+      "sha256": "a9431d03fe0ec75d51b91ece4492d32332cc7e64796da1ae3e5f501ee18da4e1"
+    },
+    "admin/admin-classic/assets/js/jsf-admin-classic.js": {
+      "md5": "de8935b6cd05c212683a75f940a74de1",
+      "sha256": "f6ca94b55fec0eda8e1ed353a238eead124956330e223d9aa6300657cb0fbeae"
+    },
+    "admin/admin-classic/assets/scss/admin-classic.scss": {
+      "md5": "0f827421a846f778b5b0eb79e6109597",
+      "sha256": "17f4ed4ee3723a2d5eb6e993492b41b6b4b9e64adca71613117d5ae02f099530"
+    },
+    "admin/admin-classic/includes/filter-settings-list.php": {
+      "md5": "7cd2fa0609b87bc20ee09a725ae23769",
+      "sha256": "54a19caded42c684ec23c8318984281e966fccb4d6c2a84069e2210743b6ebe6"
+    },
+    "admin/admin-classic/templates/notes.php": {
+      "md5": "8be8e4a96962333f0442955534c821f5",
+      "sha256": "07f89777cb6d75637127ce5380b3223792370ca57daad0b0b9816631a6853ca3"
+    },
+    "admin/assets/css/gutenberg.css": {
+      "md5": "4b021a168bcc3458f56d2b0088856f23",
+      "sha256": "5a1fc87f768a51c2d3721c8b7745f4bddef66baf3888930c01b8a9dcabb92f29"
+    },
+    "admin/assets/css/settings-page.css": {
+      "md5": "ae8f207886154ea5be63632978a431ec",
+      "sha256": "cb5d9fc13187ec290d7a7468756a7ce867fe6d8f57d877017615494283d7d7f4"
+    },
+    "admin/assets/img/filter-types/alphabet.png": {
+      "md5": "f3a105d3ffda14b638ca9e9439dc67f4",
+      "sha256": "c33dd2cca723265983e43df27f6fc1924961d5c988e785c3007c1f28a406f77c"
+    },
+    "admin/assets/img/filter-types/check-range.png": {
+      "md5": "2eb84ef527826aa6f9d9fc78c775e404",
+      "sha256": "4aad9477ed6f3658d69fd20e57e64ebb1b232a7e58828049ada11a1585e6c121"
+    },
+    "admin/assets/img/filter-types/checkboxes.png": {
+      "md5": "4ff8fba2799632445e7dd18e08d7fab6",
+      "sha256": "7278f9f11c4bc19ab7eb6a097c003113b88ce1580ba6f3487642c6e68570a04e"
+    },
+    "admin/assets/img/filter-types/color-image.png": {
+      "md5": "3426097f878559eaadb48d98cd9fd379",
+      "sha256": "88436327162fc641ff6d5f8d6766c6754992716fe7f8250982e27f59666f618d"
+    },
+    "admin/assets/img/filter-types/date-period.png": {
+      "md5": "e89ee548c9131adc5258293d96e85d3d",
+      "sha256": "505a2433bf14f3f4aa754270518c0afcbe39ca8dd367081d1d292032dd4453f8"
+    },
+    "admin/assets/img/filter-types/date-range.png": {
+      "md5": "8046e06628e6560f333838c21b395f5e",
+      "sha256": "34a4b0a82aaca0809a5bdcc8a15284dc16df111b09f042a41001e288905741bb"
+    },
+    "admin/assets/img/filter-types/default.png": {
+      "md5": "d83ab0ce863891ec90ae9dbaf8ac908c",
+      "sha256": "5836689574ce50df6e0b03ae4f54efaed2c9e6ffe9ed89a3da85286842ba020c"
+    },
+    "admin/assets/img/filter-types/radio.png": {
+      "md5": "ddb06463165c2928b7f44a696b1443ca",
+      "sha256": "189b5c422309f2c099816534d3008225b13e8271e987e877ad59a8422d161c45"
+    },
+    "admin/assets/img/filter-types/range.png": {
+      "md5": "60a18bab159a8d3202c0bb6dbac3d0f3",
+      "sha256": "02be3f4ced37f0d346a886fd5eacd752eadc00c1fe9cfd0ceebad65b4f6b91d5"
+    },
+    "admin/assets/img/filter-types/rating.png": {
+      "md5": "b67b9a0c43eeff910440b7ea08674738",
+      "sha256": "ac4a189f28c7c480852e7f867c53060ce89332d1af47423124dd5af9f0203410"
+    },
+    "admin/assets/img/filter-types/search.png": {
+      "md5": "ee04be6c04f9200cdfb60dd8021ac7c7",
+      "sha256": "364a0ff775e87f9126fd5dd8d83716eebc733074d8787f677d1910b5eac0f886"
+    },
+    "admin/assets/img/filter-types/select.png": {
+      "md5": "b733fa39490a4d00604a3f5b07ec743f",
+      "sha256": "976ca055e9979cf1bfbd40447d28b6e7a2fe68b370e2d6f92958143b22088d0c"
+    },
+    "admin/assets/js/jsf-admin-app.js": {
+      "md5": "18205e7b3d666adc9d67b045f859ec4d",
+      "sha256": "892890568e8797830c0ff5ef386af44972911fd5d6e64833c5f9260e282798f6"
+    },
+    "admin/assets/js/jsf-admin-setting-pages.js": {
+      "md5": "55bd03f35ff1f26adf1472ab5506efe0",
+      "sha256": "c811da71a8d2914cb7979a2324e0dd225a2410886e96293410dbe568933cba09"
+    },
+    "admin/includes/data.php": {
+      "md5": "b42834b590418cf0805ad708d3d2a9f8",
+      "sha256": "73f067d0bef084eaac11b0e25ad50f3ddc56b26433e74afa7e0be116727c9332"
+    },
+    "admin/includes/filter-settings-list.php": {
+      "md5": "048bc4a2ed62377f05d750a411d3f951",
+      "sha256": "0da47a56db3157bbbfb0c6254818ce445aac456d5b65a80cdf0367340d9ffeae"
+    },
+    "admin/includes/help-block-data.php": {
+      "md5": "606c7b77d1b81ffe9bf61a40343c3296",
+      "sha256": "1ee02825301752c514dc7a4e8795972488a2f93a252c26beefe35512ecd6c11b"
+    },
+    "admin/includes/multilingual-support.php": {
+      "md5": "b0ce07b45d734e3682d24d8ecc79fbc4",
+      "sha256": "749a8ae1e4b0e128f8844a5f18ca248e3f28039bd0cea8685c4bec7ac034d78b"
+    },
+    "admin/includes/dynamic-query/base.php": {
+      "md5": "62986c25c658a710a0dad00e8ee34d2e",
+      "sha256": "8d00567ca704a95706f03a639d0d17e4b3942796b20b4f100f25e5cf1ff58740"
+    },
+    "admin/includes/dynamic-query/manager.php": {
+      "md5": "46d7217f61ce2fcfd5c22aeaba8b675d",
+      "sha256": "9537256517f5df8f98f236053dc0f199dc1f9868c27072144d71b1259d684ff4"
+    },
+    "admin/includes/dynamic-query/registration.php": {
+      "md5": "fe9f1b973b75b6d4845482757d187584",
+      "sha256": "58bf47fd8df757161562fc469332f5242c32370a24872f4f543b2c53f6ea35ba"
+    },
+    "admin/setting-pages/setting-pages.php": {
+      "md5": "c2870a477ddebb6cf1b80cff115c8e23",
+      "sha256": "ecad53c685367e6d342754e1860b92855954459b9c5a49a097feaf6d8f8e8bb0"
+    },
+    "admin/setting-pages/pages/accessibility-settings.php": {
+      "md5": "53165812ae7e6b9b3172b2d12d04c13f",
+      "sha256": "140dbe254cb06a1b62e11b4d75ac2a3a35875b9dc5c2d775948d63d7c0d70ffa"
+    },
+    "admin/setting-pages/pages/ajax-request-settings.php": {
+      "md5": "5a771ac6b63db71ec9485326cf755863",
+      "sha256": "c1f75dfeebb22ff64362e962d7d3d75379f206e4395904e7c4bd571c8f8a423e"
+    },
+    "admin/setting-pages/pages/base.php": {
+      "md5": "792d27c94e00a6b35bbaf0d938b5a8de",
+      "sha256": "5cc6497afd2d0c7aaba08109b5abc41dfd78990e83f4d3e88cab2404288e129f"
+    },
+    "admin/setting-pages/pages/compatibility.php": {
+      "md5": "7069a2d4030cbb4bef2e6a0776494810",
+      "sha256": "173a36e62ec9e04d7885fcd71adc74a3091218cbf1085ead58c447ddfea14c56"
+    },
+    "admin/setting-pages/pages/general.php": {
+      "md5": "2b0a97976392c4e7c1d3bbc965ff8a64",
+      "sha256": "759796bf61f24a78fa68d4b7c8233ee45a61c00c5ca45456db3fea4e8c61fc71"
+    },
+    "admin/setting-pages/pages/indexer.php": {
+      "md5": "094a0144f6525872d301a430f45c1e3d",
+      "sha256": "52bde3b2e33b4b9559d22542658ece75773df01d81ad8fd8712ed22afc3731ea"
+    },
+    "admin/setting-pages/pages/provider-preloader.php": {
+      "md5": "d88251885ae8444be15bd17f6c6e3b74",
+      "sha256": "97b8777c0d014742a10580ec27f7fba008962621a232a4cba7afcd461b12254a"
+    },
+    "admin/setting-pages/pages/seo-rules.php": {
+      "md5": "d6674f347bea864b8c30155e75b1e075",
+      "sha256": "c7b00409c14795b64346dda98eb3788dffb3ebe158aef5f1d170b85fc327d914"
+    },
+    "admin/setting-pages/pages/url-structure.php": {
+      "md5": "2608e7ff87e011466f362a07ae725440",
+      "sha256": "15518d3d5c756af4eb3cf9f3ef5c53d4b03777ddb5c98d8d127d409274712235"
+    },
+    "admin/setting-pages/templates/accessibility-settings.php": {
+      "md5": "5c12d3398a04d2103659f8f07bd3566f",
+      "sha256": "1e7613150157f23f85fefd07cd877a5204b7a54ed89bd26a921dc83f4700c5fd"
+    },
+    "admin/setting-pages/templates/ajax-request-settings.php": {
+      "md5": "8622a41bd960b996e99036373f9f4781",
+      "sha256": "bb7c7e244373864b2116a920603f02c4df429f033579183fed096bce2421015f"
+    },
+    "admin/setting-pages/templates/compatibility.php": {
+      "md5": "0fb59da0c8cec08fae0851620b154e2c",
+      "sha256": "1a9ab9da094dcf793a2370e80a20ef1d4f3a53d3dca9e5d702a4568ab5bd90ef"
+    },
+    "admin/setting-pages/templates/general-settings.php": {
+      "md5": "e2e6cd95c66ac578db226b055c6abf39",
+      "sha256": "e9605db97bd77f5c6e446011a416ec0201d8571b9fc599ca61a46cea20720c14"
+    },
+    "admin/setting-pages/templates/indexer-settings.php": {
+      "md5": "a9c1ee08717173d699c2c7ceb45e1891",
+      "sha256": "c5c30d2d1a6a9b48e3618e3ebff5cbc14f840f6c538d8ee579046790e698a606"
+    },
+    "admin/setting-pages/templates/provider-preloader.php": {
+      "md5": "fe3c1f06951aa17aa2acf7ff1d3fd0ac",
+      "sha256": "8ccac5300203fe934c3e543762859676144a2c95d20fa9172c3ec06222f30b46"
+    },
+    "admin/setting-pages/templates/seo-rules-settings.php": {
+      "md5": "2651b8e6244e8612a2036eb07df95299",
+      "sha256": "411972e91805846e882505a237eebd424a54bc977b1017140c9c6125b1cf5162"
+    },
+    "admin/setting-pages/templates/url-structure-settings.php": {
+      "md5": "46c3242cc60c00c92c4ae7514b29f0ac",
+      "sha256": "48ccb0c66502cae834048e0a212525d15f2b2c22c69dfd3ee048646ab74cc14e"
+    },
+    "admin/setting-pages/templates/components/macro-input.php": {
+      "md5": "e792183feb1904128fe90addf1f43cc9",
+      "sha256": "57be6e671d88f220c014ace1b797bfe159260f83b91975046af540eea5ee58ba"
+    },
+    "admin/setting-pages/templates/components/repeater.php": {
+      "md5": "1693ef89473b82823b284181d1625671",
+      "sha256": "946011aad6cd232f9896ba68aa88796780c34c06028f7cd5678c5fd73cb0b4ac"
+    },
+    "admin/setting-pages/templates/components/seo-rule-item.php": {
+      "md5": "3e5ce855bdc87f71e6d1115de904a7b7",
+      "sha256": "0ca3796e15477211ac8297d5eec014b5e8eb9672f5d8c391434b28ffb0b9cd8c"
+    },
+    "admin/setting-pages/templates/components/url-aliases-example.php": {
+      "md5": "1c19850b003181f254631f749ade6e7a",
+      "sha256": "eb1c30ed7cff9dc08dcced8a85bcfe70e24eaa0fb246a98cb3cdeb8a1f130b5e"
+    },
+    "admin/templates/admin-app.php": {
+      "md5": "030e8c54ec31616044e96aa784ad5d64",
+      "sha256": "42985b711f369cfc7e7f4c53be5b56368506f9b750ea63669c1467379a9a0b88"
+    },
+    "admin/templates/preloader.php": {
+      "md5": "5d46cb9e3181ee1669abea892f5f44a7",
+      "sha256": "4652fd773d6fddadf46b2a9f518fcdaddf678b4e0d9b8450efb1b4fd094e03f2"
+    },
+    "admin/templates/filter-info/!checkboxes.php": {
+      "md5": "ec8340adef1f205e2f2b19cb630e87b5",
+      "sha256": "a08dc61ff690095d70041c540b24ffece88ad1878e0215f7d4f9462c247d9734"
+    },
+    "admin/templates/info-blocks/date-formats.php": {
+      "md5": "d26a07650124585bea3617e24472ec9b",
+      "sha256": "db7eba9ad637c1559dab4239f6dfd9e5777e5e87f215ae323aadcaff1d34a43f"
+    },
+    "admin/templates/info-blocks/min-max-date-period-info.php": {
+      "md5": "037e75fac350541ca3206234526c706f",
+      "sha256": "42ca155041419ced022a68cbaa44335fa007543ecb7bc5722cecadbf6d95b7ca"
+    },
+    "assets/css/public.css": {
+      "md5": "d43b866435d054f536562e558a8c21a5",
+      "sha256": "1963e5b5cf8273b3e03de55fbe61e21dbf309da2e742b1c873873e9a25857a2d"
+    },
+    "assets/css/lib/jet-smart-filters-icons/jet-smart-filters-icons.css": {
+      "md5": "0f24c2275528a4b75af70afad7f3b12f",
+      "sha256": "2a360685e8bb2baf2124f62422dc1ccc994f7f5d1f74e61e3a79284e95647329"
+    },
+    "assets/css/lib/jet-smart-filters-icons/fonts/JetSmartFilters-widgets.eot": {
+      "md5": "40443fe3240f1338ce3b564941e115c5",
+      "sha256": "cea0475cfc84630056ddf92fc3084d1dae5180dbebff93d3d859122cc9773eff"
+    },
+    "assets/css/lib/jet-smart-filters-icons/fonts/JetSmartFilters-widgets.svg": {
+      "md5": "742989c3e63834bb0d500c99654cb6b2",
+      "sha256": "75f0a23d7678cbcdb60a400c2d984555a57cc665b6994a405a94f28a3d6ed625"
+    },
+    "assets/css/lib/jet-smart-filters-icons/fonts/JetSmartFilters-widgets.ttf": {
+      "md5": "29707542ee532b2b7fd204934e174c34",
+      "sha256": "a64699e8656bcedf497ad60416db0d3c88f5e1fd25f1a6acf98e033e79e467de"
+    },
+    "assets/css/lib/jet-smart-filters-icons/fonts/JetSmartFilters-widgets.woff": {
+      "md5": "3077b3f093fe3340b46b17137b79f181",
+      "sha256": "81198a5ff898e3cbcb8df6724fe488f37abdce5474c2d5768036192c9c282790"
+    },
+    "assets/images/banner.png": {
+      "md5": "0a5771a9d619c40191a3a97a35ffd7a8",
+      "sha256": "109d2bce9f689bdc1f3fe085ec30143032080a9d43649712723fe498f26a371e"
+    },
+    "assets/images/placeholder.png": {
+      "md5": "1632e46a5c79d43f3125ca62c54189cb",
+      "sha256": "1a8352b9372452ab024b5dfd3c74cd8fac2c84e7ff152879f83949c4707fd87e"
+    },
+    "assets/js/blocks.js": {
+      "md5": "f2666941ffdf96ed822e21843517e94f",
+      "sha256": "a2e1743ae2634c8ecc0afe3f54b69a2fe4b845229886931408fb8ee875115a9c"
+    },
+    "assets/js/bricks.js": {
+      "md5": "b4c4e8832fb95abd8b9f5965e0b7ae5b",
+      "sha256": "cdec6ad1049629b000b7334f1862ec2cf31eca58fa95d0ba4f133a7ebbe2e0d5"
+    },
+    "assets/js/public.js": {
+      "md5": "021e86d55ef00d93621d95787424b02b",
+      "sha256": "9bb1cf7118abbbc765d97881800d4e052484564afdda7896b10e9d5e7138f558"
+    },
+    "assets/lib/jet-plugins/.babelrc": {
+      "md5": "92d06a3faa2bc7122e26887b7ffecf84",
+      "sha256": "c045c2a73fe1e4a868586eea0f93ec6a35b35c3fc64e86384a388b4375beaf23"
+    },
+    "assets/lib/jet-plugins/jet-plugins.js": {
+      "md5": "271ad1f3a3e724e9f2620c09d616cb71",
+      "sha256": "d98bdd8d9c4da34ca6f4639dbccbfd3d45154788793091ef016384411c97759f"
+    },
+    "assets/vendors/air-datepicker/air-datepicker.css": {
+      "md5": "8dce1805b306c3eb09b89d705b844426",
+      "sha256": "c60637fbfc9d556e5c3a6871630ad9dc45bad372935a216d3b01e745303d5c83"
+    },
+    "assets/vendors/air-datepicker/air-datepicker.js": {
+      "md5": "629cc08412fc5b2d05aa4ad7dd6d43ab",
+      "sha256": "36affcd96ee85190a1eea13dfe82b106c68f6ccff37b2b91cb75ede30624b3c4"
+    },
+    "assets/vendors/air-datepicker/air-datepicker.min.css": {
+      "md5": "7ad198b49d3c529c2ba6dd0bd47beefb",
+      "sha256": "da6bfbef8be8d5f294d26760a8babf71090c1b663b6fee61fd2df2f82b10e4d8"
+    },
+    "assets/vendors/air-datepicker/air-datepicker.min.js": {
+      "md5": "b85c8cbd2492fd1fdec5c2e465c4faca",
+      "sha256": "bdcc08cf7e2445e216a6aab79cf8aa3e7824681a31f1c01891f02e0b390645d7"
+    },
+    "framework/loader.php": {
+      "md5": "f089390852744f053287cfb80c5de25c",
+      "sha256": "3ce5f513f2a41c7b3859589309426e6ea270f63de4862975c8c55986e885b612"
+    },
+    "framework/admin-bar/jet-admin-bar.php": {
+      "md5": "67f83daa0524fadf5a980faddcc0944e",
+      "sha256": "edfe25a280c32f0b4a24195d3148bc6b48b26c193287aeab83401bc58a223dbc"
+    },
+    "framework/blocks-style-manager/block.php": {
+      "md5": "48bc72d6bafaab3919e4062d3b521aba",
+      "sha256": "a6670869190fc8650ff97dea409156b576ab1c26b722b686a510cb01878102b2"
+    },
+    "framework/blocks-style-manager/editor.php": {
+      "md5": "b368a559f0af7ec0379410c24f33c14e",
+      "sha256": "2ac476e5df24c86d8ce6fe2b9de82902ff6476590b5d74f2e0207c9adbdb1083"
+    },
+    "framework/blocks-style-manager/package.json": {
+      "md5": "89add295f24c410a5b6afaeec26d9a93",
+      "sha256": "0d6cc44c4545a8b634780fec63d2cc4d1975569a6d43c7cb6ded7a9a7e975153"
+    },
+    "framework/blocks-style-manager/path-url-trait.php": {
+      "md5": "4009a48a006aa530c3caf4ef10155526",
+      "sha256": "4e508814272e1513f0d48ac3a61247748ca805f81b21e14e0933565bf6d31e15"
+    },
+    "framework/blocks-style-manager/proxy.php": {
+      "md5": "a70f215eb16c18ac82220eb21a03d4f9",
+      "sha256": "ae8c7479d9e7b50abc8275a6e25bcaa05d1744789f1b536c09a3da256658d53e"
+    },
+    "framework/blocks-style-manager/registry.php": {
+      "md5": "d063c3a218a57a44250beb48add0342b",
+      "sha256": "9af116d10ecfe7a4255ee99ab6f8b5ae9103ecf677e868e8e36f43468defa507"
+    },
+    "framework/blocks-style-manager/style-cache.php": {
+      "md5": "651e149679a28c015dc0ea2e31d42891",
+      "sha256": "852b690bced574b80dbdb8e4a38b44d533037068c1b4ea5e9f6952254fae391e"
+    },
+    "framework/blocks-style-manager/style-engine.php": {
+      "md5": "4bb8cd4c16fe5da440ee7783954977f9",
+      "sha256": "4d912e4b9d410a1ad87834adacc29cc1be0bce6c23a106da205241824b28b4ad"
+    },
+    "framework/blocks-style-manager/style-inserter.php": {
+      "md5": "6ac564b5ad028d61791f04cac093f0ed",
+      "sha256": "3791c244b8c704396f056e96a4ebd178c694b1ec33e659a03115e34300764d30"
+    },
+    "framework/blocks-style-manager/style-manager.php": {
+      "md5": "b9a27e506143ebbfd41a80b758b58d62",
+      "sha256": "2f404912034c67f0a2accd26578c49e9377b6c21d041e967fa35076a59f3d1f4"
+    },
+    "framework/blocks-style-manager/webpack.config.js": {
+      "md5": "bd6df138f3d9897345413b73eaefed74",
+      "sha256": "2f3679b24ef34f9d258e7ad74880724dc71173a27d47cfb57a8714a09ba936ac"
+    },
+    "framework/blocks-style-manager/assets/build/editor-rtl.css": {
+      "md5": "ad8dc069311ed7598f72e62f6f862709",
+      "sha256": "72fb1e64cfe067f388cdc7b8bed5c2155348fdcfad52f2a8a72816a1ff2425f9"
+    },
+    "framework/blocks-style-manager/assets/build/editor.asset.php": {
+      "md5": "e19b617645ed24ad992bab0884bf044d",
+      "sha256": "a24eafc347f7fc6bf0c06c4733eb63edaf698afcb50b03110242a2196fb3bbc4"
+    },
+    "framework/blocks-style-manager/assets/build/editor.css": {
+      "md5": "a18fafd5f96776a7b228458e85d16e8b",
+      "sha256": "f2fcb366127939aab88bddded1053e95ed202d2fd41f4c05e6df813fe5c8bd62"
+    },
+    "framework/blocks-style-manager/assets/build/editor.css.map": {
+      "md5": "87c1b689d5c04aab13d7d0ced161a013",
+      "sha256": "58b4c8f4a4be12d0e2fe5c6c38bda26a3d957b06d60a924525195d0e6f0db2b0"
+    },
+    "framework/blocks-style-manager/assets/build/editor.js": {
+      "md5": "a9aaf3b59709502526c98be9c474110b",
+      "sha256": "0a39483822e35f23cdf348a5088c83a6f6cd4fb00dbc7dba097e4530307b9567"
+    },
+    "framework/blocks-style-manager/assets/build/editor.js.map": {
+      "md5": "9e7d43d83b2ab82e821436ac6111dd91",
+      "sha256": "55522b633e87d6561db7c8c7be1a2aa45343cd2931e93bf1da000a01ee7d1244"
+    },
+    "framework/blocks-style-manager/assets/src/editor.js": {
+      "md5": "3264e52d2fd7a3fb447b107fde860c15",
+      "sha256": "cdc2c3b4d9dcf1207c6aa766ae52a548c83b7e0f469b4720f9a9431f3e1f80f6"
+    },
+    "framework/blocks-style-manager/assets/src/editor.scss": {
+      "md5": "5f356411408975cd3edc82eea0ec912e",
+      "sha256": "75b858471f3be42fac9acfd4b5af98806bd8dc46aa28968798f4953153899b6a"
+    },
+    "framework/blocks-style-manager/assets/src/components/control-component.jsx": {
+      "md5": "c39e77bc05f3d43d5a38f2b176ebada5",
+      "sha256": "02cfbf22a8e46f1a4faf1efc18d99ec321087a350577e4acaa6ca9cb5ccaae96"
+    },
+    "framework/blocks-style-manager/assets/src/components/control-section.jsx": {
+      "md5": "4f21c5bd022f51be890fab88df4b80c2",
+      "sha256": "18db8cb4168e2ac04e3dee64d072593e4a8e4d8a68c844df21bec8a7b150c1b4"
+    },
+    "framework/blocks-style-manager/assets/src/components/control-stack.jsx": {
+      "md5": "cea0d58ef857ea4188dcbd3fce32c702",
+      "sha256": "ca43e811db5896ae98352fb43a800c35f1d844a21a065a9868438f8b2e8a202a"
+    },
+    "framework/blocks-style-manager/assets/src/components/common/controls-popover.jsx": {
+      "md5": "54b3fed3c2ae0222697119beafdd2f6b",
+      "sha256": "c8498ad67423435690a50f2a961e3df3975531ac807fc454403f43a4efe7057f"
+    },
+    "framework/blocks-style-manager/assets/src/components/common/controls-tabs-navigation.jsx": {
+      "md5": "290416c9dbcbaa9af2c806c450cd8b73",
+      "sha256": "4cc44c5b9b42bf1eeec7ca8bbf7401de2ed57d042cc0fc3c9095a36b8545cc76"
+    },
+    "framework/blocks-style-manager/assets/src/components/common/controls-tabs.jsx": {
+      "md5": "4992db1b33822ca0bab2ceb0befe10f5",
+      "sha256": "38ec1f9dff79e447355de86cd33d022e7ecaf4712c035d0a100dd35e9039735a"
+    },
+    "framework/blocks-style-manager/assets/src/components/common/popover-container.jsx": {
+      "md5": "a12ea9cebc10cec320f2e9a625452e5a",
+      "sha256": "db162903e8cd9c2517d58efe64c27154b57e1d1bf5a2a66ccbed9fda923220dd"
+    },
+    "framework/blocks-style-manager/assets/src/components/controls/border.jsx": {
+      "md5": "fc95976ffd869e8c4815714683b43146",
+      "sha256": "5c3975bb500b6f67c08e5f11a63c9bf5d644d4081c7d04d1ed153dddcfcb5956"
+    },
+    "framework/blocks-style-manager/assets/src/components/controls/choose.jsx": {
+      "md5": "5eb41bd0b433617808afb7355e5f48fe",
+      "sha256": "60a9e49c05c331106ce5e14cead6ea4ddd411b23f678f25bed2c4002fe038829"
+    },
+    "framework/blocks-style-manager/assets/src/components/controls/color.jsx": {
+      "md5": "c1684b4122c3500adde2ca4e55526ebb",
+      "sha256": "f8904bfe9d0f395db14766dfbc0bdf1668cb720390dd9bde71923fdc5d461168"
+    },
+    "framework/blocks-style-manager/assets/src/components/controls/dimensions.jsx": {
+      "md5": "f030c2b146dc4aa1ee5966047cc722b8",
+      "sha256": "95f48a3606ce9e4ab8839ee9d6ca5e6a8c512c5918ab5a00c10af20585111ab5"
+    },
+    "framework/blocks-style-manager/assets/src/components/controls/heading.jsx": {
+      "md5": "2b5cfea8ab6942092c34c0cface2c796",
+      "sha256": "90b97ac367f8b71f5c5365bf5d32e47c23df11374675a528719ec322641c3bd6"
+    },
+    "framework/blocks-style-manager/assets/src/components/controls/range.jsx": {
+      "md5": "9762abeebc36c50e7eb671cc816ee003",
+      "sha256": "09b29fc63c94e2a150d8df720129bcfed244f4b79bbc1247af09f628ccdc1463"
+    },
+    "framework/blocks-style-manager/assets/src/components/controls/text.jsx": {
+      "md5": "5080951e2890e199284ddb0d59fb9184",
+      "sha256": "0782f42d974d2ca833ee0b0d628c950fc4ee00fdd9e57cfc71826761fc02e408"
+    },
+    "framework/blocks-style-manager/assets/src/components/controls/toggle.jsx": {
+      "md5": "2f26fdcd131843772954f792c3e5aa11",
+      "sha256": "8c4c60b1d8feadedcc7c7114a51eedbbd95af1b9ca5827bc01d74f8fcdc83360"
+    },
+    "framework/blocks-style-manager/assets/src/components/controls/typography.jsx": {
+      "md5": "ad614cec9cd40aec237a18d874ddc7bb",
+      "sha256": "783f2da7f68416a94fcf37fb27f7602cbb1534dc282ec6b4437c2f36a4906792"
+    },
+    "framework/blocks-style-manager/assets/src/css-engine/generator.js": {
+      "md5": "72792d530b109dce33149721d1da2a12",
+      "sha256": "67104d71d95e1e27784145737344969d9b68dfebf6f56663f5c376a6a3e0c50f"
+    },
+    "framework/blocks-style-manager/assets/src/css-engine/fields/base-field.js": {
+      "md5": "d7eae68bda126b8b14d77366d3dd07e3",
+      "sha256": "561de0cb015f8bba2b98b40e120d30fbadf40eeb3e89a226384957c7aaa7f3b2"
+    },
+    "framework/blocks-style-manager/assets/src/css-engine/fields/border.js": {
+      "md5": "da169c958e77d017a4b537183fea446a",
+      "sha256": "8416d65d5c3f1d183bdeab398e6b6815cc43fe3d5844ef243db89dad104a62e2"
+    },
+    "framework/blocks-style-manager/assets/src/css-engine/fields/choose.js": {
+      "md5": "3b30176234ab45d112f47de701922d58",
+      "sha256": "cd04e1ca324f5e7dc3460b4aedb83b360ec7c6fdf641a3ce4ca781428b77c9df"
+    },
+    "framework/blocks-style-manager/assets/src/css-engine/fields/color.js": {
+      "md5": "0a686a365e34e50e72ad66b47bacfa9c",
+      "sha256": "0ae9412abd128229701d5eb6165e319f36ba7ac03ca51cafb0c1aaed5a5ea01e"
+    },
+    "framework/blocks-style-manager/assets/src/css-engine/fields/dimensions.js": {
+      "md5": "415fc546ff5258b0be94c55a30f67be4",
+      "sha256": "bbd6a83ddb7a7a46eae8e75262228f3514619d591187d5bc3c524034802db310"
+    },
+    "framework/blocks-style-manager/assets/src/css-engine/fields/index.js": {
+      "md5": "fd5173528ca45f9321a0f403700ca85d",
+      "sha256": "390b8512bd200293d086161d1e42848b6054bab102a49c6e8184ccf7e86096b1"
+    },
+    "framework/blocks-style-manager/assets/src/css-engine/fields/range.js": {
+      "md5": "76e11c58c771622041d0c577bf70243d",
+      "sha256": "ab029360d2517ad6b63b1c3973ed133eb65bfe588349e8f9d1eb95287ef6e553"
+    },
+    "framework/blocks-style-manager/assets/src/css-engine/fields/toggle.js": {
+      "md5": "313702bc231b9d9192c0858663e17c91",
+      "sha256": "dc0271f2a40ab9f2e967a75fa8c98754e0a84393b3047ce5340773029f7ba18b"
+    },
+    "framework/blocks-style-manager/assets/src/css-engine/fields/typography.js": {
+      "md5": "a75a07a31ba25467c04c94fb4dcf98c6",
+      "sha256": "39726ae401528042c831c9d5d5aa3caad42e745eb5f6cdc8b5d7e5389312070e"
+    },
+    "framework/blocks-style-manager/assets/src/helpers/breakpoints.js": {
+      "md5": "ad01e1e8bac47860f6dbbc33a52ebd89",
+      "sha256": "89afaee45a1fb717ad39bc7334e00c9c3e792e4a805c8d25cc0d7d063d764d63"
+    },
+    "framework/blocks-style-manager/assets/src/helpers/conditions-checker.js": {
+      "md5": "08f3a5b8218b0b0e207e72186638168f",
+      "sha256": "0916acea75bb6562e9429010a045b99e5664fe631d9c34bfd521e64ef2f1e52f"
+    },
+    "framework/blocks-style-manager/assets/src/helpers/utils.js": {
+      "md5": "8f77663541907ae2f3539f8ea45ae8a4",
+      "sha256": "20b648320565a1e2cdbf9aa1b2c29c454da74545ae40aeb8af2fde46e02b158a"
+    },
+    "framework/blocks-style-manager/assets/src/hoc-wrappers/with-block-class.js": {
+      "md5": "dad1a2582a3d60367cfcee96741b6d25",
+      "sha256": "c7b65ccaf0cfc94615d2d33c3472702ba791e8cf0b0228a969d0947c6474cef4"
+    },
+    "framework/blocks-style-manager/assets/src/hoc-wrappers/with-styles-controls.js": {
+      "md5": "d5f98621df8768642280169b3028efae",
+      "sha256": "7c552ab97a2529742d8c023a9b4c84aaa3d35bd9e59138a6faa8cba482a6e1e9"
+    },
+    "framework/blocks-style-manager/field-handlers/base.php": {
+      "md5": "d379774780a3ad3f61541b80ad972e69",
+      "sha256": "37669caa906e06e512899c5751b0de70fc685b53174c38b9ac9440d16d9ca27a"
+    },
+    "framework/blocks-style-manager/field-handlers/border.php": {
+      "md5": "6f3acd1eb67ccee3e824dc653edffda4",
+      "sha256": "37ad1569754bbe6dd60353915e125608bf60801c0b60e2774345c2dfad874c15"
+    },
+    "framework/blocks-style-manager/field-handlers/dimensions.php": {
+      "md5": "3da23269e14a24ab6a6509d2817c9aa5",
+      "sha256": "54ec62f747fdd8a3304e22be6d2c11591bb2b66b70f923999fa781278725bed8"
+    },
+    "framework/blocks-style-manager/field-handlers/range.php": {
+      "md5": "d6c1cba10ba6d6fb99f833d7ed08e597",
+      "sha256": "46760b10e2af0e97eb93c109fd3e4754cf399d938e446b62b540209bbcbb36f0"
+    },
+    "framework/blocks-style-manager/field-handlers/typography.php": {
+      "md5": "d31da356281e67eb68732fe29a86a1df",
+      "sha256": "52cd93968ccb38215825ed4f50e64a711bff563e2af4bcc6f5d3b2729bb5c132"
+    },
+    "framework/blocks-style-manager/migrator/data-normalizer.php": {
+      "md5": "67b6e2c4d652f1996d73ca91d3af9638",
+      "sha256": "1d2a0d6823603ebdae397b9ba15cb252c0d966b1266c05673e8698cf54dc29de"
+    },
+    "framework/blocks-style-manager/migrator/post-handler.php": {
+      "md5": "834e0511ebc2d9723a85efadc3c69e9f",
+      "sha256": "5fc09443471810b3aa8c64de33b6c000b704466f3f327717f5848956caa7b0d6"
+    },
+    "framework/blocks-style-manager/migrator/ui.php": {
+      "md5": "b79d7b5d8c3fc4cdf70bceb1845717df",
+      "sha256": "eac11a695aa0dd4400aaa3cf41c797b99cfb28ad8f309a9e5bb5163029bed09f"
+    },
+    "framework/interface-builder/cherry-x-interface-builder.php": {
+      "md5": "67425344ae7d2c844d252f4754558532",
+      "sha256": "f8d0415a30ee6e3b957a2ebaeaa2636923f87bcf691535f9e2f6eef31508c47f"
+    },
+    "framework/interface-builder/assets/css/cx-interface-builder.css": {
+      "md5": "303692e2d671107ed38ed5a8f2579c61",
+      "sha256": "0199d4f72a2f251b52d5fb60b36f881876232b348d55c449cd9e710cf42b9003"
+    },
+    "framework/interface-builder/assets/js/cx-interface-builder.js": {
+      "md5": "61e60bfd2ba602ab9cb4919968a07e0c",
+      "sha256": "1dac66c0cd493e5dd228bc89b7f0527b1025b438f0899d23628fbc1b0d6aef26"
+    },
+    "framework/interface-builder/assets/js/cx-interface-builder.min.js": {
+      "md5": "03d655f49f0b53f402c68ab62a8bbb15",
+      "sha256": "c8f00228dc4e5e1d628554137e9ecb9d1a7107b86a2ed7018a7699351ddbcb8a"
+    },
+    "framework/interface-builder/assets/lib/colorpicker/wp-color-picker-alpha.min.js": {
+      "md5": "a1c71b0cb80168a5738089b2c5e58639",
+      "sha256": "66da7cbd1a41055b2f881240f0dee39704a51b53282afbe4ebe2113507f3279c"
+    },
+    "framework/interface-builder/assets/lib/iconpicker/jquery-iconpicker.js": {
+      "md5": "1ad9022b646f2e561bd2c360cdbf6413",
+      "sha256": "8b7cd0398bdc73c30355e2baf2ebc7a97a4a3b7dbd970fb5bb2032e9ec34eff7"
+    },
+    "framework/interface-builder/assets/lib/select2/select2.min.css": {
+      "md5": "d44571114a90b9226cd654d3c7d9442c",
+      "sha256": "c493991dfa712d1fee861d41c18152e5f8663807484506a23ae97917f6fbbf7b"
+    },
+    "framework/interface-builder/assets/lib/select2/select2.min.js": {
+      "md5": "cd78b47f8f1999fb4d258515099231d0",
+      "sha256": "15c54892706255193928b41e2016fd55076d15132ac1f7d7c99f83f2ad2042ba"
+    },
+    "framework/interface-builder/assets/scss/cx-interface-builder.scss": {
+      "md5": "9441c93ac8764e96b694e0163cac562f",
+      "sha256": "e14a9c34432b5f29acdd1003345123d9a84b08ead84c7635d9430a683a48415a"
+    },
+    "framework/interface-builder/assets/scss/components/_mixins.scss": {
+      "md5": "2c3b6f57402e0319d52f712d66199518",
+      "sha256": "71e11d61038b7fbb3496ca9f71097f0ce4181f36bed4301ab5dd9045da9e3017"
+    },
+    "framework/interface-builder/assets/scss/components/_tooltip.scss": {
+      "md5": "7e6e1fcc976fa17ee20cc2bcd5193021",
+      "sha256": "b8777f05dac54519db3ed2837f9e0cbfff6b0659ffbf3b600bc781f617e69d1e"
+    },
+    "framework/interface-builder/assets/scss/components/_use-in-js.scss": {
+      "md5": "e4c22650864a84f5d0a99e2b0c2bac35",
+      "sha256": "ca0c8c56007f25bd34e3b2938e06f8eed789399957e2b09816b8e2b3e294dc5e"
+    },
+    "framework/interface-builder/assets/scss/components/_variables.scss": {
+      "md5": "0fee030a1180577fd432d29ec2288be5",
+      "sha256": "2014938813326cee2257c58dd891b3c952f5e383dc7910c3cfebe016409eedaa"
+    },
+    "framework/interface-builder/assets/scss/controls/_button.scss": {
+      "md5": "c266cbae4901419a4a7ee875fc77989f",
+      "sha256": "3c6bc71d3b99d8db724fc49984862e6c612642ca25648e2ecb0835ab815d2c50"
+    },
+    "framework/interface-builder/assets/scss/controls/_checkbox.scss": {
+      "md5": "0900e68ab683b6797f66810af4d6ddfe",
+      "sha256": "e4beb747f73acf6d40097b236cf5d1925240ec7b76c8a5de7d421b01cf422f3f"
+    },
+    "framework/interface-builder/assets/scss/controls/_colorpicker.scss": {
+      "md5": "c2768f80b8a9ebb88d64ec40301efe85",
+      "sha256": "5d9f028bf64b70dcd683976acb6fef0bee6757c02d673f702beda9230dfb2a1c"
+    },
+    "framework/interface-builder/assets/scss/controls/_dimensions.scss": {
+      "md5": "0094e3e138186c532d14b02eb01c8c79",
+      "sha256": "8ff2a1e77205a60a3ac7b2cddc7fbdca1ae2f926248c977fbec1f1c271fe0368"
+    },
+    "framework/interface-builder/assets/scss/controls/_iconpicker.scss": {
+      "md5": "a565d3dcd05ec15394ba6cd35e3dca66",
+      "sha256": "05a874f8aeccdf552abab1d55a13be16784b5a37174248a1087590409c5ada86"
+    },
+    "framework/interface-builder/assets/scss/controls/_media.scss": {
+      "md5": "3e9a8f06ddb2ee3fee56058e7c5530f0",
+      "sha256": "171965f61dbaed78a5d9ddc3a869c7397c83670566b02a56c1e30c4927539882"
+    },
+    "framework/interface-builder/assets/scss/controls/_radio.scss": {
+      "md5": "e0b64524f6417068803a976af67c6eb4",
+      "sha256": "a167b5ba0efe03c961d0493bacbac9465fd3d4b2d38e75dab9b507b34ad41024"
+    },
+    "framework/interface-builder/assets/scss/controls/_repeater.scss": {
+      "md5": "7b31ae1d8684add044986e7506295e5d",
+      "sha256": "d1df1490df8b3bc4c43d2dd983b430cb0054c5777b8f37dcdde494de8d502292"
+    },
+    "framework/interface-builder/assets/scss/controls/_select.scss": {
+      "md5": "1b39f8a9645a123be83e258d3fb53e41",
+      "sha256": "98f960db09714c59fe8d743b0d0ccb42bb64ccad3f9bb9081dc1feccac736336"
+    },
+    "framework/interface-builder/assets/scss/controls/_slider.scss": {
+      "md5": "c84722941b8abbfa4df47df7ced3e0f1",
+      "sha256": "69b3dcffe3446b5c9476d595e0e1369db58b1594bfe5919eba36876b714569c8"
+    },
+    "framework/interface-builder/assets/scss/controls/_stepper.scss": {
+      "md5": "9039e4477927056c07a0b2841efb8ae9",
+      "sha256": "bfe977f00911d418dde546a26b66c3a0402e7ca0c41a1538ae910c043f2401e5"
+    },
+    "framework/interface-builder/assets/scss/controls/_switcher.scss": {
+      "md5": "c4d8b4a5ed6846ef9e92e590c25651ff",
+      "sha256": "03e2c6eb5f775d2597ef7946ef6461c27e6429cbd7158f3559fcf169df8bc27f"
+    },
+    "framework/interface-builder/assets/scss/controls/_text.scss": {
+      "md5": "2746661ade336fd082b4558398fcab71",
+      "sha256": "7cb3f7e21fdd8f8a1b5be6a75b182d47527a4527c83a8e05709d36a39be004a8"
+    },
+    "framework/interface-builder/assets/scss/controls/_textarea.scss": {
+      "md5": "4b8cf09bad0a15f725cb435b93c690b5",
+      "sha256": "ed51b970ec5b716bcee517e02016268d4d23585945ab52c8f52482349bf685ab"
+    },
+    "framework/interface-builder/inc/class-cx-controls-base.php": {
+      "md5": "23c877d6b044759e9096dd1396d5fa34",
+      "sha256": "6bc2022a891f49433ce0441f48ba9aa415d9e25e64535c17e2fe75c46d9f2e8f"
+    },
+    "framework/interface-builder/inc/class-cx-controls-manager.php": {
+      "md5": "09efbf8c7458bab2fcece04c0b5afbab",
+      "sha256": "490f4973c037813c7b1a51b338056f537cf2789fad142b510a605cdd946ce8cc"
+    },
+    "framework/interface-builder/inc/controls/button.php": {
+      "md5": "66e2b5af1219c4fdf96d49932b250db2",
+      "sha256": "43325ae284e63813054df543200d7821acf1ceac90dc398171eb4eb484444c75"
+    },
+    "framework/interface-builder/inc/controls/checkbox-raw.php": {
+      "md5": "ed3bfe649ba2c538fc609894fef51ec9",
+      "sha256": "36fb202af56c2509ff992e67c1ad58d1c6746f96b9b672d7075911bbf7af9840"
+    },
+    "framework/interface-builder/inc/controls/checkbox.php": {
+      "md5": "c7de2f92c152ba5e826083f0a9628493",
+      "sha256": "2cef6a2d1b9776655950d502f3ec9ecaf7ea10d694fdad459d485c4b1a36aadf"
+    },
+    "framework/interface-builder/inc/controls/colorpicker.php": {
+      "md5": "ff7d3c1886f2122fe2f67adcd13fc714",
+      "sha256": "673f6dd812b6232c472f8418a9e72bc7c7d8d76f20e9f74b7f921615f59be7ea"
+    },
+    "framework/interface-builder/inc/controls/dimensions.php": {
+      "md5": "e06075ed67359ec3d3cc749d138ad825",
+      "sha256": "626cbc502d6b27071a579b39c941e982831f45e3ade16ea4cc4ad4f326c2ef89"
+    },
+    "framework/interface-builder/inc/controls/hidden.php": {
+      "md5": "6a20fe10732ba8fedf525494d1343ddf",
+      "sha256": "e9e3e2ce4a9b490dd826c26151555f0959bcef713641f328e4839a9b6ca44c33"
+    },
+    "framework/interface-builder/inc/controls/iconpicker.php": {
+      "md5": "2759199611b25ca48e145916f8d6dd49",
+      "sha256": "b3b096bfa8bc46225c99b4a818339e3e31777601683f18f39a50f6c630718298"
+    },
+    "framework/interface-builder/inc/controls/media.php": {
+      "md5": "b2b272839780e1e1e582fc28e1b3f563",
+      "sha256": "fdfa59fe892b856b479061866418bf3af0842afe6ba13c09d071f8148838c266"
+    },
+    "framework/interface-builder/inc/controls/posts.php": {
+      "md5": "5fd096fa123cd833ac51e5ed28a2c8ec",
+      "sha256": "d36e6b7b087b6b08f1a80dfa088226c91d5a96f6757364555cabc6c1ee9866e3"
+    },
+    "framework/interface-builder/inc/controls/radio.php": {
+      "md5": "a86438c5fa9849b47daedafda1db406e",
+      "sha256": "d874462ada38c331f0d24fc979b5139aaf18c953a0e0396c56f2649bf1d33889"
+    },
+    "framework/interface-builder/inc/controls/repeater.php": {
+      "md5": "8a302fbc49a9902b3352bac8ebe91f2b",
+      "sha256": "ce4f0ce07d0ab74f439deebf7b012b3cd3ffdeaeac863a87c4f276ef7f4534d1"
+    },
+    "framework/interface-builder/inc/controls/select.php": {
+      "md5": "f2160f72860ed6b55a0540c4060a6aa5",
+      "sha256": "936f7da99e43f633367ebb3b680109a3f221411032055d16c1f1943e1ec523d7"
+    },
+    "framework/interface-builder/inc/controls/slider.php": {
+      "md5": "f02a87766344edb683b18f68364f4f59",
+      "sha256": "c5573ac0d8d059076a45faa499da2b4376d560d9d8f6e0313853405f56216b60"
+    },
+    "framework/interface-builder/inc/controls/stepper.php": {
+      "md5": "04a788d5a5139c35ee3d7cdfc83815a2",
+      "sha256": "5e679f8d1f2617b747bb1c82350f0ac0512fd74a5d1b9afec5bfa1e37502d8cd"
+    },
+    "framework/interface-builder/inc/controls/switcher.php": {
+      "md5": "766cb64214c6243109f0efa4df5f5f58",
+      "sha256": "2a3bb72f41190f60c65007242a6a3b80c896f50c9eef5b0656483f4fadd5e362"
+    },
+    "framework/interface-builder/inc/controls/text.php": {
+      "md5": "9e5d1c7c4f1d8cd316bfbcaaa7c61c94",
+      "sha256": "e31e7a41f4af73cbd2c61fa7b554777e8c9845709016c72db0ef6f0388321548"
+    },
+    "framework/interface-builder/inc/controls/textarea.php": {
+      "md5": "11b5a9271fbe29c22104c8ffab992511",
+      "sha256": "9f835711911c74df1721897940f30241538c75445da31c33af44f89d6a5231ff"
+    },
+    "framework/interface-builder/inc/controls/wysiwyg.php": {
+      "md5": "244f57606da51eccbffcdbf28909104b",
+      "sha256": "c9fa8b71178f7e7d4a4a696a8508d3585e9264f6900f95370e6314a1ca08e7a3"
+    },
+    "framework/interface-builder/views/component-accordion.php": {
+      "md5": "f25e87f36a1895ea8c8f72bfc84f838f",
+      "sha256": "4af6c18297e975ce10388c4907fa47cd238ce6e9014a5efde2a0b348daa29cd2"
+    },
+    "framework/interface-builder/views/component-repeater.php": {
+      "md5": "df8c51c0ff7803819f328878e503f0a8",
+      "sha256": "974c7561463e75c66325b54f3e1aaa0be3a6384dc5d225f3327eb1a0cbedbcad"
+    },
+    "framework/interface-builder/views/component-tab-horizontal.php": {
+      "md5": "165c2e2667c97476a3f011708fb436a3",
+      "sha256": "ea3b2b04c4254f81197d015271a551949c8f48757578a78efdb2e845031d162c"
+    },
+    "framework/interface-builder/views/component-tab-vertical.php": {
+      "md5": "dc43edd9cf1adbdf977e0128aa8d1419",
+      "sha256": "d529e4e744e4fe9fa4744af09741b2a8b3bdc5ad6ddff023c177059c0fee8348"
+    },
+    "framework/interface-builder/views/component-toggle.php": {
+      "md5": "ea796a0f31e90ff1a50cc72c46489337",
+      "sha256": "9ba23eb8510bbbe2401c5350b0c6a6db3f2db6e584ecd4967bd2df1b0377a1f0"
+    },
+    "framework/interface-builder/views/control.php": {
+      "md5": "eda0aa6df5fb7167a22162f80a5d3a2b",
+      "sha256": "c6372cd960406ad50ab7de5cc8433117d2847b876843aac5a37c9b9eb33c6720"
+    },
+    "framework/interface-builder/views/form.php": {
+      "md5": "b10dea1181eabde7022bda9aae1a6e8e",
+      "sha256": "6b402ee88e3d44f0f06a3987e2e21a19397326293f657d552276fca8e93ce910"
+    },
+    "framework/interface-builder/views/html.php": {
+      "md5": "3874c69d9861c990d6879d099df7d203",
+      "sha256": "200f217b3c4858b08cd1e9577ec14a2dafed614b6a1d88a7481d1670eddb7495"
+    },
+    "framework/interface-builder/views/section.php": {
+      "md5": "b200180d42fb6f5bd29357dababaea7a",
+      "sha256": "e6356998e801a77796ca6c9bcdf9a2b1d80fc425f3251c7c995ad88ce4a4eb01"
+    },
+    "framework/interface-builder/views/settings-children-title.php": {
+      "md5": "eb642589872a7ff24cf079b416d9efa8",
+      "sha256": "494d12cd66058fa5bfc813a10dcec528f5159918eaf1bd330a596248600e3c09"
+    },
+    "framework/interface-builder/views/settings.php": {
+      "md5": "a93421257bd1061938e0e51de65ce771",
+      "sha256": "7f4a6231fbd08489c25343e2f9dfc16501d82d9f9466d3854db7fdb0eddc4d0c"
+    },
+    "framework/interface-builder/views/tab-children-title.php": {
+      "md5": "99e6a0958e5a35e736502e4b4900c5fa",
+      "sha256": "111d2eb6e6e6ac5361bf428c8d665bbad402f99fd232d58123d7091d58ddbed6"
+    },
+    "framework/interface-builder/views/toggle-children-title.php": {
+      "md5": "54f251aae7efef2f8ad32a876b503e80",
+      "sha256": "6f25bcb5a10403b518ed0c632394a5e361d78bf9263ae08cc41a5720d3decfe5"
+    },
+    "framework/jet-dashboard/.gitignore": {
+      "md5": "8aa37765e50635ac65784eb185c8046d",
+      "sha256": "1531da710920e231ac1458ba06a3f35eebf0ef704392a63a408be51255b9a87f"
+    },
+    "framework/jet-dashboard/gulpfile.js": {
+      "md5": "bd5883ed8f02e880329ca4fb1fb2caec",
+      "sha256": "58a147340deb0b598cc5065cbfec0b552ab3af6c2fbf38322248383ab1f5b8ee"
+    },
+    "framework/jet-dashboard/jet-dashboard.php": {
+      "md5": "0c8d08667333f50070ea6f4f367dbfa3",
+      "sha256": "e07ed44ffc7237381b46093f8a23e6ea04cd7c9bd848801f32fe1981271009f3"
+    },
+    "framework/jet-dashboard/package.json": {
+      "md5": "f57d986c17a7f4cf2bc4ed671603b92a",
+      "sha256": "635e65f2d75ca9ae49d962627a1040d054d9432b37952c6ae6866873d3c02959"
+    },
+    "framework/jet-dashboard/assets/css/jet-dashboard-admin-inline.css": {
+      "md5": "fa4df265e38bce523d0a7a53e3028a7b",
+      "sha256": "3bdd339d67043c0aa37e175a24ebbcf87d65e36b0db2460693d264fd4ed04bcb"
+    },
+    "framework/jet-dashboard/assets/css/jet-dashboard-admin-rtl.css": {
+      "md5": "01fade816a8844f6f2eb5b3ab7e6e54e",
+      "sha256": "592a9a44f912349bcc85c046e3cb046cd8f35f853008c2104784a8cfbaa2c292"
+    },
+    "framework/jet-dashboard/assets/css/jet-dashboard-admin.css": {
+      "md5": "9fe13b484dd4e6e9d9688846ab09c6fd",
+      "sha256": "a0da0e4b8e48ac9fa969fdf41c6863ceb57a19b0a31ce9e931bfc6577e6fa8f3"
+    },
+    "framework/jet-dashboard/assets/css/wp-admin-styles.css": {
+      "md5": "76d4863d8dbf38023b1379c4cf174862",
+      "sha256": "82ee22d788a38dc35a7bbeb34b0659a4dfb1ac288586afbf571145b352c19e0e"
+    },
+    "framework/jet-dashboard/assets/images/banner-light-bg-1.png": {
+      "md5": "26342cf49a7ecb3a1c9e37c43011b8e8",
+      "sha256": "e8e5583455c1583a3b163022e9f42c665a89bd191e63ed08c70a3d59fb147acf"
+    },
+    "framework/jet-dashboard/assets/images/banner-light-bg-1.svg": {
+      "md5": "4cc3deced901def6bc50de01a4a7ec26",
+      "sha256": "150d15067bc98d47f8551cfc056132313eef9685aee69287bc34a13de0521163"
+    },
+    "framework/jet-dashboard/assets/images/elementor-wordpress-icon.svg": {
+      "md5": "ec3a2dc201c7a486b1fd96e17d6d5246",
+      "sha256": "124452134007eb028b3869af75fce41896e4d36dc5cda27827f730d756d86330"
+    },
+    "framework/jet-dashboard/assets/images/youtube-icons.svg": {
+      "md5": "d121770edd6cfc0127566fe490f7ba45",
+      "sha256": "44634a15d89e5ed87f9ed5b0de8f268d4bb48fef70ab141f29ea3407ee9a5853"
+    },
+    "framework/jet-dashboard/assets/js/jet-dashboard-class.js": {
+      "md5": "2d90507ae1fe9b2c54a848f9e2c6cdb2",
+      "sha256": "882a5f85984d733e5df221808a93f51a6d270772c3df70261e2ea89267492028"
+    },
+    "framework/jet-dashboard/assets/js/jet-dashboard.js": {
+      "md5": "84e3904831d2b60b2269f64afb24186b",
+      "sha256": "3dfaef18b480995fe6493814376f4d540547718a7bab574d73c1fc67daff54d1"
+    },
+    "framework/jet-dashboard/assets/js/license-page.js": {
+      "md5": "5c0b70258bd233edf67798a6eaaedf23",
+      "sha256": "01646a4bb3357ab67d14f7cc3fcc94ec739a6e81a7eb495f90db53005e0a8923"
+    },
+    "framework/jet-dashboard/assets/js/settings-page.js": {
+      "md5": "e4bbb1322fc457cad396f7981acd6025",
+      "sha256": "b2881587165f82c371ad5ee10c358a79775fea52ae9519b2405f4563cf79665f"
+    },
+    "framework/jet-dashboard/assets/js/upsale-page.js": {
+      "md5": "4416296113ee8d06c4e2c1b7acfa1314",
+      "sha256": "ae4fc2e4c9552b1e3435ac9c0298d07b7c0487b022dd45a0a89f3255aef44c5e"
+    },
+    "framework/jet-dashboard/assets/js/welcome-page.js": {
+      "md5": "6edf399d94aa236e40d2b7876f1a9b95",
+      "sha256": "d1f7016c31bd076a2e69fa655de5416b9084f1caa379fb36fde3d7702f763854"
+    },
+    "framework/jet-dashboard/assets/scss/jet-dashboard-admin-rtl.scss": {
+      "md5": "f3d6d0bb6995a3e01b415d5535f6bf8b",
+      "sha256": "77ad018d7e2ac27b78877ba87dfb48cf7f4b87843f84572b05fbc49f4538803e"
+    },
+    "framework/jet-dashboard/assets/scss/jet-dashboard-admin.scss": {
+      "md5": "5a6af5d3423de26a8d5d8f4034ae89cf",
+      "sha256": "1b946407326da21b7467171cb65982b7cc5497a4aa2e1631f8f23de566f3c757"
+    },
+    "framework/jet-dashboard/assets/scss/wp-admin-styles.scss": {
+      "md5": "fa7eceef55c7ed542ca9bf4eb0138c1b",
+      "sha256": "99c3920936d9465b871149d8de52e27ca243edd4729175830e5ac3d0f2c4e23e"
+    },
+    "framework/jet-dashboard/assets/scss/mixins/_direction.scss": {
+      "md5": "c6f3febfbcfd8868a182f2b363b38210",
+      "sha256": "0424cb43c6cf8f6b1ff8a5ec9c953399a827041dd838d995e5682fe494522032"
+    },
+    "framework/jet-dashboard/assets/scss/modules/alerts.scss": {
+      "md5": "ebda0b114d027c8b4ddd8637cb5225ba",
+      "sha256": "cf81a6b888eed8c6efe978d817d7493d5faf24c77330ee405cfa6c4d4a104675"
+    },
+    "framework/jet-dashboard/assets/scss/modules/banners.scss": {
+      "md5": "0d0428cddc537ff5259a00f72b9c4e2c",
+      "sha256": "5aaabe98a44fbb46cb511efcb639d2629e9b4b1abcdfc67c14f4fd9291e1efd6"
+    },
+    "framework/jet-dashboard/assets/scss/modules/buttons.scss": {
+      "md5": "e50d314a9a579b50e02aaafc678cd867",
+      "sha256": "0ed13611019591bdc6995af74695a56da702256927b7607c06a3e22e520123cd"
+    },
+    "framework/jet-dashboard/assets/scss/modules/license-page.scss": {
+      "md5": "98bdc81749be7b76bfe4103d5570bf57",
+      "sha256": "530c2552153068b0af98105da41e2e7bc134d90306ed153a463e6d6492def1f7"
+    },
+    "framework/jet-dashboard/assets/scss/modules/popups.scss": {
+      "md5": "1b58bbecb169918c1f4610ee6501c707",
+      "sha256": "6df86ec68b3ec89ae195f3721bf657264f552eba5dee749a8da775f517f2e0d9"
+    },
+    "framework/jet-dashboard/assets/scss/modules/settings-page.scss": {
+      "md5": "f6563ba1f84703bebb0e0698d18ce741",
+      "sha256": "4c1064412e9517d98b9ebab13eb974183b8e60c379e2126aa4495a78bfa2482b"
+    },
+    "framework/jet-dashboard/assets/scss/modules/upsale-page.scss": {
+      "md5": "f83978e3d134f0dcef3e3f87bfd55dad",
+      "sha256": "7c6daf23624a3f8780ae3cba799659c4f67852bf7fa93d510246f8a77883ac27"
+    },
+    "framework/jet-dashboard/assets/scss/modules/welcome-page.scss": {
+      "md5": "87df38d6c8d3f5d946a4317b62009c96",
+      "sha256": "8a080ec434eb398408a90afb4dfdf9bf8b4e3e6f4649690663fc054750208bb2"
+    },
+    "framework/jet-dashboard/inc/data-manager.php": {
+      "md5": "d606706234771b63a553134fc89c95d5",
+      "sha256": "d72fe5b82ad376d166666f382136c1342602d03502b206d12bcf595389e56c6c"
+    },
+    "framework/jet-dashboard/inc/license-manager.php": {
+      "md5": "9f758c497abe675a2193d0d0ab22e31c",
+      "sha256": "8746a1cdec7dab7f1169cba518e6ae1b255f035995c57babacd531a1782aad1b"
+    },
+    "framework/jet-dashboard/inc/notice-manager.php": {
+      "md5": "02b48f493d44431b359c66d67fb957da",
+      "sha256": "ce744f0337ff30455ba53868cb73fc153876c7718cbbb11fe1a2d5498969a7b5"
+    },
+    "framework/jet-dashboard/inc/plugin-manager.php": {
+      "md5": "1f5fd8defa86904f1301f0e94c70e0cd",
+      "sha256": "a7aa4cac5c806714141f077b5508b50cfa4c478a6878a42c65a4c803f7e98b9c"
+    },
+    "framework/jet-dashboard/inc/utils.php": {
+      "md5": "8504b84095bd4b3f3edde6385cc35cc9",
+      "sha256": "973edf2d26bedd99602bc6b70b1111a12ed48c71e41dbf5bf1bc70a837374df9"
+    },
+    "framework/jet-dashboard/inc/wp-dashboard-manager.php": {
+      "md5": "b3e595bddbad648a6d69cf61c4b735c3",
+      "sha256": "6bb2d20f175d91c5bea0bd3cf67d7b484521f45d71b8dec0506ce1621143dd1f"
+    },
+    "framework/jet-dashboard/inc/compatibility/base-theme.php": {
+      "md5": "1aa59cc988a6ed733f5631a20924a350",
+      "sha256": "8575282c42ae6ee3f65806f4081fe318bf42ba33fe8ae275c7c43e28771233f0"
+    },
+    "framework/jet-dashboard/inc/compatibility/manager.php": {
+      "md5": "cbd38eafdfd535e3344fc47beafcb420",
+      "sha256": "ac79f97e3d175a80ee3b007dd02948675cf045c1e7c4a285eab1597d4a06d4cf"
+    },
+    "framework/jet-dashboard/inc/compatibility/themes/hello.php": {
+      "md5": "4d1c0c946b88f1a0a717c054ffa5fe6d",
+      "sha256": "48c2cbdcea8366bdd879998c4ed894644ce3f148858df52e3d814532cdbe6ca3"
+    },
+    "framework/jet-dashboard/inc/modules/.DS_Store": {
+      "md5": "62a6bf67d041fd45a916b3c14683809e",
+      "sha256": "d99cb5988fafae63adc2cd8ffa45e17cf5bddaa19a78f810c496981f8b60a38b"
+    },
+    "framework/jet-dashboard/inc/modules/manager.php": {
+      "md5": "82a24e7f1b973326b7708fd747ffa3d0",
+      "sha256": "e852e5d2ccceda6f62411c20c191f2e9d1e28f94b3811b3e74830ebd978a813b"
+    },
+    "framework/jet-dashboard/inc/modules/page-base.php": {
+      "md5": "1cbf203d884bc3ab7e785523dbc7c7b3",
+      "sha256": "fc1d566f3de4f36c3e32784db701f966de7bab1bebd537149f1123398d31c5ac"
+    },
+    "framework/jet-dashboard/inc/modules/license/module.php": {
+      "md5": "52cc06361bd430e6685e0e1f1366746e",
+      "sha256": "17938af15d7ae55753b4c81fc26b1124d652d13dde92f4179c5f4667c3bbf4dc"
+    },
+    "framework/jet-dashboard/inc/modules/settings/module.php": {
+      "md5": "801d985c45b20afb4b3ab4ade3f082d9",
+      "sha256": "97b5c4096ce8b962e147f39b9c2a260f771fe8dab5c3263a186cf0e687c9e607"
+    },
+    "framework/jet-dashboard/inc/modules/upsale/module.php": {
+      "md5": "c87f9b1ad361b10f4ff704662013ed88",
+      "sha256": "aeca19842d1c0c7002c5197c3c2e035bf45b40846cda5fca80357450e2a9c0c5"
+    },
+    "framework/jet-dashboard/inc/modules/welcome/dev-test.php": {
+      "md5": "bdd7c7bb5792214b37e3c4f9cbda7ce7",
+      "sha256": "6233b07f82e3e627bd2c7842fca360491c989faccd4235b83a1c0c0a26d132bb"
+    },
+    "framework/jet-dashboard/inc/modules/welcome/module.php": {
+      "md5": "073cd681cf94392de5744fd93668ee01",
+      "sha256": "04b384b47b6e3892792c98eefdf61a212412d8ecd361e75f88f0598f0207f718"
+    },
+    "framework/jet-dashboard/views/common/after-component.php": {
+      "md5": "57498d32901fdb0f5f2d0d377e189025",
+      "sha256": "6d80ad427981a545ec2f164c63eaa890536f682a942a5021604f53204e1bc8cb"
+    },
+    "framework/jet-dashboard/views/common/after-sidebar.php": {
+      "md5": "b4679c09b0b7b011555baa12bad0168c",
+      "sha256": "07cb5a15ba685f9d11abb93f916693f89ab4669b3ef1a7bdec42d916f5d35d3d"
+    },
+    "framework/jet-dashboard/views/common/alert-item.php": {
+      "md5": "05a910e822025dca979fb78c0213b0f3",
+      "sha256": "f059a36858f0c749d5d3a213c021d202dfc3646773f07c1f430284866fa1480b"
+    },
+    "framework/jet-dashboard/views/common/alert-list.php": {
+      "md5": "9f8b572b0e9e10a5034ac1cc87cc7846",
+      "sha256": "1ec6721e12d2a71231b1dc62113fcfb593b1ae124ea911fddba089f22d948f43"
+    },
+    "framework/jet-dashboard/views/common/banner.php": {
+      "md5": "15235f8e8af4848ac13964b2776ac634",
+      "sha256": "4fb902ac0e68ee9bd791fe6d3bc6b1f365d729e64842d7feaa9b0d9bd2aaeb09"
+    },
+    "framework/jet-dashboard/views/common/before-component.php": {
+      "md5": "1381019da2e027ea4d4c5f0dbf253150",
+      "sha256": "689cf501ddc45f030eaa5ac1b7e36b1a5f99b6bbe095dd58e79416fa706c5fe8"
+    },
+    "framework/jet-dashboard/views/common/before-content.php": {
+      "md5": "3a33b80aa286a8de406fc253a5048a15",
+      "sha256": "05d9cd7f502d3b8af62d9a0d41353a6664517ddbac8d197b5a482cf6e47c46fb"
+    },
+    "framework/jet-dashboard/views/common/before-sidebar.php": {
+      "md5": "657bbf0b8c33ca0e6a05d3e5763daa5a",
+      "sha256": "b7ae777d0fb8ecccaf20e8565a38840578da72ead8fe2bea28c2cf426f209c3e"
+    },
+    "framework/jet-dashboard/views/common/dashboard.php": {
+      "md5": "d78337d76bb8f72a506cdb5ae77b488e",
+      "sha256": "7a44b01434c21ec9138e5ac763466e59e7c7b541ae928f0b9163650f266505a7"
+    },
+    "framework/jet-dashboard/views/common/header.php": {
+      "md5": "35aaa671a30d16aed1cef883b8954fd9",
+      "sha256": "3b57f1720b67897f3302262a1ba106ee7d1fee5fb01b886543efecccbab91f2d"
+    },
+    "framework/jet-dashboard/views/common/inner-component.php": {
+      "md5": "3e0550e75369ceabaa866ef52049f7ab",
+      "sha256": "9b147d4f6f4d5b1bac05bc274191f6bcbec38e050e2461d4ee08046faffbab3b"
+    },
+    "framework/jet-dashboard/views/common/sidebar.php": {
+      "md5": "8299d9f5ee79e2e02ec6abf4f89538fd",
+      "sha256": "f9c8e68267dcec45d6579c32556d68478411a170265a651c251448606c606290"
+    },
+    "framework/jet-dashboard/views/license/license-item.php": {
+      "md5": "7507d8998d396c0acdf058646b2e64aa",
+      "sha256": "f8a5160ca8758a14a56a09f124584dc0a6bd8f9d329f3379c760ca5ffe864962"
+    },
+    "framework/jet-dashboard/views/license/main.php": {
+      "md5": "9b8fca9d3bcfadc4f5abecd27bcc83b6",
+      "sha256": "f7e47aeae6d42fdc95ce2876f67554f267af836b7fab4d0ef69e3d81771f2baf"
+    },
+    "framework/jet-dashboard/views/license/plugin-item-avaliable.php": {
+      "md5": "de175a5e512a4bd7d4815a69b76cc6b7",
+      "sha256": "129f46c9ac3413af3a0dfdaffbc6d3a468272a27c1eb1ce8cfaf82429df20162"
+    },
+    "framework/jet-dashboard/views/license/plugin-item-installed.php": {
+      "md5": "fd931f6baa90e81a577e6f2f08acb0e1",
+      "sha256": "2019482ac6e7eb58eb7c1970c7f52625e4576141556e460c0be8423cee544e32"
+    },
+    "framework/jet-dashboard/views/license/plugin-item-more.php": {
+      "md5": "c1c10a57b059a559a37736e6cacc8a6f",
+      "sha256": "709f7741e6877fc35b0c502286c018fbfec65d560ee811c8e3208b87dc8c5e64"
+    },
+    "framework/jet-dashboard/views/license/responce-info.php": {
+      "md5": "378e3ee9f09d8095edf2140ff47342c5",
+      "sha256": "5ab43d598906e8e31f97e6b0de62a783028592ed42e2eaffee43bc96c78da80b"
+    },
+    "framework/jet-dashboard/views/settings/main.php": {
+      "md5": "bd9a19f5fc5183842615372450616640",
+      "sha256": "423b9b59680ff843f841a290dd6f418c105837653fc1545e2dcabdf4705fa5cd"
+    },
+    "framework/jet-dashboard/views/settings/plugin-settings-toggle.php": {
+      "md5": "ab879d9cc7266db27ed15f15fad8591c",
+      "sha256": "ad00ffe745c34cda9139c9ac6a672e3227a0a8510ff52a21c893334e338b69ef"
+    },
+    "framework/jet-dashboard/views/upsale/main.php": {
+      "md5": "e865a32db20ba87cef5c9aa00100b3ac",
+      "sha256": "561ec3bdaf02c8398c51d1cdc94fe92f04906d444f3b6a1e01f2749e5540eaa5"
+    },
+    "framework/jet-dashboard/views/welcome/extras-item.php": {
+      "md5": "38fcb8c6811d0ca97c59bb33d2e5a885",
+      "sha256": "5cec267796a92d2471a10cd4595bbf6fc7db9a256a3cb9313b042414ad54dfb7"
+    },
+    "framework/jet-dashboard/views/welcome/main.php": {
+      "md5": "69f2dc1a849277b3ff09c3e72c8e7ffc",
+      "sha256": "00da3edf92e33e1ba31b73a80d6f890ee5aa65df853f9700868d63d7d5027266"
+    },
+    "framework/jet-dashboard/views/welcome/offers-item.php": {
+      "md5": "29d4c9031b898d999ddc72491970f896",
+      "sha256": "8431c305317a0647a67039c349f6c786b06bbf433f1ad22612c0dfb3ab00e66c"
+    },
+    "framework/jet-dashboard/views/welcome/plugin-item-registered.php": {
+      "md5": "be5f7e542e5d46eeede7544d3817c584",
+      "sha256": "0258d78afe2ea203fbf086a6260d4163d74c4345d9f6e930826db2434904d670"
+    },
+    "framework/jet-elementor-extension/jet-elementor-extension.php": {
+      "md5": "b57125dc141200540e64de2d24415289",
+      "sha256": "c8f84fd9f2565dc1922b3a687d3f699e137716acf552bb5317303b7d69631172"
+    },
+    "framework/jet-elementor-extension/assets/js/editor.js": {
+      "md5": "d34453de74a3f6da69f72c3513e91b4c",
+      "sha256": "f7a73ff479a1c14733421069754b172fa0ab9193099b1d1cd0d36ffb34fd4773"
+    },
+    "framework/jet-elementor-extension/inc/ajax-handlers.php": {
+      "md5": "8846d43f9dab6566f4f4745e908cc3dc",
+      "sha256": "0b0d306647028211dd2c5099465847360f841ab43a60c3bdb3824c94aef17a26"
+    },
+    "framework/jet-elementor-extension/inc/controls/query.php": {
+      "md5": "2480577bc8495d7ff2ac8aeabc9cb129",
+      "sha256": "b78abafd53627066759f5a60f0876c4a4a7a165e51f8bdba4f3761adc19984db"
+    },
+    "framework/jet-elementor-extension/inc/controls/repeater.php": {
+      "md5": "e1fd5330b5c4f6b6e5fc76acd2987c51",
+      "sha256": "c52981deb04eb6faedc6a7b56ad388fed278802f5c031ddc8e3aeafa197f9a05"
+    },
+    "framework/jet-elementor-extension/inc/controls/select2.php": {
+      "md5": "8e497cc8bc80b9f06d660b82965ebcb6",
+      "sha256": "4dd781d74498a3ee4be354b578b7684d24d4b3933bb83deb647c155bb5266bfc"
+    },
+    "framework/post-meta/cherry-x-post-meta.php": {
+      "md5": "b5212baaac8a410adb3d0efcd1147509",
+      "sha256": "f8c267c0ed36d03b2978e1fdc628f1048ccdcfc1f3e04718b83ed0b040137420"
+    },
+    "framework/vue-ui/.gitignore": {
+      "md5": "5a01c99dbca9fb1698106d15e108254b",
+      "sha256": "d3ff6508a1a57ca0e4070c85f6eb078bda07ea89ba6b765e656735af11d658ba"
+    },
+    "framework/vue-ui/babel.config.js": {
+      "md5": "9808fe8b82494f81a1e1a27a858def66",
+      "sha256": "e195653ef23677dac5637155b7108530d40a37ad51f608a994d6b5d090e96484"
+    },
+    "framework/vue-ui/cherry-x-vue-ui.php": {
+      "md5": "3504722ac71a5f0cfa6c6a3dc6ea083f",
+      "sha256": "5b0b0e6bc6327fe040ce7c5ee5310484ae5534d0c79b0a33df7051de753ef440"
+    },
+    "framework/vue-ui/package.json": {
+      "md5": "e79351c3d4652dc956c13dc644ae5d41",
+      "sha256": "62288fd6c4f8a6023b00fe50a3b93ab7f6e7bae28dfb563b97e10e535db6b7d9"
+    },
+    "framework/vue-ui/webpack.config.js": {
+      "md5": "0ee042b3e44e40fa54d8b4751425d47b",
+      "sha256": "2e6d1d6d8e7661cce773054303062844d0ff2f133a6b1fca1c323db34fbf9f95"
+    },
+    "framework/vue-ui/assets/js/cx-vue-ui-components.css": {
+      "md5": "82f059356b5507ee99c216ef6160a453",
+      "sha256": "e11d7c99d5aec33e7a1991b07d62c0dd9cd1772a62c1656fdfe6ed0c5c4db6a1"
+    },
+    "framework/vue-ui/assets/js/cx-vue-ui-components.js": {
+      "md5": "85b5282ddcad1af4a15fe9e8b64cbaf5",
+      "sha256": "06d28313eb95891ac163b87b0bafa07dd2ac451bd2ffe870153589e52a824f51"
+    },
+    "framework/vue-ui/assets/js/cx-vue-ui.js": {
+      "md5": "448d107685a0b8f9e720731bf08be509",
+      "sha256": "41c9ef8679962c2b210b31029e470a4c078c8e318458ffc9c61a4411c8be01b8"
+    },
+    "framework/vue-ui/assets/js/vue.js": {
+      "md5": "1e99e929ad552078273d58192153ab2d",
+      "sha256": "352baa818da109925437a8433057ddc6f91ec48efe88bc5741b2f9e34450fdce"
+    },
+    "framework/vue-ui/assets/js/vue.min.js": {
+      "md5": "6c81f02ad0bf8e12a66c18cab188d029",
+      "sha256": "9e0156dd49c03744e79bbea60eebbbb94b5811c1b71b91f5fb38a8270dedfbaf"
+    },
+    "framework/vue-ui/assets/src/js/cx-vue-ui-components.js": {
+      "md5": "2e9f909c9dcabe5c3ee8e9ee09c5b5ff",
+      "sha256": "c4be5a5f6fd95fce59393d4292411ec49eab10e7c6abd7345095b641912fcfe2"
+    },
+    "framework/vue-ui/assets/src/js/cx-vue-ui.js": {
+      "md5": "e3ab880ee00c19105fa1e25d000565d0",
+      "sha256": "e3c446ecd48b7b4e0780177cf514758ce0811b96e974d3240b7164b14e50027e"
+    },
+    "framework/vue-ui/assets/src/js/components/form/checkbox.js": {
+      "md5": "5d3325c1c4cda8dd4a731cda16eeeff7",
+      "sha256": "58c2fe68a4e3ffc16a7091f6211db873a7814c944f1db1114a0b3cfa88eb4aa7"
+    },
+    "framework/vue-ui/assets/src/js/components/form/colorpicker.js": {
+      "md5": "947f1a9e534149912f7de60c8748841b",
+      "sha256": "7250b955bc81e17d1799dc5d58081c82d442e4b164357eba14bfa2a1e46f34cb"
+    },
+    "framework/vue-ui/assets/src/js/components/form/dimensions.js": {
+      "md5": "c6ad20265817946de3e2a0e8840224e7",
+      "sha256": "283c93f124797e98f46116c1d9365529bebd808c9b59e53149caf64e918ee716"
+    },
+    "framework/vue-ui/assets/src/js/components/form/f-select.js": {
+      "md5": "4b7670b7084cba1704e9e253112210b4",
+      "sha256": "55a2d68fc9ba3930010adcec88566cd22daa024757b841f19785d8c28a184ef1"
+    },
+    "framework/vue-ui/assets/src/js/components/form/iconpicker.js": {
+      "md5": "57d22ec5dcc29debb46dd7ba192b0dc3",
+      "sha256": "b3715255d83bdc79d223bcb5e865211b4b76d6bba09766a590136e873e04d320"
+    },
+    "framework/vue-ui/assets/src/js/components/form/input.js": {
+      "md5": "7f209f6e1622a489fdf8efa351ef42b0",
+      "sha256": "3483ec025d8aa09647c3ca4bbd6259b31b87a61c78bf84a30bcc504365fa8901"
+    },
+    "framework/vue-ui/assets/src/js/components/form/radio.js": {
+      "md5": "d488f9cde71402fd2fc0adbcc368e4de",
+      "sha256": "f179351dce64c3c6cb5e19483ef2269b0a2fa1225719a93508ea8f1462236d4d"
+    },
+    "framework/vue-ui/assets/src/js/components/form/select.js": {
+      "md5": "a8cebfb3e99e6fc3d4831a6f05f26966",
+      "sha256": "540f12bc260eb279061ecddd50a2361eea6e148fcf6669a355f2e58264c160a8"
+    },
+    "framework/vue-ui/assets/src/js/components/form/switcher.js": {
+      "md5": "0364591fb45f7c7dd7ed339f8ab575a5",
+      "sha256": "f4b830291410cd530574fa9fea741c626adb743f7259ea23cdcab790033a28ca"
+    },
+    "framework/vue-ui/assets/src/js/components/form/textarea.js": {
+      "md5": "e02e92ad1e3029f6b5c8993c9d44c6a5",
+      "sha256": "55d4fb8e6a9126fe89e2f8ce261ce97cf3a83fc271044623e704fd2a9fc49e1b"
+    },
+    "framework/vue-ui/assets/src/js/components/form/time.js": {
+      "md5": "73069b4874941f27c8d0c06d362401c7",
+      "sha256": "8d73fa6aa8fd5ed8ec9f6d3f150f50e7b23d9b141c35cedd7d79d3cb6df88bbf"
+    },
+    "framework/vue-ui/assets/src/js/components/form/wp-media.js": {
+      "md5": "aa64b73e365efe47db274c7231bd8be0",
+      "sha256": "7ebf90bc1696a52645716160ac4d0a9111419d0035bb30f91a68158d02adfba7"
+    },
+    "framework/vue-ui/assets/src/js/components/layout/button.js": {
+      "md5": "65763670e55707b773fa3be34a967b01",
+      "sha256": "f0b00c75afc7ee63f24444262089ae5b42d0458ad81fd6a6c86c3cf64132c5bf"
+    },
+    "framework/vue-ui/assets/src/js/components/layout/collapse.js": {
+      "md5": "8e15beefb2d8571cf7183771da11f430",
+      "sha256": "61e6eb9b79751318923dac4a38d5bc54f573cb4853da9307025afee61dfff8d8"
+    },
+    "framework/vue-ui/assets/src/js/components/layout/component-wrapper.js": {
+      "md5": "e3611874398b815edcad1983db00bda0",
+      "sha256": "9b2643a000439c1aa283849686a6e3e09d933259c0f66c09a4e29633f649e017"
+    },
+    "framework/vue-ui/assets/src/js/components/layout/list-table-heading.js": {
+      "md5": "357cb622e5d566bda81b8f0ca97aa84f",
+      "sha256": "9d5be27077a7b43257933a9dfd47da359efc98a582f67008dbfe661c82163fda"
+    },
+    "framework/vue-ui/assets/src/js/components/layout/list-table-item.js": {
+      "md5": "0562a6a7f42b286cef563960a978626b",
+      "sha256": "1110e6b3a880e8d9efe093345084936714ff48c4e66e9b661b63bcfccf3ee033"
+    },
+    "framework/vue-ui/assets/src/js/components/layout/list-table.js": {
+      "md5": "577a0a5eb91317bd7ba7881400ddc46d",
+      "sha256": "7cdc043410e3911844a063c83b3623991385aaf97608ffd5c631d6f0cb13ba6b"
+    },
+    "framework/vue-ui/assets/src/js/components/layout/notice-component.js": {
+      "md5": "81c4147a252e4cb3c47aad11c09aaad5",
+      "sha256": "8910cce3712d899bdfa658395850e4f8392a5a6bfb555c4d65cf43670efa90f4"
+    },
+    "framework/vue-ui/assets/src/js/components/layout/notice.js": {
+      "md5": "b79f8ee7c17b4092d6c8b3f94da795e0",
+      "sha256": "8c770249f441ebd4ebdda59a7771a5a5e2045ec1bf850be17f0dd3f87987af2e"
+    },
+    "framework/vue-ui/assets/src/js/components/layout/pagination.js": {
+      "md5": "e79fc8e271cb08889c053bc684f2a86a",
+      "sha256": "2122c401de5363504c9739d5e5ac66d9e392c9715552e8b76699632f4474227b"
+    },
+    "framework/vue-ui/assets/src/js/components/layout/popup.js": {
+      "md5": "1a1c94fb1461683484247be3d98323fa",
+      "sha256": "60aa5aff3acdfce44c4f087f3990970916c0d5fc0090cb6f59a9ae2109eea37c"
+    },
+    "framework/vue-ui/assets/src/js/components/layout/repeater-item.js": {
+      "md5": "032f6a1fb43c2e43168e311aaad76152",
+      "sha256": "f1d055870a4df5c7004d2719c2eb6c4b51e420dff54741983f8aae852b18d3dc"
+    },
+    "framework/vue-ui/assets/src/js/components/layout/repeater.js": {
+      "md5": "9b738ca35f7aebeb22d00f8385f7bc0c",
+      "sha256": "06df33c87fad986a040b9c710e50089847175417ecef36ce34442e3d23b986d6"
+    },
+    "framework/vue-ui/assets/src/js/components/layout/tabs-panel.js": {
+      "md5": "e56fa53e4c09a8cce7a03a52009360a9",
+      "sha256": "b5b92e1302da9d07ea0961491bdc0d338dd6bea191187efea23fa28c15522bc8"
+    },
+    "framework/vue-ui/assets/src/js/components/layout/tabs.js": {
+      "md5": "a364722f0e5ededd126e3cdbe1d7dd32",
+      "sha256": "8443acf422a58589c20a78da9801818f835c61f1fad66e123a09b3c9758fc1f1"
+    },
+    "framework/vue-ui/assets/src/js/components/layout/title.js": {
+      "md5": "9d023e8289ccf6dbea20541b58dd0fdf",
+      "sha256": "7b7d2ddf6b012e2b91b13dc7e2e32567a1896e5861cedc3304979a5a280ac148"
+    },
+    "framework/vue-ui/assets/src/js/mixins/check-conditions.js": {
+      "md5": "aa226e729ea94714902dbcd72548fc83",
+      "sha256": "43e7c420779e1a57c0814ab6091d051e67b2738e1b55e1f4578c53cd195fa68e"
+    },
+    "framework/vue-ui/assets/src/js/mixins/wrapper-classes.js": {
+      "md5": "eb9207d208c771b2cbde5ee462587624",
+      "sha256": "6da565c5731616866f5cee4e9311cfd2791b6b4440705e3edb7eac5fd8290672"
+    },
+    "framework/vue-ui/assets/src/js/utils/assist.js": {
+      "md5": "cef1ea21453eab60c9152b35c0e276b0",
+      "sha256": "079e59867b196dd1ca0f39af26ed8037c3be25937a89ab1cfcc70af8cb2a21a4"
+    },
+    "framework/vue-ui/assets/src/js/utils/v-click-outside.js": {
+      "md5": "907bc0c0643c6dbd0084bb41ca7ea499",
+      "sha256": "f3908dcf776a0a0ec49c5082ad1b1299e581487b3a56eeaf504ef3e531f70327"
+    },
+    "framework/vue-ui/assets/src/scss/cx-vue-ui.scss": {
+      "md5": "4fa20aaa25029f196cc2fdc91674f62c",
+      "sha256": "cbc55b16aede36e63c3fc5ab798c8ee2525b00d3b0a25fc4c4b1abb76c1b383e"
+    },
+    "framework/vue-ui/assets/src/scss/common/_component-wrapper.scss": {
+      "md5": "69835a83555ab21bbbdca2c34992bc2c",
+      "sha256": "ad54c429203d1cd052ae3138ae9634b6f6bf0a7bb281c7dc33fde188acbfcee7"
+    },
+    "framework/vue-ui/assets/src/scss/common/_copy.scss": {
+      "md5": "80d4cbd287360602bb90e2192e0c0ab8",
+      "sha256": "efa7870da6d65ff22d7e37b4f039f4c027b16fd2bcb44117b0556f9209127374"
+    },
+    "framework/vue-ui/assets/src/scss/common/_panels.scss": {
+      "md5": "662bed3fe3089c82769d434c4e31b906",
+      "sha256": "5c2f24d53afd596b5d5c422350b4fbd8f25b153e80392d87603c7bd35ad5d367"
+    },
+    "framework/vue-ui/assets/src/scss/common/_popup.scss": {
+      "md5": "2d2e0a408a5f3bb0fcb72900029ff3e0",
+      "sha256": "1e0e58f35fddc531775adc67d69894f46ba15385b904ca71263df64739a3d337"
+    },
+    "framework/vue-ui/assets/src/scss/common/_titles.scss": {
+      "md5": "45e57b17102757c09b96acd176b3b162",
+      "sha256": "9b74d9ef7434e677b77f3df72246a5b7eba4c56b95662ad6308bfa5197dac65b"
+    },
+    "framework/vue-ui/assets/src/scss/common/_tooltip.scss": {
+      "md5": "601c22a284f42faf3163b8ad20d130cd",
+      "sha256": "c0d51edc95ef61c1b9f02bae43b08dd0aaa3f604149f61374d7e52c741ba6a27"
+    },
+    "framework/vue-ui/assets/src/scss/components/_button.scss": {
+      "md5": "ac304ccf34a61740f0f585fefe905886",
+      "sha256": "820c1c99011a84f45396a25ca74284f1f060aee93e2fbecf884bdc07dcbab6be"
+    },
+    "framework/vue-ui/assets/src/scss/components/_checkbox.scss": {
+      "md5": "1a9142b3306a4300a29e530e12f0e699",
+      "sha256": "8528de84f54b43955bee32e8240c4aaf56be4f57d5847d13a606c9f833549949"
+    },
+    "framework/vue-ui/assets/src/scss/components/_collapse.scss": {
+      "md5": "27c928c026ebea26d020ab2d2e3ab873",
+      "sha256": "fc5e0685094eaa3f8cc1703970fe3f90e48f832b1962f387c571111aa6718266"
+    },
+    "framework/vue-ui/assets/src/scss/components/_colorpicker.scss": {
+      "md5": "eaf4e8b3b29bbd2e6ece6ec1e3bc0540",
+      "sha256": "ab35526b48381dd591fd4aa3df6029b6355cf654d25584c52ac43294dfa26173"
+    },
+    "framework/vue-ui/assets/src/scss/components/_dimensions.scss": {
+      "md5": "940745be7a45398082eeee38f98369aa",
+      "sha256": "066c491c54d4cbcd653e0fd3685b6aba3a26d245f266871865e589485a882c34"
+    },
+    "framework/vue-ui/assets/src/scss/components/_f-select.scss": {
+      "md5": "d8ec08bed7a9c8e31df8cbc29f38ad73",
+      "sha256": "d6a9ce1a239fc34c04089fa66cf4a934b3cf48119fe2c76d03dc55c41b7292bb"
+    },
+    "framework/vue-ui/assets/src/scss/components/_iconpicker.scss": {
+      "md5": "bf0b55c16fbe69d9b24a09d5e2dd61f3",
+      "sha256": "e159f886242baca06dd8e9a3f604e23df6eb81e865bc08b49756be108b3b750a"
+    },
+    "framework/vue-ui/assets/src/scss/components/_input.scss": {
+      "md5": "5940c348ca186f65311930386e0d9a1c",
+      "sha256": "65eb97db99bc4dc9a5716e86b122bc26847715a689ae2beb9b014d8e2d727db3"
+    },
+    "framework/vue-ui/assets/src/scss/components/_list-table.scss": {
+      "md5": "0209277345696eca9bb81fe5f925a0d8",
+      "sha256": "5f84e347ea1eda60baff4e029f0f96a171b2706fc40713fe09d058351aac5a57"
+    },
+    "framework/vue-ui/assets/src/scss/components/_notice.scss": {
+      "md5": "6d945cf642d8f91cd15490cf7f9bc4b4",
+      "sha256": "33d4714e29e6d89e1207c353a37fca1d9eb3dff3a3fbb5b1d3cecc22c0338ecf"
+    },
+    "framework/vue-ui/assets/src/scss/components/_pagination.scss": {
+      "md5": "60c7b64dfc49c12a95f120169d2f536c",
+      "sha256": "4db4304bdbee11a6b996ad5902d17cc5cb8995dbf29d0861c834931fd718e9bd"
+    },
+    "framework/vue-ui/assets/src/scss/components/_radio.scss": {
+      "md5": "81bf943514f7be74c544b399fbce270d",
+      "sha256": "954f796d31ca8d2dfd45d52710dfdbf86b9a812dfafd92d9c0be24724fd5efad"
+    },
+    "framework/vue-ui/assets/src/scss/components/_repeater.scss": {
+      "md5": "76ffb0990014a4a57230dd62bd8c6faa",
+      "sha256": "a2567eb089e7b160c49a7cffdfa03895bb5efe2a328ac7021767340be0b72716"
+    },
+    "framework/vue-ui/assets/src/scss/components/_select.scss": {
+      "md5": "906aaa94e7af0ffdd4d92aa5203cd8a3",
+      "sha256": "b063205c39a8cb9441207193f3c9cfddcfdfbde0dc43bcf9f64df3f6bd04ae61"
+    },
+    "framework/vue-ui/assets/src/scss/components/_switcher.scss": {
+      "md5": "3fa661542834aaa7eb88017604e1c996",
+      "sha256": "ad4215a31d02ecf82eb4dc09a005e081d928279eedc391b83fe63f62d4640e9e"
+    },
+    "framework/vue-ui/assets/src/scss/components/_tabs.scss": {
+      "md5": "31aa69cd1cfe4c98f5ae7451f2aaccb7",
+      "sha256": "33164abcbbe42776bd9c77a7509d1eb43f6f526dd1a8c53cbb201a7f0b51316c"
+    },
+    "framework/vue-ui/assets/src/scss/components/_textarea.scss": {
+      "md5": "3345868404c1a7193e382a039e773cd7",
+      "sha256": "c89238eef9a0cbdf06620732b78d39a5e1406423a9930bfae106322bf704d977"
+    },
+    "framework/vue-ui/assets/src/scss/components/_time.scss": {
+      "md5": "3211dd6bb2269e014a9cd5566ea55d1a",
+      "sha256": "b1c37d89c49847668665e3dd7748dbd45a32f0a1213f9e3aee5725576edede19"
+    },
+    "framework/vue-ui/assets/src/scss/components/_wp-media.scss": {
+      "md5": "83494d05901ab063c1610befeb4b0b09",
+      "sha256": "03e035aec3a56ff8f9f40f5ce8d5a8a8ffc680fbcd4eda8c6df3ae85ef1ad256"
+    },
+    "framework/vue-ui/assets/src/scss/mixins/_input.scss": {
+      "md5": "3a69c0d35c6bbc5201405873e5ad5f38",
+      "sha256": "40c1bc771e5d517822af2c6bd4520d60f78653d384939b901ef4553087baa194"
+    },
+    "framework/vue-ui/assets/src/scss/variables/_colors.scss": {
+      "md5": "0ddb1a963478ea0996faa385ce87429a",
+      "sha256": "1514e07b2f2ed3eb9958dec93c95a6664e4db6541cb6cff28c3e6991e01023ff"
+    },
+    "framework/vue-ui/assets/src/scss/variables/_fonts.scss": {
+      "md5": "9990728bc5e277009bd8c7db5fdfd885",
+      "sha256": "93f27a63c4e9203691b43286014a8dbbc04203fbc393611edcbc1ffbbf2a2a24"
+    },
+    "framework/vue-ui/components/button.php": {
+      "md5": "779f7659e1497b2979c7db306b0324df",
+      "sha256": "0359e981317d7718bca1ee3916d0251f2ea8246b0b1b9aee016cf843f2b2bee2"
+    },
+    "framework/vue-ui/components/checkbox.php": {
+      "md5": "0ae20314164eebcbe19bd0dabd933ea2",
+      "sha256": "c3df30449844bec354fa1ea992496b0d0519d1af9ae46f413cbb76bacaf983bd"
+    },
+    "framework/vue-ui/components/collapse.php": {
+      "md5": "9143526a3c5e0ddca1c6245c4a2cd926",
+      "sha256": "aaf02f85efc67dec03066f14544c8b69697c0c0270a461db120a66b176a036b4"
+    },
+    "framework/vue-ui/components/colorpicker.php": {
+      "md5": "41674eb6ef7bbae44077b7b97ebf6d5d",
+      "sha256": "2c2b7c24c48a27f1a7f412a005dfaa92caa9d75f8d9cf910557e1f6b12ec0d36"
+    },
+    "framework/vue-ui/components/component-wrapper.php": {
+      "md5": "da7cd901319796090457c006d18f7994",
+      "sha256": "6bd0f3846f124fea691de32428545d4c9e462477c41e97694a021b0a5e2f1099"
+    },
+    "framework/vue-ui/components/dimensions.php": {
+      "md5": "82f5b1a4825bf940f50698898545a754",
+      "sha256": "16aa57154eb3cf858062311cde2dfef63667fc0300b678ba44f34d3680347593"
+    },
+    "framework/vue-ui/components/f-select.php": {
+      "md5": "da331800720f1ef85cddca014e04ef03",
+      "sha256": "b552acf9a6a8f02a858e4ca01c69c1965da68e033b04af7ccbbdccef9ff374d9"
+    },
+    "framework/vue-ui/components/iconpicker.php": {
+      "md5": "2ced5ab8a0c6ead1ad1cca8b5c38899f",
+      "sha256": "887a926164e5ccc861933a26c9aef911ddd788ea8af9b8009501aa343b00b8e1"
+    },
+    "framework/vue-ui/components/input.php": {
+      "md5": "dd6e3eb5f25389896dd37cb06e02fe5a",
+      "sha256": "001c581d9fefb0580983f814894729cbd8d46cc24a16cc74104fcaf9d2571ce0"
+    },
+    "framework/vue-ui/components/list-table-heading.php": {
+      "md5": "dbe3fbd0070f93f643b5e405bbcd2ba8",
+      "sha256": "1a96f2e7716882399380f0ba427a25c3a675293fdddb3381f599c08d38562a6a"
+    },
+    "framework/vue-ui/components/list-table-item.php": {
+      "md5": "0df83c2259b208ed60fc85c74fcd779c",
+      "sha256": "232bbd641ac035bf349c8ff494498b60ae4e5c2275395dbeaaaecad6d57a4d82"
+    },
+    "framework/vue-ui/components/list-table.php": {
+      "md5": "6232149d09ad8ccaa31a4340c9c7d28c",
+      "sha256": "3ff6d7012eb01177f5dc472797b3c9700b34ce31b751d150a8f36268408dfb0d"
+    },
+    "framework/vue-ui/components/notice.php": {
+      "md5": "6f1b1fb3014cb8cc64a385c63f0960f4",
+      "sha256": "1a93e63d6ad4a514a35ba4344f261f1479f17935e6601e54288ce24da088b927"
+    },
+    "framework/vue-ui/components/pagination.php": {
+      "md5": "5743704a5e338ab36a883465fd3b1aee",
+      "sha256": "e8bd852c003595f1e4275e797c508df0f64dd9d61ead39c0ee0d9665d0677c9e"
+    },
+    "framework/vue-ui/components/popup.php": {
+      "md5": "6fecc3b8b174252c67a3baf4fb7abc48",
+      "sha256": "d254f1afd597f8de59f80ad237a9ecbc0d52aadce60ce28a34e76734ede5c083"
+    },
+    "framework/vue-ui/components/radio.php": {
+      "md5": "69230931da257b3d8181b403babc953e",
+      "sha256": "11ad856a394fa23501edd72b67faba78f056f8435b5e8f78470ca3a4f9c34058"
+    },
+    "framework/vue-ui/components/repeater-item.php": {
+      "md5": "13fca32d124d1d15027ed941767a2e74",
+      "sha256": "080f86d5b9eee3a6be87f4414c45afd4f31ddbbab9a91e2376fcff1661e8227d"
+    },
+    "framework/vue-ui/components/repeater.php": {
+      "md5": "5d57fee78e46b8c5d486d203802093fe",
+      "sha256": "178ddd6767d77de7138dc429705e5b44f22585fb6a7c8576acbb07ef061ecbd8"
+    },
+    "framework/vue-ui/components/select.php": {
+      "md5": "4fe3cc25cc6d3ab4c597e0d274c57c55",
+      "sha256": "ea3f735f71969496dbfcacc8270b6c73ae65fad7ec736a6f7a9d0c3f477f9d8e"
+    },
+    "framework/vue-ui/components/switcher.php": {
+      "md5": "da0dc1a9e202d7897c4c6dd7542e2bff",
+      "sha256": "550181b585965517587416e895a5299e7fff4906cfcdf0aa389699a5de0da815"
+    },
+    "framework/vue-ui/components/tabs-panel.php": {
+      "md5": "873216bf0d135b4194a2712f350b0d1a",
+      "sha256": "905c82169443d16dd01c4b3b152c5591b37e45cc7550947d2a6ea5cd1ac234c4"
+    },
+    "framework/vue-ui/components/tabs.php": {
+      "md5": "6ca5010cb7b20f85cec224df0659ffc3",
+      "sha256": "bb1a48625f4ab26fe28f8bd5878bf40df7c86c66056290758a019053001932d7"
+    },
+    "framework/vue-ui/components/textarea.php": {
+      "md5": "cb5bcabf1f65b249e108bcfc4a8eb618",
+      "sha256": "881deb6feb795d0bd4b2cdc54b81835e1735ef2714fb101b7cc5bba723364fd3"
+    },
+    "framework/vue-ui/components/time.php": {
+      "md5": "4cdfb968fde419fae794f48bb1796711",
+      "sha256": "e27f3565e988d7acf5306bd800d145e98470a7a277ae23aaff4de30fdabf6237"
+    },
+    "framework/vue-ui/components/title.php": {
+      "md5": "3ddf22a40c5272578ae1cd3481331db7",
+      "sha256": "5bfb18927e638bfb8532fe3665b8bb79e9afda5dc216f4205a380067017ae893"
+    },
+    "framework/vue-ui/components/wp-media.php": {
+      "md5": "f304ddbbb509e36407df3f7a0efd5d5c",
+      "sha256": "2019baa324ec522546864c7b6f4f7cc4fe2e091db2df406287fe0a5691b69958"
+    },
+    "includes/blocks.php": {
+      "md5": "7d214bff747dd60d545a3eaf88dde31b",
+      "sha256": "3726226b1c7068be971356c6231a57fe0284d43b6562f8a4ceb42fc5e5d1e0f7"
+    },
+    "includes/data.php": {
+      "md5": "b2d4eeda8a97ab3bb6c1764e578a6d1f",
+      "sha256": "40cd3853c386761f0dd8b920bddcadb8e3a03bee4dca768e8d58e90e214b4dc6"
+    },
+    "includes/db.php": {
+      "md5": "a7a5e5e7746543da1969984754d8888e",
+      "sha256": "4e4d960fe894aaa62b707f4dd4e3e2f6e0b17c4dc3ab0ded9534598ce304688d"
+    },
+    "includes/functions.php": {
+      "md5": "15c68e459a60cd93f0b229bb608eae5e",
+      "sha256": "7f08f624084b59f0a8904afab1732038bdbb207eb0893d0c3ef665de742958e1"
+    },
+    "includes/hierarchy.php": {
+      "md5": "bc24f6888af979c05203ac1159a443ac",
+      "sha256": "8530de7a16018d4b37f6829cf31ab768467d2ccf91858e5c7295409fda4ec00a"
+    },
+    "includes/post-type.php": {
+      "md5": "e70498af71b7db28fb1413469b524a72",
+      "sha256": "8eec95493913eb93bd320d34048047b793c88f0cee673d3ee46984ad91d2d695"
+    },
+    "includes/provider-preloader.php": {
+      "md5": "d6820b7c6e2a00aa1afb30cdfd96c2bf",
+      "sha256": "ca125525bc668e6d145df9f68bd2b16e72f867b1b855ebf22c54b4c52a145bf9"
+    },
+    "includes/query.php": {
+      "md5": "239bd9b420597104791b8b257f0d1105",
+      "sha256": "5e5f18ef1c62234ef4a61f6ef5f50c235190164b48bb62805fa1968e9b961450"
+    },
+    "includes/referrer.php": {
+      "md5": "7a556fadc954d6115f9ea10beaa0477e",
+      "sha256": "c08334a08929ede5d5c270b8658a377945333945980e8a11bfe411bb91f66a83"
+    },
+    "includes/render.php": {
+      "md5": "d2630914a33843a64ba9cc829eac0a09",
+      "sha256": "652267a15c55e718ad96f2b6882b32f4a2d6f6d0c8ebc443002128c17cabaf57"
+    },
+    "includes/rewrite.php": {
+      "md5": "60afd88db5072411da34963c1da49908",
+      "sha256": "9457982f9ba7f0efec74129d5ae54953540ccd7adaa3a033dc83f8124d3c4b52"
+    },
+    "includes/settings.php": {
+      "md5": "217e0b28746dcfabc2be896936f6c624",
+      "sha256": "2c6196598bd05f4a1ebd80ba8b9eda17469128ae6a7b16a2ee13b142ec3c8e0e"
+    },
+    "includes/url-aliases.php": {
+      "md5": "709e1fcd517d5b552f69bbccccc86e53",
+      "sha256": "4cde6dce9a404af2f3a6c4366d58e15543f16f7ba873ebbc3f6585df9fbc9fb8"
+    },
+    "includes/utils.php": {
+      "md5": "adfa2214a26e9843fb690e7c72be4c13",
+      "sha256": "e13ed6ae9c1bd1ba6d32f667d9320a1c525524908be943c416e12e8aa7c0afa2"
+    },
+    "includes/blocks/active-filters.php": {
+      "md5": "baf4bdac46e7e7a9b7d97330018cbb2c",
+      "sha256": "404ba895d1b63651378050ec390a453398261978da2ef99b9e6e0c1e30cc67c4"
+    },
+    "includes/blocks/active-tags.php": {
+      "md5": "2638e7527561434a744dfcf5a6ec5fd7",
+      "sha256": "fe69818764881704285428426d25487428acaeea9f379a8ece861f7c5cce7ae6"
+    },
+    "includes/blocks/alphabet.php": {
+      "md5": "00a55d88280ac1110e01048986220389",
+      "sha256": "e5913d11579f7a5d60202a39a6619d6ef24d3e66a4e4032658e66c0ceb301d36"
+    },
+    "includes/blocks/apply-button.php": {
+      "md5": "23cb4ad72bd3888468ec986ad4edb260",
+      "sha256": "b2b13f6e30d0bbad42c566a64b27fae901d7f6ed91d06e0f018c175dec07de80"
+    },
+    "includes/blocks/base.php": {
+      "md5": "d0c73db6655c35a5eff0e14c07239df8",
+      "sha256": "429c4c01dbdf5bf45fa0c119c7253451fb63de18d3c56ac8a40c830e30164202"
+    },
+    "includes/blocks/check-range.php": {
+      "md5": "b133cfe394fa7e2144f9cd31c5e17b57",
+      "sha256": "3e79826fd61ae5980753eedb5c8bc6b68d0496366fe8a5bee6ef26d3160592ae"
+    },
+    "includes/blocks/checkboxes.php": {
+      "md5": "dbfbb531745edfc33047ace517f7a12e",
+      "sha256": "b59339d85c245881af011ba728998a43774453e6b89dbf679ee98a504e8abc20"
+    },
+    "includes/blocks/date-period.php": {
+      "md5": "aa9e515e792bd7ea625f71880a69c5e7",
+      "sha256": "6addc3b81066087049cd1117b8085a7466a726c7fe370c110e5d2817eb62a04d"
+    },
+    "includes/blocks/date-range.php": {
+      "md5": "c9e76c036bcdbfebf6f6c76a3335c69d",
+      "sha256": "b9e67109dd2676d6d98119f959452afc11816c07a3dccc146c67c070405c8747"
+    },
+    "includes/blocks/hidden.php": {
+      "md5": "003f8ba7cd6aec8fb064a3f82e6dc9f9",
+      "sha256": "046d2d3c69d240f819ff2b850a3b9cff93ed7bca15d0c7b94fb211d3cb571d2b"
+    },
+    "includes/blocks/pagination.php": {
+      "md5": "a19400ca5c35dd9c3f1c603498f2f563",
+      "sha256": "40f015c2aa67318e9c6772add50e7d20bc590fc7736a9d9218687ffd44762ded"
+    },
+    "includes/blocks/radio.php": {
+      "md5": "ed67b8b01bfeabce40ab4af627bde787",
+      "sha256": "40f2290ec1a0fae4a008c69ea84f6f92f490d4a830ddbbaf3e52f0af1598a24c"
+    },
+    "includes/blocks/range.php": {
+      "md5": "0bab0c881b81a886e328e95b3abeb509",
+      "sha256": "0c4364c9e52d5f6dc153368ab572132b36eff6e3815db56b2d163b9d9c4869e7"
+    },
+    "includes/blocks/rating.php": {
+      "md5": "9bda3c9fa194f2e3959f118d611655c5",
+      "sha256": "48f04679b2b2c9864c3c77f5932870010e323e026ff2a9d0daedcce9e8cb6421"
+    },
+    "includes/blocks/remove-filters.php": {
+      "md5": "d56a1bb169218a7d68e1dfd4db2fa8a8",
+      "sha256": "11e233d80b8f9e5fd40b4833fd8617ecc9ab27ec94c70f0648051033bf9b715d"
+    },
+    "includes/blocks/search.php": {
+      "md5": "391e705272c0dc1d6bca05e37fbecf17",
+      "sha256": "6ae03ca2664d5184d780421da86344ccd640471fe3d5636cd32be7e136b23e79"
+    },
+    "includes/blocks/select.php": {
+      "md5": "56322057e82c4096c25dde7eb7a02668",
+      "sha256": "9a3fc1f349350299457a246d8d187796eb66b3e56934a8e42ae4fd6088812ca7"
+    },
+    "includes/blocks/sorting.php": {
+      "md5": "e79f68bf06294e76ae066e71f327cb05",
+      "sha256": "b0a4131f12a4e099b373e4b5754819e015611cdddd06ea036be0952812c28db0"
+    },
+    "includes/blocks/visual.php": {
+      "md5": "3a86209fc77335d99d188d7beec76e57",
+      "sha256": "6632697d7e4007c1f794347063cbd670a64deb7479ae7efaf2b8673d07ed23c2"
+    },
+    "includes/blocks/common-controls/additional-filter-style.php": {
+      "md5": "a8301a368d99b00181dd9fde84b96547",
+      "sha256": "948d6542fb5294c8705959110bb4d8dde300af59c91b18113ae1aefc202c960b"
+    },
+    "includes/blocks/common-controls/collapse-icon-style.php": {
+      "md5": "2ae41822ac1967953013924b00bf58d9",
+      "sha256": "27f9e97833492150f973fb18f5756adccb6e7b30cd6f03146c86f72f56e02331"
+    },
+    "includes/bricks/manager.php": {
+      "md5": "c46c90a19b2683b7800b6c998fc79e4d",
+      "sha256": "bdeb0dff7bf8fffaa72cc10297ba4f2b61501f72c2f19d0ef59bf61c722920ca"
+    },
+    "includes/bricks/provider.php": {
+      "md5": "2eac1eae6abd43c74892139140e2cc1c",
+      "sha256": "982fc1f94c2c02f08e3503d147dfe9a295636bdaffbefac7fb9122d63aa70ae2"
+    },
+    "includes/bricks/compatibility/elements/base.php": {
+      "md5": "a187886716854c50b451d3c388e10127",
+      "sha256": "1dc02394e8d3f0a0b5f11405e17a8154f5aa022893a9d1a54f51c26451c7f92b"
+    },
+    "includes/bricks/compatibility/helpers/options-converter.php": {
+      "md5": "f2e1eaf602d8a290281ba19e075716f9",
+      "sha256": "2cb76f7d40baebfdce8d82d582a702470655a73803c9c77712d01cb53688a37a"
+    },
+    "includes/bricks/compatibility/helpers/preview.php": {
+      "md5": "9b40b92f3e010604392915b38327381f",
+      "sha256": "67d3c38645cc9d4d374ad49b75e75ef117c40db61a95055149bafe0ddb1c4374"
+    },
+    "includes/bricks/compatibility/helpers/repeater.php": {
+      "md5": "8d0c1fafd2c0d6991c1908a96968c9aa",
+      "sha256": "be3e8ba529683183416eeb79391af730beb34e88cfa45d7a8031182f6b9e13d8"
+    },
+    "includes/bricks/compatibility/helpers/controls-converter/base.php": {
+      "md5": "a3680c723d4c5f76d7a70f07103adc72",
+      "sha256": "abd78745f531d4f24f54f95b9df0cc762e453edf81a334bdc05e3ffa10b9e4a1"
+    },
+    "includes/bricks/compatibility/helpers/controls-converter/control-checkbox.php": {
+      "md5": "5d3f6a5302f3fe36e3314dad6ff878f0",
+      "sha256": "a55ead04d535bdb5411fe7846dff6c01a4bd1947e140dde1818cfce6a2d18519"
+    },
+    "includes/bricks/compatibility/helpers/controls-converter/control-default.php": {
+      "md5": "2b1fb6cab994a60d274013d6c907c29b",
+      "sha256": "38d4d6d02b79f7fe9c6cb614c24cfba43eceb6172606f8c3daaca676e76876a2"
+    },
+    "includes/bricks/compatibility/helpers/controls-converter/control-icon.php": {
+      "md5": "e3b30ff92b11c23239d8f0364df4cafa",
+      "sha256": "ab9bc7d4da497ab8e943e01d143006de5fe4fc827e9bb0327aae6d3bbe33da4d"
+    },
+    "includes/bricks/compatibility/helpers/controls-converter/control-repeater.php": {
+      "md5": "6fe2a61284276b4bf553be0ad1e78694",
+      "sha256": "8fe3670cf7534be048aacfefae025b7612b46c7065b2fb27b6fd6718aca17a67"
+    },
+    "includes/bricks/compatibility/helpers/controls-converter/control-select.php": {
+      "md5": "5e2057069f4cf376decc5900dff3c589",
+      "sha256": "253cde3bfe4485a735e8c772218e13877fac6607efb55bebaa7924aa11958ccd"
+    },
+    "includes/bricks/compatibility/helpers/controls-converter/control-text.php": {
+      "md5": "298919b40bbc3acbfc4e117b1e56313d",
+      "sha256": "9a53072e045b6588aa583c3291be98bcdb7ab86c213711eee9e87254a7c82cd5"
+    },
+    "includes/bricks/dynamic-tags/manager.php": {
+      "md5": "401348c02726ad89ec1cfc4ed3e50130",
+      "sha256": "2c68c525b1d2df4f554276c5d6c9847c3ca083ee0795ce6184c09b41e7933d9b"
+    },
+    "includes/bricks/dynamic-tags/tags/seo-rules-description.php": {
+      "md5": "68b69ff9b72e8e2c2c81f2b7f63d1ae7",
+      "sha256": "127f4069730b2c60c98b16d35fe0ddd25850902dcad0f53d40b8dea216f4df84"
+    },
+    "includes/bricks/dynamic-tags/tags/seo-rules-title.php": {
+      "md5": "ab8fc1ab5be6fb61d118a873e5854ce1",
+      "sha256": "1cb8cb7608a6863abb85c2dcd80788a67ec147ced470249715e31fe333613461"
+    },
+    "includes/bricks/elements/active-filters.php": {
+      "md5": "7f4748443d034237a601275fed6c080a",
+      "sha256": "9dd9f802769a89c3bc05beb2c3c70bc1068500b57060a4596ced779fdf60b6c6"
+    },
+    "includes/bricks/elements/active-tags.php": {
+      "md5": "7533a47204c3bc672f9668780039e107",
+      "sha256": "18902d10652286f5f062aa9ee5b862d7b7c50e5d45fb1a06c2d815732c77fb3b"
+    },
+    "includes/bricks/elements/alphabet.php": {
+      "md5": "58d30c8d5c1ab2fe4f0377156d1e3d84",
+      "sha256": "aafdae692f0b577014776ad2d27f7d9a325e3424176c012dfdd2fae9a08e9ac3"
+    },
+    "includes/bricks/elements/apply-button.php": {
+      "md5": "a4e247e028263e6fa84f4d73aeabb607",
+      "sha256": "14c3bfdc6c58657f6bbcac27b6ce6ef54edcf24d28f16520af129d264d8fb217"
+    },
+    "includes/bricks/elements/base-checkbox.php": {
+      "md5": "c31602fb9cd3d86a62fb92b0d1747e0a",
+      "sha256": "e418c34d5c40600116ad4c30cb2c1dcd2eba321390de9f210945da90bc9ec5c2"
+    },
+    "includes/bricks/elements/base.php": {
+      "md5": "e371af7f607a84e239ff9d08356390d7",
+      "sha256": "a4da7487055f06e7370229271901bc07b74f7367a29755f3c8736f0fa327a950"
+    },
+    "includes/bricks/elements/check-range.php": {
+      "md5": "255b303f7e8a2e18807a4fd83dce11f7",
+      "sha256": "ab136f7665216571fc089faebabd2e00a701275c0b2c0fff98b7765f87b5ecc6"
+    },
+    "includes/bricks/elements/checkboxes.php": {
+      "md5": "0171025cf0b82d0a962beb822363df95",
+      "sha256": "61f148436088c6877dd6e9e6dbb7e954b143612828376bdcf7fb47e3611b2d45"
+    },
+    "includes/bricks/elements/color-image.php": {
+      "md5": "3bd5883d436e229596d37dda8fe5c429",
+      "sha256": "171de5d2e2a261c6441a25f7e201226938477b0e7babadc3cadebae9e7a42795"
+    },
+    "includes/bricks/elements/date-period.php": {
+      "md5": "b251cbafe08925c7bb04f487e3eb830a",
+      "sha256": "9b912cf3c1c5b469311407596ee8a909cc20d56122f764c9012575d92dacf2cd"
+    },
+    "includes/bricks/elements/date-range.php": {
+      "md5": "8d43cbb32762644cc73fbe48eb83c752",
+      "sha256": "0059c3b777b994d8070a08dc75082e9a05d85d78c09853729e55d6053f744649"
+    },
+    "includes/bricks/elements/hidden.php": {
+      "md5": "9b29b6a6045dbbdbba3def2867476ae3",
+      "sha256": "d329815580ac0d98897cf1e9bf89b5fdfb5efde71945048aca9cebf1bfac3ce7"
+    },
+    "includes/bricks/elements/pagination.php": {
+      "md5": "9fdb0787906800025717fb16eb416e40",
+      "sha256": "5fdead3a44349fe6aba04a094aedb0e7014fc0417bd02d733be821025bca3cb5"
+    },
+    "includes/bricks/elements/radio.php": {
+      "md5": "3e42c4bde33355b1b387138da35ed241",
+      "sha256": "2d51402c9f877aba45abdf81d585eb7c1f7f0ab73cb944e5df6c5db27eb87061"
+    },
+    "includes/bricks/elements/range.php": {
+      "md5": "5e95d526c1df96cb71835c83629d8008",
+      "sha256": "63ad9e8a491898cdebc1ec002a7ad763eea8fa645353c2d3c49403d82f68a202"
+    },
+    "includes/bricks/elements/rating.php": {
+      "md5": "d5cbf83807b4db00755c5c87e8cd697f",
+      "sha256": "afdd56b10ddc862a4f2212110f570e894a79626dfdfe58de4c243a9be85771c3"
+    },
+    "includes/bricks/elements/remove-filters.php": {
+      "md5": "4fbb942c1587b8103643ab1c2448cfcb",
+      "sha256": "2ef957d8e561ff203c40e31939092b93f514079e5f9f57b32bd59c2cf01824d3"
+    },
+    "includes/bricks/elements/search.php": {
+      "md5": "7abd475ab9fb5a0c0b8d203fb626644e",
+      "sha256": "1296150a24a60987b1c5c2aa3b20e582e6177d57919a3db7fab6107d299fc364"
+    },
+    "includes/bricks/elements/select.php": {
+      "md5": "0e09b249126ae3b0c3dee8f84c06dc00",
+      "sha256": "e27e54f7a99e7029a44c5b34e920c0111c5b864efbf0a6afca6d2a7e15be4646"
+    },
+    "includes/bricks/elements/sorting.php": {
+      "md5": "d8f5b292012a853ee87c3ad8edbe7325",
+      "sha256": "c61ad8eec4bf32375edd30ab1646ebcc0aa0202d9f93e0005c39f3cce0e17fa2"
+    },
+    "includes/bricks/elements/common-controls/additional-filter-settings.php": {
+      "md5": "e70b4e95f86b704824b7f2975f6a5461",
+      "sha256": "e67fac7ad996d3d418a2b768c3b140f42e62b4de68e9c72b3c8070379115cdf9"
+    },
+    "includes/bricks/elements/common-controls/additional-filter-style.php": {
+      "md5": "700d23eb983e7807d50ee74526dd2f26",
+      "sha256": "3a1eac64e95289854537cc1a14551743ccdd6b24dca045a1fdb106c805d730ae"
+    },
+    "includes/bricks/elements/common-controls/additional-providers.php": {
+      "md5": "933313d5c95305744261dfe49bb4f7af",
+      "sha256": "68f0f99d6fabddcd92bfdced72d62ada7ab96bdf70e76c3e40ae1864330d0460"
+    },
+    "includes/bricks/elements/common-controls/air-datepicker-style.php": {
+      "md5": "ec46a1647f65cbe90e5bafa65e484e19",
+      "sha256": "572c14fb4ed615ed02d09d7784933daa7061963dac77536ff3bf2e3b879176ac"
+    },
+    "includes/bricks/elements/common-controls/datepicker-style.php": {
+      "md5": "c04d476d7ce7fe887ab8c057c2c6509d",
+      "sha256": "76199abf8587f14cf3b413002aaa9a25288c965b6b742a4bd308407e7f1bbb51"
+    },
+    "includes/compatibility/manager.php": {
+      "md5": "62872c57f16deb3f3b2321483e1693b4",
+      "sha256": "27e6efde3d44eef017a05fc6f1dc87ad761d3d5c71b4f1feaefbd501c8fdc575"
+    },
+    "includes/compatibility/rank-math-seo.php": {
+      "md5": "af2e255eaedfe69468cc19d5f9131536",
+      "sha256": "90a140699ca41dd71886429883235682ee3ec4da6c1128de04a0dabee790e846"
+    },
+    "includes/compatibility/weglot.php": {
+      "md5": "709a617e86f52173a60d63b5900cc9c1",
+      "sha256": "e4d91accd86c507f5a6e9812d026bd3554907bbae6ed67cb5095fd940bd55b30"
+    },
+    "includes/compatibility/woocommerce.php": {
+      "md5": "3860137e926dd4bf322ae81c495e6012",
+      "sha256": "7ed2d61abc139f563c68a6db1cac72f887fa4e7104f09219b24f28f798140521"
+    },
+    "includes/compatibility/wpml.php": {
+      "md5": "1377cf62863c4044569e27060a72055c",
+      "sha256": "a545034cfd2bec443b994c7377f2c8236e1841d4a2e4a43485c0924376011af9"
+    },
+    "includes/compatibility/jet-engine/manager.php": {
+      "md5": "30c44cb29008901ed6575b7f67665775",
+      "sha256": "57d6fd1dc958a8045be96c5edfe5ac5c0be30c4cd957d673650f41d4a2786450"
+    },
+    "includes/compatibility/jet-engine/macros/filter-query.php": {
+      "md5": "d65a7ba0c9ab89dc563a6ea21431fad9",
+      "sha256": "19bf87f041b0a2b5438e39d6ceec39eb92a0c8a3f9b0ebb67c759939fd360b8b"
+    },
+    "includes/compatibility/jet-engine/macros/seo-rules-description.php": {
+      "md5": "54065f4ac126236b2c0a98f9179a0739",
+      "sha256": "e8f09100a993d24bbfaa5764a29d565a7838c4ec71fbff8ac1ef263e38a490d7"
+    },
+    "includes/compatibility/jet-engine/macros/seo-rules-title.php": {
+      "md5": "a1650cbdaa9e8f6f5569a2dbe1224807",
+      "sha256": "9de4f407129dcf7bdc7691bdfa36f6da7a09085500c7df20aced8e5a1a19ca1b"
+    },
+    "includes/compatibility/wpml/integration-classes/jet-smart-filters-sorting.php": {
+      "md5": "eaf1a1f9ff45a8225af08ae916c3f98d",
+      "sha256": "eb9d95f525dee186bb059db81f1e0cd6df9cc00ec0991bdd4deebec15cc29b91"
+    },
+    "includes/elementor/manager.php": {
+      "md5": "8bfd05c4480f34d0f6627843280b0293",
+      "sha256": "f34179b774a041898724e74d1a2f698c672dd4ca0cb9a4aa35ea42627bfe6b5f"
+    },
+    "includes/elementor/widgets.php": {
+      "md5": "7b2e2360cc3d21e1d6e1b770943f2f44",
+      "sha256": "cb1127c947754e86048fbd6596d12b0dc9e14197a504f36434fdef06609a4f7e"
+    },
+    "includes/elementor/dynamic-tags/module.php": {
+      "md5": "c7787de3e581e130f6564e4934531898",
+      "sha256": "55ac865fd81266f0e0d4395c1919ee4be3bc72c048b4bbf3cd02bef57de04f85"
+    },
+    "includes/elementor/dynamic-tags/tags/filter-url-tag.php": {
+      "md5": "8adf485fc6244856bb9ba43033a73655",
+      "sha256": "f6758fbf2f701404fc31f1b04e5a60fc1763d508debb96b1da8007f92f4680c5"
+    },
+    "includes/elementor/dynamic-tags/tags/seo-rules-description.php": {
+      "md5": "74de934a406f1d74171ab66051baa025",
+      "sha256": "da2093a9cbfba4cdbd4c043f5c7718f445708962cee6e553ee2ca4a5642c225b"
+    },
+    "includes/elementor/dynamic-tags/tags/seo-rules-title.php": {
+      "md5": "77e897c7d128a6a8b78ced395919fe3e",
+      "sha256": "e4161ca0f5a5bf93a137689f837ed2e9b8088acd9b95c10368f35d3559ee58d7"
+    },
+    "includes/filters/active-filters.php": {
+      "md5": "f9f60803c07701767744e1bac7b084e6",
+      "sha256": "8b4b82514ea2abdd54b654d51b9e2e993c37c525eca5f7809122782cb873d0de"
+    },
+    "includes/filters/alphabet.php": {
+      "md5": "db7f195e7216f555da6b7f04ef6b05fd",
+      "sha256": "ad621b7c083f8ff384a2c38f0f4dbb93b1686481bf427b545d4ba54b2d08fbe1"
+    },
+    "includes/filters/base.php": {
+      "md5": "0b76ccad94b88de09b859e4cbbf0c592",
+      "sha256": "0bd780030fc5d97a0b2cc77843f9beae10ca35470964c7ef572cd3914ea015e1"
+    },
+    "includes/filters/check-range.php": {
+      "md5": "fb6a87e796b6330001638ad32f72442f",
+      "sha256": "5aa92d5096ccc1b3e75611f77f4654c7da693390caf64ec3ad87005ef72dc4b3"
+    },
+    "includes/filters/checkboxes.php": {
+      "md5": "3f42c33194a3418ae91c5a20b38b613f",
+      "sha256": "025a3483daf18d19cb8a5e89621a948e3f327761e48c8e6ac0baf3c192e9eb38"
+    },
+    "includes/filters/color-image.php": {
+      "md5": "d7ef4e235ec03ba05b2509d9627a906e",
+      "sha256": "7c64a8fe5fcf41a00d2e0fa64efe8907b812452b245fd69849754bea6c461ea8"
+    },
+    "includes/filters/date-period.php": {
+      "md5": "0ad389bc24f4f4f3e5a3fb5b5eb79f40",
+      "sha256": "4830c84e869eaa3bcd9545da2a30074a912d462faabedb5c63a28eb412083f36"
+    },
+    "includes/filters/date-range.php": {
+      "md5": "d883eb83307b7cf05fe7121a483f3988",
+      "sha256": "5b0561ed5fc257e1e7ec30c95efbb655156a6a50629775075e80d5d8c4ab78f2"
+    },
+    "includes/filters/hidden.php": {
+      "md5": "7aedb2a442992b39886a48fad27731df",
+      "sha256": "8b27ac37787cb2d853d78962b2ff1e3b100a40713ace05f30a18a38f17d21255"
+    },
+    "includes/filters/instance.php": {
+      "md5": "f94306d0513d8f10ec77017708b8f6ac",
+      "sha256": "6aac3e614b8e20033bc4c748f6395bc9ab0902f8d985a2cb6cdb4b24b3b16c61"
+    },
+    "includes/filters/manager.php": {
+      "md5": "721e98e0ee3c8ca36ea6f05c0ea0d9f9",
+      "sha256": "f549ea8cafd95a4b27baf1c8b9b2b56e3b2573140946345df601ab1cb8259a75"
+    },
+    "includes/filters/pagination.php": {
+      "md5": "09017e46b9ee0094f772816a62c13b7f",
+      "sha256": "cbdc8e48956f5f412efcec920d032bbee4f793ce9edc67f7bd6f3f2e7ab3d7c5"
+    },
+    "includes/filters/radio.php": {
+      "md5": "3751a7009a33e2f284b27657940017bd",
+      "sha256": "2e7f935c735a598911770c610bd7104f0e12cea548c4e435e257932c4c045d39"
+    },
+    "includes/filters/range.php": {
+      "md5": "c8e9b720949afa6ee97c152023789924",
+      "sha256": "c5a828e478b5c8a63f29f2355f4ccb44a72b5393d34f304100064c3a1c609ac2"
+    },
+    "includes/filters/rating.php": {
+      "md5": "8b1301cde0ecedba179cf720b9e3c659",
+      "sha256": "da6b75710e42cfe27ae3a65e9323401e3dd78cee2e19332c09ab8f6bc6b2d351"
+    },
+    "includes/filters/search.php": {
+      "md5": "209c4cbe4fc6cc5589713d8ccdae49d5",
+      "sha256": "92f7003ff010b47d13c1e19841040eeb083aebb6bd314fc7c45af93726a71780"
+    },
+    "includes/filters/select.php": {
+      "md5": "f50d5a169aec894e8560d15adcaf5b5b",
+      "sha256": "e7d8f479aa52eed25ecab2229d77ecd4e1c74d0c503df856b47379cab4fb6fa1"
+    },
+    "includes/filters/sorting.php": {
+      "md5": "7c5c4a7d507f1117d55e2531b51c36b5",
+      "sha256": "16a556ce9e8bf6c0ee404efdf16bd067308ee6f9b7438b20e9af65e6abfc5ddb"
+    },
+    "includes/indexer/controls.php": {
+      "md5": "efdde56b28a528e78c39dbb10a7cc869",
+      "sha256": "0aa5244359542567a2354c426d78a2e67cd197ef61dc520093182710b5021273"
+    },
+    "includes/indexer/data.php": {
+      "md5": "a5fcfa33040d5ad46d02fee97d27d2f8",
+      "sha256": "991cc777637b0ff3bfbfab7239080df812170ccf706eb3c48ea27186590aabd5"
+    },
+    "includes/indexer/manager.php": {
+      "md5": "cf1d502bcc5644be00a41142a89b508c",
+      "sha256": "1710c37a027e056ed91e4d5a393f31c7aa4987f1f4f2b35a161bbd6ad938e961"
+    },
+    "includes/indexer/bricks/controls.php": {
+      "md5": "6483bed57d7789e3529f5a3bd5ad511b",
+      "sha256": "18a7b8f1b23596b41e454f0d7ac2cb20559bee64bd073feb5cde3f59aea0dba3"
+    },
+    "includes/listing/controller.php": {
+      "md5": "9d863695072451313fd6bdb262d04069",
+      "sha256": "9a74d0cb210504577a5725f0be7a6bef113911e1365875f8e32837e1cf239f6f"
+    },
+    "includes/listing/builder/controller.php": {
+      "md5": "8d8b5deaada356e5343845c57fbf2666",
+      "sha256": "4eb4ac841764db902dfd591950d6fc3796dcbdd2362250ffbcfee73c8a6956f7"
+    },
+    "includes/listing/builder/view.php": {
+      "md5": "38ac37c061d471d2c05495289d2e443c",
+      "sha256": "3c4dcf34a9ad134cedf90ca014c5e74a11d47696145a02119063ae40e62ec698"
+    },
+    "includes/listing/builder/assets/css/jsf-listing-app.asset.php": {
+      "md5": "88ca7d83b99dd60656e546b6e8da17bb",
+      "sha256": "8a319305201ce6bb007607e35f8ee311d871bccb8cf6cbe4ae2a9a5062e3e306"
+    },
+    "includes/listing/builder/assets/css/style-jsf-listing-app-rtl.css": {
+      "md5": "5de6208987661c01b2fc638e9ade5f0c",
+      "sha256": "0508e33ff253c7b3a40a51cfb9d7398bb76c3547d910eb5b47790a6548655310"
+    },
+    "includes/listing/builder/assets/css/style-jsf-listing-app.css": {
+      "md5": "8270e826154eb4c5ee557f4a536f3ca6",
+      "sha256": "d5d17ec0582c2796a9b2065ed520e2f26bc02b5028aa229bb42f38de240ff4b5"
+    },
+    "includes/listing/builder/assets/js/jsf-listing-app.asset.php": {
+      "md5": "0cfd18b85ab658852c44896f34ff7a5f",
+      "sha256": "abb718ecbaba17925f57c57ce4f6718b7d48a4cd03a47dd97c454253d4696a2c"
+    },
+    "includes/listing/builder/assets/js/jsf-listing-app.js": {
+      "md5": "911a1b8244afc3a9cfb1844d512d438d",
+      "sha256": "3f86b9a2bbac03712eb585465df9a5fb81307088f2c6f5f489a2d5a4b52ccd8e"
+    },
+    "includes/listing/builder/blocks/controller.php": {
+      "md5": "7e716850686e6834c568a503fb56ecee",
+      "sha256": "fe3e501ab4123e802aecd8d07f1364186e672a6623c74a44a77a8486f2b3fa75"
+    },
+    "includes/listing/builder/blocks/listing-field/block.json": {
+      "md5": "7a053dc8f6961e2388ae98fee40bb429",
+      "sha256": "cdb02c9e8a21f9c3e6b6dc56d90b183171ff0b29924a801a10b75ba7352e4e75"
+    },
+    "includes/listing/builder/blocks/listing-field/render.php": {
+      "md5": "ed102c633d7566fbdd41df02c826a956",
+      "sha256": "2363df3e6df7cca1bbb0ff4ccdfd35bfd8152c6fd2191ae47cc0d488d6994b8e"
+    },
+    "includes/listing/builder/blocks/listing-field/styles.php": {
+      "md5": "b3e2d15f00a1801d6b4ce4b1f418ede5",
+      "sha256": "d8bc0a0550ed0c3494e4ef0c035579c447b279d64e23fe9d366371413c0a90e4"
+    },
+    "includes/listing/builder/blocks/listing-image/block.json": {
+      "md5": "65853817443894d65ee3b2f30db9548e",
+      "sha256": "14f51f204d43a983961e606321e3811f31a3fdeb80a61fea4dfda08064b7321b"
+    },
+    "includes/listing/builder/blocks/listing-image/render.php": {
+      "md5": "ee6e5a7727c5164c9e2933481c61e293",
+      "sha256": "627207bd9ae1337f930f3f17c1c9c17cc80f41cc5408df7881fbf40bc5afb03d"
+    },
+    "includes/listing/builder/blocks/listing-image/styles.php": {
+      "md5": "4ba277aa2c17c2617c129075adee4199",
+      "sha256": "7e2f9df787740329deb590bf31e2664a9e4b9ecfe4067a7a61a93296fddf3518"
+    },
+    "includes/listing/builder/blocks/listing-link/block.json": {
+      "md5": "8dc3ea9b4445b79ac757fcd5bb2be2ea",
+      "sha256": "1b66cc3ea1cb1686cdd239f7d0aa9b621f7e156baff7da79f4b9d1193412334e"
+    },
+    "includes/listing/builder/blocks/listing-link/render.php": {
+      "md5": "c189116cf770c0cde666e551ae094bcf",
+      "sha256": "92627f5b401e6eaa5a3798a0c24bf829be30b3bb0e793f3f4f05a118fff8f97d"
+    },
+    "includes/listing/builder/blocks/listing-link/styles.php": {
+      "md5": "9068dc65f9f4d6dade4d9a0e86d2d504",
+      "sha256": "3adc56f4509e46825450bd1c3e3e50a59847c4ec11723519190e1be837ed17f3"
+    },
+    "includes/listing/builder/blocks/listing-section/block.json": {
+      "md5": "ac1034f8354cb8a6f881391b1f7e6d1f",
+      "sha256": "2a7f975e8ec14ae823d6585e3a2cff7d0e862e12c58db247d5cbb25be776fa45"
+    },
+    "includes/listing/builder/blocks/listing-section/styles.php": {
+      "md5": "82dcf2b0a627e054a4074cf59869aa20",
+      "sha256": "074e3b887a4b6345493c54a0565a47a724d627c95f00c7bf58efa37e93add12a"
+    },
+    "includes/listing/builder/blocks/listing-terms/block.json": {
+      "md5": "38adf88c78f0a3314e6373cebdc56097",
+      "sha256": "db8f0e7cd65a9770af1f6193ee7e0e5705fae1e843a3c0a40182d06a0fa97a40"
+    },
+    "includes/listing/builder/blocks/listing-terms/render.php": {
+      "md5": "5f54e80ea8c3ea130a713bf12c30865f",
+      "sha256": "08334b64eaaf257f64da7201396f5d93cdcf182f99ad6a3e6d7b04a3ecbf0cdd"
+    },
+    "includes/listing/builder/blocks/listing-terms/styles.php": {
+      "md5": "cdb27fd77e8bd088f8b57eaf2aaab007",
+      "sha256": "5aa82f5d87d5439f849452e8334890635974aabfe3b260b89bc97c0ed1166d21"
+    },
+    "includes/listing/helpers/blocks-options.php": {
+      "md5": "fa0eb0889dd3ca016f63afa57c8d8ac2",
+      "sha256": "0b68663babb8bf8abd1094f34f12ccc52e3b28a108e657f29c4cb33ce57cd648"
+    },
+    "includes/listing/helpers/controller.php": {
+      "md5": "222e7f4564198c38f45ad02d5ad0e892",
+      "sha256": "e727b66787c5e0e5644ded44e6dadea0554dbd8beb4c748a5b585abd1cd515af"
+    },
+    "includes/listing/helpers/requests.php": {
+      "md5": "eaac8188351c79e883c80794e7b55f20",
+      "sha256": "c912df9ff7976e701c0443c333075c937edb863f4f00d725297bda7cfe26b3dd"
+    },
+    "includes/listing/helpers/utils.php": {
+      "md5": "d1684fe21cc7c7c725410ee6d929d9b1",
+      "sha256": "edd9d8dab08ed46f27acf89f5c5ef065b3d5ec3f6b0c930e1f04d3749505613b"
+    },
+    "includes/listing/modules/controller.php": {
+      "md5": "efdb9994a5bc74e1b90de52d38fd35fb",
+      "sha256": "1478252d80ccb9f41eeec397fc19a0a4920fae0fd94f3e8b2dd417cf188f1aae"
+    },
+    "includes/listing/render/controller.php": {
+      "md5": "f89a63332d9028a395b92ddaf5414667",
+      "sha256": "993cddc701492fcd31975b94fd9d30df6f8079a868cb323f87048e8a0c89675c"
+    },
+    "includes/listing/render/listing-base.php": {
+      "md5": "24e23fdc8a34d159e9d7394c44f9be6d",
+      "sha256": "239dc3c9c9d52a114bb642db461f1716274cf8d5718d6a959e52d0b9e1952dce"
+    },
+    "includes/listing/render/listing-css.php": {
+      "md5": "fd655b3fbd730128cb6c9e9989b004f2",
+      "sha256": "8e0155b53c6caa5690b31196825cf19619de1dc069f1dd6b9916cf13d112cdd2"
+    },
+    "includes/listing/render/query-factory.php": {
+      "md5": "a5310b26b15bfdb031b112bb8e92f0cb",
+      "sha256": "ddfd982056169d58569412fefeb940305f96cfda38ee297aa589e4b2d5a30316"
+    },
+    "includes/listing/render/assets/css/jsf-listing-render.asset.php": {
+      "md5": "0946092848938ace96f221a15a291b37",
+      "sha256": "53cb39a7e0c43626223d805ace9b63c888a2c868e532086b99bc860ab07f73a0"
+    },
+    "includes/listing/render/assets/css/style-jsf-listing-render-rtl.css": {
+      "md5": "d46a349ae09879b6ee29bea782e06249",
+      "sha256": "cd0f6d38479bc2d64960ce8f87301300ea116c8efad8fab20f3e51998903f91d"
+    },
+    "includes/listing/render/assets/css/style-jsf-listing-render.css": {
+      "md5": "e83da64b45a8c3fc2343f7db9273a21f",
+      "sha256": "a263740d89ac49eea93a42a277d3f2871771f6ced469a9465399d877d02558c2"
+    },
+    "includes/listing/render/assets/css/style-jsf-listing-render.css.map": {
+      "md5": "9253723633bdf0c584bba87d05273d0c",
+      "sha256": "900c0efc05764faae385fed51ebf35056ebc5b2f559f6c919e8b483710381828"
+    },
+    "includes/listing/render/assets/js/jsf-listing-block.asset.php": {
+      "md5": "a5cee3c8f12d9daf4e78cec0baa5d16f",
+      "sha256": "7a1ff55e2ada494c670de2eb2981aa69386cb588a1e5ab1adc430a299a663060"
+    },
+    "includes/listing/render/assets/js/jsf-listing-block.js": {
+      "md5": "9363fc77163eff566ccdb01ff3c43895",
+      "sha256": "5aade1142b00944523a2478ed65b9c53b7fbbeba2a7eecc8dcae0cd1e3dd795b"
+    },
+    "includes/listing/render/assets/scss/blocks.scss": {
+      "md5": "81402b9ae7c6f7f82248f7c71e64de92",
+      "sha256": "872adb6e28292c4c525d985ff6f00ea120bcd7057dd5d2d65ed3c89282dc77af"
+    },
+    "includes/listing/render/assets/scss/style.scss": {
+      "md5": "cac1a3cd1d4a4b9fd894e01060a032bc",
+      "sha256": "b16d643e92cfe56050b372e92e08fd8bdd0e8c9ca7353bfc9086edb9a9062759"
+    },
+    "includes/listing/render/assets/scss/variables.scss": {
+      "md5": "fd6871cd7ac9a976efb5b8a885a59ba8",
+      "sha256": "92a1f5bb74c3765af2800553f988c4e86ecbf7e3c120f59628c0f8f514571001"
+    },
+    "includes/listing/render/query-types/base.php": {
+      "md5": "8d16a46651f57aa42ae90f1e745afac3",
+      "sha256": "02b5cf4202ad67296c3ef7ab3f64421e6bd7d7f39dea89c39b8d0f0510bd7b02"
+    },
+    "includes/listing/render/query-types/posts.php": {
+      "md5": "457551d894869bad8c0ad1075f18f7b8",
+      "sha256": "0414cac0d70e69d9544c5b35882eac376600db0bdda2b15911065d96ede25524"
+    },
+    "includes/listing/storage/controller.php": {
+      "md5": "c78d9dcc6cd2a04803c336b4d7be3a0e",
+      "sha256": "098456bd25690ed4353d4779956f387a5c4fd9a02168c2ad40d5bdfe693cde8e"
+    },
+    "includes/listing/storage/db-storage.php": {
+      "md5": "385bbf6dfa0a387b994d191acee0079b",
+      "sha256": "24b7a4f7d3590a0388f94f5915b0a6798c18072731bc45f481c6aae5c40647c9"
+    },
+    "includes/listing/views/controller.php": {
+      "md5": "761de39ca67a5aef142fa6d8b9d1d0b7",
+      "sha256": "fee2a5992c87a29ed56bab158ed6c466bbe058180b058c223b193698423efe22"
+    },
+    "includes/listing/views/blocks/block.json": {
+      "md5": "c88c36d4393ef4c30cc6c7538ff5a9cd",
+      "sha256": "b8823ab88312f9c7b687e6dd964c6943a86d96a34591c3b18695afc53a067627"
+    },
+    "includes/listing/views/blocks/render.php": {
+      "md5": "039f73f373ddaeff437af1151cdd252c",
+      "sha256": "45a1c42cd05ff24cf19d906d39ef6e5fb030dbc1ca43cf097c1b881d2f3b4a67"
+    },
+    "includes/listing/views/bricks/listing.php": {
+      "md5": "e95c0859c6291d23292db23b8db79fbc",
+      "sha256": "fcd27f9677c9cb1b7cb8f5aab0c81f32e09fed0fa1e1a72f048519a4107e01c2"
+    },
+    "includes/listing/views/widgets/listing.php": {
+      "md5": "589041b226aaa6f932374fb4f95e74f9",
+      "sha256": "bc84db46eed6609bdc1acbda90ee4cad4b797aa11ac9e1601bdc8d0bff4ea36f"
+    },
+    "includes/plain-query/dynamic-var.php": {
+      "md5": "ee837bca143441a2b7c0799b896ab7ef",
+      "sha256": "427a7ace210905985c33d08cb8cc1469c925db9fc74b376998cbb51384325eb4"
+    },
+    "includes/plain-query/manager.php": {
+      "md5": "94db38e5bdc8b2470dc1eb033548eb11",
+      "sha256": "48bd90b7c6ef03748c30658007c6a2ca1c383acd4e6ffbb07b08e2e7194623ad"
+    },
+    "includes/plain-query/query-var.php": {
+      "md5": "3f88bcaf40fb57b66321048925a27fe0",
+      "sha256": "f36647b3d6d14bd720dadd1252c623cae897509e8c697f68cccd612034395051"
+    },
+    "includes/providers/base.php": {
+      "md5": "ec14576e478e5670b0582342d6d425aa",
+      "sha256": "70eec0c6588aa8bff5b36907b93b48a38e69def577ae5d321574682e34f8da91"
+    },
+    "includes/providers/epro-archive-products.php": {
+      "md5": "c782a967d3c98fd27e8f5ae8fb4f15b1",
+      "sha256": "b0a249c4541870e561b69cc481d75255e4b2d72a152b719510ebcb01cb69cdaf"
+    },
+    "includes/providers/epro-archive.php": {
+      "md5": "1485b3e21302c48c6df44bf8ae3f8c47",
+      "sha256": "e4d3aaaf3b9d3e7731aac628d855936ecc6c8cde767e77b5a712c96822c14cbe"
+    },
+    "includes/providers/epro-loop-grid.php": {
+      "md5": "0dfe8a67d77f92bd8056c24581c3d149",
+      "sha256": "32ffbb1539329b18689c250d90f63593e74366d7f5a847436e0c3853501a1b3e"
+    },
+    "includes/providers/epro-portfolio.php": {
+      "md5": "38f0baacb738aebfa9b126a2de6b6769",
+      "sha256": "d1953bfc719ac75330992c1cba80eff5e1d9fcc96c941790e31ddf316e0482b9"
+    },
+    "includes/providers/epro-posts.php": {
+      "md5": "a4070147b34b9b30a09d4a3a21975946",
+      "sha256": "a74c35c13a05991c5770c8697f7ef4d7101bf8908f384a5d78405cf7e0913d0d"
+    },
+    "includes/providers/epro-products.php": {
+      "md5": "884f205dedc7beaf1dc8f2b99303bf3b",
+      "sha256": "640d0375032e74c622078c2c77e8f15a8edfc15725494a33cb548b973b23e68a"
+    },
+    "includes/providers/jet-engine-calendar.php": {
+      "md5": "47bb343292cfafbb151bc95d689f0e3e",
+      "sha256": "c2f050c7c36b528781bb8e55901234b2be18d942f6b697e0b82929827a5b0c1a"
+    },
+    "includes/providers/jet-engine.php": {
+      "md5": "1f15bbd681f6afa2f9be9d1ae4b999ca",
+      "sha256": "d9c4bf4918c0dbfa0609120a5806f48cbe7e28540f848a1e2b4be561a5d4642a"
+    },
+    "includes/providers/jet-woo-products-grid.php": {
+      "md5": "3842f51359ade3500ad23b236c5e6bc9",
+      "sha256": "c02bd904a3604bd83b8519aef47cf3c08ca9fd90732fced6e741acb34e69bddc"
+    },
+    "includes/providers/jet-woo-products-list.php": {
+      "md5": "3bdb2819bd80b5e4ec6bd760ceca46d1",
+      "sha256": "450a2f1ea33f70d75b8ee014a3b0956e2e4237a776c13155cbe12c883f891570"
+    },
+    "includes/providers/jsf-listing.php": {
+      "md5": "3bd40925d4428992ccf3f3cc78877acd",
+      "sha256": "cb0a101a0d70b95a0631efea3a5949f7a2eb04c7f988c219aedf5b9aaac75b14"
+    },
+    "includes/providers/manager.php": {
+      "md5": "517063af580816e3969e2d8f25bdbcc6",
+      "sha256": "de8842e41d99aa7225c61a190070b32c4ce390610851f4529427ff87f88ad021"
+    },
+    "includes/providers/woocommerce-archive.php": {
+      "md5": "6184fdc570e2c339d618d642acce8754",
+      "sha256": "a26a0fb46820f786dfe51599375c65ea67effb2214899fe71cf301386018d4c6"
+    },
+    "includes/providers/woocommerce-default-archive.php": {
+      "md5": "8f958b1f6e413b63dc9decc9dde56f8d",
+      "sha256": "7c4781be779761c033e79abf7a412539198560bb4f40ee9dd6ce69ab85a36373"
+    },
+    "includes/providers/woocommerce-shortcode.php": {
+      "md5": "7f81dcacddf38d9943d35ff7bee2a766",
+      "sha256": "5667e79a4574d4ccc45f7014ca11d129fdb3ad6440498c53f015194bfdd99508"
+    },
+    "includes/rest-api/manager.php": {
+      "md5": "78df4d356205879597e8bcc5a35a2849",
+      "sha256": "7dd07e28b5790b8810464a252d6b91d5aa9ba36fcd4a718bcf0b45a57d69a0c9"
+    },
+    "includes/rest-api/endpoints/admin-mode-switch.php": {
+      "md5": "49064f2d7b80d0aba01f16a5006b76a1",
+      "sha256": "369cb3c2ddb6f3dafcae2d2c20cc875d52009e57e3bd9822b47b50baadf2cb35"
+    },
+    "includes/rest-api/endpoints/base.php": {
+      "md5": "17d72a93e44f92a16447aab925ec0916",
+      "sha256": "09038e16bdebe2e56f7f6be0e33b715296043236aa8abe25c87290b344659312"
+    },
+    "includes/rest-api/endpoints/filter.php": {
+      "md5": "32aa7c3ed0e4a6e0ebe9a717c37b1cc4",
+      "sha256": "ec9e534d2b7fbe0d907c0ca47b30f4ed893deeb6c9604b9d54a69840ce650609"
+    },
+    "includes/rest-api/endpoints/filters.php": {
+      "md5": "6fa07413772ee985c9d5b69068e62bf1",
+      "sha256": "d8152b38311a8d5a6df9f934e5c8295cd4b779f719c13ef31952f36405989cea"
+    },
+    "includes/rest-api/endpoints/plugin-settings.php": {
+      "md5": "1e3cde047ff212e28d7aece90acfdd98",
+      "sha256": "e3687ffd482c18b3503b55eca4133936860107ab6ddcc1d386009cfe925defd8"
+    },
+    "includes/rest-api/endpoints/posts-list.php": {
+      "md5": "ef5def59048764cea081d83cdfc509f8",
+      "sha256": "d665c3d08fb8f486668952bc45e37a0662048c650d50882168e18245770fd96d"
+    },
+    "includes/rest-api/endpoints/taxonomy-terms.php": {
+      "md5": "870bf922cddfc05865884e46e93c2f6e",
+      "sha256": "331707bda63f0e804e45f8a8702389b5da3316ff7251ead7233d671bce7cea97"
+    },
+    "includes/SEO/frontend.php": {
+      "md5": "910dda2228440a45c66fab64a29bf861",
+      "sha256": "c10dfb7b539e835be9160abc9cbb6e2ab465f326c430b892b72097030bb4b52b"
+    },
+    "includes/SEO/manager.php": {
+      "md5": "5f923fb03da965425c3579a821ab7b36",
+      "sha256": "3775fc952bb7cab6caad27615633f082242ea995223dd0d6425f1b3e1cae545c"
+    },
+    "includes/SEO/sitemap.php": {
+      "md5": "8b7ff2ad901489a557650ca3e940b35e",
+      "sha256": "680e12880c60094510fefb1582770bbee86eebf5aed47f6e8566cf8bded77b84"
+    },
+    "includes/services/filter.php": {
+      "md5": "a42b7812c71351b11b3f385e4781717f",
+      "sha256": "8cd8b9bc565a40b9f79ca1a4b35a039f418cae44d06fc3e95436b09ebd16d104"
+    },
+    "includes/services/filters.php": {
+      "md5": "3bde7970072e18f22e02a6e783252116",
+      "sha256": "9094976a0b65ada5111474009db91ae4001b7caa02f5dea519d8a3356f56339f"
+    },
+    "includes/services/services.php": {
+      "md5": "56917cb0113d51c4a3ca24938df050e7",
+      "sha256": "6674a78fbbb3d23243342070acf9f01acd4d71931fb7fb02d3b0be3a0619775a"
+    },
+    "includes/tax-query/dynamic-var.php": {
+      "md5": "4ca10974fa79829ed486de58b614af63",
+      "sha256": "652dff882fa4b53cdfb18a417ae61abc91b64512f8e9212372e077c0d5ca9105"
+    },
+    "includes/tax-query/manager.php": {
+      "md5": "5385e08913ff28be5603b1a8430a8565",
+      "sha256": "19f1fdc2ae7e4fd8b0d6181e9dcefdfe1a3103c8393e9cf20b474b42b714dcd7"
+    },
+    "includes/tax-query/query-var.php": {
+      "md5": "190097594e2a5b0755c4d81df1c6f48d",
+      "sha256": "b47d4bb132184c86e65a4d5b237a5a380fdb3cce919462dbc0f15fd49a56554d"
+    },
+    "includes/walkers/terms-walker.php": {
+      "md5": "807ea5d572fc4cc23a83d4e2163d4d0b",
+      "sha256": "9f5cc1b7ca48acde1e0aa71384afb83cdc903da5ec8ac7c3049e2a64c8210fb6"
+    },
+    "includes/widgets/active-filters.php": {
+      "md5": "ed75f72e0f74470c5315d926afc39199",
+      "sha256": "7df7e85bb2c6440686fa727cb8a62fe93ecb06b974f5d165f7c02130f873d886"
+    },
+    "includes/widgets/active-tags.php": {
+      "md5": "cea0149251fe4894c10c5fdebed6c00d",
+      "sha256": "a0c6c25e9487d6d9bcf36fadf0a02afc7aeb3ce6c6299d772d6ad6e266214104"
+    },
+    "includes/widgets/alphabet.php": {
+      "md5": "5d5d3deae573a2561a5e1e1e277ea975",
+      "sha256": "c2ebd53594d96a14c615351b5f1937bf00f155a703f5bc408b4ead0331f47c81"
+    },
+    "includes/widgets/apply-button.php": {
+      "md5": "b52e6732847614f28a24eb7e3049a7b2",
+      "sha256": "956a81485f416820586b83c225db58c0f6285902070693b805dabc493d69f8d8"
+    },
+    "includes/widgets/base.php": {
+      "md5": "28092f1dbfe4ee4212a17a3cbed53123",
+      "sha256": "25a88d9ed5031d196599a9f56e700b8a6ca3d8332485f281cf5f41b2261dd9a1"
+    },
+    "includes/widgets/check-range.php": {
+      "md5": "e17826375ce340fc5b07e9ad283480ef",
+      "sha256": "35c6c8a752f022cbd877ad49e49504ed8f639b3c05670562861ef7a61cbd7122"
+    },
+    "includes/widgets/checkboxes.php": {
+      "md5": "c0f8b30892ef7323380b4bf82e6afbce",
+      "sha256": "871170143ca1e3f045987b014ac55fe64c3bd5e9f3519dcd84eff3bc280426a8"
+    },
+    "includes/widgets/color-image.php": {
+      "md5": "0e7f5cccfda96943b9cd5eb777a036f0",
+      "sha256": "a0370b57b7ac0f5de3a718523c74eda3d515d71f621355227bbe6efa4e539957"
+    },
+    "includes/widgets/date-period.php": {
+      "md5": "9bdf74a333fa8a1f0d143b91d1ad0d6f",
+      "sha256": "c14858e1698c8aba77ad9df0f6d345b639eddb150a70c7ab81b51ca21c866264"
+    },
+    "includes/widgets/date-range.php": {
+      "md5": "27f3038c4dc8caffdd3257ad687881dd",
+      "sha256": "828de514d94a252f98bf28492ee3a8bb276866410c9ae1b95ce27b7988879e05"
+    },
+    "includes/widgets/hidden.php": {
+      "md5": "3cd1be36dd004bfacb38f8313e0b9ba9",
+      "sha256": "83816b185cf024f6859f4b05577a86138f05c1227a602e88e4288d1164395c43"
+    },
+    "includes/widgets/pagination.php": {
+      "md5": "93b55f2ee866956911ea0810cf800133",
+      "sha256": "eab7f276189dfc68faec049953685ca4977adabbb0860697248ce783e45bb77b"
+    },
+    "includes/widgets/radio.php": {
+      "md5": "867270f8e5e0cf304298c61d15d54dc3",
+      "sha256": "ade1accef9376029c4bb7c7fc274165d09a7d4886df5d1d29ce9f7ea1c3b502d"
+    },
+    "includes/widgets/range.php": {
+      "md5": "3d089bcd5486a8714299aa165577564c",
+      "sha256": "06dbe26d7d99819874557575b300e61eb651c7fe68416b4f87e99a16d7638a43"
+    },
+    "includes/widgets/rating.php": {
+      "md5": "6e6c662c921e692d2984d582b5437ac6",
+      "sha256": "59a298bdd9efcda154faab137c26b2ccafcdf3a6000ace44bdc304829558530c"
+    },
+    "includes/widgets/remove-filters.php": {
+      "md5": "47dafa0ca2b87a3cbc71c52d38803d46",
+      "sha256": "268b1034c4a71a0d908c2457d05592bf65d9f06c19083e2611843661fe43f5ef"
+    },
+    "includes/widgets/search.php": {
+      "md5": "c5e209055228bee0bf41c184289dc1d8",
+      "sha256": "6c375a2495e6ece3f0a668363f8be0c8ca71f7dd992113dc9a829c1c46d02e65"
+    },
+    "includes/widgets/select.php": {
+      "md5": "fd796fbda6111e8c738eebb19c47509f",
+      "sha256": "ef8f213f200f1a92004a3c2c8fab7d7afab9dd8a47d2335d023d51253b931a10"
+    },
+    "includes/widgets/sorting.php": {
+      "md5": "01e334c386861a809efd5edd97dadc5d",
+      "sha256": "d11873cf3232e8d00bc9319dabd23ba5c43098c526e82e7d135ba060d6954ded"
+    },
+    "includes/widgets/common-controls/additional-filter-settings.php": {
+      "md5": "1a50058d82c664fb3715114e4cbf5890",
+      "sha256": "25b0b5f45d93507a5b9ae1e45473892a970380201b5e9875d02abbc7e9e39894"
+    },
+    "includes/widgets/common-controls/additional-filter-style.php": {
+      "md5": "3eeeafecfa6f93fc763af2d7dd9b2cca",
+      "sha256": "5d7eda4b098083fff76b16d32e446f029589610ead54839924194fad40e8545b"
+    },
+    "includes/widgets/common-controls/additional-providers.php": {
+      "md5": "acd544bb4efd3d1256013de3b91d7f18",
+      "sha256": "cfdafbc6a40b236e1d1faf8ad7121c22cd17ee22af91140f0c8017e7c81d1280"
+    },
+    "includes/widgets/common-controls/air-datepicker-style.php": {
+      "md5": "4aeb3dda6756a73a15d251402eef91d1",
+      "sha256": "7a7536bc3aecb28c619c8df9c487ee39af876a37a529910570cc6ce052137478"
+    },
+    "includes/widgets/common-controls/collapse-icon-style.php": {
+      "md5": "2f79c29b95bee96181120ac13d87114e",
+      "sha256": "0555720c208653ef02241b27ea01dfb50bde6a9d34adc3b4e9d45a01d83885bb"
+    },
+    "includes/widgets/common-controls/datepicker-style.php": {
+      "md5": "2dbb0844135cb9b6006817806c64bed1",
+      "sha256": "1c3f46cb7be40c2c8bdcd16c3f32bc4733d1f2d9eb1484109729cc996627eb1b"
+    },
+    "languages/jet-smart-filters.mo": {
+      "md5": "4585e276994763df7f0fba2a3460c5c9",
+      "sha256": "e0bba5884ce3c54147828e67d069a96d91f506d11b87211a94e405d589610f4a"
+    },
+    "languages/jet-smart-filters.pot": {
+      "md5": "79fe0025f20c518f706efbf89c42bcb7",
+      "sha256": "bf0e6d82f893e1d422cff8265749119e4c363e60f9e9332a64c33a7d68ec122b"
+    },
+    "templates/provider-preloader.php": {
+      "md5": "a3a4d610124d8b977a2316d9654de4d1",
+      "sha256": "8d1e2843bd7fb090a48d4d100964bf4991862576057d4bd0a6cae8bbdf31f869"
+    },
+    "templates/common/apply-filters.php": {
+      "md5": "3f0ad71829d4c4e643b8a255422224e5",
+      "sha256": "04251b54a7b4c7c94be651b1afaa4936e46087251c5a9e696f3da5f2e7ce6f68"
+    },
+    "templates/common/collapsible-toggle.php": {
+      "md5": "d9c340de87fd693822b4509bf663534d",
+      "sha256": "3c00746a4bb97c9289c3f580b96bfbc80071224349b1f2eebefa86397ba1297f"
+    },
+    "templates/common/filter-items-dropdown.php": {
+      "md5": "1be80fd94c8e56c2215007fd1c92bcb1",
+      "sha256": "1a46d6e7dd7ef98937c58973be7b6615c571a1a78d718590632648fb55667c14"
+    },
+    "templates/common/filter-items-moreless.php": {
+      "md5": "f316baeca45910d18d8743015789717f",
+      "sha256": "0f8e9ea7df8175c015dabafd510662763ea3e41cae25455be4f8ca874f176697"
+    },
+    "templates/common/filter-items-search.php": {
+      "md5": "5fdadb417615827dae30e6053c25718f",
+      "sha256": "876df1b196c2eff8481549975fd44f25be9e9aae761a8831833dbf4f421dda06"
+    },
+    "templates/common/filter-label.php": {
+      "md5": "cd5d09200c7b7ff63c3946ac7c9546bc",
+      "sha256": "13e95e039c37a52929426e2719e5b6fcc6d6ead806ab1e5d1d19a35f5ff3a35d"
+    },
+    "templates/common/remove-filters.php": {
+      "md5": "2ec004e7ffd5c0604d85752609a86d71",
+      "sha256": "d668c64215c5f447f9636975e897f7a46ce1e93cb97efaafa13e98b11cd55ba9"
+    },
+    "templates/filters/alphabet-item.php": {
+      "md5": "23c2b121179f799ed9d1bc8b5cfbb62f",
+      "sha256": "27129538e0c3c29dfd932401d1703621f1122177368cd1e5db098c3242f381b6"
+    },
+    "templates/filters/alphabet.php": {
+      "md5": "c6d3e642d2e3c1b56a579fcac80476f6",
+      "sha256": "2776c7b1c34a076cf010527ffc2efef74c295b47705fb76018d9d99732a89668"
+    },
+    "templates/filters/check-range.php": {
+      "md5": "ff26e72452e7ab9109b4b39c28d1262c",
+      "sha256": "13605df80be907a92b3310a511f9244e6d5d39bfd485b255329fadf3f37d243a"
+    },
+    "templates/filters/checkboxes-item.php": {
+      "md5": "3dc4ca5d568f4aacd4388e959d0483e5",
+      "sha256": "96853dfaaa049eb732b07d37ef84cdc3b928ff5be73940983c3866411afe4922"
+    },
+    "templates/filters/checkboxes.php": {
+      "md5": "5cb39b2f8e6ce4cb158f984e4a9848fc",
+      "sha256": "7f75a938ed732546bb35b4724b90d5b5fd4b6fe1c4e96755c030bdc010fedc47"
+    },
+    "templates/filters/color-image-item.php": {
+      "md5": "a4d688d5697e3a778856ae45e417136c",
+      "sha256": "e439dd5030bfa7031070988e42f99eba51289e0973ca9b076e966f61ed1e9353"
+    },
+    "templates/filters/color-image.php": {
+      "md5": "dee58238d8bf45d9aa9c81266a8aa06e",
+      "sha256": "9b3e2dd12c33cb47b9096cb668d974d9c596165abb01a9a6a40fde30118486d6"
+    },
+    "templates/filters/date-period.php": {
+      "md5": "f66cfd2ee9f7692d1bc7491a46a0c5ef",
+      "sha256": "3a3b8719218cc3487020e4cb38f5758a9ac2b262588ec8158c433af8c005ae88"
+    },
+    "templates/filters/date-range.php": {
+      "md5": "158e630b2db59a587fba3006d5c59014",
+      "sha256": "e9c7fbe1c904c8ccdce58b0546bd22b792d6a1513fe8d7ed8a7ef6cc830a532e"
+    },
+    "templates/filters/hidden.php": {
+      "md5": "d2c17da7766f00aad6cb528ea2cb73bd",
+      "sha256": "7c096f149163a763ff66d395abb80ec033891c2e15b248ea6723631be1f7e0d6"
+    },
+    "templates/filters/hierarchical.php": {
+      "md5": "b5e9c8835c865b6d1d32ecdc6cf9ca1d",
+      "sha256": "c8e62b77f3c6f14ae8823b370ff1c2aac7a4173049d3e2797f11b2332e6dbff7"
+    },
+    "templates/filters/radio-item.php": {
+      "md5": "6f8799257a9d04b911518d039e8d5e32",
+      "sha256": "4de707f39cddb2f3e773f3d02f267cba49db5a6bedb411c30d584c25ae6fcf60"
+    },
+    "templates/filters/radio.php": {
+      "md5": "6723018487e9b38946015d06034cf70a",
+      "sha256": "66e86c47f69c6003afee42689c1e120b33c81b4c5899a9e8f77669685a0d6637"
+    },
+    "templates/filters/range.php": {
+      "md5": "5ec33dac465abbc521e1c2c1f6c21c06",
+      "sha256": "9918f280df54d7310247a7703f8c3bd572230b0352ef34d55f4d6f101ad86c07"
+    },
+    "templates/filters/rating.php": {
+      "md5": "3acd3a8116f3df8154c5e9a30d440978",
+      "sha256": "8aacbd8fc466d9eb46880f9c7511d0b71210ea42481233c1b6c1298700405ea1"
+    },
+    "templates/filters/search.php": {
+      "md5": "945a55c41cd6b46f6a089377fb05a275",
+      "sha256": "5eb2960ed068d5858dddf66629f173d618801dfd13edd9c7ef2be323ec18c625"
+    },
+    "templates/filters/select.php": {
+      "md5": "6b8c16ff00dfbb48f512f72b5b11f7d1",
+      "sha256": "63a6b84e7a4ff731584244756e16084e41d7456027db88124f283566fb99b4a0"
+    },
+    "templates/filters/sorting.php": {
+      "md5": "a5130ea8c77a988f59df7294b80d8538",
+      "sha256": "7fca3a1c74054fb2750ef11b5d728407a09633686f0cb2d07ce969067c5505ba"
+    },
+    "templates/for-js/active-filter/label.php": {
+      "md5": "e06d9dcd9b19b4d7ffcadf52374adeca",
+      "sha256": "9284636b9cd81f08336ca3004174846f9a14685d57d0c3dc63cab92e3f3a4de2"
+    },
+    "templates/for-js/active-filter/remove.php": {
+      "md5": "3430592b566553bb98baae54726eb27c",
+      "sha256": "2441d6353767a9fc3537125df808e08b64c52a9a210dffdcdca37679d2fcc2d1"
+    },
+    "templates/for-js/active-filter/value.php": {
+      "md5": "5d3008c1e7ba5e4076bfffdec790d13f",
+      "sha256": "803319276bc95d7a3d90b2a7ac3ea024f1af6bc3e410ef13d350869b8e577f49"
+    },
+    "templates/for-js/active-tag/label.php": {
+      "md5": "aa93ea3afa8a3f5bf8ad7535865d5cee",
+      "sha256": "1c60c45b0312bfe51ad17499b648ddab36aa8d3b57544329ed9d6bb42f9cf924"
+    },
+    "templates/for-js/active-tag/remove.php": {
+      "md5": "d67167eab0bc311ce69facbfb34f3dcc",
+      "sha256": "45ddf5521c6090faf2dc537f9af26373cf0d082ffc8e73f038eb48209549e60a"
+    },
+    "templates/for-js/active-tag/value.php": {
+      "md5": "0989de745ee21d2320cd52ee5c9996d4",
+      "sha256": "00ce8bdff5ae54796870830d8f88528f3763c91dddf69cb70ce72b29440b2ddc"
+    },
+    "templates/for-js/pagination/dots.php": {
+      "md5": "c3f79fd21c2b0874d97893622cbec625",
+      "sha256": "bafd7f2ad79413a5c06db7c3551c6952d22c65df9d5c33a48a18771a43b9b6d1"
+    },
+    "templates/for-js/pagination/item.php": {
+      "md5": "fa629d1540c23fadc143c4b67430dc73",
+      "sha256": "8d90b565c81cf5537f9af1201ad17ab6922f21ea42d04e476e1b07284dd7545f"
+    },
+    "templates/for-js/pagination/load-more.php": {
+      "md5": "cb0098d9cb9d23ce1d5886a79e8e0896",
+      "sha256": "948574069c6b84536bbc8bb8e9d6c4ea6f823d313d34d94aa48fb897d4d48fcd"
+    },
+    "templates/svg/angle-down.svg": {
+      "md5": "ffb144cce3ace47b9f61d24ce766a24f",
+      "sha256": "76972c0c88a3cb05e1a5074a35e1896e549d8b86cb523ef7b924b8a9892792d3"
+    },
+    "templates/svg/angle-up.svg": {
+      "md5": "83b83ba7a690e645404a8dd9566671b9",
+      "sha256": "24af0379dd5881c53ba85fd6cacd7c32c5f3da7eac1fcb3b2caf90f31bde1317"
+    },
+    "templates/svg/check.svg": {
+      "md5": "40be354fafa3f646e7217cad863595b9",
+      "sha256": "bf97c26e3e052f36c0445024474a809303070ca4a7cc86162ad3ede81e948ca3"
+    },
+    "templates/svg/chevron-left.svg": {
+      "md5": "520128250095392830e9a66f8b455ab9",
+      "sha256": "edec9a009c9a3694175b85c2fd32df4841d4217a51b84d322514f9b3642b12a1"
+    },
+    "templates/svg/chevron-right.svg": {
+      "md5": "ffcf4a965de0e80a636b88d71f342133",
+      "sha256": "06d3f0c8286f37ca0bd58f68e9317e6f54da8686344a49182e2bd28924875e69"
+    },
+    "templates/svg/close.svg": {
+      "md5": "df71a2d71e9c0f5d42fe2b46304c07a7",
+      "sha256": "b43fca44234f9648ff58c0dce52cc2193ee751b3ebb28d0d4e45017ca66e383d"
+    },
+    "templates/svg/star-half-o.svg": {
+      "md5": "f002d9dcbe2ac95f7e63fa29bd96ccc2",
+      "sha256": "5790804451575b6b8bfd0cd3aa446192c770444c072f958a0f6006922fdc672d"
+    },
+    "templates/svg/star-half.svg": {
+      "md5": "7199ff32425e199113554c93546271d0",
+      "sha256": "561828765dc6b3fdea86b81c3800315a8db8f89ec1e886115a8725b0d78283d1"
+    },
+    "templates/svg/star-o.svg": {
+      "md5": "f407c4c299e72306fda214eba8747983",
+      "sha256": "f7a71c072b2823b7f16a1c352f333c0fa1e43d67a322cc11defcf7799cb0ff3d"
+    },
+    "templates/svg/star.svg": {
+      "md5": "72252be5cf9d9ef19b30e16fe21174fd",
+      "sha256": "7706a8fccaf6273d5d33bbd93000dc3900d9a6837a4908cc0d6e3dd97ecaf66c"
+    },
+    "_dev_builder/package.json": {
+      "md5": "0d85c460a164c16d39b5f542b3e85916",
+      "sha256": "3ecc5e663c782d370de2eb75e5f179981182ca7eb734f253703955778df35d16"
+    },
+    "_dev_builder/webpack.config.js": {
+      "md5": "ec939e0e5c74a03092ec15293d671a2a",
+      "sha256": "6f86bac56893ea22531dc1a99c9954585d9fc0688369123055df5d50054d32f2"
+    },
+    "_dev_builder/src/app.js": {
+      "md5": "8284452ceae3332dbf507f5a2dc151c0",
+      "sha256": "90f3b92ba85e4eed5da3518ac98c901db6a9349ffd8d531e0b913e5708d51e74"
+    },
+    "_dev_builder/src/index.js": {
+      "md5": "70c08ca2c167806f8283f76a0bd58e1f",
+      "sha256": "f504c71bef69352c1fd421a9aee31180636900b915f0cbcc799eac18c1c73198"
+    },
+    "_dev_builder/src/style.scss": {
+      "md5": "5c436f1e7805c220a3d493beb27f7409",
+      "sha256": "4bf745a1b5529cc687da466a8d2c8bba99647d2108f0bcd6658b3a94726283eb"
+    },
+    "_dev_builder/src/blocks/item-blocks/categories.js": {
+      "md5": "c9679de2e92e90a45b708a33e2a31345",
+      "sha256": "8b9ac83eeecfbd9e87696e48f337d8cf992410976b66700b4361e2f621d2cc4a"
+    },
+    "_dev_builder/src/blocks/item-blocks/index.js": {
+      "md5": "beba9da2814fd3856afed1c6b75cdb66",
+      "sha256": "9e6efccc2ff996f05872fa33ae1b604688e8c7a0d0365752b124b176ebdea475"
+    },
+    "_dev_builder/src/blocks/item-blocks/listing-field/edit.js": {
+      "md5": "17c3d16ff39840d5963e221a032669d6",
+      "sha256": "a4136773c41ec473e5d3797bbd16bde978c8eb29b6fcadb274517f32d615632d"
+    },
+    "_dev_builder/src/blocks/item-blocks/listing-field/index.js": {
+      "md5": "d46b36526a5036bf0efc18a9ca07b5da",
+      "sha256": "8cfb4163ddb8be40d4a529c935121be11ee8c0cc6597ffb57a8ec67673a83d73"
+    },
+    "_dev_builder/src/blocks/item-blocks/listing-field/save.js": {
+      "md5": "f2a40f152c0bada80e4c604f536a05be",
+      "sha256": "94a3e75dad6d1633329e2939c52e8d1cf1b9de67f82ef723b070695b6e9285bf"
+    },
+    "_dev_builder/src/blocks/item-blocks/listing-image/edit.js": {
+      "md5": "78f1cf86ddab443c545c08f8e7972118",
+      "sha256": "8e472d9a7dab22154a514ba66f99eb1fdc2e4ff37f5fd91e126fb02ca79a2a3a"
+    },
+    "_dev_builder/src/blocks/item-blocks/listing-image/index.js": {
+      "md5": "43fd08394c19876d484ac8eb0cd63609",
+      "sha256": "7449f204a2557a3a3e82718cef56a9ccd52632db1dec0fec3996c65830b2bce3"
+    },
+    "_dev_builder/src/blocks/item-blocks/listing-image/save.js": {
+      "md5": "f2a40f152c0bada80e4c604f536a05be",
+      "sha256": "94a3e75dad6d1633329e2939c52e8d1cf1b9de67f82ef723b070695b6e9285bf"
+    },
+    "_dev_builder/src/blocks/item-blocks/listing-link/edit.js": {
+      "md5": "61852949a4ab8991a642e246c2ca27cf",
+      "sha256": "85498d23807a826fd521732c1b48b925573c18772c213d93367cc6b96dfc5b6f"
+    },
+    "_dev_builder/src/blocks/item-blocks/listing-link/index.js": {
+      "md5": "76a3a984c23b29a7512fcc2f0bbc029e",
+      "sha256": "234ac2ad8c477f46c7f34e7daa2245873fdd2d1d1955d8e6ae69250ae81aa180"
+    },
+    "_dev_builder/src/blocks/item-blocks/listing-link/save.js": {
+      "md5": "f2a40f152c0bada80e4c604f536a05be",
+      "sha256": "94a3e75dad6d1633329e2939c52e8d1cf1b9de67f82ef723b070695b6e9285bf"
+    },
+    "_dev_builder/src/blocks/item-blocks/listing-section/edit.js": {
+      "md5": "b89c7cdc8e1330c3d918dbc5486d07b6",
+      "sha256": "0367a4e53e376c7f09639744ec9166e845e9a7eae62584c8e06ec4fff228dce4"
+    },
+    "_dev_builder/src/blocks/item-blocks/listing-section/index.js": {
+      "md5": "fd9f7979ab63d30f1688b6f0e8ab7ef3",
+      "sha256": "dbc7925e4e2c55f599597bc61ca85b819b2695700a3cddda6dce3b9096718731"
+    },
+    "_dev_builder/src/blocks/item-blocks/listing-section/save.js": {
+      "md5": "6053b14caaaba191d8df96018738360e",
+      "sha256": "7323302cc42b1ae9886c4950bc33cdc2ba8919505cab5115086a9be6c4b59d8f"
+    },
+    "_dev_builder/src/blocks/item-blocks/listing-terms/edit.js": {
+      "md5": "e781616d619fea0ae982955b700d717a",
+      "sha256": "6656c574c3df49e9ada38764d2153f2910ee2397c163f3fef4766023c6fe0f91"
+    },
+    "_dev_builder/src/blocks/item-blocks/listing-terms/index.js": {
+      "md5": "f983d4c2a6f84eb3c53f5012b720e6c7",
+      "sha256": "1fa880dce958cf003a2d1bcd4a4b38b51b44873ed3c67f748e3aef2110e84f78"
+    },
+    "_dev_builder/src/blocks/item-blocks/listing-terms/save.js": {
+      "md5": "f2a40f152c0bada80e4c604f536a05be",
+      "sha256": "94a3e75dad6d1633329e2939c52e8d1cf1b9de67f82ef723b070695b6e9285bf"
+    },
+    "_dev_builder/src/blocks/listing/edit.js": {
+      "md5": "c03ee468d4c6563f6ade40d3dfe2405a",
+      "sha256": "042236f74ace9711ec350bae050717afae465a9df3e3fb57f1a62414e69ddfcc"
+    },
+    "_dev_builder/src/blocks/listing/index.js": {
+      "md5": "8dd16a492a64ea84032d3280949e6b5d",
+      "sha256": "33ac21002ffa72c4c03f0592957d9cca85425613c38cf4f5628b5a6909c041a2"
+    },
+    "_dev_builder/src/blocks/listing/save.js": {
+      "md5": "f2a40f152c0bada80e4c604f536a05be",
+      "sha256": "94a3e75dad6d1633329e2939c52e8d1cf1b9de67f82ef723b070695b6e9285bf"
+    },
+    "_dev_builder/src/modules/Editor/index.js": {
+      "md5": "f37e56f45108fad1bab0685d3715fc31",
+      "sha256": "68cbb30a115c058bdf84dd8b039162ccb88324402f612dc5eb8baa0fc1ffe231"
+    },
+    "_dev_builder/src/modules/Editor/components/editor-content.js": {
+      "md5": "4940142f305ef1331265d8a1c9ce72d2",
+      "sha256": "62f2a322260a06a9ddd868ac78b4ba22c2d162dd3b0feca773563cd3a18eed55"
+    },
+    "_dev_builder/src/modules/Editor/components/general-settings.js": {
+      "md5": "a95e9d52ceae37ef161bfbad69751de8",
+      "sha256": "3d57718d494ef0aba428b81cf2b527afdc6d5dbe4823411145b0abadd62105a4"
+    },
+    "_dev_builder/src/modules/Editor/components/left-sidebar.js": {
+      "md5": "50f9e7783feb4505603b66e89619b2c4",
+      "sha256": "0fe4cb9d3c97cbd8c089274dce123d7e18d4bc53ac594791e39adf32f3edf287"
+    },
+    "_dev_builder/src/modules/Editor/components/notices.js": {
+      "md5": "7dbe4328bcbc2b1d4ea4621dac292295",
+      "sha256": "d592b53d5b6ccdb303c7b91711c1858055d02df59f34bdbbe00c2c255585e39a"
+    },
+    "_dev_builder/src/modules/Editor/components/sidebar.js": {
+      "md5": "f10cb10b6e16e5579d7b032f420c6616",
+      "sha256": "8ae326622a797432178de41e3b9cecc1fda1bc5ded47dd009f69be8f633fa882"
+    },
+    "_dev_builder/src/modules/Editor/components/toolbar.js": {
+      "md5": "6ba6244630f9f104b5f7ea951462bffd",
+      "sha256": "e77ba9d5e11dd181abb6fd0743226f074dc6a8f5c138d6fbee903590f3a55a01"
+    },
+    "_dev_builder/src/modules/Editor/components/icons/index.js": {
+      "md5": "b409e082e3f7dd0921c2ac1d573fb250",
+      "sha256": "d9144dce56bf7183200eea20e5756374edabef49c82df9a3522639a989f3646e"
+    },
+    "_dev_builder/src/modules/Editor/components/icons/NestedMenu.js": {
+      "md5": "a79813a7ce3cd8f72eca262a8aa0227d",
+      "sha256": "31ac694adba9b3ebeb523b21ee24c0fdba98e719bf6b12b02460a0c3b7a81e5c"
+    },
+    "_dev_builder/src/modules/Editor/components/icons/Redo.js": {
+      "md5": "abeca03bffb83a65f82dc1e1ffbeda30",
+      "sha256": "f02a11f5e909611e01328a3e1be5c04fb7d47eb77682f80b154e1a3ec5b654bf"
+    },
+    "_dev_builder/src/modules/Editor/components/icons/Sidebar.js": {
+      "md5": "fa489e7228f311aa11c5f364e0d9f93c",
+      "sha256": "7fecb1fd3454b49769a18263941b699d8533edada183b8950359bfc7c54ac8cb"
+    },
+    "_dev_builder/src/modules/Editor/components/icons/Undo.js": {
+      "md5": "a45ff48306727bef8f93455f61e64684",
+      "sha256": "41165e54a4dfc65e1d2adbf67b936c83a1f2e40ef6891963c0c984b7dddf0eba"
+    },
+    "_dev_builder/src/modules/Editor/services/data.js": {
+      "md5": "f4ca98739db07823f64e118f9c1fb8cb",
+      "sha256": "fdf8e0630b147bb493890a03d6d85acd5d17fae44971e249e02fe2a41c84a239"
+    },
+    "_dev_builder/src/modules/Editor/services/helper.js": {
+      "md5": "f83d0a2f0e4f133fcd2e8ad89f2f5f73",
+      "sha256": "9b4e589adbe9c1d2b5ba73646c323feaae99f710bcba53ec4b942e27c6392205"
+    },
+    "_dev_builder/src/modules/Editor/store/index.js": {
+      "md5": "924b219a26a261bf31b226db78543fc8",
+      "sha256": "23ef0c77e1b14921e0def93c9029c1ba6dac16024ce5a766db064a71d2038559"
+    },
+    "_dev_builder/src/modules/Editor/styles/index.scss": {
+      "md5": "26335993bda6d4d3752e67aa978a93b7",
+      "sha256": "c1ee52717f149713cdfc5f4e9ec395dc08090a2ca35894ec7a4c1594bec33d10"
+    },
+    "_dev_builder/src/modules/Editor/styles/components/canvas.scss": {
+      "md5": "01d2c910268cf96edb125447386819b4",
+      "sha256": "f7c070fc54f4f8cf5568d19a07e53fbc7488d2ae8a9223ff81665f7a351a561f"
+    },
+    "_dev_builder/src/modules/Editor/styles/components/notices.scss": {
+      "md5": "b804ea2af4af46100028b37907a23776",
+      "sha256": "42307cd411b1253db8ec85b558e8919f3fc2ee13aa187b9e491af758d16b85a7"
+    },
+    "_dev_builder/src/modules/Editor/styles/components/sidebars.scss": {
+      "md5": "1f260c550626871fbd9f805cd7bc337f",
+      "sha256": "cbe726f6a461b57d1fd664f37bf7bf44d2e4fcd26b7041e919a939fc33dc58da"
+    },
+    "_dev_builder/src/modules/Editor/styles/components/toolbar.scss": {
+      "md5": "87401c62a2ff5de8329eab994ed280ea",
+      "sha256": "ab4993878b47207ae51be49255d2da5d9ec02429a7e8aa24a7da9d67509a9b3c"
+    },
+    "_dev_builder/src/modules/Icons/AlignBottom.js": {
+      "md5": "4263de9778d2b9587904b86d09e9e810",
+      "sha256": "2af732d63cf761c2050ef701ff7468e814895e71ddb7278a4781dab9e5b0c3e5"
+    },
+    "_dev_builder/src/modules/Icons/AlignMiddle.js": {
+      "md5": "0928668c9b8731a1d8cea63a3478128b",
+      "sha256": "39bf8ce39c877ce62ca3afdd88edb4acd09db5033c05c295a2c691cc768ee672"
+    },
+    "_dev_builder/src/modules/Icons/AlignStretch.js": {
+      "md5": "8b69a543a0ac6d429517f05951b79800",
+      "sha256": "e67e373a70721f264351e500036ebd978b22081405ecfacb0ce621372fbc72c4"
+    },
+    "_dev_builder/src/modules/Icons/AlignTop.js": {
+      "md5": "65225d092f94c842ca8b1ff6262aeff2",
+      "sha256": "c48c036cd91a2b1316f62aadb21a757f147685c5deb58d69c1ef59cf8afadc82"
+    },
+    "_dev_builder/src/modules/Icons/AngleRightIcon.js": {
+      "md5": "0dec90ff1ba6a25c9d60846507944cb6",
+      "sha256": "7c5ce3763488efec048539aadf96334796dad06fce65fe0f7a30757c82b75a7e"
+    },
+    "_dev_builder/src/modules/Icons/CloneIcon.js": {
+      "md5": "28a0dcb72e81fa51ba3a78d783c7a7c0",
+      "sha256": "911139777048032b9e224ac1c6721f6c0379c743bed3c02f2d9d026da87a78b2"
+    },
+    "_dev_builder/src/modules/Icons/DIrectionColumn.js": {
+      "md5": "27f296ab31d3c0ed8c0737e15e9b17da",
+      "sha256": "a297b80c54f0534d97181927dcbe65a3b5f4667c4db22df81663256cac0f9213"
+    },
+    "_dev_builder/src/modules/Icons/DIrectionRow.js": {
+      "md5": "c37aab70a82dda0101e909311f1cd439",
+      "sha256": "94c98752425e7e48215a106a00688d7985720f8d245355fccd4d22fc9436b157"
+    },
+    "_dev_builder/src/modules/Icons/DragIcon.js": {
+      "md5": "1f56bba0d7026798da70c000a3dac9a5",
+      "sha256": "65da5c6f284e2c272cb07fff4c5adbf1307a9710f6ea63f8eb16482284ccfedc"
+    },
+    "_dev_builder/src/modules/Icons/index.js": {
+      "md5": "de00133ded93d32bfd70648df5da7a30",
+      "sha256": "4e24f2fa2436256714b5625f68e6fbb2e097ae5ffae527d84b49b3c5b3ae5a3a"
+    },
+    "_dev_builder/src/modules/Icons/JustifyCenter.js": {
+      "md5": "a7b6945fc9165123238c9384ffe5513e",
+      "sha256": "41fa712c9780bcf6a25b05d878d8c2e13bb899c669df8bdeb2fca01f94e0098d"
+    },
+    "_dev_builder/src/modules/Icons/JustifyEnd.js": {
+      "md5": "78b702504d92d8b9bb71a5638e9402ab",
+      "sha256": "184453df2784d6ea318c1aa36a508cd2e7233407583cd263d2c457fbb400075d"
+    },
+    "_dev_builder/src/modules/Icons/JustifySpaceBetween.js": {
+      "md5": "28fa45b94960ab732477f137583343c4",
+      "sha256": "a25c818042ad036bf77a4895fe753c18509189e13970b9e75fd11cccc8d0883d"
+    },
+    "_dev_builder/src/modules/Icons/JustifyStart.js": {
+      "md5": "ce1cdc7e40258aec2df9de16f00387ba",
+      "sha256": "dca3e5356f45265615aa0c5342d6e4b8f0aecbfb3d6d5f7f3345e2fce076bf42"
+    },
+    "_dev_builder/src/modules/Icons/ListingItemsIcon.js": {
+      "md5": "f7dcf3af32ef26c0d4c2972d0314f587",
+      "sha256": "346cec5ff37a47912f92c9b3e922549bb2f27058b631ffc57de948f419c6a22b"
+    },
+    "_dev_builder/src/modules/Icons/ListingsIcon.js": {
+      "md5": "36befed889f44754866d63723a01c250",
+      "sha256": "8cfb7697d83c4955f9b4f750d8adefba421c1a53dbbb8c7650897536726ebcf3"
+    },
+    "_dev_builder/src/modules/Icons/RemoveIcon.js": {
+      "md5": "237cc70926c3a14135310f442e509197",
+      "sha256": "97f7027179511f5f871d772489e208498a79c155bc05137fa4c8a0d14dab6e6b"
+    },
+    "_dev_builder/src/modules/UI/index.js": {
+      "md5": "a0143c6aff77dd5084ea0c9bb90facb1",
+      "sha256": "d42f024c6a3ca76866719be0e879a33d433917383c2a552dd86311149344eb02"
+    },
+    "_dev_builder/src/modules/UI/controls/GroupedSelect.js": {
+      "md5": "f0d42e8303c1855214d90e6d39de8729",
+      "sha256": "cdd84a334ba2002090c81386132132cce10caa125817147003d3484198e45346"
+    },
+    "_dev_builder/src/modules/UI/controls/ImagePicker.js": {
+      "md5": "400901b7f2e864aafa7a075fb1b076ce",
+      "sha256": "b9595b35df5286ff2be2e6f308a6f0b48e848c26d86603863dde51ba7b83fb5d"
+    },
+    "_dev_builder/src/modules/UI/controls/Input.js": {
+      "md5": "f847cffe1511c2da102d69ac7f3be0bc",
+      "sha256": "b85e00697baaf58e22e9909ffad05edba35d742658afb492dcc9162162e81c5a"
+    },
+    "_dev_builder/src/modules/UI/controls/LoadingButton.js": {
+      "md5": "51445e9ec591a2158e4764e3e16d3585",
+      "sha256": "2a8a5acddf819e45403f62f2993fcd12dabbf32283f273c7e2e18d3fdc03f4b4"
+    },
+    "_dev_builder/src/modules/UI/controls/Number.js": {
+      "md5": "d22cd6aa693ee1427e1fddd77f94f63d",
+      "sha256": "893c140c1edcd196ec7b8b048fddef338c5c0e76d59522a9421cc31de09986dc"
+    },
+    "_dev_builder/src/modules/UI/controls/Select.js": {
+      "md5": "1a099d867eee03b3acc3891fdb46ee9a",
+      "sha256": "88b2f2f20ebe88e52e79aabddb6d6ce12da8e8e390df2e44e18734a9e67cc348"
+    },
+    "_dev_builder/src/modules/UI/controls/SelectAsync.js": {
+      "md5": "d9687b912c8e77d51f16f0e7a0b79b30",
+      "sha256": "f6450ebf9b720aa3af6feea16e66bafebfbc7a50104bd733c5d2b9ac8a91e279"
+    },
+    "_dev_builder/src/modules/UI/controls/Slider.js": {
+      "md5": "9fc6226e37de9e9a7a5adec8df35a97c",
+      "sha256": "72a682152cf22abdf8394d81267e4402ac647bdeff706a5169e5726843d2ee1f"
+    },
+    "_dev_builder/src/modules/UI/controls/Sort.js": {
+      "md5": "c7297d545d768ece2c472539874f17c4",
+      "sha256": "ba399e570d2ad2424073781ee07b43aa6b420611481d4d6696ed13ee8ec039f5"
+    },
+    "_dev_builder/src/modules/UI/controls/Toggle.js": {
+      "md5": "a6bf987ffdc549018f97662b04876514",
+      "sha256": "6cbe864805478440a3710060f9054e67be44eefce912d9d418f5e35487595834"
+    },
+    "_dev_builder/src/modules/UI/controls/ToggleGroup.js": {
+      "md5": "b61318d5f764ca18829482a1b6f319c6",
+      "sha256": "b4ece371b403ad2c91b18210e6b1105f56773f13925bb4f13fbfb1b2ebc21b5d"
+    },
+    "_dev_builder/src/modules/UI/layout/CollapsibleContent.js": {
+      "md5": "91058a61a3631a7858cc53707e41d821",
+      "sha256": "aa69a3e6fd4449c3c9fe8a807916f7f5cd22db87b9164af7d48ee312de270ed9"
+    },
+    "_dev_builder/src/modules/UI/layout/NestedRepeater.js": {
+      "md5": "d621dda2d9a4eb8ee3d0227a87fd0413",
+      "sha256": "587b4c8b843dbdd19078f8c5f6d4caf1e85d687c3be0c21cd184e1ef54fa2a2d"
+    },
+    "_dev_builder/src/modules/UI/layout/Repeater.js": {
+      "md5": "01e4f6810f306bf2d07c1c8f2f1aaaad",
+      "sha256": "271bcfe5ba617d7fd356f0222c1be6b1124068f4b86b111a36578af16783f41b"
+    },
+    "_dev_builder/src/modules/UI/layout/SortableRepeater.js": {
+      "md5": "6dd3d24e72b1695aa2385013e6396eae",
+      "sha256": "cdd8b732e766bb4943f3556cdc82d7799f80ca0d36246ec69c427ebbdaa0c041"
+    },
+    "_dev_builder/src/modules/UI/services/repeater.js": {
+      "md5": "6c7f13f0d1da0077f7366a7ce3645cdd",
+      "sha256": "43e9ec540f7c7d0f5711ea90c04533259045a98a389db05bc1775196bde9840c"
+    },
+    "_dev_builder/src/modules/UI/SortableList/index.js": {
+      "md5": "e49cc78031075a0ad5ee9996cde012e5",
+      "sha256": "25188058951e5a849542c5221bb210312ca9f37f1dbad8ddaa03ba00faa6f18d"
+    },
+    "_dev_builder/src/modules/UI/SortableList/SortableList.js": {
+      "md5": "17faa857b1901c3fba756eabc2f200e9",
+      "sha256": "360254669513be20edfd242a02945f613237cbcd2b6cbae07ce0c6acdd865b66"
+    },
+    "_dev_builder/src/modules/UI/SortableList/components/DragHandle.js": {
+      "md5": "f73b37076e5d16312f9e22f675e3ecf8",
+      "sha256": "c047a5742d10203b483419e5d98a0a71c51e7a701af3182e7c75c959bd01807b"
+    },
+    "_dev_builder/src/modules/UI/SortableList/components/index.js": {
+      "md5": "685316612407fddd4701c43754003225",
+      "sha256": "1af430fd85e2f05c0c27d5529549fd58afbefdceb73f69c4f4fa47613fba4c49"
+    },
+    "_dev_builder/src/modules/UI/SortableList/components/SortableItem.js": {
+      "md5": "34ffc8742a5f3dadbe8bed171093f033",
+      "sha256": "e7d4105ea51c20caf60d1c75e0cbe08c48ba68d7c1a70de0a64128b311d06f49"
+    },
+    "_dev_builder/src/modules/UI/SortableList/components/SortableOverlay.js": {
+      "md5": "cd32deda7368e1d7a19c6b9bbe800202",
+      "sha256": "2b46ceeb60e25ff698efd049a57076434db0aac8080f68173a35f76f8f390c63"
+    },
+    "_dev_builder/src/services/data.js": {
+      "md5": "1e588970299111b916e7bec2d1365d64",
+      "sha256": "ad57e30729b823c7cdf2c85fa68f84490570260057f2e214ac99779327f5bad0"
+    },
+    "_dev_builder/src/services/helper.js": {
+      "md5": "6ca83023e335808e42857d3a66ab9d5a",
+      "sha256": "733a9dc4008ac02960d456ecf47b99be6aa9c6db540c9bb6e5426c6a6a694872"
+    },
+    "_dev_builder/src/services/navigate.js": {
+      "md5": "65c8ae1379b8b15e2a5e99670e784cad",
+      "sha256": "c975f4484db7da9f5e07c47c2e9ae854177263a8fc35852d62d1ee4093508d68"
+    },
+    "_dev_builder/src/services/request.js": {
+      "md5": "f5c216531f50e52336503dff19a7c069",
+      "sha256": "358a390aa39b8bc43ec601513df06d9f315b8701e06a7ffc6dc1aca030e3ce4a"
+    },
+    "_dev_builder/src/store/index.js": {
+      "md5": "19c5ccebe157d91935ca55fc76697495",
+      "sha256": "4492b3eb06dc3ab62c2a436f5a813c4d9c07fad4a97ea86bf5d88472f153fb3a"
+    },
+    "_dev_builder/src/store/item.js": {
+      "md5": "570834d865a10fca81f8184eef4d986a",
+      "sha256": "ccd3a323e91ff5d18ed7cee718117d717d3f75c4681beab1dbd45c9ce135dba6"
+    },
+    "_dev_builder/src/store/itemsList.js": {
+      "md5": "20c2d7f3bfff3f94583d5dd9027f9708",
+      "sha256": "6c90d84af00bd5dbcd35eb423fdd099e53b8cf6b2c4d88a785a4c2111e479dee"
+    },
+    "_dev_builder/src/store/listing.js": {
+      "md5": "108cb9b554e9b38c55d8a46b4f6216c6",
+      "sha256": "2f3271556a8d26ee7fd9ce83cfe40eb27367e4f0c9f3dbe72719832767f5fbf7"
+    },
+    "_dev_builder/src/store/listings.js": {
+      "md5": "5fe8a5cacd4523fadbf0655e5a98efec",
+      "sha256": "242b0b03c0b1e15c2f53943ac3b44b85ea5a3b420d25c19114a709322c627177"
+    },
+    "_dev_builder/src/store/router.js": {
+      "md5": "d2dcf0c2364409fda360dfed2b4659a4",
+      "sha256": "6bbeccb396487185552bab6376643dbc5b17528abd34dc340700f540b39257ba"
+    },
+    "_dev_builder/src/styles/item-editor.scss": {
+      "md5": "95aaf591ff6b170235b65c21964e3973",
+      "sha256": "f18064b5453c25afe889be8ec25a2d6125ed93cdfbdb0493d1304d0c68e5fac6"
+    },
+    "_dev_builder/src/styles/items-list.scss": {
+      "md5": "8717dba982c34b9b53837462edc8d18e",
+      "sha256": "d7ac06bb2b698cc0278625b0664a77df1d429390d03c13634722104586c6507f"
+    },
+    "_dev_builder/src/styles/listings-list.scss": {
+      "md5": "a19a1adba81177396bb7c8aa2346a8e3",
+      "sha256": "587aef614ad330bfb2c131e804c5088b7d08fdb6f1de9c49013538b52068867d"
+    },
+    "_dev_builder/src/styles/listings-single.scss": {
+      "md5": "506104fae822a17a87f7be71dd25e2f8",
+      "sha256": "063d53ed1a09ce4cd92aa0276a440bc896e54ba058df9715d97f6b91b3c22da5"
+    },
+    "_dev_builder/src/styles/main.scss": {
+      "md5": "88ed7add4b76d4330ffd2c76a8d286e1",
+      "sha256": "3c47187369a7eb86f2a61623ec612fabe37a2a1b87813d71bacb62ef1631e915"
+    },
+    "_dev_builder/src/styles/ui-controls.scss": {
+      "md5": "4bfc84fefa8d385b888a62ae02e84591",
+      "sha256": "b751baf65987a880ece318176105de66c0bb2cd011013a8b1924820169294f18"
+    },
+    "_dev_builder/src/styles/wordpress-components.scss": {
+      "md5": "cf6516e4598940025e7061e4c6a07c5e",
+      "sha256": "9b5758ea8b43af6508df995dbb5d3a83a1cb2a941de42b61859ee0893ddc1bba"
+    },
+    "_dev_builder/src/styles/_mixins.scss": {
+      "md5": "aebfa62e3949aa0c7d96c55c00c60e40",
+      "sha256": "2fe3290895653da766e63c04d45f4cabb9cd6449c6a586db0b111539595b0ae6"
+    },
+    "_dev_builder/src/styles/_variables.scss": {
+      "md5": "081b6e256b4ea7bb5cbe2e41e3269a73",
+      "sha256": "b152925c627af1adde0fb8afe22be7a455e299f577f116de4f0dea625420ecd1"
+    },
+    "_dev_builder/src/views/layout/footer.js": {
+      "md5": "9effbf4721de5c9629d7671f93227ba6",
+      "sha256": "ad3abcc62552145497fc98c75e474eec0c1360ee14936f9e7cab912d2b7725c5"
+    },
+    "_dev_builder/src/views/layout/header.js": {
+      "md5": "ec222d7ca2492ef052dc55405ef2619e",
+      "sha256": "9484dfad59e75e0d5ea479c9ae98da2f0f1c3929b7d14a8e9b37c372f21bb40b"
+    },
+    "_dev_builder/src/views/layout/main-container.js": {
+      "md5": "84afb68341fea92de5ba2e38e62befda",
+      "sha256": "612820d46489d0b78566e396fc518dd29dab9e3527c5dd152d75596f5464a3bd"
+    },
+    "_dev_builder/src/views/layout/navigation.js": {
+      "md5": "bada93d247047fd52e9908110f88471c",
+      "sha256": "4d0b3fd3119f68dc296c11686b1d889d02aeda16226d9678cf6410447af04759"
+    },
+    "_dev_builder/src/views/layout/route-component.js": {
+      "md5": "40f47a12a7e78fa14ad179351605d844",
+      "sha256": "931cfe73acd907048c898492a17227c50297960ce308cbb57aba9b71d9af17db"
+    },
+    "_dev_builder/src/views/layout/save-and-back-to-listing-button.js": {
+      "md5": "2bf08290c3f5bcc4dee6672194a1f872",
+      "sha256": "d435b166c4e3f4927935fe00b2e42b254ebd81438ab490d72931583d798b546a"
+    },
+    "_dev_builder/src/views/pages/index.js": {
+      "md5": "f167addf6f9b5ecb9500fe887729b95b",
+      "sha256": "904d4db59d681a6f91d0fc8b13245dcbc213859c19fbbbffcce2804a6cd9a66e"
+    },
+    "_dev_builder/src/views/pages/card/index.js": {
+      "md5": "292f780d98e4d0cf0a38ce4ee80ecdf5",
+      "sha256": "022a904dc878b54c48308799a54aaff3abd642535506c31c81a96610c60a8df1"
+    },
+    "_dev_builder/src/views/pages/itemsList/index.js": {
+      "md5": "e8c5868728135fa1641cc5dcd39e8b51",
+      "sha256": "ee38e5b8212d3d259059eb7446641edd354b7df5ba187d8d598f21989f0504cc"
+    },
+    "_dev_builder/src/views/pages/listing/index.js": {
+      "md5": "125ccea6b34d3c1ae07a6f07d2f673b4",
+      "sha256": "2ec0e525a02bf9afb1b70ef65c1d7dbbc5b111caf83e266fc42d325b5a461dd9"
+    },
+    "_dev_builder/src/views/pages/listing/components/card-settings.js": {
+      "md5": "383e3929dc03e2a50558585cab9f761c",
+      "sha256": "3082c122b846fae2b8ed80aca955aa7ac358ce3de9e3254f08b69139b32d485e"
+    },
+    "_dev_builder/src/views/pages/listing/components/index.js": {
+      "md5": "69a78d902574b5e680a35e93cc275c18",
+      "sha256": "061f9cef246fcb257eab2833325efa1328677cccf26fda11e2c3ebb6eeda69e3"
+    },
+    "_dev_builder/src/views/pages/listing/components/layout-settings.js": {
+      "md5": "9430176524ef1e52d4256564d1f76a29",
+      "sha256": "1ecd03aeebe5f922fa40ac9bebb89d20db0b9275fefc8426543d9990be28120a"
+    },
+    "_dev_builder/src/views/pages/listing/components/query-settings.js": {
+      "md5": "db74a46341d1bde971a9fd57e77b2f9e",
+      "sha256": "f0126d9c760cc8bbf245778af342a34083b74b0b3573df49e0a7d564b0ba11ff"
+    },
+    "_dev_builder/src/views/pages/listings/index.js": {
+      "md5": "2ce565b835278e888d8702055ccc133a",
+      "sha256": "98d702184f4999cfedbda414d139e313ce93c3a819b4abb31851d39edc53ce25"
+    }
+  }
+}

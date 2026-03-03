@@ -1,0 +1,930 @@
+{
+  "plugin": "jet-tabs",
+  "version": "2.2.12",
+  "files": {
+    "gulpfile.mjs": {
+      "md5": "5568503c495cd45a51502546c5cb74e0",
+      "sha256": "dd5488c66844565e024f26da3be21c2a0e355dcdcd99716031f7e6132a86923b"
+    },
+    "index.php": {
+      "md5": "a464eafbc9de70b2b2fd1ce6ba2bd8f5",
+      "sha256": "a9c42436b6bcbe0ceb9afcd83a8d86d375e1fd338e078d861e75212ca4bc438a"
+    },
+    "jet-tabs.php": {
+      "md5": "ccb94b8cdbdb869bf349ad19531cd253",
+      "sha256": "45a3df4e68cb62bcfce0d210733494d94b1bfe8de8be427e7a909f4de30d7b14"
+    },
+    "package.json": {
+      "md5": "646c67c620b4e7c85457b59cbaf6c6c5",
+      "sha256": "a01c1a71e2675ab2ab8d740c74cdbfd3055df920fab7fef87cf4f83fd836185c"
+    },
+    "README.md": {
+      "md5": "435ccba33aebfe32d157362b0cdca005",
+      "sha256": "92041d9dee2580c274395854b1dbfec21026640322c9e51781c668d716dcd441"
+    },
+    "assets/css/jet-tabs-admin.css": {
+      "md5": "498b53b66535626bf70f7cd7d72b5347",
+      "sha256": "1f8057ea1cd39b858a6db1685b827c82cb57eb7a1face1ffbc79f2b4ce12ab34"
+    },
+    "assets/css/jet-tabs-editor.css": {
+      "md5": "aac48bf63fef4064f26662ed27d886be",
+      "sha256": "01ede1521ff14997f9bb84fba01dd93ef4f2659e37cdf066b6bf105f1cbb6258"
+    },
+    "assets/css/jet-tabs-frontend.css": {
+      "md5": "705c7d06061df3e37d7a14b680ece9ae",
+      "sha256": "4cfd3c861b645cad458fc1bd292f46a3008122af5dda989951d9cf8a15930ee6"
+    },
+    "assets/css/fonts/JetTabs-widget.eot": {
+      "md5": "3750e25e475c6e20fbd931f0c52d3e43",
+      "sha256": "8ea574acc1f6643e1f76f991e4d011e3e2f6de5400c1dca8c83834c5c3eedb56"
+    },
+    "assets/css/fonts/JetTabs-widget.svg": {
+      "md5": "1ff86d99ad4217f4d867bb14481515ca",
+      "sha256": "6b2caaf8d3c277211d02729208cc4431f2a8852795ad6d64126753ff5363c131"
+    },
+    "assets/css/fonts/JetTabs-widget.ttf": {
+      "md5": "5e2721a0cd6a4ceebbf7854f472a74e3",
+      "sha256": "bc909c9eb3fa5df7f92d760c22c95e01748d667f38d5c2b479048eb0867da4c5"
+    },
+    "assets/css/fonts/JetTabs-widget.woff": {
+      "md5": "0899c55b8805dbdff4eef2cdc4fd96db",
+      "sha256": "0b47223eb6d503277865b12703f26f9addcdb6c59fe615d1c5b130ba8f7d7562"
+    },
+    "assets/images/jet-tabs.png": {
+      "md5": "349f13bc3f45fbae8428a1f2470e339a",
+      "sha256": "cc05b4ef80390a36e97db81c5b8912c800f841d8ed20ff69d0902be33080feb5"
+    },
+    "assets/images/spinner-32.svg": {
+      "md5": "a642cd45dfe0a8ddf820073dc343495b",
+      "sha256": "224bfaa80b858bcf1a87bf43f1b6f161e5832525e788f4254d0dcc357d2c5bb7"
+    },
+    "assets/images/spinner-64.svg": {
+      "md5": "cb88906ff66ee83fd2de0db12046dc49",
+      "sha256": "6e99f710a8fa4eff711981ea273e1292766f3415c35472df0fc2a7cf972ca757"
+    },
+    "assets/js/admin-vue-components.js": {
+      "md5": "6f70e71c7a866b29163cb10ec3be61d2",
+      "sha256": "554f5c6caf8d8c56b70a0fb0f2be16696c3897815d595cb61a86db36125e712e"
+    },
+    "assets/js/jet-tabs-admin.js": {
+      "md5": "6759d2df7ef725fe1604a53e9530b4fb",
+      "sha256": "1b7ae55b7ff8430df67d5e0348e48bbd8563706f1a437eab75d1edb56c4c1bb8"
+    },
+    "assets/js/jet-tabs-editor.js": {
+      "md5": "f9ec4a8912e992ce75319e690d44f996",
+      "sha256": "8350589e103779bf25103818a04ebbd37017c9390dd63f5c174516b1aea7c1c8"
+    },
+    "assets/js/jet-tabs-editor.min.js": {
+      "md5": "a58240ad9cea9a76073c5671c8ce9d0e",
+      "sha256": "1a75746c5c2d7fe1baa9d155b2fef313252c280a3f54a116375760e4dbd0c840"
+    },
+    "assets/js/jet-tabs-frontend.js": {
+      "md5": "51644b72d8c0b2d3a83ff272117e9d81",
+      "sha256": "9535d0b1b4e9c5cfd47b19a45820c5e20632146dced69cb5a6ec49a88c98e63b"
+    },
+    "assets/js/jet-tabs-frontend.min.js": {
+      "md5": "90db23911876f1aac969b773d594a109",
+      "sha256": "6f0e1c4a6f08fc604bf93105c5d247835f3e9db5841e6fe9953e43ad4bd28a47"
+    },
+    "assets/scss/jet-tabs-admin.scss": {
+      "md5": "673518c18a8834c4fc18edcf37ee6bb8",
+      "sha256": "215ea13b83f18f23b8bd04c8037c0fc91ba8bd1439af5d5000e8fb13e0ed9202"
+    },
+    "assets/scss/jet-tabs-editor.scss": {
+      "md5": "8c25b761c720e82283a4eaf98724dff0",
+      "sha256": "1157193ccc3f26ff925e40cf2c78ae2ff7c78599219dd4ee861a974d68dfba9c"
+    },
+    "assets/scss/jet-tabs-frontend.scss": {
+      "md5": "21019dd3923cef9ade953ee70a485779",
+      "sha256": "e27db4f5de24000fb59b88e3263ba64b3ca294d28c2e67e0c55f386f22bd24db"
+    },
+    "assets/scss/jet-tabs-icons.scss": {
+      "md5": "572c11c64ba4b72a2c6bc53f139cb618",
+      "sha256": "ae5b63cf537f909025f9b6c1db40390c4f6494bdab7c96809bee431615efb545"
+    },
+    "assets/scss/addons/_jet-accordion.scss": {
+      "md5": "0508443f22a355e49a4d995d75b4746a",
+      "sha256": "1062fb1537dd21da16e70ba32e2f2bf703030794ce5ed7a602ea8e11e74a0e27"
+    },
+    "assets/scss/addons/_jet-image-accordion.scss": {
+      "md5": "0d9809a3348a3c6e981760f97d24388f",
+      "sha256": "13c837e751fcbafb9c632f7e8adeab95d3057c2b4d4ff1927b7e783f4d6f6d32"
+    },
+    "assets/scss/addons/_jet-switcher.scss": {
+      "md5": "696253807801c152ec6f6d818fb5da4b",
+      "sha256": "040a3b3ead804c49a652f6346195780037e893764270631fd2c5a3568275c3ef"
+    },
+    "assets/scss/addons/_jet-tabs.scss": {
+      "md5": "c42d0244842596c08cc8398deff5cb32",
+      "sha256": "4e8d2feaf9fa119758b3838f3c3722595d6034ba70e6496b635aed449cdc3e47"
+    },
+    "assets/scss/utils/_jet-tabs-effects.scss": {
+      "md5": "a013498ce10c1c61ec311f9c7a639f5e",
+      "sha256": "25e8adc1fe91996c77d9254c052f8dae2fe5e0af94335c15f9feb72f496c02c6"
+    },
+    "dummy-data/accordion.json": {
+      "md5": "757864214ef2aa25245517703e47ad3a",
+      "sha256": "2e23cd06ab1b78e28b7316b55f4741d8f6ac443b89b254d43fa681c342694d89"
+    },
+    "dummy-data/image-accordion.json": {
+      "md5": "f6af5db57f5521ceac7d59c742ab81a0",
+      "sha256": "cb43a6859d01759119184946878779dd2713af8ba2a11dbe18cb04b1f1a0f4ae"
+    },
+    "dummy-data/tabs.json": {
+      "md5": "35dc2d0c3aef6631f66bb952f1188497",
+      "sha256": "dacf47c3c4de011c967d44b0bb67f7b37c5886a1ae09f67dd9af9685266a92f9"
+    },
+    "includes/assets.php": {
+      "md5": "039c5565cdf8f849584aa066d909d5d6",
+      "sha256": "ca14b43920d94e834a605cb4d0e6b9541347dbb8f5eebd2a4fb321def9ac60e5"
+    },
+    "includes/db-upgrader.php": {
+      "md5": "a86423ef9b98ce58cf14930aff1d23a1",
+      "sha256": "33b307473d4c9a1372bd3dacd1b5c4e54ccbf78a6c7671e9f14f65445e950cbf"
+    },
+    "includes/integration.php": {
+      "md5": "004b0f53061a6047380cff44518781c9",
+      "sha256": "c89a2e9bfca153af1b448ec2829fd7b9e44964b2132664017fa3a65aeab42167"
+    },
+    "includes/settings.php": {
+      "md5": "7943b2114edd69ccfa841ec57e209a9b",
+      "sha256": "20dc8976c7ff6cb3ba74c125e8f39ee69ffe333f0ede935017644ddd4d7a2164"
+    },
+    "includes/addons/jet-accordion-widget.php": {
+      "md5": "cfa21827d68083611878ec0d2b0ca6c1",
+      "sha256": "75e20187e0f333e5a6b32e732da69670ae519295df3872311cbf16884f0065fe"
+    },
+    "includes/addons/jet-image-accordion-widget.php": {
+      "md5": "1d838f247080d24ad40665e51d6c6309",
+      "sha256": "ca3a46f904c3d4d0f7cedde1f48ffdd758ce478c68d21d820f4f1fa574d8ba1d"
+    },
+    "includes/addons/jet-switcher-widget.php": {
+      "md5": "e3bc12cb7f16df244a2b1fa9ec147cbb",
+      "sha256": "873e51d0bec06a9d6f3c54416239448b524b896fe6b86fa13ec1567bc79d1b9e"
+    },
+    "includes/addons/jet-tabs-widget.php": {
+      "md5": "b95b07811b41835f6f0c165358de6f2d",
+      "sha256": "70ae47bddaa1a2e2fc0a32da75d0fd0aff1289761c0e4dc64504098b6a68f864"
+    },
+    "includes/base/class-jet-tabs-base.php": {
+      "md5": "3bf49ab568cc17048f120e2432f14418",
+      "sha256": "515b3f941e5d890343f4e99842f8aa06e2bed8e56e99273240a1910f7ae3b6fa"
+    },
+    "includes/base/json-ld-schema.php": {
+      "md5": "857e84e8a5af90b4906a506e2e6b85ad",
+      "sha256": "30e679babcee9d8e221fa84d04c552201ca6e797fa92e76a40475efb91ca10a1"
+    },
+    "includes/compatibility/compatibility.php": {
+      "md5": "656377678393a95f5547f4929a89f3fa",
+      "sha256": "0c812d08a2c3fbfff149152ea18ce3f9ad270b0745fad85c3d2d4d711f6585c4"
+    },
+    "includes/compatibility/wpml-modules/jet-wpml-accordion.php": {
+      "md5": "5b17dd8dea6a8f110b6d38f3217bca70",
+      "sha256": "c4481372ca214ee1b18cfa5883a06af9f1dc728c6635c75d5662f61af915f93e"
+    },
+    "includes/compatibility/wpml-modules/jet-wpml-image-accordion.php": {
+      "md5": "87eb7f6b72603c629c55df729935b2ac",
+      "sha256": "e303008097ed768061c234a1ae8de5d94df0189e97fa4dd401ef04a8fec58d04"
+    },
+    "includes/compatibility/wpml-modules/jet-wpml-tabs.php": {
+      "md5": "948eb589060864bb41877ace51206496",
+      "sha256": "48eb79bee8275c6f8ad19a4e4e1781accbf0cc5ddbd106fd2b82efd95afb9918"
+    },
+    "includes/controls/groups/class-jet-tabs-group-control-box-style.php": {
+      "md5": "50e44466c780049f1ba2812dc17cc212",
+      "sha256": "625f6fda97a092a1303dc6e8d7da3793e9257aa2c00567bf2b10552054e034d6"
+    },
+    "includes/modules/loader.php": {
+      "md5": "6b824913a6c81718fd232254b4365031",
+      "sha256": "000bf6c0b429f2f536b4336b978b434ee43f1e48b6418c74196de4eacff2c881"
+    },
+    "includes/modules/db-updater/cx-db-updater.php": {
+      "md5": "cc89cb172cf33b363571b0b05b3feda8",
+      "sha256": "ad7cf00dd993897cd10e3c2ba648db3dac452da9d19974d1948dff122ef34cc0"
+    },
+    "includes/modules/jet-cache/jet-cache.php": {
+      "md5": "6a20631475753e25de8e1b698b847b85",
+      "sha256": "132ba01c50e5c9858adb6673e27df7a970368162a6bad8755eba1985b19ce24b"
+    },
+    "includes/modules/jet-cache/inc/db-manager.php": {
+      "md5": "ca0e8f73da2f5f69b076c1a9478b8270",
+      "sha256": "6d64b5c43e9288423a3184199d07e9fa8bc6e378247f21361596d31a5b9c2efc"
+    },
+    "includes/modules/jet-cache/inc/functions.php": {
+      "md5": "49340e05198cbf30a71a2a1d99d6be59",
+      "sha256": "868d40c298a76387ae6b6a2cb25bc77a5d9603dcfc1ed6caf14a47a3d9f847f1"
+    },
+    "includes/modules/jet-dashboard/jet-dashboard.php": {
+      "md5": "0c8d08667333f50070ea6f4f367dbfa3",
+      "sha256": "e07ed44ffc7237381b46093f8a23e6ea04cd7c9bd848801f32fe1981271009f3"
+    },
+    "includes/modules/jet-dashboard/assets/.DS_Store": {
+      "md5": "8d8b262ce6db8928fc68c3aec19e7db2",
+      "sha256": "91fe643a12bf546e6f051209453e1ebab24a5680a194547ec0dd59340197dab9"
+    },
+    "includes/modules/jet-dashboard/assets/css/jet-dashboard-admin-inline.css": {
+      "md5": "fa4df265e38bce523d0a7a53e3028a7b",
+      "sha256": "3bdd339d67043c0aa37e175a24ebbcf87d65e36b0db2460693d264fd4ed04bcb"
+    },
+    "includes/modules/jet-dashboard/assets/css/jet-dashboard-admin-rtl.css": {
+      "md5": "01fade816a8844f6f2eb5b3ab7e6e54e",
+      "sha256": "592a9a44f912349bcc85c046e3cb046cd8f35f853008c2104784a8cfbaa2c292"
+    },
+    "includes/modules/jet-dashboard/assets/css/jet-dashboard-admin.css": {
+      "md5": "9fe13b484dd4e6e9d9688846ab09c6fd",
+      "sha256": "a0da0e4b8e48ac9fa969fdf41c6863ceb57a19b0a31ce9e931bfc6577e6fa8f3"
+    },
+    "includes/modules/jet-dashboard/assets/css/wp-admin-styles.css": {
+      "md5": "76d4863d8dbf38023b1379c4cf174862",
+      "sha256": "82ee22d788a38dc35a7bbeb34b0659a4dfb1ac288586afbf571145b352c19e0e"
+    },
+    "includes/modules/jet-dashboard/assets/images/banner-light-bg-1.png": {
+      "md5": "26342cf49a7ecb3a1c9e37c43011b8e8",
+      "sha256": "e8e5583455c1583a3b163022e9f42c665a89bd191e63ed08c70a3d59fb147acf"
+    },
+    "includes/modules/jet-dashboard/assets/images/banner-light-bg-1.svg": {
+      "md5": "4cc3deced901def6bc50de01a4a7ec26",
+      "sha256": "150d15067bc98d47f8551cfc056132313eef9685aee69287bc34a13de0521163"
+    },
+    "includes/modules/jet-dashboard/assets/images/elementor-wordpress-icon.svg": {
+      "md5": "ec3a2dc201c7a486b1fd96e17d6d5246",
+      "sha256": "124452134007eb028b3869af75fce41896e4d36dc5cda27827f730d756d86330"
+    },
+    "includes/modules/jet-dashboard/assets/images/youtube-icons.svg": {
+      "md5": "d121770edd6cfc0127566fe490f7ba45",
+      "sha256": "44634a15d89e5ed87f9ed5b0de8f268d4bb48fef70ab141f29ea3407ee9a5853"
+    },
+    "includes/modules/jet-dashboard/assets/js/jet-dashboard-class.js": {
+      "md5": "2d90507ae1fe9b2c54a848f9e2c6cdb2",
+      "sha256": "882a5f85984d733e5df221808a93f51a6d270772c3df70261e2ea89267492028"
+    },
+    "includes/modules/jet-dashboard/assets/js/jet-dashboard.js": {
+      "md5": "84e3904831d2b60b2269f64afb24186b",
+      "sha256": "3dfaef18b480995fe6493814376f4d540547718a7bab574d73c1fc67daff54d1"
+    },
+    "includes/modules/jet-dashboard/assets/js/license-page.js": {
+      "md5": "5c0b70258bd233edf67798a6eaaedf23",
+      "sha256": "01646a4bb3357ab67d14f7cc3fcc94ec739a6e81a7eb495f90db53005e0a8923"
+    },
+    "includes/modules/jet-dashboard/assets/js/settings-page.js": {
+      "md5": "e4bbb1322fc457cad396f7981acd6025",
+      "sha256": "b2881587165f82c371ad5ee10c358a79775fea52ae9519b2405f4563cf79665f"
+    },
+    "includes/modules/jet-dashboard/assets/js/upsale-page.js": {
+      "md5": "4416296113ee8d06c4e2c1b7acfa1314",
+      "sha256": "ae4fc2e4c9552b1e3435ac9c0298d07b7c0487b022dd45a0a89f3255aef44c5e"
+    },
+    "includes/modules/jet-dashboard/assets/js/welcome-page.js": {
+      "md5": "6edf399d94aa236e40d2b7876f1a9b95",
+      "sha256": "d1f7016c31bd076a2e69fa655de5416b9084f1caa379fb36fde3d7702f763854"
+    },
+    "includes/modules/jet-dashboard/assets/scss/.DS_Store": {
+      "md5": "b9d7ce9cb44c57f04f378a128d43be64",
+      "sha256": "8fa336b9c27d0e1fe938023627e4ef40830becb5d904bba415b30559fece53a4"
+    },
+    "includes/modules/jet-dashboard/assets/scss/jet-dashboard-admin-rtl.scss": {
+      "md5": "f3d6d0bb6995a3e01b415d5535f6bf8b",
+      "sha256": "77ad018d7e2ac27b78877ba87dfb48cf7f4b87843f84572b05fbc49f4538803e"
+    },
+    "includes/modules/jet-dashboard/assets/scss/jet-dashboard-admin.scss": {
+      "md5": "5a6af5d3423de26a8d5d8f4034ae89cf",
+      "sha256": "1b946407326da21b7467171cb65982b7cc5497a4aa2e1631f8f23de566f3c757"
+    },
+    "includes/modules/jet-dashboard/assets/scss/wp-admin-styles.scss": {
+      "md5": "fa7eceef55c7ed542ca9bf4eb0138c1b",
+      "sha256": "99c3920936d9465b871149d8de52e27ca243edd4729175830e5ac3d0f2c4e23e"
+    },
+    "includes/modules/jet-dashboard/assets/scss/mixins/_direction.scss": {
+      "md5": "c6f3febfbcfd8868a182f2b363b38210",
+      "sha256": "0424cb43c6cf8f6b1ff8a5ec9c953399a827041dd838d995e5682fe494522032"
+    },
+    "includes/modules/jet-dashboard/assets/scss/modules/alerts.scss": {
+      "md5": "ebda0b114d027c8b4ddd8637cb5225ba",
+      "sha256": "cf81a6b888eed8c6efe978d817d7493d5faf24c77330ee405cfa6c4d4a104675"
+    },
+    "includes/modules/jet-dashboard/assets/scss/modules/banners.scss": {
+      "md5": "0d0428cddc537ff5259a00f72b9c4e2c",
+      "sha256": "5aaabe98a44fbb46cb511efcb639d2629e9b4b1abcdfc67c14f4fd9291e1efd6"
+    },
+    "includes/modules/jet-dashboard/assets/scss/modules/buttons.scss": {
+      "md5": "e50d314a9a579b50e02aaafc678cd867",
+      "sha256": "0ed13611019591bdc6995af74695a56da702256927b7607c06a3e22e520123cd"
+    },
+    "includes/modules/jet-dashboard/assets/scss/modules/license-page.scss": {
+      "md5": "98bdc81749be7b76bfe4103d5570bf57",
+      "sha256": "530c2552153068b0af98105da41e2e7bc134d90306ed153a463e6d6492def1f7"
+    },
+    "includes/modules/jet-dashboard/assets/scss/modules/popups.scss": {
+      "md5": "1b58bbecb169918c1f4610ee6501c707",
+      "sha256": "6df86ec68b3ec89ae195f3721bf657264f552eba5dee749a8da775f517f2e0d9"
+    },
+    "includes/modules/jet-dashboard/assets/scss/modules/settings-page.scss": {
+      "md5": "f6563ba1f84703bebb0e0698d18ce741",
+      "sha256": "4c1064412e9517d98b9ebab13eb974183b8e60c379e2126aa4495a78bfa2482b"
+    },
+    "includes/modules/jet-dashboard/assets/scss/modules/upsale-page.scss": {
+      "md5": "f83978e3d134f0dcef3e3f87bfd55dad",
+      "sha256": "7c6daf23624a3f8780ae3cba799659c4f67852bf7fa93d510246f8a77883ac27"
+    },
+    "includes/modules/jet-dashboard/assets/scss/modules/welcome-page.scss": {
+      "md5": "87df38d6c8d3f5d946a4317b62009c96",
+      "sha256": "8a080ec434eb398408a90afb4dfdf9bf8b4e3e6f4649690663fc054750208bb2"
+    },
+    "includes/modules/jet-dashboard/inc/.DS_Store": {
+      "md5": "bdd5970a3a4c43e504c8b9db3006726a",
+      "sha256": "b3a03fbf7ed89f3280b53edbd4225a119451192ea74f2763fb846ded658f46de"
+    },
+    "includes/modules/jet-dashboard/inc/data-manager.php": {
+      "md5": "d606706234771b63a553134fc89c95d5",
+      "sha256": "d72fe5b82ad376d166666f382136c1342602d03502b206d12bcf595389e56c6c"
+    },
+    "includes/modules/jet-dashboard/inc/license-manager.php": {
+      "md5": "c4fa7e7fb3d04aa5f7e92ad83f6896d2",
+      "sha256": "c51f29cac49ef3228ce080e966553de6b52b146d788c24391c6d8f9f87de501d"
+    },
+    "includes/modules/jet-dashboard/inc/notice-manager.php": {
+      "md5": "02b48f493d44431b359c66d67fb957da",
+      "sha256": "ce744f0337ff30455ba53868cb73fc153876c7718cbbb11fe1a2d5498969a7b5"
+    },
+    "includes/modules/jet-dashboard/inc/plugin-manager.php": {
+      "md5": "66db89913ca888c78b77d91e06602ab7",
+      "sha256": "35df00839220399826d78fd447fd27edf2ed7ee1de66879619fe9e20a18beeb9"
+    },
+    "includes/modules/jet-dashboard/inc/utils.php": {
+      "md5": "44b8737c9647796b00cdf0195cc20626",
+      "sha256": "bc56cf7080d851077280ad1c1a2ed2ac272398d0dcaee9966d72dac1bc10c954"
+    },
+    "includes/modules/jet-dashboard/inc/wp-dashboard-manager.php": {
+      "md5": "b3e595bddbad648a6d69cf61c4b735c3",
+      "sha256": "6bb2d20f175d91c5bea0bd3cf67d7b484521f45d71b8dec0506ce1621143dd1f"
+    },
+    "includes/modules/jet-dashboard/inc/compatibility/base-theme.php": {
+      "md5": "1aa59cc988a6ed733f5631a20924a350",
+      "sha256": "8575282c42ae6ee3f65806f4081fe318bf42ba33fe8ae275c7c43e28771233f0"
+    },
+    "includes/modules/jet-dashboard/inc/compatibility/manager.php": {
+      "md5": "cbd38eafdfd535e3344fc47beafcb420",
+      "sha256": "ac79f97e3d175a80ee3b007dd02948675cf045c1e7c4a285eab1597d4a06d4cf"
+    },
+    "includes/modules/jet-dashboard/inc/compatibility/themes/hello.php": {
+      "md5": "4d1c0c946b88f1a0a717c054ffa5fe6d",
+      "sha256": "48c2cbdcea8366bdd879998c4ed894644ce3f148858df52e3d814532cdbe6ca3"
+    },
+    "includes/modules/jet-dashboard/inc/modules/.DS_Store": {
+      "md5": "62a6bf67d041fd45a916b3c14683809e",
+      "sha256": "d99cb5988fafae63adc2cd8ffa45e17cf5bddaa19a78f810c496981f8b60a38b"
+    },
+    "includes/modules/jet-dashboard/inc/modules/manager.php": {
+      "md5": "82a24e7f1b973326b7708fd747ffa3d0",
+      "sha256": "e852e5d2ccceda6f62411c20c191f2e9d1e28f94b3811b3e74830ebd978a813b"
+    },
+    "includes/modules/jet-dashboard/inc/modules/page-base.php": {
+      "md5": "1cbf203d884bc3ab7e785523dbc7c7b3",
+      "sha256": "fc1d566f3de4f36c3e32784db701f966de7bab1bebd537149f1123398d31c5ac"
+    },
+    "includes/modules/jet-dashboard/inc/modules/license/module.php": {
+      "md5": "52cc06361bd430e6685e0e1f1366746e",
+      "sha256": "17938af15d7ae55753b4c81fc26b1124d652d13dde92f4179c5f4667c3bbf4dc"
+    },
+    "includes/modules/jet-dashboard/inc/modules/settings/module.php": {
+      "md5": "801d985c45b20afb4b3ab4ade3f082d9",
+      "sha256": "97b5c4096ce8b962e147f39b9c2a260f771fe8dab5c3263a186cf0e687c9e607"
+    },
+    "includes/modules/jet-dashboard/inc/modules/upsale/module.php": {
+      "md5": "c87f9b1ad361b10f4ff704662013ed88",
+      "sha256": "aeca19842d1c0c7002c5197c3c2e035bf45b40846cda5fca80357450e2a9c0c5"
+    },
+    "includes/modules/jet-dashboard/inc/modules/welcome/dev-test.php": {
+      "md5": "bdd7c7bb5792214b37e3c4f9cbda7ce7",
+      "sha256": "6233b07f82e3e627bd2c7842fca360491c989faccd4235b83a1c0c0a26d132bb"
+    },
+    "includes/modules/jet-dashboard/inc/modules/welcome/module.php": {
+      "md5": "073cd681cf94392de5744fd93668ee01",
+      "sha256": "04b384b47b6e3892792c98eefdf61a212412d8ecd361e75f88f0598f0207f718"
+    },
+    "includes/modules/jet-dashboard/views/.DS_Store": {
+      "md5": "d13a910c04c5555441054cadffc22619",
+      "sha256": "d225d314b920fe25e045f5dc457651bce8549d5bdcf910f6d6751b213040fe81"
+    },
+    "includes/modules/jet-dashboard/views/common/after-component.php": {
+      "md5": "57498d32901fdb0f5f2d0d377e189025",
+      "sha256": "6d80ad427981a545ec2f164c63eaa890536f682a942a5021604f53204e1bc8cb"
+    },
+    "includes/modules/jet-dashboard/views/common/after-sidebar.php": {
+      "md5": "b4679c09b0b7b011555baa12bad0168c",
+      "sha256": "07cb5a15ba685f9d11abb93f916693f89ab4669b3ef1a7bdec42d916f5d35d3d"
+    },
+    "includes/modules/jet-dashboard/views/common/alert-item.php": {
+      "md5": "05a910e822025dca979fb78c0213b0f3",
+      "sha256": "f059a36858f0c749d5d3a213c021d202dfc3646773f07c1f430284866fa1480b"
+    },
+    "includes/modules/jet-dashboard/views/common/alert-list.php": {
+      "md5": "9f8b572b0e9e10a5034ac1cc87cc7846",
+      "sha256": "1ec6721e12d2a71231b1dc62113fcfb593b1ae124ea911fddba089f22d948f43"
+    },
+    "includes/modules/jet-dashboard/views/common/banner.php": {
+      "md5": "15235f8e8af4848ac13964b2776ac634",
+      "sha256": "4fb902ac0e68ee9bd791fe6d3bc6b1f365d729e64842d7feaa9b0d9bd2aaeb09"
+    },
+    "includes/modules/jet-dashboard/views/common/before-component.php": {
+      "md5": "1381019da2e027ea4d4c5f0dbf253150",
+      "sha256": "689cf501ddc45f030eaa5ac1b7e36b1a5f99b6bbe095dd58e79416fa706c5fe8"
+    },
+    "includes/modules/jet-dashboard/views/common/before-content.php": {
+      "md5": "3a33b80aa286a8de406fc253a5048a15",
+      "sha256": "05d9cd7f502d3b8af62d9a0d41353a6664517ddbac8d197b5a482cf6e47c46fb"
+    },
+    "includes/modules/jet-dashboard/views/common/before-sidebar.php": {
+      "md5": "657bbf0b8c33ca0e6a05d3e5763daa5a",
+      "sha256": "b7ae777d0fb8ecccaf20e8565a38840578da72ead8fe2bea28c2cf426f209c3e"
+    },
+    "includes/modules/jet-dashboard/views/common/dashboard.php": {
+      "md5": "d78337d76bb8f72a506cdb5ae77b488e",
+      "sha256": "7a44b01434c21ec9138e5ac763466e59e7c7b541ae928f0b9163650f266505a7"
+    },
+    "includes/modules/jet-dashboard/views/common/header.php": {
+      "md5": "35aaa671a30d16aed1cef883b8954fd9",
+      "sha256": "3b57f1720b67897f3302262a1ba106ee7d1fee5fb01b886543efecccbab91f2d"
+    },
+    "includes/modules/jet-dashboard/views/common/inner-component.php": {
+      "md5": "3e0550e75369ceabaa866ef52049f7ab",
+      "sha256": "9b147d4f6f4d5b1bac05bc274191f6bcbec38e050e2461d4ee08046faffbab3b"
+    },
+    "includes/modules/jet-dashboard/views/common/sidebar.php": {
+      "md5": "8299d9f5ee79e2e02ec6abf4f89538fd",
+      "sha256": "f9c8e68267dcec45d6579c32556d68478411a170265a651c251448606c606290"
+    },
+    "includes/modules/jet-dashboard/views/license/license-item.php": {
+      "md5": "7507d8998d396c0acdf058646b2e64aa",
+      "sha256": "f8a5160ca8758a14a56a09f124584dc0a6bd8f9d329f3379c760ca5ffe864962"
+    },
+    "includes/modules/jet-dashboard/views/license/main.php": {
+      "md5": "9b8fca9d3bcfadc4f5abecd27bcc83b6",
+      "sha256": "f7e47aeae6d42fdc95ce2876f67554f267af836b7fab4d0ef69e3d81771f2baf"
+    },
+    "includes/modules/jet-dashboard/views/license/plugin-item-avaliable.php": {
+      "md5": "de175a5e512a4bd7d4815a69b76cc6b7",
+      "sha256": "129f46c9ac3413af3a0dfdaffbc6d3a468272a27c1eb1ce8cfaf82429df20162"
+    },
+    "includes/modules/jet-dashboard/views/license/plugin-item-installed.php": {
+      "md5": "fd931f6baa90e81a577e6f2f08acb0e1",
+      "sha256": "2019482ac6e7eb58eb7c1970c7f52625e4576141556e460c0be8423cee544e32"
+    },
+    "includes/modules/jet-dashboard/views/license/plugin-item-more.php": {
+      "md5": "c1c10a57b059a559a37736e6cacc8a6f",
+      "sha256": "709f7741e6877fc35b0c502286c018fbfec65d560ee811c8e3208b87dc8c5e64"
+    },
+    "includes/modules/jet-dashboard/views/license/responce-info.php": {
+      "md5": "378e3ee9f09d8095edf2140ff47342c5",
+      "sha256": "5ab43d598906e8e31f97e6b0de62a783028592ed42e2eaffee43bc96c78da80b"
+    },
+    "includes/modules/jet-dashboard/views/settings/main.php": {
+      "md5": "bd9a19f5fc5183842615372450616640",
+      "sha256": "423b9b59680ff843f841a290dd6f418c105837653fc1545e2dcabdf4705fa5cd"
+    },
+    "includes/modules/jet-dashboard/views/settings/plugin-settings-toggle.php": {
+      "md5": "ab879d9cc7266db27ed15f15fad8591c",
+      "sha256": "ad00ffe745c34cda9139c9ac6a672e3227a0a8510ff52a21c893334e338b69ef"
+    },
+    "includes/modules/jet-dashboard/views/upsale/main.php": {
+      "md5": "e865a32db20ba87cef5c9aa00100b3ac",
+      "sha256": "561ec3bdaf02c8398c51d1cdc94fe92f04906d444f3b6a1e01f2749e5540eaa5"
+    },
+    "includes/modules/jet-dashboard/views/welcome/extras-item.php": {
+      "md5": "38fcb8c6811d0ca97c59bb33d2e5a885",
+      "sha256": "5cec267796a92d2471a10cd4595bbf6fc7db9a256a3cb9313b042414ad54dfb7"
+    },
+    "includes/modules/jet-dashboard/views/welcome/main.php": {
+      "md5": "69f2dc1a849277b3ff09c3e72c8e7ffc",
+      "sha256": "00da3edf92e33e1ba31b73a80d6f890ee5aa65df853f9700868d63d7d5027266"
+    },
+    "includes/modules/jet-dashboard/views/welcome/offers-item.php": {
+      "md5": "29d4c9031b898d999ddc72491970f896",
+      "sha256": "8431c305317a0647a67039c349f6c786b06bbf433f1ad22612c0dfb3ab00e66c"
+    },
+    "includes/modules/jet-dashboard/views/welcome/plugin-item-registered.php": {
+      "md5": "be5f7e542e5d46eeede7544d3817c584",
+      "sha256": "0258d78afe2ea203fbf086a6260d4163d74c4345d9f6e930826db2434904d670"
+    },
+    "includes/modules/jet-elementor-extension/jet-elementor-extension.php": {
+      "md5": "b57125dc141200540e64de2d24415289",
+      "sha256": "c8f84fd9f2565dc1922b3a687d3f699e137716acf552bb5317303b7d69631172"
+    },
+    "includes/modules/jet-elementor-extension/assets/js/editor.js": {
+      "md5": "d34453de74a3f6da69f72c3513e91b4c",
+      "sha256": "f7a73ff479a1c14733421069754b172fa0ab9193099b1d1cd0d36ffb34fd4773"
+    },
+    "includes/modules/jet-elementor-extension/inc/ajax-handlers.php": {
+      "md5": "7dae2a2b842382f5050531f07d7b32c2",
+      "sha256": "d48ceeeb81393e77e09b3fa2e2857ceb912ae6605f72404aefd01a37515c7d26"
+    },
+    "includes/modules/jet-elementor-extension/inc/controls/query.php": {
+      "md5": "2480577bc8495d7ff2ac8aeabc9cb129",
+      "sha256": "b78abafd53627066759f5a60f0876c4a4a7a165e51f8bdba4f3761adc19984db"
+    },
+    "includes/modules/jet-elementor-extension/inc/controls/repeater.php": {
+      "md5": "e1fd5330b5c4f6b6e5fc76acd2987c51",
+      "sha256": "c52981deb04eb6faedc6a7b56ad388fed278802f5c031ddc8e3aeafa197f9a05"
+    },
+    "includes/modules/jet-elementor-extension/inc/controls/select2.php": {
+      "md5": "8e497cc8bc80b9f06d660b82965ebcb6",
+      "sha256": "4dd781d74498a3ee4be354b578b7684d24d4b3933bb83deb647c155bb5266bfc"
+    },
+    "includes/modules/vue-ui/cherry-x-vue-ui.php": {
+      "md5": "aa7204df194601db9e6f47b585046556",
+      "sha256": "abac3f3eab31c5f7ed3e84b0adff4cd915465513d1803652df1de22d00ca8c9b"
+    },
+    "includes/modules/vue-ui/assets/js/cx-vue-ui.js": {
+      "md5": "bf6ef086fb7ce28d56f6de61c5b0c2d2",
+      "sha256": "0ff4096c7cfa4f1e74f6f439d5cff6fd2523bcd9d26bc3385a325765e8344d06"
+    },
+    "includes/modules/vue-ui/assets/js/vue.js": {
+      "md5": "d5c38adb09ff79efa1c4d0745dfd308c",
+      "sha256": "b9f18495bdd39ceb7397913873fa909d91463fe1581198f991b48474936bc340"
+    },
+    "includes/modules/vue-ui/assets/js/vue.min.js": {
+      "md5": "17e942ea0854bd9dce2070bae6826937",
+      "sha256": "72194d152571dd375c4365e5c3b4af9db2c06af0102ced18fcb062597d38be26"
+    },
+    "includes/modules/vue-ui/assets/src/js/cx-vue-ui.js": {
+      "md5": "0250ea3af6bb8f3ec4d938405f88eaa8",
+      "sha256": "43bf896454312d31bc142d5d43802371eff3800dc802532fb035371aa212a8e8"
+    },
+    "includes/modules/vue-ui/assets/src/js/components/form/checkbox.js": {
+      "md5": "5d3325c1c4cda8dd4a731cda16eeeff7",
+      "sha256": "58c2fe68a4e3ffc16a7091f6211db873a7814c944f1db1114a0b3cfa88eb4aa7"
+    },
+    "includes/modules/vue-ui/assets/src/js/components/form/f-select.js": {
+      "md5": "72fffe57f1a28463474373b101298dae",
+      "sha256": "20dcea0b58063502bdd55ae4ae0b7a5e30c194ff852357662d5b7b39ea3539d9"
+    },
+    "includes/modules/vue-ui/assets/src/js/components/form/iconpicker.js": {
+      "md5": "7dccc1023517593aa143f56647d418d9",
+      "sha256": "46cdf41ee92806af7199884e260859aa98df213fad410e558954e83f58df9f7c"
+    },
+    "includes/modules/vue-ui/assets/src/js/components/form/input.js": {
+      "md5": "a7a001dd5aac2a79ba81289376fa7aff",
+      "sha256": "c7dd5463e75a0b0696f66ea3683a2b1528b7ffdf63f3a4132989191fe157d0b9"
+    },
+    "includes/modules/vue-ui/assets/src/js/components/form/radio.js": {
+      "md5": "d488f9cde71402fd2fc0adbcc368e4de",
+      "sha256": "f179351dce64c3c6cb5e19483ef2269b0a2fa1225719a93508ea8f1462236d4d"
+    },
+    "includes/modules/vue-ui/assets/src/js/components/form/select.js": {
+      "md5": "2f3b0764f0adae8f99b2431c32f738e8",
+      "sha256": "4aed6e7813b40f415601a8c65b61148ab4a8af784a0e6fe62144b8bc56838ac4"
+    },
+    "includes/modules/vue-ui/assets/src/js/components/form/switcher.js": {
+      "md5": "0364591fb45f7c7dd7ed339f8ab575a5",
+      "sha256": "f4b830291410cd530574fa9fea741c626adb743f7259ea23cdcab790033a28ca"
+    },
+    "includes/modules/vue-ui/assets/src/js/components/form/textarea.js": {
+      "md5": "e02e92ad1e3029f6b5c8993c9d44c6a5",
+      "sha256": "55d4fb8e6a9126fe89e2f8ce261ce97cf3a83fc271044623e704fd2a9fc49e1b"
+    },
+    "includes/modules/vue-ui/assets/src/js/components/layout/button.js": {
+      "md5": "4889cb9858892f75e7c89008050969c1",
+      "sha256": "6c8aa3816e2b8568c93b7fa6673a34e014d28902988ef899f891f14bf7ffc308"
+    },
+    "includes/modules/vue-ui/assets/src/js/components/layout/collapse.js": {
+      "md5": "8e15beefb2d8571cf7183771da11f430",
+      "sha256": "61e6eb9b79751318923dac4a38d5bc54f573cb4853da9307025afee61dfff8d8"
+    },
+    "includes/modules/vue-ui/assets/src/js/components/layout/component-wrapper.js": {
+      "md5": "e3611874398b815edcad1983db00bda0",
+      "sha256": "9b2643a000439c1aa283849686a6e3e09d933259c0f66c09a4e29633f649e017"
+    },
+    "includes/modules/vue-ui/assets/src/js/components/layout/list-table-heading.js": {
+      "md5": "357cb622e5d566bda81b8f0ca97aa84f",
+      "sha256": "9d5be27077a7b43257933a9dfd47da359efc98a582f67008dbfe661c82163fda"
+    },
+    "includes/modules/vue-ui/assets/src/js/components/layout/list-table-item.js": {
+      "md5": "0562a6a7f42b286cef563960a978626b",
+      "sha256": "1110e6b3a880e8d9efe093345084936714ff48c4e66e9b661b63bcfccf3ee033"
+    },
+    "includes/modules/vue-ui/assets/src/js/components/layout/list-table.js": {
+      "md5": "577a0a5eb91317bd7ba7881400ddc46d",
+      "sha256": "7cdc043410e3911844a063c83b3623991385aaf97608ffd5c631d6f0cb13ba6b"
+    },
+    "includes/modules/vue-ui/assets/src/js/components/layout/notice-component.js": {
+      "md5": "81c4147a252e4cb3c47aad11c09aaad5",
+      "sha256": "8910cce3712d899bdfa658395850e4f8392a5a6bfb555c4d65cf43670efa90f4"
+    },
+    "includes/modules/vue-ui/assets/src/js/components/layout/notice.js": {
+      "md5": "b79f8ee7c17b4092d6c8b3f94da795e0",
+      "sha256": "8c770249f441ebd4ebdda59a7771a5a5e2045ec1bf850be17f0dd3f87987af2e"
+    },
+    "includes/modules/vue-ui/assets/src/js/components/layout/pagination.js": {
+      "md5": "e79fc8e271cb08889c053bc684f2a86a",
+      "sha256": "2122c401de5363504c9739d5e5ac66d9e392c9715552e8b76699632f4474227b"
+    },
+    "includes/modules/vue-ui/assets/src/js/components/layout/popup.js": {
+      "md5": "1a1c94fb1461683484247be3d98323fa",
+      "sha256": "60aa5aff3acdfce44c4f087f3990970916c0d5fc0090cb6f59a9ae2109eea37c"
+    },
+    "includes/modules/vue-ui/assets/src/js/components/layout/repeater-item.js": {
+      "md5": "032f6a1fb43c2e43168e311aaad76152",
+      "sha256": "f1d055870a4df5c7004d2719c2eb6c4b51e420dff54741983f8aae852b18d3dc"
+    },
+    "includes/modules/vue-ui/assets/src/js/components/layout/repeater.js": {
+      "md5": "70978b40031300705de7c550218c8919",
+      "sha256": "641f1b68c1d1f3baec920e20cf70d5116eb71ff104c020e7fd48635d4a158a29"
+    },
+    "includes/modules/vue-ui/assets/src/js/components/layout/tabs-panel.js": {
+      "md5": "e56fa53e4c09a8cce7a03a52009360a9",
+      "sha256": "b5b92e1302da9d07ea0961491bdc0d338dd6bea191187efea23fa28c15522bc8"
+    },
+    "includes/modules/vue-ui/assets/src/js/components/layout/tabs.js": {
+      "md5": "a364722f0e5ededd126e3cdbe1d7dd32",
+      "sha256": "8443acf422a58589c20a78da9801818f835c61f1fad66e123a09b3c9758fc1f1"
+    },
+    "includes/modules/vue-ui/assets/src/js/components/layout/title.js": {
+      "md5": "9d023e8289ccf6dbea20541b58dd0fdf",
+      "sha256": "7b7d2ddf6b012e2b91b13dc7e2e32567a1896e5861cedc3304979a5a280ac148"
+    },
+    "includes/modules/vue-ui/assets/src/js/mixins/check-conditions.js": {
+      "md5": "aa226e729ea94714902dbcd72548fc83",
+      "sha256": "43e7c420779e1a57c0814ab6091d051e67b2738e1b55e1f4578c53cd195fa68e"
+    },
+    "includes/modules/vue-ui/assets/src/js/mixins/wrapper-classes.js": {
+      "md5": "eb9207d208c771b2cbde5ee462587624",
+      "sha256": "6da565c5731616866f5cee4e9311cfd2791b6b4440705e3edb7eac5fd8290672"
+    },
+    "includes/modules/vue-ui/assets/src/js/utils/assist.js": {
+      "md5": "0074192b3ac6be7328f86db0b572ee0e",
+      "sha256": "489533b7aed45cc70e20eff865052b46331d6d02771e2359847e906e05b4618a"
+    },
+    "includes/modules/vue-ui/assets/src/scss/cx-vue-ui.scss": {
+      "md5": "bd9b946abe3f90a92b392fd54e2adf97",
+      "sha256": "0b88978dcfe5726ba6ced80cf487a9e4b5fa944f9cbb05adb4fd699dce5d3d46"
+    },
+    "includes/modules/vue-ui/assets/src/scss/common/_component-wrapper.scss": {
+      "md5": "69835a83555ab21bbbdca2c34992bc2c",
+      "sha256": "ad54c429203d1cd052ae3138ae9634b6f6bf0a7bb281c7dc33fde188acbfcee7"
+    },
+    "includes/modules/vue-ui/assets/src/scss/common/_copy.scss": {
+      "md5": "80d4cbd287360602bb90e2192e0c0ab8",
+      "sha256": "efa7870da6d65ff22d7e37b4f039f4c027b16fd2bcb44117b0556f9209127374"
+    },
+    "includes/modules/vue-ui/assets/src/scss/common/_panels.scss": {
+      "md5": "662bed3fe3089c82769d434c4e31b906",
+      "sha256": "5c2f24d53afd596b5d5c422350b4fbd8f25b153e80392d87603c7bd35ad5d367"
+    },
+    "includes/modules/vue-ui/assets/src/scss/common/_popup.scss": {
+      "md5": "789b53d3bd14ca48f3169bdc485a6db3",
+      "sha256": "e0cf2eba71b9ac399de950e6ad34dcd60bc23a0661afbf535533b5f110ed9c26"
+    },
+    "includes/modules/vue-ui/assets/src/scss/common/_titles.scss": {
+      "md5": "45e57b17102757c09b96acd176b3b162",
+      "sha256": "9b74d9ef7434e677b77f3df72246a5b7eba4c56b95662ad6308bfa5197dac65b"
+    },
+    "includes/modules/vue-ui/assets/src/scss/common/_tooltip.scss": {
+      "md5": "601c22a284f42faf3163b8ad20d130cd",
+      "sha256": "c0d51edc95ef61c1b9f02bae43b08dd0aaa3f604149f61374d7e52c741ba6a27"
+    },
+    "includes/modules/vue-ui/assets/src/scss/components/_button.scss": {
+      "md5": "790e21a32383fa06c8a73d4557366c9b",
+      "sha256": "918ca87181d2f20e3af7d75455c9f6fc3876916a10f17825a451d3dbfb55a257"
+    },
+    "includes/modules/vue-ui/assets/src/scss/components/_checkbox.scss": {
+      "md5": "fcd5536e6519e2d7c913b566f036ca0e",
+      "sha256": "3a4357b006eb04a6fe5e5ec44dcda93385fc553269296f1127f446affebf36b0"
+    },
+    "includes/modules/vue-ui/assets/src/scss/components/_collapse.scss": {
+      "md5": "06e9bb9bd1925a63ee84b9ce452a810b",
+      "sha256": "3f430a78c1bab641bdfae08956daad0eb246f355f74e4ee16aa64fbb2f54e428"
+    },
+    "includes/modules/vue-ui/assets/src/scss/components/_f-select.scss": {
+      "md5": "3470df05c824077325859c19fee0f9c6",
+      "sha256": "6bea4a7903556608249f3124f8ef998cbcf924a1863694a757ef1223fed6acd2"
+    },
+    "includes/modules/vue-ui/assets/src/scss/components/_iconpicker.scss": {
+      "md5": "8508994c444ca4edf564a9259649eeed",
+      "sha256": "1ece412231b93776450a65ca87945fa3b3fb3431edb444ae71230d16d43ccced"
+    },
+    "includes/modules/vue-ui/assets/src/scss/components/_input.scss": {
+      "md5": "5940c348ca186f65311930386e0d9a1c",
+      "sha256": "65eb97db99bc4dc9a5716e86b122bc26847715a689ae2beb9b014d8e2d727db3"
+    },
+    "includes/modules/vue-ui/assets/src/scss/components/_list-table.scss": {
+      "md5": "85526cfe1935814a75d9681e305b6186",
+      "sha256": "359443c411407bbfe0e5c64a23c1f7c1ee787db1818a55df43888d5650317f32"
+    },
+    "includes/modules/vue-ui/assets/src/scss/components/_notice.scss": {
+      "md5": "ff1e12fc0090e3834bbc6b735b19798e",
+      "sha256": "6ba372d28136c842a6775491b48fd01a9f4df634d601903a2de92dfe4113a42b"
+    },
+    "includes/modules/vue-ui/assets/src/scss/components/_pagination.scss": {
+      "md5": "d7a0ec53034783badb3e13f5e9800edb",
+      "sha256": "56bd091ee42cdcbe49e1fe3cc44b0b93499051c2ac2511a7e18b83ba907e7a69"
+    },
+    "includes/modules/vue-ui/assets/src/scss/components/_radio.scss": {
+      "md5": "36f0b28a23ce1205842244e99e6580e1",
+      "sha256": "4fbef4add2012ab0681016fe03cbce20c72e0940bcdfb11fa6d877038e39dbe4"
+    },
+    "includes/modules/vue-ui/assets/src/scss/components/_repeater.scss": {
+      "md5": "4c645885307dd21e0d07ce92f00456be",
+      "sha256": "183bbfef36467b91445db4071909ab213d1e0c8bac62f409a2bee3b14f4d8c97"
+    },
+    "includes/modules/vue-ui/assets/src/scss/components/_select.scss": {
+      "md5": "906aaa94e7af0ffdd4d92aa5203cd8a3",
+      "sha256": "b063205c39a8cb9441207193f3c9cfddcfdfbde0dc43bcf9f64df3f6bd04ae61"
+    },
+    "includes/modules/vue-ui/assets/src/scss/components/_switcher.scss": {
+      "md5": "3fa661542834aaa7eb88017604e1c996",
+      "sha256": "ad4215a31d02ecf82eb4dc09a005e081d928279eedc391b83fe63f62d4640e9e"
+    },
+    "includes/modules/vue-ui/assets/src/scss/components/_tabs.scss": {
+      "md5": "6136a70a8e2ef50bdf951662360e3c5c",
+      "sha256": "c0cbd7b00914148b8d216c8c0b5e58cf7608958af03127c63e6675fd0ed93146"
+    },
+    "includes/modules/vue-ui/assets/src/scss/components/_textarea.scss": {
+      "md5": "3345868404c1a7193e382a039e773cd7",
+      "sha256": "c89238eef9a0cbdf06620732b78d39a5e1406423a9930bfae106322bf704d977"
+    },
+    "includes/modules/vue-ui/assets/src/scss/mixins/_input.scss": {
+      "md5": "b0a31ea0e14cf6054a49be2992be0fc2",
+      "sha256": "63ee02a3c17717636d16865990e5af8d87e5a12ad285f1078886fcea2c28beb5"
+    },
+    "includes/modules/vue-ui/assets/src/scss/variables/_colors.scss": {
+      "md5": "dd1fa66c9fb312861984787cbef6123c",
+      "sha256": "65b0a63918adbea17bbd9b1ee61604b8e460f4426187f5ae1dd2704393116413"
+    },
+    "includes/modules/vue-ui/assets/src/scss/variables/_fonts.scss": {
+      "md5": "9990728bc5e277009bd8c7db5fdfd885",
+      "sha256": "93f27a63c4e9203691b43286014a8dbbc04203fbc393611edcbc1ffbbf2a2a24"
+    },
+    "includes/modules/vue-ui/components/button.php": {
+      "md5": "779f7659e1497b2979c7db306b0324df",
+      "sha256": "0359e981317d7718bca1ee3916d0251f2ea8246b0b1b9aee016cf843f2b2bee2"
+    },
+    "includes/modules/vue-ui/components/checkbox.php": {
+      "md5": "0ae20314164eebcbe19bd0dabd933ea2",
+      "sha256": "c3df30449844bec354fa1ea992496b0d0519d1af9ae46f413cbb76bacaf983bd"
+    },
+    "includes/modules/vue-ui/components/collapse.php": {
+      "md5": "9143526a3c5e0ddca1c6245c4a2cd926",
+      "sha256": "aaf02f85efc67dec03066f14544c8b69697c0c0270a461db120a66b176a036b4"
+    },
+    "includes/modules/vue-ui/components/component-wrapper.php": {
+      "md5": "da7cd901319796090457c006d18f7994",
+      "sha256": "6bd0f3846f124fea691de32428545d4c9e462477c41e97694a021b0a5e2f1099"
+    },
+    "includes/modules/vue-ui/components/f-select.php": {
+      "md5": "d5d063c803b72e1ce16227ffac1a3273",
+      "sha256": "1e6061b85a45a469b30bedb92de7071f58d850a738aa4dbe3ff5806086257833"
+    },
+    "includes/modules/vue-ui/components/fselect.php": {
+      "md5": "d41d8cd98f00b204e9800998ecf8427e",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "includes/modules/vue-ui/components/iconpicker.php": {
+      "md5": "2ced5ab8a0c6ead1ad1cca8b5c38899f",
+      "sha256": "887a926164e5ccc861933a26c9aef911ddd788ea8af9b8009501aa343b00b8e1"
+    },
+    "includes/modules/vue-ui/components/input.php": {
+      "md5": "6f732ce39237c335d2e53692b9024ef6",
+      "sha256": "ead839f52cd04d61056e2246f96bb0170a052168acb7ed6cea3e1763fe77f6f5"
+    },
+    "includes/modules/vue-ui/components/list-table-heading.php": {
+      "md5": "dbe3fbd0070f93f643b5e405bbcd2ba8",
+      "sha256": "1a96f2e7716882399380f0ba427a25c3a675293fdddb3381f599c08d38562a6a"
+    },
+    "includes/modules/vue-ui/components/list-table-item.php": {
+      "md5": "0df83c2259b208ed60fc85c74fcd779c",
+      "sha256": "232bbd641ac035bf349c8ff494498b60ae4e5c2275395dbeaaaecad6d57a4d82"
+    },
+    "includes/modules/vue-ui/components/list-table.php": {
+      "md5": "6232149d09ad8ccaa31a4340c9c7d28c",
+      "sha256": "3ff6d7012eb01177f5dc472797b3c9700b34ce31b751d150a8f36268408dfb0d"
+    },
+    "includes/modules/vue-ui/components/notice.php": {
+      "md5": "6f1b1fb3014cb8cc64a385c63f0960f4",
+      "sha256": "1a93e63d6ad4a514a35ba4344f261f1479f17935e6601e54288ce24da088b927"
+    },
+    "includes/modules/vue-ui/components/pagination.php": {
+      "md5": "5743704a5e338ab36a883465fd3b1aee",
+      "sha256": "e8bd852c003595f1e4275e797c508df0f64dd9d61ead39c0ee0d9665d0677c9e"
+    },
+    "includes/modules/vue-ui/components/popup.php": {
+      "md5": "6fecc3b8b174252c67a3baf4fb7abc48",
+      "sha256": "d254f1afd597f8de59f80ad237a9ecbc0d52aadce60ce28a34e76734ede5c083"
+    },
+    "includes/modules/vue-ui/components/radio.php": {
+      "md5": "69230931da257b3d8181b403babc953e",
+      "sha256": "11ad856a394fa23501edd72b67faba78f056f8435b5e8f78470ca3a4f9c34058"
+    },
+    "includes/modules/vue-ui/components/repeater-item.php": {
+      "md5": "1fce8c238e3e4461a4db8a400f536a03",
+      "sha256": "e77a5ae0eef581cbfb535af5cdbc10298e047efac16d901fdbcac8b9904f36e9"
+    },
+    "includes/modules/vue-ui/components/repeater.php": {
+      "md5": "a7901e0cc0d919b98f13ab98b900cb65",
+      "sha256": "b93b470eec6b2c7f4ea266d5e4192c27eb1843039f3dc576ece8020626ab9b67"
+    },
+    "includes/modules/vue-ui/components/select.php": {
+      "md5": "916998539dcd3312271d3125bcbd523f",
+      "sha256": "639e9ed49ffc95de2ab357a006bcb8ccd58eae21b8235a39bea1a45b985dc818"
+    },
+    "includes/modules/vue-ui/components/switcher.php": {
+      "md5": "da0dc1a9e202d7897c4c6dd7542e2bff",
+      "sha256": "550181b585965517587416e895a5299e7fff4906cfcdf0aa389699a5de0da815"
+    },
+    "includes/modules/vue-ui/components/tabs-panel.php": {
+      "md5": "873216bf0d135b4194a2712f350b0d1a",
+      "sha256": "905c82169443d16dd01c4b3b152c5591b37e45cc7550947d2a6ea5cd1ac234c4"
+    },
+    "includes/modules/vue-ui/components/tabs.php": {
+      "md5": "6ca5010cb7b20f85cec224df0659ffc3",
+      "sha256": "bb1a48625f4ab26fe28f8bd5878bf40df7c86c66056290758a019053001932d7"
+    },
+    "includes/modules/vue-ui/components/textarea.php": {
+      "md5": "6279a3478ddb63b5ef5107c862fc511d",
+      "sha256": "51a6dc2239c51620f48e9919d3948aa6500858b39d4b803790d105dbb2f42e53"
+    },
+    "includes/modules/vue-ui/components/title.php": {
+      "md5": "3a8bd253ea13f2944acb9bd921379bcd",
+      "sha256": "6eeb1f443f69d9ca065a90e630ef06faa226621a370854f68f9326507c35bccd"
+    },
+    "includes/rest-api/rest-api.php": {
+      "md5": "1c58b9679e3e9faadff1447bcd3199ae",
+      "sha256": "c8e365f74a7d9f72b71e3a37b744ad50cd7e79fb6809e40e6183d87a80d763d8"
+    },
+    "includes/rest-api/endpoints/base.php": {
+      "md5": "c82032c6833f75d7af220c325dc3df39",
+      "sha256": "0f5ecabb286ac91875242b48d7e6fc07fad68d100571c2c16aae4aa3e1f7717d"
+    },
+    "includes/rest-api/endpoints/clear-tabs-cache.php": {
+      "md5": "984ad7d3f359c7c8540fc7677afc50d2",
+      "sha256": "335863bf613f315312af66821aa20bcd625501ef4b89084851aea33ecd6499a5"
+    },
+    "includes/rest-api/endpoints/elementor-template.php": {
+      "md5": "4293df5b8f3b1f9a52b82a01f8ca5629",
+      "sha256": "5f4917955952ea69a878bceed3855193e3ded070c68806af8277ed4553dd69a6"
+    },
+    "includes/rest-api/endpoints/plugin-settings.php": {
+      "md5": "96774e63db41c1101e6c307bd5246e33",
+      "sha256": "1adffde7b3ca9b6c2108f09bfd475d3dbec0bfe922ce7dbb128e9ee10780bb22"
+    },
+    "includes/settings/manager.php": {
+      "md5": "a4c3c0ba4171a8e575b4a67c85e879da",
+      "sha256": "0d816a90f721870291861f528e8591c9a5bc24780de0450cee38e0eba9206beb"
+    },
+    "includes/settings/subpage-modules/avaliable-addons.php": {
+      "md5": "ca57766abfe1d068e66a63ebc5ec9930",
+      "sha256": "03bd35aa9ef06eb3f2953554ccf8dff7c7fb253238e5dc59786a1e9fa7612fa0"
+    },
+    "includes/settings/subpage-modules/general.php": {
+      "md5": "5a0a85b2f7f7d269c874b2d0dfbbfee9",
+      "sha256": "a12c5136ec09dcb91afde8efbb785be8dbbc553159cab26bc9ff8ef56bbed185"
+    },
+    "languages/jet-tabs-ru_RU.mo": {
+      "md5": "69884fbed29c5fa2b9205f7fa71b656b",
+      "sha256": "202580292c7cd116ad6b21e62d93ea47afaf759cfaf8383d3840a84e8e8f704e"
+    },
+    "languages/jet-tabs-ru_RU.po": {
+      "md5": "4cb66d286040a42bbe37e92a62f711b5",
+      "sha256": "18f4589fd7eff8ba5eb34e5b76a07eb0bbe48bae197d44fdaf0c38687c6df3b2"
+    },
+    "languages/jet-tabs.pot": {
+      "md5": "c28f48e7d2dd120f585be16d4c7824a3",
+      "sha256": "bb1386c67ac7e5a60c24e75501840dff5a23a09d4bd302b2be7642e15293db87"
+    },
+    "templates/blank.php": {
+      "md5": "ab835262fe0b9bbe3ab2a5d205b323a9",
+      "sha256": "da403557564a013eb551c13a252d0a6769a83633b14d582468f2f261509ca001"
+    },
+    "templates/admin-templates/avaliable-addons-settings.php": {
+      "md5": "3b149a857b2881a49a78aa7fd06927e9",
+      "sha256": "c5f047c952a6dedb671c387fc29bc9055561b9be9ea755014703e3dbf13bd4f4"
+    },
+    "templates/admin-templates/general-settings.php": {
+      "md5": "39a30cc22e61cd3b06e0ea4b2b590f71",
+      "sha256": "2142c60ef3de51a1dcd38cdd3ff1faf5598f73fa5518bc52d04f8a49957de1af"
+    },
+    "templates/jet-image-accordion/global/image-accordion-loop-end.php": {
+      "md5": "63c10c9c1f57cf6b4db4ed5cd1a902ac",
+      "sha256": "7bacd63e252cd2aeced7c134e87a5ab1397e0838a1171af283943f3cbde1c860"
+    },
+    "templates/jet-image-accordion/global/image-accordion-loop-item.php": {
+      "md5": "2754a1fded6f0e1278ac73d563c26311",
+      "sha256": "e94a5dc255c3b661df02e22fe39ef563c6e6eaa1daf901e2e4d1ec32cf75a590"
+    },
+    "templates/jet-image-accordion/global/image-accordion-loop-start.php": {
+      "md5": "8ae4611690345183248235dab446b66c",
+      "sha256": "94d3fa6092d7f804ef8279d4b71d923807910e92819ed59f0505666f66b9ee6f"
+    },
+    "templates/jet-image-accordion/global/index.php": {
+      "md5": "2458a0a5aaad2333a327db6d97d92e43",
+      "sha256": "6a54f581f26e8fd8f43bad2721802ee366fbdf080591a07cfd5c820ae44b03e4"
+    },
+    "templates/jet-switcher/global/preset-1.php": {
+      "md5": "75743fdcd02b6e68a851dcce6e8f701b",
+      "sha256": "580ce8896001d26c7a10fb6e1a008b212d1dccb8e77d69cfa3278bbbcc3a1655"
+    },
+    "templates/jet-switcher/global/preset-2.php": {
+      "md5": "99b26933a625aead21d5c6a2a2a3de16",
+      "sha256": "01f88cc1719b555e8e5fb6e862973749aaa80fd3c2ab9b021ea0bb6379c85a79"
+    }
+  }
+}
