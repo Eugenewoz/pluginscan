@@ -48,6 +48,23 @@ class Plugin_Scanner_Command {
     ];
 
     /**
+     * Absolute path to the local checksums directory.
+     * Files must follow the naming convention: {slug}-{version}.json
+     * @var string
+     */
+    private $local_checksums_dir;
+
+    /**
+     * Base URL for remote checksum files (GitHub raw content).
+     * @var string
+     */
+    private $remote_checksums_url = 'https://raw.githubusercontent.com/eugenewoz/pluginscan/main/plugin-checksums/';
+
+    public function __construct() {
+        $this->local_checksums_dir = rtrim( __DIR__ . '/plugin-checksums', '/' );
+    }
+
+    /**
      * Scans all plugins and compares against WordPress.org API and a custom JSON allowlist.
      * Also scans filesystem for hidden plugin folders.
      * 
@@ -71,24 +88,24 @@ class Plugin_Scanner_Command {
      * ## EXAMPLES
      * 
      *     # Scan plugins with both WordPress.org API and default custom allowlist
-     *     $ wp pluginscan
+     *     $ wp pluginscan scan
      * 
      *     # Scan plugins with only custom allowlist (skip WordPress.org API)
-     *     $ wp pluginscan --skip-wp-org
+     *     $ wp pluginscan scan --skip-wp-org
      * 
      *     # Skip filesystem scan for hidden plugin folders
-     *     $ wp pluginscan --skip-filesystem
+     *     $ wp pluginscan scan --skip-filesystem
      * 
      *     # Scan plugins with custom JSON allowlist URL
-     *     $ wp pluginscan --custom-json=https://example.com/custom-allowlist.json
+     *     $ wp pluginscan scan --custom-json=https://example.com/custom-allowlist.json
      * 
      *     # Output results as JSON
-     *     $ wp pluginscan --format=json
+     *     $ wp pluginscan scan --format=json
      * 
      * @param array $args       Command arguments.
      * @param array $assoc_args Command options.
      */
-    public function __invoke($args, $assoc_args) {
+    public function scan($args, $assoc_args) {
         // Parse arguments
         $custom_json_url = \WP_CLI\Utils\get_flag_value(
             $assoc_args,
@@ -758,12 +775,319 @@ class Plugin_Scanner_Command {
         // If we couldn't find the name, use the directory name
         return ucwords(str_replace(['-', '_'], ' ', $dir_name));
     }
+
+    // =========================================================================
+    // checksum subcommand  —  wp pluginscan checksum
+    // =========================================================================
+
+    /**
+     * Verifies premium plugin integrity using MD5 checksums from local JSON files.
+     *
+     * Looks for plugin-checksums/{slug}-{version}.json locally first, then falls
+     * back to the remote GitHub URL unless --local-only is set.
+     *
+     * ## OPTIONS
+     *
+     * [<plugin>...]
+     * : One or more plugin slugs to verify (e.g. elementor-pro).
+     *   Required unless --all is used.
+     *
+     * [--all]
+     * : Check every installed plugin that has a checksum file available
+     *   (locally or remotely). Plugins without a checksum file are skipped.
+     *
+     * [--local-only]
+     * : Only use checksum files from the local plugin-checksums/ directory.
+     *   Disables remote fallback entirely.
+     *
+     * [--format=<format>]
+     * : Output format for the list of failed files.
+     *   Accepts: table, csv, json, yaml. Default: table
+     *
+     * [--timeout=<seconds>]
+     * : Timeout in seconds used when downloading remote checksum files. Default: 10
+     *
+     * ## EXAMPLES
+     *
+     *     # Verify a single premium plugin
+     *     $ wp pluginscan checksum elementor-pro
+     *
+     *     # Verify several plugins at once
+     *     $ wp pluginscan checksum elementor-pro woocommerce-subscriptions
+     *
+     *     # Verify all installed plugins that have a local checksum file
+     *     $ wp pluginscan checksum --all --local-only
+     *
+     *     # Verify all installed plugins (local first, then remote fallback)
+     *     $ wp pluginscan checksum --all
+     *
+     * @param array $args       Positional arguments (plugin slugs).
+     * @param array $assoc_args Named flags / options.
+     */
+    public function checksum( $args, $assoc_args ) {
+
+        $all        = (bool) \WP_CLI\Utils\get_flag_value( $assoc_args, 'all',        false );
+        $local_only = (bool) \WP_CLI\Utils\get_flag_value( $assoc_args, 'local-only', false );
+        $format     =        \WP_CLI\Utils\get_flag_value( $assoc_args, 'format',     'table' );
+        $timeout    = (int)  \WP_CLI\Utils\get_flag_value( $assoc_args, 'timeout',    10 );
+
+        if ( ! $all && empty( $args ) ) {
+            WP_CLI::error(
+                "Specify at least one plugin slug, or use --all to check everything.\n\n" .
+                "  Examples:\n" .
+                "    wp pluginscan checksum elementor-pro\n" .
+                "    wp pluginscan checksum --all --local-only"
+            );
+            return;
+        }
+
+        $installed = $this->get_installed_plugins();
+
+        if ( $all ) {
+            $slugs = $this->find_checksum_candidates( $installed, $local_only, $timeout );
+
+            if ( empty( $slugs ) ) {
+                WP_CLI::warning(
+                    'No checksum files found for any installed plugin.' .
+                    ( $local_only ? ' (--local-only: only plugin-checksums/ was searched)' : '' )
+                );
+                return;
+            }
+
+            WP_CLI::log( sprintf( 'Found checksum files for %d plugin(s).', count( $slugs ) ) );
+        } else {
+            $slugs = $args;
+        }
+
+        $passed  = 0;
+        $failed  = 0;
+        $skipped = 0;
+
+        foreach ( $slugs as $slug ) {
+            $result = $this->run_checksum_verify( $slug, $installed, $local_only, $timeout, $format );
+            if ( $result === 'passed'  ) { $passed++;  }
+            if ( $result === 'failed'  ) { $failed++;  }
+            if ( $result === 'skipped' ) { $skipped++; }
+        }
+
+        if ( count( $slugs ) > 1 ) {
+            WP_CLI::log( '' );
+            WP_CLI::log( sprintf(
+                'Checksum summary — Passed: %d  |  Failed: %d  |  Skipped: %d',
+                $passed, $failed, $skipped
+            ) );
+        }
+
+        if ( $failed > 0 ) {
+            WP_CLI::halt( 1 );
+        }
+    }
+
+    // ── Checksum private helpers ──────────────────────────────────────────────
+
+    /**
+     * Verifies a single plugin by slug. Returns 'passed', 'failed', or 'skipped'.
+     */
+    private function run_checksum_verify( $slug, $installed, $local_only, $timeout, $format ) {
+
+        $plugin_file = $this->find_plugin_file_by_slug( $slug, $installed );
+
+        if ( ! $plugin_file ) {
+            WP_CLI::warning( "Plugin '{$slug}' is not installed. Skipping." );
+            return 'skipped';
+        }
+
+        $version = $installed[ $plugin_file ]['Version'];
+        $name    = $installed[ $plugin_file ]['Name'];
+
+        WP_CLI::log( '' );
+        WP_CLI::log( "── {$name} ({$slug}) v{$version} ──" );
+
+        $load = $this->load_checksum_data( $slug, $version, $local_only, $timeout );
+
+        if ( $load['data'] === null ) {
+            if ( $local_only ) {
+                WP_CLI::warning(
+                    "No local checksum file found for {$slug} v{$version}.\n" .
+                    "  Expected : {$this->local_checksums_dir}/{$slug}-{$version}.json\n" .
+                    "  (Remote lookup disabled by --local-only)"
+                );
+            } else {
+                WP_CLI::warning(
+                    "No checksum file found for {$slug} v{$version}.\n" .
+                    "  Local  : {$this->local_checksums_dir}/{$slug}-{$version}.json\n" .
+                    "  Remote : {$this->remote_checksums_url}{$slug}-{$version}.json"
+                );
+            }
+            return 'skipped';
+        }
+
+        $file_count = count( $load['data']['files'] );
+        WP_CLI::log( "  Source : {$load['source']}" );
+        WP_CLI::log( "  Files  : {$file_count}" );
+
+        $errors = $this->compare_checksum_files( $slug, $plugin_file, $load['data']['files'] );
+
+        if ( empty( $errors ) ) {
+            WP_CLI::success( "All {$file_count} checksums match for {$slug}." );
+            return 'passed';
+        }
+
+        $error_count = count( $errors );
+        WP_CLI::log( "  {$error_count} file(s) failed:" );
+        \WP_CLI\Utils\format_items( $format, $errors, [ 'file', 'status', 'expected_md5', 'actual_md5' ] );
+        WP_CLI::error( "Integrity check FAILED for {$slug} ({$error_count} file(s) did not match).", false );
+
+        return 'failed';
+    }
+
+    /**
+     * Compares each file in the plugin directory against its expected MD5.
+     */
+    private function compare_checksum_files( $slug, $plugin_file, $checksum_files ) {
+
+        $plugin_dir = WP_PLUGIN_DIR . '/' . (
+            dirname( $plugin_file ) === '.' ? $slug : dirname( $plugin_file )
+        );
+
+        $errors   = [];
+        $progress = \WP_CLI\Utils\make_progress_bar( "  Verifying {$slug}", count( $checksum_files ) );
+
+        foreach ( $checksum_files as $rel_path => $hashes ) {
+            $abs_path = $plugin_dir . '/' . $rel_path;
+
+            if ( ! file_exists( $abs_path ) ) {
+                $errors[] = [
+                    'file'         => $rel_path,
+                    'status'       => 'MISSING',
+                    'expected_md5' => $hashes['md5'],
+                    'actual_md5'   => '(file not found)',
+                ];
+            } else {
+                $actual_md5 = md5_file( $abs_path );
+                if ( $actual_md5 !== $hashes['md5'] ) {
+                    $errors[] = [
+                        'file'         => $rel_path,
+                        'status'       => 'MISMATCH',
+                        'expected_md5' => $hashes['md5'],
+                        'actual_md5'   => $actual_md5,
+                    ];
+                }
+            }
+
+            $progress->tick();
+        }
+
+        $progress->finish();
+        return $errors;
+    }
+
+    /**
+     * Loads checksum JSON for a plugin (local first, remote fallback).
+     * Returns [ 'data' => array|null, 'source' => string ].
+     */
+    private function load_checksum_data( $slug, $version, $local_only, $timeout ) {
+
+        $filename   = "{$slug}-{$version}.json";
+        $local_path = $this->local_checksums_dir . '/' . $filename;
+
+        // 1. Local file
+        if ( file_exists( $local_path ) ) {
+            $data = json_decode( file_get_contents( $local_path ), true );
+            if ( $this->is_valid_checksum_data( $data ) ) {
+                return [ 'data' => $data, 'source' => "local  →  {$local_path}" ];
+            }
+            WP_CLI::warning( "Local checksum file exists but contains invalid JSON: {$local_path}" );
+        }
+
+        // 2. Remote fallback
+        if ( $local_only ) {
+            return [ 'data' => null, 'source' => 'none' ];
+        }
+
+        $remote_url = $this->remote_checksums_url . $filename;
+        WP_CLI::log( "  No local file — trying remote: {$remote_url}" );
+
+        $response = wp_remote_get( $remote_url, [ 'timeout' => $timeout ] );
+
+        if ( is_wp_error( $response ) ) {
+            WP_CLI::warning( "Remote fetch error: " . $response->get_error_message() );
+            return [ 'data' => null, 'source' => 'none' ];
+        }
+
+        if ( wp_remote_retrieve_response_code( $response ) !== 200 ) {
+            return [ 'data' => null, 'source' => 'none' ]; // 404 is expected — no loud warning
+        }
+
+        $data = json_decode( wp_remote_retrieve_body( $response ), true );
+
+        if ( ! $this->is_valid_checksum_data( $data ) ) {
+            WP_CLI::warning( "Remote checksum file has invalid structure for {$slug} v{$version}." );
+            return [ 'data' => null, 'source' => 'none' ];
+        }
+
+        return [ 'data' => $data, 'source' => "remote →  {$remote_url}" ];
+    }
+
+    /**
+     * Returns true if $data has the expected checksum JSON structure.
+     */
+    private function is_valid_checksum_data( $data ) {
+        return is_array( $data )
+            && isset( $data['plugin'], $data['version'], $data['files'] )
+            && is_array( $data['files'] )
+            && ! empty( $data['files'] );
+    }
+
+    /**
+     * Finds all installed plugins that have a checksum file available.
+     * Uses a HEAD probe for remote to avoid downloading unnecessary data.
+     */
+    private function find_checksum_candidates( $installed, $local_only, $timeout ) {
+
+        $candidates = [];
+        WP_CLI::log( 'Scanning for available checksum files...' );
+
+        foreach ( $installed as $plugin_file => $plugin_data ) {
+            $slug     = dirname( $plugin_file ) === '.' ? basename( $plugin_file, '.php' ) : dirname( $plugin_file );
+            $version  = $plugin_data['Version'];
+            $filename = "{$slug}-{$version}.json";
+
+            if ( file_exists( $this->local_checksums_dir . '/' . $filename ) ) {
+                WP_CLI::log( "  ✓ {$slug} v{$version}  [local]" );
+                $candidates[] = $slug;
+                continue;
+            }
+
+            if ( ! $local_only ) {
+                $response = wp_remote_head( $this->remote_checksums_url . $filename, [ 'timeout' => $timeout ] );
+                if ( ! is_wp_error( $response ) && wp_remote_retrieve_response_code( $response ) === 200 ) {
+                    WP_CLI::log( "  ✓ {$slug} v{$version}  [remote]" );
+                    $candidates[] = $slug;
+                }
+            }
+        }
+
+        return $candidates;
+    }
+
+    /**
+     * Finds the get_plugins() array key for a given plugin slug.
+     */
+    private function find_plugin_file_by_slug( $slug, $installed_plugins ) {
+        foreach ( $installed_plugins as $file => $data ) {
+            $s = dirname( $file ) === '.' ? basename( $file, '.php' ) : dirname( $file );
+            if ( $s === $slug ) {
+                return $file;
+            }
+        }
+        return false;
+    }
+
 }
 
-require_once __DIR__ . '/plugin-checksum.php';
-
-// Register the main command
-WP_CLI::add_command('pluginscan', 'Plugin_Scanner_Command');
-
-// Register the checksum subcommand
-WP_CLI::add_command('pluginscan checksum', 'Plugin_Checksum_Command');
+// Single registration — WP-CLI exposes each public method as a subcommand automatically:
+//   wp pluginscan scan
+//   wp pluginscan checksum
+//   wp pluginscan whitelist
+WP_CLI::add_command( 'pluginscan', 'Plugin_Scanner_Command' );
