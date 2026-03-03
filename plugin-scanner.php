@@ -61,7 +61,14 @@ class Plugin_Scanner_Command {
     private $remote_checksums_url = 'https://raw.githubusercontent.com/eugenewoz/pluginscan/main/plugin-checksums/';
 
     public function __construct() {
-        $this->local_checksums_dir = rtrim( __DIR__ . '/plugin-checksums', '/' );
+        // Store checksum JSONs in wp-content so they survive package updates/uninstalls.
+        // Path: wp-content/pluginscan-checksums/{slug}-{version}.json
+        // Fallback to the package directory if WP_CONTENT_DIR is not defined (e.g. unit tests).
+        if ( defined( 'WP_CONTENT_DIR' ) ) {
+            $this->local_checksums_dir = rtrim( WP_CONTENT_DIR . '/pluginscan-checksums', '/' );
+        } else {
+            $this->local_checksums_dir = rtrim( __DIR__ . '/plugin-checksums', '/' );
+        }
     }
 
     /**
@@ -953,6 +960,7 @@ class Plugin_Scanner_Command {
         $errors   = [];
         $progress = \WP_CLI\Utils\make_progress_bar( "  Verifying {$slug}", count( $checksum_files ) );
 
+        // ── Pass 1: check every file listed in the manifest ──────────────────
         foreach ( $checksum_files as $rel_path => $hashes ) {
             $abs_path = $plugin_dir . '/' . $rel_path;
 
@@ -979,7 +987,74 @@ class Plugin_Scanner_Command {
         }
 
         $progress->finish();
+
+        // ── Pass 2: find files on disk that are NOT in the manifest ───────────
+        // These are "added" files — potentially injected backdoors.
+        $disk_files = $this->list_plugin_files( $plugin_dir );
+        foreach ( $disk_files as $rel_path ) {
+            if ( ! isset( $checksum_files[ $rel_path ] ) ) {
+                $errors[] = [
+                    'file'         => $rel_path,
+                    'status'       => 'ADDED',
+                    'expected_md5' => '(not in manifest)',
+                    'actual_md5'   => md5_file( $plugin_dir . '/' . $rel_path ),
+                ];
+            }
+        }
+
         return $errors;
+    }
+
+    /**
+     * Recursively lists all files inside a directory as relative paths.
+     * Skips common non-code files that are legitimately generated at runtime
+     * (compiled CSS caches, debug logs, etc.) to avoid false positives.
+     *
+     * @param  string $dir  Absolute path to the plugin root.
+     * @return string[]     Relative file paths (forward-slash separated).
+     */
+    private function list_plugin_files( $dir ) {
+
+        // File extensions that plugins legitimately generate at runtime.
+        // These are NOT part of the original distribution and should not be
+        // flagged as "added" even when absent from the manifest.
+        $skip_extensions = [ 'log', 'cache', 'tmp' ];
+
+        // Specific filenames that are always safe to ignore.
+        $skip_filenames = [ '.DS_Store', 'Thumbs.db', 'desktop.ini' ];
+
+        $results = [];
+        $dir     = rtrim( $dir, '/' );
+
+        $iterator = new RecursiveIteratorIterator(
+            new RecursiveDirectoryIterator( $dir, RecursiveDirectoryIterator::SKIP_DOTS ),
+            RecursiveIteratorIterator::SELF_FIRST
+        );
+
+        foreach ( $iterator as $file ) {
+            if ( ! $file->isFile() ) {
+                continue;
+            }
+
+            $basename  = $file->getFilename();
+            $extension = strtolower( $file->getExtension() );
+
+            if ( in_array( $extension, $skip_extensions, true ) ) {
+                continue;
+            }
+
+            if ( in_array( $basename, $skip_filenames, true ) ) {
+                continue;
+            }
+
+            // Build a relative path using forward slashes
+            $rel = ltrim( str_replace( $dir, '', $file->getPathname() ), DIRECTORY_SEPARATOR );
+            $rel = str_replace( DIRECTORY_SEPARATOR, '/', $rel );
+
+            $results[] = $rel;
+        }
+
+        return $results;
     }
 
     /**
