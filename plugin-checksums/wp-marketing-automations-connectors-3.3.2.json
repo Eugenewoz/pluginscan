@@ -1,0 +1,2690 @@
+{
+  "plugin": "wp-marketing-automations-connectors",
+  "version": "3.3.2",
+  "files": {
+    "class-bwfan-support.php": {
+      "md5": "d75e80766015b0ef1e9e0afcce918162",
+      "sha256": "2797ad97a261fde9d8c41733bf8d9a6ae405fd5586e2940e91180c3e69698ef9"
+    },
+    "index.php": {
+      "md5": "67442c5615eba73d105c0715c6620850",
+      "sha256": "bd48c24ce4500e60d2524571756787283f0d3fbfa50b116331309c09773f0cd1"
+    },
+    "readme.txt": {
+      "md5": "452400129149bfc5732b17c58ba89dd2",
+      "sha256": "8afc02a609ea3b927bb01e2eceb2aae2f4fc038945f5fa689cdf14f22d4f38d0"
+    },
+    "wp-marketing-automations-connectors.php": {
+      "md5": "e97bef022b8d92ea25728585b695060c",
+      "sha256": "6f1597cc42decba96827aae6b33864ffc78de6fbda032882f928c80f53d89453"
+    },
+    "connectors/index.php": {
+      "md5": "67442c5615eba73d105c0715c6620850",
+      "sha256": "bd48c24ce4500e60d2524571756787283f0d3fbfa50b116331309c09773f0cd1"
+    },
+    "connectors/activecampaign/connector.php": {
+      "md5": "af9fee487b494c76e36adb3c3a017f5c",
+      "sha256": "92ea5e1ef6e7183dced296f8c595d15063f62d74b854c8b7dd7d643a9c4bdd10"
+    },
+    "connectors/activecampaign/index.php": {
+      "md5": "67442c5615eba73d105c0715c6620850",
+      "sha256": "bd48c24ce4500e60d2524571756787283f0d3fbfa50b116331309c09773f0cd1"
+    },
+    "connectors/activecampaign/autonami/class-bwfan-ac-source.php": {
+      "md5": "738b0357db859fbbdcbe638ecfff8263",
+      "sha256": "5070143e1d2b80895de375dbe19785318573a2c287513f0dc033f1c26ee07357"
+    },
+    "connectors/activecampaign/autonami/class-bwfan-activecampaign-integration.php": {
+      "md5": "6a00cc34a2fddd2d5004e1ae5b825cd4",
+      "sha256": "73d12a903825019eff0e2acbf7ed8f49fce0a1ffce0bff702c386a8988102e05"
+    },
+    "connectors/activecampaign/autonami/index.php": {
+      "md5": "67442c5615eba73d105c0715c6620850",
+      "sha256": "bd48c24ce4500e60d2524571756787283f0d3fbfa50b116331309c09773f0cd1"
+    },
+    "connectors/activecampaign/autonami/actions/class-bwfan-ac-add-tag.php": {
+      "md5": "5a4941bc9a6f9eeb0596cb7bc27419aa",
+      "sha256": "ac320fff90baad8badcbe79b1ab1abf1958bf7b0c8f18f0c01ded4a63dc39bc1"
+    },
+    "connectors/activecampaign/autonami/actions/class-bwfan-ac-add-to-automation.php": {
+      "md5": "6339eb04739805282efb2e459f0c1a0b",
+      "sha256": "98ca4e7d5e87b47f0155da555ac59c43f395b80a91a7f51115e51635fbb7b768"
+    },
+    "connectors/activecampaign/autonami/actions/class-bwfan-ac-add-to-list.php": {
+      "md5": "92bbcd0c003fbcb8254eb8752260f5f2",
+      "sha256": "1568e7ebfb81dbf045ab568294c98441b2e6179b3c49e56e57eb98009ffbb964"
+    },
+    "connectors/activecampaign/autonami/actions/class-bwfan-ac-create-abandoned-cart.php": {
+      "md5": "d42b3f632f7f0b2a04be24964e5480f6",
+      "sha256": "93bdeb068e4e67d84386d73fff61bc00bb3c9c6e17d50444e52cb09f0a3c4bf2"
+    },
+    "connectors/activecampaign/autonami/actions/class-bwfan-ac-create-contact.php": {
+      "md5": "4c95cd4d4047de8f142257f436ed28ff",
+      "sha256": "2e582b83c8b142522bcc5ff03fc5a1104416edbb2e776f4169fc2e710b34455c"
+    },
+    "connectors/activecampaign/autonami/actions/class-bwfan-ac-create-deal-note.php": {
+      "md5": "644748aa9b79eee1ed778256129c5d6d",
+      "sha256": "31ec9b9a0894e41a346b1096e237282bcacf9d355b0457978e65ae06abab9f29"
+    },
+    "connectors/activecampaign/autonami/actions/class-bwfan-ac-create-deal.php": {
+      "md5": "072a047bb919d73c9daa21edd85d87e8",
+      "sha256": "7c9fe163dd6813a27ed5fcd748de741f3aeb13fcde821f20c579abc5e73cb34f"
+    },
+    "connectors/activecampaign/autonami/actions/class-bwfan-ac-create-order.php": {
+      "md5": "a5ae2a003998f7025301faed0adc9c36",
+      "sha256": "d242f4f9fc84c3eca22b16a96d66217956c09923ea4479afc12dfbbe39c0c6db"
+    },
+    "connectors/activecampaign/autonami/actions/class-bwfan-ac-rmv-from-automation.php": {
+      "md5": "a837bfd9214b0dbcd4dba3e92cfcc72c",
+      "sha256": "ea123430990b683d0a42daea824c478a5b1f67df1f85839cfa72057aaace1f4e"
+    },
+    "connectors/activecampaign/autonami/actions/class-bwfan-ac-rmv-from-list.php": {
+      "md5": "e93dac4775e76be0ad0f86a38a5328c3",
+      "sha256": "887d9c8f303b72a00a1dfa3dcbe9cabbefd86ce6bb0ba6cdf128b5b229ebcdfd"
+    },
+    "connectors/activecampaign/autonami/actions/class-bwfan-ac-rmv-tag.php": {
+      "md5": "12f18725c1d2f3606cb0c0c4d0694fd4",
+      "sha256": "d264be8c5107bad6bc57a398ee089b544db585c9fab7c4d503aa65c3281cf37e"
+    },
+    "connectors/activecampaign/autonami/actions/class-bwfan-ac-update-customfields.php": {
+      "md5": "145246f6971d7f515a0540e92c6c8985",
+      "sha256": "8f682bfe560ca3812f00ff4b17a81ed976ff2b7844d2d93b1a403eae7652a7c0"
+    },
+    "connectors/activecampaign/autonami/actions/class-bwfan-ac-update-deal-customfields.php": {
+      "md5": "3c30e4f8c6689f2d0ff4f0c9da78aebc",
+      "sha256": "dd14398842038bf27e294e5af90f0db4851f31b9f62b81a91fc43c99eeb4654c"
+    },
+    "connectors/activecampaign/autonami/actions/class-bwfan-ac-update-deal.php": {
+      "md5": "c06e3f374eb0f8f4242c15e1a3782050",
+      "sha256": "940aa3d8fa9f1755e2ae66b11c0bce99b4fd27ef5ed6bb9b480f287757c343a1"
+    },
+    "connectors/activecampaign/autonami/actions/index.php": {
+      "md5": "67442c5615eba73d105c0715c6620850",
+      "sha256": "bd48c24ce4500e60d2524571756787283f0d3fbfa50b116331309c09773f0cd1"
+    },
+    "connectors/activecampaign/autonami/events/class-bwfan-ac-webhook-received.php": {
+      "md5": "f06be939adc6331a7c9b195a8c74e1b7",
+      "sha256": "de5684ecf1ca4febb614a0c94517d6d0137664cabee89c25f8628807350a524a"
+    },
+    "connectors/activecampaign/autonami/events/index.php": {
+      "md5": "67442c5615eba73d105c0715c6620850",
+      "sha256": "bd48c24ce4500e60d2524571756787283f0d3fbfa50b116331309c09773f0cd1"
+    },
+    "connectors/activecampaign/autonami/merge_tags/class-bwfan-ac-contact-email.php": {
+      "md5": "a8407b11bb7d7f5a51c5f9bc49ffd2ee",
+      "sha256": "21228134b6422ce4fa71cd30cd209bc86a4cfc9b27aea69ed8cc1e44a54caafa"
+    },
+    "connectors/activecampaign/autonami/merge_tags/class-bwfan-ac-contact-first-name.php": {
+      "md5": "44bbfb4eb2f7736642b3b3df2a35cec6",
+      "sha256": "ea67f8ce82347eede845bea1776ce559e86cc7afc14436fa48647abda3f90cc3"
+    },
+    "connectors/activecampaign/autonami/merge_tags/class-bwfan-ac-contact-id.php": {
+      "md5": "346611ed7f8acf247a51f9eb7e01826c",
+      "sha256": "25e761e2a1652d075991d191e8c25c8cb3b1e6da10120dfdf98e3916ce5aad10"
+    },
+    "connectors/activecampaign/autonami/merge_tags/class-bwfan-ac-contact-last-name.php": {
+      "md5": "427eab1a6b8931df61968957edefe84c",
+      "sha256": "3360cb32e5ae641c51665658e56c0270e4a1e29393ff12cbe739ecddca1f3f15"
+    },
+    "connectors/activecampaign/autonami/merge_tags/class-bwfan-ac-contact-phone.php": {
+      "md5": "93649d26c35ee25ca82b57bf7be749d4",
+      "sha256": "844a89b9309cd4cab97402d743768711f6cd22a6d2291d47b057881d67513d52"
+    },
+    "connectors/activecampaign/autonami/merge_tags/index.php": {
+      "md5": "67442c5615eba73d105c0715c6620850",
+      "sha256": "bd48c24ce4500e60d2524571756787283f0d3fbfa50b116331309c09773f0cd1"
+    },
+    "connectors/activecampaign/calls/class-wfco-ac-add-order.php": {
+      "md5": "60e1d6dfa53489e7d9752712a934efda",
+      "sha256": "e841b396695214355c0e1070a05f8fde04326f92c85f49d248ef0e8d7a9e48bc"
+    },
+    "connectors/activecampaign/calls/class-wfco-ac-add-tag.php": {
+      "md5": "5da5a563bb63a908d586eb923194a0b4",
+      "sha256": "32cb7eea2c939a245c23ddfa0d0799f3bf4b42be7d48d62321b24ada2551a264"
+    },
+    "connectors/activecampaign/calls/class-wfco-ac-add-to-automation.php": {
+      "md5": "aac92247de73f9b075b961bcd1f60c27",
+      "sha256": "e9c3d992aefe31e87094f8809fc1661ab76160fe8c2f3f00f7327a43758dee87"
+    },
+    "connectors/activecampaign/calls/class-wfco-ac-add-to-list.php": {
+      "md5": "8debac679ced90319e108b5f055e7b61",
+      "sha256": "89328b8563e7d1b1b92d907c665325356142d4f45776958f45d451955f5e5327"
+    },
+    "connectors/activecampaign/calls/class-wfco-ac-contact-sync.php": {
+      "md5": "4c3d2f81f216b8595e0fca5158913fc6",
+      "sha256": "190901b5e362632b40d46f7f73ac9ebd25ae714759a8364abfbc7f7ef4c5fc54"
+    },
+    "connectors/activecampaign/calls/class-wfco-ac-create-abandoned-cart.php": {
+      "md5": "00f423d7f4bccfa0a9d5592ab2325414",
+      "sha256": "1f88760acffe8f5b04fc70987f4afe661c5160c43fa5e3c835108670e947ebb7"
+    },
+    "connectors/activecampaign/calls/class-wfco-ac-create-connection.php": {
+      "md5": "ef94807089cfc8aaca0ce774c2d31069",
+      "sha256": "a2c3e8d834baf1de04f9c2fe00276e00d28edbf26e78839beebe7902a0974444"
+    },
+    "connectors/activecampaign/calls/class-wfco-ac-create-contact.php": {
+      "md5": "951d500d70b89a2648780fc097ceedfd",
+      "sha256": "90db9f0e39fb70944ef5ae750a282d8f4dd3f24f23304dcd278f581ddbad57bf"
+    },
+    "connectors/activecampaign/calls/class-wfco-ac-create-customer.php": {
+      "md5": "eddadc1a7a917f3652308b166acd9770",
+      "sha256": "391600f13a2e8ce2b84d8f390d8db642cc7b159a82249f923ed199a397f7b29f"
+    },
+    "connectors/activecampaign/calls/class-wfco-ac-create-deal-note.php": {
+      "md5": "0d2ca95a7727d122a83ede1756bc8a48",
+      "sha256": "7cf7ae7c7fff0d7fc8581ffb180e5fb6472226ef06c4792708bc601b81e2718b"
+    },
+    "connectors/activecampaign/calls/class-wfco-ac-create-deal.php": {
+      "md5": "76c52660157772cd353fb2f38bba82d4",
+      "sha256": "1f056115de29074d7ae69dbe8f24bc5c9bb9eff4a6e492ee86753be4fd1c6458"
+    },
+    "connectors/activecampaign/calls/class-wfco-ac-create-order.php": {
+      "md5": "be1f88b5493b3913761de448d27c7966",
+      "sha256": "577a407072a4e60b09be3d4fa68941000ad811900918ccba1786e96828420580"
+    },
+    "connectors/activecampaign/calls/class-wfco-ac-create-pipeline.php": {
+      "md5": "bfdf3f3efeadfe5e94ea3502f2e25051",
+      "sha256": "72470e160034d9954566374a14844a8b69d6b8ea56b082257bcb6502730efebe"
+    },
+    "connectors/activecampaign/calls/class-wfco-ac-create-stage.php": {
+      "md5": "e8fd4f41295eb3924965f1ef7c26e1e3",
+      "sha256": "e447f3252ac68bf4565ad49bc754d7cb2835b71c4111e0540926cf248bcd5584"
+    },
+    "connectors/activecampaign/calls/class-wfco-ac-create-tag.php": {
+      "md5": "6579f26683f3ed04c65adfe4c98a8bb6",
+      "sha256": "434c0b13332cb6c6e6eff71c94cc9d38e42a58df03357aef14a03667ff9a426c"
+    },
+    "connectors/activecampaign/calls/class-wfco-ac-delete-connection.php": {
+      "md5": "0e6a07da04af5ae4629fcdd932c45ebe",
+      "sha256": "665b12b8f94906d368264a9014d010e072a453ca9038d834b49d0fbfea358746"
+    },
+    "connectors/activecampaign/calls/class-wfco-ac-delete-deal.php": {
+      "md5": "c952a82c17ff2ae8171fed443b9c26cb",
+      "sha256": "7da14fbbf96b151b95674815aaa446c6b9e5e11789ad52a421a04d2f1594956d"
+    },
+    "connectors/activecampaign/calls/class-wfco-ac-delete-hook.php": {
+      "md5": "fb64ac000b5086757014aaf9fc0612b1",
+      "sha256": "ce7b800fcc079647f05096b8ecc9af2a9bf22870fe464cd679b0eaf290eab94f"
+    },
+    "connectors/activecampaign/calls/class-wfco-ac-delete-pipeline.php": {
+      "md5": "34c3bfc844e5972796510ae2ded2fb3b",
+      "sha256": "e0de8aa42b1fa6d89fda441973c82ee55da5a08911a6aacc05b1514bb559617d"
+    },
+    "connectors/activecampaign/calls/class-wfco-ac-delete-stage.php": {
+      "md5": "12813f7e30d5a28101f7eb7be4a416b6",
+      "sha256": "eead587f4675525a37f2cc3237dde98de75d34d201f4e4f539558bfdb4d9c93b"
+    },
+    "connectors/activecampaign/calls/class-wfco-ac-get-account-list.php": {
+      "md5": "a3f985fa6d79e0b28175551ae65534c9",
+      "sha256": "c11a8ff8237655b8349c3a87cd13cc48ae9fbcbd1f1ad25d6e8a68380e19db34"
+    },
+    "connectors/activecampaign/calls/class-wfco-ac-get-automations.php": {
+      "md5": "adae7b3a400d1ff6db85fe8442b88207",
+      "sha256": "bc4c58d8a4814af01f47e18cea821dac70ede072762c198b935480afcf506252"
+    },
+    "connectors/activecampaign/calls/class-wfco-ac-get-campaign-list.php": {
+      "md5": "25b366c8d642d307a7081141eed013f7",
+      "sha256": "a02b6e964e5fd797e5e957a7cef995d6736d56ae6cd82e89ca86322b60e7a3d7"
+    },
+    "connectors/activecampaign/calls/class-wfco-ac-get-connections.php": {
+      "md5": "d74c00bdf1c1caa1fc56b298c603f45c",
+      "sha256": "e0e21625de08f8a41d968805721051c8d0c55a3fc2f1d0a9cd38191c98d04dca"
+    },
+    "connectors/activecampaign/calls/class-wfco-ac-get-contact-by-email.php": {
+      "md5": "b622e560478b2d393023db0c86ee7bad",
+      "sha256": "1d0dfaafda99bc0e15a700033adfc06cebe12b0cb879445b094e01ae33a5549f"
+    },
+    "connectors/activecampaign/calls/class-wfco-ac-get-contact-list.php": {
+      "md5": "048caaf2da29036594739ff4cfa3bd23",
+      "sha256": "49c237a6f31a7c1279597abaf4dfd736e5836da7e3bb383823ef08d4e0f470a6"
+    },
+    "connectors/activecampaign/calls/class-wfco-ac-get-contact-tag-list.php": {
+      "md5": "f310be29d44e15816c585095a4d8e286",
+      "sha256": "40b0cae1167a618cdf80690eecb5e8a38fab24578b71ae90cc4bcb84504e3c18"
+    },
+    "connectors/activecampaign/calls/class-wfco-ac-get-custom-fields.php": {
+      "md5": "36b41e893e81671743a05528c8013111",
+      "sha256": "7bea1c15ca0abefffa76315ec59c509d0574cfd353a3a1b9c0c841c2986f36c4"
+    },
+    "connectors/activecampaign/calls/class-wfco-ac-get-deal-by-email.php": {
+      "md5": "67ca435d6ec5279300564fc6f5cea30c",
+      "sha256": "5f505fb441a65ebc4c52d98aa5090e14201dd51274fe68da26051db53c4d97d5"
+    },
+    "connectors/activecampaign/calls/class-wfco-ac-get-deal-custom-fields.php": {
+      "md5": "4ce75ce4986870544a1c5a2a9ce1097d",
+      "sha256": "bd6f3c11ae4450365b8c6c426dba81f81505447f5b0b55ad555735c18d29e347"
+    },
+    "connectors/activecampaign/calls/class-wfco-ac-get-lists.php": {
+      "md5": "3d6b4bb7651934d2f818fb7b40d34bbc",
+      "sha256": "5f75c0f21b1c503c6568e1f7ab368ef9818a6333a11aecb94a559d5d5f5cfd0b"
+    },
+    "connectors/activecampaign/calls/class-wfco-ac-get-pipelines.php": {
+      "md5": "98a6d836b9a1081ef51bf597ec7abd02",
+      "sha256": "51e3e93ea963acc67d6263005bc067caf93f8050bc195da40a2b29b717a8de40"
+    },
+    "connectors/activecampaign/calls/class-wfco-ac-get-tags-list.php": {
+      "md5": "6594d9c300f70a8902d35130355c9c93",
+      "sha256": "9a3fa3a207b98c03758c2a912b1c8d4a5d4f26f380b3bcbd3bf6e29292a5eaac"
+    },
+    "connectors/activecampaign/calls/class-wfco-ac-get-users.php": {
+      "md5": "cf274691012ef889af5d76b55fe9ffe1",
+      "sha256": "5ba26e0b256fcaf2a9519001349593c9578942a4d424f02fd7348e393a7afb8a"
+    },
+    "connectors/activecampaign/calls/class-wfco-ac-hooks-add-hook.php": {
+      "md5": "4274dc0f3e1a84d0d69a83b5106545f8",
+      "sha256": "68260e3fa449cf76fc6eea27801c00d16dcd8b26a24b728d468c42b88b49a9b2"
+    },
+    "connectors/activecampaign/calls/class-wfco-ac-oauth-check.php": {
+      "md5": "c78ec4eead0037d0db0f3b3fca29eb4f",
+      "sha256": "091540889de03b1b65d57555b3077f12beabfb82f1f1dd670f65ea162fae3637"
+    },
+    "connectors/activecampaign/calls/class-wfco-ac-remove-contact.php": {
+      "md5": "e61f7275fee983e9adda480445693e39",
+      "sha256": "7a341a10ba734b617ec60492a13b0e94bf84e62fcf2f43885ebfd89d7e7114f5"
+    },
+    "connectors/activecampaign/calls/class-wfco-ac-rmv-from-automation.php": {
+      "md5": "37ffeb009bf9bf469c5ded4d3aa8cd3a",
+      "sha256": "00e55836788baf2992f5e864783c2e2811755f753fc614ffad5fc3630a201f09"
+    },
+    "connectors/activecampaign/calls/class-wfco-ac-rmv-from-list.php": {
+      "md5": "3c860b5e495d06b342731254944006e3",
+      "sha256": "017d2f8fbd2f87e13245582df1efd8fbad4371235ac69924cac0837834437e22"
+    },
+    "connectors/activecampaign/calls/class-wfco-ac-rmv-tag.php": {
+      "md5": "ff2b3a9366ddc0b5bca628a595aa7255",
+      "sha256": "807ea5565be58f9fa7d977d1acc6c45f174d529da5e9ef718b26ad8dd0ad85f8"
+    },
+    "connectors/activecampaign/calls/class-wfco-ac-update-contact.php": {
+      "md5": "8ba5a789c4be5f191c2db10bd4e7f5db",
+      "sha256": "e35b42cd7892a7daeff1609e5682e8da2fb129592b924962a02cb80be72e4833"
+    },
+    "connectors/activecampaign/calls/class-wfco-ac-update-customfields.php": {
+      "md5": "27fbbc8fdc9d0accf045bd11ab0acd60",
+      "sha256": "012f62eea3b13e67edb4373f08b4f1d326ec95f347089466e6fcc92bd9debb05"
+    },
+    "connectors/activecampaign/calls/class-wfco-ac-update-deal-customfields.php": {
+      "md5": "ffa69014c322c95d7cbddabdaabfcecf",
+      "sha256": "2eeed641e40bf242c32caa1ec35cc92f8be3670432f5f058a27e05c9cff348dd"
+    },
+    "connectors/activecampaign/calls/class-wfco-ac-update-deal.php": {
+      "md5": "8de0ff2c0dc35621c5ef5522217aa803",
+      "sha256": "5605e30ed62f7cba56480c5d77416fac721af75316a04772994a67a562278ae0"
+    },
+    "connectors/activecampaign/calls/index.php": {
+      "md5": "67442c5615eba73d105c0715c6620850",
+      "sha256": "bd48c24ce4500e60d2524571756787283f0d3fbfa50b116331309c09773f0cd1"
+    },
+    "connectors/activecampaign/includes/class-bwfan-ac-common.php": {
+      "md5": "bf3251affdde421882a467e04db40cb7",
+      "sha256": "8361f025e0b10a34bf17570f0cdd4d8597573bee04a30a4f3d8adbe11b877158"
+    },
+    "connectors/activecampaign/includes/index.php": {
+      "md5": "67442c5615eba73d105c0715c6620850",
+      "sha256": "bd48c24ce4500e60d2524571756787283f0d3fbfa50b116331309c09773f0cd1"
+    },
+    "connectors/activecampaign/includes/search/class-bwfan-ac-automations.php": {
+      "md5": "2f109675282909f116b981cbe8027965",
+      "sha256": "f34a948b87463e72961552ccbe950215835f6bab4b397e9612a6dc4faf672f8f"
+    },
+    "connectors/activecampaign/includes/search/class-bwfan-ac-connections.php": {
+      "md5": "6a3adedd06d80a914cb47219b4488436",
+      "sha256": "cfea80107cb6e92f1090fb54b69119b6dfb36a7ecf2695952cc2c86c461bcd73"
+    },
+    "connectors/activecampaign/includes/search/class-bwfan-ac-lists.php": {
+      "md5": "210e5aad9675282c4f9593dce13eb641",
+      "sha256": "965437759a17cc9f4ce813ad2240586a0385ef0ceafe93cd6df1734889eac716"
+    },
+    "connectors/activecampaign/includes/search/class-bwfan-ac-tags.php": {
+      "md5": "8b17a3b2671785cbcdbbe3b89c2cd009",
+      "sha256": "cfc2ef00f9aca361897b9e4b4656ad4b5e685a25a95edd17008f0b60050cb086"
+    },
+    "connectors/activecampaign/includes/search/index.php": {
+      "md5": "67442c5615eba73d105c0715c6620850",
+      "sha256": "bd48c24ce4500e60d2524571756787283f0d3fbfa50b116331309c09773f0cd1"
+    },
+    "connectors/activecampaign/views/index.php": {
+      "md5": "67442c5615eba73d105c0715c6620850",
+      "sha256": "bd48c24ce4500e60d2524571756787283f0d3fbfa50b116331309c09773f0cd1"
+    },
+    "connectors/activecampaign/views/logo.png": {
+      "md5": "6d0e5b3266cd468901009dd84b6e657d",
+      "sha256": "9380028e9aebd7f15b47cf73204633e2086bc785892d82599292e4a06de753a9"
+    },
+    "connectors/activecampaign/views/settings.php": {
+      "md5": "e578c42e90425b92c6551b1820f235ef",
+      "sha256": "8930714b97c6cb36ca4686c4b8286cb3c14bea195b46de547957bb57cb4f21c3"
+    },
+    "connectors/bitly/connector.php": {
+      "md5": "9097647f0a2a613e847aedcb0d55495e",
+      "sha256": "0c8d41e04fda50e4da9196d52e563a2154d0dff647c363bc8097b2e457a925e3"
+    },
+    "connectors/bitly/index.php": {
+      "md5": "67442c5615eba73d105c0715c6620850",
+      "sha256": "bd48c24ce4500e60d2524571756787283f0d3fbfa50b116331309c09773f0cd1"
+    },
+    "connectors/bitly/calls/class-wfco-bitly-shorten-url.php": {
+      "md5": "a41e8f4511aa54df593ac4f7980c8d4e",
+      "sha256": "12ba9418532a45429f0abe8f39ebbb60da19236272bf3dcea72f10a42462087f"
+    },
+    "connectors/bitly/views/index.php": {
+      "md5": "67442c5615eba73d105c0715c6620850",
+      "sha256": "bd48c24ce4500e60d2524571756787283f0d3fbfa50b116331309c09773f0cd1"
+    },
+    "connectors/bitly/views/logo.png": {
+      "md5": "ba7009cca8d0b036d734aac3c04b7ce4",
+      "sha256": "847a3f54e4c83e3f26a2094a2f91abbfe065d3e5ce17a2caf4dff13eae5c15e9"
+    },
+    "connectors/bitly/views/settings.php": {
+      "md5": "68e8f8d7f23129a0e6e447cf094f4b86",
+      "sha256": "c40ce468da8136e18c39705443890098030ef27ab3f72aea9b330722cf9eaaa9"
+    },
+    "connectors/brevo/connector.php": {
+      "md5": "728d484ce0885d61644ca0f8d071ee5f",
+      "sha256": "450b18f1e86c868ae1b6b89320cb4c85801facc62178c3e17e982f9c2ab40091"
+    },
+    "connectors/brevo/autonami/class-bwfan-brevo-integration.php": {
+      "md5": "fd2898da5f943d50a08d72190c0a5659",
+      "sha256": "ce6acd16ad84a6b41296b03f60f654e0a477d5f256ac479b40816177346dbfcd"
+    },
+    "connectors/brevo/autonami/class-bwfan-brevo-source.php": {
+      "md5": "eef44cb6593f06f0a2e54219c95a73ff",
+      "sha256": "578782f2aefe654c35200c2dfb0d7c6381e35182e0ea2376ab0346e35cdefe4e"
+    },
+    "connectors/brevo/autonami/index.php": {
+      "md5": "d41d8cd98f00b204e9800998ecf8427e",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "connectors/brevo/autonami/actions/class-bwfan-sendinblue-add-contact-to-list.php": {
+      "md5": "95f2195c8d08e8cfbfe4cc06251dcef7",
+      "sha256": "77061bda9da8c347a66b09220f800b47eaa57e01da85e2b3710c11f252179e3f"
+    },
+    "connectors/brevo/autonami/actions/class-bwfan-sendinblue-create-contact.php": {
+      "md5": "fbcb381ddfcf6d84799d748ab3231cbd",
+      "sha256": "ae797643262fc0f88b7766b10600701fb49da276d55a7dd9191daa9aba1b2f12"
+    },
+    "connectors/brevo/autonami/actions/class-bwfan-sendinblue-remove-contact-from-list.php": {
+      "md5": "50e531fb71a602480e4c631a3dcd3c94",
+      "sha256": "16fcc271c06b9be3b92e3641dc69840f6537aca78a9075029ccec46f40f01f70"
+    },
+    "connectors/brevo/autonami/actions/class-bwfan-sendinblue-update-contact.php": {
+      "md5": "7d7b140887190ce2e999b7e98fb79b6c",
+      "sha256": "0dd72f884e2bd2aa1031f2b8da717079b0bd4672d56a8b78a9dd508efff3bec0"
+    },
+    "connectors/brevo/autonami/actions/index.php": {
+      "md5": "d41d8cd98f00b204e9800998ecf8427e",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "connectors/brevo/autonami/events/class-bwfan-sendinblue-message-recieved.php": {
+      "md5": "c3b5c7d09f2258399750fa03933c1930",
+      "sha256": "dc4034d138eaa0fb6665f5117de124f625c8f843c4970acc31af5e7b9ae07eba"
+    },
+    "connectors/brevo/autonami/events/index.php": {
+      "md5": "d41d8cd98f00b204e9800998ecf8427e",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "connectors/brevo/autonami/merge_tags/class-bwfan-brevo-contact-email.php": {
+      "md5": "3e06c851f529b5859f7fd3ad52773f00",
+      "sha256": "e401a9664940f6f80e24e4672c7b5075a8cb6894503657567b92b97d9f70a13d"
+    },
+    "connectors/brevo/autonami/merge_tags/index.php": {
+      "md5": "d41d8cd98f00b204e9800998ecf8427e",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "connectors/brevo/calls/class-wfco-sendinblue-add-contact-to-list.php": {
+      "md5": "1e6276c7f2d5b414747d68a8f39529b7",
+      "sha256": "403bfc26a9712b0e3e972fe0f2f820b9b9f08802b6a6ee7793898b53a96be005"
+    },
+    "connectors/brevo/calls/class-wfco-sendinblue-create-contact.php": {
+      "md5": "d01003ad22dccbf08f1d6d6e6e2b4c6b",
+      "sha256": "e8f91ffb9a1cad89fe22ac12aec9e170a5e5d10d71ca2258effc3cf7c7b18ed7"
+    },
+    "connectors/brevo/calls/class-wfco-sendinblue-create-custom-attributes.php": {
+      "md5": "3f24a2c95b253565baf4d545927dde59",
+      "sha256": "1377b23838703ffc4c491fae8787026bb075b8533f8ed18a046d6bbd85c40667"
+    },
+    "connectors/brevo/calls/class-wfco-sendinblue-get-contact-by-email.php": {
+      "md5": "ec001479b0b6308b84456ae8d523e9f9",
+      "sha256": "9db08f8a5a702b82cdee75b7d5b9dc226f8e05d2cca2fbd7b1ad96c75a801bb8"
+    },
+    "connectors/brevo/calls/class-wfco-sendinblue-get-list-all-attributes.php": {
+      "md5": "b9dbd9d943e6a5cdf5f7338981cd2675",
+      "sha256": "aafed491120e094c78577479554034401a877ad16b2e20bc7b6ff6fb05ba221e"
+    },
+    "connectors/brevo/calls/class-wfco-sendinblue-get-lists.php": {
+      "md5": "a1b5953b560c599c28eb79214215e3ac",
+      "sha256": "e25519db94dd8f23a702d43083f61024e5b3c12f386363cfa4642331ea0d0cfe"
+    },
+    "connectors/brevo/calls/class-wfco-sendinblue-remove-contact-from-list.php": {
+      "md5": "9befc631e71f83cbb7dc9f1ba0a8b2ce",
+      "sha256": "aade3b72608700ccd3ff34190f1c6c5c126360c822e0f5e709f8e7136f8c29d2"
+    },
+    "connectors/brevo/calls/class-wfco-sendinblue-update-contact.php": {
+      "md5": "418bb958a1ce18fb300fbe486f537ec3",
+      "sha256": "fa727637cd85c2a378021fd2ace4f66a42670e75c1131bfd2fd36e98ac3da2d6"
+    },
+    "connectors/brevo/calls/index.php": {
+      "md5": "d41d8cd98f00b204e9800998ecf8427e",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "connectors/brevo/includes/class-wfco-brevo-call.php": {
+      "md5": "3474d092ce14eb522ce952df3ea11971",
+      "sha256": "6b94e98ba1e8ba93a56db23310c16da251bcd882777d0cdabcb709ebbba14196"
+    },
+    "connectors/brevo/includes/class-wfco-brevo-common.php": {
+      "md5": "00fdab87959d9636230c41aa5d4d227c",
+      "sha256": "7f88a2aba22ac2d934e8e1069980f0b341fcd4287f1285448c9cbdf654d846bd"
+    },
+    "connectors/brevo/includes/class-wfco-brevo-webhook-setup.php": {
+      "md5": "f6d17aa56e2df42faddc3188970e22cc",
+      "sha256": "513554bba429610fb83be6102ace5b20ed3dfe009fc7b0fc5c27cd75b8f5e205"
+    },
+    "connectors/brevo/includes/index.php": {
+      "md5": "d41d8cd98f00b204e9800998ecf8427e",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "connectors/brevo/views/index.php": {
+      "md5": "d41d8cd98f00b204e9800998ecf8427e",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "connectors/brevo/views/logo.png": {
+      "md5": "33e424bca124a16f29e8ec396af24d08",
+      "sha256": "574304940c81d9ce0832d2f2b06cf651ed82da8db06ce495673d7b143be47dc1"
+    },
+    "connectors/bulkgate/connector.php": {
+      "md5": "f19909afd1fd1cbe5fb737d777175928",
+      "sha256": "4f0f80f5f601a025fad2d5f1966dba06b78ce104f8af3769848f482801ce3f74"
+    },
+    "connectors/bulkgate/index.php": {
+      "md5": "df2c63a8b398c9a42d579acff8a39de9",
+      "sha256": "30f9647f19911f33293cc7370e867cecec599d867cd43f73b2c76f9ab8b07e28"
+    },
+    "connectors/bulkgate/autonami/class-bwfan-bulkgate-integrations.php": {
+      "md5": "6b3b9a479f61730480c38e3b1b98d964",
+      "sha256": "54b36b188d63e6a1f6eda97eeb4f6cff16eaf2d512cb61ee3007a8d6fbc6aac2"
+    },
+    "connectors/bulkgate/autonami/index.php": {
+      "md5": "ce407ff5715c837d02b1aba7975bf512",
+      "sha256": "00aba3928cd622ad67c0f81ecd5aa8699e07f8f4908c045fe34f6a2dc0067b37"
+    },
+    "connectors/bulkgate/autonami/actions/class-bwfan-bulkgate-send-transactional-sms.php": {
+      "md5": "06f6fa19155793b2c2a12e290b1f6967",
+      "sha256": "a5b938cc8143e61165cdca503fb38df7813f435a99f46705f1e02fdbb962570a"
+    },
+    "connectors/bulkgate/autonami/actions/index.php": {
+      "md5": "ce407ff5715c837d02b1aba7975bf512",
+      "sha256": "00aba3928cd622ad67c0f81ecd5aa8699e07f8f4908c045fe34f6a2dc0067b37"
+    },
+    "connectors/bulkgate/calls/class-wfco-bulkgate-oauth-check.php": {
+      "md5": "d420df1625acd4fb9db5715df4b9d98f",
+      "sha256": "36fff6ec724cea883e3f93a4e231c36338659eaaa55ff8d7a498178c65957f74"
+    },
+    "connectors/bulkgate/calls/class-wfco-bulkgate-send-transactional-sms.php": {
+      "md5": "32822d9d362dbe8382017806fbdce5fe",
+      "sha256": "410aa834f774523ac4eb39cfd3e15c4c1fe6f6b68cc8d8f6d1807893fe8b6196"
+    },
+    "connectors/bulkgate/calls/class-wfco-bulkgate-shorten-url.php": {
+      "md5": "3ef775ffe5e2e55ed6fe044b52e39bfd",
+      "sha256": "afa4bab1e5f545f9fcaa1db50e335117ede382f1f504a54265783f5268164bca"
+    },
+    "connectors/bulkgate/includes/class-wfco-bulkgate-call.php": {
+      "md5": "0de6c8186b4b42cdf6149246efd63bab",
+      "sha256": "91e3a3c409b14405e5f89e1b574feefc7424569f9287a5b1af597ddbbf7a52a8"
+    },
+    "connectors/bulkgate/includes/index.php": {
+      "md5": "ce407ff5715c837d02b1aba7975bf512",
+      "sha256": "00aba3928cd622ad67c0f81ecd5aa8699e07f8f4908c045fe34f6a2dc0067b37"
+    },
+    "connectors/bulkgate/views/index.php": {
+      "md5": "bdee7f8447e85cf1452a9eca126f1b40",
+      "sha256": "cc1368ddd4b35d125bc0feb477447594a736daaaa3bc4f07dae46d67ad4426c5"
+    },
+    "connectors/bulkgate/views/logo.png": {
+      "md5": "28663a07489dad3a2cb8f930d0064aa1",
+      "sha256": "b9f76a842925f3e6e252a3d520151001ea64203d12b0015d7cd88d56e4a6dccd"
+    },
+    "connectors/bulkgate/views/settings.php": {
+      "md5": "18ea14154b4f16eb1400429f7948e81e",
+      "sha256": "87b452f3a436ad66f20b0c3662f62b40503d8b9fc1e9a3c1dc16d7a65753c628"
+    },
+    "connectors/convertkit/connector.php": {
+      "md5": "ee975751fd38feec81f76431ea46ba09",
+      "sha256": "0038cce697fe087a993dde08818b5df3e57e6e381d6bd121d9b05dbe87919516"
+    },
+    "connectors/convertkit/index.php": {
+      "md5": "67442c5615eba73d105c0715c6620850",
+      "sha256": "bd48c24ce4500e60d2524571756787283f0d3fbfa50b116331309c09773f0cd1"
+    },
+    "connectors/convertkit/autonami/class-bwfan-convertkit-integration.php": {
+      "md5": "1c18a45ede23f2bbcd59e1c4474a0e92",
+      "sha256": "2a38d901f0207e175e35d54cd55a974cbbb25553bab1f899b86806bcd33f56d1"
+    },
+    "connectors/convertkit/autonami/index.php": {
+      "md5": "67442c5615eba73d105c0715c6620850",
+      "sha256": "bd48c24ce4500e60d2524571756787283f0d3fbfa50b116331309c09773f0cd1"
+    },
+    "connectors/convertkit/autonami/actions/class-bwfan-ck-add-customfields.php": {
+      "md5": "9913112e208bc31a2e7fde9e72791dae",
+      "sha256": "819f636813640ad6297b0d443fde76846229a462c2d2e988fb1723780871b959"
+    },
+    "connectors/convertkit/autonami/actions/class-bwfan-ck-add-order.php": {
+      "md5": "29edec28c47e35b7c029666712f843d6",
+      "sha256": "5c364b648516c97db51eba0493377a7befa307ce22b92e51e0138b18eb59794a"
+    },
+    "connectors/convertkit/autonami/actions/class-bwfan-ck-add-tags.php": {
+      "md5": "7754247418f2fde7e879d9ad571f665d",
+      "sha256": "83f2704a15be7c1eb13a7024dd18e427fb4ba5ad4cfe76814704e99f6a28e1d8"
+    },
+    "connectors/convertkit/autonami/actions/class-bwfan-ck-add-to-sequence.php": {
+      "md5": "4deecc7d66926f0a64279958cf58d5bd",
+      "sha256": "6a7ce085e1fdabd874abfff56c66b5202cf49c434d7e5fbd8812ee63f45cab78"
+    },
+    "connectors/convertkit/autonami/actions/class-bwfan-ck-rmv-from-sequence.php": {
+      "md5": "8dc91ae45781eea42cfe1a722ff16579",
+      "sha256": "184220b26f47cccacba2e036d92e5bf822ade453b19787c818d79122d642d975"
+    },
+    "connectors/convertkit/autonami/actions/class-bwfan-ck-rmv-tags.php": {
+      "md5": "cc889cb39582b001d8b280b48a0b0b97",
+      "sha256": "7914023fe68c7dd4d633786997e61172df0861ab8739cd46ef75f92cbb8d36c4"
+    },
+    "connectors/convertkit/autonami/actions/index.php": {
+      "md5": "67442c5615eba73d105c0715c6620850",
+      "sha256": "bd48c24ce4500e60d2524571756787283f0d3fbfa50b116331309c09773f0cd1"
+    },
+    "connectors/convertkit/calls/class-wfco-ck-add-customfields.php": {
+      "md5": "7780d71d96339337e96e9fd4472ffe91",
+      "sha256": "4c5826e46d27089c60a8f6362240020aa53d1c1d0e1adb80720b4d1214f90c44"
+    },
+    "connectors/convertkit/calls/class-wfco-ck-add-order.php": {
+      "md5": "b7d349dba6b10d596c8f5f3da56178ee",
+      "sha256": "86398810e7edc5c06241a724d3f6486d7c7bdc114dbe729c482491b1e64482a0"
+    },
+    "connectors/convertkit/calls/class-wfco-ck-add-tags.php": {
+      "md5": "4b3ff0e08110956f372ca60692d3ba4c",
+      "sha256": "206d9f882ac7bc341f0362a04b30716220e94406ad955ae94d2c1c0ae0519124"
+    },
+    "connectors/convertkit/calls/class-wfco-ck-add-to-sequence.php": {
+      "md5": "84058255ca44f29d448528da1b6a6003",
+      "sha256": "571c54773b2aefe2ef9452697a8fcacf0aa7ab247b41ca472d87d3fa02ad5182"
+    },
+    "connectors/convertkit/calls/class-wfco-ck-addsubscribertoform.php": {
+      "md5": "a52bbfe932f7f212a5b3e593b6dd3db3",
+      "sha256": "8ab1458d9919fb9e03048f34ddb9a2dd3c43d16d13dce6456905d272ec858091"
+    },
+    "connectors/convertkit/calls/class-wfco-ck-addwebhook.php": {
+      "md5": "b191fe01761728e3683b1a9042e1a5db",
+      "sha256": "a7d9880b220535ef1a7c167c730a7e855638134c0c6047fc4045ac4ef8116388"
+    },
+    "connectors/convertkit/calls/class-wfco-ck-check-oauth.php": {
+      "md5": "e6259f911aab4acaf70a80777e89fc10",
+      "sha256": "0e471e35d9f0d17ae6adb1f6b5c7b6f3d849f52b3298ef7417645acfa48eb465"
+    },
+    "connectors/convertkit/calls/class-wfco-ck-create-tags.php": {
+      "md5": "278b5da14ff2a991ff56afde3900c73d",
+      "sha256": "a1ee3ee8b8b3a6c89496b025a16c9e6b8a67b23e8938eeb1dcf5bb92a7c67b77"
+    },
+    "connectors/convertkit/calls/class-wfco-ck-deletewebhook.php": {
+      "md5": "6a2c47c6b00b8dfa9bbed4713bbc951c",
+      "sha256": "df79e1e339259f793bf452b4e62385789892251b4be463e102366b7e0df7763e"
+    },
+    "connectors/convertkit/calls/class-wfco-ck-fetch-custom-fields.php": {
+      "md5": "14df9b2409012834d6e87fb2c28700f0",
+      "sha256": "5dfb6713d1521ceedfe91d915986dd94c0610a2eb341e502c6158f2fc9eb1e53"
+    },
+    "connectors/convertkit/calls/class-wfco-ck-fetch-forms.php": {
+      "md5": "f5ac075e4089a7b9aa76de18b027cd06",
+      "sha256": "35881f27c5d2f02c3a5297fdb488cee9947ab05c487781c9f2b087d2a1daad13"
+    },
+    "connectors/convertkit/calls/class-wfco-ck-fetch-sequences.php": {
+      "md5": "618a9a0a260de12dbb7ba1f392bddefe",
+      "sha256": "78fce3ca0a41e9c7846ec90cc46b3683200a44e5a36f075dcfe9a4a7b6b3770f"
+    },
+    "connectors/convertkit/calls/class-wfco-ck-fetch-subscribers.php": {
+      "md5": "6ea309e4af5bff8b20ec8b20b79aa663",
+      "sha256": "6169ed4b5958ae1fc8fa2c7620a7d677eef5a18b07faac2e029fb94efc130da0"
+    },
+    "connectors/convertkit/calls/class-wfco-ck-fetch-subscribersbytag.php": {
+      "md5": "1082d2639f118624d2f175f5ad1780da",
+      "sha256": "f5c2ca3ded26b635f877dea44d0c4543bf3327c8c7062dca89d70ee82cd0e6c7"
+    },
+    "connectors/convertkit/calls/class-wfco-ck-fetch-tags.php": {
+      "md5": "6415a7934747f33684df869aa13e2c0d",
+      "sha256": "fb4c5c894516bc085c1dcc2a5528714a210818013786d86fbd2844456767eac7"
+    },
+    "connectors/convertkit/calls/class-wfco-ck-get-subscriber-tag-list.php": {
+      "md5": "6ecd1bf2f2b1356cd7a8654c1fa0e39b",
+      "sha256": "2e20d4f285230264f7289bda2454f3344628bb8b9b3a51c43bd6ae71a1e3bb68"
+    },
+    "connectors/convertkit/calls/class-wfco-ck-getsubscriber.php": {
+      "md5": "360f1a5a9722e3bf38050decd63966fe",
+      "sha256": "c2d7d956b23f98ee8f2abb9585b0bbe3eb3ca31bf7129f197f67d3b0649dd1be"
+    },
+    "connectors/convertkit/calls/class-wfco-ck-rmv-from-sequence.php": {
+      "md5": "498f8308c49937ec5d545ee6633f3b68",
+      "sha256": "8a514efb9156f0c060bff329c893c5ecd2178372ef1a73bc9957105110543000"
+    },
+    "connectors/convertkit/calls/class-wfco-ck-rmv-tags.php": {
+      "md5": "9869d27abd60a600821c6580ca132182",
+      "sha256": "558ea60f8f940d33fb084394431c09662a8e4b9dfd0f6501710f44e00d3bc692"
+    },
+    "connectors/convertkit/calls/index.php": {
+      "md5": "67442c5615eba73d105c0715c6620850",
+      "sha256": "bd48c24ce4500e60d2524571756787283f0d3fbfa50b116331309c09773f0cd1"
+    },
+    "connectors/convertkit/includes/index.php": {
+      "md5": "67442c5615eba73d105c0715c6620850",
+      "sha256": "bd48c24ce4500e60d2524571756787283f0d3fbfa50b116331309c09773f0cd1"
+    },
+    "connectors/convertkit/includes/search/class-bwfan-ck-tags.php": {
+      "md5": "d11e643665cfa64f209129988aa8fbe8",
+      "sha256": "c13b52fe32eee92cda0dba57ece77f846dba1381fbc7475c32d7db33c8cb49f4"
+    },
+    "connectors/convertkit/includes/search/index.php": {
+      "md5": "67442c5615eba73d105c0715c6620850",
+      "sha256": "bd48c24ce4500e60d2524571756787283f0d3fbfa50b116331309c09773f0cd1"
+    },
+    "connectors/convertkit/views/index.php": {
+      "md5": "67442c5615eba73d105c0715c6620850",
+      "sha256": "bd48c24ce4500e60d2524571756787283f0d3fbfa50b116331309c09773f0cd1"
+    },
+    "connectors/convertkit/views/logo.png": {
+      "md5": "db235481671b4d970dc8678546ebf7f3",
+      "sha256": "920fda86ccb32f001e3c07b71bc7aecfaddfae79a5971515bf524dc3cd83f512"
+    },
+    "connectors/convertkit/views/settings.php": {
+      "md5": "4ce11ffaccf67611e087eb958722d0e0",
+      "sha256": "3994a9627f7535d0109cbcb438b35bb1406abbfdc08e5fc77b309f8e53561fab"
+    },
+    "connectors/drip/connector.php": {
+      "md5": "57b11c3405e41e566ed87b067c15c21e",
+      "sha256": "d973f3f6bd91ad752abc44df3e7ee80ac6fd2eb27cc3ec7a1c4a655a0ca0186f"
+    },
+    "connectors/drip/index.php": {
+      "md5": "67442c5615eba73d105c0715c6620850",
+      "sha256": "bd48c24ce4500e60d2524571756787283f0d3fbfa50b116331309c09773f0cd1"
+    },
+    "connectors/drip/autonami/class-bwfan-drip-common.php": {
+      "md5": "86f9a410dbe7b122d44b46e47db78ff1",
+      "sha256": "57b7e16e9afd807c6d93b68be585c78b286f1d11ed50fba67447dd64a32f8d8b"
+    },
+    "connectors/drip/autonami/class-bwfan-drip-integration.php": {
+      "md5": "8ea5d6ae8f807991ff322437bf7040b5",
+      "sha256": "fb727053e8633e9baa92770c3a5c454682e60a5b2e23de732332a987c1fd1816"
+    },
+    "connectors/drip/autonami/class-bwfan-drip-source.php": {
+      "md5": "6d75085c3dc7bf2b4eb43c5f2cd606e0",
+      "sha256": "6675cc558a09306c5fc6807de0589d5cdc823b774f220fe19fccb1dea0532638"
+    },
+    "connectors/drip/autonami/index.php": {
+      "md5": "67442c5615eba73d105c0715c6620850",
+      "sha256": "bd48c24ce4500e60d2524571756787283f0d3fbfa50b116331309c09773f0cd1"
+    },
+    "connectors/drip/autonami/actions/class-bwfan-dr-add-cart.php": {
+      "md5": "f76b61a2d8a8a463bbdc618d56d28637",
+      "sha256": "dab7328da7ddd993ff53b2ac3ed93466de0fe499eb76ad45296ad9584d7378b3"
+    },
+    "connectors/drip/autonami/actions/class-bwfan-dr-add-customfields.php": {
+      "md5": "0c7a00374e8dfcd9c34f8ca918e3b22f",
+      "sha256": "a8d5263b1bb56b13e0f2b0f4a947f383aeaa40ba37ed5cd1c14795d9b5bb4c27"
+    },
+    "connectors/drip/autonami/actions/class-bwfan-dr-add-order.php": {
+      "md5": "ef3df136a5277b44452f896646dd6175",
+      "sha256": "97599b59bf43b1fd0399c7ef4447ad92e4b38b4d70cc51676b626c75440f3c2b"
+    },
+    "connectors/drip/autonami/actions/class-bwfan-dr-add-tags.php": {
+      "md5": "db872038a530397cfe865058a3bb299c",
+      "sha256": "37381a2ec3cb19596fdb93d9234e0a4889adb2f0bf9cadcbe0c83ad98aee94cb"
+    },
+    "connectors/drip/autonami/actions/class-bwfan-dr-add-to-campaign.php": {
+      "md5": "da1e73c62145c99000d179b7d79c72c3",
+      "sha256": "37ab9d74e120d292dc90569c85259f3a3839655a324ed4e3b817e34ef4d8f9c5"
+    },
+    "connectors/drip/autonami/actions/class-bwfan-dr-add-to-workflow.php": {
+      "md5": "34420f1ac61ccd700cfef57d96ff728d",
+      "sha256": "11e13306fe47d1c398b14993d4ab08280ba1f68b27b6d848aab64bfa5bab7b23"
+    },
+    "connectors/drip/autonami/actions/class-bwfan-dr-create-subscriber.php": {
+      "md5": "7eb22f4e71b6bb97acc965d592b8a81f",
+      "sha256": "3fb9ead251bd09a703e76faa1dad71ed0aea717b8c71e85cabfd5f0a4fa46482"
+    },
+    "connectors/drip/autonami/actions/class-bwfan-dr-rmv-from-campaign.php": {
+      "md5": "1f0e54d35a89e7eea176566f903ab6d6",
+      "sha256": "b3c9dd25ea45d69d3eb243a3a2ebd65eb7442cc54275649188bac5cfe790fd9a"
+    },
+    "connectors/drip/autonami/actions/class-bwfan-dr-rmv-from-workflow.php": {
+      "md5": "03818787790220dd0f03a9952130a10a",
+      "sha256": "64e37976fef9d97ad79937830275bfb1e17901db1ff5c0035abd1d86f33593c6"
+    },
+    "connectors/drip/autonami/actions/class-bwfan-dr-rmv-tags.php": {
+      "md5": "5c5f1b7f0e62fcf52a8b35f0c48acec2",
+      "sha256": "38a00809ca51ab4761da5d8db766b769c2dc4d4085fa171c1efd6382ddc1184b"
+    },
+    "connectors/drip/autonami/actions/index.php": {
+      "md5": "67442c5615eba73d105c0715c6620850",
+      "sha256": "bd48c24ce4500e60d2524571756787283f0d3fbfa50b116331309c09773f0cd1"
+    },
+    "connectors/drip/autonami/events/class-bwfan-drip-webhook-received.php": {
+      "md5": "16bcea84f87171b08f0a9e9b077144aa",
+      "sha256": "14f943854d10f0d6e7c304689637385c255e7f80fce99aaa0aba3d5fc24e507a"
+    },
+    "connectors/drip/autonami/events/index.php": {
+      "md5": "67442c5615eba73d105c0715c6620850",
+      "sha256": "bd48c24ce4500e60d2524571756787283f0d3fbfa50b116331309c09773f0cd1"
+    },
+    "connectors/drip/autonami/merge_tags/class-bwfan-drip-contact-email.php": {
+      "md5": "e190c92a1d27dbb31ed08a0b22036b5f",
+      "sha256": "d18fdc800f23f7c78d7890a9eab805ec34be1d4f4092cf11b0c94b729dc11a41"
+    },
+    "connectors/drip/autonami/merge_tags/class-bwfan-drip-contact-first-name.php": {
+      "md5": "3c161cd6b9cfcc61d28da8296787a2b5",
+      "sha256": "2cd7f30cb1c78aa94e172149fb4769e5b65291106fee6e82a1fd8678b16d6b7c"
+    },
+    "connectors/drip/autonami/merge_tags/class-bwfan-drip-contact-id.php": {
+      "md5": "40d56da54a8a697750fcc90042e4b068",
+      "sha256": "0b141c5bfc783f3e9d2e1b5b39582ff7d7d85587450fe497192106bc89b01122"
+    },
+    "connectors/drip/autonami/merge_tags/class-bwfan-drip-contact-last-name.php": {
+      "md5": "8f359b877cd62b371ff874312ebda57d",
+      "sha256": "203f14024aaffd7a2e4fce9114298c2e8aff37c1bd8b016756b3717957a87b99"
+    },
+    "connectors/drip/autonami/merge_tags/class-bwfan-drip-contact-phone.php": {
+      "md5": "4305f3b1e0f1748d0e02e0bc7b82daf5",
+      "sha256": "6520d5b4a01352e903c1dcd3e72588bd637d5f05756f0656880daef98f3fbb7b"
+    },
+    "connectors/drip/autonami/merge_tags/index.php": {
+      "md5": "67442c5615eba73d105c0715c6620850",
+      "sha256": "bd48c24ce4500e60d2524571756787283f0d3fbfa50b116331309c09773f0cd1"
+    },
+    "connectors/drip/calls/class-wfco-dr-add-cart.php": {
+      "md5": "ff0ca6e1ac9e7a5fe7de2a2c9a65863e",
+      "sha256": "90b0811ba9796cac962feb16ec23b0f90ef879c8fa6b74d0d343a68eaa9f6761"
+    },
+    "connectors/drip/calls/class-wfco-dr-add-customfields.php": {
+      "md5": "e18e0c310fd490d856953a335ea34a41",
+      "sha256": "daced3be7640b647fd843bfd6ffa5915b565ed230b8fefde1ac546fa6252bccc"
+    },
+    "connectors/drip/calls/class-wfco-dr-add-order.php": {
+      "md5": "2ce97c8f40efd2c5796ce0944b85900f",
+      "sha256": "a0a2bdf8008911b2ad4eb53eb835ae97318d6af7e27ddc963127c192e73f7e7f"
+    },
+    "connectors/drip/calls/class-wfco-dr-add-tags.php": {
+      "md5": "55d7b93c2f0c44e07469665eaf14ca27",
+      "sha256": "b5743a1864483fae7c7aed9db026e176375ca2c6caaef7b162073dd63da9bab6"
+    },
+    "connectors/drip/calls/class-wfco-dr-add-to-campaign.php": {
+      "md5": "13592ee9c4290ba79560c0b70975697a",
+      "sha256": "14136de631924bfe4e9f61c6b18977f084b18fad43c15b7794c3ed19a9087d89"
+    },
+    "connectors/drip/calls/class-wfco-dr-add-to-workflow.php": {
+      "md5": "d8ad0f84fe601030093c77d9dcc4f3fb",
+      "sha256": "ea5f5047281594fc98f0fb2802c117bdc344cf59e6307822e0759ae0f4b1137f"
+    },
+    "connectors/drip/calls/class-wfco-dr-addsubscribertoaccount.php": {
+      "md5": "198cf7a9ceb08a9ae683a01cfc84f057",
+      "sha256": "28d4ee54780f0d061db2657d7924932b723a2bf94c6db3ef1db4728b86ee33e4"
+    },
+    "connectors/drip/calls/class-wfco-dr-addwebhook.php": {
+      "md5": "6d66b8747c0cab3d700a1d1c8f677054",
+      "sha256": "bb61db23b239bb2f55f900c622a751d81bdf2bfac61efaab5781a71359f3ebdb"
+    },
+    "connectors/drip/calls/class-wfco-dr-create-subscriber.php": {
+      "md5": "55556f858fee2bb284841a27e80b5a60",
+      "sha256": "0ce9916ffb488d043cf31d53c04cc8c087b4502241a14ca702ff864e3e693776"
+    },
+    "connectors/drip/calls/class-wfco-dr-deletewebhook.php": {
+      "md5": "78462bcdfce0f5785769279d64a5b6f3",
+      "sha256": "ee8c62db5df8d5d8b069e7fa2bf7d7de10dc782e723004fbb919b7c7cbec1625"
+    },
+    "connectors/drip/calls/class-wfco-dr-fetch-accounts.php": {
+      "md5": "bcafbecb6c5216d9331d6efee151ff14",
+      "sha256": "78f1fc61c0aab367a89c7a0832a3225d21a05181e137aee154a7d9ccf7dc2916"
+    },
+    "connectors/drip/calls/class-wfco-dr-fetch-campaigns.php": {
+      "md5": "88850c6b3d211be61d38c701811aebc6",
+      "sha256": "72620dfe3a432f3592123813935567d7dd99463d26e79149c4297b3554ea1d02"
+    },
+    "connectors/drip/calls/class-wfco-dr-fetch-custom-fields.php": {
+      "md5": "92e11cd8450f58d5aecb5cb4396def34",
+      "sha256": "3af0a817ced97c5f1aa964298345aaadefeef057467e8461b38a95cf38414a67"
+    },
+    "connectors/drip/calls/class-wfco-dr-fetch-forms.php": {
+      "md5": "86ef306fadc537d4f4286eb471dbed9b",
+      "sha256": "cdc221609d43f407ac7a929351ae34a9a54de5445641df14afc73dffe9721abe"
+    },
+    "connectors/drip/calls/class-wfco-dr-fetch-subscribers.php": {
+      "md5": "816ec7a039ffedb634655e7ad1deddab",
+      "sha256": "c7614d54f37f53f021e7c5889ae15458dcd10746318c16eccf8865564b52eaa4"
+    },
+    "connectors/drip/calls/class-wfco-dr-fetch-tags.php": {
+      "md5": "7d92e7b1c122dcc67793b5ac8dac8971",
+      "sha256": "b3eda45d807bc4e11fbc411a68706e146f0f4c3e6e3b23398b74efcdc4bd8122"
+    },
+    "connectors/drip/calls/class-wfco-dr-fetch-workflows.php": {
+      "md5": "37be46b3c84a0bff7799972e8a1270e8",
+      "sha256": "9a0831d4242709879fc9774d1f9023564d658f7186e60f5fb475667fb3b7867a"
+    },
+    "connectors/drip/calls/class-wfco-dr-getsubscriber.php": {
+      "md5": "6c4683ca706ea4fbd51e1622ee1c3b0c",
+      "sha256": "c88532358f681073fa1153ac5a3f81f03b3d971e5131a09d7060e9876ebfc147"
+    },
+    "connectors/drip/calls/class-wfco-dr-removesubscribertoaccount.php": {
+      "md5": "0ce373a06b7161d095958624d1b30c40",
+      "sha256": "c4dcb16711997459c7b24b59a41abcec27e74f6d6210b61164b2d7f795821765"
+    },
+    "connectors/drip/calls/class-wfco-dr-rmv-from-campaign.php": {
+      "md5": "83a62033c3d8a60387dd10500dd7f272",
+      "sha256": "438e7e86ca02149111161651d22c22410aedf04596d26601fc69d68bf68cf709"
+    },
+    "connectors/drip/calls/class-wfco-dr-rmv-from-workflow.php": {
+      "md5": "1eefc2146b581369b65b0a985b5ccafa",
+      "sha256": "8e28f8f1fdcdb4e2787504244b73e6594203b48ecc10af8cfe47c17db147adc1"
+    },
+    "connectors/drip/calls/class-wfco-dr-rmv-tags.php": {
+      "md5": "af918494866ea6d0a901126d074ccb81",
+      "sha256": "d8fd296ae4e99e027aba1617ce1832a55434502253059d905804d108822ab924"
+    },
+    "connectors/drip/calls/index.php": {
+      "md5": "67442c5615eba73d105c0715c6620850",
+      "sha256": "bd48c24ce4500e60d2524571756787283f0d3fbfa50b116331309c09773f0cd1"
+    },
+    "connectors/drip/includes/index.php": {
+      "md5": "67442c5615eba73d105c0715c6620850",
+      "sha256": "bd48c24ce4500e60d2524571756787283f0d3fbfa50b116331309c09773f0cd1"
+    },
+    "connectors/drip/includes/search/class-bwfan-drip-tags.php": {
+      "md5": "4df26a82ef1e7a3362faea8ae18841ae",
+      "sha256": "35f0b997c8db1068efa7d46b7bcfd126b14d97f8aa294dd04b2e3ed42652aaa6"
+    },
+    "connectors/drip/includes/search/index.php": {
+      "md5": "67442c5615eba73d105c0715c6620850",
+      "sha256": "bd48c24ce4500e60d2524571756787283f0d3fbfa50b116331309c09773f0cd1"
+    },
+    "connectors/drip/views/index.php": {
+      "md5": "67442c5615eba73d105c0715c6620850",
+      "sha256": "bd48c24ce4500e60d2524571756787283f0d3fbfa50b116331309c09773f0cd1"
+    },
+    "connectors/drip/views/logo.png": {
+      "md5": "39bfe9da606330ca8ff8f6b37d110686",
+      "sha256": "b9c0d929c3ce5cd45f114ebee6df9a8038f593ffff205f091961ca92e6c4f638"
+    },
+    "connectors/drip/views/settings.php": {
+      "md5": "514e1fd8b4e7d995d595e73194a1e1d5",
+      "sha256": "2ecd2f801542a21785796b024db2048840420f45fe0e7268932a9735cfcd2bb4"
+    },
+    "connectors/everwebinarjam/connector.php": {
+      "md5": "9e6fe6d3daa3bbcdd5b99b6af002c129",
+      "sha256": "c69158d19e743c94b0800ffd5463bc26ab513e08a58b970b88d72597e898ec2b"
+    },
+    "connectors/everwebinarjam/index.php": {
+      "md5": "ce407ff5715c837d02b1aba7975bf512",
+      "sha256": "00aba3928cd622ad67c0f81ecd5aa8699e07f8f4908c045fe34f6a2dc0067b37"
+    },
+    "connectors/everwebinarjam/autonami/class-bwfan-ever-webinarjam-integrations.php": {
+      "md5": "a1bf956d61a8cf5512bc63020f089308",
+      "sha256": "c55acf817eb010f6f95ff41dca455279d4f37cdc855ee192277ad2aaf77f3d54"
+    },
+    "connectors/everwebinarjam/autonami/index.php": {
+      "md5": "ce407ff5715c837d02b1aba7975bf512",
+      "sha256": "00aba3928cd622ad67c0f81ecd5aa8699e07f8f4908c045fe34f6a2dc0067b37"
+    },
+    "connectors/everwebinarjam/autonami/actions/class-bwfan-everwebinar-register-person-to-webinar.php": {
+      "md5": "49ec253acbad5ff6ef6ac9517029dd86",
+      "sha256": "a96db15a72dafab06ffd733c56d047a8b94c6f45028504b7a3eecf9ce28c35ef"
+    },
+    "connectors/everwebinarjam/autonami/actions/class-bwfan-webinarjam-register-person-to-webinar.php": {
+      "md5": "35502c7f4437f68e7ab4df78413dbd58",
+      "sha256": "bc59a01bda4d9868f26e427e85ceeb8fa58de171798dc56a193edbe834d4107b"
+    },
+    "connectors/everwebinarjam/autonami/actions/index.php": {
+      "md5": "ce407ff5715c837d02b1aba7975bf512",
+      "sha256": "00aba3928cd622ad67c0f81ecd5aa8699e07f8f4908c045fe34f6a2dc0067b37"
+    },
+    "connectors/everwebinarjam/calls/class-wfco-everwebinar-get-schedules.php": {
+      "md5": "d19d4809d83f1d91abbe78ebf5f25def",
+      "sha256": "2d0485776a4b2e106671ee04372fb54f51e2023015812194573f59d6a65422c1"
+    },
+    "connectors/everwebinarjam/calls/class-wfco-everwebinar-get-webinars.php": {
+      "md5": "f2d55ea5607a55381d61cc254934f7ab",
+      "sha256": "7ccb7b26546094afdc4e02a9bef12af983478208121fcc8cfa01d7618210d554"
+    },
+    "connectors/everwebinarjam/calls/class-wfco-everwebinar-register-person-to-webinar.php": {
+      "md5": "0f5423b9db0a4db7ca0f5c2b0e676145",
+      "sha256": "0039b961329ac93f8f9e843bc6f2455d232e6e646893212782645c2dc31aa4d3"
+    },
+    "connectors/everwebinarjam/calls/class-wfco-webinarjam-get-schedules.php": {
+      "md5": "581340a1f5c1fa88fc6af300cd3899bd",
+      "sha256": "02f49f0cafab3d8577eec9bd0ed4aaf3d9955ba3361ce87d1febd0bdd9d017c6"
+    },
+    "connectors/everwebinarjam/calls/class-wfco-webinarjam-oauth-check.php": {
+      "md5": "83b8103b272bbd31cf5d2d3cac12548d",
+      "sha256": "01a46d7141d4e444e3950c8fb8845d4aebad6c33d86ed932a687e74d4520a283"
+    },
+    "connectors/everwebinarjam/calls/class-wfco-webinarjam-register-person-to-webinar.php": {
+      "md5": "875154857e69aae6d6e4c4eb86ec9913",
+      "sha256": "af16a257205173c67a91e5e16a61cf3cb9e43d5999285ff4b81e9c28c1cfa753"
+    },
+    "connectors/everwebinarjam/calls/index.php": {
+      "md5": "ce407ff5715c837d02b1aba7975bf512",
+      "sha256": "00aba3928cd622ad67c0f81ecd5aa8699e07f8f4908c045fe34f6a2dc0067b37"
+    },
+    "connectors/everwebinarjam/includes/class-wfco-ever-webinarjam-common.php": {
+      "md5": "01f11f48c8f90153275cf02c1ff5b9a3",
+      "sha256": "b1e951f9d8c19d7e28f83ac6881371af90b1b45e31b2ae895f040d30ba9c21b3"
+    },
+    "connectors/everwebinarjam/includes/index.php": {
+      "md5": "ce407ff5715c837d02b1aba7975bf512",
+      "sha256": "00aba3928cd622ad67c0f81ecd5aa8699e07f8f4908c045fe34f6a2dc0067b37"
+    },
+    "connectors/everwebinarjam/includes/search/class-bwfan-everwebinar-webinar.php": {
+      "md5": "d7459c3dfc6c341d96c3f82e8cac5254",
+      "sha256": "e103b34e85a63bdaa7a8264ebdf7482d7109a87d0a44a1d6607122a200fd9e4e"
+    },
+    "connectors/everwebinarjam/includes/search/class-bwfan-webinarjam-webinar.php": {
+      "md5": "7ea6f53ee5e00bf02a652819f8a54116",
+      "sha256": "8c66b42a59013e6a408a8253790082404d6e80831fa4e9f841b0cdee92c3d5b2"
+    },
+    "connectors/everwebinarjam/includes/search/index.php": {
+      "md5": "67442c5615eba73d105c0715c6620850",
+      "sha256": "bd48c24ce4500e60d2524571756787283f0d3fbfa50b116331309c09773f0cd1"
+    },
+    "connectors/everwebinarjam/views/index.php": {
+      "md5": "ce407ff5715c837d02b1aba7975bf512",
+      "sha256": "00aba3928cd622ad67c0f81ecd5aa8699e07f8f4908c045fe34f6a2dc0067b37"
+    },
+    "connectors/everwebinarjam/views/logo.png": {
+      "md5": "211774f6b9ab648b013c151b44cae67f",
+      "sha256": "e532e36b9ebb4d6f0a6781e3595fe032bf60abf8ee561c15bf2e67baded23248"
+    },
+    "connectors/everwebinarjam/views/settings.php": {
+      "md5": "a4cbbb0fbc35e8765eb5eae1d870578f",
+      "sha256": "01e685e6759a15c371cc77a12e397088b06adf6fa1a2dd26c305fa46562323a2"
+    },
+    "connectors/getresponse/connector.php": {
+      "md5": "0f81d1b8b560179069dcb09877f1800a",
+      "sha256": "c104ea9deff0d0c315aaca2259ca29bcb7a11a30d67e98a437491f3df98392ad"
+    },
+    "connectors/getresponse/index.php": {
+      "md5": "67442c5615eba73d105c0715c6620850",
+      "sha256": "bd48c24ce4500e60d2524571756787283f0d3fbfa50b116331309c09773f0cd1"
+    },
+    "connectors/getresponse/autonami/class-bwfan-gr-integration.php": {
+      "md5": "252d90b516f5bfc40fb371407187bb3d",
+      "sha256": "fc3a3664dda85dc543ad0d297e50b37f8150c35ed0115669929efffdf7697825"
+    },
+    "connectors/getresponse/autonami/index.php": {
+      "md5": "67442c5615eba73d105c0715c6620850",
+      "sha256": "bd48c24ce4500e60d2524571756787283f0d3fbfa50b116331309c09773f0cd1"
+    },
+    "connectors/getresponse/autonami/actions/class-bwfan-gr-add-tags.php": {
+      "md5": "46d0c71b0c46d69d5ca21583c000c747",
+      "sha256": "f47df6ab4495f401a1fa9ec8adb5328ba7a92f4078fc53794991fca27eea7d67"
+    },
+    "connectors/getresponse/autonami/actions/class-bwfan-gr-add-to-list.php": {
+      "md5": "fa20a76d48d0980e34a119069a3eb093",
+      "sha256": "23bd27c534f50a4992308a353b0e4d07f04748bd7cc44e76c0bfb9424367ef1e"
+    },
+    "connectors/getresponse/autonami/actions/class-bwfan-gr-create-contact.php": {
+      "md5": "4ca2c97ef90af50c2b84d4a44333bf19",
+      "sha256": "30491720fde8c740df9e78fdd9256e6d35072bae63eba93b368bc2ad6d2ab2aa"
+    },
+    "connectors/getresponse/autonami/actions/class-bwfan-gr-remove-tags.php": {
+      "md5": "630334e09ae20e65d941520da1915cd3",
+      "sha256": "94081e807d2ad140061bcf04318890b6cd1cf5a9847c77274d01367747ff4627"
+    },
+    "connectors/getresponse/autonami/actions/class-bwfan-gr-update-custom-fields.php": {
+      "md5": "1d6a6f35cc5f6b76f7e2538b73f627a4",
+      "sha256": "f4002726cd6b36a20a9bac6ee30f917806b8f99a99ab0e743c4d4f92f64e0148"
+    },
+    "connectors/getresponse/autonami/actions/class-bwfan-remove-from-list.php": {
+      "md5": "c12e3fde46c86a729be421842d51474b",
+      "sha256": "051eee362997807d2caed42c47a18cf63890fbf5498d4120282fa04e92e22271"
+    },
+    "connectors/getresponse/autonami/actions/index.php": {
+      "md5": "67442c5615eba73d105c0715c6620850",
+      "sha256": "bd48c24ce4500e60d2524571756787283f0d3fbfa50b116331309c09773f0cd1"
+    },
+    "connectors/getresponse/calls/class-wfco-gr-add-tags.php": {
+      "md5": "66faffb44f548a6527d441e07a38e2e8",
+      "sha256": "379d08abddc0df7cee6486f4e5251dcf6f78915da63c70b9f9095d0a4ffa8718"
+    },
+    "connectors/getresponse/calls/class-wfco-gr-add-to-list.php": {
+      "md5": "35b1e19c4c30ff749e427cbea0a92448",
+      "sha256": "581e2c85c62c6950c4a8e7d9853d26a86a453cb55cfe60cd7fd37e220bc95155"
+    },
+    "connectors/getresponse/calls/class-wfco-gr-create-contact.php": {
+      "md5": "fcf75f1deb138a453263793c03753fc3",
+      "sha256": "45eee013e17ca00c8c37382c5aa5c267d86e188d64625be81efa743b2895e5a1"
+    },
+    "connectors/getresponse/calls/class-wfco-gr-create-tags.php": {
+      "md5": "2b83ce47a74699e940e5b725a454a8f0",
+      "sha256": "cf25b4c881503b21994a47a4bcdd048d2107d4f4cb1d19c273f4c9cff9ce04c8"
+    },
+    "connectors/getresponse/calls/class-wfco-gr-get-contact-by-id.php": {
+      "md5": "da72577cfc1aa40ffb06f4e5600f2f75",
+      "sha256": "d1e0c139a8de9e2793236b5ff36b0d2838e025f29a87cfad29556ffaa9201815"
+    },
+    "connectors/getresponse/calls/class-wfco-gr-get-contact-id-by-email.php": {
+      "md5": "d4ca8568ddb4d393f79f82e8519b6b3c",
+      "sha256": "e8c96ebf23e60ec30cc39676354dc84d6f5844fb9643ad70d706506b58594684"
+    },
+    "connectors/getresponse/calls/class-wfco-gr-get-custom-fields.php": {
+      "md5": "0ea9280c77adc909b528bfc801820325",
+      "sha256": "6ef0a8d5827ccb0d4096c4507704d87e5dc8d92d5188a2bbaafd760cc03d307f"
+    },
+    "connectors/getresponse/calls/class-wfco-gr-get-lists.php": {
+      "md5": "be1d7fff3389124d670712f875c36676",
+      "sha256": "e7824fe30912efb5d603f76a8bdcd1759c61b61ba7fc3a0a84df47c63109a30f"
+    },
+    "connectors/getresponse/calls/class-wfco-gr-get-tags.php": {
+      "md5": "6e13bb78d463b1464836ce0c680c6f85",
+      "sha256": "9909b97a0a17bc087d2d6d5f20e6cfde38110631cf1d93abd3ce5559fbd37c3c"
+    },
+    "connectors/getresponse/calls/class-wfco-gr-remove-from-list.php": {
+      "md5": "eff14b20d2d7c60bc7e5c01522f729da",
+      "sha256": "22f902d0f66277a548974e7632a554c6ee441fa2830290e1f31ab8fe9afd987a"
+    },
+    "connectors/getresponse/calls/class-wfco-gr-remove-tags.php": {
+      "md5": "a1a4d0235288b51af331ac5675b06515",
+      "sha256": "eaf256cb6318b22894d46212cbce9665fd99d8ecf7162830b8f79ebc36279b89"
+    },
+    "connectors/getresponse/calls/class-wfco-gr-search-contacts-by-email.php": {
+      "md5": "0000624935260c6bacf7f59e4705cfdf",
+      "sha256": "3ffb6c55945aafb8fcda50cbf85fbd388cda6682cbead8564b54e3bd7218cda1"
+    },
+    "connectors/getresponse/calls/class-wfco-gr-search-tags-by-name.php": {
+      "md5": "705fc2d9415326f304c26cdbc4380e89",
+      "sha256": "27867033bfd5b31d1ded221666722f309d6a1a5a3ea3f83f15233828fff627d2"
+    },
+    "connectors/getresponse/calls/class-wfco-gr-update-custom-fields-by-id.php": {
+      "md5": "9af01fab8279ad771d8d70312a02a0fa",
+      "sha256": "180e55917c5ca2d5ff7561ca24880a7376e0ad3591a72326141f63cadd66f775"
+    },
+    "connectors/getresponse/calls/class-wfco-gr-update-custom-fields.php": {
+      "md5": "2e6fa98580e4afa9dae4bab96147d72e",
+      "sha256": "2e494ea961c09aafd780715b18d3560b6f4a58f9a533adac0b8e2dc09d869aac"
+    },
+    "connectors/getresponse/calls/class-wfco-gr-update-tags-by-id.php": {
+      "md5": "eab81c84c5845a9e494ccded22920af3",
+      "sha256": "c9870ef96935b2964ac242bdb9bd8e146df072956447de7b6c1100d3ab7d2e51"
+    },
+    "connectors/getresponse/calls/index.php": {
+      "md5": "67442c5615eba73d105c0715c6620850",
+      "sha256": "bd48c24ce4500e60d2524571756787283f0d3fbfa50b116331309c09773f0cd1"
+    },
+    "connectors/getresponse/includes/class-wfco-getresponse-common.php": {
+      "md5": "d051943347dc35a2aef20aeab38c1b9c",
+      "sha256": "a4ece13e6a28c70ee280e37c6630aeed73273a192d8216c1ccdf93cd2700853e"
+    },
+    "connectors/getresponse/includes/index.php": {
+      "md5": "67442c5615eba73d105c0715c6620850",
+      "sha256": "bd48c24ce4500e60d2524571756787283f0d3fbfa50b116331309c09773f0cd1"
+    },
+    "connectors/getresponse/includes/search/class-bwfan-gr-tags.php": {
+      "md5": "9a1e64b4d4a972ca48bbd4d2d6573c5f",
+      "sha256": "8239f7526d2f083e9e889014032395b2e14fb7fb0a5310236a1508d31fe71e30"
+    },
+    "connectors/getresponse/includes/search/index.php": {
+      "md5": "67442c5615eba73d105c0715c6620850",
+      "sha256": "bd48c24ce4500e60d2524571756787283f0d3fbfa50b116331309c09773f0cd1"
+    },
+    "connectors/getresponse/views/index.php": {
+      "md5": "67442c5615eba73d105c0715c6620850",
+      "sha256": "bd48c24ce4500e60d2524571756787283f0d3fbfa50b116331309c09773f0cd1"
+    },
+    "connectors/getresponse/views/logo.png": {
+      "md5": "443319cbcad1477b795f8c4503e9f6b3",
+      "sha256": "12cab0309244f3278b70916c7cc2d9ebd295e82ee5b7b5fef353de6de6e44735"
+    },
+    "connectors/getresponse/views/settings.php": {
+      "md5": "228ed04c2bff717bdfaa8c7f76b810b8",
+      "sha256": "36f67a297128dcace89ce49000a668388235886a540bb0b43ae3bcc8dd8ed8d4"
+    },
+    "connectors/googlesheets/connector.php": {
+      "md5": "6ea9c8c2ea4467e0cf894ef0308950fb",
+      "sha256": "5e050ce0eb9dc7fb539e45ada8d4a7488d553f4b282141e9aff9e132a79a19c2"
+    },
+    "connectors/googlesheets/credentials.json": {
+      "md5": "7b4201b7d6988803e1aca627ad7b10c0",
+      "sha256": "9e70926998ebec6fad18050a5c32c61c51f2f68a9da3704733aac6a8d2c9daf7"
+    },
+    "connectors/googlesheets/autonami/class-bwfan-google-sheets-integration.php": {
+      "md5": "51d0e0353112b17c6223c0d4a43bbc6f",
+      "sha256": "48f517394680925e200497f434afee4c4e07973eaca2108e97876b761fcf826f"
+    },
+    "connectors/googlesheets/autonami/actions/class-bwfan-gs-delete-data.php": {
+      "md5": "26d4aeac62da072d8c8b4349293678c2",
+      "sha256": "5172c1dd634086013d8cfbc999c533a9ae4087fbe01d0bb388ab08d90651af4e"
+    },
+    "connectors/googlesheets/autonami/actions/class-bwfan-gs-insert-data.php": {
+      "md5": "f07fc51263da1271ad33e907cc84a92f",
+      "sha256": "7cc14cd3badaa3a7a496a5e82d0e9c91c8389b5d94027290dcf03ec218182349"
+    },
+    "connectors/googlesheets/autonami/actions/class-bwfan-gs-update-data.php": {
+      "md5": "3cdd1b09d17f448f62e280b0fd29b53c",
+      "sha256": "9cbe58a97576e36909d4bae0bfb4f09a385e3cc2a387ba66316387be0410dc70"
+    },
+    "connectors/googlesheets/calls/class-wfco-gs-delete-data.php": {
+      "md5": "b115dae5bd51605c5bee12df483413e6",
+      "sha256": "fe61224d86ff3c511f31e61206bc3a0be48d3b230cffe56ba2b950e2c4139214"
+    },
+    "connectors/googlesheets/calls/class-wfco-gs-get-access-token.php": {
+      "md5": "31769a44db50fc39d922455cee1b305d",
+      "sha256": "ef3b2c483273703835f88685b903268ee76ce63464cc409d3ad23cf3ec87f6d1"
+    },
+    "connectors/googlesheets/calls/class-wfco-gs-get-refresh-access-token.php": {
+      "md5": "f07f45b80c83c096d1d344a79be26706",
+      "sha256": "8c2b906a21158e04873461b8a268effc8bd41607e7e2fe80f17d991cd8b887f6"
+    },
+    "connectors/googlesheets/calls/class-wfco-gs-get-sheet-range-values.php": {
+      "md5": "b6ae798603096c0119f6804ee3fa5192",
+      "sha256": "b3c85f2ffd913bc415dfe56b56169d6b61fc50d8662fa3d55ec6f20d9019c289"
+    },
+    "connectors/googlesheets/calls/class-wfco-gs-get-worksheets.php": {
+      "md5": "75fb686b64e5d46a964186dacf4ca989",
+      "sha256": "ab9f103c5b085e02718f13393363f39ec9940d9f57f5cef970134e782f86a05c"
+    },
+    "connectors/googlesheets/calls/class-wfco-gs-insert-data.php": {
+      "md5": "79facfd712c467985319f55d68f32383",
+      "sha256": "836aff5bc08f1eb691f4f796d794ea42c6face39bb67adce97dade985659e1b0"
+    },
+    "connectors/googlesheets/calls/class-wfco-gs-update-data.php": {
+      "md5": "e5ac3e0c3d3fe5e4df0a03c8bfd7989b",
+      "sha256": "a092f2d870b09043c595540f0b536983dbec29821ca4d096fff0e101dd0f1a44"
+    },
+    "connectors/googlesheets/views/logo.png": {
+      "md5": "7170c464e7563724f5ba1d744e13ed5e",
+      "sha256": "01e02db6c654b88e5ca0175ab10d6bacff1e3688952b9fb06500e471ac45e225"
+    },
+    "connectors/googlesheets/views/settings.php": {
+      "md5": "2211392a54a1ffc04c17ab493c56cc9f",
+      "sha256": "c10c8586782ebe1fed1cfb23d98d1f0a172c501a2fa3700a670b75612d1027b8"
+    },
+    "connectors/hubspot/connector.php": {
+      "md5": "09d70c0977736e95c6f20fe9a180c133",
+      "sha256": "d08635e297acef21283429ac88ac455e0ea0479ee8856261a502206df40ab164"
+    },
+    "connectors/hubspot/index.php": {
+      "md5": "67442c5615eba73d105c0715c6620850",
+      "sha256": "bd48c24ce4500e60d2524571756787283f0d3fbfa50b116331309c09773f0cd1"
+    },
+    "connectors/hubspot/autonami/class-bwfan-hubspot-integration.php": {
+      "md5": "c4f8f65f0ef45cb3991c9fbf97b18e9f",
+      "sha256": "ae8bac11b4d7bf2c86ca89a3b9a1203f8acb73c898037febf33c63de840118f4"
+    },
+    "connectors/hubspot/autonami/class-bwfan-hubspot-source.php": {
+      "md5": "0ece52e8a93c1c9206f2d124d893be62",
+      "sha256": "2733ada359f9c2e7c6a1994bd14a092339e1faaa5125008358e0541feb514a24"
+    },
+    "connectors/hubspot/autonami/index.php": {
+      "md5": "d41d8cd98f00b204e9800998ecf8427e",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "connectors/hubspot/autonami/actions/class-bwfan-hubspot-add-contact-to-list.php": {
+      "md5": "a1917ed50fb4d02a20e6e6c28bd804d5",
+      "sha256": "02123044011b88f609166d24025b73f46d078c181995f942ef82375e798e48cd"
+    },
+    "connectors/hubspot/autonami/actions/class-bwfan-hubspot-add-contact-to-workflow.php": {
+      "md5": "74bfb9b302f8aeedcf075ec222b5e4d7",
+      "sha256": "6b6d732714275c2d9deaf9615c9c31f9175af0021b8cedd4cea7e88befdbac58"
+    },
+    "connectors/hubspot/autonami/actions/class-bwfan-hubspot-create-contact.php": {
+      "md5": "2164bb35142bfc534f07f2bb6dcff524",
+      "sha256": "2a5eeee7cd099210d6e0d1d6032f8ab9994a64420e2f1dcd85615985eac03fe2"
+    },
+    "connectors/hubspot/autonami/actions/class-bwfan-hubspot-create-deal.php": {
+      "md5": "f244b2ee13f60f674691c2c55e8e0ba0",
+      "sha256": "c1c083c323b14b33a3b6fd359287b35942d8499e358f9e9f13d368b0b2d76221"
+    },
+    "connectors/hubspot/autonami/actions/class-bwfan-hubspot-remove-contact-from-list.php": {
+      "md5": "f24e0abf5a5644c353efb03bca8ddf4f",
+      "sha256": "0cccb1710dddb52ad36f1c8df7fedc7b0d324bd16a6d73622b9f0eafbcd1250f"
+    },
+    "connectors/hubspot/autonami/actions/class-bwfan-hubspot-remove-contact-from-workflow.php": {
+      "md5": "e6cdaef45aad4e9b137d9622f86621be",
+      "sha256": "11552c1baf95d1bfc2afa2b3ced89c2e5061c092ebaf320f12bdf7b975ae824f"
+    },
+    "connectors/hubspot/autonami/actions/class-bwfan-hubspot-update-contact.php": {
+      "md5": "e22e744d418a03f2cca064796769cf4b",
+      "sha256": "5561f2780ff092342b6f5434c34be1a7d3932aed3e6954e19bc1dca89e3f3798"
+    },
+    "connectors/hubspot/autonami/actions/class-bwfan-hubspot-update-deal.php": {
+      "md5": "ec13d6e84a0ce9839faeda15e6ac6fbf",
+      "sha256": "261e46f9548e72640a4a58881217ea4e1872f42b5352f70756df6e6d9969d54e"
+    },
+    "connectors/hubspot/autonami/actions/index.php": {
+      "md5": "d41d8cd98f00b204e9800998ecf8427e",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "connectors/hubspot/autonami/events/class-bwfan-hubspot-message-recieved.php": {
+      "md5": "f649bb40457fd07de92a46e6f93011cd",
+      "sha256": "cb9a458a834df8bc0e26bf4aa2c07bc4254209be6cb72e2e099d46ef32ea4284"
+    },
+    "connectors/hubspot/autonami/events/index.php": {
+      "md5": "d41d8cd98f00b204e9800998ecf8427e",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "connectors/hubspot/autonami/merge_tags/class-bwfan-hubspot-contact-email.php": {
+      "md5": "6bfcb6d8dba59485da253b4cd99dfd8c",
+      "sha256": "487aef1bfcd91848c243067b997a71a584c4bf8940b1606e69edf7d7fa9e65c0"
+    },
+    "connectors/hubspot/autonami/merge_tags/index.php": {
+      "md5": "d41d8cd98f00b204e9800998ecf8427e",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "connectors/hubspot/calls/class-wfco-hubspot-add-contact-to-list.php": {
+      "md5": "bc9f938db4778bf1b82fa12ec2b36def",
+      "sha256": "d8e7f5d446f0901d27215b1a3b6d91a56fdc0bdce88311a27d4413988fee4bb0"
+    },
+    "connectors/hubspot/calls/class-wfco-hubspot-add-contact-to-workflow.php": {
+      "md5": "e00555f1175988ec542255f59e83c92c",
+      "sha256": "60d83c7942a13f8f3c28948dd609e62b5cd2c8817b0a6e1060c6950fca2e23ec"
+    },
+    "connectors/hubspot/calls/class-wfco-hubspot-associate-line-item-with-deal.php": {
+      "md5": "2bc3489bbc45a67c8cb3cae0de9c34b4",
+      "sha256": "677e9b06340be20348f2ae83b5020d51d761313932b63f39ec370f42e226db44"
+    },
+    "connectors/hubspot/calls/class-wfco-hubspot-create-contact-list.php": {
+      "md5": "82bd508cbe11117f42c16b1e98d8beba",
+      "sha256": "88cb9845a0ae4c47ee5ddd2c3884ee6678ae081db4bc5c264a5edaa1c6ee078b"
+    },
+    "connectors/hubspot/calls/class-wfco-hubspot-create-contact.php": {
+      "md5": "2378f61822aeb11de0c4e4d900ceadb7",
+      "sha256": "ccf29552df7845e8f3fd6c15e5f426242f547b3a5ba4ca5c913b6ccaa695452f"
+    },
+    "connectors/hubspot/calls/class-wfco-hubspot-create-deal-properties.php": {
+      "md5": "e58e3f1329101e5a87fda1f678c8b92f",
+      "sha256": "0f5c73d7d3d72f431b19cb01d9047f1b680ff823220e51179bac7b8dc109d06b"
+    },
+    "connectors/hubspot/calls/class-wfco-hubspot-create-deal.php": {
+      "md5": "a14f28aa3e00a9b9d43feb1bbf85b8e6",
+      "sha256": "29a16488a2af4a4828b05dfe14a09614144cae8e6ea9b2bf8070c156e24b16c6"
+    },
+    "connectors/hubspot/calls/class-wfco-hubspot-create-line-item.php": {
+      "md5": "361a7ac9e8fdc6875d41888cf97ca9d1",
+      "sha256": "7e06d1f94b3909939ad86859415d114634afdd2e53636a3232c6c63e982422c1"
+    },
+    "connectors/hubspot/calls/class-wfco-hubspot-create-product.php": {
+      "md5": "8ea0aee25b2bdd91e0f7a0bbdf4c13e2",
+      "sha256": "abb105b2043a5bf50ef7018fb5a6e9adfce7d970d0647cfab777e800cb522981"
+    },
+    "connectors/hubspot/calls/class-wfco-hubspot-get-contact-by-email.php": {
+      "md5": "d7ba833ad4e643eebe66071fc5d73612",
+      "sha256": "ed10f185f6309ff1301f5fe6e5bde1779e3052e668a438516908c9f6c79b954b"
+    },
+    "connectors/hubspot/calls/class-wfco-hubspot-get-contact-lists.php": {
+      "md5": "df8c07aa63fb988a4bd47657958c9601",
+      "sha256": "76f4e2e8027956c7ddb27011600ea3dcbb20b82428d39f224832a0f2251dda18"
+    },
+    "connectors/hubspot/calls/class-wfco-hubspot-get-contact-properties.php": {
+      "md5": "f5d34be04cb031f26f48d1a0e5474475",
+      "sha256": "6a8d6824560554d2e424694337e659e25666c00322a44858f3498997a4bcd40a"
+    },
+    "connectors/hubspot/calls/class-wfco-hubspot-get-deal-properties.php": {
+      "md5": "dce30fa8638b42695e4f77ea866aeb2e",
+      "sha256": "c72fe830a5529a32354bae6c206600c72cd58492d93b6588ce96cf6166df5f65"
+    },
+    "connectors/hubspot/calls/class-wfco-hubspot-get-pipelines.php": {
+      "md5": "605642ff882697ba3dc6209afef6f63c",
+      "sha256": "126490cb0e7cd9c536863359c208e00050553c9c124f60d1ae511915ab593892"
+    },
+    "connectors/hubspot/calls/class-wfco-hubspot-get-product-by-name.php": {
+      "md5": "1fcf664d1087871c46de037b7d0eb0e8",
+      "sha256": "6ff4f179a1fdb2de8f2392d6a90b83ce0f0a80ca2f747c0e5c553453e76dede9"
+    },
+    "connectors/hubspot/calls/class-wfco-hubspot-get-products.php": {
+      "md5": "601830ddfc5fa4607282d7f6b113271b",
+      "sha256": "29162b88fb91238d6efe2c9898727ac7955e7355fee2c23495a52cb502638bcd"
+    },
+    "connectors/hubspot/calls/class-wfco-hubspot-get-workflows.php": {
+      "md5": "920010db94c7e3cf3a47fc1e503a6ab5",
+      "sha256": "7ff3a8bd7bcddfeb4fa7e96dc4b9bc7c3d9cc6fff77c13084f561c58d7e11820"
+    },
+    "connectors/hubspot/calls/class-wfco-hubspot-remove-contact-from-list.php": {
+      "md5": "145c14caebb74d2a2ce285e84d9bf710",
+      "sha256": "929e84338defcdef5ed8c06ace8117cecc36ee30727514807f53a8a92ae92f4c"
+    },
+    "connectors/hubspot/calls/class-wfco-hubspot-remove-contact-from-workflow.php": {
+      "md5": "727f8289ae2c2f8ae2f8ae3bf12e4753",
+      "sha256": "6718e744a611ec1e6ca955fa675a2ba50d1296ecedd4c149d7c40d3b316a32f0"
+    },
+    "connectors/hubspot/calls/class-wfco-hubspot-update-contact.php": {
+      "md5": "3aa1122c3259d5d69c3b94b3ac800430",
+      "sha256": "455831fe79c2e4b0ff3980dbe5c745b7a0f34179d79570e030235279df32cc96"
+    },
+    "connectors/hubspot/calls/class-wfco-hubspot-update-deal.php": {
+      "md5": "2852ca93950502b9e798e8879f8a3025",
+      "sha256": "d9e8393909e0406d3a6ef214520b5273cb7ce680c4e70a92fb81340d8c53bf68"
+    },
+    "connectors/hubspot/calls/index.php": {
+      "md5": "d41d8cd98f00b204e9800998ecf8427e",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "connectors/hubspot/includes/class-wfco-hubspot-call.php": {
+      "md5": "102f987033eee97cd3c64bedb4ef6b47",
+      "sha256": "b20623be5b2e8cbe13aaf287ee300124008948dd4aba8a32f1437f499b6d50a3"
+    },
+    "connectors/hubspot/includes/class-wfco-hubspot-webhook-setup.php": {
+      "md5": "bf33175975af97d4cbe76c943c677f77",
+      "sha256": "6e98803f5265b83a6bfdde57314485813d4b3b9585dec99ac582dd0ad5e6ce48"
+    },
+    "connectors/hubspot/includes/index.php": {
+      "md5": "d41d8cd98f00b204e9800998ecf8427e",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "connectors/hubspot/views/index.php": {
+      "md5": "d41d8cd98f00b204e9800998ecf8427e",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "connectors/hubspot/views/logo.png": {
+      "md5": "d3a6d07859ec4404e08baed591c41161",
+      "sha256": "83a4b76a1d38606aac667930e664e1e653540a06f7863693b43a74e9513921ac"
+    },
+    "connectors/hubspot/views/settings.php": {
+      "md5": "f1b862fa024a570bccdb33ef5f0bfa60",
+      "sha256": "01bb7ac16c12805061c1a139b4dfd33b2d70be3761c91af7e51ab8143ccace29"
+    },
+    "connectors/keap/class-wfco-keap-core.php": {
+      "md5": "d6859d13a884769dea931662be45fe84",
+      "sha256": "7f37fa77d0e977a41acc50a8440e37f6b8a82df92b38ea8d5056eaf97ae95e57"
+    },
+    "connectors/keap/connector.php": {
+      "md5": "fed6f721f36693d35458002a1f0d838c",
+      "sha256": "328c4beac9f6cd2d6afa4aaebba691cba02f0fb3864c1910a8781370b5563cdf"
+    },
+    "connectors/keap/index.php": {
+      "md5": "67442c5615eba73d105c0715c6620850",
+      "sha256": "bd48c24ce4500e60d2524571756787283f0d3fbfa50b116331309c09773f0cd1"
+    },
+    "connectors/keap/autonami/class-bwfan-keap-integration.php": {
+      "md5": "25577dc490207c1482ca7e56743c31ed",
+      "sha256": "0cd651088e00db79df0b761e7ddf2cb9e7122f79bcc8c259c402539ade9e5c78"
+    },
+    "connectors/keap/autonami/index.php": {
+      "md5": "67442c5615eba73d105c0715c6620850",
+      "sha256": "bd48c24ce4500e60d2524571756787283f0d3fbfa50b116331309c09773f0cd1"
+    },
+    "connectors/keap/autonami/actions/class-bwfan-keap-add-tags.php": {
+      "md5": "320c528193fefc89b475886753af8b1c",
+      "sha256": "a0ca1e4a34a37960099d3f2b8f4993fce5131486a07b2bf03bbd9dd60d0a9948"
+    },
+    "connectors/keap/autonami/actions/class-bwfan-keap-create-contact.php": {
+      "md5": "c5e3ba87197be4abe6fd549a0e049148",
+      "sha256": "47535b75dcc38dc44d83c04e29d5bbaa042cc3ea8a916c33b262f0eb56d4d1df"
+    },
+    "connectors/keap/autonami/actions/class-bwfan-keap-remove-tags.php": {
+      "md5": "1e0909561083d86c1d299afcbb836a24",
+      "sha256": "d5a1830396e41edfb7a956990a0832327b101d1afd9efe0bbf003d997b4eed75"
+    },
+    "connectors/keap/autonami/actions/class-bwfan-keap-update-contact-fields.php": {
+      "md5": "4496e13d4fb92b792ea3b7ad90f50b7b",
+      "sha256": "d586e75f4812578a5e4cf146ccea88f2ab9c9ad6aa8ac8b09d30686d2545d846"
+    },
+    "connectors/keap/autonami/actions/index.php": {
+      "md5": "67442c5615eba73d105c0715c6620850",
+      "sha256": "bd48c24ce4500e60d2524571756787283f0d3fbfa50b116331309c09773f0cd1"
+    },
+    "connectors/keap/autonami/merge_tags/class-bwfan-keap-contact-email.php": {
+      "md5": "1186af0b84d34e4c964c96ad83f461d0",
+      "sha256": "33e909a3866007c7ebb0f52a3714a7578dc6c61cac11c7f64765c634d906ef43"
+    },
+    "connectors/keap/autonami/merge_tags/class-bwfan-keap-contact-first-name.php": {
+      "md5": "80a66f2726ae08fb5fcf5daef19c76e2",
+      "sha256": "3f79662d094e8edeb65321b603265da7f13685e283fa3bb3bc754aef71181759"
+    },
+    "connectors/keap/autonami/merge_tags/class-bwfan-keap-contact-id.php": {
+      "md5": "a50d58d2316825f56d75d8d7251b472d",
+      "sha256": "7d5b0080ae012cdf73ac86cbe9a2257c450ee1853f5ca666cde92b9dd3783898"
+    },
+    "connectors/keap/autonami/merge_tags/class-bwfan-keap-contact-last-name.php": {
+      "md5": "a176fa15cb14c07516fd7ff014def84c",
+      "sha256": "8a050820ffe34d2952697b65a2216ec27f0a9be6bfb36d693a2bbae314afcb0b"
+    },
+    "connectors/keap/autonami/merge_tags/class-bwfan-keap-contact-phone.php": {
+      "md5": "eed88348c51c1dc71aa3d380898bd862",
+      "sha256": "a7a1be85941b786ec87cb31742140a0ee3cc81076bb021d1b3da087cae4a2871"
+    },
+    "connectors/keap/autonami/merge_tags/index.php": {
+      "md5": "67442c5615eba73d105c0715c6620850",
+      "sha256": "bd48c24ce4500e60d2524571756787283f0d3fbfa50b116331309c09773f0cd1"
+    },
+    "connectors/keap/calls/class-wfco-keap-add-tags.php": {
+      "md5": "53f174a995b7cd498296e25932b50ff9",
+      "sha256": "0d688de6247d63772f25622f9c2493e8f1dd9d763a86e79b334667b7c066058b"
+    },
+    "connectors/keap/calls/class-wfco-keap-create-contact.php": {
+      "md5": "9ca6c19a502c7ff8554cefc8897851ce",
+      "sha256": "e4bd65546244515caede6da0508954ade3025b9bcab1f1cdf56e3857d7ab4981"
+    },
+    "connectors/keap/calls/class-wfco-keap-create-tags.php": {
+      "md5": "9e173ea4c1c9795c8a57f5d78ea72ca5",
+      "sha256": "adca099bd2897bcaa8748bfee45b753791fbf30f8f39bfe9283880a5b7dd43a7"
+    },
+    "connectors/keap/calls/class-wfco-keap-get-access-token.php": {
+      "md5": "4c3430977a325dd2518b7f1c4dbeb69c",
+      "sha256": "dc267094d6d6fa8145da49267737334a79810318d0bd54a669dec51a1cfcc27d"
+    },
+    "connectors/keap/calls/class-wfco-keap-get-contact-by-id.php": {
+      "md5": "e865b13d03fd2d39e58b95c99bb13a81",
+      "sha256": "6127415971f6598eed7b930ad3fb6befedfdc1707370464dadcea190564ffd3f"
+    },
+    "connectors/keap/calls/class-wfco-keap-get-contact-fields.php": {
+      "md5": "f8677bede0d988531a31db26310d8a85",
+      "sha256": "e38f671c2df5db692a613b4c4dd326baf9a7197be0ed77dda678a7033e2bf3a6"
+    },
+    "connectors/keap/calls/class-wfco-keap-get-contact-ids-by-email.php": {
+      "md5": "299de08ad2d0dddbf6aedba0e6a9888e",
+      "sha256": "87745d12377567a345b6dd2bf7b14caebc1dae7bce50a7b36323cb31c226713c"
+    },
+    "connectors/keap/calls/class-wfco-keap-get-contact-tags.php": {
+      "md5": "56f8855bcbae686801b0ec7fc532dc1b",
+      "sha256": "26aab7b260639331f4b28eb966fb17bc18e188dbe9aabad93922d8166a3f8d83"
+    },
+    "connectors/keap/calls/class-wfco-keap-get-tags.php": {
+      "md5": "f7298dff56c8848f1768ddbbcb5eb066",
+      "sha256": "99132d4348ddd98f5c4a6f19ac8f2ce95bdd3d8bd27003472d3fe9b1b957ca28"
+    },
+    "connectors/keap/calls/class-wfco-keap-remove-tags.php": {
+      "md5": "b038a5c59a877db659a0b54f7afe03de",
+      "sha256": "71f676fe54945c6691f85feea6f1823bad127a29bd1a812c75252c23d5121719"
+    },
+    "connectors/keap/calls/class-wfco-keap-update-contact-fields.php": {
+      "md5": "c06e18d44a8624e4b7ad61dbddb59160",
+      "sha256": "2209df180a52ce2faf91374f509190d13a5c004ff21b6546ad07b6019149e3ac"
+    },
+    "connectors/keap/calls/class-wfco-keap-update-tags-by-id.php": {
+      "md5": "69f6b4775aaefbadf1dd20826576004b",
+      "sha256": "c73a685f702a1af73c75be66a4bde442c254f492e378cf51542accd3469e214b"
+    },
+    "connectors/keap/calls/index.php": {
+      "md5": "67442c5615eba73d105c0715c6620850",
+      "sha256": "bd48c24ce4500e60d2524571756787283f0d3fbfa50b116331309c09773f0cd1"
+    },
+    "connectors/keap/includes/class-wfco-keap-call.php": {
+      "md5": "c6005a9f83b5c71214b1a8710bad2523",
+      "sha256": "5f778fc0a37beb77d576343619729e1c77cdacd69b533aaf404d5f19d4dc367f"
+    },
+    "connectors/keap/includes/class-wfco-keap-common.php": {
+      "md5": "6f072a93a04d7ecf99b85965b47e3fd6",
+      "sha256": "9d79774ee4ce0dac1df6d5cd87bfcd5f7537a52e85782118cd9de5fd9d040de6"
+    },
+    "connectors/keap/includes/countries.json": {
+      "md5": "064500964524afd8c6fcf60df28fd0a5",
+      "sha256": "b2a2998ddf465a0806858188257860988814d148865b4d6ef6c2e5b220755f3d"
+    },
+    "connectors/keap/includes/index.php": {
+      "md5": "67442c5615eba73d105c0715c6620850",
+      "sha256": "bd48c24ce4500e60d2524571756787283f0d3fbfa50b116331309c09773f0cd1"
+    },
+    "connectors/keap/includes/provinces.json": {
+      "md5": "b390f1dce8c42cab37fd9a3c0d8dae2c",
+      "sha256": "4aaf6cdff33c7e0781a4059cff03a6743c8198f7a6d1307cfe865c3618692432"
+    },
+    "connectors/keap/includes/search/class-bwfan-keap-tags.php": {
+      "md5": "e4ac1952f8a3b3470facf490ddab75c7",
+      "sha256": "a162bf752960b3ee9da59fabe64d110a8efa662be21a60631333139ccc5b9939"
+    },
+    "connectors/keap/includes/search/index.php": {
+      "md5": "67442c5615eba73d105c0715c6620850",
+      "sha256": "bd48c24ce4500e60d2524571756787283f0d3fbfa50b116331309c09773f0cd1"
+    },
+    "connectors/keap/views/index.php": {
+      "md5": "67442c5615eba73d105c0715c6620850",
+      "sha256": "bd48c24ce4500e60d2524571756787283f0d3fbfa50b116331309c09773f0cd1"
+    },
+    "connectors/keap/views/logo.png": {
+      "md5": "e310423e350a6a1ac2e8462471cdb2d8",
+      "sha256": "fba4146ff17669a46a361aa62b8069bfb6dded24f8ff0a8e3371cc7b88529334"
+    },
+    "connectors/keap/views/settings.php": {
+      "md5": "9150733848bfe2681e8dbe87bd4f0739",
+      "sha256": "a2d05f943a74b544c2c67f569061b7025cf8c6d1152b5409869caae552d0f3a8"
+    },
+    "connectors/klaviyo/connector.php": {
+      "md5": "65353f9acd1a62c6f5f7c8a80c6b181e",
+      "sha256": "5cf0e4e4d4210e1d195d1451b5fc32ba575b213d195f6555e0f9f8d07c8f4f4f"
+    },
+    "connectors/klaviyo/index.php": {
+      "md5": "67442c5615eba73d105c0715c6620850",
+      "sha256": "bd48c24ce4500e60d2524571756787283f0d3fbfa50b116331309c09773f0cd1"
+    },
+    "connectors/klaviyo/autonami/class-bwfan-klaviyo-integration.php": {
+      "md5": "d62d12578987490a758e60c0974e500b",
+      "sha256": "08d743122f2ab198ed246968aaa6c9e36c45483185d70adc0b6c3a2d2e48f596"
+    },
+    "connectors/klaviyo/autonami/index.php": {
+      "md5": "67442c5615eba73d105c0715c6620850",
+      "sha256": "bd48c24ce4500e60d2524571756787283f0d3fbfa50b116331309c09773f0cd1"
+    },
+    "connectors/klaviyo/autonami/actions/class-bwfan-klaviyo-add-to-list.php": {
+      "md5": "b62e6866d71b872348e86e8982bb0b82",
+      "sha256": "c71e9ca9ab624240f8bd735dc79ab4bcc93f004785c8f3833f6c1d58fd40f5d0"
+    },
+    "connectors/klaviyo/autonami/actions/class-bwfan-klaviyo-remove-from-list.php": {
+      "md5": "f7ea8c89884b5a021cdaa383e21a1481",
+      "sha256": "dbb720c28b7bcdec6724bcf155f3a47d8e573ff2fcf6e7393d6124f1e4377043"
+    },
+    "connectors/klaviyo/autonami/actions/class-bwfan-klaviyo-update-profile-fields.php": {
+      "md5": "cdaf0ada3a929156c1ea0f4c1c9ca6fb",
+      "sha256": "1ebb5eb845cf8ce45b1f58280ffda39b8beaae9dd027eb12a149bdbbf9373f43"
+    },
+    "connectors/klaviyo/autonami/actions/class-bwfan-update-list-subscribe-status.php": {
+      "md5": "7c3182773731001d323bee234c084876",
+      "sha256": "d9e7bd32007890bb26199dc6ac903b7a1012fe192724aaf58a7a3bbfa7699b24"
+    },
+    "connectors/klaviyo/autonami/actions/index.php": {
+      "md5": "67442c5615eba73d105c0715c6620850",
+      "sha256": "bd48c24ce4500e60d2524571756787283f0d3fbfa50b116331309c09773f0cd1"
+    },
+    "connectors/klaviyo/calls/class-wfco-klaviyo-add-profile.php": {
+      "md5": "769255f4c9b9309843ef4478deb018d4",
+      "sha256": "e53daed6beb2a0b7da4591b2658ae40ef003f51a59cd4a85a64c4ca494428108"
+    },
+    "connectors/klaviyo/calls/class-wfco-klaviyo-add-to-list.php": {
+      "md5": "451b44d650838c165d0ba35c04da5d26",
+      "sha256": "0b60381cf454700b9bf3e922dfe546419fc9c6697632fd774fb62c4b919df75d"
+    },
+    "connectors/klaviyo/calls/class-wfco-klaviyo-change-profile-status.php": {
+      "md5": "8b319eae5bf17d5e0ac68e12ab6a4c9e",
+      "sha256": "53f36256dc0aa809a7342083f7f4704d6d9297cb1c4c13fe409d9a193ec3c481"
+    },
+    "connectors/klaviyo/calls/class-wfco-klaviyo-get-lists.php": {
+      "md5": "181335952df3fad6eec1854ab413fedc",
+      "sha256": "a7a906c9d259059fbbb0b0af16c50042ebf27c46de3f833b47e459bb2da773ff"
+    },
+    "connectors/klaviyo/calls/class-wfco-klaviyo-get-profile.php": {
+      "md5": "0680911e08c229def5132e4a2608e6f2",
+      "sha256": "976c335d645cb138d7068c335455bf1258db7f4b5deb91df896465328837c2af"
+    },
+    "connectors/klaviyo/calls/class-wfco-klaviyo-remove-from-list.php": {
+      "md5": "c4265b877fc33d57f5c95d61d298960a",
+      "sha256": "4a6b723d4548573fcd2c3c926828ff2796d0d6b49b0077c51663c96ff63c329b"
+    },
+    "connectors/klaviyo/calls/class-wfco-klaviyo-update-list-subscribe-status.php": {
+      "md5": "35e39b71d556143143e3e3ac2dee7efc",
+      "sha256": "00240a8d75a80681c909a137417acd858223a4f3ab8e8c05211b62b2ad9825ff"
+    },
+    "connectors/klaviyo/calls/class-wfco-klaviyo-update-profile-fields.php": {
+      "md5": "dcdd3718532ab976c9058bcf0cb029d2",
+      "sha256": "e96f1cff32cbf40d9a4f7ac7f2363c97bcfd96f8a3e97bab95ae9bb0ed00aab4"
+    },
+    "connectors/klaviyo/calls/index.php": {
+      "md5": "67442c5615eba73d105c0715c6620850",
+      "sha256": "bd48c24ce4500e60d2524571756787283f0d3fbfa50b116331309c09773f0cd1"
+    },
+    "connectors/klaviyo/includes/class-wfco-klaviyo-call.php": {
+      "md5": "a95e1233d4f734085933082ebaceabe2",
+      "sha256": "216a81014f0c09ebf77cdbddef3edeafebe9d1bc313ebddbda887c8ee0803856"
+    },
+    "connectors/klaviyo/views/index.php": {
+      "md5": "67442c5615eba73d105c0715c6620850",
+      "sha256": "bd48c24ce4500e60d2524571756787283f0d3fbfa50b116331309c09773f0cd1"
+    },
+    "connectors/klaviyo/views/logo.png": {
+      "md5": "50dceed698a201f5f75adc44f255a510",
+      "sha256": "ce7b2c35cbf49e5e12784c86e81baac839aee21dd3ec9af110f00ec55a468d5a"
+    },
+    "connectors/klaviyo/views/settings.php": {
+      "md5": "f1b862fa024a570bccdb33ef5f0bfa60",
+      "sha256": "01bb7ac16c12805061c1a139b4dfd33b2d70be3761c91af7e51ab8143ccace29"
+    },
+    "connectors/mailchimp/connector.php": {
+      "md5": "d3cef2e2c22f5bc3d0c2f96569c4ee92",
+      "sha256": "e6c497eb6882bfc289f41f265d05505cc6cce8558f3374dbab58dbadea55febe"
+    },
+    "connectors/mailchimp/index.php": {
+      "md5": "67442c5615eba73d105c0715c6620850",
+      "sha256": "bd48c24ce4500e60d2524571756787283f0d3fbfa50b116331309c09773f0cd1"
+    },
+    "connectors/mailchimp/autonami/class-bwfan-mailchimp-integration.php": {
+      "md5": "0b03937a8bc766e1c7fcf49a734fb255",
+      "sha256": "50598463e7a5c7bedaf7c649fb0c25fb81ff8388984977cd3b54590ba794d163"
+    },
+    "connectors/mailchimp/autonami/class-bwfan-mailchimp-source.php": {
+      "md5": "3286e978543627e2300b3ec3614792c6",
+      "sha256": "4fa94a669092597df9ed8e1d9174b171798dc74b685ff3ac8a327d719829816d"
+    },
+    "connectors/mailchimp/autonami/index.php": {
+      "md5": "67442c5615eba73d105c0715c6620850",
+      "sha256": "bd48c24ce4500e60d2524571756787283f0d3fbfa50b116331309c09773f0cd1"
+    },
+    "connectors/mailchimp/autonami/actions/class-bwfan-mailchimp-add-tags.php": {
+      "md5": "88f7db7ab601d42b7382e4cf6732a937",
+      "sha256": "6b0404de9a54a20941eb3eae01ff6e87580f091042c1ba3ebda6702ad30812bd"
+    },
+    "connectors/mailchimp/autonami/actions/class-bwfan-mailchimp-add-to-automation.php": {
+      "md5": "3a77a3f433df6f643c7bfd70ae52195f",
+      "sha256": "f845287c600f1db83e3c9f609729d104f1665e42b428be95232eb7785bd2a44f"
+    },
+    "connectors/mailchimp/autonami/actions/class-bwfan-mailchimp-add-to-list.php": {
+      "md5": "ac070dd55c565ede77a11a4566b4f822",
+      "sha256": "8939bb5b8187f6cf357eade848e94bd4c52f505b189ac68a67ec4bcdf536176e"
+    },
+    "connectors/mailchimp/autonami/actions/class-bwfan-mailchimp-remove-from-automation.php": {
+      "md5": "674d7d5c6b7ff21785b4436a4c380da6",
+      "sha256": "11679aeeb6d2a66af0f50fdd82b928b8d081af1f810d75ae5b9398b15c8fdb64"
+    },
+    "connectors/mailchimp/autonami/actions/class-bwfan-mailchimp-remove-from-list.php": {
+      "md5": "3aa006a50c4c35c6c2aef9bbb1f3a8c8",
+      "sha256": "8d5f98768c6c7efc66b1c3b8eaf7153bd47e489f0df2b5f8d6109db8b1612f7a"
+    },
+    "connectors/mailchimp/autonami/actions/class-bwfan-mailchimp-remove-tags.php": {
+      "md5": "09a0534ecbdf462cba33467a3ced0e57",
+      "sha256": "8cc0a5fae825c62e4a06995d8bf4ae78a2db5a9194c10871abf796862db6d131"
+    },
+    "connectors/mailchimp/autonami/actions/class-bwfan-mailchimp-update-contact-status.php": {
+      "md5": "bcf1388174d4427031eb19b361252a62",
+      "sha256": "965a6cc4f08ef142ed93fa6776c169b03ab20240c8baa520d7dccf36e2b26b5b"
+    },
+    "connectors/mailchimp/autonami/actions/class-bwfan-mailchimp-update-custom-fields.php": {
+      "md5": "c6452281ed3147fedb99a2b5d80f2c63",
+      "sha256": "879f0662abd3d35a4a17dcb108f4d2e90c3da1a4ac1ee8125ec5a0bcbee16a42"
+    },
+    "connectors/mailchimp/autonami/actions/index.php": {
+      "md5": "67442c5615eba73d105c0715c6620850",
+      "sha256": "bd48c24ce4500e60d2524571756787283f0d3fbfa50b116331309c09773f0cd1"
+    },
+    "connectors/mailchimp/autonami/events/class-bwfan-mailchimp-message-received.php": {
+      "md5": "3a810ca32f2ae8bef1d360f00f4669b7",
+      "sha256": "8b8e659301a900e74d07f8ccfa8d5b3035e62baec961f53f35458fec55ee28e9"
+    },
+    "connectors/mailchimp/autonami/events/index.php": {
+      "md5": "67442c5615eba73d105c0715c6620850",
+      "sha256": "bd48c24ce4500e60d2524571756787283f0d3fbfa50b116331309c09773f0cd1"
+    },
+    "connectors/mailchimp/autonami/merge_tags/class-bwfan-mailchimp-contact-email.php": {
+      "md5": "18692983b1073031a15bd83eb0b47380",
+      "sha256": "b54c38fc763dab5c5ab48285aa10c56588fbe9fd4b4b1562a088ccf2f7d50f49"
+    },
+    "connectors/mailchimp/autonami/merge_tags/class-bwfan-mailchimp-contact-first-name.php": {
+      "md5": "3963a3ce5d2c16a47c48f52eeca1aa4f",
+      "sha256": "fd833ec2a59ddeb0e83f66b1e3143172e46872f67917e335b302a6ee02a71876"
+    },
+    "connectors/mailchimp/autonami/merge_tags/class-bwfan-mailchimp-contact-last-name.php": {
+      "md5": "da1affc5b410af6fe230ee054fa84c0d",
+      "sha256": "418ce39c71c3fd90e145577bb335db40e018152ec174bf79837a35378dfaf6c7"
+    },
+    "connectors/mailchimp/autonami/merge_tags/class-bwfan-mailchimp-contact-phone.php": {
+      "md5": "47a04f00525f0bbad715bc9c5eb7ca3b",
+      "sha256": "57bfd7c6dd73cd8278b54655bb0a454d722f009a46a37652809c7b733183aa99"
+    },
+    "connectors/mailchimp/autonami/merge_tags/index.php": {
+      "md5": "67442c5615eba73d105c0715c6620850",
+      "sha256": "bd48c24ce4500e60d2524571756787283f0d3fbfa50b116331309c09773f0cd1"
+    },
+    "connectors/mailchimp/calls/class-wfco-mailchimp-add-tags.php": {
+      "md5": "b51da5c72bf371d68551a872a9362144",
+      "sha256": "f54496566224a7a2197468651473973232f8118c81f9b09291c17544bbbe488f"
+    },
+    "connectors/mailchimp/calls/class-wfco-mailchimp-add-to-automation.php": {
+      "md5": "4ced56524ac0dec7b888284c339b0790",
+      "sha256": "87da65065cfec9c3561084e61985efd086a5575927f55872ea3d72626d231396"
+    },
+    "connectors/mailchimp/calls/class-wfco-mailchimp-add-to-list.php": {
+      "md5": "4ecfc1d9f5092e550aeed6cccd4f3999",
+      "sha256": "37753659251930f234817d56646e0986c69192dea8400596842e1b4771fde92b"
+    },
+    "connectors/mailchimp/calls/class-wfco-mailchimp-get-automations-emails.php": {
+      "md5": "dd7c886d2466aa14aa2315f1b4c26218",
+      "sha256": "01975cbccc2f51850f6d4e7a3e42b7d287213f73d00c9f94756c5bf78e82ded0"
+    },
+    "connectors/mailchimp/calls/class-wfco-mailchimp-get-automations.php": {
+      "md5": "b8308200827a1a2d72b8340bd170b347",
+      "sha256": "17555b4cd1880de03300d8fb23505b1c5eda3a4d0d5c75c924a006bf0503d1a9"
+    },
+    "connectors/mailchimp/calls/class-wfco-mailchimp-get-contact-by-email.php": {
+      "md5": "3700ff2515d86e5c86bd926b7d6f2247",
+      "sha256": "ad20d1379e02b58900514b3ce178ebc342b60a324b9c3413a0f44dd6b266d98f"
+    },
+    "connectors/mailchimp/calls/class-wfco-mailchimp-get-custom-fields.php": {
+      "md5": "5f0e9940c45ee76c9fc7332d9ad385a7",
+      "sha256": "9db0b9069e6c803df6bcc37156753818836a4fc06fcb34fe940be51f2713e988"
+    },
+    "connectors/mailchimp/calls/class-wfco-mailchimp-get-interest-cats.php": {
+      "md5": "e5920732dbe6e5ac5f76d66716791bdf",
+      "sha256": "c9845d6cde5de1ff851a9734ab9976b9d9ee44f85da910500bd72579441434a2"
+    },
+    "connectors/mailchimp/calls/class-wfco-mailchimp-get-lists.php": {
+      "md5": "8d4d76c410b5ef389ba4dcc0724c0f2e",
+      "sha256": "ff2f635897c50a26dd8daf209b300078f7638fce310d59e46389a7fbd582508d"
+    },
+    "connectors/mailchimp/calls/class-wfco-mailchimp-get-tags.php": {
+      "md5": "569b70b9a8364af9bbd5bdd2865d637e",
+      "sha256": "5ceacafe725da136c613dd8448e1d29926d46c5cc15d6379622ccd5d0ad72af2"
+    },
+    "connectors/mailchimp/calls/class-wfco-mailchimp-remove-from-automation.php": {
+      "md5": "e0a0af7871fcce423ece07f645ad7533",
+      "sha256": "698d5229c74e294e70da8b252966bb23f1aee44b7aa6d8bbe1ca84e9696e9a12"
+    },
+    "connectors/mailchimp/calls/class-wfco-mailchimp-remove-from-list.php": {
+      "md5": "1ce012bf2e8cf3e9fdc749166f7fe13a",
+      "sha256": "d5baa92f6edb733d16a71f707de45f4ec5c3aca02fa12798629a23b7596f61a3"
+    },
+    "connectors/mailchimp/calls/class-wfco-mailchimp-remove-tags.php": {
+      "md5": "e8dc6d42f50da58a4b11e01ffc82f358",
+      "sha256": "fb2518d3b0d77a90a2fa1de0efc8dc9c48d6c9928d7fb0f2ded43b62e0af7fe8"
+    },
+    "connectors/mailchimp/calls/class-wfco-mailchimp-update-contact-status.php": {
+      "md5": "95c9194e447951b5c3bc20eb32a55c11",
+      "sha256": "70a931a4c3b05917208092a3c7e1f66c3770b3832f03a733c17ca785a33d1ec1"
+    },
+    "connectors/mailchimp/calls/class-wfco-mailchimp-update-custom-fields.php": {
+      "md5": "5aa81f7383dfa3e8c8f6abd8a4404d06",
+      "sha256": "8f26a67464de334bcb136fcbb89e77be63f5d53a8aaae96c30a85a0be773c3d5"
+    },
+    "connectors/mailchimp/calls/class-wfco-mailchimp-upsert-contact.php": {
+      "md5": "0526ba9d033c6a3e652eb6e5beb81053",
+      "sha256": "425eb132cb6ba97359d2f5e6889f5cda4a9d4e6b74733caab5afa2eea4b0d3dc"
+    },
+    "connectors/mailchimp/calls/index.php": {
+      "md5": "67442c5615eba73d105c0715c6620850",
+      "sha256": "bd48c24ce4500e60d2524571756787283f0d3fbfa50b116331309c09773f0cd1"
+    },
+    "connectors/mailchimp/includes/class-bwfan-mailchimp-webook-setup.php": {
+      "md5": "5f3e062ee0b00e2313aaf7f9a1a41b48",
+      "sha256": "046fb7107bd86003dbf22e604814dfb8baa9cc5afd1ccdc31790bf22cfd9b7ce"
+    },
+    "connectors/mailchimp/includes/class-wfco-mailchimp-common.php": {
+      "md5": "7998fcdfdd2ef304aeeab12e2b2ac8e2",
+      "sha256": "3ce9a9d9b80a05373eb972e2ab24208b9ceca88a7c2c6471a0046fd03f8a4514"
+    },
+    "connectors/mailchimp/includes/index.php": {
+      "md5": "67442c5615eba73d105c0715c6620850",
+      "sha256": "bd48c24ce4500e60d2524571756787283f0d3fbfa50b116331309c09773f0cd1"
+    },
+    "connectors/mailchimp/includes/search/class-bwfan-mailchimp-tags.php": {
+      "md5": "ca831c081eabc0d0a4290f55082892ef",
+      "sha256": "17b55555c9784ea4d8f0e45d74aae5eda5992cc0505ef41874d90e1ce8c2a552"
+    },
+    "connectors/mailchimp/includes/search/index.php": {
+      "md5": "67442c5615eba73d105c0715c6620850",
+      "sha256": "bd48c24ce4500e60d2524571756787283f0d3fbfa50b116331309c09773f0cd1"
+    },
+    "connectors/mailchimp/views/index.php": {
+      "md5": "67442c5615eba73d105c0715c6620850",
+      "sha256": "bd48c24ce4500e60d2524571756787283f0d3fbfa50b116331309c09773f0cd1"
+    },
+    "connectors/mailchimp/views/logo.png": {
+      "md5": "11b827a6b84d2905776d2e70ace5deb0",
+      "sha256": "fa0b4d7ac5a2083343b7c5bf2de28dafbe425da98531b1b7d8d5419cbd1ef9a2"
+    },
+    "connectors/mailchimp/views/settings.php": {
+      "md5": "0b0c30e9222f97205e143deb2424171a",
+      "sha256": "41ec233988ba05de7a8eb525ad874206306332910544999eea1dbc66ea7c541e"
+    },
+    "connectors/mailerlite/connector.php": {
+      "md5": "acdb4d98784358edfe29469a9dbbabbb",
+      "sha256": "690699397ab04d09844501a4f8147dc87cc00dc722b7ff8700cb0c22f4b106a6"
+    },
+    "connectors/mailerlite/index.php": {
+      "md5": "d41d8cd98f00b204e9800998ecf8427e",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "connectors/mailerlite/autonami/class-bwfan-mailerlite-integration.php": {
+      "md5": "2b0d7539840c3fae0882a74d89ae0f9b",
+      "sha256": "e7877bf95dc64afbfcbc9375b24d7da9a5089c95937b8060c788ca1cc3b78fb7"
+    },
+    "connectors/mailerlite/autonami/index.php": {
+      "md5": "d41d8cd98f00b204e9800998ecf8427e",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "connectors/mailerlite/autonami/actions/class-bwfan-mailerlite-add-subscriber-to-group.php": {
+      "md5": "469c6ad910b0a479514e4608dd44478b",
+      "sha256": "ee1c06859c5e85e56837e2f2b73bddd6039f7f327520750ec9e7eceab87bd6b4"
+    },
+    "connectors/mailerlite/autonami/actions/class-bwfan-mailerlite-create-subscriber.php": {
+      "md5": "6a0a03924d52a74d9c8cca765414e892",
+      "sha256": "80eda5ce22b3acddbb8366cca3a34881a4f8e65864989039eb772f29bd203ff6"
+    },
+    "connectors/mailerlite/autonami/actions/class-bwfan-mailerlite-remove-subscriber-from-group.php": {
+      "md5": "148932b4b53e0be8ee3b109d7a3ae890",
+      "sha256": "cd4912b2a985ab18077b8806b85d97b3a0d4b8a49ca92a619968a60238ecf388"
+    },
+    "connectors/mailerlite/autonami/actions/class-bwfan-mailerlite-update-subscriber.php": {
+      "md5": "b713ae5e8088d86aa99da139cf898abb",
+      "sha256": "5a381ae1ac1b6c7a90fdc8f93f5d6fcee0b3d7463e05304cf7f3b8c06ed843a2"
+    },
+    "connectors/mailerlite/autonami/actions/index.php": {
+      "md5": "d41d8cd98f00b204e9800998ecf8427e",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "connectors/mailerlite/calls/class-wfco-mailerlite-add-group.php": {
+      "md5": "49e82475466a43e740cdf15a0521353d",
+      "sha256": "5ad272518d40ce8760b5ef07e256af1e22298f852892d044c57840611f3726bf"
+    },
+    "connectors/mailerlite/calls/class-wfco-mailerlite-add-subscriber-to-group.php": {
+      "md5": "dd3e959bbe88e1ed449a5a6e062ef502",
+      "sha256": "aa4e06a97fc8243c050f8423e1b8f75249b5ee62c484b0803890efc1b706e74f"
+    },
+    "connectors/mailerlite/calls/class-wfco-mailerlite-create-subscriber.php": {
+      "md5": "f80221f724451f7cc83f21560ea9b381",
+      "sha256": "5da2ec5bf5ec717cfc96b7a4aebebb99feedca53dea3904eb832092a4226cef3"
+    },
+    "connectors/mailerlite/calls/class-wfco-mailerlite-get-group-list.php": {
+      "md5": "5c6a1ff5b4061e0ac8ab8ac3caa37602",
+      "sha256": "3a154e9ccff4f0316d82beb655d8d6c755b5ee4abc0f4ffaad6ac9bbbe357339"
+    },
+    "connectors/mailerlite/calls/class-wfco-mailerlite-get-subscriber-fields.php": {
+      "md5": "bfab4c07c934c828e2f6d3a23d0d3de7",
+      "sha256": "0862bb785e3d3e8c392bf54eb2bab3323727d21b4c4376fd79dbf39c5c40bc3a"
+    },
+    "connectors/mailerlite/calls/class-wfco-mailerlite-get-subscriber.php": {
+      "md5": "2426ff384196853195a721470f7bc635",
+      "sha256": "9734cfdba8729ed2af6af274d34fdb5e61c070127866d0433b71794937b14cf9"
+    },
+    "connectors/mailerlite/calls/class-wfco-mailerlite-remove-subscriber-from-group.php": {
+      "md5": "0e62d9dec9589a9960dca42ea14c5207",
+      "sha256": "f6507a217b2f85b74df08a3c38c0527644da9be4b8149b5b67ef3bc30c4863d0"
+    },
+    "connectors/mailerlite/calls/class-wfco-mailerlite-update-suscriber.php": {
+      "md5": "843a72bc3ce9988b46c7da0ac9717857",
+      "sha256": "091e10015ef5c67b1fc5778802458710f0384b26921ad7fb5e18a58bcd6c5982"
+    },
+    "connectors/mailerlite/calls/index.php": {
+      "md5": "d41d8cd98f00b204e9800998ecf8427e",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "connectors/mailerlite/includes/class-wfco-mailerlite-call.php": {
+      "md5": "fe47c46c59a61e0fb0018d0f4b095c78",
+      "sha256": "63ad34776989704f66b1fc716c080f6756592c518e9af194ee4ad025cfb4454e"
+    },
+    "connectors/mailerlite/includes/index.php": {
+      "md5": "67442c5615eba73d105c0715c6620850",
+      "sha256": "bd48c24ce4500e60d2524571756787283f0d3fbfa50b116331309c09773f0cd1"
+    },
+    "connectors/mailerlite/includes/search/class-bwfan-mailerlite-groups.php": {
+      "md5": "283e36ceb93c65486770cf1ade4926e2",
+      "sha256": "7d3c6c3834e2925f16b147d13b3ee0f0c9bf964191eb55f711c06ef2f370f654"
+    },
+    "connectors/mailerlite/includes/search/index.php": {
+      "md5": "67442c5615eba73d105c0715c6620850",
+      "sha256": "bd48c24ce4500e60d2524571756787283f0d3fbfa50b116331309c09773f0cd1"
+    },
+    "connectors/mailerlite/views/index.php": {
+      "md5": "67442c5615eba73d105c0715c6620850",
+      "sha256": "bd48c24ce4500e60d2524571756787283f0d3fbfa50b116331309c09773f0cd1"
+    },
+    "connectors/mailerlite/views/logo.png": {
+      "md5": "ef04d93e80e8558f6e66b22452173e9a",
+      "sha256": "4ad68c8d960399f28d25f4f0a461cb4702cf191d977b598a0e7aa1c07a62c000"
+    },
+    "connectors/mailerlite/views/settings.php": {
+      "md5": "be850de26a02efe822587fdcf7a48ca1",
+      "sha256": "a2fc22d1493aa02403edac0ec068ab44a4bd37857e19deaa39e884eac49a836e"
+    },
+    "connectors/mautic/connector.php": {
+      "md5": "401fb8f6f13962a92f7d22d21bdba7ad",
+      "sha256": "f0374fd7f6c43f2d2a2d1f20ee8f9f79407f374f894201bcfb8214c909eae558"
+    },
+    "connectors/mautic/index.php": {
+      "md5": "67442c5615eba73d105c0715c6620850",
+      "sha256": "bd48c24ce4500e60d2524571756787283f0d3fbfa50b116331309c09773f0cd1"
+    },
+    "connectors/mautic/autonami/class-bwfan-mautic-integration.php": {
+      "md5": "b67b8a08b93aa2b154019781dfdc5c71",
+      "sha256": "8235b4cca5cb5b993f6be56f7449692d26a9ea074c06ceb0054e96ccac07b3ad"
+    },
+    "connectors/mautic/autonami/class-bwfan-mautic-source.php": {
+      "md5": "9b12ebdc040b1b1d3d1f912786a967e7",
+      "sha256": "2aaa139a6c56a5bc09b3aa35e6b474f078801c2b5ce94f36e05ff8dbaf92d0c7"
+    },
+    "connectors/mautic/autonami/index.php": {
+      "md5": "67442c5615eba73d105c0715c6620850",
+      "sha256": "bd48c24ce4500e60d2524571756787283f0d3fbfa50b116331309c09773f0cd1"
+    },
+    "connectors/mautic/autonami/actions/class-bwfan-mautic-add-note.php": {
+      "md5": "d00b5abc39caa94c66f39cc7cb8e2f7c",
+      "sha256": "7b9b22d4efa160415f0fffd18f26fac1217170abfff2f9686da725ebd0b74858"
+    },
+    "connectors/mautic/autonami/actions/class-bwfan-mautic-add-points.php": {
+      "md5": "863250ab0e415f700443aa2c23816aa3",
+      "sha256": "e64dbc330408e50c74e436c5e72a195a0c1d3bd0b62d2afbe760dce4406d18e7"
+    },
+    "connectors/mautic/autonami/actions/class-bwfan-mautic-add-tags.php": {
+      "md5": "5a6375b4e643251e80f4b47cc66e5478",
+      "sha256": "7acea29972a0f99333c96e70cecb8b66d567c6508636979fd438a3083acb8a28"
+    },
+    "connectors/mautic/autonami/actions/class-bwfan-mautic-add-to-campaign.php": {
+      "md5": "a1de2cf894da5088cde59f3d25c8f33f",
+      "sha256": "6128fc61dfbcf478f4e47bccfe8e3b3f60609784dac21c0a7428e4dddead8143"
+    },
+    "connectors/mautic/autonami/actions/class-bwfan-mautic-add-to-segment.php": {
+      "md5": "3915581f59fb88250b835de2f106692c",
+      "sha256": "da8293e67025f2013237e6082d0d7df2dca04f4faa60c353e08bf143b74752ea"
+    },
+    "connectors/mautic/autonami/actions/class-bwfan-mautic-create-contact.php": {
+      "md5": "289bae9ed4500314104436c5b59ef540",
+      "sha256": "ea6f8e43e38de92b529c544a3d83e294cf75c32a45e00add624bd40ad1cfdf46"
+    },
+    "connectors/mautic/autonami/actions/class-bwfan-mautic-rmv-from-campaign.php": {
+      "md5": "e63da0ffce1a2dadb9fa120887f5806c",
+      "sha256": "ce8054a692a5845f7e6d993adcbf69096eccb4d2703b2f5f8fe36d656cd23f3c"
+    },
+    "connectors/mautic/autonami/actions/class-bwfan-mautic-rmv-from-segment.php": {
+      "md5": "ced9233a5c124bc74234cf5c82aef69f",
+      "sha256": "5198c5cf9b09cf44f72429eb550ce4afa9c8547d63c3be6b85c110be52525f76"
+    },
+    "connectors/mautic/autonami/actions/class-bwfan-mautic-rmv-tags.php": {
+      "md5": "26e8b96e4a4506e140c71c03ffbfb590",
+      "sha256": "c369f3d5c6dea4d2483b5ea09011096a27a7e1024189d2cad49e2a56695fc991"
+    },
+    "connectors/mautic/autonami/actions/class-bwfan-mautic-sub-points.php": {
+      "md5": "ec138b3d4fcccfc5edd83599d923815f",
+      "sha256": "356985f97357f5d8af9872f47ceec06d2360a1c3f20e0e44d1718d2745d5f4c9"
+    },
+    "connectors/mautic/autonami/actions/class-bwfan-mautic-update-contact-fields.php": {
+      "md5": "21a7b1f2251b37bf39cdae29f5aa8d0c",
+      "sha256": "e29f7313c04c8e3c1d1f86d5bef82339873d4c895d4ec12824d5358e82a42971"
+    },
+    "connectors/mautic/autonami/actions/index.php": {
+      "md5": "67442c5615eba73d105c0715c6620850",
+      "sha256": "bd48c24ce4500e60d2524571756787283f0d3fbfa50b116331309c09773f0cd1"
+    },
+    "connectors/mautic/autonami/events/class-bwfan-mautic-webhook-received.php": {
+      "md5": "9b128fd75584a56902a89ab3119fcf61",
+      "sha256": "b484d44db8a9eac940a57d54415a2712fea51881c34b804c1b225d417b507c97"
+    },
+    "connectors/mautic/autonami/events/index.php": {
+      "md5": "67442c5615eba73d105c0715c6620850",
+      "sha256": "bd48c24ce4500e60d2524571756787283f0d3fbfa50b116331309c09773f0cd1"
+    },
+    "connectors/mautic/autonami/merge_tags/class-bwfan-mautic-contact-email.php": {
+      "md5": "b2bbb71508775d8b7dc4928adbe31e82",
+      "sha256": "322686b55ff4ceb5d1d24505e98eb48bbf2f7139df4b5d79faefefa264fef367"
+    },
+    "connectors/mautic/autonami/merge_tags/class-bwfan-mautic-contact-first-name.php": {
+      "md5": "f0295c383f868f32877026b0fdf3554d",
+      "sha256": "98124d16af943c95e22f7f5dac0e4d79f5e1abf13e193fcfc8fde0a2fd93834e"
+    },
+    "connectors/mautic/autonami/merge_tags/class-bwfan-mautic-contact-id.php": {
+      "md5": "ab92d8c2951bd24717512edb9fe68a9a",
+      "sha256": "5c447d7eb109d904c358fe587fa5f361f4a41c399b74b8a403dad8dd38e89de0"
+    },
+    "connectors/mautic/autonami/merge_tags/class-bwfan-mautic-contact-last-name.php": {
+      "md5": "2f0c30d80854e8d16bddc70d5173d822",
+      "sha256": "b770a91eef5f164e253d29c04a9a482985252e13ca5692e6befe80fc8426cdd2"
+    },
+    "connectors/mautic/autonami/merge_tags/class-bwfan-mautic-contact-phone.php": {
+      "md5": "d6e18269bdafc3031c2137d9064fc634",
+      "sha256": "b660cbdcd1295b7ab77699430d619d1fcf640e4699085248763c12706b5ed73b"
+    },
+    "connectors/mautic/autonami/merge_tags/index.php": {
+      "md5": "67442c5615eba73d105c0715c6620850",
+      "sha256": "bd48c24ce4500e60d2524571756787283f0d3fbfa50b116331309c09773f0cd1"
+    },
+    "connectors/mautic/calls/class-wfco-mautic-add-note.php": {
+      "md5": "40fd33cda7f19a6162fbec8fe6b3bef0",
+      "sha256": "f2c1f801cbcbcfb2640aab4571145cb55bcf450e4422791317f84f93a76c8e59"
+    },
+    "connectors/mautic/calls/class-wfco-mautic-add-points.php": {
+      "md5": "e4cafac25205cd3a745c819f6c932670",
+      "sha256": "d01c6b9911f44e448a5b7e8fda54030b549570bc9557723ddceff7349f0cccad"
+    },
+    "connectors/mautic/calls/class-wfco-mautic-add-tags.php": {
+      "md5": "33295659884f1c596df8dbe61afca518",
+      "sha256": "d72f4a62904595e56e831d8cc16b9fea650523b085fdbb9c5fbb8bfbd67ff443"
+    },
+    "connectors/mautic/calls/class-wfco-mautic-add-to-campaign.php": {
+      "md5": "c2cd80a04ef75a3f14ee7e6785b91c9e",
+      "sha256": "d6ab8c86e613a239a1288cb0cb41883051595295489b93c54517bab462c5c791"
+    },
+    "connectors/mautic/calls/class-wfco-mautic-add-to-segment.php": {
+      "md5": "95d5098e226c7fe583e08af7241d6de7",
+      "sha256": "2aac62156657594814d4bc0d5b2dad42a77a8f871b31204016e60073fc039e52"
+    },
+    "connectors/mautic/calls/class-wfco-mautic-create-contact.php": {
+      "md5": "16bcbae3560634b3a1269784cee8319d",
+      "sha256": "962e06062670b3fc733b9441b28a53659add6775224696d0e868f7a834e5b5c6"
+    },
+    "connectors/mautic/calls/class-wfco-mautic-create-segment.php": {
+      "md5": "05e3853fd5f8859a228f8d8932bbd19c",
+      "sha256": "996bd67e6e432870db953d2184db0a6d86f0ce88c5287105367d0a15f5d26c79"
+    },
+    "connectors/mautic/calls/class-wfco-mautic-get-access-token.php": {
+      "md5": "22ed63be319de2996b01de954fa718af",
+      "sha256": "9e8d46e7a536f80ba8ddeb3c762cf25398218e1170a97f8b6987d0a9bcb65257"
+    },
+    "connectors/mautic/calls/class-wfco-mautic-get-campaigns.php": {
+      "md5": "20aed37595236111ed205d0c40520346",
+      "sha256": "12e506e92ee7e410b4e955cbdcc52c835c677a4c9a6bd674c2e9244bce07de05"
+    },
+    "connectors/mautic/calls/class-wfco-mautic-get-contact-by-id.php": {
+      "md5": "426f93b0e45cb5bae026f83edbcccd10",
+      "sha256": "ecbe499f80d5de6edc3a5d930f1b3591fb9081d9ebe01977562f090929b731a0"
+    },
+    "connectors/mautic/calls/class-wfco-mautic-get-contact-campaigns.php": {
+      "md5": "9273bda13e9c482883a919d594fa4ab0",
+      "sha256": "fdf98ad36221a12bfdccfd00f007383f74d141499602ae751582166bc40f6aa2"
+    },
+    "connectors/mautic/calls/class-wfco-mautic-get-contact-fields.php": {
+      "md5": "7a14ba19e05d4fbe9983122f22a6af83",
+      "sha256": "1223223ab8bed22d6c8d1607c43dced87a148617f2ea2c17bc6505cffa9d9697"
+    },
+    "connectors/mautic/calls/class-wfco-mautic-get-contact-id-by-email.php": {
+      "md5": "6c3c22fec6c104e5f519e91bb1f77d48",
+      "sha256": "ecf1908b4ed82cfb5002e614a0336d1dd51a12f1d37fcf15f5844e117d6e6a20"
+    },
+    "connectors/mautic/calls/class-wfco-mautic-get-contact-segments.php": {
+      "md5": "b318184fd55e9203c69cee8c50fd6b75",
+      "sha256": "ae13d31dad9d3ca256e367f83d433057c8cd26f2992e726a1ba2d94f63bd4df1"
+    },
+    "connectors/mautic/calls/class-wfco-mautic-get-contact-tags.php": {
+      "md5": "abf3dde94b461005c2ea0dfa6185a790",
+      "sha256": "362c1caeb1cc91c7aa636cf9cf7bacbe315990a405ecf755ad138cbabe5adc7c"
+    },
+    "connectors/mautic/calls/class-wfco-mautic-get-segments.php": {
+      "md5": "b083c22ebcbd2da931d4551cafb0e63b",
+      "sha256": "ac4c1ea2ca2954a9c67b882c0d4edf9e9a13820d672d2e44457ec8776f768c14"
+    },
+    "connectors/mautic/calls/class-wfco-mautic-get-tags.php": {
+      "md5": "ee783e9dbeeffeff07ff8dd48ddeef68",
+      "sha256": "6f94844312a708453c85752c4da0c0c7d4d6625368d9339848d6a6b74cde1ed2"
+    },
+    "connectors/mautic/calls/class-wfco-mautic-rmv-from-campaign.php": {
+      "md5": "c89b0d2e8cf45dadf1a024a54c238970",
+      "sha256": "483f449aa817691b525320cb3b33eefaa906a4d9b45f838dea56963e8907ba91"
+    },
+    "connectors/mautic/calls/class-wfco-mautic-rmv-from-segment.php": {
+      "md5": "b6c2b00bd4d8a7c07b6c9ffbd156f5f0",
+      "sha256": "e6ec808c5907b3ec35ac17a057784ddca4ebc6ae520e63df5ee02b49a83b8793"
+    },
+    "connectors/mautic/calls/class-wfco-mautic-rmv-tags.php": {
+      "md5": "f60937ee136a661b5f37ab33a4476c0c",
+      "sha256": "e4a51076e60e59b4c33a516c20a5357f58c0db76e87b2bf62e937a3c8b052a67"
+    },
+    "connectors/mautic/calls/class-wfco-mautic-sub-points.php": {
+      "md5": "f24f5abb1c8e067eddcb2aa118087be8",
+      "sha256": "d9236192d5dc448da8d0ab97b55520bd62cff68add6d98cedad38c861acafadc"
+    },
+    "connectors/mautic/calls/class-wfco-mautic-update-contact-fields.php": {
+      "md5": "e3af1fa093f54dcefe9b14c2095c56ce",
+      "sha256": "6df3103c0a1cc609b8cf8ec2422068e97b841418da82c471a58d56048195ad3a"
+    },
+    "connectors/mautic/calls/index.php": {
+      "md5": "67442c5615eba73d105c0715c6620850",
+      "sha256": "bd48c24ce4500e60d2524571756787283f0d3fbfa50b116331309c09773f0cd1"
+    },
+    "connectors/mautic/includes/class-wfco-mautic-call.php": {
+      "md5": "d8602591e6c917992dae8c346785ba7b",
+      "sha256": "476dd1f5d1bd61b57702b72c778bdefa8f081d7a51a17ac3fb3cfd4bf7f4f9ce"
+    },
+    "connectors/mautic/includes/class-wfco-mautic-common.php": {
+      "md5": "544ff07b48b665a985e130cb618d62cb",
+      "sha256": "ba26993376d88289e1e74c63dadc3a56139564221163a52a3cbb6b82a1f30108"
+    },
+    "connectors/mautic/includes/class-wfco-mautic-countries.php": {
+      "md5": "ed76edc75feae70ed0ec5d39880b933b",
+      "sha256": "ee68568d085691fffbd75dffe2c2c4e898f046485d15f7d9129b6760a42fa0b1"
+    },
+    "connectors/mautic/includes/index.php": {
+      "md5": "67442c5615eba73d105c0715c6620850",
+      "sha256": "bd48c24ce4500e60d2524571756787283f0d3fbfa50b116331309c09773f0cd1"
+    },
+    "connectors/mautic/includes/search/class-bwfan-mautic-tags.php": {
+      "md5": "153fd6c270fa120033068b3fecdfbcbe",
+      "sha256": "4dce6bf3ef035fe3ecbadff085d1b30678311a25c3f2f7605c9b07696ccecffc"
+    },
+    "connectors/mautic/includes/search/index.php": {
+      "md5": "67442c5615eba73d105c0715c6620850",
+      "sha256": "bd48c24ce4500e60d2524571756787283f0d3fbfa50b116331309c09773f0cd1"
+    },
+    "connectors/mautic/views/index.php": {
+      "md5": "67442c5615eba73d105c0715c6620850",
+      "sha256": "bd48c24ce4500e60d2524571756787283f0d3fbfa50b116331309c09773f0cd1"
+    },
+    "connectors/mautic/views/logo.png": {
+      "md5": "288f2a9e3e1de73811016f0bd296fb3e",
+      "sha256": "ed2af514781aaa4044c8ea7a03df94bd419125cf6a74c981b1c476bf1ee239ee"
+    },
+    "connectors/mautic/views/settings.php": {
+      "md5": "27c26e0afa8578f34c832838faa11b03",
+      "sha256": "645f6e65849a2127ff1be6205535f3992849234acd5c316366ceb71e0c6440cd"
+    },
+    "connectors/ontraport/connector.php": {
+      "md5": "90ae0e08673156b0d3e58559af61848a",
+      "sha256": "3f93f6afc02c06ccf0f56bf1070f296e5e23dd325743cd024001f6552869f84d"
+    },
+    "connectors/ontraport/index.php": {
+      "md5": "cf62ed31eb8a7cb3c36e539b74429f4a",
+      "sha256": "ca6e23f05cea86a5d56c459e6650f30f506be93c77d4b6891b8acbb6ff9a7f74"
+    },
+    "connectors/ontraport/autonami/class-bwfan-ontraport-integration.php": {
+      "md5": "3020fdf6ff8f20ee1cc93a5c7f75ce5c",
+      "sha256": "dd91c571e1c730c45eac22f2462d6c21c7a92a699652bc950f96eb704e3bcc04"
+    },
+    "connectors/ontraport/autonami/class-bwfan-ontraport-source.php": {
+      "md5": "b898655623af214ed1096c80135b1c69",
+      "sha256": "a1adf548442fb6321f441222c4232a1ada711f07e30a8fd172ea96e0432e60e0"
+    },
+    "connectors/ontraport/autonami/index.php": {
+      "md5": "67442c5615eba73d105c0715c6620850",
+      "sha256": "bd48c24ce4500e60d2524571756787283f0d3fbfa50b116331309c09773f0cd1"
+    },
+    "connectors/ontraport/autonami/actions/class-bwfan-ontraport-add-tags.php": {
+      "md5": "026627671dee51e9a2460f21af4459b5",
+      "sha256": "e8e053dc24942fbd34c3697374afa94bc23dfb9f4aac59054442d421394617bd"
+    },
+    "connectors/ontraport/autonami/actions/class-bwfan-ontraport-add-to-campaign.php": {
+      "md5": "e5874e8e47baf92ff012889df483b540",
+      "sha256": "67b7e9e07638a22451da6f9ec0e5f2c9c068eb53cd8fc3366d72aa2aee80cfcd"
+    },
+    "connectors/ontraport/autonami/actions/class-bwfan-ontraport-create-contact.php": {
+      "md5": "e0b4a356728a0a36da5b3bf7af0dad6b",
+      "sha256": "71c1e4a00feff3e2f823792b61faf2c08061fcfa010c2c5dc820501146019270"
+    },
+    "connectors/ontraport/autonami/actions/class-bwfan-ontraport-create-order.php": {
+      "md5": "476b9263d74f22bf51b666d61ba1be1b",
+      "sha256": "97c529fe2f5d528d9135e964d5e29bbca45773016b8c18da0d97cbb73a7531c0"
+    },
+    "connectors/ontraport/autonami/actions/class-bwfan-ontraport-rmv-from-campaign.php": {
+      "md5": "4e77e2af32520434110c0ff8282d9fdc",
+      "sha256": "a30068e2527030c82b4b6b337a15229cc3623bd2c1f2c05a63a4f4cf56e237f8"
+    },
+    "connectors/ontraport/autonami/actions/class-bwfan-ontraport-rmv-tag.php": {
+      "md5": "280605a1611afec04ff2967a05d5aaeb",
+      "sha256": "0f6b845f5003ab09bceba874a53f580d8aa241beaf9483b6052007c4af56c3ac"
+    },
+    "connectors/ontraport/autonami/actions/class-bwfan-ontraport-update-contact-fields.php": {
+      "md5": "3e11c97f61eea0614c249f223d678552",
+      "sha256": "dc4f28c10a2218bc802e7ecc7de478b74cbcdc9d1a51a430cd581858c0bda9ea"
+    },
+    "connectors/ontraport/autonami/actions/index.php": {
+      "md5": "67442c5615eba73d105c0715c6620850",
+      "sha256": "bd48c24ce4500e60d2524571756787283f0d3fbfa50b116331309c09773f0cd1"
+    },
+    "connectors/ontraport/autonami/events/class-bwfan-ontraport-webhook-recieved.php": {
+      "md5": "8ab215989562e5ef0ba8da8c2b19326b",
+      "sha256": "822e70bdb83857398e5f4b60a7d99c6ff0d50345b0060b856315b809b7256882"
+    },
+    "connectors/ontraport/autonami/events/index.php": {
+      "md5": "67442c5615eba73d105c0715c6620850",
+      "sha256": "bd48c24ce4500e60d2524571756787283f0d3fbfa50b116331309c09773f0cd1"
+    },
+    "connectors/ontraport/autonami/merge_tags/class-bwfan-ontraport-contact-email.php": {
+      "md5": "a399cd8d222c055bb691e88cb566cddd",
+      "sha256": "63f01f3a4e5a8a10504065e9ec9671dc53725f4733c9335757311d6b1d0a09d5"
+    },
+    "connectors/ontraport/autonami/merge_tags/class-bwfan-ontraport-contact-first-name.php": {
+      "md5": "04b298c68c06d4f3286f416b1fd51cf1",
+      "sha256": "d6f1ac09cddac115d2e594baa29d7156d1004330659de51b813586104681bb6a"
+    },
+    "connectors/ontraport/autonami/merge_tags/class-bwfan-ontraport-contact-id.php": {
+      "md5": "2c2b32a86fe7456342a8eac218a4e01e",
+      "sha256": "b7846acc11b6e63774a6db86757499a010169c2a7b3220eee37e19d4073f2346"
+    },
+    "connectors/ontraport/autonami/merge_tags/class-bwfan-ontraport-contact-last-name.php": {
+      "md5": "570733315f65ce0a39fe9b8ecfbffa57",
+      "sha256": "e3f6fe7aa78aa2ed7f2bd516576b2c205b5367be0b1cb11864fddfe585eae468"
+    },
+    "connectors/ontraport/autonami/merge_tags/class-bwfan-ontraport-contact-phone.php": {
+      "md5": "6c43db2279f2bcee9ffc7c12ce2674f6",
+      "sha256": "59b1fde399af9301d7bfc5ab99389be2d9c130769daf69172d5ed24119796ff8"
+    },
+    "connectors/ontraport/autonami/merge_tags/index.php": {
+      "md5": "67442c5615eba73d105c0715c6620850",
+      "sha256": "bd48c24ce4500e60d2524571756787283f0d3fbfa50b116331309c09773f0cd1"
+    },
+    "connectors/ontraport/calls/class-wcfo-ontraport-update-contact-fields.php": {
+      "md5": "0c31efb027841aa109c2efcdc0f7d542",
+      "sha256": "cb451f47572f9587aaf86c72053eb6a52d972312c791dd5446f9277bce2afe2f"
+    },
+    "connectors/ontraport/calls/class-wfco-ontraport-add-tags.php": {
+      "md5": "a0a6d9298be8277d9b0a59933187f535",
+      "sha256": "6c886acabac135c85a0dc9000be1d7d8144d0074ec46ff3257d527c7ed38f497"
+    },
+    "connectors/ontraport/calls/class-wfco-ontraport-add-to-campaign.php": {
+      "md5": "cce65f0f59c0280f12b635fb45283d1e",
+      "sha256": "07f28a37f64459a7c1529a7aaea8ad19fa8fde2ef582d3f30048bad2701ff061"
+    },
+    "connectors/ontraport/calls/class-wfco-ontraport-create-contact.php": {
+      "md5": "f13f7ff755ed0b51713f8c5baceb9e58",
+      "sha256": "1d960ed99133aa4fb923a0fd3eaf7417959995c6c67cfcc705a2c4a581a9f25b"
+    },
+    "connectors/ontraport/calls/class-wfco-ontraport-create-order.php": {
+      "md5": "48eb365069f1ffac4b57aec3a8678176",
+      "sha256": "e41deec2ea2feb0df95885ae6e66eb12ee9588c2fa86fb042e9467a745e9b249"
+    },
+    "connectors/ontraport/calls/class-wfco-ontraport-create-product.php": {
+      "md5": "be030abec77b4dcaeb25a21c8e4cbf44",
+      "sha256": "e067d24eadd3e8e3202f12c5be258cb688a6c0ebefe23db6d6622be6072768de"
+    },
+    "connectors/ontraport/calls/class-wfco-ontraport-create_tag.php": {
+      "md5": "5c896c9a121ad2034a6b6f1f0d16e82d",
+      "sha256": "c3ba08a30f242353808dc9afd0c5c0b03a9bd4a450a3a1b772d700b5d52f906c"
+    },
+    "connectors/ontraport/calls/class-wfco-ontraport-get-campaigns.php": {
+      "md5": "fd8edf97dc7e35d798ba68961d15f18c",
+      "sha256": "08ef879c5969afa4c441592592721958ddf41350462b6c7cc884c1caff95445f"
+    },
+    "connectors/ontraport/calls/class-wfco-ontraport-get-contact-by-id.php": {
+      "md5": "2ba94cebf691399efd18e95c8d95fa5b",
+      "sha256": "31bb5f447c30ab9eaca9416ef53e40fc7d249eeaa040c751a0dfb8bebb5bc558"
+    },
+    "connectors/ontraport/calls/class-wfco-ontraport-get-contact-fields.php": {
+      "md5": "c16b9b00fb410b8ebfae914e2c30011c",
+      "sha256": "a09c5a561530a5b682b7d755b0fb34efa76dd2f35073fb78d278c26dc7f8e99c"
+    },
+    "connectors/ontraport/calls/class-wfco-ontraport-get-contact-id-by-email.php": {
+      "md5": "81e358e466f350785c94e514cf56ff6f",
+      "sha256": "a66b0aaf9903a1b2ab648c87d6538aa6fb59c3f9e35fdf76bc7ee1b2be23193e"
+    },
+    "connectors/ontraport/calls/class-wfco-ontraport-get-product-by-id.php": {
+      "md5": "fe6a6a18b87c3c8f2aabb606a2a75bc5",
+      "sha256": "159bab1b5acc0f8257dfb42cc8aeab990e839cb563a8f46c17d54321104c1202"
+    },
+    "connectors/ontraport/calls/class-wfco-ontraport-get-tags.php": {
+      "md5": "db06cf9b8f0618db675b638815c1e7e8",
+      "sha256": "6e6f2fcba624dac2d6a754e990dcf20814ce6439d17a646c33357ebb1653e22d"
+    },
+    "connectors/ontraport/calls/class-wfco-ontraport-rmv-from-campaign.php": {
+      "md5": "1f3f6e017d35b517a4a59cfc6af56081",
+      "sha256": "7212d4f27afe488621fe8d1588d1d9b3c8fe820e05ed1d9d272f173a54ce76d2"
+    },
+    "connectors/ontraport/calls/class-wfco-ontraport-rmv-tag.php": {
+      "md5": "42722337df72851b95501de8dea1b14c",
+      "sha256": "d18abd4c40b0c9ec774cf0023a9624a9fc44ce1784fd19047f99caaa162e3b69"
+    },
+    "connectors/ontraport/calls/class-wfco-ontraport-search-product-by-name.php": {
+      "md5": "7feab6b9ded34f701e77c495434d5d57",
+      "sha256": "eb83f8e9193005e83c31a702afef00c66bcb44ec7c709f26ef481b4e6a76189f"
+    },
+    "connectors/ontraport/calls/class-wfco-ontraport-search-tag-by-name.php": {
+      "md5": "357df30f6e84b5526ba5fead6a0f9f2b",
+      "sha256": "458e2ef6c8d3cf05fa4c762a494d792da77ec7c68dbab1fbfef6fd8c02f780b1"
+    },
+    "connectors/ontraport/calls/index.php": {
+      "md5": "67442c5615eba73d105c0715c6620850",
+      "sha256": "bd48c24ce4500e60d2524571756787283f0d3fbfa50b116331309c09773f0cd1"
+    },
+    "connectors/ontraport/includes/class-wfco-ontraport-call.php": {
+      "md5": "29761db61b9a6100bb0f398c8d3a69bc",
+      "sha256": "eedf7908847a6e1613464243cf36089074843f53cd720795e9a643578edbd00f"
+    },
+    "connectors/ontraport/includes/class-wfco-ontraport-common.php": {
+      "md5": "88fec5d261c099be5c4e8579824f8043",
+      "sha256": "214fe9bdf67fc98fb5bb73683ee564aafa01446ba43919808eec592ba3f39885"
+    },
+    "connectors/ontraport/includes/index.php": {
+      "md5": "67442c5615eba73d105c0715c6620850",
+      "sha256": "bd48c24ce4500e60d2524571756787283f0d3fbfa50b116331309c09773f0cd1"
+    },
+    "connectors/ontraport/includes/search/class-bwfan-ontraport-tags.php": {
+      "md5": "316de78ee2360df0a861dde2c79a8641",
+      "sha256": "a0d68afe8ec00388060ebb19e1b071c80915ecbe30839a864f60dbb83e719320"
+    },
+    "connectors/ontraport/includes/search/index.php": {
+      "md5": "67442c5615eba73d105c0715c6620850",
+      "sha256": "bd48c24ce4500e60d2524571756787283f0d3fbfa50b116331309c09773f0cd1"
+    },
+    "connectors/ontraport/views/index.php": {
+      "md5": "67442c5615eba73d105c0715c6620850",
+      "sha256": "bd48c24ce4500e60d2524571756787283f0d3fbfa50b116331309c09773f0cd1"
+    },
+    "connectors/ontraport/views/logo.png": {
+      "md5": "87f45a77af25a2af2cf4eec635ce32f3",
+      "sha256": "1ed373c818ff114f996bd091338e17529fcbc410fc643428c0f49cffb8aea7c5"
+    },
+    "connectors/ontraport/views/settings.php": {
+      "md5": "6101e4d6521d010d42811865269e6727",
+      "sha256": "1383d86fa9621fcfdf1ad7055afe292a79903d453007f63230f9d9b03fb97b2d"
+    },
+    "connectors/optinmonster/connector.php": {
+      "md5": "bd06700ce0ffe136a9529327bdf70abe",
+      "sha256": "9c9be84a70934d1a2ce7c7f7a0840d39be2f7f6ae368c7ee2d1e526195d6de33"
+    },
+    "connectors/optinmonster/autonami/class-bwfan-optinmonster-source.php": {
+      "md5": "9cee4f28e54ca1f11bcb8b1f3a260f8a",
+      "sha256": "353f080e2ef065045961e5907d5b4d14efe822842fc7b94e0fbe80d902a221d6"
+    },
+    "connectors/optinmonster/autonami/index.php": {
+      "md5": "ce407ff5715c837d02b1aba7975bf512",
+      "sha256": "00aba3928cd622ad67c0f81ecd5aa8699e07f8f4908c045fe34f6a2dc0067b37"
+    },
+    "connectors/optinmonster/autonami/events/class-bwfan-optinmonster-form-submit.php": {
+      "md5": "af1fd8fcfb054b2857cc5b2b611713fc",
+      "sha256": "707cfb74e0b6707d7d412f2027b0eb914a7708f85e95765259b160520fc6b90e"
+    },
+    "connectors/optinmonster/autonami/events/index.php": {
+      "md5": "ce407ff5715c837d02b1aba7975bf512",
+      "sha256": "00aba3928cd622ad67c0f81ecd5aa8699e07f8f4908c045fe34f6a2dc0067b37"
+    },
+    "connectors/optinmonster/autonami/merge_tags/class-bwfan-optinmonster-form-fields.php": {
+      "md5": "ad26748b89306dbc4d73ccf72c2db26e",
+      "sha256": "04cc2aae75a91bf4ffb830c294e22d3c8a3fad2c9f7276cd18fac0aa499028a3"
+    },
+    "connectors/optinmonster/autonami/merge_tags/class-bwfan-optinmonster-form-id.php": {
+      "md5": "fbb0edb4801e1efb61c7e6fc85ddc5c4",
+      "sha256": "c6898688c34a206783a4367eff65ef836e6ff9708d0cc8ea84656bd811a15100"
+    },
+    "connectors/optinmonster/autonami/merge_tags/class-bwfan-optinmonster-form-title.php": {
+      "md5": "b073a6604a9b3428a1f6312c2242a0fc",
+      "sha256": "f43f8a81cc5c0e6b8c97a9832e6ea1a424b0bdbff7b4626a222a4425ab0074aa"
+    },
+    "connectors/optinmonster/calls/class-wfco-optinmonster-add-webhook-url.php": {
+      "md5": "1c3cd903482445496524a7afce18dc92",
+      "sha256": "f60d36d2fd9e4fbfdf468e83f9ed178656d2ffeea9abf0454335fee75fceec77"
+    },
+    "connectors/optinmonster/calls/class-wfco-optinmonster-get-campaigns.php": {
+      "md5": "64b8caf643104b747a22a553b672d7bc",
+      "sha256": "3460f169344f9ce2b83eb9c75d4118a020aa0e5f2c4c3006ae10476f57edac07"
+    },
+    "connectors/optinmonster/calls/index.php": {
+      "md5": "67442c5615eba73d105c0715c6620850",
+      "sha256": "bd48c24ce4500e60d2524571756787283f0d3fbfa50b116331309c09773f0cd1"
+    },
+    "connectors/optinmonster/includes/class-wfco-optinmonster-common.php": {
+      "md5": "8f2a3ca2a54bc5ca2f7fa05b2dd97d94",
+      "sha256": "1b37619a39483d911541c950b884ece4b342c09906e19d7715376230b48c88e7"
+    },
+    "connectors/optinmonster/includes/index.php": {
+      "md5": "67442c5615eba73d105c0715c6620850",
+      "sha256": "bd48c24ce4500e60d2524571756787283f0d3fbfa50b116331309c09773f0cd1"
+    },
+    "connectors/optinmonster/includes/search/class-bwfan-optinmonster-campaigns.php": {
+      "md5": "26a0057d76fb7d5e1f89723b2382da6f",
+      "sha256": "94479206a6ca3d1519dcd61bdf840c73f29a5b989b20348da3a7c8e73edeaea0"
+    },
+    "connectors/optinmonster/includes/search/index.php": {
+      "md5": "ce407ff5715c837d02b1aba7975bf512",
+      "sha256": "00aba3928cd622ad67c0f81ecd5aa8699e07f8f4908c045fe34f6a2dc0067b37"
+    },
+    "connectors/optinmonster/views/index.php": {
+      "md5": "67442c5615eba73d105c0715c6620850",
+      "sha256": "bd48c24ce4500e60d2524571756787283f0d3fbfa50b116331309c09773f0cd1"
+    },
+    "connectors/optinmonster/views/logo.png": {
+      "md5": "babf60b0fa7c59481a3d0a8f7f710633",
+      "sha256": "995cc079b252e8d72a860332cf04d0eabbee9cdfac67d9f8b9ec6199e0c408b0"
+    },
+    "connectors/pushengage/connector.php": {
+      "md5": "0f36d5013773c5cf9b77432401868f41",
+      "sha256": "543f2ea35d533ca89ef930fe89eff0009439610d262d4a0a51505a1a1a8dffc7"
+    },
+    "connectors/pushengage/index.php": {
+      "md5": "67442c5615eba73d105c0715c6620850",
+      "sha256": "bd48c24ce4500e60d2524571756787283f0d3fbfa50b116331309c09773f0cd1"
+    },
+    "connectors/pushengage/assets/js/pushenagege-funnelkit-sync.js": {
+      "md5": "e197e0a0b39e2aa440fd1a99a047545e",
+      "sha256": "109e5733a2ee217cad799da39087d6faacc9fab46158381c2b65c90177e3f4c7"
+    },
+    "connectors/pushengage/assets/js/pushengage-connect-sdk.js": {
+      "md5": "d3c250c11c47d9e70059b1b4b37346a9",
+      "sha256": "37c60fe36f159e1f4519a520a13d5e30ae27266541464ab8d7143fca95755151"
+    },
+    "connectors/pushengage/autonami/class-bwfan-pushengage-integrations.php": {
+      "md5": "9742ace8687c379e7d21ccc03a925ae8",
+      "sha256": "67bae5d4ac29e46ddd38d483a33e7f27ae0896a8f28960f283c2e6e740b00bdb"
+    },
+    "connectors/pushengage/autonami/index.php": {
+      "md5": "67442c5615eba73d105c0715c6620850",
+      "sha256": "bd48c24ce4500e60d2524571756787283f0d3fbfa50b116331309c09773f0cd1"
+    },
+    "connectors/pushengage/autonami/actions/class-bwfan-pushengage-send-notification.php": {
+      "md5": "f91e719f5c07cfa40c4a59de2549c31e",
+      "sha256": "c8eb0c6c21d00219568e7155ff97240734778fe303490b2c38bea7fc740e5980"
+    },
+    "connectors/pushengage/calls/class-wfco-pushengage-auth-check.php": {
+      "md5": "ebb9da90c7548695c3e2e3a1a9572558",
+      "sha256": "33ee21b297b651c104902dc0e046cab7088d085027b15c203b1cbaa1a51dd5af"
+    },
+    "connectors/pushengage/calls/class-wfco-pushengage-send-notification.php": {
+      "md5": "377360a30d74bd04e9d1ba5d2c89a194",
+      "sha256": "43ef37039c81aa6a2e62ed531d5d27f638aec873eef027a74be4083f5b31ab99"
+    },
+    "connectors/pushengage/custom-filter/class-bwfcrm-filter-pushengage-opted.php": {
+      "md5": "5c6c5d8975dc702e5e7ebda37ad36963",
+      "sha256": "7a3c0192047acc548846adf8a771584cb81a7e01696e79b459b7eef13452b5f0"
+    },
+    "connectors/pushengage/includes/class-wfco-pushengage-ajax.php": {
+      "md5": "23390e19441b1bdee7cc0dd3c0394ea2",
+      "sha256": "7f8f557f36729b187e1d3389d2a230ef4a38555fe5a467adb60cd4c06cba86de"
+    },
+    "connectors/pushengage/includes/class-wfco-pushengage-assets.php": {
+      "md5": "a60d6595286dec430ae46b85e36166db",
+      "sha256": "b8ed286d4cde0b77a7fec95ba2964b43f4b5d7a575653730b88bd469b015b7f1"
+    },
+    "connectors/pushengage/includes/class-wfco-pushengage-call.php": {
+      "md5": "8b9ac3b805ef47527c48565906c499d4",
+      "sha256": "fe9d7aafd4fdf44b4f150bb6f25a82b402ef660d4ab80aeeb6dea8155f5c43d0"
+    },
+    "connectors/pushengage/includes/class-wfco-pushengage-common.php": {
+      "md5": "b50db8e58452ee10e98a79f991ab010f",
+      "sha256": "adc39bfbd37f0fe59d86ecee2a8137a5249e39dde7ac10c672b42c35cba4becc"
+    },
+    "connectors/pushengage/includes/class-wfco-pushengage-load.php": {
+      "md5": "960def4d306552f04e56a0628d61bb25",
+      "sha256": "6d63c51dc364fefa1afe4a6662a48967631bb00d2b3982caca05114c3f706094"
+    },
+    "connectors/pushengage/rules/pushengage.php": {
+      "md5": "6ffa305b63c2561a1c9d0c92ae21f359",
+      "sha256": "2b13a55654a94ca42d6af18841b9150153acfb7f2d413c66a10de582a757b855"
+    },
+    "connectors/pushengage/views/index.php": {
+      "md5": "d79cdef0f8e831b7999f8b3bac3196bf",
+      "sha256": "aef9a256550de3db188ef103c08d4b8072f08fd135c9a87aafb140346f65f6b3"
+    },
+    "connectors/pushengage/views/logo.png": {
+      "md5": "f8bad9f2522c7864c2a1973643f01a45",
+      "sha256": "7c92fe55a19f357839bcc8545e1df834db22322361d8b8c9f50d0c5c2a22023b"
+    },
+    "connectors/slack/connector.php": {
+      "md5": "9d6735c3adc4ef48b7911ef674c09041",
+      "sha256": "d4143e396926980ba61b5a568b9496511ff609ae97d139ea908be68e658c1cc3"
+    },
+    "connectors/slack/index.php": {
+      "md5": "67442c5615eba73d105c0715c6620850",
+      "sha256": "bd48c24ce4500e60d2524571756787283f0d3fbfa50b116331309c09773f0cd1"
+    },
+    "connectors/slack/autonami/class-bwfan-slack-integration.php": {
+      "md5": "60f7eaf2e16f78396c0a05b921743c73",
+      "sha256": "271d5c2d3b36ccb20bc1e6d8028218811849af9c04f9a4050cea73cd8e71421c"
+    },
+    "connectors/slack/autonami/index.php": {
+      "md5": "67442c5615eba73d105c0715c6620850",
+      "sha256": "bd48c24ce4500e60d2524571756787283f0d3fbfa50b116331309c09773f0cd1"
+    },
+    "connectors/slack/autonami/actions/class-bwfan-sl-message-user.php": {
+      "md5": "379a90ce37795270a5e5d56ff71b84fb",
+      "sha256": "c45da73c5c54d878a6fa75a34b8ac43755e140f9123462a6fdf2a2754fad1066"
+    },
+    "connectors/slack/autonami/actions/class-bwfan-sl-message.php": {
+      "md5": "aea48bd88e4eb71d541ccc0902329dc4",
+      "sha256": "86dad6c29371242ac9e747006cb33659790ec39e7e6a421367df2c1f8ddc0fca"
+    },
+    "connectors/slack/autonami/actions/index.php": {
+      "md5": "67442c5615eba73d105c0715c6620850",
+      "sha256": "bd48c24ce4500e60d2524571756787283f0d3fbfa50b116331309c09773f0cd1"
+    },
+    "connectors/slack/calls/class-wfco-sl-api-test.php": {
+      "md5": "a8103c69080914e4e873a22e035410a1",
+      "sha256": "f2b1dcabc149801ccf070febf85b46aa88da40d759cd068c4c1c82ea3db881ec"
+    },
+    "connectors/slack/calls/class-wfco-sl-fetch-all-channels-list.php": {
+      "md5": "e8cd6a7162adf99f70f29310e2643443",
+      "sha256": "7e0d12e9a94b8bc41553dab0c4a50c18ce0c4dccd2cae35bdcdf146861ccf07a"
+    },
+    "connectors/slack/calls/class-wfco-sl-fetch-users-list.php": {
+      "md5": "d7418643c66f933df57698162a411d72",
+      "sha256": "4f61294fbcfd8700571b09671ef40cf7f3c873f83b6813e7ca1cb8b4330c2404"
+    },
+    "connectors/slack/calls/class-wfco-sl-message-user.php": {
+      "md5": "0f12ca9ea6be195afa321db0c7482148",
+      "sha256": "7538345e2aab08d5ae6895bb8cdca9deba0f2a78d4b5a0e525f7bf693ac2913c"
+    },
+    "connectors/slack/calls/class-wfco-sl-message.php": {
+      "md5": "c6e7665b04c58ef03890565c5c6f4e74",
+      "sha256": "7374db1191f5a0564a294d275665727613c1ab4dd0fdd713e623dbfd9ca35483"
+    },
+    "connectors/slack/calls/index.php": {
+      "md5": "67442c5615eba73d105c0715c6620850",
+      "sha256": "bd48c24ce4500e60d2524571756787283f0d3fbfa50b116331309c09773f0cd1"
+    },
+    "connectors/slack/includes/index.php": {
+      "md5": "67442c5615eba73d105c0715c6620850",
+      "sha256": "bd48c24ce4500e60d2524571756787283f0d3fbfa50b116331309c09773f0cd1"
+    },
+    "connectors/slack/includes/search/class-bwfan-sl-channels.php": {
+      "md5": "fb231ecf79060221ec0db7ad304b214d",
+      "sha256": "3a7dd8b0e5b6221472330736a8d0c77a5208b3b2aa73f2d73f010266c4fb82ba"
+    },
+    "connectors/slack/includes/search/class-bwfan-sl-users.php": {
+      "md5": "e1250d0cf7f5a2499ba4c04a0c04aabb",
+      "sha256": "6c4703cd3f6db6974872ab042dfd4dc8335ae26eba58552892956f6e700c904b"
+    },
+    "connectors/slack/includes/search/index.php": {
+      "md5": "67442c5615eba73d105c0715c6620850",
+      "sha256": "bd48c24ce4500e60d2524571756787283f0d3fbfa50b116331309c09773f0cd1"
+    },
+    "connectors/slack/views/index.php": {
+      "md5": "67442c5615eba73d105c0715c6620850",
+      "sha256": "bd48c24ce4500e60d2524571756787283f0d3fbfa50b116331309c09773f0cd1"
+    },
+    "connectors/slack/views/logo.png": {
+      "md5": "8e511ae82d79bcbe1a57b5beac84b7a3",
+      "sha256": "ca0cbcd2f26f9b4c796f749a948c9a7d02bf8c5133f08ecf35fdbfbc94230032"
+    },
+    "connectors/slack/views/settings.php": {
+      "md5": "3a95643cca16d9bedddafe4c6a45a38c",
+      "sha256": "7b62ad84878728b13ab5561a569b3d1cae650dc018c757f3c9c04b1ea1bb1c66"
+    },
+    "connectors/twilio/connector.php": {
+      "md5": "ee1371b73e6a35a89bda66566efd7f61",
+      "sha256": "e8894456b108be1ef5868df0571242967031020ba3c4b0adbdb8efc3aa47d983"
+    },
+    "connectors/twilio/index.php": {
+      "md5": "67442c5615eba73d105c0715c6620850",
+      "sha256": "bd48c24ce4500e60d2524571756787283f0d3fbfa50b116331309c09773f0cd1"
+    },
+    "connectors/twilio/autonami/class-bwfan-twilio-integration.php": {
+      "md5": "1b30b132888aa2c15280fa8fa1d28e13",
+      "sha256": "2480cc3be18ce737d9a15fc682e49c27ab57560f85c6d79af0ad022850ff0ef5"
+    },
+    "connectors/twilio/autonami/class-bwfan-twilio-source.php": {
+      "md5": "bee7f09182b29fe2a728555b9dd1c2b7",
+      "sha256": "305f02192638dbbf60dfba7a1bfd26d1511186114cf17ecbc4374e39987f823d"
+    },
+    "connectors/twilio/autonami/index.php": {
+      "md5": "67442c5615eba73d105c0715c6620850",
+      "sha256": "bd48c24ce4500e60d2524571756787283f0d3fbfa50b116331309c09773f0cd1"
+    },
+    "connectors/twilio/autonami/actions/class-bwfan-twilio-send-sms.php": {
+      "md5": "ab7e31641d60e6bc6fc9cb946db62e51",
+      "sha256": "4e8d3dad20d9e7b79fb974bd7ea5dbd159d81813c92601716e54d3ab944148d0"
+    },
+    "connectors/twilio/autonami/actions/index.php": {
+      "md5": "67442c5615eba73d105c0715c6620850",
+      "sha256": "bd48c24ce4500e60d2524571756787283f0d3fbfa50b116331309c09773f0cd1"
+    },
+    "connectors/twilio/autonami/events/class-bwfan-twilio-message-received.php": {
+      "md5": "9c0bd4d7ac97f2db7f80b479ed66ca30",
+      "sha256": "a2755fdefdac2786b88edb867d56496386a55def3bf79c9f3ce35102970fa814"
+    },
+    "connectors/twilio/autonami/events/index.php": {
+      "md5": "67442c5615eba73d105c0715c6620850",
+      "sha256": "bd48c24ce4500e60d2524571756787283f0d3fbfa50b116331309c09773f0cd1"
+    },
+    "connectors/twilio/autonami/merge_tags/class-bwfan-twilio-sms-city.php": {
+      "md5": "eb0be803eaa020c9419e19456ad3018b",
+      "sha256": "c88313668a91d95ca251804c77825f0e4431dd796cd633bd7597e70f3a6805b7"
+    },
+    "connectors/twilio/autonami/merge_tags/class-bwfan-twilio-sms-country.php": {
+      "md5": "dc92f434ba503c0e6c968c79e081af35",
+      "sha256": "04f6c7a490ee524c5a7ee910dcb20e09114261f92f7f608243ba95528745a197"
+    },
+    "connectors/twilio/autonami/merge_tags/class-bwfan-twilio-sms-from.php": {
+      "md5": "e9609cd59341e4f017713bc9376289c2",
+      "sha256": "d755999470e0a15b2f26922ef713d27c74fc5a840c66d52989a16caf970d47e1"
+    },
+    "connectors/twilio/autonami/merge_tags/class-bwfan-twilio-sms-message.php": {
+      "md5": "ebb7d5456beb6e0ac3e89c2ba231a5d8",
+      "sha256": "845f5057ccdfddcdfd0af8fa208297e65ed41a3efaec052f863bbe5fb1ef5554"
+    },
+    "connectors/twilio/autonami/merge_tags/class-bwfan-twilio-sms-sid.php": {
+      "md5": "cf3b1f2f802e8bb20118895fa799609b",
+      "sha256": "442a94b747095bf39929e717926912f965a24a31574df494859bd42d3177edc1"
+    },
+    "connectors/twilio/autonami/merge_tags/class-bwfan-twilio-sms-state.php": {
+      "md5": "ee9611f6b7f2603c9ae6d6ee071a5e5e",
+      "sha256": "8493c987abf3b2b0d648b4feb9de16caada355a39d2db707f5b59d1513af748e"
+    },
+    "connectors/twilio/autonami/merge_tags/class-bwfan-twilio-sms-zip.php": {
+      "md5": "862974df1f98a667735673c1c2e6d6c5",
+      "sha256": "33d6eed721010ee10e9df321b499d2ef9e2f7b4a09222fcad5a7757376fbad8d"
+    },
+    "connectors/twilio/autonami/merge_tags/index.php": {
+      "md5": "67442c5615eba73d105c0715c6620850",
+      "sha256": "bd48c24ce4500e60d2524571756787283f0d3fbfa50b116331309c09773f0cd1"
+    },
+    "connectors/twilio/calls/class-wfco-twilio-get-country-code.php": {
+      "md5": "8c28794a9898c20a1ec74873938483a3",
+      "sha256": "16c75dc2e97a519abdbe13385e91bed441b9d839889a9542ca78dbdc8808e155"
+    },
+    "connectors/twilio/calls/class-wfco-twilio-oauth-check.php": {
+      "md5": "2b2db438678cd98b83fc0b857f31ce9c",
+      "sha256": "11c5159e2e2ba8a3d820ab30e0c2d466505e0cee4fac4f00e487242bacc33645"
+    },
+    "connectors/twilio/calls/class-wfco-twilio-send-sms.php": {
+      "md5": "2f19e08a3b9e1e4bcc07b9fbcde18bcf",
+      "sha256": "6772ebd5687fe82f17fbae611f978f3415cc1ceb1819a86f54c661cf4332dacc"
+    },
+    "connectors/twilio/calls/index.php": {
+      "md5": "67442c5615eba73d105c0715c6620850",
+      "sha256": "bd48c24ce4500e60d2524571756787283f0d3fbfa50b116331309c09773f0cd1"
+    },
+    "connectors/twilio/includes/class-bwfan-twilio-webook-setup.php": {
+      "md5": "7568857a6d1699285d8f91e8de6a51f8",
+      "sha256": "bc5d3030e4cdc1fe9b29566d26ac81cee402c07567cef6ab135b227c32fa36fb"
+    },
+    "connectors/twilio/includes/index.php": {
+      "md5": "67442c5615eba73d105c0715c6620850",
+      "sha256": "bd48c24ce4500e60d2524571756787283f0d3fbfa50b116331309c09773f0cd1"
+    },
+    "connectors/twilio/views/index.php": {
+      "md5": "67442c5615eba73d105c0715c6620850",
+      "sha256": "bd48c24ce4500e60d2524571756787283f0d3fbfa50b116331309c09773f0cd1"
+    },
+    "connectors/twilio/views/logo.png": {
+      "md5": "bfac33e1e91c5e14ee2ca6bdd4b466df",
+      "sha256": "b643b9abc6fe83d075655e743f988c47b1668311956ff1aa2891c478d3feebf6"
+    },
+    "connectors/twilio/views/settings.php": {
+      "md5": "84a60d0bffcb5fbe5d909bfcf5e10554",
+      "sha256": "8219c0b52fa56e5a34fec99385c75d245c42e2c01fbbcbf0909f35de7d2facd3"
+    },
+    "includes/class-bwfan-connector-db-update.php": {
+      "md5": "0e6f912b9d9d245fbcf5fbda1fe01bc6",
+      "sha256": "cd1dcc1634718b64972b9e418f6d9dc9581286c9451533993b5836383ed9e0a1"
+    },
+    "includes/class-bwfan-connectors-common.php": {
+      "md5": "af7787d614fe0450e2ed3114bbb86994",
+      "sha256": "89b30e0ad06d823f26f6f2df823f3bedaeafe9128815561a605131987edeee7c"
+    },
+    "languages/index.php": {
+      "md5": "67442c5615eba73d105c0715c6620850",
+      "sha256": "bd48c24ce4500e60d2524571756787283f0d3fbfa50b116331309c09773f0cd1"
+    },
+    "languages/wp-marketing-automations-connectors.pot": {
+      "md5": "ab7990ae0c346a649a2d556a06dc1347",
+      "sha256": "d57013b3d8be466694f711c8ba3cd2c2d6321ccd9e425cdcb003cc2369524de6"
+    },
+    "rules/class-bwfan-rules.php": {
+      "md5": "5bfc9a8762ffea78f11cac8579363d28",
+      "sha256": "c8171183ef616bb86a51122158e433aab1d5aa6c400559fe83bbabb9ae18fe70"
+    },
+    "rules/index.php": {
+      "md5": "d41d8cd98f00b204e9800998ecf8427e",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "rules/rules/index.php": {
+      "md5": "d41d8cd98f00b204e9800998ecf8427e",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "rules/rules/optinmonster.php": {
+      "md5": "e1d707f788c49022878925a531c9d1eb",
+      "sha256": "b9f90b836569715292119a895eb8309a9ab2d147d8183c1bce6c81f84ee0857d"
+    },
+    "rules/rules/twilio.php": {
+      "md5": "84139b7b33db3c7a42c3a20e43b97734",
+      "sha256": "7c83b2084cda171a6676ffd971acbd462b6c6070431a4fc7cb024ed827789bd8"
+    }
+  }
+}
