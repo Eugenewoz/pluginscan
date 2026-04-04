@@ -1,0 +1,2774 @@
+{
+  "plugin": "ninja-forms",
+  "version": "3.13.0",
+  "files": {
+    "index.php": {
+      "md5": "67442c5615eba73d105c0715c6620850",
+      "sha256": "bd48c24ce4500e60d2524571756787283f0d3fbfa50b116331309c09773f0cd1"
+    },
+    "LICENSE": {
+      "md5": "d32239bcb673463ab874e80d47fae504",
+      "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903"
+    },
+    "ninja-forms.php": {
+      "md5": "1a07933f6c470ab6dfca670f6e2f65fc",
+      "sha256": "6882395f1df0c06c779c71e72c4d4f60f21c505395b8138c61d015cb87fcc7c1"
+    },
+    "readme.txt": {
+      "md5": "31bc4cf58aed3bef1f0e5603dec79a18",
+      "sha256": "c47ba67c9e61d996f4b7764ed46a1ae3380ee127ac53d055eff60163d5f6ff10"
+    },
+    "assets/css/admin-addons.css": {
+      "md5": "4331a02cd3ddce063c640f3c5a79e9f0",
+      "sha256": "edb071b9d84be330be97068e6dcbbb8477dfcb6d8b832b0206abfdf89e89874f"
+    },
+    "assets/css/admin-notices.css": {
+      "md5": "f64c13cf8dc04453ac08d2485d39f0d3",
+      "sha256": "8611b599f632c4ae2f226cb61cc520a4b817290753589586681b3383b6d77f68"
+    },
+    "assets/css/admin-settings.css": {
+      "md5": "ca1f01efc8a47594df22e4fb0918a524",
+      "sha256": "7c6e7448ed4366adfa46f9cacc7b5a7ea553a49a6cf461117a44d2ed1916b215"
+    },
+    "assets/css/admin-system-status.css": {
+      "md5": "b886091214e03e1a6edc442867fa2dda",
+      "sha256": "c72b2cdaf0eaaeb9a1ee029d916f3ba505915c54f7f8e35fbaec5de585b6a557"
+    },
+    "assets/css/builder.css": {
+      "md5": "71f9d1328e4853ec042b265f2b2b4f00",
+      "sha256": "fdb918239de1482ac6bde82b1ce7fbfb8ab794a2b176d03a3e6bfc8548ee1e86"
+    },
+    "assets/css/builder.css.map": {
+      "md5": "1bb2650987dc17c0b48eb168c7a13a09",
+      "sha256": "f95aaed9ef3f064c29308f1a42c4219d72ade77bd0b5fde685f56ff0fb1dfae9"
+    },
+    "assets/css/codemirror.css": {
+      "md5": "94c84e73bd59b5214d84bcc61a40e10e",
+      "sha256": "1eea449f12f63b15a012588085ac78084d114d6e3b416ba07e4722b1ea35df9f"
+    },
+    "assets/css/combobox.css": {
+      "md5": "65d41375c678d0bf2b4094aad40287c2",
+      "sha256": "fb28dc5385fcfa091d5c1000a70bfd3c4f3c0f9f32a3eb3c114af2bf7a076586"
+    },
+    "assets/css/dashboard.min.css": {
+      "md5": "53081d73bb973787672feef3cad6dbf3",
+      "sha256": "2a156d8733bce64263e0862c5261d6428a362cf29f30f1adf40f8b03f94b0597"
+    },
+    "assets/css/dashboard.min.css.map": {
+      "md5": "6746f4c00e24fae2d6ca72dc201fb513",
+      "sha256": "66e14ab15d8c0a01e7aa4a06130d762ddfa477de05084d76847be8d3c76a14c4"
+    },
+    "assets/css/display-opinions-dark.css": {
+      "md5": "a870c2934e44fa3d3786bc0ce1263bc5",
+      "sha256": "edf20e125fab8e4f680c88f6abd115d18816eb9781c1774a395d8db41a91f596"
+    },
+    "assets/css/display-opinions-dark.css.map": {
+      "md5": "32031f42f857749d62c5795db28b782e",
+      "sha256": "310d5a37519871376e3ed4202c58604e9f11523ddf488e99abdcdb10bd915704"
+    },
+    "assets/css/display-opinions-light.css": {
+      "md5": "69b1468eb18232ff3b68af482d2db2ef",
+      "sha256": "4826807fc70d2159ed5e9810cf55d23eea3fc2012329bfa508a9e927cb62f81d"
+    },
+    "assets/css/display-opinions-light.css.map": {
+      "md5": "db855e07636354babdd3836c58ba852c",
+      "sha256": "abace41ef3cd22deea3a9ae2926e46dcb1df1a27735eed6bea5d3d80f7fc38ab"
+    },
+    "assets/css/display-opinions.css": {
+      "md5": "dbb3d8d71fa5084eab19473251ae60cf",
+      "sha256": "fff4c4e5fee54d01fe4531f976874fe4e856d0934d36e8d8f954c2dd76f4bdf3"
+    },
+    "assets/css/display-opinions.css.map": {
+      "md5": "57418e6a823b51cde72bb1b0b4c3420b",
+      "sha256": "58ec1aa95d9d889ac9e021a9b5811f8bf8bb6e9be249cb94547d8884c318988a"
+    },
+    "assets/css/display-structure.css": {
+      "md5": "97de82300046a21580bc0fb9bb248b4d",
+      "sha256": "0f4274a829d5357605b9ffa18bb7c58b8766e26ed317aa147f995420c691e937"
+    },
+    "assets/css/display-structure.css.map": {
+      "md5": "bd6db740926e105154d03ecf773bece8",
+      "sha256": "123ef90c5a9faae85a799b716f5a10c0df51d94c966b1babeba351bcf425984c"
+    },
+    "assets/css/flatpickr.css": {
+      "md5": "30f64a741bc93036f3122eea50392b8d",
+      "sha256": "661e00570c65c29528d9ce6ee19e5e9939986716c293def67b07f8b6a191b018"
+    },
+    "assets/css/font-awesome.min.css": {
+      "md5": "4fbd15cb6047af93373f4f895639c8bf",
+      "sha256": "ddd92f10ad162c7449eff0acaf40598c05b1111739587edb75e5326b6697c5d5"
+    },
+    "assets/css/jBox.css": {
+      "md5": "40cd3560b9067b086e5b9988810290ab",
+      "sha256": "a36b30b0e77fee57cf496503e35c9d0c0cf22f320c0b5d19e32702f38e35a24d"
+    },
+    "assets/css/monokai-theme.css": {
+      "md5": "a778e3a734f4a088f3773acf73d6cf5e",
+      "sha256": "ab4c9d8ca074ff4317bedf93d4c2245c6e00ef57012ab8fe58f0cb066e173e2c"
+    },
+    "assets/css/nf-form-block-style.css": {
+      "md5": "20cf9c7f98c57ad0eef092827750062b",
+      "sha256": "9209925b1dd084ca96a86a6f14f6520056fe6463c207ebbbb0f8f48652bf4b85"
+    },
+    "assets/css/nf-rte.min.css": {
+      "md5": "718db0f375f5b274bb3eb823e8490eef",
+      "sha256": "ec526d0670eca000c5c1b12d3f45a841d579570747b47928dbca05d8d1843f5a"
+    },
+    "assets/css/nf-rte.min.css.map": {
+      "md5": "9594dc12a2893b24872873e396121e50",
+      "sha256": "21e18c1a10f964616615e50584916c00bd0e60fd98220511dfd90be190255ee0"
+    },
+    "assets/css/nfOnboarding.css": {
+      "md5": "536080f8600576c10d83969c1b7a0aa1",
+      "sha256": "81fa37f3bb0d7d52161c12ac91ff1ecf941833097fa4e174f6faf454b5b57a4b"
+    },
+    "assets/css/NoticeBorder.css": {
+      "md5": "20a5d3ce3282ecd35e7b35d5956331de",
+      "sha256": "ab9609e17c05487f06a95dfd01afdc47313d8574cc51e0b89a86d5d8548d9b07"
+    },
+    "assets/css/rating.css": {
+      "md5": "2ce0aebf82f0537d79e422c649c4f0ec",
+      "sha256": "3dd72eb6d09eab35a349b5fc972acdb2d6f9943d533bfa66d0fc806087a2ae1d"
+    },
+    "assets/css/required-updates.css": {
+      "md5": "bad2bf440c612c2fdabac0eeb3635242",
+      "sha256": "8a3b10311c6685e5e448405fba2b0bf24d04f439a4223db93881515b503642a4"
+    },
+    "assets/css/summernote-lite.min.css": {
+      "md5": "98a134bd2c4e86ed3772326d9c05b862",
+      "sha256": "aeee715bf265c06aee4df6a271a51fba8b6f83c597d6cc8998d8d954a13134d6"
+    },
+    "assets/css/summernote-lite.min.css.map": {
+      "md5": "938e215e8ec52c3757392ac28f328334",
+      "sha256": "edf38a6327314f15f0f542a0faf3bc789c3713b219c0f757c26a053d6b45283f"
+    },
+    "assets/css/TooltipBorder.css": {
+      "md5": "2c5b935059cf3efbde78f17abc94ba21",
+      "sha256": "634c2a44c54e79706b7df382b7b4b660c5eb57572bd5c566330cc9763c9ba053"
+    },
+    "assets/fonts/fontawesome-webfont.eot": {
+      "md5": "32400f4e08932a94d8bfd2422702c446",
+      "sha256": "e219ece8f4d3e4ac455ef31cd3a7c7b5057ea68a109937fc26b03c6e99ee9322"
+    },
+    "assets/fonts/fontawesome-webfont.svg": {
+      "md5": "f775f9cca88e21d45bebe185b27c0e5b",
+      "sha256": "d67041fe5d50eef9ef671643968f7ce6b130eaaaaa2ce4d496b18d0a33aeb87b"
+    },
+    "assets/fonts/fontawesome-webfont.ttf": {
+      "md5": "a3de2170e4e9df77161ea5d3f31b2668",
+      "sha256": "7b5a4320fba0d4c8f79327645b4b9cc875a2ec617a557e849b813918eb733499"
+    },
+    "assets/fonts/fontawesome-webfont.woff": {
+      "md5": "a35720c2fed2c7f043bc7e4ffb45e073",
+      "sha256": "c812ddc9e475d3e65d68a6b3b589ce598a2a5babb7afc55477d59215c4a38a40"
+    },
+    "assets/fonts/fontawesome-webfont.woff2": {
+      "md5": "db812d8a70a4e88e888744c1c9a27e89",
+      "sha256": "ff82aeed6b9bb6701696c84d1b223d2e682eb78c89117a438ce6cfea8c498995"
+    },
+    "assets/fonts/FontAwesome.otf": {
+      "md5": "87d8ca3ddc57e7d2da6226e480f90457",
+      "sha256": "7ed24c05432403117372891543f0cb6a7922100919e7ae077c1f3faf67658dc2"
+    },
+    "assets/fonts/signature/dancing-script-400.ttf": {
+      "md5": "ab45324a3fb5986201b4b2279d7b1f7f",
+      "sha256": "cbf45d12702db573b174863d83fc137f29ac270240f289aa41942b36032d5201"
+    },
+    "assets/fonts/signature/dancing-script-700.ttf": {
+      "md5": "eceea925a2828ebc66972b32be9eeb8d",
+      "sha256": "d2b3a6ce8d91be38a76aa1a1696a9e184140ac5fb5c3aa6a1b8f03dabd9560ee"
+    },
+    "assets/fonts/signature/google-fonts.css": {
+      "md5": "8130d493c7e292d3f25bfb2b0efb7369",
+      "sha256": "69b83db37947d02ca8c601b0ec2964714d479aa52e42a2ef50406e19b8e54cc0"
+    },
+    "assets/fonts/signature/satisfy-400.ttf": {
+      "md5": "e03643b9ebedf5e167921dfa9126d0ce",
+      "sha256": "d394db8f27c568545da4dc2cbb798c04d9c70cea9beb434039dcf3651a4cde7b"
+    },
+    "assets/img/help-info.png": {
+      "md5": "b04887896cab62c2d07f73fd2b71c061",
+      "sha256": "7f4c0e9fb137be8bed1739e6697d8511f211f3702da61b0c2b54f53a714ae7b8"
+    },
+    "assets/img/help_icon.png": {
+      "md5": "2f5825d01f1d9cee1e5a4b17c1e62f2c",
+      "sha256": "719ec4a84c8c4b67ee78e91a1bf7f331a23557782a9e01b252e391ad076998b3"
+    },
+    "assets/img/nf-logo-dashboard.png": {
+      "md5": "25db101e789ba04aee3557fc9929c98a",
+      "sha256": "7b8e1194408237391191aba82512571c9163bd404074d75ea6dd402fd2de83e9"
+    },
+    "assets/img/nf-logo-vert.png": {
+      "md5": "b573e1a100d1227eb861dcdb1e1fb3f6",
+      "sha256": "d8dd0b431e3be68ef9eabb8683dbe144b521a8bee4ee2ee00f096407e75b719c"
+    },
+    "assets/img/ninja-forms-app-header-logo.png": {
+      "md5": "5aae43b16673e3e69e8c959e5948075d",
+      "sha256": "42e4fc59981ecb61164b740b45e5213060dfa3a196e7072311e159fbfd1814f3"
+    },
+    "assets/img/ninja-forms-app-header-logo@2x.png": {
+      "md5": "75b30d628ebc3bed7e004f9caaa9d66b",
+      "sha256": "59426e9abca654997dd883ebb6598382cae86b79a91a31d5f8f27f4873ae1d89"
+    },
+    "assets/img/no-image-available-icon-6.jpg": {
+      "md5": "855e8ca01684f0d61e302ba09a177bfd",
+      "sha256": "cfbcccb672803e1087b2f3654c7690cc3a079fa89f53f6a03eab1aa8502fe51f"
+    },
+    "assets/img/pbar-ani.gif": {
+      "md5": "04c803a46f47b06bcc102fc8ef49ccf1",
+      "sha256": "a03a0e52f0f18d00375e4358ede5ec2ab934ea7a739e916c7c1caa702833e1b2"
+    },
+    "assets/img/add-ons/active-campaign.png": {
+      "md5": "ecee0fd03c1dcf7e05f768a95775de12",
+      "sha256": "eb6cc83477840b3d48c72c19546c5e1981b6bc8ccdac264ebd68a542f1154055"
+    },
+    "assets/img/add-ons/advanced-datepicker.png": {
+      "md5": "c485a33cc738a98deab913b064e0edd7",
+      "sha256": "7d84306ae88bd6098a72ca0c80ff1aaf32a8f15f4c33dfd8c623be1c4be73c58"
+    },
+    "assets/img/add-ons/agency-membership.png": {
+      "md5": "2f5454f0547287f0f60577ed2589011a",
+      "sha256": "cd5a571496b03aa52aeaf5eba968c9079780a0aef3a2e04fd3c679adcfb98805"
+    },
+    "assets/img/add-ons/authorize-net.png": {
+      "md5": "f244ba40d22e5fa8e81ae862d96adb7a",
+      "sha256": "ce3426f024a8f0217301a98e79948dc429f0330f10d25e227cb288244456fd64"
+    },
+    "assets/img/add-ons/aweber.png": {
+      "md5": "79997e27e85c73ac37e1795082e0e909",
+      "sha256": "0fbbdd986a7073237122e8d5f3d6229f4b6f02226c30b5139e7523e0dc89dc3e"
+    },
+    "assets/img/add-ons/campaign-monitor.png": {
+      "md5": "276229feb30af5e8bd853d65396e29e8",
+      "sha256": "e8fe9079e80042e5b2f1e2b8cb0084e64114129899b8ecab539bcd2a31bd80cb"
+    },
+    "assets/img/add-ons/capsule-crm.png": {
+      "md5": "6c112abac6c810fe8dd226fdb6e8ea29",
+      "sha256": "0b3bcd1df5e3700a508d345440f46b04ea780bf58a12a657f41ec26660b5e0ee"
+    },
+    "assets/img/add-ons/civicrm.png": {
+      "md5": "254fba10bd8d4022317273598d205ba3",
+      "sha256": "abeec438531f1614c19889647825f5305a82bcb229a22e7885cd4d945656dfc9"
+    },
+    "assets/img/add-ons/cleverreach.png": {
+      "md5": "bc0c205d5bdbeebbb535a276e3bc2931",
+      "sha256": "4ea8afcab326630178c349ced7bf2f0c8aaf559d852dca329e5f4378c264a830"
+    },
+    "assets/img/add-ons/clicksend-sms.png": {
+      "md5": "95d8a271992842987ff347a27f3fa410",
+      "sha256": "5a9b9b55ed1f0544abc1be21b56bfb208646e8cfdc100b62d49a8b076b071b2b"
+    },
+    "assets/img/add-ons/conditional-logic.png": {
+      "md5": "13d0cc60f7a4d1eccd325f2e2541370b",
+      "sha256": "73424272566934031a01c05e39247af5a4d1a765d82e1039c42295d43ddb8d21"
+    },
+    "assets/img/add-ons/constant-contact.png": {
+      "md5": "153b65e4ac39e4cfcf896885dd2e3aaa",
+      "sha256": "2b637645a07de49f905dc93fd721c145899b71f7afe05e679e2161b461e60a32"
+    },
+    "assets/img/add-ons/convertkit.png": {
+      "md5": "29c178e611516cdf3b7e864f0cba3dbe",
+      "sha256": "517cf86d3d99ae5e92e8c91cf1a5ad346bcec3f8ecc1802969d613be1be804b6"
+    },
+    "assets/img/add-ons/elavon.png": {
+      "md5": "b06f3c2ebc49e13777e923f4f2458226",
+      "sha256": "eba9cbcd850858f4d1cab72bb7ad4eb855a625441703c93128652dcd4dc7d2b2"
+    },
+    "assets/img/add-ons/emailoctopus.png": {
+      "md5": "db7e7b2dcbffee5c0e98e31460600fc8",
+      "sha256": "84c80375b6596cdbaa7aab4c528f3f85add8a17309130626fed324bc1997cd88"
+    },
+    "assets/img/add-ons/emma.png": {
+      "md5": "bbc0be3698fe702837e216f9f5863bba",
+      "sha256": "e3a99d77e8ed682367e5d869aab35aedd182f6a160dbce4fbb7e796dd931a3fb"
+    },
+    "assets/img/add-ons/excel-export.png": {
+      "md5": "f51e2f69e7cff57e89b7a7313247ff91",
+      "sha256": "aaa1e18539e68c7eac4763e904010a35377cdf428b755fb775d5ae6f32b15f59"
+    },
+    "assets/img/add-ons/file-uploads.png": {
+      "md5": "1a4d742ad8c91d14c8c9c8a060ede2a3",
+      "sha256": "90d064bc3d858bccb6b05bc5cb677612cb4a42c8802cca85e5b3d4439e3baf3d"
+    },
+    "assets/img/add-ons/front-end-posting.png": {
+      "md5": "2e8abf00e378604c3c51c6a75b9d1f39",
+      "sha256": "5333647f94b595706266cad0be095034b001819466ad525cfe1fcfa19f51ba16"
+    },
+    "assets/img/add-ons/help-scout.png": {
+      "md5": "947e0c59f3374fdd93cf6dc23e9455b0",
+      "sha256": "ccc01e6858a726d8c8b0542fd065e2ba3f0f271c6b29f2cc493cdcb4f0281d7a"
+    },
+    "assets/img/add-ons/highrise-crm.png": {
+      "md5": "1e664b80c6f371e59bfed6cf42afee19",
+      "sha256": "08432f880077171e1327b5b10bea1ed8bb29fe3458404d1d420294d44020f116"
+    },
+    "assets/img/add-ons/hubspot-crm.png": {
+      "md5": "b14dec32092ffbd3a801370c7a607b0b",
+      "sha256": "b04a688ea06360c180d3b1a99f268375838f221ac553c069848080b9216a8d75"
+    },
+    "assets/img/add-ons/insightly-crm.png": {
+      "md5": "ccca27a34f3da78890247c6361e9d616",
+      "sha256": "c1be6b87215a445966944db842dd437a3ada6e22b36b3c7476d914e0f688ee21"
+    },
+    "assets/img/add-ons/intelligencewp.png": {
+      "md5": "859f8730dc9fa9e952377c8379867194",
+      "sha256": "e3cd2eb1f647823e0133d85e124bec52c6c5da56283ff0faf5d34303e0f1fd20"
+    },
+    "assets/img/add-ons/layout-styles.png": {
+      "md5": "d1a803e96aa11308d36622ce1cb64a5d",
+      "sha256": "a22a030cf03c2fc8ee0da7fe19d043f2a1d33f20b47308c81be58006bbacece3"
+    },
+    "assets/img/add-ons/mailchimp.png": {
+      "md5": "2e86f45000a0859603c0fa4ddbc2dd25",
+      "sha256": "10cba8f36b2949d7df40d4ff815267c2ce5f0797299bd33e95f02a64a1c1560d"
+    },
+    "assets/img/add-ons/mailpoet.png": {
+      "md5": "95a2d2ef1e1483d102d6c9a045f11c64",
+      "sha256": "66b376d2adb8070a808622628bd5ec726ec463a434467a017060b2638c929baf"
+    },
+    "assets/img/add-ons/multi-step-forms.png": {
+      "md5": "49173552019625a987dfc1bc48122dce",
+      "sha256": "ee5d41eb66602f3353704d81e7e8acd1a7f2b09319c16bd4bc441376967fcc0a"
+    },
+    "assets/img/add-ons/ninja-forms-cleverreach.png": {
+      "md5": "76ab6a941fb4a8fb6ea31a11715b1d9e",
+      "sha256": "9183a33ad3ed93d7c066c42847cad517cc189f2a70618c774696418ebf0425af"
+    },
+    "assets/img/add-ons/onepage-crm.png": {
+      "md5": "89b995b18227dfd68eaffb0ec962cfcf",
+      "sha256": "6316e883d8069b80a79b2d3e3dd66adac8b267c7a4bfc0cd6164220567754457"
+    },
+    "assets/img/add-ons/paypal-checkout.png": {
+      "md5": "0d9c8eb8ff6d1371861e054978c1e993",
+      "sha256": "a400e174aa9e3593b799cdf581b0b77315695fa8dd0b27bd6a1b8bd139197a16"
+    },
+    "assets/img/add-ons/paypal-express.png": {
+      "md5": "df23d9d41b8c70cc2ec256d71dccf642",
+      "sha256": "f42b117997b73c83be5852118ae0cbc8a4aa1ad3df63ce3e4f7c35b73c9cd7c9"
+    },
+    "assets/img/add-ons/pdf-form-submission.png": {
+      "md5": "46adec7d8369772532aa630230a376ce",
+      "sha256": "eb7d7957850e7e271d3437b67d239578657097cd83cf11a3e6ca97e956ad2e78"
+    },
+    "assets/img/add-ons/pipelinedeals-crm.png": {
+      "md5": "6b9f28a43f12c866485453cd48ba3a17",
+      "sha256": "d5372f02df7de71699cfd86af5d453ef7492addfd5dadc6f9099fee8c8991977"
+    },
+    "assets/img/add-ons/placeholder.png": {
+      "md5": "1a568b446197c16e2c5cd2f2d8084d48",
+      "sha256": "8345026de3402a92e5cb26a673efedd86fe4aa33ecada0e47339047ede403214"
+    },
+    "assets/img/add-ons/recurly.png": {
+      "md5": "04aaf5503cd4418672fed08cbb1ddeb6",
+      "sha256": "e9bc4d9d693c117f2bc92970df95a2370ba8ee78db70e467620aacf27d941e2c"
+    },
+    "assets/img/add-ons/salesforce-crm.png": {
+      "md5": "89fb320c83bdbe40faf67aa5ad800eda",
+      "sha256": "be669532ab9508896aefca2637f46e3866800163d6b5c25d51c9176a3c2eec53"
+    },
+    "assets/img/add-ons/save-progress.png": {
+      "md5": "384934f38106cfb5c250b786bfee9139",
+      "sha256": "3ab01ed2c4bd3e5383ecd83d5473c7dc72411d8eb20d206ab70c197fd2145f68"
+    },
+    "assets/img/add-ons/scheduled-exports.png": {
+      "md5": "9373b591b80fc60e8dba162f9f0f6b34",
+      "sha256": "a470807d07cc96664e4c42887302c718dd9d7a8cd7dfd67c1dc9d146e71017bb"
+    },
+    "assets/img/add-ons/scheduled-submissions-export.png": {
+      "md5": "9373b591b80fc60e8dba162f9f0f6b34",
+      "sha256": "a470807d07cc96664e4c42887302c718dd9d7a8cd7dfd67c1dc9d146e71017bb"
+    },
+    "assets/img/add-ons/sendy.png": {
+      "md5": "e995607e387b257657f022d5fda8067b",
+      "sha256": "eb531342ca6df13ff8b49a8da844a33aeeb54cd2dabb009607fbfd9aeca1183c"
+    },
+    "assets/img/add-ons/slack.png": {
+      "md5": "a673f74dd54b196fa41e5387f64b5264",
+      "sha256": "5f804167eabe67fe7a610b072acc0162be3be6c0451c97082fb8190541902d04"
+    },
+    "assets/img/add-ons/stripe.png": {
+      "md5": "c3310f0922429ed098f9a04ba7f9f064",
+      "sha256": "6a1d3e0056c34c050efe47e04f8f6bf2806aadf81fb052a28b75a4b18a86c6f4"
+    },
+    "assets/img/add-ons/table-editor.png": {
+      "md5": "8d6c592d4ae93fae51942330147667c8",
+      "sha256": "802afd981cf62603c0f77a97e10d507ab6d49c59b7b1dc52cc3fc3b9257a3048"
+    },
+    "assets/img/add-ons/trello.png": {
+      "md5": "d866995dbc2d8fc910e936844a2de663",
+      "sha256": "f5e222975aaa18a9a241c973855910f4d492414f76e6df3fc25bb70bbbf21f7c"
+    },
+    "assets/img/add-ons/twilio-sms.png": {
+      "md5": "9b94092cbfeb73abf14b0ec0e9065682",
+      "sha256": "9cbe984b5bfac3718d21cb832781b3e4b2fb15f9c1e585550e961ba6158ae4a8"
+    },
+    "assets/img/add-ons/user-analytics.png": {
+      "md5": "9f433eb5123771a0b5e31f6af2b168f3",
+      "sha256": "10fd51167b4dc0537494537012ae8eb6a7f19960cd5c594267c723d769754b95"
+    },
+    "assets/img/add-ons/user-management.png": {
+      "md5": "a09f606d8cf0ee14015adf67e2eed197",
+      "sha256": "9f99d5776ac8cedc62564f783d0eadc7d308ae0f2738fe4078ca6cd076a2d74a"
+    },
+    "assets/img/add-ons/vimeo-uploader.png": {
+      "md5": "9fa3bf9fa4db0c30800769811b552b16",
+      "sha256": "f99228d1cb5e8f9f7aa8950a711f176dc3cc4695d52d43def2e1738a4a2fd394"
+    },
+    "assets/img/add-ons/webhooks.png": {
+      "md5": "229f0f1e9d26c607f844526b0ad14ed7",
+      "sha256": "c78f707b9c2983db284f4c4773c48f7279ee71ba080e414ad48cd0a555a41ed5"
+    },
+    "assets/img/add-ons/webmerge.png": {
+      "md5": "cf653d3e5a671edc4baf751fb439e679",
+      "sha256": "9cec9d0464a6f4576de57e2768930de7d8380c79c3e56b8396f6f425012dd048"
+    },
+    "assets/img/add-ons/zapier.png": {
+      "md5": "edffc4a3309febf0b54fb1304e3a8de1",
+      "sha256": "7f262090a8accdcb5cbd2e985e78493d62250e6ec6bc152d06cfd587e6b861e8"
+    },
+    "assets/img/add-ons/zoho-crm.png": {
+      "md5": "6e7ef478fe5885427b6465f8a534b292",
+      "sha256": "f27f7d9a515ffdc7b7499cf8a7ba8206a61b95c2aee536bb8b9a11116dcb5adc"
+    },
+    "assets/img/onboarding/congratulations.png": {
+      "md5": "5d795aed9a0d6fcebfa37b5fb0099c3f",
+      "sha256": "0ea6d70980f258e3541f5c7b73a62127c1fb4acf155689a14bbae1f15795656f"
+    },
+    "assets/img/onboarding/nf-team-welcome.png": {
+      "md5": "eb35a75e9d46e1bfb308a84007f3a608",
+      "sha256": "6666ed83a981069188b9f1d83b529ba1567f8e3f547b30d9ac0bf7c4afed5b31"
+    },
+    "assets/img/promotions/dashboard-banner-personal-20.png": {
+      "md5": "cac990c319a21fc7cab231660081f813",
+      "sha256": "e684e29927ed60d498a25d6cabf7e55b0383bd647a1add00cd49dac931ad873a"
+    },
+    "assets/img/promotions/dashboard-banner-personal-50.png": {
+      "md5": "34a2bcbbcb5d1587e2671ec5fb31ec66",
+      "sha256": "91d136a0eebcc54310fee31bae7f1b14a002196920dcf35923aac2d7cb7fe8df"
+    },
+    "assets/img/promotions/dashboard-banner-sendwp.png": {
+      "md5": "123970b24052d14ca29ada6b5858b024",
+      "sha256": "8b9b991c9fd62abd045959e31f32c6b3c80b1f15b75979974e1ce41ef2dc4587"
+    },
+    "assets/img/promotions/dashboard-sendwp.png": {
+      "md5": "ca8e1bd8978728ff1acb499b152d3491",
+      "sha256": "953e45044bc6efa3d1adfc79e06a7d2afe80413765618cb62cab1cd12136a6f1"
+    },
+    "assets/img/promotions/dashboard-user-management.png": {
+      "md5": "fbee3d634223df5387bacdebcd3dea8b",
+      "sha256": "d61032baf75687618941119367e0e996341fd23e56c5fe0e9c394633e491b8d0"
+    },
+    "assets/js/admin-import-export.js": {
+      "md5": "7577905ac90f3c2b0776643b46dc2dce",
+      "sha256": "98b2c8b9fa4269e359c8c5df4a82e6c58fa67082ac39fcbcdac37457ec3ca16f"
+    },
+    "assets/js/admin-settings.js": {
+      "md5": "2c6f4f524ceb063a2fe0ee7116bd8104",
+      "sha256": "127c63740f6f34fbe8649644437deb985aad5adf3c5f2c44f13e7eff563df7b4"
+    },
+    "assets/js/admin-submissions.js": {
+      "md5": "1552938e811f938ac1bd1c744f2cfb7f",
+      "sha256": "a6fbcc951066cb7a8eddd9ec27aab42796c01bd0c19f342c9a988443a7d8871b"
+    },
+    "assets/js/admin-system-status.js": {
+      "md5": "6270595989d3d66759995b550c3f5788",
+      "sha256": "a95220305ddfc1c69380052e8f8710fc5cd69acf51f7b99a59c6940a5294f50f"
+    },
+    "assets/js/admin-welcome.js": {
+      "md5": "1e4bc49dc05e79f8729648da9db9996e",
+      "sha256": "ad1b00ef13d3fffff105f4a459270c1462d1f266bb85efb221dc7956b95d7232"
+    },
+    "assets/js/all-forms.js": {
+      "md5": "707b95682b1098d7729de23213c456c6",
+      "sha256": "1f652aaad5862cde9282b5a0f058360b09640d88ffb2eac428d002897420a7a5"
+    },
+    "assets/js/backbone.js": {
+      "md5": "de53fe50a32803489ab1a0bbf760e8f6",
+      "sha256": "4187595fb11afe30d3492e393ef3f53fb2eac785bc4957dfdab9f444f4b6bd7d"
+    },
+    "assets/js/nfLocaleConverter.js": {
+      "md5": "3acbd08da0b1c140863d5c7166602d36",
+      "sha256": "23e9e34afb615be14bb8169278e76a421d5fb18ff4f812c888657d0fb33e25a9"
+    },
+    "assets/js/underscore.js": {
+      "md5": "2bb517685ae640af671d438d5a25a098",
+      "sha256": "92bb44a2b9fad0cbcba66d8b45598f9e12545e724d10672ae8de0b97e78d0f6b"
+    },
+    "assets/js/lib/backbone.marionette.min.js": {
+      "md5": "92e614a624a73b52ffa1c612c40c28d8",
+      "sha256": "36f65f86598ef91ced5ce7ce60525ce45bd46f7ceeee45f19fd62c39b931f234"
+    },
+    "assets/js/lib/backbone.marionette3.min.js": {
+      "md5": "299539b1c7eb55d235d02e741f199440",
+      "sha256": "f3f805f3ac90e4e014b30647305d70ce0fc043a17b86feb8fae25b2c30be3cd3"
+    },
+    "assets/js/lib/backbone.radio.min.js": {
+      "md5": "527d23ddde60c4b0c64f73125d7e5064",
+      "sha256": "f6bf8c5affc2e1bb1c52a24558fe7e406e7a5db9642bc68cc8dfd00f0abd6cbb"
+    },
+    "assets/js/lib/batch-processor.js": {
+      "md5": "bbf0a382319a6ec88fed1ff37e9375fb",
+      "sha256": "922016eaa6084917583bf1b929f5a1b32e7890bd0fc8873acb17f43e031c3941"
+    },
+    "assets/js/lib/blockFrameSetup.js": {
+      "md5": "0cc7cbf69025c7f9bad8d2b6eea65eaf",
+      "sha256": "53da523e250dee457175bcaf86776f6a5e927622273b4af1c2d62b9cd704fdd5"
+    },
+    "assets/js/lib/codemirror-formatting.min.js": {
+      "md5": "891578c05f5273b834acf1b6851d3a60",
+      "sha256": "b1c8bf0fbca4ebb383b8a2f6ada1b0c46ba110422c24c12bfd05cf88311bc187"
+    },
+    "assets/js/lib/codemirror-xml.min.js": {
+      "md5": "9d6063d17a66fe14833885aa8f7530a4",
+      "sha256": "b89e5c433a53e11bfd058dfcb5e430db7bd68862b747c711e6f0c50acb7ad1b1"
+    },
+    "assets/js/lib/codemirror.min.js": {
+      "md5": "4b4d2ee6598066ebfcbbe2503a632d2f",
+      "sha256": "565c7e09b03587b183c8a7d9684d785afcbfcd0611cd6962d0d6c1d66e9a2113"
+    },
+    "assets/js/lib/combobox.min.js": {
+      "md5": "44a07deca8ad9ca364bcc69da939cabb",
+      "sha256": "c2327e55c7c1450420d4f562a3cac1832b8bfaf1d9b5e327994cb7e118559120"
+    },
+    "assets/js/lib/feature-scripts.js": {
+      "md5": "ad81460f56e4009baf724d5a781ed709",
+      "sha256": "6303480a1b7ab227b9152f486e4bcfbda8c80c340d5554e9a6d2de862ebf2aed"
+    },
+    "assets/js/lib/global.js": {
+      "md5": "ca016b729802c5d6a44f1087e719825d",
+      "sha256": "ea12e3a1ffec7ae923a66346892e958a600f899a3d3b1cc8fbb6744547178d69"
+    },
+    "assets/js/lib/jquery.caret.min.js": {
+      "md5": "044b0cc96fdc65b07f2c69916466bce5",
+      "sha256": "04b95e5ba7cfcf6aba8376f51bc81288975353aa7cf89e3523b6a4ccab0ea4c3"
+    },
+    "assets/js/lib/jquery.classywiggle.min.js": {
+      "md5": "2fd2904e6999ab3eb931b2d7418608ca",
+      "sha256": "627ae562a5813b4c37c76f9a98ff4aaabf302e99c771d1591f066a46cfbaac55"
+    },
+    "assets/js/lib/jquery.hotkeys.min.js": {
+      "md5": "9d9fc2ec63df544c5fc54f108381eed5",
+      "sha256": "7416f197c1cd942f2d4aa44bb7b340bb5478e9bebcac93f7a3c34ebc2beb3ad0"
+    },
+    "assets/js/lib/jquery.maskedinput.min.js": {
+      "md5": "d3768b53e4fd54739584f1500932e4ab",
+      "sha256": "88b7e6bce990eb78bfaa499ef0448ab166b625969a9f469926d7b1e2f8651f89"
+    },
+    "assets/js/lib/jquery.mobile-events.min.js": {
+      "md5": "59a66c5f69924afc46b35b46c89590f5",
+      "sha256": "aa753d467bf84ced90a6abc8b40b2db88907bc4c5c7872da16f5906e6e19912f"
+    },
+    "assets/js/lib/jquery.ui.touch-punch.js": {
+      "md5": "72a858b93c92f91782e783e1b49ea2ff",
+      "sha256": "0869d5f9093219b6111f8913606028e78d231f4eadba5112a870b8fa2b2022d1"
+    },
+    "assets/js/lib/jquery.ui.touch-punch.min.js": {
+      "md5": "13ff3cff544791aa25f7098469c69ec0",
+      "sha256": "3e7da76bcf92eec8d0fd1d4f8098eb67e1f307a17232c3f05104509dfef1f62f"
+    },
+    "assets/js/lib/nfOnboarding.js": {
+      "md5": "93bba8944b22a4bcea712dc6748a4575",
+      "sha256": "f206dbc6664a9fa85ecaf6a71b83170670a51eb787ab3727a113056452833afe"
+    },
+    "assets/js/lib/ninjaModal.js": {
+      "md5": "110652eaf90f6e4d1a1ab0e3ec2f489b",
+      "sha256": "28f43e832bd3a4ddd35a8f839e53542c0ae4690e479a2865f067f7011d4658c3"
+    },
+    "assets/js/lib/rating.min.js": {
+      "md5": "f82864be0db2b9201bdaefb83cdaeb88",
+      "sha256": "79a3d0582959f0c324ee09ef94fa790c48d86442ab5fb461578e0cb1c9257855"
+    },
+    "assets/js/lib/sendwp.js": {
+      "md5": "d68461016f102658ff919bda0e0b13f5",
+      "sha256": "2f649fd14734325a933b0a6ddcd3c216e78543950ba42ab213b9a391a7320de6"
+    },
+    "assets/js/lib/summernote-lite.min.js": {
+      "md5": "91dda6e41116fc7347e90bddf2db4386",
+      "sha256": "e4de051e54bb6d6c9bd8bc88ccef9343778736f6ffbdf1048dc7400dd22f5536"
+    },
+    "assets/js/min/autonumeric.min.js": {
+      "md5": "ffd9975e4b13dbf645bdf4da7ab6f53a",
+      "sha256": "dcf3358b2691b152fe28875ea962bd180e696c17610ed51eddef9c6b5a96ea12"
+    },
+    "assets/js/min/builder-deps.min.js": {
+      "md5": "66f0b906caa6a8fdf509743bec003a90",
+      "sha256": "ff4b94e45819fabb33669754dd37bac8d43526c371dd992ee26937d5821ae8e6"
+    },
+    "assets/js/min/builder.js": {
+      "md5": "34a85800867d08301270a3e734dfcf0d",
+      "sha256": "4499be246743ef7c60a22885e6c018e2cb06e25950ec8d5b7629ccec7d079089"
+    },
+    "assets/js/min/builder.js.map": {
+      "md5": "95813c7f58a31b1fdb4f22f086d09f6f",
+      "sha256": "96e6bf48ca0d1433ca2a293a9142f69527115ad282a39e14f2b7fe925a2e559d"
+    },
+    "assets/js/min/dashboard.min.js": {
+      "md5": "9f2278cc3109923e9bf40e7cd7315e91",
+      "sha256": "a498a26aa25aff317e7faad2ff2ac4ac6446fef4e24c12188d57abe25f112b03"
+    },
+    "assets/js/min/dashboard.min.js.map": {
+      "md5": "58368e73e6435e30fddaaa4f778a2dce",
+      "sha256": "15546490d5fda4b854b4a6c1e4f15300966407c571897ad9f8bbd5d39f22c6ce"
+    },
+    "assets/js/min/datepicker.min.js": {
+      "md5": "b0eb04df0d07455ab81f4f76a87428e8",
+      "sha256": "20d8f4fe5eb72f28096c7b8af8c90b846e9aa894927fe6e720b273b827002c13"
+    },
+    "assets/js/min/front-end--inputmask.min.js": {
+      "md5": "d3768b53e4fd54739584f1500932e4ab",
+      "sha256": "88b7e6bce990eb78bfaa499ef0448ab166b625969a9f469926d7b1e2f8651f89"
+    },
+    "assets/js/min/front-end--rte.min.js": {
+      "md5": "1566e76bbcefe2ae42cf28ecd3e594e1",
+      "sha256": "e7df8ff4e34dfa6f2509bdd4569654af4ad2a6b69d9cf6aa564112a11f99022b"
+    },
+    "assets/js/min/front-end--starrating.min.js": {
+      "md5": "f82864be0db2b9201bdaefb83cdaeb88",
+      "sha256": "79a3d0582959f0c324ee09ef94fa790c48d86442ab5fb461578e0cb1c9257855"
+    },
+    "assets/js/min/front-end-bundle.js": {
+      "md5": "7aaa87dfc9a6064a075eb57bb33eb6bc",
+      "sha256": "db4c550c5ef0e3ad3144731be574d0dd6df5121891799323b11fd16c56d6b279"
+    },
+    "assets/js/min/front-end-deps.js": {
+      "md5": "800f9018920b9caf506b4e3d1618b062",
+      "sha256": "1bc4057f60d9210be767a211286f2daf025038069b947793973792b8a39906e2"
+    },
+    "assets/js/min/front-end.js": {
+      "md5": "8350fe828820804aa4fc9c18ea983ea9",
+      "sha256": "96f7271bc6ed649dd765c90cf52b9a09dee3804b179bd1c470c9e745bbb875c9"
+    },
+    "assets/js/min/front-end.js.map": {
+      "md5": "8645560d70803b80221f535053b48d49",
+      "sha256": "8581f4f9745ef5cbdfad14e81f59af40a3596d11343488ea3b5eb29705bace16"
+    },
+    "assets/js/min/jBox.min.js": {
+      "md5": "e551692c4972e389396a7410add5ecc3",
+      "sha256": "ce730b7a6254c075f532db3cd05dc7231eef6699e4cb10da7bba1e1123c8b1a5"
+    },
+    "blocks/bootstrap.php": {
+      "md5": "9e426a1b5fd60aee63fadb767d412983",
+      "sha256": "2e57b77baf99bee785c432d16a96b07a0d918e46d0a0078361f391cffed66ed8"
+    },
+    "blocks/ninja-forms-blocks.php": {
+      "md5": "797a614d971b861a016d948e16d97bb6",
+      "sha256": "08a9d29b6e6ca097dfa03e10be1dde725b8e5a601194c546f57c28ba4b0d6d93"
+    },
+    "blocks/README.md": {
+      "md5": "2f121f1f85a1064f238cb117e6eb8f15",
+      "sha256": "c392b3c3280a94720666745384d52041f1602d34f1f953265f081213bfef1061"
+    },
+    "blocks/form/block.json": {
+      "md5": "707ea504196dd8d3160e496eee63129b",
+      "sha256": "5a05cd5f607bc12ee1062a0d7dcb93071d26de9856220c0124413156a2b17bda"
+    },
+    "blocks/views/includes/Authentication/KeyFactory.php": {
+      "md5": "4adf7ca5737d7051fab896659476886c",
+      "sha256": "83ac77d9cba3d3667a71dde843b1a40e8d1c7b0eb9b0e11e5f8dd4c6a05c38d1"
+    },
+    "blocks/views/includes/Authentication/SecretStore.php": {
+      "md5": "ce20f0ab39e00ae96f3a7508c1ba3e49",
+      "sha256": "509dde585cfd927a908cb09c4c839cde91fa6a1aac65911f448841f6ce0ae8bc"
+    },
+    "blocks/views/includes/Authentication/Token.php": {
+      "md5": "c20f866a0b44704628e1674c349ffbcd",
+      "sha256": "f6d88b9a588f85244a1a3270d256d7d27bf44eb10d3453856828318856d527b9"
+    },
+    "blocks/views/includes/Authentication/TokenFactory.php": {
+      "md5": "e7a5337aa9ebc96bd7d9fe8befb23972",
+      "sha256": "a2584daa5549028d395651dc802e71379680dbf59ce6009f530ee3f3ef6bb691"
+    },
+    "blocks/views/includes/DataBuilder/FieldsBuilder.php": {
+      "md5": "3b059ddb9c3a6dd62c4d919f32442c60",
+      "sha256": "81516b11d5e1395baa4df0a678fa570502304c41427417c399da6d20204938c7"
+    },
+    "blocks/views/includes/DataBuilder/FieldsBuilderFactory.php": {
+      "md5": "664e1f9bc92536a90af7ead976a1ab4a",
+      "sha256": "b1363708f73ebd668c5a0be59223e4ddac2817e10c2f212e165aaffd6be1a6d2"
+    },
+    "blocks/views/includes/DataBuilder/FormsBuilder.php": {
+      "md5": "d247a1e703be96247440e70f2a720361",
+      "sha256": "a9d2f737bc564cf04d8d2a63d8a108712f65f857a364958061feb2c2ef928cfd"
+    },
+    "blocks/views/includes/DataBuilder/FormsBuilderFactory.php": {
+      "md5": "55cc08ecd7ce193c980cc97b7d2ab410",
+      "sha256": "87238124ddb7be52f0eb63ff17e710670f7354c680364e9f6ec8379813c5ab43"
+    },
+    "blocks/views/includes/DataBuilder/SubmissionsBuilder.php": {
+      "md5": "93c836f4091c856bb8a70fdf301019f8",
+      "sha256": "36f0e985a495d074719bfeee59b385dd01f66471df102d99e6e126d13e3edf2b"
+    },
+    "blocks/views/includes/DataBuilder/SubmissionsBuilderFactory.php": {
+      "md5": "a7a550ce93a0a3c373db5d6fc0830e46",
+      "sha256": "746007296459c723cc8b020fec02e13266f39d174930300ce27dfb6f18dac7f1"
+    },
+    "build/dashboard.asset.php": {
+      "md5": "17ede147c9bd8f786571bfd909535eb6",
+      "sha256": "4bab56c47d02405ecc2a1c3f34dfabf89d94fcbab61202f6af47ba48b570e30d"
+    },
+    "build/dashboard.js": {
+      "md5": "caf39c444bb78c327bf072188e6646e4",
+      "sha256": "8895eb2abad7b41c9653ba1243bb32b10581c0fd7863b6a465aa54e44ea95225"
+    },
+    "build/dashboard.scss-rtl.css": {
+      "md5": "8cfe71bf93297cf204b85893e1cb4d56",
+      "sha256": "dab090c7cb92fcdc8e404d8af9fdbf9bc689f4d9a829f9a8956590ed36ec19a7"
+    },
+    "build/dashboard.scss.asset.php": {
+      "md5": "08b993207ce4bb553e1cf72f096d052c",
+      "sha256": "b9cf3c85628d02fe6db6e404f32d3ea34e265f3381b3c42d8f5c50c3fe9c766b"
+    },
+    "build/dashboard.scss.css": {
+      "md5": "872afc0de63a5adc6f4a662cc4440623",
+      "sha256": "d9650f1564f72b77e1c908f66bde22990582f5b615a4b5f3f753a4fa4d7199ed"
+    },
+    "build/displayFrame.asset.php": {
+      "md5": "ac622a987ec82a2a4010564aa9c2f591",
+      "sha256": "4a2101908550e5e77e0d56350c1f9fde8a4c1cea030e71f22d3e86796630d9e3"
+    },
+    "build/displayFrame.js": {
+      "md5": "f8913c004fb13b9743d5e1e073e92b3a",
+      "sha256": "7020233e9233e5087f1ab54a4594ae4d8ac3bb2b1469a7afd70aed5ce1cb154e"
+    },
+    "build/fields.asset.php": {
+      "md5": "42ff2c853cca2c1d0f7c1e78066ab840",
+      "sha256": "f308e33cd0dd0dc8536ee0e2839c1c6fe6ffad2f1696532b03b7a648e9794424"
+    },
+    "build/fields.js": {
+      "md5": "6579c05cd94e4b19cb73069e88bd03c6",
+      "sha256": "9ea91038d7d8478c3caa53b8c9c3b6db2c185fc203f3005e5f385a924bee1e92"
+    },
+    "build/fields.scss-rtl.css": {
+      "md5": "cd34f5d843771855a73b1c58dda0ff60",
+      "sha256": "84eed6affd51aa58f0757ea496e88488be36955fdd595462f94812333fbd94a6"
+    },
+    "build/fields.scss.asset.php": {
+      "md5": "bc3a426e22be47cd8baf3b1651b893b2",
+      "sha256": "f55a3ab99dbb5dae4322eaf77c773b8c2cb74ab393d5ebb0a02a145a515935d8"
+    },
+    "build/fields.scss.css": {
+      "md5": "fba6651507712db442ede747d8f1b0f3",
+      "sha256": "5c9d4f4db00b1f999708e76d8f5600f8bd51d0bd835961fbfba9bbd55dfb9e27"
+    },
+    "build/fields.scss.js": {
+      "md5": "d41d8cd98f00b204e9800998ecf8427e",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "build/form-block.asset.php": {
+      "md5": "2d0a3cdc338441c86e15c124f38eaf50",
+      "sha256": "44114d69e2347f60a9d72f195eefb07c189ebe9641552c24c51e5d1cffe77420"
+    },
+    "build/form-block.js": {
+      "md5": "798c55229b17d027ad22922df3e6c4ec",
+      "sha256": "94d6930fc08be2c096bd48af8d56dab97105005bad7e892350e6fac21fd6b6fc"
+    },
+    "build/nf-behavioral.asset.php": {
+      "md5": "c91ac04ac032cc8dca40a28e9109ed2e",
+      "sha256": "fa349da986938e9fd8955bf4a4c020076700aa4b209d112476459d67eafb4286"
+    },
+    "build/nf-behavioral.js": {
+      "md5": "b5a879511a32be95c7dd7f9c446e785d",
+      "sha256": "6b51225ee9f37dd5283450273455df3cef0e5a51b4253ff7f28061dc171664d4"
+    },
+    "build/sub-table-block.asset.php": {
+      "md5": "3b7a829c30bfcd49027af55c7fd9163d",
+      "sha256": "841c7f3a8073c144a118b46d2ab4dbca2bb5f4765f9935d244abb925b1ea9383"
+    },
+    "build/sub-table-block.js": {
+      "md5": "67a70eb77439cf3151f32b83ca857443",
+      "sha256": "f356505b6b08d2acdd14d0327e05db8b43ed8444e279364207c3de134e0a8bf8"
+    },
+    "build/sub-table-render.asset.php": {
+      "md5": "89240896f2a7911e7cdcd51010a7fea2",
+      "sha256": "fbe79c73823447fb739e936d101927a6823ae04020cf34ee663c8f28279fc0c9"
+    },
+    "build/sub-table-render.js": {
+      "md5": "21050d19c2553faf2d9a58cc643d8855",
+      "sha256": "d7e2f127459dcb453ce529c5e77938a7296f6a243984e7c25ff501e9d1422ea7"
+    },
+    "build/submissions.asset.php": {
+      "md5": "ee698d09f9e99d8224f1cae51c6eef30",
+      "sha256": "4a456468580e74306760c70c9661c965527b5e8d502bfd37aba03982960a899b"
+    },
+    "build/submissions.js": {
+      "md5": "8f0fc824969117dd3c0d826886982be1",
+      "sha256": "ea2f69dbc2101c463a1fe4795386c15733349bee66fc13b48037a4318ff909c8"
+    },
+    "build/submissions.scss-rtl.css": {
+      "md5": "6b718dd0d17a231a42df37447d702abe",
+      "sha256": "52849069bcec66051b880e275d28a85ec4a181fbad2ae601b4072b63dcc14793"
+    },
+    "build/submissions.scss.asset.php": {
+      "md5": "332d4bea3e95ab45eb07b7af5a467c08",
+      "sha256": "96015e6b8ab19eed1d41c2c537956a2790076396ba3119e903d350a9c0052de0"
+    },
+    "build/submissions.scss.css": {
+      "md5": "4ab412c8e0f7b0dbaf31351f88a8bdc2",
+      "sha256": "0faba73c69c74bee7b593496e05894fc270aa3afd843f34887489ece21efbc6b"
+    },
+    "includes/Dispatcher.php": {
+      "md5": "13fde452f6d3c505ee51f7afba5994a8",
+      "sha256": "12c501797aaf3cb81d665cd58b668b33bb1f4023c2458729cf71b18f07417b43"
+    },
+    "includes/Helper.php": {
+      "md5": "9c868acf3a6ab543100967f9134ee09b",
+      "sha256": "b7fa23a331689f9108ab3f721f26ddfd94bc46efd14fb172a10f627d7555a81f"
+    },
+    "includes/PromotionManager.php": {
+      "md5": "1e542bddceb56cab0982a01342700180",
+      "sha256": "bae6ae5bac7e3705712c8645c31eca683088f45df6e3026c7bea6e7c5ff41a17"
+    },
+    "includes/Session.php": {
+      "md5": "1da4b5f2c47507ee21d03ab6a1c3a45a",
+      "sha256": "0963f2f2bd08f6d1d8c88e8e49d4faafb437df8f920837f8ee6b3769476134b2"
+    },
+    "includes/Widget.php": {
+      "md5": "88b72f9feb38d3d8eb7800dcdad6dbfd",
+      "sha256": "92de0777de31a1448bab2482053c91a7a1d181dcfd6d9cae3444e3817afe874b"
+    },
+    "includes/Abstracts/Action.php": {
+      "md5": "74ee7a3a6f2fd120061545ee781db120",
+      "sha256": "2772346e63a0c7d188344dd4b8220a1d80c8378dc8d8591b8416c9be64ddb531"
+    },
+    "includes/Abstracts/ActionNewsletter.php": {
+      "md5": "bdaa802057a548c6a9d54ba65064cdbd",
+      "sha256": "7ea131c2eb12cc76ee700e14e12920134ac1196a219f3960ce308956fb4ee30e"
+    },
+    "includes/Abstracts/BatchProcess.php": {
+      "md5": "6d6cc5267d855e2dd8e9691f51e4e5dd",
+      "sha256": "d7012dd17054875618edd3544b1d2d0f461c47867724eca535b41ff35f7aa194"
+    },
+    "includes/Abstracts/Controller.php": {
+      "md5": "b09f3b5f26050f48b3f13ad7f241a36f",
+      "sha256": "553ff79df8707c0f08f2feadbe490a4ecba8403189e98220a37fe0be77aec151"
+    },
+    "includes/Abstracts/Element.php": {
+      "md5": "ff3232a63b69d6fb646362db31a791eb",
+      "sha256": "0adea341200e45408037c4fef5f736897cc9e0143d4d4c768909d619f8d1608a"
+    },
+    "includes/Abstracts/Extension.php": {
+      "md5": "2dfd4915f40ad6a7b508d70bf95026ef",
+      "sha256": "3debfca9432fbd15dd0e53cc3ca7e18891c059313969e82162d9d85690a9efed"
+    },
+    "includes/Abstracts/Field.php": {
+      "md5": "c7c4a4abf5e0bb4d6bfc6b07517a0fba",
+      "sha256": "0fda9c5cfe52f09b4193f8d4dea63a77dd7e55a9e60ce63e16855ff53e12fe43"
+    },
+    "includes/Abstracts/FieldOptIn.php": {
+      "md5": "e4565f13df840283820120be4c60d26a",
+      "sha256": "36bd932e1559ee4cd3dd64f8cd878b16993a426208f1851200f3068b66d35eba"
+    },
+    "includes/Abstracts/Input.php": {
+      "md5": "bed83ebe6cb77d687f8690833d4e05f3",
+      "sha256": "901cb27e2b0266c91d513c2836b9bb35714a802852fb4ab965b4ab307b39542a"
+    },
+    "includes/Abstracts/List.php": {
+      "md5": "855e479435a5e7921d27c6921a36c705",
+      "sha256": "41b55730ed3af60dbc9ecb43c2f4981644d7d6c5e12028131a2a87804b64045a"
+    },
+    "includes/Abstracts/Logger.php": {
+      "md5": "f6aaf30d9fb6946e6bf7524d554bb48e",
+      "sha256": "9a0c14d889fd3e74eb820a324d7c938c78bbb2b5e616621db192cf3bbef5c036"
+    },
+    "includes/Abstracts/LoggerInterface.php": {
+      "md5": "01d6067d0427f1b8cc3b94fc5f321ffc",
+      "sha256": "58cae7fced02049b1810dae696cf93d4f7bc37405dfe77c292f2a2e1fa7beb89"
+    },
+    "includes/Abstracts/LogLevel.php": {
+      "md5": "111bf89da649af80df4cda15c28f5b69",
+      "sha256": "3b3711000ccfae37d52f8357c97c8be140c9e8f7d6f90d86cb823ae643b66211"
+    },
+    "includes/Abstracts/Menu.php": {
+      "md5": "03d6c6306b04bd380a278f49f5db9677",
+      "sha256": "d8c7da574f1fba0427ff966051aa93eaa7adf7466fc33416484f97b24188b662"
+    },
+    "includes/Abstracts/MergeTags.php": {
+      "md5": "639e4ab65e23624ac4cee46eaf04d8d6",
+      "sha256": "ab2cb1993336eaa7ab1b8afcabbc33c04910b8b6df25ff0556afe9c4ad0fa51c"
+    },
+    "includes/Abstracts/Metabox.php": {
+      "md5": "4a3e1a86c249118183a2c00cfca67062",
+      "sha256": "dc1e2954d899c84c4da03fb56b855ebda1f81d09c6b558e62d01b531773b3c75"
+    },
+    "includes/Abstracts/Migration.php": {
+      "md5": "44764a51212e0dac663bcd46d0725c0a",
+      "sha256": "7eb36f906e0758c7e3666938236c1c74f0d8202961be8a0c4ff3a111537b27b4"
+    },
+    "includes/Abstracts/Model.php": {
+      "md5": "7bc0038060e2d0a363b9a22afb63db16",
+      "sha256": "117f7fee09b4ad81d4039fc1efaa5c92016e71950077e919daa3141211e7b745"
+    },
+    "includes/Abstracts/ModelFactory.php": {
+      "md5": "6e00c80981629b61d6eca3963b7a9223",
+      "sha256": "381f8b371f94ec6634b2784516a30a66532bd865c7b344035feee99e8d2357f9"
+    },
+    "includes/Abstracts/PaymentGateway.php": {
+      "md5": "118d8d04d142f7f86284cc9c5305ab10",
+      "sha256": "fab69ca73f5a2c5f5f9ab05b62e624817aa7ba39e88ecc0079655e891003199d"
+    },
+    "includes/Abstracts/RequiredUpdate.php": {
+      "md5": "e5400f8f3e6158a6ee9d3e061b5c0594",
+      "sha256": "6e56cffa229095c2a1afe1a4838253518e601cddb67c6ea36e712195f5f97da3"
+    },
+    "includes/Abstracts/Routes.php": {
+      "md5": "845b2faa404c941660634063c8337aa7",
+      "sha256": "8865fe62398055e234bbf2b2de9aca847c857d1aaf69c6160b256addbba44022"
+    },
+    "includes/Abstracts/SotAction.php": {
+      "md5": "0ce2d79025c89118047e078cb5ef82e8",
+      "sha256": "9f629241d0abc2236594a80b11ea70cd86ac4577a183e01acfb2ec0f1436b4f7"
+    },
+    "includes/Abstracts/SotActionNewsletter.php": {
+      "md5": "0f81e695a28c4bb6c06f8e32303cf9d6",
+      "sha256": "ce4c637f6da8ec2041494b7b2c28b7f43aaebf9c6e5027645c593c5846ffb36a"
+    },
+    "includes/Abstracts/Submenu.php": {
+      "md5": "8e3e8bdaff5ff490de9ace29a271cea8",
+      "sha256": "4e94460ac2a50d509d0c18d008b66cebc7b5b7e7539262c60169bd63110e3511"
+    },
+    "includes/Abstracts/SubmissionHandler.php": {
+      "md5": "20375cf93e04abfe954efe363ce69829",
+      "sha256": "e96fc29d0a2ef4f47191e2588f3f14cac2a6045374cab145c4058ba943df5c40"
+    },
+    "includes/Abstracts/SubmissionMetabox.php": {
+      "md5": "aa1f52c1781b711cd68e3598106ed919",
+      "sha256": "f48985f6382c38ce0160546d631d2324c59002a8c5264a9927673cb9219dfded"
+    },
+    "includes/Abstracts/UserInfo.php": {
+      "md5": "632e10d7953506f79842f359c3a44b9b",
+      "sha256": "f2cace018330cd13942fa5725658d355049a3f3508613e2e7ae6f6249f81746b"
+    },
+    "includes/Actions/Akismet.php": {
+      "md5": "66aa1101f78c9ed1d349d14be5f85511",
+      "sha256": "6b080481486cdb7e8e797e27adc012c913462f759676e44987714cdde24b43f6"
+    },
+    "includes/Actions/CollectPayment.php": {
+      "md5": "4f6cd6c4458ffe15a2075afa5864278c",
+      "sha256": "8c30bb4ea852b9bb61395ad053445180228b078ce5082193e343b58e43ab60dc"
+    },
+    "includes/Actions/Custom.php": {
+      "md5": "4cc8c5ff2c2216ae38a876205532cb89",
+      "sha256": "d6b70e75a98d56b28668c9728cb551d9853458ba4256380e24dd632ce7ec50e1"
+    },
+    "includes/Actions/DeleteDataRequest.php": {
+      "md5": "70cde0c73f75909cc6f2d9bedda99426",
+      "sha256": "edf873dfcdf356d34bed99c45d9c41df6354caefde45653f02555fcf01c23981"
+    },
+    "includes/Actions/Email.php": {
+      "md5": "4d81510de3153e8a3326626b74d36640",
+      "sha256": "11ed4da53e54de40977c2a31e28bc392704e97b0982705727fdf5ff0664c7090"
+    },
+    "includes/Actions/ExportDataRequest.php": {
+      "md5": "a565ac75b8d51758243976341e6db996",
+      "sha256": "5cfef40d678f1577bfd8925474b9a318b13758b2d5cdcb31b44225c519321b07"
+    },
+    "includes/Actions/GoogleAnalytics.php": {
+      "md5": "8cde98445936fd3ee3529754c968b1e1",
+      "sha256": "e181be2af04ae5e2ffe76ee3adf72aa77372cbc49d6d8e9d46f1f7f6f02264a1"
+    },
+    "includes/Actions/Recaptcha.php": {
+      "md5": "b7f2131b20f38e455f8ebab351df840b",
+      "sha256": "4c2c2dcbb9a975bd2e1fea103c1d9749256403a319b4812e00190002fa9668cd"
+    },
+    "includes/Actions/Redirect.php": {
+      "md5": "f4310e4545d35138644acb8888c69a54",
+      "sha256": "7daa10d93e490dbcae11573dac774a1bb58118dd68bac0266455cf7702557403"
+    },
+    "includes/Actions/Save.php": {
+      "md5": "3ba9a4d97f8af4cc9749d43182286d83",
+      "sha256": "34c8fd5a04ef9c120f37ad23205994374cad4a7f503a2d6e4a96730a72642a7d"
+    },
+    "includes/Actions/SuccessMessage.php": {
+      "md5": "80f5c0f6e2ee0bbe94dd0c7a76cc18ac",
+      "sha256": "6006c740919e12ba6f3a763bda7c16f36e4d09a4af0f2363188dfb8454d8cf1c"
+    },
+    "includes/Adapters/SubmissionsFields.php": {
+      "md5": "911732c9561fcf3b8e93754c8f751647",
+      "sha256": "2b9a5226681a4c455ce7cd5a8fcbb93c4c622c5ed2aa10bc3506ccc45006e9b7"
+    },
+    "includes/Adapters/SubmissionsSubmission.php": {
+      "md5": "455b6fe436c65720db24e910dc86a670",
+      "sha256": "12380ee9454e029deb623990e698879b4432d52cf5fe1ca8c12585781b255d7b"
+    },
+    "includes/Admin/AddFormModal.php": {
+      "md5": "e7d04503f46815a307cb2c5137cf158d",
+      "sha256": "892727ae75d01d13b27933cccf8722ca48d6c6cf285e31c451214fe634ab7b41"
+    },
+    "includes/Admin/AllFormsTable.php": {
+      "md5": "620f284d197d6c3abe5e6aa55461c344",
+      "sha256": "319f6a3c944716c840a0b2adcd8f6ac11ff568a58b5dc4444be9551b9ff52ce8"
+    },
+    "includes/Admin/FooterMessage.php": {
+      "md5": "5f30e850ad0a44be7aa1ba10d4e24136",
+      "sha256": "eda540154a2aa5596563134fb3c8217c80a44d9be4f8c31fef905b1fe597b9bd"
+    },
+    "includes/Admin/ManageUpdates.php": {
+      "md5": "8e591ce863f2cbb0f27236cb96c1cce4",
+      "sha256": "c6241b17112acce3c261c4d56c2f2b821f52bf3cdafaea0ea5ca948a9b9acd72"
+    },
+    "includes/Admin/Notices.php": {
+      "md5": "f113bf7ca9e048c9e1f4cd331e6e3cfc",
+      "sha256": "5a39898ff8dd8a3e1b2683196157dc2db534772d3264c012333b93052a52951f"
+    },
+    "includes/Admin/RestControllerSafeList.php": {
+      "md5": "385f843dca9d9efffc531a44d7348c1e",
+      "sha256": "2920f038bc4fed17e72b44f7c486eb9e15566b27f5b6909ad2a942d247e5fbb8"
+    },
+    "includes/Admin/SlimPromo.php": {
+      "md5": "44e97b3f2b69f86eaa49f002b8a3bb7d",
+      "sha256": "41021e7a730a3f53f7503aaf090def2cbfcde40a6d344076edbdbf5d23502f1f"
+    },
+    "includes/Admin/SurveyPromo.php": {
+      "md5": "dff54cdd8aa72343cc1c0e4876c0345b",
+      "sha256": "7bdb96c4f6146ab58cc6ef2b24d5110ea763aa61999f866707b565b9d3a8d20d"
+    },
+    "includes/Admin/UserDataRequests.php": {
+      "md5": "4930f52e66e07535de90ea712eb7767d",
+      "sha256": "a51f073a1067a0e38da908750e64f367abb7bc7aa5d301d6f4f7da3b0065bbff"
+    },
+    "includes/Admin/VersionCompatibilityCheck.php": {
+      "md5": "10b1d2a980fc3d39a96ff322c95c87e8",
+      "sha256": "79fb9576514fd39d3a076f3211a401c6e5a9137170de1bd0a31533e28a71f89d"
+    },
+    "includes/Admin/CPT/DownloadAllSubmissions.php": {
+      "md5": "4df6155b39fc281f4119a7850930d17e",
+      "sha256": "3ea277dfaeb8a283fd987556cca35d6dcc7d9e48e4568d04c0f247f43850b829"
+    },
+    "includes/Admin/CPT/Submission.php": {
+      "md5": "c1f7fb7a894065e6976484acb56a52e5",
+      "sha256": "ea12d02155379988e3a6798983521c8f295fef0404511ef4534cb3059a13d11a"
+    },
+    "includes/Admin/Menus/AddNew.php": {
+      "md5": "80bfe13531412cb2d31b5b482ef164c9",
+      "sha256": "5a69c3c442256fa082579aad2f77893b75a88d56aef22e8f171a8512fd58ec96"
+    },
+    "includes/Admin/Menus/Addons.php": {
+      "md5": "f7f530207eb92148de440b3d9ecaabcf",
+      "sha256": "eb5b8074e6ed77c3b994bd65b25e1517c2731f2d592f5de2ecfd420a8ee174fb"
+    },
+    "includes/Admin/Menus/Dashboard.php": {
+      "md5": "3e051fde6d50527a19980611faba6e06",
+      "sha256": "9099cb09a840cbdc6e181947e082c11463713570147b1e6db47ea5292d605be2"
+    },
+    "includes/Admin/Menus/Divider.php": {
+      "md5": "7896338769e541e81a5edbca93c9a49d",
+      "sha256": "7d4177ee4c6647ef3d9175b593299efffbf3a04006397e824c11bba0bdfe09c1"
+    },
+    "includes/Admin/Menus/Forms.php": {
+      "md5": "1f434adc7701b30d8faf0978f00911d7",
+      "sha256": "985f16d7de82ba3e43b24156b092c450c815c4ec11ede9ca88dac4f52c0408ea"
+    },
+    "includes/Admin/Menus/ImportExport.php": {
+      "md5": "c782c4150b364b26cc7ae979e1802277",
+      "sha256": "226d207bd7eec644ca9d216f092d785513501a48d6793a4a33c91848c66ed371"
+    },
+    "includes/Admin/Menus/Licenses.php": {
+      "md5": "5ad763000e3758f3249da00bbf7aedc9",
+      "sha256": "13f91026585df810bf8ae1e8ad9ddbf75a66d1b8e18e4dd76902e75266a9ef44"
+    },
+    "includes/Admin/Menus/MockData.php": {
+      "md5": "ddbbd716af8c9b4aa85380c9121b17ff",
+      "sha256": "0723f835cf508b149115c9c2936426228fb74983b2ac53dccc158846d24eaab9"
+    },
+    "includes/Admin/Menus/Settings.php": {
+      "md5": "13b973482f4b05cf36d15d6ff82d8dc2",
+      "sha256": "68144ff89fd0ae4ae0f9f762eec0ad8e04309735c3ea3e33a319b91841a5f655"
+    },
+    "includes/Admin/Menus/Submissions.php": {
+      "md5": "9164f01da01638b989804392423a1b4b",
+      "sha256": "05b7ea9ea149a78bd99b3872aedfc8081b8b2f5420c22d6b073e394fd2fe7b49"
+    },
+    "includes/Admin/Menus/SystemStatus.php": {
+      "md5": "068050216e8353556fe15fc302734475",
+      "sha256": "0b79b89596de13abca764a2df8e9084a11d8f70069a2013c55216a22d698557c"
+    },
+    "includes/Admin/Menus/Welcome.php": {
+      "md5": "747821724f1028badc0c4e9eab3fffeb",
+      "sha256": "cbeffd84fcb9ee9a140c985378973c4d2d47da398018e0ec340af374e908ac1a"
+    },
+    "includes/Admin/Metaboxes/AppendAForm.php": {
+      "md5": "f9dd3fa5287323a935e93b4f1b92333e",
+      "sha256": "b3d8cabd61db65727bfbb5f043e01b8937b2ece17f7708d488b036742e07fb4d"
+    },
+    "includes/Admin/Metaboxes/Calculations.php": {
+      "md5": "0c579ee8a91491d790697623693d5ea3",
+      "sha256": "3aabd024a52cb1818bf0ae08e3516bcaa91501f205989624d03a48eb1880f414"
+    },
+    "includes/Admin/Metaboxes/CalculationsReact.php": {
+      "md5": "b569ac6d1e98166c8a94fa0cd61b6438",
+      "sha256": "e5b89c6e4d3c8124fe9b1bb84b3f5d57e41227a99e8b91fbee29f5b765d66480"
+    },
+    "includes/Admin/Metaboxes/Example.php": {
+      "md5": "84932b220a0b2c41fd0d2a515caa2cd9",
+      "sha256": "2515f6c291fd3740eeb87c3ee55fa1824ecfc81f150d3b344769d8d37bfff142"
+    },
+    "includes/Admin/Processes/ChunkPublish.php": {
+      "md5": "1d655b2ed27fa7c8fe5c2802f15e2ae0",
+      "sha256": "516e62be5b128741cc7f5b6e093cc5ba761f75236d32ff2011f01eb48a5a78c6"
+    },
+    "includes/Admin/Processes/DeleteBatchFile.php": {
+      "md5": "a5dfedae10213f77b64b5b2e14b4e0ff",
+      "sha256": "c079e185bc3101008e0e197764d15041bedd1f936ad79c54a78ad3de92cf397d"
+    },
+    "includes/Admin/Processes/ExpiredSubmissionCleanup.php": {
+      "md5": "aac90984557356e35a55da1bf9f41fa3",
+      "sha256": "1b4a1f82d3e3d24587ce8787334664a0f2435ec3226735a3c9cd2f8ea1858838"
+    },
+    "includes/Admin/Processes/ExportSubmissions.php": {
+      "md5": "29cd00207781df5524e98f617b4e6e30",
+      "sha256": "e8cede284224fcbfe386e698d2945fc571e50768a883502ea1da19889fe31e4c"
+    },
+    "includes/Admin/Processes/ImportForm.php": {
+      "md5": "122cdfea240b21cffef417622e15bf00",
+      "sha256": "08c53d6ec6634860002b16da378e1de87e6747d3970257705daa09e1c5520f75"
+    },
+    "includes/Admin/Processes/ImportFormTemplate.php": {
+      "md5": "93b10131ae633824927e9c3a2657b2b8",
+      "sha256": "55641a91e258fdb0a9eb504606bc3b854e3a85094a310bdcdf258015d0f217a5"
+    },
+    "includes/AJAX/Controllers/DeleteAllData.php": {
+      "md5": "4e57969e2e23772039726a5b0038ed74",
+      "sha256": "9d4ec4944ae71a8eb7cf19712546fbd658b7219c74406a6ec06af6ad68c69853"
+    },
+    "includes/AJAX/Controllers/DispatchPoints.php": {
+      "md5": "d5ade01914690f290b87dddaf6330299",
+      "sha256": "697dbfcacae7aa752f3062c5a1ab89f04036d8ee72c6519538348e8340c24aa4"
+    },
+    "includes/AJAX/Controllers/Fields.php": {
+      "md5": "95411ca0f402b7b791bc70e7dbca5a20",
+      "sha256": "0cf2b17ccd62b3b14530ea3d4e749a24de6c8f0e5563510a6fc706116e510ef2"
+    },
+    "includes/AJAX/Controllers/Form.php": {
+      "md5": "af17db8cf2391ed20941ab4c2eeadc11",
+      "sha256": "9acdf4f11c2f27648bbe07c2e0c195e7e07f0e7777a5791c4411dad3ef27efd8"
+    },
+    "includes/AJAX/Controllers/FormEndpoints.php": {
+      "md5": "26222ae920e6ab8954b8550c229562f6",
+      "sha256": "605efb680a1f0d0f5ddf77a3f14ef76eaa502eecfa24a49a3b07f1ab9a36fc8e"
+    },
+    "includes/AJAX/Controllers/JSError.php": {
+      "md5": "927e2b68c9d13cd5027d6eec0be2b831",
+      "sha256": "541bdf731c393c41ae2c7c9ce648d12e346697b4a518a805850267ff75e19c8d"
+    },
+    "includes/AJAX/Controllers/Onboarding.php": {
+      "md5": "e2c102069c97321be8a141eba650ac76",
+      "sha256": "885bedf44388780274fb548a29648a97eaf27baf34218afd1b84cd7d715e7fa8"
+    },
+    "includes/AJAX/Controllers/Preview.php": {
+      "md5": "7aa4c0a640fbc3d4c95ecc6e9a9e36ce",
+      "sha256": "63ead5ce886407a344469f50d076224c01466ba4803c9cb87e7458bdb9ea2b61"
+    },
+    "includes/AJAX/Controllers/SavedFields.php": {
+      "md5": "1aedb20bdbd91c77e233201e2160e74e",
+      "sha256": "bd42d2a89ff22f382f89522ac883eb6b94b3c7f67a65788b909df065670138b5"
+    },
+    "includes/AJAX/Controllers/Submission.php": {
+      "md5": "f06182ff245a4357f073539e45803af6",
+      "sha256": "ff46f187afe29b51244488a9539bc199487e9d829671bb82db883c97f5a78ece"
+    },
+    "includes/AJAX/Processes/NullProcess.php": {
+      "md5": "1e78f0b08bf9d5b073fd08d0a331161d",
+      "sha256": "05742a6dcbde7deb21c1624fd246088c692e258b1d965ee36134c68b3c3e3b25"
+    },
+    "includes/AJAX/Processes/UpdateFields.php": {
+      "md5": "124ea2fca42a0c1528f1da100011a816",
+      "sha256": "562d63b0cc1874b405bdeafc791331a1dfb609c65ea0bc6dba7f932821bd445f"
+    },
+    "includes/AJAX/Requests/NullRequest.php": {
+      "md5": "f3a9e8131628bae16f6736af96745bfc",
+      "sha256": "b4f4dc2b7cbc2dc0f2924db6741de625f2e92c0ecb492cbe06555b3203fb80aa"
+    },
+    "includes/AJAX/REST/BatchProcess.php": {
+      "md5": "4d70afbde9e9eea6427dbcfc8d423dd2",
+      "sha256": "dbe57e8be53bcb11ea81cb74cfaf576281576e036f0593124d15982eed6155de"
+    },
+    "includes/AJAX/REST/Controller.php": {
+      "md5": "5b86f41cb259c971473f918b33e6a3cd",
+      "sha256": "8384927c9831e921c4cacc8446bfafdc8c39aac1b2cdbeb9c464c5141a50132b"
+    },
+    "includes/AJAX/REST/Forms.php": {
+      "md5": "af8abac8a2a73d6505332a9d870c049c",
+      "sha256": "1d3ce95e7c93a737785ead303d703e70f5a0d26a74148af64e8d4a9ecc051b19"
+    },
+    "includes/AJAX/REST/NewFormTemplates.php": {
+      "md5": "196aa5458379f5d4a7532bbec073ff71",
+      "sha256": "189ff681d817e24767e3e768ccd8e1167e54ef86cf0638970ebc3809af6ce5b8"
+    },
+    "includes/AJAX/REST/RequiredUpdate.php": {
+      "md5": "32451f13efb6befbbf240d2c6daa32a7",
+      "sha256": "82645b21f6dc554eca0e0fb4190d13649a6c6fd372a0f81ca234df095611f05d"
+    },
+    "includes/Config/ActionAkismetSettings.php": {
+      "md5": "364ed025cea467a448c789ff491135dc",
+      "sha256": "1f21dd8630768ae2a5b840928d8bb6d1f611d1858ff1cf61abf5c114efbb78c9"
+    },
+    "includes/Config/ActionCollectPaymentSettings.php": {
+      "md5": "b2001cc95e9d908654f0ede630e10e6c",
+      "sha256": "b8cd504ab18da6de82684ed32b39476715cb3bb59edc50ab870009abd139179a"
+    },
+    "includes/Config/ActionCustomSettings.php": {
+      "md5": "04392b7792a01deb4d39066fb18ae974",
+      "sha256": "0ea88f10162568f4797b5d77bfdd492cd83a95c1205817a981dbe786a8b2dc4a"
+    },
+    "includes/Config/ActionDeleteDataRequestSettings.php": {
+      "md5": "cef442bc3e6d22478fc28aba686de23c",
+      "sha256": "51caffdcc77326c4bfb340fa43781ed8b05368abaa057c07d6a95474653c8401"
+    },
+    "includes/Config/ActionEmailSettings.php": {
+      "md5": "2a66e206fb951f64f04e497a80b4607e",
+      "sha256": "886cc625ff73870f0e28c2433ba156d5a7e88e8c1077a1211c849cec88a24ee1"
+    },
+    "includes/Config/ActionExportDataRequestSettings.php": {
+      "md5": "230a7597b47c496dda450fb40219d8d2",
+      "sha256": "3f60e442210f57f21468ee9bc10b4fa985a31b6ebdf9005fe5215e6c11550d34"
+    },
+    "includes/Config/ActionGoogleAnalyticsSettings.php": {
+      "md5": "3abdb1bbceda6197ab6c375a89286d73",
+      "sha256": "e5501bdb08b855eee65ac082589d458931a3132c1fe1f938b504f2cf2eab2f6c"
+    },
+    "includes/Config/ActionRecaptchaV3Settings.php": {
+      "md5": "7a06902db64255ea7b115f532733e13f",
+      "sha256": "e7700afb49c8afef72660f7a8cd5da42ff880c75b57ef5ed04cd2b3458ee2aad"
+    },
+    "includes/Config/ActionRedirectSettings.php": {
+      "md5": "d077707566b9fd9bd29d43719c795baf",
+      "sha256": "7871d1bb8f1d98ae830865231862655ad10c04708b235502bc5dd818e4a55198"
+    },
+    "includes/Config/ActionSaveSettings.php": {
+      "md5": "fe0e4f0cc34436d66af149239f659fa0",
+      "sha256": "7693fa44fbc77342a6f5644f0443a2114505ac7b804b395ab4c3fc26998a0a52"
+    },
+    "includes/Config/ActionSettings.php": {
+      "md5": "cc65741aa446b0dda3ce1ae49d5c9b7d",
+      "sha256": "219dd528eddf03b7f715fa0945f06787c4fb48e73e9b5a9431dee8ee26002309"
+    },
+    "includes/Config/ActionSuccessMessageSettings.php": {
+      "md5": "9b1732e66839380ab3a88792cb6be98d",
+      "sha256": "641e283db81dbe71f9dc569205ec3a64ada47d852a5f1f90089db5e01e9e6d96"
+    },
+    "includes/Config/ActionTypeOrder.php": {
+      "md5": "c4b8621e3c2a3b6dd02ba70956b3c606",
+      "sha256": "bb8bb877531c53c49265949a96ae5fa1216494498ee53df5633128af16debb7e"
+    },
+    "includes/Config/AdminNotices.php": {
+      "md5": "fdbfe8e1b44afc449857531207c30fd6",
+      "sha256": "291f133734929ad665be7e524c4362143e29a1896d27df0add1e3cfd672f2f59"
+    },
+    "includes/Config/AvailableActions.php": {
+      "md5": "8f77f923d43264a9cbb98a2e9802017a",
+      "sha256": "0183f958c748aa32c7ce3daf6c19060e9e17b35d3e88d48c8ee6a41dfe9674a5"
+    },
+    "includes/Config/AvailableFields.php": {
+      "md5": "7cf03a97ba6340d17ba7c46033f93e92",
+      "sha256": "b770874fd9c5aec3431bf91aa3b1f97a00850e06adb302b4e82ffdbd1bd121e7"
+    },
+    "includes/Config/AvailableSettings.php": {
+      "md5": "e1113a33bd6427105b533e02ac22df35",
+      "sha256": "24a9905933b434c4238892cd7837bfe073e3c4386a3059b2cfb5dac43bd49abb"
+    },
+    "includes/Config/BatchProcesses.php": {
+      "md5": "b94aac30f2f3cd597f80e2a4f3b27111",
+      "sha256": "57410b95ea8c6979c72d712bc7ab1c0b725482f65d6bb918c021f5c6c26f786c"
+    },
+    "includes/Config/CountryList.php": {
+      "md5": "2613485ddf6afe8c324376d70bc7164d",
+      "sha256": "59c03fd7388568e3cdf70b501521f2f3f7bebf526538c9d7c83c7317f52bf4dd"
+    },
+    "includes/Config/Currency.php": {
+      "md5": "03ba311b8ac9d9def47f8fabf11cc3c9",
+      "sha256": "42f4f66dcefea54b706d082e5ae38d9661be01e8e7982939b4855b3c75f328af"
+    },
+    "includes/Config/CurrencySymbol.php": {
+      "md5": "247a9a1331d3425ec6a624ea495f2376",
+      "sha256": "0175a683f05c305bca9bb6c6429b5fe5ea8e33f4ddd3c181d1e27cdcef7211fe"
+    },
+    "includes/Config/DashboardMenuItems.php": {
+      "md5": "9eaba7ed3702a0a61a7f0628e006a4c2",
+      "sha256": "112c3093d5c012b00628b4b72a51953703c8625697e86b799ca763fb27ab79f8"
+    },
+    "includes/Config/DashboardPromotions.php": {
+      "md5": "20f39b4cdf67b32b065638cf276043b4",
+      "sha256": "909abf916bacf5bd1bfc5b467ccdf9f92dbc49e541bb1c5968ad6ebd34f93060"
+    },
+    "includes/Config/DashboardServices.php": {
+      "md5": "bdb8bff0a102c965ba0d2d1f59e6af17",
+      "sha256": "a8f9ad6d13acd46aa689efed7b28ee0a75cfd96bcdea2c05bce1accf2e20a8f0"
+    },
+    "includes/Config/Example.php": {
+      "md5": "51f88cd26b57d104da1b7ce08bf40bce",
+      "sha256": "1f449439e6c5e061776ea5ba9aa0d80d43ae094e62ac7eb74051e250a952ec99"
+    },
+    "includes/Config/FieldSettings.php": {
+      "md5": "418b4e30a9a1bbd6ef648f27cebf0fca",
+      "sha256": "f3f6400118d45d72d37c6cb803970139384215a8de016fb885bde607682ac936"
+    },
+    "includes/Config/FieldTypeSections.php": {
+      "md5": "263e8f28a610737787df28a5f0be9600",
+      "sha256": "0e5c70463612d16b6fe19d26439fec65d829fc3a2d450db4dcaaced489f14375"
+    },
+    "includes/Config/FormActionDefaults.php": {
+      "md5": "f3f3f24a424a97dc420674106d4252e9",
+      "sha256": "9119305445eb42b05fda37d5a18a3e801716f821a95ba01d7e21d297a35c3971"
+    },
+    "includes/Config/FormCalculationSettings.php": {
+      "md5": "fc09641a682dfe1f971d086784a90d80",
+      "sha256": "d3efd1cccf4eac7c8f1560914587fdc06bb9afad5594033a62b57fe2e29d928d"
+    },
+    "includes/Config/FormDisplaySettings.php": {
+      "md5": "b5bc3dd3ad812db10b75d9dcd5681368",
+      "sha256": "98610489268d5434759f857d5482ebcff9040119349835e41436ce39d9f40860"
+    },
+    "includes/Config/FormRestrictionSettings.php": {
+      "md5": "303f6ba139e55a6fa712285d5d35d630",
+      "sha256": "d439f05ca183617160684c19a5da1b018f7f9daedc919ccb7fab43b56e6af57c"
+    },
+    "includes/Config/FormSettingsTypes.php": {
+      "md5": "7950d916b7da80431d2ebb06ff8de29f",
+      "sha256": "8908d4f27b1ca190299f2830d9734bb3e33365bc498789128a6c4f6a5b3d1df8"
+    },
+    "includes/Config/i18nBuilder.php": {
+      "md5": "3fc1dfaeecb09e7540c0216c945d7847",
+      "sha256": "359db19dd59a118cf50115e8c94690ddd08979774df0214adee12b44a277f3ad"
+    },
+    "includes/Config/i18nDashboard.php": {
+      "md5": "7dc2425da1d3c4b1c68465496eaeb98a",
+      "sha256": "d8175f16323307f56e544da2e9e45e6ff02257bca74d59f315eb5912da054dc2"
+    },
+    "includes/Config/i18nFrontEnd.php": {
+      "md5": "7bcb1015c8323faa5fcfad55f0721648",
+      "sha256": "fb13dcf9d1641af89fd68d45470f006260636f9de92cee704cce012ebc73d75b"
+    },
+    "includes/Config/i18nOnboarding.php": {
+      "md5": "5ff8debe04b1a4ca546b1383a715770b",
+      "sha256": "be0901cc1c7cbafe54d095ff502497f3469bf52f3d75c95f3699d7471519a391"
+    },
+    "includes/Config/MergeTagsDeprecated.php": {
+      "md5": "8f542beedf849a00d5bc3bd05634a8c5",
+      "sha256": "861ece2dc5dae02584add9ae33e67cea248d037ba9c3d0f5c756f25f3f58227e"
+    },
+    "includes/Config/MergeTagsFields.php": {
+      "md5": "1eb1005814287bcc592d16db2751941b",
+      "sha256": "ddf5400473923da62cd01c2262c1597599910e8a8f07b19634d1f02b3863f888"
+    },
+    "includes/Config/MergeTagsFieldsAJAX.php": {
+      "md5": "b45a1d71d592a246518874155c88b40c",
+      "sha256": "9b3299346102593c3668fa8c2918cce02ce7925f039191da615e0afca31f35f5"
+    },
+    "includes/Config/MergeTagsForm.php": {
+      "md5": "c935b56db649315d46ca7247eef4fc0a",
+      "sha256": "c9766927266c1737778a5b86d83ba3b7740172312896800bc6288c450479c52d"
+    },
+    "includes/Config/MergeTagsOther.php": {
+      "md5": "f5f7dc42a97fd6833d0e57b3de5e6723",
+      "sha256": "9a718c0bb9560a3ff8c5efadb7f7f08ee1f45c206a3530c2e1e5d5d156aaaf1e"
+    },
+    "includes/Config/MergeTagsWP.php": {
+      "md5": "c5716c1b25beb20b30eecc774304afca",
+      "sha256": "e542ed91990df83c0dd0495c403e48fe2079711ce56ef5c1f53420d5e8d1bb6f"
+    },
+    "includes/Config/NewFormTemplates.php": {
+      "md5": "d5f06b48dc81a7443e2c43068950a676",
+      "sha256": "c356fb5b6b13c8155c79af89205bb3701e4825042e941e3963245521936abd91"
+    },
+    "includes/Config/PluginSettingsAdvanced.php": {
+      "md5": "dcb8a621ceb2eb157bd9c207cab9bf80",
+      "sha256": "6dca2d2516adcd60526aea8908f88da6f3ee061127df6f614ad24a06f773de1b"
+    },
+    "includes/Config/PluginSettingsDefaults.php": {
+      "md5": "649b34b14638a8236d441e55237c3124",
+      "sha256": "41d3425edf580c50ac2fef9ca0182e13f28112943fde9bc61e55024345afcd22"
+    },
+    "includes/Config/PluginSettingsGeneral.php": {
+      "md5": "8cc112745db84cd288760c4e5e04523f",
+      "sha256": "8622a1dd6f4e1620f40e60430b7873723ec499d6551f884fe8fb59321708c72c"
+    },
+    "includes/Config/PluginSettingsGroups.php": {
+      "md5": "989b2d9ed26aed1073f785395d0d82e5",
+      "sha256": "e7e9b01db4c16b545ab110995b6c4a5fd9e57785e02462a8c496db2ea4bc439d"
+    },
+    "includes/Config/PluginSettingsHcaptcha.php": {
+      "md5": "ae6df5a35f4e152a41520974517afe00",
+      "sha256": "5da5c5b1b128ba140bc4471cc98c44908cbbed1c0219b412f6e21578e1c073bc"
+    },
+    "includes/Config/PluginSettingsReCaptcha.php": {
+      "md5": "4a1cbefa1c930cbcfc7c213243b14c70",
+      "sha256": "aac89685544f25635c13c82246f583b9aec5c589a0f6ee262af51832c870cd06"
+    },
+    "includes/Config/PluginSettingsTurnstile.php": {
+      "md5": "56afc5cc2d407353cc6fb10ee07d3564",
+      "sha256": "e446ec6e0e9b6c34fae5213727f30c67a0c5fed2e75a5f4b88a26ee03ac1790d"
+    },
+    "includes/Config/RequiredUpdates.php": {
+      "md5": "e2b1243e4133adf6524fa67f7fada60d",
+      "sha256": "d49a216e235d4b026aac3e075ad3663098ca9da61e2a553d87a595427c72a028"
+    },
+    "includes/Config/SettingsGroups.php": {
+      "md5": "4010a6b5e84c1dc156d98fb5a9eac2b5",
+      "sha256": "b8b2f5bae6943d5e43b1d56a39c9e22790be0d87839ba48d020904ad0e41d466"
+    },
+    "includes/Config/StateList.php": {
+      "md5": "420d9a00e111e2c44e4f78f3f39c7853",
+      "sha256": "c23f951b9e417c05299065649316cbcb964b7fbf143de7f5f2494478b9265a70"
+    },
+    "includes/Config/VersionCompatibilityCheck.php": {
+      "md5": "1564ebc4579b37173e2b0c069ffa903e",
+      "sha256": "158c44f03a4ecc20694d3354e69240601e3f14b0f3cd7ef17b3ab5b2c5d5b6d7"
+    },
+    "includes/Contracts/Field.php": {
+      "md5": "d5dc252a07d945909f2c3d19cfa66542",
+      "sha256": "467f616d46c0b2de5da45cebd2ddfcca1f17923f81e08ababc795b9b8d157470"
+    },
+    "includes/Contracts/SubmissionDataSource.php": {
+      "md5": "e08aec910f095d08b6aa9a13bbeb1923",
+      "sha256": "e650a9af5ae3ff4592eb3ca97ab0642920c1d1a4f6c62080da251d1a89bb6511"
+    },
+    "includes/Contracts/SubmissionHandler.php": {
+      "md5": "1495ad0958ba046a2ded002a57da9cd3",
+      "sha256": "56ef125ad3a74239f7f05859fdd7cf4875d87074ad51b91072e8ba6850193d49"
+    },
+    "includes/Database/CalderaSubmissionDataSource.php": {
+      "md5": "016e65f9c057ada96b03560cfd7c49d7",
+      "sha256": "ecf735b9dbd2ed56f202e03a338fc089c2da968910f7959e67a5c3ee47a331af"
+    },
+    "includes/Database/CptSubmissionDataSource.php": {
+      "md5": "479b55ea7b55b9fb6aaaf46525af48f4",
+      "sha256": "ec78595157638cf18264d3f7c5c18373532fdaa65fd43a1332f1bce7dd64cde1"
+    },
+    "includes/Database/FieldsController.php": {
+      "md5": "882e9f93b4e98ac2fbaae1676b179735",
+      "sha256": "289fa91dbba29165fc0aae1d0cac9c6a1374b1cd7400d14823c8bf81782a1a99"
+    },
+    "includes/Database/FormsController.php": {
+      "md5": "771b5434b50059b11c6b6a3d15848269",
+      "sha256": "22a8257317da1397a865c05050c592f9d37153f2e0c0287f6f53748ba724899a"
+    },
+    "includes/Database/Logger.php": {
+      "md5": "cea852d423686ded1ec1100b7dc67bb0",
+      "sha256": "bc460ce62bbcf7afb86869e3fa122c7deaaeb3eb4fcfdde4c082a36c215eb307"
+    },
+    "includes/Database/Migrations.php": {
+      "md5": "d547a2527029c39f79cb49d66354763b",
+      "sha256": "8168e79e349977ecfb14861de4a6ebfe94188cef7540bf20123f9a671cd05e30"
+    },
+    "includes/Database/MockData.php": {
+      "md5": "935a752c746ddf79d09fe8232e83f8ab",
+      "sha256": "87c85205b0e44fd5d40ebec15f40c20ed735d9e76a116e3008dad2af62f15535"
+    },
+    "includes/Database/PublishProcessing.php": {
+      "md5": "73ac63e264ab82c63ca4a3ff641986cc",
+      "sha256": "634d8c8b0b6ba5e042b375078a9413eb43508a88aa6cc3943b8540e5a0a6d475"
+    },
+    "includes/Database/SubmissionExpirationCron.php": {
+      "md5": "cf742809c2ba615b0e4fb4198d2e4982",
+      "sha256": "94c4e5fd8a5452cfac22bfbe26e04f590837a0a894a70602a317c3b7c1a19bcb"
+    },
+    "includes/Database/Migrations/ActionMeta.php": {
+      "md5": "79a246086156abb2358dbbc00efc722d",
+      "sha256": "ddb1e4826ed2785ba0aae44e0315b05faa05e72ef54a9cded44f5ab49032bc31"
+    },
+    "includes/Database/Migrations/Actions.php": {
+      "md5": "b180233fe5e4ca38719f46e6dc808dfc",
+      "sha256": "59a2d665a785f76e4881185a91aaff9c2573c5f5f966989f0a3f7d1c6cacdf9a"
+    },
+    "includes/Database/Migrations/Chunks.php": {
+      "md5": "61895ba780ddbaca3f2075aab2f8ed98",
+      "sha256": "2c60727f86593a7432c1dae1ac4e53bb60105f47fe621afbe4af87d81b295ca1"
+    },
+    "includes/Database/Migrations/FieldMeta.php": {
+      "md5": "65f5b67b376ac230fc912272891a3a5c",
+      "sha256": "19f1b920890df3eceef1b8878549855aae2fa4ecd04e698b90c1887697221bc1"
+    },
+    "includes/Database/Migrations/Fields.php": {
+      "md5": "e1cc27b0a1b6221cea73901699ec4842",
+      "sha256": "9724228baaa7e3ccc2b9f6072047b3a60d2577414d5e3cf78cb40230ca3a7e97"
+    },
+    "includes/Database/Migrations/FormMeta.php": {
+      "md5": "23a304c0e70d202e31535ae54f169305",
+      "sha256": "2de848e3826433cc7edeff01d882c543f1b58d2b8f56f8735ece2b336dc30793"
+    },
+    "includes/Database/Migrations/Forms.php": {
+      "md5": "99e48d3f3ddd13df6709fdd60145a71b",
+      "sha256": "d475a0db85e31ccb4832df792353219ef0a86b2f594826326344937d3636e3b9"
+    },
+    "includes/Database/Migrations/ObjectMeta.php": {
+      "md5": "e9e94e68573deff3d97a92648db8af96",
+      "sha256": "ab00895fab0313009249797202593512977823f4d2845dce2ba828484bc540c1"
+    },
+    "includes/Database/Migrations/Objects.php": {
+      "md5": "9fdb0f2ae684886fcc4d3f49c64f5cda",
+      "sha256": "c3c2d1f520aa0c7d49565cdd2c7b7fd98d4146482f8dd843ee16dc1d467e3507"
+    },
+    "includes/Database/Migrations/Relationships.php": {
+      "md5": "eb9eff55fb13cb7681737bdfa6edc936",
+      "sha256": "28ca948057bc67cdefeb412a3f7479e6680a59dbe667e3d882b415871be4cb36"
+    },
+    "includes/Database/Migrations/Settings.php": {
+      "md5": "0272b7af508064666fba1a8858ec5f3f",
+      "sha256": "f4f550256d0601c217c431c9aadcbda93cbad7fb58f93900a812720b6cea4b88"
+    },
+    "includes/Database/Migrations/Upgrades.php": {
+      "md5": "3a8dd2f5861fd60002c15bba2e171b4f",
+      "sha256": "f7c80a4afd9478ba9b071b26fbc6d4d06b1e30f97808efb53c5df3f20a2b3088"
+    },
+    "includes/Database/Models/Action.php": {
+      "md5": "cd6144335348865288fd2e6beed21a41",
+      "sha256": "157f72c8583dd757133694c19120f2006a3cd2be82331a528f8cc8e4fa75aad6"
+    },
+    "includes/Database/Models/Field.php": {
+      "md5": "6f76a7eaec1da410aa4fb5e29951549f",
+      "sha256": "061ab203630439db41813eca4056aa3404005fdc311e22b11d6d5e6bce857afe"
+    },
+    "includes/Database/Models/Form.php": {
+      "md5": "06d14a7d40efe7139fad68541cd95510",
+      "sha256": "d61a43a6c0fb305f9ac611b8699635132359594fc71a10e06957002333bfb35f"
+    },
+    "includes/Database/Models/Object.php": {
+      "md5": "fae3d6e117f44c604e2efa75e7090dee",
+      "sha256": "f82d31ae2a2dd29c0560d6a3020a00954770ce8987d6254a013e472c5ef1b3fe"
+    },
+    "includes/Database/Models/Submission.php": {
+      "md5": "95e41aa8d43b132139ad272df7bcc504",
+      "sha256": "8717faf87dac03e90a1112a4f67d63dee873a9217c5f43107c71e8890855d7a9"
+    },
+    "includes/Display/Page.php": {
+      "md5": "867f15a448d1ee142618c5ebae48702d",
+      "sha256": "da1ce8df25958ce4376e800078021c2fbe4444a33d9a82358d134f0d1128ea8b"
+    },
+    "includes/Display/PageEmbedForm.php": {
+      "md5": "586f61dabe8d3cfed9efdedb4b977272",
+      "sha256": "1f9aa1d88a46f3359a61b44c3af45f2eef667140c2536d33c869a5a1096deb20"
+    },
+    "includes/Display/PagePublicLink.php": {
+      "md5": "ad9522dbf1af33ea59bb1b2f329f7707",
+      "sha256": "3f5c869a74e0b2f9f60b842266e68d3f8ad3a34a96f3b23e76c7ac7c7095fc28"
+    },
+    "includes/Display/Preview.php": {
+      "md5": "ba04a87fb230ee03c4acf207d5d94272",
+      "sha256": "02ab70a18ded19351ddb2926cfb664bb22bdd301a6eebca803f9ce280d427434"
+    },
+    "includes/Display/Render.php": {
+      "md5": "9a5f7dc073e354aec1cc2c156aec2b73",
+      "sha256": "c7ef54c9c9f459b93508c747447895a5458cdf4d03a2a3afa09c4a2592a86b06"
+    },
+    "includes/Display/Shortcodes.php": {
+      "md5": "3f6bf8a08d4fd3a452db76369cf6ab13",
+      "sha256": "6a8592e91d578eff5f71419b91409262c50b7993e0e5f88c5ce52061c83888e7"
+    },
+    "includes/Entities/MetaboxOutputEntity.php": {
+      "md5": "5ed0d990c0a428fe24a373d70fbaa113",
+      "sha256": "56b770d2e6dc469da799bbe9115ac8e02e7e405d329090c68fd6746c864d9b9c"
+    },
+    "includes/Entities/NfSite.php": {
+      "md5": "42b6edd7a6c45d90edd708276ac24893",
+      "sha256": "c8d1f656645dde5a94436aa4dbc6854192b665ef11860ca76bf871620909be56"
+    },
+    "includes/Entities/NfSiteEnvironment.php": {
+      "md5": "2833575a4c061b73c86922f645eb44c4",
+      "sha256": "055943c57bac77436c8f5dd3841b402a5c33338f38ea0caddc51bc9071dc4638"
+    },
+    "includes/Entities/SimpleEntity.php": {
+      "md5": "968e00e3f3e3885a820ef3e5e05e3716",
+      "sha256": "32b75fa921a643bf37033a6d7146201a10a832d9b2d63066eb3550fe7c155a94"
+    },
+    "includes/Entities/SingleSubmission.php": {
+      "md5": "2efc29d8127e23d633de9e2e8bd8306a",
+      "sha256": "0840c32b2776340c25d1efa95a19e16b034f4dfd42b49df9d8e990aadc5e01d5"
+    },
+    "includes/Entities/SubmissionExtraHandlerResponse.php": {
+      "md5": "b773e6cac83c8c2c364235c85ce03e64",
+      "sha256": "553b2d861e27956cd483eaf5766104b2507692862ef44c6ed8e34d5223d14a42"
+    },
+    "includes/Entities/SubmissionField.php": {
+      "md5": "cff3166d9322594092d6a06d3912c071",
+      "sha256": "8382ec96347e08e7e601ba82df485a107dedd5ccd47e1d94bd0ac8289ff6a49a"
+    },
+    "includes/Entities/SubmissionFilter.php": {
+      "md5": "025357bd649e0f8ae5034612363848c3",
+      "sha256": "24d065ce5561086d97094bb2bce69045f567252bc8d9976218aa2bfb0bdf8da8"
+    },
+    "includes/Entities/TelemetryLegacyRequest.php": {
+      "md5": "df11b6b0e9a98794e2b11a7d5153e961",
+      "sha256": "2f5d95b3753724738df068509f1390d89aa298966799f02fe23daf56108bcccb"
+    },
+    "includes/Entities/Usage.php": {
+      "md5": "63d7fdac635de7e851cf3a5386db27a9",
+      "sha256": "d3272d7d3ba176ca66252c2b51842c95539ef4abf773825e3820641f4d2bf937"
+    },
+    "includes/Exports/BulkSubmissionEmail.php": {
+      "md5": "096bb917553872d7aa1a47f709e0fee4",
+      "sha256": "eaf03652ce90462ec23cef448e0328ae6ec08e3097b8e59b71df3fe8e76a438a"
+    },
+    "includes/Exports/BulkSubmissionEmailParameters.php": {
+      "md5": "6033d8382d0a1bf3c520cf9b8725715a",
+      "sha256": "0135d1af5a302e374e161b56e7d3a04a0717500be5ce5566f9f29f1993a65744"
+    },
+    "includes/Exports/SingleSubmissionCPT.php": {
+      "md5": "fe3808a1bdaa2e5e65466d19676a6462",
+      "sha256": "844254c9af26118bb6d3ce2330030d2247fef97be9e82d09bd2279120c0bbc49"
+    },
+    "includes/Exports/SubmissionCollectionCPT.php": {
+      "md5": "86923281530d0b46ec9a350e60c7e74f",
+      "sha256": "186ffc3833f2d763a1677c54f8dd683409eb4199d9eecda28c4ea13e4efde37a"
+    },
+    "includes/Exports/SubmissionCollectionFilterParameters.php": {
+      "md5": "47b5d914ed9daf4b17a10fc079e09607",
+      "sha256": "5d515aac7c57d97a51b6a1335018981f931d765f676ef5d297821757ccac860a"
+    },
+    "includes/Exports/SubmissionCsvExport.php": {
+      "md5": "ebb9810ac134913696749eb6c83a380a",
+      "sha256": "96529aab26e56249514dd8a511f3b85b338f7122671b12da2eb563766d0b4bd4"
+    },
+    "includes/Exports/TempFileWriter.php": {
+      "md5": "360d651423d2be6dfc7340ecd04cd91f",
+      "sha256": "6984904dee4b15097478df8745fa60ef060ad2159cf22a19246b04e241aad81c"
+    },
+    "includes/Exports/Interfaces/SingleSubmissionInterface.php": {
+      "md5": "ea4775d34f2cceca4d29ae3df9a38fb2",
+      "sha256": "c2a86aa0f5021bfb9171657a9214219f4291408fa69d8ee7d53d67a4f0b4ba23"
+    },
+    "includes/Exports/Interfaces/SubmissionCollectionInterface.php": {
+      "md5": "742fcc780da9dab4d1cbb76088902cc9",
+      "sha256": "2139dca87a1187e7e9cd29e74aca518825fe3deb31d9df9d59ea9871872d63b7"
+    },
+    "includes/Exports/Interfaces/SubmissionCsvExportInterface.php": {
+      "md5": "af87e1d83f880915246ca1471c8515b4",
+      "sha256": "bfc54b424b9d56d98abc154afdb1e557d6a35413817f63e096ecf6d6654a15c3"
+    },
+    "includes/Factories/ConstructNfSiteEntity.php": {
+      "md5": "0076ce0f0b245e8f767656de1aaa007c",
+      "sha256": "c5af7882d356bc470853b1402da07cdb84938011ad654d22762ea01d6767a459"
+    },
+    "includes/Factories/ConstructNfSiteEnvironmentEntity.php": {
+      "md5": "7edbd5b411e44e62e6e5df6884dcdb71",
+      "sha256": "8cfffb84f615396735f6ed96933fd8018f5d0e88b20d567b82b7161ab93dc99d"
+    },
+    "includes/Factories/ConstructUsageEntity.php": {
+      "md5": "b3e4df227e1a11de78000a9439f77df8",
+      "sha256": "54f98d83564ca52fcaa5876e76ea3525914f841885320bceb51a7b6cf3c2d9fb"
+    },
+    "includes/Factories/SubmissionAggregateFactory.php": {
+      "md5": "07331e37bf212f3fdcb51cb401af56e4",
+      "sha256": "50a515119f388cda5f2d9d01b24d160291ecb602d84d7d2cc26214b31c78dacc"
+    },
+    "includes/Factories/SubmissionFilterFactory.php": {
+      "md5": "1ff4e5790f139b664604f6d302f2e030",
+      "sha256": "69fd268cbc5d672b263438fe50ec94f5e7796a73a34cbb8fd73a3c7c23a90d32"
+    },
+    "includes/Fields/Address.php": {
+      "md5": "2ce37cc6a9a5b9ac7fb7555f1c5e35da",
+      "sha256": "5f835627961fc4a8afdc410a3e4eea63244346bcdc636a1b61523551b068b990"
+    },
+    "includes/Fields/Address2.php": {
+      "md5": "95b72cde57db768a05f7ef26715a3eff",
+      "sha256": "e52187ac864870448ce82735cca02ecbda4f1a0749999c8cda7b5e4243064e51"
+    },
+    "includes/Fields/Button.php": {
+      "md5": "a7f73f0af7fa1c969b8729c3de831dcc",
+      "sha256": "876f9b1efa072716530693009213ad00d2ffa540e1d312b5201b0fcd7cf06000"
+    },
+    "includes/Fields/Checkbox.php": {
+      "md5": "c18518a808613b0cfb3155906fbfa4cb",
+      "sha256": "c058573cf289cb123356f29bbef38e32d3183d5a21dd07a6f324bba9e5b0c2a5"
+    },
+    "includes/Fields/City.php": {
+      "md5": "7c87fb650fe1ed1b986869b2126ae4bd",
+      "sha256": "d3417fa80c9d6387a4fae7f9120eaf7f9337aef10a3089477103c0c3abe9588f"
+    },
+    "includes/Fields/Color.php": {
+      "md5": "62b2432494e45c0e21ff02b86c0f7d32",
+      "sha256": "4b175429453cc4afb7e018660cc219448aab1965ace84ec0ba3be7e0e39a4ac4"
+    },
+    "includes/Fields/Confirm.php": {
+      "md5": "2f391470141475ad344b81687c3b6081",
+      "sha256": "fbc5e5067a89c61a4f324acfabc1474aa15b020d5d84a05e6423fad43e9ac738"
+    },
+    "includes/Fields/CreditCard.php": {
+      "md5": "e12443c0c51cd967bf587c02d969c2a1",
+      "sha256": "2d8e7ce12658f15f0faeca9234b2d8c7920b568aaab8b7ef2bf87814a976c504"
+    },
+    "includes/Fields/CreditCardCVC.php": {
+      "md5": "bd59318b55db65e26e0228dbd4ef1080",
+      "sha256": "ec134ef7cd70fe4e890170f98d156897a8c752f13d6f74686e0e7aad26854aca"
+    },
+    "includes/Fields/CreditCardExpiration.php": {
+      "md5": "1ea0025319488f6566b944d127ff1c80",
+      "sha256": "fc74a1077fefff9cbc9f8c547007eaef8ccec5b923cd2184543cca4fdd1de552"
+    },
+    "includes/Fields/CreditCardFullName.php": {
+      "md5": "1c36aafd3e7ab85b6085d3313aeb1ece",
+      "sha256": "402e9f8f2269a879537067ad872e4c9ae98462d3d6855c7de35d4bb1ad5f9b24"
+    },
+    "includes/Fields/CreditCardNumber.php": {
+      "md5": "310b1c5a9a6bff4f1f8237f867398ff4",
+      "sha256": "3162ed60e339e1d7473429e4a185f5066d554d78bbeabf08848f4b9dd3dbbabe"
+    },
+    "includes/Fields/CreditCardZip.php": {
+      "md5": "dc6b99426c61e3b13d9e523272304b56",
+      "sha256": "1cde6e36da3894e263ee8ceddb9a2882d373f37faf95927cf0df92fc6216c8f5"
+    },
+    "includes/Fields/Date.php": {
+      "md5": "26cc245d4db0357222a13c8bb98aefc7",
+      "sha256": "45c55743419db0e448add8685deaddca517a6ea83ca640767860f7adeee58cf1"
+    },
+    "includes/Fields/Email.php": {
+      "md5": "6a803f6984d3452b7e12fcc34144eb0c",
+      "sha256": "4c3fa185b4ab8b59184a0e56c6a289b7418509b74cb0db77d3a319352edc6a2f"
+    },
+    "includes/Fields/FirstName.php": {
+      "md5": "3db5f6f906613887621efcd9cb0bfc06",
+      "sha256": "3bd0de6b8d135ac2ef19a23ad4fc2734ec630b7a5622510554b9cec1fdf27ad5"
+    },
+    "includes/Fields/Hcaptcha.php": {
+      "md5": "d19f6a012a82309e5896c0665e680786",
+      "sha256": "1275c274b8be73d9989731084a90d03b9c85e9ecadb7c490a30fba38d1184d28"
+    },
+    "includes/Fields/Hidden.php": {
+      "md5": "8149bc628372f5fd9fef7a583eb14260",
+      "sha256": "04f12e0a9a3b969efc12e2c1246e0f23b7aebad5607de9b6d63895b3760587b5"
+    },
+    "includes/Fields/hr.php": {
+      "md5": "76001dde2fa1d5e5fec7e74303cebdb9",
+      "sha256": "ad51b0ad938861cfa68d6f0be140c4638f8b12c04327c97aa471b2d4b13ea76e"
+    },
+    "includes/Fields/HTML.php": {
+      "md5": "e715c71e85154aa6dac38dd30175ec1e",
+      "sha256": "7fa97fb918dd41c24b0e9f3515f754dc902ab28d03233fe990b3a5ccfdb08acc"
+    },
+    "includes/Fields/LastName.php": {
+      "md5": "fd23f41ccdf35de406d1ee6e3b454522",
+      "sha256": "01bd01fb10e2fd4bd5b7ca986374b2e0fc0392daab479602c9751347bc288e6e"
+    },
+    "includes/Fields/ListCheckbox.php": {
+      "md5": "7294a5880c85e9248d12107d13ab67de",
+      "sha256": "55ee453050c5c0e74ae95bf81b89d4bf4e5712ff2d28c852149c777902e4fa4c"
+    },
+    "includes/Fields/ListCountry.php": {
+      "md5": "88ab88c110b390abdd5d8522733f9306",
+      "sha256": "8078d3244697993f3d823242b1d8e5a6ada4734334567bc52e837e6a357a6cb7"
+    },
+    "includes/Fields/ListImage.php": {
+      "md5": "2a124df65c18673712deeda687815015",
+      "sha256": "87d374f5eb031cafbd69b4b1b0ec5577a3589158fa5b71971e8a93b5148d3b53"
+    },
+    "includes/Fields/ListModifier.php": {
+      "md5": "88468fd796dce258178837755bf88a81",
+      "sha256": "d7270633bb586213f1d4e25ba288bb9a939c0b1473368a132e04db506fac113e"
+    },
+    "includes/Fields/ListMultiSelect.php": {
+      "md5": "a1d06d84eb4e13296a893b493eb7398e",
+      "sha256": "6ef1e24e32db7270222d7d2f69381e82fc15a3112a7aa30da09f927e74df2527"
+    },
+    "includes/Fields/ListRadio.php": {
+      "md5": "75c042ab4e7eaecadfad379af12b6409",
+      "sha256": "71b475c8e98926047d1e91eceee7d2347791329018d60fe15b5bbda055ee3d3b"
+    },
+    "includes/Fields/ListSelect.php": {
+      "md5": "4d0e7e282b658ee687efc23db8fb8f52",
+      "sha256": "f3b428b2f5d21d4e4cf28f793e725afcdcb0ed080e51c2a7f8fc754f2734f1c8"
+    },
+    "includes/Fields/ListState.php": {
+      "md5": "bbcd875590e54bd8d5a0a411248caafd",
+      "sha256": "e54a87e2b466461f28b1a4293d11fe0fd6cc93b870ebf73911f0f3d78599f9f4"
+    },
+    "includes/Fields/Note.php": {
+      "md5": "d4b519b12a2c5e8d88b080d7bc024663",
+      "sha256": "88833126727a41bcf83a5f177232bf8308e0e7fd250614639d51248da511a174"
+    },
+    "includes/Fields/Number.php": {
+      "md5": "d2f8a8133c3adad64e5a82974367c525",
+      "sha256": "20b53072cdc1ed924900f224014a66623fbf1ad540eeb4d8f30cd98dcb70e8ab"
+    },
+    "includes/Fields/Password.php": {
+      "md5": "0d29c092059af93c5f627801afb2c518",
+      "sha256": "7eae226dfc0c3f05722f0a0e8f6fe9df101ff6da3b401a8361eba5a84cce7228"
+    },
+    "includes/Fields/PasswordConfirm.php": {
+      "md5": "614797a725ba18faf3e770bdf7a0abcb",
+      "sha256": "2632ba4af5dd5f0d9bcaa2cd9d1cd5fb0df0f12f052de2a2b85b1693f726c6fd"
+    },
+    "includes/Fields/Phone.php": {
+      "md5": "500f214e3f3e3a676597cbdbe662ef21",
+      "sha256": "75393ad3fd3bf640711d3d44e05853253046d60799f8d486fc6eac63c239777f"
+    },
+    "includes/Fields/Product.php": {
+      "md5": "a6930fa6f7febc117f030514a475eb0a",
+      "sha256": "90bcf257472940e8815a633ce3075137d082376c7fbd86901eec32c718afd98e"
+    },
+    "includes/Fields/Quantity.php": {
+      "md5": "341c617c08c8fec8fd191bf0f7f69a2b",
+      "sha256": "2109f0fbdcda81eb6a469eb104963e2ecb8dbedea2dee893ec214fb970f8fc3b"
+    },
+    "includes/Fields/Recaptcha.php": {
+      "md5": "29a813a0106b8e39f6df9f880e6ca998",
+      "sha256": "4330b7710fdeecd714ef4d66aeb8a68fafe918b421807eb4e1d6524c59131e7d"
+    },
+    "includes/Fields/RecaptchaV3.php": {
+      "md5": "9244bb69f132d7cd1660673dd43729ff",
+      "sha256": "216d002eb2445ae8db4a459c19ae21a2dc66c5c2f56fc14ac7c2da384f0ba681"
+    },
+    "includes/Fields/Repeater.php": {
+      "md5": "3d5e052b53c8ce780613d306bb3c8337",
+      "sha256": "70560e6db061591ad51b160a500afb5f5dafe6d64fd5413e72aea9063a1e5e25"
+    },
+    "includes/Fields/Shipping.php": {
+      "md5": "75a07acb9fc5b4f0916678196f1bc0fc",
+      "sha256": "d772d1e8dcbb95771191ed71e8db38eefac2804249f1de61b4eeff12d08f1d84"
+    },
+    "includes/Fields/Signature.php": {
+      "md5": "b8a7ab5450943755f846edbca426b546",
+      "sha256": "552151d5dbe310ad453208a4138a5f765897549b51cc88d2ca1bd985f51b47b7"
+    },
+    "includes/Fields/Spam.php": {
+      "md5": "29fdd2f64b63b351340064c69bf69caf",
+      "sha256": "7a200212e5f297734843aa743359f76d001a31e3600f08d7f1f86891f9cb2b08"
+    },
+    "includes/Fields/StarRating.php": {
+      "md5": "013ef2d9d9d1ff2116f80483ba6e9e19",
+      "sha256": "8910da13ea60a69617448f3c2ef5f306c4bc0c8b71601b336b955c9b07057e9c"
+    },
+    "includes/Fields/Submit.php": {
+      "md5": "6d9f878ec0493a9801eb297f59c9b460",
+      "sha256": "fbe9fe23e23fd67df07cc6786ef3a38a9bb480aba5cae9490cb224a6049fda0f"
+    },
+    "includes/Fields/Terms.php": {
+      "md5": "c1dc989376052f2a1baeae7dc59a0e4d",
+      "sha256": "2c11fb6b4678ee03d041ff153d1b26fd45ae107c6c2e3fcfabaa597f3d43bc2f"
+    },
+    "includes/Fields/Textarea.php": {
+      "md5": "e91705dd8ad9478bae98228ddb62337a",
+      "sha256": "f5ba1ffe37cba8a49b6dcb285c8f3ab9c21365aae2f2d8f2863cecbbc74baf5e"
+    },
+    "includes/Fields/Textbox.php": {
+      "md5": "f23afd80dd2ed65431c97864f729c7ec",
+      "sha256": "71f7395af276f23dd9d5ba5266c2930a15f187c1f3223804ed77da74f109811a"
+    },
+    "includes/Fields/TimedSubmit.php": {
+      "md5": "286c448077906884540b1afeffa6ef6b",
+      "sha256": "3b4a2bf634e8872adb8ec523e8c136e24ab17e98f694f937afb92ce66aa4f1ef"
+    },
+    "includes/Fields/Total.php": {
+      "md5": "fe6b04d8a55559d570df8c34cff23bc7",
+      "sha256": "0119ebb916761877bec1f39bff2f7c851c00198f3e0237618d151117bfeae065"
+    },
+    "includes/Fields/Turnstile.php": {
+      "md5": "0ce35158ac94d95848a05f590e493b1f",
+      "sha256": "1d2ecae7aec1149f566d2f5287635f4ff0c7bdb1fa663eb319b8fd00872030a3"
+    },
+    "includes/Fields/Unknown.php": {
+      "md5": "e021cf713cd45966ab283471c6169cf7",
+      "sha256": "e17f85ec952f3a4907d471d9816d59e5ce4dc971c6f089df4889771f2173363d"
+    },
+    "includes/Fields/Zip.php": {
+      "md5": "63a374239cd5390ecec925530834616a",
+      "sha256": "694fbdcf7d83b0060d1adf90eca4d5e214b3a8e220664012c3559ee67431c8d4"
+    },
+    "includes/Handlers/DateTimeConverter.php": {
+      "md5": "15aa42f3549c1f196a66ffdd7392ad44",
+      "sha256": "9ce138a44630437cb4615f642fa5d6e0f2375626623cc7ea11f16ea5d39165c5"
+    },
+    "includes/Handlers/Field.php": {
+      "md5": "8d8fd9ec86b00801de7074fcee6f4ae0",
+      "sha256": "e10dca0ee4511cabbe3522eba443dabaf3b7700edd4139d92c9ac507ae621aba"
+    },
+    "includes/Handlers/FieldsetRepeater.php": {
+      "md5": "6fa268148e74cd80fa61dc9b6ead422d",
+      "sha256": "9260f66ecef938ee240f77e4e1fe09eb92629718194fc6cb8852054944d94fec"
+    },
+    "includes/Handlers/LocaleNumberFormatting.php": {
+      "md5": "afee2a506738fb0836d419d2ffdb2f3c",
+      "sha256": "c84d4ef55f4898f4e079bf1e6f1dcd18231afc8360acaee007f858c5b412aaea"
+    },
+    "includes/Handlers/Sanitizer.php": {
+      "md5": "8ad9d9f0e206703a4c4e404c4a8cb90b",
+      "sha256": "b0ca6b64ab4d5be80c068e0a6625701e833c500ad05f928bf354cf7c394bbca7"
+    },
+    "includes/Handlers/SubmissionAggregate.php": {
+      "md5": "d7baf77013890352e150badc1ee68e8c",
+      "sha256": "4f3d56d16a597495463b740b4ca4ca8c546f08c6d47f181a4cd25ab968420043"
+    },
+    "includes/Handlers/SubmissionAggregateCsvExportAdapter.php": {
+      "md5": "49ee85781f04334130173d03f4dd4e26",
+      "sha256": "7a3634b0bf14b6ac33bcc8d3ad3fcdb805a51c40012d01ef6dd64871a7de8319"
+    },
+    "includes/Integrations/sendwp.php": {
+      "md5": "ee9c5219ee5b0be9cb31e7fecac5cf54",
+      "sha256": "dbd58077e737f2c328147b495d88c501d552670f9846c2eb3f3c24c84b162484"
+    },
+    "includes/Integrations/EDD/class-extension-updater.php": {
+      "md5": "9d8ac07d0613db9e1944b5523b481f56",
+      "sha256": "e61409113bb46a024642ca6e7ecbd281bc4089315aab9b7cb82ea2632de92df0"
+    },
+    "includes/Integrations/EDD/EDD_SL_Plugin_Updater.php": {
+      "md5": "39bac3ebc9346d3c5f37fb00b6910749",
+      "sha256": "750b9862774392dfac6e4496216a77bc27c87a3d8c4241ac6557cbc2a7960834"
+    },
+    "includes/Interfaces/SotAction.php": {
+      "md5": "731617b3c4ccc480a38b7af48aa3e14d",
+      "sha256": "c7003d85fe173b37cd9954dc53f605e19b94f838a4c3568e890a465b0dd1e6d7"
+    },
+    "includes/Libraries/BackgroundProcessing/wp-background-processing.php": {
+      "md5": "194b5d9e58962e910bbf2c61656a83c7",
+      "sha256": "3b703d32d1f8e9e4a83ed728a909f1a57c8e79090947ae93fb34bad9190efa99"
+    },
+    "includes/Libraries/BackgroundProcessing/classes/wp-async-request.php": {
+      "md5": "0aca2caf44ec86767d714c3b49d902b0",
+      "sha256": "003f7890e679138d631870cf662448404cf655f4e731a4690489fd4c3da54684"
+    },
+    "includes/Libraries/BackgroundProcessing/classes/wp-background-process.php": {
+      "md5": "6e730386d1d21d12dc5259ba5ffa6609",
+      "sha256": "464c506363bd5131dd321d1335b151a0e2572dbdccb72a0215f89722956713f8"
+    },
+    "includes/Libraries/EOS/Parser.php": {
+      "md5": "f87dd10c0a43a5f2e6ead769c7debdf7",
+      "sha256": "5265aee1214931229beb4a995d539d62e8e76436181f4d7f037cb5c395a48ee8"
+    },
+    "includes/Libraries/EOS/Stack.php": {
+      "md5": "82d83f9b3519d2deec85f6c587031b50",
+      "sha256": "c36d9a824fe0d768d569fc94403cb4e1e7791b5c34099d05475e3f26dd159a22"
+    },
+    "includes/Libraries/Session/class-recursive-arrayaccess.php": {
+      "md5": "4b324255ccbe323121f91f886df2fcc3",
+      "sha256": "e726f745f79dfad966e7dfe11297f9fedcd755a1e59ba04030a899f1860070c1"
+    },
+    "includes/Libraries/Session/class-wp-session.php": {
+      "md5": "e0def236d8356f43be0f45e102cbd2ab",
+      "sha256": "30869ff85b42b1ea346ae0f18f5dd64a62aba51e08179b16d1234763a1ab9090"
+    },
+    "includes/Libraries/Session/wp-session.php": {
+      "md5": "34c44b2b10fcaad6b7b78ff7fc97e823",
+      "sha256": "d906a0cf10307b612d82aa781ece32dd1b886f5f9aa0ab6de41a1d525668cb49"
+    },
+    "includes/Libraries/Whip/NF_Php_Version_Whip.php": {
+      "md5": "5415de471e25490852a51c0ae3ed3a46",
+      "sha256": "02c331a42ca5428c64fe6fe2fbce1449bba609799ff8d590a411950e3750d59f"
+    },
+    "includes/MergeTags/Calcs.php": {
+      "md5": "a70b5877b347a24ad8b979b0d79d7b5f",
+      "sha256": "94c2fbd5deaefbb5570691aea6dedbfa8edfda163de5d5de9cb77c72ed3f833d"
+    },
+    "includes/MergeTags/Deprecated.php": {
+      "md5": "1c2203a37d58bfbb1b0baf614c3b88ba",
+      "sha256": "a65da72fc9246335deaedf3f8d488136302c0aa21a43d7878aef08feb2187272"
+    },
+    "includes/MergeTags/Fields.php": {
+      "md5": "802011102a92b025c4ab3b98bc32f366",
+      "sha256": "5500705c7660d43ca9a84e35a3897fab8e7df12145d4574917f6ec65d5a854ef"
+    },
+    "includes/MergeTags/Form.php": {
+      "md5": "edb1567f2793dae3d50fca2dec225299",
+      "sha256": "674d526e1d389b435f322df2198cbb17cb9392fa729fa8a6d1abcb7bc96ab973"
+    },
+    "includes/MergeTags/Other.php": {
+      "md5": "dae7b665d3dcbc69ca598a36caf94f36",
+      "sha256": "7ebd5171a9b8b78dec7710c660bc1e13e18bd02e49602b023aaff08b880357af"
+    },
+    "includes/MergeTags/System.php": {
+      "md5": "a76dd5e0ffd4c11329c39f566ee8cf77",
+      "sha256": "8965e4482aadd08b2d5e331954bfdce15e2edbadd292f0e94de2f32beb338198"
+    },
+    "includes/MergeTags/WP.php": {
+      "md5": "29205de97bd36900c09d024a468c50f1",
+      "sha256": "b6057f6091f1b44d67c875bbe1ccce8d3a901cd7997d16b9946fa02b6313fc4f"
+    },
+    "includes/Routes/Submissions.php": {
+      "md5": "57565dc9713007b3859e17d8f3687259",
+      "sha256": "94a34d441371f6a9853ba32695107dab697ec78b73e349b36e5e8ca53b43d424"
+    },
+    "includes/Routes/Telemetry.php": {
+      "md5": "85abf080ede73a72dbb7d1be44f40a76",
+      "sha256": "ea84d683cc78e49da974d71d3baf7cc8a00ad85e27f3832f7810f13252236f2b"
+    },
+    "includes/Telemetry/CountMetric.php": {
+      "md5": "729eb867f49c7902b26d99ab38f4de21",
+      "sha256": "5c5ebf823aae88f121482766fc1849b97c197b2ff5cc4d70a4b5968c2128e44d"
+    },
+    "includes/Telemetry/MaxMetric.php": {
+      "md5": "38f8cd545f8838a89ae232553432c312",
+      "sha256": "33c563a065f2728dd49800dee79d8c6c515773e52a8ad0e6b127073e08301c8c"
+    },
+    "includes/Telemetry/Metric.php": {
+      "md5": "f1cf133a9661779b99693d84507643a4",
+      "sha256": "8d41d8453ebe21207147b1765a1757a2fdfa4a6501acf720dd144d94e3ce6489"
+    },
+    "includes/Telemetry/MetricFactory.php": {
+      "md5": "b0e0289bb4ae1e54c1d38e7e83105e99",
+      "sha256": "709e1d59ee7efa09a60f0377927e22415be5dc08492ef2a4bfebeddc08c212f5"
+    },
+    "includes/Telemetry/MetricRepository.php": {
+      "md5": "1be2cf58282ec099ba862fb1b0cceb05",
+      "sha256": "41a00ad50bbc6e957d663870e69d6daeb2313f22e9d74b880ec4700e5fae4e6c"
+    },
+    "includes/Telemetry/RepositoryInterface.php": {
+      "md5": "5fc2bb42864e85af16a0e6a13b88aa59",
+      "sha256": "5488c7e1952ca89f404d0d17b72e411ee62f184c6772943a28412aa4409f90b5"
+    },
+    "includes/Templates/admin-menu-addons.html.php": {
+      "md5": "63aa92b488edc14bed60c1428aaf5026",
+      "sha256": "29ea3d176d03d615dce45171a7fd90a5690a59a9dfbfa19bd1ad83267370be1b"
+    },
+    "includes/Templates/admin-menu-all-forms-column-title.html.php": {
+      "md5": "6474e192b2c3467e0a8a9b2b127bd4e2",
+      "sha256": "cbafa327b24f4ef93ad9bc5091f73e270a08d0ec4734bea534cba3c7f39ff19f"
+    },
+    "includes/Templates/admin-menu-all-forms.html.php": {
+      "md5": "71d11ef5157718c4f8e13878c5e36341",
+      "sha256": "25f2f013fc253e6af9e2b08bb0f67c9c99aa2e5d5879d8563d5b4eab3121f33a"
+    },
+    "includes/Templates/admin-menu-dashboard.html.php": {
+      "md5": "5d46c07303fe60e94a9ad655e289186e",
+      "sha256": "0606b5697047647f4ff64d2e163c62f066fd4e5ffc6dc20fb2d1b11ef28bdd9a"
+    },
+    "includes/Templates/admin-menu-forms.html.php": {
+      "md5": "65891251788dd8cc44abe2a58744c182",
+      "sha256": "7c8dc7c9acbc264a774df68a52570c6ce56b8931a80d72082d55ca5b5033127b"
+    },
+    "includes/Templates/admin-menu-import-export.html.php": {
+      "md5": "bc87019e2bfa4d91c341eed3e87e78cc",
+      "sha256": "481777293ca183a6214442a383fa84e70ab2f491eff10a7970883702fd7aedfe"
+    },
+    "includes/Templates/admin-menu-new-form.html.php": {
+      "md5": "c3c73a1a49f7b916165b630b70384ba6",
+      "sha256": "1ccbd74a55388dae6b1999b87e1ecf5aed0a2ad4af96072f83918861d4d8bf0c"
+    },
+    "includes/Templates/admin-menu-settings-licenses.html.php": {
+      "md5": "eb180016a94ac857f71629a6a4c9328f",
+      "sha256": "597dea3006f94fce7334e645af46fe3c2111b121e35be4d33ecca1d2b256481d"
+    },
+    "includes/Templates/admin-menu-settings.html.php": {
+      "md5": "58ce5d70009f502a92cbefbd67ed65ee",
+      "sha256": "c9dcc19f42f22f1cffceef8cd2b02c57be8e6b80253b26bfecec651d5253993b"
+    },
+    "includes/Templates/admin-menu-subs-filter.html.php": {
+      "md5": "7b2d489f127910ba568d19f7b527ee86",
+      "sha256": "a6106e3eb14ac0db0f1d14bdda3309be33f346eb5b48e1d447bb028270791fd7"
+    },
+    "includes/Templates/admin-menu-system-status.html.php": {
+      "md5": "0fd1d8fe9375032f10e1e6e696460142",
+      "sha256": "c87d7d1e3dcf266daffabef0ed9ea97454a559fb6c23193137f932add4e6a4f5"
+    },
+    "includes/Templates/admin-menu-welcome.html.php": {
+      "md5": "750cfd385f0498ad87d187c27932e120",
+      "sha256": "9162f02bc30d584617efe9f8563c8add3855f470a588d76749ea22565e52eb0c"
+    },
+    "includes/Templates/admin-metabox-append-a-form.html.php": {
+      "md5": "a0f99badeef01dc3bc3f76c3ed99d53c",
+      "sha256": "1a4ff7d37a18391c4f4f92bd08dca65f5378c6bf63b9ad675b326b8e134cf07f"
+    },
+    "includes/Templates/admin-metabox-import-export-favorite-fields-export.html.php": {
+      "md5": "888174a1b700e85d62d05d5286903e8d",
+      "sha256": "5f0e0a967ebf893313558dd05b23219efc732bb76adca156e09eb8e7b92cea85"
+    },
+    "includes/Templates/admin-metabox-import-export-favorite-fields-import.html.php": {
+      "md5": "7d0c440855e492502ab90b17905c03f4",
+      "sha256": "0cfa5a4beeafdf3ebc1c27546cecc530011ee5cba4259717034a50d32bb9a3e7"
+    },
+    "includes/Templates/admin-metabox-import-export-forms-export.html.php": {
+      "md5": "823285e459f804ce44cdabce0d1a9002",
+      "sha256": "37e7f85facbdf1324c20c38f0a4f02dcc48ac2373d6c7f4e98fc7763440ca09f"
+    },
+    "includes/Templates/admin-metabox-import-export-forms-import.html.php": {
+      "md5": "3078b6003ae3d07f0a16dacc214fc81d",
+      "sha256": "3ef6a35dd5affb7075e2982f5ffa944a34280ad5da8982f3cd7fa5c89a0ec81e"
+    },
+    "includes/Templates/admin-metabox-sub-fields.html.php": {
+      "md5": "a96a62e125d82fbaa8d5aa243e83558c",
+      "sha256": "4a8c3933211aee226267fe731f83c9022ead62f05faf956f61ab8cc32b2de00e"
+    },
+    "includes/Templates/admin-metabox-sub-info.html.php": {
+      "md5": "5d1691c081ba39362a38bd57c09effb0",
+      "sha256": "be65ef76ab207f2406010e8ea4282975ec8ced36e3a7f205767d73c9ec9f6798"
+    },
+    "includes/Templates/admin-metabox-submission-example.php": {
+      "md5": "6c9382e48c68cc75d8a0c1a2c7be3f62",
+      "sha256": "4134e7ca83e668a495e62ef6ef40a4db5cd116bc50ea23e7be077abb5565096d"
+    },
+    "includes/Templates/admin-metaboxes-calcs.html.php": {
+      "md5": "c958f77543efb3e1602840e86662c3d3",
+      "sha256": "f1cb038a5fe4f9b4cfc0b1780035057749a8f3811f75aa7ee11e3eca887a290a"
+    },
+    "includes/Templates/admin-notice-form-import.html.php": {
+      "md5": "fa02937dc8c1535d24a4fc0a6c5707d3",
+      "sha256": "330a290b83d60da4f7daf0330d9c18c3a4edbdf7c0cac3daae6b95c9fa7b6399"
+    },
+    "includes/Templates/admin-notice.html.php": {
+      "md5": "c13ebe1d132b19c656debfc7e52e338d",
+      "sha256": "c51792fa44c95b6c492a5e3cc2e3771d0cf83d94d5cac26af8bad97aba3c2660"
+    },
+    "includes/Templates/admin-onboarding.html.php": {
+      "md5": "e8e82331a99af189a72a166fcbb30fd4",
+      "sha256": "9ec159cd76de3096048e5e2ed9c25305351a9cd34dd8858cf64b785267f796dd"
+    },
+    "includes/Templates/admin-wp-die.html.php": {
+      "md5": "67c934b53e3b643b1a256a6ad44bdac7",
+      "sha256": "7a1ba379c21d8edb81a2abab27cee9d0763291ee3e9bbd76917d3eac922902c8"
+    },
+    "includes/Templates/app-after-field.html": {
+      "md5": "0f12d74b2bf488bb11f3db325fb1bfce",
+      "sha256": "90113335bacaf58238357937e14959e4d7f5612b2b1fe74e5f5749944b87e7b9"
+    },
+    "includes/Templates/app-after-fields.html": {
+      "md5": "1ef6acd3d49ca6eda0b1577c71c6229d",
+      "sha256": "792b81bc7c93cdbbee0092a4773b695882a3e13a562783ca0218660719df9206"
+    },
+    "includes/Templates/app-after-form.html": {
+      "md5": "bb87e549f4166dae76356deb8e1fe739",
+      "sha256": "ba7543ad63227d8422172c6079251f3258612016478dd9405c3ee3be1a2ea564"
+    },
+    "includes/Templates/app-before-field.html": {
+      "md5": "6cc3bdbb1eb032b3c37550e00be77336",
+      "sha256": "3c8ca2a881921dd32b07d20225ef6815ff526c376e8dbf7bfd2aa1efbcc2e603"
+    },
+    "includes/Templates/app-before-fields.html": {
+      "md5": "0700762e69f3c8c5b63e02ea9bffc689",
+      "sha256": "92615518aa5dc9290eceabbc6bba551e0a22f918f728a5794136b979475a6c22"
+    },
+    "includes/Templates/app-before-form.html": {
+      "md5": "52c0237236c2f86a935de99b7689aa96",
+      "sha256": "a9501d4e94176c1519fa50343b38a3d247b100e731c2ebd30317558e5d9ce2bb"
+    },
+    "includes/Templates/app-layout.html": {
+      "md5": "9b855c0ec207dfc8af863c7280f13dc9",
+      "sha256": "3c7789ed3631e7032dc9482c7cc4b5734c935983bde806c862ab45abde0e2084"
+    },
+    "includes/Templates/display-form-container.html.php": {
+      "md5": "862195522f2b3929b17e945d8e298a5f",
+      "sha256": "f0d0e0f8cfd5e8d78308cf1c31e66309eab1c76a5b050ed15e97e01849429d5b"
+    },
+    "includes/Templates/display-noscript-message.html.php": {
+      "md5": "10c0e529e72f0dd6d947f2f68f7d44f1",
+      "sha256": "4677aa9e77f6747540371ff17a735538a9bbae4d04eece01bd9707b87ba1999d"
+    },
+    "includes/Templates/example.nff": {
+      "md5": "8e5856ad8ce83f26c7d72b4942736e56",
+      "sha256": "25da0f4d646a20904d886457f06327cd94ef82942310a1df3708741b8d67e4a6"
+    },
+    "includes/Templates/field-after.html": {
+      "md5": "68ee270706287b26a4ff8de4d9db8ba2",
+      "sha256": "a27402e874d005e470c31df30c1b9fcd4bc66199a9ba0f83b651631a9b1f2a91"
+    },
+    "includes/Templates/field-before.html": {
+      "md5": "6e88778948cc1b1f8f1410a4084df22f",
+      "sha256": "6f8f42230d189e30146af6a94d51439151e74879272ac9737f3a75550a5eaded"
+    },
+    "includes/Templates/field-input-limit.html": {
+      "md5": "115030153c16ffd4a0786b1057e5a919",
+      "sha256": "bf1b8400bdcc05131f267bd75b38aed3af67e6e465b175f11e7af77b116c5c8a"
+    },
+    "includes/Templates/field-layout.html": {
+      "md5": "ae8796a1cf4f29c1b240caae4acc645a",
+      "sha256": "7928570eb540949ee66cfdedda0fcd7940020185f91391b9505a1058959159e4"
+    },
+    "includes/Templates/field-null.html": {
+      "md5": "2e97f07a661c73aff843553722fe8612",
+      "sha256": "232dac2137e2cbf3bcf63a3597727d7b00594afc2d720786fe4ebf4d5d42e9d4"
+    },
+    "includes/Templates/fields-address.html": {
+      "md5": "0eaaf07d438946bafa1cb5090efde61f",
+      "sha256": "8088eed5a048741cd7a500dd99bec55642de21c1e92c66d5603f165f325722a2"
+    },
+    "includes/Templates/fields-address2.html": {
+      "md5": "fdf6f9014efd85fc76300a92ab6b778d",
+      "sha256": "08974a50f5ce7f4496e163cc80b5708843022594e52cfc6b14417411fdc631d8"
+    },
+    "includes/Templates/fields-button.html": {
+      "md5": "f82f535048236e734cdb7927291dd068",
+      "sha256": "a35374bbd3612af7d0760aafc8f606a3973a6cc801fce2563facebe1a33923eb"
+    },
+    "includes/Templates/fields-checkbox.html": {
+      "md5": "78e910522d001eba0b1134af40d78484",
+      "sha256": "2d3807aa071ca7984c8d74927e97fbdbc40cbbbc7a93638c16fa8a0ec1d37cb3"
+    },
+    "includes/Templates/fields-city.html": {
+      "md5": "e34094e251a1c3c6d3e3b6ea553b648d",
+      "sha256": "63b1e11a4b85fcd34736a25060db1a6a9fc55a6df3c26f67a2a017b158964122"
+    },
+    "includes/Templates/fields-color.html": {
+      "md5": "b61d3eb9eb0c3232e2a77a1b19fa629c",
+      "sha256": "5c78d8e09f0518c9b583421f292e507b3df5891e388137be49be4c833f4fd962"
+    },
+    "includes/Templates/fields-date.html": {
+      "md5": "c1d53b0c46e20be30b971bac7bc905f9",
+      "sha256": "1998b0f0ada3c1f99765d70824c6b0318a1d72962660fac26eefb71133bc4bff"
+    },
+    "includes/Templates/fields-email.html": {
+      "md5": "352f68d8493e886a87cad87692b82672",
+      "sha256": "61ce478067495d8f2d765a8c3dc1ab62f0a1987879ffa8053efd207736fad459"
+    },
+    "includes/Templates/fields-error.html": {
+      "md5": "4dbc84fe948f2bc0204145f0b9930e9b",
+      "sha256": "8d36946108ab8c4086d2243baa3402b8df24e2dae58de66cd94e9ad32771ef0c"
+    },
+    "includes/Templates/fields-file.html": {
+      "md5": "0f4bc96efe8d312542310144145d9049",
+      "sha256": "8caa44110e94e3fe82cc8ce61cbd7a8c401cc3600b6551a534f251343a4ca1e5"
+    },
+    "includes/Templates/fields-firstname.html": {
+      "md5": "8802dc9ea46c7e683c973080a1d10aa8",
+      "sha256": "dc0f1c52e2185812555ff7b994bfe5f4fa50b3c9132c7a8cc9a811f975924343"
+    },
+    "includes/Templates/fields-hcaptcha.html": {
+      "md5": "87fd97e5c1ce3cedee7a5504de066f15",
+      "sha256": "1f70750b0c5b1a86bd1cafa173054aa486e4988faf521be20a2bb4b047276dab"
+    },
+    "includes/Templates/fields-hidden.html": {
+      "md5": "d434f2e9f19ef733fb62483716e776cf",
+      "sha256": "4b63f93258d8a9c631b57aea531f2896afd7c1c09ca9ec68c680d545ec26686c"
+    },
+    "includes/Templates/fields-hr.html": {
+      "md5": "ba4b5b3d5c0561ef831069efe7f7a592",
+      "sha256": "9c4bdf9847568c2c243f10ef804ad833ed9f02a94e83036f725bec8a7ffca61e"
+    },
+    "includes/Templates/fields-html.html": {
+      "md5": "a12d2fff0b784765c563a1f95bcd1744",
+      "sha256": "a80425a2c23a0ed63026bad3efbdc8829beb0075026fb76cc3d2cbb37a2a33c7"
+    },
+    "includes/Templates/fields-input.html": {
+      "md5": "b92b50ef955c4c3e0fd1c99b6a01bb23",
+      "sha256": "dbc637bf38a561547aa11ed09ac30fc679adc7bbc1b2629081682961e5ecc599"
+    },
+    "includes/Templates/fields-label--builder.html": {
+      "md5": "5a7f2c13047b3707824bd5227a3b375e",
+      "sha256": "490abc826ae1e355abc6c7cb726c359fd6c5b7a264fabb38367a9a429c0737fb"
+    },
+    "includes/Templates/fields-label.html": {
+      "md5": "d935b7b6d3ff67a620fef93d683b2192",
+      "sha256": "119be7be1f56c21c7a19fc33f35bff9ce01c8a1bf74aeae68f3412427a5842c4"
+    },
+    "includes/Templates/fields-lastname.html": {
+      "md5": "b71b277bb47b3017af2feb70ae809776",
+      "sha256": "d1e07f67ff68c10263c5de235881686da9702b2a313053013e4d9bd9d24ddd28"
+    },
+    "includes/Templates/fields-listcheckbox.html": {
+      "md5": "9dcc1e00a9d4604dc72ed4b3e2634917",
+      "sha256": "fadecc17f1ee89f5304c50e8fbd5639ed4cfdbe7e6b5177afaa0984447a146ce"
+    },
+    "includes/Templates/fields-listimage.html": {
+      "md5": "177efc18113ff3ce8cb778562e65d494",
+      "sha256": "e1700a9eafcee3fbc7661411e928bcfcddcb5c974bc4c527b19c10a2a720557c"
+    },
+    "includes/Templates/fields-listradio.html": {
+      "md5": "82b619d8973fa07f86942de242ca7ba2",
+      "sha256": "3ffc73a0c86d1f1c6d4e34ce421e59747c40244d039218da11cf8e4710c5b1d2"
+    },
+    "includes/Templates/fields-listselect--builder.html": {
+      "md5": "1e5ee9f49dce7ac1e07dab0cabde3152",
+      "sha256": "ea0fbd93ac8e16e864a10b83bb34d1092cebf98766e544d65976c2cc424061dc"
+    },
+    "includes/Templates/fields-listselect.html": {
+      "md5": "fdff590f5b0ae60e7605562108a3c780",
+      "sha256": "9e5e6171a825de396c2091fb3603b66aa02f936d808f6367cc086f0775de38b5"
+    },
+    "includes/Templates/fields-number.html": {
+      "md5": "468f27ac35f083c861ebb7a1b86b0cdf",
+      "sha256": "7726578d62a4d0af525c07c629b96dd054808ffe7673e0346ff14be39641c38e"
+    },
+    "includes/Templates/fields-password.html": {
+      "md5": "221cee07a57f4c17d5c3992199fced92",
+      "sha256": "4ad23fcb1932e5eb7b0d18938d54010848951ca3df816a4e1d7ae93456ee497d"
+    },
+    "includes/Templates/fields-product.html": {
+      "md5": "7ec769fcd6eb84795fe5adbebda9c042",
+      "sha256": "99f0063fab66a66d16a392ca9e7a8c3d7cfb61237f622b9888358e134b97d86b"
+    },
+    "includes/Templates/fields-recaptcha-v3.html": {
+      "md5": "82f1853cf5d72403a49951b3826133a7",
+      "sha256": "6dd75fb0593dbf9f2308c3e698a5ed1446b7c4863edd19de606ed67ed29be577"
+    },
+    "includes/Templates/fields-recaptcha.html": {
+      "md5": "1bfe77e8c10377d872947e19362bc5f4",
+      "sha256": "aeab9ab0b30a39a4562f8cbc4c201c1867dc4bf544dbe4d34a7b2939b6cf6c6a"
+    },
+    "includes/Templates/fields-repeater.html": {
+      "md5": "8579693ca97b3b02da7beafc02ae5c6a",
+      "sha256": "8df642574742cb8c6e6b72ae8815239393514ce199319893bafe47b8729f2ac8"
+    },
+    "includes/Templates/fields-shipping.html": {
+      "md5": "df603c9a5dfe201c24b6114bcdf98767",
+      "sha256": "f3d8289eaf56d04d6d76c0a426562117039d6bfbb611f57f7e739cb61b6efa8b"
+    },
+    "includes/Templates/fields-starrating.html": {
+      "md5": "b1b2f8f21ad7e4b29afa7b024c1e9ad9",
+      "sha256": "afb9443c1645b0b003afe6c6c70dec61a83f064c1fb31f97aeca88440f01006b"
+    },
+    "includes/Templates/fields-submit.html": {
+      "md5": "e836fa4c3ef22e0dbbf0f95f9325be70",
+      "sha256": "a54a3f190949af588c067c76864117a8cd3db676d4aba26898cb8281b370423e"
+    },
+    "includes/Templates/fields-tax.html": {
+      "md5": "979d66eac47a80cfc8e4492a84e4d19f",
+      "sha256": "cd223f704ab4d311290e66eaf187f8c10fa6cafe9c7b0574e3d16abb4ed39b41"
+    },
+    "includes/Templates/fields-tel.html": {
+      "md5": "dcf15f4d6591941e3b4be95290aaf35f",
+      "sha256": "ef39feded487c0546ba26f851318575bcd6d36907d5345528acb78e81dbc6a1d"
+    },
+    "includes/Templates/fields-terms.html": {
+      "md5": "e38f0b528cf99ea31ac33940c517a9d1",
+      "sha256": "ac31df3d9fe50803268748449c867a7887cc7c07c638d964d17d12902fe10600"
+    },
+    "includes/Templates/fields-textarea.html": {
+      "md5": "d203a19c85505cfa0ef6a28357292fa7",
+      "sha256": "78a6f64552a2ba9f8f963bc368f7acf1a44834538be6ae936f509c07ebfa8461"
+    },
+    "includes/Templates/fields-textbox.html": {
+      "md5": "798476a01510ebd825cddb6596221bf1",
+      "sha256": "e2f4939add9c9fe420925fa323bfb2670f238181cb10c26bcc5d575bc8c505ba"
+    },
+    "includes/Templates/fields-total.html": {
+      "md5": "0ce657c70fcd1789396a6d642923d269",
+      "sha256": "d54a79eef71d9b0294770f75b0cc2b5f25c9a415fbd2d25b49c1dbce81fba725"
+    },
+    "includes/Templates/fields-turnstile.html": {
+      "md5": "7814d503398409a8f4086abaa5005b3b",
+      "sha256": "3e41b439c833f8969158aacaf03805a70f82ede16382377e18ae636246986d50"
+    },
+    "includes/Templates/fields-wrap-no-container.html": {
+      "md5": "b25eb558592b7f18c5a64e296875412f",
+      "sha256": "bdd35d85bf390dada4c7506fd10d66b694f0e4b73799a47e9ed3a9f95424bc35"
+    },
+    "includes/Templates/fields-wrap-no-label.html": {
+      "md5": "88e825acc72062f7dc0e11fde02d032b",
+      "sha256": "2001eb5d0f28a4e124fd87d14e9c20d0543ac44c6b63a41b9ddafed58edf5d4a"
+    },
+    "includes/Templates/fields-wrap.html": {
+      "md5": "bb7c5fb940db33e5c0de7ce3563c62d4",
+      "sha256": "076af1e71835129378083e71dca8ab52c7fc8b7f7be5575ff9764626740761af"
+    },
+    "includes/Templates/fields-zip.html": {
+      "md5": "9b38053518269ddc78dac804a9948044",
+      "sha256": "75774620d265fc408f500daa3eaba8348bb6b13095a949ba18ba36e7954961f2"
+    },
+    "includes/Templates/form-error.html": {
+      "md5": "f1f1996c97ae8a0f7e4f7ea1c411fc83",
+      "sha256": "a0be4d77eb49b58741e26c3f978defe92bea3fec07c8d377f30b5abb4bb35f68"
+    },
+    "includes/Templates/form-hp.html": {
+      "md5": "ae05149fd3781c695e34b61804a80179",
+      "sha256": "2697bd023bb7490f51bb17e98a317c0cd520aa232cfcd40709e647c9488e2376"
+    },
+    "includes/Templates/form-layout.html": {
+      "md5": "5f7ecb1779fe3f2fd360318a0c4d4b4b",
+      "sha256": "a42c3bc8f4019bec9af016204ecfd5198db91eb25c8110097266ef808b0ec6ad"
+    },
+    "includes/Templates/formtemplate-contactform.nff": {
+      "md5": "8d72e5358f34b1863e09b794fd478dfa",
+      "sha256": "454abdb613f8cbfa1bb531357db2c0934d9e087441b831e8c60cdc2d08a4e4a8"
+    },
+    "includes/Templates/formtemplate-deletedata.nff": {
+      "md5": "bdd957fc2db8ca6511de3bb0d516a84f",
+      "sha256": "ee14a469998220a3feab78a37109f6c3a5ec9086234ae227e31834866fcc44f9"
+    },
+    "includes/Templates/formtemplate-enquiry.nff": {
+      "md5": "e88c9db7183cd92733a9118fdd1f06f4",
+      "sha256": "3d7e1007425f321baebb33d50fbdf2876ed930ee94990c552b583badbacea2f8"
+    },
+    "includes/Templates/formtemplate-eventregistration.nff": {
+      "md5": "164fb33e0dffa5a866e1be0fc23d3c7a",
+      "sha256": "43833fa3ae60f341b10eecb9bb6b5331c7e1cb7991ade35333894d0b8afd19ce"
+    },
+    "includes/Templates/formtemplate-exportdata.nff": {
+      "md5": "0163002d288b4a0b79a3c0ed809f4a8b",
+      "sha256": "f44005934df11c3b6dbe63b1165a8c9681a6a87f4e69fea92e41f05946a00a80"
+    },
+    "includes/Templates/formtemplate-feedback.nff": {
+      "md5": "ac024c13f507b804af3e13469f980f3f",
+      "sha256": "89fff00474eecbb2d63b2cd3f9ce953a9d10edf2cdf3d584dc1fbffe64f01a74"
+    },
+    "includes/Templates/formtemplate-jobapplication.nff": {
+      "md5": "ad68b66f62532267e0f197f8d373b7b9",
+      "sha256": "a608dbed6789178d9d58685ae4475b30fce702f7ee971022eda46280245632a5"
+    },
+    "includes/Templates/formtemplate-questionnaire.nff": {
+      "md5": "7d7bc7707786a458ab68da15de9746ed",
+      "sha256": "e69eca4f0db23b6d874502a358c41b7677adcc91bd3f0779f2a9f869ebcb0495"
+    },
+    "includes/Templates/formtemplate-quoterequest.nff": {
+      "md5": "cbd3185037f6b6c1b885481ae96b5cd2",
+      "sha256": "1516d659ed3f2eecd4881a6ca1246e38288d195b8d9d4eaf206a0109a23fa882"
+    },
+    "includes/Templates/NewFormTemplates.html.php": {
+      "md5": "8902a922336b323beb18f3f7b2f080e2",
+      "sha256": "f4eda2ba8a14b1a26f596ac0f85a95e24678194379e7a2478463d1c27ffc9e0f"
+    },
+    "includes/Templates/ui-item-controls.html.php": {
+      "md5": "ca67747a18a905a254f28b03c852ea6c",
+      "sha256": "03dc7b213af319f064fef9bfaa08f02af4b4d1cac84db8d72a5c7fcab4753660"
+    },
+    "includes/Templates/ui-nf-drawer-buttons.html.php": {
+      "md5": "57ff6fb75b01b634f30a98c05fab1227",
+      "sha256": "2fe606b9dc621e31c5a857c36d7b59dd1a2e915eed0b1f2c57d9a86a26b2fe92"
+    },
+    "includes/Templates/ui-nf-header.html.php": {
+      "md5": "62af2bb111333cfa3b4b2d9b17c17854",
+      "sha256": "127de6aa4cc01cd3731dc42f61accb24e22d9d1fdfb97cc239c73fb874d7d9d1"
+    },
+    "includes/Templates/ui-nf-menu-drawer.html.php": {
+      "md5": "c926d02d84275a3ffd935aff27d1c95c",
+      "sha256": "0529e0fe563437a1ab436d59e90e8bee7a16169353a710b05e8202d39ef2c88f"
+    },
+    "includes/Templates/ui-nf-toggle-drawer.html.php": {
+      "md5": "4a24ee621e0178b9dd715cb2b750a10b",
+      "sha256": "35b7eb95d7afdd42e9e511dac9060cee4ea4c8ed3f14784e89948ee9917fc974"
+    },
+    "includes/Templates/wpcli-header-art.txt": {
+      "md5": "84a7546f27c43e2d6c1c6d9ce8884e27",
+      "sha256": "ee0d085869a14bb8900b7960fd50a12dea17754f15ea97fcabcf510bbc2b1e85"
+    },
+    "includes/Traits/SotGetActionProperties.php": {
+      "md5": "2c48f9f1f7b55d54e4c07a5001751ca0",
+      "sha256": "1f6b954376eb785790ca55e7e6e5559736ead63b67e1e6981df98ad8af6a3f2d"
+    },
+    "includes/Updates/CacheCollateActions.php": {
+      "md5": "f5eb144f2c2813b16d5bad5d4bd9671b",
+      "sha256": "f72d2a3f751f5367b2d37559f33d9df29b5d57617101b81b087f3f20e895c073"
+    },
+    "includes/Updates/CacheCollateCleanup.php": {
+      "md5": "0de8caf8eee0ce008cb60c357ac341c7",
+      "sha256": "a4e4fa4c0c113f38183cc04c5d80f865d405efcc323b2ca112f25bcbbd1612b3"
+    },
+    "includes/Updates/CacheCollateFields.php": {
+      "md5": "2c6aa705d2934293d5492c7239e2feec",
+      "sha256": "e84ea49ee4aba14915a7dab9195bc2f3aec50ab51669081233244e7ff192ed18"
+    },
+    "includes/Updates/CacheCollateForms.php": {
+      "md5": "e39d0f056b92407289c52175ecac73b3",
+      "sha256": "350e4a07ce0ecb53bd060c263eea13515d419590dacd6b70e571821574300f07"
+    },
+    "includes/Updates/CacheCollateObjects.php": {
+      "md5": "046439772b40bc116cc3d112235fc954",
+      "sha256": "7e1115a540c53972fbde70ccbc137ce3a1e1b07e4119b55220e38895c186e92d"
+    },
+    "includes/Updates/CacheFieldReconcilliation.php": {
+      "md5": "15f855e956e868ceaaa84ea4d9f67822",
+      "sha256": "9a3ffbe98a95f7097b684fc71dddc48c785bb5fa8b3d824bbbb1e82ab3ac576b"
+    },
+    "includes/WPCLI/NinjaFormsCommand.php": {
+      "md5": "da656eb00785d96a5f7eabaa53689815",
+      "sha256": "8f28a6b3c56247a2269340d2a1b7fb89048d40dfc9be7688f31abfc5eeb0d72d"
+    },
+    "lang/ninja-forms-da_DK.mo": {
+      "md5": "0589667eeb26599bd39a643906f0161c",
+      "sha256": "51a21af772d9ddceda8553d668f3406be5b21541c7327309647a9404ed1b8230"
+    },
+    "lang/ninja-forms-da_DK.po": {
+      "md5": "fe0ef7bd468cc05c94f1cfe4da3c6357",
+      "sha256": "0c8e111fed112a2e2bbb5913087bc8023cea9f37df5e9233b5bf84a76a3ca02b"
+    },
+    "lang/ninja-forms-de_DE.mo": {
+      "md5": "93e2e11571c6cce8c32bced21e4c929e",
+      "sha256": "d404567f29a16c794ff4e7c52df99e8558b4edecf4bca8c036e14909585707e2"
+    },
+    "lang/ninja-forms-de_DE.po": {
+      "md5": "d594b2b96a2e414c8c83263e31cacdb6",
+      "sha256": "89a065515ab93741850826cba33fee3047d615b792c066978faf592357d593eb"
+    },
+    "lang/ninja-forms-el.mo": {
+      "md5": "06bf83884edff8154f768df237877880",
+      "sha256": "81d4f313a7ad82f667e4be763285473e451b673e74051f253bb048d4b0502dd1"
+    },
+    "lang/ninja-forms-el.po": {
+      "md5": "3ab27d23927e00a5d451c9a80cd67d37",
+      "sha256": "610675084ce2ae5750146a8699b6fbf3c0a300816a9cd6ac13e6b7b709f8fc00"
+    },
+    "lang/ninja-forms-es_ES.mo": {
+      "md5": "34be858fdd317da922cb8bab05f99572",
+      "sha256": "9b3aa0f7d95863408155f4b00dbbb3254f723cdd650368c280dcd0e7d2372a0d"
+    },
+    "lang/ninja-forms-es_ES.po": {
+      "md5": "1c159220750dd97e13a74991cb2e52cb",
+      "sha256": "8a5e929a047ba1bb3e91c6150ae4e96a2833f8c0e65476b145750bcaf21cd749"
+    },
+    "lang/ninja-forms-es_MX.mo": {
+      "md5": "cc8490fe678195178ccddc624988934f",
+      "sha256": "fb1e449bf3c0a09cc8965d4bdf2a8221bf15bbcba44266adac8b0fe4d080d1ac"
+    },
+    "lang/ninja-forms-es_MX.po": {
+      "md5": "c36bca78443d32ebb34ebc943ec97b88",
+      "sha256": "a21fee0d891db46b9cbf276826d3a046f9c111d81fb3d2a82f4ece8ced324c55"
+    },
+    "lang/ninja-forms-fi.mo": {
+      "md5": "7a9114d5e1f405195d2463ce92378553",
+      "sha256": "7ca3581d16fedeb09c4e547e4cffd663bc51a5bdc003b7e5ece5ba382d53a7b5"
+    },
+    "lang/ninja-forms-fi.po": {
+      "md5": "9a14753fe72b28e6b6352c54542a45dc",
+      "sha256": "b7f85ae33a19f93e6b1cdd28fd36e3d296dc7dc526247f1f1d551ea30482ac1b"
+    },
+    "lang/ninja-forms-fr_FR.mo": {
+      "md5": "b8c85924c2f84b2d5ae20615fd0051db",
+      "sha256": "c47dffba5f3fcecd104869c202fe0cb911e31740be6fde22bdc2072d2ab08aeb"
+    },
+    "lang/ninja-forms-fr_FR.po": {
+      "md5": "358fc73b79cc53e06ab8894f2681e2c8",
+      "sha256": "8b85d021ad101841c4b2c18fcff88ec5a4f71556d3c31b4ff8a93ac75a7f4625"
+    },
+    "lang/ninja-forms-hi_IN.mo": {
+      "md5": "4ecee26aee6fb6cc178791aef7e5609c",
+      "sha256": "4e2999f5641f4a3ea68347fe55198a34a31e2c3cc447e5086ba33d692fb234e1"
+    },
+    "lang/ninja-forms-hi_IN.po": {
+      "md5": "d8865d250c67b08e66cc10362d8e1465",
+      "sha256": "29bd1276e7513db8fdac2d5c6556a7c586ca42504a9784a6ac0c37508bd03f5f"
+    },
+    "lang/ninja-forms-id_ID.mo": {
+      "md5": "f4d39e1c4c32947b09d1134745a88384",
+      "sha256": "d5ee5abf7c0cb2ef3c17a34284400463471ba58d30731cd14bc87e9740844ce5"
+    },
+    "lang/ninja-forms-id_ID.po": {
+      "md5": "0c457cc8f6dcf23f595cff88f1d900bd",
+      "sha256": "ef63db8c2e14ff1e593bc61ba47f3155ac1864a80c5751e40d0a212f577d6693"
+    },
+    "lang/ninja-forms-it_IT.mo": {
+      "md5": "665d1be18fa186d0f7c57758a1249d8a",
+      "sha256": "8024145e91c87c979dfc63bb8a4b81969fe3fb1d2f5fcfa85caf97985ef9be02"
+    },
+    "lang/ninja-forms-it_IT.po": {
+      "md5": "8eccd54b21bb88307d1eabc2ecfa989a",
+      "sha256": "1df30833c64a95c4899a4442882a71dcb7e13ea704c1e5fce5548e69895b52f4"
+    },
+    "lang/ninja-forms-ja.mo": {
+      "md5": "b85eb8d944e8ff20bd026d0750b248b4",
+      "sha256": "2edbc8b9fb93c7e6de3cf67509e8627f679f14a21521986bee5b846e8743c6cb"
+    },
+    "lang/ninja-forms-ja.po": {
+      "md5": "350fcdd30b9bb44c9247425142561da0",
+      "sha256": "e53c87d4a663a14e2c1319db9e70b840f439baf744587397eaccdb2037719682"
+    },
+    "lang/ninja-forms-ko_KR.mo": {
+      "md5": "171a8e409ae9666c28e8ec0b47712da6",
+      "sha256": "b9966531c32d47c26eb89871252a424ea63d1b02aa8ae2d04333797ad6a4044a"
+    },
+    "lang/ninja-forms-ko_KR.po": {
+      "md5": "08209e70a962e4e27913869761e8b514",
+      "sha256": "87d341f2f6aa16b9b472fcd1c1dcd30a94eafe2a777a5221f6a2d84e9d810a27"
+    },
+    "lang/ninja-forms-mr.mo": {
+      "md5": "e8d513c94328a2c84baa265934481c17",
+      "sha256": "5046fd2058266711c9dd6a21f33d11b592d8d91ff6fca45baef5db9de17d8f7f"
+    },
+    "lang/ninja-forms-mr.po": {
+      "md5": "fbed4a1c4cd9ec89d5d54c0b387bd298",
+      "sha256": "eaca8097c632117b815e015a7658e225f2c85e12caadec6913ef142df1c85d4b"
+    },
+    "lang/ninja-forms-ms_MY.mo": {
+      "md5": "23b09ed04f1ff46387d2466ce088ab4a",
+      "sha256": "a70158ffd68e1a5a008a2467e841202db85593a4b6ceea135a3b1c4b9b0deb7e"
+    },
+    "lang/ninja-forms-ms_MY.po": {
+      "md5": "6cdcda24ed45c3adae160a5e05d78476",
+      "sha256": "2c448ad08cc5411d4ea71be5583e3b24cea06e2fa22d23fe0dd87e382828b8f3"
+    },
+    "lang/ninja-forms-nb_NO.mo": {
+      "md5": "774d4f5b2f13099a3ab99c6eaea340e9",
+      "sha256": "2a783b1f5434d47cb8503263d00114ba8f4f3eaef740e339ec8673915b620178"
+    },
+    "lang/ninja-forms-nb_NO.po": {
+      "md5": "9b4afcae50575a2daf638677a9b3f04f",
+      "sha256": "ea01f32e24fb4c16da858eb62712bcef4b4d94ddff0658472228c4976752034e"
+    },
+    "lang/ninja-forms-nl_NL.mo": {
+      "md5": "cf18f633ef3856d0e5be6e72d058b1bc",
+      "sha256": "a8af67d62bbf1fe0cab8b6d1955a7691f2819055dc3d48baa6e1105c90ff6887"
+    },
+    "lang/ninja-forms-nl_NL.po": {
+      "md5": "9c31b3760af042b7331f0e57af217200",
+      "sha256": "f590c3e0ce37dd68794e1d6333bbf819b6e9feecc9164058a636e9df4723cfc8"
+    },
+    "lang/ninja-forms-pl_PL.mo": {
+      "md5": "e49e19b41c103947b70db68ca646aa1b",
+      "sha256": "67714f38fa51cb4dd28a8a9a80c85cc5d3fecb8dbb2f28803c2ee0d1c4ef3eb6"
+    },
+    "lang/ninja-forms-pl_PL.po": {
+      "md5": "a7f4cb10030822ac627f143de4e148ef",
+      "sha256": "9cc11f7f43d3234cc4746c15d2156af7248b107fac81093ddd28bc0870e55607"
+    },
+    "lang/ninja-forms-pt_BR.mo": {
+      "md5": "2f1ba1b953f1867bebe307c7994f91c8",
+      "sha256": "39042e1b8b8e9d8c7fc8fefa9f9fa38f46358f35410abe3dd370d5cba23f3488"
+    },
+    "lang/ninja-forms-pt_BR.po": {
+      "md5": "247bf79d78ad61f00a16f66889dd1d71",
+      "sha256": "c868d7b8c3b4fe4201c68bc58d19d00fdf15f06f6ce7013786d2f464e8f7b677"
+    },
+    "lang/ninja-forms-pt_PT.mo": {
+      "md5": "504768ba1c510149978577ded4622555",
+      "sha256": "a67bff8021dbb4b3aeb8ebf57914fe2c49f2d6fcd100f1a9d79f169de15f88e8"
+    },
+    "lang/ninja-forms-pt_PT.po": {
+      "md5": "78376b1e6512edbcc2d57c4fdc2dd431",
+      "sha256": "6e539c23aa474caed2bc7561f91696d8b8181355e5c276f1bcd49db265d3d433"
+    },
+    "lang/ninja-forms-ru_RU.mo": {
+      "md5": "df426454480e08f7171302aa70a0ec5a",
+      "sha256": "3d74bdd16a3ddf9ad9c97a2e934995bbdf306c869bda7be6849b50e30e79ce87"
+    },
+    "lang/ninja-forms-ru_RU.po": {
+      "md5": "03f657e749c802781b837af88ff703a8",
+      "sha256": "6225786fee8785e420c53d179ac7955d3992d72ef98bc33e5f6b80a5f6b2dd2d"
+    },
+    "lang/ninja-forms-sv_SE.mo": {
+      "md5": "1efe4db09be04fdabfefff7bee1a104c",
+      "sha256": "bc02355dc648a957eb832cc8f441d38b1575a889ab71daa74e0f040402367912"
+    },
+    "lang/ninja-forms-sv_SE.po": {
+      "md5": "d580212f4fa41478fa2f954f000ad767",
+      "sha256": "a2dd70e384e137050e753db68b0004e85bf69081733b6f4bd62d3f07829d52d2"
+    },
+    "lang/ninja-forms-th.mo": {
+      "md5": "6a8535035cf2aae966ffa70b65ca7045",
+      "sha256": "0ad0fe7b100b927058357f0d17035c934894fe38dab0ab0b1d22a339652d5c3c"
+    },
+    "lang/ninja-forms-th.po": {
+      "md5": "f46609ba2ce55d420d529fe5fda8d843",
+      "sha256": "e6e7c52093a436ce1348209dccdf9a1dfba173acef62f81cf4bab777a050ab7e"
+    },
+    "lang/ninja-forms-tl.mo": {
+      "md5": "3b781da72447fb32f3f0f182bc32abe9",
+      "sha256": "f1f037b46782b416fca33ce432c18a0fe28503cef2939a28d910804080386274"
+    },
+    "lang/ninja-forms-tl.po": {
+      "md5": "249000263dd73a00c769147ac0a6250d",
+      "sha256": "d790002fec6f2f7a8686ca661dce6cfca21f7093fc9e477afd4abeda2ac9cb81"
+    },
+    "lang/ninja-forms-tr_TR.mo": {
+      "md5": "eaa08c5e2d6151852b8162042c22892c",
+      "sha256": "db3cd06d8b74744cf3fb03db2b721c8b6d66532e9b385d126e0306aa558af1e7"
+    },
+    "lang/ninja-forms-tr_TR.po": {
+      "md5": "73b0cf99d3a6a3b7ea18fe0c8d4941cb",
+      "sha256": "dd5ca44d9f8f892590423e1c7a2514b050b68b7b103ab6333de46e75e447ebff"
+    },
+    "lang/ninja-forms-uk.mo": {
+      "md5": "bcca804f28cc5fe0c54a7de5c99aa4cc",
+      "sha256": "4f2a3b58ce9cb99196316e66e6be87d36e01f52bb49b9e8002b03917d33efc55"
+    },
+    "lang/ninja-forms-uk.po": {
+      "md5": "7562e8fcb9aa202a4696ec0e5ba2ceff",
+      "sha256": "d0a89b22a15d535d109b744d5fb8b847b3797b9c7c1ec117b526e9842905d285"
+    },
+    "lang/ninja-forms-vi.mo": {
+      "md5": "3dfef199efe457606901e85545e38326",
+      "sha256": "89389380596ae3e49d822687b03ab1c52c8902654c60fe240195960d1449cc6c"
+    },
+    "lang/ninja-forms-vi.po": {
+      "md5": "63b595a9a127b24bb7bbd4d31bc9da5f",
+      "sha256": "64c43b893945c39cb8aab6146998ea36a644a5cfd3bba73a971184c2b90841cd"
+    },
+    "lang/ninja-forms-zh_CN.mo": {
+      "md5": "54091430d17de8fa4c79dfaed255b2a2",
+      "sha256": "6c1919c0dd24f301c5d2743ed07466ebecdfcc995f64c96cdd0dd9bd5f334661"
+    },
+    "lang/ninja-forms-zh_CN.po": {
+      "md5": "3bde17161c6902c6408739cd22b9e7e9",
+      "sha256": "881b677fef0c061c0142a972fae6eda007a7718fc538eecfbfd44fffa3770eda"
+    },
+    "lang/ninja-forms-zh_TW.mo": {
+      "md5": "07f408c60c3abd926fced9c5ca67b944",
+      "sha256": "0f8cd162ac9b21b043321062e1c69442db8d27ce84e9b1549f285bd2ac842dcc"
+    },
+    "lang/ninja-forms-zh_TW.po": {
+      "md5": "669d4a8db68c0ebacdb008c6c6f630d1",
+      "sha256": "7843828832d6c20b3762965cc4c753f9a61f5527dd3bf47f34f57c024a01fc6f"
+    },
+    "lang/ninja-forms.pot": {
+      "md5": "a8378dd970aadf2d9111cdf7dbab7665",
+      "sha256": "2d6ef10c010a38925dbef63619bd90b57de823e489719eb45b16a58a052d7b7e"
+    },
+    "lib/NF_AddonChecker.php": {
+      "md5": "75df4a3463087a330e5026b970f32c90",
+      "sha256": "8a064af8c3f37978056413a47ee6eb616e1930df191bd43f9d6d5e342881b4e2"
+    },
+    "lib/NF_Tracking.php": {
+      "md5": "49da58a712a1203c8725a71602daaf43",
+      "sha256": "27e1f1b4503137501e0fd730e7c6d0f16d7146ed46564d6b38d5c0fbdd2a7f7e"
+    },
+    "lib/Legacy/addons-feed.json": {
+      "md5": "baff66588d93785c83fa2bd2909443f3",
+      "sha256": "99ae62d8dd6dc3bebe0fdbb6e945f6a680c31e6b92167a3ad51fe69c17d1fc5e"
+    },
+    "lib/Legacy/jquery-smoothness.css": {
+      "md5": "408dd91897a792623ce7c06d45a71725",
+      "sha256": "70b8c2dbe2ad9032f7b685c815be804af7b02e68969f6007b278a33ce47970b5"
+    },
+    "lib/Legacy/jquery-ui-fresh.min.css": {
+      "md5": "61aede914019bf154782937498de0e4b",
+      "sha256": "558543e5452e13925ae008b837b7d1cc7d1bec20923d705518070c7061c6639f"
+    },
+    "lib/Legacy/step-processing.js": {
+      "md5": "21363078b5a070bf7c2f26ac4f121f83",
+      "sha256": "f6a5abb3d431b37fc9a253b434c9268ae56b7131e4ce536b8293f05a03aeee37"
+    },
+    "lib/Legacy/subs-cpt.min.js": {
+      "md5": "9f67fb6410f5e3a5a2837d3303d7f7b1",
+      "sha256": "b278bf7f751ce9b6ac73eac1b9027a992302a8698be6963e48534183877b8369"
+    },
+    "lib/StepProcessing/menu.php": {
+      "md5": "94be1a5d7ba1c6ccbb4848fdce659892",
+      "sha256": "bd7cb436f69d44cca2c9239368feac51d5b40ecb2112f6092107673467871af8"
+    },
+    "lib/StepProcessing/step-processing.php": {
+      "md5": "3a89c47474d29c0f96d6d53bafbb6717",
+      "sha256": "6dcbf0cdb5a9651212865a982c03c6d0c0b45f057fbfc33e3403e7e463ea13b8"
+    },
+    "services/bootstrap.php": {
+      "md5": "997ec7918dd5c30291c0bf446fb86d31",
+      "sha256": "45cf7adbd5374a96c8751862886fdd08123fed3eb5c983b0c94613a0785c451e"
+    },
+    "services/oauth.php": {
+      "md5": "df06bc8193973beef3fbeeeb541b6d80",
+      "sha256": "11b464fa042d498cf57d2c15a18823eb3041f1c9293cc66d1bb5bfd7f322ce78"
+    },
+    "services/README.md": {
+      "md5": "aa6f2f37ac0d88fe9a4b030261095872",
+      "sha256": "308a4c4aaeb883cfe5fb7b32ba80ddfa4af05ed3827f6a21b40319fa275477b2"
+    },
+    "services/remote-installer-skin.php": {
+      "md5": "b40b26ca4f9c4e59c7b8ecd3a37b735a",
+      "sha256": "16f1114ce8409ac8015c02f5da17699604bd1fd3baa4a178836639371c24f678"
+    },
+    "vendor/autoload.php": {
+      "md5": "fbf3d6bbe048851d7c34dc767ea3587c",
+      "sha256": "f66c3f3816d3ab0439bb322efd5738a1597e1b9fc235734b3d58ab6b192436e6"
+    },
+    "vendor/composer/autoload_classmap.php": {
+      "md5": "5615b29a1f5688414d56a1515d954a91",
+      "sha256": "375085d0d6690301081436cd75755cb2c882f8a7f6fc385c8814a11734fc413a"
+    },
+    "vendor/composer/autoload_namespaces.php": {
+      "md5": "224007c97efb82c7b45b0e92f240af41",
+      "sha256": "ede505407590638a435137f4e060136f1008de79fc169b3de9793423b0cea38c"
+    },
+    "vendor/composer/autoload_psr4.php": {
+      "md5": "f3472d1a337c1de05a95f50b95f832df",
+      "sha256": "054fbfc74e9f372450d9b566f3bba8562c8ff91567446db790a636f77fbfce09"
+    },
+    "vendor/composer/autoload_real.php": {
+      "md5": "f2d5742dd7772a2766abf06cf362fbef",
+      "sha256": "c934f2bf23383e3c919876cb37a166834e3641dcafa77726ed245f5595812917"
+    },
+    "vendor/composer/autoload_static.php": {
+      "md5": "e1c803ef2cea93f5f9c680b7b8a76800",
+      "sha256": "bcf7f8dccea31a36b80eec76aeb67b02061ee23639bd9c2c2c52f89744c5b17a"
+    },
+    "vendor/composer/ClassLoader.php": {
+      "md5": "c02be6d96671f88d28aad3ffa134c8ae",
+      "sha256": "d4b2313e562edf942838ec316d983c1a3459ca67da3e5658e861200b0b3693c2"
+    },
+    "vendor/composer/installed.json": {
+      "md5": "2053241b017739e938771e158952a3bd",
+      "sha256": "ce409de85451ae1b66aca736f5cafa2e76ad3dbc7f0aed6d79cdb84e76be46bb"
+    },
+    "vendor/composer/installed.php": {
+      "md5": "084b9f1a4fadd70d4524a6ad84a8415c",
+      "sha256": "6da32e6b1e1396ef8fa062c8cc2e6caf30b1be6af60fe185a70986eaa242b432"
+    },
+    "vendor/composer/InstalledVersions.php": {
+      "md5": "7baf73014351c49ea0fef617dae7019b",
+      "sha256": "1e4525198301d1ed1f87ac3df2a8555a6f139f8df30a703d0b775a61963c96e4"
+    },
+    "vendor/composer/LICENSE": {
+      "md5": "955d5fe58c231244f6b49000f383b5e2",
+      "sha256": "c8cce4b6b9729f264ffdf9296d505d63432497feeed1f586d1902b942197e024"
+    }
+  }
+}
