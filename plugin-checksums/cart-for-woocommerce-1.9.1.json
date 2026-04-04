@@ -1,0 +1,546 @@
+{
+  "plugin": "cart-for-woocommerce",
+  "version": "1.9.1",
+  "files": {
+    "license.txt": {
+      "md5": "d32239bcb673463ab874e80d47fae504",
+      "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903"
+    },
+    "plugin.php": {
+      "md5": "8eb40825a93e8fa6f5de3f335a058bb3",
+      "sha256": "4a442bcadf0c3ac79e9d2e2e29525226e4c121dfc0abd801dd334e8af1dd9578"
+    },
+    "readme.txt": {
+      "md5": "9d0cebb94ce83db2a845678ed9953f87",
+      "sha256": "99af2b2eb70cde24d03c95e638d150c10ff09d334bb2b93b53e751c18ea599ee"
+    },
+    "admin/admin-app.php": {
+      "md5": "595c4627e154f0e2f526fc6634921f75",
+      "sha256": "845662d1915fe22c01f14c81f50821b7318b1aae51b6022ba291cbd21f4e13fa"
+    },
+    "admin/app-ajax.php": {
+      "md5": "07663fa9eebc443eb89bbf15514a27e3",
+      "sha256": "0271a93a575c0e52eb150853abfa1252c183c99093f737917524ec5303f21e1e"
+    },
+    "admin/index.php": {
+      "md5": "67442c5615eba73d105c0715c6620850",
+      "sha256": "bd48c24ce4500e60d2524571756787283f0d3fbfa50b116331309c09773f0cd1"
+    },
+    "admin/app/dist/main-1752153607.asset.php": {
+      "md5": "a345f57557efc2f0c9d4be4cca1917c6",
+      "sha256": "311a41215fb619614eefb8d7962731c3ee99237e2f9752f21b109367ea9cd278"
+    },
+    "admin/app/dist/main-1752153607.css": {
+      "md5": "c30960dc607aa698c70134d6c1829d54",
+      "sha256": "75ff971e962ef969e01c1fd7510f63280d0da1d387c19ce11f3971a887965acb"
+    },
+    "admin/app/dist/main-1752153607.js": {
+      "md5": "03f1c1ebd51f234ae11839269dc159f9",
+      "sha256": "c1525e2715f6367d95a48b37b9e746fa10c71313cf3bc99a0b899932d562728b"
+    },
+    "admin/assets/index.php": {
+      "md5": "67442c5615eba73d105c0715c6620850",
+      "sha256": "bd48c24ce4500e60d2524571756787283f0d3fbfa50b116331309c09773f0cd1"
+    },
+    "admin/assets/img/bwf-icon-grey.svg": {
+      "md5": "41d14d7d6c9140e9de58f354117b3ad4",
+      "sha256": "2a42448037e94c6f92052e57be20c74c36e83fc8dfcd0ec20c6eee45d4bebe01"
+    },
+    "admin/assets/img/funnelkit-logo.svg": {
+      "md5": "a3470725ea2d4dc7397aad8d206df7f7",
+      "sha256": "e3281350c876203a9025567d4d6bc8ff7ba1a95af6e52151cbd6fa9cfdefe87a"
+    },
+    "admin/assets/img/index.php": {
+      "md5": "67442c5615eba73d105c0715c6620850",
+      "sha256": "bd48c24ce4500e60d2524571756787283f0d3fbfa50b116331309c09773f0cd1"
+    },
+    "admin/assets/img/product_default_icon.jpg": {
+      "md5": "fd3ef08002d7d14e15b7aa1880a2f89c",
+      "sha256": "ee87995bf10f551a074ed259787f59580480d55021d7c920293941ec74a2b0f3"
+    },
+    "admin/assets/img/dummy/1.png": {
+      "md5": "c3d0d0b36bc65538b03096cce091b5f7",
+      "sha256": "035a6ebdd2c31b6764dd25b03a843687c33975e8f653cd30522ca765ba154fa3"
+    },
+    "admin/assets/img/dummy/2.png": {
+      "md5": "aa991d581d6d4bfd0aa727a12d8f2d53",
+      "sha256": "e51768be4b0ed3adb596155f05da2cbe04765091baf4cf266fe72f9bc03beeeb"
+    },
+    "admin/assets/img/dummy/3.png": {
+      "md5": "c698e2b4ebf1642336a86636b53324a6",
+      "sha256": "3efcdd89415c567f7016ea215d884cdc8ade0cdd6d5a3e9554caf80eccc3975e"
+    },
+    "admin/assets/img/dummy/4.png": {
+      "md5": "86f8d7123c34bc5d9641f2ecb9385ee6",
+      "sha256": "dfbce305f291c68f8b6fe68a4ad6fa9821b5a99d88540ecff13e871bba6ecf48"
+    },
+    "admin/assets/img/dummy/5.png": {
+      "md5": "f9495dd84c6ef3148b9f3f807f07c56e",
+      "sha256": "7808d6e2aa72affd377335b3e39f886db3d11cfded929bc50a0ba6dfb4f38093"
+    },
+    "admin/assets/img/dummy/index.php": {
+      "md5": "67442c5615eba73d105c0715c6620850",
+      "sha256": "bd48c24ce4500e60d2524571756787283f0d3fbfa50b116331309c09773f0cd1"
+    },
+    "admin/assets/img/dummy/no-product-found.jpg": {
+      "md5": "e6bf2d13417ffea7acaa6910583f7a9e",
+      "sha256": "e2ff9e980f4471a2022d1192ff3d40efa95d041a316dc3c6152ff383a9c9861b"
+    },
+    "admin/assets/js/cart.min.js": {
+      "md5": "dad2672a80de675e69f29a57e1e8ceb9",
+      "sha256": "4f4c52c6a84215ea4adf48095cb5a4764c9bf11d4df4f4d52f1b0503c50ee54e"
+    },
+    "admin/assets/js/index.php": {
+      "md5": "67442c5615eba73d105c0715c6620850",
+      "sha256": "bd48c24ce4500e60d2524571756787283f0d3fbfa50b116331309c09773f0cd1"
+    },
+    "assets/index.php": {
+      "md5": "67442c5615eba73d105c0715c6620850",
+      "sha256": "bd48c24ce4500e60d2524571756787283f0d3fbfa50b116331309c09773f0cd1"
+    },
+    "assets/addon/embla-carousel.min.js": {
+      "md5": "5f308a43449db7fdc0d1161f3dfa192e",
+      "sha256": "67479497dc0f969cb84eb8790609b70997726e6ffaf5c68e2703fedf02382aa2"
+    },
+    "assets/addon/index.php": {
+      "md5": "67442c5615eba73d105c0715c6620850",
+      "sha256": "bd48c24ce4500e60d2524571756787283f0d3fbfa50b116331309c09773f0cd1"
+    },
+    "assets/css/index.php": {
+      "md5": "67442c5615eba73d105c0715c6620850",
+      "sha256": "bd48c24ce4500e60d2524571756787283f0d3fbfa50b116331309c09773f0cd1"
+    },
+    "assets/css/style.min.css": {
+      "md5": "002f43f4531986b64c2ff1d1a60b4b02",
+      "sha256": "a4cf09cad348b955993d12c6a4e69964d02dca0abd1f841ebad25391db19f1eb"
+    },
+    "assets/img/icon-delete.svg": {
+      "md5": "78df22ac70af312ab6f724c5aeb08385",
+      "sha256": "841486a0f07d17ccee92599fc12a59c0eb995243d1aa261e663cf8430ec857ec"
+    },
+    "assets/img/security-batch.jpg": {
+      "md5": "79ae21f24abc6d936f75eedbfc585369",
+      "sha256": "bed36a6e7d8efdadf46898ddabf2a7c2a51def1e2e2541933a31c7a2f0ff10ec"
+    },
+    "assets/img/tick.svg": {
+      "md5": "31281261c1b36a882818dbac8cbd081d",
+      "sha256": "c74eb675e1c0b533e6c68870cda94b44e240a85b11c3335697965b4f3c8df189"
+    },
+    "assets/js/cart.min.js": {
+      "md5": "2062bc7c6b541e196084ce6b0f99aa04",
+      "sha256": "63ce92ce3dc25eb07394c9ba12f1f63fccd432d448a0bc39de72886db11d0514"
+    },
+    "assets/js/index.php": {
+      "md5": "67442c5615eba73d105c0715c6620850",
+      "sha256": "bd48c24ce4500e60d2524571756787283f0d3fbfa50b116331309c09773f0cd1"
+    },
+    "compatibilities/adp.php": {
+      "md5": "4c9b7f4c0f988c41928926adf6766bb2",
+      "sha256": "2fdbb9945604d66dc8cd86f8ffe6571016215ef1e089a38b234481bec8688fdb"
+    },
+    "compatibilities/aelia.php": {
+      "md5": "1ab935e681211cdef1c5a7e7759ef208",
+      "sha256": "cdf8526517627ae4680e408ce4ff94e8d115f08ab646419011465207f48498a3"
+    },
+    "compatibilities/allproductsubscriptions.php": {
+      "md5": "1d8578d391e2f5def3db435b41f056e5",
+      "sha256": "a483573a53bd361842da7cc62016fb901f3cb473e505885c7723c4f9b9a73f90"
+    },
+    "compatibilities/astra.php": {
+      "md5": "b69de7e9e797391b02d4c2ae67cfb868",
+      "sha256": "c1abe1ac15c6a3810fc36f6c81f557323f9f87af2fc9b725c6f43b471506ea1a"
+    },
+    "compatibilities/booster.php": {
+      "md5": "8e7bb7f7ecc5e97507fcd7bdd4594f8c",
+      "sha256": "2c5f5acb1c0a9c9d2672ba05ed213882ca02c09fe68159368a689d9d1f465f8f"
+    },
+    "compatibilities/bump.php": {
+      "md5": "c12316a42612219994d850aaa9014b52",
+      "sha256": "6ad80e953c6d49ea3302bac7b5539bc99aec6096bce8e7783a081916e6d74901"
+    },
+    "compatibilities/chained.php": {
+      "md5": "af189cc3672edc40344f5c03d5b0e8a5",
+      "sha256": "3b025b2dfb976596f607ad109b55fba3fa6caa414d225635ecb5fdc16442f73f"
+    },
+    "compatibilities/checkoutpluginstripe.php": {
+      "md5": "24380011819e1ebcc2b2a712166af1ce",
+      "sha256": "2a8f154eb9117cb1c5d26f8d6b9a045f27973d2964cf45d58cf9d8088f2df047"
+    },
+    "compatibilities/compatibility.php": {
+      "md5": "97d97466904ae70a1751fcb0bc97ced5",
+      "sha256": "4734e0edd25144ac3d18a9435603e220416d5614ea263eeeac133830704f7b80"
+    },
+    "compatibilities/flexibleshipping.php": {
+      "md5": "b805a36cd32a44c7a1a9ddd502a572f6",
+      "sha256": "0d6fde0223a8ec966c77244ebf7ca795f2167781883238fa94908a0f32d688a9"
+    },
+    "compatibilities/freeshipping.php": {
+      "md5": "006b047c5b0641764cec4497617aed26",
+      "sha256": "c0041af2a54430a2bb8efe4a69aeef5452040aafc8f2f14eafa56c751e4dfcdd"
+    },
+    "compatibilities/funnelkitcheckout.php": {
+      "md5": "473ebd101e1dbfb83c556755636ff214",
+      "sha256": "8dfd6f52a6dcdc50532ab52496024b1946e3fbaba9c7df14635c2829fcb266c9"
+    },
+    "compatibilities/funnelkitstripe.php": {
+      "md5": "9fb3d6fda87c1396aeb09847ad18877b",
+      "sha256": "c7031b1d50b64b7a10d8d302afc06f7744718430807e282806f2db5ad1ab724d"
+    },
+    "compatibilities/germanized.php": {
+      "md5": "27636686ae957d8c694d62c759a4c734",
+      "sha256": "3959d43a27ecca79792afeecff33c5516dd83f1a8c36a7cab1751e436075f969"
+    },
+    "compatibilities/index.php": {
+      "md5": "67442c5615eba73d105c0715c6620850",
+      "sha256": "bd48c24ce4500e60d2524571756787283f0d3fbfa50b116331309c09773f0cd1"
+    },
+    "compatibilities/klarna.php": {
+      "md5": "0465441bf8bdae18c36f9778d98cfde6",
+      "sha256": "30533146a694f35651fd51a0b10026b0ec4566faa24870bf831fc1350503c99c"
+    },
+    "compatibilities/litespeed.php": {
+      "md5": "c4573e9153b3b16bbb9c1d8f8c98c089",
+      "sha256": "b671ecf0abaf1bb53e97706a19778384b45cad0076c4507aa03a09d4be95630d"
+    },
+    "compatibilities/paymentpluginbraintree.php": {
+      "md5": "39b2ee5bf7c4d6a9d36ec505f6b7d8c4",
+      "sha256": "d25bfed27f4c7a11ef679ea83258d014f7a15d9b41da0b8f6339efa1031d37da"
+    },
+    "compatibilities/paymentpluginstripe.php": {
+      "md5": "19b350f1a927bc88790fb5a3aad7b376",
+      "sha256": "6d65bc4b1d676d48c54c39b0f48d09de2cbe32abb8eaa87fe0dfe582e3fa5fb4"
+    },
+    "compatibilities/paypalpayments.php": {
+      "md5": "f017ffa194228a45b0b9e81661430314",
+      "sha256": "a58ac4dd2b76b9175555931da09bfdbbe7d151ba11dd8c6234cadd04ab3c3d73"
+    },
+    "compatibilities/polylang.php": {
+      "md5": "5979972f234fb5f86168815e5756e669",
+      "sha256": "de6e53278eeb75541f6b10025c79b9e72ae61f18e245f81cbfa4406028f8c428"
+    },
+    "compatibilities/pricebasedcountry.php": {
+      "md5": "e0565f8edfa77f8f9166f32c4ad38448",
+      "sha256": "20c1ca5277eabc0dab67aed8d8ee94e48afb3a43241bd79e0ed2663f20cf1daa"
+    },
+    "compatibilities/pricebyquantity.php": {
+      "md5": "315a67148871f14971a4dde1fd6231cf",
+      "sha256": "e5a2cf3ae5f751ca6d4cfe5a8401fc38405585a791fcfbb003587b1da7b26a86"
+    },
+    "compatibilities/rightpresspricinganddiscount.php": {
+      "md5": "7015f199c33a0761862c5d41630e74ca",
+      "sha256": "26c4bacfc653cadf28ac8d1a92212936ac755969b30c4b56fea75f3a3231a68e"
+    },
+    "compatibilities/shoptimizer.php": {
+      "md5": "3c4594e5f0449d1c4bc4f85b69e7fcfe",
+      "sha256": "f51d7f7405f21f9a9c017a0075f0f25e25539e2b35555a42e53fb8ff462a94a1"
+    },
+    "compatibilities/smartcoupons.php": {
+      "md5": "53e62d8b36947ff9a286524ef58fe53a",
+      "sha256": "c31536d11b122d1e2ebc83e9ee5cb7c8b3b9a0dc0ee0466369d424902373fffe"
+    },
+    "compatibilities/supportSelectOptions.php": {
+      "md5": "c152c70922881a6828dccd73cb61ca81",
+      "sha256": "800e183f181b7e826e915ee98b39b137130afe50f827fc3892027cc94be6e439"
+    },
+    "compatibilities/tablerate.php": {
+      "md5": "4a49fa4347588e14101c8e9b37731ccb",
+      "sha256": "9b0ee90e91575d6916926ea5bc48ff19af9fe1ee3330eeb64bf91b01f3def1dd"
+    },
+    "compatibilities/translatepress.php": {
+      "md5": "0a423255765d1d8030a3559565937cd5",
+      "sha256": "918c07a894b93ffe315fc161d8d60a7b29bd8fd7d7dc47159df6fe2c7e4dc6a4"
+    },
+    "compatibilities/wcrewardpoints.php": {
+      "md5": "b2c600aa876104385e27e00ba4201fd2",
+      "sha256": "7c69fd40db5319fe5a77cd41c2acadbbd8384429c4ac3c1ce6d5db92612887df"
+    },
+    "compatibilities/wcstripe.php": {
+      "md5": "fcb18ee6c4e332b66436b35d73d58dfd",
+      "sha256": "7a8bb154d4bf02bb24030c2ef7fce90907341f8576cd5a3463302540d4e07fa9"
+    },
+    "compatibilities/weglot.php": {
+      "md5": "d77748e0904f01e23bbfc7276c755ad9",
+      "sha256": "4dbd114de81f3d8ae3a18a1415f8666630a9089819a275bbebf33064165f5ebf"
+    },
+    "compatibilities/woocommerce-product-bundles.php": {
+      "md5": "110d5823571670a31cba706ec9ad84b7",
+      "sha256": "e3c2f6256581c64d450f8d669f69b51842822c7166ca984ae905f46f62cfb4ee"
+    },
+    "compatibilities/woocommerceSubscriptionByWC.php": {
+      "md5": "38eeb67f6b9f7a615eb3db2ab369cd42",
+      "sha256": "98087b9a4d50ee28eb0fbd874da8477b04ce5f99c884afe1ed634d827c08cca1"
+    },
+    "compatibilities/woocs.php": {
+      "md5": "7bb406125ae5eeaf14bdf8f5afc79259",
+      "sha256": "1b2822451c8d25249b583a74e51095d6e0ac4de75470617abd16e6c9a01fd14c"
+    },
+    "compatibilities/woomulticurrency.php": {
+      "md5": "68d81cb756be260c805084c4fdb7a6fa",
+      "sha256": "b60a888351e447c7e76452744939f68a4de22f380e8011a409f993ac2388e78f"
+    },
+    "compatibilities/wooProductBundle.php": {
+      "md5": "b29009868d6bba8e353a8896930cc6bf",
+      "sha256": "a22beac4b57c2b20c9513292827fd568574bbb9c73f0470bb50ac908dd8e5197"
+    },
+    "compatibilities/wpfactoryminmaxamount.php": {
+      "md5": "9a00d3af04eec46a455fe91d756efd6a",
+      "sha256": "774ca6cdcdef87a8d8f43ebc8fa99c029ff8b9391963f236361627040eaf9cd5"
+    },
+    "compatibilities/wpml-multicurrency.php": {
+      "md5": "0855c8d75e1602d4ae0ca063cf7f735e",
+      "sha256": "c992f2823897d99678ecb6b944f029cd5e074159ab8d7be82f94eef36bee1ad1"
+    },
+    "compatibilities/wpml.php": {
+      "md5": "e9cd5168adc1879b5f2183df76af7377",
+      "sha256": "575013d9bd6baefe67dd082741cdcd70058ae9f305c1a71ba52eb3f8c7abf639"
+    },
+    "compatibilities/yaycurrency.php": {
+      "md5": "e14d1fccdc4f06a9e4b04c20a8840987",
+      "sha256": "69a862e24221f5786f5724daebb9db7e17767fc5e7b0c7fe63949baeb8d65e82"
+    },
+    "compatibilities/yithbundle.php": {
+      "md5": "a6905c89904800ae328d2de2c916d130",
+      "sha256": "7069d487b6bfd40223a3a3d22e778eea9cb21b4e3e0b6292e0e755ba3201ce31"
+    },
+    "compatibilities/yithgiftcard.php": {
+      "md5": "a79a9bc8e479814fc480a7cd1051ac0f",
+      "sha256": "082e872d248b5d7697aec6572a431bba693b24c6934a3ebe9f9b31ea72670377"
+    },
+    "compatibilities/yithminmaxqty.php": {
+      "md5": "b0a2605650efa6cfce8bd10bb6539aed",
+      "sha256": "d252e296878038ac5ff51eaa4eb98425c8c121bbd7343e3d8901729ed87d3fb2"
+    },
+    "compatibilities/plugins/commercegurus-commerce-kit.php": {
+      "md5": "1a2f8c9cc21dac0d230b73f4d24cb5ff",
+      "sha256": "121dc5ce749e18d2d8ce1f0c672c18bfd4e053a5e4922c372971515c3661b816"
+    },
+    "compatibilities/plugins/discount-rules-core-by-flycart.php": {
+      "md5": "31ee6b248e17cb23bdd9d12572c2fca4",
+      "sha256": "d083ed0913dbdbfc05b05f586e3530be4b94054da1f2a45b58889ccfe0d03b39"
+    },
+    "includes/ajax.php": {
+      "md5": "0589fff361d7fbdf15056ccf17ac3c29",
+      "sha256": "fd0565f82eb6c8e32fef98cc54d8fb26c609da118f2f60f2988074b304ddfd1e"
+    },
+    "includes/cart.php": {
+      "md5": "30d1d44de9b259e7ab2cbaf9caba8783",
+      "sha256": "c4c9a573c0a120f138250550ea4da5b4e79512afb9ddaf65ac99ef767f0952a2"
+    },
+    "includes/data.php": {
+      "md5": "c673f98cc2d4bb7609d9c2d3850c4d26",
+      "sha256": "2e484e01ceec5cb0e427d582f0081cb204a88efc4501f3a8432307b9caf74c3b"
+    },
+    "includes/db.php": {
+      "md5": "3d92de736b0959d7f7d9004fe072d8ed",
+      "sha256": "07f23d8f369a7efcf0b8c4051a95799a38dec3f401ddaf39ea1002a192d5f445"
+    },
+    "includes/front.php": {
+      "md5": "42f9673c9016746f930f3e4341d6a6c3",
+      "sha256": "bb6c49efdc13475faa21047e78d4eb3bd7a86e7cd85fca11cf99176e172fe2e8"
+    },
+    "includes/functions.php": {
+      "md5": "21d174b60cf603a653c87f83312063ec",
+      "sha256": "6bb83ff6ae3be185f75c5bf0e5cda757fdf0d7dd7b22616f3247b16f613b3933"
+    },
+    "includes/index.php": {
+      "md5": "67442c5615eba73d105c0715c6620850",
+      "sha256": "bd48c24ce4500e60d2524571756787283f0d3fbfa50b116331309c09773f0cd1"
+    },
+    "includes/quickview.php": {
+      "md5": "85c86ce9f21cf5f216ba47d50b533cfb",
+      "sha256": "8ddc9e08d15b2e89fd023ae4c010c8f92569e023bcf48706bce1aa835bbfdf99"
+    },
+    "includes/traits/index.php": {
+      "md5": "67442c5615eba73d105c0715c6620850",
+      "sha256": "bd48c24ce4500e60d2524571756787283f0d3fbfa50b116331309c09773f0cd1"
+    },
+    "includes/traits/instance.php": {
+      "md5": "4efea50bf9a0d46609d35ebb032f67cf",
+      "sha256": "5911d2e7e86e1a7a9b6f2d8d6066a825bfe23ffce3cb7d7b3e54afdc5ae78d90"
+    },
+    "languages/cart-for-woocommerce.pot": {
+      "md5": "0d8fb7d8ef5d58163189879cd9a27d44",
+      "sha256": "7775f2298bafaa1a90b92ed8dfa3869cff1f1ed7d7464884f5d187f93f3caf02"
+    },
+    "templates/index.php": {
+      "md5": "67442c5615eba73d105c0715c6620850",
+      "sha256": "bd48c24ce4500e60d2524571756787283f0d3fbfa50b116331309c09773f0cd1"
+    },
+    "templates/cart/cart-cta.php": {
+      "md5": "8b1cdbb0a2aeb5472c2cde1c02d6dd2a",
+      "sha256": "b70f7f674331a13c9f71640e14aeb5c78f18466d81146745017567fd712166c5"
+    },
+    "templates/cart/cart-item-data.php": {
+      "md5": "e42fb9bce1d212acb88d7114553437f3",
+      "sha256": "e5d5c5a8a0e2ffcfd1a61471a89a9a2d5310938687a744dc2be8680e70752b1f"
+    },
+    "templates/cart/coupon-box.php": {
+      "md5": "3a435ba4a0dbb75b214598e0178fd767",
+      "sha256": "e796ed3ef4a3e3c0fce85111fb99b6df2901cb437b693b1e5ccb10cbfbb26f5d"
+    },
+    "templates/cart/header-style1.php": {
+      "md5": "57f5df69b32e7f7ca96a025e0f69d07d",
+      "sha256": "d82f2783a2a4a272cb5496eb402b233e879009d0d23c02b084aebbcb863c4c79"
+    },
+    "templates/cart/index.php": {
+      "md5": "67442c5615eba73d105c0715c6620850",
+      "sha256": "bd48c24ce4500e60d2524571756787283f0d3fbfa50b116331309c09773f0cd1"
+    },
+    "templates/cart/item-quick-view.php": {
+      "md5": "77a9cd9c1ea7b590293cf856ee7b4111",
+      "sha256": "b68dc1965eeb2e43626e03e9e86aaff6a4bb857cffbdbce343227c07ec84e4da"
+    },
+    "templates/cart/item-single-preview.php": {
+      "md5": "7d081a62e6baacaf7039d00fb80f4bf3",
+      "sha256": "783fa62de9d55b812a5ca7fae2d35d8ed3eed494a9927714ec8d6387edf0271c"
+    },
+    "templates/cart/item-single.php": {
+      "md5": "6332d6016251895479b029868299cb8e",
+      "sha256": "d5e7773ff4d17b95d608e0c3a04138970da0377445be4b9ec082264992d3d9ee"
+    },
+    "templates/cart/items.php": {
+      "md5": "28c6a8ff2e78413f8b8cd2e9aac93812",
+      "sha256": "853d46e1d9da71b1321ad93ea0e557003b2766949a1a14c23b6bc2e8da6b7ba9"
+    },
+    "templates/cart/order-summary.php": {
+      "md5": "98e462ef6a574b0b44d3ebd610078cd2",
+      "sha256": "c6addff4d19bb17a31c232b992070b215f7d04d76a8d2d6c945967da76871f31"
+    },
+    "templates/cart/placeholder.php": {
+      "md5": "5aa27506d9f4683d65f775893d7b67d4",
+      "sha256": "52ffd881299dc9db38e124dfe664fa9c97365bfb87cfc6f8c725f1043d417c9f"
+    },
+    "templates/cart/rewards.php": {
+      "md5": "fd8f80f1896ee0a6eb251c6d73ce588b",
+      "sha256": "fefdb1a4812480dceb0fd63762c0ee06bae478cf75a371625baff143138eccf4"
+    },
+    "templates/cart/smart-buttons.php": {
+      "md5": "fd776abaa63417dba3a662e11c0d6fbf",
+      "sha256": "6e6c1c989d7ab7b322732a162fb14d08680b0893ed2873cb99daeefb0beb5fde"
+    },
+    "templates/cart/upsell-style1.php": {
+      "md5": "591ed7a8c8bb08ec414e86620d85dee9",
+      "sha256": "7d20f006dcc948d40af2b6405031477ba0a015d5c5600beb84ae6cbeb3092a05"
+    },
+    "templates/cart/upsell-style2.php": {
+      "md5": "84e4c478860943594d2debf067c4239b",
+      "sha256": "8ce2ea4ee0fb7ecd80bbb15a70d0393d387f0df7c313aaa22684ca95f27c4a9a"
+    },
+    "templates/cart/upsell-style3.php": {
+      "md5": "d82bac37e818cffefb5bc939d2cd06ef",
+      "sha256": "d02acbc49a8debe8e174d77ee269c485efd41debf542bbd50746480f8190b093"
+    },
+    "templates/cart/zero-item-state.php": {
+      "md5": "ef9c9c7fd62e4053258a96380c98da17",
+      "sha256": "16b710c10595c6bbccaeffe61988b8c82d238ad9d0759981157644d8c3b5e425"
+    },
+    "templates/cart/quick-view/add-to-cart-variable.php": {
+      "md5": "7aa895221791a9345b084d285b54c698",
+      "sha256": "0274772e9ebb49667203c7e04a5551ec6f0ad66afc11b66e543103953bc6eacf"
+    },
+    "templates/cart/quick-view/content.php": {
+      "md5": "e235235a4485a2534e177c9ab8c616ea",
+      "sha256": "ec1acb690e727dcac4201898593345125dba42d6cbd69e5e52189558de838153"
+    },
+    "templates/cart/quick-view/index.php": {
+      "md5": "67442c5615eba73d105c0715c6620850",
+      "sha256": "bd48c24ce4500e60d2524571756787283f0d3fbfa50b116331309c09773f0cd1"
+    },
+    "templates/cart/quick-view/variation-add-to-cart-button.php": {
+      "md5": "3351c6e94a93cdc0246798a31849156f",
+      "sha256": "5bcd67d4f31200e4d50f4055cc614d2fc606b7b891411b9d92933faa251d6835"
+    },
+    "templates/cart/rewards/design-2.php": {
+      "md5": "ea189d70db850e1ff1af2be4a224da88",
+      "sha256": "95f31275e2e76528843d1fb354d19408c49a942af44b830ecc89c80b1f002358"
+    },
+    "templates/icon/arrow.php": {
+      "md5": "b018cce1ec3119e4672573d716379ed1",
+      "sha256": "98d9bdbd1d89a588d098dcbfd57f34bdeb3ae502bfe81794ae5775e1c0c361ce"
+    },
+    "templates/icon/checkout.php": {
+      "md5": "2d15fad37f24e7f9e8a9efdc37be6417",
+      "sha256": "866e97852c67177e417ee1d3b59e9df4ac75296a8b8f4403b368568eb56c3caa"
+    },
+    "templates/icon/close.php": {
+      "md5": "63a17963ae0b5428a7de92a9214ad1ee",
+      "sha256": "815608b9606bafda08143ea3af37ad25dfdee63f49e7e10bfc0cb5575119e157"
+    },
+    "templates/icon/index.php": {
+      "md5": "67442c5615eba73d105c0715c6620850",
+      "sha256": "bd48c24ce4500e60d2524571756787283f0d3fbfa50b116331309c09773f0cd1"
+    },
+    "templates/icon/lock.php": {
+      "md5": "cb1215b1837ab6207464e237bee4e594",
+      "sha256": "c9def5aaee83f812c97935b21c8558741103abe0ca807214b9171629a04999b5"
+    },
+    "templates/icon/minus.php": {
+      "md5": "7caae64d9986963e4f14cb05dbc3cf78",
+      "sha256": "b4cc764f2ea8695bebba8258a4050d70266db3072ce5e0d2a36311de7bcfed71"
+    },
+    "templates/icon/plus.php": {
+      "md5": "74586dae6c3bc2acea4663a96a3b1041",
+      "sha256": "a4e836d4dab148b9f21493519a6ad5b04c28633cb9ed85c912e48dd60003b715"
+    },
+    "templates/icon/reward.php": {
+      "md5": "2e4cfa1af9e12ece5482971df916f3c2",
+      "sha256": "6bafd697ed323ae033eb6f4a464d3cf4f1617ff79ac3633cae29add8c50ce0f9"
+    },
+    "templates/icon/white-close.php": {
+      "md5": "fa509f6187ec4c018b064eed0820b65c",
+      "sha256": "37f98039653890868896be82bf0650adca85231f17e53041759d479e928bd13a"
+    },
+    "templates/icon/cart/bag_1.php": {
+      "md5": "f7d8e750afca321ef3f343938dd6b327",
+      "sha256": "20f25fe3660982c10fe551608089d36ba012c3ef221e181f9ab92af9f1c17740"
+    },
+    "templates/icon/cart/bag_2.php": {
+      "md5": "533aab70d47ddcb17272d17b26c776a8",
+      "sha256": "5122fa60d8d5dcd570c026720204d5461e796d375d7503f7dfb98082b9e30ddf"
+    },
+    "templates/icon/cart/cart_1.php": {
+      "md5": "78d844f70e4457ec8859a98cbd7e025b",
+      "sha256": "af9f03f22c59e1bbbec431203d2c4c94001df7f794864647492436fe7c1690ea"
+    },
+    "templates/icon/cart/cart_2.php": {
+      "md5": "292c82c7569cbe87df7d4d1c65f74d28",
+      "sha256": "e280ab2c7ea26990f07e7f6f9b0623a72f23a79d1c787ab66b43a992f6d8b69b"
+    },
+    "templates/icon/cart/cart_3.php": {
+      "md5": "2c5f53a81ddc47d223aafdb382e02643",
+      "sha256": "dd0b02ac1dc6ee87f77187cc5b5ba54f07b5d579e54cad25bbd6b69f1b515afa"
+    },
+    "templates/icon/cart/cart_4.php": {
+      "md5": "22f2434261c161cc2a7ca547f9b9c0e2",
+      "sha256": "a85aa24470c13dfe3d91759e2c91a2c38fbc07498717839ed7d71e3c4a0eedd4"
+    },
+    "templates/icon/cart/index.php": {
+      "md5": "67442c5615eba73d105c0715c6620850",
+      "sha256": "bd48c24ce4500e60d2524571756787283f0d3fbfa50b116331309c09773f0cd1"
+    },
+    "templates/icon/rewards/design-1/reward.php": {
+      "md5": "5e9e7f662b53d0aca1985d5a19eef396",
+      "sha256": "2c66f8a454156deac0c434ef03758bca09e1ece484bfe9e3d4a748905b7c27bf"
+    },
+    "templates/site/button-style1.php": {
+      "md5": "47d96ca85f652961167c47e5fb6062ea",
+      "sha256": "2db008ce8ed16b8921a5434a31a52c6afc25fbb3d46c4b2928b93951b6cbb21a"
+    },
+    "templates/site/index.php": {
+      "md5": "67442c5615eba73d105c0715c6620850",
+      "sha256": "bd48c24ce4500e60d2524571756787283f0d3fbfa50b116331309c09773f0cd1"
+    },
+    "templates/site/mini-style1.php": {
+      "md5": "7dbd0fdb1d206b109ede570132077439",
+      "sha256": "fe3c3de8022f1db85b3cc1838bfaf5a7dd4ce61d5ec88934600dc5ffcdfbaefc"
+    },
+    "templates/skin/index.php": {
+      "md5": "67442c5615eba73d105c0715c6620850",
+      "sha256": "bd48c24ce4500e60d2524571756787283f0d3fbfa50b116331309c09773f0cd1"
+    },
+    "templates/skin/side-cart.php": {
+      "md5": "cefd8df50a089859239838a505092070",
+      "sha256": "9691fdcc6d14a76db238bea8d0a9294f426e4a36d5fca669a466a743e8fc8528"
+    }
+  }
+}
