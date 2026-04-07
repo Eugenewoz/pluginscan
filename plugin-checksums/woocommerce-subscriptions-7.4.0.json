@@ -1,0 +1,2098 @@
+{
+  "plugin": "woocommerce-subscriptions",
+  "version": "7.4.0",
+  "files": {
+    ".nvmrc": {
+      "md5": "36a146229196cc3312d53f3fd4568a63",
+      "sha256": "068f688a6a9b066ba8c547527df5359505e3e0cae71d49351bf5134b26f71bcd"
+    },
+    ".wp-env.json": {
+      "md5": "395c27a25fd9a06bcd46586c3dc1d0aa",
+      "sha256": "1a3b500faf190e3154bda354e75265dfff25aee1bf7cf3dc21af803444989e13"
+    },
+    "changelog.txt": {
+      "md5": "65ca5ea97b880d43d96ef7b34fc21075",
+      "sha256": "2cb6f1fa550285c53f7020318d00c5cd6a2131af338cc40b8c4463d3ee8bb13a"
+    },
+    "woocommerce-subscriptions.php": {
+      "md5": "22c1c364db914d4ee16913551398c1e0",
+      "sha256": "05be037baa5bde82741e4c51cbfa30ec60f25a151430566c2240c1d710cc5933"
+    },
+    "wpml-config.xml": {
+      "md5": "ae86f63ebedc5cf80dd6e99cf8b25fe4",
+      "sha256": "df8611d307132e8898427f00b786b1a0b64ed9e7ca7c2f0e78840357f23e7cce"
+    },
+    "assets/css/dashboard.css": {
+      "md5": "bdbb3fc994475ce96ba178a447e02c16",
+      "sha256": "8bc7606dc9e1cfda4a5b75734d9f719a5ca557e6a635b5ed2eadb8d548178a49"
+    },
+    "assets/js/admin/jquery.flot.axislabels.js": {
+      "md5": "2b90d0a0281dd769dc21223279dd7822",
+      "sha256": "002fd1985afe180e48a8551e18d2689826be3dda3009a1ce1cf006706a9726f6"
+    },
+    "assets/js/admin/jquery.flot.axislabels.min.js": {
+      "md5": "6c5a3906dcc7bdf861620789b9e98a1f",
+      "sha256": "c562348c02b2c5fa52b15307c06f0bd34f3a46b5ac9c25a96e527d4477a8a8fb"
+    },
+    "assets/js/admin/jquery.flot.orderBars.js": {
+      "md5": "db37e23e7792da87f60d256077b3194d",
+      "sha256": "3b534d2d144b8cc240ab6c2550d90751f8b549fec23a4e1f5812097c722e3cc7"
+    },
+    "assets/js/admin/jquery.flot.orderBars.min.js": {
+      "md5": "83048bbbee961743df885d80db86ff2c",
+      "sha256": "b60fc29234b10071c89bdc37c90c2111e6cdeec56de6ab4126d8f12c728cf231"
+    },
+    "assets/js/admin/reports.js": {
+      "md5": "1f8273bbec0896b884a6bfe17c0dfee6",
+      "sha256": "d5226d406411f781b0827f992f3064c071610e3f7147cc1db66976dade2fe452"
+    },
+    "assets/js/admin/tracks.js": {
+      "md5": "9a88699136f871cdc68f00da8c2bfe5e",
+      "sha256": "8445e1e03313635ead65451145cf708be188a85321af686de6719d63118fbc70"
+    },
+    "includes/class-wc-subscriptions-cli.php": {
+      "md5": "d33ee43c4c137f1b1ab26aa1f713891c",
+      "sha256": "7e83bf633cca02e5cdb49236d49210ce0af15bc8c82b13bcccdd0dc4def2a6e9"
+    },
+    "includes/class-wc-subscriptions-dependency-manager.php": {
+      "md5": "874485e03f084b09ae0fa2ac0431d3ff",
+      "sha256": "1f6e77362d3abe6bff04990f33798b58e9804d976b447ac414a3c442f4500d25"
+    },
+    "includes/class-wc-subscriptions-plugin.php": {
+      "md5": "7d8e1be3c9cfe1c4c5fc565a8eade8bc",
+      "sha256": "cdfc513a900715206a8fedbafb6fff9a84fdb5cc0e07a921a3617fa59aaed484"
+    },
+    "includes/class-wcs-api.php": {
+      "md5": "66fc95637860d6e27efa72d1b41f9453",
+      "sha256": "605e706f6500879c9f94cf09c37dd360afa51f8bb9e0ba6d2516a58fbd19d4ed"
+    },
+    "includes/class-wcs-auth.php": {
+      "md5": "3dd0416ecfa4b6838610a5dda3038995",
+      "sha256": "bfcdf143b712c46d6412e86b78423ab04aab2a38242a292bc11e889f94b02065"
+    },
+    "includes/class-wcs-autoloader.php": {
+      "md5": "4d846fab171916437b5d04b022365440",
+      "sha256": "8b9403f6ba7c7b9ca052d65e4421175d88c92da7f4cb5827549157434c506679"
+    },
+    "includes/class-wcs-call-to-action-button-text-manager.php": {
+      "md5": "09f0fc8da7cefa0af0f611875276db77",
+      "sha256": "a464f370b255d7f68a640dcb80d0f53fe7b009d87987840e059b55adf208c40c"
+    },
+    "includes/class-wcs-customer-suspension-manager.php": {
+      "md5": "3c7d382f13ba2e8a68847fa3e7e0684c",
+      "sha256": "f9608f65f61cb5359c82e90dc02a82adada0686ddaa366953f5ae75f96778eee"
+    },
+    "includes/class-wcs-drip-downloads-manager.php": {
+      "md5": "af1efe74f28af2a51512baec4da66de6",
+      "sha256": "3316c070f1d46bf6c7429918749dc796d87089be260460edf2deaad226e73a56"
+    },
+    "includes/class-wcs-limited-recurring-coupon-manager.php": {
+      "md5": "e1e177431690468cfcb1dca5a864655b",
+      "sha256": "d49d66f29682971be0fc2891525f91aeda6c43576bf084a2ea3cce08e5dcd84e"
+    },
+    "includes/class-wcs-manual-renewal-manager.php": {
+      "md5": "9c1b64805c502ae6761ea8b41fc6c682",
+      "sha256": "23f94b591dc206605826ef4e260bba0c3349f7190fad3b75cf59c23912aefd6f"
+    },
+    "includes/class-wcs-subscriber-role-manager.php": {
+      "md5": "49f7b7a76cb507f13da76b3ea10e9ef1",
+      "sha256": "e258855942815346225b3cc910411bcb655b9cbb834791bdd3044e32e34c2f83"
+    },
+    "includes/class-wcs-upgrade-notice-manager.php": {
+      "md5": "b08e532bbfd65800a5cab29bdcd95a73",
+      "sha256": "c6cbe75567fd895bb9e16b66e6d10f16a50e0784d7ca5a981e812e6cfccad8da"
+    },
+    "includes/class-wcs-webhooks.php": {
+      "md5": "839e2c85928f3ae0fdbc7cd47fc3e400",
+      "sha256": "d105f5016b851e9b077834c9e83507da88ea8be85e620d07f2233899003f99a6"
+    },
+    "includes/class-wcs-zero-initial-payment-checkout-manager.php": {
+      "md5": "4c624853d161a60c71297e392a800523",
+      "sha256": "a41d1ffa03a65ba45d65853869d663441cee956718d5c2c24773226bbdd274a6"
+    },
+    "includes/admin/class-wcs-admin-reports.php": {
+      "md5": "3d7fd493d143b6cbae8f1c674bdddd70",
+      "sha256": "1fa379938c36a94c891e3e460d2001df4e4c72cd9af4df1bb172c9693bd4649c"
+    },
+    "includes/admin/reports/class-wcs-report-cache-manager.php": {
+      "md5": "95c0542f1daeadf966c264eb5f134805",
+      "sha256": "2d9efe16ff32e0a777012b9e333de2d1082270d00ab77596b2c4bf731e749a05"
+    },
+    "includes/admin/reports/class-wcs-report-dashboard.php": {
+      "md5": "dc21da0a2c4f397dabd36b6c5e490aa6",
+      "sha256": "28a34d54724877ef334505a475a892ae06c97a34a9bf99e3ccd5700fd99ad39c"
+    },
+    "includes/admin/reports/class-wcs-report-retention-rate.php": {
+      "md5": "6464c306c6053095b3cdd01decfaf696",
+      "sha256": "9535d73a0ea70490079cedd478bd350e46ad6f4519295a13af44a2876e92c5bc"
+    },
+    "includes/admin/reports/class-wcs-report-subscription-by-customer.php": {
+      "md5": "620932e8babfb1a1cbfe8283ed2c74c8",
+      "sha256": "fc3c57c29be7f20cb7ac01c90f9dbd40b86c35fe8ab66d8d712d1b5f676096e1"
+    },
+    "includes/admin/reports/class-wcs-report-subscription-by-product.php": {
+      "md5": "3a8fa6e783bf7f46cd7c160af15b9e2b",
+      "sha256": "3f8823459ceea68b7ce8e5cd802c863f5d76bed2cd549c33d17383d6d3a50c8c"
+    },
+    "includes/admin/reports/class-wcs-report-subscription-events-by-date.php": {
+      "md5": "37b320aae02c70e7047f9d7af5b8fea8",
+      "sha256": "dce2e4e72a84532daf99473f8a863bd3dc52f4babc75147f832a4ecd5105dab5"
+    },
+    "includes/admin/reports/class-wcs-report-subscription-payment-retry.php": {
+      "md5": "e69e300f2d38325cf6faac0dece66f83",
+      "sha256": "745cca53012b18daddf75c0b29c2050187185ffeecf5651e59485e762eddfb1d"
+    },
+    "includes/admin/reports/class-wcs-report-upcoming-recurring-revenue.php": {
+      "md5": "b81f12816692fc9aa39d3cc59b158be7",
+      "sha256": "fe68584afcdbb28d474b67556afc612724d257228c5312b278a0b6a5b13ec1df"
+    },
+    "includes/admin/views/html-report-by-period.php": {
+      "md5": "77ae7499af92aba9d17356d0f144de0e",
+      "sha256": "01f4f7f7fb15a716edfb6abf6d0a45bde65f4608aa36f96a98854b2fc22d07de"
+    },
+    "includes/api/class-wc-rest-subscription-notes-controller.php": {
+      "md5": "7f1234268f550ec8c3a601be492dcf76",
+      "sha256": "af020eeeda55f6f4fc599f38b07394363c27791d118e9b3c854418fc066aaff4"
+    },
+    "includes/api/class-wc-rest-subscription-system-status-manager.php": {
+      "md5": "13ba4d1a987808a27b40c8223d1a4b9c",
+      "sha256": "58a45d5be7adff7194a79e73898eef55111dc347d365663723109975034c4dd6"
+    },
+    "includes/api/class-wc-rest-subscriptions-controller.php": {
+      "md5": "307a243a656cdf6f0bd66b6e555c24e1",
+      "sha256": "b46ee025795621ee59f8078a35bef8d356ab04612d10e3c8a4b8e44390adb2e8"
+    },
+    "includes/api/class-wc-rest-subscriptions-settings.php": {
+      "md5": "b2882fe95fb6610f6d76127b9967ea7c",
+      "sha256": "f0cbb55ebbd4ad19eb7d9181ba3cb2aaad1164d40fe0fb23301af5649948b4f4"
+    },
+    "includes/api/legacy/class-wc-api-subscriptions-customers.php": {
+      "md5": "72fcca325a733c4e2fe78baf460682cc",
+      "sha256": "5cb52b70e2daf8f475cef44fee63d81d5e06c41abd171725944d37f59ec2809e"
+    },
+    "includes/api/legacy/class-wc-api-subscriptions.php": {
+      "md5": "486bcf604a7a75a4ae05b6d9636b67a3",
+      "sha256": "f216d86a1e428a7ff0e8ddb528cd2ce20ea27d93d49536ba832eef995e4e0100"
+    },
+    "includes/api/legacy/class-wc-rest-subscription-notes-controller.php": {
+      "md5": "89b0b8f8b7e9e674e5fa668c8a76271b",
+      "sha256": "0b585694655239a0e10cc9ef760484a8a01313b0df220e9fbf3b9273b37c0d1e"
+    },
+    "includes/api/legacy/class-wc-rest-subscriptions-controller.php": {
+      "md5": "a42b13e537663ac2399ec930200f435c",
+      "sha256": "beb6ca6978474d3bc935dd326c47f18beaecff58631e5b17f8ee511b00c741d9"
+    },
+    "includes/api/v1/class-wc-rest-subscription-notes-v1-controller.php": {
+      "md5": "b1a2434e75534c4372a87a7e72777880",
+      "sha256": "a5fb27f4e5908b57bdd8cb78ab6331ee019795664e158b55483d8c1a1ea2931b"
+    },
+    "includes/api/v1/class-wc-rest-subscriptions-v1-controller.php": {
+      "md5": "6f72fb6c6527d93ea05590b774854206",
+      "sha256": "4d38d4bea6cc7c917c86f9115284896be2f134652c3e79821016fd91fb347f37"
+    },
+    "includes/api/v2/class-wc-rest-subscription-notes-v2-controller.php": {
+      "md5": "a2ecf9ac341433bd096a223c8d303f23",
+      "sha256": "85660f3eb183efa04893e11c817c7a963dfa1c99056a6ddf54132878608e1f5f"
+    },
+    "includes/api/v2/class-wc-rest-subscriptions-v2-controller.php": {
+      "md5": "f29f3ce9d0af6d867ecadf74119b8918",
+      "sha256": "02245605b887970d7025de0517d1ff8744182a7715d277037419c262b021c280"
+    },
+    "includes/early-renewal/class-wcs-cart-early-renewal.php": {
+      "md5": "69c65d83f0af5f57ece54c9d434d5e6b",
+      "sha256": "294e30cc1ac4a37dc0134c6a113abec78d13cb27513874b64ebab04f9908ef42"
+    },
+    "includes/early-renewal/class-wcs-early-renewal-manager.php": {
+      "md5": "c4455f4b3f8eb5da5821ef369280ea08",
+      "sha256": "03c01cc6a7fad95f92fdeef1d822b995d6a2a81a1beee14171099113e7bcddb0"
+    },
+    "includes/early-renewal/class-wcs-early-renewal-modal-handler.php": {
+      "md5": "24d1a90c2fc186b73e3e0402bbf5a25b",
+      "sha256": "b7866fec70a1d9bf520c6890542a736783fc119e2ed7f56a3932fa03c78cb882"
+    },
+    "includes/early-renewal/wcs-early-renewal-functions.php": {
+      "md5": "9f33a583e2610aad172ad8f83dac97cc",
+      "sha256": "7ac83dd8bad2d8f1f2e65ecc8f7d7b5c81d2a0328385e1e503927f01ea43f29d"
+    },
+    "includes/gateways/class-wc-subscriptions-payment-gateways.php": {
+      "md5": "9879d23da8c9d7f5ed1ab136f224833d",
+      "sha256": "fb34710e128200b9017a6843d945f5f2e70485dc47c3529d58fed9181934dff9"
+    },
+    "includes/payment-retry/class-wcs-retry-background-migrator.php": {
+      "md5": "ddb3c3f164ea85ef8179a553a454beeb",
+      "sha256": "2c6ba55ea76eba3c262a69982bb8afef60575a7b1cc0aa881b8b42f42e884f5c"
+    },
+    "includes/payment-retry/class-wcs-retry-manager.php": {
+      "md5": "373929635466e89e49b19f46b7b063e4",
+      "sha256": "388d5026da9a5e2f0ec67e84a34d5258f7eb4620db1f774116d313a94ffe9423"
+    },
+    "includes/payment-retry/class-wcs-retry-migrator.php": {
+      "md5": "49567f46501f330f1a5865ed65f3c7dc",
+      "sha256": "5bf0f15ba336a6ffbaf0b6ec758eac3fea1ccf92c54fc4245b837524a91541e4"
+    },
+    "includes/payment-retry/class-wcs-retry-rule.php": {
+      "md5": "e8dfae349d79d7b410436a3ece7c3696",
+      "sha256": "34a8d0aae2a5d3a50074aa47e5fa65eb588b831103b8a7be2fa63952682963dd"
+    },
+    "includes/payment-retry/class-wcs-retry-rules.php": {
+      "md5": "ac67bf8e4204b0fc5b30250d9fa9ba45",
+      "sha256": "7becaf59bd644ba580c5ca4d51b45c622006e0092076aa7d55c4365eddc61680"
+    },
+    "includes/payment-retry/class-wcs-retry-table-maker.php": {
+      "md5": "16b20f6e85906031c44cd1e84a3700e5",
+      "sha256": "58bf7dcbd298d11cae513f1a9076c214ccb16d165cf3f3295e1d53382d33a2db"
+    },
+    "includes/payment-retry/class-wcs-retry.php": {
+      "md5": "4b6ee47ea5b00a2269ea34ac090913ac",
+      "sha256": "969b5fb197a828785a1c9963aa773000876eafcbd045e9058cb9b0d74968efaa"
+    },
+    "includes/payment-retry/admin/class-wcs-meta-box-payment-retries.php": {
+      "md5": "a9e7260d2f48dfd8e605087d869a664d",
+      "sha256": "36c8c60e65154686ca7fbdc8afa9cabe8ff8d31d31c035e3e5598d2485a875c0"
+    },
+    "includes/payment-retry/admin/class-wcs-retry-admin.php": {
+      "md5": "8c9d1c7d8c42c36a23afe938091229ce",
+      "sha256": "f3d4b011d5fe7bbac8e9caeba1537ed2493314c8efd42b8c7c187723086c2965"
+    },
+    "includes/payment-retry/admin/html-retries-table.php": {
+      "md5": "fa57c9f2c86017c11344c598e5e380cc",
+      "sha256": "f300c826265831fc2187d25f2586dd28c4743e20fd9d1384734f473aae96c3e7"
+    },
+    "includes/payment-retry/data-stores/abstract-wcs-retry-store.php": {
+      "md5": "8e7c0e11c04b9965c2b3924e7caeb50e",
+      "sha256": "8ee7fbf30f46945dd7de82198472b9a6780d22af98605d97bc766691df71d315"
+    },
+    "includes/payment-retry/data-stores/class-wcs-retry-database-store.php": {
+      "md5": "eec79d53549df35290028aaa0fa498d9",
+      "sha256": "8ad79143037a3b4b883ad4c610d21ccbd150bdf9e1eace0addd887b9dff41d43"
+    },
+    "includes/payment-retry/data-stores/class-wcs-retry-hybrid-store.php": {
+      "md5": "f93006b6800a4d45f929df5eb9b54113",
+      "sha256": "f6ab49fd78089691a2cd166f3ae84dcd98b2453f6288049dd0bbab1c1368bd9d"
+    },
+    "includes/payment-retry/data-stores/class-wcs-retry-post-store.php": {
+      "md5": "46618c676d6a4949f72b9c5cd5e2df9f",
+      "sha256": "d6bb8c1e0ccc28dbb4852104ff971df8aafb958d88483ba07d4dd9cf5613c9c4"
+    },
+    "includes/payment-retry/data-stores/class-wcs-retry-stores.php": {
+      "md5": "656090bfa0f47985f65b597c91d27985",
+      "sha256": "9faee7c85dbae5264c0be40ad626842e522918abff6d90583c747de97637706f"
+    },
+    "includes/payment-retry/emails/class-wcs-email-customer-payment-retry.php": {
+      "md5": "e922c0211fc8c4766329379931ff795b",
+      "sha256": "054a9d7c75e3413d7df1d565c4a0cf8590402d8128f8e02583ae14d98d522a8a"
+    },
+    "includes/payment-retry/emails/class-wcs-email-payment-retry.php": {
+      "md5": "1e7332eb62f18388b096b1bf1a093207",
+      "sha256": "49ee43df27f47ebe79c34056a07ec5831b6d3eb0a4c0396d4f86ac27e66129fa"
+    },
+    "includes/payment-retry/emails/class-wcs-retry-email.php": {
+      "md5": "28ed7e283cc9f32b0d4ee3675a76d7ce",
+      "sha256": "44692e9c98c83a7da3f258f80bbaa9e9861870dc282df283a0d70583d0ccd2c9"
+    },
+    "includes/switching/class-wc-order-item-pending-switch.php": {
+      "md5": "3d33f9f5204d1830508e8ec20b0dfe49",
+      "sha256": "e3880396bc8b0e4c205090403587026d42fcbe11bf8ac15fdf0a9e201ddf8925"
+    },
+    "includes/switching/class-wc-subscriptions-switcher.php": {
+      "md5": "1b5d267e7be4d7a0eb4c8fa7461f86f3",
+      "sha256": "d2cf90bb47a9c19cb267d6071f64ac00351e9e28ae59cb98895a9ffb0589fe8e"
+    },
+    "includes/switching/class-wcs-add-cart-item.php": {
+      "md5": "b906ac99a205faf311579f282ee77089",
+      "sha256": "fa03fcfa632081cfc4d7913b6e2e725339776e4c490cd9ad37451bbee521ec08"
+    },
+    "includes/switching/class-wcs-cart-switch.php": {
+      "md5": "a89e17cb2b1dceae3c0b30c5e1a89d26",
+      "sha256": "9b43806b56af869870e20125c9ef887de971269aa883169bc524559ff6e8bd83"
+    },
+    "includes/switching/class-wcs-switch-cart-item.php": {
+      "md5": "3a41852e1e61cf0a687cb709fdfada89",
+      "sha256": "3a297008589ee1c85e106cdb0eded89158650a67029d3be0a83c63e1d2e6ec0f"
+    },
+    "includes/switching/class-wcs-switch-totals-calculator.php": {
+      "md5": "8de08403d93dbb3eab80016063dbd6e6",
+      "sha256": "5c840b7cde1d0d7b458a9a041a8298b23f3565d0614baf1f60df8cd1ac7c4366"
+    },
+    "languages/woocommerce-subscriptions-fr.mo": {
+      "md5": "9db2e65e42439778c0f3c1786dc092cd",
+      "sha256": "844ca3a9782f39d2237d56849f3b000e57647ce9b372a47765221e39909f9248"
+    },
+    "languages/woocommerce-subscriptions-fr.po": {
+      "md5": "6966e43681ca21cdc492515b63442213",
+      "sha256": "56ba71513ab314e0237e872a84e49cf79800ecd28e33d7fb9b5bcf16003b99f2"
+    },
+    "languages/woocommerce-subscriptions.pot": {
+      "md5": "77ef03980c45b95399b05ab5efb802f2",
+      "sha256": "8703b30dd65228fe2885ccfb34414d9a32d78ef5ef442ca8bc606d2fbeba385a"
+    },
+    "templates/html-early-renewal-modal-content.php": {
+      "md5": "abd804a96b9a033728f3e5edac478d27",
+      "sha256": "a3bd25200f11189aa2ad84f2d99c7bd9a2d1420f3910fe7ca5ab66d48f64249e"
+    },
+    "vendor/autoload.php": {
+      "md5": "ce8b23dcd95d9a1426a015b7fe9830a4",
+      "sha256": "1a8e4b25d8f7499f8d93d198695e4d6032921c3e0a754027b55d734b9f918ade"
+    },
+    "vendor/composer/autoload_classmap.php": {
+      "md5": "146b90de3af6073e0c3a174e0569f9e1",
+      "sha256": "0aa04400b1eb16255da5a3c511946026a4420892a38af532ea8fd5aec2300b11"
+    },
+    "vendor/composer/autoload_namespaces.php": {
+      "md5": "224007c97efb82c7b45b0e92f240af41",
+      "sha256": "ede505407590638a435137f4e060136f1008de79fc169b3de9793423b0cea38c"
+    },
+    "vendor/composer/autoload_psr4.php": {
+      "md5": "e1280e4b6862f4d3c998daf2304d2e40",
+      "sha256": "11b5e839e52fea8a046ec9c74b13677e3055de1814f1f667dc4fe88db106bb55"
+    },
+    "vendor/composer/autoload_real.php": {
+      "md5": "9ecf579fec174b71966152feb839e1be",
+      "sha256": "2593b514292e6bf313fdd2044d248a49d6a2be772dd20233db2a85f6e589a918"
+    },
+    "vendor/composer/autoload_static.php": {
+      "md5": "48464921122e831a91ee43abedd044c5",
+      "sha256": "7774f447cfebe287c1546acd1a963f4824b209f782e7191e9f8eba1638d66d4f"
+    },
+    "vendor/composer/ClassLoader.php": {
+      "md5": "c02be6d96671f88d28aad3ffa134c8ae",
+      "sha256": "d4b2313e562edf942838ec316d983c1a3459ca67da3e5658e861200b0b3693c2"
+    },
+    "vendor/composer/installed.json": {
+      "md5": "e1dc76e2298b9162e378113e58562f7b",
+      "sha256": "75d376eab7cc163a799be6b9a9cbb76ff2e697d1f001307e6dca6947db429275"
+    },
+    "vendor/composer/installed.php": {
+      "md5": "37b21c7f362265186429bde2de6ff6b7",
+      "sha256": "50ac6442c7583e340867acf4f90ffcc0799192c04bd3730fc6a03015bbb01a85"
+    },
+    "vendor/composer/InstalledVersions.php": {
+      "md5": "0780cbfa9bfc53ff115ea44f74f20daa",
+      "sha256": "d56fb4ee242d06a669a8a31e9b2fa9216eae4cd3e289ae2120b49b116312a624"
+    },
+    "vendor/composer/LICENSE": {
+      "md5": "955d5fe58c231244f6b49000f383b5e2",
+      "sha256": "c8cce4b6b9729f264ffdf9296d505d63432497feeed1f586d1902b942197e024"
+    },
+    "vendor/composer/platform_check.php": {
+      "md5": "48f9de23c0eb960c3bb163984c2901f5",
+      "sha256": "405a6170c22896f25134a506c655986685379c4a1ee75c9eaa8e15cc98d106f6"
+    },
+    "vendor/composer/installers/composer.json": {
+      "md5": "fe2afc5eae6eb4a33f2300d3f6ee0b81",
+      "sha256": "741c79ef9e30cbc0bf7268f8fb643f39fccb0d6e48484afea5b94055d3ac044f"
+    },
+    "vendor/composer/installers/LICENSE": {
+      "md5": "043117d4dcbc27195a9479a30b7befcf",
+      "sha256": "8d64f2fa4cb25b8dd0050f31f08c4d721d65754029bd470294c5583d2ecd3149"
+    },
+    "vendor/composer/installers/.github/workflows/continuous-integration.yml": {
+      "md5": "e83436e60df17dedadea7bcb2583c9c2",
+      "sha256": "2a5ae371bcd04c223a5d59718740cdae6ad5b3c04f5acfe1db2a7c411d6bb5c4"
+    },
+    "vendor/composer/installers/.github/workflows/lint.yml": {
+      "md5": "1d3751c6fe60d950f5cf087e39d2eadf",
+      "sha256": "d36773e8fedac08033fc52e49ea148d6e2b4152e08f7c3504216b4dbc9bc0a22"
+    },
+    "vendor/composer/installers/.github/workflows/phpstan.yml": {
+      "md5": "65db7b93d49861f58b5e054d0da801b6",
+      "sha256": "abaac5ba7545c3faf06efb040bfedcca8dd258a03ac7a15fbf151e4841f4058d"
+    },
+    "vendor/composer/installers/src/bootstrap.php": {
+      "md5": "aba1efb305de35cadafc914b4456eb52",
+      "sha256": "dba168545bf5638cb06dacb0b543a2d71ce55e766cac326b6fd2d265a4f16cf7"
+    },
+    "vendor/composer/installers/src/Composer/Installers/AglInstaller.php": {
+      "md5": "7ef5b54fd29c23dca26c2a9edf0dd98c",
+      "sha256": "5db521af6b73393af748bdb1c4f691425e9e700805f761da1c493de6672d0884"
+    },
+    "vendor/composer/installers/src/Composer/Installers/AkauntingInstaller.php": {
+      "md5": "55a1a83b0b08b68e9f691ab804bac655",
+      "sha256": "457e4c8ee75b3793ac95c8ab691ab0439cc0b7d842cb6c98f4a4609056745447"
+    },
+    "vendor/composer/installers/src/Composer/Installers/AnnotateCmsInstaller.php": {
+      "md5": "a0acfbe237e70df48b1d39b2134591e1",
+      "sha256": "028b8221834ac80a7fe826ba0e3030340e7433de258e686de8e3edd69ce1f50d"
+    },
+    "vendor/composer/installers/src/Composer/Installers/AsgardInstaller.php": {
+      "md5": "59ec1f226f508f3c0029b817bae249dc",
+      "sha256": "6bb772968b9cd0d8c4a04fc1dd1fa92cbf736deed8ed11e585913b5c7a6d78f7"
+    },
+    "vendor/composer/installers/src/Composer/Installers/AttogramInstaller.php": {
+      "md5": "02b5b078e1068e8c60bae2818c7c5a7c",
+      "sha256": "de0f37e40a9c71f899c97001698f90259ca9dd8b01b9b45254d46411dc444e34"
+    },
+    "vendor/composer/installers/src/Composer/Installers/BaseInstaller.php": {
+      "md5": "3efa44d2ed2d09891c26502bee4d2041",
+      "sha256": "216e773daf98f801d1bbb83623f17fb3af29ac547ecb058d572086d0185eff6f"
+    },
+    "vendor/composer/installers/src/Composer/Installers/BitrixInstaller.php": {
+      "md5": "038b1d6a3ca8f85655b13c724de17893",
+      "sha256": "61b02c8328cdc86f566181186c479ef78fb1d9581c90387edd4693a1b4891b58"
+    },
+    "vendor/composer/installers/src/Composer/Installers/BonefishInstaller.php": {
+      "md5": "901d5100c34e37abad4db6f5ccddd6be",
+      "sha256": "b330f87e7c2ba04a060288c1bcbe213ef395719b59a476dcf5629c5b3b7caf8b"
+    },
+    "vendor/composer/installers/src/Composer/Installers/BotbleInstaller.php": {
+      "md5": "764be7e6583b85754f8b90f31fcef6d8",
+      "sha256": "1d129d1282279d32c6cfc1bf50eaa47493d379cd27ae35419b44863ba27255bd"
+    },
+    "vendor/composer/installers/src/Composer/Installers/CakePHPInstaller.php": {
+      "md5": "458749bd8b9b7db438ccdbccd762ff42",
+      "sha256": "94cfabd60f1f0dc1fd41e2f6e078b6d1852b1124941671032d7c2b5d7997ee6e"
+    },
+    "vendor/composer/installers/src/Composer/Installers/ChefInstaller.php": {
+      "md5": "9bec3e8f76ab85198e631e8f76acedc6",
+      "sha256": "972a8bf79bbfbdc7c90c9bfb0ef170805dd627713a1af7fbc6f96a93089d1b23"
+    },
+    "vendor/composer/installers/src/Composer/Installers/CiviCrmInstaller.php": {
+      "md5": "c0e62c7e90085945021c217b17dca62a",
+      "sha256": "afb9a0751505148d694a66ca30075ba146cc0b35c06de0c312182dfb0f58003a"
+    },
+    "vendor/composer/installers/src/Composer/Installers/ClanCatsFrameworkInstaller.php": {
+      "md5": "44ea2e8f2962ac33861a42b1958468fa",
+      "sha256": "a707b4b542fc0cb1dd1eb64f9592dcd071645bc6c7b254bc2b9268ac4fe901f3"
+    },
+    "vendor/composer/installers/src/Composer/Installers/CockpitInstaller.php": {
+      "md5": "2205ea68c83a241425d30857ff870381",
+      "sha256": "e6f410a4f1863796c151d7bc8ac52bbd41b34a409b594e33a4db04b51a6cc1e1"
+    },
+    "vendor/composer/installers/src/Composer/Installers/CodeIgniterInstaller.php": {
+      "md5": "2f5f06f0e05412f991ce0145affd9040",
+      "sha256": "fa5e59ff4d71ec71636dea40cb3f15bf80e07131e55e486429d726d02226a7fe"
+    },
+    "vendor/composer/installers/src/Composer/Installers/Concrete5Installer.php": {
+      "md5": "2ade12f60cb229b8c2061265ab21e604",
+      "sha256": "19bc7029994919c05f729bf1861305d2be665f8d386e8d4e0ea52016412a6797"
+    },
+    "vendor/composer/installers/src/Composer/Installers/ConcreteCMSInstaller.php": {
+      "md5": "e6358da20623eb9247f676776bf55d16",
+      "sha256": "85075596c1c9901aab10cc6ffaabb5aba2947189b9fd9a40226ee9f12250237f"
+    },
+    "vendor/composer/installers/src/Composer/Installers/CroogoInstaller.php": {
+      "md5": "b0ef7a4dd9812b5a677d93aa776a919e",
+      "sha256": "6e490d8a9eb386a694da472b0788dc1ae62041e995682f196468778f4b6f7eda"
+    },
+    "vendor/composer/installers/src/Composer/Installers/DecibelInstaller.php": {
+      "md5": "4785020d54d8b12a5ada7ba0e5eefaae",
+      "sha256": "0f6232c0137ea7e32cfa5286c0e220c2131a0b9c743759c613ba5b0da61f2a37"
+    },
+    "vendor/composer/installers/src/Composer/Installers/DframeInstaller.php": {
+      "md5": "7b79bb18402bf99dc369c2b9e40f0163",
+      "sha256": "f08f14e02634c0effc69631f446577ee20995be4ba0d53b2e81ede4df05df861"
+    },
+    "vendor/composer/installers/src/Composer/Installers/DokuWikiInstaller.php": {
+      "md5": "322782f78a4f3d19fee4ad81f47a509d",
+      "sha256": "9e46aa9c3ab908f0ce800a905bdc368427f07b8d8f44132ce9bda9614c138ac0"
+    },
+    "vendor/composer/installers/src/Composer/Installers/DolibarrInstaller.php": {
+      "md5": "786056075e29ff136c3ba94fc21b1e10",
+      "sha256": "b5ec4560092c818fbb79f19a6b24eb37f07ee73fd10910afbfd93c187440d935"
+    },
+    "vendor/composer/installers/src/Composer/Installers/DrupalInstaller.php": {
+      "md5": "467b62635336dea57d858375b2781c2f",
+      "sha256": "baff56f283bf768e2763af7ccc1c7303d38b9bc6eaf846f35b248f700c70fd6c"
+    },
+    "vendor/composer/installers/src/Composer/Installers/ElggInstaller.php": {
+      "md5": "65150ff8057f12a490e0c37de7442045",
+      "sha256": "70526b367c8d9dcf3264c34ec52d29e89671e1c6e6648f27a532fecb22dde27f"
+    },
+    "vendor/composer/installers/src/Composer/Installers/EliasisInstaller.php": {
+      "md5": "2d1ed184e05ba31d28f7a356ccdd288d",
+      "sha256": "5dd5e231ed6aa689651a07b98f9ccc95e40f8e038370b694ac7b2515dff3f1ab"
+    },
+    "vendor/composer/installers/src/Composer/Installers/ExpressionEngineInstaller.php": {
+      "md5": "7aae6bc6e0b3d4f5edfa5ff475c36732",
+      "sha256": "6af0d3ce80113bb539e7d5e3ce5722ad1a89530cce2b0552f3a291ee0a089c71"
+    },
+    "vendor/composer/installers/src/Composer/Installers/EzPlatformInstaller.php": {
+      "md5": "b6c57fb10c4b95c4b488b416a1c86d4d",
+      "sha256": "2ed6af6af5b54fb3eb0c6347c9436f7126cef205183fe536842453d9670fef14"
+    },
+    "vendor/composer/installers/src/Composer/Installers/ForkCMSInstaller.php": {
+      "md5": "be40353ac3f993d5cbf653ff2945e3a5",
+      "sha256": "5936088b3c645198f4219101d74c502ad0a711168378d7292f4d50642f661866"
+    },
+    "vendor/composer/installers/src/Composer/Installers/FuelInstaller.php": {
+      "md5": "d85a7c612b415ad9d259dfb3d809fa89",
+      "sha256": "f0277b871506b085c57e2b4989e926affc42df7b8695388d5dd29c8160ab622b"
+    },
+    "vendor/composer/installers/src/Composer/Installers/FuelphpInstaller.php": {
+      "md5": "80defbb3f58c53612a1af0cffe9e55e3",
+      "sha256": "6e775952b236a151e56ffad03cf161c3135d2d47cf0b64d614b2f147dfcab6ca"
+    },
+    "vendor/composer/installers/src/Composer/Installers/GravInstaller.php": {
+      "md5": "11ffdaf6c760dbe6a079f90de9bdac41",
+      "sha256": "ded501087b5506ee047015b4ab72550c4837af814193c2abae1b1c92b22dfcd8"
+    },
+    "vendor/composer/installers/src/Composer/Installers/HuradInstaller.php": {
+      "md5": "ef1be3497301d39e9c1ada955bfb7e88",
+      "sha256": "dd9d3c31685d8144088ef562c2817911858aa234edc4464421497b90bdfaf54b"
+    },
+    "vendor/composer/installers/src/Composer/Installers/ImageCMSInstaller.php": {
+      "md5": "9d0b508824cbb6e7913d4795dfdef4a6",
+      "sha256": "1cd7354264dd13beb724d89f9b912a8870558607c6baec0f02974e3889dfa359"
+    },
+    "vendor/composer/installers/src/Composer/Installers/Installer.php": {
+      "md5": "eabf89c19860cfd5f84207c6d4be2591",
+      "sha256": "75c925a23258c64577be2b7b6b8f34cdad263e18476b7e3675ebb12a608f68da"
+    },
+    "vendor/composer/installers/src/Composer/Installers/ItopInstaller.php": {
+      "md5": "be985c070b36566601fcee7ac7b002ee",
+      "sha256": "34eeeb0ef2928f02a7b35d19b6b417b5f2d18cdc13aebc75b69faa742641d398"
+    },
+    "vendor/composer/installers/src/Composer/Installers/KanboardInstaller.php": {
+      "md5": "c06c54cfcbd3740d573cc443388b99d3",
+      "sha256": "cc040bfec999fbb1b992a0a6a72de5d7a6d5372339db8f3b8c1b09983037ca6a"
+    },
+    "vendor/composer/installers/src/Composer/Installers/KnownInstaller.php": {
+      "md5": "21e94742113f4950cd05baa77573bed9",
+      "sha256": "2c422d5c1d4e0bd242c7bdc3cc85bf5a451ffb9f442dac46c65b08130367876c"
+    },
+    "vendor/composer/installers/src/Composer/Installers/KodiCMSInstaller.php": {
+      "md5": "d2ec18b37976916ebe33339bb36eea08",
+      "sha256": "67cd650eeb1b46f17219adaaaca925d915115b4166897dcfb19e4b4ab9adac49"
+    },
+    "vendor/composer/installers/src/Composer/Installers/KohanaInstaller.php": {
+      "md5": "6737a1e0cf81e677745a16d2e8d415f3",
+      "sha256": "3309e6eaf9fc1f92c856d4208192940a826ae2e581b288e5448eeca72823270b"
+    },
+    "vendor/composer/installers/src/Composer/Installers/LanManagementSystemInstaller.php": {
+      "md5": "08996e774d7485f8ffc83738d43515bb",
+      "sha256": "af50086806526ebbabaad1afde46eb614367169f46769171a5a1fac22c2c0d56"
+    },
+    "vendor/composer/installers/src/Composer/Installers/LaravelInstaller.php": {
+      "md5": "a7b24e9110069b9bb05803e8234f5471",
+      "sha256": "7350709202c220ddb516879c331d5c9b30c38b4d96b687ac2707bbab54283be2"
+    },
+    "vendor/composer/installers/src/Composer/Installers/LavaLiteInstaller.php": {
+      "md5": "bbaed90a7f2cef279f13b67a65540bca",
+      "sha256": "8bc4aa8181459834359ed96edd8e2ea7895437969b006eb748a79c03637d763a"
+    },
+    "vendor/composer/installers/src/Composer/Installers/LithiumInstaller.php": {
+      "md5": "00bc599b6d6cc04bfe83049291842632",
+      "sha256": "7a7e380db378745b175c821e1be9de0ec5aa4967b07b65cb7307c3fb12b02544"
+    },
+    "vendor/composer/installers/src/Composer/Installers/MagentoInstaller.php": {
+      "md5": "c21634640ca425cfeb1a266505a6de1e",
+      "sha256": "232dfb5fb8f0595b7e5845059c4f68593caeb5b90baa42bbd0afa286ad192c3f"
+    },
+    "vendor/composer/installers/src/Composer/Installers/MajimaInstaller.php": {
+      "md5": "73dfe3cc1b96071c578ebf4795490c44",
+      "sha256": "a95f81a4a0a54e1cc8f7c229b8bf37ff06791ca6f595ff311766034778655bce"
+    },
+    "vendor/composer/installers/src/Composer/Installers/MakoInstaller.php": {
+      "md5": "af11fed9df3fe07c6a460f52a9da7012",
+      "sha256": "1700cf0eb8a8ad99ca13e4eb68dff88a41dbe70f317ea743db92c15e8465041f"
+    },
+    "vendor/composer/installers/src/Composer/Installers/MantisBTInstaller.php": {
+      "md5": "c84baaee66226e1a349f681c2149bfa5",
+      "sha256": "0304d23d2f4db4899afe27c210f48334920810bfb4e460534eac714bfb40b76c"
+    },
+    "vendor/composer/installers/src/Composer/Installers/MatomoInstaller.php": {
+      "md5": "855e3ab071235d1d310ec5aa9d270d9d",
+      "sha256": "551ee2183ab950f7801fbb4565c626d64fa49daf3328567acd5a22fefd6d8b21"
+    },
+    "vendor/composer/installers/src/Composer/Installers/MauticInstaller.php": {
+      "md5": "fc5b83b2f016f3c2c9cf2f946460160e",
+      "sha256": "d434522c2557703f22ac464415ea2a2e7f86a443879c0d9da40ebd181edafce1"
+    },
+    "vendor/composer/installers/src/Composer/Installers/MayaInstaller.php": {
+      "md5": "ee3e35fb879610207922ed717ebc3b5a",
+      "sha256": "f216af44f3843997a9d23a09ba6524608d2b913c42088eccbe1ea8ab451dee3c"
+    },
+    "vendor/composer/installers/src/Composer/Installers/MediaWikiInstaller.php": {
+      "md5": "b8ba7bcf938c24cc0f2a0bf5ad76ef76",
+      "sha256": "2bc6cdce8d08fa5a22d50cbaa65854c60544ca04844a961a05e4fad7d521f258"
+    },
+    "vendor/composer/installers/src/Composer/Installers/MiaoxingInstaller.php": {
+      "md5": "c41f1aec9c44a1a591a33e5ed52e252d",
+      "sha256": "5152e44b2220d77743f96b2d8895c2cd61bacdcfafc301f1e3e7cfd021119a16"
+    },
+    "vendor/composer/installers/src/Composer/Installers/MicroweberInstaller.php": {
+      "md5": "6a8420fff7979ee74d76741dbf264abd",
+      "sha256": "e46584abd1bdd71fee7077ea5c32810858cd1c6bf485b4b97dff40115e6be8dc"
+    },
+    "vendor/composer/installers/src/Composer/Installers/MODULEWorkInstaller.php": {
+      "md5": "e32298ed6a1b0064ffe3b74b6c740111",
+      "sha256": "1d906a2971db80af3c0ffb2d4f38c0bca3d46b09071c9cc76f041128c33a16a1"
+    },
+    "vendor/composer/installers/src/Composer/Installers/MODXEvoInstaller.php": {
+      "md5": "2eba9935892ed57bbaf4f5b3661ebfb4",
+      "sha256": "cb9c2c0fc1b46e09357bb47b550488141c8af1d481012008e5e68dc05647efd4"
+    },
+    "vendor/composer/installers/src/Composer/Installers/ModxInstaller.php": {
+      "md5": "e9b1f8c76a38b020b033bd671d63fcd5",
+      "sha256": "c824e28d78ed32236f940807065fb818dbcb723d7da266d9123dc40fae672a4c"
+    },
+    "vendor/composer/installers/src/Composer/Installers/MoodleInstaller.php": {
+      "md5": "beb3e484504fd99d33fcb3028a4289a9",
+      "sha256": "c0b61033a8c1bb02d39451efe5a90dc70ad70b0c22203803d035eb0109ee3b34"
+    },
+    "vendor/composer/installers/src/Composer/Installers/OctoberInstaller.php": {
+      "md5": "9d5df3c941981471871006942653c060",
+      "sha256": "e780126acb9e5462d9b17b29b5e088cc893148c5557f20f8925ccd2bd925bb04"
+    },
+    "vendor/composer/installers/src/Composer/Installers/OntoWikiInstaller.php": {
+      "md5": "e9fae5306daa9a8c15a3dd514332ae29",
+      "sha256": "55fba897efa5d173e7238c18c2065eeb8baf003e9a5fc13f4eabdc2fcb49c201"
+    },
+    "vendor/composer/installers/src/Composer/Installers/OsclassInstaller.php": {
+      "md5": "df8d228e2bed1a8bd1ebac475abbc3dc",
+      "sha256": "123a73418adfb0a28c6ed815dccb93b1cf654d12e836f886b57e860e32f24175"
+    },
+    "vendor/composer/installers/src/Composer/Installers/OxidInstaller.php": {
+      "md5": "e49aba886f8ca9e9c5c69aeb8c219999",
+      "sha256": "017b60adcdbf4ad61cbac075099614b86b5ccd3f03e044eabfd2da2a3f0e57d7"
+    },
+    "vendor/composer/installers/src/Composer/Installers/PantheonInstaller.php": {
+      "md5": "09ceb4d1b533f86cee5dd80da5fc45ef",
+      "sha256": "6618fac3c475711a7d3e2c2ccd03a58e1b56e4a0aa68b3676fdb1979fe0f40b8"
+    },
+    "vendor/composer/installers/src/Composer/Installers/PhiftyInstaller.php": {
+      "md5": "8a5d28badff1c1c0a1029534937a3a87",
+      "sha256": "2370554cd4b557dcf8dd128c8f0729ae3034105f7fd54f9485c638e1cb1d95ec"
+    },
+    "vendor/composer/installers/src/Composer/Installers/PhpBBInstaller.php": {
+      "md5": "44929245683aaa086744b9b0c006a3f7",
+      "sha256": "1f64c64262735c4756d129256ab34ac3651012ee3657897f47f6d6f95cb01191"
+    },
+    "vendor/composer/installers/src/Composer/Installers/PiwikInstaller.php": {
+      "md5": "da42810b5219620f681211d878704c36",
+      "sha256": "e93aa1f905564debeb1aca242f5a4585431fb1319d309ae8c79592e57e70c5ec"
+    },
+    "vendor/composer/installers/src/Composer/Installers/PlentymarketsInstaller.php": {
+      "md5": "325f2ee376f16df5c6faf049e88d1a10",
+      "sha256": "c265f51e0f69fb345d82606adf8192e53c0e6c6906536b732711b820043b56cb"
+    },
+    "vendor/composer/installers/src/Composer/Installers/Plugin.php": {
+      "md5": "f949b2d74b80ac301635a8f3c6896e0c",
+      "sha256": "afbf3280c23b0ca81834b6f9ee830c23fed074ef8a6a598d8fa975e1663a5cb1"
+    },
+    "vendor/composer/installers/src/Composer/Installers/PortoInstaller.php": {
+      "md5": "8803e3c343616a1aa1b51420a5545505",
+      "sha256": "82ef29e1adf23f5abb37071ba3a970808840dfc3084c3b580d08d98c3116173c"
+    },
+    "vendor/composer/installers/src/Composer/Installers/PPIInstaller.php": {
+      "md5": "2034ac998c10c399a27e46d0c8341758",
+      "sha256": "9c30449d94ee45b87885a13f92322ace8ca595007c4550c4fdc3532db978c58d"
+    },
+    "vendor/composer/installers/src/Composer/Installers/PrestashopInstaller.php": {
+      "md5": "f7826d8498c0f3a41c648f5a5b3f731f",
+      "sha256": "c878507c09118c0c67e215ca9e09a49b26ce2473601839f8c2946d291bb2ada6"
+    },
+    "vendor/composer/installers/src/Composer/Installers/ProcessWireInstaller.php": {
+      "md5": "74ef99879f6fa1142511e46adba65bdf",
+      "sha256": "63a4a85f74617f8afb558a75fd8ee9c00de5811441afd8f787b8f388f8936faf"
+    },
+    "vendor/composer/installers/src/Composer/Installers/PuppetInstaller.php": {
+      "md5": "c1f5d42fa94a4c6085bbaf2454a737d3",
+      "sha256": "6d552a808a39319d10b5b353f834ddec02f52ebdda074cd8f54b782c7c0c884b"
+    },
+    "vendor/composer/installers/src/Composer/Installers/PxcmsInstaller.php": {
+      "md5": "166072e16edb8e58ea4313afde09c154",
+      "sha256": "720a6070b75e7f9eb25f0ae11954f69ecfb3e2c2532f0ddfffa11343f117975b"
+    },
+    "vendor/composer/installers/src/Composer/Installers/RadPHPInstaller.php": {
+      "md5": "e0262a16203bb0f1a6996da251168f1d",
+      "sha256": "79ea277e083d9f30a8342ffe4301c622fe7252cb9a09d15a7b1c1fb2d4362c5e"
+    },
+    "vendor/composer/installers/src/Composer/Installers/Redaxo5Installer.php": {
+      "md5": "648b2552c3cfae8942b5f729e9931d88",
+      "sha256": "104d11002996f762dfde477a99b7312339b7561d55983c1be5df2a21e5931a98"
+    },
+    "vendor/composer/installers/src/Composer/Installers/RedaxoInstaller.php": {
+      "md5": "dcd647d5e0adb39b61a223c7d90aa221",
+      "sha256": "6cf18c260e8fff588270699a40bffc6d42b93a85cb513e75ec8d3765c091824e"
+    },
+    "vendor/composer/installers/src/Composer/Installers/ReIndexInstaller.php": {
+      "md5": "5bc1d8b339f0367e00ba817c069d8071",
+      "sha256": "6d37928f457f680e47ae621171d69498164106ae6c7282f7c6aec9b48d9a4428"
+    },
+    "vendor/composer/installers/src/Composer/Installers/RoundcubeInstaller.php": {
+      "md5": "020edd6683ca01f8e03a69a487fc8cfc",
+      "sha256": "79f08d2c19b14e491115fd9735e336abc002ef15a13af2e152ada3854e0c0a5c"
+    },
+    "vendor/composer/installers/src/Composer/Installers/ShopwareInstaller.php": {
+      "md5": "2d6d77df6d7bd174475386c34a33cd52",
+      "sha256": "8228179074b49f5adb0625f9b0bd07427b186102c63cae45161dd95507a29842"
+    },
+    "vendor/composer/installers/src/Composer/Installers/SilverStripeInstaller.php": {
+      "md5": "7e09c4a2e0f860abf6a82dd6a88b3ac3",
+      "sha256": "e6179c1ed010dff81d99c3384299ac894e9be06dd80d1ee4403bc2f6a5e8612f"
+    },
+    "vendor/composer/installers/src/Composer/Installers/SiteDirectInstaller.php": {
+      "md5": "5df14c17a99b5037c971b1f55c9d861a",
+      "sha256": "b3dccab27a21c05af087a804b533f8a68ad9b35aa7ee580f7760e77883980785"
+    },
+    "vendor/composer/installers/src/Composer/Installers/SMFInstaller.php": {
+      "md5": "c4571eb4c8e255a001e8a7bb8e9a8949",
+      "sha256": "11a02946a0a5a488ef424d4514b0dd04bbff97cbda8e9919601d6d5e7fa3be62"
+    },
+    "vendor/composer/installers/src/Composer/Installers/StarbugInstaller.php": {
+      "md5": "ce07f9fcaabf1227a0da76f6a2720244",
+      "sha256": "7ea36ec04458527812edbde861f5dc52b75df947afced027fddca7c587e5e181"
+    },
+    "vendor/composer/installers/src/Composer/Installers/SyDESInstaller.php": {
+      "md5": "f725d4962cf6943dba266303ab3ec4d8",
+      "sha256": "4043df1f87a1117e966c74c689a2d2cf6082820743edee830647a1e0e7fb84a0"
+    },
+    "vendor/composer/installers/src/Composer/Installers/SyliusInstaller.php": {
+      "md5": "958949540fecddc01fa82ee679405942",
+      "sha256": "a7265536a4911a67a3f4f4fae3dee81002c0ac757fab63cc1499eec3281bb43f"
+    },
+    "vendor/composer/installers/src/Composer/Installers/TaoInstaller.php": {
+      "md5": "3d89a66f5f427308e90a9db3de958aa6",
+      "sha256": "b9f8352ca667182a075f2ce9e966ff640fb73d8d5d4ff0aae3047faf89a76ec6"
+    },
+    "vendor/composer/installers/src/Composer/Installers/TastyIgniterInstaller.php": {
+      "md5": "c480b5b7622414d93c4a45f422387f42",
+      "sha256": "3ff4767c038ff0e713e0135c30649defeadb571b6cfa3e9fbe204be4bbc003be"
+    },
+    "vendor/composer/installers/src/Composer/Installers/TheliaInstaller.php": {
+      "md5": "6a6cfbdbdb807741fd185f39dfc16168",
+      "sha256": "59e1d8259c7a11d15d983c86457b627de963cb1224593ec171d259f6fd0e3551"
+    },
+    "vendor/composer/installers/src/Composer/Installers/TuskInstaller.php": {
+      "md5": "b18f2185ef4b8b1acaf2fdd3a1433f9e",
+      "sha256": "43fd5aa13082271edc79a73f408166c63dbddaacb3b63c03833614e19c7c1cc0"
+    },
+    "vendor/composer/installers/src/Composer/Installers/UserFrostingInstaller.php": {
+      "md5": "13063ed5386691b25d4b1607c8cadf64",
+      "sha256": "989aa5247e3e69452bea790f21a31a417ae93739e1de1e4cee461add5ba64790"
+    },
+    "vendor/composer/installers/src/Composer/Installers/VanillaInstaller.php": {
+      "md5": "6b138fa4385739199fd09c942f001322",
+      "sha256": "c60681361e886924fc61bba5718c7c72ec69345363717df5ddf7758263fe88a8"
+    },
+    "vendor/composer/installers/src/Composer/Installers/VgmcpInstaller.php": {
+      "md5": "94f4d06525b6d886a1026bbe4ba3e1c3",
+      "sha256": "1041e2a09de07d4080852612a26a98dcd7c9e5db8891c05a38677642f6c82b52"
+    },
+    "vendor/composer/installers/src/Composer/Installers/WHMCSInstaller.php": {
+      "md5": "e85a71dd1ca2467b9096ff50446d8b7b",
+      "sha256": "0a3de9ad2a080fb68020dc52a587d1738cb9fbeb8c142c0c39d81e18787795ef"
+    },
+    "vendor/composer/installers/src/Composer/Installers/WinterInstaller.php": {
+      "md5": "c4bdf3e8ffe7fddcf4fdcf835e63508e",
+      "sha256": "a59d59599f75a71b0db16a9548a02258ad8e64f49f13359dfc5f823beb4ff0b1"
+    },
+    "vendor/composer/installers/src/Composer/Installers/WolfCMSInstaller.php": {
+      "md5": "cca8191d670d7065cb66407e812a49db",
+      "sha256": "58a3611854034160ec531da91f926df8d9ec1dffa656c15e95fb9ba37c46eb0d"
+    },
+    "vendor/composer/installers/src/Composer/Installers/WordPressInstaller.php": {
+      "md5": "b730ced09698ebaaa4e2f14050e18ca9",
+      "sha256": "7ab8831f385b1501d8c2851424156e927c2ebaa4ce2c3dc02ca4e9b77560383e"
+    },
+    "vendor/composer/installers/src/Composer/Installers/YawikInstaller.php": {
+      "md5": "f3a992606b9255d34b651395518c9e7e",
+      "sha256": "37122ec3cf2ee4743d033e9ddcf4a1a5d49001bdb674a64b3c41a92bdc670108"
+    },
+    "vendor/composer/installers/src/Composer/Installers/ZendInstaller.php": {
+      "md5": "4e41f4feb518549070472d416ead219c",
+      "sha256": "1b31a38be8b83b86ef33802d4d0cd66137112d26444eeeb80942bf29f9e0fedc"
+    },
+    "vendor/composer/installers/src/Composer/Installers/ZikulaInstaller.php": {
+      "md5": "ef5c60785cc296f1266dda5f95e9689a",
+      "sha256": "e7c3f108ca24fb41bdd82af1d48803526b8968f9216589311dfadae5c1ac6d3f"
+    },
+    "vendor/woocommerce/subscriptions-core/.nvmrc": {
+      "md5": "75c23e7c670c5f95fdfb5e352393b9a8",
+      "sha256": "9c8215700a991d138e90c1cc013fe1a3bd84bcd3cb327d10c48972de7d987e63"
+    },
+    "vendor/woocommerce/subscriptions-core/changelog.txt": {
+      "md5": "50bbe07732b7ddfe0e98ae7e7296f2d2",
+      "sha256": "1884fd484ca99dcd2622cecca2f8e12ed27a562b2adf47453c45c1547da8f0f4"
+    },
+    "vendor/woocommerce/subscriptions-core/license.txt": {
+      "md5": "f7fa52191f83cdfa4a71e1260cf6ff97",
+      "sha256": "4b044e69bce80605230f6b948b9298e3bca7a9894776516913e45596f40c8e82"
+    },
+    "vendor/woocommerce/subscriptions-core/wcs-functions.php": {
+      "md5": "14acb72bf7615b0795bc3639cc43327c",
+      "sha256": "97af55c75299c7d2f68eae127c7cd1dddf3538c468068e1bacee28cd0128ffc4"
+    },
+    "vendor/woocommerce/subscriptions-core/woocommerce-subscriptions-core.php": {
+      "md5": "9de7ee79dcb4d65c556b160bb16f984f",
+      "sha256": "7aae34f54ced52ade3b73dcde498403e4d826861d3d94ceb79b68417e2737b55"
+    },
+    "vendor/woocommerce/subscriptions-core/wpml-config.xml": {
+      "md5": "ae86f63ebedc5cf80dd6e99cf8b25fe4",
+      "sha256": "df8611d307132e8898427f00b786b1a0b64ed9e7ca7c2f0e78840357f23e7cce"
+    },
+    "vendor/woocommerce/subscriptions-core/assets/css/about.css": {
+      "md5": "5c7a9f70c5b6c79bd9e48118bd4af519",
+      "sha256": "808edfad1fc9b0d1ca7fc86c8b456c2e5823efc1af6d3d792aa5c87ec87005aa"
+    },
+    "vendor/woocommerce/subscriptions-core/assets/css/admin-empty-state.css": {
+      "md5": "00a8e2fcd6c0bc0ce73cac62dcabe0a9",
+      "sha256": "d219cfd146e4766a1d2f9c4fb67075b52e15d6578f27415c0ab08a7e3d3b0a54"
+    },
+    "vendor/woocommerce/subscriptions-core/assets/css/admin-order-statuses.css": {
+      "md5": "558ac1a1afc35179359d2337d6a74342",
+      "sha256": "238e0c4c4ec36c9fb2117e4951f6f595df336f4dbefb6a059627622e9419b214"
+    },
+    "vendor/woocommerce/subscriptions-core/assets/css/admin.css": {
+      "md5": "3314bf025e7eee06e37292251ad7dfa3",
+      "sha256": "9c1415212b8bae01b6c9d82d71028891478cda00f23d376a9bd8a42cbb45e1a2"
+    },
+    "vendor/woocommerce/subscriptions-core/assets/css/checkout.css": {
+      "md5": "6541a3d35ed39f752ec1332abfcf730f",
+      "sha256": "7ae9ec3ae97a796b9427d7f57d913cae7c3e984334f39d974a2fbc97c9de04c4"
+    },
+    "vendor/woocommerce/subscriptions-core/assets/css/modal.css": {
+      "md5": "c2695114e99117cc579be20681a369d8",
+      "sha256": "6a635914eaeb7e60596b69a68b7ad8a2c006b0a287c34f78ad67ac2fb0fc7acb"
+    },
+    "vendor/woocommerce/subscriptions-core/assets/css/view-subscription.css": {
+      "md5": "57cedbe30114884b360ab9a66d756767",
+      "sha256": "0acae80417a0a317bc8019a5c52a6f235adf457e32136ceceaaa42542a558016"
+    },
+    "vendor/woocommerce/subscriptions-core/assets/css/wcs-upgrade.css": {
+      "md5": "dbce28de411ae9208c55ef9a27816160",
+      "sha256": "ae90f6798384b1847eb0d2238637ccff300ef9cf576056a07267ac89ecea4e1a"
+    },
+    "vendor/woocommerce/subscriptions-core/assets/images/add-edit-subscription-screen.png": {
+      "md5": "77d919d141c983d5b3b5281f24a3ea0c",
+      "sha256": "f8bbef1bf6a623753cc74656fad491e40d87aca34c6d5b3a3c829ae397fc1e57"
+    },
+    "vendor/woocommerce/subscriptions-core/assets/images/admin-change-payment-method.jpg": {
+      "md5": "c0449abe4dd35b7aa93030d4ca1bf97e",
+      "sha256": "918dc530310b1c7348e9c69f169a9cd785488fae24c975505295e0d2efa58eb8"
+    },
+    "vendor/woocommerce/subscriptions-core/assets/images/ajax-loader.gif": {
+      "md5": "f0d00eb0a7d4f978624a133142e1ed77",
+      "sha256": "565c2293ea773fd3a76669718b8cca757bcf4d836f0ee53dba1eadd098bcd3d3"
+    },
+    "vendor/woocommerce/subscriptions-core/assets/images/ajax-loader@2x.gif": {
+      "md5": "d734a836bc6e399ae39313134e35a2e7",
+      "sha256": "63d8a05616de51ea612538a76ef1178daf2ed813c986e7fb4daf18f4b7bfb25c"
+    },
+    "vendor/woocommerce/subscriptions-core/assets/images/billing-schedules-meta-box.png": {
+      "md5": "9277c824ccf65a40836df086718b3728",
+      "sha256": "90f057b6b5c129d8b18fc5aa07fe11d2cd73f5af67bca2322abe02583432623e"
+    },
+    "vendor/woocommerce/subscriptions-core/assets/images/checkout-recurring-totals.png": {
+      "md5": "7219d40567449109c02bda9406b5f162",
+      "sha256": "70093d81a7f7af7d7d2b56926813c0e910b5c429d272d3c680cc4dc345fc7fed"
+    },
+    "vendor/woocommerce/subscriptions-core/assets/images/drip-downloadable-content.jpg": {
+      "md5": "339acfbb29be7089869b85e0a966e05c",
+      "sha256": "697b3a98357dca6e4a6cb37e74070eb73e32fa5818cffc1bfbe591325ff0c0ae"
+    },
+    "vendor/woocommerce/subscriptions-core/assets/images/gift-subscription.png": {
+      "md5": "f32d5d14f8f20e9a2f69452d8a7a67e6",
+      "sha256": "c9062d0e8bae36555b63f3c764af580095eeaf87f7495798f51cd47a20c6d3ac"
+    },
+    "vendor/woocommerce/subscriptions-core/assets/images/renewal-retry-settings.png": {
+      "md5": "f9c40fba2a771c56ce85ec5d11ded56a",
+      "sha256": "a41a5c6cb129bc8cb643a9846625819a368e7765981fa981104d20c716b618c9"
+    },
+    "vendor/woocommerce/subscriptions-core/assets/images/subscribe-all-the-things.png": {
+      "md5": "df09cb3441b8d24d12e812f5495e1a31",
+      "sha256": "cf9f631ad96245ee254c4fda61a3e0aeb1f9570be87bbae07eb2a9dab8d38351"
+    },
+    "vendor/woocommerce/subscriptions-core/assets/images/subscription-reports.png": {
+      "md5": "640b02e03cfb066ff936d299af694a03",
+      "sha256": "51e74d5cc08672c5b69f32431d19b67552653ab669492ec22bfc7aef792e38a9"
+    },
+    "vendor/woocommerce/subscriptions-core/assets/images/subscription-suspended-email.jpg": {
+      "md5": "41ba23cb9723326cd7cfaa6b2d539349",
+      "sha256": "dc3aadec33b6c43368204590f92bd78c89d2fcc3c9fbc400dfafd5de70576826"
+    },
+    "vendor/woocommerce/subscriptions-core/assets/images/subscriptions-empty-state.svg": {
+      "md5": "c01c4592c2787f24c895e19752f8f86d",
+      "sha256": "f3550a1f9d531d6e9e9aea6975bd6fe4679e15af2626aa20d9f19859a5cd6071"
+    },
+    "vendor/woocommerce/subscriptions-core/assets/images/subscriptions-importer-exporter.png": {
+      "md5": "35806120ad73f463ed5e206869c8b436",
+      "sha256": "8da9bded71098f645a062af9c8edcb39c2012c822364a1b278a35f6014016df9"
+    },
+    "vendor/woocommerce/subscriptions-core/assets/images/view-subscription.png": {
+      "md5": "dedd6218a27ec3f2117440d81e9bdcc1",
+      "sha256": "e2f625a29af247c3b1ffd7ffbe1f775d4cac1fe434c71a7abbcf7a097ef18723"
+    },
+    "vendor/woocommerce/subscriptions-core/assets/images/woocommerce_subscriptions_logo.png": {
+      "md5": "1fbd51068463e353a478fe50b00e14f1",
+      "sha256": "0463b41882ff620ab3ea8f40eb0e3e8ad25e19302892980d319edfb60e158758"
+    },
+    "vendor/woocommerce/subscriptions-core/assets/js/modal.js": {
+      "md5": "f421d4f3fb1f5560b26dd993550e6101",
+      "sha256": "6593dd49995415684f95ca73927696dc47e745aec02d615fa4cc115db2a35872"
+    },
+    "vendor/woocommerce/subscriptions-core/assets/js/wcs-upgrade.js": {
+      "md5": "9a133e76e2a00c4c654896d3cb9a66a8",
+      "sha256": "a4b2d8626fea443845c7c625853c67569cfe8b175fd60dc2caf38568867574ee"
+    },
+    "vendor/woocommerce/subscriptions-core/assets/js/admin/admin-pointers.js": {
+      "md5": "25727f3d977df59feae612c0927e53a9",
+      "sha256": "348aaf0026448eabe1623231a882ac2bae1559936ac0754759b435f9671bea12"
+    },
+    "vendor/woocommerce/subscriptions-core/assets/js/admin/admin.js": {
+      "md5": "e99877d95cb4533fd9746bc46521a45a",
+      "sha256": "15fef21753aca8aca0cc80e7a9a21018d18a86586b6df40f5c58ec15344115e5"
+    },
+    "vendor/woocommerce/subscriptions-core/assets/js/admin/jstz.js": {
+      "md5": "7210b7d72016d3d4211666ae0cce46cc",
+      "sha256": "222b52fd6209046fc557bd47b1781d552889efe211ff774aa3205289afb81595"
+    },
+    "vendor/woocommerce/subscriptions-core/assets/js/admin/jstz.min.js": {
+      "md5": "89e20271779d46d81f1d4a0f0fdcd764",
+      "sha256": "0bfd92ccde20f20e50dbd9d7a340ee3e39a667bd3402f7b543da063aaab09a90"
+    },
+    "vendor/woocommerce/subscriptions-core/assets/js/admin/meta-boxes-coupon.js": {
+      "md5": "d58275d42a5dd0fd0213da833688930e",
+      "sha256": "0b607ac30747c3b75bd3162b56b00e96e1fa6767cb0994a3f57499cf8d4c79bd"
+    },
+    "vendor/woocommerce/subscriptions-core/assets/js/admin/meta-boxes-subscription.js": {
+      "md5": "22d82fb191a68a74d716f63df7b07806",
+      "sha256": "27e934ce41a3cc9e60b2163f1fec7a58d6397161a333aaacd5f39c20011d9a67"
+    },
+    "vendor/woocommerce/subscriptions-core/assets/js/admin/moment.js": {
+      "md5": "034bc973d727a0b7d8329dfe012afff4",
+      "sha256": "58853dfa4f152276a806a4f32f9b6888e51f47af8e02731ad84920682f2cba9e"
+    },
+    "vendor/woocommerce/subscriptions-core/assets/js/admin/moment.min.js": {
+      "md5": "89f87298ad94aa1e6b92f42eb66da043",
+      "sha256": "b8559046a798fb7e60a22975d8cc0be190c63702654a7074d7e3f0b2ac4bd51a"
+    },
+    "vendor/woocommerce/subscriptions-core/assets/js/admin/payment-method-restrictions.js": {
+      "md5": "5c7b5b87741371b1bb65ef30f2a20c8d",
+      "sha256": "464d238d9ade9608a6a8a78a2d2f84cfdc88cbed03899cfa948cc63c0d62585b"
+    },
+    "vendor/woocommerce/subscriptions-core/assets/js/admin/wcs-meta-boxes-order.js": {
+      "md5": "b1e1db995a2475522c756d06017a263e",
+      "sha256": "43135b53c46c6ed2f1feef20c8e84a69dc6f9da0128618d90a00dd64ebc8c5ba"
+    },
+    "vendor/woocommerce/subscriptions-core/assets/js/frontend/payment-methods.js": {
+      "md5": "2dff725a2b75d1dcc95ab7dda72318dd",
+      "sha256": "7e0e9243935e8a4f2dca69b56af6413b6e485f9cb0fd062ce04ecb5959bcaf4d"
+    },
+    "vendor/woocommerce/subscriptions-core/assets/js/frontend/single-product.js": {
+      "md5": "465b8611d5b5b8f9aabb428e09ffe39e",
+      "sha256": "0b753fced6dc4208a5fd155928745f53ebacff3df97e52c365432d80bc2e3958"
+    },
+    "vendor/woocommerce/subscriptions-core/assets/js/frontend/view-subscription.js": {
+      "md5": "c02897b33e25470f1758b2526b194d1b",
+      "sha256": "c834dd4f822973598c6987deb850bc52b7ce55bcf684ff27bbbadcbf3a07989a"
+    },
+    "vendor/woocommerce/subscriptions-core/assets/js/frontend/wcs-cart.js": {
+      "md5": "37707974d0da171cd2b138bfee25f68f",
+      "sha256": "6745c6ec335ce30028b784915a71635a8043e4bd6d6a52e6cd5b6bda84df1b2c"
+    },
+    "vendor/woocommerce/subscriptions-core/build/index.asset.php": {
+      "md5": "a879c03517cb2508eb8ac2992229d11d",
+      "sha256": "1c1cc87698b8784592be688353bf07af050db8e082005513be786f1b173e4093"
+    },
+    "vendor/woocommerce/subscriptions-core/build/index.css": {
+      "md5": "07720af2ad1093d58afe7f38f79d44a5",
+      "sha256": "b7bc3b9fb8a119aa279b4b7ad5c778393eaecef6a8786673601309fc71cb4e8b"
+    },
+    "vendor/woocommerce/subscriptions-core/build/index.js": {
+      "md5": "27b382194da2325e54561c9e4a1cbdd0",
+      "sha256": "439456f69c276f9f3db8926e791a251655480053d298fcaa06c7ea8090eeed12"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/class-wc-product-subscription-variation.php": {
+      "md5": "b7735b23d0f6126cd849f4f12bca63d9",
+      "sha256": "591f07928706c3d822f5ca63705636271eeee3fec096cdd54c0f968fe812a71a"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/class-wc-product-subscription.php": {
+      "md5": "1f3c001eded65a2aa0616e3218bcee30",
+      "sha256": "7c8163ea98f5504ee6c2ad51c6db8a1ef363d13cee7742548546b06b1215b296"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/class-wc-product-variable-subscription.php": {
+      "md5": "db60c9ebbf0fe3dc3b585e675cb7ce9f",
+      "sha256": "fd3410fe127233ad1d954295458f2750e90f49cf798c3f8bd20297822158a9e3"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/class-wc-subscription-item-coupon-pending-switch.php": {
+      "md5": "961607592bad4a7df504c867e0d247a2",
+      "sha256": "64c781ed37eea4ef59f96378592bb96cefbb0de7d8aba2d767ae92886a30afc1"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/class-wc-subscription-item-fee-pending-switch.php": {
+      "md5": "9ecd2d1d6fd55f2a76a42939fc5b96a6",
+      "sha256": "24797f4903936f69e296797602934b3095210ae4223378ac79f9ef9f90f2fed0"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/class-wc-subscription-line-item-removed.php": {
+      "md5": "822396423649d8ad2360df855bb68cf5",
+      "sha256": "819e12ad2c7f9109a5420ad9818e0bf57fda6537902b846acb0f801de3a91e77"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/class-wc-subscription-line-item-switched.php": {
+      "md5": "4ff8b56ccdabead5f441472e93c3163a",
+      "sha256": "7b30ca6f24eea129af50f19031890c1ef2a0c67388b8a7c5a1e3aa5fc050c64a"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/class-wc-subscription-query-controller.php": {
+      "md5": "8b8a0133f3df875d48bc073985990909",
+      "sha256": "5f7dd5de8798f90530cabb29e9bf7be99700f108f3982dd48ea7b09440f654e5"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/class-wc-subscription.php": {
+      "md5": "f98db367c5d1a58528ae5c1211828b5f",
+      "sha256": "864e68fab2210195ba4e23c3e40e3f4a70871e4ec227302c6605f88e2d7136a1"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/class-wc-subscriptions-addresses.php": {
+      "md5": "7581642d9245ace2308ad0e97b2c8636",
+      "sha256": "9ad647408c0a2e98c3c924046184214f4665ccdcf04ff4698a79d80ecaf94a22"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/class-wc-subscriptions-cart-validator.php": {
+      "md5": "791a03c8aca81a7c353d306b56213537",
+      "sha256": "4f3c08180e252cbabde1e0f147fd5f1d49e27b481f5e727bc2b4ab631f2cf13c"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/class-wc-subscriptions-cart.php": {
+      "md5": "d1859ae2fd99b638659d37b3e6a59cb7",
+      "sha256": "84feac23fe609651050a8e6c6ef54b32192909b5f854e8ea6ad7b4ed8cdfd8d8"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/class-wc-subscriptions-change-payment-gateway.php": {
+      "md5": "14fd57abc3871e04a50d87a5ec776d0b",
+      "sha256": "ff5c832597558bd8facfd6756366b088ce00db0c7ac4cf03b7fa7b7927dd8b81"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/class-wc-subscriptions-checkout.php": {
+      "md5": "b08b3e8896f2937136e43c74c5f48c3e",
+      "sha256": "484370f635978c82a73d6d760105217189811f5a01c12dacb77dab50842c5b4e"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/class-wc-subscriptions-core-plugin.php": {
+      "md5": "f33c087de4990825bacd41ca51e9032d",
+      "sha256": "13f8ff60483274a7d8bd89730ab1d008a9001b86976948c65ced16bb016cca9b"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/class-wc-subscriptions-coupon.php": {
+      "md5": "3db33637f93c461801af85de0d4f0c71",
+      "sha256": "efa957d79e85803254f946706927541d9cd01da109e6db5b4c8aed83fb03d2bb"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/class-wc-subscriptions-data-copier.php": {
+      "md5": "49eee52167e2a5e4f7d1e83676f8d545",
+      "sha256": "4dc407644ee8e8e8bf425f1363718455db70ce12fcf3c936a0fb4e6d37a90bda"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/class-wc-subscriptions-email-notifications.php": {
+      "md5": "046f8ccf91be74ba0ab1affc47471c0d",
+      "sha256": "06a5257122234ca515b2d0b316ff2c39f294fd54c5fc7f17800051dedfd11285"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/class-wc-subscriptions-email.php": {
+      "md5": "ebf7e32e949ccf14198aef5194a17134",
+      "sha256": "d4498d45df55aa9044a7cb79e54a6ee2066385f9539a8f6946cd4e79d5b922a7"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/class-wc-subscriptions-extend-store-endpoint.php": {
+      "md5": "a7d6d49c7568d5e1f11b973d89c75e5f",
+      "sha256": "7e115a7a2be3fcc3bcb66ee1414df982df843dc85b89c1cb91113490c85ce74c"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/class-wc-subscriptions-frontend-scripts.php": {
+      "md5": "5b86cbea8a334c5b5c4eec4dd49c244b",
+      "sha256": "56b6fcc8e3d9d9d65fd91a7e3c997d117fa2b968df0fe4bbba26ec9529946d46"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/class-wc-subscriptions-manager.php": {
+      "md5": "741935209b591835ca9982a4a337b6eb",
+      "sha256": "1962f2c917e5993f6e0f83184588bcb32aeb62ec28db129d0ee88e90c4a0c163"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/class-wc-subscriptions-order.php": {
+      "md5": "97414d4192fbad326501012b5496593d",
+      "sha256": "bc37504a865a3e3c00240acb19f360250aeaec7e9e81cb298dd041ee122bec19"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/class-wc-subscriptions-product.php": {
+      "md5": "0cfc64ab95068a4e6e34e826f78a6057",
+      "sha256": "f482356c7d40136453d79e19dee907953d0494c3ba5f21d64d7da8cd4a9c6bd1"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/class-wc-subscriptions-renewal-order.php": {
+      "md5": "a896bbf42a68b2e732a3b3fafbf9f21c",
+      "sha256": "b232d97e2200de1d9ab905f714f029157e5a8a790adf288cf1ca1f362c93da94"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/class-wc-subscriptions-synchroniser.php": {
+      "md5": "1604e5ebf141b448a7554a3f6b95a190",
+      "sha256": "d53b86e2d8f0030a3c68b0e921c776d343086a5f4b3d5db29ad4c327ecfd6e39"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/class-wc-subscriptions-tracker.php": {
+      "md5": "8158877c5afb93765deb8c877a9f04f4",
+      "sha256": "1d26e43d044df0dbed3c38c371f189e429af8948a15833c8604c74ba9973c794"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/class-wcs-action-scheduler-customer-notifications.php": {
+      "md5": "8ffc53b031f1b690ec18e01a3792ff69",
+      "sha256": "78e930e4bd199d0ab1dfd93014741d0150e0f767fe633b5b2fa5c2b839ea0893"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/class-wcs-action-scheduler.php": {
+      "md5": "10fe8dc68d4f57d88c2deee7601cdbee",
+      "sha256": "90cc7366c9731da4a8f41d525f912c9a2fe59743a2f39aba4c4e9ef235985a37"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/class-wcs-batch-processing-controller.php": {
+      "md5": "5df19e4e22e98007e2bba9c912407f34",
+      "sha256": "6beb29b619b2d7145048a8aef362c8506b0482ada3719c26d144cd58de1f8f74"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/class-wcs-blocks-integration.php": {
+      "md5": "9053a952d768ad01ea0db620489c6b8f",
+      "sha256": "0abf5703fe58634c022090694cd344776b424b84f6e12643a4292a04a7caf75f"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/class-wcs-cached-data-manager.php": {
+      "md5": "3135f5493532cd09ac66af1f5a456669",
+      "sha256": "a6d7050c1d680eb3163f4d9d3cf5020acecd5e851aa26c4d5a2dc7559669cbad"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/class-wcs-cart-initial-payment.php": {
+      "md5": "c3d7929cebe6d97be68a69fae9991016",
+      "sha256": "eeb1f7535d71b076daf7724d70c0f8225d68989b666c6f4e549d80a3f95aab40"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/class-wcs-cart-renewal.php": {
+      "md5": "067871a43743460fac287842acf3ec38",
+      "sha256": "4f66a20ab2c31cf92e5f3a2f2328d52ccc5f516977ee67850cfee04d3bee7752"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/class-wcs-cart-resubscribe.php": {
+      "md5": "cb7b2f82447c92cbb5269f924b685d1a",
+      "sha256": "12c4a12a60c93ed8b8ac62f4e43fba49d4106b2cd5b6101e9dc9efb4f2dd80a9"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/class-wcs-change-payment-method-admin.php": {
+      "md5": "d223a75e76f4a80187d4bc92b4d300fb",
+      "sha256": "688785b7473d4329c8e3bb1914ec6f3eadf7b15dadb33041230bb8291e7fa7c4"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/class-wcs-core-autoloader.php": {
+      "md5": "7a18f1416912b43e2b15438b9f25abdf",
+      "sha256": "98d7418f5a3d301e1c8cdf5d2b3dc8934da4ee595c6380e376575b955bf997dd"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/class-wcs-custom-order-item-manager.php": {
+      "md5": "f64dbc3eeabcff4f612549fc552497a4",
+      "sha256": "ec7c7a600903ae04be6cebd89235b853750350b49f85afd08ba3319d7ad0a903"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/class-wcs-dependent-hook-manager.php": {
+      "md5": "16fefb1e341b5663058c0ed93611f651",
+      "sha256": "bc5a72c2796329d0ced11e5ce34f875848dd148b4e9474a533cf6b4616ce083d"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/class-wcs-download-handler.php": {
+      "md5": "095cf4a885e9623fca779caf36b7539d",
+      "sha256": "dddde359da3de70fc71cc7a023a02a2c0f37e34f0f3f4a7dc7305c491e8e7262"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/class-wcs-failed-scheduled-action-manager.php": {
+      "md5": "6ee4bd3f327438376b9250e8b0df4e5b",
+      "sha256": "76b10b29f359b34a8dece3e2be0f771669b43f4c59d1ad25563122c6f84cec45"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/class-wcs-initial-cart-stock-manager.php": {
+      "md5": "f6146ea2935a7906182fafdcf6fac452",
+      "sha256": "7a0c08c04d7194f6b95c29fb0741fc5653e263285afa67d2025f77e748234bbf"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/class-wcs-limiter.php": {
+      "md5": "ed8a542612dbcb8d044641b32e25a633",
+      "sha256": "51f6dd8e12b6f27728913273a0e92a7603287c7fabb6c593aa4894db1b504ab1"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/class-wcs-modal.php": {
+      "md5": "7ab797caf019081ea34aad9c5ce8ca49",
+      "sha256": "0f9c6fd4581ec7bf68ca4ac27601cd45b5a901d558eedbbdc911045aadbcbbdd"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/class-wcs-my-account-auto-renew-toggle.php": {
+      "md5": "ea653b46b54b6f0a500c450c7c583414",
+      "sha256": "3ef67187153f35dc73dbda2f4f7fbed6cf9b94887326cf6f6f0f730946406b67"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/class-wcs-my-account-payment-methods.php": {
+      "md5": "77846f8b19c55ffa9ee67d5adc35af74",
+      "sha256": "26f6cd04bba924b4c9a313f76d7cffe0e7565079002a095da0744ed9c21ff034"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/class-wcs-notifications-batch-processor.php": {
+      "md5": "928e73f3bedd81d56df75ba911073891",
+      "sha256": "dffd1d7113587d684d524aac1eaf600b361c857e6e2882de2efc015a0932c2b9"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/class-wcs-object-data-cache-manager-many-to-one.php": {
+      "md5": "b6d12119fdf52b9f3a3a8b2c1a794aec",
+      "sha256": "c2c822d8ba1f65aac009bb507a2835d01ea533f282b5b15af3d3692921d78777"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/class-wcs-object-data-cache-manager.php": {
+      "md5": "3b63fb0c79e50aae518297660e3137f6",
+      "sha256": "b836aef4b3b8ef6c356d69bf1376ca055cb0f6a28a000c1a913f905d85f9eb5f"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/class-wcs-object-sorter.php": {
+      "md5": "6937669eb1a106b2d8ee27a7c8f3ca8b",
+      "sha256": "7149bfd66fca10743d666a0042eb2ccbc5c1a633a55436cf2c099219461a57f4"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/class-wcs-payment-tokens.php": {
+      "md5": "0449efd0a549cb917edc912c6939a7cb",
+      "sha256": "0a08bdc7d5c0dcecc4e6a4fc645fb51ad48cd8b46156f98c070b7ec54ff52bf1"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/class-wcs-permalink-manager.php": {
+      "md5": "a25cc6c74f67fe6affde7bc9eaef938e",
+      "sha256": "a470def2030eb0ba02a4cc2aa180a3eefa400bd3e4183bfb246f64307cbbd07c"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/class-wcs-post-meta-cache-manager-many-to-one.php": {
+      "md5": "18b825a540709d6a50acf6027c966ec9",
+      "sha256": "58c1a4d74a96a6bd3ea4130058d8639bd156422c0138b1877c232718a489e92c"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/class-wcs-post-meta-cache-manager.php": {
+      "md5": "ddd135a2fe5b25655449adb6cd25519b",
+      "sha256": "587939e88defb5142e40ace1c1e9e5554157c875cc07080d046a319cde540971"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/class-wcs-query.php": {
+      "md5": "63760a98509978f93e442b765c939811",
+      "sha256": "4c1ce71069a68ac20de2ee3e44f3c930daf8c70585f51d4f538668cf416775ce"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/class-wcs-remove-item.php": {
+      "md5": "ac2344fd46e87d674f0ad2bcb226f41f",
+      "sha256": "19b5f09ddb7f89b6873f3af56b85dff193c7fd0dd62134f33d772c75adf1f1e4"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/class-wcs-renewal-cart-stock-manager.php": {
+      "md5": "308d0dc9d542fdb99036de1b9487afdd",
+      "sha256": "c0cc4818a91c1e3c4e588507d0f39c6e09c9c7b4c66c2fc6fd5ec1b5dd296faa"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/class-wcs-select2.php": {
+      "md5": "1230edecf304e04c9ae08bdf815a61f0",
+      "sha256": "55f9d2085bd65fa49519db79ea435fd0b43b186adaff7995d301709f0ea17595"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/class-wcs-sql-transaction.php": {
+      "md5": "fb936e3874540965da03e4892e5851fc",
+      "sha256": "cfaff30efed152bb6beb7501b7404391c66caac79d0d1b80fde559d28598fd3a"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/class-wcs-staging.php": {
+      "md5": "04a490b017189c85f92cf9a621d20cdf",
+      "sha256": "90c1a6bb237a4cca22170c6c7c5f181a5d7c688ff75d6e622f8392394f76c272"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/class-wcs-template-loader.php": {
+      "md5": "ed1770419a15189a5b5d961b1329f1b2",
+      "sha256": "6322e655aaa1ff5ac0220021b56e394a4d3beb82b4eb537a40fb08e730046b5f"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/class-wcs-user-change-status-handler.php": {
+      "md5": "8f95a9dbfe859035632c4ac8cfc4f87a",
+      "sha256": "ebc78b0027bb5577e64d76112ae1b1ea55804c903a265d2934811aad92d23216"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/wcs-cart-functions.php": {
+      "md5": "0a51032ba692133b91a6d5d411f36b5f",
+      "sha256": "7be6fd363b3876eb38bfa1c008cb62e3ca53130b8bdacf66b6a7f7fe12ab6700"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/wcs-compatibility-functions.php": {
+      "md5": "d15e57cf4ff6ed328d0f0030c7856f53",
+      "sha256": "9c988fd1eb2e405acd31df9ec1ba2619e5cd70a7f7442f24c733a16aea044af1"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/wcs-conditional-functions.php": {
+      "md5": "fc48353a20a1794a49e248274bcd4639",
+      "sha256": "ac5e00d5ac5be180a07ff15fa268c101d3f5b8541c2a7c22646d0fc99f05effe"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/wcs-deprecated-functions.php": {
+      "md5": "5bc2ca312eea0e9f9cd8423e8acef0ff",
+      "sha256": "8acf05d9a5369a2042d8a55d5cb41c96ec0c2747d949f51f2736ff9eb4931a57"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/wcs-formatting-functions.php": {
+      "md5": "1284d79536473e3db23937b532fdac6b",
+      "sha256": "b4e0341a0003efc2c0a9742fcc41191d37508cc61e5a35c22277b6d9df499685"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/wcs-helper-functions.php": {
+      "md5": "5e23f53e2bf1912950b800d6e874449a",
+      "sha256": "faa45a0a380c1c6b18c3a430e99c2ff170508be9448cfc28f3d789a3736f2f8c"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/wcs-limit-functions.php": {
+      "md5": "325acba35c461dd630423a5cadf0f23b",
+      "sha256": "41330855f46c2260b46b70b3e409049bc8b906e1b9cad21f4a61b0ce51c153aa"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/wcs-order-functions.php": {
+      "md5": "0f48030fb427657dcb6417e45df7f3ac",
+      "sha256": "97df797234ca8ebed71ce7726c0db7019c927f6d71eeed1578233406451aa8ea"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/wcs-product-functions.php": {
+      "md5": "8214dcd05ea0fd52aa1aa911d3367b84",
+      "sha256": "962ec2f07d1efffb96c10bc1ad711024c4eb9adc00852daf85e338dc6e2876f1"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/wcs-renewal-functions.php": {
+      "md5": "26254bdb57630c9627b7b4a375866266",
+      "sha256": "63c300c52baea5b6d0c5cef6587aa1d73a769df8d8bc1bf329fc00ce2c4acd87"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/wcs-resubscribe-functions.php": {
+      "md5": "7d4b9f46801be3a92799e413a07e2a1f",
+      "sha256": "88d294301bd4b272215c99bc088537bec78bc4551f80343b0c3517728bbab7a2"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/wcs-switch-functions.php": {
+      "md5": "1b07ef416f8e396b995aad3339288414",
+      "sha256": "8ea9bfb36f155b1a2c0f025862746dd59d8281d0e2fccd81f8a6ba432cd8f3b0"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/wcs-time-functions.php": {
+      "md5": "a5582a19320e619cda6bf8fc884b91a6",
+      "sha256": "4fc0faf9173866eefcc3e6e2e3b930f259e2b6989dc08f26e936b11ebabd429e"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/wcs-user-functions.php": {
+      "md5": "4bd8f3011fb37996a3816a7705e21d68",
+      "sha256": "cc05e4ae026cb699b8d434758e2731f1992300cd1b178e9796dde8f545438ea9"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/abstracts/abstract-wcs-background-repairer.php": {
+      "md5": "4442141b5d07bb1c99d7a8e81a8fb247",
+      "sha256": "3da6da46a5d3e4b39f71bf3465aa884968bff11224e42703827abfb6702f730d"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/abstracts/abstract-wcs-background-updater.php": {
+      "md5": "b118cfa5a146c259507428ec0a29eedc",
+      "sha256": "8d7415adb0a9c0c260098a457c0c8c7965a980d775586071ac9da6b9e47cff0b"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/abstracts/abstract-wcs-background-upgrader.php": {
+      "md5": "2dcaae68fc6a982aeb035af460addad2",
+      "sha256": "3c443e68c8c92bfb701a7b658d82a31e2a79ed896f66eed1aa905d65cb31398a"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/abstracts/abstract-wcs-cache-manager.php": {
+      "md5": "070157a15c1d283b08a1004049c5ef24",
+      "sha256": "b468b9e5df8fb331fdcaf126a27433940f1ba5fce47bce06897b55a2733eb57e"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/abstracts/abstract-wcs-customer-store.php": {
+      "md5": "9b51e310c6d6f98b5b579e7968ea075e",
+      "sha256": "9745b1ddb1761333ba959071ca307e00f8d39a0540f2925edc169f6f99af8872"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/abstracts/abstract-wcs-debug-tool-cache-updater.php": {
+      "md5": "bd1a40b9932bbe4371d0a24687120040",
+      "sha256": "06650a83c0cadb9698015123abdbf01fd275f372889b7ff0a27e2487da31a3fb"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/abstracts/abstract-wcs-debug-tool.php": {
+      "md5": "7fd2100b0ee3dfcb0c671d8aba6cea73",
+      "sha256": "c39d4dd5b17fbbd63cc81f48270ddb92cbcd2acfb7f25e28d9233ec394a1e2f8"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/abstracts/abstract-wcs-deprecated-functions-handler.php": {
+      "md5": "f29ad1a90292a424617aadcea4f934f2",
+      "sha256": "b6db4e391ef7fd8cfbc45193e61690138a8dadf26a4e09598d75bda22e06e5b4"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/abstracts/abstract-wcs-dynamic-hook-deprecator.php": {
+      "md5": "c1bee2c30a4bebfe74e93907e0cb47ba",
+      "sha256": "1b05b92e1c755fcf62a77979d4b709977b9b6aab152a8a8765dd6814e9bbfa0f"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/abstracts/abstract-wcs-hook-deprecator.php": {
+      "md5": "9a7a37b9162b799418d45bfaf8ca0a03",
+      "sha256": "6c2e2f164fc1731fcef8cd4ea8bcab479bfe503d861afa3248f5f672ea5701bb"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/abstracts/abstract-wcs-migrator.php": {
+      "md5": "2a8dd65c507bdacbe879761e5db4b08b",
+      "sha256": "a8637ef0b32cf6d296f10cb1a8dca2f087ed15cee6ab4c29d70fd344d26601ae"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/abstracts/abstract-wcs-related-order-store.php": {
+      "md5": "5a0e674f6c5e7b82dbcda69d66ccbc96",
+      "sha256": "545e64cd80aad4f1d67560d8b21248a233dc6068d527e1e6382aa6b413a55101"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/abstracts/abstract-wcs-scheduler.php": {
+      "md5": "ea9e1db9eb5bc865b419a38c5f5243ff",
+      "sha256": "81882cf5444d8ae64b3bd290a97e1946120fbab8dd9f6ee832d0b77e7e4ef22f"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/abstracts/abstract-wcs-table-maker.php": {
+      "md5": "983f8ca5864833378c26b635150a9a68",
+      "sha256": "081e22697699bcadbeff0bfdf17b0ef25e3cb34239774df516abe071de8ff159"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/admin/class-wc-subscriptions-admin.php": {
+      "md5": "db78af397e71c6ae6dfc7d9610bd44e5",
+      "sha256": "c3ba21b7210eac7d77ecb20579fe13b857354f667d1ac6fda4734e6f96c3844a"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/admin/class-wcs-admin-empty-list-content-manager.php": {
+      "md5": "f39deb571a2634d3179276995a79be71",
+      "sha256": "12edcdf3ca7cde09035f954c35b93856eba3c3383455c89007df93992ce91f34"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/admin/class-wcs-admin-meta-boxes.php": {
+      "md5": "86651b49fb79e38b03824b2dfbf3ae1b",
+      "sha256": "443536e8432d579f8ae2e4b94dc0aa78af6f0277461ecd6531d6e8be0a2b3595"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/admin/class-wcs-admin-notice.php": {
+      "md5": "0dc5f4b3d332d177efd5e99e51b6f79a",
+      "sha256": "41ed7a7869c848a8a926019b26fedc22869cbfa38e727f3dd4acb4766ff32493"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/admin/class-wcs-admin-post-types.php": {
+      "md5": "8c765a92807b709cdeec4c584c3ffb50",
+      "sha256": "3d81c001273eb2d5598a7c10e72f5cf4bff5ad85d325e8e9db30780a222a4d64"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/admin/class-wcs-admin-product-import-export-manager.php": {
+      "md5": "1e1da86a1cb8eec0055a688157e5d533",
+      "sha256": "54cf7a6a1425d3d6bf3358bcd6c2f29aa2bb3e33fbe5cb42699eb62cc48f4c66"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/admin/class-wcs-admin-system-status.php": {
+      "md5": "1a5acdb6124ebcc0e1c63ad7f22b9010",
+      "sha256": "90b69b415345795c3f1415c012988ce60747c6588b81e869d6a298fbcb5e9871"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/admin/class-wcs-wc-admin-manager.php": {
+      "md5": "7ae5a832cc442fd6feeb1895904f741d",
+      "sha256": "81f144028aee526a6f0dde75f6ecc52399042e2f1367759b178c1dc13e8d9e23"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/admin/wcs-admin-functions.php": {
+      "md5": "98e8e823e759bc091669559715b0b13b",
+      "sha256": "ad30b81d87f33df27aaed70b35482837caf84c2cd89f5d7556122fd1a35f8938"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/admin/debug-tools/class-wcs-debug-tool-cache-background-updater.php": {
+      "md5": "a4efed22bb6d58c131349c2faa898f20",
+      "sha256": "ec87f61db198fadce62dabdd2925e5408f4b9884c8f8951fab0ad2291c094462"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/admin/debug-tools/class-wcs-debug-tool-cache-eraser.php": {
+      "md5": "11b16c76f5e624d4f3cffb90054c58a0",
+      "sha256": "d9a5f973741f495533d4a1f1be32523d934c89286c3338e384cd7fa1a9643d96"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/admin/debug-tools/class-wcs-debug-tool-cache-generator.php": {
+      "md5": "0d5b6f62be6d1919be75dacb7e14c512",
+      "sha256": "41689e4cf5cbd9637378ad2d7221c2459f5e3f384330b472f92b85774651b45d"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/admin/debug-tools/class-wcs-debug-tool-factory.php": {
+      "md5": "be3eb0f5b553abaabbc02de20a8ee196",
+      "sha256": "d1775b7e1d202835d7f975843cde16739baf064acb135f42c98fcd1d5cbc6b77"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/admin/debug-tools/class-wcs-notifications-debug-tool-processor.php": {
+      "md5": "ba037f066acb442d77efc3f8fb5476fc",
+      "sha256": "3c4af3d206210faf760f7689e1db4190f8f741f4e10ddf9118f96b00a212f326"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/admin/meta-boxes/class-wcs-meta-box-related-orders.php": {
+      "md5": "e128baf4200c866054d50cf4d84b1462",
+      "sha256": "58933e5c0398bdce8efb351230a65e52c21a8433d40ebae2629a83ce28eb3d1f"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/admin/meta-boxes/class-wcs-meta-box-schedule.php": {
+      "md5": "7ca8025db46dc2e7e0ca62cc04efce09",
+      "sha256": "01cbf5c1ae095bd9b78d6dd210b2b29b803e5a0f1455958756fc4e0f4a2103de"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/admin/meta-boxes/class-wcs-meta-box-subscription-data.php": {
+      "md5": "ba03045f405dda42d3124b2ac6ddfd5a",
+      "sha256": "65924270eed574759789275731351fb9f2977a2c805a3080ae20e865057f0720"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/admin/meta-boxes/views/html-related-orders-row.php": {
+      "md5": "984bb98680d8cf4d859d5500967f0195",
+      "sha256": "9f3de3cb12aa326b0d274505f08eaa842d6380674d9193c59140555fcc52c746"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/admin/meta-boxes/views/html-related-orders-table.php": {
+      "md5": "8f2086e40e4b361d70520c318fa9ccb1",
+      "sha256": "8026a3e624751ac5bb6050b336363f2cf4aac6f4ab3ff52556c8298f41606e36"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/admin/meta-boxes/views/html-subscription-schedule.php": {
+      "md5": "0c0a7d68473c998b3fc16cbe24037689",
+      "sha256": "f95beff912f2dfcd280813a35e5551f6f141714c1e2ebf8e2e905378f23a9e59"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/admin/meta-boxes/views/html-unknown-related-orders-row.php": {
+      "md5": "1c977475b677da9e56543e9206cdde5d",
+      "sha256": "37c91095f569e486e92409b490b75b3690f92f9d413fc69810615f515cbb808b"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/data-stores/class-wcs-customer-store-cached-cpt.php": {
+      "md5": "5fc6165d034905ed8b18a9f7ebd8b744",
+      "sha256": "2f00b3acfb40ed77e0a79da39e605bc5fd1782d0e82056428e0f5b7f51fda468"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/data-stores/class-wcs-customer-store-cpt.php": {
+      "md5": "4bea47aef2a3758dbfc2658d8e349306",
+      "sha256": "b4e8185c87f124c91aea213d7db097dba3aae95195e13d9ad9e080c570b17376"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/data-stores/class-wcs-orders-table-data-store-controller.php": {
+      "md5": "5d3ab7fa47a6aeee45449cd5dd19764e",
+      "sha256": "05ce0cf2e0c59b6503c9709e561553d0944cdaae7c73a8ec62e03674f3f31dcc"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/data-stores/class-wcs-orders-table-subscription-data-store.php": {
+      "md5": "ab38d57a26efbf45a57fc638d3e40e69",
+      "sha256": "c095be153c031f8fc542996f7f5fdc75864a3a3d38da607c203b86d5587f903f"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/data-stores/class-wcs-product-variable-data-store-cpt.php": {
+      "md5": "bf65552390ac6580d96f31ddb00bd43b",
+      "sha256": "71e21d100c542852fa6da900cfe6f6447091edb37012fb52da135fac17abb947"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/data-stores/class-wcs-related-order-store-cached-cpt.php": {
+      "md5": "68d2687686e14005fb0fa30eb7276e41",
+      "sha256": "e3486d7abf64d6b1976bce6b2904c7f7f3271a4096d37a530c98581834e24e5e"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/data-stores/class-wcs-related-order-store-cpt.php": {
+      "md5": "ea3bf9d54b0b0475f696629f2865b4ac",
+      "sha256": "b429e8efd6dea65913406cbc863338939fa11e399ca41e6e6948b61e61852826"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/data-stores/class-wcs-subscription-data-store-cpt.php": {
+      "md5": "e66603983306e184e641cc23574a7bfc",
+      "sha256": "66c466ac13f55eff56080339d5604e4e68bfb4f5252a75afd81180b80ed31161"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/deprecated/class-wcs-action-deprecator.php": {
+      "md5": "c8296107d4a0cdfb33ec715aedb75398",
+      "sha256": "fa28c8c68bbc00a4cefd536c589e12b2571782b2fe8d8cddc477b2fa91cc7a33"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/deprecated/class-wcs-deprecated-filter-hooks.php": {
+      "md5": "c6b0bc1a04e95c80c8e9188d6bd46328",
+      "sha256": "6aae512e17921db68bfc24cc4cbcd1bcf82635fc2f2d1732273b8ee21f41ca16"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/deprecated/class-wcs-dynamic-action-deprecator.php": {
+      "md5": "11213ebaa5ca30bda490fcdfc6d92c3a",
+      "sha256": "dcfe3ce149f092666e7d3e1cda07b3f5f208d651c8062a8f73b258000d73659f"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/deprecated/class-wcs-dynamic-filter-deprecator.php": {
+      "md5": "10ba6e99accdde2ece242087d4e537ec",
+      "sha256": "7d194bd747d94edc9bcdef8c5e0ccb5e58855445f0b9805e6e04c09fbf663f8d"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/deprecated/class-wcs-filter-deprecator.php": {
+      "md5": "0c8a7ed919129754595b6a010ba0efbd",
+      "sha256": "bf4ec8747e31ec11a3d6224a1a81d72c0f2dcba7257f2b73db2f918a82889d53"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/deprecated/deprecation-handlers/class-wc-subscriptions-deprecation-handler.php": {
+      "md5": "28dc4dab9f76e749cc506ddcd0adcace",
+      "sha256": "dfa78bdb65e0cd5189a2a9e9facc752b3415c0b1b3221fe686b70151222ec54b"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/emails/class-wc-subscriptions-email-preview.php": {
+      "md5": "ed25c16e6729d51d55012014957ad496",
+      "sha256": "4cdd4e3ffb0b1af56cce7704732e52f8d62016be52dce382bc0b50202e8dcf94"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/emails/class-wcs-email-cancelled-subscription.php": {
+      "md5": "4af756c8983fb8b3350f75f222613de4",
+      "sha256": "86900d15c250a048100c5d7f502e33342387aa1497cbaf2035ff0b20e7db5c31"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/emails/class-wcs-email-completed-renewal-order.php": {
+      "md5": "ca12e7edf419be1326943eda780ba011",
+      "sha256": "9d1cd4fbddb6b301ae23423d9384e3a6428b5adf6010a28cb56da961300005f7"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/emails/class-wcs-email-completed-switch-order.php": {
+      "md5": "090c76944472f0dd0e1d509b6a9ee784",
+      "sha256": "6b74baa81089cb40b3e5bce07c0cab798730e3015b8fb873b56034aa28ec8285"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/emails/class-wcs-email-customer-notification-auto-renewal.php": {
+      "md5": "b7c4201ef3345d0f29221fab61d46221",
+      "sha256": "009b8cb4ef75d56ea4d5e5b2d1e3ae7485debe15aac3251039d2cb4a910c5deb"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/emails/class-wcs-email-customer-notification-auto-trial-expiration.php": {
+      "md5": "9640fba589c26bbd0da89e5deafaac6e",
+      "sha256": "c316df20a53bb5fc574fc5c4ad9859253eea40c008d8867347f171ca4dc7851a"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/emails/class-wcs-email-customer-notification-manual-renewal.php": {
+      "md5": "3d52e546f898d567063c26bc577770c1",
+      "sha256": "a6002e3b7be281f558558e8ca97b7ee1ac223ed959e2ffb6350ba9f4e973d189"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/emails/class-wcs-email-customer-notification-manual-trial-expiration.php": {
+      "md5": "cb6eb6fb6c9d6fbe8d706b76a2a2fb9d",
+      "sha256": "71c14699a0cdae7f230ccc492e03750c3013f8657ba75af2f40e4d3ad80812d6"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/emails/class-wcs-email-customer-notification-subscription-expiration.php": {
+      "md5": "1597c78f46059bc5ca6f766bd0c3b7da",
+      "sha256": "c459dc4652236205b00cca771f8a13144e41fa8add8e53d3fee53977ee79c21d"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/emails/class-wcs-email-customer-notification.php": {
+      "md5": "f6b26b8690244d477f15c5d9892ec94c",
+      "sha256": "b0f3de54e681e7d897d85f140d1f2a80522f9f374a580484c510e89fd61d569d"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/emails/class-wcs-email-customer-on-hold-renewal-order.php": {
+      "md5": "5f6214495efd8758e44b9c3ba4ba9549",
+      "sha256": "4240d6b84156e5fdd38cbe1e46aa460b3edb47600f0dec608a2a4ad3bf4a7b8f"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/emails/class-wcs-email-customer-renewal-invoice.php": {
+      "md5": "a2d03cf6269f6b6742a2919332808a62",
+      "sha256": "45a7a65fd1dbf82bff68da4ce1e643d4e4d9c5505e23fe4026be81bc1f8e58a6"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/emails/class-wcs-email-expired-subscription.php": {
+      "md5": "db41f10b165e423b2e8b1508b9ee4930",
+      "sha256": "454870fa22ad9143fee9c5f2b0ac30aae5ccc0398fed6437def403bc395da8c4"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/emails/class-wcs-email-new-renewal-order.php": {
+      "md5": "867cb849e918ff602ce420858f470337",
+      "sha256": "06fa01c7ce09d91d26f6f16a56e9e35009a4ee42858fde38e02b00d78836dd5f"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/emails/class-wcs-email-new-switch-order.php": {
+      "md5": "f5d290bf3c2cb6d900485499624058c1",
+      "sha256": "ddf94905c467caf7b2d8f01f57be298c8af0836ea465faa301c345c7584e4f00"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/emails/class-wcs-email-on-hold-subscription.php": {
+      "md5": "0a8cea0c1c8de3e49c684e901f03fcb3",
+      "sha256": "b215d5eb34998fb5d28deedf3f79290e77572ab99274c427103533c7039ec3bb"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/emails/class-wcs-email-processing-renewal-order.php": {
+      "md5": "6d9b11b1160bb998f0cae018967d43a2",
+      "sha256": "a307a27a052961563d7db2413a5302ada3e92af1d3ab380ff1118c8bb7b8812a"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/gateways/class-wc-subscriptions-core-payment-gateways.php": {
+      "md5": "6cbc8d6ab9bcb29c0553d92840c27592",
+      "sha256": "92ba8d84d68fd3c7a8e1a6baed730322baa2d311e4b59f6e6f7546468daf0ad7"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/gateways/class-wc-subscriptions-gateway-restrictions-manager.php": {
+      "md5": "9c6842a2a078b0eabfcdc85089054b49",
+      "sha256": "537fb05a3edec22ed7930582dd367bb9c2e93cc9186116cc4ddc318fd72b0104"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/gateways/paypal/class-wcs-paypal.php": {
+      "md5": "fc30974d45014d6361d92b6f9b216bff",
+      "sha256": "9868ebd9ddb0bd853edfbe4dff4c5a33dcc40f925abbd1a5a2ed7a920b89bcea"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/gateways/paypal/includes/class-wcs-paypal-reference-transaction-api-request.php": {
+      "md5": "054340406f09231d7518bca94da456d7",
+      "sha256": "9918be1e61cf87476f233233e0a7b2833c06c43541bb92f4ad634ec3f2efa80f"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/gateways/paypal/includes/class-wcs-paypal-reference-transaction-api-response-billing-agreement.php": {
+      "md5": "89515d61c5103e0a3ed5cfdb04789554",
+      "sha256": "5819d342e5398d3bdcc062cd401e0096df9119538b23890564bd099af3a7c832"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/gateways/paypal/includes/class-wcs-paypal-reference-transaction-api-response-checkout.php": {
+      "md5": "2b151fedce7a0a77320cafe6f2bce6a3",
+      "sha256": "afc637d37d416635bf4e7b5a0bdc21ea080022acb022366fcdada643d17b72b2"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/gateways/paypal/includes/class-wcs-paypal-reference-transaction-api-response-payment.php": {
+      "md5": "a067f598d8b1b7a1eb4dc8195e846fe4",
+      "sha256": "c74931f1603358cef317b2bc930f9d6fe92639b5f8116a083d85363d9cf57617"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/gateways/paypal/includes/class-wcs-paypal-reference-transaction-api-response-recurring-payment.php": {
+      "md5": "7f6d9a84245a103a4376e288ffce1c9a",
+      "sha256": "c53c5f4f2a3bd618018c493a4b13d0acbfec91ebe26f1c3dd31d03348c8a5633"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/gateways/paypal/includes/class-wcs-paypal-reference-transaction-api-response.php": {
+      "md5": "e11ed5a7f55fce5200d68571348664b8",
+      "sha256": "6d42442bd87e16d9f8ecc0e3ca3dae0b363953b4c5674ba0b3f6fce6c913fd45"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/gateways/paypal/includes/class-wcs-paypal-reference-transaction-api.php": {
+      "md5": "994dfc8d7abcf9b48c02c43cae10d763",
+      "sha256": "613f28fa5d1642401833fc30bf5bf9cfb3e5a032454902c0d56b0c174625ddbb"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/gateways/paypal/includes/class-wcs-paypal-reference-transaction-ipn-handler.php": {
+      "md5": "afb0efc85df728919620ddfcf4c3713a",
+      "sha256": "76f6ca2b172317889c9743459befb4286e2ce858f1651f190623bff3f9fdd512"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/gateways/paypal/includes/class-wcs-paypal-standard-change-payment-method.php": {
+      "md5": "70115d23fb9b4dba6132b471c2e5d9d1",
+      "sha256": "97760c3e3fb7d2bc990ce383479692eecc93839d37b2cee4d46aa01d5bc3a079"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/gateways/paypal/includes/class-wcs-paypal-standard-ipn-failure-handler.php": {
+      "md5": "67c5444e57ef20cc529a0291c07c1f98",
+      "sha256": "4b0e7befdfd16d3fd3754fceb64f5980b47161ccbd15bb809ea78614d372e6b9"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/gateways/paypal/includes/class-wcs-paypal-standard-ipn-handler.php": {
+      "md5": "54a899a1e548fc1de0b7379da86bb64c",
+      "sha256": "25cdc64702ba10c2b14d61dee42fa47927467f82b83b3032ed9c15f796f466d0"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/gateways/paypal/includes/class-wcs-paypal-standard-request.php": {
+      "md5": "21a58372a114bf32b7aa1eb178b8d489",
+      "sha256": "ccb0b852fca6dc05e8aa507a7759a88c7414966b4e300682262335375509a0a6"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/gateways/paypal/includes/class-wcs-paypal-standard-switcher.php": {
+      "md5": "b08ef8e7610573f7ecef559ffb931c3d",
+      "sha256": "1a61e798a43034f3a1e2307a7f3039c6ae439c65183bb1f5dc1e25a5ae6112e6"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/gateways/paypal/includes/class-wcs-paypal-status-manager.php": {
+      "md5": "49d1c9d382240c44f6905c54c986848b",
+      "sha256": "6c6551424a78281b9489d9e2a002a8fd0fed9d6fea7e3bb1e08f88872861a0bb"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/gateways/paypal/includes/class-wcs-paypal-supports.php": {
+      "md5": "313ba3b2d7c37dc34f75dc22bea5ba9f",
+      "sha256": "c97e6f850e9e065c945916b8487ca4e752316f67ee31759ac0b0c8e54a844d1e"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/gateways/paypal/includes/wcs-paypal-functions.php": {
+      "md5": "0494371e1cad27a421ca48fd3ff18a81",
+      "sha256": "fa69a49d8272e2cfb3f365df420ed97b9910d57df5e6dba92439bb142086b6e7"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/gateways/paypal/includes/abstracts/abstract-wcs-sv-api-base.php": {
+      "md5": "428811aa62234d5987e83fb5c518acd6",
+      "sha256": "a35b155ac703e54455d0054718f0a28704bc757c27aa88a87f4b3f639752be30"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/gateways/paypal/includes/admin/class-wcs-paypal-admin.php": {
+      "md5": "2d87e04b0fae2c65c2246ba7821a9448",
+      "sha256": "3cb54a5e91b426b8356df525437c0fed40a13f9b0ab17ff3160887441cc74062"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/gateways/paypal/includes/admin/class-wcs-paypal-change-payment-method-admin.php": {
+      "md5": "2567849a8f8887a6fc6f128ac386ad88",
+      "sha256": "646c1d16509a950c284474b45297f4f7bab0ddfb36ddc4c7fddc41b35961a753"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/gateways/paypal/includes/deprecated/class-wc-paypal-standard-subscriptions.php": {
+      "md5": "0cea31903ea33702ee596f28a4b7a24d",
+      "sha256": "f2ed5711e9828e845a028ed2d5c1041bf9f09bcc20fd3c5fce03ca0aee0c0a94"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/gateways/paypal/includes/templates/admin-notices.php": {
+      "md5": "aab7bd4476272507a771b37287fcd7ae",
+      "sha256": "51fe6e3968b5bad6bb3d1d903dc0a30d40f60b745e3b7efb2fafe1acd218fa76"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/gateways/paypal/includes/templates/html-ipn-failure-notice.php": {
+      "md5": "92b72b279abfa0a614a75f99aeacbc42",
+      "sha256": "7d3d43d79a618e76a5ae370f1a39c4b431d00d6a62d26b58621c48ccd309e0f9"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/interfaces/interface-wcs-batch-processor.php": {
+      "md5": "bdd9a0fc8ccda723c5c088779e6d1d14",
+      "sha256": "3e8d3203588ff0d1810fd0b822e4882e8e433a71795a239eb3cf813808c55fe3"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/interfaces/interface-wcs-cache-updater.php": {
+      "md5": "0b8db74ac69731706ce18042e07d0a16",
+      "sha256": "70751c6fc03d62b4db329d9326af906e7a14b9b0a868059fd6a259a8191d1e15"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/legacy/class-wc-product-subscription-legacy.php": {
+      "md5": "f1595cc97aab70bb391989d287abbc3d",
+      "sha256": "1b616fb272f8f8d7591df4737f3b12584db3b9c29e2ca9ef5485170c5d5ea253"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/legacy/class-wc-product-subscription-variation-legacy.php": {
+      "md5": "e0632314e1c55d9a3837138bdb21647f",
+      "sha256": "a3b3969930d783b8f2e4535e1a3f1156de302f975aa18973e007aec6807dc760"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/legacy/class-wc-product-variable-subscription-legacy.php": {
+      "md5": "071c7d9ba13786cc9330b53422120419",
+      "sha256": "c238d2acc845e1bfcb03c221d1df18883f6908bb620b0a1acdcc6b8c23d49799"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/legacy/class-wc-subscription-legacy.php": {
+      "md5": "eb08a1b36e0c97b5f198e6ac86f2abf2",
+      "sha256": "3901e4d8ec43ccfc9e8a4e38b328375d4b222467ed0f855f037e5db9617d2ec4"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/legacy/class-wcs-array-property-post-meta-black-magic.php": {
+      "md5": "47f52734a2fc6a14787accdf3c2dcfdf",
+      "sha256": "611c401a9c7018906c5bdb0969fbaf217fe0a7bd9df207779b2a028a222fa5ca"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/legacy/class-wcs-product-legacy.php": {
+      "md5": "85405be25ee2b5cedc3ec81cff42f4b8",
+      "sha256": "0b489acdb7f41ff41c4588b62f7fe0275550c0153f383159f5247118e2235b13"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/privacy/class-wcs-privacy-background-updater.php": {
+      "md5": "cd297ded96931a0c70fe75b01ae9e7e2",
+      "sha256": "3c5111b98f7f621518f6bc6d70a1edffbfe4927c17c2dd0952b2e254f368b5c4"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/privacy/class-wcs-privacy-erasers.php": {
+      "md5": "e340fb1970a311987aa708d8ffbcba61",
+      "sha256": "9ac1350aaecada1ec55006acf0804633157366862c85d162b5c2abcfd532d9cc"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/privacy/class-wcs-privacy-exporters.php": {
+      "md5": "a93d210db1c700fe80ba0928e2480097",
+      "sha256": "405da287dd1b3a94138b65cade54b84b9414e20ebf111aefc5a11c37e29dafda"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/privacy/class-wcs-privacy.php": {
+      "md5": "135bb052623f0752270035083472ee42",
+      "sha256": "1190f39774a9984418834b12e5b1e6b8642635f79c83fb03b9805bed7d81e58f"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/upgrades/class-wc-subscriptions-upgrader.php": {
+      "md5": "19bd808e9528c67992d24ca51edd307b",
+      "sha256": "01de7e30c0f9c25109b49e0bf64ce97f0e0734bce7d359ae1df07b19be1db821"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/upgrades/class-wcs-repair-2-0-2.php": {
+      "md5": "0834486bf74dfbda25624334c72ebe62",
+      "sha256": "d016d0e1ad4a1b5b4c8e361bf81a385aab1d64b2f97ee3772f95bf8d01a62a09"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/upgrades/class-wcs-repair-2-0.php": {
+      "md5": "634287fa451aeb59fa2679a74cdff80e",
+      "sha256": "c3e1716fca2eb494a3aa367d59ad63a711760243a4c6eafc2c900a1627a3c42a"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/upgrades/class-wcs-repair-line-item-has-trial-meta.php": {
+      "md5": "cfa01f54e14c9f7f8deca9369d40fbf3",
+      "sha256": "baa957ef6496402c6275a0baa6c53e4af810f47d3d92326fd0937002f995ffe5"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/upgrades/class-wcs-repair-start-date-metadata.php": {
+      "md5": "d1043dd43f9409b4b478bb5e647c6596",
+      "sha256": "0cdd08def4eeb624b4e705d9d979a3dd28f66d7001f8c62e2bb55b96ceb20674"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/upgrades/class-wcs-repair-subscription-address-indexes.php": {
+      "md5": "783982e018177cb44a42b3dfb4ff3229",
+      "sha256": "6badc62d76705a3bc4c961aef8eb1aa2d5dac1d1a60ec7f28c0fafe58e2450f6"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/upgrades/class-wcs-repair-subtracted-base-tax-line-item-meta.php": {
+      "md5": "56ae42c3e4305156a4411bcbc3d57522",
+      "sha256": "18d533d4bdca10032b5d57b4fc7e4e34a35ab239548d606b813295221b453817"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/upgrades/class-wcs-repair-suspended-paypal-subscriptions.php": {
+      "md5": "fc1208917e21aece9c77f9742bbae5c8",
+      "sha256": "fbb30c6558be40cc78a925476224c65f0e443184eec3b3e9fe0761434badc65b"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/upgrades/class-wcs-upgrade-1-2.php": {
+      "md5": "5c44e76d0ecf12a58e54799c88b6c5ba",
+      "sha256": "8c5e3a70ec8beac72ead3470880fd79404b07908176ea7f40bd2cbcf46dafba4"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/upgrades/class-wcs-upgrade-1-3.php": {
+      "md5": "dac46ac50876a6a240beda22685b5849",
+      "sha256": "3b6e9ee6a2dd56eff7a52fbd6c924b2f81e59cfe96825181ea97ae1027d24bfc"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/upgrades/class-wcs-upgrade-1-4.php": {
+      "md5": "a0f949b3efd8cdae7c6b7b74806b8b13",
+      "sha256": "02c3e171117b2ab3912f1be55f50a0d7c429c68b10ab89e05b2faffe1d1e5121"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/upgrades/class-wcs-upgrade-1-5.php": {
+      "md5": "229d42a32a8d6a624d44a2feeaec8e43",
+      "sha256": "5c845abf898153eed1b82c42cbbefe195c8e3b927fc9dc49d05478549ffa8893"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/upgrades/class-wcs-upgrade-2-0.php": {
+      "md5": "c7f56955aa439856c2d021f2c4dcd0b0",
+      "sha256": "199b2dcf588e3270207f360584182b9cea43b265545028a7e4ddd1024c97f8d8"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/upgrades/class-wcs-upgrade-2-1.php": {
+      "md5": "af8861ec8e7503553deb25616028c29c",
+      "sha256": "192b5421d26003c5b6d915f55f681b44c51c3610e98789cc2ebe47afa2b681d6"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/upgrades/class-wcs-upgrade-2-2-7.php": {
+      "md5": "d930f2ea494ab818af8dc49ee86b9a91",
+      "sha256": "0ac2204363f254af1e29ac7695ce95e15e668741d6f7ca58b945daa9e45cf6de"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/upgrades/class-wcs-upgrade-2-2-9.php": {
+      "md5": "7e10d63c7a59c768a59d7f0124936426",
+      "sha256": "bae5c1dbdb02d23cc7fd73d80168cee3d8c6d2a0868e1887766690738d53956e"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/upgrades/class-wcs-upgrade-3-1-0.php": {
+      "md5": "36764c85a7f86148cabadbbcd597ec21",
+      "sha256": "226bf847c9f238c9dcf94b56f3a972febf362b56bdfd11f8e980f4b2be9fdd31"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/upgrades/class-wcs-upgrade-logger.php": {
+      "md5": "a9a46f199d0118391b353d7e49f0aef4",
+      "sha256": "dba6333eee141ca1fd76f05ac8d09626beccdc04aeeb6e49842efb211a2f7b99"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/upgrades/class-wcs-upgrade-subscription-post-author.php": {
+      "md5": "3db218ae7a821d3dab36ba502791ea17",
+      "sha256": "1c6703ba0b4cf18e518fae7515bfb31b7ca990c2ef9a97259a951032f72c7c38"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/upgrades/templates/update-welcome-notice.php": {
+      "md5": "a5d3325f8cc493af75d38f402eeeaead",
+      "sha256": "d3addfdb39219bd2d33716c22850e6cd5e214fec0ad79d3302a8a0789861741e"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/upgrades/templates/wcs-about-2-0.php": {
+      "md5": "67ce8eabcb63e9845073e6efe4e5598e",
+      "sha256": "8a7f25c09ea5d4720862f6ea4f18a7059e4c25122446ed7ee2dce2876e6a0aac"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/upgrades/templates/wcs-about.php": {
+      "md5": "f656443e6cd2e96d53fc07f0def45ae6",
+      "sha256": "228ff53183a1f3273f8b805b2096ed8ddb5b28394857b4072bb1401c8f69116a"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/upgrades/templates/wcs-upgrade-in-progress.php": {
+      "md5": "3f357bb652002e1d8f5107bb3061015e",
+      "sha256": "9493c40a732d140d9a8aef63c10d477de86de7300a885209b5797bd0e18c5adc"
+    },
+    "vendor/woocommerce/subscriptions-core/includes/upgrades/templates/wcs-upgrade.php": {
+      "md5": "a229e2540fd0f1524201a6f3a1b1f515",
+      "sha256": "d81a4766ad448e59d976ca0972ac186033e7b46f2ded194cf0e21218ce3aa307"
+    },
+    "vendor/woocommerce/subscriptions-core/languages/woocommerce-subscriptions-fr.mo": {
+      "md5": "9db2e65e42439778c0f3c1786dc092cd",
+      "sha256": "844ca3a9782f39d2237d56849f3b000e57647ce9b372a47765221e39909f9248"
+    },
+    "vendor/woocommerce/subscriptions-core/languages/woocommerce-subscriptions-fr.po": {
+      "md5": "6966e43681ca21cdc492515b63442213",
+      "sha256": "56ba71513ab314e0237e872a84e49cf79800ecd28e33d7fb9b5bcf16003b99f2"
+    },
+    "vendor/woocommerce/subscriptions-core/languages/woocommerce-subscriptions.pot": {
+      "md5": "d4052f4cdaee997f35649638b3e1efd6",
+      "sha256": "9bf5f526633a629cf9b29d649f9b77977011385861b774ea4bd6127da63ac54e"
+    },
+    "vendor/woocommerce/subscriptions-core/templates/html-modal.php": {
+      "md5": "db2f37bb712b379cdaf131a933e51e16",
+      "sha256": "5273e25dfc4d0f5b27985a084e370d891e49de5a689610d70622551bedcd33f4"
+    },
+    "vendor/woocommerce/subscriptions-core/templates/admin/html-admin-empty-list-table.php": {
+      "md5": "fe79b51c0fa5ffa19be622f2befc7c83",
+      "sha256": "5a7834de13c2b8e28452a65e4c0ce36c7136f491f72d3bbdcd164f4835167f68"
+    },
+    "vendor/woocommerce/subscriptions-core/templates/admin/html-admin-notice.php": {
+      "md5": "ba05025ff7447e4e73caee0602a47b59",
+      "sha256": "92242d3d93049d6a07891ad50a67ced07aec1c246005c17b63984e4663813c20"
+    },
+    "vendor/woocommerce/subscriptions-core/templates/admin/html-failed-scheduled-action-notice.php": {
+      "md5": "17130722c2fc0ef66cdf38147b69e134",
+      "sha256": "8028780037d5e90a7bc68c55918bc158b63aa40fdb788e0c296819f2d8e7457b"
+    },
+    "vendor/woocommerce/subscriptions-core/templates/admin/html-variation-price.php": {
+      "md5": "37d86993ae68a53615f288f2217d7232",
+      "sha256": "d6e398ca7222b844e751297889c82f8eb1e5c080581c044c0768a19a7648eeef"
+    },
+    "vendor/woocommerce/subscriptions-core/templates/admin/html-variation-synchronisation.php": {
+      "md5": "ccba94ce00490c886da446d439411934",
+      "sha256": "6845cea8f9f1f1136008720373b9a8798f49d7c39e7479e258abdfcf65ff7fef"
+    },
+    "vendor/woocommerce/subscriptions-core/templates/admin/status.php": {
+      "md5": "e71f6d48b5cbb50278ba7a309eff96bd",
+      "sha256": "789fcf5bddfa7ac15cab16d68803f2ba58b282ad6572d7a494b5f16da3f6edb9"
+    },
+    "vendor/woocommerce/subscriptions-core/templates/admin/deprecated/html-variation-price.php": {
+      "md5": "d4541c7dae0fdf6977908dd2c32c1ab0",
+      "sha256": "dce17e1a5476763eb2255e33bda01d58543045453cbc9338d045d4b46321c45a"
+    },
+    "vendor/woocommerce/subscriptions-core/templates/admin/deprecated/html-variation-synchronisation.php": {
+      "md5": "6fdd335a7d11a7e14e7d4560f7a22e58",
+      "sha256": "b9fc56cfb0d2f6da92112c8f9a7c94a59d5379eeb72c5b43451736cf22478f03"
+    },
+    "vendor/woocommerce/subscriptions-core/templates/admin/deprecated/order-shipping-html.php": {
+      "md5": "7c8c0d360311dc13a46e807ce69c1d89",
+      "sha256": "da27bd28a02c26b1213ba0e4978c8ac286c0fdb067200c4cb690a72883c846c1"
+    },
+    "vendor/woocommerce/subscriptions-core/templates/admin/deprecated/order-tax-html.php": {
+      "md5": "805a0dc41b09ce3dcecb816922e23d2f",
+      "sha256": "b11c17324c47deed8c98dda5c8ef47ce28b5850d8d693cbe4aa4ece0fbfcb2cc"
+    },
+    "vendor/woocommerce/subscriptions-core/templates/cart/cart-recurring-shipping.php": {
+      "md5": "53a4499d282aed59ab942120bf709c8d",
+      "sha256": "bda4d989732512e162a9d61735e37e1742eefb853e93c9f8ce55344049476b0c"
+    },
+    "vendor/woocommerce/subscriptions-core/templates/checkout/form-change-payment-method.php": {
+      "md5": "5b14d468565b04a9b527bae67ba7492b",
+      "sha256": "6976616e32e15705b02083d45576f6002f7c3a2fe0b0b9909a8adfcf9538b1db"
+    },
+    "vendor/woocommerce/subscriptions-core/templates/checkout/recurring-coupon-totals.php": {
+      "md5": "be8c3a35a9ac006a8259312446d9509e",
+      "sha256": "252b4b211561ae393f9e2e8797668167dfdf3b22590f5d27f6e6458c476f8c44"
+    },
+    "vendor/woocommerce/subscriptions-core/templates/checkout/recurring-fee-totals.php": {
+      "md5": "8ea95e7164d5df5831e6784439a524bc",
+      "sha256": "16bc9a577da600e93e7d25c3ab3c2dedfe8060ddbad3ab31bbe83593c89162ca"
+    },
+    "vendor/woocommerce/subscriptions-core/templates/checkout/recurring-itemized-tax-totals.php": {
+      "md5": "a11acac367e36b6b30b48cef045c489c",
+      "sha256": "911bd09f107d5fb9660b1849d633e216e1c31e165a3bc137dfc6ec0aebead877"
+    },
+    "vendor/woocommerce/subscriptions-core/templates/checkout/recurring-subscription-totals.php": {
+      "md5": "1259bb98cdb23da50bc8f243be36f733",
+      "sha256": "bab8502c6ffb81ac9f0e391abbba42a0487c7dc67b35d6eb828162f3b6077277"
+    },
+    "vendor/woocommerce/subscriptions-core/templates/checkout/recurring-subtotals.php": {
+      "md5": "ab737439cb68d3426d66ca66dced55a1",
+      "sha256": "1f82744e45f6eeb3dcd345ca70581c7dc361efd93151901619bc7622bfa69d54"
+    },
+    "vendor/woocommerce/subscriptions-core/templates/checkout/recurring-tax-totals.php": {
+      "md5": "8dd8bb788e781fc120e1866dff4c1857",
+      "sha256": "3153d3debde2b94ccf898f9c6d46b02fc8c580602cafa3a1c5eabe63e05d7511"
+    },
+    "vendor/woocommerce/subscriptions-core/templates/checkout/recurring-totals.php": {
+      "md5": "3738391b4142686e1ae69bc39212ae32",
+      "sha256": "85f7f7701ce6b9a1cf65b8ce98fc5d7fabdcbd0eec41b239b57ff9691092b4e1"
+    },
+    "vendor/woocommerce/subscriptions-core/templates/checkout/subscription-receipt.php": {
+      "md5": "7ab194e736818a0ff9a88f4f5a51e5b4",
+      "sha256": "c7c2d9c1a688c38a7640e19acb04226e47aa3e8ad7e4ec31b636949fee99d909"
+    },
+    "vendor/woocommerce/subscriptions-core/templates/emails/admin-new-renewal-order.php": {
+      "md5": "48ba4196aa61c81729269b9f992424df",
+      "sha256": "55ee957954db43c7358a439680cfdbf6c70dce41dcb45cbd6bf52b0af84d874c"
+    },
+    "vendor/woocommerce/subscriptions-core/templates/emails/admin-new-switch-order.php": {
+      "md5": "03f77e38f1d44c406063b6a80b883354",
+      "sha256": "3567149b0fc10f8ffbf2749531bc1ec85f7d551ec46274e09b448a0447a8d5b5"
+    },
+    "vendor/woocommerce/subscriptions-core/templates/emails/admin-payment-retry.php": {
+      "md5": "be17dbc473a0c52dd89e556c9ca6c222",
+      "sha256": "bf834ee56e24739937bc95d011876a3f23c7ef78207a5995f80310477d7263f3"
+    },
+    "vendor/woocommerce/subscriptions-core/templates/emails/cancelled-subscription.php": {
+      "md5": "61992bab004f1fc6ca66617f66520250",
+      "sha256": "e8ba4512b43a635b29f7fd0eec774e46d540d8bb79a63c9fa6481f7e8b7f2696"
+    },
+    "vendor/woocommerce/subscriptions-core/templates/emails/customer-completed-renewal-order.php": {
+      "md5": "4839aec1fb5f87c701d91f47d379ba9d",
+      "sha256": "bfb894624b3eb2c016acb29d0c26a8e304368401cfda30353d1e8c752b14b40a"
+    },
+    "vendor/woocommerce/subscriptions-core/templates/emails/customer-completed-switch-order.php": {
+      "md5": "c12f0d3086986bed5ccb82dbe5a8f343",
+      "sha256": "36af46475062604d96453580147c25995c722b6c72c4940b66d8028632307e65"
+    },
+    "vendor/woocommerce/subscriptions-core/templates/emails/customer-notification-auto-renewal.php": {
+      "md5": "2d7cb4889ca704464a11b57055c6132b",
+      "sha256": "715809ed0c2deb0136a9529f106408533d8ba67e49225b1fc00b07a2eca774b6"
+    },
+    "vendor/woocommerce/subscriptions-core/templates/emails/customer-notification-auto-trial-ending.php": {
+      "md5": "c9dc0d80921e45ace94d891dcc1716bc",
+      "sha256": "1dc975c054659bdf6b3f7611266d05bf79c1d0eb6b5086d729492a93eb142bea"
+    },
+    "vendor/woocommerce/subscriptions-core/templates/emails/customer-notification-expiring-subscription.php": {
+      "md5": "aa0d9a8fa383d74336e99081ef22cefd",
+      "sha256": "a45188f9cc6a5206ae8bb040e93620150a47a06655a9719bd7c752b9f007221c"
+    },
+    "vendor/woocommerce/subscriptions-core/templates/emails/customer-notification-manual-renewal.php": {
+      "md5": "35fac4dc444515599c369537d6872a63",
+      "sha256": "ffdc9c9961b1323d39c5b47b0dfe2514015d4eae7199cba4377e908f9dd5165d"
+    },
+    "vendor/woocommerce/subscriptions-core/templates/emails/customer-notification-manual-trial-ending.php": {
+      "md5": "f027c40b7e0af07212210b2e607b3963",
+      "sha256": "f9c9a08e789784977399b1c3089b404ee3150c87d40b1b081d7aeb122fb80e09"
+    },
+    "vendor/woocommerce/subscriptions-core/templates/emails/customer-on-hold-renewal-order.php": {
+      "md5": "f4bc9d72d2476cf5e28853226aabbe62",
+      "sha256": "f993e5fb004401099d7a8f06f18c3393062921bd1b40dc27338e729b4ae2fcc6"
+    },
+    "vendor/woocommerce/subscriptions-core/templates/emails/customer-payment-retry.php": {
+      "md5": "c2fa9711711c46530c4d61e51aed9895",
+      "sha256": "a2fd51fbfb59bf7b19e354d983bd5fffcf634f00e8acebc6652b4076f27e2392"
+    },
+    "vendor/woocommerce/subscriptions-core/templates/emails/customer-processing-renewal-order.php": {
+      "md5": "eb6fdd236e5e42622305e6d5b83b2aa5",
+      "sha256": "e70db46e0e049c6f14b8ee98aca5e7b1eeee2e9c3aadcc0d61c078504d2e615d"
+    },
+    "vendor/woocommerce/subscriptions-core/templates/emails/customer-renewal-invoice.php": {
+      "md5": "cfe9de93af536b4c46d6597ebebf6faf",
+      "sha256": "2e695919efc73457ab53479d7c546161b991ab7c52fd0edc8cc41aa9c9187db3"
+    },
+    "vendor/woocommerce/subscriptions-core/templates/emails/email-order-details.php": {
+      "md5": "a75a87b6ee36d29b61dedbac457f0112",
+      "sha256": "29570a62b434caf57951c5b4293cea313aec3e88a9a0653efc8f1eeda74eae39"
+    },
+    "vendor/woocommerce/subscriptions-core/templates/emails/expired-subscription.php": {
+      "md5": "5e65f95f20f1037aeb69b2beb70c08de",
+      "sha256": "5a414dbab66c808a9ea0638ae63ad39bd1ad44c0e317c1b32044bd16597c357e"
+    },
+    "vendor/woocommerce/subscriptions-core/templates/emails/on-hold-subscription.php": {
+      "md5": "ac1926a51229029184357df0d5696c57",
+      "sha256": "404d8c28924066ffe9529d01ec86e94c966d218bb1156ee67f1ed61e823ca485"
+    },
+    "vendor/woocommerce/subscriptions-core/templates/emails/subscription-info.php": {
+      "md5": "3e0974170f6e82599c62ab78b5817215",
+      "sha256": "cf01db0740f5fa65a107c19d4badb7df268d12242a9aa59d54c7b16efeb5b36b"
+    },
+    "vendor/woocommerce/subscriptions-core/templates/emails/plain/admin-new-renewal-order.php": {
+      "md5": "a641892c78aa8b112cf505f74c609885",
+      "sha256": "3e28d3b775db549e38fb05aa3b21c18577c52d4ed75adef15ed09ea3fd6b8577"
+    },
+    "vendor/woocommerce/subscriptions-core/templates/emails/plain/admin-new-switch-order.php": {
+      "md5": "657a0a92cc653a794be3380b542582f6",
+      "sha256": "594a75e96c8a3256c76b172a4445efd009bcf0b7463840297b3acec797902346"
+    },
+    "vendor/woocommerce/subscriptions-core/templates/emails/plain/admin-payment-retry.php": {
+      "md5": "d31c1493be426cbfd81f04b88ed470bb",
+      "sha256": "591c19261614c564079e161aca10f37c53d0259491d3e3010799364ab9a5c2ff"
+    },
+    "vendor/woocommerce/subscriptions-core/templates/emails/plain/cancelled-subscription.php": {
+      "md5": "01d3cebc509762ecfda52fd9a86119f8",
+      "sha256": "32b416781528ca1d6d11c37e568dcc6d3ae362ecac74083ad737542715bf7446"
+    },
+    "vendor/woocommerce/subscriptions-core/templates/emails/plain/customer-completed-renewal-order.php": {
+      "md5": "77737b387466dd2cfeae3231899adee2",
+      "sha256": "3aaa70ae1fe4cfb587cfcc503fdf9ed84e24d888f08b66c5e857b12e38d61e68"
+    },
+    "vendor/woocommerce/subscriptions-core/templates/emails/plain/customer-completed-switch-order.php": {
+      "md5": "eb5f348d6687b596775913b66ef83071",
+      "sha256": "4f72c3b9b49f552a73a659e035ce9619ad5327df5c716599e6c71390b8db500a"
+    },
+    "vendor/woocommerce/subscriptions-core/templates/emails/plain/customer-notification-auto-renewal.php": {
+      "md5": "7c5d3e35c7096230fd4dc873f1b2818f",
+      "sha256": "488ce4522f3ad2d96c21894773bee4a1752166b08e7c1ee4e03ca4237768b682"
+    },
+    "vendor/woocommerce/subscriptions-core/templates/emails/plain/customer-notification-auto-trial-ending.php": {
+      "md5": "872fe7b35e399f55161ef0454fd1aeb7",
+      "sha256": "b86c688dafac8e1f650328d96e9825edb59d69b671ddf7ee5241a586e1da651a"
+    },
+    "vendor/woocommerce/subscriptions-core/templates/emails/plain/customer-notification-expiring-subscription.php": {
+      "md5": "13c8bfc9611d49ebe66e7b149fdd45d7",
+      "sha256": "a802b3556683256c22fdc40f170d32eddba6f1e1450a87a91aa4e7257245d52e"
+    },
+    "vendor/woocommerce/subscriptions-core/templates/emails/plain/customer-notification-manual-renewal.php": {
+      "md5": "c5ebba83c6b778fe5055c3df125b24fe",
+      "sha256": "78af1c4a45cba813731a9230c7bcb3553436ba4c2775f02ae4c1131c40f53585"
+    },
+    "vendor/woocommerce/subscriptions-core/templates/emails/plain/customer-notification-manual-trial-ending.php": {
+      "md5": "076190a52c58883d2c880330802302cf",
+      "sha256": "4b718529633a1f4ba71654a8d2921c432c60f483e3cf901bd4af1a0ecd468b53"
+    },
+    "vendor/woocommerce/subscriptions-core/templates/emails/plain/customer-on-hold-renewal-order.php": {
+      "md5": "fd6c95b854f58353839f4a5f7a77e16d",
+      "sha256": "1658772ea9621d53d3a1533a2e6ca7a10712d687a9451b574bb55b2a79d946f3"
+    },
+    "vendor/woocommerce/subscriptions-core/templates/emails/plain/customer-payment-retry.php": {
+      "md5": "2ac83af36fd4612a493f728a4613a118",
+      "sha256": "03b8d32303445f935825c39d87ec012b8bb717b9c7ff2f22e465492c6a442fae"
+    },
+    "vendor/woocommerce/subscriptions-core/templates/emails/plain/customer-processing-renewal-order.php": {
+      "md5": "b48bf5ac70b632c43d53cba1571d2ea1",
+      "sha256": "3328aef0eba081dd6db916a3263a0479eaa84637538ac2b2aee684fa681d8e7c"
+    },
+    "vendor/woocommerce/subscriptions-core/templates/emails/plain/customer-renewal-invoice.php": {
+      "md5": "b9c8977d7baf1c6bbeab6b481f47f04f",
+      "sha256": "dc2c1db7e9ab1ef360529597cd0fb7bc324a405036ac84baf87b39d909266a46"
+    },
+    "vendor/woocommerce/subscriptions-core/templates/emails/plain/email-order-details.php": {
+      "md5": "6318deec37fcd3d3251341af3c672aff",
+      "sha256": "afa4db0b108b619bd7787edacb463125aa999e315e93a74f2bc8579247bc023f"
+    },
+    "vendor/woocommerce/subscriptions-core/templates/emails/plain/expired-subscription.php": {
+      "md5": "6a55d4604d2c746170c1b56aa11942d2",
+      "sha256": "b63b4a6b89b994469d2d73a09b13694b346fec00cd8ab6dc2da99d67a2b1ded7"
+    },
+    "vendor/woocommerce/subscriptions-core/templates/emails/plain/on-hold-subscription.php": {
+      "md5": "1d98bf59972d773ebae8b16a1034755f",
+      "sha256": "5122cf3c383429d20a15b3b2f067f464ce2d91ca0aed4fc27d56bdc104b4ab88"
+    },
+    "vendor/woocommerce/subscriptions-core/templates/emails/plain/subscription-info.php": {
+      "md5": "d3d138bccd851904c70426eac260421d",
+      "sha256": "07ebb5764644933235e0bdf36284b151317490c1ccae6c5508a31c3004cef2cc"
+    },
+    "vendor/woocommerce/subscriptions-core/templates/myaccount/my-subscriptions.php": {
+      "md5": "462799c91748432f3aba03b09eff5882",
+      "sha256": "fd5a6c8e89965c399a5f8152afce4f85d427b33cc5b8cd92f2c74da071945f9c"
+    },
+    "vendor/woocommerce/subscriptions-core/templates/myaccount/related-orders.php": {
+      "md5": "fb1cb1af5a7da6f63185f35258226871",
+      "sha256": "ed4c9f50aa15845e0d0002993ccb452cc660aeb66879ac3f6877c36740fcf77a"
+    },
+    "vendor/woocommerce/subscriptions-core/templates/myaccount/related-subscriptions.php": {
+      "md5": "f8b834f4393f1385aa777c9d799cb88c",
+      "sha256": "58c23ec1ea2eff4618d49e4d03f93ca00da17c3b591b1dc61f49f575757d22ce"
+    },
+    "vendor/woocommerce/subscriptions-core/templates/myaccount/subscription-details.php": {
+      "md5": "822e3c21a0d3ae98c47d08f2ae4b4648",
+      "sha256": "c3cb49fe50cf05b6903d71e171f666662ce9c077f48e085f9ed94e243028391a"
+    },
+    "vendor/woocommerce/subscriptions-core/templates/myaccount/subscription-totals-table.php": {
+      "md5": "071ec32a756159518d0299851a3a05c8",
+      "sha256": "41f0e5a2073d747aafd5dffd1bb531ddc8244077a49835fc8b205a7393151dd8"
+    },
+    "vendor/woocommerce/subscriptions-core/templates/myaccount/subscription-totals.php": {
+      "md5": "c88293916c1af0c0a838776c3cdb77fd",
+      "sha256": "4132b86ea8cc7f36881b3524b4e18551b1a567abc4c58ea67a632d7d0577fe4a"
+    },
+    "vendor/woocommerce/subscriptions-core/templates/myaccount/subscriptions.php": {
+      "md5": "225cfe9125d00349b0c8cb9ac44271ff",
+      "sha256": "9004845ae71037aed6b02809857ae7b26ab40072d219810385dfa3f9d6b57abb"
+    },
+    "vendor/woocommerce/subscriptions-core/templates/myaccount/view-subscription.php": {
+      "md5": "01a109bf1ca8193f35992bd5edbaa044",
+      "sha256": "29e2eeb42a4c4697df9e7ccd4ba4d24cf1bc95ea6cab6d17e938fe77a537195b"
+    },
+    "vendor/woocommerce/subscriptions-core/templates/single-product/add-to-cart/subscription.php": {
+      "md5": "18de3aef988cb5d7c46ee0189fb2a9a3",
+      "sha256": "f56732a5855f195375ca6440154f245fdf7cdda697fbda66418edf7757a72bb1"
+    },
+    "vendor/woocommerce/subscriptions-core/templates/single-product/add-to-cart/variable-subscription.php": {
+      "md5": "c8500314a514a5f896102dcade4a4653",
+      "sha256": "5bc065b11ec090fa39a87fc41f54631730a3a01a7eeb8b5f5b8b6ee6580cbe6e"
+    }
+  }
+}

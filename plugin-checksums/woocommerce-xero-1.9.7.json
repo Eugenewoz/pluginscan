@@ -1,0 +1,3042 @@
+{
+  "plugin": "woocommerce-xero",
+  "version": "1.9.7",
+  "files": {
+    "changelog.txt": {
+      "md5": "bfb283f6f5a3a9d938dd749453e7c7ac",
+      "sha256": "cfec827dc055006257584966027e01c91fd10c0fe81909beabb8e4e8ea2310d9"
+    },
+    "readme.txt": {
+      "md5": "d9a6070b5810aec79d0452377632cef5",
+      "sha256": "26542a96c85671398925adcbd2702044d268b2d2b56755ed2e9cd192892023ae"
+    },
+    "woocommerce-xero.php": {
+      "md5": "8a4b1dccc71cc8b05fe068dc3b0fcef6",
+      "sha256": "ce2c5c2c379540ce120946f6baf53e63cce9e7e25392c4606499b46be54fe013"
+    },
+    "assets/xero_logo_blue.png": {
+      "md5": "754c48b8fc85e23e3a70367adfc7ed40",
+      "sha256": "1a12a01412cb418d436a4ec7eb1c84abcb0d3d2d7f2272da51fbfff4306b745f"
+    },
+    "assets/css/admin.css": {
+      "md5": "3af7349fb16c56feb8e426db2587d8d0",
+      "sha256": "80c1738201622e26fc65dc432549361ffecc5f0d47dd6bf6f653852d56b2f446"
+    },
+    "assets/css/admin.scss": {
+      "md5": "7b8dedd66cfe4a516c43627c9aa70d7e",
+      "sha256": "ffb5f4654dd95a40aab0815874838179556876c6808c28998d3e147b4f313b3c"
+    },
+    "includes/class-wc-xr-address.php": {
+      "md5": "92ff100667e91b94d60ba1a988dc63f8",
+      "sha256": "a7b7fa7ccc9cb2d0589b0c7c8090aed407ff1664f496558fc1fb09826b904ea0"
+    },
+    "includes/class-wc-xr-autoloader.php": {
+      "md5": "51e5c56e929895a464c0aa745626425f",
+      "sha256": "d053cdb8fbe06b3243098120cc8ebd01bb1a3da15f7908b0126c2b4fe057557e"
+    },
+    "includes/class-wc-xr-contact-manager.php": {
+      "md5": "e5abb11cb3aaac9125a3263b7051a4a1",
+      "sha256": "f044a8b8210b2f9629b588eb4cc0efafc86ef9028b304371e0d4b46676872d22"
+    },
+    "includes/class-wc-xr-contact.php": {
+      "md5": "ec1d45ea30d798502188d1cdeb0af8b2",
+      "sha256": "aeb525b707d97771aeb4c1d28567b5ca55ba2e6392790134dc9d0c786e617e00"
+    },
+    "includes/class-wc-xr-data-encryption.php": {
+      "md5": "958ccb1d36c1596598d91a5268615a0d",
+      "sha256": "3bd5bd6055e389c4304127f58ce1b4d91a96035d96010558a606ca0ac384edef"
+    },
+    "includes/class-wc-xr-encrypt-legacy-tokens-migration.php": {
+      "md5": "f1d9169e267730c91545ff8999cdd66c",
+      "sha256": "0042b616222259591aa4b93e8691a23b0f008d56e74dea44d749c76ad7136319"
+    },
+    "includes/class-wc-xr-invoice-manager.php": {
+      "md5": "c082e0c4488389946ff92685a7f9359c",
+      "sha256": "d5bbface117d8a029c7190fb49060ae12a2387f687f0620f889a2674fac5ef2e"
+    },
+    "includes/class-wc-xr-invoice.php": {
+      "md5": "d6c7e702cfa62252685a0172ca3371ed",
+      "sha256": "c53112de3d37b971f1e8171cc86ab7f37f7412e0d3200b1ac904993cad293bcf"
+    },
+    "includes/class-wc-xr-line-item-manager.php": {
+      "md5": "207a0f9a60b078b69d2871783daf6234",
+      "sha256": "e6bfed9d38c230cadd6c7428af0833f00eef1caa42fc1d0a9a7d44641a727da3"
+    },
+    "includes/class-wc-xr-line-item.php": {
+      "md5": "27c8b1548f5a19ea6ee260129f4ceb01",
+      "sha256": "052103aaf1f7d2e12007f860cfbd1ec0084261a9fb4b79d9e358f38067abea77"
+    },
+    "includes/class-wc-xr-logger.php": {
+      "md5": "351f0325d7b638d82437615dee28d965",
+      "sha256": "8409b7524d0d9e9db1d175fee15b56656d26cd73e3abac34b32f7c7cdf86adaa"
+    },
+    "includes/class-wc-xr-oauth20-logger.php": {
+      "md5": "9c5dee41328b058ca4af182ca90ae7ab",
+      "sha256": "b31761fde9af41519414f50c90b484942bb5b3d6562c3c0c7cb053c05934b5ad"
+    },
+    "includes/class-wc-xr-oauth20-storage.php": {
+      "md5": "2954dd0a0eeaca87b48713473dcc6916",
+      "sha256": "99e4f4fa23e7c04989870bd43d79153aea8d3115409a11b5e49ca7922c38f85b"
+    },
+    "includes/class-wc-xr-oauth20.php": {
+      "md5": "c4f6a0c5792df7854c3359d06620cc04",
+      "sha256": "b07015aefb2d290ac9295f64f41d7f771b0cf00f185affaa5211651a396fe85d"
+    },
+    "includes/class-wc-xr-order-actions.php": {
+      "md5": "fe895e748da3ba3aeba4494125b91005",
+      "sha256": "d83a931ebffa34ce145f19cd76bee74b5a57fb053fbfadebed872af541e79f60"
+    },
+    "includes/class-wc-xr-payment-manager.php": {
+      "md5": "2c5c995661de89142cc21ad5f1a84d0f",
+      "sha256": "7ee0ed5c47da13a606c5d9765b443b731c99607e3142709c2be327632b1ad969"
+    },
+    "includes/class-wc-xr-payment.php": {
+      "md5": "fc20cfc40729283f58507022a85f5c7b",
+      "sha256": "fa389f305655747ae1a8243f3bbc20b3f0f6e11377f9abe9075b51e16595be6f"
+    },
+    "includes/class-wc-xr-phone.php": {
+      "md5": "2f718318f4bdf088bebf3e4cad812be5",
+      "sha256": "9d3ecbeabd21337b64a1ede7d2d5f49b2593eaab9d2ec7f51ef0cb42791b4c2e"
+    },
+    "includes/class-wc-xr-plugin-requirement.php": {
+      "md5": "b2b335dac6fca83c62759888610d84a4",
+      "sha256": "bce009881259531dd831e0006be40abb2fe8f59df1bc96bc4afea11c828af4b1"
+    },
+    "includes/class-wc-xr-privacy.php": {
+      "md5": "b569784f1ade5c4f7b6ab193d4d6a209",
+      "sha256": "17a13360db859f137c3a32ab9d57ac8d1582a0455589083539208e198a038713"
+    },
+    "includes/class-wc-xr-settings.php": {
+      "md5": "e8bed72da58885339441223383f7f38e",
+      "sha256": "67535fc217812f8b2028d8d851f973f4634c609ee7d078e8d7143d99daf06ee9"
+    },
+    "includes/compat/woocommerce-subscriptions-compat.php": {
+      "md5": "1edcefb7e753258ae8caddba1fa1bdba",
+      "sha256": "21907b79b1dce45e7145e3307e29fb40b7cac5a85ff319e2ccbdfe5b8d8fa7cc"
+    },
+    "includes/requests/class-wc-xr-request-branding-themes.php": {
+      "md5": "efaf07f645b2cf3f53f47b774b265e25",
+      "sha256": "a2d8162c14e6fa81b72e8aac6a8b590a12120d8b549ebef4e83afd25ff356bc5"
+    },
+    "includes/requests/class-wc-xr-request-contact.php": {
+      "md5": "0484c94e5a1c995ff4cd2b3908dfae11",
+      "sha256": "0776dd81a82d781fc27825baa512a7578c9985e5a086f93b176d2eabd5226496"
+    },
+    "includes/requests/class-wc-xr-request-create-tax-rate.php": {
+      "md5": "b4f42f5e42c3c4d6cda75555cc811f83",
+      "sha256": "4240a9459837fea700882c722455d30ea79c6e6b53c14de138277fb7febf7c37"
+    },
+    "includes/requests/class-wc-xr-request-invoice.php": {
+      "md5": "3a5b9474f083674489d750e7101a8ebd",
+      "sha256": "7784e838a4b7db7d3671485caf562b4d82227447ac6cb3a27a983c77fb7e6840"
+    },
+    "includes/requests/class-wc-xr-request-organisation.php": {
+      "md5": "139f987f5940918e0207a71e233ec8b3",
+      "sha256": "64c47ba4133136290bcf1097a5df8ab9cb4490371ea5a4cbef7dcf8296883800"
+    },
+    "includes/requests/class-wc-xr-request-payment.php": {
+      "md5": "4bab6790d820a26ab655d90688a0e230",
+      "sha256": "7392ea8e098b057601d3531bd634aff52df270bb66cd6349c7992c0f4b69b431"
+    },
+    "includes/requests/class-wc-xr-request-tax-rate.php": {
+      "md5": "baa41d0bff6d433c9c2657bd4351effd",
+      "sha256": "8786f61b009817fd9373a339ee1cbfa3d079af005221a37d815f45a8aea16b5b"
+    },
+    "includes/requests/class-wc-xr-request-update-contact.php": {
+      "md5": "272a7b2b27b90b39964a3930e6c3c66b",
+      "sha256": "0fbc58fb35d9fb1d6123de87af3300f40b65cede892104b9ecda7dc8a32a69a3"
+    },
+    "includes/requests/class-wc-xr-request-void.php": {
+      "md5": "6c7b42b71ab5354cf24fd95ac224c386",
+      "sha256": "4ad8b9f9baf2d561092dbc8305fef7f7d6996c7228b7c204d966683e126b306a"
+    },
+    "includes/requests/class-wc-xr-request.php": {
+      "md5": "23bb22f852e5944ec597cc9d39e2002a",
+      "sha256": "03dc2b40bf50fab6cd3f3054417e94c49ea7fa6983b93f3d12983f9f81be0a13"
+    },
+    "languages/woocommerce-xero.pot": {
+      "md5": "c58d0d213472beac193f8d26db36b7f8",
+      "sha256": "76cbb1ef148614250ba49df08613659902d7343a2c32b4686ee6079cec50381a"
+    },
+    "lib/packages/.gitkeep": {
+      "md5": "d41d8cd98f00b204e9800998ecf8427e",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "lib/packages/autoload-classmap.php": {
+      "md5": "c2fcc59d2aaea096eeba966b34d18754",
+      "sha256": "817b38fa80f08512ab06d0819edbdb42fcf03a058b1de3f81cc222b8575c2e14"
+    },
+    "lib/packages/autoload-files.php": {
+      "md5": "1ee49e7904f644f40308bafc811351a5",
+      "sha256": "adfe833a97cbc4e9325d70b5e5dfe42c23b53b5be91556b8d0aded25864a73b2"
+    },
+    "lib/packages/autoload.php": {
+      "md5": "01088bf423f1ac521cfddf704a38b06c",
+      "sha256": "bc444fecc07d5c37cc063a21805496906811c9e3060e8c32ae542af5802c87b1"
+    },
+    "lib/packages/firebase/php-jwt/src/BeforeValidException.php": {
+      "md5": "cec033a7380c0dff9105dc50450daa50",
+      "sha256": "e7b49577fc56e1b6ed1057a3dea45be09498f1aeebd53e7040d2810748a85f27"
+    },
+    "lib/packages/firebase/php-jwt/src/CachedKeySet.php": {
+      "md5": "fb10831e404876a7d54dd52a9d028a73",
+      "sha256": "fe13a480679e9761d2ae34e153c39e4bed4c29ed83454d0b428d8ee741685b8b"
+    },
+    "lib/packages/firebase/php-jwt/src/ExpiredException.php": {
+      "md5": "0d5c92dd20b247f11952027f62ccb9a2",
+      "sha256": "fe340efac3c264db59f14d7a2f74603f398bd611073d011176320b751b876d9a"
+    },
+    "lib/packages/firebase/php-jwt/src/JWK.php": {
+      "md5": "1c751c0f6868c6c9c628af5cf9c7e84a",
+      "sha256": "23f49f2b07ba50d322d6358c599c6ce32e2e2980bb864f427c64277a37c89905"
+    },
+    "lib/packages/firebase/php-jwt/src/JWT.php": {
+      "md5": "a5141d79b92c2339b2f4b4ccee8a8569",
+      "sha256": "6cefee17d57473b8b2d820ddbb43eccf3a7b644cd8e66fc7a9d9ea88f17605de"
+    },
+    "lib/packages/firebase/php-jwt/src/JWTExceptionWithPayloadInterface.php": {
+      "md5": "0a893cff00c4e552c8b1c80c2d06e6a4",
+      "sha256": "4386d2ccfb3544d0f6f5104b2bb8557278af146d4375492e757c4e109a7423c0"
+    },
+    "lib/packages/firebase/php-jwt/src/Key.php": {
+      "md5": "5630043016136884131ea2898190209e",
+      "sha256": "4cec3fe048c17e13262698b55c0b65ff1b4d9823cb6dfe4365f4644fb465f5ea"
+    },
+    "lib/packages/firebase/php-jwt/src/SignatureInvalidException.php": {
+      "md5": "7b943daf1c1b0cbd4d7451b7cbb7f0f8",
+      "sha256": "09622f835000e126e1c1a940659c44aa216922d71d8e22903b3723522a8ab545"
+    },
+    "lib/packages/guzzlehttp/guzzle/src/BodySummarizer.php": {
+      "md5": "27e02bccc07d1f0ed52283b31a588808",
+      "sha256": "2b88f74b8da2adc86a7666648b8a28f3487d32c3692bc89305a4637b30a7a8a6"
+    },
+    "lib/packages/guzzlehttp/guzzle/src/BodySummarizerInterface.php": {
+      "md5": "334b04031215b6f3a16fb329b6822d27",
+      "sha256": "42905c01261c8bec59306153eb8c7c7c036086e4907a0d9f7b4b93b3701bede3"
+    },
+    "lib/packages/guzzlehttp/guzzle/src/Client.php": {
+      "md5": "5af836c30c4c8c9357f393724a5d7f30",
+      "sha256": "84434b9cfb5d4c5f42063115e4823ce7ab9ee9e3b361edcebda185034b384e16"
+    },
+    "lib/packages/guzzlehttp/guzzle/src/ClientInterface.php": {
+      "md5": "985160687b3cce15c5cd5e90e121093c",
+      "sha256": "f40ee9ac8e38e3eefdf5c5a67b6cffa504bfc22f0fdbbd1693df66d8f90e59e9"
+    },
+    "lib/packages/guzzlehttp/guzzle/src/ClientTrait.php": {
+      "md5": "667dcb2522e6653a1abf3959978f427e",
+      "sha256": "da8acc1a8452cc88f21c161fddca25fd15d42450219837eb37c03b2bd21f1094"
+    },
+    "lib/packages/guzzlehttp/guzzle/src/functions.php": {
+      "md5": "93b525b716fc4c1fde4028b8146c663f",
+      "sha256": "6b36aef84d67dc16943206d40df73018bc616fdc87cc46fdc144019665601fb3"
+    },
+    "lib/packages/guzzlehttp/guzzle/src/functions_include.php": {
+      "md5": "d556d0e02bf76e801888acaad520926f",
+      "sha256": "a2846f7bb9cd47569067bb95e6795301c1cba3b3f6821726acb4b75ce15e8094"
+    },
+    "lib/packages/guzzlehttp/guzzle/src/HandlerStack.php": {
+      "md5": "3226af0eb820daac8eae4ec84be3a23b",
+      "sha256": "852dc2692e23f7e11e44d31ba102927ca3b6645f815ba262857563d89091b20f"
+    },
+    "lib/packages/guzzlehttp/guzzle/src/MessageFormatter.php": {
+      "md5": "bc317b4c6319be837b5f7625adb77351",
+      "sha256": "3b082ff1f9554a256e314afeb05f5e2797ad9fbbe2d5a455161144215fac0610"
+    },
+    "lib/packages/guzzlehttp/guzzle/src/MessageFormatterInterface.php": {
+      "md5": "a8eb0c8a851f759cfd00fd7b79cccc9e",
+      "sha256": "2af9555272c8fdba81c7ce5f14b4b7efe06e8386d88881cf5918db051fdd998f"
+    },
+    "lib/packages/guzzlehttp/guzzle/src/Middleware.php": {
+      "md5": "765262de4bc51a040cce0fdbec23e97b",
+      "sha256": "5ab4647233b47e42bfe65416821f86a6f05d4ce08cca8adb88eb86b576cf6e33"
+    },
+    "lib/packages/guzzlehttp/guzzle/src/Pool.php": {
+      "md5": "6fce5dfa9f59f1f60f375913df992fad",
+      "sha256": "0f7a3c6431ca194890bcbae2db2345398e9b87d54c8350d435ef968716d1f49c"
+    },
+    "lib/packages/guzzlehttp/guzzle/src/PrepareBodyMiddleware.php": {
+      "md5": "15f7a32d11db709f051904a6265cfe58",
+      "sha256": "8b15f021c9151af427a760b1cae03dfd6a5311af2f2104f04b09cf43b4d5ddde"
+    },
+    "lib/packages/guzzlehttp/guzzle/src/RedirectMiddleware.php": {
+      "md5": "302c3f5a8b86c52e588fc201230cfcdb",
+      "sha256": "901572511a6550cc19284da9c4c9163ce791de0fcaf5883f463ddccd622f7f40"
+    },
+    "lib/packages/guzzlehttp/guzzle/src/RequestOptions.php": {
+      "md5": "07807d7157316b739a94c980cce00097",
+      "sha256": "6b21a38830a6678b25764c519d2861f7c396b2579cdb90ab92ea984c2156c8d4"
+    },
+    "lib/packages/guzzlehttp/guzzle/src/RetryMiddleware.php": {
+      "md5": "f32e3c3d7bfd678485b133be70405056",
+      "sha256": "5a43ec3dfb525c7f34420cfb801d882ec7c8e654d191f78c2c035babb826f0dd"
+    },
+    "lib/packages/guzzlehttp/guzzle/src/TransferStats.php": {
+      "md5": "3edad73b067a614fe4c9682f0b2f6079",
+      "sha256": "e88985b4afc17a08c2618531bb5886b8e0dd1b78870862bc9f412cf5591b178e"
+    },
+    "lib/packages/guzzlehttp/guzzle/src/Utils.php": {
+      "md5": "ca92d7eadd0c80c0accf511847052d9f",
+      "sha256": "b840d561fa50b2432680def9b9e48c7064196d7b97fafb3309d234fad50880be"
+    },
+    "lib/packages/guzzlehttp/guzzle/src/Cookie/CookieJar.php": {
+      "md5": "3b34c68e6c9c75f5af591edd711dcb04",
+      "sha256": "8baa9b0e426aaf2d82b7aba596247e74578e41c119642bd70c3191e89aaf8594"
+    },
+    "lib/packages/guzzlehttp/guzzle/src/Cookie/CookieJarInterface.php": {
+      "md5": "9972d947465393ef9c603d420e95f8a2",
+      "sha256": "5ccf320e305239763ed2ba6a53510d4c252b964cef2b6700b72791e54471baa3"
+    },
+    "lib/packages/guzzlehttp/guzzle/src/Cookie/FileCookieJar.php": {
+      "md5": "9f663426a973c998b44d40942f948941",
+      "sha256": "1bfcdbfb1ea18be0d628da2d1723d2ab9710f5f2f444d171aba4043fb47f843c"
+    },
+    "lib/packages/guzzlehttp/guzzle/src/Cookie/SessionCookieJar.php": {
+      "md5": "6b7fb87aeb0e9dbb69125adc13537c5a",
+      "sha256": "832cefece9dc37a917ced6e75383f1e4f97a10edb1bf584e3263ccaca01bcfee"
+    },
+    "lib/packages/guzzlehttp/guzzle/src/Cookie/SetCookie.php": {
+      "md5": "291e07ea79549a89b270ae83a9feda71",
+      "sha256": "638ca42fb0eab8b21245c290f594e92e3478bc33330d93ae91f096e194308e9a"
+    },
+    "lib/packages/guzzlehttp/guzzle/src/Exception/BadResponseException.php": {
+      "md5": "ab4a222343469bcf737f3cb6e5156c3f",
+      "sha256": "4c2eb936567b0f6173205e5c9848b3f90212e4dbcd43965172d9b9b3acad3bb6"
+    },
+    "lib/packages/guzzlehttp/guzzle/src/Exception/ClientException.php": {
+      "md5": "a78b630be61327e52af9653312034421",
+      "sha256": "cb65e49ca59659ab946fc8ac12844810de1135728e088db74f9c9eea98e2c3db"
+    },
+    "lib/packages/guzzlehttp/guzzle/src/Exception/ConnectException.php": {
+      "md5": "747dbc7dc03d129cef511d4f4a0610a3",
+      "sha256": "d9c468b52170cbe54a3be188a9d41641e1a8943683ca2ec64a2d0e4841a46090"
+    },
+    "lib/packages/guzzlehttp/guzzle/src/Exception/GuzzleException.php": {
+      "md5": "90c3110f3fdde52c68466a314a842451",
+      "sha256": "4f80d18666fee5cdf33e4f1693c1c3401e814bea46f43c3d51585514113846c3"
+    },
+    "lib/packages/guzzlehttp/guzzle/src/Exception/InvalidArgumentException.php": {
+      "md5": "1d5a9be4b0c8a82937bec99e1fe0928a",
+      "sha256": "ffcc78f83d390c80b922b03c0810a95ec56fb86136c9c14227262d6907d6cc1e"
+    },
+    "lib/packages/guzzlehttp/guzzle/src/Exception/RequestException.php": {
+      "md5": "2f40f1845a531123022fbfea5d013fa5",
+      "sha256": "6572b6cb16ec096e1ffcd404760efa63ad1676592a42796509c9ec1803cf62b8"
+    },
+    "lib/packages/guzzlehttp/guzzle/src/Exception/ServerException.php": {
+      "md5": "b0564eb9559a10a5f025d14573ab19c7",
+      "sha256": "2ddecdd916e30946ff5aac2ebb830021b883918bbcaeab63a7d75044e268ebfd"
+    },
+    "lib/packages/guzzlehttp/guzzle/src/Exception/TooManyRedirectsException.php": {
+      "md5": "796887b3addd8a427306f0cc7d2c4947",
+      "sha256": "5f4afbf28a0235ffdfc84969564e66f9d05090978454d492a67464f257789b5b"
+    },
+    "lib/packages/guzzlehttp/guzzle/src/Exception/TransferException.php": {
+      "md5": "34dd8dd14772f9c5cd9a1c103c555176",
+      "sha256": "d306b3a38333751adadc95bf94af2a72767ee80d860b2b2822d5c43da0a11193"
+    },
+    "lib/packages/guzzlehttp/guzzle/src/Handler/CurlFactory.php": {
+      "md5": "950b0199e73c05bc20f5a5a468fcc59e",
+      "sha256": "36e809aa5a6b01cccce7f90da6be8043a68d4916a8c24b0e083db7704c01f7b8"
+    },
+    "lib/packages/guzzlehttp/guzzle/src/Handler/CurlFactoryInterface.php": {
+      "md5": "a542dbd08d8c21a7ca66a9b59bb55dbe",
+      "sha256": "cf7995e146ef8ee137caaa36845625681e4e8d03ddb8c9dcee73bae9355a4369"
+    },
+    "lib/packages/guzzlehttp/guzzle/src/Handler/CurlHandler.php": {
+      "md5": "9e35a37d2f780bea1a70e67eaffa5400",
+      "sha256": "054202b3db7275043e5954615d7d33880fdb93d69559299377b4c90fde56e416"
+    },
+    "lib/packages/guzzlehttp/guzzle/src/Handler/CurlMultiHandler.php": {
+      "md5": "5634f8c7a9dcb3e7235ba03c6768a6a1",
+      "sha256": "d255101ceae04b772d794cded2b2c0ef91f472bf7e4dcb9a33f91f52c6add894"
+    },
+    "lib/packages/guzzlehttp/guzzle/src/Handler/EasyHandle.php": {
+      "md5": "5fc1e27f77eb24b7cb8bb26135289afb",
+      "sha256": "4f99889992e1fe1242f648d67bd2511b393313c4ef77b9f2e5da386e009e0cc2"
+    },
+    "lib/packages/guzzlehttp/guzzle/src/Handler/HeaderProcessor.php": {
+      "md5": "9a952c111abc8189df5a26d68b5d9ead",
+      "sha256": "0af037c9fb7a0c7f315ab65d8607f977709eb104397d616895532c9f7a8d5c34"
+    },
+    "lib/packages/guzzlehttp/guzzle/src/Handler/MockHandler.php": {
+      "md5": "4ee89fe438e5439197fb3b053617a5b1",
+      "sha256": "a5882a636408ed246326e641213436d1599f3510aa5f5955b2a8d50445ace06e"
+    },
+    "lib/packages/guzzlehttp/guzzle/src/Handler/Proxy.php": {
+      "md5": "0497c469432f3962b7d53c7f5e6a09e6",
+      "sha256": "cd2581063e6a41b18e8905a681f3aa452517c9358b2c07462305e77119a27896"
+    },
+    "lib/packages/guzzlehttp/guzzle/src/Handler/StreamHandler.php": {
+      "md5": "33dd5ef10fc679edaf1b010c452ac88e",
+      "sha256": "a40c9936723e53222035083057587d13f593e6a9834b5ea14b6f5c7d6627fd4b"
+    },
+    "lib/packages/guzzlehttp/promises/src/AggregateException.php": {
+      "md5": "9947ff052c0c540d7f5a88adf3d5fa9e",
+      "sha256": "3b299f5edf3e1d02b4b823c44066dc88a1bba9dc0a4eab619777162ebd85f12a"
+    },
+    "lib/packages/guzzlehttp/promises/src/CancellationException.php": {
+      "md5": "9e1588336609dd4ce6b7812a76109ba1",
+      "sha256": "5fa434ae0f916e0ecc3fa912c6369c9d9a246e913f4d8abe5372401ff7613e1f"
+    },
+    "lib/packages/guzzlehttp/promises/src/Coroutine.php": {
+      "md5": "c4ba32c50bd6e92760f783d7a4e9d6f6",
+      "sha256": "d0294b0566c7908711bbda29afa48693064b86b8b8114bdccf3e93702604f89c"
+    },
+    "lib/packages/guzzlehttp/promises/src/Create.php": {
+      "md5": "e6109b8f771e596f6ff8174132ba96e1",
+      "sha256": "7c5fb1b1718a9cb4bb576759bde0c178ab9f6c321928325ef46b89dfe4ddeecf"
+    },
+    "lib/packages/guzzlehttp/promises/src/Each.php": {
+      "md5": "0d5cc5688fcedd03a4fda181f065e110",
+      "sha256": "079f59f1a3694008ca6a5d873f1a29e810e91fce25fb9697bbba9c384bef2d67"
+    },
+    "lib/packages/guzzlehttp/promises/src/EachPromise.php": {
+      "md5": "db64b255d97920fb1b4ca6704c652c86",
+      "sha256": "8df59c774ffc86aa7562425e7ff47fc72f63b06a4e5c9e539e1e02fc692eb203"
+    },
+    "lib/packages/guzzlehttp/promises/src/FulfilledPromise.php": {
+      "md5": "d21df2080365a74ac52fcf5ac6bf4e5b",
+      "sha256": "6cb8fded84de6e4a7871847a267408ad306863365fd63d218e0320ca2f8f17cb"
+    },
+    "lib/packages/guzzlehttp/promises/src/Is.php": {
+      "md5": "4a47c57efc0404751fc06858a409ad6c",
+      "sha256": "63fd431b6e028f0152311f3e8a436a229c15f519c28a10e13bb3be575944f289"
+    },
+    "lib/packages/guzzlehttp/promises/src/Promise.php": {
+      "md5": "e688f6af47fd714036d794b0cc58ecd1",
+      "sha256": "da464a827d880929faba777f548ab194cda0f7beae5d67263340044953444641"
+    },
+    "lib/packages/guzzlehttp/promises/src/PromiseInterface.php": {
+      "md5": "839fa982090c0fd35044cb1e9cbcfe71",
+      "sha256": "96981361e284b14ef48d1d7632077d7a06a7afa0be553c3803b26d7a66e0f5a3"
+    },
+    "lib/packages/guzzlehttp/promises/src/PromisorInterface.php": {
+      "md5": "9b1e2f1f9cb08a520a2b76025db89b14",
+      "sha256": "f18801f617ec556084b168a867acd2a2f9ed992a22bc86b496791dfbe11c51a9"
+    },
+    "lib/packages/guzzlehttp/promises/src/RejectedPromise.php": {
+      "md5": "b33039dacc11b80863083a668eb7183b",
+      "sha256": "9131de7b29780f29f44d779bf3752d50fe6d19d296bae239386f051be26a3fc0"
+    },
+    "lib/packages/guzzlehttp/promises/src/RejectionException.php": {
+      "md5": "3e26e1857477af0208b4e56f7f514623",
+      "sha256": "92955238c914564fe09e1179d37c584318ecc8578c22cab76ff599a2f1c40c46"
+    },
+    "lib/packages/guzzlehttp/promises/src/TaskQueue.php": {
+      "md5": "709f285d24288976d458f7d13a75b0e4",
+      "sha256": "a1cfecc6d157443005ad9bbad8aff67bebc23457c1e81ba4ac299b1e942c72ab"
+    },
+    "lib/packages/guzzlehttp/promises/src/TaskQueueInterface.php": {
+      "md5": "afc5a54cf266cf4d170ace96a775462f",
+      "sha256": "a97244545aa8779e60e3850a7e3a3fe30b0c35d1b6a1efc9cdfd7717d86f9a4f"
+    },
+    "lib/packages/guzzlehttp/promises/src/Utils.php": {
+      "md5": "37acef7f0230adec514ef397139c18d0",
+      "sha256": "5a9de2cef49a8de79fa17b16c0f4ebc8f09bbb81da234fe773754992ed8baa74"
+    },
+    "lib/packages/guzzlehttp/psr7/src/AppendStream.php": {
+      "md5": "1b364bb77da4d0e4b5294f9265a7cb73",
+      "sha256": "1cb7282ff3837bd3260b914e816a0225cbda0e8ff695afd991e535b3514a7daa"
+    },
+    "lib/packages/guzzlehttp/psr7/src/BufferStream.php": {
+      "md5": "0c8799287dd70a4aa38fe0fb6cc719ed",
+      "sha256": "95612a2aafca46e4db29a0e04710a096bc7135c918cf538a3211d4e5bfe93574"
+    },
+    "lib/packages/guzzlehttp/psr7/src/CachingStream.php": {
+      "md5": "52a7e2b4a596341018053d95b81368c0",
+      "sha256": "e271886dbfdb97ec4ae8092820f6259dc67e64caccc5f4dfdf1f6077636c4139"
+    },
+    "lib/packages/guzzlehttp/psr7/src/DroppingStream.php": {
+      "md5": "0914707b58016e3222490fcc4df01c5d",
+      "sha256": "88c22ce0a5939b3e1ac7056d1f85a1bbc36c498574d23c3ee44f77d353c79173"
+    },
+    "lib/packages/guzzlehttp/psr7/src/FnStream.php": {
+      "md5": "8e88e32d0f61f346db775ed0a924a690",
+      "sha256": "a989bcc329a675f90096dda86430fdb903a1b0ad525f8d1e823aa280f6eb27b2"
+    },
+    "lib/packages/guzzlehttp/psr7/src/Header.php": {
+      "md5": "4bb737b7814f428977ca0e9bc49512e0",
+      "sha256": "b3dd182a950dd4a69d8ba1a9544a56b0ac2eb324e800277c08b9e903fbabdca5"
+    },
+    "lib/packages/guzzlehttp/psr7/src/HttpFactory.php": {
+      "md5": "dff69d0d5539674b8f6d275ae51e8afb",
+      "sha256": "bb1425283caa72dfdc8b37ba3b43179868d017d186b084f678f2a13af48edf9c"
+    },
+    "lib/packages/guzzlehttp/psr7/src/InflateStream.php": {
+      "md5": "3a00d67d81934c1c8d6f3b5df7908693",
+      "sha256": "5d82f4034e423dcc3b816f1596bc57b2a763b3b8888acb8aa83f9ec5dbf79371"
+    },
+    "lib/packages/guzzlehttp/psr7/src/LazyOpenStream.php": {
+      "md5": "19d41137c4c1cc5869872fdc36b2cbe8",
+      "sha256": "c5cd464301dff7befdbe0a4f6dec6f383cb47242cdf1f241e15f0ac1217477d2"
+    },
+    "lib/packages/guzzlehttp/psr7/src/LimitStream.php": {
+      "md5": "14e97595ad66a37723b715d822523b42",
+      "sha256": "95a92c4e63c07b56f669091f1d17586a64289a438c1bac49ccb3e4e2a9b0edd3"
+    },
+    "lib/packages/guzzlehttp/psr7/src/Message.php": {
+      "md5": "81522d4057791c4360fa1d74417dd214",
+      "sha256": "ac6ba1499e3e85c63c2c8df933256f9b12d53ad1a224cd87c431bdf9065e7558"
+    },
+    "lib/packages/guzzlehttp/psr7/src/MessageTrait.php": {
+      "md5": "b14f2d9f6a526147e438e9fd2ef5aa0f",
+      "sha256": "c837c21d8b32316dd3bd92623e17d97e67732b573a908dc96bd94102aab3cdea"
+    },
+    "lib/packages/guzzlehttp/psr7/src/MimeType.php": {
+      "md5": "b7a117fd51fa51f67a4256420d63ff32",
+      "sha256": "2b40661301380f222d5da7c4712209c0b728c20bbebedf001390b7c28ee51c49"
+    },
+    "lib/packages/guzzlehttp/psr7/src/MultipartStream.php": {
+      "md5": "8da9fdc26eb7aa4fce856fa44827aecb",
+      "sha256": "8e4dd83302af27dccb5a67ea99d591afb8a991e0c7db52a022f84f5ae5d5f2f5"
+    },
+    "lib/packages/guzzlehttp/psr7/src/NoSeekStream.php": {
+      "md5": "bfc6e7d56d57bb669d5ec20290b0e1d6",
+      "sha256": "7dec6697f3c11142f0ff0623d30cafda861d83a89883654ccac1bf07611361d1"
+    },
+    "lib/packages/guzzlehttp/psr7/src/PumpStream.php": {
+      "md5": "c3da3fd5679955944f089be7f29214f0",
+      "sha256": "33ef094848719e8aab07c87145888d0b0b2f5de3e7e805e40ec579a85ef37e69"
+    },
+    "lib/packages/guzzlehttp/psr7/src/Query.php": {
+      "md5": "63e13461018b906a709f14c12f67e8cc",
+      "sha256": "e26f6ae8bcb6d0fbc87aa1820eb52489843fe402b68ef42ea32e3faa81f865a4"
+    },
+    "lib/packages/guzzlehttp/psr7/src/Request.php": {
+      "md5": "cebbd4881bc6d7e94ab0d4e344f26c66",
+      "sha256": "268e41612d194dec8879bfc2c76243d27665875817e8abdc4943331984104e2a"
+    },
+    "lib/packages/guzzlehttp/psr7/src/Response.php": {
+      "md5": "b7d08b482dbca15c007e0a4bd2e34add",
+      "sha256": "e054e4e6103bff699e90b7485ff3c8681711d42866962187e91a298144aea801"
+    },
+    "lib/packages/guzzlehttp/psr7/src/Rfc7230.php": {
+      "md5": "781c8acc8d9c12a8c8a30b2d0356b24d",
+      "sha256": "5dbc48bc25f1e03fcadeada75ef76f51e3c556ea399f35a857c811d5ac09373a"
+    },
+    "lib/packages/guzzlehttp/psr7/src/ServerRequest.php": {
+      "md5": "529feb1b8e5b6cdb7a2efaaa6f6365b1",
+      "sha256": "15548d29a74b6d728fc0c4b92952111ff931a588f4e49a11d6fae0157911fdf3"
+    },
+    "lib/packages/guzzlehttp/psr7/src/Stream.php": {
+      "md5": "40e226f618298cb485d43cece6999e19",
+      "sha256": "788f4a8895998340f58886cf21106547ac21ff42f6baf83c9a72985dd5189a4c"
+    },
+    "lib/packages/guzzlehttp/psr7/src/StreamDecoratorTrait.php": {
+      "md5": "c41eb951bc4c54ddc52de96ec1672064",
+      "sha256": "e8949330cbe21139423dfaf8245197948ce01c60da01db316d40f0fd99ceb72f"
+    },
+    "lib/packages/guzzlehttp/psr7/src/StreamWrapper.php": {
+      "md5": "20cf2d22fb7caff709ffc0686d01e55f",
+      "sha256": "909297430c32a4dd10061d24b41b3b90792fe8c22c5e38e546c4528df87e5995"
+    },
+    "lib/packages/guzzlehttp/psr7/src/UploadedFile.php": {
+      "md5": "ff21ad3f8dcde614d8cc8581e062fb9e",
+      "sha256": "31c59af098cc7496368deb3005daaaddb6260c69e2e580a4ce97986df9210acd"
+    },
+    "lib/packages/guzzlehttp/psr7/src/Uri.php": {
+      "md5": "21bd79ed427d8d8c55206ad318725b85",
+      "sha256": "46c058f26bce73067fbe662ab72ea3061ba4d319ccdfed597fda7309ae229f53"
+    },
+    "lib/packages/guzzlehttp/psr7/src/UriComparator.php": {
+      "md5": "d06c19510a3e83ebb3c4bf045ed2f674",
+      "sha256": "fb4bc3ecf30e7864db788432913063635190ca3240ae7b1773b23f15d2e0707e"
+    },
+    "lib/packages/guzzlehttp/psr7/src/UriNormalizer.php": {
+      "md5": "da511a8901a22e33dc5863bb0e15703b",
+      "sha256": "7e998e118ec499fd623b1d860f5b371622760aca2d7b1e406cd37cc3f3f32617"
+    },
+    "lib/packages/guzzlehttp/psr7/src/UriResolver.php": {
+      "md5": "17a56732eee0f030e71277d8639df25f",
+      "sha256": "cb531a1b57f9e3816bdd3ac312e6109307599cb6eb20aa43950a3aa3122ddfaf"
+    },
+    "lib/packages/guzzlehttp/psr7/src/Utils.php": {
+      "md5": "4639c11651a84976cd1b645d85530739",
+      "sha256": "195ec3f9bf71bb7612828b10786e9e6f8ad2ef9b987a90d0ddc835afd3e5e484"
+    },
+    "lib/packages/guzzlehttp/psr7/src/Exception/MalformedUriException.php": {
+      "md5": "3eec4807e9bfcb77cffcb2b450e236c0",
+      "sha256": "1062f18395e4d5a1469f22e68922ddd91fb6b7ee296607c87d414889dbc4c8d6"
+    },
+    "lib/packages/league/oauth2-client/src/Grant/AbstractGrant.php": {
+      "md5": "935f7eb46961c65b1666b502b5848418",
+      "sha256": "777ca9d1f5c152533b08ca5bd7beaad2f96d4bc3b6ffc090179df3e410656fa4"
+    },
+    "lib/packages/league/oauth2-client/src/Grant/AuthorizationCode.php": {
+      "md5": "efb63d9ca298d4e0bf6ba9c8eabe1ae4",
+      "sha256": "0f4cdf8b35259c7afa142170dbcb1fd98c44c6741eea6ce431198fd738029d11"
+    },
+    "lib/packages/league/oauth2-client/src/Grant/ClientCredentials.php": {
+      "md5": "81fedf50f3316955f26fa031f8ce9b01",
+      "sha256": "58145440727e6e2fceee5cf4137cf761cdddfe89039d656135a6d72b9a524a4a"
+    },
+    "lib/packages/league/oauth2-client/src/Grant/GrantFactory.php": {
+      "md5": "148b746d9c5f237452f4bfbb698e2fbd",
+      "sha256": "aa62736eff81a5c2bcd174a857f0a3f0f48b389f9a7be5bda568df267bc02459"
+    },
+    "lib/packages/league/oauth2-client/src/Grant/Password.php": {
+      "md5": "14e392baf0efb689a17ad5ffbc49a40a",
+      "sha256": "0615fc4db26c2f15d3720051c6a6086b18fd20912dd0df3dd88a55b5fc5bd727"
+    },
+    "lib/packages/league/oauth2-client/src/Grant/RefreshToken.php": {
+      "md5": "3abea361928d15ebb671778e8f48f7b3",
+      "sha256": "5e1c91656a3e1a09da1e0c92414a4a296588b677f48be3cefcde65bfe2a6f88e"
+    },
+    "lib/packages/league/oauth2-client/src/Grant/Exception/InvalidGrantException.php": {
+      "md5": "70d0809426217c6e3ddc9544b8d66217",
+      "sha256": "5ef55797c09b2b97a6a5e5d221298c5c5e8a2687cd088397df67248e4383a4f1"
+    },
+    "lib/packages/league/oauth2-client/src/OptionProvider/HttpBasicAuthOptionProvider.php": {
+      "md5": "92c13002fedcde36e1381addfa3bf2a5",
+      "sha256": "e32e06092e3b91737951b0e9c3412f564b038b28599acf415ad822fcfbd5e2f5"
+    },
+    "lib/packages/league/oauth2-client/src/OptionProvider/OptionProviderInterface.php": {
+      "md5": "fd8fa6097b7c60e13aeae6b984971d65",
+      "sha256": "9ac02c387674163625323c51f416ea2c4e2f070e9a7f2fca71324c5a28a88ef6"
+    },
+    "lib/packages/league/oauth2-client/src/OptionProvider/PostAuthOptionProvider.php": {
+      "md5": "505b968491d1f1fc64c6db7f388889b8",
+      "sha256": "628e78b4e4c472908973e89612b229286b4b32d441963bed61b1e717bcdf21cd"
+    },
+    "lib/packages/league/oauth2-client/src/Provider/AbstractProvider.php": {
+      "md5": "9bd9003f603e053c769a7c5d0360b3a0",
+      "sha256": "fd20e24e76e0dfc493ddbedcab5333faf2eb7bf4012665b0654c57a3f6542cfc"
+    },
+    "lib/packages/league/oauth2-client/src/Provider/GenericProvider.php": {
+      "md5": "7860e2320c4f7f47f0ccf086c607c986",
+      "sha256": "4a0e7644c13aa1140addd04454767453c113e9eabd583e510c1a8612fe564d03"
+    },
+    "lib/packages/league/oauth2-client/src/Provider/GenericResourceOwner.php": {
+      "md5": "dddd8851b2cdbe4a2978a820664a8c33",
+      "sha256": "b185d7b5a962f23efc8c1545b7cf4d884259ed44a248ca2881b35f5be8d31738"
+    },
+    "lib/packages/league/oauth2-client/src/Provider/ResourceOwnerInterface.php": {
+      "md5": "5bbe4665a7c5a40640ffa83894311b8d",
+      "sha256": "96c620ced63f0d48771c69ee19fa920a1150bd7a567ab874261a3f0eb1f4e873"
+    },
+    "lib/packages/league/oauth2-client/src/Provider/Exception/IdentityProviderException.php": {
+      "md5": "8c5118ceeba2e1cb4710aed6060227b0",
+      "sha256": "5ad1c17806e147f1b75694667f56b398d2a3bfb0abf45896de63c97cb213f057"
+    },
+    "lib/packages/league/oauth2-client/src/Token/AccessToken.php": {
+      "md5": "07b7f25b8b904576bdf087a8f3801ff9",
+      "sha256": "411fc169faf855e9d73623dd61c464b7c39d073bd46f5b6b3be46d709516771e"
+    },
+    "lib/packages/league/oauth2-client/src/Token/AccessTokenInterface.php": {
+      "md5": "125cbf9ef88944a79df8d5bf6f62d719",
+      "sha256": "6d8eebbca5523f925093dcffa44dcdebc4f9d0f7a2f0c2f76fad7e9f9cd2fb09"
+    },
+    "lib/packages/league/oauth2-client/src/Token/ResourceOwnerAccessTokenInterface.php": {
+      "md5": "3e3ac23ec3ce9359c310f46766abd35f",
+      "sha256": "c1f85408715b3651c5879fcf8ec70a569deebf64f301a31494812cf9981e811a"
+    },
+    "lib/packages/league/oauth2-client/src/Tool/ArrayAccessorTrait.php": {
+      "md5": "a0998d6882a8c03ffcb089287feb516a",
+      "sha256": "3a27aab95553d9c5b8ddff6da0cb6734b183705d819d2552a103a7e3aef4da3f"
+    },
+    "lib/packages/league/oauth2-client/src/Tool/BearerAuthorizationTrait.php": {
+      "md5": "4c8a050e51a39855a432430c5b7b1122",
+      "sha256": "5d13f8799db565c38293d9d76965ae44a3cd6294b7c088c0bc85c3d14a5ad75f"
+    },
+    "lib/packages/league/oauth2-client/src/Tool/GuardedPropertyTrait.php": {
+      "md5": "7ecf8709424c224adbe333f2a5eb6cf9",
+      "sha256": "c32ab13ca3ca9851f066d3d1fe5002a9e80e7e5efa5a5eea5fd27f0e61668db2"
+    },
+    "lib/packages/league/oauth2-client/src/Tool/MacAuthorizationTrait.php": {
+      "md5": "31786b8b7ac4e247ef99abed71b259df",
+      "sha256": "07c112f3e2e4b1b2011049235644e665aee1d1a24df8c7cb8fc1aa9a09334590"
+    },
+    "lib/packages/league/oauth2-client/src/Tool/ProviderRedirectTrait.php": {
+      "md5": "9e84d7dfef54d2ac8a90edd3ed464f79",
+      "sha256": "08228d65c6ea1bd63b21635603a58b5a6b5c51e894b44b226c2e5a9f7e2666f9"
+    },
+    "lib/packages/league/oauth2-client/src/Tool/QueryBuilderTrait.php": {
+      "md5": "6f2201c35e1b3cd13415a01f756677a4",
+      "sha256": "bdad8a7ee11aefe2adfbf1de1229cc1a75512946661ed83217270776d06b75d9"
+    },
+    "lib/packages/league/oauth2-client/src/Tool/RequestFactory.php": {
+      "md5": "8cf41fd2520c5a0d5079fe14790385a8",
+      "sha256": "9096bcc39191487c5dedac7e579ce1b1192285497e38bded32cb454367b1a117"
+    },
+    "lib/packages/league/oauth2-client/src/Tool/RequiredParameterTrait.php": {
+      "md5": "e09aae096bac53b08f39443ac66507e6",
+      "sha256": "f5c4762b12de9addbd328bb483ee4cefb8ba769bf05b462385108f1466ce04f5"
+    },
+    "lib/packages/psr/http-client/src/ClientExceptionInterface.php": {
+      "md5": "6b2f623edbb1222f9623524b3e4dc1e4",
+      "sha256": "2ae6b264ddfc8d48096fe50927634a6b406e1eb26e1d00bd992e9aa36f55410b"
+    },
+    "lib/packages/psr/http-client/src/ClientInterface.php": {
+      "md5": "624536fd161afe3aa159ea5d527779b3",
+      "sha256": "f377b570f3211f8d824c7f1edd5c2288c97b51cc27347b1aa74988b05616e137"
+    },
+    "lib/packages/psr/http-client/src/NetworkExceptionInterface.php": {
+      "md5": "4676e9b6fec11ab5c0a3b32979abef91",
+      "sha256": "93b74d294718e772af07780a6df2bb13671701df8a1d1e752d79cb3decd08f66"
+    },
+    "lib/packages/psr/http-client/src/RequestExceptionInterface.php": {
+      "md5": "a5af1075472ac86a825c4a6ccf04ef54",
+      "sha256": "1bcf5fc2b4a6e1a982020caddab497edd889124fd8d17aea1efb1895cb96ee38"
+    },
+    "lib/packages/psr/http-factory/src/RequestFactoryInterface.php": {
+      "md5": "b93278ea28940741416ca2f0249a8269",
+      "sha256": "95bb9e09f52d05bf09630cce49abbfdb2282d396ccc3e16e77e3a9f54cd4071f"
+    },
+    "lib/packages/psr/http-factory/src/ResponseFactoryInterface.php": {
+      "md5": "2e68f87cd5b9afe0508f202e6c32e3e6",
+      "sha256": "fb58f39db8e472bed4109f6392443a10785305ccc0c920d11f98208f91214e02"
+    },
+    "lib/packages/psr/http-factory/src/ServerRequestFactoryInterface.php": {
+      "md5": "065ac773fea026930f73bfd1f0dfa143",
+      "sha256": "8584390af1bc3c624918525e725a7cfa639366c15bb7a3c7c065d04d8a20703b"
+    },
+    "lib/packages/psr/http-factory/src/StreamFactoryInterface.php": {
+      "md5": "4511e7ad5d1106c5c6a7adde87e1263b",
+      "sha256": "25fe9d048ce6718141d21c122ef9b3498be45025300717ccbe912ef5bc0083ec"
+    },
+    "lib/packages/psr/http-factory/src/UploadedFileFactoryInterface.php": {
+      "md5": "182375d16ebd47652ad95d09f73376a8",
+      "sha256": "712c705ac850b43dbf47458e571c8be314d1d1f01b0e470407ed014b702d9e5b"
+    },
+    "lib/packages/psr/http-factory/src/UriFactoryInterface.php": {
+      "md5": "4e587117e3edfd030a80e3b883cb75f9",
+      "sha256": "2600f967cd969706dcdff326d3fe602e812110352c75c6b5e9773601f2d17c7d"
+    },
+    "lib/packages/psr/http-message/src/MessageInterface.php": {
+      "md5": "592e65d2fbf309eda12ee71eba89f156",
+      "sha256": "1ef5798924509ccea3ff3e596af4c5b6b63e121f7d0441503310b29cf837b9df"
+    },
+    "lib/packages/psr/http-message/src/RequestInterface.php": {
+      "md5": "ccbbf52e5e772a7e775e6b3cd4618b22",
+      "sha256": "3d7531e17a3e704d7bed9f0f2bb37ffc7f1842a2cd39f789ce7e7a4023d434f9"
+    },
+    "lib/packages/psr/http-message/src/ResponseInterface.php": {
+      "md5": "b54da6898ad0ffdb239b4115d8a41da1",
+      "sha256": "1cc32dded30a668714b17688a2be8a0053effb7fabe7655bd4459ecfbc6eeb44"
+    },
+    "lib/packages/psr/http-message/src/ServerRequestInterface.php": {
+      "md5": "5d09f50fb474cfef6881787ae7ed4341",
+      "sha256": "43c218d6c4426c7f1d354b20736ec77be924b94e7c1b11786057de6c3f3f66e8"
+    },
+    "lib/packages/psr/http-message/src/StreamInterface.php": {
+      "md5": "fdda07dfe2b69809d2a184024ce7958e",
+      "sha256": "0a3267552ebbcac5f0cd522dd10d96ad985595fd4f90d8566b449db2e060b385"
+    },
+    "lib/packages/psr/http-message/src/UploadedFileInterface.php": {
+      "md5": "64d8711e93ef6af101b375c9d199f3a4",
+      "sha256": "2823ae936f8f0030879fe12a507080d4eb91c6a534f57ff38e8f37561d78916c"
+    },
+    "lib/packages/psr/http-message/src/UriInterface.php": {
+      "md5": "750592cc43752efda0d9072fb007bb50",
+      "sha256": "8d96e63fb984db31eaedd858ae60549dcf6332c939d4cc940ca97f1fe6d91d1e"
+    },
+    "lib/packages/ralouphie/getallheaders/src/getallheaders.php": {
+      "md5": "fe517816cb82a5e67e62c8d0241fce3a",
+      "sha256": "b2275333d82617732ad407dd55420ff16c0d0c19a5599d60aa9e1e3871d5a654"
+    },
+    "lib/packages/symfony/deprecation-contracts/function.php": {
+      "md5": "1a356b2db7f4f1552b1cc85206d22eca",
+      "sha256": "28ff48c6827a3a6dd17fae162e81f6ce89412b4c9cebd91d9642bc3b40c1b41d"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/AccountingObjectSerializer.php": {
+      "md5": "ea9fc011eff224e5e509f84edfbe6158",
+      "sha256": "a5b78ac7bfd22033bc711bf8bf40e4dabe01f5b96a15bf57437f87502dea29ea"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/ApiException.php": {
+      "md5": "9bbc90f0c6ce1a44323ba86c2dd1a733",
+      "sha256": "d01c30e185afdd7864dba843cec886958e06ff53064e8202d3ca44db5c20c448"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/AppStoreObjectSerializer.php": {
+      "md5": "d9bb757dd9dfccdb1486f642ac461fe8",
+      "sha256": "29943b0bfae5a84490dcad5a600f5085cd9dc82e3cc5aca2cf49ee76e8c9e62f"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/AssetObjectSerializer.php": {
+      "md5": "f59555ea2bac0d958f999e217ff68981",
+      "sha256": "b294ef152cedc5082b6d1a462c3d0accf78a2a65bb18c96b297f00e24d2a6743"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Configuration.php": {
+      "md5": "416a3a3329462ba69f21f7d27feae5c4",
+      "sha256": "364084e5887e46c9f8e30d1c49f18501e5f7e72a4387b57e5f2069081796b9f5"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/FileObjectSerializer.php": {
+      "md5": "5502095011c70e9b6d248fd8a72f714e",
+      "sha256": "2a8c3e73ea945455bc856a25af5c5321053122e4018a502f3bb9456543843058"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/FinanceObjectSerializer.php": {
+      "md5": "c14b40c8792b09a748be1f4d3bb3318b",
+      "sha256": "2ee71122e905a5427f8d152f8e10b7cae28805562a09afcec279b688b767cb99"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/HeaderSelector.php": {
+      "md5": "8a455247b3ce4a694ee03191679ff8c7",
+      "sha256": "626793b9acb5ef9c1e927b8c1916a4e481c2cdf573054641a881f76d70a501f3"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/IdentityObjectSerializer.php": {
+      "md5": "4e3dc02f6a727e9b937e6b87098b65e2",
+      "sha256": "951f9eef5fedaee3cc6b17ded8c66aa78badf1799cc9b6e4fbd61a69d15c128e"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/JWTClaims.php": {
+      "md5": "9a05d217fbaf056380b689f9ed063f9a",
+      "sha256": "846a34835f8f837c2d4ff1bea306bbd7c99d7b3e3997154ae676de5a6d8e9221"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/PayrollAuObjectSerializer.php": {
+      "md5": "e340e06b6e18820c0aa1d3b5b105eb7a",
+      "sha256": "844e8a3492bd0579576519e515f2fc2bb65d3171531ad9f0f0b10003b0aa04b7"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/PayrollNzObjectSerializer.php": {
+      "md5": "610a59acd8d0b59957b25dd1de7ffcd1",
+      "sha256": "45a63ad36b9bcda97ef8023bac6c733be510006f3a7af3a5e7b6b6aae44c4523"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/PayrollUkObjectSerializer.php": {
+      "md5": "1a83dce963cfe7bf0939b640af0236ef",
+      "sha256": "603c27e370845251928cc6e53e05a958bff14377e10242ad9d3a0301b405d3b7"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/ProjectObjectSerializer.php": {
+      "md5": "7beb6f5d98b9ffaf79cea336e366bc80",
+      "sha256": "f0cf6f615cd5ec0456f4a02de4699b4ecf4db3b6f0e10c3a0f81cbcd6db02721"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/StringUtil.php": {
+      "md5": "6d15c4e2b2e40ac53b3e4f637af17e15",
+      "sha256": "6a7f8d56a8c09cd80b6d80f2d4151c5b9e0c841f4a8d732911e189c9755fc060"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Api/AccountingApi.php": {
+      "md5": "f8231db8b4b83e09ae08f683be5d6b18",
+      "sha256": "b5bac167c01e4d87d2e672e3f00ea1abd6455d521b71ee5f3fbaa0a35d7c242d"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Api/AppStoreApi.php": {
+      "md5": "fde6f5eedff1ba8a2350924faf132e0f",
+      "sha256": "a786c23930966c02c38c9086488613be7ac1c887c754d30f053e925d66d7146f"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Api/AssetApi.php": {
+      "md5": "4f83ecb3d6996f220d322bf4e3c664b7",
+      "sha256": "a64362789116309bb8bc31819a700c87f9ea6d950a7ff60610121b97a7ac7de2"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Api/FilesApi.php": {
+      "md5": "5bf653fb978a6fb37ef737b6092b6394",
+      "sha256": "a38b33d64a0809622ce91ff0ea528eb46efe3a2ccd9b7012bbb8309aa507d459"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Api/FinanceApi.php": {
+      "md5": "29d58bac1c52542a0921bd4dd6e9d232",
+      "sha256": "b82687d2e60b77d6fe1841904d500f181af413a6ec03a1ef0e91995b9d86949e"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Api/IdentityApi.php": {
+      "md5": "249e981f80dcf8c8a3ececc1cfe136aa",
+      "sha256": "c75932af6e2c8e7a28fcfd533a9ed4b6f5207f03ca733d7302154db3ea2db7e1"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Api/PayrollAuApi.php": {
+      "md5": "093dbf7f99bccf867004b0bfe070c64a",
+      "sha256": "05c58af805728477fb4d387cbd51804599e41ee11c332a444c6daef38f64b342"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Api/PayrollNzApi.php": {
+      "md5": "f9bd9d8446ca74b16c34387ca22f69a4",
+      "sha256": "8279a84947aec8d2a55b885817408dbd945bda9f9477fe3945b0c1853a834f52"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Api/PayrollUkApi.php": {
+      "md5": "b4c85206df2c108426b99204318bd2a3",
+      "sha256": "942b50510919e638cbc7ccb006666fc40a4b655de837e61af75693669170e224"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Api/ProjectApi.php": {
+      "md5": "4126a42aa3d84b0ade52585c8a73e405",
+      "sha256": "b86dbb9da89eef0b2c0a6da1e947469cb9b1c4e74677355b0f66f4af0cd94085"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/Account.php": {
+      "md5": "6b10ce8aeefe89d642a17854e4ecb6c3",
+      "sha256": "17c37c950e54a357e58093974570ed6eb2e9c7b2e21b6abe661f471112a9b7c6"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/Accounts.php": {
+      "md5": "69b33bbf92e1c20c5875953395a7026c",
+      "sha256": "61865b1b56209c6f24641172af96996b6ae533c6fad182f026f98acaa3116fff"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/AccountsPayable.php": {
+      "md5": "074870883a7a0fd146b72b713a19bb4e",
+      "sha256": "069078e36032a6c18a70c66b2e538dd3595599e312a2ae1c2fc00972508c509e"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/AccountsReceivable.php": {
+      "md5": "31005d3278ba2ec84ac705bac6593ded",
+      "sha256": "90986912a21356a85451a3cb529c4256d2ccd7942164ba78b9be387473dc06d0"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/AccountType.php": {
+      "md5": "2d8137a21659d08f101989bb39571971",
+      "sha256": "f11e0b8bdf5432ef7c6e7f2b41614687e0159d9474e57a697c945d792bdc4ca2"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/Action.php": {
+      "md5": "998fa2a4eed6506efaadb3aada0aa5ed",
+      "sha256": "18700ba47757c74cef8304b4467c266ec06d3a70e930e4c93b88f85784797ba8"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/Actions.php": {
+      "md5": "2193524123af860f78985337b161111b",
+      "sha256": "b366f1cdea7a2e799c1dc98dd15f48a68ecaaa79283b8b5f0ee9bc4337a403b3"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/Address.php": {
+      "md5": "fdcde7696b4f8418a966bebb0bc2c89b",
+      "sha256": "d1879d752a640d1c196b402c1b632dba21b7ad995d8a580ce92e9686a9f7372c"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/AddressForOrganisation.php": {
+      "md5": "29b594bf6b9460e2f8d3ff872d1aa682",
+      "sha256": "9814c0b7822629cd9889ae906cf9bd6bf389c3a38b3dd7c08b143430656fdbe3"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/Allocation.php": {
+      "md5": "137fd7de31cc09eef641a32a87be23b0",
+      "sha256": "da7903af56900082c14914356cac8f6584a1a34633c9230fc1c315014525ce01"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/Allocations.php": {
+      "md5": "d075c77ae414f7544fa7b04f7d72a2b5",
+      "sha256": "385e1c7c91a3723d6614f3b8e8515fbd33e30f0b8da2d7bee84714e962d32b36"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/Attachment.php": {
+      "md5": "eabe78ad26063e53b8e57d44e1682da5",
+      "sha256": "d45546feda903d50cd6ff712ae87792fb4185e9c9ff77507a7d9e54efcd73c9a"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/Attachments.php": {
+      "md5": "4e9ded24f742f1ad78aa76919fdabc7f",
+      "sha256": "00363f9e4c09a80fe5e6d91f69d138edcfad2618aab6d61d4e8f245a2a426524"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/BalanceDetails.php": {
+      "md5": "c8c927cb8e1504c746c450cccefe02bf",
+      "sha256": "25e173d02fee7ef5ac19c3a5e4f8ed120ba8d1a294a4046f8a2ce24a913ff10f"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/Balances.php": {
+      "md5": "5c32ad7e3cf65f89eead27a08729b4f9",
+      "sha256": "4f1ec8339d64e1426fbc5795f913d0b345477893592902c0e03bcde2c68169c6"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/BankTransaction.php": {
+      "md5": "69da4bbbbcfa58cba8c3cead99aefc50",
+      "sha256": "7aeae9baecb63c52029ca533c7db29d7df1210a2b874743d79690b7ba038e558"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/BankTransactions.php": {
+      "md5": "52d26843258d8d13ef51361c256f26e1",
+      "sha256": "0183133a7f3e939f1be64a395906996a6c49317bf9b48b872699128d427fc844"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/BankTransfer.php": {
+      "md5": "4dfe8b3b3e36f3c1f8d2115696d853d6",
+      "sha256": "2c1719efc3faadae33717959329bc1d8405ecbc14b02bee0d1b55550c0a2a0d3"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/BankTransfers.php": {
+      "md5": "66e8ac2d3aa9dbc8675bc8d2f1bdcfa0",
+      "sha256": "e6adb0815987d7e0a2706acef7a6405f522903647c5dac51cd8031e944e25f44"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/BatchPayment.php": {
+      "md5": "feccbac6ef639aa105aba91072690b55",
+      "sha256": "867a99076f91b6f055098c6b6cc39cd19bb9473231ebf7b38fe9d26064042df6"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/BatchPaymentDelete.php": {
+      "md5": "b7f223e8924274efd6d06080f1621950",
+      "sha256": "969008552615ba991f73fb5e66a404c5463b6d7215159ab8405f69a8b6f2fbc3"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/BatchPaymentDeleteByUrlParam.php": {
+      "md5": "0e00c19cc79efc170cb498a71aaa23c6",
+      "sha256": "7aac9847115aaf7297fa6997490c84158a4d3a8d8c8d1161630da1d4f458e8be"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/BatchPaymentDetails.php": {
+      "md5": "6166ecb68da9b807d1b5085344624989",
+      "sha256": "a34e024da83fa0f806a605ad8359c8baa4d3a56b91bfbf665cc0065fd8ee2c58"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/BatchPayments.php": {
+      "md5": "ca4bc6440a97078939a289f6f9dbd2b8",
+      "sha256": "22557a6e7f8fbabb276fbdd98dc7562f9720cadf5605c3aea7b37a3617efaf63"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/Bill.php": {
+      "md5": "8e9d57c0dfd91e2c7e898b68c26f2c56",
+      "sha256": "e1880e25d8316e9378390b96537fe4eeaf0486518917e76978ecdbd32c1c8a85"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/BrandingTheme.php": {
+      "md5": "794c479b5a0f01d730beb928f2dbcf68",
+      "sha256": "8fb5c859a3feede37a7c2b2a0847bcb2a12634888ff3cf9a35a75a07cb9ad058"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/BrandingThemes.php": {
+      "md5": "d45ac5aa827e2d10ebe71063fcf69817",
+      "sha256": "66001920fee953f73a3b1b856d51fdadcd6b649b068b3e85bb89d152a3178be1"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/Budget.php": {
+      "md5": "6d98c9b40e1a447d8895bd7e72b1f2d7",
+      "sha256": "6d425cccf26f8b22e18a9c628d3d673de90d04d21003245bca70e3d26a5d3023"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/BudgetBalance.php": {
+      "md5": "1cccd426444fe5549497943424f729ee",
+      "sha256": "caca26f91dfc6e8bb3b616a969212923edbec7a4bf58f1fef17e81492beb0724"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/BudgetLine.php": {
+      "md5": "f75d60549c11135cc9be5ef9fb5c9fb2",
+      "sha256": "01ee19b1ec475d83e03c9c96169959da0ba00c58ac4fa17149a65a630d349941"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/BudgetLines.php": {
+      "md5": "4668c42b00124aecad1459b1939989b9",
+      "sha256": "ea57edc2a9c7cbade864731cfeab10e20e43c4eb6c694f916261e78cd9683f49"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/Budgets.php": {
+      "md5": "1e2792828738da2e240a90d3d7ab28d3",
+      "sha256": "4d46806aa7b71acb01d501865fb0fbb8826628f4562eea1594656d133c0463de"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/CISOrgSetting.php": {
+      "md5": "5923ffb52dbe8f3673ac1c4c67bdf7b2",
+      "sha256": "82b06f0705f93fce699e6f8a124ea916f13140a296d0b1ca0bd191e030efd4c6"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/CISOrgSettings.php": {
+      "md5": "58650e4a991c392a298d5df01900b41f",
+      "sha256": "d638156205eea4abbc6ef975c2dbc2d1b3f6624a605785f78bc9e776de478f7a"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/CISSetting.php": {
+      "md5": "da9e50b4ed205fd2cb3700967bc44f74",
+      "sha256": "ca47145d3facffdb815a47c3f97bfb2c0817d5a222d270dc1f1af1a3255bd0e4"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/CISSettings.php": {
+      "md5": "b42f19924f728cf5560f636d819a2801",
+      "sha256": "fd9e4578c05f6cfccd92d37168268e35f6c5c99e32b71c031efc778fbc486fb8"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/Contact.php": {
+      "md5": "7a08b6cbd084742a0cc526dd3f8eef28",
+      "sha256": "d6952a6bd96c4247b804227468b5d1afafe17a314021d29e618576c26064d757"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/ContactGroup.php": {
+      "md5": "7dba076dc314629879fc7576476a48ab",
+      "sha256": "94c76e6598ff6a7dcba7534001ea3ea4dca23ccf7f069a3a3d2314b87ff7f9d6"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/ContactGroups.php": {
+      "md5": "38c462657c626cdc9aee0e249574d820",
+      "sha256": "be8f493827cef08d6b99f8ecd9cd9bf6ff0e03a901533fffd58ecc69ba4aa446"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/ContactPerson.php": {
+      "md5": "643686c04508fcbeba7266b571f9949d",
+      "sha256": "af54b949253175389e74d0314e96e202b35a9e65dc4d2c6bdeb6fedf34d6b738"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/Contacts.php": {
+      "md5": "921b2fe00708c8a7afac4912aa4d3d2c",
+      "sha256": "fd7796f2908b56eeb66131f16663737a7d28918b922e3617c5a14d5fd1c610de"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/ConversionBalances.php": {
+      "md5": "0bb93740ee7ad3a28f61b5228927393c",
+      "sha256": "3dbee70d66ce7c5a6d79b78dd926b890b60aabfec9eb670536897ca8054054e5"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/ConversionDate.php": {
+      "md5": "91a4a8ccab40cd847a8493744d11cb9b",
+      "sha256": "675006bc448cd2ca80d87793a08df4feb54cca8b7d1093e6e7548556c8447e34"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/CountryCode.php": {
+      "md5": "1af5d40de1f463f0a931b40afd2f65a5",
+      "sha256": "34644636e07963b58dd577f0b6263d5c84f3272d3f07d41756cc8c1cf0091c3c"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/CreditNote.php": {
+      "md5": "415e50010301faf71cbb2b16a5a49857",
+      "sha256": "2b659b35add150af554b9814e42794d0f939f8d32b8c0357bf0af1efdf797347"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/CreditNotes.php": {
+      "md5": "b9b2e05d9a04011916051e018bff7d75",
+      "sha256": "2d70b79fc933474920e372e290cda647ec3572842bc64748994a39025efa94bd"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/Currencies.php": {
+      "md5": "90839d97e06b601eef4324f8775c41b0",
+      "sha256": "d5d1eadb14c6d6acfe6a6ed8cedb929d86540eb65c3175692f0375a2d4a27c10"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/Currency.php": {
+      "md5": "f80c28c8e6c2a7292bf0797d1cb3a321",
+      "sha256": "d589fdbb06ac1ff63688af00e9b15e364a36d00a3102df11b4410459986b0d0a"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/CurrencyCode.php": {
+      "md5": "b9cbfa0b87f2bced5a9bdd1126776b94",
+      "sha256": "7dc1a1e7428699d0e93ce431258ab492ee3364f8add00aa19034194804dfbc96"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/Element.php": {
+      "md5": "98fc9229cca11d353e994d20aa085cb9",
+      "sha256": "8a87e4a965c827d9bca64af2e3544d658dbb666b39ed2a9de4d05caf0e1f827b"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/Employee.php": {
+      "md5": "05653f8ab83cc42a3216755b9955d4dd",
+      "sha256": "e9e2dfa59b578ed3bcf174450d628ca1f1096a2eeda38168b2f305c2b2317c50"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/Employees.php": {
+      "md5": "f24e1c907737ab1ec348af6c4152fc2a",
+      "sha256": "403ecbfa38a2cc076e21a6615fd8f51a49a0bcfbfc06ae59337800852a409bc4"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/Error.php": {
+      "md5": "94ed008fe3bd79f831eeb846992df623",
+      "sha256": "4429d279873acb08891cff218fe87e6ea28cc5f46a3f443ab585fcaac8ba96b0"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/ExpenseClaim.php": {
+      "md5": "52396efed4c6fe6a2c8fe05176fbf7c2",
+      "sha256": "c40524882b6eda18af170e87e0bc4ec501cbc733c9de2876773329d6e72169b8"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/ExpenseClaims.php": {
+      "md5": "fd8092a8c48ea8c7d24f29e3c653b428",
+      "sha256": "66ce4593ce98dfa1002fd8b20abb2e745245cb24938de0f368cb3511facb8643"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/ExternalLink.php": {
+      "md5": "0d6e73218d0bdca5d471794aec826ffc",
+      "sha256": "0a4a4ed3c01444522d3fe01031024f3a810a1a61d1709a74fa8d89c76f004cf1"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/GetBankTransactionsResponse.php": {
+      "md5": "b486f86d94473a5e91bec66c59246f85",
+      "sha256": "649259dd087a1356e3eacc0d064e33a55263f1391b187ba9845e7548802fd767"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/GetContactsResponse.php": {
+      "md5": "3a4a3665bc79661690be5ea7c7949235",
+      "sha256": "19c33336272cb43ad81b002b7c00a0d61b75c1caff2ff8ffb8de2e674fc46299"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/GetCreditNotesResponse.php": {
+      "md5": "e0c708763452e9f0ab78470e3a238327",
+      "sha256": "242860eb1107fc92161e81f1a38fca342c473310820d3473c5733d4b3ebd6443"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/GetInvoicesResponse.php": {
+      "md5": "269412026dbba40e86d8460a7253c603",
+      "sha256": "3c120180e2a05561fdd19d31f91ec55ef315ae91e9111d5abffeea3c0e3aeb67"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/GetManualJournalsResponse.php": {
+      "md5": "3e9c9b5ef2a3778a87c8b1e5cf8561f8",
+      "sha256": "aa0576324f3eb1cdbf6f4814dd6b75b736bd466b25b1ba0e29f3725d1fe0adcd"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/GetOverpaymentsResponse.php": {
+      "md5": "ab445ba6f0f969776457107e1ea633a9",
+      "sha256": "7a05c809ab4bf97ce625c1ed1f195bb1960614de9950cc358361ef3a8e8e916a"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/GetPaymentsResponse.php": {
+      "md5": "3ac80302d3a7759dd9c8d3e3c143643a",
+      "sha256": "535e11627f214b3c18ddb729ee18275b6f6e1ae3ef5813234b1ae9f6943083e0"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/GetPrepaymentsResponse.php": {
+      "md5": "58a4ca39890713b7dd5e8aebb0e579a7",
+      "sha256": "30bfc9697041de388e59d1e02ce75a7430b196f7135d393584fc5ce66c211240"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/GetPurchaseOrdersResponse.php": {
+      "md5": "c1a737ebec0f5e52c70631833839e0cc",
+      "sha256": "da0084b67986dd037232c29ce5d9b0bc5517c58fd756ed3bae6a303814e883d4"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/HistoryRecord.php": {
+      "md5": "3106bd879fbf1ab270aa59b0aaeebfe7",
+      "sha256": "867c55a72efbac435efa3a8874d51b50e4665ee12eeb2536af6710db416c0f13"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/HistoryRecords.php": {
+      "md5": "4e39078a9976e4c942b71fb3b91ca385",
+      "sha256": "d7ffc9c9494cdbfd9ecf78de84dc6426bd65313ce8fe790bc1e1d5e4c24672d6"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/ImportSummary.php": {
+      "md5": "87d4bad232626ede3b1af908051d9db4",
+      "sha256": "17b88858cd888b272240538fb5570d0ba8e7bf751d78feae5ccb139611cf0b49"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/ImportSummaryAccounts.php": {
+      "md5": "eddbc91bc9c110ecfd8aacc62028413f",
+      "sha256": "a307e281b6dffdc0e38feadc63a84d2bf629b220c5c41082c899fc6135282eba"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/ImportSummaryObject.php": {
+      "md5": "926133ae2f11e29989e09758af476cfe",
+      "sha256": "8b08129089ee54c823532eced35b7724733ad5507392a96e5b8d37d40d4f4a31"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/ImportSummaryOrganisation.php": {
+      "md5": "6f840e32fb8b2c064bcea0d261cc8142",
+      "sha256": "31758da977d6c09aa59b755f7cdad4ffb1fe159a3a813369647e6aba1efa6052"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/Invoice.php": {
+      "md5": "9f07d5d45f1cf328d7a6d28e0fa92fba",
+      "sha256": "b1fdce5e20617d77b1af954e43f39b5e8c7ff23e7d8422608779dd95a8850065"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/InvoiceReminder.php": {
+      "md5": "a195a18e1a7066b17c2724074da5e467",
+      "sha256": "cb4053af7eccc91a295d77b06c549b4fa167bd904662675e3d95816abc4601c8"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/InvoiceReminders.php": {
+      "md5": "450cf4fffaad1f022349c756e95a042f",
+      "sha256": "f3c3ad18dea8f28a644821b92acd1db8df37c5c10dc70f8390ba3024a7fdc16e"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/Invoices.php": {
+      "md5": "08c24bb5f362be6068e3e7fde8a33f4d",
+      "sha256": "3bf8038dc087c8714d5d8e61fc960f28c8bbb0d2b26660f74e7ea8ca0d95694b"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/Item.php": {
+      "md5": "018c7c30b3e6294c7e73168709359546",
+      "sha256": "306826eb47f7e7871340cf8afc7e247c623d1380ff73b08221b7c5f96877ceb3"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/Items.php": {
+      "md5": "787568b2fc89f5fd12b6686100811105",
+      "sha256": "15276e1a33843a74d734dd693b513abc9b9c5dfc3d6d6b055ce23c98eaf84e82"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/Journal.php": {
+      "md5": "f0a773715c4fcb17ba3147a41417fad0",
+      "sha256": "0f99cdacdde57541a13412ff96f8d2a22d4a151a29da46098ed6af09269917c2"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/JournalLine.php": {
+      "md5": "cd911ba0e3ea597a4e2fb0a61c33a81b",
+      "sha256": "4aedac8a8bcfc750dfffd3b086411382b07e8f98feb64a047483647ab29c9b66"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/Journals.php": {
+      "md5": "e38dd8bcdca604e9c392eeae234b1289",
+      "sha256": "fd613aaa5c40d6ae40c7292de8088eee0bd91cee002536afcb22303065fe6e44"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/LineAmountTypes.php": {
+      "md5": "0d324f45964aad0bacba47daf4e5bfb9",
+      "sha256": "695f1f763e92cbffce23defca55184ee6dd143aeb63c66ab59303bb443e1b001"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/LineItem.php": {
+      "md5": "9c595804afdf94a2c8598b326b23f5f1",
+      "sha256": "96c55d3cc78535fb39595640b89f84c282cf4661fc3131f1a908209acdc417b3"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/LineItemItem.php": {
+      "md5": "31389f4ed79746adcbbf6647b1373833",
+      "sha256": "7095480d72b04feac1ace55085975c1dfc7fb6b18893a7a70a280e83caca5745"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/LineItemTracking.php": {
+      "md5": "d81ca0bb97177490575c7455055ec87d",
+      "sha256": "6461075f6d7d3cc87a2aa1c1bd2997bc184b506a5237982b18e1941ca70bd5ec"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/LinkedTransaction.php": {
+      "md5": "60790d13ec2872dc00b7cf70914f0df3",
+      "sha256": "9a4817d41b52aa4ded5a5fb199f135bcbac26b14fc28eb8258434c0027174d9d"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/LinkedTransactions.php": {
+      "md5": "43086fc1263a0d642e29183f97440eac",
+      "sha256": "2e4229b56b47276b5f0c9130416faf18b800b9a6df1519d541c031c8d12a74f6"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/ManualJournal.php": {
+      "md5": "ca6697080888c4b6edaec486127e9e0e",
+      "sha256": "97a2708e5be84073c4d29fa6ad06580da108150b310e0377d3225599e64c949b"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/ManualJournalLine.php": {
+      "md5": "b793485b771fc76031760c9b9657904a",
+      "sha256": "f393d453a771532a9e28fc57adf1a20f1bf614f03588997c4f9472a6af84f577"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/ManualJournals.php": {
+      "md5": "7eda657fbef781c56dd666dfa4d54a3c",
+      "sha256": "710f863c09655c3c7361532d135b65ad98c572ffa1fb3abd34234f07e7de389b"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/ModelInterface.php": {
+      "md5": "c2bd700bc0c03296387f9b5626f4fff6",
+      "sha256": "73740c70048467978acafa42ebd1beb4f10bb5b513f2d604f4aaa3509c9c1ce5"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/OnlineInvoice.php": {
+      "md5": "66fd8d5e24ec8fa567a14b0f00eb5bb1",
+      "sha256": "5749313bd1ebb5cf3259569610009a5819778ac1b00a3b3b1c16510e9f7f10b2"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/OnlineInvoices.php": {
+      "md5": "03f17dc7ed5c97438eed95e33377eed2",
+      "sha256": "61bd8ee7151edaf3194a897c0f5f1396a44fb914317bd6459259238d3d648b73"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/Organisation.php": {
+      "md5": "4be92bfea318b30e9c2b5af0422f30df",
+      "sha256": "02a64c54d564f2a5c855a391db38f637f97137a98093ba09a05257b403c7e5f8"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/Organisations.php": {
+      "md5": "6fa92d50b387eecbad9104dc182f6be6",
+      "sha256": "6827781b02202a1e9afddb3c72fa9d68575ea6d86ecc4a78ff2eca90caed30c8"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/Overpayment.php": {
+      "md5": "ad2526c925ec3ea5dd83767c79a7e98a",
+      "sha256": "45913cd345e9c81639f859e11b8ac11c66cc723473330c4a59e60c64063e1028"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/Overpayments.php": {
+      "md5": "7bdadcff6170a6a188729ce075fa2106",
+      "sha256": "e6fae3461a54aa003d764ff73f2fc4ccec99a003f2ebf55408577d9a75e5a551"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/PageInfo.php": {
+      "md5": "53ee7b3d3428d2b621573a7bada9884a",
+      "sha256": "7544b88f7b97a304df0988a679cf0e55db3115a9c8326ba410173434af9533d6"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/Pagination.php": {
+      "md5": "3551b1409ab415686039ab35114fa992",
+      "sha256": "57154c0ec621c308d7968ac543fdcf5c3ad0f4f542a7597033882088d1de6024"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/Payment.php": {
+      "md5": "bc00e4b034dbb1548e6ee2fb27d7979e",
+      "sha256": "45efb385e23e8fbe0ef821c14197f0878d6068412755ce0597016fd23466dcb6"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/PaymentDelete.php": {
+      "md5": "4afc54303e14b3d186322ebb0e763904",
+      "sha256": "082fe91f334d65f3211f8c6f212b4dce42a40c75fe5e722bdf2b925824c9a450"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/Payments.php": {
+      "md5": "0b58273559e40a97e463aad4edaae129",
+      "sha256": "49f8a62f7d96254478b3fe260c42593bb4d955425e4ffe497f97d72390a81bda"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/PaymentService.php": {
+      "md5": "c689c4e5aeae7b57b8513ea0ff767283",
+      "sha256": "53a867668792ef315a3dcc67c5b28394cdc493a6f9b7b91f8032678b5ab0a5d3"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/PaymentServices.php": {
+      "md5": "e9f80ca1b73325ab82149c723334601b",
+      "sha256": "f64625bd840c4e95aac111997c56310024d0e3d4e2bd0181ee6d505dfe31c4ef"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/PaymentTerm.php": {
+      "md5": "7b325e410e28f066e290821623be67e0",
+      "sha256": "47f037c529979ed6701ce4a94cc9926fa4baaa2cb95a70d0b3de72f2fdb7ce22"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/PaymentTermType.php": {
+      "md5": "2375d00ba92a4fbc304233a3eaa413bd",
+      "sha256": "0b2f4129335c6d770109e6a38f32a793be029cb15d76c577a9c5a5b3f332075a"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/Phone.php": {
+      "md5": "3fa1921726bfc920d5c090aa3596c758",
+      "sha256": "566f3699ad79a4e457b3700fb531c9f9f450a64342af9e6f6c72c64630c985b2"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/Prepayment.php": {
+      "md5": "5e3c548302402197b1ec5f7b5eb983b0",
+      "sha256": "95315c3aa545a5ea8aef7bbeb13fe15de34e1f590a0524679e9b5daf9a7a5f86"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/Prepayments.php": {
+      "md5": "ba6f2c83cdb60ca0d5c6d9cd300899d2",
+      "sha256": "8d5551229b031ae040f0af776d95d465adf8691416694aa76afe8816f5ffe781"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/Purchase.php": {
+      "md5": "9df9427847b4087edd35b9b16e900e83",
+      "sha256": "b59073e5e9df788d744dd33ae5d605bb5fd498e14f6d70243df12680d2dd2f44"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/PurchaseOrder.php": {
+      "md5": "8dc6fd06ef365b074194147bcfe2c681",
+      "sha256": "c79b70e32a093f54bc28d64492df3fe2f855aa97d0cf8fe4c61c807187d6418c"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/PurchaseOrders.php": {
+      "md5": "33148b445b4626284e79fb75e5031408",
+      "sha256": "b5d91a0b73118a958babd63e5d491bc3a376e374366efc2ac1d5e4596d6f7693"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/Quote.php": {
+      "md5": "8e9b35db530317eaecb75454815d0317",
+      "sha256": "e41a09b68be211c51ba02018a2df0f68ab87ec38c557c1cff173b524728d78a2"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/QuoteLineAmountTypes.php": {
+      "md5": "fc377b5ca842936d171d5f3ca75a1112",
+      "sha256": "ae50d63c73761518c7c303b20e268aa311c7fe19cce6c931a81bffc2df96a8f3"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/Quotes.php": {
+      "md5": "654f2e2a8a602fbf6c428e21b94cdff8",
+      "sha256": "b4d850e6e0be9743d61ac9e4b6ffc678baf7d053bf033e6f34216f5f542937a9"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/QuoteStatusCodes.php": {
+      "md5": "4f1e2e2315f13dae4c841a25fef945f8",
+      "sha256": "1d8de39b99f237066962aed202baf5afb4e58463c1fb4484645dbe590c1f7eb4"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/Receipt.php": {
+      "md5": "9fb978cbeeeb48d51b8a8d3047fd2953",
+      "sha256": "a24f3b990c1e2dd604acef87dad4fd9be506bfff3b1bd518190e27f26e4e000d"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/Receipts.php": {
+      "md5": "b0d1223f5bc29970fd1fe48dde16645f",
+      "sha256": "10d30d16c0e64cdbde3d208ddfe90fd03a1a1e8de32167a9b721aea6b90ae53a"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/RepeatingInvoice.php": {
+      "md5": "e47a23c661f2ccdbc6b90f5801c64cc3",
+      "sha256": "9ed929c0d07d0704e3561046be9a3864fa5699ff2ffe29a797ab5c518a905b67"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/RepeatingInvoices.php": {
+      "md5": "012228cdac5b82aeea6e8c4080976675",
+      "sha256": "1db0399b09b3011866f6872f85507a64953dec81e2a11eee6d7b4eddafd0e9f2"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/Report.php": {
+      "md5": "c496130dfa46b0140e8eb1aeb2aea1dd",
+      "sha256": "4c06527061624053b8a9ee24942fdd8210fa7ac45f31748576fcde85f2fe81a6"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/ReportAttribute.php": {
+      "md5": "08144259050c1dc95d58c61d3ee12c82",
+      "sha256": "eecd73dba282bfed804df9ca8baa1ad75734eddda97ddff946fd7576a46138a1"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/ReportCell.php": {
+      "md5": "3eef5f51750838b78e94e21661b4f1a1",
+      "sha256": "a1a52b0a96976beb551be660aded617b6654b318cf1e437b58fa069302835aaa"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/ReportFields.php": {
+      "md5": "63995499f9fc0d8d4318c0b8878a4a4d",
+      "sha256": "e1550842e34ddaf63775c61a8f39b1ea5518061cf7d52334b9fdcef29ccbe3ab"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/ReportRow.php": {
+      "md5": "0367fd4534a5348c61ceefefbd161340",
+      "sha256": "52f9c9b5e2fac816b06ee693b8bdb75cb5391cb20f6c63d4113a8a1100fe2631"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/ReportRows.php": {
+      "md5": "59d747755d2e5c6e49de0dfa40525a82",
+      "sha256": "f0ae9c3e107af3647e4367e620702610b6bbd7b034862a619f859cbed25d5f4b"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/Reports.php": {
+      "md5": "0422c4ee53a50f71b6f8019a9bf6c0b1",
+      "sha256": "d1188eda7362796c7cf9009ac8fa9832305a62216dd183a32d1a89760f4d69ec"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/ReportWithRow.php": {
+      "md5": "0a06cdebcc7445a085ae4cd8102fbba9",
+      "sha256": "cac274222c7300992b89f780a73c8a5932207f22b44d6c8ab3dda6e80822e624"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/ReportWithRows.php": {
+      "md5": "cc25e25d305fd9f0e7fe04a3d2593cb3",
+      "sha256": "ee9874d23e5d1ce15aa36e34c1625be2df0b8a10a8503de54c37d57d56024b9c"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/RequestEmpty.php": {
+      "md5": "aff35ffd39d5386e313bf3f8ebd791cd",
+      "sha256": "e48b38497623c9a2cd1fe48255efb5ed1b518581a4bf77e4a53e6d6601b187ab"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/RowType.php": {
+      "md5": "ad536db9469b254c48b84f53a36b3e89",
+      "sha256": "a5802a39adea4d5db610fc33d1e6a0a54cabca65a54dc4b6f05cd85de55fbe3f"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/SalesTrackingCategory.php": {
+      "md5": "31765aa4f8d406d4f54bd8cf88115b63",
+      "sha256": "050e180f46ff2185b2814495383f61f38adcd14e57070fe95e1e31a843ce35b7"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/Schedule.php": {
+      "md5": "e5b3fbd07d328d26d57753496c4b20d1",
+      "sha256": "e758fa20cea4378fa4d46bf8e32548eaf3ef9ce4af79cce3c7cba3d807ec37be"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/Setup.php": {
+      "md5": "a16a5692d8c8d40397237861a883e946",
+      "sha256": "d4f829d833cb3f0ffe9286b35feb14516b5292dddbc25d4e0ff0ec4986687ba5"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/SetupBalanceDetails.php": {
+      "md5": "ab43cf8805945c9f96614115f31c9f75",
+      "sha256": "7ba9a603696cda52c11975d7d624ffe2f9fd79298c78273e815048f7cbaf5db7"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/SetupConversionBalances.php": {
+      "md5": "881f1d317e1cec32f5f1a06b38a070d8",
+      "sha256": "130d85282cca68fad7e627a2a7070763099ca756a37fea9c6bf95f43911c78e0"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/SetupConversionDate.php": {
+      "md5": "1b007e2a01a5dbbb096fe21295daf4c4",
+      "sha256": "9db40aad04df6d1a9f22f84e5a525f82529ab60fccfe79f8c38a7b2f9d324b3e"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/TaxComponent.php": {
+      "md5": "de94ee7d274697614fa8dd87e6b10fc7",
+      "sha256": "ab63230a63bb97a8658de6c60b9aa0947feb6359d6e491761a8cc2883bd7ec23"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/TaxRate.php": {
+      "md5": "0cb07b6d0c1a1e8c77594b2d5c18e32a",
+      "sha256": "28f597c4c55340ef3387362ef174eb486a867085725c244ce75808b26986ef15"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/TaxRates.php": {
+      "md5": "5a840f6b7fe9feb58bd7e6d27a745eda",
+      "sha256": "0740b0ef1bf29a2640078fe29df38a9df898659dad5a6701b98843fbc95c9216"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/TaxType.php": {
+      "md5": "8cc8eda8711406b1260cff6cafa903fb",
+      "sha256": "6785e0d88933e7874a3a0f48def4033ffe02466023b9b72e6b6a4208b78529da"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/TenNinetyNineContact.php": {
+      "md5": "6e164b6db34bdefb9bf29fe92c7664a1",
+      "sha256": "ea1f88ec60cb89df2207859197da93b52d363a26517e5fdd6605036645cb7bba"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/TenNinteyNineContact.php": {
+      "md5": "b0b076dcafb58c1b53b8de4cdb07ec58",
+      "sha256": "6d6f48412234deba7ed3bb1efab4f77de7da172eae2ab968730be0d61fbca117"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/TimeZone.php": {
+      "md5": "06f2f76859634c0b02820a41faaa285a",
+      "sha256": "38347561f17ff5ee0b0d21683965e1b7f0d1c624764d5a24c921a3ad2cb14b65"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/TrackingCategories.php": {
+      "md5": "c3bff2b18260249d037020fc4d432901",
+      "sha256": "c7cda658ae1747afb8f3b201ef51216f1ee41f20d897e294e09216b2ae4d627d"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/TrackingCategory.php": {
+      "md5": "b75955c8f05f1255c60ed68d17565ff0",
+      "sha256": "973a62b01f32226ebfc4a7822a1c2e50dccec4a94d8fc1ee2fbe23efd20741fd"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/TrackingOption.php": {
+      "md5": "d8731cc9ad0fa9421bdbd5de2b3219dc",
+      "sha256": "4abfd8c3050150e794a8535a02968e38182a47ebdc2bd51241bda99b5f80e4ce"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/TrackingOptions.php": {
+      "md5": "131b4d85a5f0ca2c8f4d8c3a5340358e",
+      "sha256": "151e0f6ac69725fd7633bc1435bed03c550757a63330f9d9038f85b1ba55c89c"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/User.php": {
+      "md5": "a13c8ed83e85f2a47b8fc6a17ab879b8",
+      "sha256": "48af72a77e095b73962d9686b7d74fb35073b938c472adf629cff4f20006330c"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/Users.php": {
+      "md5": "576124472f2ec30ec6edb8113c6759a7",
+      "sha256": "6ed5b3fdb197697602c13452474288657d55caeb13bc56275fe4efc31e6f3537"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Accounting/ValidationError.php": {
+      "md5": "dd5b3d4859e50f06d4320215bb4780f7",
+      "sha256": "f0cee079f1e9706e840dc928e516d4ff412071d52f8913b50c3dccd27fa263e3"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/AppStore/CreateUsageRecord.php": {
+      "md5": "f6692f06da78263efe416a0fe7ece0e9",
+      "sha256": "da5767eafc194f7c52b5c62bd602dbc2faf2621df382462e5388416f63c5c4cf"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/AppStore/ModelInterface.php": {
+      "md5": "ec78a304070e539a886f6dfa146548e3",
+      "sha256": "3f8812f7b015223a2eb246f96e990ff46baa43fa5e4468db5b69a14f80db2f03"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/AppStore/Plan.php": {
+      "md5": "544afc93240d3f5f160c45b2990b0618",
+      "sha256": "5fd1ebcf74062d0adca65663983b141acd8ccb1456bbd42f2cba061633da1ac5"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/AppStore/Price.php": {
+      "md5": "19a53761fed6001c60c0bb9fd818c430",
+      "sha256": "27ed62ea17411b46ae44a82004b7e0e3d5955c9097686597be6b93cd23ee3f2b"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/AppStore/ProblemDetails.php": {
+      "md5": "a4416c02fc0efcd68b1c68bf31b75f40",
+      "sha256": "6b1fc08f3d03100a066f1650b648bcd74a1775a1669ef5d75be31e592944fb3b"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/AppStore/Product.php": {
+      "md5": "cecb107225f4620471d232afb3422b99",
+      "sha256": "e8dff16c31079fde4a6c3334853a122185114832ea0df00e00f6c8d0dd58b50c"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/AppStore/Subscription.php": {
+      "md5": "9be3da514fcccbd94bde1c0f905ff29d",
+      "sha256": "cf6ac61b7bb490ce127cb9d6c1a93d3774d271d6b5a7f7f364bf83b889837471"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/AppStore/SubscriptionItem.php": {
+      "md5": "1f75933f5fd491c446e88ae852570cfb",
+      "sha256": "c52dd1f54b47a0ca164368e2fcf0a0133e5e266f986456358ddfa1ad5ce2e7a3"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/AppStore/UpdateUsageRecord.php": {
+      "md5": "a16e661cba8bbee0ef24ed0fdae993be",
+      "sha256": "88d89638ca1b224f56ea2ea6106a0b9bda8e08a4d7e099d04321491ae85250f1"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/AppStore/UsageRecord.php": {
+      "md5": "c683e62ef5c2d755d333f567908e473c",
+      "sha256": "2906d4276fd8a74cec6984cc1e639e0cc8107be2e56891036db1c4ccb179454b"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/AppStore/UsageRecordsList.php": {
+      "md5": "c101d888b5e73aa5e668c46be2c45158",
+      "sha256": "cdc9b5a9795fe196f777ae6b3f514d9fe1a6211e8bcd2be7f5355bb19f48792b"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Asset/Asset.php": {
+      "md5": "577c42084728e4402e1b4f6f80dbdc62",
+      "sha256": "2fd9b3a0694a04ab82abd2fb871b2dea68806c3c4e47b07d73d1022d0097e368"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Asset/Assets.php": {
+      "md5": "6171c9d9ea1e475cb2f4c960d9e44258",
+      "sha256": "844fd7b947b069cf66465b7a100419588cb1ce096d2276cdaf1af7012fdaba6e"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Asset/AssetStatus.php": {
+      "md5": "308f4fb96000356f20ce283d8b25fc2c",
+      "sha256": "6268c45ee041a5e867413db7937b66d1d516f3544c10c45182c9f3f8e145a23b"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Asset/AssetStatusQueryParam.php": {
+      "md5": "135ce272ae3b6b547e8b5a2ecdb0c069",
+      "sha256": "25329c748f824ba4f687ffc90d3d999ea3fc3608ee56678355bae270f695a9ec"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Asset/AssetType.php": {
+      "md5": "06a99d8c154f7676cf6366094fac045c",
+      "sha256": "d387897f8e9ac33564c2582801f1de976576dac3d08bb61bdbe5398f7f0f874e"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Asset/BookDepreciationDetail.php": {
+      "md5": "165721f09177c9e23f1c739dbba42030",
+      "sha256": "e50995f0385fd3a418a27b3f1ab84c57c9db0800f5a76b42f1e783865ae1aef9"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Asset/BookDepreciationSetting.php": {
+      "md5": "d0583b6451f8a6b7d4c9bd43d6964027",
+      "sha256": "1836311a3e65b15f1450e8b8a75b0602c212515f4a2843ee8c4727af782e5dcb"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Asset/Error.php": {
+      "md5": "e1fc6c00316e63a9a436056d6906fc64",
+      "sha256": "940cb7086e5c9377f4c50733118db7edb3ec975859ace55b391abaf61a68115c"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Asset/FieldValidationErrorsElement.php": {
+      "md5": "6ae738b4a2d34989b3fdbe648cc0768e",
+      "sha256": "324f8441d1522d54ae1aaa5cb15663296fe78afbe40a7798846cb3d8ac20f044"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Asset/ModelInterface.php": {
+      "md5": "c70f589d310764a71d1773ce8df359cb",
+      "sha256": "78daf3a90b4b19d81e5cff28916b9fb812da30cb1cc42e1dde9d9328907b1dad"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Asset/Pagination.php": {
+      "md5": "80ff5047e620adf3ebd67b6500943ec0",
+      "sha256": "78f2100a4973b265d421a70b45a826eb4902a3f83b370284d6f9c666b954b22f"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Asset/ResourceValidationErrorsElement.php": {
+      "md5": "31b74872a7229b9634a41ab4447e00e8",
+      "sha256": "09b8dd9fed880b849f3ceb7dc62936fa4e81aaffbce6b75df3c6431fd0b9d53f"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Asset/Setting.php": {
+      "md5": "9e58c4ddfa1db9a2c04e837f0e705bb1",
+      "sha256": "676d21f82f6a8aad3337fc9f7e2bd9c8e895328e8fa1f018f9c7ae11ef1b39d0"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/File/Association.php": {
+      "md5": "235b46d3cf9b079edd4cf4e9b84959af",
+      "sha256": "9c953abd3de2c290be48805ed8896075cf4cc03cca97d39566a3fdd75e5513e1"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/File/FileObject.php": {
+      "md5": "c4fbe06a0d23e7b121c91db7088e693b",
+      "sha256": "2f53540365f73846e898a5c1e8b30ee4b4e7007309c1f575f0d2177fd76aa535"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/File/FileResponse204.php": {
+      "md5": "8bac0d918a6cc1b4d50e03aae2983d7d",
+      "sha256": "33ca6020698afa6c04e4f5eb9a06107d6b2a20f69a05a7f0cfc4c7303685ddf5"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/File/Files.php": {
+      "md5": "a8133baeffd1109b88f0130f8a8f1765",
+      "sha256": "8962a813c8520aa95ee41d63d44a5374183796578949e4b8cabc612d09bc5b3d"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/File/Folder.php": {
+      "md5": "abbc0c03f57163e4dad1cde133c8df3f",
+      "sha256": "fe86081ab7c7810555514e020dd658889499e831e3dbdc56bbf3321814188e3e"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/File/Folders.php": {
+      "md5": "d94a52d8d018253125e26456b26117b1",
+      "sha256": "158d2b7538ac0ad1ab3f17ed3b997f5705fa0c2286fa9b38dacad529abe380cc"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/File/InlineObject.php": {
+      "md5": "3a37c13e18cd6b65f823f3eef5e47322",
+      "sha256": "e1ae77dc5f42d275b9dbbe86e07045fd911d1e158ec924de020933d5a94d7241"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/File/ModelInterface.php": {
+      "md5": "d79ad27367c0406cb7ee4a58c1853ee6",
+      "sha256": "cd64ea082343e6230f61a6a8e35bae85e74187702b7df097e39e817beefb2bd4"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/File/ObjectGroup.php": {
+      "md5": "c406f50edf7cdc2c2456557aca4ee707",
+      "sha256": "4c947480a10e6da701db48119675dcaa34a27ae196e759af8071a614ffa3bbfe"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/File/ObjectType.php": {
+      "md5": "afd9e72c4c22fda2855faf9ffa0c0a4d",
+      "sha256": "6e75d1cdaf9fb7aae5aeee473efa2cdf69c7e1f51dba1bb0aff69503f3f7c77f"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/File/UploadObject.php": {
+      "md5": "91ecf5a3b9434e9f40379b7f3daa6aff",
+      "sha256": "61ded25a8c030efc055514e37682af53130f18530b8633e44196d6aa82e6b284"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/File/User.php": {
+      "md5": "31becf88aa26620ae142c158733ac230",
+      "sha256": "bd8500961ffa8f8b1f4cf12ae124a95d37c75cc7e6ecdf0b430d37f21344dc2c"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Finance/AccountUsage.php": {
+      "md5": "20eb2f6718d3b9c9ae98b14ef721e2cf",
+      "sha256": "e1705f06f8a1fde2ec0191d45a85b16d9073aacb0cece9b87bb68f9eaedb7928"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Finance/AccountUsageResponse.php": {
+      "md5": "7f557a61e2e58697486c3220ccfa28e5",
+      "sha256": "70f42d4bc40efd595ad1575adbf9f7b227ae7d5a4dc27741ba21a1c3459cadb7"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Finance/BalanceSheetAccountDetail.php": {
+      "md5": "f90e8d7b34dc8558a8fd1242bc64e3a5",
+      "sha256": "0901cd016159c46da07333019f09d0e340f29f1d9dbd6a47e55e4ebf847baa27"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Finance/BalanceSheetAccountGroup.php": {
+      "md5": "52ccba0d9f1d00bc3bc7ffcbe7a2ba51",
+      "sha256": "e946a13ead472e2069a1064661c58578982f149cfb1f122bc23bd73673f504aa"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Finance/BalanceSheetAccountType.php": {
+      "md5": "b9e3cf0da19fa0513a1f5b9e218a30b7",
+      "sha256": "616e1e448ea129c1c69a8616971f032f76924bccfd452f2ac3389759b1cb344b"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Finance/BalanceSheetResponse.php": {
+      "md5": "c8362ee4f8ca6b0561be8cdb24391302",
+      "sha256": "13060443fcfda1ee72aa46320a73ca1c60aa0b8052653e79d9e0150618cce2a0"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Finance/BankStatementAccountingResponse.php": {
+      "md5": "9c4cccb5f297ea25bfbc02f2599357ac",
+      "sha256": "aeed468126c4281e1e741c359432858dce51079c5e6c4595acf7ec22a641b898"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Finance/BankStatementResponse.php": {
+      "md5": "edfef4742d60abe0bcf4c78bb3012f1a",
+      "sha256": "3b3794f92276482d54ebf6609dd97806818b0694e9147cdca600584e945b67e0"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Finance/BankTransactionResponse.php": {
+      "md5": "82e261f8dc449ab866062dc6d5faf001",
+      "sha256": "34e8c69048405712619ef8659775121c7dcd680be22b185f088376c94e74e78f"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Finance/CashAccountResponse.php": {
+      "md5": "87ce48f7ac447ba16c8d95cfdbb539fa",
+      "sha256": "3ef0422804da90b1747ead79e48167208484cfe258e3531748fb768156f96a46"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Finance/CashBalance.php": {
+      "md5": "b751768567a5ccdddc189e08c397edf7",
+      "sha256": "be5d9f43897d6ea40051684d1d4a4cd6ea7a9da7bf8dea3b6c444c9324e9c67b"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Finance/CashflowAccount.php": {
+      "md5": "215787fd5dfbb1b92e18422b3721a127",
+      "sha256": "c6a6c6b6a2474feaed624d09e99f15e35751249e6f491ce373d93b99cac43de4"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Finance/CashflowActivity.php": {
+      "md5": "38c6d5cec94c7a2dd64c25d0766e2b43",
+      "sha256": "72ab3cd4014d2b5512865e9179f9e56afc27e7aeb1b77f9d71455835cc6bfb1b"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Finance/CashflowResponse.php": {
+      "md5": "f9e05cf3628cb3c6f6299f4ccec00c66",
+      "sha256": "7cc366f468d30b725f9d501563cd652a633a57f212c88b5229ccb499dee5fb39"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Finance/CashflowType.php": {
+      "md5": "659c270cfd7f86e747020dd93a0b26d2",
+      "sha256": "ddaa5ce7cdf639a8aa65850706c10d22fbf8c566c9651a943d38b942385890cc"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Finance/CashValidationResponse.php": {
+      "md5": "ce148f9638c29d8c802ad334af291190",
+      "sha256": "26660f9c4b54d2f04733045aa3b869658e482b82686eed5300ac66a023dfc87d"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Finance/ContactDetail.php": {
+      "md5": "e936468d3609153a4725c26963f65bd8",
+      "sha256": "f1fc6a182b43b9bcd5f5e2c32dba8a9a28c13001d3909b69c0b59304a45fb9fc"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Finance/ContactResponse.php": {
+      "md5": "8a1c307d9a11734c38ca55b797a332df",
+      "sha256": "1ef140e88111189cacbf81e39d0c969e28fb38b02dd9c37f589e5eb4b2990e66"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Finance/ContactTotalDetail.php": {
+      "md5": "58d48bf0585323446c66e1db69cbebc9",
+      "sha256": "80f2d9e633414f7d26b60444f4cd4fd06a746896b5e4018d53569e8f16076495"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Finance/ContactTotalOther.php": {
+      "md5": "4a0abdb78d9b92c154f7f6f35be2d833",
+      "sha256": "1736a17d4d049320a2294913b23f1a6aaba43f51bc332d64b309bf0db9253409"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Finance/CreditNoteResponse.php": {
+      "md5": "124e085684fc2c9273227ef7dd9e73d3",
+      "sha256": "b41b228668e5a86d8f8a383b8ccca56e7a310d226b1c1b019c600e9965538d4a"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Finance/CurrentStatementResponse.php": {
+      "md5": "c5677676f6945a47a2e7933cdb5d5a52",
+      "sha256": "684f5ece42d9aaad92572c28aed83f0255c352f2c4032a23f34588fa6dde5ff5"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Finance/DataSourceResponse.php": {
+      "md5": "c256bde79454cca2a4d08c8097bbc5eb",
+      "sha256": "1928fd9f890391571fb3bd86f8414cd0f1df3bb32db9a7bf85452537744bf0f1"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Finance/HistoryRecordResponse.php": {
+      "md5": "f01f46c26a91a68dc77b475e482bf922",
+      "sha256": "a730d44369d243c401921251c2b982951882f306e970c3a2c33752cb320d4d6f"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Finance/IncomeByContactResponse.php": {
+      "md5": "94d141c9671c71f973b4a6aa376985b7",
+      "sha256": "283dde50ca93721e2194272012ad916356e7b5c26c1f2a675bed0c3b61752464"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Finance/InvoiceResponse.php": {
+      "md5": "ff52ed390699849eb1c49c1e82663ad0",
+      "sha256": "0998829ff46b399289178e677d86390e621ff5f1b3ce2d5b37a3211f1c87c3b8"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Finance/LineItemResponse.php": {
+      "md5": "b2d6de420bca5647eb38ee6bd91fb93b",
+      "sha256": "d56fb70f9fde7505c0d4d79d4ce4434a0f7fd198573abf9c47eef25ed3a4c975"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Finance/LockHistoryModel.php": {
+      "md5": "eea592204ad0151d79fcaea6d4cc284a",
+      "sha256": "023f3ec2f7efc99d18e86cd25e92dd8f6ef37ebccd93941b029411630d93c8f9"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Finance/LockHistoryResponse.php": {
+      "md5": "b10d8d4a1561b870632311046c2a958e",
+      "sha256": "fc75b5a6b5f896242ae11f7ced2c3aa5c187e31c742178f40601931faacbd2e5"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Finance/ManualJournalTotal.php": {
+      "md5": "2d6b40912e5117c01f95e26c5f6b06a2",
+      "sha256": "0ba3eb8f0edb8bbcd6f32ab6b643dc62c30c625c67dfbc88be553b99b4bf597d"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Finance/ModelInterface.php": {
+      "md5": "2c532b31f9a2e1a64dcb57cfd1f61e9c",
+      "sha256": "354722b0668fb008508f397ed47ef0bea65b69861e877b3ba509c072f30bbbf3"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Finance/OverpaymentResponse.php": {
+      "md5": "88883c76ada6298d9124cf2526f59016",
+      "sha256": "a537ad0a377f1ab0acfaf22e5651e44affd8aa5b61f29a62c02983d34f2f15e5"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Finance/PaymentResponse.php": {
+      "md5": "1fd553c4bb1f1afb4ec887faf4d01b77",
+      "sha256": "3dc795266545de87c4bf7db85e16e981c01cb320726b0ae7052a4404df6e0c60"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Finance/PnlAccount.php": {
+      "md5": "7759276fa550a13d90392427cf47fe7b",
+      "sha256": "26c36c13befa100256c2a6c6ceecb2eae39952e6109e226891d4777ac23bcba9"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Finance/PnlAccountClass.php": {
+      "md5": "a38d58f2871310ca4e6ab56dac1c5f73",
+      "sha256": "d6d319b49e46af22cf0f0f02ba67ec5276ab7749cc31bcb447893abd422fc7d6"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Finance/PnlAccountType.php": {
+      "md5": "850621ed793930cd2fae0eed6ef27f9d",
+      "sha256": "c4ff3c59e309827de2695818469c8daa908fae5c23f1645bf12b2844c8d23336"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Finance/PracticeResponse.php": {
+      "md5": "b0966a20ef9981217d36d67b3e7b5b9a",
+      "sha256": "d1bc13e75cfded2866b4b3da9c82b8eef0d935bd14824663b4f66b80f4374aaa"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Finance/PrepaymentResponse.php": {
+      "md5": "66c957740b0be1ecb23a1fb46ca02f44",
+      "sha256": "07d18b70d314882cd6c265927ba6e5f10a78aacac5050c994104fe279483eb90"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Finance/Problem.php": {
+      "md5": "0b741064ca7b263d45a54517b04534f5",
+      "sha256": "9f26f407a7310f90cf84aff30305b7e010bf13b7c1949466da55e35afe84e75d"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Finance/ProblemType.php": {
+      "md5": "abbbfbf426da0786dd14097b4043091f",
+      "sha256": "c24111e74d99682c1e774fc568a07d0b95912da4db0b6f72edd874d46b3d6112"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Finance/ProfitAndLossResponse.php": {
+      "md5": "e8c3d22477cc9e547ca78a71121e5b70",
+      "sha256": "af8350cc686af84a7dff2c9bae12254a774d2aa30f844d0f4eb14fe60668d0ae"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Finance/ReportHistoryModel.php": {
+      "md5": "9e559953fcdfaa0cb5066b0a56852928",
+      "sha256": "cf5d56375015b697880009bb3e3d3897348f992d54e0454d7544e7a4856ab8a9"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Finance/ReportHistoryResponse.php": {
+      "md5": "7e0ef8cb8b89696c5f956c823c627c0b",
+      "sha256": "20dd36524ffce6efab0a6200599ba40b9230b295c5f911df295eb2f8925c69b2"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Finance/StatementBalanceResponse.php": {
+      "md5": "c76eea5122b2204360a043c4111d6eea",
+      "sha256": "865acc6aa77935f83cfce62c09f4bdffcead559678a6aeaf82261549c11a913e"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Finance/StatementLineResponse.php": {
+      "md5": "dd39153567a42358f231f619aa5dc887",
+      "sha256": "341f64ac0d9e38080451a88d701f9644c81dd0c7add44cf4f60421bb27d99118"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Finance/StatementLinesResponse.php": {
+      "md5": "14e4ace7187361acb8fdd5207404cc96",
+      "sha256": "210847464eadd4c5000b26a1de7e90abae14e9a935abedded53fed624c678486"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Finance/StatementResponse.php": {
+      "md5": "c7884ba7b539431799c097d42680375e",
+      "sha256": "59737a7c03c4c5635cdbdbf4cc67121a6fe32d527339b9e20a95efac99c566cb"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Finance/TotalDetail.php": {
+      "md5": "018a744cc9ce39b8a1a09cc9b7c3f8eb",
+      "sha256": "d35f03861c902c9a1e5c0352f0918e3705158604ac8fb380b16f0df878574527"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Finance/TotalOther.php": {
+      "md5": "6f11b32daecba8f1b2ed4cb9a7df3b2b",
+      "sha256": "5d093afb6cbe16d368ccd4d4b188f01a40590d51b5df719b5fc35c5cf9738290"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Finance/TrialBalanceAccount.php": {
+      "md5": "2f2e2bdb812010b6ea8f01d1e6b5ba6d",
+      "sha256": "cd5f18549b9c5bf217ceeb0d2384b536106a78d2375c017857ee3aa1467c9dc6"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Finance/TrialBalanceEntry.php": {
+      "md5": "c9d2904d5a0d39b1c0fc4c8bb26bd8b9",
+      "sha256": "2623debd53d42b0f2d5dae6b5afe714773263a8b1d3eb4b0c1824e2957fd623b"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Finance/TrialBalanceMovement.php": {
+      "md5": "fda62fe63e5ec7157decc725ae682358",
+      "sha256": "c7d2f269fdf29f39697ef5707e398e9a54da82aff7447e97418c6dc6287ab538"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Finance/TrialBalanceResponse.php": {
+      "md5": "4213c522fa4536bd0af129a4823b1a64",
+      "sha256": "7e97da5b5ab88cfe836a41d79cd43fe5d105be28df0d28162df21b182349a107"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Finance/UserActivitiesResponse.php": {
+      "md5": "c414a0ab52a365b0046668ec846cb900",
+      "sha256": "61e72869f3f073e3e7a24baf54f0a785b81cd697ee4782c1bbba621e5e3527ab"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Finance/UserResponse.php": {
+      "md5": "7e8a6886485907ea47dd4d99c0f8c55f",
+      "sha256": "dd36c45ffebface5105a86d014b7721418bdffbab0013f64550bd692a082b98f"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Identity/AccessToken.php": {
+      "md5": "d5106563f6264ccbf3aa40e4f5d73890",
+      "sha256": "93afda289d5b2314e21a0071094c26473f501c8f163339c5349bac6cb7c28f43"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Identity/Connection.php": {
+      "md5": "8c0e7d1584a3451df5dc79d270794674",
+      "sha256": "e1e3d7a74358e71aea05dc239bc533d0e5edf6f708985ca50cb058bd7928f1cf"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Identity/ModelInterface.php": {
+      "md5": "247dc126aa4e68a84db9f1f7fd3e7400",
+      "sha256": "1a54fa46655b2ab4851e6986f6c89b861da2465f46a2fcc02abe80aaaf91c858"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Identity/RefreshToken.php": {
+      "md5": "e0a2358a6cdd79ead4f7912cd055bc05",
+      "sha256": "b3d67f8d3f7f2fe66dd17941ad07bd48acc5d6cf4134131263890e9fcc322d25"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollAu/Account.php": {
+      "md5": "2e70436390c6cbacda82c400c3d9c2ed",
+      "sha256": "4286b142831553448ba426a1c487a8bedfe316025b39fc415e3807e7dcdda85f"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollAu/AccountType.php": {
+      "md5": "40bcecd9b18e88c61b267e67575e5d84",
+      "sha256": "aa9b353969c11799c9470652a30581cbf205dade9e63a7bd68ae065a796474a5"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollAu/AllowanceCategory.php": {
+      "md5": "4d732552814252844a763312d773181a",
+      "sha256": "aa19a8f43af66793b474b1d91bee03b52123463148990bc02f28604f02c26750"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollAu/AllowanceType.php": {
+      "md5": "02a4942c573c00554ccf158e67a1540d",
+      "sha256": "75a88e6c8d8bdf8acdfdc5b6abc767e3cba6389eea29ecfce4c5da6159ca26e4"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollAu/APIException.php": {
+      "md5": "7ffcff2a398311c4829c382f5e7860ce",
+      "sha256": "0e8f4e5d7057e84565c7715c40fb468acc3058a7acd4139113327cf7fe395499"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollAu/BankAccount.php": {
+      "md5": "0500881f26c4861e8b7b97fd3f136c29",
+      "sha256": "6e82d1062c805051f2a52cd8390ed20a66c4b9f61095be8da3229d8f12978057"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollAu/CalendarType.php": {
+      "md5": "2b59239cb574a8ece075f3c4c5cbd8b1",
+      "sha256": "efb6ca2c1c4a634a16fec393b3e28175a60a22f1d67d1520dcd1b5779fe8dea9"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollAu/CountryOfResidence.php": {
+      "md5": "947ad3412df74caf77ed8ad9abacc18b",
+      "sha256": "b4c3fee815d16429b26e101bc042c4f974b09c7e4d80b228373b82c34f9d5ba1"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollAu/DeductionLine.php": {
+      "md5": "3c9b5456e125673ff705f211c7aad0c2",
+      "sha256": "0483d5ee4cba5f8c28d629ff9881c77f6cd36dfbadfe984639760880b5cc120c"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollAu/DeductionType.php": {
+      "md5": "0b06c1f905c3c79952234ba8142e951c",
+      "sha256": "f9fc0dffd48c35d036635182fe6fc4f6e84b3b1853cd5b46fe9cc292b1e67d87"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollAu/DeductionTypeCalculationType.php": {
+      "md5": "3dcd3be6d39197418670edf3c7d4fd1f",
+      "sha256": "7e93283f97174e5a506924296d38fbd7d1ccc92b646694fbc1cb2bc66557d3fa"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollAu/EarningsLine.php": {
+      "md5": "c6160e1f2ca4a9c2a4ac613f5cb7572f",
+      "sha256": "b2d2e4a99b906057eb4242cef7dbe4dc9b1da9d1eafbb2962b4e53ac5585ddb9"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollAu/EarningsRate.php": {
+      "md5": "f1f5d9275eca8e7411b86dfaad728814",
+      "sha256": "86a3e8d409c99d4cb4d5f09123362cb5f2faa6e3e28de5558fa17c9a2b9027ec"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollAu/EarningsRateCalculationType.php": {
+      "md5": "2b49fca89685bce7da9809cd27bf508f",
+      "sha256": "5827d164b47c0835ceeea8d21de1f3cbcf4d0036ea5d52ea123c1eda072bdd27"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollAu/EarningsType.php": {
+      "md5": "a8a258cceaea13b47d5138113d17482c",
+      "sha256": "444ebfdbb3b4ff6b6d9d637d94d1f65715f3ee2ea7f35d2a8987a64096ba3014"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollAu/Employee.php": {
+      "md5": "c1898767605d6e5f8ff2dc3aca18b82a",
+      "sha256": "880ca71b48bb11cb9f31d661e629d5e84a47c301ab33decc2f3c307e4e9c2fbd"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollAu/Employees.php": {
+      "md5": "429259dee5942634d10f75df74a2e8a1",
+      "sha256": "7efa308affaa99f6c90b9dfe456e6032e1f9545541d6b1b29616327a89b27594"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollAu/EmployeeStatus.php": {
+      "md5": "829c42f88959eb82889a0a9cb421f748",
+      "sha256": "07ee468b756ffbba7bf9768fccee4bdf438587da8b31d4d65e0aa4961244f960"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollAu/EmploymentBasis.php": {
+      "md5": "0e39e669f5c29cfe5001a11286b13d0c",
+      "sha256": "f6cdfb7978b4124c8ab429c32bb01c9790839217ff6aad226e4c96afaf79cedd"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollAu/EmploymentTerminationPaymentType.php": {
+      "md5": "5f5762d3492894e1797210bb9b3355d4",
+      "sha256": "6628159ac50c31820b8be6ae8b638f94a8d3a7b8fea4a4862f652ab0d637fef0"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollAu/EmploymentType.php": {
+      "md5": "476588a09f62aa98706bc5827e314c2d",
+      "sha256": "b5380254f890f1b61caf638f94a349e6c7160bb13e5d6773a635c2bbeaaf0a9d"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollAu/EntitlementFinalPayPayoutType.php": {
+      "md5": "a0b30adeb2432a87fafa623e59ed4aef",
+      "sha256": "8b2da16acef3d222b738d9de6a52d9801fbd228f59f73640d2c30f7244d6a5a9"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollAu/HomeAddress.php": {
+      "md5": "91add741c375c45d5d9a1bc1a737a1e3",
+      "sha256": "53941fbbbed8989321e120d9e394a8cc157bf88a5b1d3af16b6f4ae0e9135551"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollAu/IncomeType.php": {
+      "md5": "1c56e12cf7bcac1815dfe0599f0193d6",
+      "sha256": "cee0c6044c20f11a68b531241ea6eb2a321d6b487456e4f6c421055a76422f96"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollAu/LeaveAccrualLine.php": {
+      "md5": "a406fb6792862f48867c118c603781b0",
+      "sha256": "1ae89f562ea6e61d7d84383e0c6289fe8a0f88c0c4dfa7e3f171854cd6eeab5a"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollAu/LeaveApplication.php": {
+      "md5": "583de9dc52040c390f7e991ff807e74a",
+      "sha256": "372bfe0889bcde6d32bc00afe39498a7a2b36ef46af28e3da1acda0e396a571d"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollAu/LeaveApplications.php": {
+      "md5": "0914cce3b0d464fea62c4b8a7edbb5fa",
+      "sha256": "5f193086ae7e81713e2896af7b9e7ec876e5489bb3aba9fb8c8725853520681f"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollAu/LeaveBalance.php": {
+      "md5": "98adbc3b5bd098b5dc31767aeb1fb9a1",
+      "sha256": "4dd9d190589f6fe152cb69d2a86b906f54b0c688dd92ab090d85fb96bdcb9205"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollAu/LeaveCategoryCode.php": {
+      "md5": "52aa2325b4fe73a4a710b7c451299210",
+      "sha256": "4ca74ca969cd6b498d82b8e4ccf0eb0a0a3baf3a0c6b86b980e39c817b231f0a"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollAu/LeaveEarningsLine.php": {
+      "md5": "bb409d48a486f321730b7414a440fe51",
+      "sha256": "cf1a1ff00a085cf3a9c3f3a42b3ebca20a529d12e83d668daaa7a8ebc91a0f5e"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollAu/LeaveLine.php": {
+      "md5": "cef24009b3c94c47f2374fa972ce3ef5",
+      "sha256": "05fa04273e01e9bd2fdc3f9e6f7459832035953709e398fa1b35313562e4fe22"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollAu/LeaveLineCalculationType.php": {
+      "md5": "b289533cd05cfa786c7d74bb81d8ee2e",
+      "sha256": "5c71a4f97726e8d3af92f29a6eb45d9a8746ffec4e67c59685ee39f97c1676a4"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollAu/LeaveLines.php": {
+      "md5": "78f116969770648f4ca0f80f43dc8ef3",
+      "sha256": "9af8f129162b732baf6c920d6a3e6506557f78e01376d39ad95ff895fa7e0d2b"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollAu/LeavePeriod.php": {
+      "md5": "ec9358d241b0825915d28a290e9609c8",
+      "sha256": "a77165079fc0cbfb3d904720e9780e547705d0ba1dc33b1618ff83114d89f08a"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollAu/LeavePeriodStatus.php": {
+      "md5": "d438e88c3a4395255e3d4730999d3bda",
+      "sha256": "5ab1bee827111d758b059b7a06e32277352cfe7be17d7c71b9d0e5a8b715d9fc"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollAu/LeaveType.php": {
+      "md5": "c1d0c516d6cdaeea13374f0116586370",
+      "sha256": "a37419e2e7fd04a872dc8e08e5cc52f51ab6673d58199aca95963f691e28c68b"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollAu/LeaveTypeContributionType.php": {
+      "md5": "40230dbf1bbf2b64d5c0c44be88d01ba",
+      "sha256": "3ad28ae0c35d21ec365cc3ee619628ca205e0ee360de0d03b4f1114ce15fb821"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollAu/ManualTaxType.php": {
+      "md5": "c51693a09f333a7399c0ec676f510339",
+      "sha256": "1f96035618ddca56addad9bcc25de9cc0c591e80b0220e364caee5f8bd5b8c5e"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollAu/ModelInterface.php": {
+      "md5": "46b75997c30b2e70d17409522dae61c0",
+      "sha256": "ab57ac7d7ac8f5a46e3847f629f609c315b927ab4deaca03453832f9041cdb94"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollAu/OpeningBalances.php": {
+      "md5": "6ee09ac00a12e6e3ba2f072dceccff91",
+      "sha256": "75ebb706186dca38fa403ba2bfc24f6bdcc3829b7edf715bbeeb1b92eb0681f9"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollAu/PaidLeaveEarningsLine.php": {
+      "md5": "a6fcaef46eb0ed6a66261ce8d5b5634e",
+      "sha256": "127abbbe75d451964e6aade33a3d7980354e0acaead65befdeb7684cb9134dc4"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollAu/PayItem.php": {
+      "md5": "7cae51ce40e55c3d68ba92c27025dd14",
+      "sha256": "1f6a488d5e0c54aa2628975ac91ed8a6305594c91b5ce8563b56a9f610447a22"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollAu/PayItems.php": {
+      "md5": "99246eea70aaf766ee55d8434d009ac2",
+      "sha256": "32870dcc6cf3e20c2b02084460a437ee9a89080e8d86ce1cd64eda7a171345cf"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollAu/PaymentFrequencyType.php": {
+      "md5": "acee5e5a3308932d025c2afb4782566c",
+      "sha256": "96ebcf6ab1d8acbb89af246e6f0c2a3821c72451a0be60b9a61899b491678233"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollAu/PayOutType.php": {
+      "md5": "fc4e7176101cfd453f5dc7fafda2ab4f",
+      "sha256": "0b84b037e5e18ef37db4cf24440048684c39460a21cdd41c6b133856d45e8f43"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollAu/PayrollCalendar.php": {
+      "md5": "c5626cfc666b12dc86435227a10fb4a3",
+      "sha256": "7e172e87ba8e962a2f884c7681b54838b9998a7abefbd5e120c1a92757969c13"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollAu/PayrollCalendars.php": {
+      "md5": "954b615cc4a3c0de5276bf74ad416e9a",
+      "sha256": "816c5aae0c4d4dc34606b2082a324103bddb439b3d79acfc93b5bf35777e1ab0"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollAu/PayRun.php": {
+      "md5": "6333c7b1715f75c87c1533e1d607652e",
+      "sha256": "f98d68bcc8d52a9fba2978b28717eb9eec30626f0ba24e5eb4e43300ac3d21fa"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollAu/PayRuns.php": {
+      "md5": "8117fb9343487de9e7361e590db84345",
+      "sha256": "b34c63572288ae4cc4df9c3a81e90360e0a6b7719014cdbca34a6f51190a8854"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollAu/PayRunStatus.php": {
+      "md5": "89b8dede53a8fcc980650b23f306d647",
+      "sha256": "9d58a05b1430adad911ce9fd877b122752c853a443b788530db987fc0dee9fd1"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollAu/Payslip.php": {
+      "md5": "f1acb14999ce2f37a467ec572eea0f62",
+      "sha256": "4e3e070787edd44b8d03575fe4f0955f6b5b277cc7cb9df73f9f16a469aafa03"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollAu/PayslipLines.php": {
+      "md5": "3d99a42434c40641c1f4f4decc673e9d",
+      "sha256": "47d8535c1b852f36a186820e2fe5bf9f34190a2e03567863d75471435d9b21ff"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollAu/PayslipObject.php": {
+      "md5": "6350fd12e1c6de40a6db7d69701e844f",
+      "sha256": "ee633fde02dabc2710ceb90b5c645bbcebce5607a28b58710e785bfb1b1e1fc5"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollAu/Payslips.php": {
+      "md5": "49a46de9613587be6d1e3820ebd617ce",
+      "sha256": "d23d3cebd38d5afa44637673758731f61481c3cb835475226072f24babbe771e"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollAu/PayslipSummary.php": {
+      "md5": "a6031512b3bafeb40bd899f775353c7d",
+      "sha256": "dc0b87a57245b32c84bcdf72101c60d0d5c5f67bb7e56781255a571ef8ac68b1"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollAu/PayTemplate.php": {
+      "md5": "46989f8c6f364d9953f31998407dc6ea",
+      "sha256": "95795a0e8c6760bb4903c91a5d6d7dc1f94e9ec4faf000c95f920b7231ef0afe"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollAu/RateType.php": {
+      "md5": "257d975253bd7c0dfd7b85a1504362cb",
+      "sha256": "ad1cfacf1c3d867a70c0aaa88578f21d55158b4b4255ad012a810682dc68bd5d"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollAu/ReimbursementLine.php": {
+      "md5": "7faa4be946e230543448e47d2f8fe7eb",
+      "sha256": "5482763a59c87d3f1d87a326d018cd65093f2f16fc080e3b909be964f1ef82c6"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollAu/ReimbursementLines.php": {
+      "md5": "c160a1eb9a3442aa6001622d488af34a",
+      "sha256": "785b60504bfb40a972fe3576e114206dfa6ee181a07ab6ea8ed847264fa86571"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollAu/ReimbursementType.php": {
+      "md5": "c5273fe9488e082f5f03bf84bbd8ffe7",
+      "sha256": "6964ce5ef5445ca674a2619bfc513a601b4d8e1b37b10b41c37fefc57493de43"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollAu/ResidencyStatus.php": {
+      "md5": "be7e7ae8dd1f39820c02e380e0362d52",
+      "sha256": "494ff0652f2f7cc33578ffae49cc4fa717769fa78af617fe1e95a0fadc1a6eae"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollAu/SeniorMaritalStatus.php": {
+      "md5": "76d9e851dce352b697160b883a31ada7",
+      "sha256": "207b51353a82fd3d0c10ef548c375f190dd12be39cd8f3897fec26e70d4f7f76"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollAu/Settings.php": {
+      "md5": "8b05cde3a6948e55fd55df8422a98254",
+      "sha256": "90dda621e7178dd1ec3277871a268b6ba3b399eb6d52dbaf285054012642f563"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollAu/SettingsObject.php": {
+      "md5": "138d4cd1a14aadbc30ef2eb08056de07",
+      "sha256": "717567723ca1aa7f5009ec049eea2980d0dda18a48c8378a9fabfd14a79aad2d"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollAu/SettingsTrackingCategories.php": {
+      "md5": "bc00c78f43ca39b3eb20e2efcdbfe76b",
+      "sha256": "a20b31ce4d5103176ba45497b69cf51cec2bb681dc6b4643497d7f17f164feb4"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollAu/SettingsTrackingCategoriesEmployeeGroups.php": {
+      "md5": "bb395ef8916bd3e18a1f19deb4e0ddba",
+      "sha256": "12081271b02006b339079ceaf4f541f6e2938dc66f73085e129f422e567774e0"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollAu/SettingsTrackingCategoriesTimesheetCategories.php": {
+      "md5": "50e28af5fe1b343c800f4f76bb6c1dc5",
+      "sha256": "280292c32454b8335d610b8bf80ccf6810ec1859f2383208f45eec684cfcdce8"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollAu/State.php": {
+      "md5": "95a28ed50a29e1acc2794cca0b73debd",
+      "sha256": "f5a5990c38b75ccdfee0d2212ba620df8f8dd4a0f8f9705b8eba2dcafacd4475"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollAu/SuperannuationCalculationType.php": {
+      "md5": "40e77d51d95b2da7c6422a7320fe781f",
+      "sha256": "2940e2ff0cb948674fe50ab42ebdd44065002908e70d62c5e1efe956128f6b81"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollAu/SuperannuationContributionType.php": {
+      "md5": "9d9c395f887d7bf1df0e394557e32ee9",
+      "sha256": "4302377a92b6e0936604874a0c9706fd3c84c6b4905c17a56853cca35eb02ba9"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollAu/SuperannuationLine.php": {
+      "md5": "36a5286cffb81480b2a8f62621fa47e6",
+      "sha256": "7c10502854c539a423118eaf768003d5c3a5141aa1e452947a47d43d12a87fd6"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollAu/SuperFund.php": {
+      "md5": "aa44d1717afda694191072f949fa82ca",
+      "sha256": "bf5746d7ed60df8fc9d160dbbc257ac6ca0c4a0f17af0c31b0a4288a1ca59dd3"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollAu/SuperFundProduct.php": {
+      "md5": "9962a0500bc12c154c90f6efca802bcb",
+      "sha256": "34520b5a11d818eb7f94af934127a450b2100cc6d9ffaee44b3a2c420d221949"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollAu/SuperFundProducts.php": {
+      "md5": "39e3c90b3416e10e35471261f6455ae5",
+      "sha256": "241059872f862938624b6fff7f5934fbcf799708df3e1436528c175c4ca4c713"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollAu/SuperFunds.php": {
+      "md5": "33b307672965db9a1110c5b8a77abf4e",
+      "sha256": "a6f9efa8bba1ea7e416dfb5eb3fd1ea10d0fd2b07fb340a835373f9c1d5e9747"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollAu/SuperFundType.php": {
+      "md5": "7284f7e12d9769beb801a4a007067e24",
+      "sha256": "4e35326231e11f086352d2f4fbeba68faccbe870230c92b0d42d3bc0277972df"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollAu/SuperLine.php": {
+      "md5": "09aa861c25c63398d89ea900b60942a5",
+      "sha256": "1260fc9f47afe52ff605b764fd785702784c8c3ad673fa9ef0da3b85b1c144c7"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollAu/SuperMembership.php": {
+      "md5": "d4e798a679a12f356ad8d2c6ec3c160b",
+      "sha256": "a48805c712289901de0de1a1653aeb544eb93f816bfc17a7ed254bf905c45b9b"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollAu/TaxDeclaration.php": {
+      "md5": "65607dab1ceaa362258e2cc9459e4345",
+      "sha256": "11d07fb773e00949420f57f9bf676f4ad5e1846d8f75a74e36f68cd9d804832d"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollAu/TaxLine.php": {
+      "md5": "09d0fd9f2eab2b308cc2eacb95df5ba7",
+      "sha256": "22655fb45043da8ec083fa95d54a59823ad7b63d880eadfefad282e55e50b4bb"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollAu/TaxScaleType.php": {
+      "md5": "3fdc34924cf4477a25c2253fe0821e2d",
+      "sha256": "02cd516841336da7161a6ef7d2344348328e2f441b7ea69c0b0b45df7bd831f3"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollAu/TFNExemptionType.php": {
+      "md5": "83cee1610637c775a9e6a5edd62197ce",
+      "sha256": "3baedbc00c2850a1403ccc977cf64a4072a596438d245ef6fbdc81434df85f05"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollAu/Timesheet.php": {
+      "md5": "bf4c4ef2bf9c0dfd4ad25cd475db1d14",
+      "sha256": "2a8bdbf3c1b9d797404f0dc3694f95b5398ef549bb0345d822275677cfd39d22"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollAu/TimesheetLine.php": {
+      "md5": "fc6fec38f298a0d006958e9f6e0e8c27",
+      "sha256": "991613191e12b6da22159bd7905f1bab509b86d9c95f9f8e89b38e0a80c33ba6"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollAu/TimesheetObject.php": {
+      "md5": "63f83a1da16b1b124bb2955593cb3a99",
+      "sha256": "7aaba30562fad2252ee46c37a74bc2804fabe07f6a354ba65222f929d1af599e"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollAu/Timesheets.php": {
+      "md5": "c64731335d87f1f633454475bad4fe87",
+      "sha256": "36ec8259eb9902c4026ad90d1b0fe7af63201b361ec232d4e4d04cedf10a9889"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollAu/TimesheetStatus.php": {
+      "md5": "285d121e5be2326e08fc93ad5980c5dd",
+      "sha256": "84db8477343844fb85af651e4775a3c0f2f33136b006f774c24f970fa0cdfed0"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollAu/ValidationError.php": {
+      "md5": "28373011c89d6013170a5af60658e303",
+      "sha256": "f737c841d5618479ca2262cbcc1b2087430f1092164b52e8e838c85ea36a996c"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollAu/WorkCondition.php": {
+      "md5": "f91546c7e21a74587a937cb10830b95f",
+      "sha256": "1af2a7297192df2fcf406eebc037f8b9379bf5aa947146f4a02f9c97d11fa9f0"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollNz/Account.php": {
+      "md5": "de0c6c91f8c4cf6e6b38cb359972fe70",
+      "sha256": "215e3b754f15eff52392660a2ba64f062b19e34bcc23ad87f4e2c6a6862d5a6e"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollNz/Accounts.php": {
+      "md5": "06c3bc45b87bbb0dee3ed0c85f8b654b",
+      "sha256": "2c59fe52d4fc779fb05b7e873670bf0e150e8c1d6befdf770c837303cc529dc9"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollNz/Address.php": {
+      "md5": "65043d83d73b7839fd58b26b333a3206",
+      "sha256": "57a25df09433c1f08ba7e962dd427af524c8cffb34c4edbd4502704a187b11d3"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollNz/BankAccount.php": {
+      "md5": "0a7c9cfcab6b8ee90ed21e0ec9d74a37",
+      "sha256": "f85a01b671622bd5d7206dd1d6a79fc11960559a3eb32b41055f66c92198ecd4"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollNz/Benefit.php": {
+      "md5": "037ccecd9e931d1e0807e63d261c27bc",
+      "sha256": "a82e26cb0565e15f94c0ffc1ce0959c319c32b375eb46bdd43074ec80f122985"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollNz/CalendarType.php": {
+      "md5": "051ef38ed99de17e65e10f9540c17f2d",
+      "sha256": "b5d86181b3bfca83c13949bde41a8e5a2439d6028c405b4186b0f3a4df3b896a"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollNz/Deduction.php": {
+      "md5": "0b884315d5a74c9952a036cbde4179d2",
+      "sha256": "fb9d03a2c6f3022d4d0cca0f3f704bbd83c30d0f165e138247273e1ae42619ca"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollNz/DeductionLine.php": {
+      "md5": "d624ec642fc8e30d0088b2a31afca80d",
+      "sha256": "6e430061691e83d9d99b44c7ab041c318c3a02f7be6fe362ce0a21d2a5ef7f70"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollNz/DeductionObject.php": {
+      "md5": "b68677f104b96a5514be7633c7927cd6",
+      "sha256": "022ac8727ba961533e0068beb7b6806a5c06fbfcfedca85ae453286f606d7f82"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollNz/Deductions.php": {
+      "md5": "3b7ad5632d6ac6f11b98cd36b86c9ea9",
+      "sha256": "7763c4cb52b4f564f37f9490bd19185f7b07487d8490207896d7d5219c492eac"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollNz/EarningsLine.php": {
+      "md5": "cae46a78b9af3b69accacdd945268e18",
+      "sha256": "2c49d520d03c9d8df442f7466a3557da332d128cee30d2bcfa244f582dcd09e2"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollNz/EarningsOrder.php": {
+      "md5": "3fe656e1a150269ff1b6bb5303340cd9",
+      "sha256": "f3bb2430ba14a6bea1efae20a47692cc5a4ade342a2c4d26d005bfc8eb882a4b"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollNz/EarningsOrderObject.php": {
+      "md5": "f66d17ca0875e0c18f1fade637696192",
+      "sha256": "14863c6032012a30453a5927a826beb819a11f2b67255133dc27f2a133271b69"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollNz/EarningsOrders.php": {
+      "md5": "ef68182795f61eda1cc158c4cfde81b9",
+      "sha256": "e9254e1baf05078974d301e8375e41ed031961c1a8e72d0e5e093e396f19c1fd"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollNz/EarningsRate.php": {
+      "md5": "41da0c5423bc59cf345591a483738df3",
+      "sha256": "420093e2f5a747ed8c6dbcadbf98988c86b2d3ce914840868179a72bd94dcc93"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollNz/EarningsRateObject.php": {
+      "md5": "7a798832a19c88656b15064d02178e9c",
+      "sha256": "14614a9c871522e7c1347554f0f66484fa1a0441377cc87e30cf83278b4e67ee"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollNz/EarningsRates.php": {
+      "md5": "7afe1af243ff95e6eb311386c366ae02",
+      "sha256": "71d950b954215b8eb37ca2ad45c1e286d980d7ebd24898a0e5c337b183282fb9"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollNz/EarningsTemplate.php": {
+      "md5": "c72ba54b663571223d1cb731e8b37034",
+      "sha256": "75b2602809ca2eb6954deb91e0e1fd542feb3190af194f204137230fe3c75464"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollNz/EarningsTemplateObject.php": {
+      "md5": "c3f201c81ba1846900c60e9189735f0d",
+      "sha256": "d987f87b6a3e8d0c36b716ac12501897f336e4083e58a598ca6ae00b351ae845"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollNz/Employee.php": {
+      "md5": "cae8742e59201313c0b1c35a604fa75e",
+      "sha256": "a71d0f37a0f942cbf5549f707b1d112a567ab3195aa3ff1343b2753d073cfaf8"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollNz/EmployeeEarningsTemplates.php": {
+      "md5": "85cee9ddff9884d98cf99179d7fe307a",
+      "sha256": "df165aa09949cf01b81180959638fd7c9f523e23501d3bc9f3550111b0d6ed0a"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollNz/EmployeeLeave.php": {
+      "md5": "14b4e9dfaca48998b6b23e63f1660d4d",
+      "sha256": "ccf0f0ac95772fdc5df605db1817dfa454c052b5af182506e6640355bd8a98a0"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollNz/EmployeeLeaveBalance.php": {
+      "md5": "bb4241d3919b331c3776f3bd7157633a",
+      "sha256": "964cbe28cce7f33e1d0540b70d38f6a6f298d495abc79854d0b41cd1092644c0"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollNz/EmployeeLeaveBalances.php": {
+      "md5": "e9b8bbdb0ebdd87e69338d2bbe316c9b",
+      "sha256": "65c60f9820bed8f9508912af51a3d810948d3e63e4e7e141a0194c27843f6c9f"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollNz/EmployeeLeaveObject.php": {
+      "md5": "88e95cd2e03eb350888f34d375e81f32",
+      "sha256": "749d0ba898c2f7c7105ee7991f40b357d5035580b1c06dc39247361a3badf104"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollNz/EmployeeLeaves.php": {
+      "md5": "725d6b0eaa09b050d2e38562d8dae18b",
+      "sha256": "d0718a3c1d56154076735043d5f702362fd93fbfa865a7da8f37b4d93fd3187f"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollNz/EmployeeLeaveSetup.php": {
+      "md5": "a628f4a2f243b3f2133742b7391ddb36",
+      "sha256": "41e3fdaa38d40d2e1b31ae0439b43409b50b15a68f55813c8c7bb112bae1f433"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollNz/EmployeeLeaveSetupObject.php": {
+      "md5": "c3019ec5fcbacf3ac0b2564235004dec",
+      "sha256": "59e2033143e890d5073a31f11d42ee83de5e058716c0c9626dfe3c39c87810e8"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollNz/EmployeeLeaveType.php": {
+      "md5": "a86ec2072fa1082f9a2c6f55824ce860",
+      "sha256": "1291f0b21d2b1c54f6d6637fe0e9b9a17d8d79c544ba4a08783a95fc909dea03"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollNz/EmployeeLeaveTypeObject.php": {
+      "md5": "abe1587bd5d29b52e7c672c918543df5",
+      "sha256": "07c07db81564b3d888460ba24d34480316478926b797e3399a618b02e5218497"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollNz/EmployeeLeaveTypes.php": {
+      "md5": "a65c96c570b8e00ff417757d93ff5ad5",
+      "sha256": "12a7bd0c7a0e1da23d9b0b3d5de7f57347b4366b74b2c808956cf0d17450709b"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollNz/EmployeeObject.php": {
+      "md5": "cdb7a9ac317a2b3fc7cc0b967ef91a53",
+      "sha256": "311c83c219bfbf301f67b9b0ed0a25a37867da28bf0ca1940bf02e68639f93e2"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollNz/EmployeeOpeningBalance.php": {
+      "md5": "1b81584d321a0c17132a42cfc337c2b1",
+      "sha256": "93b421b6a6348b10db744758db001c66983f1f7604e9c2209605a3ae4572dfc3"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollNz/EmployeeOpeningBalancesObject.php": {
+      "md5": "9105c5193fe4cae6bac98e9b9ab59823",
+      "sha256": "841cce3a37f420c058bbd89fac2ad724a46b23fe57a3b19749157dbac9ab7e1f"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollNz/EmployeePayTemplate.php": {
+      "md5": "20d3c2eb6fc229074d63fcd6f00d9c4d",
+      "sha256": "f7973b6ed728015820fc1a9fe6e2e2623ef9d8d970bbd8b3cbcf7ae5fcd276fc"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollNz/EmployeePayTemplateObject.php": {
+      "md5": "32bd44338fa578066eb1c2d0089c9e72",
+      "sha256": "94dd56b53babd97852d3ef95b3c3d8044dfe1d88326fb82286f7927c9242f973"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollNz/EmployeePayTemplates.php": {
+      "md5": "73394161b883926df7d8460e9bb57214",
+      "sha256": "1123ac89acd0a0e589d1c24d38cf24d21cd0f02c5e2133409f51275ab95483f0"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollNz/Employees.php": {
+      "md5": "f6b83fbf27fa0f4667c0f15e0f910777",
+      "sha256": "5fd3cc1d7219b299198a2f963a4eff42a4d4bfbebe569d4680c5161ee348095e"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollNz/EmployeeStatutoryLeaveBalance.php": {
+      "md5": "d7da66b7c44865d53feba0809d23b779",
+      "sha256": "5f49be47baf6f80262df78ae00fccce499d783d04404982f4a078de9be036069"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollNz/EmployeeStatutoryLeaveBalanceObject.php": {
+      "md5": "794ec1e26d8c3a8b876648777935159b",
+      "sha256": "8257ef73289129ed1b1517b8fdb463cc4557b0a6d9b3a8efb09241e3a6cc3752"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollNz/EmployeeStatutoryLeavesSummaries.php": {
+      "md5": "f3ea98aea76354066eac8e7e48f1fb76",
+      "sha256": "aafeeb5b77dba7ad7d81a27062e67ffb26ba34e6aa13f463ec50a1e55953ad43"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollNz/EmployeeStatutoryLeaveSummary.php": {
+      "md5": "31fdc9828336cd2933e77c341296aa46",
+      "sha256": "969aa9e72bf6009052449bf0e4c63e12587b17bed467ac2f949a966d0645e7a8"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollNz/EmployeeStatutorySickLeave.php": {
+      "md5": "efa65cb48b01a45a530b5febdff18e80",
+      "sha256": "add531b6ffe08876b8242732525c2794aef0a4308d69b3588982f9c6bb5c8451"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollNz/EmployeeStatutorySickLeaveObject.php": {
+      "md5": "4459618a76c0a65dd396ff1b9f37c01a",
+      "sha256": "e4c97021493074fcae25bb6ea89ddfe2dd0709fe9dd585ad545f5519390482e8"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollNz/EmployeeStatutorySickLeaves.php": {
+      "md5": "f767406672d5a682e870e5bcd40c24e7",
+      "sha256": "f2f5efa83143912d7b9c67cd49e0607c76f20f2e68d7f91dbe481d476fede3bc"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollNz/EmployeeTax.php": {
+      "md5": "c4325a74a66835650d96a18d9bcf1db8",
+      "sha256": "ff816fe20d44c2f55c4591f5f3b0f2a1be880600b6944a21b3596e5a7c389cec"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollNz/EmployeeTaxObject.php": {
+      "md5": "7bc4d4a987afca8212bc100b0336b90f",
+      "sha256": "41d6ca149230bba4c9a730a097f3743fe19301e7d31660b01872f9ab4bfaf182"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollNz/EmployeeWorkingPattern.php": {
+      "md5": "85bc145a833aee441d54122c92449a20",
+      "sha256": "7b3664d60f0d18544fa1f1257c1f58455793d0bb3c6f25cd090d4b39daaf1392"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollNz/EmployeeWorkingPatternsObject.php": {
+      "md5": "e47310d0afd579da3868a7d39d8dc839",
+      "sha256": "d88c098db6e1ae0c7f2bc4a73884500db813d84c9b190abaca75aaa09b8ec046"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollNz/EmployeeWorkingPatternWithWorkingWeeks.php": {
+      "md5": "3c167c436bf01de532218f6f8479bc17",
+      "sha256": "c3af43a1b7afe30b12556e6af1f3164e490b4c4607bd830fa75bf614eb53cc9a"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollNz/EmployeeWorkingPatternWithWorkingWeeksObject.php": {
+      "md5": "ce477b82b2bc1097d4139c09bf3f43b6",
+      "sha256": "5b9a0a029196814fb6277937fd59d8cfa711a766f323f5d3358b4b3503764cec"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollNz/EmployeeWorkingPatternWithWorkingWeeksRequest.php": {
+      "md5": "ef9816d7584ef3714847610f8de22f78",
+      "sha256": "8d056c3ab32258c64eb120e98e0365d04eed3c5a380835871ec070ee3acaf6c5"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollNz/Employment.php": {
+      "md5": "2b564ab8ab1c28231b0a11097d31fac7",
+      "sha256": "f4d7eab7ac0a3760394448329b5f2deae1cb16777126421cc1cad656e32b4e4b"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollNz/EmploymentObject.php": {
+      "md5": "63237fc19f572cd55684f1d4c5e1d317",
+      "sha256": "c98db56cd9b2baee06d31430bc30efd3a2cba7abbf674b9e73f06d6ac2343688"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollNz/GrossEarningsHistory.php": {
+      "md5": "1ea2bca69f9f4953d75a290df83d0280",
+      "sha256": "e3d00dc9f227661892f572f9680ae3f3a0346fdbbc48a813d5bd416002d99f8b"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollNz/InvalidField.php": {
+      "md5": "7ff7599e57d63c53cce76131015f75f2",
+      "sha256": "fc3f4c693afca0a111bd48d8a84e6e9d7c7e9b6a894e38cbb8ebe2275bb5de76"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollNz/LeaveAccrualLine.php": {
+      "md5": "363cefd7a073edf7a1dbfedaf15b3121",
+      "sha256": "1e8ea13d953a3303f1fe6373e029f4d24f037b174d0784d3dc2cda507f042a71"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollNz/LeaveEarningsLine.php": {
+      "md5": "124e7cffa669ed585e301aaf46399367",
+      "sha256": "94ce972f8bce1a3ec6d7ca9249c6abb2d5b9f044fde50da764c36791d5a5c42e"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollNz/LeavePeriod.php": {
+      "md5": "09cdcf132ea01c82ab1d56e3d0f6f812",
+      "sha256": "90d07fbc4932df00e88986ffd09c02a8881b7cab4670d1cb3cc25ca07bdabaa7"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollNz/LeavePeriods.php": {
+      "md5": "ed9ef1532e7fbd9a8668cd551fccc2a7",
+      "sha256": "b208000aa9d830458ace7925235adbc5be4b48ef996196c0ea70abc1d74879d3"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollNz/LeaveType.php": {
+      "md5": "2e9217f7f71fb7633ad2b3c9cb90a60e",
+      "sha256": "86ed614e18e115c0647a81eb0a2a27a987570a287391584c5cd03672923b3522"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollNz/LeaveTypeObject.php": {
+      "md5": "66ada3a579471240e865cc813829d8af",
+      "sha256": "e867890152a19863bae992470d334ab4a5d06157afe7faacf64494b34cad7240"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollNz/LeaveTypes.php": {
+      "md5": "b72a9b4e54a05f32e68d66a47529492e",
+      "sha256": "5f91964c438e9b60550c1b9e7ea4a267bf8c05f96afb240b8f00567f9a5abebc"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollNz/ModelInterface.php": {
+      "md5": "70381478880b34fac0b3cbd391e90448",
+      "sha256": "738c1487d2ffe4e960047c287d768beae573a32fdb9058bfc288eae0c69d1a11"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollNz/Pagination.php": {
+      "md5": "9e1f08fc77235aafb55f5659f35d89ae",
+      "sha256": "d6d5cf3efd3d4a0593e85d69c236d4b8742bb76fedb3812ef307bcead9df5cde"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollNz/PaymentLine.php": {
+      "md5": "82fc6ef02ab285da9e56103b98e90ee4",
+      "sha256": "76bf41bee878b9c914dac47774e954201a278147abb660131664057512bb15cf"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollNz/PaymentMethod.php": {
+      "md5": "6b820ea85b5efae31a01cbfa28099644",
+      "sha256": "9726c1fc3c402f921ee05d2f4a076a5e03d6b98e067642309a201d528f5e8d13"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollNz/PaymentMethodObject.php": {
+      "md5": "a03727ccad265ae09fe0cbbba3dcbe01",
+      "sha256": "893b297264798d6c9b7799fcd07b8d9a8622737e3928966b4566ae81b6a35625"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollNz/PayRun.php": {
+      "md5": "f07e8737185f7895d86ee2275b28c60d",
+      "sha256": "8bc598240e870c992a82f44b513b865c1e37b0f58c1b1765be64ce361a28cc08"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollNz/PayRunCalendar.php": {
+      "md5": "a9532e6b16d0c2116504955ac94ef7df",
+      "sha256": "822bd342b75eafebaeb930a9fde3f0d447d20a7feec118aa0506a6c415892d36"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollNz/PayRunCalendarObject.php": {
+      "md5": "63159dbcc5edbcec2e600d9b7575a443",
+      "sha256": "f1db18c3d538b265a30bcf9152af9050f58a0595645a89747bf712ad78e163c5"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollNz/PayRunCalendars.php": {
+      "md5": "010fc6cb2ace74fdfb5c7c97c048290e",
+      "sha256": "302e110a6efc729d4b7578b9131fb979712849d67d09ac116b160fe6f6185199"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollNz/PayRunObject.php": {
+      "md5": "dd50987d2a13392e93d598423019a61b",
+      "sha256": "f8fb4ec165da0ab92dbb9849737bd7e1ada1468a2736a4051ab785e890a6c1b4"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollNz/PayRuns.php": {
+      "md5": "9a35763cf4b554a8fda01d25fefd17ea",
+      "sha256": "fba091ad022a10e8ffa4234428f41b60e5edd849dba259ec9258d5667fd085be"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollNz/PaySlip.php": {
+      "md5": "f1d1d787a65a681390c5f05a736a36b4",
+      "sha256": "0d9e2ee60db68b19f1de9f5e8d249adea7f8376770cfa22a139e4aa116148fae"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollNz/PaySlipObject.php": {
+      "md5": "ef75db38c177cc30a1153a0fb39548bd",
+      "sha256": "4fcb9b5f6cc9045912d34f63ed1813e5939bac05b85d9a95dcdb73c27c86c039"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollNz/PaySlips.php": {
+      "md5": "fd9e5c62e38c07f0b2ac89d6d4795e40",
+      "sha256": "a00eb85225f79d5363230c7893acd5558252c8ecb6c7779101e759c2403696f4"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollNz/Problem.php": {
+      "md5": "c23e8b80d46f29b931b4851f32f112db",
+      "sha256": "b318c3e6f88e94a2eab2125144d82ecb0a6b597552a0c584bb1aef1696d4ec37"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollNz/Reimbursement.php": {
+      "md5": "5af84d453191c9ca60ff8117a6f3edea",
+      "sha256": "1a3baafc5d91ab418cfb9b40211a6878ac3bfe8696f53a99b86dfc512d8aba81"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollNz/ReimbursementLine.php": {
+      "md5": "ecdd80845d74922062c9d5d3cb8149f2",
+      "sha256": "4eae0dcc68be835cf5150a6d81065bec57dc73d9a4d623138b59f020886128f8"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollNz/ReimbursementObject.php": {
+      "md5": "204b49522b75702ed863d72c7154d5a9",
+      "sha256": "47f50b73e4a869bb5a2a9b0f47cd975a43e61633dcc3eab3e1eba7399bc640ca"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollNz/Reimbursements.php": {
+      "md5": "285f610b6f71cec067b33660e4c96032",
+      "sha256": "6613cb2c8b2d6fc62df4c63604973e4271e440da27b47ce5ec475c0ed2f9c501"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollNz/SalaryAndWage.php": {
+      "md5": "a3c4ce3c13451554fb06386d6fffd8b4",
+      "sha256": "54ce1c5bb0b385210b1848ecd88fa06115f1754c9e2fd2447232acede1aa7386"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollNz/SalaryAndWageObject.php": {
+      "md5": "1d85da4814de17485ea2619127eeb4e9",
+      "sha256": "63a77007c7f0d0b89fd1459e261ef474158d0bb63853d5ea03ba345d7f252016"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollNz/SalaryAndWages.php": {
+      "md5": "848afe1c2556874e0f3cd5b32652e5bf",
+      "sha256": "31dbf422efcfe4e8c809650dfb771296a8778a4b48d335bf1719ac997bd17a5f"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollNz/Settings.php": {
+      "md5": "fb9956e7d57a6decb60a58016a6e3d8f",
+      "sha256": "49ee46d637133afa72871900cd4783dd08d5647edcca8718c28deb40e817f032"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollNz/StatutoryDeduction.php": {
+      "md5": "82935f877d4fb7d76262855523c9fd4b",
+      "sha256": "a513207f624a8ab063a525d0ed309cb757fb5a3db592cec4b0bacf2603606b0d"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollNz/StatutoryDeductionCategory.php": {
+      "md5": "58e67388e1872902f321859021740776",
+      "sha256": "8fb0c1f56c3dfcb98b13aa74cb5fdd7c9182d1d22ab32ef53f64a617b82d25d9"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollNz/StatutoryDeductionLine.php": {
+      "md5": "81360b4d76b4cffb207618556537d632",
+      "sha256": "39435644e2c81541059fb90a828245ecba1206fc4c5bf3c83b6f43154485c938"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollNz/StatutoryDeductionObject.php": {
+      "md5": "936a78e0e40e597fe20d3c9da0d034d0",
+      "sha256": "a9f2a6afe3461a8d934edf8b48ebbfa4f9c242c11dcbc9d3c35446ab8375ec24"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollNz/StatutoryDeductions.php": {
+      "md5": "3f35a18b14e2d5a54c317f5cd1143484",
+      "sha256": "86c5a4a17afe77ee4228eabc4d660b0256a9601fdaa0686cd2192047515ce253"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollNz/SuperannuationLine.php": {
+      "md5": "834deaedfc3bacbfab3a5de81213938c",
+      "sha256": "a4fa697c36cadd16c57593ef46de8b9ba00d7998f8ea5b96e1573a52c9a8e082"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollNz/SuperannuationObject.php": {
+      "md5": "22461f1d2a4b8c26d2d2b7695758e7da",
+      "sha256": "6e156eb7e17e26db1c804e9bf3687c69a868b8d5a73bac91c883970efaaca68d"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollNz/Superannuations.php": {
+      "md5": "ebf3348022645a0a66e284894c5eda51",
+      "sha256": "5e3cdde15fed03a9f020c74dc3a1d6536337e358542a4bc9427714d5d02e60cb"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollNz/TaxCode.php": {
+      "md5": "1678dae2486ac447a2bbd8648992689a",
+      "sha256": "01b17e0f6c589aa0758b4a99f173143a67b639c89265b2a8c110077d726abddd"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollNz/TaxLine.php": {
+      "md5": "c5d10ea1bd37a3a519cb3553e0cfc797",
+      "sha256": "c396eb2977d0f281e428253c8fe34f3ae774d39ce159a058178114370b1c9669"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollNz/TaxSettings.php": {
+      "md5": "7994c1ddf0fd12aa84133eaee90ecf98",
+      "sha256": "25ed03f07670bb2f6e23d46907a3e50dc3dcce1e6226997ff52de57ab09d7e58"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollNz/Timesheet.php": {
+      "md5": "bf78918647c084deabfec63ed68c4054",
+      "sha256": "729509972ffb06b977ecaf1fc02d10f0728a7827df45317abca5125822856025"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollNz/TimesheetEarningsLine.php": {
+      "md5": "2bd9f2a7bb80b534b893890bd6d33f4a",
+      "sha256": "adad55edf70de6bd8a147efeeefaa983ce5f98c02ed3fd405b71642e65424e38"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollNz/TimesheetLine.php": {
+      "md5": "af154eb320aa3f9c3b5f4bfbd556ad16",
+      "sha256": "fd4c0313d0e1d8f4c9903cb72dc630e019a5755b8ed6f97841a4a9278dafb9f4"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollNz/TimesheetLineObject.php": {
+      "md5": "48f87169a67b904a527e0482f99c8b96",
+      "sha256": "9d7a8ff4ef0473900d4f35cee7087804104fccf629c74ce053f9b4790fef49ee"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollNz/TimesheetObject.php": {
+      "md5": "8780cb222977e8c7deb39bd4cb74886b",
+      "sha256": "e04d0b5386221c0794bf0b251aea8d0a463733c3cf83259cc32c18fae2026034"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollNz/Timesheets.php": {
+      "md5": "16dd4ba85fd90270d2dcff14a4af08d7",
+      "sha256": "6017f3c800d12c41aeeb65ac88b2a0f1a35d41383245f0404a79c06487ac0042"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollNz/TrackingCategories.php": {
+      "md5": "f7e824e5ddeae26cea9a6ea4a7916741",
+      "sha256": "c15f999955cbdff3ffc20f4a8846e17e3fa94c7d539290b0cf7578acf5f601f1"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollNz/TrackingCategory.php": {
+      "md5": "6779ff2488826e45c622f1ee368a1dda",
+      "sha256": "232b519f940a3450f8e7fb9c66cb6d4fe594d6ae9bb738be3a9291539f4d7e3e"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollNz/WorkingWeek.php": {
+      "md5": "d39f39f0d0a8306008353d48087be403",
+      "sha256": "f4ffbba74631932df9bcb5102bbbe10fb7aa002e5f3c366dbb8ab61530b0fb81"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollUk/Account.php": {
+      "md5": "d24382a80ad5bd2687ea87aec73b1484",
+      "sha256": "4daa4299c4dc542a03ea085650c99107b9e57cc9f4d67a407a5d84fc73e4631f"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollUk/Accounts.php": {
+      "md5": "2eb405b44590db70b828d7ba58396170",
+      "sha256": "a1ba9556bc6ce83e9bcb67bc9bfc3a0a7d1e001a8407ac6afbf32e08cf5b8af8"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollUk/Address.php": {
+      "md5": "239bec8adb81cc3f1a1bf03b41b5d669",
+      "sha256": "71d42e844af3a450a385201fddd548760279adc3559d7048e10ab393b20e7d7a"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollUk/BankAccount.php": {
+      "md5": "44b828f54542e51bd26830e72866d094",
+      "sha256": "fcbf2eb9872f1a192f6f24f6aa6d2f8840971781d66a6151eb275b3335539fde"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollUk/Benefit.php": {
+      "md5": "1ba4a7b29374adb5dcd2d251e20b56dd",
+      "sha256": "5767f863b7d2d3eea13412547f7380a6cb438caff2e44aac94eb35fb543a82be"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollUk/BenefitLine.php": {
+      "md5": "09f55276c8ea2f103855b125c9e706a0",
+      "sha256": "6a100831d6fa01d312126a97e8a2f7ae1903ffb3984d750571b77b59ed138f9a"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollUk/BenefitObject.php": {
+      "md5": "d0e5fa4d2b2b361244e9e2480453d091",
+      "sha256": "95168e73576706771ddd781adcc42ca06b8b394de10050657106699351e64293"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollUk/Benefits.php": {
+      "md5": "53bfece8bd8e9056648c66fb76e19ae4",
+      "sha256": "c7c14065ebe5613372a0c9c63aa2c5e8697bdc1774e2190174fbfd5d82c793ce"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollUk/CourtOrderLine.php": {
+      "md5": "dc4201f7e75fabe0026b42f6d71b50e1",
+      "sha256": "3afc782beeea4ab7ea7ea6ed6ecb284b4939ef2de6bdfd07bd839fc9917c6ced"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollUk/Deduction.php": {
+      "md5": "646b21a97591099ce9f182c36a40be8b",
+      "sha256": "c170ae0fb69cc5269bc685dd728674af4620fe97caed4510ea3b9994daafbb9b"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollUk/DeductionLine.php": {
+      "md5": "d96b0ef316688f2ea504165469bc3ecd",
+      "sha256": "8901a3c6d214420264d3e8ea32a956dc88f0cfa9a22afe1c3af530b1b9e4e5d8"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollUk/DeductionObject.php": {
+      "md5": "248914174829e373555f05793de61d3f",
+      "sha256": "b08b03d10740e17bbf7336d1431bdd0bb2d9f4f6bdd81c1ad0b4b1c1d7da35d1"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollUk/Deductions.php": {
+      "md5": "fb5df781aed33c69536a1caa25761758",
+      "sha256": "5572172f78c62ccf9f827a3148822dfd3b9d77d6cbef64ac287527a61539075b"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollUk/EarningsLine.php": {
+      "md5": "27aa086925b126a9dd1ec55ef437010a",
+      "sha256": "09ad4c330761033e579330bc87680c2bd48aa36863e0421186c833dc6caf07c9"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollUk/EarningsOrder.php": {
+      "md5": "5873527aedf2c349b39b29a9704c9e82",
+      "sha256": "4ce1314eb485b55c0cf0a32d4e1db45f7737f5d863a2cad16854acb7d2a88abe"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollUk/EarningsOrderObject.php": {
+      "md5": "1b3fd8b5c81c338a3c3a9b46531b115e",
+      "sha256": "aa6b59278690ce7250d84811b0540d24af17cd992ae7c8b80afa90a1bbc9b2cf"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollUk/EarningsOrders.php": {
+      "md5": "a37f5bdf3559d0ceb49445972601078d",
+      "sha256": "f9b8a5793a51073036bf7018d3bdd8f4133e7c5f5c5e3cc17af25e606b79001f"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollUk/EarningsRate.php": {
+      "md5": "3014946e47949a2cb72153bcd5ab8568",
+      "sha256": "ead7e623a3da8950040165ad9b3bd75a418ebe52ba8f2ab9a24e34cfb6c92582"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollUk/EarningsRateObject.php": {
+      "md5": "0657c19d21e38e9fc8922830343b4e3a",
+      "sha256": "d40956a3dcc2527ca00824d375d2291ae33ae6e47a317495a04fd45a3699cfa9"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollUk/EarningsRates.php": {
+      "md5": "2733b2d1b55061a18d058bac722328f6",
+      "sha256": "9d6323b99d5aa5341f781038e8b89961c8a60557355e228759428d7780a7bc25"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollUk/EarningsTemplate.php": {
+      "md5": "32f9e7f05bb686d9b35898a4236ef2ed",
+      "sha256": "4e59b567748137d4c59e8d3f88d741005f891509e313848271f6a82471013ce4"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollUk/EarningsTemplateObject.php": {
+      "md5": "18808edec20eb0d7bdcd4db6d72d5662",
+      "sha256": "b4793b5d0bf825cf98e239e34bd06229f11a908c0d3623ab6b169bf28bf661f2"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollUk/Employee.php": {
+      "md5": "dfaee13ddd5baae6c2bcd9bb88285574",
+      "sha256": "67d38d3a716da089dc9d1529f1526260aabd3f3cd64ebf91fb215f302130d389"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollUk/EmployeeLeave.php": {
+      "md5": "e98259a0f5fe762f22b99ef090439935",
+      "sha256": "59859e41a69ab65fa119c8b624dd90f957caf7b3d600a02443769fe967036f62"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollUk/EmployeeLeaveBalance.php": {
+      "md5": "b13deeb485f9a56aef5ee336ae7817ad",
+      "sha256": "da83386db90e3d2b5947e789398583ffecf6b9141f3ce29a9f5a1945687f3f5a"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollUk/EmployeeLeaveBalances.php": {
+      "md5": "5bb7fe3e718feddaf5279232eba5efa5",
+      "sha256": "bea1661be0daff14397f9829387847706551523b9e006a0f688b05ea63c0a5e7"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollUk/EmployeeLeaveObject.php": {
+      "md5": "6687b6c46fedf2f588a0135ffe1a3a03",
+      "sha256": "8d6535207acfa634c5e9ac10181eef71bb2f5d96d474495137e146aa4e2ed3ea"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollUk/EmployeeLeaves.php": {
+      "md5": "958689ed66953e2cb726885762ecc016",
+      "sha256": "5da61af1344339fc5c19d4a3df48532961ad4257c46a648fc11b6e070d29d3f6"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollUk/EmployeeLeaveType.php": {
+      "md5": "2143ed4d4a8a600228a66b43f63ea0bd",
+      "sha256": "b70edf1504162e2cebc40648865175eddd2601153ad8e4a5189346ad55d2bc6b"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollUk/EmployeeLeaveTypeObject.php": {
+      "md5": "3e8506e6412980703cc28b2be54e0d49",
+      "sha256": "6c575d0d680e838994c7d3f2238900242023aa1537bf1c58f6b7a1eeab14b08b"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollUk/EmployeeLeaveTypes.php": {
+      "md5": "8f645219c24ce059d79d378ba12b8dce",
+      "sha256": "108fa9936f38bfc6ebae879d0b7c4e85bfae41b8d592b2ab4274dcf92c079c74"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollUk/EmployeeObject.php": {
+      "md5": "fb63f121f6c3533b81421f0bcef7fa26",
+      "sha256": "c5dfc12485f5cab73111042ee152567f83c7cd6c01ef88909f3e74b9ac6957de"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollUk/EmployeeOpeningBalances.php": {
+      "md5": "1955dc739fbb5f3df6323d3d018d401d",
+      "sha256": "4945f219624097737bd1df78fdbb5967885649e0bcb2600ad542855fa7cc2dfd"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollUk/EmployeeOpeningBalancesObject.php": {
+      "md5": "b7d94cef67ffc76b3ae83e7e9e6c995b",
+      "sha256": "6f998875d162cc58a407f5a5b2e32f3c904aab1ad0f0ad543e1a83c31b996e8a"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollUk/EmployeePayTemplate.php": {
+      "md5": "c63eff3b563eecddeb8c59a7580b4e95",
+      "sha256": "4f47b78a21d1c5b77012a3e55d05eee9078fa9ea3a16fd2e4590dd8a341b01f8"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollUk/EmployeePayTemplateObject.php": {
+      "md5": "36003c742a66438bf2348a18949e49ad",
+      "sha256": "1f703055693c967ada7441d98c2118c5b0da4753047b4c050f9330a1039087f3"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollUk/EmployeePayTemplates.php": {
+      "md5": "a8aceef8f2a55051f55005fe75f95357",
+      "sha256": "ac4065f8be223d3707efbf1dd550383bd82e414d55f1d468d1750d6037006d18"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollUk/Employees.php": {
+      "md5": "11da6d3958037cce02c5114c35180974",
+      "sha256": "a7f6f97c5d995808a74c10a75a38f35ebd0f24e4e2e2b31d758aa9c2178b09a1"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollUk/EmployeeStatutoryLeaveBalance.php": {
+      "md5": "278eda5917015b9a4e22fde1ea8b0944",
+      "sha256": "a5d5b054f63da6a7b7159a6ecc3fc858d042918bc8e4fff449fed5b1058cc090"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollUk/EmployeeStatutoryLeaveBalanceObject.php": {
+      "md5": "f0cf3d91df8ae5907f45b51ef9f48db7",
+      "sha256": "375e2dda9a0bff86f40404bd1a9d0a5d09a728efaa61c89a9dc5e3b80d7232ee"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollUk/EmployeeStatutoryLeavesSummaries.php": {
+      "md5": "3f29e23b62c20b1181d6c4c4f04b5ecb",
+      "sha256": "1fe31f41f524beb81d6e655b1fce1666d44de9dd216fca827b87170320257dd3"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollUk/EmployeeStatutoryLeaveSummary.php": {
+      "md5": "5f70cddfbdb335da3d22bbb61653b461",
+      "sha256": "c751c44d484faa8bcfaeb2e37ababc7717a51bae2f8dbbf81efc6daa29d73367"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollUk/EmployeeStatutorySickLeave.php": {
+      "md5": "a30e1914d76cc6c1466e628db6e0092a",
+      "sha256": "f6aa16bc6bdf60045c6e56b6c11b254014cbbe8b824b0140a42348951976d11b"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollUk/EmployeeStatutorySickLeaveObject.php": {
+      "md5": "d1d61bcf99dd67e6e8f38e083a5a58ee",
+      "sha256": "31327f893e063e4669a264a1beef169a2320b6d9243bfe28c9b6a602d3003b16"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollUk/EmployeeStatutorySickLeaves.php": {
+      "md5": "40cdc0c3d5541c332d2b45b0bc595eda",
+      "sha256": "810a96a3ed72876f7ec21eecce8e2fbe56f992521ba2e87a71fda3d8029fbdcb"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollUk/EmployeeTax.php": {
+      "md5": "92746a458c2943eb202a8085a0a5108c",
+      "sha256": "71c20ced87f61faf5f31dae99eb949acc1c3c636a5c3a81616ffaac852c95cbe"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollUk/EmployeeTaxObject.php": {
+      "md5": "19a4872a838bf71ae960e2c068a71853",
+      "sha256": "7c94f2f3f4b892ac3f0d660bc1b2ddd23eb6e6857ecd28ba14d953de2e1adc92"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollUk/Employment.php": {
+      "md5": "0213dd907a81ad4757a6402b78652a43",
+      "sha256": "4669d1221b692f45c0bbc6b32a30f4f04c89de14ccb5ff21a92e069a46f6c2dd"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollUk/EmploymentObject.php": {
+      "md5": "3193a02715a67453c4262aa0c788f74b",
+      "sha256": "eca49550488c28492c51be6152e65fd361c1e816c99c62c19e6230be4cdd3650"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollUk/InvalidField.php": {
+      "md5": "de50a6fb89452f334ee9ed6c541c68c0",
+      "sha256": "2832b617ad5ae865c9bd029c4d6ed6b35daeb65ffe55390abc9429eb551a2078"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollUk/LeaveAccrualLine.php": {
+      "md5": "c493ebf387e099c116f8a3c9c625d9f5",
+      "sha256": "855b51858d08bd24f3220c3750977f91fe5436ab91972ce590221b0349d0c2be"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollUk/LeaveEarningsLine.php": {
+      "md5": "1921ae9e20339c64f3495f6f642c6cea",
+      "sha256": "f21cd258e43ca5c026e90efec93446a140bc7a50e7dcedb6f12d6fa813bc0fc7"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollUk/LeavePeriod.php": {
+      "md5": "6ae1a4a61cb14db4a2f60c04322b2cb8",
+      "sha256": "b92f52d5ea90aa90a03d45c79ce699d1b0aa98b2f283bee2966d08b78d318827"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollUk/LeavePeriods.php": {
+      "md5": "91357c168a2b7ad077ec45673ccb4179",
+      "sha256": "9d70148b09c026fcdb591f18917f9d574b04123497bd7d8df04bd0415976651f"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollUk/LeaveType.php": {
+      "md5": "82f65df530629a970a073a8f6d16146f",
+      "sha256": "75f5162287e95636fe52cb3f57d148ce27c131eda9c9aa0a8c4bdf617b19c04f"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollUk/LeaveTypeObject.php": {
+      "md5": "654b79435477f25f0412fc2c250db50b",
+      "sha256": "b64bf5cdc3e5e8be0eb8746eb3263de098664877d919d68fb0aae8f3a727df97"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollUk/LeaveTypes.php": {
+      "md5": "d2a969f9478f7741b96bd5dcb668ec64",
+      "sha256": "b669637f0d1e96123e462de48500df2ef2e23fed5b2fc91ad4caf6c968bbb6e3"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollUk/ModelInterface.php": {
+      "md5": "94b59b51f4fe8d83714b63c23062f72f",
+      "sha256": "c03d56a67ac9a50e5a49bb20132822e86be64cc2c38001144f3d55ee3cc9fbb3"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollUk/Pagination.php": {
+      "md5": "854ce0dec1e6676978d68d1eba103b93",
+      "sha256": "4068fccdc558496c955d9c34726154aa0a8012fce92a285cbd30893c361df97b"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollUk/PaymentLine.php": {
+      "md5": "ae0a9fc11507a84b5c5296d86b99bef0",
+      "sha256": "d4af660f106735b3e16176586645914839518f474d8fd23748c26c8182c42438"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollUk/PaymentMethod.php": {
+      "md5": "c492a1b359b27b37f7139a12f2a7892d",
+      "sha256": "c5baba68a397ce077ed2c6684bee6b338632680730acd0916f38b03594f62912"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollUk/PaymentMethodObject.php": {
+      "md5": "152a4a7fc55def550079b408dd74a6ab",
+      "sha256": "b78b8de271b61ea2eb98cfe3bf6ad8f06f6aa26ee0ddd3b2c58243e86569d00d"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollUk/PayRun.php": {
+      "md5": "d9925e7522959b7b90cc32f326641680",
+      "sha256": "9f3b94832ad506d618b75cee2eb654391e67583a08720b01f594585ece3434a7"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollUk/PayRunCalendar.php": {
+      "md5": "71e57fd21128eee362277ecdab0aec42",
+      "sha256": "2f014d0205a83237e8b9404580dd9f70570afaa39d782280f9bc9135d7ad4413"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollUk/PayRunCalendarObject.php": {
+      "md5": "c0037c50518612649e9fe0840fa3089d",
+      "sha256": "c5f88144db0c595318b9064f70c2a360b57fee73af85e2956ae8d95023f201ee"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollUk/PayRunCalendars.php": {
+      "md5": "fb321c5f95f3a03c84203fdaec963fec",
+      "sha256": "c37c9d77dc82820da42bdd46ffb3783c0e0f985771accaa66c9998b8c4609ab8"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollUk/PayRunObject.php": {
+      "md5": "c7126210e111a80ea4abdddf918904f8",
+      "sha256": "ca90bba2d66f49dced1d27282c29b04e72062b7daf42f298d8590a07df04aaab"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollUk/PayRuns.php": {
+      "md5": "8bd291402fcf46580290d5bdf5a13568",
+      "sha256": "6f1d9b1e92708a18c64cabfb894ed87d0fa6f0cd021a7fcf966f309a26b1378a"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollUk/Payslip.php": {
+      "md5": "facaa5e1ebb2e9a02f71057e36d2a693",
+      "sha256": "ddce75200d4f045f27b6ff701155fbaacbe9bdacd241e215fe30a320e28297c1"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollUk/PayslipObject.php": {
+      "md5": "827e81b624b66fffe46ae844e1814447",
+      "sha256": "a7e7ff1298361353bd9d39623549908e563c5908c544c05939f1b7ec8aec796b"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollUk/Payslips.php": {
+      "md5": "bb1557e6e31f6e31133ce38df794d7c6",
+      "sha256": "2c887ed6cb6777ae5fa4d9dc1ef012c1bad7eacccde069e139de04d429f1dde4"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollUk/Problem.php": {
+      "md5": "875e3976205922b024ec8a715b4a1dbd",
+      "sha256": "36d1d076ed2e232c998f721738a7f74a53c8256a25e5b33df990db4dc2493121"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollUk/Reimbursement.php": {
+      "md5": "54182f912bd05813eb21bd937f42046c",
+      "sha256": "8761b42072e070056d0c564fceb8d2d6adce31650f9a4c4f1b3a2a315109f77f"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollUk/ReimbursementLine.php": {
+      "md5": "2e47be2bf0eb9970783318997e29a6fb",
+      "sha256": "367407be54f114b1fd50364b302944ae258221edcd1cafefe25b8dc09b0f58b8"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollUk/ReimbursementObject.php": {
+      "md5": "54ca2675d6a1289aa68cc0053fbc4cc8",
+      "sha256": "a329605047f6a1ea07b16d764649f9e6829e52c7e14208317980ee18a6806c1a"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollUk/Reimbursements.php": {
+      "md5": "2af8aa32f08071ace02f4f9a2bdf7165",
+      "sha256": "ee019ae439f0243b95ed8e9929c7338d4f0f13dc50fd0cfc71b54631649cebe3"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollUk/SalaryAndWage.php": {
+      "md5": "12eb8ff9a74756568296560f9ed6b723",
+      "sha256": "87924de690b42cd5c70a15ea64e67298d92e38edd2ff7a291af85d79a2ddac76"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollUk/SalaryAndWageObject.php": {
+      "md5": "58932445b4a56cd17e3e370eb4f8bea1",
+      "sha256": "4cf56106709df8a13acefe94a7887a5d15f9c310104bb4f3d4b5b5fee6800872"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollUk/SalaryAndWages.php": {
+      "md5": "cd985bbbfa84838a993961853c47794e",
+      "sha256": "55580e942032adc5da5039b955561f3aeb767bb358b322ef7efa3dd06690624e"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollUk/Settings.php": {
+      "md5": "707251493b431c96703e6320ed8e3163",
+      "sha256": "0f32e3c320c4e598a8f6eee16b18c69fa4b5ad73113c3a42d86396f86aa8cbfd"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollUk/StatutoryDeduction.php": {
+      "md5": "ba6ebae4b8997959d25a763131510db6",
+      "sha256": "4410256997f36941c22003547d0e6c77b74f545d88b2006be566708a4c0740e4"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollUk/StatutoryDeductionCategory.php": {
+      "md5": "4dd732f3e46c2b5b48576d25d9c7a0bd",
+      "sha256": "648b79210e42b8a0958b943bf331cbdcd5017736e04d6561d128352947ac0556"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollUk/TaxLine.php": {
+      "md5": "fdc094360036372224a7cb7d4a152999",
+      "sha256": "ce68c28ac095624c839db8f91f68db02e1a8c673278f642092ebdb2c1882e7cc"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollUk/Timesheet.php": {
+      "md5": "25c4aad93320f9a42d57e0e3b87fb465",
+      "sha256": "36fa0da27f4760ea637fbf0da5b3053735dab834df9584c96baaaf19d4d9d351"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollUk/TimesheetEarningsLine.php": {
+      "md5": "c31d81b539a11be784c5abaa1e920583",
+      "sha256": "13f2a728bf374b3626b0d0ca41cd68c4d7dc33df4f0dc3b9a4bb22c3b68c5a2e"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollUk/TimesheetLine.php": {
+      "md5": "dc57b13254ac6682cf52ae4384de8081",
+      "sha256": "f56e8dd135ad644db7bbfa82a66d0016cb41df489f3db3e36b501451cc5952a8"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollUk/TimesheetLineObject.php": {
+      "md5": "bf914c19ba6b9c4eba7af0eafb707542",
+      "sha256": "dc3edb2807b2797311af8987650a4650c0b60dbd36e0de0b86fc2edb2d3094d1"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollUk/TimesheetObject.php": {
+      "md5": "e0139ddaaffdf9094ad804b6ce0c9c4d",
+      "sha256": "6e91317c589f2d56f7d178d3e07eb4f9b18eebcf92a625dc47a691206dca5af4"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollUk/Timesheets.php": {
+      "md5": "f50640978e24eba2e0d000277b8b907e",
+      "sha256": "4a4596c04d7951e18d292488451aa50d7e8ccaa1184bf776aa486a91e8e61cbe"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollUk/TrackingCategories.php": {
+      "md5": "1b2eb17d25387999f57bb46d0f4578a4",
+      "sha256": "faa4d79d7a986ed73672f1efd78aca590e663b71e1a1fd77a7a2840cf56cd4c7"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/PayrollUk/TrackingCategory.php": {
+      "md5": "21e45610416c05f43b996f9e3dc28122",
+      "sha256": "d019fed31c28a3e6447f30710fd21d871d36d182642f3fbd61a0c84f047095ca"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Project/Amount.php": {
+      "md5": "e7d2f517da02695ed51b86b05593916a",
+      "sha256": "d830a02e1301f9de898f6d55f9f6fa5c46b665559211dd884b0ad56ec4c8ec1c"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Project/ChargeType.php": {
+      "md5": "34b0e5d1bf117af57eb81476e9db71d9",
+      "sha256": "3244e22f58b18924fd7471428e72fb4d196514d584dd0d66b703956825bf679e"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Project/CurrencyCode.php": {
+      "md5": "5e3a3536c6ec94c68ed3807719a3fca1",
+      "sha256": "e8b178080613a032778e83b885106ae1d9ce70cdde9da6efb3dd22ad34ba1a87"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Project/Error.php": {
+      "md5": "c7aaff1a516b3324e05f167afe92324f",
+      "sha256": "b9c27a35e22a379cad2cbf7f5d2b46735693bcd2aefaba19f81bfbd1de47e416"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Project/ModelInterface.php": {
+      "md5": "28c2467bd7d518659881c96e783bc3d0",
+      "sha256": "54ce2e16e26fcbed91ce2aa90378f68ed9ae3700b100f6e259c34887ec09fa3e"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Project/Pagination.php": {
+      "md5": "cbaa4dcc496362298634c861ac0c9d09",
+      "sha256": "88d3be3caf16bd2e84af9f707658bac9522b29b7da2f51668b6ec21952d4e203"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Project/Project.php": {
+      "md5": "907027dcf481d572068235320ead62f7",
+      "sha256": "ff31edadc06cd57c5316be6dca4bfb0d70891224f5199117f1c8d8e6a992bf21"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Project/ProjectCreateOrUpdate.php": {
+      "md5": "aa83aec201b2b836a996114111c58084",
+      "sha256": "c9e84f0a31e966b85facd7522eb1940479cadaca20ea1620c376ca8b19845d58"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Project/ProjectPatch.php": {
+      "md5": "4406fdb4c032c65a8e2ada7094c319bd",
+      "sha256": "f83deadbe7a3556b37e8395f54dac0f273aedd8a30014ab18256e734161dd1bd"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Project/Projects.php": {
+      "md5": "602f4e5bdeeaa4c607fd94290d3ae786",
+      "sha256": "ce10181f9214c9bcb9d4a02fdfcb9e80fdbfa15bf70171b2d19037d2cc912dc4"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Project/ProjectStatus.php": {
+      "md5": "ae0cbe68c6a726d19de37ae18670730c",
+      "sha256": "1a4c7e6f0c804b1adf7a41f8ccb5b9496a23cd0c9179b8e273b6c65e8fbe7047"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Project/ProjectUser.php": {
+      "md5": "676b0a2d3a914ce3ecc8c3ed5dfcd2ad",
+      "sha256": "e7cbbd10b1b4f54714e256e8e36ca60e04bd0cec4d33cb46ba7b5805ca5f51ed"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Project/ProjectUsers.php": {
+      "md5": "cb2b6e7323d6169f8da094459a799127",
+      "sha256": "5f52e106d4095c0097ddd5f8db06ce7523abd30359d3c516818d63560f869919"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Project/Task.php": {
+      "md5": "76511f9da4eb16f608655da55c684553",
+      "sha256": "e3a148499b3ff8dbda01e7c8b79dc03714602e729bc01db8239dd1cdedb38dd3"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Project/TaskCreateOrUpdate.php": {
+      "md5": "6ba0d2ca855ad56309a4ec09acc14c0d",
+      "sha256": "0ee4c93a584fb963c285e2215184e22561a9fe26b59e9b52eca14f585403ec4f"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Project/Tasks.php": {
+      "md5": "3705e25caae2d4d43d7e39a7e19bcaff",
+      "sha256": "f9d42952cf17810dc08ac70d101e87d9b778f123cb534c8bab2ee8b5d2e58985"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Project/TimeEntries.php": {
+      "md5": "7cb024fe1cafbe07b61ff46bd2aac08f",
+      "sha256": "6ca575bf7c1ebc918a1da10069491391ed62a4920bd165cb77fcaae2f2eb5159"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Project/TimeEntry.php": {
+      "md5": "ee8d677766aad07f50672b241c66da47",
+      "sha256": "8f15c3b60969e0c5ae09ee79f9678665b4e53af7ce3560084914411cf0f98f19"
+    },
+    "lib/packages/xeroapi/xero-php-oauth2/lib/Models/Project/TimeEntryCreateOrUpdate.php": {
+      "md5": "2e6e89985153a8cdf5c82f41a60cabeb",
+      "sha256": "10eea8bce19b66871228518768c982d54e80c220776c7d5afa376ce2d1990333"
+    }
+  }
+}
