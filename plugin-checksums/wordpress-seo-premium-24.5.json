@@ -1,0 +1,1494 @@
+{
+  "plugin": "wordpress-seo-premium",
+  "version": "24.5",
+  "files": {
+    "changelog.txt": {
+      "md5": "7b761223959dacdb889e1a5497581985",
+      "sha256": "7958bffa0f527d64d91459c8d795c0aa1d00bf63729e540325a38703a79ff560"
+    },
+    "index.php": {
+      "md5": "45d09bb48b4f308b8f63baab8f416733",
+      "sha256": "1d09d11fb08cadc1ff75dcf496251059a936ee143f7d7865eb5a2aa504ce2da2"
+    },
+    "license.txt": {
+      "md5": "b6d57e80537d4ce37e23767635ed2b2c",
+      "sha256": "31e965f6786576f9f3b5d49f0c8d293aa38fe31bbebdb186fde43110261e6273"
+    },
+    "premium.php": {
+      "md5": "9cc3a14005feed63c5c495d4b1ce214c",
+      "sha256": "c533d8be6bfcd0dc2956035bc2b04100dd22eed4e2afc4e51ffab857e5820e5f"
+    },
+    "readme.txt": {
+      "md5": "ee07708c271ab4519fabeffbd84fc72b",
+      "sha256": "4aab38e136870720c0a6385776ce1f1cd9165afa2ce42b04853c412aab41ca6b"
+    },
+    "wp-seo-premium.php": {
+      "md5": "71f5a3823f7f27e6b5adf8639eeac008",
+      "sha256": "4313c748b709ba914f04b6220bbe4d172a5b4b1cac279b7cc3f64df2bb7dcf9a"
+    },
+    "assets/blocks/dynamic-blocks/estimated-reading-time/block.json": {
+      "md5": "6b67001edee54628b91956c9220a8b43",
+      "sha256": "4c51a983c35145b41e830fa3cc2ee4b86db6b59545a85cf870ceb1d03ae2cd83"
+    },
+    "assets/blocks/dynamic-blocks/related-links-block/block.json": {
+      "md5": "454c89ebe3906a6c6673ed6cba7ac88f",
+      "sha256": "3ac6caa55af4777337f0ef32c699bf367648c77fa10a82fac3af7b723f04d94d"
+    },
+    "assets/blocks/dynamic-blocks/siblings/block.json": {
+      "md5": "64591820c8b2805d6ae6befd98f10096",
+      "sha256": "6ff03503cfb81854184931e9d584280a3eaf090b9239b88ef5a2e17202966792"
+    },
+    "assets/blocks/dynamic-blocks/subpages/block.json": {
+      "md5": "36d6e6a1c103cc487c1445c8e753bb9a",
+      "sha256": "2f09e54bd70b3021dcfb3f3f96039b4d062df13d432e2062d08041a22d19bf7a"
+    },
+    "assets/blocks/dynamic-blocks/table-of-contents/block.json": {
+      "md5": "8c0f113fcee169d0eb86af6f3c156dfb",
+      "sha256": "928c8963d45044cc22a4fa6da7429482cbf7364fc0d7f33cd7ec5fb88e12ee8f"
+    },
+    "assets/css/dist/premium-ai-fix-assessments-2450-rtl.css": {
+      "md5": "37eeaed987d517fdd39c8f78fd78f949",
+      "sha256": "4cf5a8ecbb67cbf288d1ff1995d3cba28104df3b6f46087aaf3387d0c560e818"
+    },
+    "assets/css/dist/premium-ai-fix-assessments-2450.css": {
+      "md5": "6bc063dca667627cd8ab295ca9811dd9",
+      "sha256": "f300f57d5a64ba4fb7a1ab34c05eb453de742963008fdbfadd5ea628c5765443"
+    },
+    "assets/css/dist/premium-ai-generator-2450-rtl.css": {
+      "md5": "55f58450acc75309542f1f8cbbe73a7c",
+      "sha256": "91dc5e8df549197ea11a6522d128438b067c68e534567a28f89059e14cc1d4a0"
+    },
+    "assets/css/dist/premium-ai-generator-2450.css": {
+      "md5": "db9a4e49375044bc07025f6bfac301d3",
+      "sha256": "80d61578cb3a53fdd3b9a67c512218818776edc7e18a9dbe051233671cad5603"
+    },
+    "assets/css/dist/premium-block-editor-2450-rtl.css": {
+      "md5": "4417c6273f79196b5fe0a226ce6e91d1",
+      "sha256": "baf9b4268570599e41a0c5d5c0f4cc49ad22d02d0a4ecea2c6228bac048197cf"
+    },
+    "assets/css/dist/premium-block-editor-2450.css": {
+      "md5": "4417c6273f79196b5fe0a226ce6e91d1",
+      "sha256": "baf9b4268570599e41a0c5d5c0f4cc49ad22d02d0a4ecea2c6228bac048197cf"
+    },
+    "assets/css/dist/premium-draft-js-plugins-2450-rtl.css": {
+      "md5": "36b98365eaeac6a2be021cf69ac63393",
+      "sha256": "8678831b2f70d7d72577cfceadc16958c8b0117ddbaa9ff9b5d0c3ef5ab6a13d"
+    },
+    "assets/css/dist/premium-draft-js-plugins-2450.css": {
+      "md5": "62eaa731dae40c9d81e84e5dbc4f8cc7",
+      "sha256": "e5e539550fb773baa93fb2279d60c7ed3d66e01554f1f04e9167aa0721bf94f6"
+    },
+    "assets/css/dist/premium-elementor-2450-rtl.css": {
+      "md5": "627dc1b5b52c46407de97a19b5b0e206",
+      "sha256": "9d0f7e8189b8ec36a58cbe7119b4e55b7bb9256a71d2438c4bcdcc77dd6bf441"
+    },
+    "assets/css/dist/premium-elementor-2450.css": {
+      "md5": "6963e59f58ed4c5e97310b31e8703fd7",
+      "sha256": "54e9c7a16a615f50a1347d8c9715e178d8cc0599952a95063510e1c1522b6e87"
+    },
+    "assets/css/dist/premium-metabox-2450-rtl.css": {
+      "md5": "2f28ea04b25614bb7afe09d5672d00b4",
+      "sha256": "d659941cfc7e7bccd654289237664a5b480ba01840f4a32e45225d212379286c"
+    },
+    "assets/css/dist/premium-metabox-2450.css": {
+      "md5": "fc3689eda452e656cf12e73b05874ade",
+      "sha256": "adc6e73655f0cc954ce8c6818ed626474d87bc42106fa9fa82270175d1fe97f4"
+    },
+    "assets/css/dist/premium-post-overview-2450-rtl.css": {
+      "md5": "5fc32aae795e54f9374522d67c1d1c4d",
+      "sha256": "fcebb5fc7d3923e9de890485d1c8ac34e9007c684dbf0d551ab72bc180d8f931"
+    },
+    "assets/css/dist/premium-post-overview-2450.css": {
+      "md5": "d52de3a3e02038807cfddc0bb7980ec5",
+      "sha256": "6a6d0ee6325c5dbe32387ebccc5061820ea2ae2565f2362af0c659b15d3ee655"
+    },
+    "assets/css/dist/premium-redirects-2450-rtl.css": {
+      "md5": "56a972decbd284a8da91a10170f7189c",
+      "sha256": "775412f53409487950a1fc5b36fae4cbd4307310cf032517c3f8a436fbf05385"
+    },
+    "assets/css/dist/premium-redirects-2450.css": {
+      "md5": "56a972decbd284a8da91a10170f7189c",
+      "sha256": "775412f53409487950a1fc5b36fae4cbd4307310cf032517c3f8a436fbf05385"
+    },
+    "assets/css/dist/premium-settings-2450-rtl.css": {
+      "md5": "5e36ef2a9fd823754233b95df43fa580",
+      "sha256": "6a927face5c98acebd1e165db2a3272be4a56ff3893e412401658ec9667e66c2"
+    },
+    "assets/css/dist/premium-settings-2450.css": {
+      "md5": "d972a9c1488afe274ddd78f0ff5ee99e",
+      "sha256": "4bbf8cce67443325a5b9fd11df15a5003cf6dceee9c22c0cf7b20f1fd4cd1e3b"
+    },
+    "assets/css/dist/premium-tailwind-2450-rtl.css": {
+      "md5": "cb91ddcd3d92e2c6ee2b502883548ec1",
+      "sha256": "08cf4b519b914b3e13e489a42e541270ac974f8622d7257caa61e32005e8e1b7"
+    },
+    "assets/css/dist/premium-tailwind-2450.css": {
+      "md5": "79e48b112bc7066c3dc851d32c1cb9f8",
+      "sha256": "7ee18a85f2bdb77b1baf6f98d2a34ddbafaa29572b08b73190883d48bbe3d0de"
+    },
+    "assets/css/dist/premium-thank-you-2450-rtl.css": {
+      "md5": "5bf12682f241f4270a8535dcf67813f7",
+      "sha256": "d29b62737b16abd58bb0d3d4acfbd30bda9f1052849a99de5e12f607782ffb5f"
+    },
+    "assets/css/dist/premium-thank-you-2450.css": {
+      "md5": "e874032b682bb49b5a4d8a39cb15f07b",
+      "sha256": "a6c40565e989925794f0edaa13c29536e32ba9e6216454499aeade70a437bcc7"
+    },
+    "assets/css/dist/premium-workouts-2450-rtl.css": {
+      "md5": "45e4517770b84c7abb6a276de0de8b5e",
+      "sha256": "01d73fb707e8e0982d597c8915feddf7165d5d962588241eb171a2296537d45b"
+    },
+    "assets/css/dist/premium-workouts-2450.css": {
+      "md5": "783742472fbad18ab09c9f6030e94097",
+      "sha256": "ed5def09d232ca9c86e324298d5940eebdc396cd8f350eae74acc21a12412e64"
+    },
+    "assets/images/ai-consent.png": {
+      "md5": "d221dc2fa71630c11662bacda57f5b5a",
+      "sha256": "fc210524bd402f44dd80697822cafafe3fef53d4396b2cab27f807c39404fb2c"
+    },
+    "assets/images/cornerstone-icon.svg": {
+      "md5": "4182a37876284b6a9c9ee1b7eade91eb",
+      "sha256": "5c588169588f382ecb080fdf3d7ef24db2bc8c6c35ab3de0d3a76c51ee7f4a46"
+    },
+    "assets/images/inclusive-language-icon.svg": {
+      "md5": "df38052a4acf1b381f25b10c38517418",
+      "sha256": "38517edec9c806c401cfa802d534f172b3f446efd1e2d3727b17da737bac7863"
+    },
+    "assets/js/dist/ai-fix-assessments-2450.min.js": {
+      "md5": "2e4b88e599a16ab5de7cc40906a984b0",
+      "sha256": "91ec61bce3c5fcfb7fb386200a4931a0799b18b5cfb10ccf61d7076c082fb779"
+    },
+    "assets/js/dist/ai-generator-2450.min.js": {
+      "md5": "50a48288cdee1a17e7e2697944f7d9bb",
+      "sha256": "073488ae46260384b697ce529e81a8e9ec40abf304a4402036f334211421c927"
+    },
+    "assets/js/dist/blocks-2450.min.js": {
+      "md5": "0e42ec1bf06709e8cf276a5b98bf3c25",
+      "sha256": "c3097984bf0d03b616c23ba501b505c3d8cb2cc0cf8342bf38231a6fa51ea900"
+    },
+    "assets/js/dist/dynamic-blocks-2450.min.js": {
+      "md5": "1aee25c8d7f639274f27b9c92ded6808",
+      "sha256": "663ffe0e41035234ef84b69562c56afa9db6f4dcddce1d96df8dde1f78af54cc"
+    },
+    "assets/js/dist/frontend-inspector-2450.min.js": {
+      "md5": "64ccdd1a61944e3701436cea83a03ef9",
+      "sha256": "c513d33749b4c7a8674023bd659d7f0afd3c37da389b754f21c8edce4ce2abee"
+    },
+    "assets/js/dist/introductions-2450.min.js": {
+      "md5": "cdc4b83b31c8b958c646944e73f4c68f",
+      "sha256": "0a93ce2c369f9c77074642ea810dd3c4078d12757b9f32f87491fd32a8d33d24"
+    },
+    "assets/js/dist/manage-ai-consent-button-2450.min.js": {
+      "md5": "145f569a6ca22e71019d764cca38fb6d",
+      "sha256": "e11e9b0d381e2dbcc1835861c174a7354a07d34547946fb972a5703a9febac32"
+    },
+    "assets/js/dist/register-premium-assessments-2450.min.js": {
+      "md5": "19026083e70e8742d7e088a8ff8de5bd",
+      "sha256": "cd0a0e6b09f6714e63d268683618c7739bbe0871beeb06c0a5543ed5cf3e6dc9"
+    },
+    "assets/js/dist/register-text-formality-2450.min.js": {
+      "md5": "bedfe647902b56b94a11a3e57d1d80e9",
+      "sha256": "d6453a738167df799a2a21a28962e2d4c5750752a728e1c024fd339817af5a9a"
+    },
+    "assets/js/dist/workouts-2450.min.js": {
+      "md5": "13ceaf0defe38f7378df94e8485be1f1",
+      "sha256": "976d25466abcdb9f461071d0ddb14464163ac10f780784bbd7f0c98095fa8ad4"
+    },
+    "assets/js/dist/wp-seo-premium-admin-redirects-2450.min.js": {
+      "md5": "827b838274d279898df8d586d3c1cd19",
+      "sha256": "ce8c405bba4d10fbb17b740fcd73e73cba9bcb82dd6493b00046411841d85f3c"
+    },
+    "assets/js/dist/wp-seo-premium-custom-fields-plugin-2450.min.js": {
+      "md5": "06ada665fbe0e5ce08ab728bc019ccda",
+      "sha256": "56cda9315b99afc0058539f3b1502cf6063efbd1f3cc0b7545eb2a698300feb5"
+    },
+    "assets/js/dist/wp-seo-premium-draft-js-plugins-2450.min.js": {
+      "md5": "b1c294059ff8652d7b092310c4f4d03c",
+      "sha256": "b00ea1345488376c57a76c14d71aeb9f715ba8e1ecee12602b96e5ba00fcdb91"
+    },
+    "assets/js/dist/wp-seo-premium-elementor-2450.min.js": {
+      "md5": "7dbdafc3d4c1837cd6e650f393438050",
+      "sha256": "92420b6de2f1ce19983620fd046cfcd0f079e8751d3d2bacc952a3e37ba34342"
+    },
+    "assets/js/dist/wp-seo-premium-metabox-2450.min.js": {
+      "md5": "cd15634e436c42673a74494de7007ae9",
+      "sha256": "3f77e3944a531d82957187b0e346ed48b18b19a6b231be5d2885737537df7ccd"
+    },
+    "assets/js/dist/wp-seo-premium-quickedit-notification-2450.min.js": {
+      "md5": "5bcfc9e85dcffd0fcb2a489925f603bd",
+      "sha256": "0c61fb42e8661f62dbd63000345ac9030638640cfbeb0a4d69d1047a7a77cbb6"
+    },
+    "assets/js/dist/wp-seo-premium-redirect-notifications-2450.min.js": {
+      "md5": "8a61a4d3a7ae6ef640aa3edbbd2763c0",
+      "sha256": "4e0d1213e482f35236641b1f95e766ca373fd08e983eb5314155064ba1edb0d9"
+    },
+    "assets/js/dist/wp-seo-premium-redirect-notifications-gutenberg-2450.min.js": {
+      "md5": "f3f9e9737ed741b2307004cc018c919e",
+      "sha256": "5649ef079cc431a0c6a0225ad90ea5ccbc4c328f29fb7d699e832677c2df6e3a"
+    },
+    "assets/js/dist/yoast-premium-prominent-words-indexation-2450.min.js": {
+      "md5": "aecede97e0b5e8ac7c65460c5b658871",
+      "sha256": "1997b52537e66f97979552090a4ef54205fd5c2f7d3e3229d41557d2c6501dbb"
+    },
+    "assets/js/dist/yoast-premium-social-metadata-previews-2450.min.js": {
+      "md5": "27d78fef7e903e5899f5096391c02252",
+      "sha256": "39ea7f71a5bc215e67fef6b70251f2656f6ce89d16bdbcc1bb19bf35119bdcea"
+    },
+    "assets/js/dist/yoast/social-metadata-previews-2450.min.js": {
+      "md5": "7cd5691f88077e184a2001c40b07ffe4",
+      "sha256": "782adaf7bd5abcfcb890089aac7eb186f07caf5ab7b745b7fda71b880cb8ecca"
+    },
+    "classes/custom-fields-plugin.php": {
+      "md5": "c8cfbf1b6869d7864da905ad3fe9c77f",
+      "sha256": "58cfec929318ef3631bd1f93c2e32b4394a2e0b1122e2f10bc7e4bfad03025fe"
+    },
+    "classes/html-diff-renderer.php": {
+      "md5": "df59c1e0ab11aade05b357da7517a9e1",
+      "sha256": "e602089e0ce2410ba47e2eba19819b8573f02d372efa1d3ee76710ee69a846ad"
+    },
+    "classes/metabox-link-suggestions.php": {
+      "md5": "b7c82cc82e310bcc95ab64ed9f499e99",
+      "sha256": "b0df917fe41204df01562fa85909b326ba0cb2978fae590cbb47809c8fbf784b"
+    },
+    "classes/multi-keyword.php": {
+      "md5": "6437786985db30c4c00d0e75884fc827",
+      "sha256": "47deaee7fa49590af266f947fde0083eaeaae864a95390306dbefa69b8a55850"
+    },
+    "classes/post-watcher.php": {
+      "md5": "1d8678a181e5aa17cbc5e814b4a6e9fc",
+      "sha256": "ba1a311d4341b3f83b28e9b11cd1c50136a880c4718bdf9a7affa3d77d8c7124"
+    },
+    "classes/premium-asset-js-l10n.php": {
+      "md5": "56a7214416e95b6447081683f38548ca",
+      "sha256": "d9d8d7515587549a491b1ea22dc986ad67763d10a3235aaffcd1efaba52d27de"
+    },
+    "classes/premium-assets.php": {
+      "md5": "5b6623b858252cd1a658210a43895351",
+      "sha256": "db08104b15d001c21a5f300f2e940a6c38c0a340fd74d3e8e5a537fda0c5944d"
+    },
+    "classes/premium-expose-shortlinks.php": {
+      "md5": "6f73837b2683b9ad8da201fd3279b032",
+      "sha256": "ff5d56085eb066ec0cfce3846edcc66a5f35fb51e787e91c505ba7daa7e38228"
+    },
+    "classes/premium-import-manager.php": {
+      "md5": "807a33864200abc8337847d54236dbac",
+      "sha256": "b59c3e8e1b22e7155a82bb59db774f0e2ec6001182af0da0a78f1525b13b6dd2"
+    },
+    "classes/premium-javascript-strings.php": {
+      "md5": "33bee5ed2c906fefe6511e25e8bc4f48",
+      "sha256": "2ce4e647bc8b545f2185e8ca0749f8ac6489b56d10a18a0b292d692b13121ccf"
+    },
+    "classes/premium-keyword-export-manager.php": {
+      "md5": "efe3b6cf475a4d5ca23c6eafba091320",
+      "sha256": "9fce3473160c83a1e75fb45cd6340f6fdd07e32dd673356e39fe90e35cfe078c"
+    },
+    "classes/premium-metabox.php": {
+      "md5": "6116f5623e2102ce39f61fb0794e7b58",
+      "sha256": "b5d39db196bd28bb561d0c541ae5db39edd8df0dc379ee1f0effdb6c7a601d72"
+    },
+    "classes/premium-option.php": {
+      "md5": "166a5ab9b84981ca8255c5b6f0e09333",
+      "sha256": "290748574f8b8c9a1dd3819e644b8087f06a16074d8bc48cced737c84ac36594"
+    },
+    "classes/premium-orphaned-content-support.php": {
+      "md5": "d264840375a19cbfa1abe20b0a6274e3",
+      "sha256": "fe18232680c5bf208d2356e401ee71ad582963f78faf5b7c49940204bc28a97d"
+    },
+    "classes/premium-orphaned-content-utils.php": {
+      "md5": "a12274f1276403a5034930f1ac2dd2f5",
+      "sha256": "9090c4cf2fe5d5bac1b1e804d2ce1ba2d309dd5de23aa81ec71602202b24533a"
+    },
+    "classes/premium-orphaned-post-filter.php": {
+      "md5": "7e8488587cb600e3ca1644dbb95f1963",
+      "sha256": "d9449c23dcb15606c42371fb2e66d2e7add2a32395ce96a2d618fec8307a9b3e"
+    },
+    "classes/premium-orphaned-post-query.php": {
+      "md5": "d9676e0b027a6caae0df64fea2ac72b6",
+      "sha256": "0d68b09a09f50e314a32bdb38d6e461ca8a60080261605f57af3fe0bbdb426f7"
+    },
+    "classes/premium-prominent-words-support.php": {
+      "md5": "21c9bc2a99d768ea91514b91591ef015",
+      "sha256": "bdcdc0d621471036abecdecb4c7659495f7681ca2c9e7f4b2d38e7ead5d7a34b"
+    },
+    "classes/premium-prominent-words-unindexed-post-query.php": {
+      "md5": "4aa1ecf7ea513caf95ffbefda18ba9e4",
+      "sha256": "3ca76f41e51350e1ddfb7354fa658bb782af652f12b259a33ec42db048c44879"
+    },
+    "classes/premium-prominent-words-versioning.php": {
+      "md5": "acb91dfad86cfb2401480e4e839a0077",
+      "sha256": "316368584ce4da2a867971ffc623c944b76913f69048aeb5fcf8304515bd9785"
+    },
+    "classes/premium-redirect-endpoint.php": {
+      "md5": "8a8794f5684648aae71f6ae89eaeef75",
+      "sha256": "668a5ef03ef36869637fa7b0c9dfdb223a19a8eae0c6bffc580693d25e4bb051"
+    },
+    "classes/premium-redirect-export-manager.php": {
+      "md5": "0ba50ca873e4c0b492975253c8bd09fa",
+      "sha256": "e44e503aec1e52af6ecb10621a3c1b714b52205de9c0cd7c70c12daa059eff97"
+    },
+    "classes/premium-redirect-option.php": {
+      "md5": "ac251e0b8d46a6159203391da90f5012",
+      "sha256": "753c441cae1b86a82a99fde8074c52cef3d12098b69b20e7c32f07bb83e0eaaf"
+    },
+    "classes/premium-redirect-service.php": {
+      "md5": "9ae90d3f444cf0d574d2c7ea73f705a1",
+      "sha256": "757e84abc23e78b41998f856c4da0ec750e90e53764f9e0d168bb68080acb12e"
+    },
+    "classes/premium-register-capabilities.php": {
+      "md5": "d99f4161a6c7fc4ca8e60c9ac07d243a",
+      "sha256": "8247e2c143c41f636a5705f57a1414ecfdadd59d9a88864151f4ee1778702abc"
+    },
+    "classes/premium-stale-cornerstone-content-filter.php": {
+      "md5": "e873aa95080c5f784c1e62c2c9141b12",
+      "sha256": "9480c3d4e8ef4c422ef4e1911080c65e51a3468ddd4506c9e76ad7ee2b28a57e"
+    },
+    "classes/product-premium.php": {
+      "md5": "1f18d78c27549b0d407214442122bb2d",
+      "sha256": "78a15ecd4f38132251fe3595df6793b85e08a509dedf5772c6c32524832bfa0b"
+    },
+    "classes/redirect-undo-endpoint.php": {
+      "md5": "7944061c303a60949e2ac7f7fa984c79",
+      "sha256": "eae718c63304d05f15e940c99a53db12afd6a97176149924a20623a7872f5afc"
+    },
+    "classes/social-previews.php": {
+      "md5": "a212cd05daa08b89bec3acb73b3ed6de",
+      "sha256": "e695819ebeed906b61550a292b6906c04a38466da8b87488367cf0f0de5c5a60"
+    },
+    "classes/term-watcher.php": {
+      "md5": "9d30a9043a6b3ec77eb8b70346ae9176",
+      "sha256": "630ff1b743d445cf78334d24754876ef2d539775cdc6486e40ed687910e67463"
+    },
+    "classes/upgrade-manager.php": {
+      "md5": "19e3c12506c9aacc39dfc34eae17dda6",
+      "sha256": "9cae737b88cedfcce8f016ffd9fcf362c93c3eee9b1670bded526fb24d18f3c9"
+    },
+    "classes/validation-error.php": {
+      "md5": "31629e4b59d8f31f90612b7500182e12",
+      "sha256": "fff9d7c3dbf43fa7143a2cd9412757cc3c9c5e7cbd07a32f95a0c192158fbd8f"
+    },
+    "classes/validation-result.php": {
+      "md5": "0d2e270e8782caae5d903f41c5ee80b8",
+      "sha256": "02adb681a0ac3715e0a7005159872c248e54996d9f9a528c1e4964dcd8d91347"
+    },
+    "classes/validation-warning.php": {
+      "md5": "95f54ec9af14202c155bc9b3c62aa91d",
+      "sha256": "9693fedfd8fec24603a6c3969ed0f7ff065c40d304b9cad0be5611e2b3507c15"
+    },
+    "classes/watcher.php": {
+      "md5": "060692ce5af85365ced5a1722c9beb7d",
+      "sha256": "764980ebca96b7d769f72e1baeee664b21e4f0f59697e32bcba49b90afc2bbd4"
+    },
+    "classes/blocks/siblings-block.php": {
+      "md5": "9ea424b95e35b69f96f62bb14b1ac135",
+      "sha256": "6f07ed034a6398d8889dca7eebbbd8cfe34d18aa0c813eece81265d7be0ec183"
+    },
+    "classes/blocks/subpages-block.php": {
+      "md5": "c82b5553e4704b239e4415acd5440fbb",
+      "sha256": "e196eb66e06a943c520f51aad9b633cb193e1d06732563ee875e8e1c1162715e"
+    },
+    "classes/export/export-keywords-csv.php": {
+      "md5": "22117c653f36fc3b48f4e91a0005cf6c",
+      "sha256": "b07af2d9926e721db04367d20765f4a6aade552d5ab3ad234da062ca39dd0b4e"
+    },
+    "classes/export/export-keywords-post-presenter.php": {
+      "md5": "ab3c46441449038305d02821f27c4743",
+      "sha256": "b70c01f1228e29e0b179be9e4f39ace1a6444a7e6eaa5efc11ab248e6eba8a8f"
+    },
+    "classes/export/export-keywords-post-query.php": {
+      "md5": "79a335657e4a4862e6cb7c297c1ecd1b",
+      "sha256": "cd24132fd79f93798c4fb8804085a841594dd08b34c0923332a599f10dc8e413"
+    },
+    "classes/export/export-keywords-presenter-interface.php": {
+      "md5": "56d9d96044ab9de7186572b7d6ebf128",
+      "sha256": "9a3e89b99519d700a16923799d2b20b10227f76488788df9374c492e45f5c3ff"
+    },
+    "classes/export/export-keywords-query-interface.php": {
+      "md5": "0629ee1f16d2ee34eefb6bcaf68ead7c",
+      "sha256": "5087140cfa85ee8e81f708a579a7f205b7b00d394188dc368cf3e10b5a5816fb"
+    },
+    "classes/export/export-keywords-term-presenter.php": {
+      "md5": "2c031e2e837bd9245cd43d69fbf966d3",
+      "sha256": "5b1898fd4eb09111c09871e245668e9a66cd0c5a32be4730666eb726f80147b1"
+    },
+    "classes/export/export-keywords-term-query.php": {
+      "md5": "e1eb544c3a9d7f3c3f44602a4d625f88",
+      "sha256": "1226aff6d7385687f5b87d6bc4674364572358846616da847a9033c5cbbc8ef3"
+    },
+    "classes/redirect/executable-redirect.php": {
+      "md5": "a506412d534ce00fe808eb5360842f3f",
+      "sha256": "9dbd60e842f8fe0191853194799e0203c4a85765e47544107156aa728701e288"
+    },
+    "classes/redirect/redirect-ajax.php": {
+      "md5": "b3e7a7f3bb357229772d478a0a600e38",
+      "sha256": "5a197458dd46d3ecb85f10300c977c824e0ff5e026f3ea105deea41357496d34"
+    },
+    "classes/redirect/redirect-file-util.php": {
+      "md5": "5073fe288246c0bcbe282cc782312121",
+      "sha256": "cf01ff2f76fbbed01b557b4fea42ce186c743a0832c606cfec6c023247d32be2"
+    },
+    "classes/redirect/redirect-formats.php": {
+      "md5": "b7e8efdf17fea26c9ce57397e9daee5d",
+      "sha256": "f7ee4c30cc3fc6b794113a5cc926fadcb7bd7cf5b1995f3e69ba3e70d8839fae"
+    },
+    "classes/redirect/redirect-formatter.php": {
+      "md5": "505856356b6b4e792203579faead91a7",
+      "sha256": "129c6fff9621240e0813059c7f6c2158f0cc5f73a44cf417d8ea3aa371ccd697"
+    },
+    "classes/redirect/redirect-htaccess-util.php": {
+      "md5": "63e0b30c8f2363123fd8909e37b5a79f",
+      "sha256": "e4643dde4abe02ca0156fdb429a32bc7cdab06ad8cf2805af4524d04dabe258f"
+    },
+    "classes/redirect/redirect-import-exception.php": {
+      "md5": "5d4d00d62d33883f4c46f93dc1d87d91",
+      "sha256": "65530b28e63609d4235fa039dbb17cf2483292294f6eff3fa8ffff08e52cc362"
+    },
+    "classes/redirect/redirect-importer.php": {
+      "md5": "1e2ee995c277a251635fe65f2f6a8d41",
+      "sha256": "02f474493af9a78da2baaff4dfecc878082f164355bf37b22df9e889211e19f8"
+    },
+    "classes/redirect/redirect-manager.php": {
+      "md5": "1ec191599d3370e2383964136a91bef2",
+      "sha256": "42e07a4cb282500bd3c27463fab013236a6e6b74808f49cd8ed74f5b2725c3f7"
+    },
+    "classes/redirect/redirect-option.php": {
+      "md5": "bf581f9b7f16600fd8c1e32e1d11b243",
+      "sha256": "87e071f593f653e177ab397a92579bc88f2effc03cbfb213f6de4cf5361b2aa4"
+    },
+    "classes/redirect/redirect-page.php": {
+      "md5": "26482045e3caaa46c23f89ae64d853b6",
+      "sha256": "468f824ddb0dd0dbe4504ac67840dce82f0d8686953b29924340e9d1901782ee"
+    },
+    "classes/redirect/redirect-sitemap-filter.php": {
+      "md5": "688afa53f806caa41ad3961f1bcbc107",
+      "sha256": "fcbaddac5bb6cc7463ab435d004fe45b2de3002a53e26eab765ba16750709d78"
+    },
+    "classes/redirect/redirect-table.php": {
+      "md5": "26e13c3df90a4eff6567d9bb96970147",
+      "sha256": "0d7a8ecc1823ae199e42c46cee58d1cd1329743421a0285d1056a2030fc989ec"
+    },
+    "classes/redirect/redirect-types.php": {
+      "md5": "de9300259798c9bf4dfd15b58684ebcd",
+      "sha256": "abe7519eb0484b6315edd5beffeba2cf9ecd8cfcab5c419e1340a572b22a7a54"
+    },
+    "classes/redirect/redirect-upgrade.php": {
+      "md5": "1b1ce4f25ee10154b306d7eb708c6b66",
+      "sha256": "86614582d3c30eb11ad42a1fa663970ae9944700e3abbc50c7e6da2f54c67d99"
+    },
+    "classes/redirect/redirect-url-formatter.php": {
+      "md5": "bc8bfd1f010a7afd3ba312d9ef0055ae",
+      "sha256": "372172bb037598dc045f02777120b5f13913c6f24528daa975a5f714b2bdfbd6"
+    },
+    "classes/redirect/redirect-util.php": {
+      "md5": "65aa0f3f72d9aa6f1e103f964e5549e5",
+      "sha256": "64c7c79eacf9a064f21cdc66c951333ebb72f6e85c7a5531c9e5acca76aaa865"
+    },
+    "classes/redirect/redirect-validator.php": {
+      "md5": "efbe5c50450f4865d7f14a609e89397f",
+      "sha256": "cf1fac72e38ad29b9e26db6f046b9e33074a363f3443153660940ec6af0ad197"
+    },
+    "classes/redirect/redirect.php": {
+      "md5": "687fc28777620eff4fc6ab64bf02d1fc",
+      "sha256": "6c8f7bd5d501314ac59f71f8427c12f9ad30e8c28723b49b5908916e9cce88ca"
+    },
+    "classes/redirect/exporters/redirect-apache-exporter.php": {
+      "md5": "6a20587afd3570c9a07373bb9e13acb8",
+      "sha256": "8a5b4209dd19da602d291732e86178e01be8fa6b48e5d2ac4795b96f9ec088e4"
+    },
+    "classes/redirect/exporters/redirect-csv-exporter.php": {
+      "md5": "d19784ad02779c6f2d8309446861d175",
+      "sha256": "4bf1c41cb65ba96ff0b5cc783ae3679dce6ae98541ee492e8ccc1cf7801e3f5d"
+    },
+    "classes/redirect/exporters/redirect-exporter-interface.php": {
+      "md5": "420d3011786678c0fc6136ac476e4548",
+      "sha256": "37bb584174e9c582f8131382c03c9d9a94d26006a46ddc492b9f71b4fb438647"
+    },
+    "classes/redirect/exporters/redirect-file-exporter.php": {
+      "md5": "f3d9255a52f634d869333f6094a1e114",
+      "sha256": "09525bbc44c36f7eef9f6e92045ea87ca7061ad9ddcf6d8f9a63681f92f49013"
+    },
+    "classes/redirect/exporters/redirect-htaccess-exporter.php": {
+      "md5": "e2120d6772d65493d8c6075fd3179f0c",
+      "sha256": "c6d267d245ecb25239a7d7052fbdfbe21b2a908d3c2f432c925953cf14495906"
+    },
+    "classes/redirect/exporters/redirect-nginx-exporter.php": {
+      "md5": "d51d7414f3fe7e1dff3b01e66d2d76f6",
+      "sha256": "fbb05e1941591e1a37384ddfc0c4e518cccc0cd10429c2ba502a184c30fa295b"
+    },
+    "classes/redirect/exporters/redirect-option-exporter.php": {
+      "md5": "818e4b00a798ef605a8ce28a40bc7b6c",
+      "sha256": "eb07217d003f695f91445703f5033d040fb9ef97356c5763e8f21069c50260d5"
+    },
+    "classes/redirect/loaders/redirect-abstract-loader.php": {
+      "md5": "40930cf301f1f165e077152460de7a3a",
+      "sha256": "33b5975e71799eb4a34fa3390baa88aec46db79be9dd6ee8b86c417642127242"
+    },
+    "classes/redirect/loaders/redirect-csv-loader.php": {
+      "md5": "a51b085edf851a153903a06aeb3a633e",
+      "sha256": "c5192dac2c6aaa943b63673d21b12315a62138cc3536cbc0db8e606c2865bd8a"
+    },
+    "classes/redirect/loaders/redirect-htaccess-loader.php": {
+      "md5": "dcbaeefdce553f1b5a49fb055b47a9d1",
+      "sha256": "0db057b057a526a421a53408fe89dd96e44f331e6695ac13ed07a133789aba4b"
+    },
+    "classes/redirect/loaders/redirect-loader-interface.php": {
+      "md5": "052a80111a79c4eda831d4f8a998e584",
+      "sha256": "0f23191ba3c4e9226bdef0decb79099b65a13eb13270529628c3d60cb1a0b8f1"
+    },
+    "classes/redirect/loaders/redirect-redirection-loader.php": {
+      "md5": "500d8755463c2bf30852f9a794c99ed4",
+      "sha256": "640e7dc426c5c2f392f34f4ea5619a8e0b154fe7fd5a693ac0b2e9b51c504274"
+    },
+    "classes/redirect/loaders/redirect-safe-redirect-loader.php": {
+      "md5": "8753f6c9612a543fbb20df46af985829",
+      "sha256": "c3327a31fd3405880ea4babde79f9c11808e8d92830d0d416a953a5e6dc0b3b5"
+    },
+    "classes/redirect/loaders/redirect-simple-301-redirect-loader.php": {
+      "md5": "5988b7872b042d846e7fa8b0558a86c9",
+      "sha256": "2da607826536903df198cd26e2ad7e51f6c66f328567d34351819a2e7af99d71"
+    },
+    "classes/redirect/presenters/redirect-form-presenter.php": {
+      "md5": "e537e4ccafbabcb101323255361f44b4",
+      "sha256": "28ea2817e1534f5fdc766338732e36968c081a26161f840c634e29affd88f46e"
+    },
+    "classes/redirect/presenters/redirect-page-presenter.php": {
+      "md5": "380a93494bfcbd2d9c8a692c9c1959f5",
+      "sha256": "66211559234ebac988e1e279bd7c4e9a4588dea7074c0db609ddeb009eee099c"
+    },
+    "classes/redirect/presenters/redirect-presenter-interface.php": {
+      "md5": "a8ca59dad1e057b70515c8954a74ff04",
+      "sha256": "c22f4cd5d7bddbbb6731d7477e663f84772ccb546934a2faf65c488e84f352a8"
+    },
+    "classes/redirect/presenters/redirect-quick-edit-presenter.php": {
+      "md5": "900aaf167854e38cc110b399dd7cabbc",
+      "sha256": "06354b9f8a87aaaed0f7d257afc427fc0916295fa69dafaede30ee325f46b7d0"
+    },
+    "classes/redirect/presenters/redirect-settings-presenter.php": {
+      "md5": "6c1bdfb804edf63573e8408a1d67614d",
+      "sha256": "33d5515cc9551068d1125077d18ee7c94d336d3bde53f45601ca0c80ed8b7137"
+    },
+    "classes/redirect/presenters/redirect-tab-presenter.php": {
+      "md5": "c89bacd95d1d9bcdb64c8f3dff591182",
+      "sha256": "ffc45382808bba9c1038a5b75096c6080cdedccd93091bfdf99e445c223d3bf7"
+    },
+    "classes/redirect/presenters/redirect-table-presenter.php": {
+      "md5": "a19c1af5edc6f5ce392b7f1210d65738",
+      "sha256": "f6729088f51b9dfe8d8cf1cbac5e3923e0e16b451928cc49d63b14df1289dc6c"
+    },
+    "classes/redirect/validation/redirect-abstract-validation.php": {
+      "md5": "b3eca1a2746fde39b0415b397e16e6dd",
+      "sha256": "7644d4d699012c74a54631a40e9b22419dafeb586b62706e409f96a90e28102e"
+    },
+    "classes/redirect/validation/redirect-accessible-validation.php": {
+      "md5": "e9f272f341a5678505d3537267a978e9",
+      "sha256": "e2ff83f3c7d0a257ed77fd6bbcaf73fa2f0430edb8ceb895087e6237993a3b32"
+    },
+    "classes/redirect/validation/redirect-endpoint-validation.php": {
+      "md5": "fe6c2184b475be4d70adc06799052adb",
+      "sha256": "115b407729f3576c686f00905899c101ea89affc853ef184032593c6f4313e02"
+    },
+    "classes/redirect/validation/redirect-presence-validation.php": {
+      "md5": "a31940c8671e3638287687f0c2e54308",
+      "sha256": "841a807155a981676581785ee1817c0c22d8d650c243fba2a108a2408e009cd4"
+    },
+    "classes/redirect/validation/redirect-relative-origin-validation.php": {
+      "md5": "d0eda01303a1339e09490fe2a61ebf61",
+      "sha256": "2744d1ccf292ebd281283450fe3458ae87c3631dbc36c6e213d4067d94e79638"
+    },
+    "classes/redirect/validation/redirect-self-redirect-validation.php": {
+      "md5": "a2b7d16cc83ecd8ed474a262d3cf4a88",
+      "sha256": "8c459cf043861e91b046b861869d9f89774dae0b49dedef033d9e804c15517c1"
+    },
+    "classes/redirect/validation/redirect-subdirectory-validation.php": {
+      "md5": "6a5ee09ee839e0b440e856ffd88cdb42",
+      "sha256": "7a2f56c7274cd37c2eb3457ed8d85b50f1d07465ee2f6aebb5dbc648ffec56cf"
+    },
+    "classes/redirect/validation/redirect-uniqueness-validation.php": {
+      "md5": "1b58c3f6060d321ed5e7219d96fe7c8a",
+      "sha256": "b262e9bb03e008c3b935b7cad793d5d894dcf19fb110e6a51e92d2e3668bfec0"
+    },
+    "classes/redirect/validation/redirect-validation-interface.php": {
+      "md5": "b254789c31eaa0fd9905472761091548",
+      "sha256": "951a3735da3ae581b2524cc758e02a0bffbfc484983451e44e8a8ce4b63a07a8"
+    },
+    "classes/redirect/views/redirects-form.php": {
+      "md5": "2a50b33aba5e1b7b68645b7b1e649db5",
+      "sha256": "825ad5f7b303c1295f07663d4302ca06e2740bfd4c90977e3b3f6a50ab6ec4e8"
+    },
+    "classes/redirect/views/redirects-quick-edit.php": {
+      "md5": "b9d1a84405b63c07976a932a689354ec",
+      "sha256": "f3309470e2c8f79596cf33fefdf1676bc64124404e571643fa4bdc77b2088f5c"
+    },
+    "classes/redirect/views/redirects-tab-plain.php": {
+      "md5": "7f0a8e3527965444ffa297d78d9c5203",
+      "sha256": "0fa00d8eda418690faa04d3d8c601c41e962ec4fd53257afe9a881a9dea6f6d8"
+    },
+    "classes/redirect/views/redirects-tab-regex.php": {
+      "md5": "147d1fea21b6d439d5d6f2bbcad25de8",
+      "sha256": "a7a59cec69fc953ce14bbe980a4d34019b6874e3f717678e0797941938aef27c"
+    },
+    "classes/redirect/views/redirects-tab-settings.php": {
+      "md5": "c305561c5c2751b8f67d78c36692a102",
+      "sha256": "19b95608e62f610450ed0dd663f943f5efe50018ca7adcdae6a777daea01775a"
+    },
+    "classes/redirect/views/redirects.php": {
+      "md5": "132af553f33cd2d0aace9dec995b8725",
+      "sha256": "ad749a77443a4e37724e1ae7e0f29d5225246646f2c8100b391746663bdbc121"
+    },
+    "classes/views/export-keywords.php": {
+      "md5": "33f7253c2a7b83515cef15433d584cc4",
+      "sha256": "eca9f095a7e4b6d61cbc99074fb993c65623f3df4e80e66a1d2cbb97b6c16e60"
+    },
+    "classes/views/export-redirects.php": {
+      "md5": "02c1a7fa4c1dccc4014c733c55e56540",
+      "sha256": "a649be04e44bda22c1ec9521632eb877c3378dff0cdf94711e01ca88d7d0adb3"
+    },
+    "classes/views/import-redirects.php": {
+      "md5": "f124ffb1242c89cb13faf9313fa441a8",
+      "sha256": "9a604959cc08b46f339096eec018ca56eca71f65de651f953f36c71ee6e28807"
+    },
+    "classes/views/thank-you.php": {
+      "md5": "c831fa17069349253fe37a29127a6b07",
+      "sha256": "1016d6ad1df1a0fc3b8d313ba30cdcee3512c24578b27bce195fd3e116a6ddca"
+    },
+    "cli/cli-premium-requirement.php": {
+      "md5": "3f5ffcbeef9ac1020dc530c9cfc7bee2",
+      "sha256": "275f27e82d7e21aa3a909502e922fc7ca908351b4e96e559f27da4a973bef460"
+    },
+    "cli/cli-redirect-base-command.php": {
+      "md5": "93b7346f9d7aa0e31f4da484040a63f5",
+      "sha256": "4426d6807ccc9307686bba1da715862c6361fd571484b207677402ba5be3f1bf"
+    },
+    "cli/cli-redirect-command-namespace.php": {
+      "md5": "8d72d1e44a44f2291f6b2303fa3c3198",
+      "sha256": "b60df9d514f7dbbc72d47b198ee76896ce1b28bf0459e97f6697db1385e2acbb"
+    },
+    "cli/cli-redirect-create-command.php": {
+      "md5": "57af7bc7124253e13f1e2062b0af00af",
+      "sha256": "2694d12e44d1c48ffa38989d59e399c67e486d5084249922ef036a2ca22bdfbc"
+    },
+    "cli/cli-redirect-delete-command.php": {
+      "md5": "ae1b2e9a18787da94734372c62993a02",
+      "sha256": "0aeab337b2a2d48838f7eb9cd64af5b26ad2507e305dcacb93c99887a78b4cee"
+    },
+    "cli/cli-redirect-follow-command.php": {
+      "md5": "ad0515506dfa4a24ef4a2669d685d3e1",
+      "sha256": "5e54d4ecb3709c14784410bcd6b0cdbf8a6c8336c9eb0ba8696d1675f52c77d8"
+    },
+    "cli/cli-redirect-has-command.php": {
+      "md5": "84c01866fc08629d135649401e9f4d75",
+      "sha256": "b756e4b8e907ff495088f5a96d4feba787a0ce3392f76ac4161ea4c1ee064da7"
+    },
+    "cli/cli-redirect-list-command.php": {
+      "md5": "b71eea09645078898e637afc3681721f",
+      "sha256": "33b4ca6c8208c5bf9e7e69fb325b8ac51a5ae4a40051643b391db071abbc761b"
+    },
+    "cli/cli-redirect-update-command.php": {
+      "md5": "f11d601b60f20a3eff1d8f041aa1bd1c",
+      "sha256": "0b822d39765f119c021107d3869338ba5e661ebd3c257392c68264a1d231592a"
+    },
+    "languages/wordpress-seo-premiumjs-ar.json": {
+      "md5": "b59f70d95cc44a00dac744885f12eabd",
+      "sha256": "f81ec403fb43a092c6987f4a86b0e43bae6be0663a72d3c320d23fd759cef395"
+    },
+    "languages/wordpress-seo-premiumjs-ca.json": {
+      "md5": "02829135228e50021e56689942e1517a",
+      "sha256": "8678b1512684d17e99fd7178bd284c23974a262e1d5a5807eacae131f6f4fee5"
+    },
+    "languages/wordpress-seo-premiumjs-cs_CZ.json": {
+      "md5": "960e08f0016a138e6aeceb78762d0a8f",
+      "sha256": "1b0349cebffbc005498afe1b01ed318b6c7355fb3edec8d657bd2a4982d78513"
+    },
+    "languages/wordpress-seo-premiumjs-da_DK.json": {
+      "md5": "df56664d8a5cb9302b667e2712e767e8",
+      "sha256": "12463896549681bfe9bc9042f9b16255f0d80ba90141a955a9755ab7d1441780"
+    },
+    "languages/wordpress-seo-premiumjs-de_DE.json": {
+      "md5": "884efa6d5cc48f50fc493a92e742d7aa",
+      "sha256": "45fe89fea3cd25fd5b47dd9a482ff57cb450849038cfe8fe96832d7b94de58be"
+    },
+    "languages/wordpress-seo-premiumjs-el.json": {
+      "md5": "ec9c058cf219a809b1616a011c17a7c4",
+      "sha256": "4f99e330ba78b6b82af032a57431ab43f43f04c7d338a0af05b5387a1754270a"
+    },
+    "languages/wordpress-seo-premiumjs-en_AU.json": {
+      "md5": "e8a932c047fb93752ac3a3b44c5f4d49",
+      "sha256": "a23cea1e6aa9d96d446ec7b25fa2d5a41bd3c3d3c039afab2e24af3636abe372"
+    },
+    "languages/wordpress-seo-premiumjs-en_CA.json": {
+      "md5": "5421fb09b011834949d73351f53c9035",
+      "sha256": "a9a47b0a921fa3d5a5d37d4621c21b876a28688bc1957fe2f843469f44572a45"
+    },
+    "languages/wordpress-seo-premiumjs-en_GB.json": {
+      "md5": "fd44479a2231ebd102d9ed26ef789172",
+      "sha256": "340668e322a3c09b897d40fa1db3ed165b2feae84a85602c56f65b96e257053d"
+    },
+    "languages/wordpress-seo-premiumjs-en_NZ.json": {
+      "md5": "5294f8f00c39ca1f4326fd94af38d98a",
+      "sha256": "5bd6871f9d2e77bd2b739f7bdc9846c03192efd0194333b85967118f7f758b6c"
+    },
+    "languages/wordpress-seo-premiumjs-es_ES.json": {
+      "md5": "09310b2ae6d4658d16b1bdb28925e563",
+      "sha256": "2f81ef5482cbc057a2f8f71f5d013ea65cc2eb9782713ff4569b4bb48b448ab7"
+    },
+    "languages/wordpress-seo-premiumjs-es_MX.json": {
+      "md5": "b3f03e2424d3be91602f7fa3e4a05395",
+      "sha256": "f10434f03d0b49d78177b68a9524bc30d79ab344ce70543fa2b2eb3844ad6b3a"
+    },
+    "languages/wordpress-seo-premiumjs-fa_IR.json": {
+      "md5": "fbb470e5ee5e734e3fc59ce86f7b1378",
+      "sha256": "b036d1e37c4405ebb675a0cf5365b2bedcf967fa6ce79c1584953d7e7786abc8"
+    },
+    "languages/wordpress-seo-premiumjs-fi.json": {
+      "md5": "fe83f523fd55a5c070e36a821cb5bded",
+      "sha256": "b2f901bcc301ad4f01bc2ba29ea6533a53464e6b1260088afd545dab271ce46e"
+    },
+    "languages/wordpress-seo-premiumjs-fr_FR.json": {
+      "md5": "9e4145360524305c9f793b3f3bc3e812",
+      "sha256": "2c3999ed8edb6844c4555a2840459331615d46608ef1602ef8762fbc14635cf2"
+    },
+    "languages/wordpress-seo-premiumjs-he_IL.json": {
+      "md5": "4575ac8d9d2ee72bc71f5109864f3b29",
+      "sha256": "3ea9f03c35b8b7ed9a390a7fac6ed56e3098305818e0b09d1d461a5edcd97fdd"
+    },
+    "languages/wordpress-seo-premiumjs-hi_IN.json": {
+      "md5": "1b9959be9c6095a0b1f4bc9e90612f99",
+      "sha256": "3a5f040a6f4b62598c01780d9017b680d1806ceb1244efd2ccbff14738eb17f8"
+    },
+    "languages/wordpress-seo-premiumjs-hu_HU.json": {
+      "md5": "78f968ad8cddf20ddce6bf3a866e3a33",
+      "sha256": "7a0bbcafa2af30ee104ed720902089b027ff4df780459c9c9380302729b8f094"
+    },
+    "languages/wordpress-seo-premiumjs-id_ID.json": {
+      "md5": "77398f27ad88d671095e61cdb2349479",
+      "sha256": "e3680a0be9be9f45f5cfce4a5bc57f474eabb320cc934c2a22513d6a35183e07"
+    },
+    "languages/wordpress-seo-premiumjs-it_IT.json": {
+      "md5": "4564d9c9b4aaf1efe937a2674061d222",
+      "sha256": "c07e13951212d83bf5d339a8481c9a5e5f4c787a9e4467cb9c9f3661a0b6e7e7"
+    },
+    "languages/wordpress-seo-premiumjs-ja.json": {
+      "md5": "089a03b0c0c4851f4418b3c79984e0d4",
+      "sha256": "27a31f82f846e671d4fd3f70c976ea5f4a915f233d294d386db1fcc40c00928b"
+    },
+    "languages/wordpress-seo-premiumjs-nb_NO.json": {
+      "md5": "1271c96e1f78798533d72ab4034ee12a",
+      "sha256": "0b29fa9b94d2232f3c3fa4240a2d23962d928dd2471337b1184c98f0c7ba9133"
+    },
+    "languages/wordpress-seo-premiumjs-nl_BE.json": {
+      "md5": "53eee6aa139bde9d572f4724142d7b06",
+      "sha256": "018b99ccdaa64dd33126aa35fe6080022c4f9b75ca18a62f50b2411e842182ab"
+    },
+    "languages/wordpress-seo-premiumjs-nl_NL.json": {
+      "md5": "e7f93bb959d3268edda5ffa86f8389c8",
+      "sha256": "ad0effa9df9c952d3cdd0d6e8fd262161354a7948768eca9de155d2f606dee0d"
+    },
+    "languages/wordpress-seo-premiumjs-pl_PL.json": {
+      "md5": "0e6b7075ef3aeff80eeb12e4ea123467",
+      "sha256": "8d8f2b539df6f943047984eee4912a48d16e092f1c831cbb83dbd53a4e271ba4"
+    },
+    "languages/wordpress-seo-premiumjs-pt_BR.json": {
+      "md5": "3fae3eebd7ea7e53370c82f677d8d846",
+      "sha256": "d59f69d763d84d5f40eda97fddfd3380fe9866b0feef6fef0ceb4723f001b2f0"
+    },
+    "languages/wordpress-seo-premiumjs-pt_PT.json": {
+      "md5": "402477c7e87bd1acbe4b68cb0999100c",
+      "sha256": "fe1be8543d454ee1c0ee08dd2fc1b28ad656c5b31e5b777b649b3b59c7ffb3fc"
+    },
+    "languages/wordpress-seo-premiumjs-ro_RO.json": {
+      "md5": "9caf4cd32517b3de205ff5e27d733c00",
+      "sha256": "74f5aa6201368711cdc6be96b354ce6235cf5b74bc3948ef2b9b9a3b564d3008"
+    },
+    "languages/wordpress-seo-premiumjs-ru_RU.json": {
+      "md5": "1c79ad4ef34b08e2ea8e92f66be89841",
+      "sha256": "f4bc2e184226218f7f666678b97fe2ee3fecf8fe70127340bc8ae3016cf71b5f"
+    },
+    "languages/wordpress-seo-premiumjs-sk_SK.json": {
+      "md5": "9073f44534934b658a21885bdc858715",
+      "sha256": "c4a633a301b000386056af17b88b955641c9886e931c0d0f0ceb7248a03b7a54"
+    },
+    "languages/wordpress-seo-premiumjs-sr_RS.json": {
+      "md5": "da90100530860c9f6fba9aea90870286",
+      "sha256": "1b3851c458440943af865f6e1a1b5051986a84b7b61f37bfdbc649ee5c0c021c"
+    },
+    "languages/wordpress-seo-premiumjs-sv_SE.json": {
+      "md5": "1ffbddd729efbfdcba55c0430a476c2f",
+      "sha256": "6e5c2af9a1a264501a1b7f3969f6d6b7a1fc5ad2ecce6ee252831a97f5fad561"
+    },
+    "languages/wordpress-seo-premiumjs-tr_TR.json": {
+      "md5": "c549a22892c4c03ba61b16f3d60f7c95",
+      "sha256": "b2929d65b95083225d0ee4ebca09a8735b42a543b8bec0a10d2557eeb7b3d05d"
+    },
+    "languages/wordpress-seo-premiumjs-uk.json": {
+      "md5": "138d1b7af04179ebc1e79fa4765ff044",
+      "sha256": "fd339f63072b35df4c18b67e7bb679762ce8a6aca4dcb9290c8cc7ca9788d429"
+    },
+    "languages/wordpress-seo-premiumjs-vi.json": {
+      "md5": "7593e50b0be51bab53dfb3376d34b9b5",
+      "sha256": "5ae6d61a7af6ec32ec282e410b7cbc1c629faf8224639213bdfa64294355c867"
+    },
+    "languages/wordpress-seo-premiumjs-zh_CN.json": {
+      "md5": "53bf5b6da317d808e8d4cff7f651968d",
+      "sha256": "ffc57f3adf9c3a2b809d316474eb872b332f95931c3908e6f61873f907f4853e"
+    },
+    "languages/wordpress-seo-premiumjs.json": {
+      "md5": "7c56c39b92222ce86e56b40f98bb7e21",
+      "sha256": "82ccef08c647487c9ccbe847916a522d71a82a5c883f1ae858b0da5102d7f8c7"
+    },
+    "src/addon-installer.php": {
+      "md5": "8dad124a3f82e1272ccab0341d14fa7b",
+      "sha256": "cc949c08534dc3f538e7bad79bee87f83962d5e3dd33fac4ac13b6aa011aed9f"
+    },
+    "src/functions.php": {
+      "md5": "678126085a4df70118474de021f7ee25",
+      "sha256": "ad58d14841a77168dc3a78f8b72d4af7bb02a7d4d6e79362926c61f1f40ba21a"
+    },
+    "src/main.php": {
+      "md5": "982c99e92634d2c8cca9422486a893b9",
+      "sha256": "f536666783252cb041d9cee989d73ea81b89b0e87778983c08a9457ba4f20906"
+    },
+    "src/actions/ai-base-action.php": {
+      "md5": "7e7821cbf2f1154aaac108a72212ff63",
+      "sha256": "558d1a388b6640f38d7583abeeb4b9c58644b646c4854bfee38a9c6cb801e5e5"
+    },
+    "src/actions/ai-generator-action.php": {
+      "md5": "fadc984ab863aa3d7766dcd941c04529",
+      "sha256": "b742b3c0b1532fce9f319e383b5aac74f59f389a57194a718e64b2124ef04343"
+    },
+    "src/actions/ai-optimizer-action.php": {
+      "md5": "b433caa2b7b447ebf78fba80a235d2bd",
+      "sha256": "24560b74a2b10092bbbd50ef7719136141ba5cb5669afc09af68447c724cedf1"
+    },
+    "src/actions/link-suggestions-action.php": {
+      "md5": "e4a5c146cf182f4315d92d6b56606154",
+      "sha256": "8491e3ad3d5e10538324c004cacc393479cdec9180cf6c7a43d083b31a037c57"
+    },
+    "src/actions/prominent-words/complete-action.php": {
+      "md5": "d72a00c6cd44a8a1e96a6ecb641460b7",
+      "sha256": "ac049248cd23dee7f3612783fe3beb640e5a3fc8d5807d94e9412a13255615e3"
+    },
+    "src/actions/prominent-words/content-action.php": {
+      "md5": "4d96bd56ab6ed993f660d2c800fdfa2f",
+      "sha256": "0beac0d2b51b2ce8e43d9884d0b021f7431fe84d88a4fae45ab2a202e0518b94"
+    },
+    "src/actions/prominent-words/save-action.php": {
+      "md5": "a2d65e04bbd54c15b43422e1472da23e",
+      "sha256": "ba93ce4bc12a25084a7076663a5db55132ad22ba2b0338f53344693a966ee08b"
+    },
+    "src/ai-suggestions-postprocessor/application/ai-suggestions-serializer.php": {
+      "md5": "5f05ddc7277519c7f123392c76849b72",
+      "sha256": "1d692b970321f94e95e3fe74b78627eb903a4064fe87cec6a3ad11a0c5175877"
+    },
+    "src/ai-suggestions-postprocessor/application/ai-suggestions-unifier.php": {
+      "md5": "83ed34c72fb1bd302a7dd0b3ae58a1be",
+      "sha256": "a8fd9a54b08d28805a89eb123b4ab8d72e68eb7e7d6e6b944541e3981bea8253"
+    },
+    "src/ai-suggestions-postprocessor/application/sentence-processor.php": {
+      "md5": "ed7270171cbb734117aa73c546fda5d2",
+      "sha256": "fef4586f2fb6810aa602bfd877f64c349dcce49a8d4544dae0c078e42c7cd466"
+    },
+    "src/ai-suggestions-postprocessor/application/suggestion-processor.php": {
+      "md5": "3d90b438f14ac92f7b175081ac6beb4c",
+      "sha256": "905e62e79b6aac34bb404f7e0ee444758822cb4163e77e6a39beeb34f9ccf393"
+    },
+    "src/ai-suggestions-postprocessor/domain/suggestion-interface.php": {
+      "md5": "adfbcfdba2bb7fbc32dc49e4244b23c9",
+      "sha256": "9ccaaf1af6c8d88781d519b9b790aea2876c6800b9756717ea2e730322bfe8eb"
+    },
+    "src/ai-suggestions-postprocessor/domain/suggestion.php": {
+      "md5": "36f7b8faddaeda051f1c3000aab03c3c",
+      "sha256": "ba6353ba5fa6cc87ebe8bef476010957c690d4a5839ec2cd3455c78598aa64fb"
+    },
+    "src/conditionals/ai-editor-conditional.php": {
+      "md5": "8cab92907c738d7c8498c216c06ea573",
+      "sha256": "fece68675f88d05cc495f20ed6bd51dad902b5aaca8ab7bbc9bbb235e7bf44cc"
+    },
+    "src/conditionals/algolia-enabled-conditional.php": {
+      "md5": "ed4d80b6c1952403e86a18c9458bd974",
+      "sha256": "686be5dfbacb6d0ca2f60175cb3e543edf44da7c2e9b42674d2bb3697035acd3"
+    },
+    "src/conditionals/cornerstone-enabled-conditional.php": {
+      "md5": "18c4882a7f6ef2c5a284edf3d69ce327",
+      "sha256": "32124d8a6083e9db65ad283032b6f980e3397fa953b8b3d5b3f7bf340e80963b"
+    },
+    "src/conditionals/edd-conditional.php": {
+      "md5": "a9911ed8a350795642a8ece07d195bbc",
+      "sha256": "9180b60292a80d4fad9f21a20236b8fa9fb3cc83a6be0e15a21c25584ffb04e5"
+    },
+    "src/conditionals/inclusive-language-enabled-conditional.php": {
+      "md5": "5307c1393a0d6d58e3810b7cefdd3158",
+      "sha256": "fba8e4150829731dfc61d37ce8d9b08ca6e8e76a6342fedd115b1ecf7bd0e0e9"
+    },
+    "src/conditionals/not-woo-order-conditional.php": {
+      "md5": "60f305917c54637f68ef9f6f2cc8368b",
+      "sha256": "a870554e9d7b30d32ea7d38e87e783999863feb6dfc2e4548edda11a14c64b18"
+    },
+    "src/conditionals/term-overview-or-ajax-conditional.php": {
+      "md5": "c641531ded0b176e165cab822d4cd911",
+      "sha256": "aea26d95e2e9e6a21a13133cb4301b67bdcdb9914e5dcbf679a441b86d4c15de"
+    },
+    "src/conditionals/yoast-admin-or-introductions-route-conditional.php": {
+      "md5": "f6f13bc82e383cd5d122efd6643e7170",
+      "sha256": "990160fb3e78892c3fdb8b443360836085c343a284eb4b4cd7ab2a28623b3e98"
+    },
+    "src/config/badge-group-names.php": {
+      "md5": "92fd39e4300a1400470167d4abbba58d",
+      "sha256": "455d0d0de821512ee3f6c84f78805a1d70fd5e625139ee198d2611669b653564"
+    },
+    "src/config/migrations/20190715101200_WpYoastPremiumImprovedInternalLinking.php": {
+      "md5": "1b4fde8b01e148cb7f8a2058226bd8a4",
+      "sha256": "b2ef03221b37c75daeb5d200f542fdc060dcbe3e1d55b4ac5605e9ab1d5d650a"
+    },
+    "src/config/migrations/20210827093024_AddIndexOnIndexableIdAndStem.php": {
+      "md5": "48dff0171601f424e7afac806af6e26d",
+      "sha256": "791011d46b81830eb9ff37f7f388d7f3c1c138280d7ee16870dc19df4a8fdbba"
+    },
+    "src/database/migration-runner-premium.php": {
+      "md5": "bd67047befdf7beaa07dd9c87b9d3b64",
+      "sha256": "f9b142e190ed0186d0c0c579a15f290070d661db645c43f789a9b67a58699ad2"
+    },
+    "src/deprecated/introductions/application/ai-generate-titles-and-descriptions-introduction.php": {
+      "md5": "be3cccf985a3accbf0928db63a39dd50",
+      "sha256": "9027ac8fa88cb3964862dfc492936295e3a55f2f71cb1c2dee9c47ef71819cb3"
+    },
+    "src/dom-manager/application/dom-parser.php": {
+      "md5": "008ee899990b21ee8895a132e4853932",
+      "sha256": "900d42c53a7f74d6f461729cc9b6a87515a0dab3dcaccc327a4d76ed797ef242"
+    },
+    "src/dom-manager/application/node-processor.php": {
+      "md5": "8914ecf5a3f5d211b74ad6c9e4ebb99a",
+      "sha256": "6f5e1165a3467c06a19a4757ba2de3fc02bd380a60760b86cd4b1492dfbaa55b"
+    },
+    "src/exceptions/forbidden-property-mutation-exception.php": {
+      "md5": "f4289f47fcfce091f74aef2dcfc8b74e",
+      "sha256": "0f62e7fc14198c998b3571626e256fc4cb16351bbb9083eb9199cbd41b09696d"
+    },
+    "src/exceptions/remote-request/bad-request-exception.php": {
+      "md5": "28beed478f77c5d047007383c7e1d914",
+      "sha256": "2efdda0de1bffa0369fa5510972d491317298b21a3a96a0d5b5e93a3a7e9d6a9"
+    },
+    "src/exceptions/remote-request/forbidden-exception.php": {
+      "md5": "2818ba53789392cb74daa596af34ec80",
+      "sha256": "b55f41b7653c24fd7612e467769d1b2ec86ddd536257af276a054f97cc5ef6c0"
+    },
+    "src/exceptions/remote-request/internal-server-error-exception.php": {
+      "md5": "73a646de64c431b0f515b37cf2276f35",
+      "sha256": "f33ef3f46fb1c7a519edc1a3a5e1696a8b96dcb19014bbc6e378801c4d01c5f4"
+    },
+    "src/exceptions/remote-request/not-found-exception.php": {
+      "md5": "78b3d8e860f6ac1903a31f7c7e672434",
+      "sha256": "53c66b7e592ddd0959b81bfdd9e4458c85d8394c8f63215616438a325f2146b2"
+    },
+    "src/exceptions/remote-request/payment-required-exception.php": {
+      "md5": "889a0c588c53ade751bc68f15e389929",
+      "sha256": "5d7443f40b0c6250e4b94cba7450127d43ef439464ea703f1a23aa0c9648cba8"
+    },
+    "src/exceptions/remote-request/remote-request-exception.php": {
+      "md5": "a01a8327df5f8191772448bc3f0ae4c8",
+      "sha256": "fb7227a22c39238e948a9e9c4054f30a5a184ea2006a0fffcf7d78794fdc04e6"
+    },
+    "src/exceptions/remote-request/request-timeout-exception.php": {
+      "md5": "e07f1c4fce71d47d47250f5cc1c53320",
+      "sha256": "61ff04623a0437fc744e920f87cc13df9e278eb8302358b9db9da860005d3031"
+    },
+    "src/exceptions/remote-request/service-unavailable-exception.php": {
+      "md5": "8224972e8961c50f98513370f473fe00",
+      "sha256": "f97f0cf86794911b945741423228fbafe53ba9598c76819451b63836ab778872"
+    },
+    "src/exceptions/remote-request/too-many-requests-exception.php": {
+      "md5": "3fc20d5410ef2e3e4915b7b8a9f4f9fb",
+      "sha256": "24f839d86510354cf776ee534c7c997e895bd448cc08b568dd2e9be528f68d53"
+    },
+    "src/exceptions/remote-request/unauthorized-exception.php": {
+      "md5": "983fd18f964bc7b116e5e2a9a1d81475",
+      "sha256": "db0a21771931ee0839181f041fd63144867ab7d57f04ec41a3492dbbad01877b"
+    },
+    "src/exceptions/remote-request/wp-request-exception.php": {
+      "md5": "23dbddb5820430db0c013bf2ebbec578",
+      "sha256": "77e86a02f014e528a4c7f329a22bc4401794bce448f8b392c77cf0cadb7bc412"
+    },
+    "src/generated/container.php": {
+      "md5": "605e6cc20999c65699959dd1b489b58d",
+      "sha256": "5723960478ce6b91129c5cf4ef1a78a8b53e7e7f2715bcbdb6581ad0ab7444a0"
+    },
+    "src/generated/assets/draft-js-emoji-picker.php": {
+      "md5": "8b3eab8502b48ba6c66d672714ee68f7",
+      "sha256": "3207da706ad6a689063ad2bb82570c15b4eef57516499ed66447c81bc1aed806"
+    },
+    "src/generated/assets/externals.php": {
+      "md5": "7585a4037e9dc12a1fed898f0f2c41fe",
+      "sha256": "77017ec57264bfcd072d9ce285135a6148f0aa73af601b2e8cd045ef5d4add74"
+    },
+    "src/generated/assets/plugin.php": {
+      "md5": "600c0789db3c6b1ca9dfdd3deda16591",
+      "sha256": "a52f0b574d791c0e7ddb84175220fab9e1672ef4ccad9de532d30d7f8bab2dec"
+    },
+    "src/helpers/ai-generator-helper.php": {
+      "md5": "f8bc4797d168b1c7f8a64a17deded5f2",
+      "sha256": "0082aa17eb7ec2ce81822d29834c5fdf5957dfbdd97c96068c50ae4149a6f5d5"
+    },
+    "src/helpers/ai-optimizer-helper.php": {
+      "md5": "62ef4c3acfed8c2adfb7ac5204d2c2bc",
+      "sha256": "98fc4602327ec2c80b33078a32ff30b7aa7ec80a8f510ed7a4f726ded2ad3743"
+    },
+    "src/helpers/current-page-helper.php": {
+      "md5": "937bd4b9808e0c93924d4b781cef8ad0",
+      "sha256": "6cace2c9e8d62a36bab1f153839507ca65150d7b248504c33b9229be8677b482"
+    },
+    "src/helpers/prominent-words-helper.php": {
+      "md5": "d926f9ccc70472b16b077906e0f08d20",
+      "sha256": "20807ff30fd37973d8c0991606a69f8bf250240243a6cd189d86c0ef6182a35f"
+    },
+    "src/helpers/version-helper.php": {
+      "md5": "8602f926253512412588d7a5dad8f2ad",
+      "sha256": "82fe5f7019ca6436c016c408796a483d759efbd1f3a439668829f9f4ada52ec6"
+    },
+    "src/initializers/index-now-key.php": {
+      "md5": "664cbb9722fa2e42be1bcc2997373916",
+      "sha256": "5dfc5802df326461b6ebd42d7a01935f05991781e727aa1f99dab37ec0a43723"
+    },
+    "src/initializers/introductions-initializer.php": {
+      "md5": "fd73f160a1682842d71782e0a2bc22ce",
+      "sha256": "dc91ab5e1d686b82bacf182016c7b70ff7799649468172f2e28ac8a3257b578b"
+    },
+    "src/initializers/plugin.php": {
+      "md5": "45ce288632c1c3be4ac00468df304a0c",
+      "sha256": "0d049c2eaa26117b13ab39e00270732d70d6bdcf3d416a2a2dc805a3f846e88d"
+    },
+    "src/initializers/redirect-handler.php": {
+      "md5": "4a24d5f6de254956096530e09e9aba56",
+      "sha256": "60bb481f3d1b0b85882d3802fa6a3226d67e1c9b0940b43887e424c3815856d7"
+    },
+    "src/initializers/woocommerce.php": {
+      "md5": "e5f385935d1bc1eb6cf70ad9d26a496b",
+      "sha256": "59ef68d077c14bfef964f6cbd7acd6430dc200058f97c92f26256f3578c0f17f"
+    },
+    "src/initializers/wp-cli-initializer.php": {
+      "md5": "f9a3ab7163c54dca27167e32f3806917",
+      "sha256": "f9be04b742b1b167c3c29d8d352f9fbbab8bcf66b2797e8734ce34a4b9cb4fa4"
+    },
+    "src/integrations/abstract-opengraph-integration.php": {
+      "md5": "ed7914fd04d08625250e8192f6dde620",
+      "sha256": "4941ff58d1730c79e11938211330ef4cd53612f97a28d3dc7a51bd8fc50b7a16"
+    },
+    "src/integrations/cleanup-integration.php": {
+      "md5": "09f335a83b9958dc3c5fd86f2e9bb646",
+      "sha256": "7b3d98fcb34c31168f96097d90f58cc7afb6cdcc0ec7b7ea41369893e7c5b924"
+    },
+    "src/integrations/frontend-inspector.php": {
+      "md5": "b3339be7b9d43c26578fcfb2126961e2",
+      "sha256": "5a1701614a2d5fc156a03e7dc49292d060297c7f4079a0fe7d3853505c0127ab"
+    },
+    "src/integrations/index-now-ping.php": {
+      "md5": "59e39dbf94a7566bd710b00c5073019b",
+      "sha256": "40c8ed3a1ad2b3b691b0a843af2a076f658a201e97d110bcac8d04ea16b3da16"
+    },
+    "src/integrations/missing-indexables-count-integration.php": {
+      "md5": "64bc32e8cb81a2ab938e4ae3d4020a77",
+      "sha256": "eb1b9a8d39847581fc6df837acf9e974f4253450179951a3629d637b6877e44b"
+    },
+    "src/integrations/opengraph-author-archive.php": {
+      "md5": "776c5eb2d576de18bdcf673507d93918",
+      "sha256": "2b7ce8afc8faa8e94f657a54f9ab2a019e3793a32637d3297e7e10a3944947d1"
+    },
+    "src/integrations/opengraph-date-archive.php": {
+      "md5": "d5186d9b1de5a8bcf0e090d8c03b3bc6",
+      "sha256": "623ffb6cad5f753e9cb6935902751fff827113d4674dbb0c4172134d51c082e0"
+    },
+    "src/integrations/opengraph-post-type.php": {
+      "md5": "55cb386afccb450c5a20b55b2fb1c5a5",
+      "sha256": "132ce6559723a5c9f607af2a5ce79944a3600006ad7d1b1c415597251427a622"
+    },
+    "src/integrations/opengraph-posttype-archive.php": {
+      "md5": "99929a1aeee967a7534b5bb9d82919fd",
+      "sha256": "123bc08b3e271ce389e18f55fd9bd3587ae4c260dbe92c34ae5a50205da2ede5"
+    },
+    "src/integrations/opengraph-term-archive.php": {
+      "md5": "1678aa6c8b677c73005e90d6663bfddd",
+      "sha256": "0cbd79eb51d24a9baeece0154e8e640fc027fcdbc353c687f203b1e7a7915c87"
+    },
+    "src/integrations/organization-schema-integration.php": {
+      "md5": "4e67475fb68d5d7514548d58ed0bd1fe",
+      "sha256": "eec750335bbd2f89facfaccc75de9f7b94ef7c97002c440afb0a9e091b9a06b4"
+    },
+    "src/integrations/publishing-principles-schema-integration.php": {
+      "md5": "87bb63c4d0e9efca9049b5805fe2beca",
+      "sha256": "093bbda4eccb0d8c8ab781dd7d795f10b2a461b50474a870a391f5fbf4ee57a7"
+    },
+    "src/integrations/upgrade-integration.php": {
+      "md5": "39875d96bd6aec3a7eea423bbb67c080",
+      "sha256": "e03041033ebbbe55767ea8cfd6c45d387a6f788c9e227c632083b07751a262f1"
+    },
+    "src/integrations/user-profile-integration.php": {
+      "md5": "d493b9acf8cbce11c9433d30b0bb5d5d",
+      "sha256": "5fbb600a607deacf9fe23c983dfe895dae6e7ead7899a1a619c0088c57d08845"
+    },
+    "src/integrations/admin/ai-consent-integration.php": {
+      "md5": "c6fcf28c7c43f8bdbe46f00202100c26",
+      "sha256": "34ee5881f879763b69c08331af0f9d14bc03e7f4f9ed372be784dff22f22f0f1"
+    },
+    "src/integrations/admin/ai-fix-assessments-integration.php": {
+      "md5": "af2ec4e58fa1f76cd8721d0cbc01cca5",
+      "sha256": "c9c47404d0b4a9e3b8219f03eb1089b4cf6e716fdf2dbd4d4f57bf7e7d52bdca"
+    },
+    "src/integrations/admin/ai-generator-integration.php": {
+      "md5": "0f4142458f703b08364d7556c20b3b3c",
+      "sha256": "4951c71e5c03dcc03e8cff15d0fb9dd51b6d1b7c87b85c5ef1a563e93d81af29"
+    },
+    "src/integrations/admin/cornerstone-column-integration.php": {
+      "md5": "e28edbde0e6f146e384ecc919b069de0",
+      "sha256": "d917ac9bfa48483cae9b58d2b2a636a15826deca46dbfce60c7a9076ea0616ea"
+    },
+    "src/integrations/admin/cornerstone-taxonomy-column-integration.php": {
+      "md5": "50d626007a8a8cd6db0f13b42ca28733",
+      "sha256": "4a5dc67fb6ed811e42cf984e1a38dacd7bd91fb0246d31d7a1cf307e133d015c"
+    },
+    "src/integrations/admin/inclusive-language-column-integration.php": {
+      "md5": "3934af15525524128e2ed3243824fee8",
+      "sha256": "caef015b54ac0543b430da5e6752ca242fef5105808a3219d8578f29fb7a1d1e"
+    },
+    "src/integrations/admin/inclusive-language-filter-integration.php": {
+      "md5": "2c960bd905d3c5ebf31706f8e185ceb5",
+      "sha256": "d08db8237bf8ffb62f26b4cafe53a5c481aee61348c7c0417027aaabf9a48c23"
+    },
+    "src/integrations/admin/inclusive-language-taxonomy-column-integration.php": {
+      "md5": "f1369701e6d83042659fb8005055a1ce",
+      "sha256": "18a9591e5dd9280588942cae1cc00432f74e44cbb220916281168934201e492e"
+    },
+    "src/integrations/admin/keyword-integration.php": {
+      "md5": "d2559b74ce721ad97afecea150085b0a",
+      "sha256": "04f3f3233e30952d8f214c5947d7e2cbc0e818cae952e05ce2211129bf616802"
+    },
+    "src/integrations/admin/metabox-formatter-integration.php": {
+      "md5": "6fcf0af1f1a1f1a5c5e52666f0061ce9",
+      "sha256": "9e2fc335f1a54dca2fa8dac83e0cbf53495179e7b0cf6be4c64861e55d2024b8"
+    },
+    "src/integrations/admin/plugin-links-integration.php": {
+      "md5": "fdeea7e9574fb9ab83bbc4ab50df3b9d",
+      "sha256": "ac4facfa7a4fdef4b30aa9bf5adfa73d2bc008b4c200dac2bb9776c99c3770df"
+    },
+    "src/integrations/admin/related-keyphrase-filter-integration.php": {
+      "md5": "0bbf99adcb5b70b2f99bcd4a6c9df944",
+      "sha256": "4de21b0c478f51f1fb523431ae5767249a0909d68c49d87c62ea44b5a3f2dea7"
+    },
+    "src/integrations/admin/replacement-variables-integration.php": {
+      "md5": "9eb4aaa5ecd48c62308936c51d175c96",
+      "sha256": "14536e8b557370e6f6600c200c75b584b04a0059aef3c7331f1de14b86732068"
+    },
+    "src/integrations/admin/settings-integration.php": {
+      "md5": "1c4cedb64c7c0d6259afabfb49bc82f6",
+      "sha256": "42eaaf64442a6b100198e03bc8b6914e8a519a297c5a88f6b0ea79e25a386dea"
+    },
+    "src/integrations/admin/thank-you-page-integration.php": {
+      "md5": "f088eaef1911bf4d1e1e6f4840b87deb",
+      "sha256": "07c82ed188c4d84248c3130c07c696235ca5212f1ed33a0354a500507c3faaed"
+    },
+    "src/integrations/admin/update-premium-notification.php": {
+      "md5": "523004c21dfcdf255dcb7dd6d9951f24",
+      "sha256": "6fc4af265f377b48cf0a1d45cc91be88fadd1e665e57b7429fe45d1e17815a56"
+    },
+    "src/integrations/admin/user-profile-integration.php": {
+      "md5": "80009ec35047c3e269459bb1baf8cb55",
+      "sha256": "db79de084726d6f4683e203d621a033e2a4989e35e66b5d67bdeacf8b4c119a2"
+    },
+    "src/integrations/admin/workouts-integration.php": {
+      "md5": "9ec439cbded97a0d247f6a7dff3614f1",
+      "sha256": "b2c63f3d20c4a8ccdad68563213f403d565e43afd3cc4b98279f20b48ffa9e94"
+    },
+    "src/integrations/admin/prominent-words/indexing-integration.php": {
+      "md5": "3c67438ff0e0ad3b9be0ae42529f0c05",
+      "sha256": "4714e5c82a47493d94e95c0c9e3b521ab833387b1e441c7e06c6ef7cd3883527"
+    },
+    "src/integrations/admin/prominent-words/metabox-integration.php": {
+      "md5": "f9ea87d8664c069f4be8e3a9d1d0c12d",
+      "sha256": "c2f0168f088222ac46bfe550e42cba55095288e085304f4273c6ea66d7c530d0"
+    },
+    "src/integrations/alerts/ai-generator-tip-notification.php": {
+      "md5": "eb0e53a1df428fcce31f243ae0c176a7",
+      "sha256": "f60c4d4b749ffe90f6d954f27b70b002c5fc3c1496c16ef02a8e8ec85ee80216"
+    },
+    "src/integrations/blocks/block-editor-integration.php": {
+      "md5": "569c55efc731f397448097c354736d92",
+      "sha256": "040bfd3b8412e8f264242e90ee918ae9ab0bbfcbd81b038b1b48e33cc903a189"
+    },
+    "src/integrations/blocks/estimated-reading-time-block.php": {
+      "md5": "871ba13d5388848fdbbbf3344a176f83",
+      "sha256": "606709f0b9028a54f435baa7f7d3acbb309b4a7ec45980ba8c5481a7b70ac006"
+    },
+    "src/integrations/blocks/related-links-block.php": {
+      "md5": "a1ce185c5e0346e6fd4e672cbd8e3487",
+      "sha256": "068aec02f7b0d3d310a8e7e60b3a43bb884d7429d2c185435101dc5987094484"
+    },
+    "src/integrations/front-end/robots-txt-integration.php": {
+      "md5": "3bd89e794f1c9a5a8a28c5c87de57d90",
+      "sha256": "24caa0feb13caf989ca3087feccb203cae8d091ecff96113791e7c6fd06374d5"
+    },
+    "src/integrations/routes/ai-generator-route.php": {
+      "md5": "cc5fdd8a4cb4d1379eaefd4fb0a57c7c",
+      "sha256": "1d6fa5facf2dc5b9ff7bfa37fe3124dc90f4bb8115f166a1bf129e93fed7fd03"
+    },
+    "src/integrations/routes/ai-optimizer-route.php": {
+      "md5": "fc712e507837d8ef38a21b7331adbdb6",
+      "sha256": "86a7fa661cb557026d85a386eec8917456066121f4b413c454ac2182830a821e"
+    },
+    "src/integrations/routes/workouts-routes-integration.php": {
+      "md5": "a4769fd7543e0f18fc6b994203989cea",
+      "sha256": "57b79b1a8cde54b8574b1867e1ee6899a81cf6ad7ddced30afe5394e5cb26e5d"
+    },
+    "src/integrations/third-party/algolia.php": {
+      "md5": "a35f5c72ec4d78e591179698ce442144",
+      "sha256": "a6194b62155baebc01b92865fece603b68ad34388ee880032a227d4829c19d5f"
+    },
+    "src/integrations/third-party/edd.php": {
+      "md5": "4e3c9fe75ce70805e22718754c2e19b5",
+      "sha256": "03a065a1af08ee1946eb29a1592a755961a530a6862c33f9fe4872fcb73c6935"
+    },
+    "src/integrations/third-party/elementor-premium.php": {
+      "md5": "815ac0387e85fccbe5a64c897b11feff",
+      "sha256": "1d1a087795bd723236940d750ccb8a3be2ab6172271e81073946c9741361c038"
+    },
+    "src/integrations/third-party/elementor-preview.php": {
+      "md5": "73f527de5446040b63ebb1ac5c41715b",
+      "sha256": "62b51e4b68933f248861cef70d79fa11d31362f428042057188a866e8b4087b7"
+    },
+    "src/integrations/third-party/mastodon.php": {
+      "md5": "039208c30c316ed99e452b09f9e3c9d4",
+      "sha256": "65100c294df88cb679ea3e85bfe640d863ad65dcb4da9356d1b93fec1a3940c5"
+    },
+    "src/integrations/third-party/translationspress.php": {
+      "md5": "f1a3bc682f8a34123584922ad92db984",
+      "sha256": "66b1a50f3fe0a0d0dabadd5b168b91b47ff383e9beb2205bcb1f6c2b35ac43eb"
+    },
+    "src/integrations/third-party/wincher-keyphrases.php": {
+      "md5": "c3cfd206501f330d7bcce9fce3c1c0b6",
+      "sha256": "51f1282659919802e84b27fd44ac11b88a4e2c78192d4b09b40d271074a75bd1"
+    },
+    "src/integrations/watchers/prominent-words-watcher.php": {
+      "md5": "e16b0ce1f7e36cdb09b567ac513a459c",
+      "sha256": "5b5497112bd0d727ec3438fdde1398cdc7222495b9244c7833fbf37247fd9339"
+    },
+    "src/integrations/watchers/stale-cornerstone-content-watcher.php": {
+      "md5": "2d34b4596a814100c513ee54cd2923d8",
+      "sha256": "6c6ebe1bd0900c6edc987879ccf2ad15bcba7fb99685565daf87d5620547ef80"
+    },
+    "src/introductions/application/ai-fix-assessments-introduction.php": {
+      "md5": "79c841551c86fc4ab59bd88e49ec602d",
+      "sha256": "8dca55ef0330416e077703c4380594f0b3fb7bf565362972c0dc27049ea0c693"
+    },
+    "src/models/prominent-words.php": {
+      "md5": "a64cf2da8273e37592ebf853090b0eef",
+      "sha256": "71ae5d6f402ef94a0d676235ac1de9bccb7f81852e96ce2813780744cedd026e"
+    },
+    "src/presenters/mastodon-link-presenter.php": {
+      "md5": "379fe884da1a9401dc7d8e42dc244855",
+      "sha256": "47ea84c84fc9fcf02325273eeaab786a7bf86a7905a8492e58cf6a47d9a10301"
+    },
+    "src/presenters/icons/checkmark-icon-presenter.php": {
+      "md5": "49405c517af62d0763984af5976f020f",
+      "sha256": "88d91fdd82d45b35780f8152d5af1cb36bb2f243af19dc61bb4f359bc8778da1"
+    },
+    "src/presenters/icons/cross-icon-presenter.php": {
+      "md5": "087029501f790918f1112abf9969296d",
+      "sha256": "b830a02e7b6ebdc99ae90447703cf165406fd63b1a498acd907115288e012c34"
+    },
+    "src/presenters/icons/icon-presenter.php": {
+      "md5": "cf39ca1657fa5fbab1928c562f8e261b",
+      "sha256": "a711b44597515b4624e83c4a9b9a8b7ce53e2f8b60d2042f331d855a388994da"
+    },
+    "src/repositories/prominent-words-repository.php": {
+      "md5": "9c76421055beafbd09d173bf075b1284",
+      "sha256": "3cc46a4b027d07f0ca88ae280ffe375449ae5a297c5b80b86ff2147200ca2cc1"
+    },
+    "src/routes/link-suggestions-route.php": {
+      "md5": "9b93c7039af45389d0b1f718cb3c3772",
+      "sha256": "813515a49df6bfaf6371e61942495b5ff8ee9ffc62adc8d32797dc732560ed3b"
+    },
+    "src/routes/prominent-words-route.php": {
+      "md5": "020948985f3c9fbdb721d5ed2f6fc828",
+      "sha256": "31c020acbcac7f82c65ecee7f6c02c8360da07ff6ea5b94ce1f3f0fdc24d0758"
+    },
+    "src/routes/workouts-route.php": {
+      "md5": "2b62ebeafefc00aa9b6cb35b474c40f1",
+      "sha256": "ece5ca28788fd8b3b0546791985d47e26610a03b2c9c34396abf22c3cc54c4dd"
+    },
+    "src/surfaces/helpers-surface.php": {
+      "md5": "02703cbf6f4e4f757c4bdc755b2e4d7e",
+      "sha256": "a8884f1b5219e5279707a6eff6f9132b7f63c27975a7c4c81c9303298d5fe6fa"
+    },
+    "src/user-meta/framework/additional-contactmethods/mastodon.php": {
+      "md5": "ec7e669151467fc25b80ee2101bf119d",
+      "sha256": "bc55be0a9ea7c2ec2c87b6a3628fdc6196063733c8b538a072fb5bfa12aec82a"
+    },
+    "src/user-meta/user-interface/additional-contactmethods-integration.php": {
+      "md5": "4dfe932ec182fdf1f0b84c140f74508a",
+      "sha256": "0541e2812404ab8f1c4e092f9f6bda215d61a48566ed00bde40429569473677c"
+    },
+    "src/wordpress/wrapper.php": {
+      "md5": "5b094ae8fcaaa891f34bedc8c7f50c49",
+      "sha256": "8fe426b01fd961dfb3b7d98403011f229a16db145e19195e9f69cfd70c085ab8"
+    },
+    "vendor/autoload.php": {
+      "md5": "627ca26dec8f764c0d364fe5ce457e57",
+      "sha256": "1eee804d5ccf7f43492dbf9951f46017216a7d111f2b8230c4df0f8a81d29d12"
+    },
+    "vendor/composer/autoload_classmap.php": {
+      "md5": "f5fbf74e2237d1eeb06873b49687773e",
+      "sha256": "3e02c1f265b28c160ca9e20085ef619920a58c32df19202dc9e7a4de4c5ade59"
+    },
+    "vendor/composer/autoload_files.php": {
+      "md5": "2466fa9d3ac685523767f3e5326ed350",
+      "sha256": "0e61eac1cb9100ee3e3e1a55e59ddda52f077addc062b7d1e52331c9b73b19f4"
+    },
+    "vendor/composer/autoload_namespaces.php": {
+      "md5": "35e12c7d76c4a81633bcf547c0e229a9",
+      "sha256": "6d1b582b311799934568f00d45e01de7a04f8a1865a8a72c7841904ad4dac3a7"
+    },
+    "vendor/composer/autoload_psr4.php": {
+      "md5": "12af95fe486e1645775e8ec1fd27445f",
+      "sha256": "1c7108c9d41fd24e3c114a2267f6b2142711b739ae5a80bef6872dad09f1a1b9"
+    },
+    "vendor/composer/autoload_real.php": {
+      "md5": "b830796e78156c66487590be80b31d1a",
+      "sha256": "fa6e3ed84a58d74a5468c48a7e2a75b7a7a802b5063c2d10876fd14a88d6b667"
+    },
+    "vendor/composer/autoload_static.php": {
+      "md5": "6d3970a604d7f5a7c454fd696d0ffffb",
+      "sha256": "2ad01b69867714498550d2489e642701757086f98f247d131be18d0d24bb9215"
+    },
+    "vendor/composer/ClassLoader.php": {
+      "md5": "80e3127bb630c512c42cfb51366ec09c",
+      "sha256": "c944c4b1228ef6bef01b0029205c562c96536f8e550052d753b57723d520e69a"
+    },
+    "vendor/composer/installed.php": {
+      "md5": "f1969c3bbf418c9842f5e4bb7d9d0e67",
+      "sha256": "63eeb130b99ecd57dd3e558079a2b008671753d81bf0a2377f414cad1c741d5d"
+    },
+    "vendor/composer/InstalledVersions.php": {
+      "md5": "5b31bc04d0ca70b81ad50bdf0f40e0fe",
+      "sha256": "088972c331f038f11d51d487a5c9aae424cdc882d7298dd201ae32f54b296252"
+    },
+    "vendor/composer/LICENSE": {
+      "md5": "955d5fe58c231244f6b49000f383b5e2",
+      "sha256": "c8cce4b6b9729f264ffdf9296d505d63432497feeed1f586d1902b942197e024"
+    },
+    "vendor/composer/platform_check.php": {
+      "md5": "e447e4cc31d67f7c6a0f616e67b9b71e",
+      "sha256": "c3f3fa8aaab897a975bf5f07914dec17708fabb4c2d58e0fbe841f0fc52b7842"
+    },
+    "vendor/yoast/whip/LICENSE": {
+      "md5": "4ea52ba8a6ceef43477ddd01ab04dc56",
+      "sha256": "609ce3db4b18f1d8b8368fa916d7ececaf9928f1ccc484721053587fcb29e87d"
+    },
+    "vendor/yoast/whip/src/Configuration.php": {
+      "md5": "a7677d90e330b95f93a1acdd7433125c",
+      "sha256": "99a00231e7da9a00caabd6df96adadf2878397349fa062ef0296a9f395226cbc"
+    },
+    "vendor/yoast/whip/src/Host.php": {
+      "md5": "8c4cb4e52a38fc999601246f7b88f98f",
+      "sha256": "c19b9c82e8bc05225691c5a85c3c18f25bb464f841f13f707acb9c7bcb4c9023"
+    },
+    "vendor/yoast/whip/src/MessageDismisser.php": {
+      "md5": "a70adcd2716d312008f21425c6bea757",
+      "sha256": "007114fbf17f7165ecbda3c62e5ca8affbdebc7a38b4f9f0237ff3549b65b52f"
+    },
+    "vendor/yoast/whip/src/MessageFormatter.php": {
+      "md5": "d24c937c5db9ef1a886415a49a65f19f",
+      "sha256": "7ebcfd0ba4ead79b0ffcabe5bec283fa7507c815050e23e5eb9f052f4f27f6c6"
+    },
+    "vendor/yoast/whip/src/MessagesManager.php": {
+      "md5": "7db76775b097462f5a6e94654294e055",
+      "sha256": "9051ded7a07c5689d9797b8a7beefc581ccb8cd4e84697d53f90ad0803360318"
+    },
+    "vendor/yoast/whip/src/RequirementsChecker.php": {
+      "md5": "4f695e86f78e77650f3dc5819c430f1e",
+      "sha256": "dfa70e6f26c9963d4ff04a0186397b2633fe94ee6697ce152fc9076385c2b7f4"
+    },
+    "vendor/yoast/whip/src/VersionRequirement.php": {
+      "md5": "461ae2bdb494fef8fdca05ae9a62aaa4",
+      "sha256": "6c05c319ddf6251075338922e39d18e8ba8d836042d95b46cc8f12f20d7b7aa9"
+    },
+    "vendor/yoast/whip/src/WPDismissOption.php": {
+      "md5": "ba3cbb79e120f780bebd05a96b81b44c",
+      "sha256": "3c0f6f5c050bd8bc5100127d02b788741a7df454d7f1e1cc55e63e0b55df024d"
+    },
+    "vendor/yoast/whip/src/WPMessageDismissListener.php": {
+      "md5": "b1c021e931aff1a1870e082fa142d61d",
+      "sha256": "2a60aa88058a2a5f98254ff72f306b05ee259eff39dfe51dea34b29be658699d"
+    },
+    "vendor/yoast/whip/src/Configs/default.php": {
+      "md5": "9c3b61d139f5da1a0093b05e6b704ed0",
+      "sha256": "5c51c666fffa1bd4df33c3c6a463bc3e607706379860af1ac2a1a7a9e1f09e7a"
+    },
+    "vendor/yoast/whip/src/Configs/version.php": {
+      "md5": "94cece6c22b062eabb044483d67d8d49",
+      "sha256": "c29e90cbef5eac7e812529db3cabdbcbd882e3854fca20ccc7fda1ec0c1448d0"
+    },
+    "vendor/yoast/whip/src/Exceptions/EmptyProperty.php": {
+      "md5": "0ea9533d81e6a0b7d703fe7a910a4226",
+      "sha256": "c4cf46b6814ef85f29c6576e51c1dfa05b0185b661b4772e328dab7de246bbcf"
+    },
+    "vendor/yoast/whip/src/Exceptions/InvalidOperatorType.php": {
+      "md5": "31dfba8871d3de2ab5b845a3cc3bc873",
+      "sha256": "b3e38b923b66c3205b586a3f62967566d47bbfc1d64c8223c18423db97aed95a"
+    },
+    "vendor/yoast/whip/src/Exceptions/InvalidType.php": {
+      "md5": "19a39c25a8df270db7a6e07dfa4b34d5",
+      "sha256": "75661c24da4561ab4370c091129c9535f996ebbd149f6bc76c063b1be2e8afbe"
+    },
+    "vendor/yoast/whip/src/Exceptions/InvalidVersionComparisonString.php": {
+      "md5": "0932c57a418cedcc6b59d41418d60d57",
+      "sha256": "9bbb99d54ab9f5e2550a7eb43b1c1f7f91213731b17e071ed57eaa94b4e7db2d"
+    },
+    "vendor/yoast/whip/src/Facades/wordpress.php": {
+      "md5": "447e79e5c356a99edab7f3d7707b81e7",
+      "sha256": "399c735f58f6d7c8b9c54f57a028bb1d044f36f9456f85b85e4156a5ea178ede"
+    },
+    "vendor/yoast/whip/src/Interfaces/DismissStorage.php": {
+      "md5": "ac800b23e4d9ce2d9aa7ccfb0ff69f18",
+      "sha256": "a7fa3bc3fff734861b09c4bbef13d0fb6e5359e788d1a541af2cd835ac1b3f6e"
+    },
+    "vendor/yoast/whip/src/Interfaces/Listener.php": {
+      "md5": "dd0b6269d1eeac815929c034a74784b1",
+      "sha256": "6f2c24ed41b62ebbe98dfd3b70b655f7260bccae9ca4a443d5543e672bd1784c"
+    },
+    "vendor/yoast/whip/src/Interfaces/Message.php": {
+      "md5": "45f1f9d7cc3acfb878c63a9053e39f0c",
+      "sha256": "2ec3a379cded9379f2494429ee4681f7b288a53c6e1246cfdf1711eaacd3c3b6"
+    },
+    "vendor/yoast/whip/src/Interfaces/MessagePresenter.php": {
+      "md5": "8529d52a900935b6d0502dd0604f646f",
+      "sha256": "04a5706a512fb12a2a7d97866f69d19b3855200e2bc7d30383be8bd00ed33199"
+    },
+    "vendor/yoast/whip/src/Interfaces/Requirement.php": {
+      "md5": "b8d425496d5017cdff42a986c839a20f",
+      "sha256": "57c0b6f8b0c926ff84264141515a4962d9931773c06ba69d921c0ae615ef29b2"
+    },
+    "vendor/yoast/whip/src/Interfaces/VersionDetector.php": {
+      "md5": "a85ee7930f0e5157908fba8f79102932",
+      "sha256": "574bc0a1a1d9c6819ecfc3fe8a0c9345700261cc8b07316e41a384e962d5b789"
+    },
+    "vendor/yoast/whip/src/Messages/BasicMessage.php": {
+      "md5": "a06b14ffb481b15382a8214585ec554a",
+      "sha256": "d8922afe1bc2a985fe3cc19679b3a16ae8f5bd85c0a20cbea79d2f6e7c7417c0"
+    },
+    "vendor/yoast/whip/src/Messages/HostMessage.php": {
+      "md5": "082d5e9c7587c6723024bb20d1d9174c",
+      "sha256": "fdd00a6d034c7d89f33381b17770945c9cf8efd783ed58e7fd5b767c384bcbcd"
+    },
+    "vendor/yoast/whip/src/Messages/InvalidVersionRequirementMessage.php": {
+      "md5": "921f0e06c6a2bdb2aff7194565004e5c",
+      "sha256": "69b6980a3254eacb6079b3ca7753749a7d2ad9f2ffb2ce1a8344d7d4ad6afe65"
+    },
+    "vendor/yoast/whip/src/Messages/NullMessage.php": {
+      "md5": "f33b022fd6bf79cad1e6dca9d11ab2bd",
+      "sha256": "4a1b004202b289581718c458946c3f3bff4946fc5ca672599773ceea5f0fc360"
+    },
+    "vendor/yoast/whip/src/Messages/UpgradePhpMessage.php": {
+      "md5": "9ad70cc5b185e570181b339b06e7560c",
+      "sha256": "da20ee074d5c1d879ffd0a0848952c8d43a4d78c1050d20af4f4b9e2fadeb7f4"
+    },
+    "vendor/yoast/whip/src/Presenters/WPMessagePresenter.php": {
+      "md5": "fb6c5363b40463f1d39752d03eeef0c6",
+      "sha256": "e900c2c955845fb6facde2421ef5929ed068a775d53a87c2dfad77dd935f279c"
+    }
+  }
+}
