@@ -1,0 +1,2014 @@
+{
+  "plugin": "woocommerce-product-vendors",
+  "version": "2.1.33",
+  "files": {
+    "changelog.txt": {
+      "md5": "26e49542f786e9e9139665b309638950",
+      "sha256": "62e6fc9049b85b6986259016eb4adfe8fcd8ea4c11010bca3adc0e36843c6775"
+    },
+    "uninstall.php": {
+      "md5": "7ded8bc9dec0fe4996034eede33687c9",
+      "sha256": "357c50e3eb9add004cb40ff24752fdff46e8e916a2e447d4582a92845796e6e5"
+    },
+    "woocommerce-product-vendors.php": {
+      "md5": "3cb526632771186c3a756e424a91cd8f",
+      "sha256": "dfeb3eb8434a4df9acdeaa66aa4e18a0b25a40fc2ee50fe02224d405ab309efc"
+    },
+    "assets/css/wcpv-admin-styles.css": {
+      "md5": "77794041c92d0f5ce93cd56bca4ef32d",
+      "sha256": "0b405de384e91db75ab0c10e8daacff0107863f829df911f0e59b3560c2f9bce"
+    },
+    "assets/css/wcpv-admin-styles.scss": {
+      "md5": "f279c44e6a3b6f1f5061960639cd3a1d",
+      "sha256": "991e418fc81d5bc502166c9af4ecd0053be5394eca3ef5981e4bbb0a6eabc893"
+    },
+    "assets/css/wcpv-frontend-styles.css": {
+      "md5": "eb7c0f8ca358d11324916a3ae11d2da7",
+      "sha256": "d7c89628ba3ef75c33add136d5632af9f25dd774dbbfd2765709ed925e0aebf2"
+    },
+    "assets/css/wcpv-frontend-styles.scss": {
+      "md5": "053ff72da29abea63c5e330711b19805",
+      "sha256": "16b15ae7dd36e727917513664ea7ab727f500151dc47c8bc1f2d0f1193d0ea98"
+    },
+    "assets/js/wcpv-admin-scripts.js": {
+      "md5": "b1f62ece6d60becd0a1ba247dcecc159",
+      "sha256": "9189720d9948865423d82125e84d7a00dd565d83c4f7a84d9b0e9bf3e31b4fde"
+    },
+    "assets/js/wcpv-admin-scripts.min.js": {
+      "md5": "fe619c6ae77afdcb859ce4c36a791379",
+      "sha256": "5608726980ac07b8832b4c43897b039063bf36c65b92ce73981052900ad79f15"
+    },
+    "assets/js/wcpv-frontend-scripts.js": {
+      "md5": "ee8af3598e83600857794eebcafdff2c",
+      "sha256": "86ce014421f104244b08c48b35f6b34ebafa30a2b299011b6bf3a583422c3a6b"
+    },
+    "assets/js/wcpv-frontend-scripts.min.js": {
+      "md5": "c24c9bb2c4d18e48a4bddc78af84273c",
+      "sha256": "bc4e93f6116ee9cbb160336f2985c2c47fa4d9097c73c2561510f0e1eabcff2a"
+    },
+    "assets/js/wcpv-per-product-shipping.js": {
+      "md5": "b1a9cd62bfb1668f9e2919a216bc2fd1",
+      "sha256": "76ddcc63ffb1ca9eb2bff58a1b41427b92cdb31e043b70334042f208614e3518"
+    },
+    "assets/js/wcpv-per-product-shipping.min.js": {
+      "md5": "01cddbd9314640cde99aca98668d34e3",
+      "sha256": "a140ddf0603981359e2819e7c63de109c4b9948727787fcb4c01550438732d8b"
+    },
+    "assets/js/wcpv-vendor-admin-scripts.js": {
+      "md5": "f8a3e80d1da605ef9bcf5c400dd89ff4",
+      "sha256": "0bfe980ceb263e4c66236ebb651f000cab9960068e9dd004a141e377592e3ebc"
+    },
+    "assets/js/wcpv-vendor-admin-scripts.min.js": {
+      "md5": "5d1ac34d90fe50387ece80834b495505",
+      "sha256": "ca03becd3cdc2ce418e9e94621747ea1685abafece4c90905d21e08825535a60"
+    },
+    "includes/class-wc-product-vendors-authentication.php": {
+      "md5": "d37572bad22a22ecf7a1d6e4c7846263",
+      "sha256": "37c178135f61e5e026015688a50dc07a95272b1c4e3a5de5288d12c51b5eb765"
+    },
+    "includes/class-wc-product-vendors-commission.php": {
+      "md5": "d6ffcfff48c34f61b192187b2ffe100c",
+      "sha256": "bd2d1b9cef74ced7d39df1fb3fa6252b3e3a0fa34eeb66f51784501a4dbf529b"
+    },
+    "includes/class-wc-product-vendors-deactivation.php": {
+      "md5": "3e62f5afab017825fdeddd49bc6dc3b8",
+      "sha256": "2f71f3d38be53b0ef3612fde68bac851d625ba1b3955af9dbe1ea777907c15c1"
+    },
+    "includes/class-wc-product-vendors-emails.php": {
+      "md5": "3d93282e868566ba103607abed6a7b34",
+      "sha256": "2b2e1e3c069e618a123906d6f8e96144b16aee0726acd0add67149223f749b46"
+    },
+    "includes/class-wc-product-vendors-install.php": {
+      "md5": "4c014c82dcf275f65a2b3de2ba8cd5b4",
+      "sha256": "96f9eaa09fb217a894587acbdbe6550783183f34c081f3074bccb0853ec48d0e"
+    },
+    "includes/class-wc-product-vendors-logger.php": {
+      "md5": "cb0d9438d37574ba5e84353cc5ee264a",
+      "sha256": "04f0c96817da3b8f13aeb2170c19363a923c5d4690bc78ffdd3e41028a947c3c"
+    },
+    "includes/class-wc-product-vendors-order.php": {
+      "md5": "f18f61f023d8aecba5d08360b05cf698",
+      "sha256": "34fd158a19958832d7d3fe2fc097b36ac2d8d732a87662a6fd0da350cdb5cee7"
+    },
+    "includes/class-wc-product-vendors-payout-scheduler.php": {
+      "md5": "e880111bc6cd5f04bbab5a23b0701ca8",
+      "sha256": "76f14dcb7083498945cdf20b543c7b1b3b31f83e718e6b3d94945b28cac80172"
+    },
+    "includes/class-wc-product-vendors-registration.php": {
+      "md5": "9a0b188f7ffb3fe9ab9965f517fc4e71",
+      "sha256": "9cf7f0d191285158c33a32d0c36082b05db9b25e6a6f17e282726df813c5ab17"
+    },
+    "includes/class-wc-product-vendors-roles-caps.php": {
+      "md5": "a25ed2e0b831df3c2d03a6f06310feab",
+      "sha256": "1492237252d1c8d306cc9c8b7fffaf1ec3b281e0d5841903be782e3acf8d73d7"
+    },
+    "includes/class-wc-product-vendors-shortcodes.php": {
+      "md5": "e99fd2fb15f59e7e64922251a25d46f8",
+      "sha256": "27413d94fb8fa59f54d38cdc95277105904a98a4574a24c2755390a386d42714"
+    },
+    "includes/class-wc-product-vendors-taxonomy.php": {
+      "md5": "0eefbdd6356dc0a55013d20cc2ae154b",
+      "sha256": "9627f7e0fc19dd7f22723406faddb00409491a592bed1cc2601be8dd1c6f66b3"
+    },
+    "includes/class-wc-product-vendors-utils.php": {
+      "md5": "780fb3a9020c05bce3117070fe3ebc03",
+      "sha256": "d35682cab04fdb103cc3679cf1c5add88424d025110f4b1d87b2299961f1b9fe"
+    },
+    "includes/class-wc-product-vendors-vendor-frontend.php": {
+      "md5": "fd4998ff85e388aa95baa6f87134cdd2",
+      "sha256": "8205de767d0add029fefe2097a474c4593d8cec8a1d635368ec499fc2eb41682"
+    },
+    "includes/class-wc-product-vendors-widgets.php": {
+      "md5": "ae6adc3134948a3b03c8948e28c96b11",
+      "sha256": "4e2ec2d434b32a2d2c9fab5700b9c9ad00636dbbcad9cde09b44d21a28f54077"
+    },
+    "includes/admin/class-wc-product-vendors-privacy.php": {
+      "md5": "75ab1a265961ad775fde62fae72d9382",
+      "sha256": "39e611f044615e0893f6c62f434bd25d7629610deb4573cb14e2db4f4ebe5744"
+    },
+    "includes/admin/class-wc-product-vendors-product-list-filters.php": {
+      "md5": "b87bfd50642cbe395618ea2573ed6e28",
+      "sha256": "aba1d131a76e30b3dc41eee405589a75b3851716850ef5085a89eea5863c14be"
+    },
+    "includes/admin/class-wc-product-vendors-store-admin.php": {
+      "md5": "d3e30649af05e50388901b51fbdccb01",
+      "sha256": "eb1ab56c726a19fdc585d67adb8dc2082ba18aca4d380a1caf24174262245de4"
+    },
+    "includes/admin/class-wc-product-vendors-store-commission-list.php": {
+      "md5": "cff1c19937f95c034050cf8ca1d9287e",
+      "sha256": "ba725fce049c810c8b0e6ef32a4e155d9f86b9ef2123fa42d62c0e9bf636b35b"
+    },
+    "includes/admin/class-wc-product-vendors-vendor-admin.php": {
+      "md5": "883ebe135a064791cb122d3fc48c3e20",
+      "sha256": "9b12f0391b26947142fa3aad75fed60fbf721fa2c464a84cf315b02811406b5e"
+    },
+    "includes/admin/class-wc-product-vendors-vendor-dashboard.php": {
+      "md5": "2af63662ec881426c38b97695ea1f6bf",
+      "sha256": "f9aa9c2177b85a147c594a7a6b1ec4da643a00b55e16375eb048b10c48079587"
+    },
+    "includes/admin/class-wc-product-vendors-vendor-order-detail-list.php": {
+      "md5": "d90481d1408425463c48a00fe720c94b",
+      "sha256": "d1613c157687b1f89b9041410cd35dc4994c464753b881b6e5bc069d01f8f91a"
+    },
+    "includes/admin/class-wc-product-vendors-vendor-order-notes.php": {
+      "md5": "219f598f866ca838f2e37faec2f18d71",
+      "sha256": "1c0880e18b5e060e0017a06357f16822ada2cc6eedf9e2d34e5c6e9f9f5cad24"
+    },
+    "includes/admin/class-wc-product-vendors-vendor-orders-list.php": {
+      "md5": "3c946176d0898d6b03f9fdf67a707a65",
+      "sha256": "938a8ba300e43049775b92b819c268ddc481bf1d4b7f8b928da4f67b8e075750"
+    },
+    "includes/admin/reports/store/class-wc-product-vendors-store-report-sales-by-date.php": {
+      "md5": "c0505e20c4034f1232e2dc98c7830134",
+      "sha256": "8ba675f50c9f4a57f4e3ebaf3c588f67b1fdc2bfc443036bbb65a1ae1d2ddd03"
+    },
+    "includes/admin/reports/store/class-wc-product-vendors-store-reports.php": {
+      "md5": "68b5c50e138b2de9c97cae1ad52a357c",
+      "sha256": "402d6407889a59a1825e3d8f2efad325d7ee3ab1c846b01a2c50b635705a8f1b"
+    },
+    "includes/admin/reports/store/views/html-report-by-date.php": {
+      "md5": "f8929b8e7f1694445a0db70c0c3758e3",
+      "sha256": "9dc3b54d810ab430de1009fa4137f10cdd8ac434fdf7c3ebe95deab751e91512"
+    },
+    "includes/admin/reports/vendor/class-wc-product-vendors-vendor-report-low-in-stock.php": {
+      "md5": "e536e862d07a8adf77b71873c5cf439b",
+      "sha256": "a6b5648011e6478dede4fab395d9535139f235fac4b1d5de3b42b5d4d16e932c"
+    },
+    "includes/admin/reports/vendor/class-wc-product-vendors-vendor-report-most-stocked.php": {
+      "md5": "6cd5909b056ef5dacefb676c0eae2733",
+      "sha256": "4afe7014f2814f461f4e138e4e28a23df8055eda7d822f433115498a7a557d5a"
+    },
+    "includes/admin/reports/vendor/class-wc-product-vendors-vendor-report-out-of-stock.php": {
+      "md5": "d54c4ba31ec608a4e48f90f4887b8fad",
+      "sha256": "83a0808fd0181588f326b3914f3da90959163213f7bd07e1e8aca207a4f0034d"
+    },
+    "includes/admin/reports/vendor/class-wc-product-vendors-vendor-report-sales-by-date.php": {
+      "md5": "03d87fbd410e681d9b181135ca920e38",
+      "sha256": "06a0837c2a343416263b60bcae6726e14466db7fd31fa0eb55771a85245cbd5e"
+    },
+    "includes/admin/reports/vendor/class-wc-product-vendors-vendor-report-sales-by-product.php": {
+      "md5": "37ee993c367a0864c484ad61a9bf6859",
+      "sha256": "e909322703c2aa5255afc5532d9066d33b1a4f89ff95adca58a6729cecafb6d5"
+    },
+    "includes/admin/reports/vendor/class-wc-product-vendors-vendor-reports.php": {
+      "md5": "dbfb79e2bda510e56d52d64b7b1f6f74",
+      "sha256": "638b25ecc772fe67e29b8565b3194988c37fbdd5dfd69100a9559578b42aaf34"
+    },
+    "includes/admin/reports/vendor/views/html-vendor-reports-page.php": {
+      "md5": "4fd3f0d6af32d276b3323e7b59624bb3",
+      "sha256": "febdc2e1838f6adb1e4aca8630a0820e856307e7f7e969ca97a20a07cfce878c"
+    },
+    "includes/admin/updates/wc-product-vendors-update-2.0.0.php": {
+      "md5": "b0acbe65d257701909934d960754ec70",
+      "sha256": "d3731f84dc34fc6f0c57156b7924770fcf8b8e7087472bc5665dc21652cc1711"
+    },
+    "includes/admin/updates/views/html-update-notice-2.0.0.php": {
+      "md5": "67a39042bba621b0afdb6aa298515446",
+      "sha256": "ffb5a79620e16b94564ec84d3883adaf7b6dcf6393e3fbd0f562c3edd32070b9"
+    },
+    "includes/admin/views/html-create-vendor-fields-page.php": {
+      "md5": "2c652e8f74c340b5630f78ce71b93332",
+      "sha256": "0dedb0d55bed3d90fa66c7ebc964e90899e7de033fdf23ace24f21e492ed97cd"
+    },
+    "includes/admin/views/html-edit-user-profile-page.php": {
+      "md5": "651cd4231f919462708dc693115efd18",
+      "sha256": "36df677df35dd32b236f1421641f5a72acd6639897c169546e3e932f19ab4e39"
+    },
+    "includes/admin/views/html-edit-vendor-fields-page.php": {
+      "md5": "81cf9470a609607ebdd96e4b90283dff",
+      "sha256": "bffed4c6dbc5385c320a738a9736b7ba4e088795ba920f8379b3ff5c3b5d9660"
+    },
+    "includes/admin/views/html-vendor-order-page.php": {
+      "md5": "33982c125f3056656874f68f698921c5",
+      "sha256": "991f79c0d6ca1dbdd57f086ea6064ee27ad7a5e9ab1360dc509492fdbe06ec8c"
+    },
+    "includes/admin/views/html-vendor-orders-page.php": {
+      "md5": "622204143edc07aa4184468b7630ff3c",
+      "sha256": "45cb569044726a5d5624c43d0be41fb72f3961fd10eb151b6da60232e7ab07fb"
+    },
+    "includes/admin/views/html-vendor-store-settings-page.php": {
+      "md5": "66f0819b65328051a11aa8c1d5104df9",
+      "sha256": "cddb4d337210fc0b6a2e4b0d6b367e071e3f1cab3ee2639676ddd188d9a23600"
+    },
+    "includes/emails/class-wc-product-vendors-approval.php": {
+      "md5": "3af68b92edc6f4669340d058e86f1f11",
+      "sha256": "b87af69c17fb9df2d9c1bc78089daa9ec625ee9d7e8cd4b0355eea74b1c72782"
+    },
+    "includes/emails/class-wc-product-vendors-cancelled-order-email-to-vendor.php": {
+      "md5": "e5b9d54691be5a611e9ef378ac5ddd45",
+      "sha256": "78c73656e20e91ab98e5a022768992af889d61c7a5b8e0bbb0a19f34a4df320d"
+    },
+    "includes/emails/class-wc-product-vendors-order-email-to-vendor.php": {
+      "md5": "c9448b88f3d2187fcbe5552165129ea2",
+      "sha256": "e23588fce2ee2f59999b4a6c2b2b4aeceff2d8bc0e26c3afe8061447596672ac"
+    },
+    "includes/emails/class-wc-product-vendors-order-fulfill-status-to-admin.php": {
+      "md5": "91b404064753c102ace2d4fcd6b0a243",
+      "sha256": "9aaddfa2d7bd99b8f46140630d8d4c839c63d2962caf02c04608c63965d09eba"
+    },
+    "includes/emails/class-wc-product-vendors-order-note-to-customer.php": {
+      "md5": "059cc3e628787de459e24517b75743b5",
+      "sha256": "d59efe2703d867a42661ae40c7bdad0672f9c1efcf6863d968144ee1fe1cd15f"
+    },
+    "includes/emails/class-wc-product-vendors-product-added-notice.php": {
+      "md5": "82799f557d443add07839a63d00abda7",
+      "sha256": "45f8c8e98b9f900d8045cfbe44b9adb1f1b1a1c8f3f06b474333618a1193b106"
+    },
+    "includes/emails/class-wc-product-vendors-registration-email-to-admin.php": {
+      "md5": "b2c3d7f1c1fd0f847a4db9b84e6b5a81",
+      "sha256": "ca032c2a4c2138963535afccac5a101f9fac07b5dcc9dfbb40bbab80613a62c3"
+    },
+    "includes/emails/class-wc-product-vendors-registration-email-to-vendor.php": {
+      "md5": "63c24fc769544b0745e98d532572d6ea",
+      "sha256": "db6a6a90f92e2d35644165e67e663e72ba7b4cdb105409e91b99ab9efd5cf87e"
+    },
+    "includes/gateways/class-wc-product-vendors-paypal-masspay.php": {
+      "md5": "3672935ae104047ca7c931b0317edaaa",
+      "sha256": "3186fe0d2168697f29d2efef8a03bc63d356d876419f658a96bfe60ec66824f9"
+    },
+    "includes/gateways/class-wc-product-vendors-vendor-payments-interface.php": {
+      "md5": "d23ac1b5f5b493332b03d53be825a357",
+      "sha256": "44189f4533cff948511488ec353fa2f286964d6c53a3e6cf8bc4102d8b3cd5d3"
+    },
+    "includes/gateways/class-wc-product-vendors-webhook-handler.php": {
+      "md5": "e8a689f18ac103edba71f82e75ee4854",
+      "sha256": "e05d7038f76b4667aeebc7d8af411ebe450a2139d71fa742ed4564b012507d06"
+    },
+    "includes/gateways/paypal-php-sdk/autoload.php": {
+      "md5": "299a69e32e2529099deef68e2f316c37",
+      "sha256": "97f5635f93cc839773dd1d8bf64877a2dc2cccaf5c230b6a92a54afbedc2532d"
+    },
+    "includes/gateways/paypal-php-sdk/composer/autoload_classmap.php": {
+      "md5": "8645d3a4e3ad87e7cf4d88a46717aab4",
+      "sha256": "894fbd23013969829316a4c244401c65355ee4d48440f2d533fb517c693b717d"
+    },
+    "includes/gateways/paypal-php-sdk/composer/autoload_namespaces.php": {
+      "md5": "39fc47b89ed6a40833b6e907554c3b8a",
+      "sha256": "8acd475fc572c4d4e43c88e1d054cacd1126158bc24334e7caa75a6e7e5f9a05"
+    },
+    "includes/gateways/paypal-php-sdk/composer/autoload_psr4.php": {
+      "md5": "a7cf941cb14de5af3e2e3801b03a8e2b",
+      "sha256": "eed54168534128b9fdec8ef9e0b3739d06b0526970593b60b3ebbcc2c3bd3004"
+    },
+    "includes/gateways/paypal-php-sdk/composer/autoload_real.php": {
+      "md5": "b7fcddc7569495c181a9c440545869e8",
+      "sha256": "1d4285831443f1a54419ad3cb85f05edea46e56fb669ce204dfd0bcc46a56d5a"
+    },
+    "includes/gateways/paypal-php-sdk/composer/autoload_static.php": {
+      "md5": "87dda5443103dcad93b4f91d8c03bd2c",
+      "sha256": "c520bf11f6a8966b7ac1a029a17dff306c141ffcf2848ad98b728b49f3e07931"
+    },
+    "includes/gateways/paypal-php-sdk/composer/ClassLoader.php": {
+      "md5": "bf6c4758ae060fd8f3e3a88e6c24ac3c",
+      "sha256": "8deadedec66a61eb54d899c99a1b6cfef088153059d0c6737cef295a67e6598e"
+    },
+    "includes/gateways/paypal-php-sdk/composer/installed.json": {
+      "md5": "b900fe181aa1e96a4928ab510a0de840",
+      "sha256": "4defa466e9819985a026b0aa41dc8b335cb5e0fc68e79d7701529b1a3ca8f765"
+    },
+    "includes/gateways/paypal-php-sdk/composer/LICENSE": {
+      "md5": "9b01fc9e0129adc080344653fbcbbc0f",
+      "sha256": "e0e2f7ecdcd7288dd395f88a874217ebc51a671a626edf192ecbfda1de5f9269"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/.coveralls.yml": {
+      "md5": "5073238b5570ee53473c380826b72db3",
+      "sha256": "39c21b18cb1c43cf69d22cd7ab1530ad0e1827b59b0f39a9a10f732ff1eabc73"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/.releasinator.rb": {
+      "md5": "257a94b29dd04cb46ac5793d5a1d2847",
+      "sha256": "139663db00945db6b41e4fcb4f199b5ce07a10d409dcb2a557276ab53a3ad6b5"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/CHANGELOG.md": {
+      "md5": "5661df89e3dc3487c12408114ba1b3b1",
+      "sha256": "6bf8118bdc1c676221ebebd8f15110d7bab23fe36d3e165cf2e5b25f2f93cf93"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/CONTRIBUTING.md": {
+      "md5": "8395cfd98a3a29a8f4a2d90f98c96631",
+      "sha256": "17320eca29ce9789c66b1b282e020c9878bfa2d1bbf168fc0bd26aeb56917d63"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/Gemfile": {
+      "md5": "470046a0205c7816c9a2cc31ce7afc64",
+      "sha256": "5ae203a7825d6968cc607ddb936282500cbdf687ed6bea389b529485d9b2ae08"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/Gemfile.lock": {
+      "md5": "d06cd384b738037504fc2fdbaf211bc2",
+      "sha256": "6d26f0b3c1adc6c5551ac3b0bbedf9793167f9edfad61d2145b6123e64f1014d"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/generate-api.sh": {
+      "md5": "eb1fa56c50b0c2543ab625199632a3de",
+      "sha256": "168abc2e4314ed64e3a4e287d6fe82a0d740e809c9477105c69a1194d30e60cf"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/LICENSE": {
+      "md5": "fa4a74084b143b7df475c30752c249b7",
+      "sha256": "43d48bf8ab0117b4163d430044d2df5683dcf8e8582b8a0f0f75049553ef1bf0"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/phpunit.integration.xml": {
+      "md5": "a6567688cb73c4daae590503616568bb",
+      "sha256": "5bec7583080368b870ae224d77b7b8f5bc97d2c8529cc688aa962aca0f3e5048"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/Rakefile": {
+      "md5": "2e1a3455dadc25986f6d842d0ce6d612",
+      "sha256": "b3e7cd915340d546ba2858a39356f728a7f1b29ec3713fbd791ac2925408ad2a"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/docs/cover.css": {
+      "md5": "82719435f81521d5fb47b00910500a63",
+      "sha256": "bcc35f7056b0056f480dce2ff1715b08acce76418e1dc2e495dafe3901456847"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/docs/index.html": {
+      "md5": "75bb0bdbc5cb6214405164b8d6e3639a",
+      "sha256": "b0bd20d804e976c043fb94587a14ee0ee7caf8165c182cae7aca794abeea6502"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Api/Address.php": {
+      "md5": "379955466d940cfdec8d6022104c1f53",
+      "sha256": "e8369d15112a8e2480f4d1d6f1b154c60e0ebea574e7df9e5514e84196000744"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Api/Agreement.php": {
+      "md5": "346a1aec08bce0a94988c95c421bf26a",
+      "sha256": "71856886115395fc805982667694b34de1c8bc822e7d964c15fc50cfe42214a4"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Api/AgreementDetails.php": {
+      "md5": "c28e00d1e2f43e715ee6dca41b4bbae0",
+      "sha256": "4d563f6cddd775792e9418905d77c7ac1fddb36d39994be0486cc9a16f9e5c03"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Api/AgreementStateDescriptor.php": {
+      "md5": "7492486e86af3fa602fd40b3c6884f9c",
+      "sha256": "c07464b6a27c2f44fd6e4cd163d1558a309f502d5bf80734e1eb545ce0936d34"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Api/AgreementTransaction.php": {
+      "md5": "70333874a6d6e59f760eea62bee1ec49",
+      "sha256": "4b3b41b9fbe9ffb115e7f3e9e4dc0c211a545d2eca18632138d88852de4d6ebc"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Api/AgreementTransactions.php": {
+      "md5": "e3ab61b9adcbecf03ffafe3dab80f71e",
+      "sha256": "6216bf1925e5d34d9ac05131e03f069ee56b197e8ca85f055e25a5fe64ad1199"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Api/AlternatePayment.php": {
+      "md5": "ccfbcb03080e34a7e2baab096104864d",
+      "sha256": "3ef333223ee8bba3293109bf2ed981d61a32b9026169b351da300db78d200cc8"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Api/Amount.php": {
+      "md5": "1a96d075a19e88c3f435cca2f262ed36",
+      "sha256": "6f88dad916b61881a31c40ad25a85700e59904ab7b7e241e65c30e5e295963cf"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Api/Authorization.php": {
+      "md5": "e39007ea4bcfea23ea97c1d870456e69",
+      "sha256": "965916e2d925c94b40ef96f242e5eaee936f3a00ad0669d4031c081524724825"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Api/BankAccount.php": {
+      "md5": "e56bb9019a61ea9a46a607b9a9d25443",
+      "sha256": "d4745290f28367254f9391fbc8792841cf2dfdfedc9698afdf3de3e11f91fbcc"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Api/BankAccountsList.php": {
+      "md5": "4d7a9083615d9ed5f82834310ed9afba",
+      "sha256": "24d507c438a3269b183df18a4351f72f7102fb9369bf25db7910865be07e13a1"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Api/BankToken.php": {
+      "md5": "62f7ba5228d9e22ae4605fbdf8900364",
+      "sha256": "afe9ea66036f367fdd093ab92ca2c96fd7b922f631ba612f4d0b79f54736c9c0"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Api/BaseAddress.php": {
+      "md5": "b1b7223a81a9f841c4b900fc42122c51",
+      "sha256": "d050c9c8aa1f1448eb0ab73612bbcf4dcbca13a14fb975b4f3f230e69dd5b310"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Api/Billing.php": {
+      "md5": "df1807837ca8b56c594dd44ab31eba3f",
+      "sha256": "97aad1c84e75b97a5e8312f24582793d260ce5e3df62752a3054b82ed7391a6b"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Api/BillingAgreementToken.php": {
+      "md5": "b414a03bddd46352124d38e0b8cd464d",
+      "sha256": "faf3a587c45f5caa421080baa3c7f02df8a37bc30ceaa70a5b7847891fdc4005"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Api/BillingInfo.php": {
+      "md5": "be4f41d348732861d37cbfc3c436e8e6",
+      "sha256": "f0b2c837ffc95211b0f19c3d69d11388e34d81db4b0b7e2cdfa2dada69741458"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Api/CancelNotification.php": {
+      "md5": "2ac5785dfa73e167ee0941eeab981049",
+      "sha256": "9c13a33769fba0fa952b52353a01c28d452dafbeacd17801dd08fdf86f3e7300"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Api/Capture.php": {
+      "md5": "adc6b5fbec17b8dcf7b44b66a74ff888",
+      "sha256": "cafaa21fbad2dd2198c369440fbc4c53634dcf5517fd6a9225a428501eac7270"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Api/CarrierAccount.php": {
+      "md5": "043ccc971581271d3f34392fc5f480da",
+      "sha256": "8d6ca52156f25a71ca483856dcc2533f98aa50d02b6931cb93d598765ccf56cf"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Api/CarrierAccountToken.php": {
+      "md5": "e379bf6eab525c5d7643396ccbf7be5f",
+      "sha256": "27c41307ba38ebc5c3d04fba542b27181558d8799cbe311516888cec69c5fcde"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Api/CartBase.php": {
+      "md5": "75c59395c45c3cb1721851d34ea2c90a",
+      "sha256": "d96d30b597802022ee4b3ed2f62e2cfc8375fd4a320ca8157580ddb43a0e4436"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Api/ChargeModel.php": {
+      "md5": "889ba10df61538ed2027b5af7cbf5e37",
+      "sha256": "998f8dcceb07a4d067e83f00a72eb6930491e99ee179464a86c596c6eae79ae9"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Api/Cost.php": {
+      "md5": "f726ab70b29041bd1e6cbfef6da68169",
+      "sha256": "642e2c0ea9d8b77b46f1ee377c3c0e7663749fec204bb61ec1553526ed08cb57"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Api/CountryCode.php": {
+      "md5": "dded1e4d2608ce4190abba91a8853b4c",
+      "sha256": "4f0db59f76aadea880753a7d922f7082083e95b28777b37ee91a00ab36b3810e"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Api/CreateProfileResponse.php": {
+      "md5": "9a554170a175aa9c82482a35cd1674f1",
+      "sha256": "11c95a868396574997cb65acf754f874b9903736a474a35fc841a4bdea0fc116"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Api/Credit.php": {
+      "md5": "b0ae5aaf19ae547dbe162fb895c3ce65",
+      "sha256": "d24bff96cbd51a4a7f9b4c02d58bbe771507a4685dce8b7d01e8e4ee889d874a"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Api/CreditCard.php": {
+      "md5": "6063b3baa68000a5d031c6cd425495cc",
+      "sha256": "9e930f76dcb29e54737432fce9ed3f5f251b32a82224b07669578af1012ba476"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Api/CreditCardHistory.php": {
+      "md5": "a54d0cc39e54b937466ba5779be6082d",
+      "sha256": "072fa78d1b4c31416eadf6fadcfdd8a0a8b8ec54899fb606840654a27685448b"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Api/CreditCardList.php": {
+      "md5": "321ef25d43a00d8a83291b6c99a660a0",
+      "sha256": "40b908962e3ef8f96b6016287d3ad1918e43d6435ac884e5e226bb1d64f804ad"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Api/CreditCardToken.php": {
+      "md5": "2aa90a11ead67621948c8dcd9772e84d",
+      "sha256": "4f97c46925b5352b30c780bef4fce46c34fea18ac46791af792d1ac85ef5bd7f"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Api/CreditFinancingOffered.php": {
+      "md5": "7bfcd390d43f4f257966932407579482",
+      "sha256": "41d0e479c6157a7c1c92aa2df0924f07d5c6dd7507116e59573cdd7fd9e0eff1"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Api/Currency.php": {
+      "md5": "ae31b2376a97260b4e0e6f0467ad2b37",
+      "sha256": "4ea7dd5592729ea03818a95b325669376704766fb5edd54a88d2d6d83c08a1ee"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Api/CurrencyConversion.php": {
+      "md5": "3ed0c69a2d533c5e8bf01bf2cfda75d4",
+      "sha256": "c4295c60fde2700e7da6d48987680e5908a91bb1e7f3367d4518dbd3a86cffd0"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Api/CustomAmount.php": {
+      "md5": "79aa62de0286a7f996f8283207394e35",
+      "sha256": "2c92a464570f3eef0d91bfa1be9d2acc0fd66ef8895dda84da39b477dbc746e8"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Api/DetailedRefund.php": {
+      "md5": "212ba35b53ff7d4674c496825ea74d53",
+      "sha256": "690e55d941c996638ec5c0d2c24b99808a4434b954de00ab03980295a0ef5146"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Api/Details.php": {
+      "md5": "a301f4300512b92cbef1219987353510",
+      "sha256": "792b7ec035ce58a2d7208be4ea9aeb6ae022234dc149c48e9a3de8004bf37506"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Api/Error.php": {
+      "md5": "ffa2d99f756b4bee12352c23e6cdcfe5",
+      "sha256": "b7ded5b42292a95cf5d02341f3368e10f4827a0100e776d4f42a9da3d47917f3"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Api/ErrorDetails.php": {
+      "md5": "acdb56bde3e86217e7dcb910a173e061",
+      "sha256": "c69b09fc5f4205f0658c855d6cc8e8413d025dbb692af81d5448e53c8c398388"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Api/ExtendedBankAccount.php": {
+      "md5": "f161be1f2e49f0096376218ccf87e256",
+      "sha256": "c874c928d6c27304b254c81517db280b4c19307bdee888fabf4141556ff1caf2"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Api/ExternalFunding.php": {
+      "md5": "9885ac28e4cf535741f194ba1375f441",
+      "sha256": "aff5628b4eca41fa63ba85c1d472112327b7d6f65fe6c721d0fc28b473ba6548"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Api/FileAttachment.php": {
+      "md5": "9dea6764c39517d247ddc0c0f06c9dba",
+      "sha256": "136e32092a5f47367d515b54f2299a0b850eb78932e60fcdd3fcced37adb0db7"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Api/FlowConfig.php": {
+      "md5": "870e135cf508e00c86546cecca64a3a2",
+      "sha256": "553c642e0419f434f9742c7fe79eb20b849b56682332dbc3bbbe0111d608a94f"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Api/FmfDetails.php": {
+      "md5": "6c792474bfca48f2f2375e2d415c4782",
+      "sha256": "b029ebd6a851c890aa725e4fb0cd5edb030768bbfb9edde51ee5e6559a55a90d"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Api/FundingDetail.php": {
+      "md5": "7b01121ebb01c89184359f8bf73ebe2f",
+      "sha256": "5834d1b0e9b877680cbe6e0b8b54054ab76db36a5c09f54d23ae70c3b7580d9f"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Api/FundingInstrument.php": {
+      "md5": "27c7c1437b7a77a48ee267f060cb3725",
+      "sha256": "e92b21cc164d289acd561ce917ccee1872617d6d3ea2574b02d5b84d336dba29"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Api/FundingOption.php": {
+      "md5": "5a53081c94c25803898bb591fc36ca28",
+      "sha256": "438c4126e0541d8399889bbfedce15f3104aed7adb0c3d17d26e75212436dc55"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Api/FundingSource.php": {
+      "md5": "208e50a3a1e9a3ed13f072da0fea2239",
+      "sha256": "162d27edde81ca26c3c0f3fbcb67f3a3cf10b4ab0d73652fa5d779ba2e84d7a5"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Api/FuturePayment.php": {
+      "md5": "16bb03243379b3ccab9edc055f100402",
+      "sha256": "968f60d7910fb14eebf09273d24a9e2ea871edf702df41c3db8001d9d6e445a6"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Api/HyperSchema.php": {
+      "md5": "e7aa1de64b9a33952405ef8dceeb6de7",
+      "sha256": "88a152b9654a6fe88d7c19afa1010304dccbc1e4b9f7cd4c3a12ea9ed106fbbc"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Api/Image.php": {
+      "md5": "2a608e583497c27f42c24731f0bb3b3f",
+      "sha256": "003845b4c87d7f5849846d1495bcb20c8c2fd166040b78c9b2ce8959e56a91d7"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Api/Incentive.php": {
+      "md5": "193cc6f0b3cc2d99b87447d445179334",
+      "sha256": "a1931c3b896e4af290b2d38d2a53a268ae2091d560aa9ef3a8a367b9ef70c2e7"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Api/InputFields.php": {
+      "md5": "6e9175a08b3e2837ffdffae4f927596f",
+      "sha256": "80695b34234083d7f86ba5f5ba53980cc3b8221b0a9e340bf10a41c0b113e567"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Api/InstallmentInfo.php": {
+      "md5": "1ffac8239c0db6e57fa4616f8efde768",
+      "sha256": "1279fae5f16d7eb2681f1affaec586707e975828ffc401e5a89b035b02958172"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Api/InstallmentOption.php": {
+      "md5": "2ab84e53c26e222f9f3cad893ce87536",
+      "sha256": "b371467cc0acc79f8a898c07465dfc6fa7da2914634d881bdbc70164927e2088"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Api/Invoice.php": {
+      "md5": "4609badcc3034e148e2a047e002044a6",
+      "sha256": "3be667c220005448860987b63a2fc31c4c5f6ef463fea15ebea852122dff0b01"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Api/InvoiceAddress.php": {
+      "md5": "f35c4bfbe4af9cd4386745db61f510f8",
+      "sha256": "285055c37bb83f0c039e22a8b11741dd93119a3eca9e9dd58fa8d395b1eb37ae"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Api/InvoiceItem.php": {
+      "md5": "ced1ce98f4126b4268c153bd68bac91c",
+      "sha256": "e877ae37b0e961ee5c0895f0833d10c6ee27ca9a3a1efadfef82a22aad2d4099"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Api/InvoiceNumber.php": {
+      "md5": "9f77678f479f9b46a014c29c7d48597e",
+      "sha256": "cb0b041e72256631cc9b08ed7bb40d762eab6943f3e86f2c1db2b000254e95d0"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Api/InvoiceSearchResponse.php": {
+      "md5": "842c4ff7472bc5f7be15e2e9aaf6dca9",
+      "sha256": "f9310086f51267df20a70843151d5a53dcb4e45ca5e59ae232641228a4b1250e"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Api/Item.php": {
+      "md5": "314ff8fb969247358697e22452e2eacd",
+      "sha256": "116ee1529eb7993feb1b789627028b3e484b0108ca278f50d845e58b2d3ecc18"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Api/ItemList.php": {
+      "md5": "e93f9824a1056289a04d9f0eb9463ab1",
+      "sha256": "ebcbbeaf43acc8e507cde548ba4ebd92925c6285a475cfe8b6967fafc2b78033"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Api/Links.php": {
+      "md5": "6cd3ac5493d6b2f1641cb0f93460b226",
+      "sha256": "f0987c317d4838cbfd9ace41884f77c24ac43e43bc0380ad9ac3648b41833840"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Api/Measurement.php": {
+      "md5": "13b63a8d572754743643b16436498b21",
+      "sha256": "414b99832cdc0b1bef98de21c62cbd380ceae242587cc55546927fdc9c88d612"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Api/MerchantInfo.php": {
+      "md5": "730d06927a263bd98e06efe7d2f5c543",
+      "sha256": "c0b9ce1d7be858007e2b6c682b43cfe816f2c546425d29bd3f57d107886e1e89"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Api/MerchantPreferences.php": {
+      "md5": "07c0e1401dc4c4d8ff4784d9726324f9",
+      "sha256": "c76bbae2394555ac34ab134f84fc292721b2a98a0c55ab2ff772f8abe64a710f"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Api/Metadata.php": {
+      "md5": "ca289601c6cfaf264791b67f3a69270e",
+      "sha256": "7c36f4e8dcd0235f8e99a2e5a1e6b38349044046a25523e21a96b709634eb818"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Api/NameValuePair.php": {
+      "md5": "c6f7d380e6133815e3cd0f7967a6eb85",
+      "sha256": "7ed971222b15851abafadaba12ba87a3525a63682263f79806b611adcf5fba1f"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Api/Notification.php": {
+      "md5": "d88be16cb21548f1cd63f6954c58bf69",
+      "sha256": "2614a8620787d477f750259063934a3863567112d91b537cef327a9e2cf551e2"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Api/OpenIdAddress.php": {
+      "md5": "189e2eccf8cafc1f2916e1d54943b635",
+      "sha256": "a9b811497c2f888252bcac9a95dce51a356d22714f50a6ae7c95792f3c51d913"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Api/OpenIdError.php": {
+      "md5": "73bb4a1d3dc4ef297aab469751d07019",
+      "sha256": "4368e410e5cb20548413df64efb6dc6d885de635b7b3c26bbae79f3212556a79"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Api/OpenIdSession.php": {
+      "md5": "4e6f00715bd8af662331d627965cfff9",
+      "sha256": "64ef54ca33485a3661262e887f6fb945efd44e22c7cfc45de2da68ddf96467b6"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Api/OpenIdTokeninfo.php": {
+      "md5": "6e407e338785d8d6ec6536f384788b9c",
+      "sha256": "915dad674f5c4d682cf0f212662fde4e45062ddcac6b150094dc5ad921f98104"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Api/OpenIdUserinfo.php": {
+      "md5": "194e117cb7bb7d90e039b49b7254534f",
+      "sha256": "0ccffcc8336fb55371d0619f65004a578600eaeae227a8435795a0c2be5200f0"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Api/Order.php": {
+      "md5": "bac9992fce0df037c420ba68c73c92cf",
+      "sha256": "2346c074ac79f9a9a13e74fbf717b94a9dcc3f7de26038a558f14d764070a3e0"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Api/OverrideChargeModel.php": {
+      "md5": "6c7140dec5765fe9f2b87c34a5ab8ab9",
+      "sha256": "6f972a3cb04526baefc86baed7e390befd845170f706d67761e55fcba3dd435c"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Api/Participant.php": {
+      "md5": "d504d0b686f860a28366284a98d4f726",
+      "sha256": "03a430e9f4883399ac55f824ebfc5b7855589ac1a43a9c3ce8ae67492dc81b12"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Api/Patch.php": {
+      "md5": "6041cfd1528bf17c492bf2b9fabaa7f7",
+      "sha256": "c48a572dabed855122529177a618d0c028765bde6bf17dc232633ed770642e13"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Api/PatchRequest.php": {
+      "md5": "d940ca453821841f39875f894fc935c0",
+      "sha256": "4cf426a9703cc9381e19233ff03e817c1110f1178f0f4838d613f7c72174241c"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Api/Payee.php": {
+      "md5": "c75768938e03327ceaeca3b532a279c5",
+      "sha256": "7830e5f6a2002e44785a0761f6188e70b8d82b25809169593325b0835d67129f"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Api/Payer.php": {
+      "md5": "36118e178c41966613ed237360a65f43",
+      "sha256": "b8fd054fa6f45d77a42bc44578897705bd4fd2d64390341ec7d66b7538e9a2ac"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Api/PayerInfo.php": {
+      "md5": "d39075dc77e4f6b627a9bb57d4246cc1",
+      "sha256": "abf2ec5d2ca0ed693d07b622611248eee8f3a43fb72f9748f70ea2ae29bc957e"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Api/Payment.php": {
+      "md5": "7e43b7b5bd3b65ca296484bfa5d7dfd9",
+      "sha256": "7cb7ac14f11627d6725eb7fddd36a7567195cd3d28d54f0257b2a5ebb1ed7477"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Api/PaymentCard.php": {
+      "md5": "6055162d58a898f940c793d77e91de61",
+      "sha256": "725e78eb218d10d6cb2a6438dbc51938302fe3527f2a6a5d944db4592b033b49"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Api/PaymentCardToken.php": {
+      "md5": "0e2910acb59a5566a317e21fcfba7642",
+      "sha256": "8a6875105b4661c449c70fe9c6e78bab2f7aed29ca17a79db1d1178b9e7a64b6"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Api/PaymentDefinition.php": {
+      "md5": "189e288bebe81baf05a0dbf55c2383f2",
+      "sha256": "d498e0d3dcaeead9cd71d61955b696766da83d8a71fad4437450c5c46f0fa5eb"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Api/PaymentDetail.php": {
+      "md5": "3a69e9931eea27b99a87c240197f81f2",
+      "sha256": "09dad76dbd2dc57a955254041677ec981ce7a54518b74b004856a906a8ecbf45"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Api/PaymentExecution.php": {
+      "md5": "f75c9861556ce253e7cac63614db2be7",
+      "sha256": "5c15776bf88c4d34856ee48bbc2e8c5225285c34c3bb11c8242ba3ea164001fb"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Api/PaymentHistory.php": {
+      "md5": "44dba4e54938f30f839516d4e7f4a249",
+      "sha256": "54790cc1283a4c0418f66f7b24429898615c7afdc74dbc359e91a6068a0faf88"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Api/PaymentInstruction.php": {
+      "md5": "bd5fa06d0da5565c952333748c6ebeea",
+      "sha256": "820cd3efb4980c1878c7f8d7b78ce98cf28cfcc2ee942bc154ecd29f3d8e8be3"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Api/PaymentOptions.php": {
+      "md5": "773d4f8de2c59701a10c5a5629a99ac4",
+      "sha256": "a4a65fe8aa42a220f20f141bf0846a8bebfc8348707ef5c4b0d49df8a0b8285e"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Api/PaymentSummary.php": {
+      "md5": "6c6607b4b800c4b8e6d2db07cd2323b7",
+      "sha256": "b1eb48d60039bba1d6faa9a9eca65b8a061f1cf2324355aa9a1dfbf0d11124a1"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Api/PaymentTerm.php": {
+      "md5": "447d27213e6ecc2f9fa6b5613502353d",
+      "sha256": "dd5f8445016564f8a0d75cb0923a5aa8f0d425770475e1ea09e065fadbfbcf0e"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Api/Payout.php": {
+      "md5": "1d06f076cb550354e29898b72975e737",
+      "sha256": "53e302cd5b0d6433c055d9be27ffc7df2d43f983d4927575e7383dc2ede5128d"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Api/PayoutBatch.php": {
+      "md5": "7a9b22ceab45b5522b8ff6931af7bb6f",
+      "sha256": "403529921c2bea3fe828b62cb7d84afd9756a6601ec6952c81f52f948451f5c6"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Api/PayoutBatchHeader.php": {
+      "md5": "438d64993173abe21d7a415cf67204b0",
+      "sha256": "4274615924b9677cd12d61219a681af2b2a22a426a55b856a2ae2ebecaa86cbb"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Api/PayoutItem.php": {
+      "md5": "6d557f18aa63683f17382b13fe4208b8",
+      "sha256": "fcf5ddb764eb850d2940f0ae2abae200d9c833cef2a58261e1121d620acc586a"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Api/PayoutItemDetails.php": {
+      "md5": "26fa935e82f1d7e1f086edf27cca3055",
+      "sha256": "3cf99cd29ac76e40615326a4e39933ecec8a51cb62d7a6bda41c2161d104a67d"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Api/PayoutSenderBatchHeader.php": {
+      "md5": "13b8c2de88711018593322f200581816",
+      "sha256": "7613f94df279a1d77b090039043e8bc8abcf9de5e1bd2285e4bb3d0f54d8c5c8"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Api/Phone.php": {
+      "md5": "5a2b597b9c40385d4aca6c6cb43255bb",
+      "sha256": "8a770ee1cbf05ff6f997e756aea9c8906f8b75f1a5aa6d235cf063fa9065c1f4"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Api/Plan.php": {
+      "md5": "ec8dcb5a38993a3c43e51d623a87438b",
+      "sha256": "5ce3b448d72a046c2104030c41962fbb758da3e2a10cde0c1eee26c6248cdfb0"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Api/PlanList.php": {
+      "md5": "46ff82f188e0aeeb6891c626c5a132dc",
+      "sha256": "2760c87547e987421c7e9282bb20e3a6d47ec3b2e526f92ea9f71e28cf046318"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Api/PotentialPayerInfo.php": {
+      "md5": "cbd270db1a1e4cf17ab7fcbe234a48ee",
+      "sha256": "327dd53dc2b004e21968e4106d2a2e1fd6fd5aee100b39aff6c9d17fd0c82ee4"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Api/Presentation.php": {
+      "md5": "5e1fa0d3d246095926204853806db833",
+      "sha256": "f680a628c8a90b90ded388280a12e1c7c306ed336b785ab3f61d303a3c07885e"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Api/PrivateLabelCard.php": {
+      "md5": "85dc8e870a1c644519009c47b38a8d93",
+      "sha256": "3300e2cb39bce6cef662d8afc75e85ba9c3afc4f7ecfce9d55b05f5ab8cffc09"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Api/ProcessorResponse.php": {
+      "md5": "65caffc4473a29b5e509e0698203c6dd",
+      "sha256": "2f2e665f227d2ad7bd608c383fc49af36978647f1ecc153aaab2915a83c0ffd1"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Api/RecipientBankingInstruction.php": {
+      "md5": "9149af25e66a70f8321bca3e03e909af",
+      "sha256": "c7f8d4f3c8ba58f73174e024312617e837d07d9844985a412a27383e034bf15a"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Api/RedirectUrls.php": {
+      "md5": "f9adcf2e0ac56095217bac6372340536",
+      "sha256": "a39a211d3ef2eeb1a875109750dab0a4c0dc87f2471f0ed925b7d52a6c4afbd1"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Api/Refund.php": {
+      "md5": "4cd7644af078a87394ec0438262ed017",
+      "sha256": "a47dd9702e694f6bbbb4b57dc8f5f1f031d15d17f0263354c8ed417ce669a4e3"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Api/RefundDetail.php": {
+      "md5": "2a9272641b3f1ef9269cdcc9289f5320",
+      "sha256": "037a1112786022a119d90318aa5fb07fe558564dd5fc171d75b2e5c518d3d5ff"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Api/RefundRequest.php": {
+      "md5": "ffc9ae92791aa3c6d710f63eb3e37d2e",
+      "sha256": "a4e359f0f859c97dbe2df4433ec7e3e5c638ee0042df01ccd03087a3e39d3298"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Api/RelatedResources.php": {
+      "md5": "3549f46d62b3bf18f82ee9d1ab895d01",
+      "sha256": "bef6dd502792000bd61ab61b417f9a0aebded22a024b58b50e8ea93e355a3945"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Api/Sale.php": {
+      "md5": "83b3a075d011353b3426098c49d1bec2",
+      "sha256": "e08ee3eef86f82ed4095c815d3c6a5f0a3a4a9b3f9735e49daa4f85c8cfc5ed4"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Api/Search.php": {
+      "md5": "194bc1a6a0ba404bcb8baa923637d5ff",
+      "sha256": "cdebb4f3c0af0c2ca39b1dc9f64f54e6810ce7a0f2424c54d19c945d8fb86fd3"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Api/ShippingAddress.php": {
+      "md5": "25fcb62ff5e86a251e354d70ce1f3c3c",
+      "sha256": "1f8b55933e8c929a0b72356c5ae06d6523c30d9d6978053e3670005cf7cd11dc"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Api/ShippingCost.php": {
+      "md5": "1c1129a4377f4fa1baa7acef446ba21f",
+      "sha256": "efff3584ca87e721e62ce926df56e5e28f81a9025259eb4719b5d7229e7b6bdc"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Api/ShippingInfo.php": {
+      "md5": "2cf6ab7ea9a5802b30bc500b9aa08a05",
+      "sha256": "3f31ed758b9025dcdb429656b18bbece2be6246a936f647beba4c232f5c253a1"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Api/Tax.php": {
+      "md5": "6edd36d98544689c6660595a8195c517",
+      "sha256": "84f089b7378a126cd7139b14a7077799e7f00a680cee6d945f08965bd2525716"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Api/Template.php": {
+      "md5": "9b025fc1cc1564f1b7d06c73d292bd41",
+      "sha256": "7d8ec9ff35f5f20d41a2b9a186bea30f7aa97a592722bb239df029435dcfd9b4"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Api/TemplateData.php": {
+      "md5": "8b9dac4da6ed7c4f7813d5c9473fb485",
+      "sha256": "1c6ca7956aea2c4d4061e02a6ebaa5cd459dfb9598ac57ed7b56155ce60be341"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Api/Templates.php": {
+      "md5": "5d92842ec0d37c7f4b3c7ba361b27177",
+      "sha256": "85a42cb1cd7ac19f3276298baa2c3bf1eefccf9d81ea12b026ba2819d473091f"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Api/TemplateSettings.php": {
+      "md5": "bf3687733bd3a882ebf1d37d4f49c29d",
+      "sha256": "9e21fc9f8d265cacb3aab76b188c5593d049c1614a451ec62c87aa06b25953d6"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Api/TemplateSettingsMetadata.php": {
+      "md5": "6e856362a31396955ffeabe631796cf6",
+      "sha256": "f0b81f3d56d12a87399acae9ff76c01df5a2e683fceb795d47a898d6d3b9339e"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Api/Terms.php": {
+      "md5": "2c605993f3611d02b70cbb87b2c76b00",
+      "sha256": "0994d1c423a2deb7bc93c4f8c47568bae3bee1c293e908cb6acbe11e0d1c9440"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Api/Transaction.php": {
+      "md5": "0056226da23455d8425f2acee54763d9",
+      "sha256": "5b003da807080799b7049cb0a72ece907ec2856ca7373df906bd460c8ae21a3c"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Api/TransactionBase.php": {
+      "md5": "a4a4c62afdb4041a7b143c3191dc0500",
+      "sha256": "a2212403c219250d43575de462552a464534e4621396e09374944abf1e579fba"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Api/Transactions.php": {
+      "md5": "7aa6a708a39835666dac689dec34b623",
+      "sha256": "dd1dc2aa688bd031c9799b51fda56e6e611c5a26b7c133ffb74881a06d5dd71f"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Api/VerifyWebhookSignature.php": {
+      "md5": "672c246ec88fc32c9b61c640be521dcd",
+      "sha256": "aa4fc5f9ee18db29b99a14569abd9e58a05db4f30d6cda40bca97e1326c98198"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Api/VerifyWebhookSignatureResponse.php": {
+      "md5": "a025e3ab0d2dfbf6a01da11fe903d24e",
+      "sha256": "18ebef29802b106d791400245fde38c51db03e99ff9635b399b707d53b34d4ae"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Api/Webhook.php": {
+      "md5": "e8b1d6cac771fa064af29a2f6508ca23",
+      "sha256": "cdb7a23ab81d3109999d12c8a52d0bceabf47a555cae55fc195e2bc4bf62f865"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Api/WebhookEvent.php": {
+      "md5": "3efd46455b425797aacb7b9c67537396",
+      "sha256": "b8ee795b37feef46cef1cd6b8295dbd7f9d0c8166a470f43eaf34c48bab44e82"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Api/WebhookEventList.php": {
+      "md5": "b0e354473485d919c4a42acf651b1cf5",
+      "sha256": "9c23d687f992c8d82568f7320fb0d03305890e996c642954fa30d77dcd4a6d5a"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Api/WebhookEventType.php": {
+      "md5": "fa6f5612d21d96a6ddd622385dc9463a",
+      "sha256": "c53857f46150d624f814953560d13f79fd4e5bb81c32730ce85eb863c1a575d5"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Api/WebhookEventTypeList.php": {
+      "md5": "d0652090ecd6742aab38a59642ec67a3",
+      "sha256": "946e755a6d2373340c64d0dd7f4420f483a17950826e70b0adbfb84b0259a717"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Api/WebhookList.php": {
+      "md5": "00b46a00cd245e242318be556225767d",
+      "sha256": "5210efc13951c0238ee1d1f21b6c70a137c17ea8370b277060dab54353bffb2a"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Api/WebProfile.php": {
+      "md5": "64230ba9f3a4a30500e1858f258d1ee4",
+      "sha256": "1a6a1a0cd49266594e0489c8a7f71d9c7391ea030374cd76f1f391ded9519d0d"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Auth/OAuthTokenCredential.php": {
+      "md5": "6028270db375af3077c6b85dd5678c9c",
+      "sha256": "4c213f83480c9c03ce17289c50cb89f95e4390e4eb2b511542506e18bd58489d"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Cache/AuthorizationCache.php": {
+      "md5": "5a89c6928f43aee1b6ed79bcfda34e0a",
+      "sha256": "2f9fdc7aabc14fa4d45d48fd8863d23bf88d4395e614c02c31535ceb1e5d79c6"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Common/ArrayUtil.php": {
+      "md5": "b41119fb9b40bdb3bb137c5f716e2666",
+      "sha256": "c3e67d5b3125672fb2410e655e608ad444af8e129e0a4589c5ed3643d2688df9"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Common/PayPalModel.php": {
+      "md5": "740172dcf09fd4167845812bb4919b1d",
+      "sha256": "0ab4d87d89897394646e8f4a83691adaae52fad46b30226755f7778868ebc390"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Common/PayPalResourceModel.php": {
+      "md5": "f27fff72c3bbd85b921eef64d5307472",
+      "sha256": "496ccf3c3cda992204bb55b5e86999740fafb5c5ea589ae6d8ae4620da1927c3"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Common/PayPalUserAgent.php": {
+      "md5": "0d43095cd39fec6de09b29f345f9470b",
+      "sha256": "33f3b0953596e593c641dc68e1496607166af27a4fb41a92773f1d022b0d2817"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Common/ReflectionUtil.php": {
+      "md5": "1d30f90cdc63325702b233bd5ec4705f",
+      "sha256": "fa73e59f6a8eee8610737f782ff3b12ee04797967e71fb8875f87283355b9f47"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Converter/FormatConverter.php": {
+      "md5": "db9f6abbad317c454ef7692215e8e18d",
+      "sha256": "3fbf9f3ca930277058ed627edb6392516032e6344c3a45113527c427d50a513f"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Core/cacert.pem": {
+      "md5": "d4b2ab71266521d7376ebeee490fba2b",
+      "sha256": "ec6d8c379d19481a08e4ac798d736f8e7a45983bd121597416972b3ceb7a7849"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Core/PayPalConfigManager.php": {
+      "md5": "48227c2fa4720837f4cedb1f3f0f638c",
+      "sha256": "466cb1466a14f6dd653a478cedf2042984791c6d3b05651f633bca6136ce9cda"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Core/PayPalConstants.php": {
+      "md5": "4bf163f569e8d7664fdcfee0ded04f6c",
+      "sha256": "00f952fecbb8e32504573b71cb9089cefa945c48f8f482f4de0694d706f5ce6d"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Core/PayPalCredentialManager.php": {
+      "md5": "3b0a07b2195f7da53203765937cd7ff0",
+      "sha256": "7a084e848636df0288de6e1cdbf8cae05ee7a04874c84f5c88c74f72dbf84e56"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Core/PayPalHttpConfig.php": {
+      "md5": "9d552f420a8209247949a8c3295324ca",
+      "sha256": "4712cdda587f2adab5483f01b2374a21aaea400880930db68ebf595b1ac8595c"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Core/PayPalHttpConnection.php": {
+      "md5": "91fb62dfe1c7968e588a1250633f4e53",
+      "sha256": "fc828f19f9bdd71aff3994a33374db162763138fa2127af2522da72476ec6454"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Core/PayPalLoggingManager.php": {
+      "md5": "695cb97a4ce6000b4d3af79887ac1fdd",
+      "sha256": "f61e61078a03f17186a31b541d2a07f6315c2e6685d19fea1a0342f0f34a9caa"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Exception/PayPalConfigurationException.php": {
+      "md5": "f14c778e88c9a8c917a1d25fc250d594",
+      "sha256": "872992627fcf66bdb5c6004215552117dec211babeb2397d328a1354bd3cfc7a"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Exception/PayPalConnectionException.php": {
+      "md5": "6b125eb06dce5dec2a44d166b505fe18",
+      "sha256": "632f7fffe5fe6238f0a7846d12558e7ed2a8e5aa1951281928a6b8437d9c8f42"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Exception/PayPalInvalidCredentialException.php": {
+      "md5": "98cfbb9957a7b866881dc9aec95a35d7",
+      "sha256": "b490b5bdd14e1c250eaf976724be82b06e396e17866abe10a4b1bfc7e6334231"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Exception/PayPalMissingCredentialException.php": {
+      "md5": "af7ef432314ef86bc79b8bb3d088e563",
+      "sha256": "5b9fdbdf592fd25f945835d272111ef426b2bc884719ae77edb7a68ccd475c21"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Handler/IPayPalHandler.php": {
+      "md5": "03b0eb03e1b5cfc5d90ccda1a768cf8c",
+      "sha256": "6439f3733077cf90f9ec0ed50a65635c50812d5899c7e5362ca54d906bc9250a"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Handler/OauthHandler.php": {
+      "md5": "e381765dbc20fa2ce8a7ad2625267a2d",
+      "sha256": "1830a5200f666cbe1551bdac466bdbb40a733aee2e8f7db1817d82036e77ab1e"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Handler/RestHandler.php": {
+      "md5": "d270dfb97a00abbd1434fad9041dc1ac",
+      "sha256": "5296af0a2577c07658a95df313cd2333d7fbc1d1c49567fea5244d61d20d3fc2"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Log/PayPalDefaultLogFactory.php": {
+      "md5": "73aad187d824c79909482cdbd20e53d6",
+      "sha256": "eb0c16f9482781f9a58df3678335de04f85d1651bd3c191bdd6f321b953a4a3c"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Log/PayPalLogFactory.php": {
+      "md5": "eb63bf499cb55bbbc508b1f3a79708ae",
+      "sha256": "787ac1432d1f21aa686c6adb9aa146fc3116a699ffb2628e8ac757cf5a9726f2"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Log/PayPalLogger.php": {
+      "md5": "e3d35e9fb10ac4bea5e25392cf2c8b44",
+      "sha256": "a3e81aa4d18ba42418be3e5247fc254ab14702cac072e37d915cb4d717c0f843"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Rest/ApiContext.php": {
+      "md5": "2b318abb109d8cc4882978e9a2886852",
+      "sha256": "e4c2bc0ebc94d3346edc19409597211eedd5ca2a6fa9e8660b8fb791f9989aa0"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Rest/IResource.php": {
+      "md5": "d2a7e80b6373a9112e9a006668d34bbe",
+      "sha256": "5f75b2484efb6ecc465f6441423093a25867f0608ad357763965d912d422b266"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Security/Cipher.php": {
+      "md5": "61f89950bcf7aa8ba2f92047fba46aa1",
+      "sha256": "368ddcc110e05f95a239cb4a57eb6d99de5d1c8e2ff052a223a07c7621899722"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Transport/PayPalRestCall.php": {
+      "md5": "06bbeeee657ff1646fa9cb86767e8e3e",
+      "sha256": "7265d6eeecbc5c494a9fabd7ab83db3a21d17f52b62d1d055d458098d265efa6"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Validation/ArgumentValidator.php": {
+      "md5": "d8c57d493e1a2b7413ca8efb66e19b79",
+      "sha256": "2154ee9bfe59d97ed047bb4e9a0b926cfdb72606349d0bc443ebc0a929627dea"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Validation/JsonValidator.php": {
+      "md5": "0eb9c5d640fbd2e6a44fb2891d29d677",
+      "sha256": "35ca8722677f773c660a2f0924741436fa45818331e12315170431756881ecc5"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Validation/NumericValidator.php": {
+      "md5": "3c19a61580a64f0eef0ca19469dd8052",
+      "sha256": "9101b5044224dd4e9b7f5f23aacde83ad79a7610d8b374d2a426cc92745c0b55"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/lib/PayPal/Validation/UrlValidator.php": {
+      "md5": "32ae9483f298408950af463d64e3d388",
+      "sha256": "90a681a070c975242cdf81805ddcec61fc9a21fd1c12fca027a1ace905958d40"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/.htaccess": {
+      "md5": "90755c3d6443bb5db87c756b7a81dffb",
+      "sha256": "47b022f596f8f41506cc4b3838b89bbfb35eba36a78ef5e59582394bfa21aaae"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/bootstrap.php": {
+      "md5": "9b1f6d77774ffd05056a039c2eb9ceda",
+      "sha256": "08379cb89ff05b6adc522ffb5e5063726bf034f2547a68a8cc5993fe125cd837"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/common.php": {
+      "md5": "84d7d111276e775295ce733e75101413",
+      "sha256": "7160abc829af6a3c54c96c51cd462b700a548c72f95015ced5c1f49fd189061b"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/header.html": {
+      "md5": "7d9caa1951af2583ba525ae41678de27",
+      "sha256": "70248ee1fc3ec1bcabcb65ba6058a746ffb050d50ca7e1e1dcb233be64f0b531"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/index.php": {
+      "md5": "41ec79bd851d9a64caced709975c02eb",
+      "sha256": "8dfeab0e4d93f2404883020d61f040c32ec23fa8cdf3397d362f61483fcc355e"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/sdk_config.ini": {
+      "md5": "6e020c6896e2bfcc89d18529a47d8526",
+      "sha256": "2088ac516bc0a8276801376681fccf7184a4269d681ed703e668e52e669128f0"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/billing/CreateBillingAgreementWithCreditCard.php": {
+      "md5": "5621b21f808cb23b7d795e54da8de506",
+      "sha256": "7e08967d1fccd3004fc6c247d5ea495c3fede881ee26638d5a0be278b0af9119"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/billing/CreateBillingAgreementWithPayPal.php": {
+      "md5": "ac73f6b78965515494663f4880e06413",
+      "sha256": "73d84352334cb40eb9f0f9267519000895fd272b844b67658341b77b89c1d227"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/billing/CreatePlan.php": {
+      "md5": "f9a8ab43e3d2ea9fc5f7a1af59aa06b3",
+      "sha256": "4fe953ece14686051bd6925426c26cab47a32c0b7e2da0b6327485f366e5f7a5"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/billing/DeletePlan.php": {
+      "md5": "39b9b005217832e9bee502b30e307fb6",
+      "sha256": "a59e60e3b3f9169c300d25b663fbaec3cb10551be7e5352766da613757465d0f"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/billing/ExecuteAgreement.php": {
+      "md5": "8540db36b0af27e13f511e2065c9f9cb",
+      "sha256": "e279843948a542bf9e04ef9afa9b06913bb9bd0ed1c3240b4c5ff80d3bc0eef1"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/billing/GetBillingAgreement.php": {
+      "md5": "9930ff002ee7efd08b870e7100c07498",
+      "sha256": "f8a6a8be6b1bff04b81ab5d70a37701427f65cb5b345009c10969153b6a0765b"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/billing/GetPlan.php": {
+      "md5": "ae7136824d1df579b4ae002446287722",
+      "sha256": "c7b12f3b9c8f8b42861b21c4c5cc8ff05ec97026f98a4909560c434f3d36d90e"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/billing/ListPlans.php": {
+      "md5": "97f719f4ca819cfe1640431ada9e3985",
+      "sha256": "ee2895dbffa9f7dc72190ae03e760568a740df257707f9132c6f7235e618ecbe"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/billing/ReactivateBillingAgreement.php": {
+      "md5": "42436fd35f831942a78239eebb956215",
+      "sha256": "b649fabfdee0cd7b0452d460510cb5446719c204aa5fe65343451b362888a820"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/billing/SearchBillingTransactions.php": {
+      "md5": "b53869b5843bf9af550b4100d53516d4",
+      "sha256": "d892a520ba7e33f4c8f5cdfa302dffb07e419a8ae39a8ef6f3b68193e39e5e44"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/billing/SuspendBillingAgreement.php": {
+      "md5": "413787ae4e6737511085c5360285445c",
+      "sha256": "4bd106aa622d23c712198d10133c8eef958efeb94c4712d79a62a9216a645926"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/billing/UpdateBillingAgreement.php": {
+      "md5": "27a8b1ac600a4e8376e684d5aa052c51",
+      "sha256": "496204d736088521d5d6e05049d7b979685490b667b89441d28da87f809defc0"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/billing/UpdatePlan.php": {
+      "md5": "1451b1557cedf6a24122bce1914da7df",
+      "sha256": "bba4175614f818c3797fdd07b037c3fe8c7ae477bc562e33ea991d021c193cc7"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/billing/UpdatePlanPaymentDefinitions.php": {
+      "md5": "f8ff2a7acdd9733a0acb4007be27cc2e",
+      "sha256": "e4980d43f1feacfff19fbf72a9b137209bb0939ba25c102091020726591b0aa7"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/doc/assets/behavior.js": {
+      "md5": "c4d75a2f0331e3c0ed50507df05ba46e",
+      "sha256": "d12ca280f1cd3dff9a7eb1497f5d9fc5cdcca4f18051601aa12f314e9d70627f"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/doc/assets/style.css": {
+      "md5": "b5706076c14ffcd668700ecb5a39fa7b",
+      "sha256": "9bb14a27144436b65efc766f36a990c1d8c0d41771c069a7beda36e75e17cd75"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/doc/billing/CreateBillingAgreementWithCreditCard.html": {
+      "md5": "f6262c563fa6c56ead9b984f2ff27037",
+      "sha256": "cef159ddd0c0ea88e0243fc61d4f39398e3544934a6c64f8f31f23ecd816974a"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/doc/billing/CreateBillingAgreementWithPayPal.html": {
+      "md5": "dff968216db9321aa98f549a4c079286",
+      "sha256": "81928170c6a16e6da55d828efec7a81110dee91af19567ec50c4c5bd6d916ee8"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/doc/billing/CreatePlan.html": {
+      "md5": "5e3efe234ce937fe8fbd6f4bd5ccdc11",
+      "sha256": "aae4f025bc64ea1b793e6effc21417b09294b58c64e97b1ddfb47e9d4b100621"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/doc/billing/DeletePlan.html": {
+      "md5": "0fb8d622de8f592270fdd6dbaae8b3ac",
+      "sha256": "e66a7424b6d9d56555778eb55f7b8450dfaf5e74e74642bc244ad7ccb7fd26b4"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/doc/billing/ExecuteAgreement.html": {
+      "md5": "f7b107424aa848854ac06612ac06f749",
+      "sha256": "7204a61f5358215ead3daea7ee2b077c612650394a7e8f334fb537f99b091aa6"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/doc/billing/GetBillingAgreement.html": {
+      "md5": "ae2aa8bcb2f57b90c6f063e952ccfe9f",
+      "sha256": "96aa21e3b5faf933cbf273237f9fbf20b4498ec95b08fa802fb573cfea7339af"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/doc/billing/GetPlan.html": {
+      "md5": "c8b007a834b949022ad9042514a8b625",
+      "sha256": "30a433fcfffb1acf1d697ddc797d07a92ffdb03f09da0eff78ab21ef2b39c34f"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/doc/billing/ListPlans.html": {
+      "md5": "84ac67e75064e00984a71aec46570255",
+      "sha256": "3bb6b3f84b9d9be497e200cb63808db09f597b03193b2e3f20ae8c6961c1854f"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/doc/billing/ReactivateBillingAgreement.html": {
+      "md5": "fa291fb1b0796b80ff392b684558d438",
+      "sha256": "5a8d194b22cdb9fca8b7658a4ec3596a0099b4ef6c9ac1d90d9faf1db523b160"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/doc/billing/SearchBillingTransactions.html": {
+      "md5": "52ac97123aa12d6267552c85a3d0ee82",
+      "sha256": "69668fcec23f898d24f49c7e87b710fe7c57695685026fe5ec7bf2cc42452586"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/doc/billing/SuspendBillingAgreement.html": {
+      "md5": "2f11ade03142975a8dc298f1e64866cb",
+      "sha256": "490d7210bd01caa867fbed9b77240c806ee46e6b563318fc7085a3e40072fc20"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/doc/billing/UpdateBillingAgreement.html": {
+      "md5": "ee3f988f19df7499599673f882ec4b81",
+      "sha256": "763293e971a6e42e85c3ab9259d94f71870ef0dbcf62f780d5cbb6ba5f5ea8a9"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/doc/billing/UpdatePlan.html": {
+      "md5": "2f28ad3e3baa28117cd649b6844616e3",
+      "sha256": "7b6a343508759a08808d519029a97f7de9ee0a8c85358651f5729db509cb81e8"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/doc/billing/UpdatePlanPaymentDefinitions.html": {
+      "md5": "fe9085fd61ce8b2f5d93ceee7693cd2d",
+      "sha256": "4a525031f52849ca5249709f810a2cf2506e2f43d60816a4cc103997a7d95a97"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/doc/invoice/CancelInvoice.html": {
+      "md5": "222ffb8e68c24df14ff5e230284b8a67",
+      "sha256": "d13d2a1262a4b391613a156825f1d32a5d8035f8c98c6486aff09818cbf4f5ab"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/doc/invoice/CreateInvoice.html": {
+      "md5": "e95504b54457a05c2b8b16e8a61c05c0",
+      "sha256": "b0c4201743965502229961e346644d2e39142aacbae2888e3aa7ee6cf6ac0ee5"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/doc/invoice/CreateThirdPartyInvoice.html": {
+      "md5": "57138a7085c63e6d900d709b03b65e78",
+      "sha256": "e6d3c9389be6b5b7b30e2cdee622e407ac995f5a5b84b2d6c6ef55070a05383b"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/doc/invoice/DeleteInvoice.html": {
+      "md5": "d4bbbf6381303d2f886bd074f4a5a80e",
+      "sha256": "8a13f31a351d326ca36af361359e00e3eeb467928d9eedb362cddc046cb07d63"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/doc/invoice/GetInvoice.html": {
+      "md5": "77cafcc8b990f3b0d8496245a2979638",
+      "sha256": "19be64b7ac67bf2a5bf677794fd62039f132c1e101cfddc58faf7aa98fb55445"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/doc/invoice/GetNextInvoiceNumber.html": {
+      "md5": "22c32035e16a02fb6f9909afd2f06299",
+      "sha256": "0a624061553ac24b18ca8bc6b74cdb2a65b12297ad93338aa388a7dcbe239d1c"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/doc/invoice/ListInvoice.html": {
+      "md5": "a1ec83b7e0a8bda66d67b7d81c3bc76d",
+      "sha256": "7a416c7285a61f7651b3f1f84de9d05e0e0efde62ff75d3c1e7bc8a62b27f2a2"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/doc/invoice/RecordPayment.html": {
+      "md5": "e24a1d7f3a5a44263527b2b9e02a8d26",
+      "sha256": "d9879824d9f163acea0d06091c2e02530e0cd399b174aaf6803bf15021b0b1a5"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/doc/invoice/RecordRefund.html": {
+      "md5": "b7b2653b3a8cad288fd091dd117ab166",
+      "sha256": "e345d60af1aa73f3d5b889e53965c07232d9b7795c767abfc33b8c2e8989782c"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/doc/invoice/RemindInvoice.html": {
+      "md5": "6571c6c882f417f950bdd5c9bb64c5ca",
+      "sha256": "a967d8653cf2292f9e4c6bd4076a348b89533754611876f60bb8f941361921e7"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/doc/invoice/RetrieveQRCode.html": {
+      "md5": "80fb55d38a384a41797d95b4377ef50f",
+      "sha256": "450c3270667d4fca143061a7e972043445c99f70492ba25fad3b69302cb9753f"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/doc/invoice/SearchInvoices.html": {
+      "md5": "3f21c76d0a6f6851ea9ade643ded0ad8",
+      "sha256": "a781763f60ba63acb6d4c233e152254a7a483dbc397220e5dc3438cc8fa9af07"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/doc/invoice/SendInvoice.html": {
+      "md5": "07d00d2b477b5757b3d5a2d880e6e89b",
+      "sha256": "c6e77d89aa15645aba6868118e58bd7d451af13f218dced31203b39e09c04169"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/doc/invoice/UpdateInvoice.html": {
+      "md5": "e1dab0e32e4a20557090524818c5e629",
+      "sha256": "14bdf29e02a5aedaf30d869c199185293c6824b738a55a3bbf4876c597860942"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/doc/invoice-templates/CreateInvoiceTemplate.html": {
+      "md5": "938cec1a86dc65d28de8da2aff65c227",
+      "sha256": "cde845832862f078e5ce0bad52c53ba8a70112e17524ba9a6511ac1bc67da9ae"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/doc/invoice-templates/DeleteInvoiceTemplate.html": {
+      "md5": "65c4dd6a334b2c4996c72199258d5422",
+      "sha256": "86d0eacb56a881848d0fa6d566a42d0e09eddc5ac404244018d37f5d1ceb7e85"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/doc/invoice-templates/GetAllInvoiceTemplates.html": {
+      "md5": "95f158d354e8116fc9469c11e7a1b76b",
+      "sha256": "73abb3cbf956894a99381085f20723cb84b02ff4bffdb86d2463b2bed4ae2dcc"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/doc/invoice-templates/GetInvoiceTemplate.html": {
+      "md5": "9eef8b7806ec0061abb78c786bc570cb",
+      "sha256": "db9ca09c6e4b6aa53708aed570268285727063bfd0d38a9af3bb2755607ef925"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/doc/invoice-templates/UpdateInvoiceTemplate.html": {
+      "md5": "1d267c8faa2c23d2f4eecda97841913f",
+      "sha256": "464653becad842b64c020a74f05cd391c79398882c26fbc0e42fc7a98d5bf37b"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/doc/lipp/GenerateAccessTokenFromRefreshToken.html": {
+      "md5": "46a1a6d63d3d57977a2f5e64b1cc2c73",
+      "sha256": "8324c3a64f1554080f31335c67d1ceaf30130799b376396fd98df4571550e018"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/doc/lipp/GetUserInfo.html": {
+      "md5": "07b7eb2544d09f90d86610b5a5f89357",
+      "sha256": "e76a7d409633f369ca38dc8c6b0f9cdffe419301b3d95b205af838fd5dc58fd0"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/doc/lipp/ObtainUserConsent.html": {
+      "md5": "26761e0d6cc95194899aa4e45b64b537",
+      "sha256": "b646aa013194d39776b2f93d9ca47f634168c937e38bed6467422d80d768e4d9"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/doc/lipp/UserConsentRedirect.html": {
+      "md5": "af3928b333097f4f4f7fd38af55bca30",
+      "sha256": "54c4fcc3d91d6522bcb4d0fb06c0b3b431de6e8213225e5ed1f0940c2899ca8c"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/doc/notifications/CreateWebhook.html": {
+      "md5": "88a8c5fab1a752834841d6254c8117d6",
+      "sha256": "436e888a5eb0de65fdd852d1673eb2e49788d40a1f5f0489cc33fbab71df8030"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/doc/notifications/DeleteAllWebhooks.html": {
+      "md5": "0430e4800f02a97379deb2604cb82009",
+      "sha256": "03051e7d3832bfb0bc2e8aba7ee086115ff6f2fe4c5719fdd498f90b86226a79"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/doc/notifications/DeleteWebhook.html": {
+      "md5": "f126690953f2b0689c92cf679ad6bf0b",
+      "sha256": "65298eb8d538f099303b59ac0de4f92128b7c6aae886cec4475d2436ce319fda"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/doc/notifications/GetWebhook.html": {
+      "md5": "2250a495f1361813897698d78640eea4",
+      "sha256": "b9b5a7a73328053fa50a1488ee1521d6400a6ba882e34585672a67824b69014a"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/doc/notifications/ListSubscribedWebhookEventTypes.html": {
+      "md5": "4e4c1f216f8d3b955776c2de3b539112",
+      "sha256": "e77b934d147620247ac1a4247ff7aa5b530a11f3e72ba8e724d35e20cbe012ed"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/doc/notifications/ListWebhooks.html": {
+      "md5": "b3da94ce0ff5518f039159aefde6e812",
+      "sha256": "ad0f7311227c963ff062db1da460d393ca42343cc12cd275ee24be15a20ed9c5"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/doc/notifications/SearchWebhookEvents.html": {
+      "md5": "2062c50c7b088ff7541455583617ed4a",
+      "sha256": "0d04b495ffbda022512c04e853809b1d6ee4a981a4adf427092dc398af80a248"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/doc/notifications/UpdateWebhook.html": {
+      "md5": "7f9ef5fa4739874470e75b245a32e5f9",
+      "sha256": "d4783d19e74f90cdd5ffab816653ba1ff8ff3b23c405f7c8bdc02457c0e4f60e"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/doc/notifications/ValidateWebhookEvent.html": {
+      "md5": "e6128747293587718ad4afd628610da0",
+      "sha256": "2ee265b7470f9b2a10f1a4121d69b915bcf68411db8cd4c871c97b10087ad735"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/doc/notifications/WebhookEventTypesList.html": {
+      "md5": "22b754bbaa6a4e0b1a349628d92f4e8c",
+      "sha256": "26490d8f056ad5f5f2777f9dd4a9cda32bee139ccc00d7e8f513c31a1f024b6a"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/doc/payment-experience/CreateWebProfile.html": {
+      "md5": "7c3835f82c5ba48ce5a119bf04514cdb",
+      "sha256": "d5473f785883d931da91dfdf07cc122927c04ab953c1220c4856a44cdd02259f"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/doc/payment-experience/DeleteWebProfile.html": {
+      "md5": "2aad59fb4d79ea9528647a769c7a096b",
+      "sha256": "4cb9c37bdff8295b6e60da2d1451532aa9d90d768c077120aab0b61f8049992a"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/doc/payment-experience/GetWebProfile.html": {
+      "md5": "885a1b159819a09603da67d4bb0f53e7",
+      "sha256": "fac89b257f8cd306ac3e0aa526ea04508799d4e135bc43cb0193f601b115decc"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/doc/payment-experience/ListWebProfiles.html": {
+      "md5": "700ce20e408ebea9aa5792457f1aa1bc",
+      "sha256": "94df995fec9d740717f315a6321cff81393b24fe619e7295b9747636ff390ae7"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/doc/payment-experience/PartiallyUpdateWebProfile.html": {
+      "md5": "571b71fbcb0e31319eddeab25f272846",
+      "sha256": "6dc8ce7967ff5d1dce88d5fddd3c2f9cc4f5bf719706dec5da96a2175ae7620b"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/doc/payment-experience/UpdateWebProfile.html": {
+      "md5": "d959050d00cd60a279f7ee754b438401",
+      "sha256": "3f2fca66645bd043ba601aadde48849e80d24ea1a3044e41e6a08bee9eeb3e1f"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/doc/payments/AuthorizationCapture.html": {
+      "md5": "f3277cfef920985d59b2df86ba03d71f",
+      "sha256": "5f8b1c4b491e2f845a969b086f86b66e47b7930c1c0e36637116c82659eee648"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/doc/payments/AuthorizePayment.html": {
+      "md5": "1cd12c14272235189e68e1cda310bf76",
+      "sha256": "7b0cea7fbbd9adcfd8608a246f2ce85b6e69d7d966a897d1e5d0e34de4f2b26a"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/doc/payments/AuthorizePaymentUsingPayPal.html": {
+      "md5": "c126c97b85c73e3bef95e0302effe2b9",
+      "sha256": "f766cf63de37672d709c76963104c5a3d44dd67d14a99db609e57ab5d1132a19"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/doc/payments/CreateFuturePayment.html": {
+      "md5": "23ba8be45bd11af3ff073375554b5db1",
+      "sha256": "5b46bd23a2aa904e07a10bd325cdac2be04f17d65189a555a7fc07a1c9c24c71"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/doc/payments/CreatePayment.html": {
+      "md5": "1cbbe8fff3823625d81c6cb0702ea114",
+      "sha256": "3ef3b207d79fb3907a2b1d5cb528b1c98954a6978a44c3818408cc0e9224948d"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/doc/payments/CreatePaymentUsingPayPal.html": {
+      "md5": "e1cf09952dca8c1ac34bed9f5ec1c04f",
+      "sha256": "2921fc98633169b0bb953333194a28c75a0ddee5035e0b8e4acd7b61019ceb45"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/doc/payments/CreatePaymentUsingSavedCard.html": {
+      "md5": "5060db8ef19505f1f6042696d5621b42",
+      "sha256": "15cb97eb5129a7c65315ae747248b571e167b8de2b41a9d9a856b0c495984242"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/doc/payments/CreateThirdPartyPayment.html": {
+      "md5": "ee767c777a75ba16898b9383a8942c30",
+      "sha256": "24023fd0c2b962d2895fae82b5ef15af29c75faf6c15f9cc692ccf0f2ddd485c"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/doc/payments/ExecutePayment.html": {
+      "md5": "db8294bfe6bcff3191310307433f6be7",
+      "sha256": "71d769100894b0cb89decca1df15e50ff03e7901fe54efba15570e95143f1daa"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/doc/payments/GetAuthorization.html": {
+      "md5": "e0290a0c65f29c6f461923bbe06c1c29",
+      "sha256": "06e06dac84ba31b636e83f652eceb5d73b7fa83dac2e3a502a73e323dbcfca98"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/doc/payments/GetCapture.html": {
+      "md5": "c2cf578bd0d84145d4842976d276ecea",
+      "sha256": "f61cbcdb4bda90c39ded01d5f63991f4503bf3e75ca6f05f5cf3b2adfc8e76ad"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/doc/payments/GetPayment.html": {
+      "md5": "715f42eba51afafe217386ea094a93cb",
+      "sha256": "942a681a749001afcb540e01d56cc13d2cd7aec35cf48c2f78395eb317452a31"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/doc/payments/ListPayments.html": {
+      "md5": "12725f2db250d088da9d6ec49f42aaa8",
+      "sha256": "f65bec4e515f1200460874249b76cc255dabded8cf7b26aea24b774dc6095930"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/doc/payments/OrderAuthorize.html": {
+      "md5": "5b751855fdd7b55a23d7b263b1fc9dbd",
+      "sha256": "69639d659165f0c673bcbf0e3419c94230f2ac92d882d4c088c76d78260b1940"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/doc/payments/OrderCapture.html": {
+      "md5": "d4581179ead8a879779aafab90b07137",
+      "sha256": "09a3a27f765f6171e5673a8092a8ffc04a3f25f510ed9f1f4f534e66b4887107"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/doc/payments/OrderCreateForAuthorization.html": {
+      "md5": "d1619a6f0d4ac3776659b449f94dbc06",
+      "sha256": "b72dc638e8d888dfd629a5156fb2b69982b7f800653114deb5d9bc1a704d3fb5"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/doc/payments/OrderCreateForCapture.html": {
+      "md5": "ad926f7dfad53371220bf89db8f6dc2d",
+      "sha256": "1378826ccd84674e42a453acf4db53bcd6ec6f0e4a995b45b064573bb82dc212"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/doc/payments/OrderCreateForVoid.html": {
+      "md5": "1f29cb6bea7c5ff9e662d2a47e2f57b7",
+      "sha256": "98cc09c3fddb864824d643640ff54476a5469b0f978d558ab7f30d259b152270"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/doc/payments/OrderCreateUsingPayPal.html": {
+      "md5": "cc78fa8e506435ca8d93cd1f87af5800",
+      "sha256": "32d5652af3f656924affdb139562ce1514c628987d0fa41dd645ed5e6c82cbe0"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/doc/payments/OrderDoVoid.html": {
+      "md5": "4029032aea7c525fd5346fafee84816e",
+      "sha256": "cc54a6de44c08692728947038f852fb999d7b15955b34b143c551c31014c030b"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/doc/payments/OrderGet.html": {
+      "md5": "9a8b082c1a1944b9adc4c6737be36229",
+      "sha256": "79c90dcd87549f91acea26d739923c004cfbe032e88c96428f2670bb5c828d55"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/doc/payments/Reauthorization.html": {
+      "md5": "f8f140a1f0b51d5c634807cd823677af",
+      "sha256": "1380d9e5dd34ae76c3e575932f9aa8db2ed3ad793f91553b5586bc7fed9ed8d4"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/doc/payments/RefundCapture.html": {
+      "md5": "f30ca2eccf70102f3b4c4940324f2770",
+      "sha256": "b53f73b801eca5672e0c80773ac1ac353528e6970e1ebee7d039e24935963710"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/doc/payments/UpdatePayment.html": {
+      "md5": "826cffcc3a0dec3d69c5c38b4835909d",
+      "sha256": "403a468eac5131748c8ac72b6b5040c7a83c83a1eb67741ea293da68761e3486"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/doc/payments/VoidAuthorization.html": {
+      "md5": "0fafd8c70393b2fc14c380168e472408",
+      "sha256": "99a270f592e923da823dcf6ee0bf22d0fed819c25c0e42012e2e40cb2406c606"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/doc/payouts/CancelPayoutItem.html": {
+      "md5": "7fa15839b96dc0f08e86547f9f232045",
+      "sha256": "3fbc9dc84a71d970de6fc27dbc92ae0027fc9636c44881f7b7bec785b2247b43"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/doc/payouts/CreateBatchPayout.html": {
+      "md5": "2df05feb43e69c33b25fa7a4a9045973",
+      "sha256": "3d59949c4222804c87f6252c9dff9a302446aceeac14b300648c141a7b314b1b"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/doc/payouts/CreateSinglePayout.html": {
+      "md5": "e34c6301e66b20abf584a0eec9af61e2",
+      "sha256": "a00fbd1324acf8b4e02859227b7260e801d9936b800dac3ece88f43167177a8f"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/doc/payouts/GetPayoutBatchStatus.html": {
+      "md5": "fe79a8ec163e177be1f2948293986b4e",
+      "sha256": "f58888ba4a0a5918903505c0a3eac00be3ecc3bd229ceed84cc9311c0fec4014"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/doc/payouts/GetPayoutItemStatus.html": {
+      "md5": "fd3e5527d9d99a5c6627896f4ade4b73",
+      "sha256": "5ca26d933eac4183c1cfeb947bce4218931f904eee668d8c5f2aeaf54bb7345a"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/doc/sale/GetSale.html": {
+      "md5": "99aa86eda78f71cf65207023cb81cf83",
+      "sha256": "e317f09c5d2114d3601e711798dca8d4c01a13836dacd47968fe1850776acde3"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/doc/sale/RefundSale.html": {
+      "md5": "9450eaa590e1e7da0eddff736ce806b0",
+      "sha256": "3ada972c88704a0619dcde65b1b30a3c334e9ee20e352165a620ac8bc1826265"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/doc/vault/CreateBankAccount.html": {
+      "md5": "130e64125ce8a9a5e3a35481b68b0c55",
+      "sha256": "99b003f52f3dee3cfe027e48dfe706957eb7ac95d8104514305cea0d9bc2531e"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/doc/vault/CreateCreditCard.html": {
+      "md5": "a679ec465fbc882d542a2df8dc035369",
+      "sha256": "29113d1c03bfd5f27f96595cf96e983c1e6af83d43e9824afc29642a77ce535d"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/doc/vault/DeleteBankAccount.html": {
+      "md5": "17ec446383e67ae253f61af5b4d60e00",
+      "sha256": "4896e780ec6dba6b34b99965771cbca6b67f87ef35b8f7d81dc6e8ea3a96669e"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/doc/vault/DeleteCreditCard.html": {
+      "md5": "daac4ae5679918931d5cca19129c6552",
+      "sha256": "019f85e4379df09bc69714978b9db3ad27933c0730d1e0729b6b2b7ead741ba5"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/doc/vault/GetBankAccount.html": {
+      "md5": "423dc2e574dcb4999228adb78af38457",
+      "sha256": "50484dc87875f03b18d6702f94c3cafd86212b77f5756a36c36a450de766794b"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/doc/vault/GetCreditCard.html": {
+      "md5": "6bb3482efa003d2a211c12be9522af79",
+      "sha256": "759e193bcf001bc822370197337c320f681771616bfc3b0938c24ee2c658fac9"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/doc/vault/ListCreditCards.html": {
+      "md5": "51bfd3933d9b9c55636153463818e24f",
+      "sha256": "95d460ee9d9d7c0efb5a50365bc41667dbdae768c8bf2a7ea48db4263867b951"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/doc/vault/UpdateCreditCard.html": {
+      "md5": "9a3b1c392307739c06910c7f4eb3a9dd",
+      "sha256": "d61d1a08712267685d8e7f6066f6d08d34b70eb04dcb8349f1c59690dab81e50"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/images/favicon.ico": {
+      "md5": "e1528b5176081f0ed963ec8397bc8fd3",
+      "sha256": "1690c4e20869c3763b7fc111e2f94035b0a7ee830311dd680ac91421daad3667"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/images/pp_v_rgb.png": {
+      "md5": "7cac1a350a39c39cc22ce574b4ecc827",
+      "sha256": "1c81a675162c96b522e7b476c39569db665dc0b2de6f813d7fdde5ebe0ea777c"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/images/sample_console.png": {
+      "md5": "14eff2f6f478257f7b20025bc2de4a36",
+      "sha256": "22d785de2c2480145923519f62f2207893be2a090b7e472998f4abf77c0b8ffa"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/images/sample_web.png": {
+      "md5": "805cff8124db3f172f9de3e58e02c45b",
+      "sha256": "c63a6d62f9b7fdf3ee1411b3441a445baab7615b93962d036f13e19d89b940b7"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/invoice/CancelInvoice.php": {
+      "md5": "45cafbd30c2eacafa73171c17913d8bd",
+      "sha256": "dce8217730137dd5c2d04ed7bffd0504906afddbb861a54b2b0c7cf1b6bd004c"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/invoice/CreateInvoice.php": {
+      "md5": "443c0717b2d2a1755ab92bacd5331db5",
+      "sha256": "d9a0fa8126d694d374dfae556ff5c972563b91a5b26d4c503e45edd49f6ff890"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/invoice/CreateThirdPartyInvoice.php": {
+      "md5": "c1bd36323d6dcaddb1c2fb5eb534713b",
+      "sha256": "b8241f8af45ae28bc010b89ee263927f2d265e3353664c3c31952df1351684d3"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/invoice/DeleteInvoice.php": {
+      "md5": "003cc665298051e40adc136342c6b42d",
+      "sha256": "0bf143d9eb81ba639085eaa8eecf7a801104ca78dedba7d9a90032ab6335480f"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/invoice/GetInvoice.php": {
+      "md5": "d156e1b87c2e83e7ad67df42c652a217",
+      "sha256": "57c8afa752eb1f2081763ed0fd85617203b6bcb204cec8976aa1ac1c9a138009"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/invoice/GetNextInvoiceNumber.php": {
+      "md5": "272bd3e5f3a852fd784ad3ba0bf899b2",
+      "sha256": "f098d64672ce4230dbaac0dde88ebff104722bd8822cfad64279bd41add6f58a"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/invoice/ListInvoice.php": {
+      "md5": "36a7e60fd56c7c574224d7d89b6e376f",
+      "sha256": "34e1b0aa23bdf707ea1bab62f0bdb8d03463d087b8c1ecb3e1db26fca50b9295"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/invoice/RecordPayment.php": {
+      "md5": "5cc38948f10841e7b2a25c88d13aa38d",
+      "sha256": "e6d8ec0039bacdabfe4d9a5461845069b6da847d238f6a7c4c9262236ffdc442"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/invoice/RecordRefund.php": {
+      "md5": "95553c0cbe142212536737e879987765",
+      "sha256": "4cae5af40e90d2ef58a594d2c74860b246c397439cdf53f77878333b13cb8c04"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/invoice/RemindInvoice.php": {
+      "md5": "0e39a2474374eae9fcab8b93d2bbfae3",
+      "sha256": "961261ef54c5963ac44ed032631b29d643894e24fb42b1ddb051ae264eb7addf"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/invoice/RetrieveQRCode.php": {
+      "md5": "ebcb551e4c42f8777bcca174e8aa3273",
+      "sha256": "ef60c94b6b0014d286b3757c93d02ca5d9b9288affd0fe06fb073eb65cc8e52e"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/invoice/SearchInvoices.php": {
+      "md5": "31b0616804c9307467811d688a89b92b",
+      "sha256": "c1853289ebf328730d8170f3ae373fa616f56e6a241d3297deb1b2b57ffd8986"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/invoice/SendInvoice.php": {
+      "md5": "402108f70d36690de2b7937a4d966eb8",
+      "sha256": "ce33f71f45a20da0878d371bc909066390c4fad07f9c08d7e896d788010cee8b"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/invoice/UpdateInvoice.php": {
+      "md5": "5458f689f2594b23197257a24a857b30",
+      "sha256": "80cba9207c491d1382ec5e86da2a7f69e724f2267fe33183910949d8c78d38cd"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/invoice/images/sample.png": {
+      "md5": "8c5f14280dd9cdefd8b583b9ed4e1c2a",
+      "sha256": "f4d28840456ef2395caf70e62b32fda9fc33a6307afc3c14b06bdc6456651126"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/invoice-templates/CreateInvoiceTemplate.php": {
+      "md5": "4c58a02eb11457d6e67488c717c4130d",
+      "sha256": "1027512541f4a4f4b7287fba21f7efd98056799cea1bd5ef3e10b0d1daa2629f"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/invoice-templates/DeleteInvoiceTemplate.php": {
+      "md5": "a0bc9a1c684170e43d9460c23256df20",
+      "sha256": "883417feefd0b4c413d5410167b9c8829b2722b27194842858761907244940d0"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/invoice-templates/GetAllInvoiceTemplates.php": {
+      "md5": "fe76d43528e989db76e7dd01f5e6992e",
+      "sha256": "399a90fcfd790888c86b14853c072e6c0f475f1c9502d2f444ecccdaf5ab000d"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/invoice-templates/GetInvoiceTemplate.php": {
+      "md5": "0332798200d53107cb1472fbb14fe114",
+      "sha256": "14501aeb53cc14b9b65455f9541910137e97787cf56ca0e6d1ad9843a44ae07c"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/invoice-templates/UpdateInvoiceTemplate.php": {
+      "md5": "2afa312a393c9faffc7e8743aa9ab690",
+      "sha256": "6b4e9b7abfa888e5ea8821486bf1bd5a94c290600743420c91eac8ec32a478d8"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/lipp/GenerateAccessTokenFromRefreshToken.php": {
+      "md5": "e82eefb3b6a6ebe1615f68251954343b",
+      "sha256": "b8a234e0e086bfd8cde7aa6dbcd4b379d32d3f939f2a6a7293fbe021f44692b6"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/lipp/GetUserInfo.php": {
+      "md5": "895f0b84bcc30fe83fbb9c6bbd13abad",
+      "sha256": "5333ded0e72c2af9389e3b031715d2d016212e35d580a8283a993b1de8a1c681"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/lipp/ObtainUserConsent.php": {
+      "md5": "b9648d21f8518d2f4eda99aa3f73bfec",
+      "sha256": "3525cd1d4f7f40ef5e55f55a532625bcb13816b5cb3627fdb583b25a5054416d"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/lipp/UserConsentRedirect.php": {
+      "md5": "0004e43e425f979198c618d8f6b7b8b9",
+      "sha256": "0d8b4237c04e07a25274ccfb94e2ae9adeefafbdc78ce13fefa355e0681aa1c9"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/notifications/CreateWebhook.php": {
+      "md5": "2dff5a89b51d7ff1472e849082991f0a",
+      "sha256": "f4e1c53f36e41a8868df073caa84886a9f4af0160abc2e17cff310fe5cf8cbde"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/notifications/DeleteAllWebhooks.php": {
+      "md5": "30ce076d01575bb0fd7239f15a4d5e70",
+      "sha256": "41aeb7295102bd7a119ace3cfd19816682a45d55a615f211e7f23027cb4d8c51"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/notifications/DeleteWebhook.php": {
+      "md5": "15054d28811b172323fc178c26067301",
+      "sha256": "b9bade2d00906ddc42d0325f5dd2833c5b5dceb498b55da0ff2d1c067db7a6b3"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/notifications/GetWebhook.php": {
+      "md5": "3fa9748271a6250355fd46187f73d2ba",
+      "sha256": "311d8b2fed3e8aca57824d797c9cf76d390e8b457b011d0a74c90a431c1d6b74"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/notifications/ListSubscribedWebhookEventTypes.php": {
+      "md5": "8c7e32775637e5081bd3e32067e04b76",
+      "sha256": "bc69c06e54b2991f44f48578b19a8727a9e4549005e86083b0b1bb0cc0ad01aa"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/notifications/ListWebhooks.php": {
+      "md5": "4250e2a16e7c2e59b8b764faaced8bcb",
+      "sha256": "598944c1f94f04ab9841914335c59b73df46d0f3c22d3f4676d34a804197afff"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/notifications/SearchWebhookEvents.php": {
+      "md5": "90eb0fbca74e23079b08309e207f4511",
+      "sha256": "5bc6be7121e93465a89a1783eee2b0bb82413edd043dc024c58fd3c449fd202f"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/notifications/UpdateWebhook.php": {
+      "md5": "36d1f3f4cc5840b8eb02b4fa620c5c48",
+      "sha256": "c8a75130fd41190bbbda6f5b66129a95a55773d8876b76ff3516dd83cc2dca15"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/notifications/ValidateWebhookEvent.php": {
+      "md5": "659ae61e1cefa2406dcdf1152df21697",
+      "sha256": "b8c3ecdfab399a4c84a7183be706b762663741490b3ffa09c36f7d4abb021c1f"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/notifications/WebhookEventTypesList.php": {
+      "md5": "d77c49cfddfb12469910d44edbe81c9f",
+      "sha256": "9e0be360b844539e0471cb81cb794511b9b3273f766903c0a78da07116071ac2"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/payment-experience/CreateWebProfile.php": {
+      "md5": "1ef8bb6413155e26e451484d3d5e2e0c",
+      "sha256": "2d5ef023b9eeb1c10c42dff8259438dc2d391e36cb9576d3a94db3250d76ccf1"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/payment-experience/DeleteWebProfile.php": {
+      "md5": "bd8b319d4e7603f5ff14ed54a15b4e27",
+      "sha256": "85bd682c7600eb88d470e3f58153c7856c686d43349f956e2804fd80a3b2ea68"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/payment-experience/GetWebProfile.php": {
+      "md5": "bef888e48131ee91d4870c2ee3890000",
+      "sha256": "d0af589df7c3880d7a1bb898e7b04a70a49864f0e038e971ee7cf6f9563b51bc"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/payment-experience/ListWebProfiles.php": {
+      "md5": "1e3be06442eb9ca9ad03e422ca34f972",
+      "sha256": "bbcbd465db1e13aef33643046f666528e0975cd7042c7fbf2868717fb3cd24bb"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/payment-experience/PartiallyUpdateWebProfile.php": {
+      "md5": "bcc807bef3fc8fb099c92927a45fa149",
+      "sha256": "06453bfa7b77bd968b93c233b38d423906db9897eaf378dd5390713b741fc1b0"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/payment-experience/UpdateWebProfile.php": {
+      "md5": "9a146189d53b700d06332424bbffc050",
+      "sha256": "5bb51e851ec8d09bfe424dfbe04da924ecf62ee6b3a376989fa636c915b46e9e"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/payments/AuthorizationCapture.php": {
+      "md5": "a4a52854259e99c65d1fbea4202d4dae",
+      "sha256": "d64886ff5953323fef71a83c4fa8e85461b1170f2825e29a8ebfcd4b08689c95"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/payments/AuthorizePayment.php": {
+      "md5": "e1714eb76d84771ce1e199e7accb2d09",
+      "sha256": "f0e01575895710a204a9e3cc40780318a6cd439f282797369f82bf904f8ce039"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/payments/AuthorizePaymentUsingPayPal.php": {
+      "md5": "0176200915350c471fa8d21e386af6d4",
+      "sha256": "06a5cd903a901ebcb462e79c461530ea2f6c45f803a6d14ec2bda549adccba30"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/payments/CreateFuturePayment.php": {
+      "md5": "cd8e72b96732b5931c0d67470cdc45eb",
+      "sha256": "6082ce5fd3770f04e1d4cd389ccb67a5d3eab1603ed03ef5e9629c4359a24e57"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/payments/CreatePayment.php": {
+      "md5": "75dc43cae8a263376c5e0b0a1c22cca2",
+      "sha256": "fbeff4d01562c6c25c1066689d546d47ff372640ac5469c4949b52dcb9060c59"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/payments/CreatePaymentUsingPayPal.php": {
+      "md5": "89a17adeab24653f24bd1004d91f7caa",
+      "sha256": "43b1e6ebd2260adc15eddf983e2f63cb97ca18da242dda1fb304f5bb20ed5c48"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/payments/CreatePaymentUsingSavedCard.php": {
+      "md5": "51df15700057cfa0c127ad947c329669",
+      "sha256": "9c117526204e8338a03e3d8e8644ac5b7f456114f145c8f156762b9470950fc1"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/payments/CreateThirdPartyPayment.php": {
+      "md5": "b1a2231e5dfdc6a033ea37a4d4f449a4",
+      "sha256": "f454451ebb4e29bca2289eb318ea2c294d14073318ffbe605c3b923da4ba4b82"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/payments/ExecutePayment.php": {
+      "md5": "e2319e81b18616201a5f71b8e59dadd0",
+      "sha256": "44baeb39f7ac8da194f4f7e1ba83879c2bb82747a52fc694df32f13af83bec60"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/payments/GetAuthorization.php": {
+      "md5": "424ca10a9c438a83e352ebab69ea7ea1",
+      "sha256": "1222d9795f8981aa393e3e72c8be0103f70866f369af793946c1734a5d90d587"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/payments/GetCapture.php": {
+      "md5": "5b86b7969e8222d9d739c1c3bbbbba86",
+      "sha256": "57d1a330278841dacd5b422855ad7a9732599b6ad3f4b800c36531ad9880e744"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/payments/GetPayment.php": {
+      "md5": "bba0a0bb4f7085dc319209c993626648",
+      "sha256": "0b1343605ab6a7c48fd3b13a250575760076112f0280a0c8625ed1471c5a2d99"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/payments/ListPayments.php": {
+      "md5": "12041f44a4278857cbd39d7e1e515f2a",
+      "sha256": "12281de33189add0c5357538977a71d005003c009e4ac5c27a4196840e5e283b"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/payments/OrderAuthorize.php": {
+      "md5": "ba6f868f04649eb1c4ca7348fc23235f",
+      "sha256": "c8d115c86ce982698badfe38a3a0f336fd770b7abdac36313f204824ef85ede9"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/payments/OrderCapture.php": {
+      "md5": "077596e99e226c891b32527ad1c6414b",
+      "sha256": "9d528ce771640f4756f4621b192d70d0ff58bd7de966b49a1d48d0dac52e2472"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/payments/OrderCreateForAuthorization.php": {
+      "md5": "c8e96dde498952c2fcf6f541664b4849",
+      "sha256": "cb6229a89941d688753c2186267141122d06309fc0a341361ab73ab3ffaccad3"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/payments/OrderCreateForCapture.php": {
+      "md5": "73ad4803bc524ed58629d61834769f14",
+      "sha256": "55de00eed9a9da2ec7775a48ddee19ce0011776fba0549915aedb11edb3008bb"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/payments/OrderCreateForVoid.php": {
+      "md5": "834a4b601ec843b49198f2fad6801588",
+      "sha256": "e39a3430dccd5c0b4ce808854906a8e162a4ffc0af2a4828c1f0da587706310c"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/payments/OrderCreateUsingPayPal.php": {
+      "md5": "2c801c69d2d70237d043066ecc1f05f3",
+      "sha256": "eb09742011c1f2066c23979bbb8e6224843d7853d497641d2364dff3e59287ba"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/payments/OrderDoVoid.php": {
+      "md5": "73fcc6a566b8432402abaf96cf466d94",
+      "sha256": "e951c2d738822806b09b8aae94b4d7974abc29841454b2a7b3883ddc20fdbafd"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/payments/OrderGet.php": {
+      "md5": "a18d862f90d8c4035ebdd097ce75ec6c",
+      "sha256": "31b4b824acddab5124789ef2a2cee8a1de662db050b5d6419cf7c61951114f6b"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/payments/Reauthorization.php": {
+      "md5": "f93d6911cecaacad7458ef7bc633ffb0",
+      "sha256": "48655880347445de20e318c0ad5291645eae948358efd921b2c5b0b2bd3e69d4"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/payments/RefundCapture.php": {
+      "md5": "5567a470cc64818f49f13f9f183d0a91",
+      "sha256": "e750b4cb14f90c044946411997fbb4f9d7f5be2674daab6d74b98bfaf1958d75"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/payments/UpdatePayment.php": {
+      "md5": "513ed5bef0ca690de77864af307132ea",
+      "sha256": "a9a43f082afbf1e05716a281c2fd6fd932e720621bfa153afb6418906b540705"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/payments/VoidAuthorization.php": {
+      "md5": "869309b2cf6131efcaa2db52a862d6b4",
+      "sha256": "d563a4658db256e2d9c8fe4841b0d014ba3c33e56b98712ec2b3b37975da5ca5"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/payouts/CancelPayoutItem.php": {
+      "md5": "4a553cc8721fb238f19c93705683f7a3",
+      "sha256": "ba09808a85d4a892c47ea24ffe66e8b84abbd80011dcd0a9e35a113f3360fbf2"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/payouts/CreateBatchPayout.php": {
+      "md5": "844ba636131819451b084c272f56770c",
+      "sha256": "1aa4986c8f34666b1c45afd3f21e53ccbb0c44e2167c7d307af41ebb55f42ac8"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/payouts/CreateSinglePayout.php": {
+      "md5": "56d556318b5510f71ccbc19d95a42d68",
+      "sha256": "320202d05dc2844abd19b407ab7155cad3824ccc4e054fffc84f0d38710f9d79"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/payouts/GetPayoutBatchStatus.php": {
+      "md5": "07b2b52ab910c98c55c88986eea7aaf1",
+      "sha256": "d10a7206481279b5ccbe8a97318d963dae18e82498791c57eaa2490c211f8eb4"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/payouts/GetPayoutItemStatus.php": {
+      "md5": "a8863c85534bb1d3eec2517852de70ff",
+      "sha256": "40e9232169dd352f47eff1f9e10433aa82b005574daf7d385479e60f12f35dc7"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/sale/GetSale.php": {
+      "md5": "605ffbce52e7fbacc1b0d5d0260d3816",
+      "sha256": "38e4de136948df2acc015828af9811171b26b01e07bd26b92c2950377b5914d5"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/sale/RefundSale.php": {
+      "md5": "aca9793e1db5aa22c724bc6e83e1c99d",
+      "sha256": "9d8c77085423fabc5abb1f92dd8af63427ea7130fbc0f9e5d2c5a2a209390412"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/vault/CreateBankAccount.php": {
+      "md5": "061f1fdd787ebd035b7a4a3146b6171b",
+      "sha256": "d8eb21c54cc65cd5573dd0ac3294dcf07453bf0a04e4ea89dda761977434099e"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/vault/CreateCreditCard.php": {
+      "md5": "ecaf933ade4062fb52e73143dd68db62",
+      "sha256": "763c1e2784ef5dcc595a31f6edfc37d08652570173e284f7d7d51891f4320e1f"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/vault/DeleteBankAccount.php": {
+      "md5": "637eec2fe2cc19e804e5304e18ed2e20",
+      "sha256": "985ed4a1d440cf73b630c6f5d5a55c05d9d5fd30b884987e5c3ffffd3515d086"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/vault/DeleteCreditCard.php": {
+      "md5": "b06077942221e6fe02976e240d1f994b",
+      "sha256": "99adc39a6794411428c964769e8b4bb0613d0129a79ae7a4d96849efda3a2293"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/vault/GetBankAccount.php": {
+      "md5": "f8dc9ccc81356ad09f812518c49c88fa",
+      "sha256": "3e779165e2559db49863de3bfc5884a6ebf99a9f9b3bf54354459edca5792410"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/vault/GetCreditCard.php": {
+      "md5": "844e1fdb2f4b443e741fad3776093740",
+      "sha256": "02598d466b87c9bbb29edebb4cb5fd4f46918242b3036a98b9993d39bb03df38"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/vault/ListCreditCards.php": {
+      "md5": "fca8d55d2a3d22d9b722e928c266a376",
+      "sha256": "46573045ae7fdf1f871a1758e85df406b106a7b77e37a4458bcc09f73e2d0be6"
+    },
+    "includes/gateways/paypal-php-sdk/paypal/rest-api-sdk-php/sample/vault/UpdateCreditCard.php": {
+      "md5": "e573a67e7f701236f49f4f1334554ad8",
+      "sha256": "9ed6f187049cfc54d8d2cf833ece3cbdda3a2ae2d6d9224f05959e946877bc7d"
+    },
+    "includes/gateways/paypal-php-sdk/psr/log/LICENSE": {
+      "md5": "1a74629072fd794937be394ab689327e",
+      "sha256": "6e944907067bae93c00a9f2ad51032243820b22df34b77c77690d46cb2e98e24"
+    },
+    "includes/gateways/paypal-php-sdk/psr/log/Psr/Log/AbstractLogger.php": {
+      "md5": "26eb607e5318188016615326bd89a9be",
+      "sha256": "a3645b89e79acc15798e4e80b38f964b3b02083162fd477e2d50ee892bf0ff7e"
+    },
+    "includes/gateways/paypal-php-sdk/psr/log/Psr/Log/InvalidArgumentException.php": {
+      "md5": "7d2f0bd1583524d739fff12f0507de65",
+      "sha256": "403c6def4d4199a12cb4a54e804c7d29405968871366500f72d6f3ea401bfc64"
+    },
+    "includes/gateways/paypal-php-sdk/psr/log/Psr/Log/LoggerAwareInterface.php": {
+      "md5": "cfac6d4dc3ebf2c7f0e49f74d1bcd44a",
+      "sha256": "c32ef350fe969788d0de3996e33c4b6a25308c7ceee1f7e87286f491b2bbf25a"
+    },
+    "includes/gateways/paypal-php-sdk/psr/log/Psr/Log/LoggerAwareTrait.php": {
+      "md5": "221f47ac7d3da4800d2c0e26cdfb351b",
+      "sha256": "395bcaf42e14d5995b331875645e8d28be8d7242d30473aaa066fef8a80eea55"
+    },
+    "includes/gateways/paypal-php-sdk/psr/log/Psr/Log/LoggerInterface.php": {
+      "md5": "1ae09682227159416a299d0ea940d34e",
+      "sha256": "d3fdf77b72ebf85f08c868d464c0e8ae4bfc4e4dc5a5232254eaabce16eef0cc"
+    },
+    "includes/gateways/paypal-php-sdk/psr/log/Psr/Log/LoggerTrait.php": {
+      "md5": "d1152080b1b7a8812f6a3023b63f0fc0",
+      "sha256": "ee80487e397eb3f14be541d77c0320cd30494174f50cc8c3d0fe6751727363b2"
+    },
+    "includes/gateways/paypal-php-sdk/psr/log/Psr/Log/LogLevel.php": {
+      "md5": "cc226142fd5d390d030b39c61cf97843",
+      "sha256": "9f2520b22945ce1599c4fedba0a4c75985f172ca86cdf386766ebb8b2363768c"
+    },
+    "includes/gateways/paypal-php-sdk/psr/log/Psr/Log/NullLogger.php": {
+      "md5": "d66f51c1fc729b09e54fd8821c7dfe46",
+      "sha256": "842d3bac97738101b1b0f8540f8c5be2477259b9235a6f623e9e3798106685de"
+    },
+    "includes/gateways/paypal-php-sdk/psr/log/Psr/Log/Test/LoggerInterfaceTest.php": {
+      "md5": "660a7ddd367dbf434c5ec6e463149d42",
+      "sha256": "8242cf8bf621d68c5e795dd21f06b0418fd8ab5f41c0c97bbad362ac0955e9c1"
+    },
+    "includes/integrations/class-wc-product-vendors-bookings-legacy.php": {
+      "md5": "3e7caf6d646a9dc966b2a9bdae69bada",
+      "sha256": "89ac4168e1d416f4a364ab8a35e384b402aff5afa9d2da207616e116180fcca5"
+    },
+    "includes/integrations/class-wc-product-vendors-bookings.php": {
+      "md5": "de3727a82d021ca9da384fa34dc7b487",
+      "sha256": "688d15318a09a35b493dbc7e8d92ef5b7ef6e3be8c568a77a9fad1d3377e0c83"
+    },
+    "includes/integrations/class-wc-product-vendors-product-enquiry.php": {
+      "md5": "93d57dd756232da9a0e6748602e6e73a",
+      "sha256": "0a4c79200b83027931f5ab885696923a5955d4a967991349862eb410ce45f62e"
+    },
+    "includes/integrations/bookings-global-availability/class-wc-product-vendors-bookings-global-availability-legacy.php": {
+      "md5": "32e4b62a7760c96cc8d1427520d110c1",
+      "sha256": "8dd8689a07b6c6ddfc4585be386c5131c530dc4edf71aa3c06709d6e819467af"
+    },
+    "includes/integrations/bookings-global-availability/class-wc-product-vendors-bookings-global-availability.php": {
+      "md5": "8008534160de9eb6e9708fbc79cf9ac0",
+      "sha256": "7fb055155ef35ead4e0659f72bbc496dc431f5e766eab60e393536f7761f73a3"
+    },
+    "includes/integrations/bookings-global-availability/views/html-booking-availability-fields.php": {
+      "md5": "93649962162c767a8fac9bfcef827114",
+      "sha256": "193f915c260fc91627381f5809c7d3b014dbebd958a1dc79891e2a7efed27151"
+    },
+    "includes/integrations/bookings-global-availability/views/html-bookings-global-availability-settings.php": {
+      "md5": "9d876d55872c37a9851479621396e1a4",
+      "sha256": "af5a10da98f28cf247d676daad8dcf0a030f1cea816abd9becc24ffe58885ccd"
+    },
+    "includes/shipping/per-product/class-wc-product-vendors-per-product-shipping-admin.php": {
+      "md5": "49b1a2c556c990c51386a9c2550a6a8a",
+      "sha256": "6726fab95da350ac871580892c0f9c390ed0bbd2bff0bf38fdee3ebe3f426181"
+    },
+    "includes/shipping/per-product/class-wc-product-vendors-per-product-shipping-importer.php": {
+      "md5": "b0c16d319d7e95f48d5bfb83b89aa2b1",
+      "sha256": "a4d3e33092a7e067217bd2f939bf0c5ad837ed6c492c6327111fd9445886a785"
+    },
+    "includes/shipping/per-product/class-wc-product-vendors-per-product-shipping-method.php": {
+      "md5": "f8c6e5c6402c3cd1bb9c2064eccc585e",
+      "sha256": "f046072323a2850ee647358ba435c341cbe7b611390f4da4a795e1e5ee97fb6c"
+    },
+    "includes/shipping/per-product/class-wc-product-vendors-per-product-shipping.php": {
+      "md5": "843daa16e81e09a164ded2c20aa1ae32",
+      "sha256": "114e9d6efc2aff3e0164c413e8d44251b377a96829e7003aa5341375777d4636"
+    },
+    "includes/widgets/class-wc-product-vendors-vendor-widget.php": {
+      "md5": "b571e449381daf33bded3c59b93d33de",
+      "sha256": "4df5c9b99d32f31eb7cdfb50c5cbf93f29f1478ab58635a34389669be528d1dc"
+    },
+    "languages/woocommerce-product-vendors.pot": {
+      "md5": "ffa9b43d6d5f03ef5582f474d61592b7",
+      "sha256": "4230374dded344b3d7b996a03c2deeb7f12d6babe538ce6ee87a1b5003075d81"
+    },
+    "templates/shortcode-registration-form.php": {
+      "md5": "06c59f588070b6377254dfb7990685e0",
+      "sha256": "8ea9998e1b9e74d0ad240ae3c37f8bdccd5db1a39a3f1ec7b61259cf3eba2a5f"
+    },
+    "templates/shortcode-vendor-list.php": {
+      "md5": "ff9336f9fd14ad9039b2a67ecaf26c1b",
+      "sha256": "337bcd5f3172e523ad403b8f04192febe730bca2028486b961b84f4907e8c2ba"
+    },
+    "templates/vendor-support-form.php": {
+      "md5": "368baa158dfd4fff669d7eb2c07aca81",
+      "sha256": "07d5aac9b6c8140782fae8ff437b44127a4494ff17e371c5cae8f5dc5114a1ce"
+    },
+    "templates/emails/cancelled-order-email-to-vendor.php": {
+      "md5": "b262dab3c1fc3b2f232bb7143f465968",
+      "sha256": "dd61fd32d51572d8d53c351d8393ebff5a4187d86936aa6b349f2973eabc99d0"
+    },
+    "templates/emails/email-order-details.php": {
+      "md5": "50f0eee3cc1103bfe14ed6085c5789ab",
+      "sha256": "8c00acec08657060122a80ed4e454010bf0df6a80540c961afa0ebf967b95521"
+    },
+    "templates/emails/order-email-addresses-to-vendor.php": {
+      "md5": "fcd36aa13815cac53d6bd78e9be83821",
+      "sha256": "b10c26fd8a15ea02c124e10155641e55ac67e7e559fbdbb0310426954dd25732"
+    },
+    "templates/emails/order-email-to-vendor.php": {
+      "md5": "e7f6f1e75254259b2ce77030fe965006",
+      "sha256": "b0e53b3daf369a5e2210c07e5581efbe3572fc317ab4bc6b868cc5adca009e36"
+    },
+    "templates/emails/order-fulfill-status-to-admin.php": {
+      "md5": "ecde9fc59ea7fe02b48a0c91acf0ff5f",
+      "sha256": "aa16bd0bc2e96e62d9d58f7f4f0101230d1ae29aea5883689c05d697e7161faf"
+    },
+    "templates/emails/order-note-to-customer.php": {
+      "md5": "2a07315fef1cc95768a4e94e4473d375",
+      "sha256": "606cb9511e2fc08f0affb388853fd857fe5ce77435ad04c4ad1f021cf10e1c55"
+    },
+    "templates/emails/product-added-notice.php": {
+      "md5": "089e8a8ac9acd10ed55a87424f639e35",
+      "sha256": "9d5553b7cf4e327016064927b5bc104d78910d53a82c70868ee4c5c7e78e2b87"
+    },
+    "templates/emails/vendor-approval.php": {
+      "md5": "a55aa2b100f6715e1b13556ae0d26eb3",
+      "sha256": "951e1c2bb2b315e4d6358035832b1f41020d1225cf11c82ba0853b7ac33eadd0"
+    },
+    "templates/emails/vendor-registration-email-to-admin.php": {
+      "md5": "8f4087e5c4e128d1c8c042eda963d331",
+      "sha256": "5c1a87743a10cb2c0c7e4bc64661c7153633c45bce51b25073527e32a640b939"
+    },
+    "templates/emails/vendor-registration-email-to-vendor.php": {
+      "md5": "0048a8988efaa2cf16baeb038b523d3c",
+      "sha256": "6733291c8faef31029c61fd6ee85a07bdc1ee4b3f3272780f00775949e858e70"
+    },
+    "templates/emails/plain/cancelled-order-email-to-vendor.php": {
+      "md5": "3be5bdb00642dece02bdeb6ae29544d3",
+      "sha256": "8f1d766927d74cf18811c8b3ec01b200ab95b9664d6c0f8df453ec530b3aaa7d"
+    },
+    "templates/emails/plain/email-order-details.php": {
+      "md5": "fde3ac22eb10f8f02c4ce23c1cbcc7ef",
+      "sha256": "0ab240f48e9d770797fec4a3099e8ab9272411c62e61dfdaa1aa5e6002754eef"
+    },
+    "templates/emails/plain/order-email-addresses-to-vendor.php": {
+      "md5": "3c07ae5525aec766dcc23ba5d5197d63",
+      "sha256": "b0eac3541bd1bedda5af9af2b44fe27331c62577bd50f1865d2e2dbadde02a6a"
+    },
+    "templates/emails/plain/order-email-to-vendor.php": {
+      "md5": "e8a6832b5073c59a148484b97f1984bb",
+      "sha256": "12702cda7caf6321572bcac1c6717647036975fd1f11c3e25127b5eda22fc698"
+    },
+    "templates/emails/plain/order-fulfill-status-to-admin.php": {
+      "md5": "17460549ef48832c5410c5afcd7555b2",
+      "sha256": "70b1d4ac3eaa33128f502fcacd85f7bf363701ad4433a76db43fe9d2c0d3fee1"
+    },
+    "templates/emails/plain/order-note-to-customer.php": {
+      "md5": "4fd33de96bd0e566db3b9c5e57b0aac3",
+      "sha256": "e63ad16b762010192ebedc4ca1c2c8393f111922515ac2b7beacbcdb0f1610e4"
+    },
+    "templates/emails/plain/product-added-notice.php": {
+      "md5": "0deb5590be9b0d82110c3615af4f7047",
+      "sha256": "336b1354ef8e15ee7e656878d90c7a9c8c25e81869c33e3f724fd0d81c502c54"
+    },
+    "templates/emails/plain/vendor-approval.php": {
+      "md5": "ea9e874cfd415e063dd5129aa3b743c9",
+      "sha256": "439bcea59fe9cae1985947e902265e3a1675802369d181468b972c8963891bfd"
+    },
+    "templates/emails/plain/vendor-registration-email-to-admin.php": {
+      "md5": "b295b00ae3ab1378e65b56d17ef0d7a8",
+      "sha256": "dffe1bdee273d0049e8bc535bc8eb7fd300eb3960854aa8d3ef80bab1f126a06"
+    },
+    "templates/emails/plain/vendor-registration-email-to-vendor.php": {
+      "md5": "3f7d597ac7c2ce93b2e6c79624be2fec",
+      "sha256": "e689dbd7ce1bffeb759b2b78a9648c0bdcbd97482852f8a2a8becbc73ee29580"
+    }
+  }
+}
