@@ -1,0 +1,974 @@
+{
+  "plugin": "wp-table-builder-pro",
+  "version": "2.1.10",
+  "files": {
+    "composer.json": {
+      "md5": "3be65e5432959fa7c8d8d405d180dd46",
+      "sha256": "4e9106b8b30ba641a8f27474a033baf3bed0a40d66c9d3e01a367d6b60ba9a38"
+    },
+    "readme.txt": {
+      "md5": "039ef89a2f0a01d1ce06f8188c07d4c0",
+      "sha256": "86d0dee08dcb582f1b0598941b346067c503a6adc41edd47c49ae94f9a078838"
+    },
+    "wp-table-builder-pro.php": {
+      "md5": "dd257f8e887d8d05c8d5cdbecc03765e",
+      "sha256": "c6002f48526a27b4d9dc878cb0de447d2a1962234c1e145bc6c2b74818913af4"
+    },
+    "assets/patterns/azn-comparison.json": {
+      "md5": "07c487b93d441d7550111208a11e1669",
+      "sha256": "1c4ab0b641dd3dcc942da497fd8e6e5ba4b9e139523d448e93cf26b73be5d2b2"
+    },
+    "assets/patterns/azn-product-box-2.json": {
+      "md5": "35402ddf555f11ef6c3dae8d258ee4de",
+      "sha256": "58db3d61b8b2ee3135cda86e1c34f3f51b090f607f5ca6c0bb3cac44abbd6364"
+    },
+    "assets/patterns/azn-product-box.json": {
+      "md5": "df883c352dddeb616ef5f0eeeb8ce972",
+      "sha256": "a989965da091e7f0244a79c9748053c16ad0e9bf11aa0220d81d163c54ee473e"
+    },
+    "assets/patterns/azn-product-table.json": {
+      "md5": "30077f9e2e88fc6a9248389f9a7f475b",
+      "sha256": "5d423fd7b035059a2c6a038d7617e0f82455d94e0e649bf8f0fe05ab4fe23d77"
+    },
+    "assets/patterns/brand-style-guide.json": {
+      "md5": "565c887862e66523b5b99bdeffab6ff5",
+      "sha256": "f52a47240af3b966099f7fdf3a8b115ee25fb62b68275952793455109b194428"
+    },
+    "assets/patterns/class-schedule.json": {
+      "md5": "a8481a86fcf7fde55078271ed4516e66",
+      "sha256": "04d53c0e5757f5e1295774fbf50cf62a7a483960ebca46044f251c9c0a1dc159"
+    },
+    "assets/patterns/feature-comparison.json": {
+      "md5": "a0f3331972047bf7454798cef0c3cdb4",
+      "sha256": "d9b1ea37f0dac37a323c9db447eb3b06d96b625f23e55751c5d062dfa03fd2b5"
+    },
+    "assets/patterns/highlighted-column.json": {
+      "md5": "9f08a4960f6323ed6dec748ed95e36a0",
+      "sha256": "cc9238005cb067b064e0e664473981d3fd51e6db69a118ac5e5b8b73c70f4931"
+    },
+    "assets/patterns/highlighted-row.json": {
+      "md5": "015baf970298f22201c841cddc3e9c42",
+      "sha256": "3f41650498e6103ee3fe403dd530ea5b34d442ca6ae0655bbb9264a8d9ebc1fe"
+    },
+    "assets/patterns/league-points.json": {
+      "md5": "94a855756669ce00cb75dede275bbd9a",
+      "sha256": "f1d58fb58dc916144698d0c7e1ee971047c4fe0d7c785fa16d086dc0af71c42f"
+    },
+    "assets/patterns/pricing-table-1.json": {
+      "md5": "2e37ecf91383e43be9286d11c0b82747",
+      "sha256": "a5b6968d3097608010851772b64ec3517f4768660260878eb094d1ca7d113de9"
+    },
+    "assets/patterns/pricing-table-2.json": {
+      "md5": "319843a08264c6ef01afa7e1a745811e",
+      "sha256": "ec7cc1882ce1e07a98367b120ecb6d503288b96f569b23241e909d2fc49baf3c"
+    },
+    "assets/patterns/pricing-table-3.json": {
+      "md5": "d38e45b050cff86567b02635da936e25",
+      "sha256": "f00ea86369b88124f55e3298797e8b11717c9a2473df7053c8b22ac61cf7b635"
+    },
+    "assets/patterns/pricing-table-4.json": {
+      "md5": "62df66eb39aa490a5d90d4918974b507",
+      "sha256": "f5f631f3b980d26b45ff26c81cd557bf2ed77e3438f0103e04dbde5c5f9ae450"
+    },
+    "assets/patterns/pricing-table-5.json": {
+      "md5": "5c434d42185b488e82b75f584ab32bf9",
+      "sha256": "4862d25009c15dd7b6d6acff334a98319362193120d8ba173dd757d1f7ec817e"
+    },
+    "assets/patterns/pricing-table-6.json": {
+      "md5": "cbf631b74c66ee5b3ad0bb90c66bef3f",
+      "sha256": "36a833d99c66c2aa6cf7990ffcbf9ad270c0bf5485d4be6bbbbcf2ef87dfe9bb"
+    },
+    "assets/patterns/product-comparison-1.json": {
+      "md5": "f43ec5e4f719c23ef9964647eaf13a43",
+      "sha256": "301e66c084edb30d37ec237c85a64d4ea64912724a10fa7a15c84b3529c8a31f"
+    },
+    "assets/patterns/product-comparison-2.json": {
+      "md5": "a5eaab0e739f38fd3a6150904b0bcb99",
+      "sha256": "dcbf41631f137210aaba504041ef9ce867b028a8128d32fbf8dd9e7c55be878a"
+    },
+    "assets/patterns/product-comparison-3.json": {
+      "md5": "c6ef6b76d1d29fe4d49197829b3519a9",
+      "sha256": "1b1e7d4340e2b5f07e22135b57e3f47bc6ac792bc37f23c207444d5fb6a48f02"
+    },
+    "assets/patterns/product-comparison-4.json": {
+      "md5": "1c263b6b75ff4b09ee76d44e75bcee2a",
+      "sha256": "4943e9482e862e334822fd6f5dace76d3db765386844f5ba9d25ae9e8e7827ac"
+    },
+    "assets/patterns/product-comparison-5.json": {
+      "md5": "c0792fe7b03f680a405ce8acbbb6e80d",
+      "sha256": "ece4ca24b7341178e366e7b31e0087e9660d6b1f13d206a15d430ca4404950a5"
+    },
+    "assets/patterns/product-list-2.json": {
+      "md5": "7861bba1171c41911f4c841c025973bb",
+      "sha256": "217e69db96948e8460d079af5d8c380fc98e69a9c7bc5f45bbd8eea9d879b116"
+    },
+    "assets/patterns/product-list.json": {
+      "md5": "bdd50b514bdd34114d4a468e0ed426ef",
+      "sha256": "e38363383c30cfeb922ced485eb51a7acbf216d86e815e83b1cf41df59201abc"
+    },
+    "assets/patterns/pros-and-cons-1.json": {
+      "md5": "1cd718795aae0d83700a8264819d5d5f",
+      "sha256": "89002b7da176797835b4826c52d384a6f93b6212ad144c77c88ea17905710d62"
+    },
+    "assets/patterns/pros-and-cons-2.json": {
+      "md5": "606982756bc4351d7bc12e1d5c5df221",
+      "sha256": "d493aaf24e73f0ee97bd7b370e2e22ca1b15a516ed52a99f2d8613a67c9c747c"
+    },
+    "assets/patterns/rating-box.json": {
+      "md5": "96182a59fb5ae2b99828d66c6f131331",
+      "sha256": "965a939900e7c4548fc3f72cb6522be0410d1deef03a1a92073227e5520129b0"
+    },
+    "assets/patterns/schedule.json": {
+      "md5": "0ff8f255f8be98d1baf5b65a18db3f20",
+      "sha256": "45295e6aa7590055e752848033a7f2ba2aedc85f9d20cf71e02530c4d5b6683b"
+    },
+    "dist/assets/pro-dGoIG6DO.js": {
+      "md5": "6e00c5f7397262ecefd35adb1177cb93",
+      "sha256": "24108771b859a32c32e54e36ca622bbf6bb64278619376a14f7711ab1459a738"
+    },
+    "dist/vite/manifest.json": {
+      "md5": "c9bc4576707b1605c76e44f1914ed053",
+      "sha256": "e7ac1a3f71d120a189d0812e54d93097e974a1198bbf257753496d046b7ca259"
+    },
+    "inc/WPTableBuilderPro.php": {
+      "md5": "a24f534cf7c72dabf4b3e0e56bdbbc8a",
+      "sha256": "0fb41546a69b1c40af7b0ad1caf0afee6be02a71928e872f8df89688fba6641d"
+    },
+    "vendor/autoload.php": {
+      "md5": "f26c6d97ac41c102caa992fea742a793",
+      "sha256": "bcd7c6c639360bd5cf2d8bec3ec13addde678bab4352279124d16f82280e4d6b"
+    },
+    "vendor/composer/autoload_classmap.php": {
+      "md5": "5615b29a1f5688414d56a1515d954a91",
+      "sha256": "375085d0d6690301081436cd75755cb2c882f8a7f6fc385c8814a11734fc413a"
+    },
+    "vendor/composer/autoload_files.php": {
+      "md5": "f2d64f9792f87dfc10343cf3d1db217b",
+      "sha256": "429f7c08f4d8841a05c11de9dd661c9947646b8a525ec2da1efc7f98385f4e4d"
+    },
+    "vendor/composer/autoload_namespaces.php": {
+      "md5": "224007c97efb82c7b45b0e92f240af41",
+      "sha256": "ede505407590638a435137f4e060136f1008de79fc169b3de9793423b0cea38c"
+    },
+    "vendor/composer/autoload_psr4.php": {
+      "md5": "029c54edd6d1eb0a540dd89a2b10d231",
+      "sha256": "5c31c693321d8ca0f14959cd26bb25ebe9bfc230372ae7430d98d5041db07631"
+    },
+    "vendor/composer/autoload_real.php": {
+      "md5": "11bc1cd445d0688f05a707fa362ab116",
+      "sha256": "672bc4d4622c2f164b5c5c23439b089ea897bffb7bc22e6d25f1103e80997c95"
+    },
+    "vendor/composer/autoload_static.php": {
+      "md5": "3a06f0d86cdaf08fa8654a88b872a4f2",
+      "sha256": "96fc4160aac1df7d47ab979bbbce4526b7be959a023de7b127f9b1f17d7aa460"
+    },
+    "vendor/composer/ClassLoader.php": {
+      "md5": "c02be6d96671f88d28aad3ffa134c8ae",
+      "sha256": "d4b2313e562edf942838ec316d983c1a3459ca67da3e5658e861200b0b3693c2"
+    },
+    "vendor/composer/installed.json": {
+      "md5": "7c329e5e312baf309537b5e2023eea6d",
+      "sha256": "73c985e81ba16fab778bef06e67d6ea789cd3f3f8b75549cd46801f2cfc7aae4"
+    },
+    "vendor/composer/installed.php": {
+      "md5": "4b9b871c1659613430e8ca69fac9bf03",
+      "sha256": "3b8d56dcc129faaf48f1b0a1dfde12f57a58d5135411e44552a1b375e84f4b2a"
+    },
+    "vendor/composer/InstalledVersions.php": {
+      "md5": "7baf73014351c49ea0fef617dae7019b",
+      "sha256": "1e4525198301d1ed1f87ac3df2a8555a6f139f8df30a703d0b775a61963c96e4"
+    },
+    "vendor/composer/LICENSE": {
+      "md5": "955d5fe58c231244f6b49000f383b5e2",
+      "sha256": "c8cce4b6b9729f264ffdf9296d505d63432497feeed1f586d1902b942197e024"
+    },
+    "vendor/composer/platform_check.php": {
+      "md5": "349b3d31e75242a6638334e0814fc831",
+      "sha256": "721825adf5558a573e29745d6d8e5086914b31856a9ef556487e4f5c2bc13551"
+    },
+    "vendor/freemius/wordpress-sdk/config.php": {
+      "md5": "9a03d22d609265d8439aacbca90aba3c",
+      "sha256": "e1cf62bd406c03814192eb6bcad544ee5268799c4a28fc247df7d4db2f4ddcdf"
+    },
+    "vendor/freemius/wordpress-sdk/index.php": {
+      "md5": "3de0a4b8bbe2931c74daebd9674537e2",
+      "sha256": "da7d4679fdd1fc7ed156fe4e91d467fde87970e2f6f914e13fc4362e8a3e4915"
+    },
+    "vendor/freemius/wordpress-sdk/LICENSE.txt": {
+      "md5": "985eca66feaf0170850231d4616b3074",
+      "sha256": "b98fbb37db5b23bc5cfdcd16793206a5a7120a7b01f75374e5e0888376e4691c"
+    },
+    "vendor/freemius/wordpress-sdk/require.php": {
+      "md5": "cf96cd107488c9d191ae27b868c20fac",
+      "sha256": "6f31eb9adc5a5ae1e6c25bcd7bc86b9b1aa0ccc5d27c4f5f6786b09975442336"
+    },
+    "vendor/freemius/wordpress-sdk/start.php": {
+      "md5": "73fb3d7f42ce1a1df85d2da0cfe118e6",
+      "sha256": "45b215024c20a886f9e4087bdebc4996c522050b5256454e6efbf1c6778b93d5"
+    },
+    "vendor/freemius/wordpress-sdk/assets/index.php": {
+      "md5": "3de0a4b8bbe2931c74daebd9674537e2",
+      "sha256": "da7d4679fdd1fc7ed156fe4e91d467fde87970e2f6f914e13fc4362e8a3e4915"
+    },
+    "vendor/freemius/wordpress-sdk/assets/css/customizer.css": {
+      "md5": "c8eebb9d7caf4bdad12a24d8fb7f5e0c",
+      "sha256": "6d50c83cb1d1e89566a9f385326fc48470d113493d93024ab59e8c41865cd4bf"
+    },
+    "vendor/freemius/wordpress-sdk/assets/css/index.php": {
+      "md5": "3de0a4b8bbe2931c74daebd9674537e2",
+      "sha256": "da7d4679fdd1fc7ed156fe4e91d467fde87970e2f6f914e13fc4362e8a3e4915"
+    },
+    "vendor/freemius/wordpress-sdk/assets/css/admin/account.css": {
+      "md5": "7bbe6a9bfddebc29e4cbcf4908338fb6",
+      "sha256": "0863552ad56a38217e8139f1f9211e7bb5845669a917094b666538af5eb1d3a6"
+    },
+    "vendor/freemius/wordpress-sdk/assets/css/admin/add-ons.css": {
+      "md5": "12936463339e79deea33d46a6c4246ff",
+      "sha256": "3b6d0cbd5a34d88a4366db952805693ae98a757e988d69baf4b74ec7a205170a"
+    },
+    "vendor/freemius/wordpress-sdk/assets/css/admin/affiliation.css": {
+      "md5": "51a5458f44322435e69a7a7f5fdaa20b",
+      "sha256": "a2400ddbf61395cbc600d76a2f20716c8e21b22eae2f4d30964bca2a5ef1e711"
+    },
+    "vendor/freemius/wordpress-sdk/assets/css/admin/checkout.css": {
+      "md5": "f72db0687b77f96bd6451721a3b2bdc3",
+      "sha256": "ea7cb8cf22163969a3bfcd83f65855a2733e23becbbb85f58e1eb093271a75f9"
+    },
+    "vendor/freemius/wordpress-sdk/assets/css/admin/clone-resolution.css": {
+      "md5": "f114e6c8e281728b1e4287f173e5dc76",
+      "sha256": "e8c52d4bc80cb1bcaa5b4ee8cceccb102ab01acf78b465b37787c6de0932e045"
+    },
+    "vendor/freemius/wordpress-sdk/assets/css/admin/common.css": {
+      "md5": "2a163860b4d87a1a9d2375fc48776a9e",
+      "sha256": "917bff808892dc8b5b41a834c0126a3dde8737ae87d42426c12552298ce8ce2b"
+    },
+    "vendor/freemius/wordpress-sdk/assets/css/admin/connect.css": {
+      "md5": "c40f0599be6fd683e00a06ebc73f619c",
+      "sha256": "1a4da29a4913a6614349d9a7355fa4a0f16af22a4495b33106395b4754b6a065"
+    },
+    "vendor/freemius/wordpress-sdk/assets/css/admin/debug.css": {
+      "md5": "38b49352207e38f5834087ec778a040c",
+      "sha256": "e95a4b0f57b178d0abc9aa1798fec362e9e094e63596f0de45fe0bc2a3dfc48c"
+    },
+    "vendor/freemius/wordpress-sdk/assets/css/admin/dialog-boxes.css": {
+      "md5": "a5e01a75fd4c93b21eb1aaab1da37927",
+      "sha256": "a2da42bd20ed34e8ebaeee08764c16b616adffff29e61d54d88c9e4da5b6dd20"
+    },
+    "vendor/freemius/wordpress-sdk/assets/css/admin/gdpr-optin-notice.css": {
+      "md5": "6632b1968932ea3d7ef7d0d4622d6622",
+      "sha256": "fcd2aa4d5ec263e11cfa34492f7caf0f870ffc514c3de61a5ee2c085ae23b408"
+    },
+    "vendor/freemius/wordpress-sdk/assets/css/admin/index.php": {
+      "md5": "3de0a4b8bbe2931c74daebd9674537e2",
+      "sha256": "da7d4679fdd1fc7ed156fe4e91d467fde87970e2f6f914e13fc4362e8a3e4915"
+    },
+    "vendor/freemius/wordpress-sdk/assets/css/admin/optout.css": {
+      "md5": "d803b245820e01959fb6c2048464301f",
+      "sha256": "2fbaed4f483c0afae4ddd6ac1e51ad0007261b32003651aaed95a6f032debac9"
+    },
+    "vendor/freemius/wordpress-sdk/assets/css/admin/plugins.css": {
+      "md5": "51e3657988e6493917b46ac61673856b",
+      "sha256": "54018a96f5c384996ca0958b49c00d0b151db2d899b78c4ad16b5064eba3e04a"
+    },
+    "vendor/freemius/wordpress-sdk/assets/img/index.php": {
+      "md5": "3de0a4b8bbe2931c74daebd9674537e2",
+      "sha256": "da7d4679fdd1fc7ed156fe4e91d467fde87970e2f6f914e13fc4362e8a3e4915"
+    },
+    "vendor/freemius/wordpress-sdk/assets/img/plugin-icon.png": {
+      "md5": "c38d022fe0b2df0a6bc31404e90a38be",
+      "sha256": "1cf3bc9425ecb132013b8a33f9d39e22cd1cc2bec8e4d263fe9c5a3fd867a44d"
+    },
+    "vendor/freemius/wordpress-sdk/assets/img/theme-icon.png": {
+      "md5": "8cb315f4fef1d533eca11ba28e6f9521",
+      "sha256": "c85767ca365172ef9c0b3cf9db30c923c48af455b6b4886017b117256dcb25c1"
+    },
+    "vendor/freemius/wordpress-sdk/assets/img/wp-table-builder-pro.png": {
+      "md5": "ae574d8af54846dd21f19096223f281b",
+      "sha256": "2746732e9898c7a8f46523a0d4aeee8ae2f30711ea79572ab8748019e43ce4bb"
+    },
+    "vendor/freemius/wordpress-sdk/assets/js/index.php": {
+      "md5": "3de0a4b8bbe2931c74daebd9674537e2",
+      "sha256": "da7d4679fdd1fc7ed156fe4e91d467fde87970e2f6f914e13fc4362e8a3e4915"
+    },
+    "vendor/freemius/wordpress-sdk/assets/js/jquery.form.js": {
+      "md5": "a35a729d405c44710f89383c6c5758f6",
+      "sha256": "7a57dbbb21b1984a356ea4c6280a18abc607264f56fd6e827f68346b4f2314c5"
+    },
+    "vendor/freemius/wordpress-sdk/assets/js/nojquery.ba-postmessage.js": {
+      "md5": "c30179977ac34c397bed831fdc50bf92",
+      "sha256": "350027618efd7650fd8b586892923b17e2397d57e7ceaa3858086154efbcd647"
+    },
+    "vendor/freemius/wordpress-sdk/assets/js/postmessage.js": {
+      "md5": "50e6c244350c5cef3d8e49c3612337ba",
+      "sha256": "377b8d2b001acfedf72f5cc43c812b20b672921e3fdecbac285d9410039e3e23"
+    },
+    "vendor/freemius/wordpress-sdk/assets/js/pricing/14fb1bd5b7c41648488b06147f50a0dc.svg": {
+      "md5": "9eab3d7d43117b358e101aaf0de920cc",
+      "sha256": "c70b4fa1de91a42923e8eca1d2290b277f54eafe30a343899e82037f99355f06"
+    },
+    "vendor/freemius/wordpress-sdk/assets/js/pricing/178afa6030e76635dbe835e111d2c507.png": {
+      "md5": "8d6f527daf7550f05f466e02895f8878",
+      "sha256": "53fd46bf1fcdd46aa7e57bcbcdfcc088679671bcad52fdcb56f16eafb1627098"
+    },
+    "vendor/freemius/wordpress-sdk/assets/js/pricing/27b5a722a5553d9de0170325267fccec.png": {
+      "md5": "85ccbec16d42629e3550cd853f994ac5",
+      "sha256": "11e2ba99b662bb51c2bd594c34f0d45e2ef1fed2c8f0dc5ddf9c00d2ce6cafcc"
+    },
+    "vendor/freemius/wordpress-sdk/assets/js/pricing/4375c4a3ddc6f637c2ab9a2d7220f91e.png": {
+      "md5": "c38d022fe0b2df0a6bc31404e90a38be",
+      "sha256": "1cf3bc9425ecb132013b8a33f9d39e22cd1cc2bec8e4d263fe9c5a3fd867a44d"
+    },
+    "vendor/freemius/wordpress-sdk/assets/js/pricing/45da596e2b512ffc3bb638baaf0fdc4e.png": {
+      "md5": "b0f9592064053dd85910d73cf3e199ed",
+      "sha256": "42676d0411a6dcf231a9509f709c39c8ef8bd08468968d76cea34075a4e8c40b"
+    },
+    "vendor/freemius/wordpress-sdk/assets/js/pricing/a34e046aee1702a5690679750a7f4d0f.svg": {
+      "md5": "c52b6bdbf724e674446191bacbdd06d7",
+      "sha256": "5d530541b9b8a3684b87e9e73bf659ee7ce3c698d16a91d28f2dbe021fb0ea13"
+    },
+    "vendor/freemius/wordpress-sdk/assets/js/pricing/b09d0b38b627c2fa564d050f79f2f064.svg": {
+      "md5": "832ca1b2e861b1f8773a892d0fd69dc3",
+      "sha256": "432f787a66f03577502dede7472513f30d129da9893a0f1e3f80ea1c4a410518"
+    },
+    "vendor/freemius/wordpress-sdk/assets/js/pricing/c03f665db27af43971565560adfba594.png": {
+      "md5": "041c8aeca79979bd0717ca11fe626323",
+      "sha256": "3ec45009437a0e95af2c9991952097a271753e4f643034243c15920cf03f51fa"
+    },
+    "vendor/freemius/wordpress-sdk/assets/js/pricing/cb5fc4f6ec7ada72e986f6e7dde365bf.png": {
+      "md5": "77918a96cac334066ef6edb2ab754c6a",
+      "sha256": "91075802d981a3feaf8b046b4ed2ddbd45602183b928f42d5b81ff28be34386e"
+    },
+    "vendor/freemius/wordpress-sdk/assets/js/pricing/d65812c447b4523b42d59018e1c0bb53.png": {
+      "md5": "e1e1388fe42473ba44cf31cf0be7bcfc",
+      "sha256": "ce864136d7f35d4922ab1eed2bf02b4093f55fc893a24d07b11ce9f7e43aa50a"
+    },
+    "vendor/freemius/wordpress-sdk/assets/js/pricing/f3aac72a8e63997d6bb888f816457e9b.png": {
+      "md5": "d4bc07c78bdcacf776186687f09b76a2",
+      "sha256": "b5e1e045d204cad514f471c00a7c83e813cb5128b817a78282873887a546d16e"
+    },
+    "vendor/freemius/wordpress-sdk/assets/js/pricing/fde48e4609a6ddc11d639fc2421f2afd.png": {
+      "md5": "8cb315f4fef1d533eca11ba28e6f9521",
+      "sha256": "c85767ca365172ef9c0b3cf9db30c923c48af455b6b4886017b117256dcb25c1"
+    },
+    "vendor/freemius/wordpress-sdk/assets/js/pricing/freemius-pricing.js": {
+      "md5": "fc91e14692c395aff60cb387b9d1b785",
+      "sha256": "10ad36eab47fd74ffe32750bba468529d90f93a41736859542427500d75b897f"
+    },
+    "vendor/freemius/wordpress-sdk/assets/js/pricing/freemius-pricing.js.LICENSE.txt": {
+      "md5": "8abd1841d682271d592cfbd1abde774c",
+      "sha256": "835a7cc046d6f6caf917bc803e812d2ac2eaeb6a71aad23b90224ff98b3685ea"
+    },
+    "vendor/freemius/wordpress-sdk/includes/class-freemius-abstract.php": {
+      "md5": "ed02e19bdc78d956a24ca488b5bf727f",
+      "sha256": "7419cf4a382b04fe8b49572e101830a6985821bb5bd1aef443054c3f4083be32"
+    },
+    "vendor/freemius/wordpress-sdk/includes/class-freemius.php": {
+      "md5": "81f6a6bcc28aaa223d5cdb0129fa0c82",
+      "sha256": "5711351b36787335cbdade3e036e9b05e9e0a4557bd431b0185c06d5950b1ff6"
+    },
+    "vendor/freemius/wordpress-sdk/includes/class-fs-admin-notices.php": {
+      "md5": "1439565cce9f4a905d711c2350543238",
+      "sha256": "25e11373d368bb35d6624fb5b1cea36999cc3225a0558c505d550b65c2f6b533"
+    },
+    "vendor/freemius/wordpress-sdk/includes/class-fs-api.php": {
+      "md5": "00c35bdd366575872e6350b5e30c189e",
+      "sha256": "4f99778e4e4a86e1de1379e880eff967cc5a9d604887dff553180a9785422d63"
+    },
+    "vendor/freemius/wordpress-sdk/includes/class-fs-garbage-collector.php": {
+      "md5": "96e598629e8ff2f45a45bab09b93344f",
+      "sha256": "9f37edea83a9c166213f5e7b3888ee2f3affba672cc2588c26d2429fe2803765"
+    },
+    "vendor/freemius/wordpress-sdk/includes/class-fs-hook-snapshot.php": {
+      "md5": "c67d018b77f55299ca9d2119fb070c87",
+      "sha256": "29a08ce2304d538220b8a92e0e0f59271571607ad87ed8904822c63ac51cbb9e"
+    },
+    "vendor/freemius/wordpress-sdk/includes/class-fs-lock.php": {
+      "md5": "7319dac04190186b89e9cd7d5e801192",
+      "sha256": "aa1576f8c1e31f94c4ae2efbeb2bb9d9778c62104a597f19524eee4409c4babd"
+    },
+    "vendor/freemius/wordpress-sdk/includes/class-fs-logger.php": {
+      "md5": "283e83f946fa36a6e184ed92427d5f13",
+      "sha256": "a9bfa21e6c0aa8cdba7c8fd4b724524b2658cbf215966616c1d35c48f28f365c"
+    },
+    "vendor/freemius/wordpress-sdk/includes/class-fs-options.php": {
+      "md5": "fd471a1252456b26d56db26691a3c576",
+      "sha256": "b502fc036e2b6a84ff7b49f7eb52d27c223fad28ff5fa76f64f9c0a4cd99a78a"
+    },
+    "vendor/freemius/wordpress-sdk/includes/class-fs-plugin-updater.php": {
+      "md5": "0bb4be21d1f3b4390d1a0322c0e49b2c",
+      "sha256": "7bf1345c0cf1b577a33fca95bdc0a725b47fda1b43ba94ec9bac1f823e86873b"
+    },
+    "vendor/freemius/wordpress-sdk/includes/class-fs-security.php": {
+      "md5": "5427c43b54b7e42e0522e52e0f16b7b4",
+      "sha256": "8692b7b76fc8ce4c64644a398583db0651fbdc89d5043d0c1be32455498d9da4"
+    },
+    "vendor/freemius/wordpress-sdk/includes/class-fs-storage.php": {
+      "md5": "1779c893afee8281eb008e7afda1b59b",
+      "sha256": "dbee5c01bec9bae18eebd7b7c08c1b88abcb5d208e80c6ee5ad213259aa0545d"
+    },
+    "vendor/freemius/wordpress-sdk/includes/class-fs-user-lock.php": {
+      "md5": "4fc1182f504e23fba253b9977ac36dd9",
+      "sha256": "bc7a341375284146f83636a1ef9eabd45f7ffe68b60e8fdc6dacf9f716ba301c"
+    },
+    "vendor/freemius/wordpress-sdk/includes/fs-core-functions.php": {
+      "md5": "de3a77bd1bf5bfb4a3ceda5de8ec9e5f",
+      "sha256": "eb5d87fbe692006ca2f6c3a30211169100704ed1dce1ed339a03531e844c4b9c"
+    },
+    "vendor/freemius/wordpress-sdk/includes/fs-essential-functions.php": {
+      "md5": "1883984ee832a22617d2111b389b58a1",
+      "sha256": "34246b7ecf9441489beaf3210a718bbbaad9d2f43e30c115aa3d45f1c28a75c3"
+    },
+    "vendor/freemius/wordpress-sdk/includes/fs-html-escaping-functions.php": {
+      "md5": "fd8d3f84d4ab1c58a3c76ab7d6320c5c",
+      "sha256": "348faa4daa7982aea42b8fdfcaaf866b16ff8c02c538cee0edea53a8b0d441c1"
+    },
+    "vendor/freemius/wordpress-sdk/includes/fs-plugin-info-dialog.php": {
+      "md5": "b99d88148fab4842ab95aa15ad085e74",
+      "sha256": "cfba99ae71305cb0decac134e9e81cf7645cc77875c57a6a01586596061f8e32"
+    },
+    "vendor/freemius/wordpress-sdk/includes/index.php": {
+      "md5": "3de0a4b8bbe2931c74daebd9674537e2",
+      "sha256": "da7d4679fdd1fc7ed156fe4e91d467fde87970e2f6f914e13fc4362e8a3e4915"
+    },
+    "vendor/freemius/wordpress-sdk/includes/l10n.php": {
+      "md5": "6078da2e038117e0ff00a9b375f35b27",
+      "sha256": "e4e6555be7898eeee72aed3c5410d3c4beccfc9e0c339e205fbac421d970ee4b"
+    },
+    "vendor/freemius/wordpress-sdk/includes/customizer/class-fs-customizer-support-section.php": {
+      "md5": "b178f215153c2c45d763e19a270314f4",
+      "sha256": "061256a4960417b0bed8ae41297836118cee48bc1a8cb3ddcc06fdfbf4e00281"
+    },
+    "vendor/freemius/wordpress-sdk/includes/customizer/class-fs-customizer-upsell-control.php": {
+      "md5": "36d868b5c8065eb6e4d99c135d24e5a3",
+      "sha256": "71388aa44b181d3d0ff573a1620eb71056c841ff2ad9d077c941d914d35c34ae"
+    },
+    "vendor/freemius/wordpress-sdk/includes/customizer/index.php": {
+      "md5": "3de0a4b8bbe2931c74daebd9674537e2",
+      "sha256": "da7d4679fdd1fc7ed156fe4e91d467fde87970e2f6f914e13fc4362e8a3e4915"
+    },
+    "vendor/freemius/wordpress-sdk/includes/debug/class-fs-debug-bar-panel.php": {
+      "md5": "034c4a22f9a14e3c9573e4fbad973174",
+      "sha256": "470c1047cfff98395ad8a44bf153b46ce92c0d75fc4b9c59066a875fbfffe96b"
+    },
+    "vendor/freemius/wordpress-sdk/includes/debug/debug-bar-start.php": {
+      "md5": "5fa116c8b2bd8686d9c7b230c87e9222",
+      "sha256": "13df3aac107fb25dde83b6abc55ef048231306706b0088c55576f4e1c491011c"
+    },
+    "vendor/freemius/wordpress-sdk/includes/debug/index.php": {
+      "md5": "3de0a4b8bbe2931c74daebd9674537e2",
+      "sha256": "da7d4679fdd1fc7ed156fe4e91d467fde87970e2f6f914e13fc4362e8a3e4915"
+    },
+    "vendor/freemius/wordpress-sdk/includes/entities/class-fs-affiliate-terms.php": {
+      "md5": "f3d290880b522fa319bedbcdc696d098",
+      "sha256": "c9c1da9898b77786fa05c0f272775b69be7218439689c8bbb5f3c3aa684769a0"
+    },
+    "vendor/freemius/wordpress-sdk/includes/entities/class-fs-affiliate.php": {
+      "md5": "1858bb266130901469b975c74658f556",
+      "sha256": "812574db8b9a1ebf08cf14b9b49aaa90bfa2ef4ebc5cd42b87fb8dca21e6d217"
+    },
+    "vendor/freemius/wordpress-sdk/includes/entities/class-fs-billing.php": {
+      "md5": "63c904e144d4bbb827c3e4e4748cc8d1",
+      "sha256": "a562123e5f9953e69b51b90298521d9f3d8a135bfeff7386717b3ff30e1a7228"
+    },
+    "vendor/freemius/wordpress-sdk/includes/entities/class-fs-entity.php": {
+      "md5": "180e841a99553c201c55e5ca148edf9c",
+      "sha256": "fcc21f43851ca73b64895ea398cafe734352a960058c1a3735e7b52083e48dd0"
+    },
+    "vendor/freemius/wordpress-sdk/includes/entities/class-fs-payment.php": {
+      "md5": "898856f495a4bbd20c847fca4637411d",
+      "sha256": "81e3bf9f96008703b598f3e4247034f77f49a1b206205d82586faeaea6b97e64"
+    },
+    "vendor/freemius/wordpress-sdk/includes/entities/class-fs-plugin-info.php": {
+      "md5": "411694b5b5c0af56d3a5d9b5dcd1b969",
+      "sha256": "cec2d43965b7baad7dff3316ebac43745d329b72408c0da7ec38f09129c98837"
+    },
+    "vendor/freemius/wordpress-sdk/includes/entities/class-fs-plugin-license.php": {
+      "md5": "d61d0e9f5d600f1463f9531e7855359d",
+      "sha256": "a074b9233b03d11f85a7fecfe6e3d8e3e511be1a2fffffe2b097abfa09ec458e"
+    },
+    "vendor/freemius/wordpress-sdk/includes/entities/class-fs-plugin-plan.php": {
+      "md5": "fd8c0d81786a6356542ca3d14c905761",
+      "sha256": "fe82e1707c8d9d4094593851a99afcad4ab267e1714e761eb31bcfaf1b89af01"
+    },
+    "vendor/freemius/wordpress-sdk/includes/entities/class-fs-plugin-tag.php": {
+      "md5": "80dd43056004d6647615303db1fac145",
+      "sha256": "44bd699a657dcceaaef1585b539d13028177a222d4b2a5631d07025f6b8f2e8a"
+    },
+    "vendor/freemius/wordpress-sdk/includes/entities/class-fs-plugin.php": {
+      "md5": "372e3a124921e8571c301aa63a771a65",
+      "sha256": "e7b921a00bbb7662bc2fc73ae6c5ffd072289c3a1cad68f05c52c99fc545c28d"
+    },
+    "vendor/freemius/wordpress-sdk/includes/entities/class-fs-pricing.php": {
+      "md5": "32a00dfc115966fb950a4f9a053717fe",
+      "sha256": "350749fb2517c0a07187152bb9f0122092697f42dee8775eeddfe66e148bb044"
+    },
+    "vendor/freemius/wordpress-sdk/includes/entities/class-fs-scope-entity.php": {
+      "md5": "0acd7da3ef93baaaf43a4b6598c3d80b",
+      "sha256": "7aeea54684fa99eac3cba01d24834172efc95da23004eb719d9d36a2db77578e"
+    },
+    "vendor/freemius/wordpress-sdk/includes/entities/class-fs-site.php": {
+      "md5": "c94f014ef8ed6b5b3bd3e9a4b81a9f30",
+      "sha256": "0e9c86feae4cbc6ea51560093b71295b5114bd74862b213fe1241471fe8bc4c9"
+    },
+    "vendor/freemius/wordpress-sdk/includes/entities/class-fs-subscription.php": {
+      "md5": "1e809e6c59323606692699a19368e02a",
+      "sha256": "44fe2b29845d09f48223f7fadf4ea03df59866084c5a1d4693beac132edb1f48"
+    },
+    "vendor/freemius/wordpress-sdk/includes/entities/class-fs-user.php": {
+      "md5": "086b488003831ca540b349ca87049c0a",
+      "sha256": "f99968b1c46ed92d7f928c2c2857f5de237eb2f8931088853a61334fc7f4eaef"
+    },
+    "vendor/freemius/wordpress-sdk/includes/entities/index.php": {
+      "md5": "3de0a4b8bbe2931c74daebd9674537e2",
+      "sha256": "da7d4679fdd1fc7ed156fe4e91d467fde87970e2f6f914e13fc4362e8a3e4915"
+    },
+    "vendor/freemius/wordpress-sdk/includes/managers/class-fs-admin-menu-manager.php": {
+      "md5": "33591bf86edd06699155dae39066247f",
+      "sha256": "4a09301c1dadf7a3c85602db9617277e7cb4a9562c677e0e79d651e5af75acc8"
+    },
+    "vendor/freemius/wordpress-sdk/includes/managers/class-fs-admin-notice-manager.php": {
+      "md5": "15ec9ce6a3e9d9c4f48e84481b03fc63",
+      "sha256": "ca7ec01d9459238daec6390c7a6fe269f6182d66c5f80de0abf6ce4ded461e8e"
+    },
+    "vendor/freemius/wordpress-sdk/includes/managers/class-fs-cache-manager.php": {
+      "md5": "4adf1c301d685f2bacba65531634f876",
+      "sha256": "987dccc66cdfc994bbe9fd01b0ab4a124628988abc9cda2edd3f3e7460a02822"
+    },
+    "vendor/freemius/wordpress-sdk/includes/managers/class-fs-checkout-manager.php": {
+      "md5": "501d73a4839c8852949a40b8171557dd",
+      "sha256": "eeac615557d872be0776181255feaeb2d0031c0aea110aa7500baa2b88e18bb8"
+    },
+    "vendor/freemius/wordpress-sdk/includes/managers/class-fs-clone-manager.php": {
+      "md5": "5eec4f4247f6f63239c3ccfb195fe219",
+      "sha256": "0935c6c4df00ac86d13f509a1eeea347d91e29159d43b31cf87ca6f189d00ee5"
+    },
+    "vendor/freemius/wordpress-sdk/includes/managers/class-fs-contact-form-manager.php": {
+      "md5": "68d588e2bf031c97f99ae32d7d097a4c",
+      "sha256": "a142286f17a4212ec4150aa2a9d48da4e3eac73ade854a756f30af59e13a3f1f"
+    },
+    "vendor/freemius/wordpress-sdk/includes/managers/class-fs-debug-manager.php": {
+      "md5": "c087b043b752f211a9ba9bed5da1ca39",
+      "sha256": "61b89f5ff6f80d9caa951010788ada13f6166553b2da9bcea655aaec6055f087"
+    },
+    "vendor/freemius/wordpress-sdk/includes/managers/class-fs-gdpr-manager.php": {
+      "md5": "b754dc9ae3710c4bb52c4434eb321847",
+      "sha256": "0ea1b5b101eee60d473037ebcde976295ecd2f2320ec58b281cec7fb4d039267"
+    },
+    "vendor/freemius/wordpress-sdk/includes/managers/class-fs-key-value-storage.php": {
+      "md5": "4cc6b5354a58bb403ae471f66301b14d",
+      "sha256": "35085167afb4ce50bfaa79aea7ce5de69f6a45497c2eadfa09b358116cc1673e"
+    },
+    "vendor/freemius/wordpress-sdk/includes/managers/class-fs-license-manager.php": {
+      "md5": "a82f3ccac892e76e9efc785b0a462138",
+      "sha256": "231c87ac14f90bba6bc6fef94dca34886eda51010fe2b48b7421e61584b83b32"
+    },
+    "vendor/freemius/wordpress-sdk/includes/managers/class-fs-option-manager.php": {
+      "md5": "036f345076a5a0f33d484792b5836b64",
+      "sha256": "8a4dd11fdb6269d7e9a151ff8cdcb0712a07234dd8ef33a76ca40ac081f95577"
+    },
+    "vendor/freemius/wordpress-sdk/includes/managers/class-fs-permission-manager.php": {
+      "md5": "ca04cfc08987579d3011c1c166f66b52",
+      "sha256": "89bfb4016794750cdfb815e917bfbe2706d985f0c5b924c3a5f17381314ea881"
+    },
+    "vendor/freemius/wordpress-sdk/includes/managers/class-fs-plan-manager.php": {
+      "md5": "b72dcea60a55fff98335c0b0cb0aa424",
+      "sha256": "1de54d4f19696e6fc0f222d6c6dc5313b1d96f1200fc1a7c1349a2b0afa8553b"
+    },
+    "vendor/freemius/wordpress-sdk/includes/managers/class-fs-plugin-manager.php": {
+      "md5": "1aed9b0d0e4385246a7bc7c0558111bf",
+      "sha256": "b1fecdd18d47026628b05031e400b0547f64d1205647401c0e633791a903d63b"
+    },
+    "vendor/freemius/wordpress-sdk/includes/managers/index.php": {
+      "md5": "3de0a4b8bbe2931c74daebd9674537e2",
+      "sha256": "da7d4679fdd1fc7ed156fe4e91d467fde87970e2f6f914e13fc4362e8a3e4915"
+    },
+    "vendor/freemius/wordpress-sdk/includes/sdk/FreemiusBase.php": {
+      "md5": "82593181e605ddd2a8a9ca62acf5c979",
+      "sha256": "b646cc13505e3d9487d4f57fe393e932ce332060ddba5c18bc4a82362484e5fe"
+    },
+    "vendor/freemius/wordpress-sdk/includes/sdk/FreemiusWordPress.php": {
+      "md5": "6b3734f5200ad1acf6ba0b4adc7c7b0f",
+      "sha256": "9a207f1e54b65c217d49e892a3cb0066dd786afa3d12dcb9ff049ec99396d921"
+    },
+    "vendor/freemius/wordpress-sdk/includes/sdk/index.php": {
+      "md5": "3de0a4b8bbe2931c74daebd9674537e2",
+      "sha256": "da7d4679fdd1fc7ed156fe4e91d467fde87970e2f6f914e13fc4362e8a3e4915"
+    },
+    "vendor/freemius/wordpress-sdk/includes/sdk/LICENSE.txt": {
+      "md5": "8264535c0c4e9c6c335635c4026a8022",
+      "sha256": "a45d0bb572ed792ed34627a72621834b3ba92aab6e2cc4e04301dee7a728d753"
+    },
+    "vendor/freemius/wordpress-sdk/includes/sdk/Exceptions/ArgumentNotExistException.php": {
+      "md5": "a26e9de0558a2a5740639013ccc3bcdb",
+      "sha256": "7d85e5563775698c91a7bc7d1dd1bdfa27b714683a976bf6cf823d5924740e6c"
+    },
+    "vendor/freemius/wordpress-sdk/includes/sdk/Exceptions/EmptyArgumentException.php": {
+      "md5": "3fdff31aa810ab0bc9ec45b42df4842e",
+      "sha256": "10be60aacb55c44012fec5fb16b9ece47e1012389b53589f2a418d4f88fa5676"
+    },
+    "vendor/freemius/wordpress-sdk/includes/sdk/Exceptions/Exception.php": {
+      "md5": "48ee9aeb771de9c236a881606ec12c58",
+      "sha256": "d2042caa8f8f5cc3577b59bba9fcd298a5bd93295a01ff50f44272361b10e3f8"
+    },
+    "vendor/freemius/wordpress-sdk/includes/sdk/Exceptions/index.php": {
+      "md5": "3de0a4b8bbe2931c74daebd9674537e2",
+      "sha256": "da7d4679fdd1fc7ed156fe4e91d467fde87970e2f6f914e13fc4362e8a3e4915"
+    },
+    "vendor/freemius/wordpress-sdk/includes/sdk/Exceptions/InvalidArgumentException.php": {
+      "md5": "3b97b4528161e41242629212f5aa8482",
+      "sha256": "b6e25a1b6bf4b58769d93ea1b3dd9a2dea852edf49c8959aa648ef2fa98a4f46"
+    },
+    "vendor/freemius/wordpress-sdk/includes/sdk/Exceptions/OAuthException.php": {
+      "md5": "0b22627669dd8e0adb89504b88f471e8",
+      "sha256": "8a5b7b90b617306c7b751f5753cf670f33022616c3b2f31b48ac6988d7cd896e"
+    },
+    "vendor/freemius/wordpress-sdk/includes/supplements/fs-essential-functions-1.1.7.1.php": {
+      "md5": "50b0491b43ad944b2c38090b29f0eb75",
+      "sha256": "4c73b0e449e92442ec5a88094c55d7be71a2963108b145371aa993cfd349da54"
+    },
+    "vendor/freemius/wordpress-sdk/includes/supplements/fs-essential-functions-2.2.1.php": {
+      "md5": "d3bb1dfb1d90ded04ba231c6909a102b",
+      "sha256": "f385daaa07ff9eded5176401434d21291a3bb9305dcc7891773e501d50f93a30"
+    },
+    "vendor/freemius/wordpress-sdk/includes/supplements/fs-migration-2.5.1.php": {
+      "md5": "4accb7573f7f0144e5009d91e5c01ccf",
+      "sha256": "36f0c5831b95ae20f37d965ffde3d713e37caac3d8672f87ab25419603bed125"
+    },
+    "vendor/freemius/wordpress-sdk/includes/supplements/index.php": {
+      "md5": "3de0a4b8bbe2931c74daebd9674537e2",
+      "sha256": "da7d4679fdd1fc7ed156fe4e91d467fde87970e2f6f914e13fc4362e8a3e4915"
+    },
+    "vendor/freemius/wordpress-sdk/languages/freemius-cs_CZ.mo": {
+      "md5": "45fd291075abba9c2ce876da61e97cd6",
+      "sha256": "da65b6e8774cde21a5e6fe5bed07341156aed3721e8cc3b0f55db4ca03e292e8"
+    },
+    "vendor/freemius/wordpress-sdk/languages/freemius-da_DK.mo": {
+      "md5": "42abd27578932d9f82d7099f9aefdcd6",
+      "sha256": "8a17c612443e168fea40c662345c93e7ba93d45bc47aae8759c4ec12b7deb422"
+    },
+    "vendor/freemius/wordpress-sdk/languages/freemius-de_DE.mo": {
+      "md5": "b37406d4106b66a437ef0dd16f0aed71",
+      "sha256": "37269e607d8a13d9632cbf779626f03294c97b36902cc7333daba7a7c136f07b"
+    },
+    "vendor/freemius/wordpress-sdk/languages/freemius-es_ES.mo": {
+      "md5": "24be7bedab277375070cb218803ec73a",
+      "sha256": "149a9958b1ea2c61571130476281bb20431bba77c3f0c8ae7a56303a1037ac38"
+    },
+    "vendor/freemius/wordpress-sdk/languages/freemius-fr_FR.mo": {
+      "md5": "e8785d79b604d43dcbae106145aa374c",
+      "sha256": "97f4e919760c8ac2d1099bd45c387af6a2e7a7ea53f97ec50b15594af29b403c"
+    },
+    "vendor/freemius/wordpress-sdk/languages/freemius-he_IL.mo": {
+      "md5": "f18293d90b1da667598375c9590040d7",
+      "sha256": "15de5ced2d57519e6381dab2172296702ef105ba63441b4f6afb9d8bc3c02d5c"
+    },
+    "vendor/freemius/wordpress-sdk/languages/freemius-hu_HU.mo": {
+      "md5": "372160990bc086367ce053459c53053c",
+      "sha256": "995d95c2baf2a0128570a3f7fb58e85fe90211fc28bf0dfdd8cac5980b61c77a"
+    },
+    "vendor/freemius/wordpress-sdk/languages/freemius-it_IT.mo": {
+      "md5": "f480a2a189deb75d8ab62dedc224a640",
+      "sha256": "1bc8abcbdf83359fd0969ef7aee3dc05a71505aee896bc388384b7c79b45eab3"
+    },
+    "vendor/freemius/wordpress-sdk/languages/freemius-ja.mo": {
+      "md5": "df5553019125b28399b90f6efd5a52f2",
+      "sha256": "02d824cf52224c62b65e9cc6813c0ffecfc1f678a61100b7227d17c7be711756"
+    },
+    "vendor/freemius/wordpress-sdk/languages/freemius-nl_NL.mo": {
+      "md5": "3e52b377b80e58327ad4d8784b992b00",
+      "sha256": "71003ff74bd41768a23f5f420da27a9138cfa71389345c688bf4481b6269b4bd"
+    },
+    "vendor/freemius/wordpress-sdk/languages/freemius-ru_RU.mo": {
+      "md5": "be72099ca3eb3a673a7f8f9f9636f18d",
+      "sha256": "178b5e206cd2a01564266334faa6b1a63463042bfdeec71bb8ed2ad5bf081111"
+    },
+    "vendor/freemius/wordpress-sdk/languages/freemius-ta.mo": {
+      "md5": "1c43e00b19a9ad320290bd273c2389dc",
+      "sha256": "0623b91f12bbbce348cb152d52a2d6185f6651f85dd829e8d818dc1bc467cf0f"
+    },
+    "vendor/freemius/wordpress-sdk/languages/freemius-zh_CN.mo": {
+      "md5": "0970a394e6ee9942ff7a9991100277dc",
+      "sha256": "f3708281afff3e9c60162236d00189a66bcb5fdc9529545430557c570b5086b5"
+    },
+    "vendor/freemius/wordpress-sdk/languages/freemius.pot": {
+      "md5": "d54dfc0ba50bdae8b1bb391a10bc7df9",
+      "sha256": "f79b3bc011089abaf11bee8b4a1df08ad6042ded40b5f19d67e5420b9d344f20"
+    },
+    "vendor/freemius/wordpress-sdk/languages/index.php": {
+      "md5": "3de0a4b8bbe2931c74daebd9674537e2",
+      "sha256": "da7d4679fdd1fc7ed156fe4e91d467fde87970e2f6f914e13fc4362e8a3e4915"
+    },
+    "vendor/freemius/wordpress-sdk/templates/account.php": {
+      "md5": "ed98c02c78ec85dc8837348b99ee6d03",
+      "sha256": "b6f3dc7bb9bc3a4a43eb8e463d7ff32a5a07de9a2b503385e76d68552d785100"
+    },
+    "vendor/freemius/wordpress-sdk/templates/add-ons.php": {
+      "md5": "c42861c28a31d36c83c6bba7a74771a3",
+      "sha256": "f2061448c473b1d9a6cddb2551adf57b91ebd93353dc7b93576ec857a7b9c876"
+    },
+    "vendor/freemius/wordpress-sdk/templates/add-trial-to-pricing.php": {
+      "md5": "35d6b7d7a847328cbc9de994c97f7200",
+      "sha256": "9e8025201e7c8d08560c20e0e3654ef915ec05903960ec1a9e9577eade023c0b"
+    },
+    "vendor/freemius/wordpress-sdk/templates/admin-notice.php": {
+      "md5": "79b1cee4e36e7c64642d8c119d01e9f5",
+      "sha256": "745627875e2338058cc03c733debac934cc50131132c9ea88cea320e52ad4d06"
+    },
+    "vendor/freemius/wordpress-sdk/templates/ajax-loader.php": {
+      "md5": "00e151cb955091aaf55f247730171b88",
+      "sha256": "8dc4887d9b97b282dc08ec6aedada447bbabb42cacc82b93f81264362c42383b"
+    },
+    "vendor/freemius/wordpress-sdk/templates/api-connectivity-message-js.php": {
+      "md5": "0198a8f32e2014d6b226d98ec23ceebc",
+      "sha256": "697ab706e6cc4f13c846f3a9f768e72a1aa62aa645f1f62d77a41f35e4e9b1e9"
+    },
+    "vendor/freemius/wordpress-sdk/templates/auto-installation.php": {
+      "md5": "6733148877b90ce6cc85efaedaad7c8a",
+      "sha256": "e1c4de12807e39bb607e849e72734e52fd53605ec9be6ec12799fe541a67ac71"
+    },
+    "vendor/freemius/wordpress-sdk/templates/checkout.php": {
+      "md5": "9d8346447ba2648387ff0dde5f141fdf",
+      "sha256": "866d87003757e4e209d284e5449bec63aa993f0aa19d858998220607ede2ae6b"
+    },
+    "vendor/freemius/wordpress-sdk/templates/clone-resolution-js.php": {
+      "md5": "62b294e43d0ca6e98b65cf1497f02132",
+      "sha256": "f38e917d5d66ff813bb4daaa0c5830671e48bbcdb8f9e59fb42ea53831b73603"
+    },
+    "vendor/freemius/wordpress-sdk/templates/connect.php": {
+      "md5": "03aa3672706f9820959b6cc1f75b715c",
+      "sha256": "027e67eb905681fac97adbc37c8dc5642f4feb49199ebcc556048e784d5987a8"
+    },
+    "vendor/freemius/wordpress-sdk/templates/contact.php": {
+      "md5": "339b42785fb32d4050746c43e671d401",
+      "sha256": "fb02d6a81917bdfd0d7e74bb699329cf619571e1a071efd05015a525fb0d4ca9"
+    },
+    "vendor/freemius/wordpress-sdk/templates/debug.php": {
+      "md5": "b67dd917bfc09fedc1831f6761aca5fa",
+      "sha256": "0018d645a7bbaa442d023e9d06cd6f7be33b26ba40195ca88e37e63504b931a4"
+    },
+    "vendor/freemius/wordpress-sdk/templates/email.php": {
+      "md5": "eed07bb337e9fe7196f0e7ddd5422698",
+      "sha256": "db149f416aad88b58cf718d54818d87c26865ed2442a0482858720c0a700c2b1"
+    },
+    "vendor/freemius/wordpress-sdk/templates/gdpr-optin-js.php": {
+      "md5": "29bb502789208de8b091a52d1c72f520",
+      "sha256": "271f0655b6d2135329dd1da29517e5122ce6661e6faeb20833ebd47789a9a605"
+    },
+    "vendor/freemius/wordpress-sdk/templates/index.php": {
+      "md5": "3de0a4b8bbe2931c74daebd9674537e2",
+      "sha256": "da7d4679fdd1fc7ed156fe4e91d467fde87970e2f6f914e13fc4362e8a3e4915"
+    },
+    "vendor/freemius/wordpress-sdk/templates/plugin-icon.php": {
+      "md5": "071e797ab53c0d4128f832847a652c09",
+      "sha256": "b5794c503ac93125c564fe4a30af25ab0ad4c37b1520c476886a50959b8fe04e"
+    },
+    "vendor/freemius/wordpress-sdk/templates/pricing.php": {
+      "md5": "7c3f84161fa3a637ea0d6e3e3dc1121e",
+      "sha256": "3be633fc380ad8587fc91c5aa1ee1e7157129a460817ec93bedc057b3fbb9ea2"
+    },
+    "vendor/freemius/wordpress-sdk/templates/secure-https-header.php": {
+      "md5": "182bd581a7024c6c332c0ee244e9fee3",
+      "sha256": "d6a5020e8b0b5fcae901cabeeb54bfe3cbed8f19d79918872cfa106f51e67d8e"
+    },
+    "vendor/freemius/wordpress-sdk/templates/sticky-admin-notice-js.php": {
+      "md5": "31fe4caed322e32242e5a2cfbe64d4ad",
+      "sha256": "d0dabcf01eefb89c29a655cda333e493e1c2136d1fee20dc26a1d3fc69f20228"
+    },
+    "vendor/freemius/wordpress-sdk/templates/tabs-capture-js.php": {
+      "md5": "d4bfd4ede6de7ab19ffa05b06680847f",
+      "sha256": "6ad031764f84bd4f3ea59ed69b5db3037e5c171aab2ec0a0686095b597a5e7d7"
+    },
+    "vendor/freemius/wordpress-sdk/templates/tabs.php": {
+      "md5": "5ed22e5f66526103e895edcd23a2c3ac",
+      "sha256": "e7890df020fbf02c9dbf25433e5f1754b9d21ceec8c6e3736e465ddff10dcdc1"
+    },
+    "vendor/freemius/wordpress-sdk/templates/account/billing.php": {
+      "md5": "a4d01e92aa59d731ec4bc2763664e744",
+      "sha256": "775224edc2fe0698ade58c2928079c227061cc703d7c74f8472097f5e2b04c14"
+    },
+    "vendor/freemius/wordpress-sdk/templates/account/index.php": {
+      "md5": "3de0a4b8bbe2931c74daebd9674537e2",
+      "sha256": "da7d4679fdd1fc7ed156fe4e91d467fde87970e2f6f914e13fc4362e8a3e4915"
+    },
+    "vendor/freemius/wordpress-sdk/templates/account/payments.php": {
+      "md5": "7e789cb2f1d6bcd45d6138f9f8aff95b",
+      "sha256": "e89a2d27688aec9402b6d85276304b25ce33a21cc7d7b4767000e83a4554f409"
+    },
+    "vendor/freemius/wordpress-sdk/templates/account/partials/activate-license-button.php": {
+      "md5": "6b659d5545c3843958fde1fc1b0c2f55",
+      "sha256": "ac9b5306c54cb7a71958090725c9bd8cc58add7568d68c1b21a45f0fc32d7e11"
+    },
+    "vendor/freemius/wordpress-sdk/templates/account/partials/addon.php": {
+      "md5": "fdfbae43c40c35b201011634cf5ef64d",
+      "sha256": "e7b334bf5256fc7cbc0431c2f53fc48f52f9e1ff4f1b6979a2dbdcb8a3155819"
+    },
+    "vendor/freemius/wordpress-sdk/templates/account/partials/deactivate-license-button.php": {
+      "md5": "5d15cd05dbdee1ff72dfe3b3813168cc",
+      "sha256": "135ba523ed912477d263101cd374645d691898dd91547c0719ddae66a20119d6"
+    },
+    "vendor/freemius/wordpress-sdk/templates/account/partials/disconnect-button.php": {
+      "md5": "d895fe41cb09f782e2259ac1a1b577a8",
+      "sha256": "de8b13a4dec945c7e3863158c1faf30e3ab2609f175c960ca47f36b6eb584710"
+    },
+    "vendor/freemius/wordpress-sdk/templates/account/partials/index.php": {
+      "md5": "3de0a4b8bbe2931c74daebd9674537e2",
+      "sha256": "da7d4679fdd1fc7ed156fe4e91d467fde87970e2f6f914e13fc4362e8a3e4915"
+    },
+    "vendor/freemius/wordpress-sdk/templates/account/partials/site.php": {
+      "md5": "0aafc97785586c8ec9c2362ca0cfb82c",
+      "sha256": "8fcc660030340086b80aa0bd1bdb1a80b90efb7d676c83859999c9c5d346f440"
+    },
+    "vendor/freemius/wordpress-sdk/templates/checkout/frame.php": {
+      "md5": "5ca64f449eeac8b46c6f7e10375ee775",
+      "sha256": "2b9f244ffae477e19291ce0b55a6ae4cc7e7c6e6e2d524a8a7214071fb869223"
+    },
+    "vendor/freemius/wordpress-sdk/templates/checkout/process-redirect.php": {
+      "md5": "4aeaf0223f6803683eeadaa06b4534cf",
+      "sha256": "09c14e27d6bd4d012a5a5a9e47bc03c475f9e4e81049b131330c2be2286d3768"
+    },
+    "vendor/freemius/wordpress-sdk/templates/checkout/redirect.php": {
+      "md5": "fbd5e8b9b0afdacc52858e093384e742",
+      "sha256": "7ce09ed1ca3bd788689c99d019c29b8d3118a37df5d75a533208464ea0796ab7"
+    },
+    "vendor/freemius/wordpress-sdk/templates/connect/index.php": {
+      "md5": "3de0a4b8bbe2931c74daebd9674537e2",
+      "sha256": "da7d4679fdd1fc7ed156fe4e91d467fde87970e2f6f914e13fc4362e8a3e4915"
+    },
+    "vendor/freemius/wordpress-sdk/templates/connect/permission.php": {
+      "md5": "3e9bbcd3f6c25267b3797cf22fd6041d",
+      "sha256": "939c77c080e0fd288f56d0ea15b9150f24735533199c6d28897f95c23883a0ee"
+    },
+    "vendor/freemius/wordpress-sdk/templates/connect/permissions-group.php": {
+      "md5": "52fc8e3d76ddb4c7c2ce5d04a3a35473",
+      "sha256": "30395f64ecbc1cf3f6015f85a31c433df046ac4a462d091b56ccd7d2881653f2"
+    },
+    "vendor/freemius/wordpress-sdk/templates/debug/api-calls.php": {
+      "md5": "ec00c2fe627810c9f8dbc3759c41fce7",
+      "sha256": "cb5c314edf9b0b4c3a305131e47fa2fb55d36acdb32030cf1084f77f5ba99b8e"
+    },
+    "vendor/freemius/wordpress-sdk/templates/debug/index.php": {
+      "md5": "3de0a4b8bbe2931c74daebd9674537e2",
+      "sha256": "da7d4679fdd1fc7ed156fe4e91d467fde87970e2f6f914e13fc4362e8a3e4915"
+    },
+    "vendor/freemius/wordpress-sdk/templates/debug/logger.php": {
+      "md5": "cd9f0b12d29c47977df3c5b4856d87a4",
+      "sha256": "184255d2e440955ec388714df54396b4974c1a83a64dd8540e77314b665084ef"
+    },
+    "vendor/freemius/wordpress-sdk/templates/debug/plugins-themes-sync.php": {
+      "md5": "8101243f4fa8fd786bc6a9794fc8808c",
+      "sha256": "327b965d38e8708dfafc50817664f79902b0938ee37a27131630833bb8b3e77c"
+    },
+    "vendor/freemius/wordpress-sdk/templates/debug/scheduled-crons.php": {
+      "md5": "8a8699dd63b9bf585c89dc01aa94e475",
+      "sha256": "7aa11607b9d269d974384aa48fb511d0e8d41e5fa8d19ec0350e3f471108ce5d"
+    },
+    "vendor/freemius/wordpress-sdk/templates/forms/affiliation.php": {
+      "md5": "b17a6db8d7314004f106ef9276b5698c",
+      "sha256": "6d44de4faec98545797ee735b92344bc1fdacf4a4ee1210b35fc20b2708b140a"
+    },
+    "vendor/freemius/wordpress-sdk/templates/forms/data-debug-mode.php": {
+      "md5": "f40ab50817700bf186001641243bdf68",
+      "sha256": "cd6f724cb47a09e67916b1a688526170aabe9d333a0efe5aab940619e2e93982"
+    },
+    "vendor/freemius/wordpress-sdk/templates/forms/email-address-update.php": {
+      "md5": "95b4eaf5348b8a060584f132f36a440b",
+      "sha256": "9b1e8165be2945731dfb739f41fadb1b92858ffc9f559062f872bf9ff9020ea2"
+    },
+    "vendor/freemius/wordpress-sdk/templates/forms/index.php": {
+      "md5": "3de0a4b8bbe2931c74daebd9674537e2",
+      "sha256": "da7d4679fdd1fc7ed156fe4e91d467fde87970e2f6f914e13fc4362e8a3e4915"
+    },
+    "vendor/freemius/wordpress-sdk/templates/forms/license-activation.php": {
+      "md5": "4920938e6368657aac4c9c91a7177648",
+      "sha256": "019c9b305fe1ea66e33c80c75b1797e6a1b8be0d608ce36150c381d6b592bb0f"
+    },
+    "vendor/freemius/wordpress-sdk/templates/forms/optout.php": {
+      "md5": "27849af477f58b4aae150b996f6b7147",
+      "sha256": "72a3d44a294e1f5c44932ce76907226ce6ea00278b643bc5ffca5df6eded00e3"
+    },
+    "vendor/freemius/wordpress-sdk/templates/forms/premium-versions-upgrade-handler.php": {
+      "md5": "e3ab1d9a9863996b1db21cea5f9011bc",
+      "sha256": "2a7860fde009d83a64a5686df351074ba130de0899095ddf08ffffc834f23f06"
+    },
+    "vendor/freemius/wordpress-sdk/templates/forms/premium-versions-upgrade-metadata.php": {
+      "md5": "5ac9f56655fa3f640185c332bd3988db",
+      "sha256": "a5fa5a3dbe131feb8665352f1afee2ea1eb14d59240833c09707dff9da08527e"
+    },
+    "vendor/freemius/wordpress-sdk/templates/forms/resend-key.php": {
+      "md5": "348e97790177011a7af8f49b2103ffe8",
+      "sha256": "b3f60cd9c09ffe26c58786edb38c95320ddf706531e05e7d4ee4d7d57ddef592"
+    },
+    "vendor/freemius/wordpress-sdk/templates/forms/subscription-cancellation.php": {
+      "md5": "bf23590da5e5003005a92ba5de210dd8",
+      "sha256": "72e94803ac60a72ba8b496059eb515920985a97e5381540529efaa669024b91c"
+    },
+    "vendor/freemius/wordpress-sdk/templates/forms/trial-start.php": {
+      "md5": "0a4a72160704e8282d1f11a73c02c596",
+      "sha256": "f66c0509e068406fe33ed69ec127b2ec9970c9cf43d19ac71e55627e7be78562"
+    },
+    "vendor/freemius/wordpress-sdk/templates/forms/user-change.php": {
+      "md5": "b6386fc81e7f5c5f877d8d33c7d102c5",
+      "sha256": "117cc9749c54ea81c09f09ac3d6329810afca69c5cdc3a3634a430e867caa4f0"
+    },
+    "vendor/freemius/wordpress-sdk/templates/forms/deactivation/contact.php": {
+      "md5": "0316bd6eb7a05968d63c94a589e74b08",
+      "sha256": "73e1f8eeebed312f5bbdf51d1ef9abd12841d9fa5b0315fa6a7f6198afc3fc6a"
+    },
+    "vendor/freemius/wordpress-sdk/templates/forms/deactivation/form.php": {
+      "md5": "5af0ab2b12cfb34f8250d9f3feba512e",
+      "sha256": "59a915e739ef481341691007800d7f35ae3037711e51cb054b3d79a999eb4764"
+    },
+    "vendor/freemius/wordpress-sdk/templates/forms/deactivation/index.php": {
+      "md5": "3de0a4b8bbe2931c74daebd9674537e2",
+      "sha256": "da7d4679fdd1fc7ed156fe4e91d467fde87970e2f6f914e13fc4362e8a3e4915"
+    },
+    "vendor/freemius/wordpress-sdk/templates/forms/deactivation/retry-skip.php": {
+      "md5": "86a52fe656b05f6b0bb3f75848ef4cf2",
+      "sha256": "7092c1389fadc05d13b059463732bab910b05e04c9c9aa59fa0fac8e1e2ccd99"
+    },
+    "vendor/freemius/wordpress-sdk/templates/js/index.php": {
+      "md5": "3de0a4b8bbe2931c74daebd9674537e2",
+      "sha256": "da7d4679fdd1fc7ed156fe4e91d467fde87970e2f6f914e13fc4362e8a3e4915"
+    },
+    "vendor/freemius/wordpress-sdk/templates/js/jquery.content-change.php": {
+      "md5": "a92f903645a3f6ab4494cea538e44813",
+      "sha256": "650f29e9c6937d1b2898d0df393773bd7634c9d32a355b2c41f41235447ff106"
+    },
+    "vendor/freemius/wordpress-sdk/templates/js/open-license-activation.php": {
+      "md5": "37e7758f3ccbe08033d97c445889f40a",
+      "sha256": "df4efb41f5af8da05bd270223b2e4eb7718c4fbbd43fe4cbacb62caa23ff957f"
+    },
+    "vendor/freemius/wordpress-sdk/templates/js/permissions.php": {
+      "md5": "96491c1d8632f7b7df00e36d2b58babd",
+      "sha256": "8e3240058642cd98e39a16ac5b2739e7c365f4c5b9a8a9dc7ebc988a92a5d2e3"
+    },
+    "vendor/freemius/wordpress-sdk/templates/js/style-premium-theme.php": {
+      "md5": "82fe2e247e302d453e603e01084e0866",
+      "sha256": "78e41bbbb306a0e090907085a8a91e1f927637a0db10eec57d4c8f615200c1b6"
+    },
+    "vendor/freemius/wordpress-sdk/templates/partials/index.php": {
+      "md5": "e426c81042e85fbe726c134a270a1f29",
+      "sha256": "3b6be3bb5fc5bfa96414255f0579828e5985ef7a0a89a4004c3f01c9afd9a7f3"
+    },
+    "vendor/freemius/wordpress-sdk/templates/partials/network-activation.php": {
+      "md5": "972465bb410af2584efdb9abedc11c3e",
+      "sha256": "6a1a00a5ecdf6195fe56db207048e59eb31ddc00bdfd367e63725ab9f381cb61"
+    },
+    "vendor/freemius/wordpress-sdk/templates/plugin-info/description.php": {
+      "md5": "a41791486f89b48c73b070043a7e4098",
+      "sha256": "e3334f3c34bd383148f8ed6d7e7cc9da10c426ce2bbcd195fb784edb27742436"
+    },
+    "vendor/freemius/wordpress-sdk/templates/plugin-info/features.php": {
+      "md5": "442e01556230b8d3029c9038dd9d1713",
+      "sha256": "a043b0c7e1ade84b4256c37907fe034dde731460929879cededdd9a159dac169"
+    },
+    "vendor/freemius/wordpress-sdk/templates/plugin-info/index.php": {
+      "md5": "3de0a4b8bbe2931c74daebd9674537e2",
+      "sha256": "da7d4679fdd1fc7ed156fe4e91d467fde87970e2f6f914e13fc4362e8a3e4915"
+    },
+    "vendor/freemius/wordpress-sdk/templates/plugin-info/screenshots.php": {
+      "md5": "1ec96683f3834b8b1397939e8ec4f88c",
+      "sha256": "a5fe64b639b78c6c282852ec2fef8ee772b8c4420916ffa61e33629403872e2e"
+    }
+  }
+}
