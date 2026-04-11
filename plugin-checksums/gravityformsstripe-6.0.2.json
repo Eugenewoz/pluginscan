@@ -1,0 +1,2438 @@
+{
+  "plugin": "gravityformsstripe",
+  "version": "6.0.2",
+  "files": {
+    "change_log.txt": {
+      "md5": "169b8c0c4a93d8e6dcd1c955bcd4abda",
+      "sha256": "82e5418396a23b782976e5d46969b8725b8c946bc4b81183c7eca51d06681f27"
+    },
+    "class-gf-stripe.php": {
+      "md5": "0ea972acaa80300750be1d21d332716e",
+      "sha256": "00a7d80fa87b7a94d296b17685c46b57ac78ee4588697f9fe07dd84c33d12025"
+    },
+    "stripe.php": {
+      "md5": "5e38b134ae08d15bd79b13b7d29bbbbd",
+      "sha256": "50c6c0dd4f991a948357de76f7dc23d4824a6f16e72c9fcd9fe5dfd2dbf1d650"
+    },
+    "assets/css/dist/admin-deprecated.css": {
+      "md5": "075c9f5fc12af23d0761825463c0301e",
+      "sha256": "627cba0943f502d4effa2d70e3bc3e92070193e6031106615896735138485713"
+    },
+    "assets/css/dist/admin-deprecated.min.css": {
+      "md5": "a716248743a3dca10952b3bf10aef8b9",
+      "sha256": "e7af2d6fa9c5152c0eb990f26b5b6c8c5bb828af46d9959b2e7f3c69ea24ac11"
+    },
+    "assets/css/dist/admin.css": {
+      "md5": "12c69cf9ff8fd223d1aa46f071b35b2e",
+      "sha256": "4275625a40e205c684530a4af677344905a135ce3212e6e0aed2e0e8dc456ce5"
+    },
+    "assets/css/dist/admin.min.css": {
+      "md5": "a716248743a3dca10952b3bf10aef8b9",
+      "sha256": "e7af2d6fa9c5152c0eb990f26b5b6c8c5bb828af46d9959b2e7f3c69ea24ac11"
+    },
+    "assets/css/dist/theme-deprecated.css": {
+      "md5": "dbae93cd0f2fc975147226c8a9d1eaad",
+      "sha256": "939d13b5d0dfc8fe1952c526cfeaa6cf9d63512f76d2d729eb7287ddcc3a191b"
+    },
+    "assets/css/dist/theme-deprecated.min.css": {
+      "md5": "67dd9f91e81066dda5445352c0e0efa9",
+      "sha256": "63d3e20033fd9ee27cdd0344db6efa754c1a631e7d27b43282f33fed2b1f5c84"
+    },
+    "assets/css/dist/theme-foundation-admin-deprecated.css": {
+      "md5": "3c3fb71e2c0fbbdb0c06d3c1ca2a98ac",
+      "sha256": "4a9114e9e1f0cd4ba51f9f82e02c41902a7d0c8c9da4c5ce7342b47afab6048d"
+    },
+    "assets/css/dist/theme-foundation-admin-deprecated.min.css": {
+      "md5": "7545181bb25d7b3a2fba9813e5e4df2d",
+      "sha256": "e3afb9cabcf5cb15979f5d4ba14cc2416e806e4d81b385b234cc44c283d1f72b"
+    },
+    "assets/css/dist/theme-foundation-deprecated.css": {
+      "md5": "99a6a53b23c0df96c93beac0e64e2c4b",
+      "sha256": "9cffd129d05707dcb6113ff6e8bbb2081a2efa4da9f0cf4da844f57926e6d7ee"
+    },
+    "assets/css/dist/theme-foundation-deprecated.min.css": {
+      "md5": "b0c7e40c9cef0078cbddbaf1c76e8c0e",
+      "sha256": "bf3d61c99ce4cbfdf9dbb42bece70c9a6e8a44a0fadfcf0c18b4fd0939a89181"
+    },
+    "assets/css/dist/theme-foundation.css": {
+      "md5": "840171627c048dd89b6546b1ab9cf9bc",
+      "sha256": "601bd4977eec91bad0f1bb732b64d0cd137c02ecb3adfba613964a2527bb2f1d"
+    },
+    "assets/css/dist/theme-foundation.min.css": {
+      "md5": "b0c7e40c9cef0078cbddbaf1c76e8c0e",
+      "sha256": "bf3d61c99ce4cbfdf9dbb42bece70c9a6e8a44a0fadfcf0c18b4fd0939a89181"
+    },
+    "assets/css/dist/theme-framework-deprecated.css": {
+      "md5": "60e7bb8ade8594519d633ed7f0aade90",
+      "sha256": "f002731715fc0ec15452ad099a2631be2683649fe762e1cc3d986587c9c20d9d"
+    },
+    "assets/css/dist/theme-framework-deprecated.min.css": {
+      "md5": "f05bc5d131bf6cb75d050d0d8cb400f7",
+      "sha256": "7e993512b5732413bca9920abd0c5c3eb1e002e5140ee7fcd72be40bcbac20ea"
+    },
+    "assets/css/dist/theme-framework.css": {
+      "md5": "c70f2e8467f29f65b2c3ae8eadd6525d",
+      "sha256": "75019c918fd3d8d90fabb061744594092abb293624bab39314126c5f4b7ed9ee"
+    },
+    "assets/css/dist/theme-framework.min.css": {
+      "md5": "f05bc5d131bf6cb75d050d0d8cb400f7",
+      "sha256": "7e993512b5732413bca9920abd0c5c3eb1e002e5140ee7fcd72be40bcbac20ea"
+    },
+    "assets/css/dist/theme.css": {
+      "md5": "13d1f43fea54682d9f5f884f5186432e",
+      "sha256": "64f51fce4e41628e5420cf9f0023bf0e88437438ef9ee2cce74efe1a680034fb"
+    },
+    "assets/css/dist/theme.min.css": {
+      "md5": "67dd9f91e81066dda5445352c0e0efa9",
+      "sha256": "63d3e20033fd9ee27cdd0344db6efa754c1a631e7d27b43282f33fed2b1f5c84"
+    },
+    "assets/js/dist/gform-stripe-elements.28531ed4140153cba51c.js": {
+      "md5": "cba16995d50c93e6caad084d36fb5fec",
+      "sha256": "4ef1c559b7afb1f259ef5315839cd9190e55ad264da25ea182efe72ab8e888a9"
+    },
+    "assets/js/dist/gform-stripe-elements.358b0aa410087fa3c3ae.min.js": {
+      "md5": "776e9fef0318cbadf010323f0591d158",
+      "sha256": "b746c641545bd3beb0a30de6d86800890c7260558d2485fa55bf256b953088b9"
+    },
+    "assets/js/dist/scripts-theme.js": {
+      "md5": "b357a5318b8bbc17de3adfcb9ecf4146",
+      "sha256": "0f81f97bf1942e1a47b97298a99615731d3235e00dcd14e4b2fefeeb28f0127b"
+    },
+    "assets/js/dist/scripts-theme.min.js": {
+      "md5": "5904872bd7e1b84c0ce5f8d1a6c49e42",
+      "sha256": "53fe88027000c5a7380c61ab470bbb13c542b91c0529e0662c23b5a7fdd06bbf"
+    },
+    "assets/js/dist/vendor-theme.js": {
+      "md5": "e8172c596f6ac35b4a6c41403fa6be47",
+      "sha256": "99b3bc8728b6d065b15c2a4a09fa76149d5a68fd0fbe4b6b67283a0146f6726f"
+    },
+    "assets/js/dist/vendor-theme.min.js": {
+      "md5": "04efd2d5893c856f114a460399619e4d",
+      "sha256": "3efbcdd3a7f1e4f8ad7a8b36a15d0cb630398b534dd00aeb228cfcd7a636ff3c"
+    },
+    "deprecated/class-gf-stripe.php": {
+      "md5": "b0a938ec7fea537f0f5f06dd00940bb9",
+      "sha256": "24b2374e58e3a33750e7a577b99e3586edd1119b5fe37c8bcb9e9338553aab78"
+    },
+    "deprecated/readme.md": {
+      "md5": "cc9da4f51cd061acf847f3504d724c23",
+      "sha256": "8dcab1e8999f56c94b39a317b4aefe79dfe40fd85647eee807ea0611e57fef9b"
+    },
+    "deprecated/assets/css/src/admin/admin-deprecated.pcss": {
+      "md5": "bd3ab7e492442d70a4bc8685efe1c173",
+      "sha256": "0cf4987de88a1c3f727b1f1cc24126badd8148b8073e17fe8d59b2f303f5b172"
+    },
+    "deprecated/assets/css/src/theme/foundation/theme-foundation-admin-deprecated.pcss": {
+      "md5": "71a0f0d3290b2b8e242a420f3775a318",
+      "sha256": "e295ac93d247e0058832c1a57c11f7573077a7776ce486ab7c12f0d7f12b8d83"
+    },
+    "deprecated/assets/css/src/theme/foundation/theme-foundation-deprecated.pcss": {
+      "md5": "3a700d53ec971e14d84b67f510c3a097",
+      "sha256": "a348896ccd00c5e42c1ed724bafb001612b67386129c1148c3f237bf8e37964a"
+    },
+    "deprecated/assets/css/src/theme/framework/theme-framework-deprecated.pcss": {
+      "md5": "cf7276f72c9a888d224b101624acb07a",
+      "sha256": "33e5fd3687a43fd3c8bb3153710c3c692a38ece2cd0299ad758beb6c5a64cc6d"
+    },
+    "deprecated/assets/css/src/theme/gravity/theme-deprecated.pcss": {
+      "md5": "9d115b766ae515e83d45831e0d104a4f",
+      "sha256": "d6485b3220d53bda2bd6e324d7255128c2d57b97ade8848e6f652369485bf1f9"
+    },
+    "deprecated/assets/css/tokens/gravityforms-admin-custom-properties.pcss": {
+      "md5": "dfcb91c400a049c018586b4c1f95beb4",
+      "sha256": "b0e7e6b23b9c007d2fde8dbcb4e0b948275291ed607f7e675078bf01181d56c8"
+    },
+    "deprecated/assets/css/tokens/gravityforms-common-custom-properties.pcss": {
+      "md5": "5c2e97582935e57388e8713b83be17c5",
+      "sha256": "291f936aa356910a16292dc0223fe8f8343ef9754094d808f5d9bbd0388c2b5a"
+    },
+    "deprecated/assets/css/tokens/gravityforms-theme-gravity-custom-properties.pcss": {
+      "md5": "63fdf1041cc624779c025a812d9d2ed3",
+      "sha256": "9c20fa87066bc403d212857748dc7f4ce7f43493b1c476bb599cc9cd90340c48"
+    },
+    "deprecated/assets/css/tokens/gravityforms-theme-orbital-custom-properties.pcss": {
+      "md5": "e42e361ddb12419e8560c7bbd57f0f2a",
+      "sha256": "27aa9695a645aa19a6c549d9060ad92e8f9bab7332530c960dd4a7c6e3b71c96"
+    },
+    "deprecated/assets/css/tokens/gravitysmtp-admin-custom-properties.pcss": {
+      "md5": "341a2dcc24a3bbb70bc9b8c830d7d04f",
+      "sha256": "3b87023459e42fe0b5296452e1d07d1b4b579d952563bdb19e11de2070f5b612"
+    },
+    "deprecated/assets/css/tokens/gravitysmtp-common-custom-properties.pcss": {
+      "md5": "f8f990ca8edad39db3edb94ea3ec364c",
+      "sha256": "c7e50696b347fcd2473ff92b3352d8d3f8b84525d34457c1d8a30bfaa6bc05a4"
+    },
+    "deprecated/images/light-on-dark.png": {
+      "md5": "fcc31b5424e4c02af268fffadc4315fd",
+      "sha256": "a4743ff84f96f5b558ad34f66a685fda30c8b4080702223649df4f3f8498e785"
+    },
+    "deprecated/images/light-on-dark@2x.png": {
+      "md5": "7d28b4aa6c33c9a5ab476add86a74800",
+      "sha256": "b42b257922ca8562b22ce457c501f2b9d7b1f7350f609e76ff586204a3a541bc"
+    },
+    "deprecated/images/light-on-dark@3x.png": {
+      "md5": "6c5916ad7107bb28886e40cbc0346075",
+      "sha256": "81ac4c25736895152e47bcc61392555eb91f5a9ecc0e3c8adba70f87200fe958"
+    },
+    "deprecated/includes/autoload.php": {
+      "md5": "692c1a81f0ea06e93f4ef3552b44f08e",
+      "sha256": "0f5bf06348ccbde35aff99c5888ac7f1dc20bcbe0a541dced7d77237737109f3"
+    },
+    "deprecated/includes/class-gf-field-stripe-creditcard.php": {
+      "md5": "ba88b0efb7be029def6f84b75d396c02",
+      "sha256": "4a0bb2894a5080847dca12330024534dd1d8b34dbeb6080b5d022fbb0e2690e5"
+    },
+    "deprecated/includes/class-gf-stripe-billing-portal.php": {
+      "md5": "93a2b61641b1cafbc26a958c8e937777",
+      "sha256": "de1df3a02187e097862187ba2ca867c7b9cff8f2e909ddfec38d51f7b8c81a32"
+    },
+    "deprecated/includes/deprecated.php": {
+      "md5": "6822a62d39e018230a330993cabd3107",
+      "sha256": "b12799df10555bc07d7257318e75286cbec487d5d2fdc895b7b2fa5a47aa886f"
+    },
+    "deprecated/includes/api/class-gf-stripe-api.php": {
+      "md5": "01d3c0b635121c6bc01c0a526429cf5c",
+      "sha256": "7ad51bee21f8360e45641f3939119faebe07e2e1279be4d5c11feed08fc2edc8"
+    },
+    "deprecated/includes/api/model/class-account.php": {
+      "md5": "f00f4468569989f16df596ebe079bdb1",
+      "sha256": "7c98a4b70816c7c7821262f2cdadf99521a60d191a2ba51870fff5f158391edc"
+    },
+    "deprecated/includes/api/model/class-base.php": {
+      "md5": "f52212c0a46bd2682abf717101eba5d2",
+      "sha256": "1d916106eceb36eb74f23a0d6a891f9661c411dd898435807abd0d8d66e2288d"
+    },
+    "deprecated/includes/api/model/class-charge.php": {
+      "md5": "4cf7c8335b8a12a7f7796ccc18f68c7b",
+      "sha256": "26b24ec896c925b003aafe7d6fbd707d95e432f79a8931fb5129fa30932d44ee"
+    },
+    "deprecated/includes/api/model/class-coupon.php": {
+      "md5": "c9625b2115c39d665d7ec57a0ffa530e",
+      "sha256": "08c39cce993b949f078412186df059c801324eaa76bca4fd89d3afacd49b3aa4"
+    },
+    "deprecated/includes/api/model/class-customer.php": {
+      "md5": "b398f69f312d60084b6e300097088992",
+      "sha256": "6d4900726019c0f98511bf0a40de9086ff80bc94fcd1f9ed54f54cf9eb93a38b"
+    },
+    "deprecated/includes/api/model/class-customerbalancetransaction.php": {
+      "md5": "97dfc2bd0da1713ae2ea2a26bfa366b4",
+      "sha256": "c3f51a701ae34fbeb512a5c2e2a28a9167918b965199172d82e8f9c06a76d96d"
+    },
+    "deprecated/includes/api/model/class-event.php": {
+      "md5": "e9067d24c50007581c7899c858c83729",
+      "sha256": "8ab1fee70647291d71ef20ffbc0ae3341fafb3c4fa2fa077bba5b9d867965242"
+    },
+    "deprecated/includes/api/model/class-eventdata.php": {
+      "md5": "243989947e068f913efa6fa9b92ed953",
+      "sha256": "017d06c75691dbe6b224953d7b754a2c2f5be5d451f78694624ed2329fee487f"
+    },
+    "deprecated/includes/api/model/class-eventobject.php": {
+      "md5": "f7bb4f0ba1c0138ba0c1c7be1d4101ac",
+      "sha256": "fbdebc24fd8ce3f896d5444fbf178081c734215206b9717cea6a043bc2cff971"
+    },
+    "deprecated/includes/api/model/class-invoice.php": {
+      "md5": "562199c14af24240bed0db40eccd51e1",
+      "sha256": "f4829ab9bb11384a55682fc899b6477ad06ae4692b662ff943c42b64302291c7"
+    },
+    "deprecated/includes/api/model/class-invoiceitem.php": {
+      "md5": "b0b39c6c4b3df0f740566afecf7096f0",
+      "sha256": "584a026db60f598c230237f770e22b347af93dd926225ace484d043e1f132f9b"
+    },
+    "deprecated/includes/api/model/class-paymentintent.php": {
+      "md5": "532be76396e9239e407e798ac620ba2b",
+      "sha256": "a683c9b6591dde8c34804239c66f31bc7c00dc8a988a60b4ad5cbe4266d8f4d7"
+    },
+    "deprecated/includes/api/model/class-paymentmethod.php": {
+      "md5": "7399639c586699d954e9aeccf531adc1",
+      "sha256": "ef19311ed1b01ffc917cc3e8dfe79b29dae714575bf03c5011f16a01f63f72b4"
+    },
+    "deprecated/includes/api/model/class-plan.php": {
+      "md5": "73c89840245ebafce16d8681bff9c1ad",
+      "sha256": "aaaf1d947291bb142f20e98388956eac0a4cca4db0f00cd06f24dd987cb46fbb"
+    },
+    "deprecated/includes/api/model/class-product.php": {
+      "md5": "cd0f09cba1bc06708f823f9bff3fea54",
+      "sha256": "619e8e7310c9defad084833af326cab92aaac1bca6eeab48b63410bb389903c2"
+    },
+    "deprecated/includes/api/model/class-refund.php": {
+      "md5": "5f70a53f4db6b0548116bf5610bed994",
+      "sha256": "958129e1d3d2f66e0af5c5ad54cf83313e48c37db300da189e465b753ea28bf7"
+    },
+    "deprecated/includes/api/model/class-session.php": {
+      "md5": "0796e9b2a42f105a5d25e9808d6d5550",
+      "sha256": "e59b7e8dd7bf9198b4a0321a9d96e88c5e7b00d9290c3377d6e32cf07d649324"
+    },
+    "deprecated/includes/api/model/class-setupintent.php": {
+      "md5": "2b929cf3b0af461e4d2a2bcf4c624d03",
+      "sha256": "d4d76ff78556f74b35d3fb0da9e0d195c941d3bb735878631aa2af2d30762dae"
+    },
+    "deprecated/includes/api/model/class-subscription.php": {
+      "md5": "2ee08d071d162b44d4604a576d1e7c99",
+      "sha256": "9f12cde51d8fc5b233e7ca00bed0a45ae4cd035592d7963b8b5679de4e1314f9"
+    },
+    "deprecated/includes/composer/autoload_classmap.php": {
+      "md5": "8645d3a4e3ad87e7cf4d88a46717aab4",
+      "sha256": "894fbd23013969829316a4c244401c65355ee4d48440f2d533fb517c693b717d"
+    },
+    "deprecated/includes/composer/autoload_namespaces.php": {
+      "md5": "35e12c7d76c4a81633bcf547c0e229a9",
+      "sha256": "6d1b582b311799934568f00d45e01de7a04f8a1865a8a72c7841904ad4dac3a7"
+    },
+    "deprecated/includes/composer/autoload_psr4.php": {
+      "md5": "4a3003b80d9b4668194ee39a29b3cf94",
+      "sha256": "d2e8a08fd93dbb174ab6b27aeb2026108bfd99c73e1cb4772f4845da41fe5ed6"
+    },
+    "deprecated/includes/composer/autoload_real.php": {
+      "md5": "8c0f7013c040ce5db000ad6e5a46e6e4",
+      "sha256": "bdb74962ba290b6d02b1b41dddf0a254e6efb3d5892f9c88d7e6ef5f14347fae"
+    },
+    "deprecated/includes/composer/autoload_static.php": {
+      "md5": "fd5cf949909985fbf29ca49bd343079f",
+      "sha256": "c3d440f11a26adbe45c35c713f9676897a527d3e6cf593b53117ba793ebbe82e"
+    },
+    "deprecated/includes/composer/ClassLoader.php": {
+      "md5": "a0899dd7d97c25fe1d872a542afa6081",
+      "sha256": "e4fc4d4487a4d766d3ef14606fa0d8ff09dd7f3f0885425803d7aa7fc68e2c3d"
+    },
+    "deprecated/includes/composer/installed.json": {
+      "md5": "443787364cdcb481882887e191ee298e",
+      "sha256": "c6219aacb7a92db34685aae33d4a10f54486d646214bab840866774a0fb88d61"
+    },
+    "deprecated/includes/composer/installed.php": {
+      "md5": "184b3883ddc2349fbfdd0946a7782136",
+      "sha256": "72b99f43265b3dabca5e0843998efd152f91d5f26b16f10e90e243b128a25fe4"
+    },
+    "deprecated/includes/composer/InstalledVersions.php": {
+      "md5": "6e8e69c6477d19e737fcf35230ba59e1",
+      "sha256": "11d6d58417d3eba5a8a3160cc831b6d13085b2b2aa663718a74c90e058750bbb"
+    },
+    "deprecated/includes/composer/LICENSE": {
+      "md5": "955d5fe58c231244f6b49000f383b5e2",
+      "sha256": "c8cce4b6b9729f264ffdf9296d505d63432497feeed1f586d1902b942197e024"
+    },
+    "deprecated/includes/composer/platform_check.php": {
+      "md5": "15e1efff88933be3dd5740e3c9530478",
+      "sha256": "a35a93ad352c7c414cd970603b92d1b8f0e01c96108d2e0febfbdc7c9558f1fa"
+    },
+    "deprecated/includes/payment-element/class-gf-payment-element-payment.php": {
+      "md5": "ec195d037e6c985e4e715951a334596a",
+      "sha256": "8935cafd0fbb67a9f10bb0dda254530dfa996efa97b9969d1842aae521dec469"
+    },
+    "deprecated/includes/payment-element/class-gf-payment-element-submission.php": {
+      "md5": "5f105ca656c942c0784ec2ca8eaa05c3",
+      "sha256": "5771d4d8d9a286c63fb48fd6872526b86adbe73871af6bf629ec02bdb8485097"
+    },
+    "deprecated/includes/payment-element/class-gf-payment-element.php": {
+      "md5": "1d360fa298738c2e80e82040ff04b5e7",
+      "sha256": "756b9ad75186e2d7f8f654673728a1eee48ace40fd1e09213cfd55a45ebba892"
+    },
+    "deprecated/includes/stripe/stripe-php/build.php": {
+      "md5": "616d1b823a6de242c2236823a1ebb307",
+      "sha256": "31e5000ff2d02cb5cd2009b6dfda07bb8cfb964f23ff1ef31627effc31d78557"
+    },
+    "deprecated/includes/stripe/stripe-php/CHANGELOG.md": {
+      "md5": "9e6d3ca11993fe477d9dd30fbdf4c353",
+      "sha256": "7a90f7027a89e6fb477b8963b3c57c5bbb36020c3235e6a7ca4f199a8b5c2db3"
+    },
+    "deprecated/includes/stripe/stripe-php/CODE_OF_CONDUCT.md": {
+      "md5": "ea886c2e5771558a5112328ac8d93392",
+      "sha256": "11f6f3ee5f6adc31fb43aa5feebc07f7a0b586669b0ab9c9251170108a031106"
+    },
+    "deprecated/includes/stripe/stripe-php/composer.json": {
+      "md5": "7db036d90d932ae65e0d58233d5c0ab7",
+      "sha256": "6187359b918e3e53db6020511f16509bcd3d1a12a08ca2ef2fb0c0bd2adb6bc3"
+    },
+    "deprecated/includes/stripe/stripe-php/init.php": {
+      "md5": "da392cd5034545e1d279a24394ff3b48",
+      "sha256": "d6cb4f9616868292b8268d1922580ba67b38a7b3fb269636c8422dc1821c9e13"
+    },
+    "deprecated/includes/stripe/stripe-php/LICENSE": {
+      "md5": "7d3ba0ac2a57368a17ff05cd5dc09a4d",
+      "sha256": "94f42d92c166f90b1af271f69eb2202f7be24f9aa32944d777ab0ff2beee84a0"
+    },
+    "deprecated/includes/stripe/stripe-php/Makefile": {
+      "md5": "967e1378d355d14ecbf9b7fbbbcbd461",
+      "sha256": "64f775d92cb6a1040f7660f0c0bbbfee08a0d8497b170f2d68b9c8ae0e99e674"
+    },
+    "deprecated/includes/stripe/stripe-php/phpdoc.dist.xml": {
+      "md5": "d15629e83d0e2ec033b1f5e6b775ec93",
+      "sha256": "4243cf3df640eb59a477a999ae0a1239e8edc2255ace0402673912aea3a472b3"
+    },
+    "deprecated/includes/stripe/stripe-php/phpstan-baseline.neon": {
+      "md5": "70d0ad520088cb36ac49459e1c24bd81",
+      "sha256": "4954ac185d9df5547d5685f94720e8378f289ddda1a20fe929d03b0dca9b4ca6"
+    },
+    "deprecated/includes/stripe/stripe-php/phpstan.neon.dist": {
+      "md5": "fe5b0ab8e2264a5ffb3565f30140cdfd",
+      "sha256": "ee7dc41afc4e4dffdceeec7a76cdb7dd48175136b7832f92da5d5bdcc1889cda"
+    },
+    "deprecated/includes/stripe/stripe-php/README.md": {
+      "md5": "d18c8bd3c49f28ca93b17c5dd0e17b86",
+      "sha256": "34e16922ec1c7b0ec253ead15e73d7a2a2d78dd080b4fd83c93f76039deb6f3d"
+    },
+    "deprecated/includes/stripe/stripe-php/update_certs.php": {
+      "md5": "fcded1b19bfba1d7dcea22acff2e0ff4",
+      "sha256": "eb783b5b8ff8e106a5f01383daabef8676df436f780cbf6e310b6e0b79387163"
+    },
+    "deprecated/includes/stripe/stripe-php/VERSION": {
+      "md5": "8de37f277f29ad43163133b6a8635733",
+      "sha256": "210f3be682a7c564ed5984313ca51ce2284a47fb9a5a93809884cd05c2a113d1"
+    },
+    "deprecated/includes/stripe/stripe-php/data/ca-certificates.crt": {
+      "md5": "6c8779e5755d9dddf677bf7a52d035ce",
+      "sha256": "38b6230aa4bee062cd34ee0ff6da173250899642b1937fc130896290b6bd91e3"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Account.php": {
+      "md5": "0c1618876fe962da8f4774c16621fd3d",
+      "sha256": "9bb78bc33106c775293d645a88940dd3181e350feae7b7b159fb94376084691e"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/AccountLink.php": {
+      "md5": "c3a8614ad0b3697f6b24300195662007",
+      "sha256": "5f260ae6b795fa49a201db323fb5dcde9ff37c6ef8533e2fd624ab274994e154"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/AlipayAccount.php": {
+      "md5": "76a75c60cbda147b4506586f354c9ccc",
+      "sha256": "7bba07e943cce9228363ce7342118c8397a9a8f1593efbc2d4f46a546ab07629"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/ApiRequestor.php": {
+      "md5": "ba0a1ed53f6ae6ea6db75fdc30969066",
+      "sha256": "c518858c228c0902131e5e356a8c16fe620eb952cf318a5b1034693bbded68da"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/ApiResource.php": {
+      "md5": "1ff684b841b98a643b0e6a698502848f",
+      "sha256": "39e04872788b48c08dc078973abd12307570f63222ef4834725f57bafcaccc9a"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/ApiResponse.php": {
+      "md5": "850418dd5b48d698adbce260b27034ab",
+      "sha256": "1825fa7eda6050c18a3457c3e7f8fbcdf7df1dc42071c3fad2b7ba08889404ae"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/ApplePayDomain.php": {
+      "md5": "05782411d93e1adf06825d71b4c3b4a1",
+      "sha256": "b71174025c6fa36c735672b1795c5bcd291a72321823b9b70cc3ac7d26726c74"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/ApplicationFee.php": {
+      "md5": "70b19a90dcbc124b2f9002e4c13c868f",
+      "sha256": "40013e3f8a8a7333eca9d9534819b51a32b0aac9b0a25b5710cb2d515247143c"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/ApplicationFeeRefund.php": {
+      "md5": "b41dd3abc9e618d695de1fdbcfa032bb",
+      "sha256": "6dded54e2681d4d80a75766a873a489e411675128b5211dcbfe17abb0e3202b3"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Balance.php": {
+      "md5": "8558d7821ff96fe4503e70a693bb6230",
+      "sha256": "0ccf652360e92af65929b40b5b0e4be5491e07c1bed06ee5e76f02a5cc5a69ff"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/BalanceTransaction.php": {
+      "md5": "6f28b6602d6de2309da0a268602cbaa1",
+      "sha256": "af1db0fcfb05ecfb86a64d8e5973b6499264572e933c7e9ed259dcd0b0c8e077"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/BankAccount.php": {
+      "md5": "b175e468fa138989dbaaf7c4139339e0",
+      "sha256": "3968ab2f7938abd1b61b778cd77763a21d654535039a442de131bbfdfa498861"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/BaseStripeClient.php": {
+      "md5": "aaafa7b5018518eaf9fd773ec4efc9b4",
+      "sha256": "ee148a0c4d7d4949824a10ca6ad4c484fe945f58358cc54b9f790a61fb4611cc"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/BitcoinReceiver.php": {
+      "md5": "544d89b795155addbb6c8997468c33ba",
+      "sha256": "12844099312f3fe41abb9c0f856f7bac716b52ef0b9c459111dcb06fa3987578"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/BitcoinTransaction.php": {
+      "md5": "f341a7362d16f1b5ffd973e1be3ec339",
+      "sha256": "4dd6046b258bbc78242867b41811ee78537c3b46dfe52425e867b90bb3f5d32f"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Capability.php": {
+      "md5": "5b8554284d4bd043c5c82c720e4e7159",
+      "sha256": "d24905468a6b8cca038dbdf8e49a3e59a1200d22e371e434928bed650dd9d241"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Card.php": {
+      "md5": "10c56d6dd7defe9ecb235228c11b43b4",
+      "sha256": "f129d0f10ebc31063020214a6609259b611bfa2fcc52ddc3d7860e0103711ed4"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Charge.php": {
+      "md5": "9fcdadb381291b51f852c485211fca74",
+      "sha256": "61eef9d8f5679b52a092dc933e27649bd965f875c33c50d17c87a5fb5c2ba435"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Collection.php": {
+      "md5": "6a3ed07edeb397bbe4c1dc9ebf646b18",
+      "sha256": "4822b01d2848ec704184248966e25e0ac67b7fe878a8469b3a8343144e99eb5b"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/CountrySpec.php": {
+      "md5": "6d1264669100fd52d152c0bab3318d6f",
+      "sha256": "2809d358a0850180b913d4f931db427d83ceaa3730720a1abe41e75207c899dc"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Coupon.php": {
+      "md5": "db73a6768b62bc1334d4239727208967",
+      "sha256": "1f1fd3a79017073b205c41b3e1b1bf0c9949a65a2c38bf1921548ccdb14ee9a9"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/CreditNote.php": {
+      "md5": "5690f3e840591813f8779ec2e616aae7",
+      "sha256": "19dc5cca36978518dfb0a708e11db3f3bf67a7f064fda3892568fea1a1657cd0"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/CreditNoteLineItem.php": {
+      "md5": "d70b8b02428d163b5659b18dd855bd38",
+      "sha256": "249d5422773920ffbf6aa8df5f9ec5f5d0a61fbbbdde283c7d2434a8010c51f8"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Customer.php": {
+      "md5": "273338896f01732fb949f6fbde8159b5",
+      "sha256": "d181abf5dd6537d91942c8bb8197b5bd6968272532c7a426f044eb44a1d00092"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/CustomerBalanceTransaction.php": {
+      "md5": "c21a52459dc5883cd7a752ad6aaaf27c",
+      "sha256": "1b8e52f6c769ff8fc83a7a117b1f80df20bb908ff09a54a207ead4f0631d4ea9"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Discount.php": {
+      "md5": "d90396421dddb2a344092a56c1fb12cc",
+      "sha256": "c84254b0eb427b91c479fcd369851f0651c3cd07487aeb9cf7c0d1c7226748a0"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Dispute.php": {
+      "md5": "c2c168db085cb635f1ae17c16c84c060",
+      "sha256": "930500f318f425608bf8fe60171453dd954819bc1c700d8caf411e91e3c495e5"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/EphemeralKey.php": {
+      "md5": "076605d50309b45cdab8499f2c7a920b",
+      "sha256": "de6c25b64a88fcb27f0b52b271d739c36591291fc49a18bca7b4285ed2fae8b4"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/ErrorObject.php": {
+      "md5": "259a175c191dffe8828bc863772993c7",
+      "sha256": "deb915253bb08d1f83453f194b693f93cb359d26859296ff56090b8b4b6af0ec"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Event.php": {
+      "md5": "9fb71ebf1fa8906459266f73025f26e7",
+      "sha256": "70767cd7037bffecde029094ed28c0462528bbf43fae7b875caf3eba2aab10a2"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/ExchangeRate.php": {
+      "md5": "01942984825e3b1f9ecb9176eb1cd3b0",
+      "sha256": "eb945d61fd1f417e77ca5f773618157bd7d6883174534fdcadd82e6e973d71dc"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/File.php": {
+      "md5": "87838ed55f6ef78a1c9fe08d769e3151",
+      "sha256": "84a0aa171095e0b0bc80b7cf011b0b3a44aeb3a417ad0cc896b4d1df7b0b4790"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/FileLink.php": {
+      "md5": "715b82366015cbf11588c472c63002fa",
+      "sha256": "fd1adc5578571a14dd4d9b86a2ca486a4a7774348832aa6a25802a6d6f79282a"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Invoice.php": {
+      "md5": "d5c00c9ff783b6b5a5b837bddaed724a",
+      "sha256": "b0ccd73a3c5cb1a94618c45abc9d73d7988959fbd2cb96c12723867a6bab70d6"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/InvoiceItem.php": {
+      "md5": "d2b2cca1f41fda836920bf7b91fcfc7f",
+      "sha256": "5beeb718034165a5293bccf1d13c2e742c2953feb4a70bf35de6707d789a808d"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/InvoiceLineItem.php": {
+      "md5": "01db2e4d6b9a952233f2e3593ae7b539",
+      "sha256": "20b906aaa3f4381e3f85c352c0e2f6c6a2eab489acf7e45400f861c61f3210fe"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/LineItem.php": {
+      "md5": "bf4b21825647a7d7f844ba8c6ff24015",
+      "sha256": "9f2aa34453a6514dc2a3699c6c626952f1bfd5e38025abad16bbdcfe5970e590"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/LoginLink.php": {
+      "md5": "9ff9c941f52d9e9ee3adac271330f847",
+      "sha256": "3f8e711506fdd2064fecf067a759c219dd58f74b76116a91270bee74c4aeab51"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Mandate.php": {
+      "md5": "fb814f6f0d4b418d018b0a9d2c8ee945",
+      "sha256": "912026764639bdd41498b6dc60ad070305177b41bad714b5292a454f07c32dc0"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/OAuth.php": {
+      "md5": "a40db6ab1b80b57677d89f52fb14f9a2",
+      "sha256": "7b366f084dde305e7ae2af3ec2ad920fc7e10f226d4f11cdbbd421c5ad6eb0f5"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/OAuthErrorObject.php": {
+      "md5": "94096d2bb6e2d4d1e20cf09698625386",
+      "sha256": "fe54e3b950db8d3b5424f4f5931a89e055f070f01c0e0e22bea91ba5cf03b966"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Order.php": {
+      "md5": "457c428dc2d6896779a6c5a79906bc27",
+      "sha256": "888e82261be874ad16b5231485230d3ec61a63443deb0030c1b57719ff0a3e4e"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/OrderItem.php": {
+      "md5": "cef55c1654338eec6dbd3bfaaf576093",
+      "sha256": "4a0602ff4cf3a8fb38dd074c73ddeb16f8c727b07896d8b991c350541a175771"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/OrderReturn.php": {
+      "md5": "8910a674f531c8111a3488f1cd24cf9b",
+      "sha256": "2b1de11c4d6ee0135d244b45e5d830bf01a8967e7e004bc0bfb07ef7f5f38539"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/PaymentIntent.php": {
+      "md5": "aad54d89d06b540ba854c0119c7cddad",
+      "sha256": "7c18cfc538ad7c74952f36b5a6ad5c995d6343beb63ac2e6bc98fd0e4ee86e52"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/PaymentMethod.php": {
+      "md5": "59b30c18141ab03268e75ced9191c7ea",
+      "sha256": "2824f98d9eed0e68e834e6e7e484036bf2ada62d3f28f876a7ccb5208b2fea82"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Payout.php": {
+      "md5": "1334f7e07cabffd90699653ef9181a5e",
+      "sha256": "d30d0fa3d38d915e183a32eab4f6e37940cb23f46fa372fdd46f2f488e282567"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Person.php": {
+      "md5": "80cec447a06f47355969c88438c7c07f",
+      "sha256": "f3d4cabaae40245c8b11e78fb5bcec98836294e48474d0d4be06734195ad0a48"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Plan.php": {
+      "md5": "3d40ae118ef65cedbf0f439041e2caf6",
+      "sha256": "babd5eb081ce0ce333f6c1c36c4c4473b76fb2375f8be7271688ef64e6f43376"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Price.php": {
+      "md5": "b34ebfbb7b3f95f968487443b9ca5f97",
+      "sha256": "9f1985747de3c020ea660f227fedb93439cb1f2a0034581502515d23a786c40a"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Product.php": {
+      "md5": "249f66896e5462edcbb53c4fb1ad0ae4",
+      "sha256": "72e10f79158e61aa085dd62732124b00a6e9db90dd14700efbc5379f7d5b5485"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/PromotionCode.php": {
+      "md5": "04d5f0d8e47eed1705e8de3f8e869cad",
+      "sha256": "b4640210c79e24fd5845e87786c3441144ad93735c3c59430dca89f4d5de15df"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Recipient.php": {
+      "md5": "6acc311bc351e2559a1a46e4a26b4201",
+      "sha256": "674bc01cc4ffea40511641bd970cca48ac56577b224df0e52735b96f98707a93"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/RecipientTransfer.php": {
+      "md5": "6d6d84efd1e39cafe927a350e2d25060",
+      "sha256": "c6b902954a5541348e8e169bab07d679658497502754750067a79f9d8d3246dc"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Refund.php": {
+      "md5": "3fe2cbcbe7d6ccf963b204e917edf409",
+      "sha256": "d5af8ed049d509d4449df40bcd61236b28cb1010e16408a1b8b209abfae0959d"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/RequestTelemetry.php": {
+      "md5": "c69b571ecd51e30b14d17e243555a51d",
+      "sha256": "bf06384cdee00f8772eee133a62e1774b115b3b55d1f63ef0645e7458b51a45e"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Review.php": {
+      "md5": "e6cf93927d9d42b0e694eb1a081a8438",
+      "sha256": "975c97aa5c31b38622d2962f57e61ee01057e05b21c411f75c1f2d19a2ddbe68"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/SetupAttempt.php": {
+      "md5": "551b32b54e1866a95645f751144d58af",
+      "sha256": "46be8a04bccce065a84c36c634d05c62accae9819d95b83add03f4c6cc4b2fd4"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/SetupIntent.php": {
+      "md5": "bfb326a9df6127741c93c66c213dd430",
+      "sha256": "4dd99fda1f8e47288ad18aa55bc885b6dbdec05a41446ca451420192b7d8ef07"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/SingletonApiResource.php": {
+      "md5": "eb87a052cc31d998c4ef20ae4a1af725",
+      "sha256": "7a8fba797b80a682a5b0f4263958ae059827f5ea514c4ff52c6f3cada8d2a838"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/SKU.php": {
+      "md5": "3943a3f93706037d3431b9a111a97890",
+      "sha256": "a4a10810387d0be6c544613aba68528f31d050970236701e266bf88d664fcd47"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Source.php": {
+      "md5": "726997a9cc56bf177ba2fd11c37e5805",
+      "sha256": "ec512d11db05f6dd858d0ae0758165a2d44f53f93f89ddcd684635b03f5ed0aa"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/SourceTransaction.php": {
+      "md5": "a067745bc864281a6affb7235b595ed4",
+      "sha256": "1c84e78b09ea0154593f65c4359f008e3ba101d26584f61770bde498ef248a66"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Stripe.php": {
+      "md5": "3388ea814e6e5a62629508e164ee2a5c",
+      "sha256": "de2f250aaa8067f15721a3edaa048b9130e2f48c6c5aed03be3b36e562839b31"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/StripeClient.php": {
+      "md5": "07fb091ddf63ef9371501ef68a82bd3b",
+      "sha256": "0ed1d3208dee12e60931c1b4dbd2bec838712274135d07f7f8fdb789d8ba5b83"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/StripeClientInterface.php": {
+      "md5": "5f5f160522f229c8aea9ddc4e26c3e89",
+      "sha256": "03b18fc1465cfca04be3d5bd89ff7c8e58120eeed49032733403fa77a8d17e3e"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/StripeObject.php": {
+      "md5": "9a907bda05ee8c0c684315679f8354c7",
+      "sha256": "520b950a214d3813cffdaae2da8911cefe562448d4544aa240bd3a3e626a3a5a"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Subscription.php": {
+      "md5": "872a950495a409be4f1dbad6b322d563",
+      "sha256": "9fe60fc8d02c5539c48b9300b851cea571960ecd61e3ff87f74c3b3a956d31bd"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/SubscriptionItem.php": {
+      "md5": "55017ae5a4f899636739a65ec2f06808",
+      "sha256": "83554de1f1d088fe32c672670fab3c31bb43cadae0ba5cfee4c8b84d5cfb326f"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/SubscriptionSchedule.php": {
+      "md5": "f6950ce0613f8bcb533121f0e83556ca",
+      "sha256": "e66314ade0674536b5636e935f1c4ff8949a63bb8d3004ea61dd6ac1ce6529ff"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/TaxId.php": {
+      "md5": "b0b90b285634092ed9a54fdfd91fcc9e",
+      "sha256": "c847cc0849b7d2a4531b08f2a5614cf67d8e04c077fde266201917665ae09c9e"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/TaxRate.php": {
+      "md5": "0b234daac7ad5fcdc8142cd900b84af6",
+      "sha256": "9659dda050ba42e690d63dd9eeb3ce790a6b712e6f5639c34b8f4efdd93f44f0"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/ThreeDSecure.php": {
+      "md5": "6a19d9e8fa408f93c98c1d665d4a45ee",
+      "sha256": "3f8973d2ca0b07db0697cedc832b7a3b5a943174f59fd4536bb0fb7cc9387ba4"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Token.php": {
+      "md5": "920452336abf115408d0e29368045d1a",
+      "sha256": "95f05c134282519de139049baa95b96bc46a60845ad068fc10427e2f829f74da"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Topup.php": {
+      "md5": "22f7feab130a79834c966fb8b8fe1bf1",
+      "sha256": "f0e546ebd791194e4e5660320432b28e93ff1c0e2f1843afbefe4c0c3357e1dc"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Transfer.php": {
+      "md5": "338da33a3c2bdf752d3783ed12515919",
+      "sha256": "2229a18ceff2880763a2c8fd51ffe8c5d495affbe4401b6335c60a311954067c"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/TransferReversal.php": {
+      "md5": "e32f3e6958f9bb54108c3f6f38b0cbc8",
+      "sha256": "4254314cf13dbcab25dd6623e6f3430fd249457d86a4d18c681a31dbd6b96e16"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/UsageRecord.php": {
+      "md5": "1e67dd633dfec4124d32c25aaee6c77d",
+      "sha256": "0b387351f3944db108e603d71ee6fe729db2456a2cc58e9a30a8c10fe06817f4"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/UsageRecordSummary.php": {
+      "md5": "5b9dc07ce08282a20f91111738af4437",
+      "sha256": "54682b3ec772aeb35d52a63b40a2aefb4072bfd54db9a58c22895a823c086208"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Webhook.php": {
+      "md5": "c83cd8bb326f61fdc8f7aee3a4dfb52b",
+      "sha256": "9200240c0bfa988f9a52f9d6547b09abbcdb69bde9198f7f1b39c1aa077fcc39"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/WebhookEndpoint.php": {
+      "md5": "61a2199197265a5b15160b57f18bda41",
+      "sha256": "e818d69c68d28deb79da1f3d033e024643f9b1b7bed4cf8eeecd60557bac5aea"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/WebhookSignature.php": {
+      "md5": "df26d7e35440f2c2f17c8cc4d5abcfd2",
+      "sha256": "ac42c4f1c87ed303241c5df2d435ef71793670c0123917a26e435e5c439afa92"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/ApiOperations/All.php": {
+      "md5": "e0e9e52ee907ae99380b6db990068ef3",
+      "sha256": "e6fc524b2cc2ebd96f4df553c6b56b16a024ef640d9f90778b0a0f05b9461a6b"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/ApiOperations/Create.php": {
+      "md5": "c4088e6e0cf88333c7c208832efe5df4",
+      "sha256": "db81d35095fcb5d8b2955774ccc0765cea70513bd4b06e1aa5a2d45544466050"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/ApiOperations/Delete.php": {
+      "md5": "c0be83a8925007ae72fe7c9a581bb3a4",
+      "sha256": "03d3dc66be66be215ab26715493662b0f1ffc14cac4eb595d31396a33a042bcf"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/ApiOperations/NestedResource.php": {
+      "md5": "b22e06820e5fd2a44836581a5308e47c",
+      "sha256": "35cb24eacab322ec65150843b000b96c137777253b269fbc645d5d961a304e1b"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/ApiOperations/Request.php": {
+      "md5": "4cef8185ddfa2d932f16060c210c582f",
+      "sha256": "6ac28271c4fb13bd30b29659f196e445c888baef0c7e746d954c2c60621448b3"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/ApiOperations/Retrieve.php": {
+      "md5": "a3f01d2578d9858f866a3d085ff67e1e",
+      "sha256": "5ade193e9f6ce18ed2eff19a40e90795e35e481984e84c560ff42441b968a996"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/ApiOperations/Update.php": {
+      "md5": "526827c107eea05e06a5798654d3eed5",
+      "sha256": "f65b68979c76dbb6d44e361ac2b3800168e5e5e1e37042de68a670adf1f92f00"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/BillingPortal/Configuration.php": {
+      "md5": "0b9be72672c2e85d3662eda60fd5dfdb",
+      "sha256": "d3a016ea290f86bb3171296ecd05bd553edda47664a809ac8801d1310add83ff"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/BillingPortal/Session.php": {
+      "md5": "da20cb59a8e3d6ec7eb4634b0de93f38",
+      "sha256": "a5606f22d35f65e92190c6dc81c3c8b1585890df52a85ba7bf94be5c1e721586"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Checkout/Session.php": {
+      "md5": "7971433da93d6e66d92998a49add85b5",
+      "sha256": "7091d02544b1fc5c50c33abd90afab2cafedfbc29528ef08b2715411f21badda"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Exception/ApiConnectionException.php": {
+      "md5": "d6afe3bf6035bf63c701ad210e2c71ed",
+      "sha256": "7e4e280e6f3276ca295f954f5765a13ff77eccb2d0abbf051722b08529df4dc9"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Exception/ApiErrorException.php": {
+      "md5": "ea47553d081040a4f7d935135a6b52c3",
+      "sha256": "f5e83d2e1d0c453c39fff92c3f28d7898d6d27cd18c5937613ea9a2c199a1738"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Exception/AuthenticationException.php": {
+      "md5": "8b76a2c6efe67eedef2a1d22fba016a5",
+      "sha256": "b5c334417c9f96d30a63e9844aedcea78d3a4b024edf1b132250bb956c37fcd8"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Exception/BadMethodCallException.php": {
+      "md5": "262e26cdf20797fa56214fee5d3452a7",
+      "sha256": "96cfef2484fc96c9d4e8a9acaf5f3da2195facabb22bcfbc5d77f622f952270a"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Exception/CardException.php": {
+      "md5": "cb4f1d6d787f0c665076062a7a523b33",
+      "sha256": "9d6770e85dbe3c9295a6c105ce0215443c8cd12452f4b48182a0ac6e0b9442b1"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Exception/ExceptionInterface.php": {
+      "md5": "c73168fcbbc465f6ad3e704ed4841265",
+      "sha256": "775757eccd2f3e35c17b73de9b9d67876148aa3ccf5d8167a590877463c455df"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Exception/IdempotencyException.php": {
+      "md5": "c6cf8d7ae4668014f74df4dda355dfd6",
+      "sha256": "3778aa3be5b48fa992a3927c8903e6c279722d89d650036b42ed8a49036d8d20"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Exception/InvalidArgumentException.php": {
+      "md5": "fb832e2f02be0e1f75c468e28b10ed5a",
+      "sha256": "f5833bd33b94dbf0fc0894fd1236cc1dced7b40fa2454f24521566b9d0c8d65f"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Exception/InvalidRequestException.php": {
+      "md5": "c765496699127503df5fe1143b26dae3",
+      "sha256": "41d9e55fc93f7f1f0bc4798f04a58e3e0ddd0cd354be974003e907f2afd6e967"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Exception/PermissionException.php": {
+      "md5": "01d429b201a9dee45ee4d401e00bc536",
+      "sha256": "d495f66cc663bc6d101de7501824c41f893c7edddf4ebd2a5f1dab25fd9369a1"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Exception/RateLimitException.php": {
+      "md5": "9d96f8264c596666047623b670e877e4",
+      "sha256": "f7d3bab2090bc0ccc39870b66e7efd5ff8587b7565e07c6fd6557b8bb4cea038"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Exception/SignatureVerificationException.php": {
+      "md5": "1b549ac36fbbded01ec8c02e0e8abdf3",
+      "sha256": "b336f904d4747b3c948385d2a588cb6985cef265061a0f725835ad7d11d3630a"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Exception/UnexpectedValueException.php": {
+      "md5": "d997fb0ae928c8c7e75de2381f43b729",
+      "sha256": "0ccf692b7420371922be00b829266d4d854f91242e9ab54e7b1045afc536f6d1"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Exception/UnknownApiErrorException.php": {
+      "md5": "5d0e07bb54153ebde47eeeb799cc1d9c",
+      "sha256": "dde678c1b90d06cd58903e8e28c912de49a075198b59c160b4726e490da3d012"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Exception/OAuth/ExceptionInterface.php": {
+      "md5": "a94a37c08f321528af88823b489d574c",
+      "sha256": "24bbc43871073734d76e422439cff3adcc0d515c45a6e61ae2b72722f500acbf"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Exception/OAuth/InvalidClientException.php": {
+      "md5": "045a21fe20b400d65927cd480fbb6ccb",
+      "sha256": "6dcb36d953b74d0ca9909be4c2be7ee95db0b5db0e30434485fd01fe65517450"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Exception/OAuth/InvalidGrantException.php": {
+      "md5": "e42656f6fb127f03a1416f40f9acf17d",
+      "sha256": "824e8d2038a7eff1b289dacfa7158670a5a6112a22d7076b300b9940893899b6"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Exception/OAuth/InvalidRequestException.php": {
+      "md5": "f9baea13b5935fe0e0a37d22741918c7",
+      "sha256": "0a99b7fb0103483e25b73c0eabeec2febdf919975cd64e0ae31742a7b125885a"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Exception/OAuth/InvalidScopeException.php": {
+      "md5": "3064c267da5b16f2d97c8aa273b9c237",
+      "sha256": "2c894e5fdaa0cce1779504b74c2dce917ea2a2a7a70dea56e89364dcab6c9129"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Exception/OAuth/OAuthErrorException.php": {
+      "md5": "9b73343061a955aa68754ba180117619",
+      "sha256": "190192a089dd44b7f1d02495412a90e634f7663e84846e283e481e1c45009423"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Exception/OAuth/UnknownOAuthErrorException.php": {
+      "md5": "03b59657c9c9830cdf73d7349b1a53f6",
+      "sha256": "a0c67fa9125170cb220758a669a8d64831fb73acbcb43dd6e1b71389d20dc692"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Exception/OAuth/UnsupportedGrantTypeException.php": {
+      "md5": "f15d4f2be96c702e5df43e41976b8c33",
+      "sha256": "81b519c96c7792d25f0b1e84ec0e7d43c3985c8f87106fcd07dfd8f5c58b964c"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Exception/OAuth/UnsupportedResponseTypeException.php": {
+      "md5": "d77f3fee1a3fb40656425968cfdf10e6",
+      "sha256": "2c79d1746ce8b63ebe36fd67e9e3cee7389da23481af062f487a5c0614f34403"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/HttpClient/ClientInterface.php": {
+      "md5": "e81b98e28ed12bc9d904d1650e4292e2",
+      "sha256": "cce19ef762040b182a7f74724857dfddc87b9464bc9ba7c1d5cb8f22c6a506a3"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/HttpClient/CurlClient.php": {
+      "md5": "9570f0bd00b199853bdc6b95eb2d8906",
+      "sha256": "b1b5b3b0bf9faf2b4ee440fb2894111a3661288f1d9814da4ae7f56f116a36b1"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Issuing/Authorization.php": {
+      "md5": "b92ff29f39eef800533f85a7d9276d2a",
+      "sha256": "e99385be21e55d9489261f1feb80f6f49cddaacc03f5e15c8112cf23a967d98a"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Issuing/Card.php": {
+      "md5": "67ba075eea334b4920b9771b7028b50d",
+      "sha256": "42b5e2f389b650d5244be54cd87f24e044ff9fad785f164c46593ee6d6046f28"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Issuing/CardDetails.php": {
+      "md5": "2149ad870a7249c198b58a4705d4d47a",
+      "sha256": "79cc64cd2b4a6e6675f33a500a7c88cf474c359c00aa25a5eda22483a0267714"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Issuing/Cardholder.php": {
+      "md5": "6c55065ec5c34cabfa90f6f398b04d1d",
+      "sha256": "51a45581d39238cb2b1d194f5f393086d20def7c13dee5c8a2fe71d51a85b041"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Issuing/Dispute.php": {
+      "md5": "203b3a1c69ccadb707b52e35f316d8a7",
+      "sha256": "cd7aed0395afe09bf709e8428c101b1c4e2aeb183abe0a25b95b4684d1c1551d"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Issuing/Transaction.php": {
+      "md5": "ff4259747d596acf1ea5d03f7c295f8a",
+      "sha256": "69e5069995b282aa3bdfc7e607e3977e4e872c688ac77ae532e9542139316f93"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Radar/EarlyFraudWarning.php": {
+      "md5": "fa055121bdda533c0aa8243c33c88257",
+      "sha256": "ef7bd3a0cfabaa89af335eac5c5f858fbbf47a4547feb2c04d11c103995b1fa8"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Radar/ValueList.php": {
+      "md5": "232b882714177a419ea5955a637fb492",
+      "sha256": "b790ad90a3c1779242ef11b39a1ebf8d52e5e7c10ddf4827f7f60b207aa382c8"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Radar/ValueListItem.php": {
+      "md5": "cbaea2c7561b0e6ae735902289fd4361",
+      "sha256": "c8f81e5cd205cb782c500ceeb3b47e1c9eaec9d887ebb16146394ad40a107d74"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Reporting/ReportRun.php": {
+      "md5": "bcdc4aaf4b5ba9c503d8eae0836057f8",
+      "sha256": "15cb2a8ef4dff7cf0262d3f4a0a8445d289e4b7722937df2d7ba22c321fbaf58"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Reporting/ReportType.php": {
+      "md5": "c64d324a809e2e50ebe5f2edac5b9032",
+      "sha256": "30fcafc7911599306fa15404b0b17b64227b21587ca6980fee4bdf3655a5e32c"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Service/AbstractService.php": {
+      "md5": "64b29ab5ce1da6fa2ede240071507bfd",
+      "sha256": "4a6c5e7abd446883d25b5f9c68fa67500863389f3ffafb04e0c1c5d8c3f8aa26"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Service/AbstractServiceFactory.php": {
+      "md5": "13fde4c29dc169c5a60e18fa2f3cc5a4",
+      "sha256": "84be2d97005b965f899900015d551c54f0b81d301bbb7d24bbdf3a6f038fa153"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Service/AccountLinkService.php": {
+      "md5": "cb9f09910bb700928bedc3be39c3e7e5",
+      "sha256": "baf1499e50b1f47825d36e8b31b31b23bdaf9eac8ab2f7d259557a6e4070040e"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Service/AccountService.php": {
+      "md5": "52009e098d5c30e91908db1e85a4b574",
+      "sha256": "f655ced0d6358717396397e78d4152e9aee3d1fe115e4314beb36bd7511b3c7d"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Service/ApplePayDomainService.php": {
+      "md5": "7d3014008a4778cb43a0d2e6ccbaef68",
+      "sha256": "73b6f1736ea213ca156cdebec335a95a6efaff6a257080f4ee6895c38967f2da"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Service/ApplicationFeeService.php": {
+      "md5": "d27fc13d643fe906f04711cca6d0be9a",
+      "sha256": "6d590b5b9a7a6644ef0c9e06e39e3727b49d0dff16f7280f8f1f68308638aea5"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Service/BalanceService.php": {
+      "md5": "bd140995b1cfa75602e6e7234c324b3d",
+      "sha256": "bd8521737564b25b8f90035c14585341912e311414d3ee8f34d46851914c3bca"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Service/BalanceTransactionService.php": {
+      "md5": "c8121b3f7645f621f7e297c7acc5c48f",
+      "sha256": "fef1a8fdde8b07dc52c5b9378074325f88df58c8566a437976600abe13d0f8d3"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Service/ChargeService.php": {
+      "md5": "b8810e2a6a623ef37ddde43cc437d2ce",
+      "sha256": "7e97a6a2e1634532ca74a3d93e3574b9124df87989b74fed1b17a2a0055becc2"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Service/CoreServiceFactory.php": {
+      "md5": "92f1df3aea2d09f528c58e4928344f11",
+      "sha256": "1de3319647f12a2b69bebfd655e71f4d598a7a40ac4dbca7654f612c24c5023c"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Service/CountrySpecService.php": {
+      "md5": "653874a4a316b0acd0358b96cbda57c7",
+      "sha256": "d0f56a42fb1a8f77b79e6f67d7e674c7145627b339551e03eea6c79d89bf5d1d"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Service/CouponService.php": {
+      "md5": "d7af61aaf2ece0fecc28321b50712695",
+      "sha256": "9275bf726a246c71021c96276d3c44698f0e4aa45410ba20f946034bf3b2a935"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Service/CreditNoteService.php": {
+      "md5": "e68fb782c7fbb8838c0d116071802bd9",
+      "sha256": "d5729b1230eafc394cef2b4738d911620fd6fa15e7bd799323730a01cc589514"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Service/CustomerService.php": {
+      "md5": "50d4c05b0a8c5dd85b82ac661f212bb5",
+      "sha256": "6895be1604a43b01acf91494ffef89446a2743cb5ee63ea594b78a1b517accce"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Service/DisputeService.php": {
+      "md5": "3187c3703035640084fba712b6184008",
+      "sha256": "737513cefa356c677062bc1cedcc4f64e03b3347439f509ab3fd0cf6ee288ed0"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Service/EphemeralKeyService.php": {
+      "md5": "afbada361f5fb7196b945a1ef0776180",
+      "sha256": "de266e9a08754f0e8828d4b6b76e0b047ec33dd662398b072440372504b697b5"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Service/EventService.php": {
+      "md5": "d7b86190884f219e3430f02ec2185df5",
+      "sha256": "611d4a8a07333648ee851ce6d345cf98fcdf9652cca6ac70ca77c7b8674ef310"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Service/ExchangeRateService.php": {
+      "md5": "893f3c6f933fb1d6cc55d1e5dc544a7e",
+      "sha256": "b9ada95bc58b60e84e407058555d9faebbfcf8dccd3b377278974399accfc9c3"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Service/FileLinkService.php": {
+      "md5": "d5b65b84b5b28f51f3db913984e47e49",
+      "sha256": "994dcf8314279e4bf9cf442c09dc6e552c413e557c325ce9110e2f78d49e1c05"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Service/FileService.php": {
+      "md5": "fcd934428c969b4752310a3d2ceff692",
+      "sha256": "9caec69215a7b196939972736b678c8fb74cd98e47400b6092727d2b787ddc20"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Service/InvoiceItemService.php": {
+      "md5": "7d037ef31cb4ce73f70a51fc15715020",
+      "sha256": "883d8871efbb92dd75575c022a950ddbb74f8b64f8cfd1ccba8e0aaae2385729"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Service/InvoiceService.php": {
+      "md5": "e01c43681a6b31856a4faab37493a2a9",
+      "sha256": "fe57ab023c84bd7fb6be8523aa937b74b510f669ccb29fa5209280ef9a7ea915"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Service/MandateService.php": {
+      "md5": "c93ac2d69ac5e0d79fa9d03e670928aa",
+      "sha256": "2496706a25ea9320120a0d64d473044e0f60a870c8daae6d9d160136a855676b"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Service/OAuthService.php": {
+      "md5": "9738c1e6bbe6d74d65a86b8efe74c9df",
+      "sha256": "bedcf82a884cad713538b5672ee845181a07ac3d675341bd9447cda93ddd59d0"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Service/OrderReturnService.php": {
+      "md5": "7c2b037550ba779b7b87e803f05b8a17",
+      "sha256": "75c9dcceb033439bb520e59f2bcfa28e18bfcf58b910dcb7c0785e79adc43b46"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Service/OrderService.php": {
+      "md5": "45c064bb0ba121bbbcf50ed9a3d2e63a",
+      "sha256": "5377f072755f866c52bb09aaeb34811d7e9ef80aa437988daf90e14db2730102"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Service/PaymentIntentService.php": {
+      "md5": "e18465fad289450e5d8f7feb4f2f7c88",
+      "sha256": "50e999cb2a35a9abcff83608e9d3f6bb2d17cd3a9bc0e6caecd8af479b8600a5"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Service/PaymentMethodService.php": {
+      "md5": "90c6d04d08ce5662f63b98f8f93f63df",
+      "sha256": "7429def5675107e6bfd153a9a150c3d5b0f9ec61283c8e1f34f690c010ef8e4e"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Service/PayoutService.php": {
+      "md5": "bb810bae278ff3ef6dea30ec9f868988",
+      "sha256": "9df0f6f49dc4c2bb28b72658b4c23f48feca0f9cd4a4a233c4de6f881652001a"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Service/PlanService.php": {
+      "md5": "be8e2a9dfa6eb62dc11575d38d02abbc",
+      "sha256": "fb9a8dea3d1c8d0f362ad06efb65bf7fe9fd080e6fc60ae0cb17eefa5c0fc82d"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Service/PriceService.php": {
+      "md5": "5269add4207b8fcb9db408f13b43eebc",
+      "sha256": "6457d68a591ea160b295111fb2989a35b731eabfd5f12eb740260feff96b10cc"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Service/ProductService.php": {
+      "md5": "f8b81712ccfb94fdd1d0092b67cc4210",
+      "sha256": "c680e67852e66b0ee6783697d94d1c69f57278a8ef7c8a5e7e4d753a14192a7c"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Service/PromotionCodeService.php": {
+      "md5": "8da6b756b8b097e0f2363344817d0f72",
+      "sha256": "bbeda3e1c31384237b598cae6f19edd980caeeaf03d70e8516a26510573f877d"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Service/RefundService.php": {
+      "md5": "a29054f29c274a2589b61924d71e1d6c",
+      "sha256": "1eb4d02d22c151ebec4156b705b72d08fc17d9a8461462680c02d4cfed094e6b"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Service/ReviewService.php": {
+      "md5": "2ae4e227ba55907d4b2b7c9c2fa73ef5",
+      "sha256": "c15d5f2e976b9ac31020bb54fa2b52ea595c4c079c561ae7d5c707dee2362ccd"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Service/SetupAttemptService.php": {
+      "md5": "3f1d82817359f5b85855ad6d449ccef7",
+      "sha256": "835b3f5b63129d5c6706ec4f35ebb94aa932a9bb39356e09948df0dd46a71dfc"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Service/SetupIntentService.php": {
+      "md5": "d6ccf34eb88d08daff42f5eb169553ba",
+      "sha256": "7731bb88d8e4ad74bf972a31b2098ef258c88310494a0657c3d414ab0d954a8a"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Service/SkuService.php": {
+      "md5": "d29d560f2de39ad3336e2e3619a9d943",
+      "sha256": "12a2d9394ad7f054d785eb86f8aca06f6b842e1f130dd45b320a65328909fa05"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Service/SourceService.php": {
+      "md5": "18f7c73246e119808e82262f8797686d",
+      "sha256": "ef3f959897605ff3b3aba1e94024d757618ba0a6e5c5b4dd744adc6f08c73349"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Service/SubscriptionItemService.php": {
+      "md5": "2a87b7979061d5e0faafa1ded2dac629",
+      "sha256": "5a3967983f676518a70c91f16181ad1b569522a56f5a0c74446191affc83b39b"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Service/SubscriptionScheduleService.php": {
+      "md5": "c0bed98f4c5ec1872a551971411aeed3",
+      "sha256": "731b37eb2aa33446d7a56bd4ed7610ee860eb0982fa41c134390455a7c63ec6d"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Service/SubscriptionService.php": {
+      "md5": "f79a5c0459cd709e01b0ae5d7707b4b4",
+      "sha256": "fcc7e138058f322a8b5c2982e3e77ce96801832ec32f1176752fbd7dc8ee5d8c"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Service/TaxRateService.php": {
+      "md5": "afd386380e51409e6c3b91bf941335c2",
+      "sha256": "0ee4164ad2e202345e9de2ecb495d167dd7ff1eb6d7a628b2802fa9499deeea1"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Service/TokenService.php": {
+      "md5": "15d094f5968c4b2fceeb38f3d1b1d8e0",
+      "sha256": "7dc88c89502ab328977a62e3d06f1afd16d5fafb37ad9608ba39391c8d922cf8"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Service/TopupService.php": {
+      "md5": "efa7ac9a7b65e8470fa069d0454b8b89",
+      "sha256": "67e8556edd9370bdef99dfb801e3669c16188841d2a07a256d5705971199e3da"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Service/TransferService.php": {
+      "md5": "a5ba33f5657e37616921ba7630ccf6b9",
+      "sha256": "4e4fa21895251eec475cde6d014153deb53f1fcebd76720e0ecd4c224ae1c0c5"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Service/WebhookEndpointService.php": {
+      "md5": "0b03b66ff450220ca128a1aef6a15ae6",
+      "sha256": "8cb3c3997e04f8c2152d2ce85761e0a85bbec01305da601167334faf6a7fc12e"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Service/BillingPortal/BillingPortalServiceFactory.php": {
+      "md5": "ae9692ccafcd005083d739a1b6a77418",
+      "sha256": "b656c969f5d7f0bcb4a9fa63bdd250da815541ea65b9e74a7cb27c0b9236872d"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Service/BillingPortal/ConfigurationService.php": {
+      "md5": "682616b11edcab7b58bacdae729bb668",
+      "sha256": "831c71d8919ba64ea7bbfc0be0d3ee5d2cf9d59ca258a3a55821093d9f73841b"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Service/BillingPortal/SessionService.php": {
+      "md5": "50425a2df0323103c1dd936bb252e50c",
+      "sha256": "0957e872e340a9982024109740a120297f486471e8f4f4652d6b828b8003ea5e"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Service/Checkout/CheckoutServiceFactory.php": {
+      "md5": "0b260be8f3a6359ac23e9a0ef61cc3f2",
+      "sha256": "85414ee2e47fe4e09da32ac8e9895543430843406f8e970f382cfacf9b898740"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Service/Checkout/SessionService.php": {
+      "md5": "575f3e99f427b19d17757d1a5abc7769",
+      "sha256": "6f4f0271aaaa05cb895a6d699a5622d53623f8ed958947e5a45ec2ea58a969f9"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Service/Issuing/AuthorizationService.php": {
+      "md5": "02da4b4fe423a0cfeb9536a0199fe6bf",
+      "sha256": "3eecd3d5e016982c81df7eeea2f91ff31fb9c890e82b1613353869a025b2b24a"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Service/Issuing/CardholderService.php": {
+      "md5": "ff18db4e30ddcb0a86f0d113de4aeeb6",
+      "sha256": "f57f410faabd81edfcbeeb1ace5ff226d86a7e750194e26c83ffeff2ddcc4894"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Service/Issuing/CardService.php": {
+      "md5": "fa1d4df8da167233a7a394dd0baa5888",
+      "sha256": "75d1dc687adb11632a74af6f1f9f8172b1ceabe84c223f74d0e777c84834c002"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Service/Issuing/DisputeService.php": {
+      "md5": "b78f2df4a11b0b90695450da838a3533",
+      "sha256": "1428257a233861e0519c7da1a6b7df3cc12bdfa7913a057c70987bf321fc8077"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Service/Issuing/IssuingServiceFactory.php": {
+      "md5": "ac4d7062e0f148ece03c0fb9b7f6755c",
+      "sha256": "f715b841cb41f54f5c1d370e2f87e90eef431a0f21d6fc6522f5c64fc3c1b44e"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Service/Issuing/TransactionService.php": {
+      "md5": "f49d7257b52f19c90e717d962bba8a1b",
+      "sha256": "d2d3b81194057543b5f50d7626c96ba8f6a4d32bd2d58ba9e28421b876336d22"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Service/Radar/EarlyFraudWarningService.php": {
+      "md5": "f72f5e24baf9ab24ac7ff9904ae4562a",
+      "sha256": "3187e8fb52ab97edcc73479dad90ee8fc881878f0479f5a3c64fe2be05b150e0"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Service/Radar/RadarServiceFactory.php": {
+      "md5": "96a6e622be0a559098d550acc30816ae",
+      "sha256": "793c338a6dc780713cc05b0d475769c57ea86d9cade1d297579c9ae095e4a3a7"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Service/Radar/ValueListItemService.php": {
+      "md5": "000998ac70c990ccb0faea7a6ee48cb5",
+      "sha256": "5fc3f7b1b1918195e1d3be3cc4f27eb8f8d66de066ad51a7d81883643c938bb4"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Service/Radar/ValueListService.php": {
+      "md5": "6953e59f7d2d2ef0e032744a09fc190e",
+      "sha256": "07b587f37919254a4d74832dbfc195e73d665afbff60bac2640f74ddab28a1f0"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Service/Reporting/ReportingServiceFactory.php": {
+      "md5": "ad91ba4c23066049b3f8cc5c21c8496a",
+      "sha256": "028ee9f82555ad1073ea023d008ff3741aaff5214e3ccae5048d1f849edf8e7e"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Service/Reporting/ReportRunService.php": {
+      "md5": "f3140f5fbf5619c81bd05b6369b9f2c4",
+      "sha256": "e74836088531aa77e59e68377fa1dff93a450f3eed8748457e5d2468cc8cb70d"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Service/Reporting/ReportTypeService.php": {
+      "md5": "00ccd6a945952783620347e4fabcbb82",
+      "sha256": "bf21592acb390f6db153739927130f9d2405febf63cadfb6c3aa8ba6120059cd"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Service/Sigma/ScheduledQueryRunService.php": {
+      "md5": "c8b5a456e68623160f5af7901071d8ac",
+      "sha256": "549364969f93612a2cf08686cacb2bd018f69f0e11d3e0c561737451a03b0e6a"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Service/Sigma/SigmaServiceFactory.php": {
+      "md5": "24d09bd7fac9158156437cff3d4a8948",
+      "sha256": "d88356145c36b3b11fa6c2d44087c6520b79de46a22f2fff90f19fcf25163854"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Service/Terminal/ConnectionTokenService.php": {
+      "md5": "40893a28e084921573dd4e7621c385a2",
+      "sha256": "ea993fcfd394c6bb562c672f1ff5e281ad48bcc61233e16b13b1c783e61c1989"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Service/Terminal/LocationService.php": {
+      "md5": "9a17e6f9a9b0633d04b2011c80bc8088",
+      "sha256": "9a86013c0fb38ea34eb29b0e177c1912cbec4688535329a72d44ccee3c048d56"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Service/Terminal/ReaderService.php": {
+      "md5": "6f820eea35ca2b190a6f18e9d8985221",
+      "sha256": "5cf80b9df9eb96c0cf687af713d0fe7fcdbc3d3581591b6e9ba4dc97b7fe0af8"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Service/Terminal/TerminalServiceFactory.php": {
+      "md5": "c633e6c5ab7b8efe6082b47e50a57654",
+      "sha256": "ce96de83bc848f07acdd7adff0293ca2f3f1ece6b95338c5e860aa0974a5578b"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Sigma/ScheduledQueryRun.php": {
+      "md5": "2b0c75f1ff267f3a5cfefa429772aa5f",
+      "sha256": "2e16a0b78b449d296aac8fc1438cc7c9c60e76cdc16b9fe4bded8d8269d37f63"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Terminal/ConnectionToken.php": {
+      "md5": "c957bcff39b0a13c2282c2041c381e46",
+      "sha256": "ae6b038e50b23122d8bcc0cebd345155ed43162145999e9ea036c4d126ec9c9d"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Terminal/Location.php": {
+      "md5": "6ba044a9c5be74a4788896bd6bd16cd8",
+      "sha256": "82756297e3d8f29a983427cb7542069d42e21abafc97c3ec38ff3a6706678d82"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Terminal/Reader.php": {
+      "md5": "4fec46d89d8ab5f7f94a68da5037051e",
+      "sha256": "fbd438bea2f3b5c50e886bba65af350274ddbd30ebdf2779986026493f19ff78"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Util/CaseInsensitiveArray.php": {
+      "md5": "850203305ebb6fc6f1c149580dea8e6f",
+      "sha256": "f87da15434f2ec5f61f851101e71b18d9ede4a2cedacd9b9fa013ef487b1a640"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Util/DefaultLogger.php": {
+      "md5": "f2498800f3f135a481c76b3e50a7555e",
+      "sha256": "29bb6cdc1efe5d5dda6a4b33e90ba009ad6eba29062449fef96e6b9234920926"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Util/LoggerInterface.php": {
+      "md5": "26f45d947a1329c067f4a83ab76c8a65",
+      "sha256": "7f040015e109b2be4d7a9214f5d07cb915714d9a4785e58057d61b822ce634d4"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Util/ObjectTypes.php": {
+      "md5": "569c1bf8731c66e73d55cb8420d443ec",
+      "sha256": "76e552b994cb12f9959a2d1db070791c7d8142fe1f679e9f596137161a3e1ec4"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Util/RandomGenerator.php": {
+      "md5": "123e04f5b4c5833510df7d01aad78bf1",
+      "sha256": "d5961ac8a201cb01925a3694c32b671e9f7eed8b4f2a34130cbb8bef004be59f"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Util/RequestOptions.php": {
+      "md5": "ee1c8597bc8a9cb7264041c85564758e",
+      "sha256": "f4b6db736c2415bdd1cab1efe9ef4220623ef04a3253ddba3a5eb49628f6cf06"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Util/Set.php": {
+      "md5": "f4c7e4dec52e4f650a872594df8bd543",
+      "sha256": "d36f569ac5de3b7eb2985cbfeefd058f6cd0fbbcc52e2ae4b4097ea4f5890ad8"
+    },
+    "deprecated/includes/stripe/stripe-php/lib/Util/Util.php": {
+      "md5": "8406e48d0cb844b90c216476283044f1",
+      "sha256": "c191884ec8fb37a4f804f47c7196935a071564ecea069f9529fb71b82b01ce85"
+    },
+    "deprecated/includes/views/subscription-information.php": {
+      "md5": "8c0f744339240776395da0f94be0fcbd",
+      "sha256": "b93c31983139bd8f1c9a83b9c367430b11fdadbe1e82c6ce44eb1d86498134aa"
+    },
+    "deprecated/js/admin.js": {
+      "md5": "4986c60ad3d47c3e33858efbcc55be99",
+      "sha256": "465877566374fba791699c355f7f0beb855b2e17d2e22fe01d59585bcc75ca36"
+    },
+    "deprecated/js/admin.js.map": {
+      "md5": "acc80f327c19a8b1c6712e46d04afb60",
+      "sha256": "e9784ecfb5dd1a88d16c6b3eb63d855c867ea95e407f903f7ec68c3a74d7c6c0"
+    },
+    "deprecated/js/admin.min.js": {
+      "md5": "c985943439a16700e80b07242980ae3c",
+      "sha256": "632aab3895d18ec6934144ed04bba820bcc4b4c8db65c4cc05348e2d40f0c14c"
+    },
+    "deprecated/js/frontend.js": {
+      "md5": "f20e92188819ca7e919294b10f5a7ad5",
+      "sha256": "808d7821bea2cd1430a146d7961ecdc272ef217108f8713d6b5d38261fcae4aa"
+    },
+    "deprecated/js/frontend.js.map": {
+      "md5": "f7f385faaf5c7cc4c8fc4d3fac1cf8ad",
+      "sha256": "28ba9803e7f40d91b6e4445afa5c0ac5f8733a27e55202d96db522918e056a4a"
+    },
+    "deprecated/js/frontend.min.js": {
+      "md5": "733cccad8d4e348f6635dab553287b0b",
+      "sha256": "1940a43ad5b879abdf633e5fe6589599fdff4b352874e4ed3629f474f8d2edf9"
+    },
+    "deprecated/js/payment_element_form_editor.js": {
+      "md5": "bb3472c6e9f7b5b2f0aa8fd2baad600f",
+      "sha256": "2bfb76aa9d116cf376a8364b122d9a76059647d8a36f6d572d0ae579f731c33f"
+    },
+    "deprecated/js/payment_element_form_editor.js.map": {
+      "md5": "470c680bf37a36487b74dab4fa17dd7e",
+      "sha256": "37aeeb83585a3d1c7e00ce735dd18ed9d7a90f5eb6f16e9f090bf43b4123d8c6"
+    },
+    "deprecated/js/payment_element_form_editor.min.js": {
+      "md5": "58e0f72c3ba0f0bec242abaf4b17d3b3",
+      "sha256": "a4938d9998bee51a4e0522bb5a800999105c4620de663d8bdb6964dba38cc5b1"
+    },
+    "deprecated/js/src/admin.js": {
+      "md5": "139dfae6947af0a40c123b5725f3d795",
+      "sha256": "f419932f487f20c1555ed0b08aefaaf1d8caa6c9396e19834764cf5e6f170a25"
+    },
+    "deprecated/js/src/error-handler.js": {
+      "md5": "9f98063af46d5a0797a91e9f24de8403",
+      "sha256": "9a6708101410199371177961300ae981b4e50ad62c5830a37250b2e14439e806"
+    },
+    "deprecated/js/src/frontend.js": {
+      "md5": "00145374d1c188b1560a5f9162beb69c",
+      "sha256": "685bcfeae3499a37dbe38d53998c1a9a819b4d15179568f931d36d9202cf13eb"
+    },
+    "deprecated/js/src/payment-element/form_editor.js": {
+      "md5": "fb2fb76e8ee6e96387e633ebfc3422ba",
+      "sha256": "034cd5e8cbcb2f005315c63810c5c9703a82b41461e2e38ed6c3955c8dd457bd"
+    },
+    "deprecated/js/src/payment-element/request.js": {
+      "md5": "2e861490abf6d56bea964004f6d812ae",
+      "sha256": "8af6bffc33d5d09689f31c5ce0f38021304c466330b2cc5bc1aa5d105156acb4"
+    },
+    "deprecated/js/src/payment-element/stripe-payments-handler.js": {
+      "md5": "8fc059890b28256ca6bfbc643bb27b06",
+      "sha256": "b88cce3a63f8de3ac58131252ecfe5a7bea2c681ee249aabe73c6c4ede85bcfc"
+    },
+    "deprecated/languages/gravityformsstripe.pot": {
+      "md5": "62524a80b1a405af1e4e6a0a3d6ea720",
+      "sha256": "0c95bcfe08003b3fdac3df306497e3b0252b37fdc0b73eef1a53ad7762b7df8f"
+    },
+    "images/light-on-dark.png": {
+      "md5": "fcc31b5424e4c02af268fffadc4315fd",
+      "sha256": "a4743ff84f96f5b558ad34f66a685fda30c8b4080702223649df4f3f8498e785"
+    },
+    "images/light-on-dark@2x.png": {
+      "md5": "7d28b4aa6c33c9a5ab476add86a74800",
+      "sha256": "b42b257922ca8562b22ce457c501f2b9d7b1f7350f609e76ff586204a3a541bc"
+    },
+    "images/light-on-dark@3x.png": {
+      "md5": "6c5916ad7107bb28886e40cbc0346075",
+      "sha256": "81ac4c25736895152e47bcc61392555eb91f5a9ecc0e3c8adba70f87200fe958"
+    },
+    "includes/autoload.php": {
+      "md5": "692c1a81f0ea06e93f4ef3552b44f08e",
+      "sha256": "0f5bf06348ccbde35aff99c5888ac7f1dc20bcbe0a541dced7d77237737109f3"
+    },
+    "includes/class-gf-field-stripe-creditcard.php": {
+      "md5": "7cb77ebb7ac97cd90add8379bf4668d2",
+      "sha256": "016a5f83f51d09df5706d9a24a521ee7ac9be50090a1b8acd76a8249cf0dd6d6"
+    },
+    "includes/class-gf-stripe-billing-portal.php": {
+      "md5": "93a2b61641b1cafbc26a958c8e937777",
+      "sha256": "de1df3a02187e097862187ba2ca867c7b9cff8f2e909ddfec38d51f7b8c81a32"
+    },
+    "includes/deprecated.php": {
+      "md5": "6822a62d39e018230a330993cabd3107",
+      "sha256": "b12799df10555bc07d7257318e75286cbec487d5d2fdc895b7b2fa5a47aa886f"
+    },
+    "includes/api/class-gf-stripe-api.php": {
+      "md5": "cf5867a7e42c2f44358ad10cd01b7b3e",
+      "sha256": "7b61a7120c0ea937e918a5821ce0c50bf7ecd7984504dc3ff0fb3516c8c2a808"
+    },
+    "includes/api/model/class-account.php": {
+      "md5": "f00f4468569989f16df596ebe079bdb1",
+      "sha256": "7c98a4b70816c7c7821262f2cdadf99521a60d191a2ba51870fff5f158391edc"
+    },
+    "includes/api/model/class-base.php": {
+      "md5": "8ed134fd873ac6e118e82fe952099abb",
+      "sha256": "e0075c67582d1d3869bddd1cad59cbe886f203bccec319c8953670c67df666ac"
+    },
+    "includes/api/model/class-charge.php": {
+      "md5": "a0994c2df6048a9fccb88282e14837aa",
+      "sha256": "6352d0c263575cdb093a147cf4cb82f0daabb7d2fbe7056083fd8c567f2e6a5a"
+    },
+    "includes/api/model/class-coupon.php": {
+      "md5": "c9625b2115c39d665d7ec57a0ffa530e",
+      "sha256": "08c39cce993b949f078412186df059c801324eaa76bca4fd89d3afacd49b3aa4"
+    },
+    "includes/api/model/class-customer.php": {
+      "md5": "b398f69f312d60084b6e300097088992",
+      "sha256": "6d4900726019c0f98511bf0a40de9086ff80bc94fcd1f9ed54f54cf9eb93a38b"
+    },
+    "includes/api/model/class-customerbalancetransaction.php": {
+      "md5": "97dfc2bd0da1713ae2ea2a26bfa366b4",
+      "sha256": "c3f51a701ae34fbeb512a5c2e2a28a9167918b965199172d82e8f9c06a76d96d"
+    },
+    "includes/api/model/class-discount.php": {
+      "md5": "829e430be01b61ed4501cd7fe217269e",
+      "sha256": "2a9c2db4882d9ed01e773773019210c1710fbb2ccc1ada21b558a0597dedce6e"
+    },
+    "includes/api/model/class-event.php": {
+      "md5": "e9067d24c50007581c7899c858c83729",
+      "sha256": "8ab1fee70647291d71ef20ffbc0ae3341fafb3c4fa2fa077bba5b9d867965242"
+    },
+    "includes/api/model/class-eventdata.php": {
+      "md5": "a3f50b19fe6ea68bf4b1fd53e29c897c",
+      "sha256": "e9e5b731fd69fad709696184ef0b2b3158e50d0469aa66a0c17716a6d824d3aa"
+    },
+    "includes/api/model/class-eventobject.php": {
+      "md5": "0fc3b19b7bd0c8c2c134b88cde2e82dd",
+      "sha256": "9877ac144bb5d0e441b119db287d37dd7be158478282cb4497baea7332e90fcc"
+    },
+    "includes/api/model/class-invoice.php": {
+      "md5": "b69954057c9553f9c3aa90ac4c0b3c04",
+      "sha256": "516b936b639b07f71e21f2585f0435e44e95d73bf254fa196e3ee83db4240c77"
+    },
+    "includes/api/model/class-invoiceitem.php": {
+      "md5": "b0b39c6c4b3df0f740566afecf7096f0",
+      "sha256": "584a026db60f598c230237f770e22b347af93dd926225ace484d043e1f132f9b"
+    },
+    "includes/api/model/class-invoicepayment.php": {
+      "md5": "405b1988b47c486dddf3614ce7079a37",
+      "sha256": "f22f3cfd5eb248c424337cecd8deee91b4e4e8c7a3a80cfade9a049ae833427e"
+    },
+    "includes/api/model/class-paymentintent.php": {
+      "md5": "20b8fbf750f832f82613e070b03c5408",
+      "sha256": "badaac6ed879b606ffe0dff528c43c9f5ba261ea2497208eda417f9e652d189e"
+    },
+    "includes/api/model/class-paymentmethod.php": {
+      "md5": "76576897ae2a45ed1b7282994f2af320",
+      "sha256": "990980fc8c47b23f13dbe5e2d73e0f4aa1ec022b94f8d5c19991c62289aa63db"
+    },
+    "includes/api/model/class-plan.php": {
+      "md5": "42fb74d92efe56e9eff98a9a0324b64d",
+      "sha256": "c2ed8dd5bb4f0367ffac420f9fae280064fd12a754595be8731cd27e06682201"
+    },
+    "includes/api/model/class-product.php": {
+      "md5": "5c03a301288f41922b41ac933cce3280",
+      "sha256": "aeb6a5a80ddbbbcf80415a71ee3e36026580252944bf47fa3755b80ae425f47f"
+    },
+    "includes/api/model/class-refund.php": {
+      "md5": "5f70a53f4db6b0548116bf5610bed994",
+      "sha256": "958129e1d3d2f66e0af5c5ad54cf83313e48c37db300da189e465b753ea28bf7"
+    },
+    "includes/api/model/class-session.php": {
+      "md5": "b05ad8c865bcabd76f28130fed30590f",
+      "sha256": "8d68a79a4e91275edc7d7e3653bec08adf32f63ecbdbb42caa1eb6d83268d709"
+    },
+    "includes/api/model/class-setupintent.php": {
+      "md5": "0ca7e2c8d3ed7ad994b4176d33d56ea7",
+      "sha256": "8f1c0c9d5d961b9c87b261bdf8d9b1a41026a236f6c8ebd34bee782e2e03a15f"
+    },
+    "includes/api/model/class-subscription.php": {
+      "md5": "fa9a8afaa941a2134b40c147469adfae",
+      "sha256": "1f254ac1a6ff5b4c3bfe0d5718492a97b1be6ba18582edae0d266399ad05d75c"
+    },
+    "includes/common/class-webhook-handler.php": {
+      "md5": "6bf9ebf7a5057dcc9826de2a8b5136b1",
+      "sha256": "54a1aeff292a96dd5dfef4cedce05dfb1459bddc020c63397443bdb137000870"
+    },
+    "includes/common/class-webhook-service-provider.php": {
+      "md5": "13a42d4f4b3d8ac401e7b283503abefc",
+      "sha256": "9c4f406590dba52a31c09710e762b39631215d5c39e87d44ced3ba14c0b9e9d9"
+    },
+    "includes/composer/autoload_classmap.php": {
+      "md5": "8645d3a4e3ad87e7cf4d88a46717aab4",
+      "sha256": "894fbd23013969829316a4c244401c65355ee4d48440f2d533fb517c693b717d"
+    },
+    "includes/composer/autoload_namespaces.php": {
+      "md5": "35e12c7d76c4a81633bcf547c0e229a9",
+      "sha256": "6d1b582b311799934568f00d45e01de7a04f8a1865a8a72c7841904ad4dac3a7"
+    },
+    "includes/composer/autoload_psr4.php": {
+      "md5": "4a3003b80d9b4668194ee39a29b3cf94",
+      "sha256": "d2e8a08fd93dbb174ab6b27aeb2026108bfd99c73e1cb4772f4845da41fe5ed6"
+    },
+    "includes/composer/autoload_real.php": {
+      "md5": "8c0f7013c040ce5db000ad6e5a46e6e4",
+      "sha256": "bdb74962ba290b6d02b1b41dddf0a254e6efb3d5892f9c88d7e6ef5f14347fae"
+    },
+    "includes/composer/autoload_static.php": {
+      "md5": "fd5cf949909985fbf29ca49bd343079f",
+      "sha256": "c3d440f11a26adbe45c35c713f9676897a527d3e6cf593b53117ba793ebbe82e"
+    },
+    "includes/composer/ClassLoader.php": {
+      "md5": "a0899dd7d97c25fe1d872a542afa6081",
+      "sha256": "e4fc4d4487a4d766d3ef14606fa0d8ff09dd7f3f0885425803d7aa7fc68e2c3d"
+    },
+    "includes/composer/installed.json": {
+      "md5": "443787364cdcb481882887e191ee298e",
+      "sha256": "c6219aacb7a92db34685aae33d4a10f54486d646214bab840866774a0fb88d61"
+    },
+    "includes/composer/installed.php": {
+      "md5": "184b3883ddc2349fbfdd0946a7782136",
+      "sha256": "72b99f43265b3dabca5e0843998efd152f91d5f26b16f10e90e243b128a25fe4"
+    },
+    "includes/composer/InstalledVersions.php": {
+      "md5": "6e8e69c6477d19e737fcf35230ba59e1",
+      "sha256": "11d6d58417d3eba5a8a3160cc831b6d13085b2b2aa663718a74c90e058750bbb"
+    },
+    "includes/composer/LICENSE": {
+      "md5": "955d5fe58c231244f6b49000f383b5e2",
+      "sha256": "c8cce4b6b9729f264ffdf9296d505d63432497feeed1f586d1902b942197e024"
+    },
+    "includes/composer/platform_check.php": {
+      "md5": "15e1efff88933be3dd5740e3c9530478",
+      "sha256": "a35a93ad352c7c414cd970603b92d1b8f0e01c96108d2e0febfbdc7c9558f1fa"
+    },
+    "includes/elements/class-gf-elements-handler.php": {
+      "md5": "58918b7db55b1f2d9b58d9b2b4322e4b",
+      "sha256": "33fda2069fbf8046c795878bd1076f466c5afd05c043f2b41d4cfbc73746f478"
+    },
+    "includes/elements/class-gf-elements-service-provider.php": {
+      "md5": "5d52b6922d833bb6e38e921eae5c003f",
+      "sha256": "e0089222e9c2585cbb7604bfcf1304949b02b6feb2dba41bb191a7ba41f302ca"
+    },
+    "includes/elements/config/class-gf-stripe-elements-config.php": {
+      "md5": "90c28ef85ba96f85bcfbc58b217d8a94",
+      "sha256": "f839098e17d2fed8fb170c5ccfc5d669d823e5de7822487cc6f6995ca04d0dcd"
+    },
+    "includes/payment-element/class-gf-payment-element-payment.php": {
+      "md5": "ec195d037e6c985e4e715951a334596a",
+      "sha256": "8935cafd0fbb67a9f10bb0dda254530dfa996efa97b9969d1842aae521dec469"
+    },
+    "includes/payment-element/class-gf-payment-element-submission.php": {
+      "md5": "48495d86afaf9e22a52c8f7fc7e4b693",
+      "sha256": "bda67d62d7ae228fd60d16bd5e3f99ec527701f31b3abb4883875d72dab91976"
+    },
+    "includes/payment-element/class-gf-payment-element.php": {
+      "md5": "a6270c1684b9389c2c36b23df98eb255",
+      "sha256": "8ee74a03d413da45590345dd2423036ba90fca018ab40152f7ff656af2ca6f59"
+    },
+    "includes/stripe/stripe-php/build.php": {
+      "md5": "616d1b823a6de242c2236823a1ebb307",
+      "sha256": "31e5000ff2d02cb5cd2009b6dfda07bb8cfb964f23ff1ef31627effc31d78557"
+    },
+    "includes/stripe/stripe-php/CHANGELOG.md": {
+      "md5": "9e6d3ca11993fe477d9dd30fbdf4c353",
+      "sha256": "7a90f7027a89e6fb477b8963b3c57c5bbb36020c3235e6a7ca4f199a8b5c2db3"
+    },
+    "includes/stripe/stripe-php/CODE_OF_CONDUCT.md": {
+      "md5": "ea886c2e5771558a5112328ac8d93392",
+      "sha256": "11f6f3ee5f6adc31fb43aa5feebc07f7a0b586669b0ab9c9251170108a031106"
+    },
+    "includes/stripe/stripe-php/composer.json": {
+      "md5": "7db036d90d932ae65e0d58233d5c0ab7",
+      "sha256": "6187359b918e3e53db6020511f16509bcd3d1a12a08ca2ef2fb0c0bd2adb6bc3"
+    },
+    "includes/stripe/stripe-php/init.php": {
+      "md5": "da392cd5034545e1d279a24394ff3b48",
+      "sha256": "d6cb4f9616868292b8268d1922580ba67b38a7b3fb269636c8422dc1821c9e13"
+    },
+    "includes/stripe/stripe-php/LICENSE": {
+      "md5": "7d3ba0ac2a57368a17ff05cd5dc09a4d",
+      "sha256": "94f42d92c166f90b1af271f69eb2202f7be24f9aa32944d777ab0ff2beee84a0"
+    },
+    "includes/stripe/stripe-php/Makefile": {
+      "md5": "967e1378d355d14ecbf9b7fbbbcbd461",
+      "sha256": "64f775d92cb6a1040f7660f0c0bbbfee08a0d8497b170f2d68b9c8ae0e99e674"
+    },
+    "includes/stripe/stripe-php/phpdoc.dist.xml": {
+      "md5": "d15629e83d0e2ec033b1f5e6b775ec93",
+      "sha256": "4243cf3df640eb59a477a999ae0a1239e8edc2255ace0402673912aea3a472b3"
+    },
+    "includes/stripe/stripe-php/phpstan-baseline.neon": {
+      "md5": "70d0ad520088cb36ac49459e1c24bd81",
+      "sha256": "4954ac185d9df5547d5685f94720e8378f289ddda1a20fe929d03b0dca9b4ca6"
+    },
+    "includes/stripe/stripe-php/phpstan.neon.dist": {
+      "md5": "fe5b0ab8e2264a5ffb3565f30140cdfd",
+      "sha256": "ee7dc41afc4e4dffdceeec7a76cdb7dd48175136b7832f92da5d5bdcc1889cda"
+    },
+    "includes/stripe/stripe-php/README.md": {
+      "md5": "d18c8bd3c49f28ca93b17c5dd0e17b86",
+      "sha256": "34e16922ec1c7b0ec253ead15e73d7a2a2d78dd080b4fd83c93f76039deb6f3d"
+    },
+    "includes/stripe/stripe-php/update_certs.php": {
+      "md5": "fcded1b19bfba1d7dcea22acff2e0ff4",
+      "sha256": "eb783b5b8ff8e106a5f01383daabef8676df436f780cbf6e310b6e0b79387163"
+    },
+    "includes/stripe/stripe-php/VERSION": {
+      "md5": "8de37f277f29ad43163133b6a8635733",
+      "sha256": "210f3be682a7c564ed5984313ca51ce2284a47fb9a5a93809884cd05c2a113d1"
+    },
+    "includes/stripe/stripe-php/data/ca-certificates.crt": {
+      "md5": "6c8779e5755d9dddf677bf7a52d035ce",
+      "sha256": "38b6230aa4bee062cd34ee0ff6da173250899642b1937fc130896290b6bd91e3"
+    },
+    "includes/stripe/stripe-php/lib/Account.php": {
+      "md5": "0c1618876fe962da8f4774c16621fd3d",
+      "sha256": "9bb78bc33106c775293d645a88940dd3181e350feae7b7b159fb94376084691e"
+    },
+    "includes/stripe/stripe-php/lib/AccountLink.php": {
+      "md5": "c3a8614ad0b3697f6b24300195662007",
+      "sha256": "5f260ae6b795fa49a201db323fb5dcde9ff37c6ef8533e2fd624ab274994e154"
+    },
+    "includes/stripe/stripe-php/lib/AlipayAccount.php": {
+      "md5": "76a75c60cbda147b4506586f354c9ccc",
+      "sha256": "7bba07e943cce9228363ce7342118c8397a9a8f1593efbc2d4f46a546ab07629"
+    },
+    "includes/stripe/stripe-php/lib/ApiRequestor.php": {
+      "md5": "ba0a1ed53f6ae6ea6db75fdc30969066",
+      "sha256": "c518858c228c0902131e5e356a8c16fe620eb952cf318a5b1034693bbded68da"
+    },
+    "includes/stripe/stripe-php/lib/ApiResource.php": {
+      "md5": "1ff684b841b98a643b0e6a698502848f",
+      "sha256": "39e04872788b48c08dc078973abd12307570f63222ef4834725f57bafcaccc9a"
+    },
+    "includes/stripe/stripe-php/lib/ApiResponse.php": {
+      "md5": "850418dd5b48d698adbce260b27034ab",
+      "sha256": "1825fa7eda6050c18a3457c3e7f8fbcdf7df1dc42071c3fad2b7ba08889404ae"
+    },
+    "includes/stripe/stripe-php/lib/ApplePayDomain.php": {
+      "md5": "05782411d93e1adf06825d71b4c3b4a1",
+      "sha256": "b71174025c6fa36c735672b1795c5bcd291a72321823b9b70cc3ac7d26726c74"
+    },
+    "includes/stripe/stripe-php/lib/ApplicationFee.php": {
+      "md5": "70b19a90dcbc124b2f9002e4c13c868f",
+      "sha256": "40013e3f8a8a7333eca9d9534819b51a32b0aac9b0a25b5710cb2d515247143c"
+    },
+    "includes/stripe/stripe-php/lib/ApplicationFeeRefund.php": {
+      "md5": "b41dd3abc9e618d695de1fdbcfa032bb",
+      "sha256": "6dded54e2681d4d80a75766a873a489e411675128b5211dcbfe17abb0e3202b3"
+    },
+    "includes/stripe/stripe-php/lib/Balance.php": {
+      "md5": "8558d7821ff96fe4503e70a693bb6230",
+      "sha256": "0ccf652360e92af65929b40b5b0e4be5491e07c1bed06ee5e76f02a5cc5a69ff"
+    },
+    "includes/stripe/stripe-php/lib/BalanceTransaction.php": {
+      "md5": "6f28b6602d6de2309da0a268602cbaa1",
+      "sha256": "af1db0fcfb05ecfb86a64d8e5973b6499264572e933c7e9ed259dcd0b0c8e077"
+    },
+    "includes/stripe/stripe-php/lib/BankAccount.php": {
+      "md5": "b175e468fa138989dbaaf7c4139339e0",
+      "sha256": "3968ab2f7938abd1b61b778cd77763a21d654535039a442de131bbfdfa498861"
+    },
+    "includes/stripe/stripe-php/lib/BaseStripeClient.php": {
+      "md5": "aaafa7b5018518eaf9fd773ec4efc9b4",
+      "sha256": "ee148a0c4d7d4949824a10ca6ad4c484fe945f58358cc54b9f790a61fb4611cc"
+    },
+    "includes/stripe/stripe-php/lib/BitcoinReceiver.php": {
+      "md5": "544d89b795155addbb6c8997468c33ba",
+      "sha256": "12844099312f3fe41abb9c0f856f7bac716b52ef0b9c459111dcb06fa3987578"
+    },
+    "includes/stripe/stripe-php/lib/BitcoinTransaction.php": {
+      "md5": "f341a7362d16f1b5ffd973e1be3ec339",
+      "sha256": "4dd6046b258bbc78242867b41811ee78537c3b46dfe52425e867b90bb3f5d32f"
+    },
+    "includes/stripe/stripe-php/lib/Capability.php": {
+      "md5": "5b8554284d4bd043c5c82c720e4e7159",
+      "sha256": "d24905468a6b8cca038dbdf8e49a3e59a1200d22e371e434928bed650dd9d241"
+    },
+    "includes/stripe/stripe-php/lib/Card.php": {
+      "md5": "10c56d6dd7defe9ecb235228c11b43b4",
+      "sha256": "f129d0f10ebc31063020214a6609259b611bfa2fcc52ddc3d7860e0103711ed4"
+    },
+    "includes/stripe/stripe-php/lib/Charge.php": {
+      "md5": "9fcdadb381291b51f852c485211fca74",
+      "sha256": "61eef9d8f5679b52a092dc933e27649bd965f875c33c50d17c87a5fb5c2ba435"
+    },
+    "includes/stripe/stripe-php/lib/Collection.php": {
+      "md5": "6a3ed07edeb397bbe4c1dc9ebf646b18",
+      "sha256": "4822b01d2848ec704184248966e25e0ac67b7fe878a8469b3a8343144e99eb5b"
+    },
+    "includes/stripe/stripe-php/lib/CountrySpec.php": {
+      "md5": "6d1264669100fd52d152c0bab3318d6f",
+      "sha256": "2809d358a0850180b913d4f931db427d83ceaa3730720a1abe41e75207c899dc"
+    },
+    "includes/stripe/stripe-php/lib/Coupon.php": {
+      "md5": "db73a6768b62bc1334d4239727208967",
+      "sha256": "1f1fd3a79017073b205c41b3e1b1bf0c9949a65a2c38bf1921548ccdb14ee9a9"
+    },
+    "includes/stripe/stripe-php/lib/CreditNote.php": {
+      "md5": "5690f3e840591813f8779ec2e616aae7",
+      "sha256": "19dc5cca36978518dfb0a708e11db3f3bf67a7f064fda3892568fea1a1657cd0"
+    },
+    "includes/stripe/stripe-php/lib/CreditNoteLineItem.php": {
+      "md5": "d70b8b02428d163b5659b18dd855bd38",
+      "sha256": "249d5422773920ffbf6aa8df5f9ec5f5d0a61fbbbdde283c7d2434a8010c51f8"
+    },
+    "includes/stripe/stripe-php/lib/Customer.php": {
+      "md5": "273338896f01732fb949f6fbde8159b5",
+      "sha256": "d181abf5dd6537d91942c8bb8197b5bd6968272532c7a426f044eb44a1d00092"
+    },
+    "includes/stripe/stripe-php/lib/CustomerBalanceTransaction.php": {
+      "md5": "c21a52459dc5883cd7a752ad6aaaf27c",
+      "sha256": "1b8e52f6c769ff8fc83a7a117b1f80df20bb908ff09a54a207ead4f0631d4ea9"
+    },
+    "includes/stripe/stripe-php/lib/Discount.php": {
+      "md5": "d90396421dddb2a344092a56c1fb12cc",
+      "sha256": "c84254b0eb427b91c479fcd369851f0651c3cd07487aeb9cf7c0d1c7226748a0"
+    },
+    "includes/stripe/stripe-php/lib/Dispute.php": {
+      "md5": "c2c168db085cb635f1ae17c16c84c060",
+      "sha256": "930500f318f425608bf8fe60171453dd954819bc1c700d8caf411e91e3c495e5"
+    },
+    "includes/stripe/stripe-php/lib/EphemeralKey.php": {
+      "md5": "076605d50309b45cdab8499f2c7a920b",
+      "sha256": "de6c25b64a88fcb27f0b52b271d739c36591291fc49a18bca7b4285ed2fae8b4"
+    },
+    "includes/stripe/stripe-php/lib/ErrorObject.php": {
+      "md5": "259a175c191dffe8828bc863772993c7",
+      "sha256": "deb915253bb08d1f83453f194b693f93cb359d26859296ff56090b8b4b6af0ec"
+    },
+    "includes/stripe/stripe-php/lib/Event.php": {
+      "md5": "9fb71ebf1fa8906459266f73025f26e7",
+      "sha256": "70767cd7037bffecde029094ed28c0462528bbf43fae7b875caf3eba2aab10a2"
+    },
+    "includes/stripe/stripe-php/lib/ExchangeRate.php": {
+      "md5": "01942984825e3b1f9ecb9176eb1cd3b0",
+      "sha256": "eb945d61fd1f417e77ca5f773618157bd7d6883174534fdcadd82e6e973d71dc"
+    },
+    "includes/stripe/stripe-php/lib/File.php": {
+      "md5": "87838ed55f6ef78a1c9fe08d769e3151",
+      "sha256": "84a0aa171095e0b0bc80b7cf011b0b3a44aeb3a417ad0cc896b4d1df7b0b4790"
+    },
+    "includes/stripe/stripe-php/lib/FileLink.php": {
+      "md5": "715b82366015cbf11588c472c63002fa",
+      "sha256": "fd1adc5578571a14dd4d9b86a2ca486a4a7774348832aa6a25802a6d6f79282a"
+    },
+    "includes/stripe/stripe-php/lib/Invoice.php": {
+      "md5": "d5c00c9ff783b6b5a5b837bddaed724a",
+      "sha256": "b0ccd73a3c5cb1a94618c45abc9d73d7988959fbd2cb96c12723867a6bab70d6"
+    },
+    "includes/stripe/stripe-php/lib/InvoiceItem.php": {
+      "md5": "d2b2cca1f41fda836920bf7b91fcfc7f",
+      "sha256": "5beeb718034165a5293bccf1d13c2e742c2953feb4a70bf35de6707d789a808d"
+    },
+    "includes/stripe/stripe-php/lib/InvoiceLineItem.php": {
+      "md5": "01db2e4d6b9a952233f2e3593ae7b539",
+      "sha256": "20b906aaa3f4381e3f85c352c0e2f6c6a2eab489acf7e45400f861c61f3210fe"
+    },
+    "includes/stripe/stripe-php/lib/LineItem.php": {
+      "md5": "bf4b21825647a7d7f844ba8c6ff24015",
+      "sha256": "9f2aa34453a6514dc2a3699c6c626952f1bfd5e38025abad16bbdcfe5970e590"
+    },
+    "includes/stripe/stripe-php/lib/LoginLink.php": {
+      "md5": "9ff9c941f52d9e9ee3adac271330f847",
+      "sha256": "3f8e711506fdd2064fecf067a759c219dd58f74b76116a91270bee74c4aeab51"
+    },
+    "includes/stripe/stripe-php/lib/Mandate.php": {
+      "md5": "fb814f6f0d4b418d018b0a9d2c8ee945",
+      "sha256": "912026764639bdd41498b6dc60ad070305177b41bad714b5292a454f07c32dc0"
+    },
+    "includes/stripe/stripe-php/lib/OAuth.php": {
+      "md5": "a40db6ab1b80b57677d89f52fb14f9a2",
+      "sha256": "7b366f084dde305e7ae2af3ec2ad920fc7e10f226d4f11cdbbd421c5ad6eb0f5"
+    },
+    "includes/stripe/stripe-php/lib/OAuthErrorObject.php": {
+      "md5": "94096d2bb6e2d4d1e20cf09698625386",
+      "sha256": "fe54e3b950db8d3b5424f4f5931a89e055f070f01c0e0e22bea91ba5cf03b966"
+    },
+    "includes/stripe/stripe-php/lib/Order.php": {
+      "md5": "457c428dc2d6896779a6c5a79906bc27",
+      "sha256": "888e82261be874ad16b5231485230d3ec61a63443deb0030c1b57719ff0a3e4e"
+    },
+    "includes/stripe/stripe-php/lib/OrderItem.php": {
+      "md5": "cef55c1654338eec6dbd3bfaaf576093",
+      "sha256": "4a0602ff4cf3a8fb38dd074c73ddeb16f8c727b07896d8b991c350541a175771"
+    },
+    "includes/stripe/stripe-php/lib/OrderReturn.php": {
+      "md5": "8910a674f531c8111a3488f1cd24cf9b",
+      "sha256": "2b1de11c4d6ee0135d244b45e5d830bf01a8967e7e004bc0bfb07ef7f5f38539"
+    },
+    "includes/stripe/stripe-php/lib/PaymentIntent.php": {
+      "md5": "aad54d89d06b540ba854c0119c7cddad",
+      "sha256": "7c18cfc538ad7c74952f36b5a6ad5c995d6343beb63ac2e6bc98fd0e4ee86e52"
+    },
+    "includes/stripe/stripe-php/lib/PaymentMethod.php": {
+      "md5": "59b30c18141ab03268e75ced9191c7ea",
+      "sha256": "2824f98d9eed0e68e834e6e7e484036bf2ada62d3f28f876a7ccb5208b2fea82"
+    },
+    "includes/stripe/stripe-php/lib/Payout.php": {
+      "md5": "1334f7e07cabffd90699653ef9181a5e",
+      "sha256": "d30d0fa3d38d915e183a32eab4f6e37940cb23f46fa372fdd46f2f488e282567"
+    },
+    "includes/stripe/stripe-php/lib/Person.php": {
+      "md5": "80cec447a06f47355969c88438c7c07f",
+      "sha256": "f3d4cabaae40245c8b11e78fb5bcec98836294e48474d0d4be06734195ad0a48"
+    },
+    "includes/stripe/stripe-php/lib/Plan.php": {
+      "md5": "3d40ae118ef65cedbf0f439041e2caf6",
+      "sha256": "babd5eb081ce0ce333f6c1c36c4c4473b76fb2375f8be7271688ef64e6f43376"
+    },
+    "includes/stripe/stripe-php/lib/Price.php": {
+      "md5": "b34ebfbb7b3f95f968487443b9ca5f97",
+      "sha256": "9f1985747de3c020ea660f227fedb93439cb1f2a0034581502515d23a786c40a"
+    },
+    "includes/stripe/stripe-php/lib/Product.php": {
+      "md5": "249f66896e5462edcbb53c4fb1ad0ae4",
+      "sha256": "72e10f79158e61aa085dd62732124b00a6e9db90dd14700efbc5379f7d5b5485"
+    },
+    "includes/stripe/stripe-php/lib/PromotionCode.php": {
+      "md5": "04d5f0d8e47eed1705e8de3f8e869cad",
+      "sha256": "b4640210c79e24fd5845e87786c3441144ad93735c3c59430dca89f4d5de15df"
+    },
+    "includes/stripe/stripe-php/lib/Recipient.php": {
+      "md5": "6acc311bc351e2559a1a46e4a26b4201",
+      "sha256": "674bc01cc4ffea40511641bd970cca48ac56577b224df0e52735b96f98707a93"
+    },
+    "includes/stripe/stripe-php/lib/RecipientTransfer.php": {
+      "md5": "6d6d84efd1e39cafe927a350e2d25060",
+      "sha256": "c6b902954a5541348e8e169bab07d679658497502754750067a79f9d8d3246dc"
+    },
+    "includes/stripe/stripe-php/lib/Refund.php": {
+      "md5": "3fe2cbcbe7d6ccf963b204e917edf409",
+      "sha256": "d5af8ed049d509d4449df40bcd61236b28cb1010e16408a1b8b209abfae0959d"
+    },
+    "includes/stripe/stripe-php/lib/RequestTelemetry.php": {
+      "md5": "c69b571ecd51e30b14d17e243555a51d",
+      "sha256": "bf06384cdee00f8772eee133a62e1774b115b3b55d1f63ef0645e7458b51a45e"
+    },
+    "includes/stripe/stripe-php/lib/Review.php": {
+      "md5": "e6cf93927d9d42b0e694eb1a081a8438",
+      "sha256": "975c97aa5c31b38622d2962f57e61ee01057e05b21c411f75c1f2d19a2ddbe68"
+    },
+    "includes/stripe/stripe-php/lib/SetupAttempt.php": {
+      "md5": "551b32b54e1866a95645f751144d58af",
+      "sha256": "46be8a04bccce065a84c36c634d05c62accae9819d95b83add03f4c6cc4b2fd4"
+    },
+    "includes/stripe/stripe-php/lib/SetupIntent.php": {
+      "md5": "bfb326a9df6127741c93c66c213dd430",
+      "sha256": "4dd99fda1f8e47288ad18aa55bc885b6dbdec05a41446ca451420192b7d8ef07"
+    },
+    "includes/stripe/stripe-php/lib/SingletonApiResource.php": {
+      "md5": "eb87a052cc31d998c4ef20ae4a1af725",
+      "sha256": "7a8fba797b80a682a5b0f4263958ae059827f5ea514c4ff52c6f3cada8d2a838"
+    },
+    "includes/stripe/stripe-php/lib/SKU.php": {
+      "md5": "3943a3f93706037d3431b9a111a97890",
+      "sha256": "a4a10810387d0be6c544613aba68528f31d050970236701e266bf88d664fcd47"
+    },
+    "includes/stripe/stripe-php/lib/Source.php": {
+      "md5": "726997a9cc56bf177ba2fd11c37e5805",
+      "sha256": "ec512d11db05f6dd858d0ae0758165a2d44f53f93f89ddcd684635b03f5ed0aa"
+    },
+    "includes/stripe/stripe-php/lib/SourceTransaction.php": {
+      "md5": "a067745bc864281a6affb7235b595ed4",
+      "sha256": "1c84e78b09ea0154593f65c4359f008e3ba101d26584f61770bde498ef248a66"
+    },
+    "includes/stripe/stripe-php/lib/Stripe.php": {
+      "md5": "3388ea814e6e5a62629508e164ee2a5c",
+      "sha256": "de2f250aaa8067f15721a3edaa048b9130e2f48c6c5aed03be3b36e562839b31"
+    },
+    "includes/stripe/stripe-php/lib/StripeClient.php": {
+      "md5": "07fb091ddf63ef9371501ef68a82bd3b",
+      "sha256": "0ed1d3208dee12e60931c1b4dbd2bec838712274135d07f7f8fdb789d8ba5b83"
+    },
+    "includes/stripe/stripe-php/lib/StripeClientInterface.php": {
+      "md5": "5f5f160522f229c8aea9ddc4e26c3e89",
+      "sha256": "03b18fc1465cfca04be3d5bd89ff7c8e58120eeed49032733403fa77a8d17e3e"
+    },
+    "includes/stripe/stripe-php/lib/StripeObject.php": {
+      "md5": "9a907bda05ee8c0c684315679f8354c7",
+      "sha256": "520b950a214d3813cffdaae2da8911cefe562448d4544aa240bd3a3e626a3a5a"
+    },
+    "includes/stripe/stripe-php/lib/Subscription.php": {
+      "md5": "872a950495a409be4f1dbad6b322d563",
+      "sha256": "9fe60fc8d02c5539c48b9300b851cea571960ecd61e3ff87f74c3b3a956d31bd"
+    },
+    "includes/stripe/stripe-php/lib/SubscriptionItem.php": {
+      "md5": "55017ae5a4f899636739a65ec2f06808",
+      "sha256": "83554de1f1d088fe32c672670fab3c31bb43cadae0ba5cfee4c8b84d5cfb326f"
+    },
+    "includes/stripe/stripe-php/lib/SubscriptionSchedule.php": {
+      "md5": "f6950ce0613f8bcb533121f0e83556ca",
+      "sha256": "e66314ade0674536b5636e935f1c4ff8949a63bb8d3004ea61dd6ac1ce6529ff"
+    },
+    "includes/stripe/stripe-php/lib/TaxId.php": {
+      "md5": "b0b90b285634092ed9a54fdfd91fcc9e",
+      "sha256": "c847cc0849b7d2a4531b08f2a5614cf67d8e04c077fde266201917665ae09c9e"
+    },
+    "includes/stripe/stripe-php/lib/TaxRate.php": {
+      "md5": "0b234daac7ad5fcdc8142cd900b84af6",
+      "sha256": "9659dda050ba42e690d63dd9eeb3ce790a6b712e6f5639c34b8f4efdd93f44f0"
+    },
+    "includes/stripe/stripe-php/lib/ThreeDSecure.php": {
+      "md5": "6a19d9e8fa408f93c98c1d665d4a45ee",
+      "sha256": "3f8973d2ca0b07db0697cedc832b7a3b5a943174f59fd4536bb0fb7cc9387ba4"
+    },
+    "includes/stripe/stripe-php/lib/Token.php": {
+      "md5": "920452336abf115408d0e29368045d1a",
+      "sha256": "95f05c134282519de139049baa95b96bc46a60845ad068fc10427e2f829f74da"
+    },
+    "includes/stripe/stripe-php/lib/Topup.php": {
+      "md5": "22f7feab130a79834c966fb8b8fe1bf1",
+      "sha256": "f0e546ebd791194e4e5660320432b28e93ff1c0e2f1843afbefe4c0c3357e1dc"
+    },
+    "includes/stripe/stripe-php/lib/Transfer.php": {
+      "md5": "338da33a3c2bdf752d3783ed12515919",
+      "sha256": "2229a18ceff2880763a2c8fd51ffe8c5d495affbe4401b6335c60a311954067c"
+    },
+    "includes/stripe/stripe-php/lib/TransferReversal.php": {
+      "md5": "e32f3e6958f9bb54108c3f6f38b0cbc8",
+      "sha256": "4254314cf13dbcab25dd6623e6f3430fd249457d86a4d18c681a31dbd6b96e16"
+    },
+    "includes/stripe/stripe-php/lib/UsageRecord.php": {
+      "md5": "1e67dd633dfec4124d32c25aaee6c77d",
+      "sha256": "0b387351f3944db108e603d71ee6fe729db2456a2cc58e9a30a8c10fe06817f4"
+    },
+    "includes/stripe/stripe-php/lib/UsageRecordSummary.php": {
+      "md5": "5b9dc07ce08282a20f91111738af4437",
+      "sha256": "54682b3ec772aeb35d52a63b40a2aefb4072bfd54db9a58c22895a823c086208"
+    },
+    "includes/stripe/stripe-php/lib/Webhook.php": {
+      "md5": "c83cd8bb326f61fdc8f7aee3a4dfb52b",
+      "sha256": "9200240c0bfa988f9a52f9d6547b09abbcdb69bde9198f7f1b39c1aa077fcc39"
+    },
+    "includes/stripe/stripe-php/lib/WebhookEndpoint.php": {
+      "md5": "61a2199197265a5b15160b57f18bda41",
+      "sha256": "e818d69c68d28deb79da1f3d033e024643f9b1b7bed4cf8eeecd60557bac5aea"
+    },
+    "includes/stripe/stripe-php/lib/WebhookSignature.php": {
+      "md5": "df26d7e35440f2c2f17c8cc4d5abcfd2",
+      "sha256": "ac42c4f1c87ed303241c5df2d435ef71793670c0123917a26e435e5c439afa92"
+    },
+    "includes/stripe/stripe-php/lib/ApiOperations/All.php": {
+      "md5": "e0e9e52ee907ae99380b6db990068ef3",
+      "sha256": "e6fc524b2cc2ebd96f4df553c6b56b16a024ef640d9f90778b0a0f05b9461a6b"
+    },
+    "includes/stripe/stripe-php/lib/ApiOperations/Create.php": {
+      "md5": "c4088e6e0cf88333c7c208832efe5df4",
+      "sha256": "db81d35095fcb5d8b2955774ccc0765cea70513bd4b06e1aa5a2d45544466050"
+    },
+    "includes/stripe/stripe-php/lib/ApiOperations/Delete.php": {
+      "md5": "c0be83a8925007ae72fe7c9a581bb3a4",
+      "sha256": "03d3dc66be66be215ab26715493662b0f1ffc14cac4eb595d31396a33a042bcf"
+    },
+    "includes/stripe/stripe-php/lib/ApiOperations/NestedResource.php": {
+      "md5": "b22e06820e5fd2a44836581a5308e47c",
+      "sha256": "35cb24eacab322ec65150843b000b96c137777253b269fbc645d5d961a304e1b"
+    },
+    "includes/stripe/stripe-php/lib/ApiOperations/Request.php": {
+      "md5": "4cef8185ddfa2d932f16060c210c582f",
+      "sha256": "6ac28271c4fb13bd30b29659f196e445c888baef0c7e746d954c2c60621448b3"
+    },
+    "includes/stripe/stripe-php/lib/ApiOperations/Retrieve.php": {
+      "md5": "a3f01d2578d9858f866a3d085ff67e1e",
+      "sha256": "5ade193e9f6ce18ed2eff19a40e90795e35e481984e84c560ff42441b968a996"
+    },
+    "includes/stripe/stripe-php/lib/ApiOperations/Update.php": {
+      "md5": "526827c107eea05e06a5798654d3eed5",
+      "sha256": "f65b68979c76dbb6d44e361ac2b3800168e5e5e1e37042de68a670adf1f92f00"
+    },
+    "includes/stripe/stripe-php/lib/BillingPortal/Configuration.php": {
+      "md5": "0b9be72672c2e85d3662eda60fd5dfdb",
+      "sha256": "d3a016ea290f86bb3171296ecd05bd553edda47664a809ac8801d1310add83ff"
+    },
+    "includes/stripe/stripe-php/lib/BillingPortal/Session.php": {
+      "md5": "da20cb59a8e3d6ec7eb4634b0de93f38",
+      "sha256": "a5606f22d35f65e92190c6dc81c3c8b1585890df52a85ba7bf94be5c1e721586"
+    },
+    "includes/stripe/stripe-php/lib/Checkout/Session.php": {
+      "md5": "7971433da93d6e66d92998a49add85b5",
+      "sha256": "7091d02544b1fc5c50c33abd90afab2cafedfbc29528ef08b2715411f21badda"
+    },
+    "includes/stripe/stripe-php/lib/Exception/ApiConnectionException.php": {
+      "md5": "d6afe3bf6035bf63c701ad210e2c71ed",
+      "sha256": "7e4e280e6f3276ca295f954f5765a13ff77eccb2d0abbf051722b08529df4dc9"
+    },
+    "includes/stripe/stripe-php/lib/Exception/ApiErrorException.php": {
+      "md5": "ea47553d081040a4f7d935135a6b52c3",
+      "sha256": "f5e83d2e1d0c453c39fff92c3f28d7898d6d27cd18c5937613ea9a2c199a1738"
+    },
+    "includes/stripe/stripe-php/lib/Exception/AuthenticationException.php": {
+      "md5": "8b76a2c6efe67eedef2a1d22fba016a5",
+      "sha256": "b5c334417c9f96d30a63e9844aedcea78d3a4b024edf1b132250bb956c37fcd8"
+    },
+    "includes/stripe/stripe-php/lib/Exception/BadMethodCallException.php": {
+      "md5": "262e26cdf20797fa56214fee5d3452a7",
+      "sha256": "96cfef2484fc96c9d4e8a9acaf5f3da2195facabb22bcfbc5d77f622f952270a"
+    },
+    "includes/stripe/stripe-php/lib/Exception/CardException.php": {
+      "md5": "cb4f1d6d787f0c665076062a7a523b33",
+      "sha256": "9d6770e85dbe3c9295a6c105ce0215443c8cd12452f4b48182a0ac6e0b9442b1"
+    },
+    "includes/stripe/stripe-php/lib/Exception/ExceptionInterface.php": {
+      "md5": "c73168fcbbc465f6ad3e704ed4841265",
+      "sha256": "775757eccd2f3e35c17b73de9b9d67876148aa3ccf5d8167a590877463c455df"
+    },
+    "includes/stripe/stripe-php/lib/Exception/IdempotencyException.php": {
+      "md5": "c6cf8d7ae4668014f74df4dda355dfd6",
+      "sha256": "3778aa3be5b48fa992a3927c8903e6c279722d89d650036b42ed8a49036d8d20"
+    },
+    "includes/stripe/stripe-php/lib/Exception/InvalidArgumentException.php": {
+      "md5": "fb832e2f02be0e1f75c468e28b10ed5a",
+      "sha256": "f5833bd33b94dbf0fc0894fd1236cc1dced7b40fa2454f24521566b9d0c8d65f"
+    },
+    "includes/stripe/stripe-php/lib/Exception/InvalidRequestException.php": {
+      "md5": "c765496699127503df5fe1143b26dae3",
+      "sha256": "41d9e55fc93f7f1f0bc4798f04a58e3e0ddd0cd354be974003e907f2afd6e967"
+    },
+    "includes/stripe/stripe-php/lib/Exception/PermissionException.php": {
+      "md5": "01d429b201a9dee45ee4d401e00bc536",
+      "sha256": "d495f66cc663bc6d101de7501824c41f893c7edddf4ebd2a5f1dab25fd9369a1"
+    },
+    "includes/stripe/stripe-php/lib/Exception/RateLimitException.php": {
+      "md5": "9d96f8264c596666047623b670e877e4",
+      "sha256": "f7d3bab2090bc0ccc39870b66e7efd5ff8587b7565e07c6fd6557b8bb4cea038"
+    },
+    "includes/stripe/stripe-php/lib/Exception/SignatureVerificationException.php": {
+      "md5": "1b549ac36fbbded01ec8c02e0e8abdf3",
+      "sha256": "b336f904d4747b3c948385d2a588cb6985cef265061a0f725835ad7d11d3630a"
+    },
+    "includes/stripe/stripe-php/lib/Exception/UnexpectedValueException.php": {
+      "md5": "d997fb0ae928c8c7e75de2381f43b729",
+      "sha256": "0ccf692b7420371922be00b829266d4d854f91242e9ab54e7b1045afc536f6d1"
+    },
+    "includes/stripe/stripe-php/lib/Exception/UnknownApiErrorException.php": {
+      "md5": "5d0e07bb54153ebde47eeeb799cc1d9c",
+      "sha256": "dde678c1b90d06cd58903e8e28c912de49a075198b59c160b4726e490da3d012"
+    },
+    "includes/stripe/stripe-php/lib/Exception/OAuth/ExceptionInterface.php": {
+      "md5": "a94a37c08f321528af88823b489d574c",
+      "sha256": "24bbc43871073734d76e422439cff3adcc0d515c45a6e61ae2b72722f500acbf"
+    },
+    "includes/stripe/stripe-php/lib/Exception/OAuth/InvalidClientException.php": {
+      "md5": "045a21fe20b400d65927cd480fbb6ccb",
+      "sha256": "6dcb36d953b74d0ca9909be4c2be7ee95db0b5db0e30434485fd01fe65517450"
+    },
+    "includes/stripe/stripe-php/lib/Exception/OAuth/InvalidGrantException.php": {
+      "md5": "e42656f6fb127f03a1416f40f9acf17d",
+      "sha256": "824e8d2038a7eff1b289dacfa7158670a5a6112a22d7076b300b9940893899b6"
+    },
+    "includes/stripe/stripe-php/lib/Exception/OAuth/InvalidRequestException.php": {
+      "md5": "f9baea13b5935fe0e0a37d22741918c7",
+      "sha256": "0a99b7fb0103483e25b73c0eabeec2febdf919975cd64e0ae31742a7b125885a"
+    },
+    "includes/stripe/stripe-php/lib/Exception/OAuth/InvalidScopeException.php": {
+      "md5": "3064c267da5b16f2d97c8aa273b9c237",
+      "sha256": "2c894e5fdaa0cce1779504b74c2dce917ea2a2a7a70dea56e89364dcab6c9129"
+    },
+    "includes/stripe/stripe-php/lib/Exception/OAuth/OAuthErrorException.php": {
+      "md5": "9b73343061a955aa68754ba180117619",
+      "sha256": "190192a089dd44b7f1d02495412a90e634f7663e84846e283e481e1c45009423"
+    },
+    "includes/stripe/stripe-php/lib/Exception/OAuth/UnknownOAuthErrorException.php": {
+      "md5": "03b59657c9c9830cdf73d7349b1a53f6",
+      "sha256": "a0c67fa9125170cb220758a669a8d64831fb73acbcb43dd6e1b71389d20dc692"
+    },
+    "includes/stripe/stripe-php/lib/Exception/OAuth/UnsupportedGrantTypeException.php": {
+      "md5": "f15d4f2be96c702e5df43e41976b8c33",
+      "sha256": "81b519c96c7792d25f0b1e84ec0e7d43c3985c8f87106fcd07dfd8f5c58b964c"
+    },
+    "includes/stripe/stripe-php/lib/Exception/OAuth/UnsupportedResponseTypeException.php": {
+      "md5": "d77f3fee1a3fb40656425968cfdf10e6",
+      "sha256": "2c79d1746ce8b63ebe36fd67e9e3cee7389da23481af062f487a5c0614f34403"
+    },
+    "includes/stripe/stripe-php/lib/HttpClient/ClientInterface.php": {
+      "md5": "e81b98e28ed12bc9d904d1650e4292e2",
+      "sha256": "cce19ef762040b182a7f74724857dfddc87b9464bc9ba7c1d5cb8f22c6a506a3"
+    },
+    "includes/stripe/stripe-php/lib/HttpClient/CurlClient.php": {
+      "md5": "9570f0bd00b199853bdc6b95eb2d8906",
+      "sha256": "b1b5b3b0bf9faf2b4ee440fb2894111a3661288f1d9814da4ae7f56f116a36b1"
+    },
+    "includes/stripe/stripe-php/lib/Issuing/Authorization.php": {
+      "md5": "b92ff29f39eef800533f85a7d9276d2a",
+      "sha256": "e99385be21e55d9489261f1feb80f6f49cddaacc03f5e15c8112cf23a967d98a"
+    },
+    "includes/stripe/stripe-php/lib/Issuing/Card.php": {
+      "md5": "67ba075eea334b4920b9771b7028b50d",
+      "sha256": "42b5e2f389b650d5244be54cd87f24e044ff9fad785f164c46593ee6d6046f28"
+    },
+    "includes/stripe/stripe-php/lib/Issuing/CardDetails.php": {
+      "md5": "2149ad870a7249c198b58a4705d4d47a",
+      "sha256": "79cc64cd2b4a6e6675f33a500a7c88cf474c359c00aa25a5eda22483a0267714"
+    },
+    "includes/stripe/stripe-php/lib/Issuing/Cardholder.php": {
+      "md5": "6c55065ec5c34cabfa90f6f398b04d1d",
+      "sha256": "51a45581d39238cb2b1d194f5f393086d20def7c13dee5c8a2fe71d51a85b041"
+    },
+    "includes/stripe/stripe-php/lib/Issuing/Dispute.php": {
+      "md5": "203b3a1c69ccadb707b52e35f316d8a7",
+      "sha256": "cd7aed0395afe09bf709e8428c101b1c4e2aeb183abe0a25b95b4684d1c1551d"
+    },
+    "includes/stripe/stripe-php/lib/Issuing/Transaction.php": {
+      "md5": "ff4259747d596acf1ea5d03f7c295f8a",
+      "sha256": "69e5069995b282aa3bdfc7e607e3977e4e872c688ac77ae532e9542139316f93"
+    },
+    "includes/stripe/stripe-php/lib/Radar/EarlyFraudWarning.php": {
+      "md5": "fa055121bdda533c0aa8243c33c88257",
+      "sha256": "ef7bd3a0cfabaa89af335eac5c5f858fbbf47a4547feb2c04d11c103995b1fa8"
+    },
+    "includes/stripe/stripe-php/lib/Radar/ValueList.php": {
+      "md5": "232b882714177a419ea5955a637fb492",
+      "sha256": "b790ad90a3c1779242ef11b39a1ebf8d52e5e7c10ddf4827f7f60b207aa382c8"
+    },
+    "includes/stripe/stripe-php/lib/Radar/ValueListItem.php": {
+      "md5": "cbaea2c7561b0e6ae735902289fd4361",
+      "sha256": "c8f81e5cd205cb782c500ceeb3b47e1c9eaec9d887ebb16146394ad40a107d74"
+    },
+    "includes/stripe/stripe-php/lib/Reporting/ReportRun.php": {
+      "md5": "bcdc4aaf4b5ba9c503d8eae0836057f8",
+      "sha256": "15cb2a8ef4dff7cf0262d3f4a0a8445d289e4b7722937df2d7ba22c321fbaf58"
+    },
+    "includes/stripe/stripe-php/lib/Reporting/ReportType.php": {
+      "md5": "c64d324a809e2e50ebe5f2edac5b9032",
+      "sha256": "30fcafc7911599306fa15404b0b17b64227b21587ca6980fee4bdf3655a5e32c"
+    },
+    "includes/stripe/stripe-php/lib/Service/AbstractService.php": {
+      "md5": "64b29ab5ce1da6fa2ede240071507bfd",
+      "sha256": "4a6c5e7abd446883d25b5f9c68fa67500863389f3ffafb04e0c1c5d8c3f8aa26"
+    },
+    "includes/stripe/stripe-php/lib/Service/AbstractServiceFactory.php": {
+      "md5": "13fde4c29dc169c5a60e18fa2f3cc5a4",
+      "sha256": "84be2d97005b965f899900015d551c54f0b81d301bbb7d24bbdf3a6f038fa153"
+    },
+    "includes/stripe/stripe-php/lib/Service/AccountLinkService.php": {
+      "md5": "cb9f09910bb700928bedc3be39c3e7e5",
+      "sha256": "baf1499e50b1f47825d36e8b31b31b23bdaf9eac8ab2f7d259557a6e4070040e"
+    },
+    "includes/stripe/stripe-php/lib/Service/AccountService.php": {
+      "md5": "52009e098d5c30e91908db1e85a4b574",
+      "sha256": "f655ced0d6358717396397e78d4152e9aee3d1fe115e4314beb36bd7511b3c7d"
+    },
+    "includes/stripe/stripe-php/lib/Service/ApplePayDomainService.php": {
+      "md5": "7d3014008a4778cb43a0d2e6ccbaef68",
+      "sha256": "73b6f1736ea213ca156cdebec335a95a6efaff6a257080f4ee6895c38967f2da"
+    },
+    "includes/stripe/stripe-php/lib/Service/ApplicationFeeService.php": {
+      "md5": "d27fc13d643fe906f04711cca6d0be9a",
+      "sha256": "6d590b5b9a7a6644ef0c9e06e39e3727b49d0dff16f7280f8f1f68308638aea5"
+    },
+    "includes/stripe/stripe-php/lib/Service/BalanceService.php": {
+      "md5": "bd140995b1cfa75602e6e7234c324b3d",
+      "sha256": "bd8521737564b25b8f90035c14585341912e311414d3ee8f34d46851914c3bca"
+    },
+    "includes/stripe/stripe-php/lib/Service/BalanceTransactionService.php": {
+      "md5": "c8121b3f7645f621f7e297c7acc5c48f",
+      "sha256": "fef1a8fdde8b07dc52c5b9378074325f88df58c8566a437976600abe13d0f8d3"
+    },
+    "includes/stripe/stripe-php/lib/Service/ChargeService.php": {
+      "md5": "b8810e2a6a623ef37ddde43cc437d2ce",
+      "sha256": "7e97a6a2e1634532ca74a3d93e3574b9124df87989b74fed1b17a2a0055becc2"
+    },
+    "includes/stripe/stripe-php/lib/Service/CoreServiceFactory.php": {
+      "md5": "92f1df3aea2d09f528c58e4928344f11",
+      "sha256": "1de3319647f12a2b69bebfd655e71f4d598a7a40ac4dbca7654f612c24c5023c"
+    },
+    "includes/stripe/stripe-php/lib/Service/CountrySpecService.php": {
+      "md5": "653874a4a316b0acd0358b96cbda57c7",
+      "sha256": "d0f56a42fb1a8f77b79e6f67d7e674c7145627b339551e03eea6c79d89bf5d1d"
+    },
+    "includes/stripe/stripe-php/lib/Service/CouponService.php": {
+      "md5": "d7af61aaf2ece0fecc28321b50712695",
+      "sha256": "9275bf726a246c71021c96276d3c44698f0e4aa45410ba20f946034bf3b2a935"
+    },
+    "includes/stripe/stripe-php/lib/Service/CreditNoteService.php": {
+      "md5": "e68fb782c7fbb8838c0d116071802bd9",
+      "sha256": "d5729b1230eafc394cef2b4738d911620fd6fa15e7bd799323730a01cc589514"
+    },
+    "includes/stripe/stripe-php/lib/Service/CustomerService.php": {
+      "md5": "50d4c05b0a8c5dd85b82ac661f212bb5",
+      "sha256": "6895be1604a43b01acf91494ffef89446a2743cb5ee63ea594b78a1b517accce"
+    },
+    "includes/stripe/stripe-php/lib/Service/DisputeService.php": {
+      "md5": "3187c3703035640084fba712b6184008",
+      "sha256": "737513cefa356c677062bc1cedcc4f64e03b3347439f509ab3fd0cf6ee288ed0"
+    },
+    "includes/stripe/stripe-php/lib/Service/EphemeralKeyService.php": {
+      "md5": "afbada361f5fb7196b945a1ef0776180",
+      "sha256": "de266e9a08754f0e8828d4b6b76e0b047ec33dd662398b072440372504b697b5"
+    },
+    "includes/stripe/stripe-php/lib/Service/EventService.php": {
+      "md5": "d7b86190884f219e3430f02ec2185df5",
+      "sha256": "611d4a8a07333648ee851ce6d345cf98fcdf9652cca6ac70ca77c7b8674ef310"
+    },
+    "includes/stripe/stripe-php/lib/Service/ExchangeRateService.php": {
+      "md5": "893f3c6f933fb1d6cc55d1e5dc544a7e",
+      "sha256": "b9ada95bc58b60e84e407058555d9faebbfcf8dccd3b377278974399accfc9c3"
+    },
+    "includes/stripe/stripe-php/lib/Service/FileLinkService.php": {
+      "md5": "d5b65b84b5b28f51f3db913984e47e49",
+      "sha256": "994dcf8314279e4bf9cf442c09dc6e552c413e557c325ce9110e2f78d49e1c05"
+    },
+    "includes/stripe/stripe-php/lib/Service/FileService.php": {
+      "md5": "fcd934428c969b4752310a3d2ceff692",
+      "sha256": "9caec69215a7b196939972736b678c8fb74cd98e47400b6092727d2b787ddc20"
+    },
+    "includes/stripe/stripe-php/lib/Service/InvoiceItemService.php": {
+      "md5": "7d037ef31cb4ce73f70a51fc15715020",
+      "sha256": "883d8871efbb92dd75575c022a950ddbb74f8b64f8cfd1ccba8e0aaae2385729"
+    },
+    "includes/stripe/stripe-php/lib/Service/InvoiceService.php": {
+      "md5": "e01c43681a6b31856a4faab37493a2a9",
+      "sha256": "fe57ab023c84bd7fb6be8523aa937b74b510f669ccb29fa5209280ef9a7ea915"
+    },
+    "includes/stripe/stripe-php/lib/Service/MandateService.php": {
+      "md5": "c93ac2d69ac5e0d79fa9d03e670928aa",
+      "sha256": "2496706a25ea9320120a0d64d473044e0f60a870c8daae6d9d160136a855676b"
+    },
+    "includes/stripe/stripe-php/lib/Service/OAuthService.php": {
+      "md5": "9738c1e6bbe6d74d65a86b8efe74c9df",
+      "sha256": "bedcf82a884cad713538b5672ee845181a07ac3d675341bd9447cda93ddd59d0"
+    },
+    "includes/stripe/stripe-php/lib/Service/OrderReturnService.php": {
+      "md5": "7c2b037550ba779b7b87e803f05b8a17",
+      "sha256": "75c9dcceb033439bb520e59f2bcfa28e18bfcf58b910dcb7c0785e79adc43b46"
+    },
+    "includes/stripe/stripe-php/lib/Service/OrderService.php": {
+      "md5": "45c064bb0ba121bbbcf50ed9a3d2e63a",
+      "sha256": "5377f072755f866c52bb09aaeb34811d7e9ef80aa437988daf90e14db2730102"
+    },
+    "includes/stripe/stripe-php/lib/Service/PaymentIntentService.php": {
+      "md5": "e18465fad289450e5d8f7feb4f2f7c88",
+      "sha256": "50e999cb2a35a9abcff83608e9d3f6bb2d17cd3a9bc0e6caecd8af479b8600a5"
+    },
+    "includes/stripe/stripe-php/lib/Service/PaymentMethodService.php": {
+      "md5": "90c6d04d08ce5662f63b98f8f93f63df",
+      "sha256": "7429def5675107e6bfd153a9a150c3d5b0f9ec61283c8e1f34f690c010ef8e4e"
+    },
+    "includes/stripe/stripe-php/lib/Service/PayoutService.php": {
+      "md5": "bb810bae278ff3ef6dea30ec9f868988",
+      "sha256": "9df0f6f49dc4c2bb28b72658b4c23f48feca0f9cd4a4a233c4de6f881652001a"
+    },
+    "includes/stripe/stripe-php/lib/Service/PlanService.php": {
+      "md5": "be8e2a9dfa6eb62dc11575d38d02abbc",
+      "sha256": "fb9a8dea3d1c8d0f362ad06efb65bf7fe9fd080e6fc60ae0cb17eefa5c0fc82d"
+    },
+    "includes/stripe/stripe-php/lib/Service/PriceService.php": {
+      "md5": "5269add4207b8fcb9db408f13b43eebc",
+      "sha256": "6457d68a591ea160b295111fb2989a35b731eabfd5f12eb740260feff96b10cc"
+    },
+    "includes/stripe/stripe-php/lib/Service/ProductService.php": {
+      "md5": "f8b81712ccfb94fdd1d0092b67cc4210",
+      "sha256": "c680e67852e66b0ee6783697d94d1c69f57278a8ef7c8a5e7e4d753a14192a7c"
+    },
+    "includes/stripe/stripe-php/lib/Service/PromotionCodeService.php": {
+      "md5": "8da6b756b8b097e0f2363344817d0f72",
+      "sha256": "bbeda3e1c31384237b598cae6f19edd980caeeaf03d70e8516a26510573f877d"
+    },
+    "includes/stripe/stripe-php/lib/Service/RefundService.php": {
+      "md5": "a29054f29c274a2589b61924d71e1d6c",
+      "sha256": "1eb4d02d22c151ebec4156b705b72d08fc17d9a8461462680c02d4cfed094e6b"
+    },
+    "includes/stripe/stripe-php/lib/Service/ReviewService.php": {
+      "md5": "2ae4e227ba55907d4b2b7c9c2fa73ef5",
+      "sha256": "c15d5f2e976b9ac31020bb54fa2b52ea595c4c079c561ae7d5c707dee2362ccd"
+    },
+    "includes/stripe/stripe-php/lib/Service/SetupAttemptService.php": {
+      "md5": "3f1d82817359f5b85855ad6d449ccef7",
+      "sha256": "835b3f5b63129d5c6706ec4f35ebb94aa932a9bb39356e09948df0dd46a71dfc"
+    },
+    "includes/stripe/stripe-php/lib/Service/SetupIntentService.php": {
+      "md5": "d6ccf34eb88d08daff42f5eb169553ba",
+      "sha256": "7731bb88d8e4ad74bf972a31b2098ef258c88310494a0657c3d414ab0d954a8a"
+    },
+    "includes/stripe/stripe-php/lib/Service/SkuService.php": {
+      "md5": "d29d560f2de39ad3336e2e3619a9d943",
+      "sha256": "12a2d9394ad7f054d785eb86f8aca06f6b842e1f130dd45b320a65328909fa05"
+    },
+    "includes/stripe/stripe-php/lib/Service/SourceService.php": {
+      "md5": "18f7c73246e119808e82262f8797686d",
+      "sha256": "ef3f959897605ff3b3aba1e94024d757618ba0a6e5c5b4dd744adc6f08c73349"
+    },
+    "includes/stripe/stripe-php/lib/Service/SubscriptionItemService.php": {
+      "md5": "2a87b7979061d5e0faafa1ded2dac629",
+      "sha256": "5a3967983f676518a70c91f16181ad1b569522a56f5a0c74446191affc83b39b"
+    },
+    "includes/stripe/stripe-php/lib/Service/SubscriptionScheduleService.php": {
+      "md5": "c0bed98f4c5ec1872a551971411aeed3",
+      "sha256": "731b37eb2aa33446d7a56bd4ed7610ee860eb0982fa41c134390455a7c63ec6d"
+    },
+    "includes/stripe/stripe-php/lib/Service/SubscriptionService.php": {
+      "md5": "f79a5c0459cd709e01b0ae5d7707b4b4",
+      "sha256": "fcc7e138058f322a8b5c2982e3e77ce96801832ec32f1176752fbd7dc8ee5d8c"
+    },
+    "includes/stripe/stripe-php/lib/Service/TaxRateService.php": {
+      "md5": "afd386380e51409e6c3b91bf941335c2",
+      "sha256": "0ee4164ad2e202345e9de2ecb495d167dd7ff1eb6d7a628b2802fa9499deeea1"
+    },
+    "includes/stripe/stripe-php/lib/Service/TokenService.php": {
+      "md5": "15d094f5968c4b2fceeb38f3d1b1d8e0",
+      "sha256": "7dc88c89502ab328977a62e3d06f1afd16d5fafb37ad9608ba39391c8d922cf8"
+    },
+    "includes/stripe/stripe-php/lib/Service/TopupService.php": {
+      "md5": "efa7ac9a7b65e8470fa069d0454b8b89",
+      "sha256": "67e8556edd9370bdef99dfb801e3669c16188841d2a07a256d5705971199e3da"
+    },
+    "includes/stripe/stripe-php/lib/Service/TransferService.php": {
+      "md5": "a5ba33f5657e37616921ba7630ccf6b9",
+      "sha256": "4e4fa21895251eec475cde6d014153deb53f1fcebd76720e0ecd4c224ae1c0c5"
+    },
+    "includes/stripe/stripe-php/lib/Service/WebhookEndpointService.php": {
+      "md5": "0b03b66ff450220ca128a1aef6a15ae6",
+      "sha256": "8cb3c3997e04f8c2152d2ce85761e0a85bbec01305da601167334faf6a7fc12e"
+    },
+    "includes/stripe/stripe-php/lib/Service/BillingPortal/BillingPortalServiceFactory.php": {
+      "md5": "ae9692ccafcd005083d739a1b6a77418",
+      "sha256": "b656c969f5d7f0bcb4a9fa63bdd250da815541ea65b9e74a7cb27c0b9236872d"
+    },
+    "includes/stripe/stripe-php/lib/Service/BillingPortal/ConfigurationService.php": {
+      "md5": "682616b11edcab7b58bacdae729bb668",
+      "sha256": "831c71d8919ba64ea7bbfc0be0d3ee5d2cf9d59ca258a3a55821093d9f73841b"
+    },
+    "includes/stripe/stripe-php/lib/Service/BillingPortal/SessionService.php": {
+      "md5": "50425a2df0323103c1dd936bb252e50c",
+      "sha256": "0957e872e340a9982024109740a120297f486471e8f4f4652d6b828b8003ea5e"
+    },
+    "includes/stripe/stripe-php/lib/Service/Checkout/CheckoutServiceFactory.php": {
+      "md5": "0b260be8f3a6359ac23e9a0ef61cc3f2",
+      "sha256": "85414ee2e47fe4e09da32ac8e9895543430843406f8e970f382cfacf9b898740"
+    },
+    "includes/stripe/stripe-php/lib/Service/Checkout/SessionService.php": {
+      "md5": "575f3e99f427b19d17757d1a5abc7769",
+      "sha256": "6f4f0271aaaa05cb895a6d699a5622d53623f8ed958947e5a45ec2ea58a969f9"
+    },
+    "includes/stripe/stripe-php/lib/Service/Issuing/AuthorizationService.php": {
+      "md5": "02da4b4fe423a0cfeb9536a0199fe6bf",
+      "sha256": "3eecd3d5e016982c81df7eeea2f91ff31fb9c890e82b1613353869a025b2b24a"
+    },
+    "includes/stripe/stripe-php/lib/Service/Issuing/CardholderService.php": {
+      "md5": "ff18db4e30ddcb0a86f0d113de4aeeb6",
+      "sha256": "f57f410faabd81edfcbeeb1ace5ff226d86a7e750194e26c83ffeff2ddcc4894"
+    },
+    "includes/stripe/stripe-php/lib/Service/Issuing/CardService.php": {
+      "md5": "fa1d4df8da167233a7a394dd0baa5888",
+      "sha256": "75d1dc687adb11632a74af6f1f9f8172b1ceabe84c223f74d0e777c84834c002"
+    },
+    "includes/stripe/stripe-php/lib/Service/Issuing/DisputeService.php": {
+      "md5": "b78f2df4a11b0b90695450da838a3533",
+      "sha256": "1428257a233861e0519c7da1a6b7df3cc12bdfa7913a057c70987bf321fc8077"
+    },
+    "includes/stripe/stripe-php/lib/Service/Issuing/IssuingServiceFactory.php": {
+      "md5": "ac4d7062e0f148ece03c0fb9b7f6755c",
+      "sha256": "f715b841cb41f54f5c1d370e2f87e90eef431a0f21d6fc6522f5c64fc3c1b44e"
+    },
+    "includes/stripe/stripe-php/lib/Service/Issuing/TransactionService.php": {
+      "md5": "f49d7257b52f19c90e717d962bba8a1b",
+      "sha256": "d2d3b81194057543b5f50d7626c96ba8f6a4d32bd2d58ba9e28421b876336d22"
+    },
+    "includes/stripe/stripe-php/lib/Service/Radar/EarlyFraudWarningService.php": {
+      "md5": "f72f5e24baf9ab24ac7ff9904ae4562a",
+      "sha256": "3187e8fb52ab97edcc73479dad90ee8fc881878f0479f5a3c64fe2be05b150e0"
+    },
+    "includes/stripe/stripe-php/lib/Service/Radar/RadarServiceFactory.php": {
+      "md5": "96a6e622be0a559098d550acc30816ae",
+      "sha256": "793c338a6dc780713cc05b0d475769c57ea86d9cade1d297579c9ae095e4a3a7"
+    },
+    "includes/stripe/stripe-php/lib/Service/Radar/ValueListItemService.php": {
+      "md5": "000998ac70c990ccb0faea7a6ee48cb5",
+      "sha256": "5fc3f7b1b1918195e1d3be3cc4f27eb8f8d66de066ad51a7d81883643c938bb4"
+    },
+    "includes/stripe/stripe-php/lib/Service/Radar/ValueListService.php": {
+      "md5": "6953e59f7d2d2ef0e032744a09fc190e",
+      "sha256": "07b587f37919254a4d74832dbfc195e73d665afbff60bac2640f74ddab28a1f0"
+    },
+    "includes/stripe/stripe-php/lib/Service/Reporting/ReportingServiceFactory.php": {
+      "md5": "ad91ba4c23066049b3f8cc5c21c8496a",
+      "sha256": "028ee9f82555ad1073ea023d008ff3741aaff5214e3ccae5048d1f849edf8e7e"
+    },
+    "includes/stripe/stripe-php/lib/Service/Reporting/ReportRunService.php": {
+      "md5": "f3140f5fbf5619c81bd05b6369b9f2c4",
+      "sha256": "e74836088531aa77e59e68377fa1dff93a450f3eed8748457e5d2468cc8cb70d"
+    },
+    "includes/stripe/stripe-php/lib/Service/Reporting/ReportTypeService.php": {
+      "md5": "00ccd6a945952783620347e4fabcbb82",
+      "sha256": "bf21592acb390f6db153739927130f9d2405febf63cadfb6c3aa8ba6120059cd"
+    },
+    "includes/stripe/stripe-php/lib/Service/Sigma/ScheduledQueryRunService.php": {
+      "md5": "c8b5a456e68623160f5af7901071d8ac",
+      "sha256": "549364969f93612a2cf08686cacb2bd018f69f0e11d3e0c561737451a03b0e6a"
+    },
+    "includes/stripe/stripe-php/lib/Service/Sigma/SigmaServiceFactory.php": {
+      "md5": "24d09bd7fac9158156437cff3d4a8948",
+      "sha256": "d88356145c36b3b11fa6c2d44087c6520b79de46a22f2fff90f19fcf25163854"
+    },
+    "includes/stripe/stripe-php/lib/Service/Terminal/ConnectionTokenService.php": {
+      "md5": "40893a28e084921573dd4e7621c385a2",
+      "sha256": "ea993fcfd394c6bb562c672f1ff5e281ad48bcc61233e16b13b1c783e61c1989"
+    },
+    "includes/stripe/stripe-php/lib/Service/Terminal/LocationService.php": {
+      "md5": "9a17e6f9a9b0633d04b2011c80bc8088",
+      "sha256": "9a86013c0fb38ea34eb29b0e177c1912cbec4688535329a72d44ccee3c048d56"
+    },
+    "includes/stripe/stripe-php/lib/Service/Terminal/ReaderService.php": {
+      "md5": "6f820eea35ca2b190a6f18e9d8985221",
+      "sha256": "5cf80b9df9eb96c0cf687af713d0fe7fcdbc3d3581591b6e9ba4dc97b7fe0af8"
+    },
+    "includes/stripe/stripe-php/lib/Service/Terminal/TerminalServiceFactory.php": {
+      "md5": "c633e6c5ab7b8efe6082b47e50a57654",
+      "sha256": "ce96de83bc848f07acdd7adff0293ca2f3f1ece6b95338c5e860aa0974a5578b"
+    },
+    "includes/stripe/stripe-php/lib/Sigma/ScheduledQueryRun.php": {
+      "md5": "2b0c75f1ff267f3a5cfefa429772aa5f",
+      "sha256": "2e16a0b78b449d296aac8fc1438cc7c9c60e76cdc16b9fe4bded8d8269d37f63"
+    },
+    "includes/stripe/stripe-php/lib/Terminal/ConnectionToken.php": {
+      "md5": "c957bcff39b0a13c2282c2041c381e46",
+      "sha256": "ae6b038e50b23122d8bcc0cebd345155ed43162145999e9ea036c4d126ec9c9d"
+    },
+    "includes/stripe/stripe-php/lib/Terminal/Location.php": {
+      "md5": "6ba044a9c5be74a4788896bd6bd16cd8",
+      "sha256": "82756297e3d8f29a983427cb7542069d42e21abafc97c3ec38ff3a6706678d82"
+    },
+    "includes/stripe/stripe-php/lib/Terminal/Reader.php": {
+      "md5": "4fec46d89d8ab5f7f94a68da5037051e",
+      "sha256": "fbd438bea2f3b5c50e886bba65af350274ddbd30ebdf2779986026493f19ff78"
+    },
+    "includes/stripe/stripe-php/lib/Util/CaseInsensitiveArray.php": {
+      "md5": "850203305ebb6fc6f1c149580dea8e6f",
+      "sha256": "f87da15434f2ec5f61f851101e71b18d9ede4a2cedacd9b9fa013ef487b1a640"
+    },
+    "includes/stripe/stripe-php/lib/Util/DefaultLogger.php": {
+      "md5": "f2498800f3f135a481c76b3e50a7555e",
+      "sha256": "29bb6cdc1efe5d5dda6a4b33e90ba009ad6eba29062449fef96e6b9234920926"
+    },
+    "includes/stripe/stripe-php/lib/Util/LoggerInterface.php": {
+      "md5": "26f45d947a1329c067f4a83ab76c8a65",
+      "sha256": "7f040015e109b2be4d7a9214f5d07cb915714d9a4785e58057d61b822ce634d4"
+    },
+    "includes/stripe/stripe-php/lib/Util/ObjectTypes.php": {
+      "md5": "569c1bf8731c66e73d55cb8420d443ec",
+      "sha256": "76e552b994cb12f9959a2d1db070791c7d8142fe1f679e9f596137161a3e1ec4"
+    },
+    "includes/stripe/stripe-php/lib/Util/RandomGenerator.php": {
+      "md5": "123e04f5b4c5833510df7d01aad78bf1",
+      "sha256": "d5961ac8a201cb01925a3694c32b671e9f7eed8b4f2a34130cbb8bef004be59f"
+    },
+    "includes/stripe/stripe-php/lib/Util/RequestOptions.php": {
+      "md5": "ee1c8597bc8a9cb7264041c85564758e",
+      "sha256": "f4b6db736c2415bdd1cab1efe9ef4220623ef04a3253ddba3a5eb49628f6cf06"
+    },
+    "includes/stripe/stripe-php/lib/Util/Set.php": {
+      "md5": "f4c7e4dec52e4f650a872594df8bd543",
+      "sha256": "d36f569ac5de3b7eb2985cbfeefd058f6cd0fbbcc52e2ae4b4097ea4f5890ad8"
+    },
+    "includes/stripe/stripe-php/lib/Util/Util.php": {
+      "md5": "8406e48d0cb844b90c216476283044f1",
+      "sha256": "c191884ec8fb37a4f804f47c7196935a071564ecea069f9529fb71b82b01ce85"
+    },
+    "includes/upgrade/class-gf-stripe-upgrade-handler.php": {
+      "md5": "c208a5d368bd9a15d9cd860825a9f5eb",
+      "sha256": "7ebd38ca5d6725916c32844a1661987c91c72d7a5e68dedb1712a08f8b5f22d5"
+    },
+    "includes/views/subscription-information.php": {
+      "md5": "8c0f744339240776395da0f94be0fcbd",
+      "sha256": "b93c31983139bd8f1c9a83b9c367430b11fdadbe1e82c6ce44eb1d86498134aa"
+    },
+    "js/admin.js": {
+      "md5": "a20084799ac9c399983aeecf08d20e6c",
+      "sha256": "4d573809e8f83a4765aa94b4a3748668d61a378bc8db602123f8d04d23fd76c3"
+    },
+    "js/admin.js.map": {
+      "md5": "6676f195e693016a6733393ff46f8113",
+      "sha256": "e81c22c5271d971e8a3b5d06938f9a7d863b69c0c221334012e553483b92c163"
+    },
+    "js/admin.min.js": {
+      "md5": "e3c7af7d113cb5fe7d7673ed429b8ebc",
+      "sha256": "13baa1d85de696d3949d5c97e396a32ac14751018ff3681b1dfd5c440ec3e3a5"
+    },
+    "js/frontend.js": {
+      "md5": "8eb18b7ce5fc40f854bc4c09ddf46845",
+      "sha256": "0088644e6d955d94e2ef264a6675b5b4bc3225981acadaf480b9142e892c53be"
+    },
+    "js/frontend.js.map": {
+      "md5": "700acc7360e501a2ca842ab3183411ba",
+      "sha256": "9bdbb5e947afb0e0babdc2ec6f66290f8071dd178a57a9370fce0fde0b555ff2"
+    },
+    "js/frontend.min.js": {
+      "md5": "a65d40228c3a8be6e392b7bf498c7690",
+      "sha256": "4231860767eb706c602f52e86098a3e85b200f98a976d3380eda4376f8d42821"
+    },
+    "js/payment_element_form_editor.js": {
+      "md5": "e7563cc0246a91c8ff5d3a443ec2f6a1",
+      "sha256": "013569c6e5c6c1b4c115a9f05a2c7542e8a64ca0813e91577056e315e91d80b2"
+    },
+    "js/payment_element_form_editor.js.map": {
+      "md5": "d08465d5666216de5e8f7f4dfe70b7d4",
+      "sha256": "da10eb60073a6e9ee6e8a169e8487c18e5aeb1cc40040a9e34977e05d9d2ac9f"
+    },
+    "js/payment_element_form_editor.min.js": {
+      "md5": "38e7d3cbda1c33e3c7a6d6adc1975e4b",
+      "sha256": "ef3fb8849c1c06b90b2b5359c4f8a870536581e3ae9689733de4d4968770d6cb"
+    },
+    "languages/gravityformsstripe.pot": {
+      "md5": "a4e39d9e2fc148a85909ec019be3677a",
+      "sha256": "013bc2631d011a950870461c48e480ba92bcfad43871f86ad6d28bd0d671813b"
+    }
+  }
+}
