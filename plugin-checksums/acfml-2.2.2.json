@@ -1,0 +1,746 @@
+{
+  "plugin": "acfml",
+  "version": "2.2.2",
+  "files": {
+    "license.txt": {
+      "md5": "d32239bcb673463ab874e80d47fae504",
+      "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903"
+    },
+    "readme.txt": {
+      "md5": "6fc955a052cf9679e0a3a186a0bf1e34",
+      "sha256": "e08391d68585858ea76600f4c51a9bb95659e2a2b1febbdee826c420cbf698aa"
+    },
+    "wpml-acf.php": {
+      "md5": "a488f61dab75ae537ed85493675b7e73",
+      "sha256": "a3a874c17d3a353e79df92563ebb97b4b8e75ba881fcc2071ce2ae47a4af7c92"
+    },
+    "wpml-dependencies.json": {
+      "md5": "bddaf1655bce491c43ef0c8a248caf2e",
+      "sha256": "87a70faf0a963e7514996424123c1a4d1d56ecbd53a4aaef516bca9a5fc7f094"
+    },
+    "assets/css/admin-style.css": {
+      "md5": "824f9b4e29a96023ab062fa0a3aedfd3",
+      "sha256": "79beaf91f9f390774e91cfb3b596e019a42b25c8fabd22a655e695fdcdc92e6c"
+    },
+    "assets/img/advanced.svg": {
+      "md5": "3993350c5348a0ed3356654b42166828",
+      "sha256": "ebba5ff875e461dc797bdad494fb68b61c89af9908dd18204bf6ce2442f3eeb4"
+    },
+    "assets/img/localization.svg": {
+      "md5": "6ed6e7d9108c3e8b51ca5d7c710e3e51",
+      "sha256": "b045483633ca0830d50ddd9f72bbbee3b679b41db2fcc0c69bd8870e1e98e9d5"
+    },
+    "assets/img/translation.svg": {
+      "md5": "b5768155087c04d707d480da1ad8e9ea",
+      "sha256": "8f419a57f4f41510956b9c2309e07b411d43d0dc83a0d4d3350948d4e698e4c5"
+    },
+    "classes/class-wpml-acf-attachments.php": {
+      "md5": "533f97bc4a3250127846b5a300b98852",
+      "sha256": "19feec06cd60080f36469bbf9f867858770a7d90797543ae3841f281fc0d40b7"
+    },
+    "classes/class-wpml-acf-blocks.php": {
+      "md5": "e9f2158a4462c509df4cf80b296a12a2",
+      "sha256": "5fa3570443afec251ef4c7d2f4b96ebda7dc395abdbc524fd86b81f28ff7fe1a"
+    },
+    "classes/class-wpml-acf-custom-fields-sync.php": {
+      "md5": "ced08beead05f30f1434fc2864fe3899",
+      "sha256": "095dc5830d19f3eccedfa75c4b5b5811e36562f7ef5bdca6cc36f358deec2a12"
+    },
+    "classes/class-wpml-acf-display-translated.php": {
+      "md5": "78d805c29d56d9c0330a0011c1e7b6f6",
+      "sha256": "f0c484bfb06fe23baf4b88815348dbe85417a90719a974960f9203a29fbf1bf1"
+    },
+    "classes/class-wpml-acf-duplicated-post.php": {
+      "md5": "77a8b948c46b8008a7ba20533885e8eb",
+      "sha256": "8bf7b1f112aa4c4e5858e7d62055c9f51cbd527b5b59279728df404650320d39"
+    },
+    "classes/class-wpml-acf-editor-hooks.php": {
+      "md5": "30ec613e16a730bf4787105fb1bdc1cd",
+      "sha256": "02ab3c17fd1c91cc0ff397e34092fa0ae4366de6b71ba865ff2eff3f5dc31a7d"
+    },
+    "classes/class-wpml-acf-field-annotations.php": {
+      "md5": "ff7635d8a2c198fa24e83cf5733e9658",
+      "sha256": "a164fb959c04c9749e32c2217abee709ea5f284ba5292d855c7caf4862827515"
+    },
+    "classes/class-wpml-acf-field-groups.php": {
+      "md5": "cdd5f29513315db463e2cec9b23454d1",
+      "sha256": "dbfb2db2fecebb76368c2007b7e1ed6a598c150a86a958634cf2486b63c26ffa"
+    },
+    "classes/class-wpml-acf-field-reference-adjuster.php": {
+      "md5": "8f88f2179f7b136c3a648166903db2b1",
+      "sha256": "3d3354f79fc336efba65561c34216738b3a37fbda41b3fbff424d11a64fb9e35"
+    },
+    "classes/class-wpml-acf-field-settings.php": {
+      "md5": "220337ead5eec6498ebfb5ed0342f357",
+      "sha256": "540adfbb88e728903a305693b525456b99dab8dbc73f361ed5f04a69813da454"
+    },
+    "classes/class-wpml-acf-field-state.php": {
+      "md5": "9f5c4dcd2025e3b5ed6b6331fa8f26c9",
+      "sha256": "50e1dff148d86a5266dd5d015bf3ec04df676adfde771b4fe362b30b8c9d1e33"
+    },
+    "classes/class-wpml-acf-field.php": {
+      "md5": "f4305d0839835bb989e79e511603a3fb",
+      "sha256": "f06eade0f20da5af5b0eaec55962b3bdbad5ea8877284d1293037457b85930ff"
+    },
+    "classes/class-wpml-acf-gallery-field.php": {
+      "md5": "bb7c6d1e1bb839d5d3543eebd43d92d0",
+      "sha256": "d3f648f526b3730e748c5481dce9bf24512d3b5da9cc8e953ddc11d8e0458114"
+    },
+    "classes/class-wpml-acf-link-field.php": {
+      "md5": "9824f80cf398ba1d23d5b658b30ca0cf",
+      "sha256": "57a90405553ac0da603e84e4cf041a060136c14b7784600ab5d3ceb72c58c7d0"
+    },
+    "classes/class-wpml-acf-location-rules.php": {
+      "md5": "ab2dfd2e55077f513475d5113ef262f5",
+      "sha256": "1ea5f4a7693dd47ac3d10121808933141013d9b3bf0cb1616c37fdf7464b59b7"
+    },
+    "classes/class-wpml-acf-migrate-block-preferences.php": {
+      "md5": "672e177b9f1dde05b5cbff36b228e838",
+      "sha256": "3ba0eaadfc1bca3e01252f1fb98f562b2e83b423c6fe412eeac597493b29b9e1"
+    },
+    "classes/class-wpml-acf-migrate-option-page-strings.php": {
+      "md5": "efed60d911ce4939857b2e4691724a3b",
+      "sha256": "293dae51d2048344b17a203c2d650727193d7ed87c675b2510c24df3d7e925a2"
+    },
+    "classes/class-wpml-acf-page-link-field.php": {
+      "md5": "81c58e8727480207292bbd31771c2f8d",
+      "sha256": "eb34a76e3396efea26a23eae8994b67cc41634a72d0bd40dfd11bc195d3e2fbf"
+    },
+    "classes/class-wpml-acf-post-id.php": {
+      "md5": "e3a5e1b7f7db056bf5d2f7a3d649f4ab",
+      "sha256": "216ebb3fe060b908b6a0bf7ab4018f84b9639f8c1959b0ded2a31f84fc262c00"
+    },
+    "classes/class-wpml-acf-post-ids.php": {
+      "md5": "5dd03f64f09354aed10a223fe44d5e3b",
+      "sha256": "4dbb174d03392600aa51a802859c96260b9b37e4a4eecb1fc81b2aa80fb09e03"
+    },
+    "classes/class-wpml-acf-post-object-field.php": {
+      "md5": "1c7d8cd8bc3fa86b62048928244a3604",
+      "sha256": "10f070ccacf9058484c7c00fec274724349caa6c2aa2d87558c73ff71c3e6e08"
+    },
+    "classes/class-wpml-acf-pro.php": {
+      "md5": "d9ab769e2ee20f6b7fd06021aedfe9f1",
+      "sha256": "d0e1dd4c87007e15a7107aeb4f9c492527c6e0371d7e4f106e0a70e7c914cf53"
+    },
+    "classes/class-wpml-acf-processed-data.php": {
+      "md5": "91ba416aeb6443e933508afb8e9743e1",
+      "sha256": "5507028815b22cf39eae1f97a9798944276ca169f93a1febd66626d56680e5cd"
+    },
+    "classes/class-wpml-acf-relationship-field.php": {
+      "md5": "d4cdaf2eb2e2e307dfe5ecc6bf93bccb",
+      "sha256": "469765ed966abf6fde2c634b1984d7719cd4782d11062464092c778a323ee558"
+    },
+    "classes/class-wpml-acf-repeater-shuffle.php": {
+      "md5": "fe7634592b57d3a3eb7f2e35ece25993",
+      "sha256": "b534ede80c10827e2b609bfd58ae434e4e252a7d7359db40ba4a2d5d618c37ee"
+    },
+    "classes/class-wpml-acf-requirements.php": {
+      "md5": "b5494f071f6ac7445c13eb98f26fd0bf",
+      "sha256": "7d577edfb339d06d0ae9c0c697ce327ee4418f9d28acb3e762740aa92a2a2a3d"
+    },
+    "classes/class-wpml-acf-taxonomy-field.php": {
+      "md5": "a39c24719553ebeafb2f0210b1c961c8",
+      "sha256": "b0976d85c86c5bee3e71fb788cce13505ccd97c09e28d8f9cc35f64091ac9929"
+    },
+    "classes/class-wpml-acf-term-id.php": {
+      "md5": "168d8374bf47815d5b1083430eb61995",
+      "sha256": "78e40ed1e249ac48dd50a4aeacce606821128e811e718ce6826202c4f1f95a9e"
+    },
+    "classes/class-wpml-acf-term-ids.php": {
+      "md5": "107ef66a732c4030fb3121552bb1ee62",
+      "sha256": "8bc0c54460d6a06b87a71fbf61cbbeb3cf122936ab3e3de255d94862cd09b533"
+    },
+    "classes/class-wpml-acf-translatable-groups-checker.php": {
+      "md5": "9e5f42d11631bab00a324cc5011f4257",
+      "sha256": "67cf9f09b6b05c77370a2e5ade57a1e4c45c6adf200a941612c415a5d151c7f0"
+    },
+    "classes/class-wpml-acf-void-field.php": {
+      "md5": "9b04bbd5bc7dc4c5e03746f9416ffa62",
+      "sha256": "598b87f13bdde17b3a423df87d0c91e45101aaaca0dab26693dcf049f26636d9"
+    },
+    "classes/class-wpml-acf-worker.php": {
+      "md5": "4f289f12677f0cc7c49a58caacfa747d",
+      "sha256": "98adf868b058de8e312924a3bce9b1698832bc54cb469c7c2b82f3c6fb305072"
+    },
+    "classes/class-wpml-acf-xliff.php": {
+      "md5": "9165269a030b48f6d8490d31c93879a4",
+      "sha256": "84b06ab6b961de23cd03eb7923cbbca0f51ff9775de82fddfac52b0d347325d3"
+    },
+    "classes/class-wpml-acf.php": {
+      "md5": "93046fb5d80e796f855015dbae90358e",
+      "sha256": "cc00b7556970f678e4c3f9f4ae1d000fbb780111818b35da00a06f128180dde8"
+    },
+    "classes/Options.php": {
+      "md5": "cae414483d579544292c69587c9739dc",
+      "sha256": "d03fbec84c30a521c36679c30da93d3ef0018daccf4e928f8791a6463e23364e"
+    },
+    "classes/StringTaxonomyHooks.php": {
+      "md5": "a54eb585c2f2a2082e059379dc429319",
+      "sha256": "7b2c2dbdbcff2bbbd9e0670daa7401c4efc96ca03efd1be07c0e40e05102705a"
+    },
+    "classes/TranslationDataColumnsHooks.php": {
+      "md5": "f0aaa63b9161604c9fe77dcb4b752316",
+      "sha256": "c232ab022d4abcd4f2fa8ecf20aeaa807f9f3c87e29f0d5db9bc5d0015edc356"
+    },
+    "classes/TranslationDataMetaboxHooks.php": {
+      "md5": "c94be1ce060fc7b676842ca4ef254f3b",
+      "sha256": "343f8019a45cccb2479aad30341705b62595191907719e0b087c4b2946fec898"
+    },
+    "classes/TranslationDataTrait.php": {
+      "md5": "bafd605df8ada6b6a04447afaeb22998",
+      "sha256": "51abf05ff9cb0bdd7e81d71438ff46a8526dd49c488245421fda7198b48f042a"
+    },
+    "classes/wpml-acf-convertable.php": {
+      "md5": "e4d53e28dc16c3c404df8143f1450665",
+      "sha256": "a3c21f758de8b4ee0153d1133860fe0f99b15d77b11849286e667f981af41830"
+    },
+    "classes/Cache/Flush.php": {
+      "md5": "e6b295dc33d0d7edd7aef784bd7a33be",
+      "sha256": "0f42a43b59876b8aef2051f5fbcc2e90055bf2a4c9aafb06813ca0a3692de90e"
+    },
+    "classes/Container/Config.php": {
+      "md5": "b46b9070c5ae83c0f147e176c102a636",
+      "sha256": "fcda4cb9945deeafac8b1fdff2ef3edf790fb124c883ce5564d9191f5f905aa1"
+    },
+    "classes/Convertable/LinkFieldData.php": {
+      "md5": "b476de03063453bc521b75e061ba783b",
+      "sha256": "2ccd3d3f87fdbd0f050462ffb92c6923b726a48648a7437b127b4f6f4d6083d6"
+    },
+    "classes/Cpt/HooksFactory.php": {
+      "md5": "fe205466cfe2309cb376167e31cf56c0",
+      "sha256": "9c5b866c97935f60bc800098e257bd50bd4249dd0576228c114d250ae3474bb0"
+    },
+    "classes/Field/FrontendHooks.php": {
+      "md5": "6d5744bda9ebd9122344b0a6e0664b87",
+      "sha256": "c8a13395607fe42cb40ac0b567cbc1658915778fcaa4bbb9b5192394a82cbb76"
+    },
+    "classes/Field/Resolver.php": {
+      "md5": "814fcf7bfdb14374a5f8b4feb79a7031",
+      "sha256": "8f006564137623c7be8810628ecfbaaa3b194860bc1ae57bcffa68cf3130e545"
+    },
+    "classes/FieldGroup/AttachedPosts.php": {
+      "md5": "69a21219766daeeaa3271b4c6746a9f7",
+      "sha256": "ccdcc87cc39400134a220d54684cb6530fffd30002a3937db3f9d37c6be3d7e2"
+    },
+    "classes/FieldGroup/CptLockHooks.php": {
+      "md5": "ce4cc3072e0891416a05b387d7f4d8eb",
+      "sha256": "03584e555047d7bc495eb5b721b507d9024511628655125c4e964303b0433c16"
+    },
+    "classes/FieldGroup/DetectNonTranslatableLocations.php": {
+      "md5": "c9e0809f994fa914c709be82e39eb38f",
+      "sha256": "678bfe266be25f7bc23d9954338408dac9b951d203c5f8cd203d64191b55e933"
+    },
+    "classes/FieldGroup/FieldNamePatterns.php": {
+      "md5": "72a77ba4805df61798d278ec02736e2b",
+      "sha256": "b71bd5df2f1b8f44050f8f51bc64bc37b5326bfcc5277d3983bf06fd13b52b18"
+    },
+    "classes/FieldGroup/HooksFactory.php": {
+      "md5": "0cae4e87fad237d3640b887dbb8cc849",
+      "sha256": "dfbbbf42d9785eaccb1bf759038dfc8f2c564bd804a815fdf2662eb1786359dd"
+    },
+    "classes/FieldGroup/Mode.php": {
+      "md5": "da2d4ead7c131c0b394d5a54d6459ed8",
+      "sha256": "3a2d523bdca8eb0836964ff3e1872a4e2efbceb766f384703e7aa73b2b0e81eb"
+    },
+    "classes/FieldGroup/ModeDefaults.php": {
+      "md5": "9fcb21dcdbb7c4a7e01e0f1def7e5985",
+      "sha256": "d90cf39fd6a664d009ec5ec35f46d4e9c0a086524ef2cb90a9c2c90dc0ab6ef5"
+    },
+    "classes/FieldGroup/SaveHooks.php": {
+      "md5": "2531ddf0d215a1b9fdca7d61d33f8645",
+      "sha256": "2206de2db3f48eab73671e89b1389f2d67e59b257f1036d1681145177f574977"
+    },
+    "classes/FieldGroup/SettingsLockHooks.php": {
+      "md5": "c1feebd4d16266eecfe39376c274bb0b",
+      "sha256": "b6ea17741b3edf5d732bba625de7891bd3ac1414ca8c6c8ec2091cbdb1eea86f"
+    },
+    "classes/FieldGroup/TranslationEditorHooks.php": {
+      "md5": "6206b9c54449831e0f99726e99490a94",
+      "sha256": "1b7dcc75d7e63732bf0d890831c3469b4fb373ffbd586b2a58c91ecbc9c3ec8e"
+    },
+    "classes/FieldGroup/TranslationModeColumnHooks.php": {
+      "md5": "e219ec0fbdc6a578799a0224ebb320e5",
+      "sha256": "922fb1230f4b98cc94330c0383e047a3222e523736b4f5fc417c523c7a4311b5"
+    },
+    "classes/FieldGroup/UIHooks.php": {
+      "md5": "b76d7c2eec052da80a1fc71ee3f8a80a",
+      "sha256": "14c6faaeb71f4d9b91de18881996b42eb4080d1dae2db35d879cc27f897bca71"
+    },
+    "classes/FieldGroup/Endpoints/DismissTranslateCptModal.php": {
+      "md5": "a730ad5e2871ae94ff9e4ddb7fc66173",
+      "sha256": "4c9916b61e94db687813128831c7421475954d2a527cbfd3ff47741936f82aa4"
+    },
+    "classes/FieldPreferences/TranslationJobs.php": {
+      "md5": "3c0c7a8f394dba8594301236ba882b2d",
+      "sha256": "aaae5a6d18a42e7bdba9a4426bf22623ec2d7ffebbb6e55aa4543c10c9228669"
+    },
+    "classes/Helper/ContentType.php": {
+      "md5": "a38b3f09f772138eb16af293c3488937",
+      "sha256": "7271caa3b3bbfb4e05b1225de0c6f486bbe52c3b271a93afd39928e3ff28c6dc"
+    },
+    "classes/Helper/Cpt.php": {
+      "md5": "ea16e434328b2f3f73a07963d7638fae",
+      "sha256": "426e2b94ee9b33f5d2294e2d17f7aad2df4e74a31a523b300331436acc14e482"
+    },
+    "classes/Helper/FieldGroup.php": {
+      "md5": "c4aee69b8df946fb9941a7436154094f",
+      "sha256": "e074828f496a43438df96350ce58bc28ca5d392f5e8239dd08b0605633f8f3fb"
+    },
+    "classes/Helper/Fields.php": {
+      "md5": "063fa84a16acc6094d53240b2e0f993e",
+      "sha256": "6b08255921dee6f18dfd61f6f2d761a73d697b66efb7ffe05214244b4e8b237e"
+    },
+    "classes/Helper/HashCalculator.php": {
+      "md5": "d61b5a4c2d7b584cbfc9bb69044541aa",
+      "sha256": "5cd9087444afe583050d615e7d40bb59efad1ddeb901adbeb87fcce83b25813b"
+    },
+    "classes/Helper/OptionsPage.php": {
+      "md5": "4a758877e477968dc909cc16ca718ee3",
+      "sha256": "6ae9cb6a9b1ffb0bab83d14d94a8b46f048a33af24bcca9cdea0c20b044d42c4"
+    },
+    "classes/Helper/PhpFunctions.php": {
+      "md5": "9aeb5a1bd2271906d8bc55a4f7aedfc1",
+      "sha256": "2c278b8574514555da6e1748ed06c03764b039bc56bf86c6ed2d9eb06ce07bdc"
+    },
+    "classes/Helper/Resources.php": {
+      "md5": "1587eb97adf866505672eec474aeca26",
+      "sha256": "5408dbadbd6a0c4ed707d7d44ce573ac8cb121d4c8b4b5bc03c29f7f48649e2b"
+    },
+    "classes/Helper/Taxonomy.php": {
+      "md5": "3a6f0b9af76894a52d4bdecbc168a390",
+      "sha256": "5d74eeb99fe33c0ca9293938e2259c75634dbeda4d5f1c81f98e3142886f0495"
+    },
+    "classes/Notice/Activation.php": {
+      "md5": "49110e32be6790d3091e834008616cba",
+      "sha256": "e0e992da3b612584b467694562c64143dc7e1873539e74b238f44fc1acd7e5fc"
+    },
+    "classes/Notice/FieldGroupModes.php": {
+      "md5": "9c0e4be5aea63531ffd702527e7b1f0f",
+      "sha256": "1f5f066f82ac81eac4c5440e01cda09bd75bf3944a806886d9db192729e6ecd6"
+    },
+    "classes/Notice/Links.php": {
+      "md5": "0828b2080bca7986b4b68bc17eaaf39e",
+      "sha256": "e8ee5af76ee94f1e1f440c827dd1045d1f5925cb77c424032a8f668cf1230b0a"
+    },
+    "classes/Options/CustomNamespacesHooks.php": {
+      "md5": "9f0604d728600e7848cbff313ef285c1",
+      "sha256": "7ed70452fa6410cebc35135a0301308627500037919a5cba2356ff7e4ef61a5e"
+    },
+    "classes/Options/EditorHooks.php": {
+      "md5": "02809028945e95b02cae0ef9031e973b",
+      "sha256": "af90f252b15cce9a575f3f2aba688ccdba90feaa48a5f2ed1efab16e3ca23979"
+    },
+    "classes/Options/HooksFactory.php": {
+      "md5": "df948b5f738960d6fdca3b4b16716c8d",
+      "sha256": "c07b1ec8d841e30594241ef4c43cb99cd4b016312947f4df73211b520cfde8e3"
+    },
+    "classes/Options/TranslationJobHooks.php": {
+      "md5": "c5b01d766e324fc1a9ef9dae3c68efe4",
+      "sha256": "50487d1e334361ac228b6a5a13fd2ac9bf81c4adc0a3cc7ed88bd34991c19bc4"
+    },
+    "classes/OptionsPage/HooksFactory.php": {
+      "md5": "68378c3a099c7eccad0f789f9918fe03",
+      "sha256": "eabca555567ddfec954b67a2858e4cb78d0fb8355e84897f1ce1c73ef85ad90f"
+    },
+    "classes/Post/EditorHooksFactory.php": {
+      "md5": "b64334e29ae50eb131dd0cda4e450c63",
+      "sha256": "2ff84195ee9cfc10e9db292c7a4a65618d2f2e3b1d9c4a72a38c3cf8c37e6c09"
+    },
+    "classes/Post/MixedFieldGroupModesHooks.php": {
+      "md5": "0bd7577c6ce6a30adbc19ec72484d3ad",
+      "sha256": "4ba6c039326ee39fbd248cf20d27d4e56fffbc320828ec9caae7e77f8eafa4b1"
+    },
+    "classes/Post/NativeEditorTranslationHooks.php": {
+      "md5": "735e291010cff72f55e89e394232bc6e",
+      "sha256": "b495bdffa89f662dcd90d7692a057552471fc818732c5cc930c6279136019d8e"
+    },
+    "classes/strategy/repeater-shuffle/OptionsPage.php": {
+      "md5": "8ec82aa52904c02af8e9d5549cdb44b7",
+      "sha256": "e6cd55beb4a3676a4c432959c9b491a21e279ba5136330badd0b8a452fc2a8d4"
+    },
+    "classes/strategy/repeater-shuffle/post.php": {
+      "md5": "dfc82e1baa950b7e08c37c3f202efc44",
+      "sha256": "ecb63a056f318ab2f4af1911c1bee6aa64c157493ebb92c593a52fa9f189ed15"
+    },
+    "classes/strategy/repeater-shuffle/Resolver.php": {
+      "md5": "0e2d9b10c02e8fa5c9930fdaaa703c2b",
+      "sha256": "9666d55172060ed2dc34c4d47529dc3332e185861162c021f026ad7f68205da1"
+    },
+    "classes/strategy/repeater-shuffle/strategy.php": {
+      "md5": "f73afc63416028a2412408660b15e1a1",
+      "sha256": "14ea11c4215b258537852ebf21531d3cbc0f02fece062945632b398575faa0c0"
+    },
+    "classes/strategy/repeater-shuffle/term.php": {
+      "md5": "e1d08f078d467cd7db27b8e225576c68",
+      "sha256": "09681eafbdb793d95c4a440fa3f164ec717ce80e47cbeb3f5e26238c3d3686c8"
+    },
+    "classes/strategy/repeater-sync/CheckboxCondition.php": {
+      "md5": "d177ebeff4165835600c7f8b66ec30bb",
+      "sha256": "39902e1046bd85e24688788a88b0aca3836b2b5c95ac16ffbcee79f905431d9b"
+    },
+    "classes/strategy/repeater-sync/CheckboxHooks.php": {
+      "md5": "0d8dca7d49777d7976adb473ff8f279e",
+      "sha256": "d0c13b4e1718a813ba87670379a98acfd0af77565fa86c616de70f5c00bdc6d8"
+    },
+    "classes/strategy/repeater-sync/CheckboxOption.php": {
+      "md5": "e0d0b9945595f0b5a57d95d354972561",
+      "sha256": "3c20fb080bd15c3f9581902d9c160c470117c55acd25ce52802236038cd49c0f"
+    },
+    "classes/strategy/repeater-sync/CheckboxUI.php": {
+      "md5": "09dddefd748a9089cef05305ea7242be",
+      "sha256": "8d38b19fbcfb05209ccb1dc5108a1f80dac72d7bf463daca39fcd96d1ead0138"
+    },
+    "classes/strategy/repeater-sync/HooksFactory.php": {
+      "md5": "6c6a1f3e943bf12ecb70c70dcf93dc99",
+      "sha256": "d23728757b25cd4ad464ffa5a654cd815dffb9a13855f97db0c27e8b7f022d7c"
+    },
+    "classes/strategy/repeater-sync/OptionPageHooks.php": {
+      "md5": "de877ae9328f4fce4be4f343080ed919",
+      "sha256": "cbb393d7e1c907b615eca188eb741835e8b910a704c49a5adf19443995287a20"
+    },
+    "classes/strategy/repeater-sync/PostHooks.php": {
+      "md5": "82009421358a7f5778cfad31e9271b6c",
+      "sha256": "ca39c25b861607ab158b5dd3060dfd6a351fba251e8ff3c0d38668d299f10bf0"
+    },
+    "classes/strategy/repeater-sync/TermHooks.php": {
+      "md5": "2c313d0f692ca0ef9e571314de670484",
+      "sha256": "b9e773dfc9b1fde967e67f6f7259d93f4aae0491b069e3ce928a0da5723e9d1c"
+    },
+    "classes/Strings/Config.php": {
+      "md5": "decdff0df2904beb0ad4856dad252644",
+      "sha256": "5622dfb4d029328e271eafcf8543588359d41108709437ebfc237531c3c5fd34"
+    },
+    "classes/Strings/CptHooks.php": {
+      "md5": "d4b5bbf7eacbb17912ca1b7d9792ee3a",
+      "sha256": "08906e6e756685f4cb593d4cc362e89a27bb391099eea162b38ae1ec3b81da41"
+    },
+    "classes/Strings/Factory.php": {
+      "md5": "a691a5284d2e1d5218a98f6e04147fcd",
+      "sha256": "3cf3ce68b107b6ed4945465e71ed0388a4b7d7f38dfca1cb4fa836754f141435"
+    },
+    "classes/Strings/FieldHooks.php": {
+      "md5": "c824035cb92c70132179c97684a3e8b1",
+      "sha256": "7a1e22c8ea664baf3123d9020ae770ce3985ed60b0550e5fa2943e1964ef9867"
+    },
+    "classes/Strings/HooksFactory.php": {
+      "md5": "f538ae88aafb810b28367df035d20230",
+      "sha256": "e73b51ef369e6408c963d1babbbe7c7b870666a11a2485304541b7d668904e58"
+    },
+    "classes/Strings/OptionsPageHooks.php": {
+      "md5": "70adf53b3a1d0cb992b1debb5a570f42",
+      "sha256": "b7879e0e9603187c83bc47be6a556a204f814e8155de3de431cac658b6f2e48f"
+    },
+    "classes/Strings/Package.php": {
+      "md5": "4e82d88b20394dbbf1cfe6b7790402cd",
+      "sha256": "e5aabe805423df2e0593f9c6ad987f1f27b8cb522afbd3dea30fb42b51fad9ab"
+    },
+    "classes/Strings/STPluginHooks.php": {
+      "md5": "e9368c15f1871e8655335918fbd80bc9",
+      "sha256": "eff2d3f207212ceeb2abacbad744102c19f2ca5dea7c5827e13cf444db969906"
+    },
+    "classes/Strings/TaxonomyHooks.php": {
+      "md5": "e7f1f349be90620314f02858dedabe3c",
+      "sha256": "1d0954bdd9dc1343a974e0bfff14cfba3cbab736283c3bd8d7a20305f51d00fa"
+    },
+    "classes/Strings/TranslateEverythingHooks.php": {
+      "md5": "96a30557485908e92e40b9bd425f2020",
+      "sha256": "e7d70acee837ea6e617cfe4af484239f447b252182f81df5501fd88b5b14b0a1"
+    },
+    "classes/Strings/TranslationJobFilter.php": {
+      "md5": "97bdb667f6c0cec6ffcd794ccd4edafd",
+      "sha256": "b42005ec3cdb898d88aeb913cb41655179e37ddef4b969732c8cfafe2806018b"
+    },
+    "classes/Strings/TranslationJobHooks.php": {
+      "md5": "91758f8b628a1f9cf00b9deb64c38901",
+      "sha256": "184d866971390c14075f3ad7b35efb48ebe6248cf20ab33ecf6431d2add683fe"
+    },
+    "classes/Strings/Translator.php": {
+      "md5": "77fbb842b7b8aae9b634835a2972eb8e",
+      "sha256": "1b4f0242f166baab338b2a3269cbc33401137f4a04d11d6ea3282262d8adab6b"
+    },
+    "classes/Strings/Helper/ContentTypeLabels.php": {
+      "md5": "2593a6ddd88e9df401f394d87bde4915",
+      "sha256": "34834be61508c78e802a4ad0d33a59a46dbb1a7f360b3f9494dd93bf6f9a0c87"
+    },
+    "classes/Strings/Transformer/Register.php": {
+      "md5": "0c3bd12e18499667eeff7e46a4992e51",
+      "sha256": "fee47e4fb7166c08555e35fd6323a7ee58935ca8ac21e8e1282cf5531d1bf839"
+    },
+    "classes/Strings/Transformer/Transformer.php": {
+      "md5": "d9eb20406702d11743a5a69f292db189",
+      "sha256": "94e8ff078d868d59a0260173f10b7151948a80066a5edb40bd03c3118ba70b01"
+    },
+    "classes/Strings/Transformer/Translate.php": {
+      "md5": "1e0f2232eb08cd7b20c0f6356d4e495f",
+      "sha256": "a3719d703151bc75b42eb3b68a7a21c401d06a95fcc89d00c142e0b4fd4c4cb1"
+    },
+    "classes/Strings/Traversable/Cpt.php": {
+      "md5": "d0a546ab9814972980f630ada8e11099",
+      "sha256": "194c77eeb79028e6dd88fff4fc157afbd0b0af213913efa77f64f9ce873260ea"
+    },
+    "classes/Strings/Traversable/Entity.php": {
+      "md5": "5b81661844fbd4dd388f94de9de37d68",
+      "sha256": "16c4ff5d32e7444a63f149576980b30698417d3f8e43df59a1a46ef505443f70"
+    },
+    "classes/Strings/Traversable/Field.php": {
+      "md5": "e474deccde11dde1e716debe3702788d",
+      "sha256": "1844341be6ff45cd7005008f1c419302de28455dbfe60ffd0f3eade4c82b9e8f"
+    },
+    "classes/Strings/Traversable/FieldGroup.php": {
+      "md5": "1a7dcd716f63eab07668a2d10e3b9c62",
+      "sha256": "e9b621b1d09c3b1f13613ba579f59430547aa0d1589d499213d4771e0cef2ffa"
+    },
+    "classes/Strings/Traversable/Layout.php": {
+      "md5": "6f236a6c9a1aaa5c46a5ec8a1c6203da",
+      "sha256": "5cd7c76615974122db18bc40f22d748c89e5ed93f78d3e67bca177a293183280"
+    },
+    "classes/Strings/Traversable/OptionsPage.php": {
+      "md5": "26a766e4b00f17a8f0b1e58cd61aad6c",
+      "sha256": "1b48c71e95ad31d332cb70db2cc6119b7eac9159a7ebdad370c933ac2c0ac4fb"
+    },
+    "classes/Strings/Traversable/Taxonomy.php": {
+      "md5": "6e8541f56fa2eafeababb81ae9ce62a1",
+      "sha256": "fe4c4a03242b237d3b98d01167794b39476c95a951cca34ae50efd5a51f66e7a"
+    },
+    "classes/Strings/Traversable/Traversable.php": {
+      "md5": "6981205036080fd3423e93ba26f9fb27",
+      "sha256": "1fd5d4fd34b6fa049e471293975521e2c9d5cb2929c51c590ae22cc14778e96f"
+    },
+    "classes/Taxonomy/HooksFactory.php": {
+      "md5": "b5dcb6a4b7db14b716afeb37863fd7ea",
+      "sha256": "32ddab2ac103912a3a2491f6f1bfe1de809b26fa40abfca97b250a08a513055d"
+    },
+    "classes/Tools/AdminUrl.php": {
+      "md5": "5fe5ceb92a16de659b72a263ade142b8",
+      "sha256": "f2d4e7673a89d1e2eccf9b592ce148a366a31565f00a542f22edb5ce4835ee32"
+    },
+    "classes/Tools/Export.php": {
+      "md5": "26e3a297ac085a888dd7c46a231595fe",
+      "sha256": "901890831e8d75d04bddd348906a12593c98f26f5e7466e4aa8c5ef11c76cfe3"
+    },
+    "classes/Tools/Import.php": {
+      "md5": "8f6db2dd8a7dbfe5c75a1085f15b2679",
+      "sha256": "316d56743ae770665eaa37ed4f0e22fd7a1cc0ce5fd383ca29598a9c58d23ff0"
+    },
+    "classes/Tools/Local.php": {
+      "md5": "14600105e8b71fc46401f613dd2a7337",
+      "sha256": "99baaf4954ad0006488daf36fef0ce2b4979241593728703ec65ff0637e3c1a2"
+    },
+    "classes/Tools/LocalSettings.php": {
+      "md5": "d4749d0a0548736d2c00ac99f8c87fa1",
+      "sha256": "777499bfc57a0e4d790718d8356f3d743f9c21cdf75802d2bbcecf6017183539"
+    },
+    "classes/Tools/LocalUI.php": {
+      "md5": "cd1fe412e109e34c643949bb1db9893d",
+      "sha256": "323d1c01dfe6f2828fb3fe7af530b56f601bf1b066bb7f8f3914edce6250e485"
+    },
+    "classes/Tools/Transfer.php": {
+      "md5": "933f56358585c863b01975d96b77d039",
+      "sha256": "db8dd9f0abc781a8f76aeb2b2cad25229ac59bfb570e3734a45addcfe6fa43a3"
+    },
+    "classes/TranslationEditor/DisableHooks.php": {
+      "md5": "04f89471aa7b8bd061fbbcad81b2fbab",
+      "sha256": "63dba8dfbb7bd9617bb8116f1de0c60c9573cad67cf73d53d2273d46819f43e8"
+    },
+    "classes/TranslationEditor/JobFilter.php": {
+      "md5": "41c28b3c924b84145caaa43cbcbf9516",
+      "sha256": "a9d130f27963b24b0ce57cdef1b0c166b6346430ecc57cea2ac2ee7b7332db61"
+    },
+    "classes/Upgrade/CommandsProvider.php": {
+      "md5": "bd909b925861335c211e4a54034aa8fa",
+      "sha256": "95cb2dc65cc668106531d6003f40c05bbbedc5f69b9b08835df3f188e92bf2ad"
+    },
+    "classes/Upgrade/Upgrade.php": {
+      "md5": "a0d1f39976350bb3d0f909d255a887e8",
+      "sha256": "c180f08c0b91b4df946503d0984be4cdb9f19b240830acec39aff5a47e90ef3c"
+    },
+    "classes/Upgrade/Commands/Command.php": {
+      "md5": "79e71a6e94324a1cdcc6a6db7955da1d",
+      "sha256": "038114fae2c0aeb08143a0ef25832c7a6a75cd2cc7535b3a57a98371e66c9709"
+    },
+    "classes/Upgrade/Commands/MigrateToV2.php": {
+      "md5": "3782d67c759c07cc5263c900627b06eb",
+      "sha256": "1a922dc4d6c0d82c5e5ed62b5eed942f9444614ead996d3d31e27d1065144cc0"
+    },
+    "classes/Upgrade/Commands/MigrateToV2_1.php": {
+      "md5": "74e53e39945b073a6e3f005ecf2f9575",
+      "sha256": "3c5d4b5314ea6bf64f1995e55a054710d1e65801bb6591f537ee0b9b47d91e72"
+    },
+    "classes/Upgrade/Commands/MigrateToV2_2.php": {
+      "md5": "d0d9bc1b32d6079684875fb284d1ef43",
+      "sha256": "c3c6626b9435737deca875030c21a2557d36bd6e087e159670d4d8c1d98b8f3f"
+    },
+    "dist/css/field-group-edit/styles.css": {
+      "md5": "8b64972400dfb4b0d141922aa3c062b1",
+      "sha256": "8e2a787e15e5c660a3b1a1d06061813abfd5912d4595d28f378ec2c7e0b4e309"
+    },
+    "dist/css/native-editor-translation-edit/styles.css": {
+      "md5": "1ed37adaf68f9b3ea8549163669cd199",
+      "sha256": "f38ebfe323ee0ea9915e5a406d7b73924a01e9470db3d6bb10fbba17594be67f"
+    },
+    "dist/js/field-group-edit/app.js": {
+      "md5": "5151230528db8cfd4b40fecdb31ecc5a",
+      "sha256": "8b9ed86affea6f3ca639c2203caaf0900e4945e8ac96ade4ef6b6443f081e296"
+    },
+    "dist/js/native-editor-translation-edit/app.js": {
+      "md5": "481be0a864a856595dfd5a4bbd09997a",
+      "sha256": "74865698cb9bf7ce0e1c348fd71281b7e65f9a5d43fb81a6f0cdcd266306adb5"
+    },
+    "languages/acfml-de_DE.mo": {
+      "md5": "cf0275c11f55df8d3d0af15825e2b8ce",
+      "sha256": "e6e3d013ec042f3baa65d60d8ac7af31b416ebb1100fb98a86a5b924bd4d52a5"
+    },
+    "languages/acfml-de_DE.po": {
+      "md5": "a75223138cac0bad3148b5a796c2f765",
+      "sha256": "48628edb81ff79e269f8e1963f1e3aa835fa83563ef65924305cb8f4aeae8f25"
+    },
+    "languages/acfml-el.mo": {
+      "md5": "f5f071bcbaa6c96b4812e96315485756",
+      "sha256": "3d12b5e6e4635c8eed9713ac5836a48145403554fe2c0e9f4c5dc1aa467b7f1d"
+    },
+    "languages/acfml-el.po": {
+      "md5": "67cd5b4b95decd4a064f56f28b10f1f0",
+      "sha256": "9393e851193cd21c598b6eb121270ca79485a46a4fab536bd69f631df42fed1c"
+    },
+    "languages/acfml-es_ES.mo": {
+      "md5": "621bd06bd9e0fb37ff333aca575a560c",
+      "sha256": "4d22a8fd5f59a510499e54394056895c2ebe935645b9dfa2affb13ddc0f59a6e"
+    },
+    "languages/acfml-es_ES.po": {
+      "md5": "5c394a6077f4109e5afbb0851a4f0010",
+      "sha256": "dd54cf7364a446078c27fa287fe4ce5eb6011580b1aa48841e7f5f7bce704651"
+    },
+    "languages/acfml-fr_FR.mo": {
+      "md5": "6c006f97a3d2a8c1b13fd5ec716199b0",
+      "sha256": "836c8cd9492e7fb75cd1076a445944fdc7c42f10995a2cbc45ee92a2ea7c04eb"
+    },
+    "languages/acfml-fr_FR.po": {
+      "md5": "0b588fc9804ea1b8c6e7c25ed966e92e",
+      "sha256": "686653a213037cf5a0cfb17a9aac70831459cbdfc45924d5e36c6817de901de0"
+    },
+    "languages/acfml-he_IL.mo": {
+      "md5": "468d27eb77f616a2e918114cdc129de6",
+      "sha256": "742d043e203044785ef23beabfd48026be5ae1fdaf9cf03add2e5f148c628c2f"
+    },
+    "languages/acfml-he_IL.po": {
+      "md5": "06512d54ff62bc28faecfea074b2fc5c",
+      "sha256": "d5f4741cbbe2bc5d25a3347096c94ae351267f07f9bc36627ca7802a8bdc596f"
+    },
+    "languages/acfml-it_IT.mo": {
+      "md5": "e8e671005b43a873280ead09d1237de5",
+      "sha256": "a59711f3e30fb88f53ca1cff65c920177f9d46bf73541845f75de6fc65779e9d"
+    },
+    "languages/acfml-it_IT.po": {
+      "md5": "abb8c458f8c9f92a6dfe3ffe11337cde",
+      "sha256": "2113c6995f22fba27582a946b68becee26bae580abc34efe78201a3adbfd26d3"
+    },
+    "languages/acfml-ja.mo": {
+      "md5": "8095c48c60526eb3e24a72a8792d4280",
+      "sha256": "4e8513823419e12c87f65cb8ab5e78db6bd27db7326df2a9aba5d071e6320228"
+    },
+    "languages/acfml-ja.po": {
+      "md5": "4212ccb13f6865f7fd1537d619e4d874",
+      "sha256": "6831e5665d0faed2e75c7561880b33667c6ed0dddc650750b2e747dc6b1b6d48"
+    },
+    "languages/acfml-nl_NL.mo": {
+      "md5": "ad0a57a9530cf284fe0a91fee770b466",
+      "sha256": "2fc8b2ede465d5d19be1d4fd50a105698c268bd2f59bc599e2b9e5908214296a"
+    },
+    "languages/acfml-nl_NL.po": {
+      "md5": "8d4969502669b97ecc2d0d61e2cb3cb8",
+      "sha256": "db210d48149a9f184696c0ec28070a7210fa87c487633afe3ac5752a19fb66e8"
+    },
+    "languages/acfml-pl_PL.mo": {
+      "md5": "3feb11046c4b80b7234e2cf2e713efdf",
+      "sha256": "bff1af71cc5f9e4982932701e89a25153eb16d025e0c73b4bcc6f86b7c0f7d17"
+    },
+    "languages/acfml-pl_PL.po": {
+      "md5": "8659452b268ede2387df1317bc5954bd",
+      "sha256": "2c762fabb0e8f24a4b350bfba73954028563f0057a8897369e3b971c816147bc"
+    },
+    "languages/acfml-pt_BR.mo": {
+      "md5": "55f77664c61025de5f4446a776a6b4ea",
+      "sha256": "4921c702b82a20b1de897c8fad3d20f7ffddcc34664918f9cc8d56df40296b77"
+    },
+    "languages/acfml-pt_BR.po": {
+      "md5": "a7ee0f5bb2d723a4620be6d6abdb1f57",
+      "sha256": "d68e4534a7b87728c222f6c5e275d0eca74b7510c1386b7f9180fde630972d62"
+    },
+    "languages/acfml-sv_SE.mo": {
+      "md5": "ffc13f5cc6a41e4e3b91dda708622a64",
+      "sha256": "3eebeddbd7518196354cb7ccf1ceb79f7821f58d52d1b9e42ded59277a30c397"
+    },
+    "languages/acfml-sv_SE.po": {
+      "md5": "df369794e6e1aece319af0987f23fcac",
+      "sha256": "fb15d8858f3ee954acccb9d5acfac19f22d25e5fc50ed8f4dcdffba716063995"
+    },
+    "languages/acfml-zh_CN.mo": {
+      "md5": "10bfc9d6247a262808006c7b8d7b7ac8",
+      "sha256": "1bbcec8caa56cc6cd9de7ceac9d72079d1ac27a5f66ca52177ff44e7ebe0316e"
+    },
+    "languages/acfml-zh_CN.po": {
+      "md5": "b8baefbea47b7efeb4b28a0c25143d6f",
+      "sha256": "cb2df50930fdbd8d8072a292b6dcf456ce5f96febcab4e591bf3369222ee14d9"
+    },
+    "languages/acfml.pot": {
+      "md5": "8ce98376ee2a7483b07c4e9d94baf05d",
+      "sha256": "a9a2bf5ae145baca26b78810c857d6e32fdabcd204351481ce6b7d889e5fa213"
+    },
+    "vendor/autoload.php": {
+      "md5": "130060a05cd212fb23dc5b68d36606a9",
+      "sha256": "7b60267f39bbaf748190a1be0dabbd06f686c769d22cd34f148994daf269e3cd"
+    },
+    "vendor/composer/autoload_classmap.php": {
+      "md5": "82148879ddc663de74488b77d7ef2efd",
+      "sha256": "796f37c9f50ab247f0160b1dfe18087d625678af13f90c781f9d67eb44319625"
+    },
+    "vendor/composer/autoload_namespaces.php": {
+      "md5": "35e12c7d76c4a81633bcf547c0e229a9",
+      "sha256": "6d1b582b311799934568f00d45e01de7a04f8a1865a8a72c7841904ad4dac3a7"
+    },
+    "vendor/composer/autoload_psr4.php": {
+      "md5": "dd3a00f0d13eb29781edd8c77d4c5100",
+      "sha256": "9ead7763dcdb921731a7b7395385bf61dc6481899ae21d76aef52a659d21fccd"
+    },
+    "vendor/composer/autoload_real.php": {
+      "md5": "ffc0c387adac1ee41cec6d97b4b159a8",
+      "sha256": "0933357e0a9a7afb53d8ec8a27d57b08c5840ea7ec6dd7c164776d19717c51bc"
+    },
+    "vendor/composer/autoload_static.php": {
+      "md5": "79d383a6dcc65f42060197d9d96d17bf",
+      "sha256": "4388eac1796ceb8a0fa35f00f1ab55e34e4b293aea079a7daf691180740716ff"
+    },
+    "vendor/composer/ClassLoader.php": {
+      "md5": "80e3127bb630c512c42cfb51366ec09c",
+      "sha256": "c944c4b1228ef6bef01b0029205c562c96536f8e550052d753b57723d520e69a"
+    },
+    "vendor/composer/installed.php": {
+      "md5": "3dd4452de10961e2fbc7d9c374e21c9e",
+      "sha256": "32b7310586e468ae5b45982e67a2154c32303975ba9c07147f2ab93b3291caf0"
+    },
+    "vendor/composer/InstalledVersions.php": {
+      "md5": "13e6e46602b746a98d692a8c1b663e3c",
+      "sha256": "c13545b80c74150db8ef2e6e6ae614ca5bab5d02eb0a2e90e20123177fdc330b"
+    },
+    "vendor/composer/LICENSE": {
+      "md5": "955d5fe58c231244f6b49000f383b5e2",
+      "sha256": "c8cce4b6b9729f264ffdf9296d505d63432497feeed1f586d1902b942197e024"
+    },
+    "vendor/composer/platform_check.php": {
+      "md5": "15e1efff88933be3dd5740e3c9530478",
+      "sha256": "a35a93ad352c7c414cd970603b92d1b8f0e01c96108d2e0febfbdc7c9558f1fa"
+    },
+    "vendor/wpml-shared/wpml-lib-dependencies/src/dependencies/class-wpml-core-version-check.php": {
+      "md5": "626a8aa3c35dd12300099568d975dbcb",
+      "sha256": "577b790a8fb3dc52f3204630a45515ca5e2a136fb82538591a2f2695795da259"
+    },
+    "vendor/wpml-shared/wpml-lib-dependencies/src/dependencies/class-wpml-dependencies.php": {
+      "md5": "68d7af933f969351b940a5778bd0bec7",
+      "sha256": "6c8152eccf80fd6fb7de48503545ae6e6c0472600d99d57b9ae46fec8840e2bc"
+    },
+    "vendor/wpml-shared/wpml-lib-dependencies/src/dependencies/class-wpml-php-version-check.php": {
+      "md5": "d78dab5309469ce714b1bfde665a3d87",
+      "sha256": "b127b605a01abc82c0d146bbe8a08aaa72e91f0ae99769b7e70ddcae5b70ecd5"
+    }
+  }
+}
