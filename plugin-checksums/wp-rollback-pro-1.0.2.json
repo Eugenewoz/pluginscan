@@ -1,0 +1,1110 @@
+{
+  "plugin": "wp-rollback-pro",
+  "version": "1.0.2",
+  "files": {
+    "package.json": {
+      "md5": "162e027c1f19621ae3d9802630638c5b",
+      "sha256": "6c6c36995eb59605a8623cf2e98cc185ec498e4d6444dd5a2faaf0239fd3be4e"
+    },
+    "readme.txt": {
+      "md5": "76f76e6cbbcec02168b63264f0628f18",
+      "sha256": "9a737fa61658402563c5b3d1189c552ba859e03fc711f06c96e3305f12961d20"
+    },
+    "wp-rollback-pro.php": {
+      "md5": "0c8ead37bad983400a26776d982381c2",
+      "sha256": "5e36affa5d51729627b12fe02315952abe3e131f9eea3ab1d2993bba68920894"
+    },
+    "build/themesAdmin.asset.php": {
+      "md5": "dc05718a32e3f649b86bc6f460bb5c15",
+      "sha256": "e48958a6b2875ce029c1ed8f6bcd2541b8cc4aba66479d6b298583663141311c"
+    },
+    "build/themesAdmin.js": {
+      "md5": "422e2f432cc21a7c0c3d747969cbd4f8",
+      "sha256": "25e2053ab391380e8e8461c0f55829a1532949858210f14937a7b7e04258ef7e"
+    },
+    "build/tools-rtl.css": {
+      "md5": "2507f20e63a033715925a8837dfb5656",
+      "sha256": "ec0245c8c1550e0ec7d60a5845f5d7520a6837421af05a2d7240fc35bccf1724"
+    },
+    "build/tools.asset.php": {
+      "md5": "2d252e970ea291a8b6a3598a04f4fb05",
+      "sha256": "70fac7a234a71f90bde1d23cb9505a2713c4e7cad4c0489bc784b5460058772e"
+    },
+    "build/tools.css": {
+      "md5": "443cb13f9c3cac538cc74ad820274e71",
+      "sha256": "62bdde5558fedbb26acbd0ffb49e5dcbd32de050fdbdba595932ca9f754798da"
+    },
+    "build/tools.js": {
+      "md5": "e26450e1f8904d1148e01b8df3026754",
+      "sha256": "59befe0e0d83705f9748b63870733dca805c49c72bd4327616d4f223df507bba"
+    },
+    "languages/wp-rollback.pot": {
+      "md5": "873a9f77fb8931fad609ed5ad452b3b7",
+      "sha256": "5a1b15658f19a2bbedf87e7ec6d0a67c0a3080645fec55f3bd6acbab170fb379"
+    },
+    "src/ActivityLog/ServiceProvider.php": {
+      "md5": "5bb1fbe0799f77c8f982c37e4de1e295",
+      "sha256": "647529a7b99c95c8806bcdc091a149815904d75d0c07fdedaca996386554ad2a"
+    },
+    "src/ActivityLog/Database/Database.php": {
+      "md5": "8ccce451e5b077d212f78f23dea24c46",
+      "sha256": "80cf31214765c5c1b51309694bd1b24baf562e02423f5accc73f7d2acd6feef9"
+    },
+    "src/ActivityLog/Hooks/ActivityLogAssets.php": {
+      "md5": "c3a5800f868021c7db1dacdb88105e1c",
+      "sha256": "643c11395f42db265c10448fa84d42b8ddeea76a162c4eee62e4a42e0cfda9b0"
+    },
+    "src/ActivityLog/Logger/ActivityLogger.php": {
+      "md5": "51f51ca2ac96c1717f9719197e25ab6b",
+      "sha256": "23448f907cd497a1d29babb753fbc511c6394160b5f88dbcea447ea6fe9ca404"
+    },
+    "src/ActivityLog/Manager/RollbackMetaManager.php": {
+      "md5": "ce8a7e7edfec164a12eea822b0931145",
+      "sha256": "abdee9f05294b2395c481019d34ad2e0bba4d965d1611a80d0cc008cf4dcca05"
+    },
+    "src/ActivityLog/Repository/ActivityRepository.php": {
+      "md5": "26263e1af43cc441e7cbcc87c059e276",
+      "sha256": "a23a12a8a111e3c074d698e33b8ffc675efbbaae23e92d7d769de2d8f5415f83"
+    },
+    "src/ActivityLog/resources/components/DateColumn.jsx": {
+      "md5": "fdc6cee1083ab20b3a72799533c4786b",
+      "sha256": "21ce047e22263eef2ef6cc835b9abcbe62e1e6d7d8f23216d5c08079ad488f54"
+    },
+    "src/ActivityLog/resources/components/EmptyState.jsx": {
+      "md5": "b87fa4702dcc10f89fa7b02746ea789d",
+      "sha256": "089400cfbd832d7bffa3a45203f73c305daf8904bcea5b2ee416813192a29471"
+    },
+    "src/ActivityLog/resources/components/RollbackActivityLog.jsx": {
+      "md5": "a62af1e0a363d19e36d5ff88c3fa8153",
+      "sha256": "f42262293f18d4445b1a0d047b67e5b540c8ea418d37c060732e406c64ff0bd0"
+    },
+    "src/ActivityLog/resources/components/VersionColumn.jsx": {
+      "md5": "23827b09429a4cb5aa3eafe48e0e3dbf",
+      "sha256": "c53d2838129d332b02dbd0ab1c97b0da790f768b543c9f77c746b6cba5fd7189"
+    },
+    "src/ActivityLog/resources/config/pluginActivityConfig.js": {
+      "md5": "a0f07296043ca30d4afb75b046f9a8a0",
+      "sha256": "1d9d9034d57ba84455c355643358a50fd40d56c509f2955934a8e9df10da51e1"
+    },
+    "src/ActivityLog/resources/config/themeActivityConfig.js": {
+      "md5": "427ab838eafd3ded2de4e91fc3e0c8ef",
+      "sha256": "e6e51a3d0226ffcfee5a9111947e1db3ccec6ebd09330ccd0290ee32717e3147"
+    },
+    "src/ActivityLog/REST/ActivityLogController.php": {
+      "md5": "8d3c3763eeb2dd80155cf5e3fd5bb9e2",
+      "sha256": "1e3579ae2a4debf26b2b04e34eee3b69da2d16a3039ffdb63416cb9f15f420bb"
+    },
+    "src/Core/Constants.php": {
+      "md5": "74efc2528022632eebf8bd5ef78dff1f",
+      "sha256": "60de56a212e8b6cad9517c16724688fe3631efbfd75eab7b2db639b3f30397fc"
+    },
+    "src/Core/ServiceProvider.php": {
+      "md5": "17ad065cf52e888f8a58246e71bcf570",
+      "sha256": "68585b3f394fd0aa016f656954161080c988c7c7af82e9cae782e25af95e5be0"
+    },
+    "src/Core/Rollback/RollbackApiRequestDTO.php": {
+      "md5": "8abc9caacf8acd18c04ce93e583ec4f7",
+      "sha256": "1d26f51da05e818dcb4678f05343ff41bea5c4c324702acf3549d9483503b4d0"
+    },
+    "src/Licensing/ServiceProvider.php": {
+      "md5": "604c97ae0ac60f2a4c61498f1143ea52",
+      "sha256": "3673327672f6859e6ffd55d1fa62fb5cefe712897242da845c3404d676a14885"
+    },
+    "src/PluginSetup/Environment.php": {
+      "md5": "3d79809a78dfa580d2ac91fe13fcc9aa",
+      "sha256": "f6e465d2d7b647f843248b13dfe7cbe82f22f1e42296f5cf4256eecdf5b474ac"
+    },
+    "src/PluginSetup/PluginScripts.php": {
+      "md5": "b5e2a360fba95b4c43bd31c74cc7db4d",
+      "sha256": "8666e6547fb7af23a697ad17a50650e273a24ca8ccdb0450826ee42a4d3f73bf"
+    },
+    "src/PluginSetup/PluginSetup.php": {
+      "md5": "540e7a1dfcc3648027e625d809c24aef",
+      "sha256": "f3d3ccf7c0c443451ae773476d984b3b11b37199769c7f7039991424949b61b8"
+    },
+    "src/RestAPI/PluginInfoParser.php": {
+      "md5": "72f87864e1c3de52f980c505f84fb3d2",
+      "sha256": "b06bfc19753cc5f29642c05cec5771c3850ca1b88a2c6d6c7dde7df3b2197554"
+    },
+    "src/RestAPI/ServiceProvider.php": {
+      "md5": "365d2cecfa2fb27949d4d7d5c5727f37",
+      "sha256": "be0cc241a1493e726510ca10bc3d9e20f71d682536ad3e750415d7ff96112d05"
+    },
+    "src/Rollbacks/ServiceProvider.php": {
+      "md5": "5462c8d1cae62874538fd316d434c428",
+      "sha256": "e5c856aeebcdcfee321aa3508512a2d2895e4efefffdeed345d82c7c5d29100f"
+    },
+    "src/Rollbacks/Actions/ProPluginRollbackLinks.php": {
+      "md5": "d495591db24303003f52d0a0d9740b7f",
+      "sha256": "56835072bdfe0d4082312bfd1f4084c263c0b02c892e71f8beeeeb2674df3bf0"
+    },
+    "src/Rollbacks/Actions/RegisterAdminMenu.php": {
+      "md5": "6c8d098ebd7f24402224cd0451101771",
+      "sha256": "71d9d1c6f7a0aaf3632a86443614e7da3aa7c2eff7ee7df1142bf67e0730e264"
+    },
+    "src/Rollbacks/resources/App.jsx": {
+      "md5": "0dbbb9e22deaf5a31ba2c093a4de14e3",
+      "sha256": "256fd12e205fa99b2f80c9b4a0286386b0165e5490ec9014a63bd71548c1ad67"
+    },
+    "src/Rollbacks/resources/ProRoutes.jsx": {
+      "md5": "ebe915554971a9dbdb0ea95c33ebd580",
+      "sha256": "94241607da65af117928d7f42c5fa6f3bd256327e955d0dd95bf752f9e64c5cf"
+    },
+    "src/Rollbacks/resources/components/LogoPro.jsx": {
+      "md5": "ec5960cab3ef4ee9bbe9917fcb66c69c",
+      "sha256": "3f9f0b88d9cdf42c001fa8acef2f1f8acc936bdb743350f365aeb930f2555ba1"
+    },
+    "src/Rollbacks/resources/components/ProRollbackContent.jsx": {
+      "md5": "77456c7842507b1448a99b4a5d9a9cfb",
+      "sha256": "51d62515c884d54b05c81fe86b65af2f1cfc15f2d1d20d8729cbdfcde0541d56"
+    },
+    "src/Rollbacks/resources/js/proThemesAdminPage.js": {
+      "md5": "122a956b027ced8f0a374905faa14984",
+      "sha256": "871b386bcc0713176119ff2da652ad9f39bce00d815fc33eea145c9dfa35fc3b"
+    },
+    "src/Rollbacks/resources/layout/Header.jsx": {
+      "md5": "c9ab0b5bfe7ccf34148f312e74ccf840",
+      "sha256": "34436d5ddb6f3c55690d5822cdc6c86efcf35d027a21ed36cf41435922b7232d"
+    },
+    "src/Rollbacks/resources/layout/Layout.jsx": {
+      "md5": "623bb7d1de498e59c2488486efad2b02",
+      "sha256": "705a844375e4c68d452ebfa453a4a5f9bcbcdb166b4cfc46b363170c54ea90e0"
+    },
+    "src/Rollbacks/resources/modals/registerTemplates.js": {
+      "md5": "927dd468694139c5364c4ea482dc0152",
+      "sha256": "a4476c60e9b7fe011940fc4a8fdf5787b56948c623d57974d034d530b3cd78e1"
+    },
+    "src/Rollbacks/resources/modals/Templates/NotesTemplate.jsx": {
+      "md5": "71a649780d088738160cc900832a204d",
+      "sha256": "b8e9f30844d8741cbfc010aeb469981fb8e84b8f2ebc36415a2dfe4c35b3ddb3"
+    },
+    "src/Rollbacks/resources/modals/Templates/ProCompleteTemplate.jsx": {
+      "md5": "9e23474901c8b52e91a6bf076175e35c",
+      "sha256": "91a03df2f9ae5a338874afb8c86edf75de3d6b23589b039b6534bb69f6032871"
+    },
+    "src/Rollbacks/resources/pages/PluginList.jsx": {
+      "md5": "a7af780053076c170bf545dfb6b0b0d7",
+      "sha256": "10645348a949f48d925a2ed4e001add04627a650f47ce265e1c2598b11b9c5a1"
+    },
+    "src/Rollbacks/resources/pages/ProDashboard.jsx": {
+      "md5": "eef4fec38a7b2df7f98bb74da0514450",
+      "sha256": "5eeff927b3f3ec07092443bff77635690676a3b257dc2a61141364e019ec3a90"
+    },
+    "src/Rollbacks/resources/pages/ProRollbacksPage.jsx": {
+      "md5": "707a11873dd580a9a54a987749ab2565",
+      "sha256": "30dff1ccc6a4d89b94d982119f1344355dd185ae3f9c851c2701813308720471"
+    },
+    "src/Rollbacks/resources/pages/ProSettingsPage.jsx": {
+      "md5": "dfbade6834dc003888009186e05b6f08",
+      "sha256": "c3efde6a7647695263e717b709fe09bfb39b87859012148b45fcc1e3d9670f9c"
+    },
+    "src/Rollbacks/resources/pages/ThemeList.jsx": {
+      "md5": "5d78823d8e64617430d31be2b7675fdb",
+      "sha256": "36b89c0b18af37feeaecb707b4fb30f59491190faea8ee83080c84f45a12ca25"
+    },
+    "src/Rollbacks/resources/styles/main.scss": {
+      "md5": "c7f71ba85207a3b23244e38e6477e8c1",
+      "sha256": "9f416bde5cf48b34e62643bb9b5c0b045f7672195bdc41f13b0c629982eb3b8e"
+    },
+    "src/Rollbacks/resources/styles/_pro-settings.scss": {
+      "md5": "e4d12b4448816f13adba8aff949c0792",
+      "sha256": "5cec3f84494e94bcba19e1a669ac3f71f0393c352c8a8a70c907c3e18c353705"
+    },
+    "src/Rollbacks/resources/utils/pro-version-formatter.js": {
+      "md5": "5bedf03989312407881dcb98e5d3d413",
+      "sha256": "38a7047104b2356107ca3f167c26d1d299af9efa9724a382f61d6a1b67587277"
+    },
+    "src/Rollbacks/resources/utils/textUtils.js": {
+      "md5": "45f648b3289e0525a466d76d18a23f60",
+      "sha256": "dd9bd5b36daefead64a796d84fa02f7176901f78bbb090947b5757da617b3a77"
+    },
+    "src/Rollbacks/RollbackSteps/VerifyAsset.php": {
+      "md5": "3d26e1129121102e12d6206c532849ff",
+      "sha256": "d392408726328e672d7e7d963ee3c2d676d25a9ae5d4692e4a457ecc812c42d6"
+    },
+    "vendor/autoload.php": {
+      "md5": "d78319c86292d32666d7575c926aeacb",
+      "sha256": "79db8108219c6347672e05444b18118d75af6bdcc552684f2796f91361932828"
+    },
+    "vendor/composer/autoload_classmap.php": {
+      "md5": "995ceb46d47f058b0437ec27af8e506f",
+      "sha256": "f86adf26bf47faffb8a056463fd0d2b2a49a80fa84aa9989b09423f7c043821b"
+    },
+    "vendor/composer/autoload_namespaces.php": {
+      "md5": "224007c97efb82c7b45b0e92f240af41",
+      "sha256": "ede505407590638a435137f4e060136f1008de79fc169b3de9793423b0cea38c"
+    },
+    "vendor/composer/autoload_psr4.php": {
+      "md5": "2c69feb9a0265e03844747738a57821f",
+      "sha256": "f65ebf5aa1e2b3207bb434f7113d13feccf75710c849ac8ab9e7c0cb95819d22"
+    },
+    "vendor/composer/autoload_real.php": {
+      "md5": "87042028d8654e9cb19361f96b4ce866",
+      "sha256": "7bb33afecfc474734818b68187b3504a9b54f8227cdd646b019952224025253c"
+    },
+    "vendor/composer/autoload_static.php": {
+      "md5": "00d2e008c087dc639e784b7dd1cf8bd9",
+      "sha256": "f3ef532afb24bc501df77317c03e6a604b370ead763fe3ba00869ba06e166cd1"
+    },
+    "vendor/composer/ClassLoader.php": {
+      "md5": "c02be6d96671f88d28aad3ffa134c8ae",
+      "sha256": "d4b2313e562edf942838ec316d983c1a3459ca67da3e5658e861200b0b3693c2"
+    },
+    "vendor/composer/installed.json": {
+      "md5": "1c76e45d46bf582d794f66925b471ddb",
+      "sha256": "eee2ec519f278acfee5090e129bb5d6a46df6bd6979e0fab025db77f0e1a8116"
+    },
+    "vendor/composer/installed.php": {
+      "md5": "4135244c0a5f92b0379930c8c9627b06",
+      "sha256": "62adbf5c72a076d287f486c18533b271ed55f3600ceba4932618722020da2e36"
+    },
+    "vendor/composer/InstalledVersions.php": {
+      "md5": "7baf73014351c49ea0fef617dae7019b",
+      "sha256": "1e4525198301d1ed1f87ac3df2a8555a6f139f8df30a703d0b775a61963c96e4"
+    },
+    "vendor/composer/LICENSE": {
+      "md5": "955d5fe58c231244f6b49000f383b5e2",
+      "sha256": "c8cce4b6b9729f264ffdf9296d505d63432497feeed1f586d1902b942197e024"
+    },
+    "vendor/composer/platform_check.php": {
+      "md5": "bd5a3e221f16e6a2226d644bfa370432",
+      "sha256": "efa64a484ec52731dd6445e314eed10d2c8f6a23286624a3535c4966076ac6c2"
+    },
+    "vendor/paidcommunities/wordpress-sdk/CHANGELOG.md": {
+      "md5": "19ffe28eb4b90fb17ef9b539d63bf6f2",
+      "sha256": "34be01c4b783dd4523ff4e97fa468ebf2c71c25a80b061c83c11dd3bf2463855"
+    },
+    "vendor/paidcommunities/wordpress-sdk/composer.json": {
+      "md5": "b78eb6c0e883b5fe5004e7da01b3a52a",
+      "sha256": "bc100cf56349d222c377e47fefb0811020454a75cc102e7856795090185a5fe9"
+    },
+    "vendor/paidcommunities/wordpress-sdk/README.md": {
+      "md5": "be50b66d67d0e400727ef98d233f56f7",
+      "sha256": "b62d03e7da3d8a319f73b2737e4dd5502c5701f63573ecab2b5601f638b76793"
+    },
+    "vendor/paidcommunities/wordpress-sdk/VERSION": {
+      "md5": "25e64aa754c310d45c1e084d574c1bb0",
+      "sha256": "6b13789e43e5485634533de16a65d8ba9d34c4c9758588b665805435f80eb115"
+    },
+    "vendor/paidcommunities/wordpress-sdk/build/admin-license.asset.php": {
+      "md5": "0d013818d768308eeb138a2c93a2f8ce",
+      "sha256": "5445cb681a7a974776ca94720b88f610024dea879a26deacb3477abb1b150435"
+    },
+    "vendor/paidcommunities/wordpress-sdk/build/admin-license.js": {
+      "md5": "1b689c19eb086aea5fe8d9d4e2731ff5",
+      "sha256": "a6b7153bb70ef81d8bfd36c62551c4f622ff46827c3459cb9c69ae6de05e369b"
+    },
+    "vendor/paidcommunities/wordpress-sdk/build/api.asset.php": {
+      "md5": "3087c180b578d77d6270ab6701848255",
+      "sha256": "0a2f7d0f615dd6b6d996233636e1ccbbf22786617b99d0137f133ca756dc6eb7"
+    },
+    "vendor/paidcommunities/wordpress-sdk/build/api.js": {
+      "md5": "044c5bae3c3a16f986710438e282f6ca",
+      "sha256": "1c9ba4726f781fd5a9c3af4467fa5a485e14ce8b998c05fc7f98979bc7b31388"
+    },
+    "vendor/paidcommunities/wordpress-sdk/build/components.asset.php": {
+      "md5": "e3d37630ba95a1b38332600a86ff3848",
+      "sha256": "6d2b6fd11af32b51673e8161f074a4143628086fefc7cb5a3c5c2142f960765c"
+    },
+    "vendor/paidcommunities/wordpress-sdk/build/components.js": {
+      "md5": "4578e0227abd62e327083ded5d12dac9",
+      "sha256": "8cff930ab2806aa5b8440f35760b8d0c54fc0aebeb76b742f503b302af2fe166"
+    },
+    "vendor/paidcommunities/wordpress-sdk/build/components.js.LICENSE.txt": {
+      "md5": "f7b599e3f88bf94d2af5d3f60873a311",
+      "sha256": "a38486143894f3983170d896f8ba530930da8ac23d8e377bb4cea077d292099f"
+    },
+    "vendor/paidcommunities/wordpress-sdk/build/styles.css": {
+      "md5": "83a9942c38e40d10dd23791bd6c7157a",
+      "sha256": "c5a32ceeeffdd4c2ac44f8df9d4349eb26fdfa93ade6dad776eb924d20109aac"
+    },
+    "vendor/paidcommunities/wordpress-sdk/build/styles.js": {
+      "md5": "d41d8cd98f00b204e9800998ecf8427e",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "vendor/paidcommunities/wordpress-sdk/src/License.php": {
+      "md5": "7104e8d6ca5d05c7015138799649e7ce",
+      "sha256": "630ce93658d1a746e1676f576e7869c09247824ca97434f46b904775c538078b"
+    },
+    "vendor/paidcommunities/wordpress-sdk/src/PluginConfig.php": {
+      "md5": "33ef67b35b96703b353fc8c344402026",
+      "sha256": "36bb93b9a17cc614732c074afe357d4d50ad580b28b3bdd6a13b55a51916c902"
+    },
+    "vendor/paidcommunities/wordpress-sdk/src/UpdateController.php": {
+      "md5": "1d29c9946a29edc6b1e4e33a45258286",
+      "sha256": "267c41ca0852ddb4dcaf2606afa9ff116db010f4962c1d9a349dd3a8fe959dac"
+    },
+    "vendor/paidcommunities/wordpress-sdk/src/Admin/AdminAjaxController.php": {
+      "md5": "f6b3a97a6df9bcc09a0e4685da347d1e",
+      "sha256": "e05106489c9fa6a159ccc8a34f6a83277b76b12ecad7e68b66e84e73e4cbd9aa"
+    },
+    "vendor/paidcommunities/wordpress-sdk/src/Admin/AdminScripts.php": {
+      "md5": "6214b6b9f9f6719e2cc50b24cb68a661",
+      "sha256": "57552dd7c6ee20bf24ee4a6275c609722895c2d66b6181da207d025b9a19a227"
+    },
+    "vendor/paidcommunities/wordpress-sdk/src/Admin/LicenseSettings.php": {
+      "md5": "52b7a3489296422a398cf5e21bc58777",
+      "sha256": "50623652cd34d275a0e648cce7dc4c50ad9fa3c491ab32998095bec15c8e7a9c"
+    },
+    "vendor/paidcommunities/wordpress-sdk/src/Admin/Templates.php": {
+      "md5": "77f5cc163a623a5fbc351a9c06a88038",
+      "sha256": "fa8be39bfc5ecad927d8e6394bf739fabe760a5cbbafc6960df7e876a82bc6f2"
+    },
+    "vendor/paidcommunities/wordpress-sdk/src/Admin/Views/license.php": {
+      "md5": "b4096cab3e4cb71408bfa53d3a61f4ab",
+      "sha256": "93f01a4f810a78613447fa70664fbe7f64f873b017272464e2d8162c508f7f15"
+    },
+    "vendor/paidcommunities/wordpress-sdk/src/Assets/AssetDataApi.php": {
+      "md5": "b1db46a2227a59cc1ffd94a2049f623e",
+      "sha256": "0bc82d5ae978adec4bc7dd5dcf4f4eee475fcfa0702f6b71766700bd010fbf95"
+    },
+    "vendor/paidcommunities/wordpress-sdk/src/Assets/AssetDataRegistry.php": {
+      "md5": "3b353e3249c8cf4aa9e153b1ea6ae4e2",
+      "sha256": "6382bb771130403d3d43ca01de83a00d5b68f0f5b763dd01ef76e90400551d1c"
+    },
+    "vendor/paidcommunities/wordpress-sdk/src/Assets/AssetsApi.php": {
+      "md5": "12aca7519617c09d75926fc6562fe8b3",
+      "sha256": "15ce306774eec1b8f1006d82a720917e8efa784dbce63837547ec5ae7c504b24"
+    },
+    "vendor/paidcommunities/wordpress-sdk/src/Exception/ApiErrorException.php": {
+      "md5": "db8872b87e865d72b0eab9349bb1a84a",
+      "sha256": "568861635f0589383be0c554dee120510ca3520b99d8705653f014758608d9a4"
+    },
+    "vendor/paidcommunities/wordpress-sdk/src/Exception/AuthenticationException.php": {
+      "md5": "062dedb81ecb2d0cd19979d1ed4c1d88",
+      "sha256": "fc656cd3db458acf8f1918cad8b8083eb7b9a431e90fcf4bd6693406407599aa"
+    },
+    "vendor/paidcommunities/wordpress-sdk/src/Exception/AuthorizationException.php": {
+      "md5": "11fd7a6623b46a5981220cb2cd9bb2f0",
+      "sha256": "1d48f6e69dcf1e3cdd11aee79e9735a62a6be7f66ed8c60613cec4da1355ba59"
+    },
+    "vendor/paidcommunities/wordpress-sdk/src/Exception/BadRequestException.php": {
+      "md5": "d2992377df4a964b8035733e0c1ccbf7",
+      "sha256": "c8a0cf6fe3e37931f2755864733cbd66e102d37ed44c33731be84db5654c088e"
+    },
+    "vendor/paidcommunities/wordpress-sdk/src/Exception/NotFoundException.php": {
+      "md5": "62af4a1333f6b9fb3b54d34adaf148f0",
+      "sha256": "72ad1cc71b7530c5713e080cfebdbccb2989dd35f1902a41270c826dc8c7668f"
+    },
+    "vendor/paidcommunities/wordpress-sdk/src/HttpClient/AbstractClient.php": {
+      "md5": "680200ff307dea88a5af54edf8154830",
+      "sha256": "5c6b47cc26abcde9cc9ac2c0e6edae05a9036bd62ecbe09ce1939c22acb74f37"
+    },
+    "vendor/paidcommunities/wordpress-sdk/src/HttpClient/ClientInterface.php": {
+      "md5": "c20538285ae40aa5d5ad56bab3c47fc1",
+      "sha256": "6b19b9af260ac315a804c849620f29593321e7a5346a4cbb46a8fba4511712da"
+    },
+    "vendor/paidcommunities/wordpress-sdk/src/HttpClient/WordPressClient.php": {
+      "md5": "a9c8317a1184a1cfc1735401050bfe4f",
+      "sha256": "b2360e0a9607d41c11d02cb842efa001dff8c9ffb1516cffd6624a88198b4cce"
+    },
+    "vendor/paidcommunities/wordpress-sdk/src/Model/AbstractModel.php": {
+      "md5": "a39b9f5d35af7c9f7ccd855e8530b482",
+      "sha256": "e0d10ba89266d3854ee1612c76a515519579569a30b0683c74bcaac0a5de5c52"
+    },
+    "vendor/paidcommunities/wordpress-sdk/src/Model/AbstractModelFactory.php": {
+      "md5": "f2113ac243d277268a31da9c865a0f7f",
+      "sha256": "73fa66accc43898dd6daf8d78e38d34fbfc14084a9c939809d8041097830da6f"
+    },
+    "vendor/paidcommunities/wordpress-sdk/src/Model/BaseModelFactory.php": {
+      "md5": "9108c4c82dcea673f9d71bf462fe19c0",
+      "sha256": "faee8dc1d9406e0fff9ee865de6074d436015b7e7b9b8323307db045ea64390a"
+    },
+    "vendor/paidcommunities/wordpress-sdk/src/Model/Domain.php": {
+      "md5": "498a2866d9915adb32679b9b6b2e4a8c",
+      "sha256": "49c68f2efaad7ea057791ef0b25608d578a18456c5187f32283fedb7adc1d637"
+    },
+    "vendor/paidcommunities/wordpress-sdk/src/Model/ModelFactoryInterface.php": {
+      "md5": "3f65e44932cc53fc73f8421b4273a94f",
+      "sha256": "1e58ee3a785126c65349ea44fae3c4335b9d4012e25b0020b491f64483ef6ede"
+    },
+    "vendor/paidcommunities/wordpress-sdk/src/Model/ModelInterface.php": {
+      "md5": "0755f27787ed7bac1d73cb96e23c4714",
+      "sha256": "86d27a3d80894c012bdc5a02689cd57467dbdd6718fce1fb2bcae421b9df7018"
+    },
+    "vendor/paidcommunities/wordpress-sdk/src/Model/PluginInfoResponse.php": {
+      "md5": "0b0ebb0f904910a948af734a9dfbb660",
+      "sha256": "399dd4c47c5fde6c86f147edea71f2b0095871216e9312521d1318c09ef6ed76"
+    },
+    "vendor/paidcommunities/wordpress-sdk/src/Model/PluginUpdateResponse.php": {
+      "md5": "a4de9ab9f4647cc913b10ff3985518b8",
+      "sha256": "a3b5058d95612acf3b01c8291dd97a78d6b153a46ea22a3b0185f2a0ce2b4292"
+    },
+    "vendor/paidcommunities/wordpress-sdk/src/Service/AbstractService.php": {
+      "md5": "865ac09fbb3e0c3fc2d9411ddc1f47f9",
+      "sha256": "da3f029741a96979053e6281eace9f2de35ed0f13e681c759d4e35e24a6010e0"
+    },
+    "vendor/paidcommunities/wordpress-sdk/src/Service/AbstractServiceFactory.php": {
+      "md5": "cbcafa8c32b27b89a204c4cb0b8721a4",
+      "sha256": "9f24aef00ed89ffb4ff4b9f7b5ac8a0133e0217f81c73fc13c1a47e5ad4bad86"
+    },
+    "vendor/paidcommunities/wordpress-sdk/src/Service/AuthenticatedService.php": {
+      "md5": "40d097307ae139ddc0656088de9d54ae",
+      "sha256": "a2e633057b4f230b90926e8d939d6b637bcf1c2088fa22cbb87e10408f5d379b"
+    },
+    "vendor/paidcommunities/wordpress-sdk/src/Service/BaseServiceFactory.php": {
+      "md5": "8a3377037b58ec4f4d4326eb67711412",
+      "sha256": "febc2cd5db5e753e85e1592953b7e659e88898583b3545fe2c4e40a87c771eae"
+    },
+    "vendor/paidcommunities/wordpress-sdk/src/Service/DomainService.php": {
+      "md5": "17940073da9325d393240c13077ce4a1",
+      "sha256": "e42c8a4bbffa7b3ae067d7793122b71d2ced25928bc28e82162d9e55d1c9c379"
+    },
+    "vendor/paidcommunities/wordpress-sdk/src/Service/PluginService.php": {
+      "md5": "d9e306c282cba1ca01fcee2dd54c87f3",
+      "sha256": "18e7d9b7b85967f5fa3855229d5c97a4cd0878dc4453805b6ff2c178904156f5"
+    },
+    "vendor/paidcommunities/wordpress-sdk/src/Service/ServiceFactoryInterface.php": {
+      "md5": "246f3279f9310394a8f1f98a78880e86",
+      "sha256": "30b2e1272e8101af426d3bf0c07dcb89142244a0b43097345815f1fa5589376b"
+    },
+    "vendor/paidcommunities/wordpress-sdk/src/Service/ServiceInterface.php": {
+      "md5": "ca762d4f4a508764107f2447b5469864",
+      "sha256": "81bdd8f968fcbfab74c33358322d235826a652f85245cf4cd2b54eab14d33a1a"
+    },
+    "vendor/paidcommunities/wordpress-sdk/src/Util/GeneralUtils.php": {
+      "md5": "cb8b5baec9b7947f6feb8d93c23105ec",
+      "sha256": "869bc9982a843be10e4d70550fe78888c895ac38c7e82b9274b6e39857d034c3"
+    },
+    "vendor/vendor-prefixed/autoload-classmap.php": {
+      "md5": "728d8d0274ccd8aca8208a4b85371c9a",
+      "sha256": "2008daeef126f98ba0c5e22509f6e1c67d81aaf8b0e5c8f75955e39c31042d2b"
+    },
+    "vendor/vendor-prefixed/autoload.php": {
+      "md5": "01088bf423f1ac521cfddf704a38b06c",
+      "sha256": "bc444fecc07d5c37cc063a21805496906811c9e3060e8c32ae542af5802c87b1"
+    },
+    "vendor/vendor-prefixed/afragen/wordpress-plugin-readme-parser/class-parser.php": {
+      "md5": "f4fd1d2d861ea8f91b816930cc0ecb07",
+      "sha256": "82daabe6f0fea4f8dc65d5e856ffdcf286a8c54b1be440e3cd094427b7612025"
+    },
+    "vendor/vendor-prefixed/erusev/parsedown/composer.json": {
+      "md5": "08b9c64540bc89304136e7f4e52d09d6",
+      "sha256": "5eb0725168e7a06a133f7e1617e45ed8c2d717ba0fb7f61ef0a7f5532fc657b7"
+    },
+    "vendor/vendor-prefixed/erusev/parsedown/LICENSE.txt": {
+      "md5": "df6d833dfd6020d754b4570b91eeab9f",
+      "sha256": "d76b34cb4a026e7d8f9e13e2c4e56e985bff8749659c90456d13bea99713a1bc"
+    },
+    "vendor/vendor-prefixed/erusev/parsedown/Parsedown.php": {
+      "md5": "6003d3c7afc8e0e9c91462e04d1c8c15",
+      "sha256": "203f78eb2074f43e7fb14612724025fd0b68724fb09ea5d7cbe448c142495e04"
+    },
+    "vendor/vendor-prefixed/erusev/parsedown/README.md": {
+      "md5": "a6c37354dafd060ea77e9b7ae2dfdce9",
+      "sha256": "81d5ab560f6b3fc2b82984b3b2b572ffee579b6d94ef6b11233eeb83f16c87f6"
+    },
+    "vendor/vendor-prefixed/psr/container/src/ContainerExceptionInterface.php": {
+      "md5": "030c70e689fe8c1808ef96b2a93c87d0",
+      "sha256": "600b5c7ff4eee15e2093b9780d00e04e8f8fc007dfbd885f257084fd22961709"
+    },
+    "vendor/vendor-prefixed/psr/container/src/ContainerInterface.php": {
+      "md5": "82d7b65eb47bed71b215372506f48646",
+      "sha256": "908c7e95de3e792fae3bfa54f6a7a0d9628675141da960813c551087402b2a73"
+    },
+    "vendor/vendor-prefixed/psr/container/src/NotFoundExceptionInterface.php": {
+      "md5": "627c911c12add5d509294f3de6061152",
+      "sha256": "3c805f6ab5f00d884053e35b73bf1876d803988e2e5e9cfd5e94508461e00414"
+    },
+    "vendor/vendor-prefixed/stellarwp/admin-notices/src/AdminNotice.php": {
+      "md5": "32149951b37e1a7c9088a94d8f4633da",
+      "sha256": "a0cb63def3d48b33783cd133a74b037d30ca7a05befaa7edc315d7d9a877f573"
+    },
+    "vendor/vendor-prefixed/stellarwp/admin-notices/src/AdminNotices.php": {
+      "md5": "8532f4bf468c1ddb883273a16c25bd3a",
+      "sha256": "ece0b8b5aa4f26461019fd2b8c6de10435f0ddb6cb5a3ed44d393d5d5639fa65"
+    },
+    "vendor/vendor-prefixed/stellarwp/admin-notices/src/NotificationsRegistrar.php": {
+      "md5": "9af2c80011c3e73b7eebc224dd009714",
+      "sha256": "ac084229b43802b6f32ba00575906c3cafa108d9968ff972a45b1ce87671ed12"
+    },
+    "vendor/vendor-prefixed/stellarwp/admin-notices/src/Actions/DisplayNoticesInAdmin.php": {
+      "md5": "c9673616397faa9c23f66ab5b8ee11d6",
+      "sha256": "b4da055da450869b2bc898ebbd75424c8d7e546a9cc640df5c0862581a880b1a"
+    },
+    "vendor/vendor-prefixed/stellarwp/admin-notices/src/Actions/EnqueueNoticesScriptsAndStyles.php": {
+      "md5": "41aba7688799a08ce0b1e5e8e35985af",
+      "sha256": "258cf335daa1d5ce827cb966f51f1c37d3bff48a8adb4a852d2a9b43f0ac8581"
+    },
+    "vendor/vendor-prefixed/stellarwp/admin-notices/src/Actions/NoticeShouldRender.php": {
+      "md5": "c7ff629bb27016a2bacaac6fc68e90d5",
+      "sha256": "9fa3b1ea6cb4a211fb7bd5c6694f3c59464e12f3957f7d53f4bf36f3adefdfb6"
+    },
+    "vendor/vendor-prefixed/stellarwp/admin-notices/src/Actions/RenderAdminNotice.php": {
+      "md5": "0a23d4c34fcac30ce92816259f9f2630",
+      "sha256": "9fb7a243b2b7b47cb85ab1b1e74285c94d8c667fa64931806c289da7e0b975cc"
+    },
+    "vendor/vendor-prefixed/stellarwp/admin-notices/src/Contracts/NotificationsRegistrarInterface.php": {
+      "md5": "e8bcacf5843aa23a31bd30b28be23420",
+      "sha256": "bc70eef249a907debe37f736e70f04c6fc6587c702a8e9bd77a2b026a30a13a7"
+    },
+    "vendor/vendor-prefixed/stellarwp/admin-notices/src/DataTransferObjects/NoticeElementProperties.php": {
+      "md5": "130b5ae60d67f22e8a4c84f90acb3bcd",
+      "sha256": "c1152a01b41bde66ddca415394c5dd7afe0aeadcea114243173d5812dca21cd2"
+    },
+    "vendor/vendor-prefixed/stellarwp/admin-notices/src/Exceptions/NotificationCollisionException.php": {
+      "md5": "bc5ab70c2836001ab645e25503023f6d",
+      "sha256": "ded64f7bf53bda95f4ca20b4352e73ef45addbc5b21de77a4d8ce2040d56d645"
+    },
+    "vendor/vendor-prefixed/stellarwp/admin-notices/src/resources/admin-notices.js": {
+      "md5": "f1b66f5c8b0ebcbc40c178808a86a0da",
+      "sha256": "6195cc3d45a70572056d34793a4924779ed774079cdbe7226acf3bfb1d66361a"
+    },
+    "vendor/vendor-prefixed/stellarwp/admin-notices/src/Traits/HasNamespace.php": {
+      "md5": "9325581ccba967bbeb1f0bd6bdea657d",
+      "sha256": "be8ba04b846a17e320d97ceb4dcf0a3657e7218d3669f114d18265beb302bdbb"
+    },
+    "vendor/vendor-prefixed/stellarwp/admin-notices/src/ValueObjects/NoticeLocation.php": {
+      "md5": "bd40f69df1d91014b8107add9baab65c",
+      "sha256": "69b3d362c24cb9fd096fd7f70e73f45da30161e8b1170ed607b34eb05a0bc459"
+    },
+    "vendor/vendor-prefixed/stellarwp/admin-notices/src/ValueObjects/NoticeUrgency.php": {
+      "md5": "455c2fde4bf69a4289c91d38972d0bba",
+      "sha256": "65ebe7e4799adcfad35f0202d09fc72c5622b1fb35442daf29a9d726da2dacbf"
+    },
+    "vendor/vendor-prefixed/stellarwp/admin-notices/src/ValueObjects/ScreenCondition.php": {
+      "md5": "861c1197de4a796e05ec2d898a5050ac",
+      "sha256": "6c8c19e2e6794a85e953a0fb68cb4a2507be22ff9a6690e420cf7f7bf75655e9"
+    },
+    "vendor/vendor-prefixed/stellarwp/admin-notices/src/ValueObjects/Script.php": {
+      "md5": "2e8940cd0940f1a32cc2e6d1671ae5a4",
+      "sha256": "b663b315cd512667586d35c6b4093267af6b3c2a9465efc25d1444d6d9ce5bc5"
+    },
+    "vendor/vendor-prefixed/stellarwp/admin-notices/src/ValueObjects/Style.php": {
+      "md5": "a0748cfc1b3c6543b1fe9f3a4c07af5b",
+      "sha256": "573534cd0e86851753feb340ff7af476c887f31d82d476fefa20545633d1d8ec"
+    },
+    "vendor/vendor-prefixed/stellarwp/admin-notices/src/ValueObjects/UserCapability.php": {
+      "md5": "cd8ec98078203bcd99e8f5c2aefd320b",
+      "sha256": "69206a68af6154fde5c24e620c06ad54d1d2394dfed999825aaffae165ba17c4"
+    },
+    "vendor/wp-rollback/shared-core/composer.json": {
+      "md5": "d5e5d64e9835273d910f15d98661fb8d",
+      "sha256": "ba3874fe1030339f5da4a1b919849bfee2d4a670ebaf44652d2d5c89d62a6627"
+    },
+    "vendor/wp-rollback/shared-core/src/bootstrap.php": {
+      "md5": "6eddb87f4a32f542b81a1345259b3380",
+      "sha256": "1c4a576bfecd78d3f5ee312d197fa71f9ac2ad7c68a005953d7ac847a5e3a0fb"
+    },
+    "vendor/wp-rollback/shared-core/src/Contracts/ApiRouteV1.php": {
+      "md5": "352ca85fa2c85cd49a6d44de4daa8206",
+      "sha256": "3e2f4f6c41f5c56556c25b0973b00cefc900d6f82faecd760c3086f4e8ed01a1"
+    },
+    "vendor/wp-rollback/shared-core/src/Contracts/ServiceProvider.php": {
+      "md5": "d4ca8c15d3d33e72e4e6846db54e6b5a",
+      "sha256": "9859d79de65f2c7ce8889f248efca7d8a7d4e462657df413d499b1ee26b938e4"
+    },
+    "vendor/wp-rollback/shared-core/src/Core/ArraySet.php": {
+      "md5": "ad4fd9cc2def0e385e08d77c5b37df63",
+      "sha256": "978f61e8ac2fb4d29e13beeaf1f3ae9ac8be1530f63ed62ee28d77de040ff0ea"
+    },
+    "vendor/wp-rollback/shared-core/src/Core/BaseConstants.php": {
+      "md5": "76c38d0315f6888da871ee1029145a70",
+      "sha256": "6543362e2c57275c5f0d8637f114ce8ab508d098828b041539b5a4f28752a8cc"
+    },
+    "vendor/wp-rollback/shared-core/src/Core/Cache.php": {
+      "md5": "215476b1d53cb68fe99afcab9af09f17",
+      "sha256": "4834650fc5bee507fc76b70fb305fb20082df7c0336ba9672b0b95f2d24bb9e3"
+    },
+    "vendor/wp-rollback/shared-core/src/Core/ConstantsInterface.php": {
+      "md5": "78f7f870bf1b4fdd9101a551f6afa11f",
+      "sha256": "cbb26cd971c33b54d8e6964386c8deb204304cc50b42804462ae771d3c249ab7"
+    },
+    "vendor/wp-rollback/shared-core/src/Core/DebugMode.php": {
+      "md5": "4d58fcf9b40bf253eb6bc42c8219bf81",
+      "sha256": "39ca2aac9fb394c1af140df35407ca167165f9367d485f8892d2c2b2d1f3c5b0"
+    },
+    "vendor/wp-rollback/shared-core/src/Core/Hooks.php": {
+      "md5": "d2ee6b0cf893d96541a0749e0e9be1bb",
+      "sha256": "e578d83e315ea425bc261eff32e01bbb3683434639a59416daf71bffebfb542c"
+    },
+    "vendor/wp-rollback/shared-core/src/Core/Request.php": {
+      "md5": "2ad4ada8005323a6ac16f40a1f953e76",
+      "sha256": "e037e0884a9c105fcae30fc9ea707e2c7b681c79f717314a2d335c775dc085c9"
+    },
+    "vendor/wp-rollback/shared-core/src/Core/ServiceProvider.php": {
+      "md5": "4786242d2a4640cc1f151fcc4bc6d3e9",
+      "sha256": "f703e8688cd474ef55f88827b5753b29f9447f05933f75257ba2cb911daf29ea"
+    },
+    "vendor/wp-rollback/shared-core/src/Core/ServiceProviderInterface.php": {
+      "md5": "9d0befd7989a27ad94ba42b7db348b48",
+      "sha256": "074f82daa557940ffef076416f8df6b9c5ca27913577763fbaf6f9e54bab1dc2"
+    },
+    "vendor/wp-rollback/shared-core/src/Core/SharedCore.php": {
+      "md5": "b706b5138077e29bed66c07273aff34c",
+      "sha256": "64c2f597165d47b9b8e492b439e29989fd22a953f888a9d828dd814e85c807b6"
+    },
+    "vendor/wp-rollback/shared-core/src/Core/Assets/AssetsManager.php": {
+      "md5": "cd0b77e04c783a9bceff5d2160663a90",
+      "sha256": "a225ba2adae6c54bc318ddde4352c0c07dcd5a4da60af9a6376aa797cd6fb7ad"
+    },
+    "vendor/wp-rollback/shared-core/src/Core/Assets/README.md": {
+      "md5": "7b10db87e21e626fff227344ff81154e",
+      "sha256": "7d401eadfffc96006e0f0b696055b05c656dcc5deac2d509d4c5fd12a06eefcd"
+    },
+    "vendor/wp-rollback/shared-core/src/Core/Container/Container.php": {
+      "md5": "f095c8fd9acea804a6db2922ec06be7a",
+      "sha256": "146f145e00f972acf96d73630001b22894f34d95274ee336c14e87e2de7849c7"
+    },
+    "vendor/wp-rollback/shared-core/src/Core/Container/ContainerInterface.php": {
+      "md5": "d32291bc6970e4014eb6205e33b6b4b3",
+      "sha256": "f1fd771d6188bef468ffc7542339ece46f4716ce7a28032e5d849a50fa7933b5"
+    },
+    "vendor/wp-rollback/shared-core/src/Core/Container/ContainerSingleton.php": {
+      "md5": "489b8c6a63c10676c5681d71bbd719fc",
+      "sha256": "6c9c7fefcc4d6db58212d3d87751c524468f62a60f01714aede018592e6bcdb6"
+    },
+    "vendor/wp-rollback/shared-core/src/Core/Container/Exceptions/BindingResolutionException.php": {
+      "md5": "eed7927a44c429ae06956b598b10c448",
+      "sha256": "58f1d1bb182bd635ef30b8bb1b38fd7e20079565ecb816a15874fe9365370c0a"
+    },
+    "vendor/wp-rollback/shared-core/src/Core/Contracts/ApiRoute.php": {
+      "md5": "c73d34d4f6efe03a593f033aa84fd079",
+      "sha256": "9116b373b129b5207ef0d571f9c2d49b645d01c246ccaf3f473645e2416eeec9"
+    },
+    "vendor/wp-rollback/shared-core/src/Core/Contracts/ApiRouteV1.php": {
+      "md5": "885e98de64d4c91084a5ce1faab901da",
+      "sha256": "a8095a389536b81644333775090e427bbbd3e2f18e43b45e293febc9d3543440"
+    },
+    "vendor/wp-rollback/shared-core/src/Core/Contracts/Controller.php": {
+      "md5": "3b93761a50bcd144dd666f9e4deebb1e",
+      "sha256": "511e066ec76346798ca8b74a67783d078461b74fb90762286f9fd8ede9494132"
+    },
+    "vendor/wp-rollback/shared-core/src/Core/Contracts/LoggableException.php": {
+      "md5": "68911e75543e81944d66085ce82bc15b",
+      "sha256": "b29c349662bc1bc6221287ea7055b3f06113fe683debd660407059f457cf6bde"
+    },
+    "vendor/wp-rollback/shared-core/src/Core/Contracts/ServiceProvider.php": {
+      "md5": "c16b6295a9cf8bdbf707b2a98ded66c1",
+      "sha256": "d97e7702fbd393436b489754ab02cd5638b6dfc54aef4993a2f12fb4f48fc97d"
+    },
+    "vendor/wp-rollback/shared-core/src/Core/Exceptions/BindingResolutionException.php": {
+      "md5": "1e502a41daa2b940954a570c70fb70cd",
+      "sha256": "16428880eab9886d5d3a7037881bb9624229c8145e08a375e303771359d600b7"
+    },
+    "vendor/wp-rollback/shared-core/src/Core/Exceptions/Primitives/Exception.php": {
+      "md5": "bf628c3923bee433d00945861e1f7f08",
+      "sha256": "a60321db21f5cc8da3c7ba0fd00f97338a8cf7f437339a54c9112742974f118b"
+    },
+    "vendor/wp-rollback/shared-core/src/Core/Exceptions/Primitives/InvalidArgumentException.php": {
+      "md5": "f95f87b35df33d7fdc27acb1a9edcc19",
+      "sha256": "461806cb1b4c69685e220aebf2a5f145b06f3d06575767af94bb8473e0d220ee"
+    },
+    "vendor/wp-rollback/shared-core/src/Core/Exceptions/Primitives/InvalidPropertyException.php": {
+      "md5": "587a249b03c930e6f328976945df127e",
+      "sha256": "be3338eb86b0a84b6b952ca95bb1bd77d43c2e4976bd094468e99d5a0878979d"
+    },
+    "vendor/wp-rollback/shared-core/src/Core/Exceptions/Primitives/LogicException.php": {
+      "md5": "0d4b2ff7306a579fedac1d6b1ca07e1d",
+      "sha256": "0f36620a17bd45526d49ef601e821796eab49a6108eac99787e856cfe7a7149a"
+    },
+    "vendor/wp-rollback/shared-core/src/Core/Exceptions/Primitives/RuntimeException.php": {
+      "md5": "32698d58ebd6ab6d1e371ea85755e052",
+      "sha256": "721e1a58feae1c2e890d507f0ccb135117a90836205c90a5243974bc2f1cecf7"
+    },
+    "vendor/wp-rollback/shared-core/src/Core/Exceptions/Traits/Loggable.php": {
+      "md5": "166ef86568a54dbaa1f935923829dc3b",
+      "sha256": "08d6241bcc43d569eecffe400bb238bce078c64190549f90a70a10dd4bd96f24"
+    },
+    "vendor/wp-rollback/shared-core/src/Core/Helpers/ContainerHelper.php": {
+      "md5": "4189487ddd3dfaac72b90763abd02f28",
+      "sha256": "24660ee9ad356f9caaa02008a943156ca6bebedc36e069754d51e1a42865fd11"
+    },
+    "vendor/wp-rollback/shared-core/src/Core/Helpers/DatabaseHelper.php": {
+      "md5": "671895a7ff774bfabee3aece27035977",
+      "sha256": "ae9213c32cb584002810c70a8d3c3fc20a6397ef4f79e55d91488f0103437d71"
+    },
+    "vendor/wp-rollback/shared-core/src/Core/Helpers/DataHelper.php": {
+      "md5": "dad54b1a9ef1df1cc053df150304d7e1",
+      "sha256": "97dc6808873d22448ca986e576e2d4c7d2ea6f076e6d81ca5b1c2ffb6ca97dbe"
+    },
+    "vendor/wp-rollback/shared-core/src/Core/Helpers/HttpHelper.php": {
+      "md5": "7d2964ac1961794853f6798bb03177a2",
+      "sha256": "3e72c7a24460ecd4929a73747a92f4f6c9cfc724fc8a8e736ce44f510ea62666"
+    },
+    "vendor/wp-rollback/shared-core/src/Core/Traits/ControllerHelpers.php": {
+      "md5": "73ad6103f1f24d2ff7efd777abdc2189",
+      "sha256": "199067c27b6717964d638be8dc953ff01da217c6e0a895184394c64d41993504"
+    },
+    "vendor/wp-rollback/shared-core/src/Core/Traits/HandleMultipleApiRoutes.php": {
+      "md5": "91149c33f33fcb09037f4a3111136ff6",
+      "sha256": "5800f54616f2c4b7c614b308b12450a5952531a02d90199f0f31a7e93c0359e6"
+    },
+    "vendor/wp-rollback/shared-core/src/Core/Utilities/PluginUtility.php": {
+      "md5": "9a3bd1849987344a5574429999b5d5ee",
+      "sha256": "f5f5a6128fbcf19533c8322f6360820fd399fe319247b4fbfd27f57094853bef"
+    },
+    "vendor/wp-rollback/shared-core/src/Frontend/components/ActivityBadge.jsx": {
+      "md5": "207839fc87d163c4b693ca62a3bd5ee8",
+      "sha256": "6900f69bb465ebc8f5f270e3a6d9684f88758dca0f1d3c20b8d40a35650753da"
+    },
+    "vendor/wp-rollback/shared-core/src/Frontend/components/AssetImage.jsx": {
+      "md5": "8c2ca05423213476968e76719843a640",
+      "sha256": "f8e6ae90774995214a865547afae0597c04884dde4376cd97d611ee0378fd1b8"
+    },
+    "vendor/wp-rollback/shared-core/src/Frontend/components/Badge.jsx": {
+      "md5": "009f5e114e245007e72e17cf4689f077",
+      "sha256": "f63bf2e7211eabdef11b7ce96cf77f8718078a93c3f8a971b75bded538638a1f"
+    },
+    "vendor/wp-rollback/shared-core/src/Frontend/components/Loading.jsx": {
+      "md5": "168e5c853821d42d99df828beb371a58",
+      "sha256": "ef6bc2997b730b4b5e1bc2add10d9b58f611d5e60fac579e7f3757843e9bc09e"
+    },
+    "vendor/wp-rollback/shared-core/src/Frontend/components/NewWindowIcon.jsx": {
+      "md5": "83380a4c5b4caabcbcca130b293dc36d",
+      "sha256": "675f68a0719aab383878c0e2ebd416b7b857f92b2dc778b89433ef55439eec5d"
+    },
+    "vendor/wp-rollback/shared-core/src/Frontend/components/PluginIcon.jsx": {
+      "md5": "8f0b70fdda5c8275e914c10fbd099161",
+      "sha256": "c4dafeccc78006f0df61efae82f1811ce435bbda173cbb1d433eb39a71144276"
+    },
+    "vendor/wp-rollback/shared-core/src/Frontend/components/PluginsDataView.jsx": {
+      "md5": "f1e07ae07601e3c0eaf20c82c1e46368",
+      "sha256": "6fda715e1a768fe99f11d57bc70b77fdb3a644d2056eef38279b5ac6186b9a24"
+    },
+    "vendor/wp-rollback/shared-core/src/Frontend/components/SecurityBadge.jsx": {
+      "md5": "dc83a97d205d8ce0cc7e52891e02d31c",
+      "sha256": "2a4ed2dfd2b887239a15ad3a2431850025895199fbbcd0a624125610e194366a"
+    },
+    "vendor/wp-rollback/shared-core/src/Frontend/components/Subheader.jsx": {
+      "md5": "0437ad7323d2f4e577512345d5981ea7",
+      "sha256": "72640fde1c422a04759062a7995d3b5a83376af668a6c2afe1cefa1352f055d0"
+    },
+    "vendor/wp-rollback/shared-core/src/Frontend/components/ThemeIcon.jsx": {
+      "md5": "0a887f17d76cca513716d43473369cd1",
+      "sha256": "65f8b5827a4aeb3df14542e1e16e7de306bfe6f041a7f7b8336311bbe9b30e89"
+    },
+    "vendor/wp-rollback/shared-core/src/Frontend/components/ThemeRollbackButton.jsx": {
+      "md5": "38a94b10142dca0617c2fd42bdce2e41",
+      "sha256": "de585bea3df5924634907ef049930d4cf12b1dd42df15ad44e9c599f9d5037de"
+    },
+    "vendor/wp-rollback/shared-core/src/Frontend/components/ThemesDataView.jsx": {
+      "md5": "d9107b69ffcea9f6176afce9f0f20522",
+      "sha256": "dca658059a2dc6fb14ce6ca4a4868af184c1f18a41ed673c64791f162d9a58d0"
+    },
+    "vendor/wp-rollback/shared-core/src/Frontend/components/ThemesView.jsx": {
+      "md5": "9c714662b5447a3579036ae0c490ec2a",
+      "sha256": "1c9f5f20e4b9f422af910c161887c8d1ab5da9f105743028f447202141afc064"
+    },
+    "vendor/wp-rollback/shared-core/src/Frontend/components/DataView/index.jsx": {
+      "md5": "fb82bc838601b3fbc59ec77655899901",
+      "sha256": "92b0b31307aa929a325909e7d52231f7f8b725ba84367ae9fda0a301bb24098b"
+    },
+    "vendor/wp-rollback/shared-core/src/Frontend/components/DataView/components/ActionsColumn.jsx": {
+      "md5": "c6123f88ca39d4b65bd1207b041d5af3",
+      "sha256": "df41262ed234224cd4f857a653a10d38741a0314e8b09a3a71e2da13856cff1e"
+    },
+    "vendor/wp-rollback/shared-core/src/Frontend/components/DataView/components/PluginNameColumn.jsx": {
+      "md5": "1aba1471df4b35ee5766cfb85a49b3b5",
+      "sha256": "78ce514e75dfd9941602f36c2749fac986f27a8add52987152fcc74be8a39eef"
+    },
+    "vendor/wp-rollback/shared-core/src/Frontend/components/DataView/components/StatusColumn.jsx": {
+      "md5": "7711321a2dc2aef391c2f233a329b23e",
+      "sha256": "519745337f84d5b8e5f5992f9b777bea4e7d189cd37a357669f1b7bd8830d80d"
+    },
+    "vendor/wp-rollback/shared-core/src/Frontend/components/DataView/components/ThemeNameColumn.jsx": {
+      "md5": "e5b3672586ddd856cd0287604a0d2db1",
+      "sha256": "cc0f8d6cc595673414f6538117e88c40be044c94dd2b3be0a02312073eef28fe"
+    },
+    "vendor/wp-rollback/shared-core/src/Frontend/components/DataView/components/VersionColumn.jsx": {
+      "md5": "969701440045fa137b3bb2521bfcdd87",
+      "sha256": "c335bda5a8e6cf16874fdc59e407ba5a630041c82ede2a20e48109773ed3bce0"
+    },
+    "vendor/wp-rollback/shared-core/src/Frontend/components/DataView/config/pluginConfig.js": {
+      "md5": "114810717dff9b639fbb0494497175e1",
+      "sha256": "e929be732e4aeaa3f47ecca6ec91971f8591deaf096cfa4170d1db5f51cf414c"
+    },
+    "vendor/wp-rollback/shared-core/src/Frontend/components/DataView/config/themeConfig.js": {
+      "md5": "6c292bd67160c55815b5edb2622351b1",
+      "sha256": "28861bbbc6116605e7a57528f86a12d9e713a024f8f02d61111499e2df0641c8"
+    },
+    "vendor/wp-rollback/shared-core/src/Frontend/components/modals/RollbackButtons.jsx": {
+      "md5": "b9ad6cf00b8a2e6da8164614a50189aa",
+      "sha256": "261a5ec51c7201cc4c52dd5148412bb79a90d6c2e72f92148c3baa1bc2c13965"
+    },
+    "vendor/wp-rollback/shared-core/src/Frontend/components/modals/RollbackModal.jsx": {
+      "md5": "aefa3be0004eb0e5d3054c8c29542134",
+      "sha256": "5b10648454f0c9b9c87df3f3098a06378945767f24530574cc91541c75b3d589"
+    },
+    "vendor/wp-rollback/shared-core/src/Frontend/components/modals/Templates/ChangelogTemplate.jsx": {
+      "md5": "12440d254d65f6791651f081187356c2",
+      "sha256": "b87f3458ac31a25fedcebe4139deb0f8d5e89b35972c5e110b0bc8994442c794"
+    },
+    "vendor/wp-rollback/shared-core/src/Frontend/components/modals/Templates/ConfirmTemplate.jsx": {
+      "md5": "027cd181d3b8b4a5db0da763604924f4",
+      "sha256": "956b7fe469d0e0dbbcebbc8c48df486612f6aff271c6827a582bf2c8c2477676"
+    },
+    "vendor/wp-rollback/shared-core/src/Frontend/components/modals/Templates/FailedTemplate.jsx": {
+      "md5": "67e4efd5d04390a3ed1ab157a2276698",
+      "sha256": "5016d223f03f890d33440d1745b26a2a475910561c1067ea6658e01b73efcce8"
+    },
+    "vendor/wp-rollback/shared-core/src/Frontend/components/modals/Templates/getTemplateConfig.js": {
+      "md5": "be56fe984ccbbfc6d5bafbb2d40dcb32",
+      "sha256": "1ec10eb23ff4089ec337482a620a8104fcc1f6a8a528fd2a5d42d0246bb0bd33"
+    },
+    "vendor/wp-rollback/shared-core/src/Frontend/components/modals/Templates/ProgressTemplate.jsx": {
+      "md5": "f6061783cc9478218062f2146eb6499f",
+      "sha256": "1148363e598faa189a63f722c67f9ba295f8f1240edbf699449f3ab311b26d4a"
+    },
+    "vendor/wp-rollback/shared-core/src/Frontend/components/Rollbacks/AuthorPill.jsx": {
+      "md5": "540b9d665d3e31b6e2fc09f3081c2db1",
+      "sha256": "8770c87d6994af26ed28d364d6a346c3c817708ad45466cd0d1a5fe7ed4745c1"
+    },
+    "vendor/wp-rollback/shared-core/src/Frontend/components/Rollbacks/Banner.jsx": {
+      "md5": "55b562ac7eccb17331349c988910f8ae",
+      "sha256": "74c9dbeb36abd5c6e022ef46f2824d2e91dfcf05c9606eca741555919edc503d"
+    },
+    "vendor/wp-rollback/shared-core/src/Frontend/components/Rollbacks/ExpandableText.jsx": {
+      "md5": "481f286f1886f7d749d45796336a0d47",
+      "sha256": "b96dbee6831dc3bffc4f4ca30d63b228fd53b37a01e0e502054026d6103feb8e"
+    },
+    "vendor/wp-rollback/shared-core/src/Frontend/components/Rollbacks/MetaInfo.jsx": {
+      "md5": "d862add645319c47f7ffe3aba7d855a7",
+      "sha256": "9721026c8394b50c41154063acda243f8a1e1146a8012cabf22642e51e92e049"
+    },
+    "vendor/wp-rollback/shared-core/src/Frontend/components/Rollbacks/PluginInfo.jsx": {
+      "md5": "ea30b219a70bad867a6fe0123b251f49",
+      "sha256": "c5591696067d0024af3ac3f026c45a95068eb7e4b26a86d1b88f1c72ab9c9cc1"
+    },
+    "vendor/wp-rollback/shared-core/src/Frontend/components/Rollbacks/RollbackActions.jsx": {
+      "md5": "b6276d2253e720fc4248821cd53e2441",
+      "sha256": "5b45767606c5424f82f1cf43a253cee33894bac73e531f089fed7ffc2e52d634"
+    },
+    "vendor/wp-rollback/shared-core/src/Frontend/components/Rollbacks/RollbackHeader.jsx": {
+      "md5": "b4106093d474c427b72c3a8740e14128",
+      "sha256": "f28da869801c5cde700a8e793b3a2ba899c4fbcc13afedf0083404488a3abc2c"
+    },
+    "vendor/wp-rollback/shared-core/src/Frontend/components/Rollbacks/RollbackThumbnail.jsx": {
+      "md5": "e02b34139390eab104d675aa0c60cd74",
+      "sha256": "e3a3094f6e30570e65f64967b7962047da2f6b27cc2c6be6cd03c453a031924e"
+    },
+    "vendor/wp-rollback/shared-core/src/Frontend/components/Rollbacks/TrunkPopover.jsx": {
+      "md5": "4f35e497655c2c9c6a81dcb70f13951d",
+      "sha256": "623fa9a2d972ee3a545fd2c1baf3ba531fc27dae009f3fd46d76d8c36775b531"
+    },
+    "vendor/wp-rollback/shared-core/src/Frontend/components/Rollbacks/VersionPill.jsx": {
+      "md5": "b4a68cb042693845f644a66e5f451a4c",
+      "sha256": "5830a79a5c2bd7949bf076e046a6edb341da0dc93a3ef4620ed993bfb9bef11a"
+    },
+    "vendor/wp-rollback/shared-core/src/Frontend/components/Rollbacks/VersionsList.jsx": {
+      "md5": "1123b0ea6fc5f81ef958547a6aebffd3",
+      "sha256": "58de3375c5cb189d1121719d3cbed02d68f23d4c87151da5be285a72752d46cf"
+    },
+    "vendor/wp-rollback/shared-core/src/Frontend/context/RollbackContext.jsx": {
+      "md5": "e567b8dec31d0abc567d564da4c47b88",
+      "sha256": "34126261160a6238b618ba499eed18e2d2c6b2c93ed6fbdb70f06976b0901e02"
+    },
+    "vendor/wp-rollback/shared-core/src/Frontend/context/UITextContext.jsx": {
+      "md5": "6747699bd65b79f730738ab862a86196",
+      "sha256": "1a6523095a5cb036eeb322c5a8a394d509116f98ba2681db3624e813165a0659"
+    },
+    "vendor/wp-rollback/shared-core/src/Frontend/handlers/BaseThemeRollbackHandler.js": {
+      "md5": "0d494d4819625666c07c2c61144da049",
+      "sha256": "b9dacdbd0b546d6090d5f18ee00d46bf8425967f9b769af821ab7a096f829747"
+    },
+    "vendor/wp-rollback/shared-core/src/Frontend/hooks/useAssetImage.js": {
+      "md5": "5a825e5d1dc155473092e52a6cad5897",
+      "sha256": "4984de0f2b37fcca8061231a685bafef15691a50667041ae4c6db3847b49e7ed"
+    },
+    "vendor/wp-rollback/shared-core/src/Frontend/hooks/dataViews/usePlugins.js": {
+      "md5": "859f9f1dec385582d4cc5a4d7f23b0d7",
+      "sha256": "2c42d90baa2c5c1318c83c1c174452eb14119b8946091d947b29a473f8940b0e"
+    },
+    "vendor/wp-rollback/shared-core/src/Frontend/hooks/dataViews/useThemes.js": {
+      "md5": "77f766bd1932d00b1e636f131f91b0ec",
+      "sha256": "9cffe02e2c5a35b5714bcec9cb0f7df3bc69bf85120abed2d9f09ac94b10f5e6"
+    },
+    "vendor/wp-rollback/shared-core/src/Frontend/styles/main.scss": {
+      "md5": "6d362f26f71be2c4bc52c426dd211812",
+      "sha256": "2cdd34deb0789cb198a7b8b46ce7c55ed99f041d06e742d76c7c0fd48c044b10"
+    },
+    "vendor/wp-rollback/shared-core/src/Frontend/styles/styles.js": {
+      "md5": "a35a3a81566541e3b4b9fe2df9a529f4",
+      "sha256": "d97bcad60a0b03d4e7fee04a545c9e29d844233bc122a70c625f0abb4b4cd32b"
+    },
+    "vendor/wp-rollback/shared-core/src/Frontend/styles/_index.scss": {
+      "md5": "a0714ce2e7cbeedd8a43f5039980101b",
+      "sha256": "2681cb141a357b0f617c9f79ad81e11b8cd7dd1347aa12f33efc8c5f213f265e"
+    },
+    "vendor/wp-rollback/shared-core/src/Frontend/styles/_mixins.scss": {
+      "md5": "e15cfc4dcf496d0108953518664e01e6",
+      "sha256": "089cc20f6d16e74b16a711bffd17236e673fc13b8083e0e668a151b20c3d0be6"
+    },
+    "vendor/wp-rollback/shared-core/src/Frontend/styles/_variables.scss": {
+      "md5": "eb58af68114d1123ac4cff3064b63685",
+      "sha256": "14cbd23568e9d7618b5b2c63109c593d7df1c05ac34c37003c0a11477ad8c1f2"
+    },
+    "vendor/wp-rollback/shared-core/src/Frontend/styles/components/_badges.scss": {
+      "md5": "ab70d72de8b0746c271e110cb13b78a9",
+      "sha256": "6618876c729f42993e13db2e2c080fe5e1eee36adbfa97a571b732dec7531907"
+    },
+    "vendor/wp-rollback/shared-core/src/Frontend/styles/components/_dataviews.scss": {
+      "md5": "496a10c08344667c3d35cacf7a0fb659",
+      "sha256": "f60bc0422729612303ba8f4796896ea31b6e67139928957b6ba2fbc779f71ddb"
+    },
+    "vendor/wp-rollback/shared-core/src/Frontend/styles/components/_header.scss": {
+      "md5": "e185c43863241ec9387205e5639589e7",
+      "sha256": "f85ae95c366706058cc69779976ebf4dc3fb4a7518f939c30049c47a78576940"
+    },
+    "vendor/wp-rollback/shared-core/src/Frontend/styles/components/_loading.scss": {
+      "md5": "7925a4c3b80d382aa673bc58b5045663",
+      "sha256": "fc307186c10611164a38960473ce2db20d356a3b6bb7ddbcc0fdcf4e17c5e531"
+    },
+    "vendor/wp-rollback/shared-core/src/Frontend/styles/components/_modal.scss": {
+      "md5": "6704cb000029e4254d660add4a99f1f9",
+      "sha256": "16e97018d0ec6f6201a13844fd45f71a0fba3ae814a8c1d0b8c02a782f1bdef7"
+    },
+    "vendor/wp-rollback/shared-core/src/Frontend/styles/components/_progress-template.scss": {
+      "md5": "f3452ba3e5ceef19bcd0fa2784495351",
+      "sha256": "af7f51cde7e5fab2918e414786589d8ca9ce508e494e465ac097e3b3a1a9fd31"
+    },
+    "vendor/wp-rollback/shared-core/src/Frontend/styles/components/_rollbacks.scss": {
+      "md5": "64d1e6efcb3e1f4b0efd9579f42d6b78",
+      "sha256": "386ae5622097c3c58f107ed25dc423ff13276d7bb1a0cb78b669d2c2c10bf428"
+    },
+    "vendor/wp-rollback/shared-core/src/Frontend/styles/components/_security-badge.scss": {
+      "md5": "782e1d740fac2f4b8950f4ac7ea4532e",
+      "sha256": "299f0a6e9039b7851aa178137b7db208cd6d40fd6c8abe9f5a0e60b8a2dba020"
+    },
+    "vendor/wp-rollback/shared-core/src/Frontend/utils/extensionHelpers.js": {
+      "md5": "7215ee9c7d9dc229d2921a40e899ec5f",
+      "sha256": "36a9e7f1c95b82ffb99743e0c5c4ce95d83c9a430aac59f84ef3cbfab6145068"
+    },
+    "vendor/wp-rollback/shared-core/src/Frontend/utils/index.js": {
+      "md5": "72f7fc43fc0f90068aaa5b67fb42d2ae",
+      "sha256": "bf0a6c996f476446e0918245c20c78bb65051e89b51063ff49bd8292ffef8413"
+    },
+    "vendor/wp-rollback/shared-core/src/Plugin/PluginInfo.php": {
+      "md5": "4cc93537ca4d31074563a6df1b79ae7b",
+      "sha256": "28b14ce06ee4ae393858ab5e0f348f4bcd65a84349f71a2ea953a82f68a53c34"
+    },
+    "vendor/wp-rollback/shared-core/src/PluginSetup/PluginManager.php": {
+      "md5": "469da857142080bf85259f86b6442b4a",
+      "sha256": "a39ce3f8586aa25897e13fa883299a349d82112fe7241bbaf0f45c29f65b9737"
+    },
+    "vendor/wp-rollback/shared-core/src/PluginSetup/PluginSetup.php": {
+      "md5": "1e20a1642ff3a323c8817844fc6ca832",
+      "sha256": "a72b2c2c5955defa0ea729f9baa9d31e826c7dddf83b3e6638539e1f4f82b1b2"
+    },
+    "vendor/wp-rollback/shared-core/src/RestAPI/ApiRouteBase.php": {
+      "md5": "1dd04b13843c6aebea9ef5036ef146ce",
+      "sha256": "7d5b5a0502b969afadfca31e70cd1cff49ab8ddea873f4b6c6c7f00d378a90e9"
+    },
+    "vendor/wp-rollback/shared-core/src/RestAPI/FetchInfoApiRoute.php": {
+      "md5": "e08ff16d46124909b36e950a209799a3",
+      "sha256": "9f78e7036626de2b7e1c64d0a54ca2af9e41a89a9902b18717c16db4aa954f0a"
+    },
+    "vendor/wp-rollback/shared-core/src/RestAPI/ProcessRollbackApiRoute.php": {
+      "md5": "1cadb439ee54296f07e0d4d689ddda70",
+      "sha256": "e4dc6e8bd27f36dc4154c4a61357a8ae0a5d48224703210ea8dc4d7b21486a6f"
+    },
+    "vendor/wp-rollback/shared-core/src/RestAPI/ResponseFormatter.php": {
+      "md5": "6a18079016bfbf6375ef0f54f5323ce6",
+      "sha256": "f92f599b238968e408bdbf813e733731b20d886a19f796adae0e6971f4fa4041"
+    },
+    "vendor/wp-rollback/shared-core/src/RestAPI/RollbackStepsApiRoute.php": {
+      "md5": "c665633c6e996288165293dde8fbbe3f",
+      "sha256": "1962bb721b994c5c3d9f4adfa5a8a15c5e15331a37d3a2611c2c38a02c1a724d"
+    },
+    "vendor/wp-rollback/shared-core/src/RestAPI/ServiceProvider.php": {
+      "md5": "18383493d09f06908c5f9b81ca5e2bbe",
+      "sha256": "a388832e7134dfc31045a5ad6bc4e842188198ff9a3384dc083a8de281c44e38"
+    },
+    "vendor/wp-rollback/shared-core/src/Rollbacks/index.js": {
+      "md5": "0cacdef4f4dd95279e36917423aced10",
+      "sha256": "9ff19cb130cdd53c95e8eebcb53f7957329fb76055bf6101d5b881c9c175309e"
+    },
+    "vendor/wp-rollback/shared-core/src/Rollbacks/RollbackBase.php": {
+      "md5": "ea61fd6ba1ba53fe5e72a45cbe481c5e",
+      "sha256": "9aa90551da6d36c5ed41507961b4cda409ffa13516fc9da932576b19d52df3b6"
+    },
+    "vendor/wp-rollback/shared-core/src/Rollbacks/RollbackManager.php": {
+      "md5": "bb8060611b54b4a24c20eaef60270d86",
+      "sha256": "c47f3f6af2b1e958e85c35059b6eb62e89d66c874eb900b2e2fa497a610bb93d"
+    },
+    "vendor/wp-rollback/shared-core/src/Rollbacks/ServiceProvider.php": {
+      "md5": "23cb3b8b4d874a0a1b16a208ffe68e28",
+      "sha256": "f0ac2c16c449651f8919d7504ff442e22d3cf586fae731dc230805a212d3051d"
+    },
+    "vendor/wp-rollback/shared-core/src/Rollbacks/Actions/BaseRegisterAdminMenu.php": {
+      "md5": "343191379aa57031634e423604bb8f3e",
+      "sha256": "47ace02df6cadfed1afd2cb824510482f93bb303592b58b4d847b6587dcfa30d"
+    },
+    "vendor/wp-rollback/shared-core/src/Rollbacks/Contract/RollbackStep.php": {
+      "md5": "ad6150891f309309f1a92a1a5e39b84f",
+      "sha256": "39468a1d91a10703b0ce3f15289f64e2ac457e442fd2a03c5b21a5f8deed0637"
+    },
+    "vendor/wp-rollback/shared-core/src/Rollbacks/Contract/RollbackStepResult.php": {
+      "md5": "efacfa456217989077a031ee9739baa8",
+      "sha256": "895d1a0a2c61b4ddb8a72420b4c4d22d2e303e798fb84bd0781ea5f19c09a746"
+    },
+    "vendor/wp-rollback/shared-core/src/Rollbacks/DTO/RollbackApiRequestDTO.php": {
+      "md5": "6688451928480908dd3cb80046f7e08e",
+      "sha256": "6e4af0099ebfc1c6563f7dce8c7e3edabf4dde945d0887abd4befec0f7a9b28c"
+    },
+    "vendor/wp-rollback/shared-core/src/Rollbacks/DTO/RollbackItemDTO.php": {
+      "md5": "601dcf13275f07c2210fc89c3461e99f",
+      "sha256": "405ef17e3ee3101456d5f500acd1e949d1c11ca48efc7ed8cd479a16d411306e"
+    },
+    "vendor/wp-rollback/shared-core/src/Rollbacks/PluginRollback/Actions/AddPluginRollbackLinks.php": {
+      "md5": "2488c31a38caf3b147a2ebfd53ee4622",
+      "sha256": "5bc0700a89ba5dfb2b18c045187a6181bd6ebef56cd4314e551dca2cd8265767"
+    },
+    "vendor/wp-rollback/shared-core/src/Rollbacks/PluginRollback/Actions/PluginUpgrader.php": {
+      "md5": "4d9ea7e6f1279e654b1b8b28a7da3067",
+      "sha256": "7c32c2a1724be2fde89aa4120ae59fb1f18dc0f2cb08446693a408a5d9b385c5"
+    },
+    "vendor/wp-rollback/shared-core/src/Rollbacks/PluginRollback/Actions/PreCurrentActivePlugins.php": {
+      "md5": "1ffdf6385cdc33c69119f4b758340446",
+      "sha256": "dd0c7a53bae6250f81673c464b2c6aee1bb01cfc981531329143438c2910f3eb"
+    },
+    "vendor/wp-rollback/shared-core/src/Rollbacks/Registry/RollbackStepRegisterer.php": {
+      "md5": "2131148461360be1eef07c707726752f",
+      "sha256": "1aedf781445d70b804bf7f04d04686b16621087d56a5be50a058575dd2c7035c"
+    },
+    "vendor/wp-rollback/shared-core/src/Rollbacks/RollbackSteps/BackupAsset.php": {
+      "md5": "47a80fcc455a8ddce8e3b18bf458d332",
+      "sha256": "feefa00ae067f72bb7e3945bf2965023ece412468db31a166ca295390b7763d7"
+    },
+    "vendor/wp-rollback/shared-core/src/Rollbacks/RollbackSteps/Cleanup.php": {
+      "md5": "6813b6210c52970d44f2334e5ba0752d",
+      "sha256": "010c9ba4c918924c4c7a51facdf8a4ea829023587d6aa225800b0a1289b6f885"
+    },
+    "vendor/wp-rollback/shared-core/src/Rollbacks/RollbackSteps/DownloadAsset.php": {
+      "md5": "6878eda62eb4bcbf37d337f0e9497db3",
+      "sha256": "5c9c79b432143c420b3a43b53cd592bebf14c4b14e68b61bf28ecbc9897371fb"
+    },
+    "vendor/wp-rollback/shared-core/src/Rollbacks/RollbackSteps/ReplaceAsset.php": {
+      "md5": "e98625ea12933ac02159cf8e5e41962f",
+      "sha256": "6fa024dcd805a21e4d48197000da9632e996f8125986dbc683f7edd0d3307580"
+    },
+    "vendor/wp-rollback/shared-core/src/Rollbacks/RollbackSteps/ValidatePackage.php": {
+      "md5": "0556cb0781a5e7590cce10ddf71b4bac",
+      "sha256": "afb492a5512ebd24f37569d2d5a59774084ffcab7e157baa661b51fe06ed96ca"
+    },
+    "vendor/wp-rollback/shared-core/src/Rollbacks/Services/BackupService.php": {
+      "md5": "c609e9807454a707406922b4ab7bd9dc",
+      "sha256": "ad1c8452b2c39035a9c982e7865862e2564c6ea948be9e6da82cd73d1d080f7c"
+    },
+    "vendor/wp-rollback/shared-core/src/Rollbacks/Services/PackageValidationService.php": {
+      "md5": "516a71d3ad5b09c8af64cc3d9b8375f8",
+      "sha256": "59e7af69553310e3da8a6abf16f3a6bcae4a03d853e71ab402b8620f8dc1c028"
+    },
+    "vendor/wp-rollback/shared-core/src/Rollbacks/Services/README.md": {
+      "md5": "482490c819bfa489b00b63dc39753d76",
+      "sha256": "3c6c78621413a723d323a67a848587fb75c8b4a6e054cfda45f7ee0f5d4413cb"
+    },
+    "vendor/wp-rollback/shared-core/src/Rollbacks/ToolsPage/ToolsPage.php": {
+      "md5": "5932b8b0c9db01daa184209d912459fe",
+      "sha256": "e60d18c2d16b12f46538fecf78db428753ae4c45acbcec0571a2f8e0ef3aba60"
+    },
+    "vendor/wp-rollback/shared-core/src/Rollbacks/Traits/PluginHelpers.php": {
+      "md5": "6df62d359783902070cf034c1ac6f4f9",
+      "sha256": "d085ab2fc36bb1874e619ff66cf7598cc6e9b8bb449da812d1d70516b5c2db1f"
+    },
+    "vendor/wp-rollback/shared-core/src/Utils/index.js": {
+      "md5": "ef83d098765cb5cfc5fc6baf140392af",
+      "sha256": "3826db2ef40af6f9c6cf30dfd360f731efefcb5bf5c76205e3f23c7e6c2d4088"
+    }
+  }
+}

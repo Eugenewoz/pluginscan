@@ -1,0 +1,738 @@
+{
+  "plugin": "wpseo-woocommerce",
+  "version": "16.5",
+  "files": {
+    "changelog.txt": {
+      "md5": "c4dd3aa997420f4e133f93ec263a8daf",
+      "sha256": "d6504e71b46df214634b9e2c8e6b3222ec8367d7a9862d6e5d4ab929f5b33ee5"
+    },
+    "index.php": {
+      "md5": "3da32bc056e4a4a4c0392bc4a8ee7ab8",
+      "sha256": "74dec45acb172b7569e36f8ba222cb86d217de6c01af8e2092d6bde0353da17e"
+    },
+    "wpseo-woocommerce.php": {
+      "md5": "f01c8fac28f3ab07c85f1194fa801b8e",
+      "sha256": "a21a385ade60c6666d9a0a0e22a3421cea51ad5ad82fbb8b84bfc7320968aa9f"
+    },
+    "classes/index.php": {
+      "md5": "3da32bc056e4a4a4c0392bc4a8ee7ab8",
+      "sha256": "74dec45acb172b7569e36f8ba222cb86d217de6c01af8e2092d6bde0353da17e"
+    },
+    "classes/option-woo.php": {
+      "md5": "bd822be2add558fa453ee7ccf48160d5",
+      "sha256": "cbfb3bc713509e8169411a7dcf660b79eaebd10e7dbd58fbda0ee131d99c36dc"
+    },
+    "classes/woocommerce-dependencies.php": {
+      "md5": "9f89b58b93fad289c4b3c1591112e045",
+      "sha256": "ff9d10bb08638af4380fac56ca7a7e95343c17b3b037246739b30c5bbb69b8e3"
+    },
+    "classes/woocommerce-import-export.php": {
+      "md5": "8ba5cdbfa3bab7f504260cc2a183ea70",
+      "sha256": "72bbaabce489cf8ebfe4b907fa1c5ce346bc0ab640375824154e26fb98c51f21"
+    },
+    "classes/woocommerce-opengraph.php": {
+      "md5": "43f5a4db4207dc99ceeda01a4e06473d",
+      "sha256": "08b0d1a30a85b027d210d821083a87a798f3c41beee0f26f89ddbdcc0c8bbe54"
+    },
+    "classes/woocommerce-schema.php": {
+      "md5": "0f97b57b52f8d9418b39f7cf506a0d9a",
+      "sha256": "135437ebcf1d97f7e1c5929f29a36a69e13bd95ca2e2f26a45cd3a74b9d3abe9"
+    },
+    "classes/woocommerce-seo.php": {
+      "md5": "20e20a6ff36a20825cd2574a9e08febd",
+      "sha256": "6c5799df35f3c1d5c2ff6b9ade6204fb74686cab85995e23eb12edefbe40d3ad"
+    },
+    "classes/woocommerce-slack.php": {
+      "md5": "76cbcbc375717e253adc857c4b17771e",
+      "sha256": "0de4aa32f68d5da08b73760cbbe62530ca139a84fb13402c0249f2616e77ecb4"
+    },
+    "classes/woocommerce-twitter.php": {
+      "md5": "51e134f82b1064fe64d9a1836d0436cb",
+      "sha256": "aca09622a35f7e9e21e0f7bd5e9faaa3a30a5a8ff9ab44502565a9f34dce7ffd"
+    },
+    "classes/woocommerce-utils.php": {
+      "md5": "c1173d40f8bbb4c38bf97adac3cddd7f",
+      "sha256": "eb80483eca548bc1a6402d8fdf2310a1841b1ca199fb9f996d7e4271323e2799"
+    },
+    "classes/woocommerce-yoast-ids.php": {
+      "md5": "409dade356418c639e8a1e5526473367",
+      "sha256": "c72d4ea54bfa203539d51ff0f13e18eb6d76470958c7a700896358e3b9dce768"
+    },
+    "classes/woocommerce-yoast-tab.php": {
+      "md5": "aa4954f7c2b512c992606899c17a8b91",
+      "sha256": "f65a879b147a2c4fd607dcda89d5063882ce1e5c9ca78d8277b9c28405598612"
+    },
+    "classes/integrations/woocommerce-translationspress.php": {
+      "md5": "4be7090c1e1122dbc559792330d09434",
+      "sha256": "25a45103bca4ebdcffb8314f755cca936bcd0b9b6ae11fa7ad54d129fe2778ff"
+    },
+    "classes/presenters/index.php": {
+      "md5": "3da32bc056e4a4a4c0392bc4a8ee7ab8",
+      "sha256": "74dec45acb172b7569e36f8ba222cb86d217de6c01af8e2092d6bde0353da17e"
+    },
+    "classes/presenters/woocommerce-abstract-product-availability-presenter.php": {
+      "md5": "8e65215bdb2436ac977e77659c634920",
+      "sha256": "228e25e8ab780e42956f666ffbe751bac87f4173a547907d095b5d19b858351e"
+    },
+    "classes/presenters/woocommerce-abstract-product-presenter.php": {
+      "md5": "4795d9dc0e6bb47e9f8eb0220cc4c101",
+      "sha256": "9d218ba61cb491dd7296b1c02c25e34606a86ba3f9800387bc90c4017e962ed9"
+    },
+    "classes/presenters/woocommerce-pinterest-product-availability-presenter.php": {
+      "md5": "453506f5714e219e694ed4d3b697b2bd",
+      "sha256": "3c152784e9cdd7234219c8fe7c4cd4b8f43cc78eead65c9de5c50c7b8bda80fe"
+    },
+    "classes/presenters/woocommerce-product-availability-presenter.php": {
+      "md5": "4e25b70d0eb4c8814de7780c74824e87",
+      "sha256": "d1f99adcd06265d1fd2c175a37f77f65d366700e0fe3b0dd7bcd67ada5294ad3"
+    },
+    "classes/presenters/woocommerce-product-brand-presenter.php": {
+      "md5": "1eb282bb53dff1b6d686e4733aa3f46b",
+      "sha256": "d5982e853bcd6a74f1e9ea34f314ebaa242ff9ebc44e44fa3a64d0f3862911c4"
+    },
+    "classes/presenters/woocommerce-product-condition-presenter.php": {
+      "md5": "219c2e84fa55587e8135f80f46675223",
+      "sha256": "5819223d4048279afaab33f4a95a28e172782bc87781473af6f47927c976213e"
+    },
+    "classes/presenters/woocommerce-product-price-amount-presenter.php": {
+      "md5": "ee11ce88eb9e3480febb5a478e1905af",
+      "sha256": "b35cfe9bf2b815a098ba7c3895642c11ec870a10960956677a25eb7a6165a0d5"
+    },
+    "classes/presenters/woocommerce-product-price-currency-presenter.php": {
+      "md5": "57b29db48b078b28382991201b97996e",
+      "sha256": "fc07f1601971c2dcaf3a7bd2a11ac8f29b656a393f25300318c78aedbfd39161"
+    },
+    "classes/presenters/woocommerce-product-retailer-item-id-presenter.php": {
+      "md5": "c2ef54009da69ee84514d67ca3094a5d",
+      "sha256": "3a79e5e1025c8150ca91a7204c342be708f51befdfc6b3a8db0a0a7654a89e85"
+    },
+    "classes/presenters/woocommerce-schema-presenter.php": {
+      "md5": "5972d255ba962cabddd6ef57cb9fcae5",
+      "sha256": "48a5009ae171766223a140341c729ca56ad48d3f7347e7ef1b5571f351a06649"
+    },
+    "js/dist/yoastseo-woo-admin-1650.js": {
+      "md5": "b25c76dd3f375b10200fae7c40cc8794",
+      "sha256": "d136d35e28357f1d0d306a4617fc9cfcd59185cafdad9f02a472df73b6a75757"
+    },
+    "js/dist/yoastseo-woo-identifiers-1650.js": {
+      "md5": "8f2c886093d1e8dfbf25bf73e84b775b",
+      "sha256": "4d1d056cea8bbce6868d8887a678789fe9b49eedacc59d32e7f6b4951ac0fd34"
+    },
+    "js/dist/yoastseo-woo-plugin-1650.js": {
+      "md5": "fb6e473fe2db7ca8348d2d7b887a9c9b",
+      "sha256": "3830498ee0a1a2d95918c07dbedd4cff57664a201e075f1e3c9f4a4f70cd9c81"
+    },
+    "js/dist/yoastseo-woo-replacevars-1650.js": {
+      "md5": "966fda2a819efb675d321eafbc676ef9",
+      "sha256": "26801d86f0ae059aaeb7238dd36bd262359f537ee7bdc61af6abb20dd8ffaded"
+    },
+    "js/dist/yoastseo-woo-worker-1650.js": {
+      "md5": "16df6b6ff063fb5bc7e6ef35515c2a6c",
+      "sha256": "1568cd4da74ec7b66a4ccd91ea69bd6dcd06be93f9c5b6f7d3e646f57ba5b5f3"
+    },
+    "languages/yoast-woo-seojs-ar.json": {
+      "md5": "d8a3589775a4fd07a3be4da824061651",
+      "sha256": "82f9bbe8d297be74cc577271aa2397c38ac352c1e8b0819b0808c9684dae6e83"
+    },
+    "languages/yoast-woo-seojs-ca.json": {
+      "md5": "1b2695f2f4bf46c30f30a16df96aa503",
+      "sha256": "8d4154c50f6e3168cd885e745ea5bdd33792f087b27766e71e1f513db6c41dcf"
+    },
+    "languages/yoast-woo-seojs-cs_CZ.json": {
+      "md5": "d323f42f51dd8c79f93d4929b93e39bf",
+      "sha256": "4014da450717a0385beff5574bcb71c0df0837ea5b7e0f6fe8d9b1d3ac09dce6"
+    },
+    "languages/yoast-woo-seojs-da_DK.json": {
+      "md5": "ceaf6b6ddae0c14fecc49f098df036c7",
+      "sha256": "bfc65b25d1fa5f09d73c5e7dd5137f8806b90d8f018b24340d5235976891f9f7"
+    },
+    "languages/yoast-woo-seojs-de_DE.json": {
+      "md5": "d541f84b31f2ecbe49b388787e6e4f45",
+      "sha256": "7835a6bfa7b73ce3bcb7b7d1b2da66d7e81b11e935a01a21d11a3c2b24d27895"
+    },
+    "languages/yoast-woo-seojs-el.json": {
+      "md5": "611c5a11e177c993d8ce4bc6126964e1",
+      "sha256": "b4d02df5de7f201cb299cdea36996876d734753779e1a98f5c22e301796c607b"
+    },
+    "languages/yoast-woo-seojs-en_AU.json": {
+      "md5": "61a618534d3c532d609f9557273b57cc",
+      "sha256": "30d486e6cb0d8fc867c5154116acfe4a7051a912b6d49ce7c2fc2e8d3172612f"
+    },
+    "languages/yoast-woo-seojs-en_CA.json": {
+      "md5": "59331d59322c81e716992a39d8de8eeb",
+      "sha256": "050b1c486824f24fc11fc97b536b888e372aeb567f716fe39d57e285fd96b795"
+    },
+    "languages/yoast-woo-seojs-en_GB.json": {
+      "md5": "5481927071c332dbb1486883353f218c",
+      "sha256": "93e0439d66eb6b6f6a4d2685037b388fd6adaa2511426971cb7b95fed7a70846"
+    },
+    "languages/yoast-woo-seojs-en_NZ.json": {
+      "md5": "0b0982bc0c8bca669f5df0a190aa5d0a",
+      "sha256": "7a758137ff392466f5933024cbfbfe4ec88b18766a91bf2001dd6e67778ac538"
+    },
+    "languages/yoast-woo-seojs-es_ES.json": {
+      "md5": "2d281221494ccb779e7573d342667fca",
+      "sha256": "870c8e1b48750d2ccd225cc470ac8422872bb9d44bf5d2723995ca771bb86d8a"
+    },
+    "languages/yoast-woo-seojs-es_MX.json": {
+      "md5": "d8c2a2687ffa448574fda22e4fa108cb",
+      "sha256": "eaa75a24bebcd2af5f8b3807c18508243b3fa68f313d607f986019a075b0e6a1"
+    },
+    "languages/yoast-woo-seojs-es_VE.json": {
+      "md5": "351c958ef2c93c095a663958e2f1de95",
+      "sha256": "e43c39f7c4e094b4a65c81c14ebce27dc1cce86c2771285a6a9d3d458c603da9"
+    },
+    "languages/yoast-woo-seojs-fa_IR.json": {
+      "md5": "865c94e5d24f3e715eadfb175c90762f",
+      "sha256": "5bb1e35a4c48248a066eee9c514734137d57fdd50c2111c9ce547cd033a1ee51"
+    },
+    "languages/yoast-woo-seojs-fi.json": {
+      "md5": "08fe5a2c6ac4c99a64120da98b53dcad",
+      "sha256": "0c8a7e20e9c0cd331845b20c32d7494c50033941a703cf04f56690e3f9361a94"
+    },
+    "languages/yoast-woo-seojs-fr_FR.json": {
+      "md5": "d4facd45bac33db1cfdce79133fd5c87",
+      "sha256": "91735ee5d958a7d4b714e09d70a4b13e88a88940440126b48e6a9123b84d060d"
+    },
+    "languages/yoast-woo-seojs-he_IL.json": {
+      "md5": "eeca12cc0c01be0d2b0d5e6756f4278d",
+      "sha256": "d7ab5e59e0e9c33381f3db7acceeb01652c4a50cdf77357562c969c49fd08c33"
+    },
+    "languages/yoast-woo-seojs-hi_IN.json": {
+      "md5": "bd8542b216507f5a5f723fcb93a6451b",
+      "sha256": "a59ceeadf85eb82c024e8085ae9ac7f61b88ad8fcf75ccf76692ad69ee659389"
+    },
+    "languages/yoast-woo-seojs-hu_HU.json": {
+      "md5": "0b73b650974c9725882f2b3d7a5eaaf7",
+      "sha256": "10210b1e3698daaa8c102712a87146d39038c9a4a8a17063454f8a3d84c99df4"
+    },
+    "languages/yoast-woo-seojs-id_ID.json": {
+      "md5": "61de3752b7425b95e698cc5e8a2a132d",
+      "sha256": "e9673dd57ebe6c7df8ca0ead6df28fffe0139c6a94d6708ff9b9c8a0962b4575"
+    },
+    "languages/yoast-woo-seojs-it_IT.json": {
+      "md5": "e64d7c16985184f5d13f212d9970fa08",
+      "sha256": "a576406155715720cc9d777f0b139a63568808a5b6e6217af98ec3744398ff72"
+    },
+    "languages/yoast-woo-seojs-ja.json": {
+      "md5": "1fa504f6e64970938d54954a0739fe67",
+      "sha256": "2173609c04cf29a763d16253400285e5795db77463c81775dacfde88b3508e48"
+    },
+    "languages/yoast-woo-seojs-nb_NO.json": {
+      "md5": "950925574758c397f1e9b598be2a0470",
+      "sha256": "27998c6cd46e81ad93dfcc2bb700ca60ade99c1cb865673231eee6055cf4d283"
+    },
+    "languages/yoast-woo-seojs-nl_BE.json": {
+      "md5": "163e4c01b76c376dec577ad0733cfa45",
+      "sha256": "e2612eac0956fc1705f1943b56d7f88e4957b9fdf418f85f7cacc19da3bb5a31"
+    },
+    "languages/yoast-woo-seojs-nl_NL.json": {
+      "md5": "1e685e10158724cb22dd74f91416c61d",
+      "sha256": "537c07c081b2fe74ca8df4d4ce56da2cc149a1fe5cf518d454006a85fcfc77a3"
+    },
+    "languages/yoast-woo-seojs-pl_PL.json": {
+      "md5": "ff5660d42133aa9f0321267c32aade26",
+      "sha256": "dec2121d3eccaabf79e1583a17d8760214087a7a56fa77e5af9260ba9373929b"
+    },
+    "languages/yoast-woo-seojs-pt_BR.json": {
+      "md5": "b8d4a359737bcdbede0bafdb0c27e224",
+      "sha256": "8660551659f0921456336de27744a349adb7b2df9322bedd548de8ccdd19ca5c"
+    },
+    "languages/yoast-woo-seojs-pt_PT.json": {
+      "md5": "6fd3f31eb81b53ad77b4decd37d6e024",
+      "sha256": "d7a2387e7d0cc84021b841f81a27ce37f77fa21347cd2e068862f475c76a74bc"
+    },
+    "languages/yoast-woo-seojs-ro_RO.json": {
+      "md5": "7d4edd5aed675600ffacafa1ac8c2033",
+      "sha256": "4ea4f65dbc3b0959333319c2a9d3fbe0b9741705a1d279ff633e7f53da1d3f3f"
+    },
+    "languages/yoast-woo-seojs-ru_RU.json": {
+      "md5": "f31bd53cf6b7c3ce85f7264434b7df69",
+      "sha256": "2ef218c13c42c20ae55ee14ecf128c5eff7214eb819e0c3518bd73a9233485cc"
+    },
+    "languages/yoast-woo-seojs-sk_SK.json": {
+      "md5": "31b36903e47ce6e8f9f43c55fc0709a3",
+      "sha256": "44cf2f1a90e8d588c131256c0c7fbd094fb00cba04019e91f9da42b2d3a7e866"
+    },
+    "languages/yoast-woo-seojs-sr_RS.json": {
+      "md5": "3c69bccf95be6bce9e1e888810bc7f6e",
+      "sha256": "44603221a6c1950314d035dfe23c7df5195a3cb4869e78e4c95bb8185d0915f6"
+    },
+    "languages/yoast-woo-seojs-sv_SE.json": {
+      "md5": "b9e917b99876fafacc0334522f06dc57",
+      "sha256": "fcf2e0b988b7d1527a3d1d57eb862bed9fd947b32381521a6fa3731820ad992a"
+    },
+    "languages/yoast-woo-seojs-tr_TR.json": {
+      "md5": "c05f6304127f908f3e4a7a1ca68b12e4",
+      "sha256": "0e94cd9b0b12c8952e7878b133b6b7d97d19abf172c6131a120758a60d077235"
+    },
+    "languages/yoast-woo-seojs-uk.json": {
+      "md5": "12cb810b5db6d6467c38092061535b41",
+      "sha256": "76b3d7e1eeccdfe49533e2817e0eb154914a0be718bd8075e0610f5eee07acde"
+    },
+    "languages/yoast-woo-seojs-vi.json": {
+      "md5": "bac1804355e2813cec2c96eb3dc6966a",
+      "sha256": "85cdfbfc56a76b1596beb025c96d042c4b7e53fc320f3f18a439b956a0ce8f60"
+    },
+    "languages/yoast-woo-seojs.json": {
+      "md5": "f5e9148f4c7272ba81aee5890d841159",
+      "sha256": "494613796076cfcf2de54ac891e3576f2c4af431b8d460274e476a1f40738849"
+    },
+    "vendor/autoload.php": {
+      "md5": "ab3f709cfa4abc89c18ac2b315ccdc23",
+      "sha256": "f8ba1c38cd78f3b071b47e1f87f5dc28fecb61a7b2c9b43d047acb1fcd290daf"
+    },
+    "vendor/composer/autoload_classmap.php": {
+      "md5": "a8ea16f043082f2e0873334257ddb8df",
+      "sha256": "4f62e98868ae78c9315498444f250620fecdcaa52f904621815ae2f3e262f472"
+    },
+    "vendor/composer/autoload_namespaces.php": {
+      "md5": "35e12c7d76c4a81633bcf547c0e229a9",
+      "sha256": "6d1b582b311799934568f00d45e01de7a04f8a1865a8a72c7841904ad4dac3a7"
+    },
+    "vendor/composer/autoload_psr4.php": {
+      "md5": "ca4c699c1d868dfbb2a7baeecbca60e6",
+      "sha256": "c11b36332cc4d44559f334e0969a7afc7238deafb7ace7bcd89b04ca3c2ebcd0"
+    },
+    "vendor/composer/autoload_real.php": {
+      "md5": "c95609dc06422ac9b2e0fa21acf4c2aa",
+      "sha256": "112adbde013882c0b67d3ce05114cf4068f879df3392ddd5e686ba529de7f0a3"
+    },
+    "vendor/composer/autoload_static.php": {
+      "md5": "ad444f5d08471401436c2c898a29e06a",
+      "sha256": "afd6927fe6e714264dfc69220bbf1d46efb357b072f0cc3f65804dea084460c1"
+    },
+    "vendor/composer/ClassLoader.php": {
+      "md5": "80e3127bb630c512c42cfb51366ec09c",
+      "sha256": "c944c4b1228ef6bef01b0029205c562c96536f8e550052d753b57723d520e69a"
+    },
+    "vendor/composer/installed.json": {
+      "md5": "87e94dffb50ad957137c21f4575023d5",
+      "sha256": "8cc68c904fbb8c5e7f8232924643bf17fe78be5474f8f775474134572619e0f4"
+    },
+    "vendor/composer/installed.php": {
+      "md5": "ed2d7d12f7c493151d7cc1ac6bde550d",
+      "sha256": "ede2077c246256dd2c81b474f584f30e6506eec29b052bb1bdcd0c00285c3cb5"
+    },
+    "vendor/composer/InstalledVersions.php": {
+      "md5": "5b31bc04d0ca70b81ad50bdf0f40e0fe",
+      "sha256": "088972c331f038f11d51d487a5c9aae424cdc882d7298dd201ae32f54b296252"
+    },
+    "vendor/composer/LICENSE": {
+      "md5": "955d5fe58c231244f6b49000f383b5e2",
+      "sha256": "c8cce4b6b9729f264ffdf9296d505d63432497feeed1f586d1902b942197e024"
+    },
+    "vendor/composer/platform_check.php": {
+      "md5": "e447e4cc31d67f7c6a0f616e67b9b71e",
+      "sha256": "c3f3fa8aaab897a975bf5f07914dec17708fabb4c2d58e0fbe841f0fc52b7842"
+    },
+    "vendor/composer/installers/composer.json": {
+      "md5": "fe2afc5eae6eb4a33f2300d3f6ee0b81",
+      "sha256": "741c79ef9e30cbc0bf7268f8fb643f39fccb0d6e48484afea5b94055d3ac044f"
+    },
+    "vendor/composer/installers/LICENSE": {
+      "md5": "043117d4dcbc27195a9479a30b7befcf",
+      "sha256": "8d64f2fa4cb25b8dd0050f31f08c4d721d65754029bd470294c5583d2ecd3149"
+    },
+    "vendor/composer/installers/src/bootstrap.php": {
+      "md5": "aba1efb305de35cadafc914b4456eb52",
+      "sha256": "dba168545bf5638cb06dacb0b543a2d71ce55e766cac326b6fd2d265a4f16cf7"
+    },
+    "vendor/composer/installers/src/Composer/Installers/AglInstaller.php": {
+      "md5": "7ef5b54fd29c23dca26c2a9edf0dd98c",
+      "sha256": "5db521af6b73393af748bdb1c4f691425e9e700805f761da1c493de6672d0884"
+    },
+    "vendor/composer/installers/src/Composer/Installers/AkauntingInstaller.php": {
+      "md5": "55a1a83b0b08b68e9f691ab804bac655",
+      "sha256": "457e4c8ee75b3793ac95c8ab691ab0439cc0b7d842cb6c98f4a4609056745447"
+    },
+    "vendor/composer/installers/src/Composer/Installers/AnnotateCmsInstaller.php": {
+      "md5": "a0acfbe237e70df48b1d39b2134591e1",
+      "sha256": "028b8221834ac80a7fe826ba0e3030340e7433de258e686de8e3edd69ce1f50d"
+    },
+    "vendor/composer/installers/src/Composer/Installers/AsgardInstaller.php": {
+      "md5": "59ec1f226f508f3c0029b817bae249dc",
+      "sha256": "6bb772968b9cd0d8c4a04fc1dd1fa92cbf736deed8ed11e585913b5c7a6d78f7"
+    },
+    "vendor/composer/installers/src/Composer/Installers/AttogramInstaller.php": {
+      "md5": "02b5b078e1068e8c60bae2818c7c5a7c",
+      "sha256": "de0f37e40a9c71f899c97001698f90259ca9dd8b01b9b45254d46411dc444e34"
+    },
+    "vendor/composer/installers/src/Composer/Installers/BaseInstaller.php": {
+      "md5": "3efa44d2ed2d09891c26502bee4d2041",
+      "sha256": "216e773daf98f801d1bbb83623f17fb3af29ac547ecb058d572086d0185eff6f"
+    },
+    "vendor/composer/installers/src/Composer/Installers/BitrixInstaller.php": {
+      "md5": "038b1d6a3ca8f85655b13c724de17893",
+      "sha256": "61b02c8328cdc86f566181186c479ef78fb1d9581c90387edd4693a1b4891b58"
+    },
+    "vendor/composer/installers/src/Composer/Installers/BonefishInstaller.php": {
+      "md5": "901d5100c34e37abad4db6f5ccddd6be",
+      "sha256": "b330f87e7c2ba04a060288c1bcbe213ef395719b59a476dcf5629c5b3b7caf8b"
+    },
+    "vendor/composer/installers/src/Composer/Installers/BotbleInstaller.php": {
+      "md5": "764be7e6583b85754f8b90f31fcef6d8",
+      "sha256": "1d129d1282279d32c6cfc1bf50eaa47493d379cd27ae35419b44863ba27255bd"
+    },
+    "vendor/composer/installers/src/Composer/Installers/CakePHPInstaller.php": {
+      "md5": "458749bd8b9b7db438ccdbccd762ff42",
+      "sha256": "94cfabd60f1f0dc1fd41e2f6e078b6d1852b1124941671032d7c2b5d7997ee6e"
+    },
+    "vendor/composer/installers/src/Composer/Installers/ChefInstaller.php": {
+      "md5": "9bec3e8f76ab85198e631e8f76acedc6",
+      "sha256": "972a8bf79bbfbdc7c90c9bfb0ef170805dd627713a1af7fbc6f96a93089d1b23"
+    },
+    "vendor/composer/installers/src/Composer/Installers/CiviCrmInstaller.php": {
+      "md5": "c0e62c7e90085945021c217b17dca62a",
+      "sha256": "afb9a0751505148d694a66ca30075ba146cc0b35c06de0c312182dfb0f58003a"
+    },
+    "vendor/composer/installers/src/Composer/Installers/ClanCatsFrameworkInstaller.php": {
+      "md5": "44ea2e8f2962ac33861a42b1958468fa",
+      "sha256": "a707b4b542fc0cb1dd1eb64f9592dcd071645bc6c7b254bc2b9268ac4fe901f3"
+    },
+    "vendor/composer/installers/src/Composer/Installers/CockpitInstaller.php": {
+      "md5": "2205ea68c83a241425d30857ff870381",
+      "sha256": "e6f410a4f1863796c151d7bc8ac52bbd41b34a409b594e33a4db04b51a6cc1e1"
+    },
+    "vendor/composer/installers/src/Composer/Installers/CodeIgniterInstaller.php": {
+      "md5": "2f5f06f0e05412f991ce0145affd9040",
+      "sha256": "fa5e59ff4d71ec71636dea40cb3f15bf80e07131e55e486429d726d02226a7fe"
+    },
+    "vendor/composer/installers/src/Composer/Installers/Concrete5Installer.php": {
+      "md5": "2ade12f60cb229b8c2061265ab21e604",
+      "sha256": "19bc7029994919c05f729bf1861305d2be665f8d386e8d4e0ea52016412a6797"
+    },
+    "vendor/composer/installers/src/Composer/Installers/ConcreteCMSInstaller.php": {
+      "md5": "e6358da20623eb9247f676776bf55d16",
+      "sha256": "85075596c1c9901aab10cc6ffaabb5aba2947189b9fd9a40226ee9f12250237f"
+    },
+    "vendor/composer/installers/src/Composer/Installers/CroogoInstaller.php": {
+      "md5": "b0ef7a4dd9812b5a677d93aa776a919e",
+      "sha256": "6e490d8a9eb386a694da472b0788dc1ae62041e995682f196468778f4b6f7eda"
+    },
+    "vendor/composer/installers/src/Composer/Installers/DecibelInstaller.php": {
+      "md5": "4785020d54d8b12a5ada7ba0e5eefaae",
+      "sha256": "0f6232c0137ea7e32cfa5286c0e220c2131a0b9c743759c613ba5b0da61f2a37"
+    },
+    "vendor/composer/installers/src/Composer/Installers/DframeInstaller.php": {
+      "md5": "7b79bb18402bf99dc369c2b9e40f0163",
+      "sha256": "f08f14e02634c0effc69631f446577ee20995be4ba0d53b2e81ede4df05df861"
+    },
+    "vendor/composer/installers/src/Composer/Installers/DokuWikiInstaller.php": {
+      "md5": "322782f78a4f3d19fee4ad81f47a509d",
+      "sha256": "9e46aa9c3ab908f0ce800a905bdc368427f07b8d8f44132ce9bda9614c138ac0"
+    },
+    "vendor/composer/installers/src/Composer/Installers/DolibarrInstaller.php": {
+      "md5": "786056075e29ff136c3ba94fc21b1e10",
+      "sha256": "b5ec4560092c818fbb79f19a6b24eb37f07ee73fd10910afbfd93c187440d935"
+    },
+    "vendor/composer/installers/src/Composer/Installers/DrupalInstaller.php": {
+      "md5": "467b62635336dea57d858375b2781c2f",
+      "sha256": "baff56f283bf768e2763af7ccc1c7303d38b9bc6eaf846f35b248f700c70fd6c"
+    },
+    "vendor/composer/installers/src/Composer/Installers/ElggInstaller.php": {
+      "md5": "65150ff8057f12a490e0c37de7442045",
+      "sha256": "70526b367c8d9dcf3264c34ec52d29e89671e1c6e6648f27a532fecb22dde27f"
+    },
+    "vendor/composer/installers/src/Composer/Installers/EliasisInstaller.php": {
+      "md5": "2d1ed184e05ba31d28f7a356ccdd288d",
+      "sha256": "5dd5e231ed6aa689651a07b98f9ccc95e40f8e038370b694ac7b2515dff3f1ab"
+    },
+    "vendor/composer/installers/src/Composer/Installers/ExpressionEngineInstaller.php": {
+      "md5": "7aae6bc6e0b3d4f5edfa5ff475c36732",
+      "sha256": "6af0d3ce80113bb539e7d5e3ce5722ad1a89530cce2b0552f3a291ee0a089c71"
+    },
+    "vendor/composer/installers/src/Composer/Installers/EzPlatformInstaller.php": {
+      "md5": "b6c57fb10c4b95c4b488b416a1c86d4d",
+      "sha256": "2ed6af6af5b54fb3eb0c6347c9436f7126cef205183fe536842453d9670fef14"
+    },
+    "vendor/composer/installers/src/Composer/Installers/ForkCMSInstaller.php": {
+      "md5": "be40353ac3f993d5cbf653ff2945e3a5",
+      "sha256": "5936088b3c645198f4219101d74c502ad0a711168378d7292f4d50642f661866"
+    },
+    "vendor/composer/installers/src/Composer/Installers/FuelInstaller.php": {
+      "md5": "d85a7c612b415ad9d259dfb3d809fa89",
+      "sha256": "f0277b871506b085c57e2b4989e926affc42df7b8695388d5dd29c8160ab622b"
+    },
+    "vendor/composer/installers/src/Composer/Installers/FuelphpInstaller.php": {
+      "md5": "80defbb3f58c53612a1af0cffe9e55e3",
+      "sha256": "6e775952b236a151e56ffad03cf161c3135d2d47cf0b64d614b2f147dfcab6ca"
+    },
+    "vendor/composer/installers/src/Composer/Installers/GravInstaller.php": {
+      "md5": "11ffdaf6c760dbe6a079f90de9bdac41",
+      "sha256": "ded501087b5506ee047015b4ab72550c4837af814193c2abae1b1c92b22dfcd8"
+    },
+    "vendor/composer/installers/src/Composer/Installers/HuradInstaller.php": {
+      "md5": "ef1be3497301d39e9c1ada955bfb7e88",
+      "sha256": "dd9d3c31685d8144088ef562c2817911858aa234edc4464421497b90bdfaf54b"
+    },
+    "vendor/composer/installers/src/Composer/Installers/ImageCMSInstaller.php": {
+      "md5": "9d0b508824cbb6e7913d4795dfdef4a6",
+      "sha256": "1cd7354264dd13beb724d89f9b912a8870558607c6baec0f02974e3889dfa359"
+    },
+    "vendor/composer/installers/src/Composer/Installers/Installer.php": {
+      "md5": "eabf89c19860cfd5f84207c6d4be2591",
+      "sha256": "75c925a23258c64577be2b7b6b8f34cdad263e18476b7e3675ebb12a608f68da"
+    },
+    "vendor/composer/installers/src/Composer/Installers/ItopInstaller.php": {
+      "md5": "be985c070b36566601fcee7ac7b002ee",
+      "sha256": "34eeeb0ef2928f02a7b35d19b6b417b5f2d18cdc13aebc75b69faa742641d398"
+    },
+    "vendor/composer/installers/src/Composer/Installers/KanboardInstaller.php": {
+      "md5": "c06c54cfcbd3740d573cc443388b99d3",
+      "sha256": "cc040bfec999fbb1b992a0a6a72de5d7a6d5372339db8f3b8c1b09983037ca6a"
+    },
+    "vendor/composer/installers/src/Composer/Installers/KnownInstaller.php": {
+      "md5": "21e94742113f4950cd05baa77573bed9",
+      "sha256": "2c422d5c1d4e0bd242c7bdc3cc85bf5a451ffb9f442dac46c65b08130367876c"
+    },
+    "vendor/composer/installers/src/Composer/Installers/KodiCMSInstaller.php": {
+      "md5": "d2ec18b37976916ebe33339bb36eea08",
+      "sha256": "67cd650eeb1b46f17219adaaaca925d915115b4166897dcfb19e4b4ab9adac49"
+    },
+    "vendor/composer/installers/src/Composer/Installers/KohanaInstaller.php": {
+      "md5": "6737a1e0cf81e677745a16d2e8d415f3",
+      "sha256": "3309e6eaf9fc1f92c856d4208192940a826ae2e581b288e5448eeca72823270b"
+    },
+    "vendor/composer/installers/src/Composer/Installers/LanManagementSystemInstaller.php": {
+      "md5": "08996e774d7485f8ffc83738d43515bb",
+      "sha256": "af50086806526ebbabaad1afde46eb614367169f46769171a5a1fac22c2c0d56"
+    },
+    "vendor/composer/installers/src/Composer/Installers/LaravelInstaller.php": {
+      "md5": "a7b24e9110069b9bb05803e8234f5471",
+      "sha256": "7350709202c220ddb516879c331d5c9b30c38b4d96b687ac2707bbab54283be2"
+    },
+    "vendor/composer/installers/src/Composer/Installers/LavaLiteInstaller.php": {
+      "md5": "bbaed90a7f2cef279f13b67a65540bca",
+      "sha256": "8bc4aa8181459834359ed96edd8e2ea7895437969b006eb748a79c03637d763a"
+    },
+    "vendor/composer/installers/src/Composer/Installers/LithiumInstaller.php": {
+      "md5": "00bc599b6d6cc04bfe83049291842632",
+      "sha256": "7a7e380db378745b175c821e1be9de0ec5aa4967b07b65cb7307c3fb12b02544"
+    },
+    "vendor/composer/installers/src/Composer/Installers/MagentoInstaller.php": {
+      "md5": "c21634640ca425cfeb1a266505a6de1e",
+      "sha256": "232dfb5fb8f0595b7e5845059c4f68593caeb5b90baa42bbd0afa286ad192c3f"
+    },
+    "vendor/composer/installers/src/Composer/Installers/MajimaInstaller.php": {
+      "md5": "73dfe3cc1b96071c578ebf4795490c44",
+      "sha256": "a95f81a4a0a54e1cc8f7c229b8bf37ff06791ca6f595ff311766034778655bce"
+    },
+    "vendor/composer/installers/src/Composer/Installers/MakoInstaller.php": {
+      "md5": "af11fed9df3fe07c6a460f52a9da7012",
+      "sha256": "1700cf0eb8a8ad99ca13e4eb68dff88a41dbe70f317ea743db92c15e8465041f"
+    },
+    "vendor/composer/installers/src/Composer/Installers/MantisBTInstaller.php": {
+      "md5": "c84baaee66226e1a349f681c2149bfa5",
+      "sha256": "0304d23d2f4db4899afe27c210f48334920810bfb4e460534eac714bfb40b76c"
+    },
+    "vendor/composer/installers/src/Composer/Installers/MatomoInstaller.php": {
+      "md5": "855e3ab071235d1d310ec5aa9d270d9d",
+      "sha256": "551ee2183ab950f7801fbb4565c626d64fa49daf3328567acd5a22fefd6d8b21"
+    },
+    "vendor/composer/installers/src/Composer/Installers/MauticInstaller.php": {
+      "md5": "fc5b83b2f016f3c2c9cf2f946460160e",
+      "sha256": "d434522c2557703f22ac464415ea2a2e7f86a443879c0d9da40ebd181edafce1"
+    },
+    "vendor/composer/installers/src/Composer/Installers/MayaInstaller.php": {
+      "md5": "ee3e35fb879610207922ed717ebc3b5a",
+      "sha256": "f216af44f3843997a9d23a09ba6524608d2b913c42088eccbe1ea8ab451dee3c"
+    },
+    "vendor/composer/installers/src/Composer/Installers/MediaWikiInstaller.php": {
+      "md5": "b8ba7bcf938c24cc0f2a0bf5ad76ef76",
+      "sha256": "2bc6cdce8d08fa5a22d50cbaa65854c60544ca04844a961a05e4fad7d521f258"
+    },
+    "vendor/composer/installers/src/Composer/Installers/MiaoxingInstaller.php": {
+      "md5": "c41f1aec9c44a1a591a33e5ed52e252d",
+      "sha256": "5152e44b2220d77743f96b2d8895c2cd61bacdcfafc301f1e3e7cfd021119a16"
+    },
+    "vendor/composer/installers/src/Composer/Installers/MicroweberInstaller.php": {
+      "md5": "6a8420fff7979ee74d76741dbf264abd",
+      "sha256": "e46584abd1bdd71fee7077ea5c32810858cd1c6bf485b4b97dff40115e6be8dc"
+    },
+    "vendor/composer/installers/src/Composer/Installers/MODULEWorkInstaller.php": {
+      "md5": "e32298ed6a1b0064ffe3b74b6c740111",
+      "sha256": "1d906a2971db80af3c0ffb2d4f38c0bca3d46b09071c9cc76f041128c33a16a1"
+    },
+    "vendor/composer/installers/src/Composer/Installers/MODXEvoInstaller.php": {
+      "md5": "2eba9935892ed57bbaf4f5b3661ebfb4",
+      "sha256": "cb9c2c0fc1b46e09357bb47b550488141c8af1d481012008e5e68dc05647efd4"
+    },
+    "vendor/composer/installers/src/Composer/Installers/ModxInstaller.php": {
+      "md5": "e9b1f8c76a38b020b033bd671d63fcd5",
+      "sha256": "c824e28d78ed32236f940807065fb818dbcb723d7da266d9123dc40fae672a4c"
+    },
+    "vendor/composer/installers/src/Composer/Installers/MoodleInstaller.php": {
+      "md5": "beb3e484504fd99d33fcb3028a4289a9",
+      "sha256": "c0b61033a8c1bb02d39451efe5a90dc70ad70b0c22203803d035eb0109ee3b34"
+    },
+    "vendor/composer/installers/src/Composer/Installers/OctoberInstaller.php": {
+      "md5": "9d5df3c941981471871006942653c060",
+      "sha256": "e780126acb9e5462d9b17b29b5e088cc893148c5557f20f8925ccd2bd925bb04"
+    },
+    "vendor/composer/installers/src/Composer/Installers/OntoWikiInstaller.php": {
+      "md5": "e9fae5306daa9a8c15a3dd514332ae29",
+      "sha256": "55fba897efa5d173e7238c18c2065eeb8baf003e9a5fc13f4eabdc2fcb49c201"
+    },
+    "vendor/composer/installers/src/Composer/Installers/OsclassInstaller.php": {
+      "md5": "df8d228e2bed1a8bd1ebac475abbc3dc",
+      "sha256": "123a73418adfb0a28c6ed815dccb93b1cf654d12e836f886b57e860e32f24175"
+    },
+    "vendor/composer/installers/src/Composer/Installers/OxidInstaller.php": {
+      "md5": "e49aba886f8ca9e9c5c69aeb8c219999",
+      "sha256": "017b60adcdbf4ad61cbac075099614b86b5ccd3f03e044eabfd2da2a3f0e57d7"
+    },
+    "vendor/composer/installers/src/Composer/Installers/PantheonInstaller.php": {
+      "md5": "09ceb4d1b533f86cee5dd80da5fc45ef",
+      "sha256": "6618fac3c475711a7d3e2c2ccd03a58e1b56e4a0aa68b3676fdb1979fe0f40b8"
+    },
+    "vendor/composer/installers/src/Composer/Installers/PhiftyInstaller.php": {
+      "md5": "8a5d28badff1c1c0a1029534937a3a87",
+      "sha256": "2370554cd4b557dcf8dd128c8f0729ae3034105f7fd54f9485c638e1cb1d95ec"
+    },
+    "vendor/composer/installers/src/Composer/Installers/PhpBBInstaller.php": {
+      "md5": "44929245683aaa086744b9b0c006a3f7",
+      "sha256": "1f64c64262735c4756d129256ab34ac3651012ee3657897f47f6d6f95cb01191"
+    },
+    "vendor/composer/installers/src/Composer/Installers/PiwikInstaller.php": {
+      "md5": "da42810b5219620f681211d878704c36",
+      "sha256": "e93aa1f905564debeb1aca242f5a4585431fb1319d309ae8c79592e57e70c5ec"
+    },
+    "vendor/composer/installers/src/Composer/Installers/PlentymarketsInstaller.php": {
+      "md5": "325f2ee376f16df5c6faf049e88d1a10",
+      "sha256": "c265f51e0f69fb345d82606adf8192e53c0e6c6906536b732711b820043b56cb"
+    },
+    "vendor/composer/installers/src/Composer/Installers/Plugin.php": {
+      "md5": "f949b2d74b80ac301635a8f3c6896e0c",
+      "sha256": "afbf3280c23b0ca81834b6f9ee830c23fed074ef8a6a598d8fa975e1663a5cb1"
+    },
+    "vendor/composer/installers/src/Composer/Installers/PortoInstaller.php": {
+      "md5": "8803e3c343616a1aa1b51420a5545505",
+      "sha256": "82ef29e1adf23f5abb37071ba3a970808840dfc3084c3b580d08d98c3116173c"
+    },
+    "vendor/composer/installers/src/Composer/Installers/PPIInstaller.php": {
+      "md5": "2034ac998c10c399a27e46d0c8341758",
+      "sha256": "9c30449d94ee45b87885a13f92322ace8ca595007c4550c4fdc3532db978c58d"
+    },
+    "vendor/composer/installers/src/Composer/Installers/PrestashopInstaller.php": {
+      "md5": "f7826d8498c0f3a41c648f5a5b3f731f",
+      "sha256": "c878507c09118c0c67e215ca9e09a49b26ce2473601839f8c2946d291bb2ada6"
+    },
+    "vendor/composer/installers/src/Composer/Installers/ProcessWireInstaller.php": {
+      "md5": "74ef99879f6fa1142511e46adba65bdf",
+      "sha256": "63a4a85f74617f8afb558a75fd8ee9c00de5811441afd8f787b8f388f8936faf"
+    },
+    "vendor/composer/installers/src/Composer/Installers/PuppetInstaller.php": {
+      "md5": "c1f5d42fa94a4c6085bbaf2454a737d3",
+      "sha256": "6d552a808a39319d10b5b353f834ddec02f52ebdda074cd8f54b782c7c0c884b"
+    },
+    "vendor/composer/installers/src/Composer/Installers/PxcmsInstaller.php": {
+      "md5": "166072e16edb8e58ea4313afde09c154",
+      "sha256": "720a6070b75e7f9eb25f0ae11954f69ecfb3e2c2532f0ddfffa11343f117975b"
+    },
+    "vendor/composer/installers/src/Composer/Installers/RadPHPInstaller.php": {
+      "md5": "e0262a16203bb0f1a6996da251168f1d",
+      "sha256": "79ea277e083d9f30a8342ffe4301c622fe7252cb9a09d15a7b1c1fb2d4362c5e"
+    },
+    "vendor/composer/installers/src/Composer/Installers/Redaxo5Installer.php": {
+      "md5": "648b2552c3cfae8942b5f729e9931d88",
+      "sha256": "104d11002996f762dfde477a99b7312339b7561d55983c1be5df2a21e5931a98"
+    },
+    "vendor/composer/installers/src/Composer/Installers/RedaxoInstaller.php": {
+      "md5": "dcd647d5e0adb39b61a223c7d90aa221",
+      "sha256": "6cf18c260e8fff588270699a40bffc6d42b93a85cb513e75ec8d3765c091824e"
+    },
+    "vendor/composer/installers/src/Composer/Installers/ReIndexInstaller.php": {
+      "md5": "5bc1d8b339f0367e00ba817c069d8071",
+      "sha256": "6d37928f457f680e47ae621171d69498164106ae6c7282f7c6aec9b48d9a4428"
+    },
+    "vendor/composer/installers/src/Composer/Installers/RoundcubeInstaller.php": {
+      "md5": "020edd6683ca01f8e03a69a487fc8cfc",
+      "sha256": "79f08d2c19b14e491115fd9735e336abc002ef15a13af2e152ada3854e0c0a5c"
+    },
+    "vendor/composer/installers/src/Composer/Installers/ShopwareInstaller.php": {
+      "md5": "2d6d77df6d7bd174475386c34a33cd52",
+      "sha256": "8228179074b49f5adb0625f9b0bd07427b186102c63cae45161dd95507a29842"
+    },
+    "vendor/composer/installers/src/Composer/Installers/SilverStripeInstaller.php": {
+      "md5": "7e09c4a2e0f860abf6a82dd6a88b3ac3",
+      "sha256": "e6179c1ed010dff81d99c3384299ac894e9be06dd80d1ee4403bc2f6a5e8612f"
+    },
+    "vendor/composer/installers/src/Composer/Installers/SiteDirectInstaller.php": {
+      "md5": "5df14c17a99b5037c971b1f55c9d861a",
+      "sha256": "b3dccab27a21c05af087a804b533f8a68ad9b35aa7ee580f7760e77883980785"
+    },
+    "vendor/composer/installers/src/Composer/Installers/SMFInstaller.php": {
+      "md5": "c4571eb4c8e255a001e8a7bb8e9a8949",
+      "sha256": "11a02946a0a5a488ef424d4514b0dd04bbff97cbda8e9919601d6d5e7fa3be62"
+    },
+    "vendor/composer/installers/src/Composer/Installers/StarbugInstaller.php": {
+      "md5": "ce07f9fcaabf1227a0da76f6a2720244",
+      "sha256": "7ea36ec04458527812edbde861f5dc52b75df947afced027fddca7c587e5e181"
+    },
+    "vendor/composer/installers/src/Composer/Installers/SyDESInstaller.php": {
+      "md5": "f725d4962cf6943dba266303ab3ec4d8",
+      "sha256": "4043df1f87a1117e966c74c689a2d2cf6082820743edee830647a1e0e7fb84a0"
+    },
+    "vendor/composer/installers/src/Composer/Installers/SyliusInstaller.php": {
+      "md5": "958949540fecddc01fa82ee679405942",
+      "sha256": "a7265536a4911a67a3f4f4fae3dee81002c0ac757fab63cc1499eec3281bb43f"
+    },
+    "vendor/composer/installers/src/Composer/Installers/TaoInstaller.php": {
+      "md5": "3d89a66f5f427308e90a9db3de958aa6",
+      "sha256": "b9f8352ca667182a075f2ce9e966ff640fb73d8d5d4ff0aae3047faf89a76ec6"
+    },
+    "vendor/composer/installers/src/Composer/Installers/TastyIgniterInstaller.php": {
+      "md5": "c480b5b7622414d93c4a45f422387f42",
+      "sha256": "3ff4767c038ff0e713e0135c30649defeadb571b6cfa3e9fbe204be4bbc003be"
+    },
+    "vendor/composer/installers/src/Composer/Installers/TheliaInstaller.php": {
+      "md5": "6a6cfbdbdb807741fd185f39dfc16168",
+      "sha256": "59e1d8259c7a11d15d983c86457b627de963cb1224593ec171d259f6fd0e3551"
+    },
+    "vendor/composer/installers/src/Composer/Installers/TuskInstaller.php": {
+      "md5": "b18f2185ef4b8b1acaf2fdd3a1433f9e",
+      "sha256": "43fd5aa13082271edc79a73f408166c63dbddaacb3b63c03833614e19c7c1cc0"
+    },
+    "vendor/composer/installers/src/Composer/Installers/UserFrostingInstaller.php": {
+      "md5": "13063ed5386691b25d4b1607c8cadf64",
+      "sha256": "989aa5247e3e69452bea790f21a31a417ae93739e1de1e4cee461add5ba64790"
+    },
+    "vendor/composer/installers/src/Composer/Installers/VanillaInstaller.php": {
+      "md5": "6b138fa4385739199fd09c942f001322",
+      "sha256": "c60681361e886924fc61bba5718c7c72ec69345363717df5ddf7758263fe88a8"
+    },
+    "vendor/composer/installers/src/Composer/Installers/VgmcpInstaller.php": {
+      "md5": "94f4d06525b6d886a1026bbe4ba3e1c3",
+      "sha256": "1041e2a09de07d4080852612a26a98dcd7c9e5db8891c05a38677642f6c82b52"
+    },
+    "vendor/composer/installers/src/Composer/Installers/WHMCSInstaller.php": {
+      "md5": "e85a71dd1ca2467b9096ff50446d8b7b",
+      "sha256": "0a3de9ad2a080fb68020dc52a587d1738cb9fbeb8c142c0c39d81e18787795ef"
+    },
+    "vendor/composer/installers/src/Composer/Installers/WinterInstaller.php": {
+      "md5": "c4bdf3e8ffe7fddcf4fdcf835e63508e",
+      "sha256": "a59d59599f75a71b0db16a9548a02258ad8e64f49f13359dfc5f823beb4ff0b1"
+    },
+    "vendor/composer/installers/src/Composer/Installers/WolfCMSInstaller.php": {
+      "md5": "cca8191d670d7065cb66407e812a49db",
+      "sha256": "58a3611854034160ec531da91f926df8d9ec1dffa656c15e95fb9ba37c46eb0d"
+    },
+    "vendor/composer/installers/src/Composer/Installers/WordPressInstaller.php": {
+      "md5": "b730ced09698ebaaa4e2f14050e18ca9",
+      "sha256": "7ab8831f385b1501d8c2851424156e927c2ebaa4ce2c3dc02ca4e9b77560383e"
+    },
+    "vendor/composer/installers/src/Composer/Installers/YawikInstaller.php": {
+      "md5": "f3a992606b9255d34b651395518c9e7e",
+      "sha256": "37122ec3cf2ee4743d033e9ddcf4a1a5d49001bdb674a64b3c41a92bdc670108"
+    },
+    "vendor/composer/installers/src/Composer/Installers/ZendInstaller.php": {
+      "md5": "4e41f4feb518549070472d416ead219c",
+      "sha256": "1b31a38be8b83b86ef33802d4d0cd66137112d26444eeeb80942bf29f9e0fedc"
+    },
+    "vendor/composer/installers/src/Composer/Installers/ZikulaInstaller.php": {
+      "md5": "ef5c60785cc296f1266dda5f95e9689a",
+      "sha256": "e7c3f108ca24fb41bdd82af1d48803526b8968f9216589311dfadae5c1ac6d3f"
+    }
+  }
+}
