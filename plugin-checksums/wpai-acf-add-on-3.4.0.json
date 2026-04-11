@@ -1,0 +1,806 @@
+{
+  "plugin": "wpai-acf-add-on",
+  "version": "3.4.0",
+  "files": {
+    ".DS_Store": {
+      "md5": "30e11d0f55b0ec8fa931ef9acfd794b1",
+      "sha256": "b5f079c61d6ccbe439a1b7c1df2cba9878631a8506195392f95c773dd1ba3162"
+    },
+    ".gitignore": {
+      "md5": "5f726127b79e1ce2db85ff5365821373",
+      "sha256": "c8ff93ff5a9942406fcab52c60206f1db1c87818a2f642ee30edc9582a65f968"
+    },
+    "composer.json": {
+      "md5": "ebcfbcaa0396afb9e175e3f4b6f15e46",
+      "sha256": "fe3689fb95550ad63fc6e95813c60f94d3a745ff39d96df00507fbb7a559a3ef"
+    },
+    "composer.lock": {
+      "md5": "cc88c0d5189106dad87b930b2af5c2e3",
+      "sha256": "066acac998d22e53676b40c1c2bf377a8c7cbc6dfcaea1a9059a25a66aae5887"
+    },
+    "schema.php": {
+      "md5": "7848b92182e1d42b5facf469ad9dd916",
+      "sha256": "a97e2ca83bf7f0b57e7aec1134b0f87e76bb195682415c0b88ae34b531278ba1"
+    },
+    "wpai-acf-add-on.php": {
+      "md5": "52baebbc0d5c16c70e19cf2dd218450a",
+      "sha256": "b7035f89ad99d61ed561cba651e86edf1b52f34d4edaf9f42470a5ff2688dfff"
+    },
+    "actions/admin_notices.php": {
+      "md5": "7db54b2410a35295efaa285afd259c92",
+      "sha256": "059caed9024feec31215f1738cf1d0cd177821a00f7c8316196cb3d6e1fa61ce"
+    },
+    "actions/pmxi_extend_options_custom_fields.php": {
+      "md5": "ec4cab2d2f2e0cf413f247e8372c8384",
+      "sha256": "6ede004923d22be41175535933f53684ddb265ceb5b83260009e34bf74f74983"
+    },
+    "actions/pmxi_reimport.php": {
+      "md5": "6d763461a873fee5de18bd9c7fc414e7",
+      "sha256": "0696fe403d0f9d7ce0cb6dc3d3cd322bcd031611a7ff49d32095d94d82c90a45"
+    },
+    "actions/pmxi_saved_post.php": {
+      "md5": "63a38104f2343b0c95e5324d6ea7b6bb",
+      "sha256": "10b334e869771bdaa2095d3d1e8b34c6d574761925e94634839b7372fd8f4174"
+    },
+    "actions/wp_ajax_get_acf.php": {
+      "md5": "d6812fa5dc0a3b6f80bd695f2f8975ec",
+      "sha256": "8d78f63cdfd40be2d72aabe54202649b7857dd9e4674708a4253bc003080a2a1"
+    },
+    "classes/compatibility.php": {
+      "md5": "b1590443706cf07f6ed713dceec33f4d",
+      "sha256": "b75452795d26f654de2275b95696a863f045c3db822e02ae257f5863d5ec95e1"
+    },
+    "classes/config.php": {
+      "md5": "79584a6367bfc61c6f2b2cdb6825e88d",
+      "sha256": "3f9de9e9792fd86aef3e5be25bb84268ad37324aa46414aa84f338c024850ed2"
+    },
+    "classes/helper.php": {
+      "md5": "e54c8cc8824d11c1be980f4e70bcdea4",
+      "sha256": "9051c60c2f56285a47d13e0d5a73411b1b65ee100856a65e50e07e93df65dcb6"
+    },
+    "classes/input.php": {
+      "md5": "501f97fb4d2d254b66bd550b2869822c",
+      "sha256": "e96443bab59510143875113b4d51410ea3472cc9c9bb916e2e982da77a0a1656"
+    },
+    "classes/updater.php": {
+      "md5": "f1f5d3d56c45acdd6f1a72d18225e097",
+      "sha256": "2ad02431ac3a145c88dea9f23f9b7f841b87c61b30ad5a456bf3c8313ab492b9"
+    },
+    "config/options.php": {
+      "md5": "09b1e52500b160855376ed9e594ac661",
+      "sha256": "9b0184274bce2e8d2f51aa99e695e1bc222df4780595626e84dc1b5537345d05"
+    },
+    "controllers/controller.php": {
+      "md5": "1be5733512d4d2015f0588cc1cad8382",
+      "sha256": "99e42b9ac81d2253b5a21ad0bfbb0520406e052d37ead7110fbf085f8e2abb3e"
+    },
+    "controllers/admin/import.php": {
+      "md5": "0eeeefff07bd9022cc0b9f5ca2d028b4",
+      "sha256": "b13737956fe9ad90b583fc623c9b076f38fcfb25e9bba1d450fbd4269eaa1ba0"
+    },
+    "controllers/controller/admin.php": {
+      "md5": "39a81c97b25024ac2b722e09f7f7b420",
+      "sha256": "684c9ab873e7761232fe909ffab3494837e404ee07e7666077e7d8e61cab43a0"
+    },
+    "filters/pmxi_custom_field_to_delete.php": {
+      "md5": "637720006eb09fb723fa9f11186876f0",
+      "sha256": "cbed58483ea530ad70150cfe6c5cf9ce3b78b3223f15c7f2f71b4277601e79c1"
+    },
+    "filters/pmxi_custom_field_to_update.php": {
+      "md5": "f5123f5aab93a2c305cecde57a7d7218",
+      "sha256": "b9261d50ba98ae34f5afddbcca89d090fb0ab455d3d183db7842db441b9ca47d"
+    },
+    "filters/pmxi_custom_types.php": {
+      "md5": "447721642b949daffe988e95597d2da9",
+      "sha256": "e364cdc3ebd8bc6c7833f622e9a2477a0f144c127d6ce80ac1bb894ea5dd4cba"
+    },
+    "filters/pmxi_save_options.php": {
+      "md5": "848177c69011517c63c9ecd3954ee8dc",
+      "sha256": "e7b4e97309a8a0762589bc746ca2501602571f9978a3923e614c149ce3a4adb2"
+    },
+    "helpers/functions.php": {
+      "md5": "0caafe4daa0e5e29ff7b1c50b68ed403",
+      "sha256": "2429c8e54829ddc65b47b209fe5bcb292c68b06b17aeffabe214ccb4ba6f349c"
+    },
+    "helpers/pmai_is_acf_update_allowed.php": {
+      "md5": "6c0f6e30f89740acdc5587bc33f9306e",
+      "sha256": "fd797a46318cc1fef8111bb0d33f1a61ec668beb5938a4e4054d88db1b7e1f73"
+    },
+    "i18n/languages/en_US.mo": {
+      "md5": "2a627b52e27400a8a345d85494e60ab0",
+      "sha256": "2196b3fe28f82d8ac58244d9854deb13a3c8a110c604e4f7187f17bede97f5c6"
+    },
+    "i18n/languages/en_US.po": {
+      "md5": "f71bbb8d669ec35e2e7ea49679812069",
+      "sha256": "397e374ef20aae988ff960478ae4237a0167d9e24d0050f7f0a075554c24b80c"
+    },
+    "i18n/languages/wp_all_import_acf_add_on-ja.mo": {
+      "md5": "f79b074a07c62e166c5ec50ac5f03a85",
+      "sha256": "8d40be324706d105539cd3f2d97b39d3a54ba28555cbe9ae051758a9285882b0"
+    },
+    "i18n/languages/wp_all_import_acf_add_on-ja.po": {
+      "md5": "2b28fcbcca3720c12546087b8c94a81f",
+      "sha256": "e2cd22fb0dff25bfb77c38f764b5da37b2b8480b04f334c42da5da3b7f8f77d2"
+    },
+    "i18n/languages/wp_all_import_acf_add_on.mo": {
+      "md5": "e4c25b407a57d2e7ce943e3105fb31dd",
+      "sha256": "383e7ff3e261afa17d32649ad14a2a586f86e99f34cdc2f217b8b046ddebfd46"
+    },
+    "i18n/languages/wp_all_import_acf_add_on.pot": {
+      "md5": "243a614b6fe3391503c2d4d90ea3b9dc",
+      "sha256": "f07ebc3459eab0af9b32ebd96b91c6a775cd67b5f0120a3a09b9ca7d8c4c116e"
+    },
+    "models/model.php": {
+      "md5": "18f23442030114493870aa19dbeff3e0",
+      "sha256": "f60e7155d3923c74a0c25a13076b5d27df322feae723191ce1d3c982fa72fb8a"
+    },
+    "models/import/list.php": {
+      "md5": "96a90a4d34b9336a79a6262c0ac60bc1",
+      "sha256": "0bbe02cdc433c4894e4981d37902ea2d9f5190e6dd864b3e95f18ee457449dfc"
+    },
+    "models/import/record.php": {
+      "md5": "41e875c0ff6b8d392fc272d289083262",
+      "sha256": "03816d91d81f57400361cd71ccf395a0a129cb2e57c29eca7dce91cfbeb0904e"
+    },
+    "models/model/list.php": {
+      "md5": "7d155082cfc056a4febe1bf8cd341b63",
+      "sha256": "ccd6246ade716e06a66e42053ead1758412b519cba75ee7724a4c529b44ff0d4"
+    },
+    "models/model/record.php": {
+      "md5": "f85f9f2871460ba6a366fae8bb1bb674",
+      "sha256": "2219bd1959125e8c5f5e34882183ffd6ffdeec7f85cf99f232d97e32de5ce7b1"
+    },
+    "src/ACFService.php": {
+      "md5": "f86d452352e8924e73dace0d324ddb6a",
+      "sha256": "ebbc11ce3c9078bca64df083884e9150f6215ab4ad903cc907bfdbaf25f21f24"
+    },
+    "src/fields/Field.php": {
+      "md5": "be1c51978744971aa7476b0d1362b0b6",
+      "sha256": "084e2432d2ce127373c64834d1fc49e76b4349527affb12d174cd97ce75804f1"
+    },
+    "src/fields/FieldFactory.php": {
+      "md5": "f01b74bcd6e204ecf18a203b343528fd",
+      "sha256": "cde7c6edc753b8faec006e011f8dfe36c167ac8127925a7d99cf2678bcf302bf"
+    },
+    "src/fields/FieldInterface.php": {
+      "md5": "e99fdb04c83708e0bd12a5d55f11315e",
+      "sha256": "6b4bcb8d3478e974578d4565d4a002dc83aae86dced7a246b55486b74678d7c3"
+    },
+    "src/fields/acf/FieldAcfCf7.php": {
+      "md5": "2c54eb019e893be1288a40f9df22a67c",
+      "sha256": "41f98f5fcbc41c828489ba2ee02ed78a4e8b4cd95c83ed89938a3d5fd7e8399c"
+    },
+    "src/fields/acf/FieldColorPicker.php": {
+      "md5": "b6f098788460aa0f5fced3d4fa81f6fa",
+      "sha256": "e12e5523a603ab7198e837de4f3d4d50fcf35a055cebf982fdeaf2ea6df7e028"
+    },
+    "src/fields/acf/FieldCountry.php": {
+      "md5": "dc8ae12a65c07e3165366e9611b4a5f7",
+      "sha256": "221cb526ab9ab5de809c842cdf293708c0d15167330bb2b115ef1734ae419f1e"
+    },
+    "src/fields/acf/FieldDatePicker.php": {
+      "md5": "107f692a83734f5bc16a906c51a17194",
+      "sha256": "5f4ea7bc33a0d4322e6d4225926be7a147f8ea643153abc95ddba696bd01673e"
+    },
+    "src/fields/acf/FieldDateTimePicker.php": {
+      "md5": "ce5bee9b96386508d519d7135f7fa45c",
+      "sha256": "9d8f40abf8f42a2d7b05d4295570bc0aa4d9f4afe6ee06ceafb6ce3d7eb1ca84"
+    },
+    "src/fields/acf/FieldEmail.php": {
+      "md5": "17e62fb14408d295181e73e6843d901e",
+      "sha256": "6d8dcb23c49a265e555970ae60793ac7f809a71f99f19bc9a782345f0ace61f6"
+    },
+    "src/fields/acf/FieldEmpty.php": {
+      "md5": "2efd90c4af7b926f7234baca5d141762",
+      "sha256": "ea9de52a0951919ceb1dbfe9840166c9bde4a4241e837695a472c71f97bab0a9"
+    },
+    "src/fields/acf/FieldFile.php": {
+      "md5": "4b54f8107e8b1e8bf1661ef6a44fb23f",
+      "sha256": "135f0bac7376bed9ac8d60a464dbbd02f56eb018adc62c59f07aa6caabb26d62"
+    },
+    "src/fields/acf/FieldFlexibleContent.php": {
+      "md5": "3cd1bd9492fede300dab78760bbe5930",
+      "sha256": "aba2bdd5068cb1b6e5f1a6e8e3996ee8f1d4b16bd86fadb6de992c4a3589857f"
+    },
+    "src/fields/acf/FieldFontAwesome.php": {
+      "md5": "4905e62e06e0f29b2314d283af06a14a",
+      "sha256": "668623dece44ce4a0d6906e9fabaaa444ead975efd92f5c76ab44ec734f0360e"
+    },
+    "src/fields/acf/FieldGallery.php": {
+      "md5": "923d3d38819f11e2ec939c2db88552d3",
+      "sha256": "0033923e277674698338d8df73d85320044cd09f3514fff2b99635929d13934e"
+    },
+    "src/fields/acf/FieldGoogleMap.php": {
+      "md5": "24a76def28f824af4d86acb64338372d",
+      "sha256": "2bd6f7ae8c54d09bfc71e19a8af67eeb7dae85f8c4c90a31c77e9285afb8df18"
+    },
+    "src/fields/acf/FieldGoogleMapExtended.php": {
+      "md5": "7a82cfcd744a3f7c1dc65be6e8918e6e",
+      "sha256": "14b1c9394e7a7505e5180c89e7b320ae5ad37c08833d45848204ef24506a7bfa"
+    },
+    "src/fields/acf/FieldGravityFormsField.php": {
+      "md5": "7cfd60999e2c0910782c4941a0716414",
+      "sha256": "066eed9145c0708beda48a4d4bff8b5cd1be102e1d97cc6ced87aab754a88996"
+    },
+    "src/fields/acf/FieldImage.php": {
+      "md5": "bffdc69263c5b33ffb8664ccc422892b",
+      "sha256": "3d98655463befede7bcb8fcb31a226523ecc06b32965307beafac031a3905793"
+    },
+    "src/fields/acf/FieldImageAspectRatioCrop.php": {
+      "md5": "88a4a37369545b1583af2d5d2fdfb583",
+      "sha256": "4c6e8bd5afda0ea13fbf3f775f60f86f639d097a5d72ebd0c6e28bb9b7fb616f"
+    },
+    "src/fields/acf/FieldImageCrop.php": {
+      "md5": "4496f2c4997da9311ab988f7868a0cdc",
+      "sha256": "dcded8d36e28aaa23c4b19e5885b1ab8faa860100df0ffbfdddf9a60d7ea83ea"
+    },
+    "src/fields/acf/FieldLimiter.php": {
+      "md5": "3aea2109997ad8d47b45e131dc3c5e80",
+      "sha256": "20dc55edeac600f07e761fee65dae7a2e39343d15c180bebba592fc8d5c5e2fe"
+    },
+    "src/fields/acf/FieldLink.php": {
+      "md5": "92711ff7e7c28f743c90606e6e9b0443",
+      "sha256": "7a813ec18da142b480d1ab3abbb2bd4dfe263fd88548dc1be93318dff472d525"
+    },
+    "src/fields/acf/FieldLocationField.php": {
+      "md5": "80150e32e29140d0a584802e8462ef3b",
+      "sha256": "d631d8d6a233a9c371f2a0134635485ed4f70f2027cf2ec5b686f174eedf6fa1"
+    },
+    "src/fields/acf/FieldNotSupported.php": {
+      "md5": "7f42366d79e1beb11c57eb09c05538ea",
+      "sha256": "756406d689b43c8d24e51eabae5522524e089aa41a1fe0761d7ca8aafc61945f"
+    },
+    "src/fields/acf/FieldNumber.php": {
+      "md5": "b3285ea1d6c3b97e3317525d4ae5c41e",
+      "sha256": "738387e2c181f4e265f237a87dc9420e150d724bb95fe06df259e113c146fd40"
+    },
+    "src/fields/acf/FieldOembed.php": {
+      "md5": "5601a8884f5fb0974d78d0440c4d64dc",
+      "sha256": "ba2f53761e664b83bdb4534f04eeee746e4305efa4353e3cd475a6ec99680b29"
+    },
+    "src/fields/acf/FieldPageLink.php": {
+      "md5": "f9a2e9d93248be1d2845042e9f02f850",
+      "sha256": "49dcbdfa753344cf3b3f6e5cdc205ea2e7bb698058caa770e876fc69c4c6371f"
+    },
+    "src/fields/acf/FieldPassword.php": {
+      "md5": "a66b5d173271b9e859af1afc7fb4b4d0",
+      "sha256": "b2b9694fe05a480fc7e621370949e4d35f01b1265260d876e953d4ee82f69f07"
+    },
+    "src/fields/acf/FieldPaypalItem.php": {
+      "md5": "faa111125c272f5b7871f0565f92b35d",
+      "sha256": "e0e0eddb2b30a91c7370cdc6bb2c1373ffdcfe585142d22ea7f4d4e9db188524"
+    },
+    "src/fields/acf/FieldPostObject.php": {
+      "md5": "d91644f28750d1851a8f3c14305e2ad9",
+      "sha256": "9feb55ad1bfc21d3027c7f1982fdd9baf073c377a5dcbfa11acdc7afb8ddc6c3"
+    },
+    "src/fields/acf/FieldRange.php": {
+      "md5": "e84a3fbee168648bb24771a067d27834",
+      "sha256": "ba20cc45a73dd58c596ee49de5987592a25541dc78dcf0ce472a3f065a9cd07c"
+    },
+    "src/fields/acf/FieldRelationship.php": {
+      "md5": "1f92f12fa5d01324036dce7781d67c09",
+      "sha256": "692bce85b406dada24230314fa5e27aae9fe4d924773bfc71997281da8f9331f"
+    },
+    "src/fields/acf/FieldStarRating.php": {
+      "md5": "cf3d6a6fdc0bb9a0eb935e93eb69ffb0",
+      "sha256": "29aa484eedd6109ada034ea94e6228508127f987adce435b42223275b5d7a8c3"
+    },
+    "src/fields/acf/FieldTable.php": {
+      "md5": "6f6dfaf2edd8c37e66f5c3df3d50bd56",
+      "sha256": "25d106f08fc3552604e7d9de36a03472ec142a4f510d075c63fc159138d5db37"
+    },
+    "src/fields/acf/FieldTaxonomy.php": {
+      "md5": "2c09f189f65f88b2e6157104de006c84",
+      "sha256": "c3e5bd68947632eb906e364efbad393fb81b61dc9bdf579dec78acce563fbf1e"
+    },
+    "src/fields/acf/FieldText.php": {
+      "md5": "7657841a7f1de65566425476933e01f6",
+      "sha256": "fcde9cb5797b7a3f54383b6609566db64cc4d6614ec9b3538f00938a5862bc26"
+    },
+    "src/fields/acf/FieldTextarea.php": {
+      "md5": "86f92c2409c6fc397d1513c5f982250a",
+      "sha256": "7303c515397977a3a3c9acfa15da65028332a15f7797d299bf6d63447d16e4a5"
+    },
+    "src/fields/acf/FieldTimePicker.php": {
+      "md5": "b8c2b5c0fad33e1f905af3390d4b0059",
+      "sha256": "7b2dc0c59d89aaca6e44c63e0c83de19c777a7bee788213948cd4b6379189028"
+    },
+    "src/fields/acf/FieldUrl.php": {
+      "md5": "d711a61a2437caabf8b1e9260561a508",
+      "sha256": "c0fd7588bd7bd6769019556bf4886339247784d5b7c863cea463312908355b03"
+    },
+    "src/fields/acf/FieldUser.php": {
+      "md5": "1d4b4936d0fdfdbc11484b71fd89240b",
+      "sha256": "df01757099a032e6dba402f23e51a169b5e898da14ac10c1072e00322bd1401d"
+    },
+    "src/fields/acf/FieldValidatedField.php": {
+      "md5": "b3d81939f46eb05784b69c02dca0b472",
+      "sha256": "6c7034819d43cb8956dd72c164a520753a37caf084af6ff34663f1abdaa081e6"
+    },
+    "src/fields/acf/FieldVimeo.php": {
+      "md5": "47d0e9a155e5bf4c7433fb642866fd50",
+      "sha256": "a15643e25bba5ce9890d3dc7ea6f4f25b9bb203f03ca8b36020768ec45db4ff3"
+    },
+    "src/fields/acf/FieldWpWysiwyg.php": {
+      "md5": "66919539ab9a42a33de4526a4347b8be",
+      "sha256": "d069f34383653a277abddda115c23cf566d161b39468902ecc144a916a482f12"
+    },
+    "src/fields/acf/FieldWysiwyg.php": {
+      "md5": "3311e937a0acedc10ad426be4ab56733",
+      "sha256": "ed74b8cafa1059d0b3f473129892630a85322ce5dd3a3b55ae0a53fe00b79746"
+    },
+    "src/fields/acf/button_group/FieldButtonGroup.php": {
+      "md5": "f863ed92aa0a819dfce7ef991f05a992",
+      "sha256": "453aa025810c4452422040f2e9bc68192f66696e9ef5c9ae1543d7ba240414f4"
+    },
+    "src/fields/acf/button_group/FieldButtonGroupV4.php": {
+      "md5": "85db0fc00222e2e2609c33ee6b251fdb",
+      "sha256": "514fc90cb92e4abd9838522c93f00e71de05f70d34b55ca36e0ac9d8cb72fd45"
+    },
+    "src/fields/acf/button_group/FieldButtonGroupV5.php": {
+      "md5": "bbbdedc4ae0b87f4220ac5d1606d625d",
+      "sha256": "1c6ea3496e268a4601aa389dd8e4ccadc5d5828b8d2033c38e0aa58c3d235ad8"
+    },
+    "src/fields/acf/checkbox/FieldCheckbox.php": {
+      "md5": "c254cc0bb5eb7c728f66b96cdb7b74e7",
+      "sha256": "67fbfe51820c03f8d50eec664a0e41b29b56cde390fd6b35555e43ec1e188b83"
+    },
+    "src/fields/acf/checkbox/FieldCheckboxV4.php": {
+      "md5": "be480b6d84bae828053da72c5980ccd6",
+      "sha256": "55ef1d7df23cfb4e651b0b56961ac6e37dd833b9e801a539b43737d78091fd33"
+    },
+    "src/fields/acf/checkbox/FieldCheckboxV5.php": {
+      "md5": "8a95747907b9be1c9b7c99208fdb36c0",
+      "sha256": "38b3b787bb949a6f6d844ad5c68e2cfb41cef548ad3d9751029abb2217244404"
+    },
+    "src/fields/acf/field_clone/FieldCloneV5.php": {
+      "md5": "07ddb40f6d69502868fd9a6eb0e72557",
+      "sha256": "366ebcdc35a49b8a0132dbef67f1b8ec79d0f135ab2889973272c33c0579be7b"
+    },
+    "src/fields/acf/group/FieldGroupV5.php": {
+      "md5": "011a4dac7bac38dfa4812dd388eea55b",
+      "sha256": "bb0497778c0ccd14d87d0510a987d6b8b5d91624a2d6f3ecdc88b1bdbb5c4c00"
+    },
+    "src/fields/acf/radio/FieldRadio.php": {
+      "md5": "65786e804d779a98c6bd1d1ff62a4f4c",
+      "sha256": "3bfa08796a4d2274e5a781d6612b14f1f4ca4f84b7217733c31f447cfae3b8b7"
+    },
+    "src/fields/acf/radio/FieldRadioV4.php": {
+      "md5": "41d1010e164120f3a5cf6a5c98783d6c",
+      "sha256": "0c339ce103eb8673fef73f0b7887e2b5d8083d7f59bf7107224e559de2d29cc7"
+    },
+    "src/fields/acf/radio/FieldRadioV5.php": {
+      "md5": "087c7cfc50e0ec48007ef1e2b7d095e6",
+      "sha256": "8b02399b5fcde1ee376e9c927f5f5aa0b4ce8b671d34b8204bbe84d066dde79f"
+    },
+    "src/fields/acf/repeater/FieldRepeater.php": {
+      "md5": "3b760b1df0f4b15e97f9c11f620a12d9",
+      "sha256": "11b46bfa39c85d721f2edc463d6e854f3db2ea862157a27043a5d7e71e3c5287"
+    },
+    "src/fields/acf/repeater/FieldRepeaterV4.php": {
+      "md5": "53e87027c1904a1fd10acd4b93905db7",
+      "sha256": "3252baf60c34e1af7d09107ed8e8b842edb626a9c7afa45d42c6d35ca22eeabc"
+    },
+    "src/fields/acf/repeater/FieldRepeaterV5.php": {
+      "md5": "443bb92c92cb44048d709af8889099cd",
+      "sha256": "c7a8465e7cb9de3c4f5c640648c96b485586a3e7e29b34bbb0e2a89a9ff73c9a"
+    },
+    "src/fields/acf/select/FieldSelect.php": {
+      "md5": "a89d613611e83baa1e7628baba7650c5",
+      "sha256": "dc8426ee1940bcef66bdcc0faf27cd4e6d81323999f94eda1dd5450e8a7db97b"
+    },
+    "src/fields/acf/select/FieldSelectV4.php": {
+      "md5": "7c55c32c494c26ea576285e7cfce2ab0",
+      "sha256": "6a21df8993365a5487e9324db00c59bee8b31b750a649ed744718f578c7865c5"
+    },
+    "src/fields/acf/select/FieldSelectV5.php": {
+      "md5": "8be53677149151d77ec588ddb0185e1f",
+      "sha256": "2129c45b0739e8164926691e3885e38c88cf554bc22050f90255d5b68ec717b3"
+    },
+    "src/fields/acf/true_false/FieldTrueFalse.php": {
+      "md5": "ed333506fe23a2898da62da8c16b95d8",
+      "sha256": "36ce1baf9fc7bc51ea525935ae51f3a66516ba45e08a533e0159abca0427d141"
+    },
+    "src/fields/acf/true_false/FieldTrueFalseV4.php": {
+      "md5": "cf0929944b43c7a39b5722b8f2738c92",
+      "sha256": "67581efd67407a0d977ac324ff91fa7af2298932f21c39c1470c3a67c3a04899"
+    },
+    "src/fields/acf/true_false/FieldTrueFalseV5.php": {
+      "md5": "bc54bdc56c3dd2c0c4d53dd0d98545aa",
+      "sha256": "fa7df435f5bdf6df5dd5702b1a383267c8ea5b4a0d1b74db1d7a8352bb56e7b7"
+    },
+    "src/fields/base/BaseGoogleMap.php": {
+      "md5": "3aceee9965f1df801fd7bdf070c38a41",
+      "sha256": "54a115d34144a25d51c6f8841775fa53958e602f5ad4de3fe5b6f9b24653788a"
+    },
+    "src/fields/templates/footer.php": {
+      "md5": "da05656b012c813f173b68c53d726fc9",
+      "sha256": "99f3dd3bfc84a36393cd4c66a3723b1dade953bbf2630a86640187bb73aee82a"
+    },
+    "src/fields/templates/header.php": {
+      "md5": "8ca380af43b0fd1bb29e2081bb0f966b",
+      "sha256": "9c248e7753bf4e0c2f20fae6b063c5d2a73c3296f3d144dfbfd5cb35614ec355"
+    },
+    "src/fields/views/acf_cf7.php": {
+      "md5": "9cd118995df25522a21d43561c7ebffc",
+      "sha256": "55db6ebe8061c206472ea6f1f3d3130102b3db9d5ac99d926b3ee8baae34729b"
+    },
+    "src/fields/views/color_picker.php": {
+      "md5": "2b694223ea26d46d0d6ef40e846423a6",
+      "sha256": "618b6837ec4c350a3cd570b32488526ce6ae3ff49bf4b557102d0aac2ebac103"
+    },
+    "src/fields/views/country.php": {
+      "md5": "ecae5475d2a47f8e904d9e01e3ab8257",
+      "sha256": "0d36864ea6959aa6dee949dffdce55e863fffd8244a1222c1b1700fe985c9221"
+    },
+    "src/fields/views/date_picker.php": {
+      "md5": "24a4b428e9d23e2aab119d0805080965",
+      "sha256": "f6986444b2d4ecea9f02cbcd948b06fc016b4ea26a15655acd0ac5da6b6c9461"
+    },
+    "src/fields/views/date_time_picker.php": {
+      "md5": "3daf82938cc55d2bfbb8813b3083127e",
+      "sha256": "d4c60f0b5b005ed5b1ea1ae0ba851407b3c6bb5c1a5d8dd215f6fa4b089f96c9"
+    },
+    "src/fields/views/email.php": {
+      "md5": "ecae5475d2a47f8e904d9e01e3ab8257",
+      "sha256": "0d36864ea6959aa6dee949dffdce55e863fffd8244a1222c1b1700fe985c9221"
+    },
+    "src/fields/views/empty.php": {
+      "md5": "d41d8cd98f00b204e9800998ecf8427e",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "src/fields/views/file.php": {
+      "md5": "131120b96461afb388c0dad6d838657c",
+      "sha256": "9f080774b9d2d8d34fca2ec577193c9189b872fd4707be7de3c2dc97af7d6d13"
+    },
+    "src/fields/views/flexible_content.php": {
+      "md5": "bd78c4ca0b7233229c7fae0dd4b32324",
+      "sha256": "d93c2ed0d7dc7f7c35e056999a7dbb946501e9814b8e34e9b22c9771003041d5"
+    },
+    "src/fields/views/font-awesome.php": {
+      "md5": "ecae5475d2a47f8e904d9e01e3ab8257",
+      "sha256": "0d36864ea6959aa6dee949dffdce55e863fffd8244a1222c1b1700fe985c9221"
+    },
+    "src/fields/views/gallery.php": {
+      "md5": "73831c33fc4d372413960faca01efe66",
+      "sha256": "d3455d40c373d841d05518b9f923aaa85bad6ec1c3549eb752b87ad27a16433d"
+    },
+    "src/fields/views/google_map.php": {
+      "md5": "e40fff45ddefdc025b1053b378f172ad",
+      "sha256": "deb49e38d120c366265ec12b3ebbb16fdf0ec25148ddce47c00d4356e80fad57"
+    },
+    "src/fields/views/google_map_extended.php": {
+      "md5": "6b19364ca41fbf2b81e2dd19ed41d555",
+      "sha256": "4eb9c8b70888d3947eef2c4534ce4bc1b8ff8e6c50bf6fae8fd0f610ebaf362a"
+    },
+    "src/fields/views/gravity_forms_field.php": {
+      "md5": "9cd118995df25522a21d43561c7ebffc",
+      "sha256": "55db6ebe8061c206472ea6f1f3d3130102b3db9d5ac99d926b3ee8baae34729b"
+    },
+    "src/fields/views/image.php": {
+      "md5": "db97a47ec76565815a3d1178fa61b0be",
+      "sha256": "3a347fe9ce4aed6075947b07a669961c398b572c04307f429e8faf71483f1155"
+    },
+    "src/fields/views/image_aspect_ratio_crop.php": {
+      "md5": "db97a47ec76565815a3d1178fa61b0be",
+      "sha256": "3a347fe9ce4aed6075947b07a669961c398b572c04307f429e8faf71483f1155"
+    },
+    "src/fields/views/image_crop.php": {
+      "md5": "db97a47ec76565815a3d1178fa61b0be",
+      "sha256": "3a347fe9ce4aed6075947b07a669961c398b572c04307f429e8faf71483f1155"
+    },
+    "src/fields/views/limiter.php": {
+      "md5": "ecae5475d2a47f8e904d9e01e3ab8257",
+      "sha256": "0d36864ea6959aa6dee949dffdce55e863fffd8244a1222c1b1700fe985c9221"
+    },
+    "src/fields/views/link.php": {
+      "md5": "59aced5e6f70155bd940499dd2269360",
+      "sha256": "a415f51532bfac3fc477c1d548d1253bd41bae32505396bdfe72bf9847ef38ce"
+    },
+    "src/fields/views/location-field.php": {
+      "md5": "52c78b3f770e912ba17931f32eef5cec",
+      "sha256": "1f80d8791bfe6f765782ed34cbc63d9f84e0095053fd4e09138ee18807bc640e"
+    },
+    "src/fields/views/not_supported.php": {
+      "md5": "c925f8666cd570ad377e7fcfca3297d4",
+      "sha256": "8a9c91cfde2300a854ac408eb2686ca46a21dc36ef63c6260d76a5e5462c620e"
+    },
+    "src/fields/views/number.php": {
+      "md5": "ecae5475d2a47f8e904d9e01e3ab8257",
+      "sha256": "0d36864ea6959aa6dee949dffdce55e863fffd8244a1222c1b1700fe985c9221"
+    },
+    "src/fields/views/oembed.php": {
+      "md5": "ecae5475d2a47f8e904d9e01e3ab8257",
+      "sha256": "0d36864ea6959aa6dee949dffdce55e863fffd8244a1222c1b1700fe985c9221"
+    },
+    "src/fields/views/page_link.php": {
+      "md5": "57b26c1d54f7f0460b0a695cdec7357a",
+      "sha256": "391b0d0eeef3601f1263e0cc8101e893e522c2a0e94b5b26b21a5a91bd67e41f"
+    },
+    "src/fields/views/password.php": {
+      "md5": "ecae5475d2a47f8e904d9e01e3ab8257",
+      "sha256": "0d36864ea6959aa6dee949dffdce55e863fffd8244a1222c1b1700fe985c9221"
+    },
+    "src/fields/views/paypal_item.php": {
+      "md5": "15b60f7b0d6cefcc2775bb830efe5559",
+      "sha256": "b49658017ddc658e6187e1580dcb07e67e4dd2e2efc1149a8a85c0f0d5ffc7c9"
+    },
+    "src/fields/views/post_object.php": {
+      "md5": "8912b1cdb5709153b7e8dede7bd0a41b",
+      "sha256": "2a3121086141fd6bab0f6fe2db0840b4956a9dd8de412dad06d62ca52b052224"
+    },
+    "src/fields/views/range.php": {
+      "md5": "ecae5475d2a47f8e904d9e01e3ab8257",
+      "sha256": "0d36864ea6959aa6dee949dffdce55e863fffd8244a1222c1b1700fe985c9221"
+    },
+    "src/fields/views/relationship.php": {
+      "md5": "816e158be895083238f70ad35fa4f3f4",
+      "sha256": "c15a8de400afbdc17fbb441ddf05480a410330ac6153dd42454c3e094c8e8f30"
+    },
+    "src/fields/views/star_rating.php": {
+      "md5": "ecae5475d2a47f8e904d9e01e3ab8257",
+      "sha256": "0d36864ea6959aa6dee949dffdce55e863fffd8244a1222c1b1700fe985c9221"
+    },
+    "src/fields/views/table.php": {
+      "md5": "ea6b5026ee2dcb72fd4e4f1ef5eebb86",
+      "sha256": "4b2d6008fbd288a507ff0cc0d6761477abff41b8445d11cfaee4a2814dc9a201"
+    },
+    "src/fields/views/taxonomy.php": {
+      "md5": "142b91715560710a32632a382e19ace2",
+      "sha256": "1d4773db53254d19971f6c3e7b77fa887154980e660f6ecce7c58388330ce34b"
+    },
+    "src/fields/views/text.php": {
+      "md5": "ecae5475d2a47f8e904d9e01e3ab8257",
+      "sha256": "0d36864ea6959aa6dee949dffdce55e863fffd8244a1222c1b1700fe985c9221"
+    },
+    "src/fields/views/textarea.php": {
+      "md5": "307cfbe97878b9afbd59ee84e9ea5000",
+      "sha256": "32fa13ce27aab85ceaf701f63f83564537ed29a44cc68d700803b49ebfa67f7d"
+    },
+    "src/fields/views/time_picker.php": {
+      "md5": "c7d886cc1df83d8d366e679668f134df",
+      "sha256": "a13af78f59356370bc71fc630f6c98db16ee9798d3c5a58f33822d6facb435ab"
+    },
+    "src/fields/views/url.php": {
+      "md5": "ecae5475d2a47f8e904d9e01e3ab8257",
+      "sha256": "0d36864ea6959aa6dee949dffdce55e863fffd8244a1222c1b1700fe985c9221"
+    },
+    "src/fields/views/user.php": {
+      "md5": "58a9bc526e474e182ef32b398a9d1ffa",
+      "sha256": "b0fadf3c0dc16a0d9c7eb53c26978ad123ef7ae060e57950bda5548be170d86e"
+    },
+    "src/fields/views/validated_field.php": {
+      "md5": "c9c28ff6f415ab3da1967595385da570",
+      "sha256": "c8561f6d67014b91338635343fcff232fe8b8ecc8eeab448640480fca62a59b9"
+    },
+    "src/fields/views/vimeo.php": {
+      "md5": "ecae5475d2a47f8e904d9e01e3ab8257",
+      "sha256": "0d36864ea6959aa6dee949dffdce55e863fffd8244a1222c1b1700fe985c9221"
+    },
+    "src/fields/views/wp_wysiwyg.php": {
+      "md5": "d5fe766f812b97930050d3e8ac9b4926",
+      "sha256": "9579abf571e1b28787e3f610e921c289e30d1018a26da111e62857f3cd02cb69"
+    },
+    "src/fields/views/wysiwyg.php": {
+      "md5": "d8fd88d09b9b123926cf11ff14be0957",
+      "sha256": "dcd406f5f1dd1785be8886340a57379ec189d2a3fc8d36489d2600af1e9d7b51"
+    },
+    "src/fields/views/button_group/button_group-v4.php": {
+      "md5": "e13f878d1319767f8349446dbfb13419",
+      "sha256": "c0a1d18492f897ba62f4dbd14cb9433958a97df24548ee265340243f4cfe35be"
+    },
+    "src/fields/views/button_group/button_group-v5.php": {
+      "md5": "d281b226b8a294ad8d09201c4575a79b",
+      "sha256": "800ca0e5735e44eb2fd6e1d7fa90a6de5363e5d9e9b92312bcd66c2dd7fbe7bd"
+    },
+    "src/fields/views/button_group/footer.php": {
+      "md5": "4a473d30afda013842fcddb7fc58dff0",
+      "sha256": "73f398ca556bec45aa10b22df598e59261b22858f126a55db3604de67bdfbb82"
+    },
+    "src/fields/views/button_group/header.php": {
+      "md5": "41ce951add8635ae7d547f638790c0ab",
+      "sha256": "2ec96b612ae063d2c8ec782e1833ebcbfc5f34a6585c1465e995c677b0d3e5ea"
+    },
+    "src/fields/views/checkbox/checkbox-v4.php": {
+      "md5": "8cf63487fb2796cc6787fc18dbab4861",
+      "sha256": "528f9a90b91ba8ff365f98ec830345bd939b434f4f105141ae3098b8051b8108"
+    },
+    "src/fields/views/checkbox/checkbox-v5.php": {
+      "md5": "e24a8fb83b719a252e5f3ef6fd2bc63b",
+      "sha256": "2d0bebf15e0077066be9f0e6e1325eb2e5f40f81e71cc516894f98b464cd5759"
+    },
+    "src/fields/views/checkbox/footer.php": {
+      "md5": "351023b22f17423c2e9b4770a961c143",
+      "sha256": "b38fde0c8e539590eb0fba5691799af249763e89d8d6740ba38ba01239bf2f5a"
+    },
+    "src/fields/views/checkbox/header.php": {
+      "md5": "1d7e2ec5eb8826d3a7d6240e212e8775",
+      "sha256": "68c9029267159a4f6ce2c574c3db5b169f362ec9f4d0d6926e6016faa887f0f5"
+    },
+    "src/fields/views/clone/clone-v5.php": {
+      "md5": "6558acbc60b6382b5f03369a1b2f745e",
+      "sha256": "4688b042cb1679b142b29c05d37a2486310b27a19cad638ff3b6b7f54a503923"
+    },
+    "src/fields/views/group/group-v5.php": {
+      "md5": "b2318530e2c60d6cfbf061fb95373173",
+      "sha256": "c42fb3cedbe39f70574fbd33441e988c3c03c98b4aa76a323fb5f64dd307302a"
+    },
+    "src/fields/views/radio/footer.php": {
+      "md5": "351023b22f17423c2e9b4770a961c143",
+      "sha256": "b38fde0c8e539590eb0fba5691799af249763e89d8d6740ba38ba01239bf2f5a"
+    },
+    "src/fields/views/radio/header.php": {
+      "md5": "1d7e2ec5eb8826d3a7d6240e212e8775",
+      "sha256": "68c9029267159a4f6ce2c574c3db5b169f362ec9f4d0d6926e6016faa887f0f5"
+    },
+    "src/fields/views/radio/radio-v4.php": {
+      "md5": "8cf63487fb2796cc6787fc18dbab4861",
+      "sha256": "528f9a90b91ba8ff365f98ec830345bd939b434f4f105141ae3098b8051b8108"
+    },
+    "src/fields/views/radio/radio-v5.php": {
+      "md5": "e24a8fb83b719a252e5f3ef6fd2bc63b",
+      "sha256": "2d0bebf15e0077066be9f0e6e1325eb2e5f40f81e71cc516894f98b464cd5759"
+    },
+    "src/fields/views/repeater/footer.php": {
+      "md5": "58a41e889706b9c9d9ac223992723c7d",
+      "sha256": "69c516cf2c7cba5131d5462e5a370b80512cfa750fa27605430a465fdbbf8592"
+    },
+    "src/fields/views/repeater/header.php": {
+      "md5": "154a8fbcda6ccdbe834a4dec16701d50",
+      "sha256": "792b1776e4fae1ba3c98348d98ecf1ada488e7cfc7706a9bfff735d948721b82"
+    },
+    "src/fields/views/repeater/repeater-v4.php": {
+      "md5": "8aadd62463ce2f3cca361aa3aeda3f92",
+      "sha256": "18a63bfc38dfb8c464e65935db64f67c8dfa07ae6340a269865dd6eae4a05dad"
+    },
+    "src/fields/views/repeater/repeater-v5.php": {
+      "md5": "816171730b0cdf1d843d98e4ea691638",
+      "sha256": "69e917a64cd8395b8b3a43e8b669c2bb18ac1d626d2eebee57f32e63091b8815"
+    },
+    "src/fields/views/select/footer.php": {
+      "md5": "351023b22f17423c2e9b4770a961c143",
+      "sha256": "b38fde0c8e539590eb0fba5691799af249763e89d8d6740ba38ba01239bf2f5a"
+    },
+    "src/fields/views/select/header.php": {
+      "md5": "1d7e2ec5eb8826d3a7d6240e212e8775",
+      "sha256": "68c9029267159a4f6ce2c574c3db5b169f362ec9f4d0d6926e6016faa887f0f5"
+    },
+    "src/fields/views/select/select-v4.php": {
+      "md5": "aa2770845e988a83bf7569266bea80ee",
+      "sha256": "35d23f76dbb5cebc886d2425f9f1a4e964349cf3a0f944de18e2ef4f561b5fa3"
+    },
+    "src/fields/views/select/select-v5.php": {
+      "md5": "dbb9b2b8a8388b94f9cfda22e309a3a0",
+      "sha256": "195047a8e07d320c59730544839bfd47bb50f3472850ebcf633791608c16bfb3"
+    },
+    "src/fields/views/true_false/footer.php": {
+      "md5": "4a473d30afda013842fcddb7fc58dff0",
+      "sha256": "73f398ca556bec45aa10b22df598e59261b22858f126a55db3604de67bdfbb82"
+    },
+    "src/fields/views/true_false/header.php": {
+      "md5": "1d7e2ec5eb8826d3a7d6240e212e8775",
+      "sha256": "68c9029267159a4f6ce2c574c3db5b169f362ec9f4d0d6926e6016faa887f0f5"
+    },
+    "src/fields/views/true_false/true_false-v4.php": {
+      "md5": "aa2770845e988a83bf7569266bea80ee",
+      "sha256": "35d23f76dbb5cebc886d2425f9f1a4e964349cf3a0f944de18e2ef4f561b5fa3"
+    },
+    "src/fields/views/true_false/true_false-v5.php": {
+      "md5": "43e3da88339c0bb0b60bddcfe876a277",
+      "sha256": "d084476c614f92b1ee8a8aeb5149a9c1bda0471b11bc3fb7d7f923fca93c5aa0"
+    },
+    "src/groups/Group.php": {
+      "md5": "a79c4a40efb5dfe6d9b44b5b1ba00c9a",
+      "sha256": "c024b0151525edbab20d970461717047759fb7bc963bb5e89acb45247a32f985"
+    },
+    "src/groups/GroupFactory.php": {
+      "md5": "28f51e123d835ffe51a90ea8f14027f2",
+      "sha256": "93aab77720dadc3a42703496fde9925a4f72a967408eae9e129658faab5d8bb1"
+    },
+    "src/groups/GroupInterface.php": {
+      "md5": "33e2d11967ac3553ca1432f612071888",
+      "sha256": "27d4ef2b0d1902b0131d761786688229cfdfabf911d19c47ac392e3448f3a5e0"
+    },
+    "src/groups/GroupV4.php": {
+      "md5": "6e8d70e89c424fa335e0dbe2a379b7f2",
+      "sha256": "5ca41d180dab2342582fb611b57c3e95b05730c47539fbc7c8efec143f089d48"
+    },
+    "src/groups/GroupV4Local.php": {
+      "md5": "d9cdc2a0c3268ad4dec1373d3b4d6e78",
+      "sha256": "70bc886197233704a2f880713a69be9bb00fc018c8279835f27187884c36ded5"
+    },
+    "src/groups/GroupV5.php": {
+      "md5": "8368d523ac3ac34c3dd90272c07e2f20",
+      "sha256": "2cdd1139b947e73e19bda5fa75f432c2b78df1b1e39ed87beda2181be74348be"
+    },
+    "src/groups/GroupV5Local.php": {
+      "md5": "205a761da7d213025d32128a13e42be2",
+      "sha256": "fe83bf7be9006e26a1ba461f015cd210be65501e457fd7d80ba84a84df9036ff"
+    },
+    "src/groups/templates/footer.php": {
+      "md5": "da05656b012c813f173b68c53d726fc9",
+      "sha256": "99f3dd3bfc84a36393cd4c66a3723b1dade953bbf2630a86640187bb73aee82a"
+    },
+    "src/groups/templates/header.php": {
+      "md5": "028916b2be0c65747eecb90811647957",
+      "sha256": "71d38e1943ebc7c76f1be78fc68d9509659601027d073aec0f6d1f7654e1b209"
+    },
+    "static/css/admin-ie.css": {
+      "md5": "d41d8cd98f00b204e9800998ecf8427e",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "static/css/admin.css": {
+      "md5": "0fc552be3edcc0bbbbe3c090e8d8ebb6",
+      "sha256": "fd830c65e5ee998211d71d66012a37c31790e96d2c8ad4d7d815376703f27b13"
+    },
+    "static/img/preloader.png": {
+      "md5": "4d9525579bbffc4170439b961a510a90",
+      "sha256": "60f58522f97ef0c9e80fa5b2154dd08ee3ce1f1c09388e2518cab503ee00110f"
+    },
+    "static/js/admin.js": {
+      "md5": "e761fb8b15ede3b0cd96afbd46e65baa",
+      "sha256": "49c5988957d7d095bc36edb311a374b76a921e207529f98210c79e4abf39e4fa"
+    },
+    "static/js/pmai.js": {
+      "md5": "dd908c9c795ff6020f197c6de8bffd8b",
+      "sha256": "87ccb1c7364ecae9b19169dc4abc80636e91020b2f4fe7d61878f4a2564bb88c"
+    },
+    "static/js/jquery/datetime.min.js": {
+      "md5": "dcbe051c1512db29edf46485f05158e6",
+      "sha256": "59df6b8c994f6d96c03938779b586fc14d9d2f9c03e699a3594226c448d50239"
+    },
+    "vendor/autoload.php": {
+      "md5": "ede7417eb651576e27f035e4db9ecd17",
+      "sha256": "497931b34a1be9aefa0699e378ec610a78eb42de704ec64354c95c38c44285a1"
+    },
+    "vendor/composer/autoload_classmap.php": {
+      "md5": "19b09a79c57450ba3e5261ad53f4402d",
+      "sha256": "74dcf24a738537227f9b40fa55bfc26ae77341b765914d4e8f518d5ec9eccb43"
+    },
+    "vendor/composer/autoload_namespaces.php": {
+      "md5": "35e12c7d76c4a81633bcf547c0e229a9",
+      "sha256": "6d1b582b311799934568f00d45e01de7a04f8a1865a8a72c7841904ad4dac3a7"
+    },
+    "vendor/composer/autoload_psr4.php": {
+      "md5": "bc383b6fea6d3b16fa54d64e176bbc88",
+      "sha256": "8a40c09189a8cfa47ea95afd13c31422fcba5b17bcef30af388f78a864a146ea"
+    },
+    "vendor/composer/autoload_real.php": {
+      "md5": "5a212bcb45d7df00aa651372aeb8a15f",
+      "sha256": "0356c5b84534c355cedc5eb6703095d9ea62099a519a87975b8e5f0d4216d3e4"
+    },
+    "vendor/composer/autoload_static.php": {
+      "md5": "1fe32297163b4dde5bc5e47451e5cde9",
+      "sha256": "339efa36ba3434c74319a76a731d6c6979292e5b546f3eaf942ac33a618436dd"
+    },
+    "vendor/composer/ClassLoader.php": {
+      "md5": "b308ffadb04d16ccac5b2622660b8072",
+      "sha256": "6df8dd8658f8f0c82e7065a7c71e88f608199a546ad23795211f8a3ccae3164e"
+    },
+    "vendor/composer/installed.json": {
+      "md5": "8948689ddd6765cb530a40c2b32b5e40",
+      "sha256": "3c75d0ea6f7dcfd7ac6324985f1c87f9227ccc5b36bc2fa7b7eb66a32d2f9c71"
+    },
+    "vendor/composer/installed.php": {
+      "md5": "4efb2c79ded72593067a84edb956a51f",
+      "sha256": "6829455e8ee8eeb15e93e877685023d84a3419bea105a92142ea4a7e1d17b195"
+    },
+    "vendor/composer/InstalledVersions.php": {
+      "md5": "bfac1e8df57cfe8f3279de5c50456e66",
+      "sha256": "05253d91f6ecb8e0111e216f4df7074a7a83b71dbc766f04933885ca46978827"
+    },
+    "vendor/composer/LICENSE": {
+      "md5": "5211431db1330674b4be28f80182185c",
+      "sha256": "7855ac293067aebe7e51afdd23b9dea54b8be24187dbecc9b9142581c37f596c"
+    },
+    "views/admin/import/index.php": {
+      "md5": "26d4e9d27a1698f0916a3c7d472b8cbf",
+      "sha256": "2a1c82def2c12e60b48df3e7ff55ce93d48839396940c4b20643a7322aa7c667"
+    },
+    "views/controller/error.php": {
+      "md5": "8c0b8d5188494f3607402ba37da395de",
+      "sha256": "daa824197589b741e8d1f84050fcd2de65c190776ca600e485eda2f7784962b5"
+    }
+  }
+}
