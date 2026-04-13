@@ -1,0 +1,742 @@
+{
+  "plugin": "advanced-coupons-for-woocommerce",
+  "version": "4.0.5",
+  "files": {
+    "advanced-coupons-for-woocommerce.php": {
+      "md5": "415a814d0a6ad1a7aba1b95c727ea1d4",
+      "sha256": "86ab9c1a4c84eafd2f89a96b7e01763c183df2095d0747ddce19d4dfcf3bd353"
+    },
+    "index.php": {
+      "md5": "3c0f3395c995e06376bc95f4e4705d4f",
+      "sha256": "58b3f61caeed8eaaa97998bf5129e98d8e32a3fe3e8a7c80747976ea64ef4c97"
+    },
+    "uninstall.php": {
+      "md5": "986f85dabed28f62598b953740eaf65e",
+      "sha256": "77ace59e3af2584829cb897ed6496087f186022b3dfc0d19d8d35acecc8cfc18"
+    },
+    "Abstracts/Abstract_Main_Plugin_Class.php": {
+      "md5": "fdf446b44a623e5d3c955b35ca94a7da",
+      "sha256": "f32fa086b96019d7f2b22548e474d6a680c581ca537dd5016853fede1b128df8"
+    },
+    "Abstracts/Base_Model.php": {
+      "md5": "0f8b623c018146c67461a34863a01e27",
+      "sha256": "430708bcee368bf4478988f9f8a03489d095695157bbdb6484c1a52cf9c5fa5c"
+    },
+    "Abstracts/index.php": {
+      "md5": "3c0f3395c995e06376bc95f4e4705d4f",
+      "sha256": "58b3f61caeed8eaaa97998bf5129e98d8e32a3fe3e8a7c80747976ea64ef4c97"
+    },
+    "dist/manifest.json": {
+      "md5": "3377a8006ddf4ba6205589bdd163726c",
+      "sha256": "6d98735a350ef090dbadc51e3b98a699ad0f4d716c6429c1d4e8185f5edda644"
+    },
+    "dist/polyfills-legacy.3e6632a4.js": {
+      "md5": "d70d4b469e48f6785f15c751371b861f",
+      "sha256": "6b15e2c5b4a427c7520b19a6c6a0f8399008fd7f7649232ed6b86c3b1dc376b2"
+    },
+    "dist/assets/index-54248b6f.css": {
+      "md5": "b17b8c33263fe473e017f0c0c73a3d72",
+      "sha256": "54248b6f6b0afc50fd18be4652866ede0ffb89e52b4b9321314fbd44692bad3b"
+    },
+    "dist/assets/index-606ad7b1.css": {
+      "md5": "b4b95cc8ce48b40757c0a360feb9b51a",
+      "sha256": "606ad7b1883afd5085b6266be8e600d8b0300761fbdbab8a881a22135c572353"
+    },
+    "dist/assets/index-b3c0628f.css": {
+      "md5": "d16a729bfef48a882e67b577a770a96f",
+      "sha256": "b3c0628f26cd78c7133c54cc606d148279aebaaef30e541d237a988145621525"
+    },
+    "dist/assets/index-c1dac9e2.css": {
+      "md5": "2d3854af06ab48cac86266a95289b1f2",
+      "sha256": "c1dac9e20fb3b688ab63f4d11ee1b02311b33b1b82c2579a5b2594ca21b8edfc"
+    },
+    "dist/assets/index-fad86deb.css": {
+      "md5": "dbc09abd2f858519e0a021c76a23ddb6",
+      "sha256": "fad86debf40922905b08d1ded1b9226a7b640e361ff0b857dfcf217a667fc315"
+    },
+    "dist/common/antd-legacy.26a655c6.js": {
+      "md5": "1781f6aee44595ba627deaf5731440a4",
+      "sha256": "a7b0d865be6f1778dd8277a5e9c4612999ed735f9e68b2cd5756c7d390f5d227"
+    },
+    "dist/common/antd.fecb7d80.js": {
+      "md5": "d8aae537cb08c356042b71855f76d151",
+      "sha256": "9a7a4b2e1e01750035dd887678addb70afbc5497a67f690754ef2216e49dced4"
+    },
+    "dist/common/antdIcons-legacy.839b3636.js": {
+      "md5": "4d0812888efdc013ff1fc68c911252a9",
+      "sha256": "b82e385e0d8581fdc9a1ee15f96c6ed20dee02a446934ddc39209973faa38be6"
+    },
+    "dist/common/antdIcons.90728a48.js": {
+      "md5": "1ded849efa62f608609847b5b6078d64",
+      "sha256": "a1252af9ba40aa2cdd52bdd67e145670bbf1bc8378260053b736b17573df77ad"
+    },
+    "dist/common/NoticesPlugin-legacy.937c918f.js": {
+      "md5": "2ee32150460deee968d774532fb7a58a",
+      "sha256": "89d973e146bdb8f98be0801a4570d84cd93e88b8b8dfc762cdbae5df01391879"
+    },
+    "dist/common/NoticesPlugin.cbb0e416.js": {
+      "md5": "1f0f95a17c66666c494ee5289980ddeb",
+      "sha256": "8554300df61448ee0851532842cd5f12418e0f1ebeeaddea05690eb8f0628aaa"
+    },
+    "dist/common/reactLib-legacy.efcc9360.js": {
+      "md5": "2e3cbe741930cf9eac7611a6ce91a904",
+      "sha256": "82d8f0ff38be64f576ad555338db94cb2068a9394baf734431371eb686ecd5c0"
+    },
+    "dist/common/reactLib.0e79eb75.js": {
+      "md5": "aa95130ee1db6524a6957262d1195d3f",
+      "sha256": "0b619ce722b418c605dc6c4f300a662e745a8438a33a7ab20176be1b68c654fa"
+    },
+    "dist/common/redux-legacy.c13c0195.js": {
+      "md5": "da0da39a466425f835550f031cb1c65a",
+      "sha256": "e7a90b7226bd6e54ac75614d918491a79a0261a02c37c797b1eff7bb78385476"
+    },
+    "dist/common/redux.a237b9f8.js": {
+      "md5": "a4cb9047553d41c80d41ab81da5362b0",
+      "sha256": "3db1ab963a744c89acd91d8905717e6ab044a170c9bd0d01cece45851134609a"
+    },
+    "dist/packages/acfwp-admin-app/index-legacy.90342f7c.js": {
+      "md5": "25b8695d4c37a1221d93cc418c8e0894",
+      "sha256": "fb7b53c540cb247e12c85baf72941e5da5501638e31b3b6ba57badc0818070e2"
+    },
+    "dist/packages/acfwp-admin-app/index.fda44409.js": {
+      "md5": "c6622b3ff2593728ad2e7e454947c709",
+      "sha256": "de5ab76558dfd820b880cc56db8d3f8c46782331b16caf54ead53f2ab5a3e317"
+    },
+    "dist/packages/acfwp-cart/index-legacy.4a1d6f67.js": {
+      "md5": "d9e9ffa79694db5b78265bb4ab5e3e6e",
+      "sha256": "18a408da1338c0de1bbb70011f8b99f4e5b7281e2181ebcd3f76dad589ece431"
+    },
+    "dist/packages/acfwp-cart/index.eb1ea97f.js": {
+      "md5": "03b21100844b60aa1ed9860a2dc0a8bc",
+      "sha256": "81752c599a701254d4927d2f4cd19cebf9eb58d44814e1a392ac22c2c922e3b7"
+    },
+    "dist/packages/acfwp-cart-block/index-legacy.3d67f242.js": {
+      "md5": "eea9e59757c563a08590e3eeadc22fb2",
+      "sha256": "83bd7b585e5c081d314e78b7ec920e34885d763a34a20fb676a401a1f0ada0e5"
+    },
+    "dist/packages/acfwp-cart-block/index.632c19e1.js": {
+      "md5": "9a109739b7790328be748882f2596a37",
+      "sha256": "d04ec39074dcaeee6ab9a86ac057d0a3e823f46cc34d559b1b71df87ff12fc82"
+    },
+    "dist/packages/acfwp-checkout-block/index-legacy.f597abf2.js": {
+      "md5": "73113fb865ec2e72d78fad385a2ed45c",
+      "sha256": "5eadc6c8e577bf9439917fa769a7e80922cf8bba0adbbcd9d8770a491f9773ce"
+    },
+    "dist/packages/acfwp-checkout-block/index.5ab13587.js": {
+      "md5": "690a3289e06750ac8f7ce159ecbc8cf4",
+      "sha256": "c8334b72de8c5435af0283d86aa972c718337a8773b79ad35012d065a654d333"
+    },
+    "dist/packages/acfwp-edit-advanced-coupon/index-legacy.9b77be4a.js": {
+      "md5": "9fe5d26fec980227b4c47d40e6c9c24f",
+      "sha256": "35a5f9a7a0f59063df9bd4d1b21983bd2a65682f89c1f508a2677af7ad7703b7"
+    },
+    "dist/packages/acfwp-edit-advanced-coupon/index.b1c52c3a.js": {
+      "md5": "15ad33cdfe11e17323b5d083821374fb",
+      "sha256": "3e747374b2338f8ada2c8c7d5b4fb5f7ebaeb720090cc5b303a653aef4a347ac"
+    },
+    "dist/packages/acfwp-edit-coupon-app/index-legacy.4ca6a492.js": {
+      "md5": "b19ef6838d1ecbe2b5b996fc6f2f88a7",
+      "sha256": "a3318c896f709dd748625f5195c3459bef1638b141e8bbdf775fd3460585f966"
+    },
+    "dist/packages/acfwp-edit-coupon-app/index.0d4df805.js": {
+      "md5": "3b1334ffc6b2d16d2b3add8d6cb9217b",
+      "sha256": "c9b5a0bee54ef2906c0806576c00abbbd94d884e82fa082227dd4b6cfb840c1d"
+    },
+    "dist/packages/acfwp-license/index-legacy.e947388e.js": {
+      "md5": "fc6494bc924909a88bc776665a7dcbe8",
+      "sha256": "a476414103df0402ba393c1488e74c066bcd11cb728a539bfeeae5481af34c1a"
+    },
+    "dist/packages/acfwp-license/index.340409a6.js": {
+      "md5": "f6f516036b3fa473ca5c4fd098db529a",
+      "sha256": "f0b31d859dd6f056f9e7b499e0d8c5f043d0a378e4267c4c468700c8e0ab5aba"
+    },
+    "dist/packages/acfwp-license-reminder/index-legacy.55d818c5.js": {
+      "md5": "1b692769eb70964141abba8f171ec32d",
+      "sha256": "7ac0d7c09e679aec9c5e04bff15e603ab5281b51e2b89827f9aaa70ddf626dfb"
+    },
+    "dist/packages/acfwp-license-reminder/index.5be648c1.js": {
+      "md5": "69363a41c496c97d2739bc84abd062f0",
+      "sha256": "1b8657ef82e6e36bbe994ae71788b08c42e3df7c8111b180bb2ea74239598cd7"
+    },
+    "dist/packages/acfwp-mu-license/index-legacy.c355e6a0.js": {
+      "md5": "114967369bef4a8e7f0855d4e141f8fd",
+      "sha256": "a3a08144d0eb245d0f8fc9f95a8b5d6a60067843967d53140ec33ba4813ae0ec"
+    },
+    "dist/packages/acfwp-mu-license/index.06ba5887.js": {
+      "md5": "37dc5d08bc64168447ba32e0489a8af2",
+      "sha256": "874843deeb6c480fec4ba52435ed9f8bb18e7e506a351fc793bf680c8b5d68d5"
+    },
+    "Helpers/Helper_Functions.php": {
+      "md5": "9efea38dce46a227f043b06b5687a943",
+      "sha256": "ef8ecee939db3d7bc18e49ad793f2efb8b273b6180060885223eb753523fc034"
+    },
+    "Helpers/index.php": {
+      "md5": "3c0f3395c995e06376bc95f4e4705d4f",
+      "sha256": "58b3f61caeed8eaaa97998bf5129e98d8e32a3fe3e8a7c80747976ea64ef4c97"
+    },
+    "Helpers/Plugin_Constants.php": {
+      "md5": "b0bf9f660b00134d69287397754cb22d",
+      "sha256": "1e50a91d4d2532e3958a3a2c11b977a59d1869fe0fab97d0b9753f1bd3db2359"
+    },
+    "Helpers/Traits/Block.php": {
+      "md5": "8bacc71340362e4866051d944dd174ac",
+      "sha256": "2470812d285845465137c148b815250ad5299bc0f16e268739d1eac142c4f851"
+    },
+    "Helpers/Traits/Coupon.php": {
+      "md5": "440fd0130b5359c40ac335649f387099",
+      "sha256": "af74c31ac6077d6a97a7b4450c22e95cc92eb4852407f136e766eb0075ad9970"
+    },
+    "Helpers/Traits/DateTime.php": {
+      "md5": "da2e6e7b058f114b2aba6a97dabf3511",
+      "sha256": "be59be3c85c137f64c749eb294b75956b43b2d6697f6ee8a79eacc93a8e9ac48"
+    },
+    "Helpers/Traits/I18nUtil.php": {
+      "md5": "bab6166915060fb4d87c20fa96227d0e",
+      "sha256": "c686cde774451e8b004c5ed5f6adc9087d8702c179656fd07c5f0e66bb646459"
+    },
+    "Helpers/Traits/Product_Category.php": {
+      "md5": "1a6e18f857da58861178ec31a4b33167",
+      "sha256": "7d435a8853f8fe3def82cc9a3e61507b055a472c8397a265052a944e277d1ae1"
+    },
+    "images/ac-locked.png": {
+      "md5": "31b378ce5cf0ff799d4879acbcc340f7",
+      "sha256": "12c5b63974072956a4ed5d2967350d3fbfc3db134db3ad82b45ce740ff9d88dc"
+    },
+    "images/acfw-logo.png": {
+      "md5": "a9e3b377b7a4155d7a9470f1895adf12",
+      "sha256": "d359a63bf2f7d7394f279d9f9663d3091075c1a8a87269f84faddcc3b42f76c2"
+    },
+    "images/index.php": {
+      "md5": "3c0f3395c995e06376bc95f4e4705d4f",
+      "sha256": "58b3f61caeed8eaaa97998bf5129e98d8e32a3fe3e8a7c80747976ea64ef4c97"
+    },
+    "images/spinner-2x.gif": {
+      "md5": "5c1371bcb4392968647852a9c9df5d6c",
+      "sha256": "95e2cae73607bd0787becb220271fddc342ddafb885be856c2bb45501f3f9e83"
+    },
+    "images/spinner.gif": {
+      "md5": "d54cf50a44bd0aca6fd98bd46acbb2ba",
+      "sha256": "5c2d44038a6c53bd74f3a26e690c1974e1385fffbc6def4c59f91dc1f738f0b3"
+    },
+    "Interfaces/Activatable_Interface.php": {
+      "md5": "57a8d38fb923b7c557841f24bfaf0e30",
+      "sha256": "bf19a7a4e1593d44af8973bec47645a320469384f9742a0b8caba7e97b470be3"
+    },
+    "Interfaces/Deactivatable_Interface.php": {
+      "md5": "33731f324c167de900003874c16f4882",
+      "sha256": "deffa42ad180e530b84b14ed124b0aba3fd08820feedf46872395820bcf6cb76"
+    },
+    "Interfaces/Email_Interface.php": {
+      "md5": "f38702ae6330acd8a3d70a70bcbc12a9",
+      "sha256": "d1885246230f97bc2b5d0a0c23ad581e95e73e3e6278630d6f2b55226fed1fd4"
+    },
+    "Interfaces/index.php": {
+      "md5": "3c0f3395c995e06376bc95f4e4705d4f",
+      "sha256": "58b3f61caeed8eaaa97998bf5129e98d8e32a3fe3e8a7c80747976ea64ef4c97"
+    },
+    "Interfaces/Initiable_Interface.php": {
+      "md5": "79e5faac5682e52991995d414cf98ab5",
+      "sha256": "78ccd3bf6a23ccf295d8e09d9003ce63662c0e151eb9cdaf47cf33617d852a2f"
+    },
+    "Interfaces/Model_Interface.php": {
+      "md5": "ee525521f709aa3a09acb5b63fbbb23f",
+      "sha256": "38716f2245afdba51312aeefcae5641d4e5fe691654445b3e8c38d087587c76f"
+    },
+    "Interfaces/REST_API_Interface.php": {
+      "md5": "58f14559186c06f8edf1ea0f268138da",
+      "sha256": "43818e44aa40dead40dc4e4f17a4a6fbe1c62101af4e892a3df30635ff820bba"
+    },
+    "js/index.php": {
+      "md5": "3c0f3395c995e06376bc95f4e4705d4f",
+      "sha256": "58b3f61caeed8eaaa97998bf5129e98d8e32a3fe3e8a7c80747976ea64ef4c97"
+    },
+    "js/apps/acfw-reports/.babelrc": {
+      "md5": "6c35f56aeeb9e433bbc8e9c8e2e2fb5e",
+      "sha256": "6661566e9c1b84bc6631c92b2cd9c67a5301c5d879bbd484d89478b6cb3a8644"
+    },
+    "js/apps/acfw-reports/.eslintrc.json": {
+      "md5": "2b53e261abbfa82715070778685d41f0",
+      "sha256": "ca6975e83fb6bc6def056a5a4dd45aa666838805f3c3f46b4cce699a761a06eb"
+    },
+    "js/apps/acfw-reports/dist/acfw-reports.css": {
+      "md5": "c9ab8d44a25d79fd591e41a8da259e3b",
+      "sha256": "9e31d87b1097a91ced67dcbebf6a043956f297f7f59fe96ff18d1fde545a781d"
+    },
+    "js/apps/acfw-reports/dist/acfw-reports.js": {
+      "md5": "1ca87a83c1b99000828418fbb7e85508",
+      "sha256": "2b1392762c833a36f1ae0eb555cf02fa456cdb3d9075c55a132e951d103b027b"
+    },
+    "js/apps/acfw-reports/src/helper.js": {
+      "md5": "177546c0166b7ee0c381852ee34cafe6",
+      "sha256": "9760603e5b4a61ddd2541a163204226313fd4393e3a285f35441e8a55e751725"
+    },
+    "js/apps/acfw-reports/src/index.js": {
+      "md5": "75701df735820cd0f4f28328f2ac5526",
+      "sha256": "57f6638b622691add440382738c1327e4c6c3f5241c60638b3a8c06918c8739c"
+    },
+    "js/apps/acfw-reports/src/orders_with_coupons.js": {
+      "md5": "a54296250e9d48d3f46b79d33b0e9eec",
+      "sha256": "59f7bbab1a19d775ce971fef88b7ff8b188b32da0a6010bb030f9b5a2792b8da"
+    },
+    "js/apps/acfw-reports/src/assets/styles/index.scss": {
+      "md5": "c0c0e990713738ba7e35ef8e7b6455e8",
+      "sha256": "ee7125b4aa31ec15523a8a49bb8eb44317924a02a3584dc710fbe332212a1362"
+    },
+    "js/apps/acfw-reports/src/assets/styles/_orders_with_coupon.scss": {
+      "md5": "ea99110ea090479e1ad70a274d9335d6",
+      "sha256": "c0041770d7320eb1a55dca5c2f31709d357f4e9a15af62dca94391042f48cab2"
+    },
+    "js/lib/index.php": {
+      "md5": "3c0f3395c995e06376bc95f4e4705d4f",
+      "sha256": "58b3f61caeed8eaaa97998bf5129e98d8e32a3fe3e8a7c80747976ea64ef4c97"
+    },
+    "languages/advanced-coupons-for-woocommerce-es_ES.mo": {
+      "md5": "d334550d9f7947f488dd371f21f0aef4",
+      "sha256": "596219339d204b86e26e1a1f27bb9a83ee2afe62b8f44863d44f6251e4b34885"
+    },
+    "languages/advanced-coupons-for-woocommerce-es_ES.po": {
+      "md5": "c73f2cc1f32e0af3f8d4e73544e1a15c",
+      "sha256": "aa9def30a233bdd038b4c4ef72535b27f7b5ab6b647b6fc4687cf38b1b9af439"
+    },
+    "languages/advanced-coupons-for-woocommerce-fr_FR.mo": {
+      "md5": "28a1661cdc939308466226befc9cea3b",
+      "sha256": "0e4c200bf097591e3ec259e5de3f7eb5bdb0991f05ffb5632af10a0c4b61b19b"
+    },
+    "languages/advanced-coupons-for-woocommerce-fr_FR.po": {
+      "md5": "eb8a93455fa77e29558467deb443d69d",
+      "sha256": "8267bb368670303687d980858cc5ecaf6696dadba7def7cb93628555b498050d"
+    },
+    "languages/advanced-coupons-for-woocommerce.pot": {
+      "md5": "66828a31c884eddaad2ded64334bc95e",
+      "sha256": "3d259770bf002987a4635c8087c74c53db9c9d3d99efb2f5971563d20b8de251"
+    },
+    "languages/index.php": {
+      "md5": "3c0f3395c995e06376bc95f4e4705d4f",
+      "sha256": "58b3f61caeed8eaaa97998bf5129e98d8e32a3fe3e8a7c80747976ea64ef4c97"
+    },
+    "Legacy/index.php": {
+      "md5": "3c0f3395c995e06376bc95f4e4705d4f",
+      "sha256": "58b3f61caeed8eaaa97998bf5129e98d8e32a3fe3e8a7c80747976ea64ef4c97"
+    },
+    "Legacy/Legacy_Scheduler.php": {
+      "md5": "023abc89679c7329595d5a6e967e540c",
+      "sha256": "bda357b8a379ab057d92973e08f5f72c0967422460fbd1db0f0825e1ea1e5035"
+    },
+    "logs/index.php": {
+      "md5": "3c0f3395c995e06376bc95f4e4705d4f",
+      "sha256": "58b3f61caeed8eaaa97998bf5129e98d8e32a3fe3e8a7c80747976ea64ef4c97"
+    },
+    "Models/ACFW_Reports.php": {
+      "md5": "db20e17d029cbe822c7ed6aca75cdacd",
+      "sha256": "0e8e7014bfdc6fdefb0fe625ee0eedb8bef6d4df52617d815a3e211e5e1bbe48"
+    },
+    "Models/Add_Products.php": {
+      "md5": "8033943e9e3929fc3ae3962b52110554",
+      "sha256": "404ea87c35e9596e165fc4684b08026e41e398edfe7ff71b03e45be7087275ca"
+    },
+    "Models/Allowed_Coupons.php": {
+      "md5": "1f29f9339295fbe6593e6b6aff3f497c",
+      "sha256": "bc4e377c7f709ee9e158be6bee05897aeb7b83868988f808aa5c24d975137be9"
+    },
+    "Models/Allowed_Customers.php": {
+      "md5": "0c1773a650c2a579f2036c9c6b8e6b10",
+      "sha256": "1b84f1d3afc0aa56f82b0f20984134586bbc5ce5b0a4f90c8871700e9f8c636f"
+    },
+    "Models/Apply_Notification.php": {
+      "md5": "c5d310f7fecbb71970d455105a7837a0",
+      "sha256": "5524a123cbe1f8bf77dad813259d6f267f70e87272ae48a3d800972a860c84dd"
+    },
+    "Models/Auto_Apply.php": {
+      "md5": "9a7305bf55a06cae11a6e0a08b77ed37",
+      "sha256": "aedb22aa6a59a6be2603b5c384e3472fe937f8d9d19712a6038ed1d18a1f34a4"
+    },
+    "Models/Bootstrap.php": {
+      "md5": "7bd3659b4c003cd13d39429736ee8298",
+      "sha256": "8bec87c19bcc0b539ec41c1b85b39521b987e66af0a07d6aede12847feabb176"
+    },
+    "Models/Cart_Conditions.php": {
+      "md5": "0837970b5abde1070b884dd081b1ed00",
+      "sha256": "14f4755e4f5e80ad19d1aff98a202e6a9f8bc6d654e2fa56f30ac74465669952"
+    },
+    "Models/Cashback_Coupon.php": {
+      "md5": "e7045d5eb0c105b97216b792c4fd347e",
+      "sha256": "2a65a9f0d8c827abf809d096cb78b202b6d64794c8260216891aada54296d4e1"
+    },
+    "Models/Coupon_Card.php": {
+      "md5": "277d08cc3418036a1e78d83bcba20c3a",
+      "sha256": "8ea7dd69d56d04a0a9e55705b3edb25f95b7f3486f9d820cf13015ca734c57c3"
+    },
+    "Models/Coupon_Label.php": {
+      "md5": "6af8789a8057f942f43dbc89bbf0b623",
+      "sha256": "71401025c64244db266664bea3a8e1bb18f088e30a6747241c62e21f822bd791"
+    },
+    "Models/Coupon_Tab.php": {
+      "md5": "26334fdd8f2a3843b2946ba9164d00c0",
+      "sha256": "06ea767581d87c3c10fb65dd20e15128b9295f69dc1a5a93e2da374f2e17582a"
+    },
+    "Models/Defer_URL_Coupon.php": {
+      "md5": "1af804c655e4595b0ad77fff5a5f716b",
+      "sha256": "d46d5d18a9f10d56a4f7117ccc76b2028dead029e658b33d19ac99e3d1cd093e"
+    },
+    "Models/Disallowed_Customers.php": {
+      "md5": "e2d92b2908d349587d14bd689e1364a1",
+      "sha256": "2e66be904c957dddec0909f4d1983c27ae2ebd380326c6170facab1b32e5a567"
+    },
+    "Models/Disallowed_Emails.php": {
+      "md5": "65519ba14fd1afe7ae2b369743b0a9d6",
+      "sha256": "7f0ae32c6e7c37bded7c417eddb2b6039c1f5af8229457c76e5759186ee90374"
+    },
+    "Models/Editor_Blocks.php": {
+      "md5": "ac482c7276ada61f7e67adb5fe9c16dc",
+      "sha256": "907da9ed90c0b3bedf980a0f15cfe79708351a4bd3a32f8f1aa501c957c8dc40"
+    },
+    "Models/Edit_Coupon.php": {
+      "md5": "3f42fac52afed2c86ff24c07cd54786b",
+      "sha256": "2dc943762a9f9fab165cf14db3ad136123efdc9a57e10dda05db47bc0d6cd0e3"
+    },
+    "Models/Exclude_Coupons.php": {
+      "md5": "0c3228916adc30143de9d9155b4fca9e",
+      "sha256": "260e0dfa645b8651dd9414c32e90560d37ceab4440eccc08f75e3c88e1d3fb65"
+    },
+    "Models/Feature_Custom_Taxonomy.php": {
+      "md5": "f64bffe69fee632c61532b09eb90e56c",
+      "sha256": "a1ea447f3fe0ec45c434ef73a278bb01b4178d198b13c7acf014b65905692a57"
+    },
+    "Models/Force_Apply.php": {
+      "md5": "6e16a30d399e2dbab26ec21750709f39",
+      "sha256": "46b3ee3724e8942dd6110f3c96120af96b237712f345cffb632c1a2adf0f266e"
+    },
+    "Models/index.php": {
+      "md5": "3c0f3395c995e06376bc95f4e4705d4f",
+      "sha256": "58b3f61caeed8eaaa97998bf5129e98d8e32a3fe3e8a7c80747976ea64ef4c97"
+    },
+    "Models/Module_Settings.php": {
+      "md5": "4b163bf3a547aa812458e216a737e2ba",
+      "sha256": "fd4e45f3f5963baf09c90cdbe303d03d90bdee8a1f366006378b09b523b25efb"
+    },
+    "Models/Mutually_Exclusive.php": {
+      "md5": "80e5cd582e96fa8308240c10051b93a5",
+      "sha256": "efd1222cd30a88a72745cf2f7e6dfe780510cedfe00f2ff410637ba68bd77025"
+    },
+    "Models/Notices.php": {
+      "md5": "8ed543b2377173ce790f6bf10b5c81de",
+      "sha256": "cac0763836defe35885d14681baa23bfb5a994113abd0d6e1b13e3e819d1aa97"
+    },
+    "Models/Payment_Methods_Restrict.php": {
+      "md5": "dd012bde0ccfb49a6929841f6b3b911d",
+      "sha256": "be147dc91f2e6ada9d603d170e188758c3f554b951ce490f4d92184f11db3e46"
+    },
+    "Models/Percent_Discount_Cap.php": {
+      "md5": "83012f7981a889b9a9b25f1b5d9de814",
+      "sha256": "5f4f56a66686fbbdc56eef0d65251711007a307b31cc6c5c6cf95f5bf6c5358f"
+    },
+    "Models/Product_Attributes.php": {
+      "md5": "efc7313d776118c2e4fa0a0d27cd5e82",
+      "sha256": "7dbbde121e08a922e151d6c314fb1c8046c8df493362ff777eaebffa911c4873"
+    },
+    "Models/Scheduler.php": {
+      "md5": "4c9748a0379d15f273371845a332d997",
+      "sha256": "3cc89fde84abf736462fe9398cca3486dbe907b71bbefecf3df54f6bf96b43e3"
+    },
+    "Models/Script_Loader.php": {
+      "md5": "dcf22ebd5c0491181e6eec59a7a48fad",
+      "sha256": "69c9f95cfdcd2cc9b7d62e96e33092519f704a36ba5e6761fafc47c7c881a11d"
+    },
+    "Models/Shipping_Overrides.php": {
+      "md5": "71b3e3de7f6228cbd4ca7ff9a1c9a9e5",
+      "sha256": "a81c95690f380cca17c06206af156a2c200b7892ebf2ff6c9b86439a606999d8"
+    },
+    "Models/Sort_Coupons.php": {
+      "md5": "59d50bbbaadba24b108b04c63aa6aa5c",
+      "sha256": "20ccb38055679ae148d63deb3d9881936b8eaa7082ec1ecbf006e9544d78791c"
+    },
+    "Models/Store_Credits.php": {
+      "md5": "089c71813b202e46bfb354417d441969",
+      "sha256": "c3d97a84dcf591c7b02d9a650a2820d82bbc950ea1847191a73d2f1c41e937b7"
+    },
+    "Models/Usage_Limits.php": {
+      "md5": "98706b5e865ac62458c33d3b82e643b7",
+      "sha256": "aed7efb80df3ecc77346a1645299907e841a614248bfcb7f5eeccd7370580c86"
+    },
+    "Models/WC_Blocks.php": {
+      "md5": "7d6cf0c5d3722bc24b7268159222474b",
+      "sha256": "082bff4b01d4e96d4d6c91f85a6b52d0d727e1416c59779b39cdd652f8406e36"
+    },
+    "Models/BOGO/Admin.php": {
+      "md5": "0a8551da8407e85d809c9ddab5007ffe",
+      "sha256": "3319f55ef0a3318ff4263be0a4e9588ea0842a10223264e92b105566d2fa59bd"
+    },
+    "Models/BOGO/Frontend.php": {
+      "md5": "300789f142f035695a899470f8fd8afe",
+      "sha256": "958de6c3ccc4c3741d790a0c41628d2f32443a61c664b023a570fdc4d707215e"
+    },
+    "Models/BOGO/Migration.php": {
+      "md5": "ed785889eb355b040bf99370c0a6cf4e",
+      "sha256": "b93382faad407cdd4e05c2f40c3308506c5fc378b943a494ae0cf856bf888bf0"
+    },
+    "Models/BOGO/Types/Same_Products.php": {
+      "md5": "994f30bbbbf51505c4319143b98556ea",
+      "sha256": "df42b0f22a0bd94bf0712f6e62bc1747f11c0554cc27b5327652a026b2eb6643"
+    },
+    "Models/Emails/Emails.php": {
+      "md5": "47a9a2e2b586992db8e76c7ae03de194",
+      "sha256": "9f70ae2232600514260a555bc67521e7984dc52b60e64593d566ed7c84d44c96"
+    },
+    "Models/Emails/Email_Store_Credit_Reminder.php": {
+      "md5": "57e5ce6576bb0e5655788a09d3f92bbf",
+      "sha256": "822adbdc06f2d886e07891acf3f0c1cd8138f843534500e199f15d8d40db6b85"
+    },
+    "Models/Emails/WC_Email_Store_Credit_Reminder.php": {
+      "md5": "01075a492992f0a577f29c6afe27fc45",
+      "sha256": "a449e60f03eef7674780595cd344c100385486eaf6b6ecddb77157b61349309d"
+    },
+    "Models/Objects/Advanced_Coupon.php": {
+      "md5": "d58b70455a80c12b4482ba6d0df27a2e",
+      "sha256": "4cc363eda4e4d7fcf155591b65b34de5b70720dc9684ae7ff9157db247e9676c"
+    },
+    "Models/Objects/Virtual_Coupon.php": {
+      "md5": "6d7d568bf7c0543c87c3b34914993521",
+      "sha256": "2882d178a633881dd38fc195f9ad9e4a37db7629cc594695c9bc5a0ea19dcabe"
+    },
+    "Models/Objects/Vite_App.php": {
+      "md5": "398cefe73dd69f4557ee6c7917494fbc",
+      "sha256": "6f10bd5f380229ff922ded2c2cef53fd9f00fedd033d3ca095e81a947e0a8315"
+    },
+    "Models/Objects/Blocks/Cart_Integration.php": {
+      "md5": "7f290fc7c331a15f03e406dfac8c0070",
+      "sha256": "a8fa374fbb9ddfed5a9d74873e628ad4799549f83519d7005694699c2370301a"
+    },
+    "Models/Objects/Blocks/Checkout_Integration.php": {
+      "md5": "3b2504f78ac7653d2e909978f5d1fb7e",
+      "sha256": "bcdb31f73171b07e14744fdd81a6d9b57277812c800ac591adee2aa12ff2d2c5"
+    },
+    "Models/REST_API/API_Email_Store_Credit_Reminder.php": {
+      "md5": "28c33f9efa7e8163e2b1119b4e87f5ec",
+      "sha256": "f57c1cc84dc5c8fd6b709cb5d64e95d734fd84fc1c2114c885e1f9815c72f3e7"
+    },
+    "Models/REST_API/API_Virtual_Coupons.php": {
+      "md5": "93fd708e8ffc830e3345bae2f0746b2c",
+      "sha256": "d79e8a751d77dcc25ddd4f8e45a8bc69d57362c58161cb150559d0f6e3fbc3fa"
+    },
+    "Models/REST_API/Store_API_Extend_Endpoint.php": {
+      "md5": "c57372106882152a888a4d96fefaf8a6",
+      "sha256": "4b7e982670835895f74e09e3c9b46c2be9adfeddfb587567f26871f5c691aba5"
+    },
+    "Models/REST_API/Store_API_Hooks.php": {
+      "md5": "9889cea7d10f1c73ab7ca0420c570b1b",
+      "sha256": "f3bc282b61553f487f0bb190d92e91552463ec27deb5bb909604e89383139d0a"
+    },
+    "Models/SLMW/License.php": {
+      "md5": "8b9717527b09f50794b1f561417d2993",
+      "sha256": "d86b2587cc610188b1bfa2b5a21611782c894d68f54bb7a60d07394036f7738d"
+    },
+    "Models/SLMW/Settings.php": {
+      "md5": "1909f6f89f0a86cdc1670a51061fb39b",
+      "sha256": "68ab247f9a277bf53d9b72571a1b4f156f034f659ebbe050680635f05810d563"
+    },
+    "Models/SLMW/Update.php": {
+      "md5": "2c31b0de2ae448c024c020c4039d3081",
+      "sha256": "8ca934bd270208f0d27528cac5d0ef6b68f29409da36b15aef60910f6b94f0c5"
+    },
+    "Models/SLMW/Traits/License_Check.php": {
+      "md5": "73cd62ddf398fd09ad3d192e778a51ee",
+      "sha256": "f87252f496447b6b2fac1d27d7507b1966b99aace4624d5be1a1153e0daf79e2"
+    },
+    "Models/SLMW/Traits/Notices.php": {
+      "md5": "f84b0e23119e23ef31d920fa31fed917",
+      "sha256": "c21f3f73eab97e14e12d392a26d90f4e08e26ec11ae1549cdf50743ac21419f6"
+    },
+    "Models/Third_Party_Integrations/FunnelKit.php": {
+      "md5": "16c835fdb54c7fd09573dd22e598f391",
+      "sha256": "77a61ddb1b23364ce461eecb02bdb00fb09f4e2c1f3d74699997b0ccd381aefb"
+    },
+    "Models/Third_Party_Integrations/index.php": {
+      "md5": "3c0f3395c995e06376bc95f4e4705d4f",
+      "sha256": "58b3f61caeed8eaaa97998bf5129e98d8e32a3fe3e8a7c80747976ea64ef4c97"
+    },
+    "Models/Third_Party_Integrations/Woocs.php": {
+      "md5": "b4bb97f392df90e01b923d4af8a99a92",
+      "sha256": "98c4485e787ecef6504b93be86284f7f6a83248f118e971a825184cfc9118d3d"
+    },
+    "Models/Third_Party_Integrations/WPML_Support.php": {
+      "md5": "bc7cb45c434929303de6a9b9d7e87ef0",
+      "sha256": "ad9c37f281ecbf6d7bf7eeabf40786ed9010ec8c8b28072903fc6d2f9ac68112"
+    },
+    "Models/Third_Party_Integrations/Aelia/Currency_Switcher.php": {
+      "md5": "86797b70f6c3649c3cfb3f2c050b73c0",
+      "sha256": "84e7930c838e6797b4bfcc8f5981d60aa59085f04cb0fe9f9b32c650cd31e529"
+    },
+    "Models/Third_Party_Integrations/WC/WC_Memberships.php": {
+      "md5": "19c9c4abdcbd4bd40d595f423c3d30e5",
+      "sha256": "a4542e868ff4b2afbccc2e21e129613687a335d561cf05b7ab23336e09b03406"
+    },
+    "Models/Third_Party_Integrations/WC/WC_Subscriptions.php": {
+      "md5": "b6c705d5597b087ed1718936565a9b38",
+      "sha256": "28b7d0a6b3b0bfabe6ed2cc2a03751512a7270ccee68a708ac1b46cac9440da2"
+    },
+    "Models/Third_Party_Integrations/WC/js/wc_memberships.js": {
+      "md5": "ad5c6e0ca86dc57bd7734cedc50276de",
+      "sha256": "7fa02ff9d3d26bfa72c7b6fba48636c83925ef1dfd4ffacca39fb2b25c800198"
+    },
+    "Models/Third_Party_Integrations/WC/js/wc_memberships.ts": {
+      "md5": "b463771c1a44d88800ed3be36752747b",
+      "sha256": "c1363bf05f7aec1626037fcd528c0a1fde6a9e8f8ca9a743fabf7b7b1df48459"
+    },
+    "Models/Virtual_Coupon/Admin.php": {
+      "md5": "786cd0b25383b1126b297ec5d1ccab44",
+      "sha256": "35161857eba9b2f84093a14987d9679e9fe4013329fa2f15acf30fceb6598756"
+    },
+    "Models/Virtual_Coupon/Frontend.php": {
+      "md5": "00770524efa0e8135a1a2d9c1c21de23",
+      "sha256": "b13d6011373e51db2974a5fdf1c511cb7bd57bd086f5d24ed31528fad1e30d27"
+    },
+    "Models/Virtual_Coupon/Queries.php": {
+      "md5": "0c4f524f7d81292d45c5815eee33cfc2",
+      "sha256": "b6df855870930abbc4711de85c14ffdd5712ec47d0c91f341a0ca79614178d61"
+    },
+    "templates/acfw-my-coupons.php": {
+      "md5": "66cbcbae4ed812ebb5da84badd69355c",
+      "sha256": "c9ef5fb4bcbdaad087523c89dca8977ddc60d1b41268512c9e437e7be7001b29"
+    },
+    "templates/emails/store-credit-reminder.php": {
+      "md5": "b1bdbe638ad388e9593d55fdd9df1f70",
+      "sha256": "5711a66b54b8ef7a38229a55a14a160a504289d74c98141597e6ccbb1bbe1c7b"
+    },
+    "templates/emails/plain/store-credit-reminder.php": {
+      "md5": "5692648c23ec2b62261c9f069e67308d",
+      "sha256": "ca4afbf54332a9bfc85dd67e150b7ea8944f295a0a46b7848fe4c38026f2c9a3"
+    },
+    "Traits/Singleton.php": {
+      "md5": "47d52ed887f13a441b92a71cffcefe6e",
+      "sha256": "d7585e276654577d593e208a0af00c3201dd589be28d06c0ec03e9c738850f71"
+    },
+    "views/index.php": {
+      "md5": "3c0f3395c995e06376bc95f4e4705d4f",
+      "sha256": "58b3f61caeed8eaaa97998bf5129e98d8e32a3fe3e8a7c80747976ea64ef4c97"
+    },
+    "views/coupons/category-form-add-mutually-exclusive-field.php": {
+      "md5": "4b79ba426a4ab6072f53e7407046f66b",
+      "sha256": "46b469355b7e131aaa5518a3bce7536bbd809695b4678eb4b0c477613a4e9512"
+    },
+    "views/coupons/category-form-edit-mutually-exclusive-field.php": {
+      "md5": "4ddb2fec54d2a5a0f4e8bb3272031a64",
+      "sha256": "8f966a9fdebea71886703d793fad4240b2da70f36aedad641e371a370832b621"
+    },
+    "views/coupons/index.php": {
+      "md5": "3c0f3395c995e06376bc95f4e4705d4f",
+      "sha256": "58b3f61caeed8eaaa97998bf5129e98d8e32a3fe3e8a7c80747976ea64ef4c97"
+    },
+    "views/coupons/view-add-products-data-panel.php": {
+      "md5": "10cddd03aa95464015f228af336a7085",
+      "sha256": "6012439f78c97c8579af14d21bf0eb669972ef693114020cfc85e75f6029dd2a"
+    },
+    "views/coupons/view-allowed-customers-field.php": {
+      "md5": "463fa42a244a139cc7421616df520410",
+      "sha256": "e9bfa648c8aca09dea3edcb87dab9abeeb43c6741d4d2a38873c656033283020"
+    },
+    "views/coupons/view-coupon-bogo-additional-settings.php": {
+      "md5": "569d10cb2ebe401e195532180e53db00",
+      "sha256": "3012607f3b72f807b31dc3a05629b7dcb6ac8283dd272dcd21bc65142f0e625e"
+    },
+    "views/coupons/view-coupon-sort-priority-field.php": {
+      "md5": "b733310e52e6202156383bc32b1d59c4",
+      "sha256": "07309bf4bee370a674c13ffcf9bc0c2d95c4e7301d862d2be31192768859244e"
+    },
+    "views/coupons/view-daytime-schedules-panel.php": {
+      "md5": "6fcf6792cbe1c8a32977d37dcd302a2a",
+      "sha256": "04fb9f02b3ac54e58e53c5befe429da9e6c7674956fbafb28f4641834204f984"
+    },
+    "views/coupons/view-disallowed-customers-field.php": {
+      "md5": "1ed13933c2b1c190cf629a82d65df4d7",
+      "sha256": "334214f0caf0fb96ec532197aa19891f4d8cc32232b3bc40478b0a2da7fae06d"
+    },
+    "views/coupons/view-disallowed-emails-field.php": {
+      "md5": "ffac358b7e930a9e53a74db1a4ce8bdc",
+      "sha256": "cfe566af47207c9f7afde486a6b94f5c74e81842993cfdc7ae5b3b286f25ce17"
+    },
+    "views/coupons/view-generic-admin-data-panel.php": {
+      "md5": "504fdf58b3fcd05f22a9ee3d2cbaa5a1",
+      "sha256": "c82bb9507024a62ad9230810bb8460889530c75838ce82c8c6cadec4fd6d6e5c"
+    },
+    "views/coupons/view-select-multiple-coupon-field.php": {
+      "md5": "62159aa7ff42f9fd916190fcef0d8063",
+      "sha256": "7982fbf6760a74df89727bf75daed3f257bc6e6d8e34c35f8e6a9c11e3183e8e"
+    },
+    "views/coupons/view-select-multiple-product-attribute-field.php": {
+      "md5": "34ea0226153d36d1e5ad7173157e7c88",
+      "sha256": "0bcb2d9af5b239336cad3d37c4a6fa6361786447f87d599e78bb2019c21e7c65"
+    },
+    "views/coupons/view-shipping-overrides-data-panel.php": {
+      "md5": "681d4d0474513335ba8918fc86712f83",
+      "sha256": "26880d7b9759de199116ca42384c0d6a2c418651db3392ca7f958ee354308eed"
+    },
+    "views/coupons/view-virtual-coupon-metabox.php": {
+      "md5": "f1ffa954401538448baa20de1dca1507",
+      "sha256": "5774f705d424cccf1055749737934db8f4775be280a609328ddf51c2efb0f27a"
+    },
+    "views/errors/preview-email.php": {
+      "md5": "b12b64173435be73f2380458b5bc45e2",
+      "sha256": "6abfe1d910be908c56c7512444e9a91fe61fd039ef7664bf54b3219f7e1a9bf4"
+    },
+    "views/notices/view-acfwp-failed-dependancy-notice.php": {
+      "md5": "5e1c622698b929a1fcfc6f86417059d7",
+      "sha256": "14ce772808502eebf80268067d0a49716642530d03e2edaa2098efb0a534b94b"
+    },
+    "views/notices/view-license-disabled-failed-renew-notice.php": {
+      "md5": "f7c200dbb5d1709552543fa9f4b9e4d8",
+      "sha256": "0563a54f5107ed8ac1e812959e0f38aeb43cd11463991e84e1a131b5938756c4"
+    },
+    "views/notices/view-license-disabled-manually-notice.php": {
+      "md5": "1995023c2f47c591bcba3ac4a92eb3f7",
+      "sha256": "2a2c5705f62b8a21cda066de0c674e9b813cde30a4fe152637bd39c84200b018"
+    },
+    "views/notices/view-license-expired-notice.php": {
+      "md5": "97905c1e7eeb3ebe262e0a69298aaf38",
+      "sha256": "ef311804d1453a4f933be5f2c210b1f6ed2195c039eab92b09441be091726255"
+    },
+    "views/notices/view-license-pre-expired-notice.php": {
+      "md5": "ad880e9096941027346e59e4468bca79",
+      "sha256": "67429a385dcf37c9ef1571a829ffdec26ebf574671fc7528bf4b3c36fd215881"
+    },
+    "views/notices/view-no-license-notice.php": {
+      "md5": "ed43bd627081c14480975aebbd9016b0",
+      "sha256": "0aba05a1f94e70c0b232e32cb40132ee33483331dd9299242758eceb784b91ba"
+    },
+    "views/notices/view-plugin-dependency-version-notice.php": {
+      "md5": "54fbf032bc32f9195c830747f8af6dd8",
+      "sha256": "b93b09e7c434e82895809ef8c08d0040ef4998b4f620926e6f5ffcdd331d67de"
+    },
+    "views/orders/index.php": {
+      "md5": "3c0f3395c995e06376bc95f4e4705d4f",
+      "sha256": "58b3f61caeed8eaaa97998bf5129e98d8e32a3fe3e8a7c80747976ea64ef4c97"
+    },
+    "views/orders/view-order-cashback-coupon-summary.php": {
+      "md5": "934291ce742ca04c16fed8eb83543703",
+      "sha256": "3418404f43edcca7d9643c195e3f9ce1e2f19e1191adba4ddb7b5cd59cdbcaba"
+    },
+    "views/reports/index.php": {
+      "md5": "3c0f3395c995e06376bc95f4e4705d4f",
+      "sha256": "58b3f61caeed8eaaa97998bf5129e98d8e32a3fe3e8a7c80747976ea64ef4c97"
+    },
+    "views/reports/orders-with-coupons-report.php": {
+      "md5": "9534aa5ce2c773c0faaae5e898ce0416",
+      "sha256": "f3cd1b378a98f16df13405e1658bea42f649b84cfcf454fd163776b05a77ad66"
+    },
+    "views/settings/view-render-rebuild-auto-apply-cache-settting-field.php": {
+      "md5": "f4f69446b0c54fc239f753a02f5f96a2",
+      "sha256": "ae5d563475f3f4381279c51852348923c4391d6887ab6041230c8d30375358db"
+    },
+    "views/slmw/view-license-interstitial.php": {
+      "md5": "5f2b84fad7482f24f2918903ef5fd9b5",
+      "sha256": "1821baafab4ed5ae8e1c5d00c8229202f4b393f0727e7e5aa3f88a0c123657c5"
+    },
+    "views/slmw/view-license-settings-page.php": {
+      "md5": "c158870bc83325fc1f86b579dd67ec52",
+      "sha256": "8b386a1fff9fac04116d2f8317017ad262ad14e6771e9ffa31a41b992a2cfc98"
+    },
+    "views/slmw/view-no-license-reminder-pointer.php": {
+      "md5": "2c7ce2d5860c30be5d8bd169ad1c17c3",
+      "sha256": "477abce5b629666ff4e8978e30d54bf6c61135d2b3b90c6df8476da3b4d5a1b9"
+    }
+  }
+}

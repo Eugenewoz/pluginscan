@@ -1,0 +1,1958 @@
+{
+  "plugin": "the-events-calendar-community-events",
+  "version": "5.0.13",
+  "files": {
+    "changelog.md": {
+      "md5": "f6b4ddcb7ced4fb5fb776cb2f5c6f4e7",
+      "sha256": "3c079c35076304a10e16bc407431a3f6c15495d56435af721f54cf53ffdc8768"
+    },
+    "license.txt": {
+      "md5": "7c8a6814644706e098254da139182fe0",
+      "sha256": "81982cecd3d7ffe442cab01ccbe1f3bc0eabf44bc4c8b81f8ba5a32c49ee6b08"
+    },
+    "readme.txt": {
+      "md5": "84fec22ee06144bbe66a422ef94ed3b9",
+      "sha256": "7aac7bc4dfb33441541ef0bbdde70977f86e76e91804997a1dad59718acf4458"
+    },
+    "tribe-community-events.php": {
+      "md5": "484eb4a2c8094b7ab37ea9f9434a4fa0",
+      "sha256": "8ad0db713140037a00a6693fdfeea9b80bbc7d2935019913d8be6eab1f3190f4"
+    },
+    "build/css/events-community-tickets-admin-rtl.css": {
+      "md5": "8781b2b923cef9b647faf8ab2962b6ce",
+      "sha256": "8ee50fb55c6f5b23738c86d45509d0a1e026f23083a614f954d76de97507cc9a"
+    },
+    "build/css/events-community-tickets-admin.asset.php": {
+      "md5": "5ce7854abd99014f3770d17266e7c0af",
+      "sha256": "2f5cfa5ac5bc692a345c6f2d32083c76b364f9120b2a5e92e20d164b98a8048e"
+    },
+    "build/css/events-community-tickets-admin.css": {
+      "md5": "d75b028ce50a9c64c05ecc08e30ebc52",
+      "sha256": "82c4e4485d4ed8f875c2c6265ecd98923712f66328524b39c3534a97bc0883a9"
+    },
+    "build/css/events-community-tickets-admin.js": {
+      "md5": "d41d8cd98f00b204e9800998ecf8427e",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "build/css/events-community-tickets-rtl.css": {
+      "md5": "24ba756a6a989031748f8ce73b1192fa",
+      "sha256": "ba1e99f8f26c7fbd8f8688fd6d34cea266987cf4814aeab1a3135a1d9df7b1cf"
+    },
+    "build/css/events-community-tickets-shortcodes-rtl.css": {
+      "md5": "6f494ab2dd81bcbe61c6ee0289b56183",
+      "sha256": "22225e7e50c32c164373c72413bef66fb28722cdf7fecc78ec904dbe7c0d8a0e"
+    },
+    "build/css/events-community-tickets-shortcodes.asset.php": {
+      "md5": "8fb049a08cb2b367671250a744c2738d",
+      "sha256": "ba2436b0a7082ff4c36d0098bcc789459d2794e93813f8f2d6539da47dfb7b0a"
+    },
+    "build/css/events-community-tickets-shortcodes.css": {
+      "md5": "ee15e4120c1fa7f8c8332d298514c5cd",
+      "sha256": "34f56f30e558ae6e9ab714e286c69b4d50d16f43f6c5e15a48afa3f4321d3701"
+    },
+    "build/css/events-community-tickets-shortcodes.js": {
+      "md5": "d41d8cd98f00b204e9800998ecf8427e",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "build/css/events-community-tickets.asset.php": {
+      "md5": "4ef7eeb5a593b12e88e9f19d0b5c0439",
+      "sha256": "05e1ae661368baf3a0793bd8d2a3a604ebf8dceaa6253d3c3364fa2ed2b18395"
+    },
+    "build/css/events-community-tickets.css": {
+      "md5": "235a6fa848834d4a41c4f716e2ec94f8",
+      "sha256": "3ae4239afc3e3a4eeeb8282df625ca53156cdfb699b774fbb07513774ee448cf"
+    },
+    "build/css/events-community-tickets.js": {
+      "md5": "d41d8cd98f00b204e9800998ecf8427e",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "build/css/tribe-events-community-admin-rtl.css": {
+      "md5": "4ec69aaccea2e90be9d375614a645dfc",
+      "sha256": "9190e405c2b0a8b4301d7dc3e318a3df05b6d14d9c87b919316d750287701cad"
+    },
+    "build/css/tribe-events-community-admin.asset.php": {
+      "md5": "173918fed1bbb25428a40ce58debada9",
+      "sha256": "35f770f2a66a608c0877e28d9daca8175653d5209113b345496eeb49dc699cb6"
+    },
+    "build/css/tribe-events-community-admin.css": {
+      "md5": "1d9d5f04ffc9464e36136609f006c1dc",
+      "sha256": "a3ab1a724bf8854da2dd19b4906269cb5d5c5fa754281a8b6e22fe5e0bbc8e6b"
+    },
+    "build/css/tribe-events-community-admin.js": {
+      "md5": "d41d8cd98f00b204e9800998ecf8427e",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "build/css/tribe-events-community-list-rtl.css": {
+      "md5": "594f0132db377174436c2c4f3c9667b3",
+      "sha256": "80ec2871c9d6b6827e1de1298f60057f63e69d3baa55c31ec87855b78fea6dea"
+    },
+    "build/css/tribe-events-community-list.asset.php": {
+      "md5": "617d1c84d4004fbbdb9658dccff94442",
+      "sha256": "23c2c5f62a1b5d94f54f9185f88d3a70cb41fe32f01aaa7b87ad25149cec75aa"
+    },
+    "build/css/tribe-events-community-list.css": {
+      "md5": "d2b64be4326f42018c127a123fb2093a",
+      "sha256": "b9a5eb1155fa03fbf7724633a80a0a05329521054d0e9e996047e125a4c11e8e"
+    },
+    "build/css/tribe-events-community-list.js": {
+      "md5": "d41d8cd98f00b204e9800998ecf8427e",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "build/css/tribe-events-community-rtl.css": {
+      "md5": "e89122923a2257ca584f5936245e45f9",
+      "sha256": "b2a032a436460e8de35d6f9b28b1dbd2f1d2111f2db982d62741b061efe50dad"
+    },
+    "build/css/tribe-events-community-shortcodes-rtl.css": {
+      "md5": "f5350681f061c5f999160ce27878c3c4",
+      "sha256": "2b29c8c4603306fd95594aa38e50bb4b4c4f712d6835c2de9d126005b98a719c"
+    },
+    "build/css/tribe-events-community-shortcodes.asset.php": {
+      "md5": "dc7c71b77b0423a8820a08e652fdea06",
+      "sha256": "3037b72b0e3f670e57ffaa6824699c8ea9a85265438dcb49ec145e9db0924aaf"
+    },
+    "build/css/tribe-events-community-shortcodes.css": {
+      "md5": "4f14878955136b961d5541712eb2608e",
+      "sha256": "6c90fdfbd6cf75639c3dfc183d00465c7f8fd7c79376ee843b0ff765a785ceb3"
+    },
+    "build/css/tribe-events-community-shortcodes.js": {
+      "md5": "d41d8cd98f00b204e9800998ecf8427e",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "build/css/tribe-events-community.asset.php": {
+      "md5": "8af66dee8c282861ca5e2046299d833e",
+      "sha256": "0a85ebdd7436620b1941224ca87ae9bd190571f7216bdbfa606d1e4e0237d347"
+    },
+    "build/css/tribe-events-community.css": {
+      "md5": "31e3e4c478a861b87ff28cffda8aa3b8",
+      "sha256": "53fc0b060df0f6f099d81ddaae56a29f865a760646bb60ec3b8a0e5e8b66f370"
+    },
+    "build/css/tribe-events-community.js": {
+      "md5": "d41d8cd98f00b204e9800998ecf8427e",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "build/images/image-icon.af7440b5.png": {
+      "md5": "20254b9a2fbafafe3dd262a2a4f75de7",
+      "sha256": "983bbf5e7a5111d14da49f17f327f837db08ca36b19d14cd1afc21e7b530e264"
+    },
+    "build/images/searchx2.6f1efd6d.png": {
+      "md5": "2755108842dbe3ad2bd58a72077e52e9",
+      "sha256": "c2e1ec7fc33ef8ccd6fb8979d116a0f3626e0206772b70399d0b407e2abf6f56"
+    },
+    "build/js/events-community-tickets-admin.asset.php": {
+      "md5": "93071c28b27d4b727cb8774fe574fc5d",
+      "sha256": "2962802a507574bbbf22ea007fdfb9a4da2323938d52bb96bf0fedc3b2602bbe"
+    },
+    "build/js/events-community-tickets-admin.js": {
+      "md5": "67d023782174194a5b10b6ad86575891",
+      "sha256": "f96fa63379ed7abd7ba1f2daa2394d24a6fd9badc41ade25726d1e28d44e840e"
+    },
+    "build/js/events-community-tickets.asset.php": {
+      "md5": "0fb7774a24078efa5aa480e4903a8032",
+      "sha256": "abf8eff6370c075fe0ebd82494f411c98d800522863bd4f4b77a9e3d57d34a81"
+    },
+    "build/js/events-community-tickets.js": {
+      "md5": "0dbd3ae4148f387ca8c4b96f1c6d9cc9",
+      "sha256": "8ecc43032ef76e91f68616cf6825dbec300441f0aedd11b68cc83a170fdafc46"
+    },
+    "build/js/tribe-events-community.asset.php": {
+      "md5": "8a0847ec28b459c7a913a3e3ad1a1888",
+      "sha256": "220d1d75160fbd854079b84a4c7ef563762b333d1268ffa1636fc3cd06ba8d6e"
+    },
+    "build/js/tribe-events-community.js": {
+      "md5": "fa11c2bfebf117f8bd28fa7f07d93ae6",
+      "sha256": "c31962c32aecf7d6dca422718c601b1a31c7538b3a8bbbcb7a5e93bfc3343869"
+    },
+    "lang/readme.txt": {
+      "md5": "ccc2dce746fc06a6850fa3879578d362",
+      "sha256": "37176f5f68f58e732548fab32642f0e73278dd5e3ed2f1e018ef79b4a9feee46"
+    },
+    "lang/tribe-events-community-bg_BG.mo": {
+      "md5": "62e040f0fe1f6a84bd92f9888865fb6b",
+      "sha256": "3cc3e0bdebf89c1db19d270cae2c33d61e04993802a132b3843999efe4d0cd6c"
+    },
+    "lang/tribe-events-community-ca.mo": {
+      "md5": "6dbc1d7a651bd732e27cfab8d9ea8071",
+      "sha256": "51bb62c318ff7dbe8970ddccd8513cd1a045cfbc5eca95e3741bb113ae2cd978"
+    },
+    "lang/tribe-events-community-cs_CZ.mo": {
+      "md5": "6b416e9ab1ae62538a4898f6e20fdea8",
+      "sha256": "551b8a671850f3343d563e8adb5b4fdbec5f871ec155c753e08a62a5100af409"
+    },
+    "lang/tribe-events-community-da_DK.mo": {
+      "md5": "73e46be070a73e8766a33ab6e32efce9",
+      "sha256": "618563e0c559de83ed4239456cd45bad239049ca3f2808797655088de7046038"
+    },
+    "lang/tribe-events-community-de_DE.mo": {
+      "md5": "3fd15cd03d3159a5531c4753485e2937",
+      "sha256": "7d89239e101ea9128fb7656136dd68679e225051286a4215ebadfa9443b77051"
+    },
+    "lang/tribe-events-community-de_DE_formal.mo": {
+      "md5": "bb27ef9e2d11606d470cf7b210d7c2b2",
+      "sha256": "af9c9696d2adcec5c68e4d1a787016e149f8968a0150400ea6ddf6fbd663cb86"
+    },
+    "lang/tribe-events-community-el.mo": {
+      "md5": "7ed7447ac5cd27e13c09be16eaa3b6e6",
+      "sha256": "6ecc041f3580f28658a30cac4655170647a1c36862c1d6216d70fb5394aef498"
+    },
+    "lang/tribe-events-community-es_ES.mo": {
+      "md5": "8ef3e383487c37a620670366bb71459a",
+      "sha256": "e9c7d31261beb62a7c00dd9576ffe2766ca82c834897ec037743d8d93c25d0ff"
+    },
+    "lang/tribe-events-community-fi.mo": {
+      "md5": "47e06046fbf0fc26822c4c46a7de7fca",
+      "sha256": "a71280dfbcb0200c35d97bb400803a9b51e4552d774d85e1e894b9616f46222f"
+    },
+    "lang/tribe-events-community-fr_FR.mo": {
+      "md5": "899ab9451ddedfe177a9cc31b9136e5e",
+      "sha256": "a23b0c692c8f92eebbe5384278484faf6bb3707ce70b9f29e4aa086a48700878"
+    },
+    "lang/tribe-events-community-id_ID.mo": {
+      "md5": "45a0609ae82a16158b52f440e6d15a7c",
+      "sha256": "b98ff696095bac264f50e457d0696004e80c3b5f3a5e302353babe902143c43d"
+    },
+    "lang/tribe-events-community-it_IT.mo": {
+      "md5": "f89be5237351d86ebbd4323352c54c0b",
+      "sha256": "624e28216bf74f580d1d8ff59ca4e22e577ba2472a42b3315551fc642986b55d"
+    },
+    "lang/tribe-events-community-lt_LT.mo": {
+      "md5": "808d32e2494fb37c71852bf20a56549c",
+      "sha256": "d3beb85e5ed1835f870cbd546c565280ff72a0ba7143fe5a4f6af4b1f121b935"
+    },
+    "lang/tribe-events-community-nb_NO.mo": {
+      "md5": "594cf096a3d05570102901a9c4a311ec",
+      "sha256": "e5c47b2fc8cb6685c07bf10733118ad19100b3331c4494fb413331d65c5a4d5f"
+    },
+    "lang/tribe-events-community-nl_NL.mo": {
+      "md5": "a6c78af75d259c29f0d5975a229d887e",
+      "sha256": "0efbeeb44d5a209651c52a37e79612f761f552297a867b18bf2c55df244ef034"
+    },
+    "lang/tribe-events-community-pt_BR.mo": {
+      "md5": "fc9ae213f69f8dc91a36371f6a3b9a3e",
+      "sha256": "6bb0c54c45d5b46510add7c499f57539835eae02a70da13eff9cfd611a06ee2d"
+    },
+    "lang/tribe-events-community-pt_PT.mo": {
+      "md5": "7e310acb2bcb05056f9308df632e1aca",
+      "sha256": "dd73a3d5ed4ae9c927ba945125a6bb7483e01867833c40561d6891729f2f3bf6"
+    },
+    "lang/tribe-events-community-ro_RO.mo": {
+      "md5": "dead32b44787e1ed0ea0ebe77268f033",
+      "sha256": "e3b15b2c5855524742cffc46004a6a63608f01d0e8a14f58a1503a7b7b35a033"
+    },
+    "lang/tribe-events-community-ru_RU.mo": {
+      "md5": "fbf172f5e18f0d33aa8dd82d5125958f",
+      "sha256": "8c81072e6c9e7bcfe185bbbd8b39da8491581215cdae89982dcf357bf98cd6c2"
+    },
+    "lang/tribe-events-community-sv_SE.mo": {
+      "md5": "4484f9b0e265c873d7f4d023b1efd219",
+      "sha256": "55bdac7460b345c2f3acbfd004386ad50327f5191d3e1f3b110ea8bf0ca71b90"
+    },
+    "lang/tribe-events-community-tr_TR.mo": {
+      "md5": "a55a510118392f49f640e7c26b44c010",
+      "sha256": "8a11be3b68c68653480cf6682420adeb7800c3e37a4465884013936358546230"
+    },
+    "lang/tribe-events-community-uk.mo": {
+      "md5": "6054caf15b1171510ecd642088a067ff",
+      "sha256": "285403fa0f17a409285fa21f092dd4bf913f412e78eda908094209135a0d5982"
+    },
+    "lang/tribe-events-community-zh_TW.mo": {
+      "md5": "d02f7ed96b930f8cba127c0160e6bb50",
+      "sha256": "6e4bffeb1c18b73e2eaa4d5fb8fdcd3b60f240cdf4bc2876c8df30d4e68fdd62"
+    },
+    "lang/tribe-events-community.pot": {
+      "md5": "97f6feee4473f2e571403fffa92a12d1",
+      "sha256": "dc3cf222319c8ff70d0aadfdce221f750d2717d608224e92220e4c2eb111bfb7"
+    },
+    "src/admin-views/community-options-template.php": {
+      "md5": "bb40930b7c2c4e978f1dcba9a7ce204c",
+      "sha256": "2d9d27676260f60d2e802a4de7cbe39e8c7bb6b0619ef79ece66ed85ccf8b78f"
+    },
+    "src/admin-views/settings/tabs/access-control.php": {
+      "md5": "f3a26b71bb3053e9194caf99e1eabdc6",
+      "sha256": "609f4353731c54ba34404ba063d1228fcffd47bb53a19b91b8d29ed971295c0e"
+    },
+    "src/admin-views/settings/tabs/alerts.php": {
+      "md5": "03796638547bffee552fb4c9d32ba19e",
+      "sha256": "bd6cc3c18bf4434b03ca62d913fd538ce705cb93145071ad0734562ef4e00338"
+    },
+    "src/admin-views/settings/tabs/content-creation.php": {
+      "md5": "93068fad5b37cc0a9e56eecf88103f36",
+      "sha256": "f9b70fc38682fadb78276b8b977efbdb4ccb6413d6edeaeb53fd5fde229779f0"
+    },
+    "src/admin-views/settings/tabs/members.php": {
+      "md5": "69533fa4559c569c6fc02cf2ec0cf3ad",
+      "sha256": "4997bb1af74fa0753ac903c063689a50b42fd33089ab43f73f87693d9ae1d1e3"
+    },
+    "src/admin-views/settings/tabs/tickets.php": {
+      "md5": "106b0ab82cf4cab63040d0adbfdd7885",
+      "sha256": "53a4bab0df0bb21745fdc0e7c1f22b74bb21b8573e167e9dc6c469b6e0efa7df"
+    },
+    "src/admin-views/settings/tabs/urls.php": {
+      "md5": "0ba8597c51210bb46079bebaa518ce43",
+      "sha256": "de880b860e6860ebfb8a5603fe8fb6b9518343ee1085f9350cc173cb6aff0ce6"
+    },
+    "src/admin-views/tickets/payment-options.php": {
+      "md5": "02bba38a1c3de04459db1caafe7c1a1f",
+      "sha256": "9a220f12200a5e1993298c7ed3dd902b4734f5173430c9a50641881bf4c648a4"
+    },
+    "src/admin-views/tickets/payouts-report-header-first.php": {
+      "md5": "284520b74a9fafe557391584599450d2",
+      "sha256": "9b959eda753fe42ec1ccdef8d71639f7df57becdca67cf643d77fd0f91cfc213"
+    },
+    "src/admin-views/tickets/payouts-report-header-last.php": {
+      "md5": "dc1fbeb3e95f2d3d9a18a6516a0597c8",
+      "sha256": "58970eb587caf4a47fc0097b4a61d0fa747be1a7fbb2412c34dd6283910220da"
+    },
+    "src/admin-views/tickets/payouts-report-header-middle.php": {
+      "md5": "16b375c5c16d460787206f6f6567f132",
+      "sha256": "6c6794d1c7facbbd1ea01c58ba99d0180b9f3da3c7a7e82530054121bac0fb9c"
+    },
+    "src/admin-views/tickets/payouts-tab.php": {
+      "md5": "e611bbd26b9a50c4fbd787b90b04e4ef",
+      "sha256": "72f6c1abfae0f29404e81aa593cfef936ff74c25188d4ec9336ab618bf7a3b36"
+    },
+    "src/Community_Tickets/Tickets/Commerce/DefaultProvider.php": {
+      "md5": "f617953bc51b37afa476445e229f1831",
+      "sha256": "6918a6f22cff10982df652d0ed0cde1fe28f1efa15056cc7d995c1c186d296d3"
+    },
+    "src/Community_Tickets/Tickets/Commerce/Hooks.php": {
+      "md5": "4e4d485e54a405dd2000b8c66dfc12cf",
+      "sha256": "8077086fa582474e6756b9cb67aa4e09bbc1c62a3766b6de971b42df7c309dfd"
+    },
+    "src/Community_Tickets/Tickets/Commerce/Provider.php": {
+      "md5": "5740ca3694ecf025b2193fa2a59331e3",
+      "sha256": "ddf00feb9ac5caa936bc2eb2b8b1abfa98febaedca00f8f526f6c46d7ab59bf1"
+    },
+    "src/Community_Tickets/Tickets/Commerce/Admin/Hooks.php": {
+      "md5": "327e84eb3885035268897d301b717a61",
+      "sha256": "6fc446af63352e85ceebad317847157d0370f52439aa28059bbaef4c105cd42c"
+    },
+    "src/Community_Tickets/Tickets/Commerce/Admin/Provider.php": {
+      "md5": "a7f2c992d111542b2c9ab4f5004fa16e",
+      "sha256": "07d0d997eb1ca27bf319f6424bacce8aee1793d362a2830aa38a8a493da78567"
+    },
+    "src/Community_Tickets/Tickets/Commerce/Admin/Settings.php": {
+      "md5": "cba7925d62032881dbebd859d029da94",
+      "sha256": "279f421d350194703c078fbb1c331885bb57f7881d052466a482aedfbdf21e63"
+    },
+    "src/deprecated/ticket-constants.php": {
+      "md5": "6179b4c8072e7925b23a3c6289f375c7",
+      "sha256": "28166b944ba8eaf9cad2966b91d6e85835179aa401a8daa783372fa759c95798"
+    },
+    "src/Events_Community/Block_Conversion/Blocks.php": {
+      "md5": "270de73ede326daabbac1e3fead63796",
+      "sha256": "2f9bad2a8b58e34e5a2d3cab1cdcbea36de3ce7ff7599758c50533f697ae575f"
+    },
+    "src/Events_Community/Block_Conversion/Controller.php": {
+      "md5": "818e22842082b83844819effefd964ab",
+      "sha256": "3dda8a39cf0125caa59a4a554df7186f260ac8f80fb8d503bc2632481ec9670c"
+    },
+    "src/Events_Community/Callbacks/Abstract_Callback.php": {
+      "md5": "8236aa8d0909495396ea4293f056dce7",
+      "sha256": "6d7d4039e27e1b27217f79ad4205a76c9cce308e0cf643391db94f33da464398"
+    },
+    "src/Events_Community/Callbacks/Callback_Interface.php": {
+      "md5": "b70e0b51914f7c034fb0e7003878f8bc",
+      "sha256": "bf7cb6c9d66acb1a05d06bc6f3c430287471048e371ee4d8450a9bde2d76d83a"
+    },
+    "src/Events_Community/Callbacks/Provider.php": {
+      "md5": "d6bb77404ff99a82289164b8f5ed52a6",
+      "sha256": "f4dfb9dd38ae757f80a2a26df9159b57fc158cf787556bef7a16f8f9e9c29336"
+    },
+    "src/Events_Community/Callbacks/Event/Callback_Add_Edit.php": {
+      "md5": "b693e3ae703a4b5ca2a43b327d54a34f",
+      "sha256": "a91906f13dbfd25b65ffc764cb356b11859634952bc40ad0c5a13862b48f9eb1"
+    },
+    "src/Events_Community/Callbacks/Listing/Callback_Listing.php": {
+      "md5": "b16dbb80d586152924cebce1a3931673",
+      "sha256": "cb290b4a546dfafcb3b21402ad6e2620fc143f7feb8b881f2fe2e812ee7c8378"
+    },
+    "src/Events_Community/Custom_Tables/V1/Assets.php": {
+      "md5": "16c1ca1c52c7c833e68286994e9a94bd",
+      "sha256": "5169a026566b4b81a814da9d678e800a8eba491944a75a9af36ffd785ba05eee"
+    },
+    "src/Events_Community/Custom_Tables/V1/Provider.php": {
+      "md5": "7a3dafe7cbc009e686e091d165e9de9c",
+      "sha256": "969d7a364aa8374d631d7af2d96a069cbfbf2847439946d366c0ab46311500f5"
+    },
+    "src/Events_Community/Custom_Tables/V1/admin-views/migration/maintenance-mode/community-events-form.php": {
+      "md5": "3a15ac78118fb1cf35423174d3eed359",
+      "sha256": "11527c41379c7f51960b229514e02e093d65f547c2e9609d7ab437d2e6579a7d"
+    },
+    "src/Events_Community/Custom_Tables/V1/Migration/Maintenance_Mode/Maintenance_Mode.php": {
+      "md5": "f4280c787aaf7af020ac52eb10fdb5e1",
+      "sha256": "9f0a053a6d8c2f9285c0c51b078669d39925a48e246faa94745ceee8f73921d9"
+    },
+    "src/Events_Community/Custom_Tables/V1/Migration/Maintenance_Mode/Provider.php": {
+      "md5": "6f6bf7cc2977dae343cd6104948f41b7",
+      "sha256": "6fa02c2460fd07f293dcf6f9ca644df758b8e089398fe1ff897507b67dc8e457"
+    },
+    "src/Events_Community/Integrations/Events_Community_Tickets_Provider.php": {
+      "md5": "31c3caa2253b7de949e51212ae580d51",
+      "sha256": "3738808f60c1801d33ebd6c6744cb18d6bcbb395e05e5e01b4dac75e64b11c75"
+    },
+    "src/Events_Community/Integrations/Integration_Abstract.php": {
+      "md5": "ead153f887114e2098a95f718d68ad9f",
+      "sha256": "849cc22bdd48feb133a228d82074ca60edfd905fd5b8cd77bb509c94f23bbb0e"
+    },
+    "src/Events_Community/Integrations/Plugin_Integration_Abstract.php": {
+      "md5": "8c930419854016a2f66fbe23b2cd5727",
+      "sha256": "b0324fb8825c72cc037d1d242cc0328deaea9f132aa9eee37769d4698a52d82e"
+    },
+    "src/Events_Community/Integrations/Provider.php": {
+      "md5": "7a069c6c9c7df04c1bb7fefead51a4c9",
+      "sha256": "38c9bc439a0bd03b7ac223a6ae448bd921c8875edaa37723bf392b1b67bad71f"
+    },
+    "src/Events_Community/Integrations/Plugins/Events/Controller.php": {
+      "md5": "3e6fd2c060154ff22be1b7bfb951cf99",
+      "sha256": "b6a89f82656c68072b84418168fa3be543f2e8fa9427bf8b260d5d87721d422f"
+    },
+    "src/Events_Community/Integrations/Plugins/Events/Anonymous_Users/Anonymous_Users_Logic.php": {
+      "md5": "ac076932f4342a25c7256222b39bf1c8",
+      "sha256": "a55c7aac6fcb35e496cd37b77c31a5a1872ed195bfb3a0dcad54a4c7c971d4f7"
+    },
+    "src/Events_Community/Integrations/Plugins/Events/Anonymous_Users/Controller.php": {
+      "md5": "6e19ba2598b364d29db1449ded7454bf",
+      "sha256": "3f1a07947ced24655ab0e70d52366f72a68802b94af0b79a0d16d10bbcea309a"
+    },
+    "src/Events_Community/Integrations/Plugins/Events/Anonymous_Users/Hooks.php": {
+      "md5": "3e69fe803785e40da5de057751846787",
+      "sha256": "144a858120badc6d906fbec5a2a0fce8b36c8dc4ae345eb037c6feabcd3de135"
+    },
+    "src/Events_Community/Integrations/Plugins/Events/Events/Controller.php": {
+      "md5": "a34240a2fb74217064992665219bd8f9",
+      "sha256": "6da370a89ab3791c10d6039eb999f06e3c661ea3fe71b9d74d6596e8fbc59d97"
+    },
+    "src/Events_Community/Integrations/Plugins/Events/Events/Event_Handler.php": {
+      "md5": "67e0df36c1934e84afbde0219dc6be07",
+      "sha256": "eeb9058be45d6c0a1c0a1b741ba41c590506aae667077e288e0a97fafa75b74a"
+    },
+    "src/Events_Community/Integrations/Plugins/Events/Organizers/Controller.php": {
+      "md5": "a4e580aef23ca36116be812f5b9da97b",
+      "sha256": "3943e4baea3edf75562a1af59169044214fa34e332fee53a234ae0715bce2744"
+    },
+    "src/Events_Community/Integrations/Plugins/Events/Organizers/Hooks.php": {
+      "md5": "c8bfd6a6103d5ecc188dbc949c28c1a8",
+      "sha256": "abd2bafc5e2701873f1761f5d3bc91a72dbf65a21413bd79d52ea5b1e6b7d0f6"
+    },
+    "src/Events_Community/Integrations/Plugins/Events/Organizers/Organizer_Logic.php": {
+      "md5": "6c1960527a5765fd551b84badd182fdf",
+      "sha256": "4be9c0561a1a7ac0bfa5cc61a1c73eac52ef40dce8251a9be4ee56f08845a1a2"
+    },
+    "src/Events_Community/Integrations/Plugins/Events/Organizers/Organizer_Submission_Scrubber.php": {
+      "md5": "6678fbdf4f3d3064d526de2b7f2cf52c",
+      "sha256": "d01bb6e2b58da29c0f75b5bc0fc68be05cb536c0bf48489b294c649022fa4dc5"
+    },
+    "src/Events_Community/Integrations/Plugins/Events/Organizers/Routes/Route_Edit.php": {
+      "md5": "df4c9c53d078fbe03bb39f29fb418bdc",
+      "sha256": "88308b321cf2417c7a85973ba3889e92a12182f083573813519369a49f425e3b"
+    },
+    "src/Events_Community/Integrations/Plugins/Events/Organizers/Route_Callbacks/Callback_Edit.php": {
+      "md5": "d0d725e607b51e79ddc7d563d24c5e5a",
+      "sha256": "07a7ebff8d32356ad0857d1fbf1f30b4a3b5df897f2e88de0b630446c0615628"
+    },
+    "src/Events_Community/Integrations/Plugins/Events/Settings/Controller.php": {
+      "md5": "ce772a15261b80b0082be2be80823bdd",
+      "sha256": "b7df8272ff9c02107761a3d79c6c43f234e2af458f314c46ee65caa134ac7c49"
+    },
+    "src/Events_Community/Integrations/Plugins/Events/Venues/Controller.php": {
+      "md5": "a0c90deed1f506e659c1a83cdf9ae253",
+      "sha256": "fe7434971faf1113ab15af69d0b81850ffe1e9fbb4cf13553ae9546519765e09"
+    },
+    "src/Events_Community/Integrations/Plugins/Events/Venues/Hooks.php": {
+      "md5": "df82825213714d3853fb7a71c026f3bf",
+      "sha256": "3b41e49a5bb98c59461ea64f4d41745c2c306ec11787fcd1cb795d6b71198028"
+    },
+    "src/Events_Community/Integrations/Plugins/Events/Venues/Venue_Logic.php": {
+      "md5": "e764d600cf0180459146c2c346aea02f",
+      "sha256": "088470c4b05aff20185fdba7d59eea0757ea7a09b6660b52fec7f7f37425a7b7"
+    },
+    "src/Events_Community/Integrations/Plugins/Events/Venues/Venue_Submission_Scrubber.php": {
+      "md5": "54245a7bdeb3bfe4522435401800ac21",
+      "sha256": "9af0f173ab6eca26f1c35f1c63067f1fa227098fa02427e0d0de2f47a594c8d2"
+    },
+    "src/Events_Community/Integrations/Plugins/Events/Venues/Routes/Route_Edit.php": {
+      "md5": "8cf9029d05125fb7c4ce5f567e29687f",
+      "sha256": "dd7c292f2ba2ca0ca611dccc3d77809cdfa14152a93750f098ff8e2a760f78a9"
+    },
+    "src/Events_Community/Integrations/Plugins/Events/Venues/Route_Callbacks/Callback_Edit.php": {
+      "md5": "066f6431f00f359e9063fe40ac08b4f3",
+      "sha256": "a24d657d3998f2f84bf76f4ecaf957656136622baf632eb378de9cdc89b49633"
+    },
+    "src/Events_Community/Integrations/Plugins/Tickets/Controller.php": {
+      "md5": "b86e1d72022873d9e24c50a701ccb2e0",
+      "sha256": "a5ff311f582c7c110b3b77d94cef90064bcecf1d3f7641c4d2ae39090ba93678"
+    },
+    "src/Events_Community/Integrations/Plugins/Tickets/Events/Controller.php": {
+      "md5": "1a9b2f261f2374b63cee2f6beff0a648",
+      "sha256": "8e5035bb0de9dbcd799ca11237cad7eee43e1a99a0400e75429c8b5c4d2f39d5"
+    },
+    "src/Events_Community/Integrations/Plugins/Tickets/Events/Event_Handler.php": {
+      "md5": "8cb0910e45ea9deca39c0206077cdaf3",
+      "sha256": "df4d3cd3b53e48f5f311f6557de1feee3c75b4d6a2413705e56f48179f0ffd10"
+    },
+    "src/Events_Community/Integrations/Plugins/Tickets/Settings/Controller.php": {
+      "md5": "f72a482c6aa07bc628a5ec4652999755",
+      "sha256": "bed87ab4d30020b03073110221cc13bdd22effd651585d6a34d3484da42b2606"
+    },
+    "src/Events_Community/Integrations/Themes/Divi/Provider.php": {
+      "md5": "e050ce83e6bac9abdbc5622e6a1fb1f1",
+      "sha256": "2de2b297373b0b9775287601f9f6c7f9d5daa82cc322515ebae5cc477832d8c1"
+    },
+    "src/Events_Community/Listing/Pagination.php": {
+      "md5": "faa2e7377a927fe8c81925e00e497d6b",
+      "sha256": "d594b66dd2471c031398b7bcf26a1c1835349689304e3fe9a5cf7b0aa70a65e3"
+    },
+    "src/Events_Community/Notifications/Notifications.php": {
+      "md5": "c769f5855ed272811a8b96053d3dcd23",
+      "sha256": "5bd6b2039e567f845607e9ddcb4a5c98fd08307f79a822d1ee1164bc2bbd104a"
+    },
+    "src/Events_Community/Notifications/Provider.php": {
+      "md5": "12286c59d3074b9ca20db0bacc633f4b",
+      "sha256": "d34e3c46f85e1d04f3642cee1784cf9a43781e17e08b669cc566d76d8b500315"
+    },
+    "src/Events_Community/Routes/Abstract_Route.php": {
+      "md5": "7d16c12c25c2825cf834bda0ca003308",
+      "sha256": "ce0a132f78e111a42ca07fb76f1d451352558e0a7c6032c4169b3167dfde91ea"
+    },
+    "src/Events_Community/Routes/Provider.php": {
+      "md5": "64c3e187c1dea4fa420e71b7ba146cf4",
+      "sha256": "c11d13ec2ec5a57a2d57f0ecc6fa3e4418ed02a6d70db55360f700b5da1998ba"
+    },
+    "src/Events_Community/Routes/Routes_Factory.php": {
+      "md5": "8049173ccb7920a069471201db2722ca",
+      "sha256": "9273e7a9704bffba2d01d8d20e51e9a48722d6721bfbdbbaf1a32728d12057c1"
+    },
+    "src/Events_Community/Routes/Route_Interface.php": {
+      "md5": "834b08d04db943a9a8b31af2dd311df0",
+      "sha256": "a9780b55f3ac8a88a877b8d9f37d5b508dece34fa9f5d4c9bf8da038e62e5790"
+    },
+    "src/Events_Community/Routes/Event/Route_Add.php": {
+      "md5": "910df7e3981c012b2768f349d2b5c7e1",
+      "sha256": "3a26b32e1b6c5c3bcc8bff832eb8c38fc680ddde6bf30524e7adc7c466f401b4"
+    },
+    "src/Events_Community/Routes/Event/Route_Edit.php": {
+      "md5": "d26393623213afcb8132b905b5ca0fd1",
+      "sha256": "2999c4f484dd107782e62b9c12f66e3eb0389160dd8f0f99e6d9ac202f2ca451"
+    },
+    "src/Events_Community/Routes/Listing/Route_Listing.php": {
+      "md5": "2e5f60e46eb78920c1fed6f68047f52d",
+      "sha256": "1938ca1f8040bbaa5261c1de66524b9cbf2c6b19bfca0921b106944cbf682e50"
+    },
+    "src/Events_Community/Settings/Controller.php": {
+      "md5": "30300660190910aea2a34fcb160f85cb",
+      "sha256": "9f57759c879ff6359aa5c0fd05fbef2db6f14396747ff7eb909c9393d98a87ea"
+    },
+    "src/Events_Community/Settings/Default_Settings_Strategy.php": {
+      "md5": "25966b4d5ee4ee59cc5f207b7e157420",
+      "sha256": "889fd1795a0184bc52c4bdb12786bf64766158ae2d4c22aac0f3b4236c8a8dfe"
+    },
+    "src/Events_Community/Site_Health/Info_Section.php": {
+      "md5": "2f1b32fe2042bc18c0217cfa4186f604",
+      "sha256": "d134e55fb4ce417c9fdb5bf78d70fba3e4bc0163ebf2d09c0e3754627b0b9315"
+    },
+    "src/Events_Community/Site_Health/Provider.php": {
+      "md5": "1cac29f51e01c41d1844a775b1d12449",
+      "sha256": "4540ae682efb85b45c21b9b13192182f25b64b5e734e48298f620d4c97588c71"
+    },
+    "src/Events_Community/Submission/Cleaner.php": {
+      "md5": "6a8804c3151821d0a7d5035bf9268803",
+      "sha256": "75f23807cf636819a30afaa99d97378a1cba4b892cb9418d0e158cdade944d0e"
+    },
+    "src/Events_Community/Submission/Controller.php": {
+      "md5": "08807decd77506873e843563d36b40df",
+      "sha256": "2e29127a3f8e8d738d4f9716b076059b8ed361cf79999d2a2e24bdab4e9bab29"
+    },
+    "src/Events_Community/Submission/Messages.php": {
+      "md5": "18d0d3c5274abe5ad3eedb4f12b6b842",
+      "sha256": "e03f76339f4eabef3fbc001738396006166eb0216124ea345f40d5bbc0097697"
+    },
+    "src/Events_Community/Submission/Save.php": {
+      "md5": "a5608985c00641679970077a11b16195",
+      "sha256": "d41e15d89b627e81d9683efdbfd46e90a3b7bbfec2b4c1e0c9938e7663414cf8"
+    },
+    "src/Events_Community/Submission/Validator.php": {
+      "md5": "d650699bde422e1b78182a70011a239c",
+      "sha256": "8271133cdd6cb65540a0a2fa7867146ea7e4d75ddbf57ab72d5808e8f2d021c9"
+    },
+    "src/Events_Community/Telemetry/Provider.php": {
+      "md5": "444c823903979109005b2a45fda28f60",
+      "sha256": "6b5944a07c756fb816f49753abce6e42bdb5063fb389cc5c77cb7455c07b052b"
+    },
+    "src/Events_Community/Telemetry/Telemetry.php": {
+      "md5": "b5f5557d67bcffbc86f5d14b3f6aff44",
+      "sha256": "1cfc283602d36453e0b817d81e1701aa769a637d8fc6c2a0e0115134fe63cc0a"
+    },
+    "src/functions/php-min-version.php": {
+      "md5": "b864e84a73fdb9b889e573ca564da5eb",
+      "sha256": "aa79a397e3410e460a38080b5cf62f878ea7352b268254b3fcb5d6751c8cadc7"
+    },
+    "src/functions/template-tags.php": {
+      "md5": "5b212d4e19659d4aefbd4608c148fd2f",
+      "sha256": "5ef85a5a1c01a383d35ad16c03df46e71340ae5ae2ae54e1a8fd89656c8eb041"
+    },
+    "src/functions/tickets/tickets-loading.php": {
+      "md5": "260e9d34f5c2fcdad9a603358a3478c9",
+      "sha256": "ae47509d8c0483e9aa6ade7f11e88d70001826777ad58a9f5839984a062af05f"
+    },
+    "src/functions/tickets/commerce/provider.php": {
+      "md5": "2c42aac33d3fc2c21496389564371ab4",
+      "sha256": "1b6f15b4580bfad4fbcb0c27e6fb03b2c5104efd5c6cd75e5179f75787ec385c"
+    },
+    "src/resources/images/bubble.png": {
+      "md5": "d8dcf196d4ffebdb53fbbc5086c499f2",
+      "sha256": "1059af5f0c46514742f431dbcaf226ff1fab2d359e23ef411b30cf621f47561d"
+    },
+    "src/resources/images/draft.png": {
+      "md5": "df4e3cda87c0b4e8f61f03cf9d4f9cff",
+      "sha256": "f910531c1964aa38b05434d90f8cb5b6aa2e37718ee27933b279970bdcb8ef8e"
+    },
+    "src/resources/images/draft.svg": {
+      "md5": "9c80523ec160dbd1c012ff0f38deac62",
+      "sha256": "7f844c538cbb99e4c7ac558276e8aebd431e89d1e1b5c69ed54949c6a05ab676"
+    },
+    "src/resources/images/future.png": {
+      "md5": "105bf41bee82007ae55effe5ca277df8",
+      "sha256": "fae9f04039bc93dfc8a226b13e92ee1b65df39b15eb8d1fc46d69cce00a52de5"
+    },
+    "src/resources/images/future.svg": {
+      "md5": "affaa7dce048d4722965bda31503bb9c",
+      "sha256": "aab21e334a1734cf867a707b58e50991c75d0c0a7742915ffd9d4087384b2ba2"
+    },
+    "src/resources/images/image-icon.png": {
+      "md5": "20254b9a2fbafafe3dd262a2a4f75de7",
+      "sha256": "983bbf5e7a5111d14da49f17f327f837db08ca36b19d14cd1afc21e7b530e264"
+    },
+    "src/resources/images/paypal.png": {
+      "md5": "76e9209567c61e3b8a0c7acc9d3103ac",
+      "sha256": "d24381b904693abbf9e9933a87f129b38511b9e60aba5b30177cc637b318b3ae"
+    },
+    "src/resources/images/pending.png": {
+      "md5": "105bf41bee82007ae55effe5ca277df8",
+      "sha256": "fae9f04039bc93dfc8a226b13e92ee1b65df39b15eb8d1fc46d69cce00a52de5"
+    },
+    "src/resources/images/pending.svg": {
+      "md5": "affaa7dce048d4722965bda31503bb9c",
+      "sha256": "aab21e334a1734cf867a707b58e50991c75d0c0a7742915ffd9d4087384b2ba2"
+    },
+    "src/resources/images/publish.png": {
+      "md5": "841ca7a80725bd49d59ef9346e56e9fb",
+      "sha256": "aef3fc17606e9c0b442b9e943c752fb16193871563a5551b06b19ff5658be884"
+    },
+    "src/resources/images/publish.svg": {
+      "md5": "9f4453098942e16bf5df5470fa8a84f6",
+      "sha256": "a8f5504bd1aaa315c455968335e4745edea0c118605225c53ebd1237edbd0d7f"
+    },
+    "src/resources/images/searchx2.png": {
+      "md5": "2755108842dbe3ad2bd58a72077e52e9",
+      "sha256": "c2e1ec7fc33ef8ccd6fb8979d116a0f3626e0206772b70399d0b407e2abf6f56"
+    },
+    "src/resources/images/select2-spinner.gif": {
+      "md5": "7b9776076d5fceef4993b55c9383dedd",
+      "sha256": "f6ecff617ec2ba7f559e6f535cad9b70a3f91120737535dab4d4548a6c83576c"
+    },
+    "src/resources/images/select2.png": {
+      "md5": "2ca61b76e22053571dd8611e5aac4900",
+      "sha256": "d6b5d8d83dbc18fb8d77c8761d331cd9e5123c9684950bab0406e98a24ac5ae8"
+    },
+    "src/resources/images/select2x2.png": {
+      "md5": "49e3f006018662f60f1db2aec0b2cca9",
+      "sha256": "6fe28d687dc0ed4d96016238c608ba1e7198c9c9accfa0b360b78018b9fb9bc2"
+    },
+    "src/Tribe/Event_Form.php": {
+      "md5": "0268acbbff5d2dcd5958bd700d57f40c",
+      "sha256": "0c8bc5d2837a695b316bf4b8e2eb2237df2e2b180b6ffc9c2ad363071cecdc46"
+    },
+    "src/Tribe/Main.php": {
+      "md5": "ff445e3773a34855c52059ee6604559f",
+      "sha256": "91cdfeabd2ed51fd25c7be1a79497bc4264e95ec98a21ea16419d71b44576418"
+    },
+    "src/Tribe/Plugin_Register.php": {
+      "md5": "d252c3250afda44d2f6cb84413c74d4d",
+      "sha256": "2165a9a533fe607aba67b5d785940bf7b12c5df9bccc91064b39d5ae8893b53f"
+    },
+    "src/Tribe/PUE.php": {
+      "md5": "a27ad3d7903bf68439f26b8ec3452e49",
+      "sha256": "01d7f25310c7ae7b2d1034c5792e408ff55096caed1fa038ce6f951848020cad"
+    },
+    "src/Tribe/Schema.php": {
+      "md5": "7f381ef1e67c3eb0fdf8afe0752a479e",
+      "sha256": "f393cdf93b3043ca382ddca88821062bb38d2f425d76c8091307dc0a7233ffc8"
+    },
+    "src/Tribe/Service_Provider.php": {
+      "md5": "7cfbc96d8522202a915c22231994799c",
+      "sha256": "0c7a07ddfaa8db422e9c96fcc7850b0ed3ff0abf51a1261ec492fbd624db623f"
+    },
+    "src/Tribe/Shortcodes.php": {
+      "md5": "18816a830ff83a49834e8403e4cc4884",
+      "sha256": "2d82944d60d13cf845887e9507229af47d6d9b621807cfc5042758970692c4ac"
+    },
+    "src/Tribe/Submission_Handler.php": {
+      "md5": "8e404fa6049c7e33a13c3086eb799bf0",
+      "sha256": "a52f07241d00a362ef4c9a16ca26ff13c4e5296e6ac4d0e9e174184de9f71fb4"
+    },
+    "src/Tribe/Submission_Scrubber.php": {
+      "md5": "347147228985968a0206a0e691021e4c",
+      "sha256": "850dc7b7d7e282df167df9a0551b38420710009f0675328539b82d1c5996b863"
+    },
+    "src/Tribe/Templates.php": {
+      "md5": "898f3475deb13ac92bb968619d314844",
+      "sha256": "39acee4a3df57d53bcf2190e642f3426bd01fa7ee1874ede69ffe8de7d916176"
+    },
+    "src/Tribe/Theme_Compatibility.php": {
+      "md5": "d93dc2a49c219f431fcaa5c8276321f9",
+      "sha256": "62491c52a4f1fa8e9649c9797a0571160c4fac68f4c8e364f99dfae291df1416"
+    },
+    "src/Tribe/Updater.php": {
+      "md5": "919a52fc699206ef435c7f841eeaee10",
+      "sha256": "092e1415cfa1fd8cad4a11ce2220235764ba4fd3c18a67a8d3a6aeecdf398492"
+    },
+    "src/Tribe/Walker_Category_Checklist.php": {
+      "md5": "fe5abbb389de14739bd4de779da21b8b",
+      "sha256": "d9bee734a3ede2ec4e61263f07523108d94b2825795519160d4934bf09e2d717"
+    },
+    "src/Tribe/Captcha/Abstract_Captcha.php": {
+      "md5": "4748db0cbabd4f377ace52eabf904f0b",
+      "sha256": "80934bed43d06612a5e1a3f039cf7d7247c702acd01b8d4002ff0bf317109c7b"
+    },
+    "src/Tribe/Captcha/Null_Captcha.php": {
+      "md5": "79ca6806f3569797278b4947498bbc1c",
+      "sha256": "a29060663ba7088489fa8921dcb0f0c5b95037792f8768c0b31fbefdba69bdbc"
+    },
+    "src/Tribe/Captcha/Recaptcha.php": {
+      "md5": "9b516b76b855208830ba376c2fe091e6",
+      "sha256": "b82661af4a9b9df8754b0df4f54c5b56f82fac82c38d177a3fb2b2b6dccae81a"
+    },
+    "src/Tribe/Captcha/Recaptcha_V2.php": {
+      "md5": "9d00025bc57a98a8131499e996061f81",
+      "sha256": "771c5ab4d69fb0292b162a1092b5f0212d7449b9e12cf80c9cc2bb26206ba5da"
+    },
+    "src/Tribe/Captcha/Response.php": {
+      "md5": "37ed00aecf75e9143bd5978130f93cc2",
+      "sha256": "fbcb7c200438b19c5084d13b77284a65512cb43354a35472b38b11f9c5e26ff5"
+    },
+    "src/Tribe/Integrations/Divi.php": {
+      "md5": "f8351350fa0e5ee830150c4655044de7",
+      "sha256": "def7c11ed919fe4854b1d4ce1a4cc3fd3c71678037cb93094bc046c97facdfc7"
+    },
+    "src/Tribe/Integrations/Event_Status.php": {
+      "md5": "d6d81f8de5be0631c66f6231ec3d2259",
+      "sha256": "ff26f4eb0bb76c1dffa61a7277c3154d18aad5936d3b804cc4260d2c8528a24c"
+    },
+    "src/Tribe/Integrations/Manager.php": {
+      "md5": "a55c9995193d8998dec8a26b2fd934ad",
+      "sha256": "5701dc071d8a1abefd1e439dc038723a3df8c7593d01322f0699ac4dfd5e786e"
+    },
+    "src/Tribe/Integrations/Series.php": {
+      "md5": "71b129dabc612384b26589dd4a553cac",
+      "sha256": "10d7fde5dbc01762431e4c5557566cfba84296ca942a9fe86a1e29590614b93c"
+    },
+    "src/Tribe/Integrations/Virtual_Events.php": {
+      "md5": "6f21223825fde5a0d5b6cc115934ee12",
+      "sha256": "68e3418a8579a8c68e5089365958142181b1979116b3103995bb0d6a3eb20de5"
+    },
+    "src/Tribe/Integrations/WP_Edit.php": {
+      "md5": "f4dbb77f945cae2bbe7f9e646d5c9d14",
+      "sha256": "4f3ed78cf0476afec5edf2dde3b5e3464387d1c4128afc6e9b6c123742d9b2a1"
+    },
+    "src/Tribe/PUE/Helper.php": {
+      "md5": "7a404083df6a5dbf2dfcff9287bdebbd",
+      "sha256": "bb0ea1e86b4dbe674ed9b12c298080c26e9fb1b42ddc716078f83a9a7a5eb0cb"
+    },
+    "src/Tribe/Shortcode/Abstract.php": {
+      "md5": "20c45257e704f5362f798fdf11215e9c",
+      "sha256": "bf9a2f42fefd07144d2a064fa4c7ae6e4b1b296ed34309120d51d28cc0e03cf1"
+    },
+    "src/Tribe/Tickets/Assets.php": {
+      "md5": "ed434ed0b34742d8ec979f7fa0c8a60d",
+      "sha256": "7a28f6fc719f27166c208eb99a99736820e1510e6041dddc9e6b8240d3eb4f90"
+    },
+    "src/Tribe/Tickets/Cart.php": {
+      "md5": "45f2b8580b8fc503089c5d2f278a2577",
+      "sha256": "d7e6b7dd50c5712c39051a76446c8654503a75d828cb77d50ea84b6e1e66096f"
+    },
+    "src/Tribe/Tickets/Event_Form.php": {
+      "md5": "e905f06fdba500c44123594582ccb679",
+      "sha256": "fd588e8bf525f665971d3895e90daeb6d295d8b05a905b3ff28b1d17ea79b58e"
+    },
+    "src/Tribe/Tickets/Fees.php": {
+      "md5": "b8659bfff6e92a1902cd81fc24cf4c46",
+      "sha256": "f1567ee2915dd9d0e83cffcf31026c00adbee4cc07fe9b09b2b45ec7890ffbc1"
+    },
+    "src/Tribe/Tickets/Fee_Handler.php": {
+      "md5": "a777fc50c456ebc4cec1fbe8090a1c77",
+      "sha256": "0838ed261269803830dcc4297b094e7e9d33a1448edea452bb01fb32c506ca99"
+    },
+    "src/Tribe/Tickets/Main.php": {
+      "md5": "5d21c68d0c749e1b9697a18c7038e76f",
+      "sha256": "fe2780aae654b807b84d258c28d3a97c3db6beb5a3f681dafff20f0a40b87554"
+    },
+    "src/Tribe/Tickets/Payment_Options_Form.php": {
+      "md5": "95554ce0bb0ad2d346aa5215e2bfd93a",
+      "sha256": "5ec7e96dac4cfb504f0544facb646a331de83a5a336e85d9941ddaf44d95dc24"
+    },
+    "src/Tribe/Tickets/Payouts.php": {
+      "md5": "8b03655ef7bc0963222bc86b620ddf72",
+      "sha256": "e21e52acb544ad3e8df85e0a8bf696a7502dd5c84b6d701135afce8cb87478ec"
+    },
+    "src/Tribe/Tickets/Plugin_Register.php": {
+      "md5": "5fe76cbae4016d8a0d5dd45001fd7380",
+      "sha256": "1b37527fa39826c7cb04283d3d68bd34a6bd9009f274ada72ec6add1f2c1dbe3"
+    },
+    "src/Tribe/Tickets/PUE.php": {
+      "md5": "5c19a1daf888305f8312d5a7a1065377",
+      "sha256": "6c29f307fd4989bad51203d828ca40a66ac3bddcb4d3d02492bcf62eb8be424c"
+    },
+    "src/Tribe/Tickets/Service_Provider.php": {
+      "md5": "8bdfb275ff73bda62af280f83eb6210b",
+      "sha256": "f9f5d395655989a8160b1559b2739d24002805736514a4909dd3eee59a291ef6"
+    },
+    "src/Tribe/Tickets/Shortcodes.php": {
+      "md5": "dd40f94cd6daaeeb74f12f9d07ae8ec2",
+      "sha256": "8cab03ff955bc03a0f9a6384a781ab26f909f14c1eff96ad4ec24695e127d97d"
+    },
+    "src/Tribe/Tickets/Templates.php": {
+      "md5": "728b666461839db61dbe10c1f2e420b9",
+      "sha256": "53ce21549c50ca8d5b29a8f2e875d8dfea78d51a37a89c181f8415130304ed7a"
+    },
+    "src/Tribe/Tickets/Updater.php": {
+      "md5": "be2d82af2520d1bde911f625b22b7514",
+      "sha256": "c561d409a9e29483f8eab8a256d890a5a2264a83689e17b9ec4625b8931b52b3"
+    },
+    "src/Tribe/Tickets/Adapter/WooCommerce_PayPal.php": {
+      "md5": "64dd2173f95b9bd5bbd1d51a06965065",
+      "sha256": "aee0251649396e5ae1f5b49f92665c417205d9df242558a15d0c49eb8716fabe"
+    },
+    "src/Tribe/Tickets/Gateway/Abstract.php": {
+      "md5": "98dafd5a84ab9b2cdba66dcfb8e3540e",
+      "sha256": "d63af6835c72eddf72bd52df41be1ce807c9fcecad36e1b96aca14420937ce50"
+    },
+    "src/Tribe/Tickets/Gateway/PayPal.php": {
+      "md5": "7ef6e0c6ce3578a1fbf54bc16aed0913",
+      "sha256": "9ed8f3834d4dd709cb3fd2ad7fef5a04768d3887e92f12759e82f67779b9e8aa"
+    },
+    "src/Tribe/Tickets/Migration/Queue.php": {
+      "md5": "ba7c59f6841836607da81e85326457b6",
+      "sha256": "39dace6f958ae8677f7654535ac510076ba59ce10afc762f76d552ef7100d49e"
+    },
+    "src/Tribe/Tickets/Payouts/Gateway.php": {
+      "md5": "f22b5b15c920197730d00cac56c7f94f",
+      "sha256": "5d01038de498e629b35499592d8f97dc084a5b0e079bf0f57a0c154fde87879b"
+    },
+    "src/Tribe/Tickets/Payouts/Hooks.php": {
+      "md5": "3bb6bc42cacdf9d72bf275fc4483c4ac",
+      "sha256": "1aaa45967b5b7f24ee9270e535e2376ceef7404950219683a19af5d813f71ab1"
+    },
+    "src/Tribe/Tickets/Payouts/Order.php": {
+      "md5": "765ba78395b234b0ef20902d569ed166",
+      "sha256": "9ede9014c0ae15882330370070ea2984fd9319dfa8f39705fc848eb418b49ea5"
+    },
+    "src/Tribe/Tickets/Payouts/Payout.php": {
+      "md5": "2e7ed09563fd63462594c798c07b919f",
+      "sha256": "e7c670ef7e29c87852a9f972f93a971b88aa616819d326e83faff736512a8cf0"
+    },
+    "src/Tribe/Tickets/Payouts/Queue.php": {
+      "md5": "b00e1cb5e30c542d06d9e74163e12342",
+      "sha256": "3c30365ae87425654e39100653cfa1f61377818da9a220ae7d3b8fbaf8fec056"
+    },
+    "src/Tribe/Tickets/Payouts/Receiver.php": {
+      "md5": "759228ba8ae91a8febd4677ade36a58a",
+      "sha256": "6a3de9fc6093a22786868d132571b699e3ad64e5ac02e2239cee9fcadef0bcbd"
+    },
+    "src/Tribe/Tickets/Payouts/Service_Provider.php": {
+      "md5": "f333ca82b5047606ca4fe39530b2e76c",
+      "sha256": "2db4cd3ce2fbc6cf71993ab5f19bf7266ef85c008d93e3228c78d8ac52aa7c1a"
+    },
+    "src/Tribe/Tickets/Payouts/Tooltips.php": {
+      "md5": "a403711edf03be0de2ff16fec54967f7",
+      "sha256": "e3a05488c225ecac96b7a51a5bf379733fd17cd0e0ff5f083f23efbe6d0c724e"
+    },
+    "src/Tribe/Tickets/Payouts/PayPal/Adaptive_Payments.php": {
+      "md5": "b078cee790c8aedb5131bea294d86533",
+      "sha256": "88b55366f3dde91b4811a549eafff92efdb49b9550c8f0f38924061e5a19e2da"
+    },
+    "src/Tribe/Tickets/Payouts/PayPal/Payouts_API.php": {
+      "md5": "0e16224215a0e67b24d2da2e11485313",
+      "sha256": "23a0656f16561d57763e94d15233cde30520a48977bcf4a1aede193aea1d73ea"
+    },
+    "src/Tribe/Tickets/Payouts/Tabbed_View/Report.php": {
+      "md5": "346c1458d673368fa2c0966d8763d0d3",
+      "sha256": "fbd721e8d29f5cc306fcde3ff4c2251a582f96b84cec22ded2135de7e11ee346"
+    },
+    "src/Tribe/Tickets/Payouts/Tabbed_View/Report_Tab.php": {
+      "md5": "81b66adbf56ced6e97687e86037cdc57",
+      "sha256": "f69b55feb547b2515b2c9e7b3c6f5aabfa4acf21f817391f4a94622086c42719"
+    },
+    "src/Tribe/Tickets/Payouts/Tabbed_View/Screen_Options.php": {
+      "md5": "0c0c9541528db42f4f200224675ff633",
+      "sha256": "46152c30cca8cde14db1177e4d01060ea6eaaaa21649fd7931f4ae4ac54ea4e4"
+    },
+    "src/Tribe/Tickets/Payouts/Tabbed_View/Tabbed_View.php": {
+      "md5": "6215f5e8616bdd7bce184277e2dc9934",
+      "sha256": "5fd65ec50dfa499d3321bb38aec553eb85536e6c1a17ec4859d0e2a15b3c9a4c"
+    },
+    "src/Tribe/Tickets/Payouts/Tabbed_View/Table.php": {
+      "md5": "4677979194b38cfcdf864fa2320c095e",
+      "sha256": "da0528f23c62c7ace19731083d9e628bddf485b9400b6c1471ddb987caaa3b32"
+    },
+    "src/Tribe/Tickets/PUE/Helper.php": {
+      "md5": "688d39c988682c4243ba866b92960939",
+      "sha256": "4088e0499b6782c2992249730aa28057f46a6402b1b51c6689a230ecff72129c"
+    },
+    "src/Tribe/Tickets/Reports/Sales.php": {
+      "md5": "c4926aacaa1b73221df5d957d1006fa9",
+      "sha256": "f3785cd4b9fb470fec848acc4d790b0ce155421a795fb3bf432e784dbe4d13ff"
+    },
+    "src/Tribe/Tickets/Repositories/Payout.php": {
+      "md5": "a95458886dad3d685dff82c8e56dec41",
+      "sha256": "67e52fe862c7d248ccee2d85170e3c3b555ca1956224b79d523dabc3b3dd3b41"
+    },
+    "src/Tribe/Tickets/Route/Abstract_Route.php": {
+      "md5": "1d3bd7dc186bf75d84e0801052f0fc18",
+      "sha256": "8ac6515b6d1da31609f092c8be6850f3a431e9115c30c66c24c3d008b58dfcf3"
+    },
+    "src/Tribe/Tickets/Route/Attendees_Report.php": {
+      "md5": "99e32f98c945d53fc65ae90e7634dfd1",
+      "sha256": "7ec711d1d964a24b1cd70f1fb00563af5cdb0febc077a588dae1660efd9acf61"
+    },
+    "src/Tribe/Tickets/Route/Payment_Options.php": {
+      "md5": "58770a0974b85066118c1786d8fb938d",
+      "sha256": "cd050483298f830171ee8d7c420b490d449228fd0bd6268e839b13f1dfcaa685"
+    },
+    "src/Tribe/Tickets/Route/Sales_Report.php": {
+      "md5": "68b506ac71849b04350ce6347a1dcff8",
+      "sha256": "c68f56cc0d9901e1fe08bdf127192f39ff557602880197569d806596809ceac1"
+    },
+    "src/Tribe/Views/V2/Customizer.php": {
+      "md5": "f4963d29d3bf32d7894a1677363d2d51",
+      "sha256": "b5dad5680ad84991e84420f011d3d2515e6922f8c7fff4d01bf7a1c91367d85d"
+    },
+    "src/Tribe/Views/V2/Hooks.php": {
+      "md5": "a317ec28113c5338bc8078b6395b66da",
+      "sha256": "0a72d11649c090071a7b405a71ba488c9356c8fce2779bae2a890fbab603672a"
+    },
+    "src/Tribe/Views/V2/Service_Provider.php": {
+      "md5": "8e43f1a5f4103c69bfedb8b02cb99bb9",
+      "sha256": "ad858b3d0a2a7de860275bd5f59eb351efe2b64c0ee40595a9a5aac8401186fc"
+    },
+    "src/views/community/blank-comments-template.php": {
+      "md5": "7e3ed9932b8d8e0034c05f660038222e",
+      "sha256": "fa305d5df14378fa63f6c01df767b5599531ce9416a107ccb1cfcc6377e0275e"
+    },
+    "src/views/community/default-placeholder.php": {
+      "md5": "b96bad51adf541cfb4970de86b2a0bdc",
+      "sha256": "e47576781346bd40a5a70b04a02594175c2ec9716f27593474fedc8f3926ebd4"
+    },
+    "src/views/community/default-template.php": {
+      "md5": "47fbb777b72ceb8b16f492bcc345c7df",
+      "sha256": "6e51bcf6cbde96b38a950ecfc05e2aae776e8da56df39b71a9195140814714b3"
+    },
+    "src/views/community/edit-event.php": {
+      "md5": "4b89e29943d678b72c311c520254cfb9",
+      "sha256": "3e3f25506a714bc7625796712937578f27e9b47b22d3243b1a1f57a404a6b727"
+    },
+    "src/views/community/edit-organizer.php": {
+      "md5": "27d804b62151faf452b0d5e3217f9ff7",
+      "sha256": "7f25c33f045c24487660e561baefbba08b2570f11726262d874c90632e39f255"
+    },
+    "src/views/community/email-template.php": {
+      "md5": "556103dc4918b642cd74985891a0fb77",
+      "sha256": "f0a31776ec25ea42eb4c9731d540115cb39bb5c67528744a1492eb07d86af860"
+    },
+    "src/views/community/event-list-shortcode.php": {
+      "md5": "92508970c2256f1194f6da3468fc9f04",
+      "sha256": "375207fb80d5661f1057697ca579fff9239ea5fbdd71571ef0312401f87d7c69"
+    },
+    "src/views/community/event-list.php": {
+      "md5": "1e7fa123708654858afa418cb09c1a19",
+      "sha256": "f987b74b1df9aac6570f2acbe13d7f07ff4e225ef26a56cca60f975a0de0ef00"
+    },
+    "src/views/community/form-status-message.php": {
+      "md5": "3671c243af23c8983358426f4e59f115",
+      "sha256": "da05a76d2755589881e13866e722cb6bcf35982fda6f42a9be18827d91d40740"
+    },
+    "src/views/community/login-form.php": {
+      "md5": "4ec0f03f64f5a855b7962e67433450a5",
+      "sha256": "8d894607ea0e2e9a1d0926f40ce4fc578066eb7833f82ab464eff828453df5d1"
+    },
+    "src/views/community/pagination.php": {
+      "md5": "bb7899c640f4652f5581c5189edd3f28",
+      "sha256": "e149c6a65e7325d6fde8d90d1ba7d97ce56d55242d6dc4bf1a3ca6d75bf28661"
+    },
+    "src/views/community/columns/category.php": {
+      "md5": "879e77f7ea006049dc38e663744fb21e",
+      "sha256": "96d7cce9fc275879f64876e2656d05cd970ccb0bdc14f216b578fdb35c7e5548"
+    },
+    "src/views/community/columns/end_date.php": {
+      "md5": "36648f37e215d8dd4cc49c32ccd9bab7",
+      "sha256": "4a141ede42b2d6a7ca2e4f97c65483a82629c1244dae6ff0ad175e1bf7ef0260"
+    },
+    "src/views/community/columns/organizer.php": {
+      "md5": "723b51e0a7de9672fb66e7ad4424b9be",
+      "sha256": "ed1de5f9775d5bdaa90cfc283a90a0670476ad43ca89a697f9d67e837bde06f7"
+    },
+    "src/views/community/columns/recurring.php": {
+      "md5": "60f3f5d56d530257a78ee2fa07bbd48d",
+      "sha256": "8257f37285a155370ac6efe6cbb8e3a8a34398c2d9cf466a7855275225f20757"
+    },
+    "src/views/community/columns/start_date.php": {
+      "md5": "354a7abb59d444c11597f20e637fcbe8",
+      "sha256": "1e2ad5483c573ae1ca875a77901784469536b9612d78af8d66c99914c9579401"
+    },
+    "src/views/community/columns/status.php": {
+      "md5": "5072a72b9cd9bf0022b5bbb65818b829",
+      "sha256": "a2b33a937d26706998bd2fa1b73b391af6a666e6c92517caa49e61dbb587a76d"
+    },
+    "src/views/community/columns/title.php": {
+      "md5": "25c1e54656e9004a4884db89e956ac24",
+      "sha256": "7f4747e9a51c02050654dd3642e52d8fa0dd80f7d93eb802c972b8ea7f9bb86d"
+    },
+    "src/views/community/columns/venue.php": {
+      "md5": "425192f7664d0f3c4eb542b1b4c75b98",
+      "sha256": "59b443b61c6b886cfd406518a77bf4d21750b406443895fe740f9a8f942e7b55"
+    },
+    "src/views/community/modules/captcha.php": {
+      "md5": "890e0402518bc235d01011d0922fae56",
+      "sha256": "4226c2678c1db28bde3d33af97a13de154aa74eed46bc9cbacbf8a7467dc63df"
+    },
+    "src/views/community/modules/delete.php": {
+      "md5": "159d7a9aa97de21ee398e5bcd5a5790b",
+      "sha256": "48a40b71133628b3101cea7901fb6ad60f0719c17fa20025c47cf8bcbd37b43a"
+    },
+    "src/views/community/modules/description.php": {
+      "md5": "22f311d3bc1ed0ba93f1c37cc84b3c70",
+      "sha256": "7417f00b324db6d883cd39136df7986e2ab2050ebe2f1d7b77a82f530cd91c94"
+    },
+    "src/views/community/modules/event_status.php": {
+      "md5": "afbc96143a0631037e88cd081e6e46ed",
+      "sha256": "a2c8e1bf6360a00941cffdc8b2dfeb4c98a01b4e2a7d1113c54b27af9528f507"
+    },
+    "src/views/community/modules/header-links.php": {
+      "md5": "be5fb4d48b7f219a2d09ae8c0271c9d7",
+      "sha256": "c239e7fdc135bf9334dffb6237a97cc33428a590637d945a500451397a489e93"
+    },
+    "src/views/community/modules/image.php": {
+      "md5": "bd4470536ba4de39c8327842e27aeb03",
+      "sha256": "c8fbd767055b003e95cab1be8f180b88c7cd7331ba7c65eaf629ac6eceead795"
+    },
+    "src/views/community/modules/organizer-fields.php": {
+      "md5": "ef12399d59523571152651366f9d6a38",
+      "sha256": "7853408246d343424cb8033516652826fe444b7f3f3f98b6647a90633968677c"
+    },
+    "src/views/community/modules/recurrence.php": {
+      "md5": "b80533d8c2f68b6152b9f76ad61e0639",
+      "sha256": "b2a414af69bfe3ff7f562b4a97cd7912e940e2e8a9c46a3c0d29f7b3fc6cb3a1"
+    },
+    "src/views/community/modules/spam-control.php": {
+      "md5": "0196f5d4b5335b43a5708cc67c8bb54b",
+      "sha256": "c7fc50071e633a01c4098fe388701b7e8c21c26e1824f56c6c2f289faf5e4b6d"
+    },
+    "src/views/community/modules/submit.php": {
+      "md5": "17b20170ceb16f0567c5a3a889aabe06",
+      "sha256": "afb1be9fa8f601bec67d7785feff7213b0671cea6d2c932cb574712abb7935d1"
+    },
+    "src/views/community/modules/terms.php": {
+      "md5": "85546eacc62ed92a288670c0f34060ad",
+      "sha256": "7b5eb826469d9a2871f05ab99b2b185d72be4032b6ed2e5bf5b281fa0242a715"
+    },
+    "src/views/community/modules/title.php": {
+      "md5": "34139d1a797228467a3e14df9f17a753",
+      "sha256": "bcf5860577cb27567140e519932524b8b85dccb6edb94f1022bc0029b0b9d84b"
+    },
+    "src/views/community/modules/venue-fields.php": {
+      "md5": "f260a08607b1771adcde5ed4d38c3c25",
+      "sha256": "747cc01acfc7a85c4ebf382a4c72281ef488ea08a7da57c20277b8888c0817d8"
+    },
+    "src/views/community/modules/virtual.php": {
+      "md5": "0efaa83b0978e39f6bebeba6f8a06d1f",
+      "sha256": "f05bcc54e6d4f4edfc5960f5fbf19154d4cb3889295a6c0c8e2ab898a74ec901"
+    },
+    "src/views/community/modules/custom/table-row.php": {
+      "md5": "da67fd8b88092bcdffc0c89cec25ce92",
+      "sha256": "62bcc5ebd2103163e6226b98ebbf8532be9d3e1d1e80b7d2f06daf7b1f9fe384"
+    },
+    "src/views/community/modules/custom/table.php": {
+      "md5": "bee797b221c1ecf6177a3fb84e2c83c9",
+      "sha256": "f5f587eb65733961bf3668d92150263b228407c1f33a62f0188f137d913a5b83"
+    },
+    "src/views/community/modules/custom/fields/dropdown.php": {
+      "md5": "d7227caf452daf4b564b0bc09f89f227",
+      "sha256": "3e32bc7d46e1ea0a34e02e35d00f677120df00c0b66561b34e72a6f537ab01fb"
+    },
+    "src/views/community/modules/custom/fields/input-option.php": {
+      "md5": "f025810a449ded4cae34ca8593aac71b",
+      "sha256": "b8c00383cb742b6dc6ed6c56b64550c0f87bf59fb32ec53fa763950d3780b72d"
+    },
+    "src/views/community/modules/custom/fields/text.php": {
+      "md5": "8564aa5a87438e418f8abd7512f13b43",
+      "sha256": "15fb3046ee71bd0bab5848b9d04534b2340177c1028b37b8b7645e4fb6b1ae58"
+    },
+    "src/views/community/modules/custom/fields/textarea.php": {
+      "md5": "1471a042e37e0866626df5a1b1107a70",
+      "sha256": "df3d20806e6b242e7b5826dc132355aa33d20e8d40921c607857b3dd96a666d4"
+    },
+    "src/views/community/modules/custom/fields/url.php": {
+      "md5": "30057741d5e5eb20aae96a41661a181e",
+      "sha256": "5bde8754f7a61bdf0b6dbe4ef5c4c2d6b3ac3e8ddec360a9c1dfb5115f600d31"
+    },
+    "src/views/community-tickets/modules/email-item-event-details.php": {
+      "md5": "53d4251fffa1b460cd76ba75c9488922",
+      "sha256": "969cb595cbec6733d98cd17ea51586eef0ef67aad5c333aa4dd49325cace8fce"
+    },
+    "src/views/community-tickets/modules/orders-report-after-organizer.php": {
+      "md5": "c1f70c4c95ae4147d3079b878225cbdc",
+      "sha256": "236804efc979547728bc8402260b5865fd78d5cdb8a4ecd0a128d4316f21322d"
+    },
+    "src/views/community-tickets/modules/payment-options.php": {
+      "md5": "04384c728add76683d1b0ed57528330d",
+      "sha256": "5015de0dd8b6f7774bf231650ecc5909089d97b19a345b0605de448df381b304"
+    },
+    "src/views/community-tickets/modules/shortcode-attendees.php": {
+      "md5": "5d9afe760246e04799408a357748f2d1",
+      "sha256": "d94399d2c0a047e86040f79144cb761850291d5359ea48cea599ce2847ffe3e1"
+    },
+    "src/views/community-tickets/modules/tickets.php": {
+      "md5": "164ce7c2c19a2856d8dc4f5497f11c86",
+      "sha256": "33e094dbe5e0c4a14c8e10e26ca9958305620f5bc65385e4ea97c61a38e3087d"
+    },
+    "src/views/integrations/event-tickets/email-template.php": {
+      "md5": "fd66cdf5f70ffa1316c5a6cbc63a2277",
+      "sha256": "b6622b8e90fcf0fe0574618976acf0c38e06e7d9a5be8ec72fa63c0c4543d987"
+    },
+    "src/views/integrations/the-events-calendar/edit-venue.php": {
+      "md5": "08567c7cd7fc1e7977dda0a52bafb1ed",
+      "sha256": "679628a2fe99ad4a5e1c8c7953d1ddb112def7aef507ba8a8968550a5c8915c7"
+    },
+    "src/views/integrations/the-events-calendar/email-template.php": {
+      "md5": "c6252592630bf7126f0f3f408d1fefc4",
+      "sha256": "ff9aafcd39dbea1cc8df45e03cb5c564f453f3eb7aff901b3e6bb042892348df"
+    },
+    "src/views/integrations/the-events-calendar/modules/cost.php": {
+      "md5": "d814b1e53ed46860c531d7589222743b",
+      "sha256": "43bb4a5ddc356b12632668fe44ec47455c1a34c22f7e3b077fe74f96463fac1f"
+    },
+    "src/views/integrations/the-events-calendar/modules/custom.php": {
+      "md5": "9ef4062bc60584671eefc23224b29ad0",
+      "sha256": "835bac401eedba0ca6ead314f42fa1eb77226cdfd7f3446739f45673e20fddd3"
+    },
+    "src/views/integrations/the-events-calendar/modules/datepickers.php": {
+      "md5": "ac49b6c8fa671cbaf8b20ef57e3e9715",
+      "sha256": "9484ea945b39f50287f4d079dd48041360f9692e392c3c4186411d6b30b3c20c"
+    },
+    "src/views/integrations/the-events-calendar/modules/organizer.php": {
+      "md5": "cbd31f658012e9e2e8834f70360dccf6",
+      "sha256": "812f9685a88519297c93869047eb0f42fa43c9d6338134cf42703d395480e0ec"
+    },
+    "src/views/integrations/the-events-calendar/modules/series.php": {
+      "md5": "ee8cba78027ecd2e374014990736c1ae",
+      "sha256": "f4c63455e11aabbe39b1fd09a601a7a81f0fdac31edc17845c4e718ef8658163"
+    },
+    "src/views/integrations/the-events-calendar/modules/taxonomy.php": {
+      "md5": "e9b6bbae83a2d86616dbacbb09e42b9f",
+      "sha256": "adacc9574579cfe9e148f42d3f14003bb5fb01c44c9b4966fd5a29ca192f90e8"
+    },
+    "src/views/integrations/the-events-calendar/modules/venue.php": {
+      "md5": "3ea63e49b9335ca33de2f89f5bebbfc9",
+      "sha256": "c40cf2b348fd0c68c2482e2031960fdfe57a0a26561b4803ab1a17aac3350cb2"
+    },
+    "src/views/integrations/the-events-calendar/modules/website.php": {
+      "md5": "699a79fbc3a2be2e6888ac101701b88a",
+      "sha256": "b5db3eedfe657aa3e911bfbac4de2b89b3ea75a228e5eac7ac4399d99972f1aa"
+    },
+    "vendor/autoload.php": {
+      "md5": "76c2a5487abed91bb57ca8d044aea0b7",
+      "sha256": "b2e0144e7109461c0b065950bd058b1fae038c5c45f0a6fb7d0d106b980386d5"
+    },
+    "vendor/composer/autoload_classmap.php": {
+      "md5": "5615b29a1f5688414d56a1515d954a91",
+      "sha256": "375085d0d6690301081436cd75755cb2c882f8a7f6fc385c8814a11734fc413a"
+    },
+    "vendor/composer/autoload_namespaces.php": {
+      "md5": "72114b4e8e96b7be1e99ab2a751e59d5",
+      "sha256": "dc806d2e13d2ed4bd656fcf42cd7808fa780b83c483bd36bb53d050ef0650f14"
+    },
+    "vendor/composer/autoload_psr4.php": {
+      "md5": "9f1da3179dc246ba62da78dd015b361d",
+      "sha256": "afbd769f80af92911964744cd7d352078afa8b4e1e3f98d74c808966ad610a5d"
+    },
+    "vendor/composer/autoload_real.php": {
+      "md5": "e8e1f22f8448a59584e484be84eb365c",
+      "sha256": "7b9c6ac4e731b3311b6f42916aab45b09828e8b97955b19ac3f8b01829a453c0"
+    },
+    "vendor/composer/autoload_static.php": {
+      "md5": "e0a9a18a1e939a04ff7f1b46e8a2ff26",
+      "sha256": "ac551cf050490ee9e04bedf77d834988ef62f79d1088fc48f9488dc5346ee587"
+    },
+    "vendor/composer/ClassLoader.php": {
+      "md5": "c02be6d96671f88d28aad3ffa134c8ae",
+      "sha256": "d4b2313e562edf942838ec316d983c1a3459ca67da3e5658e861200b0b3693c2"
+    },
+    "vendor/composer/installed.json": {
+      "md5": "2ac81bb213b32ee74854c72d75629698",
+      "sha256": "f1393213e01463fe56b2971da98b337dc981e28ee9c14d5f22ca406bf1072ab0"
+    },
+    "vendor/composer/installed.php": {
+      "md5": "3729e104edc6486f458f0ad4f7a2deaa",
+      "sha256": "0064dd441332b9bea4c2d3d2674094c5c02fa5432c7f0120f1429f72c4cf209b"
+    },
+    "vendor/composer/InstalledVersions.php": {
+      "md5": "7baf73014351c49ea0fef617dae7019b",
+      "sha256": "1e4525198301d1ed1f87ac3df2a8555a6f139f8df30a703d0b775a61963c96e4"
+    },
+    "vendor/composer/LICENSE": {
+      "md5": "955d5fe58c231244f6b49000f383b5e2",
+      "sha256": "c8cce4b6b9729f264ffdf9296d505d63432497feeed1f586d1902b942197e024"
+    },
+    "vendor/composer/platform_check.php": {
+      "md5": "cdd38471e4bce6f26ed60fdd240f4509",
+      "sha256": "f88f2dd8da18f4031fe00846c05351269374b56feca91f3e667a3428aca79e9a"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/Address.php": {
+      "md5": "379955466d940cfdec8d6022104c1f53",
+      "sha256": "e8369d15112a8e2480f4d1d6f1b154c60e0ebea574e7df9e5514e84196000744"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/Agreement.php": {
+      "md5": "346a1aec08bce0a94988c95c421bf26a",
+      "sha256": "71856886115395fc805982667694b34de1c8bc822e7d964c15fc50cfe42214a4"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/AgreementDetails.php": {
+      "md5": "c28e00d1e2f43e715ee6dca41b4bbae0",
+      "sha256": "4d563f6cddd775792e9418905d77c7ac1fddb36d39994be0486cc9a16f9e5c03"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/AgreementStateDescriptor.php": {
+      "md5": "7492486e86af3fa602fd40b3c6884f9c",
+      "sha256": "c07464b6a27c2f44fd6e4cd163d1558a309f502d5bf80734e1eb545ce0936d34"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/AgreementTransaction.php": {
+      "md5": "70333874a6d6e59f760eea62bee1ec49",
+      "sha256": "4b3b41b9fbe9ffb115e7f3e9e4dc0c211a545d2eca18632138d88852de4d6ebc"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/AgreementTransactions.php": {
+      "md5": "e3ab61b9adcbecf03ffafe3dab80f71e",
+      "sha256": "6216bf1925e5d34d9ac05131e03f069ee56b197e8ca85f055e25a5fe64ad1199"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/AlternatePayment.php": {
+      "md5": "ccfbcb03080e34a7e2baab096104864d",
+      "sha256": "3ef333223ee8bba3293109bf2ed981d61a32b9026169b351da300db78d200cc8"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/Amount.php": {
+      "md5": "1a96d075a19e88c3f435cca2f262ed36",
+      "sha256": "6f88dad916b61881a31c40ad25a85700e59904ab7b7e241e65c30e5e295963cf"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/Authorization.php": {
+      "md5": "e39007ea4bcfea23ea97c1d870456e69",
+      "sha256": "965916e2d925c94b40ef96f242e5eaee936f3a00ad0669d4031c081524724825"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/BankAccount.php": {
+      "md5": "d50912b7014f7c2b8f6333795123c3dd",
+      "sha256": "358cbcdae5b116eb0020377131fea0c90d3a425cc12e5c01cc083a1a04fd6d82"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/BankAccountsList.php": {
+      "md5": "4d7a9083615d9ed5f82834310ed9afba",
+      "sha256": "24d507c438a3269b183df18a4351f72f7102fb9369bf25db7910865be07e13a1"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/BankToken.php": {
+      "md5": "62f7ba5228d9e22ae4605fbdf8900364",
+      "sha256": "afe9ea66036f367fdd093ab92ca2c96fd7b922f631ba612f4d0b79f54736c9c0"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/BaseAddress.php": {
+      "md5": "b1b7223a81a9f841c4b900fc42122c51",
+      "sha256": "d050c9c8aa1f1448eb0ab73612bbcf4dcbca13a14fb975b4f3f230e69dd5b310"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/Billing.php": {
+      "md5": "df1807837ca8b56c594dd44ab31eba3f",
+      "sha256": "97aad1c84e75b97a5e8312f24582793d260ce5e3df62752a3054b82ed7391a6b"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/BillingAgreementToken.php": {
+      "md5": "b414a03bddd46352124d38e0b8cd464d",
+      "sha256": "faf3a587c45f5caa421080baa3c7f02df8a37bc30ceaa70a5b7847891fdc4005"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/BillingInfo.php": {
+      "md5": "be4f41d348732861d37cbfc3c436e8e6",
+      "sha256": "f0b2c837ffc95211b0f19c3d69d11388e34d81db4b0b7e2cdfa2dada69741458"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/CancelNotification.php": {
+      "md5": "2ac5785dfa73e167ee0941eeab981049",
+      "sha256": "9c13a33769fba0fa952b52353a01c28d452dafbeacd17801dd08fdf86f3e7300"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/Capture.php": {
+      "md5": "adc6b5fbec17b8dcf7b44b66a74ff888",
+      "sha256": "cafaa21fbad2dd2198c369440fbc4c53634dcf5517fd6a9225a428501eac7270"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/CarrierAccount.php": {
+      "md5": "043ccc971581271d3f34392fc5f480da",
+      "sha256": "8d6ca52156f25a71ca483856dcc2533f98aa50d02b6931cb93d598765ccf56cf"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/CarrierAccountToken.php": {
+      "md5": "e379bf6eab525c5d7643396ccbf7be5f",
+      "sha256": "27c41307ba38ebc5c3d04fba542b27181558d8799cbe311516888cec69c5fcde"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/CartBase.php": {
+      "md5": "461bbe85f620037dac98a577b67ba0e8",
+      "sha256": "4ff5ed62c6f450ef541d9eb99320adcbedfe4d0a7428601f856ba03434405516"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/ChargeModel.php": {
+      "md5": "889ba10df61538ed2027b5af7cbf5e37",
+      "sha256": "998f8dcceb07a4d067e83f00a72eb6930491e99ee179464a86c596c6eae79ae9"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/Cost.php": {
+      "md5": "f726ab70b29041bd1e6cbfef6da68169",
+      "sha256": "642e2c0ea9d8b77b46f1ee377c3c0e7663749fec204bb61ec1553526ed08cb57"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/CountryCode.php": {
+      "md5": "dded1e4d2608ce4190abba91a8853b4c",
+      "sha256": "4f0db59f76aadea880753a7d922f7082083e95b28777b37ee91a00ab36b3810e"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/CreateProfileResponse.php": {
+      "md5": "9a554170a175aa9c82482a35cd1674f1",
+      "sha256": "11c95a868396574997cb65acf754f874b9903736a474a35fc841a4bdea0fc116"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/Credit.php": {
+      "md5": "b0ae5aaf19ae547dbe162fb895c3ce65",
+      "sha256": "d24bff96cbd51a4a7f9b4c02d58bbe771507a4685dce8b7d01e8e4ee889d874a"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/CreditCard.php": {
+      "md5": "6063b3baa68000a5d031c6cd425495cc",
+      "sha256": "9e930f76dcb29e54737432fce9ed3f5f251b32a82224b07669578af1012ba476"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/CreditCardHistory.php": {
+      "md5": "a54d0cc39e54b937466ba5779be6082d",
+      "sha256": "072fa78d1b4c31416eadf6fadcfdd8a0a8b8ec54899fb606840654a27685448b"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/CreditCardList.php": {
+      "md5": "321ef25d43a00d8a83291b6c99a660a0",
+      "sha256": "40b908962e3ef8f96b6016287d3ad1918e43d6435ac884e5e226bb1d64f804ad"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/CreditCardToken.php": {
+      "md5": "2aa90a11ead67621948c8dcd9772e84d",
+      "sha256": "4f97c46925b5352b30c780bef4fce46c34fea18ac46791af792d1ac85ef5bd7f"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/CreditFinancingOffered.php": {
+      "md5": "7bfcd390d43f4f257966932407579482",
+      "sha256": "41d0e479c6157a7c1c92aa2df0924f07d5c6dd7507116e59573cdd7fd9e0eff1"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/Currency.php": {
+      "md5": "ae31b2376a97260b4e0e6f0467ad2b37",
+      "sha256": "4ea7dd5592729ea03818a95b325669376704766fb5edd54a88d2d6d83c08a1ee"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/CurrencyConversion.php": {
+      "md5": "3ed0c69a2d533c5e8bf01bf2cfda75d4",
+      "sha256": "c4295c60fde2700e7da6d48987680e5908a91bb1e7f3367d4518dbd3a86cffd0"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/CustomAmount.php": {
+      "md5": "79aa62de0286a7f996f8283207394e35",
+      "sha256": "2c92a464570f3eef0d91bfa1be9d2acc0fd66ef8895dda84da39b477dbc746e8"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/DetailedRefund.php": {
+      "md5": "212ba35b53ff7d4674c496825ea74d53",
+      "sha256": "690e55d941c996638ec5c0d2c24b99808a4434b954de00ab03980295a0ef5146"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/Details.php": {
+      "md5": "a301f4300512b92cbef1219987353510",
+      "sha256": "792b7ec035ce58a2d7208be4ea9aeb6ae022234dc149c48e9a3de8004bf37506"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/Error.php": {
+      "md5": "ffa2d99f756b4bee12352c23e6cdcfe5",
+      "sha256": "b7ded5b42292a95cf5d02341f3368e10f4827a0100e776d4f42a9da3d47917f3"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/ErrorDetails.php": {
+      "md5": "acdb56bde3e86217e7dcb910a173e061",
+      "sha256": "c69b09fc5f4205f0658c855d6cc8e8413d025dbb692af81d5448e53c8c398388"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/ExtendedBankAccount.php": {
+      "md5": "f161be1f2e49f0096376218ccf87e256",
+      "sha256": "c874c928d6c27304b254c81517db280b4c19307bdee888fabf4141556ff1caf2"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/ExternalFunding.php": {
+      "md5": "9885ac28e4cf535741f194ba1375f441",
+      "sha256": "aff5628b4eca41fa63ba85c1d472112327b7d6f65fe6c721d0fc28b473ba6548"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/FileAttachment.php": {
+      "md5": "9dea6764c39517d247ddc0c0f06c9dba",
+      "sha256": "136e32092a5f47367d515b54f2299a0b850eb78932e60fcdd3fcced37adb0db7"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/FlowConfig.php": {
+      "md5": "870e135cf508e00c86546cecca64a3a2",
+      "sha256": "553c642e0419f434f9742c7fe79eb20b849b56682332dbc3bbbe0111d608a94f"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/FmfDetails.php": {
+      "md5": "6c792474bfca48f2f2375e2d415c4782",
+      "sha256": "b029ebd6a851c890aa725e4fb0cd5edb030768bbfb9edde51ee5e6559a55a90d"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/FundingDetail.php": {
+      "md5": "7b01121ebb01c89184359f8bf73ebe2f",
+      "sha256": "5834d1b0e9b877680cbe6e0b8b54054ab76db36a5c09f54d23ae70c3b7580d9f"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/FundingInstrument.php": {
+      "md5": "27c7c1437b7a77a48ee267f060cb3725",
+      "sha256": "e92b21cc164d289acd561ce917ccee1872617d6d3ea2574b02d5b84d336dba29"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/FundingOption.php": {
+      "md5": "5a53081c94c25803898bb591fc36ca28",
+      "sha256": "438c4126e0541d8399889bbfedce15f3104aed7adb0c3d17d26e75212436dc55"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/FundingSource.php": {
+      "md5": "208e50a3a1e9a3ed13f072da0fea2239",
+      "sha256": "162d27edde81ca26c3c0f3fbcb67f3a3cf10b4ab0d73652fa5d779ba2e84d7a5"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/FuturePayment.php": {
+      "md5": "d9a6309e00bf669fdabebe5677c8454a",
+      "sha256": "e0e9e436606342dce7aaf21c01895d7884e560e0ed3d8c54a3be13473c80c3a0"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/HyperSchema.php": {
+      "md5": "e7aa1de64b9a33952405ef8dceeb6de7",
+      "sha256": "88a152b9654a6fe88d7c19afa1010304dccbc1e4b9f7cd4c3a12ea9ed106fbbc"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/Image.php": {
+      "md5": "2a608e583497c27f42c24731f0bb3b3f",
+      "sha256": "003845b4c87d7f5849846d1495bcb20c8c2fd166040b78c9b2ce8959e56a91d7"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/Incentive.php": {
+      "md5": "193cc6f0b3cc2d99b87447d445179334",
+      "sha256": "a1931c3b896e4af290b2d38d2a53a268ae2091d560aa9ef3a8a367b9ef70c2e7"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/InputFields.php": {
+      "md5": "6e9175a08b3e2837ffdffae4f927596f",
+      "sha256": "80695b34234083d7f86ba5f5ba53980cc3b8221b0a9e340bf10a41c0b113e567"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/InstallmentInfo.php": {
+      "md5": "1ffac8239c0db6e57fa4616f8efde768",
+      "sha256": "1279fae5f16d7eb2681f1affaec586707e975828ffc401e5a89b035b02958172"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/InstallmentOption.php": {
+      "md5": "2ab84e53c26e222f9f3cad893ce87536",
+      "sha256": "b371467cc0acc79f8a898c07465dfc6fa7da2914634d881bdbc70164927e2088"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/Invoice.php": {
+      "md5": "4609badcc3034e148e2a047e002044a6",
+      "sha256": "3be667c220005448860987b63a2fc31c4c5f6ef463fea15ebea852122dff0b01"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/InvoiceAddress.php": {
+      "md5": "f35c4bfbe4af9cd4386745db61f510f8",
+      "sha256": "285055c37bb83f0c039e22a8b11741dd93119a3eca9e9dd58fa8d395b1eb37ae"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/InvoiceItem.php": {
+      "md5": "ced1ce98f4126b4268c153bd68bac91c",
+      "sha256": "e877ae37b0e961ee5c0895f0833d10c6ee27ca9a3a1efadfef82a22aad2d4099"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/InvoiceNumber.php": {
+      "md5": "9f77678f479f9b46a014c29c7d48597e",
+      "sha256": "cb0b041e72256631cc9b08ed7bb40d762eab6943f3e86f2c1db2b000254e95d0"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/InvoiceSearchResponse.php": {
+      "md5": "842c4ff7472bc5f7be15e2e9aaf6dca9",
+      "sha256": "f9310086f51267df20a70843151d5a53dcb4e45ca5e59ae232641228a4b1250e"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/Item.php": {
+      "md5": "314ff8fb969247358697e22452e2eacd",
+      "sha256": "116ee1529eb7993feb1b789627028b3e484b0108ca278f50d845e58b2d3ecc18"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/ItemList.php": {
+      "md5": "eae33bbd0ff54fb571ee3bdce291cd31",
+      "sha256": "2c0c4ad711968aeed80333757512963d6f7af1e49b23d1d8b00551a8d9057978"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/Links.php": {
+      "md5": "6cd3ac5493d6b2f1641cb0f93460b226",
+      "sha256": "f0987c317d4838cbfd9ace41884f77c24ac43e43bc0380ad9ac3648b41833840"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/Measurement.php": {
+      "md5": "13b63a8d572754743643b16436498b21",
+      "sha256": "414b99832cdc0b1bef98de21c62cbd380ceae242587cc55546927fdc9c88d612"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/MerchantInfo.php": {
+      "md5": "730d06927a263bd98e06efe7d2f5c543",
+      "sha256": "c0b9ce1d7be858007e2b6c682b43cfe816f2c546425d29bd3f57d107886e1e89"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/MerchantPreferences.php": {
+      "md5": "07c0e1401dc4c4d8ff4784d9726324f9",
+      "sha256": "c76bbae2394555ac34ab134f84fc292721b2a98a0c55ab2ff772f8abe64a710f"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/Metadata.php": {
+      "md5": "ca289601c6cfaf264791b67f3a69270e",
+      "sha256": "7c36f4e8dcd0235f8e99a2e5a1e6b38349044046a25523e21a96b709634eb818"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/NameValuePair.php": {
+      "md5": "c6f7d380e6133815e3cd0f7967a6eb85",
+      "sha256": "7ed971222b15851abafadaba12ba87a3525a63682263f79806b611adcf5fba1f"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/Notification.php": {
+      "md5": "d88be16cb21548f1cd63f6954c58bf69",
+      "sha256": "2614a8620787d477f750259063934a3863567112d91b537cef327a9e2cf551e2"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/OpenIdAddress.php": {
+      "md5": "189e2eccf8cafc1f2916e1d54943b635",
+      "sha256": "a9b811497c2f888252bcac9a95dce51a356d22714f50a6ae7c95792f3c51d913"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/OpenIdError.php": {
+      "md5": "73bb4a1d3dc4ef297aab469751d07019",
+      "sha256": "4368e410e5cb20548413df64efb6dc6d885de635b7b3c26bbae79f3212556a79"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/OpenIdSession.php": {
+      "md5": "04db56dc644580e54d526efb987b3680",
+      "sha256": "cffea4d19ec82be501fe59932c73cac2512312df958d3458e204be27fb14521e"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/OpenIdTokeninfo.php": {
+      "md5": "8c1fc0b63b8ab974e2e1cbb4279b3c16",
+      "sha256": "adf99e768cfa01d7bde4f6422276fb0d808827316bebe99584480987868ca734"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/OpenIdUserinfo.php": {
+      "md5": "65f83c2f10d17d38ceaf67846054f719",
+      "sha256": "40a66c42a22e86e4573424b1bbad9e15d7734a125a5749dfbc891158f9a419f7"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/Order.php": {
+      "md5": "bac9992fce0df037c420ba68c73c92cf",
+      "sha256": "2346c074ac79f9a9a13e74fbf717b94a9dcc3f7de26038a558f14d764070a3e0"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/OverrideChargeModel.php": {
+      "md5": "6c7140dec5765fe9f2b87c34a5ab8ab9",
+      "sha256": "6f972a3cb04526baefc86baed7e390befd845170f706d67761e55fcba3dd435c"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/Participant.php": {
+      "md5": "d504d0b686f860a28366284a98d4f726",
+      "sha256": "03a430e9f4883399ac55f824ebfc5b7855589ac1a43a9c3ce8ae67492dc81b12"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/Patch.php": {
+      "md5": "6041cfd1528bf17c492bf2b9fabaa7f7",
+      "sha256": "c48a572dabed855122529177a618d0c028765bde6bf17dc232633ed770642e13"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/PatchRequest.php": {
+      "md5": "d940ca453821841f39875f894fc935c0",
+      "sha256": "4cf426a9703cc9381e19233ff03e817c1110f1178f0f4838d613f7c72174241c"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/Payee.php": {
+      "md5": "c75768938e03327ceaeca3b532a279c5",
+      "sha256": "7830e5f6a2002e44785a0761f6188e70b8d82b25809169593325b0835d67129f"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/Payer.php": {
+      "md5": "8f006c85de4f277ceed2147101ad9995",
+      "sha256": "a9c1359c96bdcf3ae3549eccbfaabf3e551ed308240e275e7f5c37554612ebcd"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/PayerInfo.php": {
+      "md5": "d39075dc77e4f6b627a9bb57d4246cc1",
+      "sha256": "abf2ec5d2ca0ed693d07b622611248eee8f3a43fb72f9748f70ea2ae29bc957e"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/Payment.php": {
+      "md5": "a7f9319e288d172dbc70e05107ae9b62",
+      "sha256": "563cff173bac83645206312d1e151687cb0ce225507547ded887d96cf201bf09"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/PaymentCard.php": {
+      "md5": "6055162d58a898f940c793d77e91de61",
+      "sha256": "725e78eb218d10d6cb2a6438dbc51938302fe3527f2a6a5d944db4592b033b49"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/PaymentCardToken.php": {
+      "md5": "0e2910acb59a5566a317e21fcfba7642",
+      "sha256": "8a6875105b4661c449c70fe9c6e78bab2f7aed29ca17a79db1d1178b9e7a64b6"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/PaymentDefinition.php": {
+      "md5": "189e288bebe81baf05a0dbf55c2383f2",
+      "sha256": "d498e0d3dcaeead9cd71d61955b696766da83d8a71fad4437450c5c46f0fa5eb"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/PaymentDetail.php": {
+      "md5": "3a69e9931eea27b99a87c240197f81f2",
+      "sha256": "09dad76dbd2dc57a955254041677ec981ce7a54518b74b004856a906a8ecbf45"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/PaymentExecution.php": {
+      "md5": "f75c9861556ce253e7cac63614db2be7",
+      "sha256": "5c15776bf88c4d34856ee48bbc2e8c5225285c34c3bb11c8242ba3ea164001fb"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/PaymentHistory.php": {
+      "md5": "44dba4e54938f30f839516d4e7f4a249",
+      "sha256": "54790cc1283a4c0418f66f7b24429898615c7afdc74dbc359e91a6068a0faf88"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/PaymentInstruction.php": {
+      "md5": "bd5fa06d0da5565c952333748c6ebeea",
+      "sha256": "820cd3efb4980c1878c7f8d7b78ce98cf28cfcc2ee942bc154ecd29f3d8e8be3"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/PaymentOptions.php": {
+      "md5": "773d4f8de2c59701a10c5a5629a99ac4",
+      "sha256": "a4a65fe8aa42a220f20f141bf0846a8bebfc8348707ef5c4b0d49df8a0b8285e"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/PaymentSummary.php": {
+      "md5": "6c6607b4b800c4b8e6d2db07cd2323b7",
+      "sha256": "b1eb48d60039bba1d6faa9a9eca65b8a061f1cf2324355aa9a1dfbf0d11124a1"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/PaymentTerm.php": {
+      "md5": "447d27213e6ecc2f9fa6b5613502353d",
+      "sha256": "dd5f8445016564f8a0d75cb0923a5aa8f0d425770475e1ea09e065fadbfbcf0e"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/Payout.php": {
+      "md5": "1d06f076cb550354e29898b72975e737",
+      "sha256": "53e302cd5b0d6433c055d9be27ffc7df2d43f983d4927575e7383dc2ede5128d"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/PayoutBatch.php": {
+      "md5": "7a9b22ceab45b5522b8ff6931af7bb6f",
+      "sha256": "403529921c2bea3fe828b62cb7d84afd9756a6601ec6952c81f52f948451f5c6"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/PayoutBatchHeader.php": {
+      "md5": "438d64993173abe21d7a415cf67204b0",
+      "sha256": "4274615924b9677cd12d61219a681af2b2a22a426a55b856a2ae2ebecaa86cbb"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/PayoutItem.php": {
+      "md5": "6d557f18aa63683f17382b13fe4208b8",
+      "sha256": "fcf5ddb764eb850d2940f0ae2abae200d9c833cef2a58261e1121d620acc586a"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/PayoutItemDetails.php": {
+      "md5": "26fa935e82f1d7e1f086edf27cca3055",
+      "sha256": "3cf99cd29ac76e40615326a4e39933ecec8a51cb62d7a6bda41c2161d104a67d"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/PayoutSenderBatchHeader.php": {
+      "md5": "13b8c2de88711018593322f200581816",
+      "sha256": "7613f94df279a1d77b090039043e8bc8abcf9de5e1bd2285e4bb3d0f54d8c5c8"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/Phone.php": {
+      "md5": "5a2b597b9c40385d4aca6c6cb43255bb",
+      "sha256": "8a770ee1cbf05ff6f997e756aea9c8906f8b75f1a5aa6d235cf063fa9065c1f4"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/Plan.php": {
+      "md5": "ec8dcb5a38993a3c43e51d623a87438b",
+      "sha256": "5ce3b448d72a046c2104030c41962fbb758da3e2a10cde0c1eee26c6248cdfb0"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/PlanList.php": {
+      "md5": "46ff82f188e0aeeb6891c626c5a132dc",
+      "sha256": "2760c87547e987421c7e9282bb20e3a6d47ec3b2e526f92ea9f71e28cf046318"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/PotentialPayerInfo.php": {
+      "md5": "cbd270db1a1e4cf17ab7fcbe234a48ee",
+      "sha256": "327dd53dc2b004e21968e4106d2a2e1fd6fd5aee100b39aff6c9d17fd0c82ee4"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/Presentation.php": {
+      "md5": "5e1fa0d3d246095926204853806db833",
+      "sha256": "f680a628c8a90b90ded388280a12e1c7c306ed336b785ab3f61d303a3c07885e"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/PrivateLabelCard.php": {
+      "md5": "85dc8e870a1c644519009c47b38a8d93",
+      "sha256": "3300e2cb39bce6cef662d8afc75e85ba9c3afc4f7ecfce9d55b05f5ab8cffc09"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/ProcessorResponse.php": {
+      "md5": "6aa712d0a747ac158eb74beb1aff288d",
+      "sha256": "3a1916adb2c7dcc35653d2778db2f91a0c351a814893ded63c0ac338cadf7195"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/RecipientBankingInstruction.php": {
+      "md5": "9149af25e66a70f8321bca3e03e909af",
+      "sha256": "c7f8d4f3c8ba58f73174e024312617e837d07d9844985a412a27383e034bf15a"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/RedirectUrls.php": {
+      "md5": "f9adcf2e0ac56095217bac6372340536",
+      "sha256": "a39a211d3ef2eeb1a875109750dab0a4c0dc87f2471f0ed925b7d52a6c4afbd1"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/Refund.php": {
+      "md5": "4cd7644af078a87394ec0438262ed017",
+      "sha256": "a47dd9702e694f6bbbb4b57dc8f5f1f031d15d17f0263354c8ed417ce669a4e3"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/RefundDetail.php": {
+      "md5": "2a9272641b3f1ef9269cdcc9289f5320",
+      "sha256": "037a1112786022a119d90318aa5fb07fe558564dd5fc171d75b2e5c518d3d5ff"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/RefundRequest.php": {
+      "md5": "ffc9ae92791aa3c6d710f63eb3e37d2e",
+      "sha256": "a4e359f0f859c97dbe2df4433ec7e3e5c638ee0042df01ccd03087a3e39d3298"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/RelatedResources.php": {
+      "md5": "3549f46d62b3bf18f82ee9d1ab895d01",
+      "sha256": "bef6dd502792000bd61ab61b417f9a0aebded22a024b58b50e8ea93e355a3945"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/Sale.php": {
+      "md5": "83b3a075d011353b3426098c49d1bec2",
+      "sha256": "e08ee3eef86f82ed4095c815d3c6a5f0a3a4a9b3f9735e49daa4f85c8cfc5ed4"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/Search.php": {
+      "md5": "194bc1a6a0ba404bcb8baa923637d5ff",
+      "sha256": "cdebb4f3c0af0c2ca39b1dc9f64f54e6810ce7a0f2424c54d19c945d8fb86fd3"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/ShippingAddress.php": {
+      "md5": "25fcb62ff5e86a251e354d70ce1f3c3c",
+      "sha256": "1f8b55933e8c929a0b72356c5ae06d6523c30d9d6978053e3670005cf7cd11dc"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/ShippingCost.php": {
+      "md5": "1c1129a4377f4fa1baa7acef446ba21f",
+      "sha256": "efff3584ca87e721e62ce926df56e5e28f81a9025259eb4719b5d7229e7b6bdc"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/ShippingInfo.php": {
+      "md5": "2cf6ab7ea9a5802b30bc500b9aa08a05",
+      "sha256": "3f31ed758b9025dcdb429656b18bbece2be6246a936f647beba4c232f5c253a1"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/Tax.php": {
+      "md5": "6edd36d98544689c6660595a8195c517",
+      "sha256": "84f089b7378a126cd7139b14a7077799e7f00a680cee6d945f08965bd2525716"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/Template.php": {
+      "md5": "9b025fc1cc1564f1b7d06c73d292bd41",
+      "sha256": "7d8ec9ff35f5f20d41a2b9a186bea30f7aa97a592722bb239df029435dcfd9b4"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/TemplateData.php": {
+      "md5": "8b9dac4da6ed7c4f7813d5c9473fb485",
+      "sha256": "1c6ca7956aea2c4d4061e02a6ebaa5cd459dfb9598ac57ed7b56155ce60be341"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/Templates.php": {
+      "md5": "5d92842ec0d37c7f4b3c7ba361b27177",
+      "sha256": "85a42cb1cd7ac19f3276298baa2c3bf1eefccf9d81ea12b026ba2819d473091f"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/TemplateSettings.php": {
+      "md5": "bf3687733bd3a882ebf1d37d4f49c29d",
+      "sha256": "9e21fc9f8d265cacb3aab76b188c5593d049c1614a451ec62c87aa06b25953d6"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/TemplateSettingsMetadata.php": {
+      "md5": "6e856362a31396955ffeabe631796cf6",
+      "sha256": "f0b81f3d56d12a87399acae9ff76c01df5a2e683fceb795d47a898d6d3b9339e"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/Terms.php": {
+      "md5": "2c605993f3611d02b70cbb87b2c76b00",
+      "sha256": "0994d1c423a2deb7bc93c4f8c47568bae3bee1c293e908cb6acbe11e0d1c9440"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/Transaction.php": {
+      "md5": "0056226da23455d8425f2acee54763d9",
+      "sha256": "5b003da807080799b7049cb0a72ece907ec2856ca7373df906bd460c8ae21a3c"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/TransactionBase.php": {
+      "md5": "a4a4c62afdb4041a7b143c3191dc0500",
+      "sha256": "a2212403c219250d43575de462552a464534e4621396e09374944abf1e579fba"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/Transactions.php": {
+      "md5": "7aa6a708a39835666dac689dec34b623",
+      "sha256": "dd1dc2aa688bd031c9799b51fda56e6e611c5a26b7c133ffb74881a06d5dd71f"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/VerifyWebhookSignature.php": {
+      "md5": "5a186f7a47cd764200cbf6928228fdbc",
+      "sha256": "a1090a2332649ef0494823abba61a8c32293d366e8923cfbf932569f9f057e6f"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/VerifyWebhookSignatureResponse.php": {
+      "md5": "a025e3ab0d2dfbf6a01da11fe903d24e",
+      "sha256": "18ebef29802b106d791400245fde38c51db03e99ff9635b399b707d53b34d4ae"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/Webhook.php": {
+      "md5": "e8b1d6cac771fa064af29a2f6508ca23",
+      "sha256": "cdb7a23ab81d3109999d12c8a52d0bceabf47a555cae55fc195e2bc4bf62f865"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/WebhookEvent.php": {
+      "md5": "3efd46455b425797aacb7b9c67537396",
+      "sha256": "b8ee795b37feef46cef1cd6b8295dbd7f9d0c8166a470f43eaf34c48bab44e82"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/WebhookEventList.php": {
+      "md5": "b0e354473485d919c4a42acf651b1cf5",
+      "sha256": "9c23d687f992c8d82568f7320fb0d03305890e996c642954fa30d77dcd4a6d5a"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/WebhookEventType.php": {
+      "md5": "fa6f5612d21d96a6ddd622385dc9463a",
+      "sha256": "c53857f46150d624f814953560d13f79fd4e5bb81c32730ce85eb863c1a575d5"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/WebhookEventTypeList.php": {
+      "md5": "d0652090ecd6742aab38a59642ec67a3",
+      "sha256": "946e755a6d2373340c64d0dd7f4420f483a17950826e70b0adbfb84b0259a717"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/WebhookList.php": {
+      "md5": "00b46a00cd245e242318be556225767d",
+      "sha256": "5210efc13951c0238ee1d1f21b6c70a137c17ea8370b277060dab54353bffb2a"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/WebProfile.php": {
+      "md5": "64230ba9f3a4a30500e1858f258d1ee4",
+      "sha256": "1a6a1a0cd49266594e0489c8a7f71d9c7391ea030374cd76f1f391ded9519d0d"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Auth/OAuthTokenCredential.php": {
+      "md5": "8560c6133d234f2092eaedbff0bf309b",
+      "sha256": "93b153002cdfca373a900a120758cd56abbb993655698541bcfa09e6fbcdbc77"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Cache/AuthorizationCache.php": {
+      "md5": "5a89c6928f43aee1b6ed79bcfda34e0a",
+      "sha256": "2f9fdc7aabc14fa4d45d48fd8863d23bf88d4395e614c02c31535ceb1e5d79c6"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Common/ArrayUtil.php": {
+      "md5": "b41119fb9b40bdb3bb137c5f716e2666",
+      "sha256": "c3e67d5b3125672fb2410e655e608ad444af8e129e0a4589c5ed3643d2688df9"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Common/PayPalModel.php": {
+      "md5": "55a6663d8f473914c8eaaa20851f1981",
+      "sha256": "3f70a1e018decda175b6a59fa1dc0aa8dca65bcac4982582bb546337704c19c3"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Common/PayPalResourceModel.php": {
+      "md5": "30faf1d8737824663f95aa8bb22d8da3",
+      "sha256": "c62c6bded348a457c01041b5d52ad70b7a8b5c3d4b8b66b22abc09c6099ff75d"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Common/PayPalUserAgent.php": {
+      "md5": "0d43095cd39fec6de09b29f345f9470b",
+      "sha256": "33f3b0953596e593c641dc68e1496607166af27a4fb41a92773f1d022b0d2817"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Common/ReflectionUtil.php": {
+      "md5": "1d30f90cdc63325702b233bd5ec4705f",
+      "sha256": "fa73e59f6a8eee8610737f782ff3b12ee04797967e71fb8875f87283355b9f47"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Converter/FormatConverter.php": {
+      "md5": "4b2b5e97d9d56b9c45ed5dd9da0a3c25",
+      "sha256": "50d6e0675bcfe9d6ad1d6f227483285c566e4cd0700715493a593f7b8a9e6008"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Core/cacert.pem": {
+      "md5": "d4b2ab71266521d7376ebeee490fba2b",
+      "sha256": "ec6d8c379d19481a08e4ac798d736f8e7a45983bd121597416972b3ceb7a7849"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Core/PayPalConfigManager.php": {
+      "md5": "5ef7758f44d8cc5a276c699ea46d4962",
+      "sha256": "662d6103273a9cfb1e6a5de8f7f6c5a20116e097bd82c36746f7b6855798cefc"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Core/PayPalConstants.php": {
+      "md5": "29ed92632b3ac6772337256f41bb026c",
+      "sha256": "ea2e20bb24dfee3ba0290100e478f75e0914ecd7a046dc920c7f44435de26b7b"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Core/PayPalCredentialManager.php": {
+      "md5": "3b0a07b2195f7da53203765937cd7ff0",
+      "sha256": "7a084e848636df0288de6e1cdbf8cae05ee7a04874c84f5c88c74f72dbf84e56"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Core/PayPalHttpConfig.php": {
+      "md5": "30369c07460a3a2e4f9cfa06ce72c0b3",
+      "sha256": "79c53b57e14df9b5c88cd7c7ff9627c7c50d2e790e8335d3a27ff808dce5c870"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Core/PayPalHttpConnection.php": {
+      "md5": "a86eb893af0a7b85361ba69542835181",
+      "sha256": "ca3ad44f7c372dcc012c12d0d24a68fb04536711b45e3031a8e89eae9977b449"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Core/PayPalLoggingManager.php": {
+      "md5": "695cb97a4ce6000b4d3af79887ac1fdd",
+      "sha256": "f61e61078a03f17186a31b541d2a07f6315c2e6685d19fea1a0342f0f34a9caa"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Exception/PayPalConfigurationException.php": {
+      "md5": "f14c778e88c9a8c917a1d25fc250d594",
+      "sha256": "872992627fcf66bdb5c6004215552117dec211babeb2397d328a1354bd3cfc7a"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Exception/PayPalConnectionException.php": {
+      "md5": "6b125eb06dce5dec2a44d166b505fe18",
+      "sha256": "632f7fffe5fe6238f0a7846d12558e7ed2a8e5aa1951281928a6b8437d9c8f42"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Exception/PayPalInvalidCredentialException.php": {
+      "md5": "98cfbb9957a7b866881dc9aec95a35d7",
+      "sha256": "b490b5bdd14e1c250eaf976724be82b06e396e17866abe10a4b1bfc7e6334231"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Exception/PayPalMissingCredentialException.php": {
+      "md5": "af7ef432314ef86bc79b8bb3d088e563",
+      "sha256": "5b9fdbdf592fd25f945835d272111ef426b2bc884719ae77edb7a68ccd475c21"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Handler/IPayPalHandler.php": {
+      "md5": "03b0eb03e1b5cfc5d90ccda1a768cf8c",
+      "sha256": "6439f3733077cf90f9ec0ed50a65635c50812d5899c7e5362ca54d906bc9250a"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Handler/OauthHandler.php": {
+      "md5": "e381765dbc20fa2ce8a7ad2625267a2d",
+      "sha256": "1830a5200f666cbe1551bdac466bdbb40a733aee2e8f7db1817d82036e77ab1e"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Handler/RestHandler.php": {
+      "md5": "d270dfb97a00abbd1434fad9041dc1ac",
+      "sha256": "5296af0a2577c07658a95df313cd2333d7fbc1d1c49567fea5244d61d20d3fc2"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Log/PayPalDefaultLogFactory.php": {
+      "md5": "73aad187d824c79909482cdbd20e53d6",
+      "sha256": "eb0c16f9482781f9a58df3678335de04f85d1651bd3c191bdd6f321b953a4a3c"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Log/PayPalLogFactory.php": {
+      "md5": "eb63bf499cb55bbbc508b1f3a79708ae",
+      "sha256": "787ac1432d1f21aa686c6adb9aa146fc3116a699ffb2628e8ac757cf5a9726f2"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Log/PayPalLogger.php": {
+      "md5": "42a43aeff9b4a71fde7d843e01125c44",
+      "sha256": "1ae60d8e823b2d84e4ae7dd3b3fd6d37b61bd001e36755b10c7af6bb5beedd7e"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Rest/ApiContext.php": {
+      "md5": "2b318abb109d8cc4882978e9a2886852",
+      "sha256": "e4c2bc0ebc94d3346edc19409597211eedd5ca2a6fa9e8660b8fb791f9989aa0"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Rest/IResource.php": {
+      "md5": "d2a7e80b6373a9112e9a006668d34bbe",
+      "sha256": "5f75b2484efb6ecc465f6441423093a25867f0608ad357763965d912d422b266"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Security/Cipher.php": {
+      "md5": "61f89950bcf7aa8ba2f92047fba46aa1",
+      "sha256": "368ddcc110e05f95a239cb4a57eb6d99de5d1c8e2ff052a223a07c7621899722"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Transport/PayPalRestCall.php": {
+      "md5": "6b6bcad48aa9c673f885b4cd28d5280d",
+      "sha256": "62349c31764c3a34fe9a3294c25dc93ce1e49b1876bcb9f5fa0211841851b055"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Validation/ArgumentValidator.php": {
+      "md5": "d8c57d493e1a2b7413ca8efb66e19b79",
+      "sha256": "2154ee9bfe59d97ed047bb4e9a0b926cfdb72606349d0bc443ebc0a929627dea"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Validation/JsonValidator.php": {
+      "md5": "0eb9c5d640fbd2e6a44fb2891d29d677",
+      "sha256": "35ca8722677f773c660a2f0924741436fa45818331e12315170431756881ecc5"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Validation/NumericValidator.php": {
+      "md5": "3c19a61580a64f0eef0ca19469dd8052",
+      "sha256": "9101b5044224dd4e9b7f5f23aacde83ad79a7610d8b374d2a426cc92745c0b55"
+    },
+    "vendor/paypal/rest-api-sdk-php/lib/PayPal/Validation/UrlValidator.php": {
+      "md5": "32ae9483f298408950af463d64e3d388",
+      "sha256": "90a681a070c975242cdf81805ddcec61fc9a21fd1c12fca027a1ace905958d40"
+    },
+    "vendor/psr/log/Psr/Log/AbstractLogger.php": {
+      "md5": "ae4ceaec6a65c2a29bdb08ebce30d111",
+      "sha256": "944c4d428eba1c613220121ecaa695e9189a42be883218f2fb0074ceca9bbec9"
+    },
+    "vendor/psr/log/Psr/Log/InvalidArgumentException.php": {
+      "md5": "7d2f0bd1583524d739fff12f0507de65",
+      "sha256": "403c6def4d4199a12cb4a54e804c7d29405968871366500f72d6f3ea401bfc64"
+    },
+    "vendor/psr/log/Psr/Log/LoggerAwareInterface.php": {
+      "md5": "cfac6d4dc3ebf2c7f0e49f74d1bcd44a",
+      "sha256": "c32ef350fe969788d0de3996e33c4b6a25308c7ceee1f7e87286f491b2bbf25a"
+    },
+    "vendor/psr/log/Psr/Log/LoggerAwareTrait.php": {
+      "md5": "38c6f36342995b7aa96b30aedb9eca1e",
+      "sha256": "1e001b7d76293cffc829ae97c9bc255ccdaff25c9ebcb6710f2d1a7d3e19a579"
+    },
+    "vendor/psr/log/Psr/Log/LoggerInterface.php": {
+      "md5": "460689f292a11ebce586ef066313dd5d",
+      "sha256": "863e63678ee771916f10f0aa8f454d34b25694a61373c0ab67bba038fd1c162d"
+    },
+    "vendor/psr/log/Psr/Log/LoggerTrait.php": {
+      "md5": "80438cede9b432c45cd59838fc3080af",
+      "sha256": "358842b431c3bdbab0587fd1a58185b59c41f66e735b4ef1026380a219d8a9b3"
+    },
+    "vendor/psr/log/Psr/Log/LogLevel.php": {
+      "md5": "cc226142fd5d390d030b39c61cf97843",
+      "sha256": "9f2520b22945ce1599c4fedba0a4c75985f172ca86cdf386766ebb8b2363768c"
+    },
+    "vendor/psr/log/Psr/Log/NullLogger.php": {
+      "md5": "0cfdfa8d81e5b22c24c96ae7014213c0",
+      "sha256": "e969c5da49ac031373b4b1e0cb9013f2daa87260e1aaaae8e413edddc4d7dcf5"
+    },
+    "vendor/psr/log/Psr/Log/Test/DummyTest.php": {
+      "md5": "52cb71ea2645f556b4e1e519d1c78a76",
+      "sha256": "bade54d76f112de0e63fca81b9712ba19352702340f7fb9a186190aadc009274"
+    },
+    "vendor/psr/log/Psr/Log/Test/LoggerInterfaceTest.php": {
+      "md5": "a653a140fb81bf4c37da14a60c2ad1d7",
+      "sha256": "4721a32c6397a3de0f2ff61ba29a798efdad3e2f00fb3ec401a6722705a25b5f"
+    },
+    "vendor/psr/log/Psr/Log/Test/TestLogger.php": {
+      "md5": "885f63b13ecb1ab70b3da51573770ef4",
+      "sha256": "07508c479f934ca3d935391f4ebca8ad22c024678b695741cb30e45a6de315ad"
+    },
+    "vendor/the-events-calendar/wp-router/composer.json": {
+      "md5": "4fb0db6280d423e581cc35353b0fe21b",
+      "sha256": "546eb62c1a88156fe056b5de5e105782a773793fc9f9c42f1788ace2f51b4e5f"
+    },
+    "vendor/the-events-calendar/wp-router/readme.txt": {
+      "md5": "780622e10d2a3e419082c26efb67ecf6",
+      "sha256": "09ddcb39a72570038d0597ce3306bbbdf5c0809d40f2f542d88dba699b1caad9"
+    },
+    "vendor/the-events-calendar/wp-router/wp-router.php": {
+      "md5": "96fc50b5eb26c8511011d137706d5df9",
+      "sha256": "91cbea4854d2a67831a642d9c8239732e7a953d55b48dae9321e6f838a96ec41"
+    },
+    "vendor/the-events-calendar/wp-router/WP_Route.class.php": {
+      "md5": "374c7eda2abbede65918b731c4bef262",
+      "sha256": "40c01e5c2179e86577a87e515ba6dce44c43eae04506a057a3d5669b3d2fec2d"
+    },
+    "vendor/the-events-calendar/wp-router/WP_Router.class.php": {
+      "md5": "3b905f17ba2f23e2b5b57bd6664bd90c",
+      "sha256": "e96beffa94a32e658bc5fc2b708949358e8c0d90bca6c1405afc6dca143e81bd"
+    },
+    "vendor/the-events-calendar/wp-router/WP_Router_Page.class.php": {
+      "md5": "c7ad6c0119d71cc1bb5228bb6ce3798f",
+      "sha256": "d553161d982605090ccc98de3d2d880f14151cb41c7fa86e6a4ba9681bb45ac2"
+    },
+    "vendor/the-events-calendar/wp-router/WP_Router_Sample.class.php": {
+      "md5": "746ee11ccb65da726b18d8072028a68f",
+      "sha256": "bc06c0990f1146c18b350a821a59edb205d96ff1da320fdfa994211a58a4d64d"
+    },
+    "vendor/the-events-calendar/wp-router/WP_Router_Utility.class.php": {
+      "md5": "9dd0ee137f90bd03dd63b3af567dee99",
+      "sha256": "e864eb27d7153989a63054504b6b69469c290b54e099bbb3b86776226230dbfb"
+    }
+  }
+}
