@@ -1,0 +1,2398 @@
+{
+  "plugin": "woocommerce-subscriptions",
+  "version": "8.3.1",
+  "files": {
+    "changelog.txt": {
+      "md5": "97ecd26b21e7eb24971f72677a91092d",
+      "sha256": "1aa84d253d88bf9acc7c436e22c540bc278bb974d70fdb75dc9a4da4b56d6313"
+    },
+    "phpstan.neon": {
+      "md5": "bfddda6c4b9b5c7f78ed2b4523aa0e4e",
+      "sha256": "ddd3740eb2f43005ca1f972ac1fd96a8664f91f4dda70270c5d8ee329f1e6f18"
+    },
+    "woocommerce-subscriptions.php": {
+      "md5": "18ded9d350f3dea30cc077b229603f51",
+      "sha256": "eb6b9c64f13859ecc087aea9fdbf09ab8b2984d2eeffa98f39178cfadc86258f"
+    },
+    "wpml-config.xml": {
+      "md5": "ae86f63ebedc5cf80dd6e99cf8b25fe4",
+      "sha256": "df8611d307132e8898427f00b786b1a0b64ed9e7ca7c2f0e78840357f23e7cce"
+    },
+    "assets/css/about.css": {
+      "md5": "5c7a9f70c5b6c79bd9e48118bd4af519",
+      "sha256": "808edfad1fc9b0d1ca7fc86c8b456c2e5823efc1af6d3d792aa5c87ec87005aa"
+    },
+    "assets/css/admin-empty-state.css": {
+      "md5": "00a8e2fcd6c0bc0ce73cac62dcabe0a9",
+      "sha256": "d219cfd146e4766a1d2f9c4fb67075b52e15d6578f27415c0ab08a7e3d3b0a54"
+    },
+    "assets/css/admin-order-statuses.css": {
+      "md5": "558ac1a1afc35179359d2337d6a74342",
+      "sha256": "238e0c4c4ec36c9fb2117e4951f6f595df336f4dbefb6a059627622e9419b214"
+    },
+    "assets/css/admin.css": {
+      "md5": "85e26d58b7ddfd4559bdd49737f33655",
+      "sha256": "1a10310b16525f75df2041d8daa91c30fd493b1a8fc502768d0ad495c29c817c"
+    },
+    "assets/css/checkout.css": {
+      "md5": "6541a3d35ed39f752ec1332abfcf730f",
+      "sha256": "7ae9ec3ae97a796b9427d7f57d913cae7c3e984334f39d974a2fbc97c9de04c4"
+    },
+    "assets/css/dashboard.css": {
+      "md5": "bdbb3fc994475ce96ba178a447e02c16",
+      "sha256": "8bc7606dc9e1cfda4a5b75734d9f719a5ca557e6a635b5ed2eadb8d548178a49"
+    },
+    "assets/css/modal.css": {
+      "md5": "9de892c219a509e98b44176f9e414279",
+      "sha256": "adf0cb86c3a237e292ef14075286d933e0680dce12ea72d0c34a0eadce662d40"
+    },
+    "assets/css/view-subscription.css": {
+      "md5": "6b0f5579fa8706e3389721d3137d8e98",
+      "sha256": "ace869ed3feebee54e9eef2a1430223ad405bdf363ba472cb468ad3b4b47873a"
+    },
+    "assets/css/wcs-upgrade.css": {
+      "md5": "dbce28de411ae9208c55ef9a27816160",
+      "sha256": "ae90f6798384b1847eb0d2238637ccff300ef9cf576056a07267ac89ecea4e1a"
+    },
+    "assets/css/gifting/shortcode-checkout.css": {
+      "md5": "6059f5ad7e49055b3463b7782f77a7d7",
+      "sha256": "470a0bdce0e2fa3d21a630ab79390e3502285975476e197630fc40f9ebc8e7f1"
+    },
+    "assets/images/add-edit-subscription-screen.png": {
+      "md5": "77d919d141c983d5b3b5281f24a3ea0c",
+      "sha256": "f8bbef1bf6a623753cc74656fad491e40d87aca34c6d5b3a3c829ae397fc1e57"
+    },
+    "assets/images/admin-change-payment-method.jpg": {
+      "md5": "c0449abe4dd35b7aa93030d4ca1bf97e",
+      "sha256": "918dc530310b1c7348e9c69f169a9cd785488fae24c975505295e0d2efa58eb8"
+    },
+    "assets/images/ajax-loader.gif": {
+      "md5": "f0d00eb0a7d4f978624a133142e1ed77",
+      "sha256": "565c2293ea773fd3a76669718b8cca757bcf4d836f0ee53dba1eadd098bcd3d3"
+    },
+    "assets/images/ajax-loader@2x.gif": {
+      "md5": "d734a836bc6e399ae39313134e35a2e7",
+      "sha256": "63d8a05616de51ea612538a76ef1178daf2ed813c986e7fb4daf18f4b7bfb25c"
+    },
+    "assets/images/billing-schedules-meta-box.png": {
+      "md5": "9277c824ccf65a40836df086718b3728",
+      "sha256": "90f057b6b5c129d8b18fc5aa07fe11d2cd73f5af67bca2322abe02583432623e"
+    },
+    "assets/images/checkout-recurring-totals.png": {
+      "md5": "7219d40567449109c02bda9406b5f162",
+      "sha256": "70093d81a7f7af7d7d2b56926813c0e910b5c429d272d3c680cc4dc345fc7fed"
+    },
+    "assets/images/drip-downloadable-content.jpg": {
+      "md5": "339acfbb29be7089869b85e0a966e05c",
+      "sha256": "697b3a98357dca6e4a6cb37e74070eb73e32fa5818cffc1bfbe591325ff0c0ae"
+    },
+    "assets/images/gift-subscription.png": {
+      "md5": "f32d5d14f8f20e9a2f69452d8a7a67e6",
+      "sha256": "c9062d0e8bae36555b63f3c764af580095eeaf87f7495798f51cd47a20c6d3ac"
+    },
+    "assets/images/gifting-modal-icon.svg": {
+      "md5": "4c0573115dfeb26cbdee6864703db8e4",
+      "sha256": "334802dfc4169f139a4d36d1f7e1426f22864290728ff75966683ddfc111325b"
+    },
+    "assets/images/renewal-retry-settings.png": {
+      "md5": "f9c40fba2a771c56ce85ec5d11ded56a",
+      "sha256": "a41a5c6cb129bc8cb643a9846625819a368e7765981fa981104d20c716b618c9"
+    },
+    "assets/images/subscribe-all-the-things.png": {
+      "md5": "df09cb3441b8d24d12e812f5495e1a31",
+      "sha256": "cf9f631ad96245ee254c4fda61a3e0aeb1f9570be87bbae07eb2a9dab8d38351"
+    },
+    "assets/images/subscription-reports.png": {
+      "md5": "640b02e03cfb066ff936d299af694a03",
+      "sha256": "51e74d5cc08672c5b69f32431d19b67552653ab669492ec22bfc7aef792e38a9"
+    },
+    "assets/images/subscription-suspended-email.jpg": {
+      "md5": "41ba23cb9723326cd7cfaa6b2d539349",
+      "sha256": "dc3aadec33b6c43368204590f92bd78c89d2fcc3c9fbc400dfafd5de70576826"
+    },
+    "assets/images/subscriptions-empty-state.svg": {
+      "md5": "c01c4592c2787f24c895e19752f8f86d",
+      "sha256": "f3550a1f9d531d6e9e9aea6975bd6fe4679e15af2626aa20d9f19859a5cd6071"
+    },
+    "assets/images/subscriptions-importer-exporter.png": {
+      "md5": "35806120ad73f463ed5e206869c8b436",
+      "sha256": "8da9bded71098f645a062af9c8edcb39c2012c822364a1b278a35f6014016df9"
+    },
+    "assets/images/view-subscription.png": {
+      "md5": "dedd6218a27ec3f2117440d81e9bdcc1",
+      "sha256": "e2f625a29af247c3b1ffd7ffbe1f775d4cac1fe434c71a7abbcf7a097ef18723"
+    },
+    "assets/images/woocommerce_subscriptions_logo.png": {
+      "md5": "1fbd51068463e353a478fe50b00e14f1",
+      "sha256": "0463b41882ff620ab3ea8f40eb0e3e8ad25e19302892980d319edfb60e158758"
+    },
+    "assets/js/modal.js": {
+      "md5": "c4e5065b37c920c6b4c4a23a3d2d044d",
+      "sha256": "2d8e2edd186794c078a036677b74e031d5708a33d7d37856eba5e404c6a2cd20"
+    },
+    "assets/js/wcs-upgrade.js": {
+      "md5": "9a133e76e2a00c4c654896d3cb9a66a8",
+      "sha256": "a4b2d8626fea443845c7c625853c67569cfe8b175fd60dc2caf38568867574ee"
+    },
+    "assets/js/admin/admin-pointers.js": {
+      "md5": "25727f3d977df59feae612c0927e53a9",
+      "sha256": "348aaf0026448eabe1623231a882ac2bae1559936ac0754759b435f9671bea12"
+    },
+    "assets/js/admin/admin.js": {
+      "md5": "de7b888f48d6c6a4583d033adfcd5990",
+      "sha256": "baa8f3ab4acaef8150e46b9efe58f59cc5246ed930d60ca7593365930e207a1e"
+    },
+    "assets/js/admin/jquery.flot.axislabels.js": {
+      "md5": "2b90d0a0281dd769dc21223279dd7822",
+      "sha256": "002fd1985afe180e48a8551e18d2689826be3dda3009a1ce1cf006706a9726f6"
+    },
+    "assets/js/admin/jquery.flot.axislabels.min.js": {
+      "md5": "6c5a3906dcc7bdf861620789b9e98a1f",
+      "sha256": "c562348c02b2c5fa52b15307c06f0bd34f3a46b5ac9c25a96e527d4477a8a8fb"
+    },
+    "assets/js/admin/jquery.flot.orderBars.js": {
+      "md5": "db37e23e7792da87f60d256077b3194d",
+      "sha256": "3b534d2d144b8cc240ab6c2550d90751f8b549fec23a4e1f5812097c722e3cc7"
+    },
+    "assets/js/admin/jquery.flot.orderBars.min.js": {
+      "md5": "83048bbbee961743df885d80db86ff2c",
+      "sha256": "b60fc29234b10071c89bdc37c90c2111e6cdeec56de6ab4126d8f12c728cf231"
+    },
+    "assets/js/admin/jstz.js": {
+      "md5": "7210b7d72016d3d4211666ae0cce46cc",
+      "sha256": "222b52fd6209046fc557bd47b1781d552889efe211ff774aa3205289afb81595"
+    },
+    "assets/js/admin/jstz.min.js": {
+      "md5": "89e20271779d46d81f1d4a0f0fdcd764",
+      "sha256": "0bfd92ccde20f20e50dbd9d7a340ee3e39a667bd3402f7b543da063aaab09a90"
+    },
+    "assets/js/admin/meta-boxes-coupon.js": {
+      "md5": "d58275d42a5dd0fd0213da833688930e",
+      "sha256": "0b607ac30747c3b75bd3162b56b00e96e1fa6767cb0994a3f57499cf8d4c79bd"
+    },
+    "assets/js/admin/meta-boxes-subscription.js": {
+      "md5": "44fb50aa0e44447c3c25bc480ae979e2",
+      "sha256": "5e61c481e92faec964adee88127f0773299c7359d6264ef72969ad3de661ce47"
+    },
+    "assets/js/admin/moment.js": {
+      "md5": "b2ec0860739364a11a40c0e2593cd149",
+      "sha256": "aa9100dc6070891c9589787b1b2f863b70e98ac594537be76c3c337768cdfcac"
+    },
+    "assets/js/admin/moment.min.js": {
+      "md5": "b29f59843c767e70b7ab127af79b3698",
+      "sha256": "65aa6eb1f3c5964ba8bc97b85a85a58c028c25362d324bc396b118963f1fffa4"
+    },
+    "assets/js/admin/payment-method-restrictions.js": {
+      "md5": "5c7b5b87741371b1bb65ef30f2a20c8d",
+      "sha256": "464d238d9ade9608a6a8a78a2d2f84cfdc88cbed03899cfa948cc63c0d62585b"
+    },
+    "assets/js/admin/reports.js": {
+      "md5": "1f8273bbec0896b884a6bfe17c0dfee6",
+      "sha256": "d5226d406411f781b0827f992f3064c071610e3f7147cc1db66976dade2fe452"
+    },
+    "assets/js/admin/tracks.js": {
+      "md5": "9a88699136f871cdc68f00da8c2bfe5e",
+      "sha256": "8445e1e03313635ead65451145cf708be188a85321af686de6719d63118fbc70"
+    },
+    "assets/js/admin/wcs-meta-boxes-order.js": {
+      "md5": "b1e1db995a2475522c756d06017a263e",
+      "sha256": "43135b53c46c6ed2f1feef20c8e84a69dc6f9da0128618d90a00dd64ebc8c5ba"
+    },
+    "assets/js/frontend/payment-methods.js": {
+      "md5": "eba945ab28379931fdffc6585250229c",
+      "sha256": "6c1dffbfaa06b0b0325e4d17e564f767afe3caefabd3a62e073e6a3d7a614da2"
+    },
+    "assets/js/frontend/single-product.js": {
+      "md5": "465b8611d5b5b8f9aabb428e09ffe39e",
+      "sha256": "0b753fced6dc4208a5fd155928745f53ebacff3df97e52c365432d80bc2e3958"
+    },
+    "assets/js/frontend/view-subscription.js": {
+      "md5": "81afb181f4b8d7b1f2de23c331fcd92d",
+      "sha256": "cbdddb03f0ea644f31d92ef488ca434c95d3b1cef9214e6636e669a725bff7c9"
+    },
+    "assets/js/frontend/wcs-cart.js": {
+      "md5": "11e52d2e2d38e84354e9dbf590a513e5",
+      "sha256": "52564f6f90e2dbe12e31efac8c52608a10a80fde8946ba7bf82adf27ebe5e6f9"
+    },
+    "assets/js/gifting/wcs-gifting.js": {
+      "md5": "162a23887e3cb4cb0e9616c34d33f8fc",
+      "sha256": "7301222bf0203d2605887cb212100a5fc96e60f6c4b9d9183c5aae32ee01c6c2"
+    },
+    "assets/js/gifting/wcsg-admin.js": {
+      "md5": "c9904345ef1009e683bb69a61af67875",
+      "sha256": "5e4d092af6adf528d918e207b9661ba7479f3da42bdd8ef311007c2bcd7b346e"
+    },
+    "build/admin.asset.php": {
+      "md5": "d4e35b0a817c6e3e61b4b919d897fd13",
+      "sha256": "cc1a0519ec809364df0e33f70b014e6c1879b24cca8a9fecd4bf3a7c23ea6e9c"
+    },
+    "build/admin.js": {
+      "md5": "e3e449e9cd961bdf909c9e8843aaa9e9",
+      "sha256": "d8348b97124b0a7dc713b1c10ae7953273354f0d6a2a20286459601cc771644c"
+    },
+    "build/index-rtl.css": {
+      "md5": "160a8be03eea1997d4d111ad7db96c41",
+      "sha256": "365a7d45648e5e8635312acf9e1acb3194eead817fa5e99a1198914a5b2b3fd2"
+    },
+    "build/index.asset.php": {
+      "md5": "7135683c60f023df859a697db7c5b177",
+      "sha256": "5a493642e2fca909fa2e4b4cfb1a5a3ea1ba29f36f97effe33b9d7cda65de005"
+    },
+    "build/index.css": {
+      "md5": "755f6c334bd7450dd412a5707fcf9148",
+      "sha256": "aa6f3a97a51b6d7677464028a9c4ff69da162abe38924d27d7a31bfce2786436"
+    },
+    "build/index.js": {
+      "md5": "a672bb8093ab9677c1a83661e3b8ba46",
+      "sha256": "b4f072850a2591c19c24e5c6f005aa4c166f8ccb679fd6b67a5e4079a29d3da9"
+    },
+    "build/style-admin-rtl.css": {
+      "md5": "a9ef6963504897e4cbc156eebaa85aff",
+      "sha256": "02ad7e9675f8de0a185e7641c4ace298ed56cd0cb94ec844db85b6e8fc200370"
+    },
+    "build/style-admin.css": {
+      "md5": "faaae77a5ad8e7abae55ca0ab3362bfa",
+      "sha256": "c7b249105365cc6fb49c83cb750a1df07dcb433ffbc7aea8508457fbc118ea03"
+    },
+    "build/wcsg-blocks-integration-rtl.css": {
+      "md5": "3eb10f8f9a54e7c19a393caea764ccbf",
+      "sha256": "e4ebc4a64fb9fc656175d244ebe25bd74d9ee4f3342cac0dfdbc0cf4877b2465"
+    },
+    "build/wcsg-blocks-integration.asset.php": {
+      "md5": "01d04c804a8341997805d6fa44f401e7",
+      "sha256": "fe750f697c330efad4a911920eea81b512b2e508d18e6e6ac8d48e10f0b32b36"
+    },
+    "build/wcsg-blocks-integration.css": {
+      "md5": "3eb10f8f9a54e7c19a393caea764ccbf",
+      "sha256": "e4ebc4a64fb9fc656175d244ebe25bd74d9ee4f3342cac0dfdbc0cf4877b2465"
+    },
+    "build/wcsg-blocks-integration.js": {
+      "md5": "8e5da0c74eb4cbe2e66756ef9de6b846",
+      "sha256": "ef9954ee6fc11215cb94f8c3a7aae190a57defa7b0e3a3a47e67914f6eb293b4"
+    },
+    "includes/class-wc-subscriptions-cli.php": {
+      "md5": "d33ee43c4c137f1b1ab26aa1f713891c",
+      "sha256": "7e83bf633cca02e5cdb49236d49210ce0af15bc8c82b13bcccdd0dc4def2a6e9"
+    },
+    "includes/class-wc-subscriptions-dependency-manager.php": {
+      "md5": "293fcbc9ed84717de45f0f0da41ca722",
+      "sha256": "a79d1ff2ffc764797ea294f89ad63085bc01daadee38783383ddb384e992b428"
+    },
+    "includes/class-wc-subscriptions-plugin.php": {
+      "md5": "a1970597e7fe3a26a15c2f11048a6ac9",
+      "sha256": "880a750d16429154d974a7cc5d03b3f8cafe8b6a497a4286dc20b0182f1fd5d6"
+    },
+    "includes/class-wcs-api.php": {
+      "md5": "00aed1f7f778c4cbae756518608eb74f",
+      "sha256": "fe590669f726b485f30243c82c726d0d3b4f5772016a8be4ffbbb754216c952d"
+    },
+    "includes/class-wcs-auth.php": {
+      "md5": "3dd0416ecfa4b6838610a5dda3038995",
+      "sha256": "bfcdf143b712c46d6412e86b78423ab04aab2a38242a292bc11e889f94b02065"
+    },
+    "includes/class-wcs-autoloader.php": {
+      "md5": "33c978b2acd8c89d3d8bd873ceaace54",
+      "sha256": "fc19c7d0987e46a6316beea17bc265b8dc89ef72cc900cafef31ff027bde41b8"
+    },
+    "includes/class-wcs-call-to-action-button-text-manager.php": {
+      "md5": "7233ca343e267c326b9ed5b1f16a61bb",
+      "sha256": "892382a98ed65a6e694181bd85369016b69327d82242c6f4a326102e9ea63853"
+    },
+    "includes/class-wcs-customer-suspension-manager.php": {
+      "md5": "3c7d382f13ba2e8a68847fa3e7e0684c",
+      "sha256": "f9608f65f61cb5359c82e90dc02a82adada0686ddaa366953f5ae75f96778eee"
+    },
+    "includes/class-wcs-drip-downloads-manager.php": {
+      "md5": "af1efe74f28af2a51512baec4da66de6",
+      "sha256": "3316c070f1d46bf6c7429918749dc796d87089be260460edf2deaad226e73a56"
+    },
+    "includes/class-wcs-limited-recurring-coupon-manager.php": {
+      "md5": "b5de691a5aba410e45a6569fb16ab16d",
+      "sha256": "aec14543e99a8f2d096df5f661e24aa058fcd999db88085962f554b08f4a95bc"
+    },
+    "includes/class-wcs-manual-renewal-manager.php": {
+      "md5": "3ffd6ecc2b5282fe185756a4b18e2533",
+      "sha256": "157f967723fac616931de8c2d06bf0d64f2585cd4c381b3700146aa9f4c85759"
+    },
+    "includes/class-wcs-subscriber-role-manager.php": {
+      "md5": "928d39db41322629a66650ede37bbbe2",
+      "sha256": "7fd5fd5c86f1093d61205a512e6a32773adb1eb6047bebff388580d163768a78"
+    },
+    "includes/class-wcs-upgrade-notice-manager.php": {
+      "md5": "da1349c525006f167bc0aab106c0c124",
+      "sha256": "dbadb2d2ebb5e25389ae7b58dc08da58dbfa185381329b849abd5450c42d4b92"
+    },
+    "includes/class-wcs-webhooks.php": {
+      "md5": "50865a1e2ebe2386affcdf3efbc5232f",
+      "sha256": "bb5f368494ec131031e9b099206a421dbfdd50d4aa8b40ea2e988464c899bef2"
+    },
+    "includes/class-wcs-zero-initial-payment-checkout-manager.php": {
+      "md5": "68d1db6478c9979f4190b4d3055a0f21",
+      "sha256": "c413e7f64eb0f582428d92b619571a6747b91c8f1e2860bb356ed560b327d24b"
+    },
+    "includes/admin/class-wcs-admin-assets.php": {
+      "md5": "bd42f631b252b3dd3fe88f72eb5937aa",
+      "sha256": "e36d6fffe88ab06bf5aa41cb8636ac7c4c2bde1e09254088176ab698fe86b83b"
+    },
+    "includes/admin/class-wcs-admin-reports.php": {
+      "md5": "0ecc225161008bdb1a4308cb17d16a78",
+      "sha256": "c0eaba466c3dfba47afd26fc7c3e76ad1c9273d896121c60398ed55131402a01"
+    },
+    "includes/admin/reports/class-wcs-report-cache-manager.php": {
+      "md5": "8fa7da1f947c5bfe90f0477c3bad790d",
+      "sha256": "5ffea3abefcdbdfa5ad6f48363d2483930aade15b924b7ad5556a8a185a0e928"
+    },
+    "includes/admin/reports/class-wcs-report-dashboard.php": {
+      "md5": "0d4b3a60a4f19956d7e8abc4bd90eb29",
+      "sha256": "6e0672a3b0ddf8575ad52c5be7170bd24af16b5478928cd6e52ed72350fdfbe5"
+    },
+    "includes/admin/reports/class-wcs-report-retention-rate.php": {
+      "md5": "2617b94720eecd23e1b5eccc8e516046",
+      "sha256": "8dfada542475be2ea282d6192e22a315223d767636146687e5d14b6850baa369"
+    },
+    "includes/admin/reports/class-wcs-report-subscription-by-customer.php": {
+      "md5": "fa77f79e0decc834627442ddb591521f",
+      "sha256": "edad2124268c51ad9112a2bb0bbd6da77ea78b4cc38bdd1b28a94d5c6ae06fc7"
+    },
+    "includes/admin/reports/class-wcs-report-subscription-by-product.php": {
+      "md5": "f8c31b9aa84836170e0d36e91278baa7",
+      "sha256": "f7112ae81cd1405043ac05b216c940bd6669a31544d26c8504b8218b287e7dde"
+    },
+    "includes/admin/reports/class-wcs-report-subscription-events-by-date.php": {
+      "md5": "88579b65699ec38905ff6b1d6815f1a5",
+      "sha256": "cedb0acc03264c4e775ca8bd62c04036215eb00e887b4659f486fc8602037a9c"
+    },
+    "includes/admin/reports/class-wcs-report-subscription-payment-retry.php": {
+      "md5": "8623807239aeb922060d422dc55896e2",
+      "sha256": "8348c3175ccf457434c4bef6caeec427c90eaa4e31200da8feb3ad5b2d5db99a"
+    },
+    "includes/admin/reports/class-wcs-report-upcoming-recurring-revenue.php": {
+      "md5": "73205f7c6c9eb39adb1b5a121c6d95a6",
+      "sha256": "c96fd695780b4f7b357b7f9119c4ee4f030bb8c934628fe9b9e71fa0536c8b82"
+    },
+    "includes/admin/views/html-report-by-period.php": {
+      "md5": "77ae7499af92aba9d17356d0f144de0e",
+      "sha256": "01f4f7f7fb15a716edfb6abf6d0a45bde65f4608aa36f96a98854b2fc22d07de"
+    },
+    "includes/api/class-wc-rest-subscription-notes-controller.php": {
+      "md5": "7f1234268f550ec8c3a601be492dcf76",
+      "sha256": "af020eeeda55f6f4fc599f38b07394363c27791d118e9b3c854418fc066aaff4"
+    },
+    "includes/api/class-wc-rest-subscription-system-status-manager.php": {
+      "md5": "19da8176e0ab1a9cf75f5f4418120eab",
+      "sha256": "329608895692a4faac43809e3ba9e0f9e2b9b041703e5967c24d4d7e4cc1017d"
+    },
+    "includes/api/class-wc-rest-subscriptions-controller.php": {
+      "md5": "b1f5561274f0d3cc0763b15e4c5f40e0",
+      "sha256": "898b00ed7c26476dc1c566ba80822c42750407634f38574deec9da2a6af28c2e"
+    },
+    "includes/api/class-wc-rest-subscriptions-settings-option-controller.php": {
+      "md5": "9b520c8c857da2b14bc2502c9d95aa9c",
+      "sha256": "fb30d163263508e09aaf3c17c968f66adde70d2f4058ad968908c359df9499be"
+    },
+    "includes/api/class-wc-rest-subscriptions-settings.php": {
+      "md5": "b2882fe95fb6610f6d76127b9967ea7c",
+      "sha256": "f0cbb55ebbd4ad19eb7d9181ba3cb2aaad1164d40fe0fb23301af5649948b4f4"
+    },
+    "includes/api/legacy/class-wc-api-subscriptions-customers.php": {
+      "md5": "72fcca325a733c4e2fe78baf460682cc",
+      "sha256": "5cb52b70e2daf8f475cef44fee63d81d5e06c41abd171725944d37f59ec2809e"
+    },
+    "includes/api/legacy/class-wc-api-subscriptions.php": {
+      "md5": "486bcf604a7a75a4ae05b6d9636b67a3",
+      "sha256": "f216d86a1e428a7ff0e8ddb528cd2ce20ea27d93d49536ba832eef995e4e0100"
+    },
+    "includes/api/legacy/class-wc-rest-subscription-notes-controller.php": {
+      "md5": "d059d5814380ebfd5a5a4e4a10b3873a",
+      "sha256": "07618a4e3860b9fd8c9b7c74e41a36baf7897d20d7f8ac5fdb6975af345b0f06"
+    },
+    "includes/api/legacy/class-wc-rest-subscriptions-controller.php": {
+      "md5": "fc74c6cafc415006614fb8615fd4600f",
+      "sha256": "74ad86651730f75977d001066a1b31aacc1618c4cb304aad970a1309e473f752"
+    },
+    "includes/api/v1/class-wc-rest-subscription-notes-v1-controller.php": {
+      "md5": "a971fa97e7e4b9b172e96ddda81bb027",
+      "sha256": "7b71f90a23212d1da91aec908c2937a137f68804a3b2f9695380a8db574da931"
+    },
+    "includes/api/v1/class-wc-rest-subscriptions-v1-controller.php": {
+      "md5": "bc3599a0090946b1290953c1dbd6a59d",
+      "sha256": "594b80cfa1bc2539c0409c63270b092bdff8f7b18fb408a59f59fe3171055728"
+    },
+    "includes/api/v2/class-wc-rest-subscription-notes-v2-controller.php": {
+      "md5": "566c9187f831f499f859cfe8feaded12",
+      "sha256": "21558c75bc8eadd685d8fc4ba181b821e4a97d92b38558403c89403cecbb8cbb"
+    },
+    "includes/api/v2/class-wc-rest-subscriptions-v2-controller.php": {
+      "md5": "0b18ce6e8bc0653a929a0bddadce4301",
+      "sha256": "fa9a29028c53ae1fd7efacd117aff2098eccd330d1a255571370e6ca44e8a289"
+    },
+    "includes/core/class-wc-product-subscription-variation.php": {
+      "md5": "3cf994ba446dd84968107351b4b4e006",
+      "sha256": "160f9c7767b4ed865eff005e4de22d4c10aa2d05bf5d28dc31f39e68895a71a2"
+    },
+    "includes/core/class-wc-product-subscription.php": {
+      "md5": "d5e06fb847be073c3d7cb6393554d904",
+      "sha256": "499986676fe9f07099c61bfac0f65614ff882b34192991c20435119f2316eaeb"
+    },
+    "includes/core/class-wc-product-variable-subscription.php": {
+      "md5": "f836fb2075a91eda4a78b23813ff40dc",
+      "sha256": "4d805af6911b4a9c6d089724f1601fb6cbeffbbab81db17adfec32a0268acc03"
+    },
+    "includes/core/class-wc-subscription-item-coupon-pending-switch.php": {
+      "md5": "961607592bad4a7df504c867e0d247a2",
+      "sha256": "64c781ed37eea4ef59f96378592bb96cefbb0de7d8aba2d767ae92886a30afc1"
+    },
+    "includes/core/class-wc-subscription-item-fee-pending-switch.php": {
+      "md5": "9ecd2d1d6fd55f2a76a42939fc5b96a6",
+      "sha256": "24797f4903936f69e296797602934b3095210ae4223378ac79f9ef9f90f2fed0"
+    },
+    "includes/core/class-wc-subscription-line-item-removed.php": {
+      "md5": "822396423649d8ad2360df855bb68cf5",
+      "sha256": "819e12ad2c7f9109a5420ad9818e0bf57fda6537902b846acb0f801de3a91e77"
+    },
+    "includes/core/class-wc-subscription-line-item-switched.php": {
+      "md5": "4ff8b56ccdabead5f441472e93c3163a",
+      "sha256": "7b30ca6f24eea129af50f19031890c1ef2a0c67388b8a7c5a1e3aa5fc050c64a"
+    },
+    "includes/core/class-wc-subscription-query-controller.php": {
+      "md5": "20f728d5a668c84db3af518e8291afaa",
+      "sha256": "1bc16446ad697d93f9880f9a59f113ba535152526d6d8da7e5d66e13b75f0748"
+    },
+    "includes/core/class-wc-subscription.php": {
+      "md5": "a2ebdf9eee0a15cc46309e558f5b8439",
+      "sha256": "3147157305dc1dac3bb35d60ca7e36b231c5682de6d0df5c2cc8db7f4681cdff"
+    },
+    "includes/core/class-wc-subscriptions-addresses.php": {
+      "md5": "544c45c23646ca36f159070ed5addde0",
+      "sha256": "69a7d5a142b34974a56d24761663e9955267d9ab943177f4375555e63d03f918"
+    },
+    "includes/core/class-wc-subscriptions-cart-validator.php": {
+      "md5": "04e3fb536d8b083e7d20b0fefc8c0b96",
+      "sha256": "c01d8db6af56cb641719998ed07651ef18d4f0dd0c92d9db9ca23d6bda6453c8"
+    },
+    "includes/core/class-wc-subscriptions-cart.php": {
+      "md5": "2ded1788be9c9fc43d9f8f8f647dc8b5",
+      "sha256": "14032b8744c8568d503cbacf7586ae286704cdf26e2f145d580c87c12e32cde7"
+    },
+    "includes/core/class-wc-subscriptions-change-payment-gateway.php": {
+      "md5": "429a013a424dd9933e06b7804cc7eeb5",
+      "sha256": "d9925290492a8c33082cf3de1db97ba6997d9b8cee24d9742579c15f829ec4f1"
+    },
+    "includes/core/class-wc-subscriptions-checkout.php": {
+      "md5": "bf7ac371f1857fa358d22f54eef9e493",
+      "sha256": "7929505b994c4055b38b608d9b82958da2f0b8bd96f87beb9dbdbc21dc7b61ef"
+    },
+    "includes/core/class-wc-subscriptions-core-plugin.php": {
+      "md5": "7dc53a1f111bf7221d1011a620d33f32",
+      "sha256": "441b64b16562f7f2636264d09a6a5fe8d3b5fae90ffcc9cd4427816e8603c94e"
+    },
+    "includes/core/class-wc-subscriptions-coupon.php": {
+      "md5": "0f603fc3c6947b6922c9730a6a4621ff",
+      "sha256": "5156f213f0ea8fdf24f52a7d8f2397a0e85497b305276771d948884a8a6e23f8"
+    },
+    "includes/core/class-wc-subscriptions-data-copier.php": {
+      "md5": "318420366357674cc2714522c94a0483",
+      "sha256": "17bd8bf6976dadfae62d57ab1a7005578cd1bfce8c27a94c3041ccf17382973d"
+    },
+    "includes/core/class-wc-subscriptions-email-notifications.php": {
+      "md5": "06779e5635b161b80e9b8d7a9cf4ed63",
+      "sha256": "9867ec860c8ad5526501816013b12502dd57e5f477e82e3cdfaf4b5bdb207875"
+    },
+    "includes/core/class-wc-subscriptions-email.php": {
+      "md5": "e8f39cad2b8c3483e841ccdefdf3ae6f",
+      "sha256": "207fd9d5e4ae4038a608702d602b74f21b181a2cffb71bb5caf425e6d42dae90"
+    },
+    "includes/core/class-wc-subscriptions-extend-store-endpoint.php": {
+      "md5": "8af9fb86d16925ef3db22d827c17c428",
+      "sha256": "dd5c9e0e340c848ef32ee445c563f58653c4c97010ae62c6915dd97658d19b53"
+    },
+    "includes/core/class-wc-subscriptions-frontend-scripts.php": {
+      "md5": "970f821b457ba9fb34d618fcbda6c74e",
+      "sha256": "92bd61128047bf240b266f0fae6e52d530fb467b194b681c240bc5b7f2accbcc"
+    },
+    "includes/core/class-wc-subscriptions-manager.php": {
+      "md5": "f84dda86fc165ad4bd1e3eb9fb1b3e52",
+      "sha256": "681520f1dd1673ca98708b3d74e614ef5133596a19d62e81c1c6c1f09a81b978"
+    },
+    "includes/core/class-wc-subscriptions-order.php": {
+      "md5": "f7276f7ac8580e4d4cf30a5b7b7a9acf",
+      "sha256": "a6f52a0faf533fe49e975a941ddeb4e7cda99930ca82a9cdb1713c34796c5263"
+    },
+    "includes/core/class-wc-subscriptions-product.php": {
+      "md5": "8a37e472d0533c2538ee13202bbf2f07",
+      "sha256": "4da8fdaa7a7f53916a720e5a59fb8dd81edabb98673aeffa1b5eee10a915942c"
+    },
+    "includes/core/class-wc-subscriptions-renewal-order.php": {
+      "md5": "9a94949afa69ad520f020ac7d8cf8b89",
+      "sha256": "f4314676f7b62f185e7f054ec96291df2a06b86b20e6339abade4a2c67e41885"
+    },
+    "includes/core/class-wc-subscriptions-synchroniser.php": {
+      "md5": "d891462614d849aeafbf7d00414e54b4",
+      "sha256": "d2b72d92dd768d921c2cc5890424f47ead585177e73233352961a8d311e9a8a6"
+    },
+    "includes/core/class-wc-subscriptions-tracker.php": {
+      "md5": "ea82668bf74f4a237a2423d953c4287f",
+      "sha256": "21e35b993d68d161051d4e51a92e125607c6fb94e7f9289457a2c5c9ee51eefe"
+    },
+    "includes/core/class-wcs-action-scheduler-customer-notifications.php": {
+      "md5": "a988ffc723a31ffaa3da891c61130ea6",
+      "sha256": "de41c5d7949e4136e32cd27f07ad54d8526e0c465bb22be7d9e1e090f22832d5"
+    },
+    "includes/core/class-wcs-action-scheduler.php": {
+      "md5": "5d650555e667c3b1beaa2818545bc72b",
+      "sha256": "3db7d907f27ee312795826636786453fbb9ec25e6b72617eb224508d5dcae830"
+    },
+    "includes/core/class-wcs-batch-processing-controller.php": {
+      "md5": "7751632516d59bdee1cc95489db29559",
+      "sha256": "66078e937615ba2ab7b71e8becb08a9b5868499a272a9ae7bbad68667908669d"
+    },
+    "includes/core/class-wcs-blocks-integration.php": {
+      "md5": "47667ba1370ec9f9027e7f0f6d30a313",
+      "sha256": "7a71df836a79b15d745f4d104c97fd2b0a341eafe8f8c3191315ea2d216eb95c"
+    },
+    "includes/core/class-wcs-cached-data-manager.php": {
+      "md5": "e921ff46693c41c05200e858daf21ada",
+      "sha256": "a13b1b4f4e0ec22d116d1fd10c9a456dfcdb1e0e88fbccdc07c5145b056018af"
+    },
+    "includes/core/class-wcs-cart-initial-payment.php": {
+      "md5": "425a2c0976eb4772109977d8627c16a0",
+      "sha256": "2cf958f01e50b88b98eaf01de859a5c4d2974921ac67524f830ff29d402d5d9e"
+    },
+    "includes/core/class-wcs-cart-renewal.php": {
+      "md5": "1e675c6473823238ecb4592cdf2cb99c",
+      "sha256": "8412c65a0bb4acdb11cba87a8e6569375f14033d21f6147a47b1cfde037a72e6"
+    },
+    "includes/core/class-wcs-cart-resubscribe.php": {
+      "md5": "43bd47f0fac6c3d3c64ca09a825aedb7",
+      "sha256": "06cbe9f8b98e2e5b31f619e10be986d57e735f0b1b3c8292113abcd1ac973b87"
+    },
+    "includes/core/class-wcs-change-payment-method-admin.php": {
+      "md5": "464f252623ffbcedf060684d42178b3d",
+      "sha256": "6c962a1ee2cdda750b200138d837625ad44026e80ca02d2002e5f4b2981c79b4"
+    },
+    "includes/core/class-wcs-core-autoloader.php": {
+      "md5": "de152f803b775b87ee6d36069e772fc1",
+      "sha256": "6f9cbf35530cea7b8bfecba24661ef4bb4824c6ee8d8e81de070e9252563be59"
+    },
+    "includes/core/class-wcs-custom-order-item-manager.php": {
+      "md5": "f64dbc3eeabcff4f612549fc552497a4",
+      "sha256": "ec7c7a600903ae04be6cebd89235b853750350b49f85afd08ba3319d7ad0a903"
+    },
+    "includes/core/class-wcs-dependent-hook-manager.php": {
+      "md5": "16fefb1e341b5663058c0ed93611f651",
+      "sha256": "bc5a72c2796329d0ced11e5ce34f875848dd148b4e9474a533cf6b4616ce083d"
+    },
+    "includes/core/class-wcs-download-handler.php": {
+      "md5": "ba13bd6e9d5f86f7c432e1c808f22099",
+      "sha256": "a99cc29c10ad6fe239d8c73a9b32905e295d9e7b4baa207072227704aecf6ff1"
+    },
+    "includes/core/class-wcs-failed-scheduled-action-manager.php": {
+      "md5": "877caed6c8b0ff3c34e3c76fe854e3ae",
+      "sha256": "d1557eeff949a07e4eb2b0e1dd834094788210afb34476a0f2f5738ad88c107d"
+    },
+    "includes/core/class-wcs-initial-cart-stock-manager.php": {
+      "md5": "2b0001129b45cd1dfeccb40d1575af8a",
+      "sha256": "0fdc410f505c41cb59e548c15907dce12fc71df7a22b6e5c6f994a999d27bce0"
+    },
+    "includes/core/class-wcs-limiter.php": {
+      "md5": "7e5112e04e26659459554181ce83a93d",
+      "sha256": "93345c5646a44024a61f97ddb3ddf8ee413704f10fd396c1cc07f6d78ce94a17"
+    },
+    "includes/core/class-wcs-modal.php": {
+      "md5": "14b1a67d76485dec596ccd3a31efe0c3",
+      "sha256": "7e6c0f25fdfbf4e0f4f4cd16685d36704cf087acb8c16b4a7e05e1ae3d2cf2c1"
+    },
+    "includes/core/class-wcs-my-account-auto-renew-toggle.php": {
+      "md5": "ea653b46b54b6f0a500c450c7c583414",
+      "sha256": "3ef67187153f35dc73dbda2f4f7fbed6cf9b94887326cf6f6f0f730946406b67"
+    },
+    "includes/core/class-wcs-my-account-payment-methods.php": {
+      "md5": "78cd9081022237f0f0042dc6cdec1fd9",
+      "sha256": "c06650b0add654e86c005588cde9bf8684e0de58661156519f732a13127111cd"
+    },
+    "includes/core/class-wcs-notifications-batch-processor.php": {
+      "md5": "0dc7aa4d6d477bc585ca3cbdb1d5791a",
+      "sha256": "3f9e45072a766db01e91832178a336d03a83394ba5ef374d4b173b2f4da74752"
+    },
+    "includes/core/class-wcs-object-data-cache-manager-many-to-one.php": {
+      "md5": "e85ea532e07700eef556f85ea9d9d79d",
+      "sha256": "3c8f6592287236817b37b9ccb6b46c05b2e89f24f4fc1500497045522a9f3d4e"
+    },
+    "includes/core/class-wcs-object-data-cache-manager.php": {
+      "md5": "4b6bb6f0b233f1506169b678977b4fa6",
+      "sha256": "8473f792673921afc54cd2338907ea9107743106a35401b3bd4f79710ce377d9"
+    },
+    "includes/core/class-wcs-object-sorter.php": {
+      "md5": "6937669eb1a106b2d8ee27a7c8f3ca8b",
+      "sha256": "7149bfd66fca10743d666a0042eb2ccbc5c1a633a55436cf2c099219461a57f4"
+    },
+    "includes/core/class-wcs-payment-tokens.php": {
+      "md5": "31bf092a1efa6540f7a8a7a58c47d93f",
+      "sha256": "f26a1cec931adab6e26da687d218fbff80d28c22c72af8148d3b7b318483a25c"
+    },
+    "includes/core/class-wcs-permalink-manager.php": {
+      "md5": "a25cc6c74f67fe6affde7bc9eaef938e",
+      "sha256": "a470def2030eb0ba02a4cc2aa180a3eefa400bd3e4183bfb246f64307cbbd07c"
+    },
+    "includes/core/class-wcs-post-meta-cache-manager-many-to-one.php": {
+      "md5": "18b825a540709d6a50acf6027c966ec9",
+      "sha256": "58c1a4d74a96a6bd3ea4130058d8639bd156422c0138b1877c232718a489e92c"
+    },
+    "includes/core/class-wcs-post-meta-cache-manager.php": {
+      "md5": "ebd5ef92b1e3a643ad9537d3feb5d2f1",
+      "sha256": "6234a42213247905f0959d0a2b2b11628d6b395674b3c3aec3f01131bbe4040a"
+    },
+    "includes/core/class-wcs-query.php": {
+      "md5": "e15b2da68e30637f2fd6b57b9d50c755",
+      "sha256": "6dab5750115eafeef6a1575c75cf90eeac22b1305312f8d92c509a0dce2e36f9"
+    },
+    "includes/core/class-wcs-remove-item.php": {
+      "md5": "a8e81a544df68e588b200fe80854bfc0",
+      "sha256": "7292d523d5ea5d7547aeb1cb9d32f1806980fec894485f0e1b0923a471dc5f2c"
+    },
+    "includes/core/class-wcs-renewal-cart-stock-manager.php": {
+      "md5": "308d0dc9d542fdb99036de1b9487afdd",
+      "sha256": "c0cc4818a91c1e3c4e588507d0f39c6e09c9c7b4c66c2fc6fd5ec1b5dd296faa"
+    },
+    "includes/core/class-wcs-select2.php": {
+      "md5": "c8d034511dd0fbc5f3d91eb54a153cfc",
+      "sha256": "f2f91e03a5e8804ea42f150b16beb6fbdac5846a349e5758b6dc65c705743a7e"
+    },
+    "includes/core/class-wcs-sql-transaction.php": {
+      "md5": "fb936e3874540965da03e4892e5851fc",
+      "sha256": "cfaff30efed152bb6beb7501b7404391c66caac79d0d1b80fde559d28598fd3a"
+    },
+    "includes/core/class-wcs-staging.php": {
+      "md5": "97a052a40930497c038dccf6bc3747e4",
+      "sha256": "9eaccd99fff11ca26502ede4dc0e8e6f65cc4bd58b2e31e5ac4d74c9ce387ce0"
+    },
+    "includes/core/class-wcs-template-loader.php": {
+      "md5": "bc7a1693fcbfab16a846e0886b834af1",
+      "sha256": "29690eda6336b4a8e51f496bcefe46d50f94a6966c17993437d20a5adb78d05e"
+    },
+    "includes/core/class-wcs-user-change-status-handler.php": {
+      "md5": "6074e185aaaa1b8f9eab54a699bdcd8d",
+      "sha256": "6028f32ca63e1a6e1fa6edc0b0e273200eb587dedf321878c40c31a5f018c292"
+    },
+    "includes/core/wcs-cart-functions.php": {
+      "md5": "7fb942ba6f1ba770c2487b48a05c6e02",
+      "sha256": "9bfc6e59956c19db6f513e2da37af122ab5cbd00da0c59ed583e9b5da2e72153"
+    },
+    "includes/core/wcs-compatibility-functions.php": {
+      "md5": "cb2ab89fe38698fececb9953cff27d5d",
+      "sha256": "a1ad271650c05ddd5a2844675dcf5013c341dd77418bb06f99d617efedbbbb79"
+    },
+    "includes/core/wcs-conditional-functions.php": {
+      "md5": "51077818b16f5162899f5faba2e35b7f",
+      "sha256": "91513d79857bfa4f63fa2f950d77c7b54b2ca067cb551d2ad543e7bf3e88401c"
+    },
+    "includes/core/wcs-deprecated-functions.php": {
+      "md5": "11af2ccf1316d014f607fec402b9993c",
+      "sha256": "b76c28844f943b556845fcce1d12f37a316fc90186b98f7ca139b6aa737e561e"
+    },
+    "includes/core/wcs-formatting-functions.php": {
+      "md5": "3e663ee7358eed34541756a2c5cea2ae",
+      "sha256": "ce22031055d81c076756382e5b5fae34e61c4bcc033a0b8dae55d4532978513b"
+    },
+    "includes/core/wcs-functions.php": {
+      "md5": "79ba84d53a8755a6fc3fa8420c2a0f48",
+      "sha256": "ca39b31a3888daf4e61787a2c0141ed74a7d938ec3b4b71abb0ef9b5bced4207"
+    },
+    "includes/core/wcs-helper-functions.php": {
+      "md5": "7888ff265a42e4bbf4220b585cb9e3bd",
+      "sha256": "4d7cd9514b83b2afeb3fe78efc4c4c3a45597505b47e080b81f56e53d996ed17"
+    },
+    "includes/core/wcs-limit-functions.php": {
+      "md5": "325acba35c461dd630423a5cadf0f23b",
+      "sha256": "41330855f46c2260b46b70b3e409049bc8b906e1b9cad21f4a61b0ce51c153aa"
+    },
+    "includes/core/wcs-order-functions.php": {
+      "md5": "c4aacbd307b6eab5f84156dfbe9ac903",
+      "sha256": "7b49d4dbe6c73ae2663461aba04b824956c375147588ca9da0325ae7c0e70c25"
+    },
+    "includes/core/wcs-product-functions.php": {
+      "md5": "d4de42cf2527359958407aeeda2f04d3",
+      "sha256": "e50b6b2d8e8cff850c8a099b949e82dacef873558e7e202aaa6cb5a6b1cc5b13"
+    },
+    "includes/core/wcs-renewal-functions.php": {
+      "md5": "26254bdb57630c9627b7b4a375866266",
+      "sha256": "63c300c52baea5b6d0c5cef6587aa1d73a769df8d8bc1bf329fc00ce2c4acd87"
+    },
+    "includes/core/wcs-resubscribe-functions.php": {
+      "md5": "ff0f56accbc12b7fdbd3d3bd3c7f4485",
+      "sha256": "15fb63f3bc1de7edf3f2194d660ffef07618dbfd5cfaf93a315332136b3867b7"
+    },
+    "includes/core/wcs-switch-functions.php": {
+      "md5": "37631bd02b2a8f990a01b51877883842",
+      "sha256": "3369cfd18f8e811fa00da7c538ca93318fc4e7e8bdf66511e94bca43933f508d"
+    },
+    "includes/core/wcs-time-functions.php": {
+      "md5": "931c69366f43f6e1ac56a253db03a4ea",
+      "sha256": "aa9d8760ea412b87afff26cdab6100b20027253322e601c53f71e855c32f19e2"
+    },
+    "includes/core/wcs-user-functions.php": {
+      "md5": "71f0bea8a115af4a20582dfd4dbb8f4d",
+      "sha256": "b69cca8db0ff4cde8258d401b58309870d1c0fd42c84f454eac54b6fa222e001"
+    },
+    "includes/core/abstracts/abstract-wcs-background-repairer.php": {
+      "md5": "a85318e348f71e3138b9d4bcb1a16f9a",
+      "sha256": "8a758f7e525eb4676a2f121b215f35e94cf678003e13054fcba7af1fd888ee84"
+    },
+    "includes/core/abstracts/abstract-wcs-background-updater.php": {
+      "md5": "aea36aa3f15afa4ec996dd372a8d7fba",
+      "sha256": "476a48059358f7d7fcdaa21c36b246684d070f8624daf2c1a1fdde2dfc4033fb"
+    },
+    "includes/core/abstracts/abstract-wcs-background-upgrader.php": {
+      "md5": "2dcaae68fc6a982aeb035af460addad2",
+      "sha256": "3c443e68c8c92bfb701a7b658d82a31e2a79ed896f66eed1aa905d65cb31398a"
+    },
+    "includes/core/abstracts/abstract-wcs-cache-manager.php": {
+      "md5": "e01e6a327ff5c867770c5eb2874be20c",
+      "sha256": "6483263e778a0827abc672cc9bfbb14dc9bc0cd9695f79606e266684bfa5c4f5"
+    },
+    "includes/core/abstracts/abstract-wcs-customer-store.php": {
+      "md5": "9b51e310c6d6f98b5b579e7968ea075e",
+      "sha256": "9745b1ddb1761333ba959071ca307e00f8d39a0540f2925edc169f6f99af8872"
+    },
+    "includes/core/abstracts/abstract-wcs-debug-tool-cache-updater.php": {
+      "md5": "bd1a40b9932bbe4371d0a24687120040",
+      "sha256": "06650a83c0cadb9698015123abdbf01fd275f372889b7ff0a27e2487da31a3fb"
+    },
+    "includes/core/abstracts/abstract-wcs-debug-tool.php": {
+      "md5": "7fd2100b0ee3dfcb0c671d8aba6cea73",
+      "sha256": "c39d4dd5b17fbbd63cc81f48270ddb92cbcd2acfb7f25e28d9233ec394a1e2f8"
+    },
+    "includes/core/abstracts/abstract-wcs-deprecated-functions-handler.php": {
+      "md5": "f29ad1a90292a424617aadcea4f934f2",
+      "sha256": "b6db4e391ef7fd8cfbc45193e61690138a8dadf26a4e09598d75bda22e06e5b4"
+    },
+    "includes/core/abstracts/abstract-wcs-dynamic-hook-deprecator.php": {
+      "md5": "c1bee2c30a4bebfe74e93907e0cb47ba",
+      "sha256": "1b05b92e1c755fcf62a77979d4b709977b9b6aab152a8a8765dd6814e9bbfa0f"
+    },
+    "includes/core/abstracts/abstract-wcs-hook-deprecator.php": {
+      "md5": "9a7a37b9162b799418d45bfaf8ca0a03",
+      "sha256": "6c2e2f164fc1731fcef8cd4ea8bcab479bfe503d861afa3248f5f672ea5701bb"
+    },
+    "includes/core/abstracts/abstract-wcs-migrator.php": {
+      "md5": "2a8dd65c507bdacbe879761e5db4b08b",
+      "sha256": "a8637ef0b32cf6d296f10cb1a8dca2f087ed15cee6ab4c29d70fd344d26601ae"
+    },
+    "includes/core/abstracts/abstract-wcs-related-order-store.php": {
+      "md5": "af68547bec97bb4105b9262cf0448902",
+      "sha256": "771aea4df76efbd37f7446a410320f0b8e7f21513373baad7303ac2b25c0487d"
+    },
+    "includes/core/abstracts/abstract-wcs-scheduler.php": {
+      "md5": "ea9e1db9eb5bc865b419a38c5f5243ff",
+      "sha256": "81882cf5444d8ae64b3bd290a97e1946120fbab8dd9f6ee832d0b77e7e4ef22f"
+    },
+    "includes/core/abstracts/abstract-wcs-table-maker.php": {
+      "md5": "1c00d8916ec8f44b9e2000ce4b70e889",
+      "sha256": "ca003fe858dbbec13e22dbe39d151f728da3c03593f108ee5adf7d87943731d1"
+    },
+    "includes/core/admin/class-wc-subscriptions-admin.php": {
+      "md5": "d9c84544f197d541f45910549b16e3b4",
+      "sha256": "0fa457124db38cd5101edfe33ea0509d4aad6aba764606c5ebbdc0c9b0bff4db"
+    },
+    "includes/core/admin/class-wcs-admin-empty-list-content-manager.php": {
+      "md5": "3c1465b7b85f2e458a6a77c65c5a0afd",
+      "sha256": "5585255b46714ef939b1b5738fb38a95a4763249d3301ee37a1bf1648abc2e94"
+    },
+    "includes/core/admin/class-wcs-admin-meta-boxes.php": {
+      "md5": "565f31d946997a0c88c649c2b99919f0",
+      "sha256": "b81ffe808dee4429aee9a9e29277eb99d522e93c7681bcd4b8f1330f91d4cd1c"
+    },
+    "includes/core/admin/class-wcs-admin-notice.php": {
+      "md5": "88a01eb6caf5bf7f09515ca65202cb23",
+      "sha256": "b5a7f429b51acbc5517a31b7b8876c79bca4b2d44e40862c16ad9ab04327acd7"
+    },
+    "includes/core/admin/class-wcs-admin-post-types.php": {
+      "md5": "7f0dc3ed6f69aa82197c39bf93234f24",
+      "sha256": "270050ccceee725ec7953acd1ffc3bf086194691f3986d342050759645476bb3"
+    },
+    "includes/core/admin/class-wcs-admin-product-import-export-manager.php": {
+      "md5": "eea2fe9c5cb0d2b7369b980157814363",
+      "sha256": "52146533a8d8adb0181cbe31e4a9eb092adb037357cf2a18521d488fedaccb04"
+    },
+    "includes/core/admin/class-wcs-admin-system-status.php": {
+      "md5": "070918b4912695aaacd03d919fc2c9fa",
+      "sha256": "d8797e147f4f0abeeb25add4626ba5ab75efb6f6d7aa228d4a858229c81afe96"
+    },
+    "includes/core/admin/class-wcs-wc-admin-manager.php": {
+      "md5": "7ae5a832cc442fd6feeb1895904f741d",
+      "sha256": "81f144028aee526a6f0dde75f6ecc52399042e2f1367759b178c1dc13e8d9e23"
+    },
+    "includes/core/admin/wcs-admin-functions.php": {
+      "md5": "98e8e823e759bc091669559715b0b13b",
+      "sha256": "ad30b81d87f33df27aaed70b35482837caf84c2cd89f5d7556122fd1a35f8938"
+    },
+    "includes/core/admin/debug-tools/class-wcs-debug-tool-cache-background-updater.php": {
+      "md5": "a4efed22bb6d58c131349c2faa898f20",
+      "sha256": "ec87f61db198fadce62dabdd2925e5408f4b9884c8f8951fab0ad2291c094462"
+    },
+    "includes/core/admin/debug-tools/class-wcs-debug-tool-cache-eraser.php": {
+      "md5": "11b16c76f5e624d4f3cffb90054c58a0",
+      "sha256": "d9a5f973741f495533d4a1f1be32523d934c89286c3338e384cd7fa1a9643d96"
+    },
+    "includes/core/admin/debug-tools/class-wcs-debug-tool-cache-generator.php": {
+      "md5": "0d5b6f62be6d1919be75dacb7e14c512",
+      "sha256": "41689e4cf5cbd9637378ad2d7221c2459f5e3f384330b472f92b85774651b45d"
+    },
+    "includes/core/admin/debug-tools/class-wcs-debug-tool-factory.php": {
+      "md5": "ddc8fe872b1d9064c61c5f937e44fad5",
+      "sha256": "8e0cb091c8b5602fa8d9652044388cb0e689874f9b90297c5c2533c620c0ab0e"
+    },
+    "includes/core/admin/debug-tools/class-wcs-notifications-debug-tool-processor.php": {
+      "md5": "972241985e0ba7b0e308a00b7f7f1019",
+      "sha256": "f10c57604056b437e664b4143ab347bfa6f5e4dee304ce5847faf38d412c792f"
+    },
+    "includes/core/admin/meta-boxes/class-wcs-meta-box-related-orders.php": {
+      "md5": "e128baf4200c866054d50cf4d84b1462",
+      "sha256": "58933e5c0398bdce8efb351230a65e52c21a8433d40ebae2629a83ce28eb3d1f"
+    },
+    "includes/core/admin/meta-boxes/class-wcs-meta-box-schedule.php": {
+      "md5": "e1cf2c48be9d2d7bacb196385d75dc30",
+      "sha256": "bbac78ecd40011e4cebe08742afee038c256938427fb0cda548f603158725b38"
+    },
+    "includes/core/admin/meta-boxes/class-wcs-meta-box-subscription-data.php": {
+      "md5": "f014f3aae513d096dbb46ab39e0df68e",
+      "sha256": "72724a07b4da5491b303c775546a149f33c6fcbaac585e162afaec28aa868ecf"
+    },
+    "includes/core/admin/meta-boxes/views/html-related-orders-row.php": {
+      "md5": "984bb98680d8cf4d859d5500967f0195",
+      "sha256": "9f3de3cb12aa326b0d274505f08eaa842d6380674d9193c59140555fcc52c746"
+    },
+    "includes/core/admin/meta-boxes/views/html-related-orders-table.php": {
+      "md5": "8f2086e40e4b361d70520c318fa9ccb1",
+      "sha256": "8026a3e624751ac5bb6050b336363f2cf4aac6f4ab3ff52556c8298f41606e36"
+    },
+    "includes/core/admin/meta-boxes/views/html-subscription-schedule.php": {
+      "md5": "03b89e0826c0fd9f0c2d6eba07463195",
+      "sha256": "e8240afff5daf2901633bcabeba833831dfc099e906d2e385521d97d213afcca"
+    },
+    "includes/core/admin/meta-boxes/views/html-unknown-related-orders-row.php": {
+      "md5": "a3d9380bcfe849493e01405568396b49",
+      "sha256": "4bef942fa5f105913349eb99c7c215a8f980772e69e9d4e0058ee28e7bfd31e4"
+    },
+    "includes/core/data-stores/class-wcs-customer-store-cached-cpt.php": {
+      "md5": "a14b73ef225a71b9ff612a4f8c55c17c",
+      "sha256": "d8846555cb58032694c7c456dd62299fe81a9d91c6cfa5f2ac45a88c6ad3f45d"
+    },
+    "includes/core/data-stores/class-wcs-customer-store-cpt.php": {
+      "md5": "4bea47aef2a3758dbfc2658d8e349306",
+      "sha256": "b4e8185c87f124c91aea213d7db097dba3aae95195e13d9ad9e080c570b17376"
+    },
+    "includes/core/data-stores/class-wcs-orders-table-data-store-controller.php": {
+      "md5": "36d6441acc1b3f083a2a8f3bdbaca44e",
+      "sha256": "794c9849ddd10d2df7224c8cf37529658a61d1f25b057dcb84e5bc97987035bd"
+    },
+    "includes/core/data-stores/class-wcs-orders-table-subscription-data-store.php": {
+      "md5": "9cfbc149e5367d8b0a036ac804cb928a",
+      "sha256": "21aaeeb2e0015708b9f5766dadd9befcf4e752b61f8828fb9128c5a4adc582c4"
+    },
+    "includes/core/data-stores/class-wcs-product-variable-data-store-cpt.php": {
+      "md5": "bf65552390ac6580d96f31ddb00bd43b",
+      "sha256": "71e21d100c542852fa6da900cfe6f6447091edb37012fb52da135fac17abb947"
+    },
+    "includes/core/data-stores/class-wcs-related-order-store-cached-cpt.php": {
+      "md5": "de2bce1ba8d7b2e1a5bbb5d1ca284aa0",
+      "sha256": "3da047109017abd48b97fe7b05bf1756370ab3c7d728fa23c580d3e1a53b980b"
+    },
+    "includes/core/data-stores/class-wcs-related-order-store-cpt.php": {
+      "md5": "a8d2b2b6353be8e4bc224416a2038d8a",
+      "sha256": "c83f2c618f9aaba268e99b4e55491dfe2dc37c3177a29fc61cc0a80615400415"
+    },
+    "includes/core/data-stores/class-wcs-subscription-data-store-cpt.php": {
+      "md5": "b9d0cd4083a76a3b1b8a5da0b3800f24",
+      "sha256": "37e9f69aef66c37c7d41f97538910331aea7d0d9cd1d83c8b7b042e86535f727"
+    },
+    "includes/core/deprecated/class-wcs-action-deprecator.php": {
+      "md5": "c8296107d4a0cdfb33ec715aedb75398",
+      "sha256": "fa28c8c68bbc00a4cefd536c589e12b2571782b2fe8d8cddc477b2fa91cc7a33"
+    },
+    "includes/core/deprecated/class-wcs-deprecated-filter-hooks.php": {
+      "md5": "c6b0bc1a04e95c80c8e9188d6bd46328",
+      "sha256": "6aae512e17921db68bfc24cc4cbcd1bcf82635fc2f2d1732273b8ee21f41ca16"
+    },
+    "includes/core/deprecated/class-wcs-dynamic-action-deprecator.php": {
+      "md5": "11213ebaa5ca30bda490fcdfc6d92c3a",
+      "sha256": "dcfe3ce149f092666e7d3e1cda07b3f5f208d651c8062a8f73b258000d73659f"
+    },
+    "includes/core/deprecated/class-wcs-dynamic-filter-deprecator.php": {
+      "md5": "10ba6e99accdde2ece242087d4e537ec",
+      "sha256": "7d194bd747d94edc9bcdef8c5e0ccb5e58855445f0b9805e6e04c09fbf663f8d"
+    },
+    "includes/core/deprecated/class-wcs-filter-deprecator.php": {
+      "md5": "2505f345ce668c0ec82986d48925110c",
+      "sha256": "c992f694d96959c3b14d905459ceac5b3b23fa0900503bba2b1ca26b8e91b9ef"
+    },
+    "includes/core/deprecated/deprecation-handlers/class-wc-subscriptions-deprecation-handler.php": {
+      "md5": "28dc4dab9f76e749cc506ddcd0adcace",
+      "sha256": "dfa78bdb65e0cd5189a2a9e9facc752b3415c0b1b3221fe686b70151222ec54b"
+    },
+    "includes/core/emails/class-wc-subscriptions-email-preview.php": {
+      "md5": "0d1cf197a5e0c1752a36c4a6480f7c5a",
+      "sha256": "d91937c46ce1353302322daf8be967e89e2d37afc5de838450047987677bba0e"
+    },
+    "includes/core/emails/class-wcs-email-cancelled-subscription.php": {
+      "md5": "68e6c392ffec26b2c13122976b7d855b",
+      "sha256": "f0638298c227b5ecc0895fecb2fefcf4d59a4d7c0c8041a480b0f16aca92bf88"
+    },
+    "includes/core/emails/class-wcs-email-completed-renewal-order.php": {
+      "md5": "a3ad0386393320ce97e2a7f85dd76848",
+      "sha256": "70247770bbd3e4560162eb6568acb0a163ca1ddd0a63b4ddf859768d3aefd346"
+    },
+    "includes/core/emails/class-wcs-email-completed-switch-order.php": {
+      "md5": "db28475eaa20050d137292276d76f4af",
+      "sha256": "e69e26129ffdc86d6a0a55741da9bd2cd8d2208484831a9e855f58d3ed1d80b2"
+    },
+    "includes/core/emails/class-wcs-email-customer-notification-auto-renewal.php": {
+      "md5": "aebfbbad5a661b8545396b864554bb0b",
+      "sha256": "beaa2b36a767142729e27cb520f37c766157124e03bc58d57e13c18ea9d80e7b"
+    },
+    "includes/core/emails/class-wcs-email-customer-notification-auto-trial-expiration.php": {
+      "md5": "26c931215c98e506b2d1f1347baf1d23",
+      "sha256": "90e0047e2f443958f146916c6c3e7cfe9ecb15b6c3e447c140015029dd599181"
+    },
+    "includes/core/emails/class-wcs-email-customer-notification-manual-renewal.php": {
+      "md5": "b0f56d1cf4442e2cde4da3a4c01eb796",
+      "sha256": "5935c537b3e77f2a0fff43889ee376b55c9fe27e2e286c89ec919407d4d62964"
+    },
+    "includes/core/emails/class-wcs-email-customer-notification-manual-trial-expiration.php": {
+      "md5": "4a98ccfefb7b5f6b436ea53bcaadd6cb",
+      "sha256": "fe2c7114124bb35d4d6fd7cc1846512a7b259a9d25d59a4d5eaa4c69a0ce04e0"
+    },
+    "includes/core/emails/class-wcs-email-customer-notification-subscription-expiration.php": {
+      "md5": "e2a65caf2b9164413f5549a73d33db62",
+      "sha256": "d6e55de986bf668cfaf12ca998877aa49c9c375bb87a94f14d7d2548feaadcf4"
+    },
+    "includes/core/emails/class-wcs-email-customer-notification.php": {
+      "md5": "f6b26b8690244d477f15c5d9892ec94c",
+      "sha256": "b0f3de54e681e7d897d85f140d1f2a80522f9f374a580484c510e89fd61d569d"
+    },
+    "includes/core/emails/class-wcs-email-customer-on-hold-renewal-order.php": {
+      "md5": "3d82685f1cb5fe4744558ba077782be4",
+      "sha256": "d080b315cda5013cab4da3e779f78fca542037e4519006bc60568992937e25fd"
+    },
+    "includes/core/emails/class-wcs-email-customer-renewal-invoice.php": {
+      "md5": "1640bc41d160b81f00a415d4a98ec341",
+      "sha256": "3a0a397de98688cbe28d67bbfd8ee76960482ff33dd87d3fe53e24483e192140"
+    },
+    "includes/core/emails/class-wcs-email-expired-subscription.php": {
+      "md5": "19aadc5dc43df4fee40b71140fb65019",
+      "sha256": "acec8585ee586a778aac5c458025b954b9923b2a0f741974788f9b4325392f07"
+    },
+    "includes/core/emails/class-wcs-email-new-renewal-order.php": {
+      "md5": "f499a6acdeb50e8cf2f7bbb92ddf7d0f",
+      "sha256": "e37c2a905bd4123c59f4ee7be9dc5bbc7e3cf009703394f0b930da40f2c63bf1"
+    },
+    "includes/core/emails/class-wcs-email-new-switch-order.php": {
+      "md5": "1b599bfd2f90001f45f9ce27264c8c55",
+      "sha256": "241b6f5c93cdc37ea40e8e099579fbe7d077e4d67e017a0fc85af17294e94016"
+    },
+    "includes/core/emails/class-wcs-email-on-hold-subscription.php": {
+      "md5": "d6d06099c7116e879fb0e93b1c9cbd1c",
+      "sha256": "a42bef2c98da1a4ca6048f9b4ea1c83f990e9c6a280be6cd052a45c1cb87aa18"
+    },
+    "includes/core/emails/class-wcs-email-processing-renewal-order.php": {
+      "md5": "7e35b215cbbc14118b91c849933655ba",
+      "sha256": "93b561ba17d1b5eb232c59a62829c9a9230257a49569610726537a3e2052a3a5"
+    },
+    "includes/core/gateways/class-wc-subscriptions-core-payment-gateways.php": {
+      "md5": "20157c318e6f8edf1a08b196f83f3e2f",
+      "sha256": "c28a0ff6bf2d4f0fd26f954506c3ab3987c5f53acd52aae1df500ce8934e4463"
+    },
+    "includes/core/gateways/class-wc-subscriptions-gateway-restrictions-manager.php": {
+      "md5": "aed862e0a0cec1115070ad07352fe6e2",
+      "sha256": "540ed4171f49c3fd4ea8ca17341cbcbb6dd92bc317119ab4bcce3792adf2db6f"
+    },
+    "includes/core/gateways/paypal/class-wcs-paypal.php": {
+      "md5": "1c4761954af8998222bd4673e5a136b5",
+      "sha256": "0cbea2c3d6e7e797813c60c61da15734a9a58c23532bf2123af0f19b2acb25f4"
+    },
+    "includes/core/gateways/paypal/includes/class-wcs-paypal-reference-transaction-api-request.php": {
+      "md5": "e3f1f46a1ede785e6e67ff2e7ff6a3f8",
+      "sha256": "5f5c9126e7587d11861a8e31625b3772384cfcfb5355eccd5a58cb2a3b4065eb"
+    },
+    "includes/core/gateways/paypal/includes/class-wcs-paypal-reference-transaction-api-response-billing-agreement.php": {
+      "md5": "89515d61c5103e0a3ed5cfdb04789554",
+      "sha256": "5819d342e5398d3bdcc062cd401e0096df9119538b23890564bd099af3a7c832"
+    },
+    "includes/core/gateways/paypal/includes/class-wcs-paypal-reference-transaction-api-response-checkout.php": {
+      "md5": "2b151fedce7a0a77320cafe6f2bce6a3",
+      "sha256": "afc637d37d416635bf4e7b5a0bdc21ea080022acb022366fcdada643d17b72b2"
+    },
+    "includes/core/gateways/paypal/includes/class-wcs-paypal-reference-transaction-api-response-payment.php": {
+      "md5": "a067f598d8b1b7a1eb4dc8195e846fe4",
+      "sha256": "c74931f1603358cef317b2bc930f9d6fe92639b5f8116a083d85363d9cf57617"
+    },
+    "includes/core/gateways/paypal/includes/class-wcs-paypal-reference-transaction-api-response-recurring-payment.php": {
+      "md5": "7f6d9a84245a103a4376e288ffce1c9a",
+      "sha256": "c53c5f4f2a3bd618018c493a4b13d0acbfec91ebe26f1c3dd31d03348c8a5633"
+    },
+    "includes/core/gateways/paypal/includes/class-wcs-paypal-reference-transaction-api-response.php": {
+      "md5": "e11ed5a7f55fce5200d68571348664b8",
+      "sha256": "6d42442bd87e16d9f8ecc0e3ca3dae0b363953b4c5674ba0b3f6fce6c913fd45"
+    },
+    "includes/core/gateways/paypal/includes/class-wcs-paypal-reference-transaction-api.php": {
+      "md5": "994dfc8d7abcf9b48c02c43cae10d763",
+      "sha256": "613f28fa5d1642401833fc30bf5bf9cfb3e5a032454902c0d56b0c174625ddbb"
+    },
+    "includes/core/gateways/paypal/includes/class-wcs-paypal-reference-transaction-ipn-handler.php": {
+      "md5": "afb0efc85df728919620ddfcf4c3713a",
+      "sha256": "76f6ca2b172317889c9743459befb4286e2ce858f1651f190623bff3f9fdd512"
+    },
+    "includes/core/gateways/paypal/includes/class-wcs-paypal-standard-change-payment-method.php": {
+      "md5": "70115d23fb9b4dba6132b471c2e5d9d1",
+      "sha256": "97760c3e3fb7d2bc990ce383479692eecc93839d37b2cee4d46aa01d5bc3a079"
+    },
+    "includes/core/gateways/paypal/includes/class-wcs-paypal-standard-ipn-failure-handler.php": {
+      "md5": "67c5444e57ef20cc529a0291c07c1f98",
+      "sha256": "4b0e7befdfd16d3fd3754fceb64f5980b47161ccbd15bb809ea78614d372e6b9"
+    },
+    "includes/core/gateways/paypal/includes/class-wcs-paypal-standard-ipn-handler.php": {
+      "md5": "9b3fdd15e8e616783d190c10abd35355",
+      "sha256": "b2ce4738604b472b73fcc8138c8eb9f213c33fb35a9cec31d4d1590ad6e7afe9"
+    },
+    "includes/core/gateways/paypal/includes/class-wcs-paypal-standard-request.php": {
+      "md5": "21a58372a114bf32b7aa1eb178b8d489",
+      "sha256": "ccb0b852fca6dc05e8aa507a7759a88c7414966b4e300682262335375509a0a6"
+    },
+    "includes/core/gateways/paypal/includes/class-wcs-paypal-standard-switcher.php": {
+      "md5": "68e5572a92745e2bde248194d2162e45",
+      "sha256": "5262f21e6badb4a6ffe53e8e0cdc407e8aac0babfc15c6eb4ec0bc637caaa5d8"
+    },
+    "includes/core/gateways/paypal/includes/class-wcs-paypal-status-manager.php": {
+      "md5": "49d1c9d382240c44f6905c54c986848b",
+      "sha256": "6c6551424a78281b9489d9e2a002a8fd0fed9d6fea7e3bb1e08f88872861a0bb"
+    },
+    "includes/core/gateways/paypal/includes/class-wcs-paypal-supports.php": {
+      "md5": "313ba3b2d7c37dc34f75dc22bea5ba9f",
+      "sha256": "c97e6f850e9e065c945916b8487ca4e752316f67ee31759ac0b0c8e54a844d1e"
+    },
+    "includes/core/gateways/paypal/includes/wcs-paypal-functions.php": {
+      "md5": "bda8ec909a3ac4cb446d4d608f132f9d",
+      "sha256": "67d9d84ed78f5ba7d6554c6f78b3ccc9d7598f98e03a90b82c6784a7783c5d97"
+    },
+    "includes/core/gateways/paypal/includes/abstracts/abstract-wcs-sv-api-base.php": {
+      "md5": "e9339065bca09d3aba3d0e39c6b145e4",
+      "sha256": "c324bbc30d3a231525d7473c9101f687c1da819046b04d58dad9480a3c3ba1e2"
+    },
+    "includes/core/gateways/paypal/includes/admin/class-wcs-paypal-admin.php": {
+      "md5": "fd3d9a9eeaa2a15155fdf55b0d7d5799",
+      "sha256": "6f6afbeb33ecacbdc6e66d0aed7ca66930d825a03bec22e51f9c9efe3b157751"
+    },
+    "includes/core/gateways/paypal/includes/admin/class-wcs-paypal-change-payment-method-admin.php": {
+      "md5": "2567849a8f8887a6fc6f128ac386ad88",
+      "sha256": "646c1d16509a950c284474b45297f4f7bab0ddfb36ddc4c7fddc41b35961a753"
+    },
+    "includes/core/gateways/paypal/includes/deprecated/class-wc-paypal-standard-subscriptions.php": {
+      "md5": "ae20fa06b389e9b03d556fdaf10b2977",
+      "sha256": "e5721506c1cd08db8bcc87c42f817ed673c5440236a923fd60252148f2edeeb8"
+    },
+    "includes/core/gateways/paypal/includes/templates/admin-notices.php": {
+      "md5": "aab7bd4476272507a771b37287fcd7ae",
+      "sha256": "51fe6e3968b5bad6bb3d1d903dc0a30d40f60b745e3b7efb2fafe1acd218fa76"
+    },
+    "includes/core/gateways/paypal/includes/templates/html-ipn-failure-notice.php": {
+      "md5": "92b72b279abfa0a614a75f99aeacbc42",
+      "sha256": "7d3d43d79a618e76a5ae370f1a39c4b431d00d6a62d26b58621c48ccd309e0f9"
+    },
+    "includes/core/interfaces/interface-wcs-batch-processor.php": {
+      "md5": "bdd9a0fc8ccda723c5c088779e6d1d14",
+      "sha256": "3e8d3203588ff0d1810fd0b822e4882e8e433a71795a239eb3cf813808c55fe3"
+    },
+    "includes/core/interfaces/interface-wcs-cache-updater.php": {
+      "md5": "0b8db74ac69731706ce18042e07d0a16",
+      "sha256": "70751c6fc03d62b4db329d9326af906e7a14b9b0a868059fd6a259a8191d1e15"
+    },
+    "includes/core/privacy/class-wcs-privacy-background-updater.php": {
+      "md5": "87db08f5d490767a1b20e4608e440120",
+      "sha256": "f1068bc67a1c15ed2a36a6fd08b8968949d930b0b37428bdc53cce1a84b63b45"
+    },
+    "includes/core/privacy/class-wcs-privacy-erasers.php": {
+      "md5": "74ec8f985c45875730a093a59faad3a0",
+      "sha256": "5f8b1cf558a031801493b761a825810f8b7fe55b6173f65aadd9529a12d92485"
+    },
+    "includes/core/privacy/class-wcs-privacy-exporters.php": {
+      "md5": "a93d210db1c700fe80ba0928e2480097",
+      "sha256": "405da287dd1b3a94138b65cade54b84b9414e20ebf111aefc5a11c37e29dafda"
+    },
+    "includes/core/privacy/class-wcs-privacy.php": {
+      "md5": "c101a59ddc8e04ebeb4247bcaff29193",
+      "sha256": "6a85ecc22694f1732f8ad58e65fcbff56b411fff09516b8807f869ada1f731a4"
+    },
+    "includes/core/upgrades/class-wc-subscriptions-upgrader.php": {
+      "md5": "574d744d9b99248fd357754492b2805a",
+      "sha256": "62cf6b4f16d677a594598025bb97513cc2502e3166c243dee809a8ad8f2649d6"
+    },
+    "includes/core/upgrades/class-wcs-plugin-upgrade-7-8-0.php": {
+      "md5": "0cc6f2d8f4420e77faa5e1c0be9d6ec1",
+      "sha256": "eb29bf16957d168c37355aafac8d8c7d82345c20a4dc3c4cf3354d601291ab14"
+    },
+    "includes/core/upgrades/class-wcs-plugin-upgrade-8-3-0.php": {
+      "md5": "08fb5e5c807cd32ad4315b4e9b45751f",
+      "sha256": "2b5428243e59db6fa9623f299bf06509d1c1f4ef8c7366823eb71533d4b8f1bc"
+    },
+    "includes/core/upgrades/class-wcs-repair-2-0-2.php": {
+      "md5": "0834486bf74dfbda25624334c72ebe62",
+      "sha256": "d016d0e1ad4a1b5b4c8e361bf81a385aab1d64b2f97ee3772f95bf8d01a62a09"
+    },
+    "includes/core/upgrades/class-wcs-repair-2-0.php": {
+      "md5": "634287fa451aeb59fa2679a74cdff80e",
+      "sha256": "c3e1716fca2eb494a3aa367d59ad63a711760243a4c6eafc2c900a1627a3c42a"
+    },
+    "includes/core/upgrades/class-wcs-repair-line-item-has-trial-meta.php": {
+      "md5": "cfa01f54e14c9f7f8deca9369d40fbf3",
+      "sha256": "baa957ef6496402c6275a0baa6c53e4af810f47d3d92326fd0937002f995ffe5"
+    },
+    "includes/core/upgrades/class-wcs-repair-start-date-metadata.php": {
+      "md5": "d1043dd43f9409b4b478bb5e647c6596",
+      "sha256": "0cdd08def4eeb624b4e705d9d979a3dd28f66d7001f8c62e2bb55b96ceb20674"
+    },
+    "includes/core/upgrades/class-wcs-repair-subscription-address-indexes.php": {
+      "md5": "783982e018177cb44a42b3dfb4ff3229",
+      "sha256": "6badc62d76705a3bc4c961aef8eb1aa2d5dac1d1a60ec7f28c0fafe58e2450f6"
+    },
+    "includes/core/upgrades/class-wcs-repair-subtracted-base-tax-line-item-meta.php": {
+      "md5": "916d8f59c86546d8229ac0ae531df8c1",
+      "sha256": "39e1eabed5b33e596f5aaa6af2a9f2d2c56bb28d923cb2dd9c2f3de2720647b1"
+    },
+    "includes/core/upgrades/class-wcs-repair-suspended-paypal-subscriptions.php": {
+      "md5": "9c6b5183326e5d273b0d4393d507fdcb",
+      "sha256": "72be14370c91bbcb1baea2eb201a518e77ed92cf4ff07361b5bbcd53f337f1db"
+    },
+    "includes/core/upgrades/class-wcs-upgrade-1-2.php": {
+      "md5": "95b05c52e9379c2264b701103fc45227",
+      "sha256": "0eb477d829313829094c91240d9f4aebcebde383b94d0bc56d465402b3d19757"
+    },
+    "includes/core/upgrades/class-wcs-upgrade-1-3.php": {
+      "md5": "dac46ac50876a6a240beda22685b5849",
+      "sha256": "3b6e9ee6a2dd56eff7a52fbd6c924b2f81e59cfe96825181ea97ae1027d24bfc"
+    },
+    "includes/core/upgrades/class-wcs-upgrade-1-4.php": {
+      "md5": "686e27af29a828a5d5496703ac5c2622",
+      "sha256": "fc51e4d2c64c97e3f9e53e6711e66d6e5dc907d8c4b43a026b3e73d572616429"
+    },
+    "includes/core/upgrades/class-wcs-upgrade-1-5.php": {
+      "md5": "9f41b0244690505f10f66d54f467a9eb",
+      "sha256": "f9fb8deaed2cd7fb169cf8a6444503967a9bae5455b807c2ee43caa1e4453734"
+    },
+    "includes/core/upgrades/class-wcs-upgrade-2-0.php": {
+      "md5": "ca947ad3501324d22bf025b956aba72e",
+      "sha256": "b3ec6362bfd8b5f393ed955f6d6e9047ae436a18112c1d7befcd645edd539912"
+    },
+    "includes/core/upgrades/class-wcs-upgrade-2-1.php": {
+      "md5": "af8861ec8e7503553deb25616028c29c",
+      "sha256": "192b5421d26003c5b6d915f55f681b44c51c3610e98789cc2ebe47afa2b681d6"
+    },
+    "includes/core/upgrades/class-wcs-upgrade-2-2-7.php": {
+      "md5": "8d078d8abf112cef5105cc3ac0c3c0d0",
+      "sha256": "05f27754a9b621a267bcd2e64e7f3370581b21983166be16b53e95c245ebc73f"
+    },
+    "includes/core/upgrades/class-wcs-upgrade-2-2-9.php": {
+      "md5": "4c0b53193baeb34611038e2a390e270c",
+      "sha256": "21751d0514c6f5a3accbbeea550b068e21e8cf16f885780985fbaf63706969fa"
+    },
+    "includes/core/upgrades/class-wcs-upgrade-3-1-0.php": {
+      "md5": "36764c85a7f86148cabadbbcd597ec21",
+      "sha256": "226bf847c9f238c9dcf94b56f3a972febf362b56bdfd11f8e980f4b2be9fdd31"
+    },
+    "includes/core/upgrades/class-wcs-upgrade-8-3-0.php": {
+      "md5": "0ff87a9e187b9e695f61ce8e7aca2abd",
+      "sha256": "bc0b11f005687789f75cecddbb576e55ebf636f21f5801abe908ec81f4bfd676"
+    },
+    "includes/core/upgrades/class-wcs-upgrade-logger.php": {
+      "md5": "f2e6cca12fc27c911a5138d33560c3db",
+      "sha256": "2cff83cc95c31b2fc245ddbf224d79f8d2202cf4a4d186a2290d2ba303cfd431"
+    },
+    "includes/core/upgrades/class-wcs-upgrade-subscription-post-author.php": {
+      "md5": "3db218ae7a821d3dab36ba502791ea17",
+      "sha256": "1c6703ba0b4cf18e518fae7515bfb31b7ca990c2ef9a97259a951032f72c7c38"
+    },
+    "includes/core/upgrades/templates/update-welcome-notice.php": {
+      "md5": "a5d3325f8cc493af75d38f402eeeaead",
+      "sha256": "d3addfdb39219bd2d33716c22850e6cd5e214fec0ad79d3302a8a0789861741e"
+    },
+    "includes/core/upgrades/templates/wcs-about-2-0.php": {
+      "md5": "67ce8eabcb63e9845073e6efe4e5598e",
+      "sha256": "8a7f25c09ea5d4720862f6ea4f18a7059e4c25122446ed7ee2dce2876e6a0aac"
+    },
+    "includes/core/upgrades/templates/wcs-about.php": {
+      "md5": "f656443e6cd2e96d53fc07f0def45ae6",
+      "sha256": "228ff53183a1f3273f8b805b2096ed8ddb5b28394857b4072bb1401c8f69116a"
+    },
+    "includes/core/upgrades/templates/wcs-upgrade-in-progress.php": {
+      "md5": "3f357bb652002e1d8f5107bb3061015e",
+      "sha256": "9493c40a732d140d9a8aef63c10d477de86de7300a885209b5797bd0e18c5adc"
+    },
+    "includes/core/upgrades/templates/wcs-upgrade.php": {
+      "md5": "a229e2540fd0f1524201a6f3a1b1f515",
+      "sha256": "d81a4766ad448e59d976ca0972ac186033e7b46f2ded194cf0e21218ce3aa307"
+    },
+    "includes/downloads/class-wc-subscription-downloads-admin-welcome-announcement.php": {
+      "md5": "ee3475a3d2fc70033289912a3e0b743e",
+      "sha256": "78adb1ef71d125bc459be08e9782b94a709423c0cda7847a34cbd20e62a13189"
+    },
+    "includes/downloads/class-wc-subscription-downloads-ajax.php": {
+      "md5": "5b9788d46199e638bdd93bb239a6cd99",
+      "sha256": "be86baaa84b0706abe9e0350d1988dafcb83ad9613d0f8792220502d12c3a0ee"
+    },
+    "includes/downloads/class-wc-subscription-downloads-install.php": {
+      "md5": "bf57b94c4c13a7e4f6d2c952d1522838",
+      "sha256": "2fba8c06fd8beaa9b016c9656e9dcbabb41f1ac20de5c60251fe5e8bbb95c4ff"
+    },
+    "includes/downloads/class-wc-subscription-downloads-order.php": {
+      "md5": "c8d9abdf21cb9bb749298e2def54999a",
+      "sha256": "53de02b1d76c1640de29f9bdbb08b72842bd2dbf1f376c4da95237e7f8077496"
+    },
+    "includes/downloads/class-wc-subscription-downloads-products.php": {
+      "md5": "638f0fafbfbd26a415d7ab6b5525a6dc",
+      "sha256": "901e82c5249f851fc3536ff2cb3281ccc5b594ecfdc776c2059f5b5f1222042f"
+    },
+    "includes/downloads/class-wc-subscription-downloads-settings.php": {
+      "md5": "8d3606f3e868b3155101721cd30f3372",
+      "sha256": "cbfc745e70448f623e10a4705983c259ed5b458148516097d1f40db0766d09dd"
+    },
+    "includes/downloads/class-wc-subscription-downloads.php": {
+      "md5": "169ecee2b00711a5de64ea6948117c94",
+      "sha256": "e632553008c1bcd3fd76d4fccbd631b0444baf1ecf8b8c2147dee2c20c6f21ec"
+    },
+    "includes/early-renewal/class-wcs-cart-early-renewal.php": {
+      "md5": "32b60d0cedd391eaf5535272303497e9",
+      "sha256": "ad7b48a6ab1ec2b77dd2b51c42f039094cc650e61c62b70a22d17f43085963ca"
+    },
+    "includes/early-renewal/class-wcs-early-renewal-manager.php": {
+      "md5": "c8be350fc65520ef989f0df8400e3d96",
+      "sha256": "755dff1e40679e022f4d6c0c552907257445bf96bfa6d2935164fb820edfc0d6"
+    },
+    "includes/early-renewal/class-wcs-early-renewal-modal-handler.php": {
+      "md5": "23f545dbbf512aa66287e39c85079da8",
+      "sha256": "d15b2f8e98bd2b220b1f1e1de8b715b68c76cd49d8c5a7186cbe15c5db0f831f"
+    },
+    "includes/early-renewal/wcs-early-renewal-functions.php": {
+      "md5": "9f33a583e2610aad172ad8f83dac97cc",
+      "sha256": "7ac83dd8bad2d8f1f2e65ecc8f7d7b5c81d2a0328385e1e503927f01ea43f29d"
+    },
+    "includes/gateways/class-wc-subscriptions-payment-gateways.php": {
+      "md5": "17f847b3b5802d0729aaddaf5579a69d",
+      "sha256": "0bc919a98815057d99eaa804eb7079ff31970a4365c77aa292b4ee35bbf4d246"
+    },
+    "includes/gifting/class-wcs-gifting.php": {
+      "md5": "3cae760488ff34725add282bb4306b92",
+      "sha256": "5f88a844437444f05c3b1bc741e701e00bd1fbb5de399011377b46f58abee9c4"
+    },
+    "includes/gifting/class-wcsg-admin-system-status.php": {
+      "md5": "2603df3e766e21fa0e2a11405c00f86b",
+      "sha256": "46f0d46d6684f036589b737525cb461aea17da6c7189af40b92435c2fb8c17c7"
+    },
+    "includes/gifting/class-wcsg-admin-welcome-announcement.php": {
+      "md5": "be1761bc4d3aee5ce4ad8cda9b227ed0",
+      "sha256": "13c6393cd02882655d34ad7efd41ddb40a3602e4e20863e39efd71482c3625ea"
+    },
+    "includes/gifting/class-wcsg-admin.php": {
+      "md5": "959a3a7360a509916cd9c187ae553aad",
+      "sha256": "5e88ef5466e3c2655140d4116d3b204d54604236af0db6299f915f5e8cf6c137"
+    },
+    "includes/gifting/class-wcsg-blocks-integration.php": {
+      "md5": "abeb799f057f137997e71b5f2f3fbe09",
+      "sha256": "54d38633656e040f25fb6531c8b96c7d0be8c11423e4ddef9b6d4258bc91937d"
+    },
+    "includes/gifting/class-wcsg-cart.php": {
+      "md5": "fad5fa9f38226b23966f095274d82257",
+      "sha256": "2147b316738e4c9147148557a61e34e4a7e3d73819aba3fcd89eaf4cec7010cd"
+    },
+    "includes/gifting/class-wcsg-checkout.php": {
+      "md5": "614afd21d5d95d61c6a7fed587413090",
+      "sha256": "abb92e8ce4adfe21a84ad1995e093281eb36c08b5cca50a869f43dbc9de16532"
+    },
+    "includes/gifting/class-wcsg-download-handler.php": {
+      "md5": "b5ef57a1e79315e507bc756337c834ae",
+      "sha256": "f3176b957bd1d72a2fd25fce7a8ec1cfdc086de0e377bc320bec1d9447d41abd"
+    },
+    "includes/gifting/class-wcsg-email.php": {
+      "md5": "d7bbf5ba1390f337353df1cb1d1aa266",
+      "sha256": "61ca5acd8f841d49456747f10b6426dd2b20e1db6343ba2f3b37178dad9006a7"
+    },
+    "includes/gifting/class-wcsg-memberships-integration.php": {
+      "md5": "91cfdeb48086a058ff5d9357f85e2de2",
+      "sha256": "9d8998b8da47189e1474c8bf71daa500f9e8c057a14a37e0a8d29c4a71500d48"
+    },
+    "includes/gifting/class-wcsg-product.php": {
+      "md5": "24fc7c80029ffeb7905b4dc5a9d9f75e",
+      "sha256": "c68943210b2ea26765ed39587b8fa3ff4901ee43b099e3d63ffca267afd12b59"
+    },
+    "includes/gifting/class-wcsg-query.php": {
+      "md5": "312aef8f5cd887122890337a53823994",
+      "sha256": "724788f118c0e91b229f016bc55af22096f1dc1f09de2095379830977ac94f9a"
+    },
+    "includes/gifting/class-wcsg-recipient-addresses.php": {
+      "md5": "815b913951b0b5763238df8172477f95",
+      "sha256": "786b222ec83536162d372c527b2d2b024192cf6847b417bb5ce9ceb04adc1acb"
+    },
+    "includes/gifting/class-wcsg-recipient-details.php": {
+      "md5": "5f7714a966f5c1845308aca387f33501",
+      "sha256": "a688b204cdc5d28f04af59e9c6c6c18d9a93b563db68ada1897a04a743d7e783"
+    },
+    "includes/gifting/class-wcsg-recipient-management.php": {
+      "md5": "e289d402d9eb215c478c01c10f3632fb",
+      "sha256": "3424bcd5f657c22029ab750e9f18819907053d20bd84e0111153a869da490c7b"
+    },
+    "includes/gifting/class-wcsg-template-loader.php": {
+      "md5": "367cd8ecece4d47ef752cb69550d49a0",
+      "sha256": "0c62b9c8a2ad5ae2b617ba3b260f6cd715010ccd5bfe9497b3e4b2fb5fda22c4"
+    },
+    "includes/gifting/wcsg-compatibility-functions.php": {
+      "md5": "d1d86714879f664c2d1d82f626300cbe",
+      "sha256": "0349999c3078622d9d400e1efc80725cc109012b5506a23292eb70e999ffcc77"
+    },
+    "includes/gifting/admin/class-wcsg-admin-order.php": {
+      "md5": "b5463241690d6984289db7fd70428eac",
+      "sha256": "7ed663e6b346dc91fcab2fe85e38c9ac7d6ae15b740729ac96255ce514b6929d"
+    },
+    "includes/gifting/emails/class-wcsg-email-completed-renewal-order.php": {
+      "md5": "095e6323ee709544eba159a56e243ca4",
+      "sha256": "8e18def7c3558b33b7ff4d0014b61a88952be6ef87315366a6d1118fed0bc5d4"
+    },
+    "includes/gifting/emails/class-wcsg-email-customer-new-account.php": {
+      "md5": "4fe193c6cecb862a73fadb1f1dcdcc62",
+      "sha256": "fddb79faf8eed093d2919177c3a087bd004f38d492d43dfb3bbeba2f214c6e18"
+    },
+    "includes/gifting/emails/class-wcsg-email-processing-renewal-order.php": {
+      "md5": "512545701950dcfc0f938181c64106b5",
+      "sha256": "478d6ff659268789050e56c1a89f579804bbf1d6e390675eb2d23418cb739bbc"
+    },
+    "includes/gifting/emails/class-wcsg-email-recipient-new-initial-order.php": {
+      "md5": "35ec195564bed9560ef41651b0f4b34e",
+      "sha256": "6717f91d6db1f92643cf348249cf51482fb516ca237bdf402a3d79294504f1c9"
+    },
+    "includes/gifting/privacy/class-wcsg-privacy-erasers.php": {
+      "md5": "8fbaf803c2a71a7d840cba3a296448c4",
+      "sha256": "903041a5919e85ba266e8b7764cf104adb0b981f7d2f667af7be38e23f9b194f"
+    },
+    "includes/gifting/privacy/class-wcsg-privacy-exporters.php": {
+      "md5": "ab6c6320e1bd346714b010c674513f14",
+      "sha256": "e7dad3b2a89ccd3323f8b905b9bf9e65e310affbca4d6d52aa5013f46ad5674d"
+    },
+    "includes/gifting/privacy/class-wcsg-privacy.php": {
+      "md5": "d579de0d7dc5559dc11be30ac323797e",
+      "sha256": "602ec713a753497a2d8d15dadd724df9457d2d63361ece7b8c35da6b067dbc3b"
+    },
+    "includes/payment-retry/class-wcs-retry-background-migrator.php": {
+      "md5": "ddb3c3f164ea85ef8179a553a454beeb",
+      "sha256": "2c6ba55ea76eba3c262a69982bb8afef60575a7b1cc0aa881b8b42f42e884f5c"
+    },
+    "includes/payment-retry/class-wcs-retry-manager.php": {
+      "md5": "37cca19ee0e056d374bbbbc71c702e1a",
+      "sha256": "3edc41eaf15a28ee93965e96ba329f6ff707f586fd5d8ae22b2bd92468f38194"
+    },
+    "includes/payment-retry/class-wcs-retry-migrator.php": {
+      "md5": "49567f46501f330f1a5865ed65f3c7dc",
+      "sha256": "5bf0f15ba336a6ffbaf0b6ec758eac3fea1ccf92c54fc4245b837524a91541e4"
+    },
+    "includes/payment-retry/class-wcs-retry-rule.php": {
+      "md5": "e8dfae349d79d7b410436a3ece7c3696",
+      "sha256": "34a8d0aae2a5d3a50074aa47e5fa65eb588b831103b8a7be2fa63952682963dd"
+    },
+    "includes/payment-retry/class-wcs-retry-rules.php": {
+      "md5": "7b12f8237967f76192307e1fc12788c0",
+      "sha256": "d707fbf3fd88b7b020842fcf3bfad7544bcaf1b52536486d276ca77041baf608"
+    },
+    "includes/payment-retry/class-wcs-retry-table-maker.php": {
+      "md5": "e3765251aeb0869239cff3df1d9423ad",
+      "sha256": "cbd456b9d4bc830201f65f34ad20a386d2090dff850a085a4a43fde972dd5e21"
+    },
+    "includes/payment-retry/class-wcs-retry.php": {
+      "md5": "4b6ee47ea5b00a2269ea34ac090913ac",
+      "sha256": "969b5fb197a828785a1c9963aa773000876eafcbd045e9058cb9b0d74968efaa"
+    },
+    "includes/payment-retry/admin/class-wcs-meta-box-payment-retries.php": {
+      "md5": "a9e7260d2f48dfd8e605087d869a664d",
+      "sha256": "36c8c60e65154686ca7fbdc8afa9cabe8ff8d31d31c035e3e5598d2485a875c0"
+    },
+    "includes/payment-retry/admin/class-wcs-retry-admin.php": {
+      "md5": "57cea1428777b15a921d751aff906bf2",
+      "sha256": "f00b64ee25e8b6297d632c859a98aa75bc1680336378fb2c4af50bc11f76f9e4"
+    },
+    "includes/payment-retry/admin/html-retries-table.php": {
+      "md5": "fa57c9f2c86017c11344c598e5e380cc",
+      "sha256": "f300c826265831fc2187d25f2586dd28c4743e20fd9d1384734f473aae96c3e7"
+    },
+    "includes/payment-retry/data-stores/abstract-wcs-retry-store.php": {
+      "md5": "b1b7309343db5acb5b2a4b6156c56275",
+      "sha256": "182969d3169df8766878f917dc3ad1032762aabba890f6861ed1eea5fa49df55"
+    },
+    "includes/payment-retry/data-stores/class-wcs-retry-database-store.php": {
+      "md5": "eec79d53549df35290028aaa0fa498d9",
+      "sha256": "8ad79143037a3b4b883ad4c610d21ccbd150bdf9e1eace0addd887b9dff41d43"
+    },
+    "includes/payment-retry/data-stores/class-wcs-retry-hybrid-store.php": {
+      "md5": "f93006b6800a4d45f929df5eb9b54113",
+      "sha256": "f6ab49fd78089691a2cd166f3ae84dcd98b2453f6288049dd0bbab1c1368bd9d"
+    },
+    "includes/payment-retry/data-stores/class-wcs-retry-post-store.php": {
+      "md5": "3c4bb2150453214eebbcb4557b0c7431",
+      "sha256": "a418d573db78f7dd310574c09e24f422e14f0f0431e47c1769ef3c99c0361d32"
+    },
+    "includes/payment-retry/data-stores/class-wcs-retry-stores.php": {
+      "md5": "656090bfa0f47985f65b597c91d27985",
+      "sha256": "9faee7c85dbae5264c0be40ad626842e522918abff6d90583c747de97637706f"
+    },
+    "includes/payment-retry/emails/class-wcs-email-customer-payment-retry.php": {
+      "md5": "b9cc23a02ddc2c6e8a318e75a5b4fba3",
+      "sha256": "8d89f179b7678a74201e8bc56e1b81ebb8d354c167b805b6ab5a36e859c41780"
+    },
+    "includes/payment-retry/emails/class-wcs-email-payment-retry.php": {
+      "md5": "aa14c5c79f9542768d250adb5f0d59cf",
+      "sha256": "40fef472ff16e79bc46e68d632d29898febefcff45ea25ee2b8ba6992d6e1d80"
+    },
+    "includes/payment-retry/emails/class-wcs-retry-email.php": {
+      "md5": "28ed7e283cc9f32b0d4ee3675a76d7ce",
+      "sha256": "44692e9c98c83a7da3f258f80bbaa9e9861870dc282df283a0d70583d0ccd2c9"
+    },
+    "includes/switching/class-wc-order-item-pending-switch.php": {
+      "md5": "3d33f9f5204d1830508e8ec20b0dfe49",
+      "sha256": "e3880396bc8b0e4c205090403587026d42fcbe11bf8ac15fdf0a9e201ddf8925"
+    },
+    "includes/switching/class-wc-subscriptions-switcher.php": {
+      "md5": "56a846d346378c6f266a51f8d3bc0e83",
+      "sha256": "cb7d495ae4b6122a0ae44b3a2e23aca4565a477a0bb594b933d42d72ea2a4573"
+    },
+    "includes/switching/class-wcs-add-cart-item.php": {
+      "md5": "b906ac99a205faf311579f282ee77089",
+      "sha256": "fa03fcfa632081cfc4d7913b6e2e725339776e4c490cd9ad37451bbee521ec08"
+    },
+    "includes/switching/class-wcs-cart-switch.php": {
+      "md5": "aad7ecf6cf85f65ada0e331cdce75e78",
+      "sha256": "4d32e9180787a074d37da9e4b92980a07b1fbf62a284785bc99e402b3a97f1e0"
+    },
+    "includes/switching/class-wcs-switch-cart-item.php": {
+      "md5": "90a9684243da2d924f2639f9aeb371e2",
+      "sha256": "b99e84a67229d6eeff3cd60f587a497b480211fe52b94f5f4e4c0dc5eaa3c494"
+    },
+    "includes/switching/class-wcs-switch-totals-calculator.php": {
+      "md5": "01875346c7abb07372a77e80790b5785",
+      "sha256": "6a8ec21736eb3bd0248016d507acd61bebdf8405f46cdcc920d587ffb330524b"
+    },
+    "languages/README.md": {
+      "md5": "611ebd04ad457feba1147ce246fc5824",
+      "sha256": "58faf92b0a4140ca6bc9c31a24f1831bc8c252be01e02f76b84548a69eba9bd2"
+    },
+    "languages/woocommerce-subscriptions.pot": {
+      "md5": "05a437c0dfd39a3eca5c80ebc9ce5aa2",
+      "sha256": "1ee8c2b97073accccb9bb6f8c5a464a59c5b9701bcc1ba62b26012f453707d08"
+    },
+    "src/Internal/README.md": {
+      "md5": "eee07d423bdc7dd8a75583f422f36275",
+      "sha256": "c2fe961717860424be7dedffa0a622522ee4ee52a9b6ad16c618409a53c729e1"
+    },
+    "src/Internal/Telemetry/Collector.php": {
+      "md5": "3b5cc940dddf15186c1c1a4842635c9f",
+      "sha256": "4f987ff81a8280f1e379745e9f1773ecba2ee29fa11760a3ff5b50806738e18c"
+    },
+    "src/Internal/Telemetry/Events.php": {
+      "md5": "e3c4fe95cc0152e1951b5d0d4b609e62",
+      "sha256": "fe1d21f5ca295780396903430cb7808f191602b8f646cd5e02ddb7b5d6f6d62e"
+    },
+    "src/Internal/Telemetry/example.json5": {
+      "md5": "e619a681ff90d93b37bdf4e9b2f72b2f",
+      "sha256": "98966e6340a4665ca6e34a5fcdf325c7d8c87e59b61b1aab05ba31d202557ce9"
+    },
+    "src/Internal/Telemetry/Orders.php": {
+      "md5": "6c7e796f0930ed8ced1d40fbf6d0ae62",
+      "sha256": "5b0bc8722dd6f60624d18f564818fb33a420462956a8c945fcf53862f753963c"
+    },
+    "src/Internal/Telemetry/Products.php": {
+      "md5": "603956cfe7030b60f445ac6e6b034800",
+      "sha256": "18f37ee16569440525ba4325f1da2dda422b47468f6f6d4dbd4780481cef2951"
+    },
+    "src/Internal/Telemetry/Subscriptions.php": {
+      "md5": "5433f643f9c0bbf46fe375dfae0bfdb4",
+      "sha256": "df0c9b1f8e431dab9e69ee5b454372f62f2bb7a2fce1ada26788da2877f16ade"
+    },
+    "src/Internal/Utilities/Request.php": {
+      "md5": "91e7b1a76c125e94944bf0e384e6c0d2",
+      "sha256": "fcae600e138e4c2e3dee403686a12140ab562ad3190729e88ef3433059c6c83b"
+    },
+    "src/Internal/Utilities/Scheduled_Actions.php": {
+      "md5": "07fc4e7538546e4ba542c8104c92541a",
+      "sha256": "253c37114ff344d94240bc2dc9f216aa73c07066ae1143193619726f2e6e3264"
+    },
+    "templates/html-early-renewal-modal-content.php": {
+      "md5": "7ff12a432a8aafc62cda223a291ce83d",
+      "sha256": "95c7cd61ee121e8103ebc53c39370d285998906e07a24d9d03ab937090ebb9f9"
+    },
+    "templates/html-modal.php": {
+      "md5": "835a768254f50cecb06620dc935cfdcd",
+      "sha256": "2c7102b9fa6f44f6492496a7ba92f65504f07e3ca71695195d9ea420bc4151c0"
+    },
+    "templates/admin/html-admin-empty-list-table.php": {
+      "md5": "fe79b51c0fa5ffa19be622f2befc7c83",
+      "sha256": "5a7834de13c2b8e28452a65e4c0ce36c7136f491f72d3bbdcd164f4835167f68"
+    },
+    "templates/admin/html-admin-notice.php": {
+      "md5": "ba05025ff7447e4e73caee0602a47b59",
+      "sha256": "92242d3d93049d6a07891ad50a67ced07aec1c246005c17b63984e4663813c20"
+    },
+    "templates/admin/html-failed-scheduled-action-notice.php": {
+      "md5": "17130722c2fc0ef66cdf38147b69e134",
+      "sha256": "8028780037d5e90a7bc68c55918bc158b63aa40fdb788e0c296819f2d8e7457b"
+    },
+    "templates/admin/html-variation-price.php": {
+      "md5": "38a52003cf3a5ae8ea124400c2f9bcaa",
+      "sha256": "778aa25655874164e4d49ac51a03196a1cc5258939a17fc5ca9a5076e3ccd64a"
+    },
+    "templates/admin/html-variation-synchronisation.php": {
+      "md5": "0af77f7dd70f69a545c9eb065481b552",
+      "sha256": "1984a576b9ec7794e19307f571c83d53af0abc4e4db3d0925dd460ca07ad8d48"
+    },
+    "templates/admin/status.php": {
+      "md5": "2cf8e1e445d9ef47a67473f6f79cb4cf",
+      "sha256": "0da0a29392f572414938e9c2b4045d9707ef7c05adfc98f91e4d3b0acdbe63ea"
+    },
+    "templates/admin/deprecated/html-variation-price.php": {
+      "md5": "d4541c7dae0fdf6977908dd2c32c1ab0",
+      "sha256": "dce17e1a5476763eb2255e33bda01d58543045453cbc9338d045d4b46321c45a"
+    },
+    "templates/admin/deprecated/html-variation-synchronisation.php": {
+      "md5": "6fdd335a7d11a7e14e7d4560f7a22e58",
+      "sha256": "b9fc56cfb0d2f6da92112c8f9a7c94a59d5379eeb72c5b43451736cf22478f03"
+    },
+    "templates/admin/deprecated/order-shipping-html.php": {
+      "md5": "7c8c0d360311dc13a46e807ce69c1d89",
+      "sha256": "da27bd28a02c26b1213ba0e4978c8ac286c0fdb067200c4cb690a72883c846c1"
+    },
+    "templates/admin/deprecated/order-tax-html.php": {
+      "md5": "805a0dc41b09ce3dcecb816922e23d2f",
+      "sha256": "b11c17324c47deed8c98dda5c8ef47ce28b5850d8d693cbe4aa4ece0fbfcb2cc"
+    },
+    "templates/cart/cart-recurring-shipping.php": {
+      "md5": "53a4499d282aed59ab942120bf709c8d",
+      "sha256": "bda4d989732512e162a9d61735e37e1742eefb853e93c9f8ce55344049476b0c"
+    },
+    "templates/checkout/form-change-payment-method.php": {
+      "md5": "5b14d468565b04a9b527bae67ba7492b",
+      "sha256": "6976616e32e15705b02083d45576f6002f7c3a2fe0b0b9909a8adfcf9538b1db"
+    },
+    "templates/checkout/recurring-coupon-totals.php": {
+      "md5": "684995525ff63e4cb937a9b5f2ae4d34",
+      "sha256": "826f9294e8e189b1c511f682bbc746617f2bf8ed897519b2575db1bb911bf818"
+    },
+    "templates/checkout/recurring-fee-totals.php": {
+      "md5": "8ea95e7164d5df5831e6784439a524bc",
+      "sha256": "16bc9a577da600e93e7d25c3ab3c2dedfe8060ddbad3ab31bbe83593c89162ca"
+    },
+    "templates/checkout/recurring-itemized-tax-totals.php": {
+      "md5": "ad445071707b4f3d2c51c2b7af55a116",
+      "sha256": "ec267c30a3a6bae60500eb532f623f4a3aea60066b443f7075f82325a779e9ff"
+    },
+    "templates/checkout/recurring-subscription-totals.php": {
+      "md5": "1259bb98cdb23da50bc8f243be36f733",
+      "sha256": "bab8502c6ffb81ac9f0e391abbba42a0487c7dc67b35d6eb828162f3b6077277"
+    },
+    "templates/checkout/recurring-subtotals.php": {
+      "md5": "ab737439cb68d3426d66ca66dced55a1",
+      "sha256": "1f82744e45f6eeb3dcd345ca70581c7dc361efd93151901619bc7622bfa69d54"
+    },
+    "templates/checkout/recurring-tax-totals.php": {
+      "md5": "9ec3d77ed2fcdd6eeddb94226b2bb376",
+      "sha256": "ad815a127bce822681bbeebfbd7bb3a6f6805f0fcb4dce9de907e15a15b3af3a"
+    },
+    "templates/checkout/recurring-totals.php": {
+      "md5": "3738391b4142686e1ae69bc39212ae32",
+      "sha256": "85f7f7701ce6b9a1cf65b8ce98fc5d7fabdcbd0eec41b239b57ff9691092b4e1"
+    },
+    "templates/checkout/subscription-receipt.php": {
+      "md5": "7ab194e736818a0ff9a88f4f5a51e5b4",
+      "sha256": "c7c2d9c1a688c38a7640e19acb04226e47aa3e8ad7e4ec31b636949fee99d909"
+    },
+    "templates/emails/admin-new-renewal-order.php": {
+      "md5": "48ba4196aa61c81729269b9f992424df",
+      "sha256": "55ee957954db43c7358a439680cfdbf6c70dce41dcb45cbd6bf52b0af84d874c"
+    },
+    "templates/emails/admin-new-switch-order.php": {
+      "md5": "03f77e38f1d44c406063b6a80b883354",
+      "sha256": "3567149b0fc10f8ffbf2749531bc1ec85f7d551ec46274e09b448a0447a8d5b5"
+    },
+    "templates/emails/admin-payment-retry.php": {
+      "md5": "be17dbc473a0c52dd89e556c9ca6c222",
+      "sha256": "bf834ee56e24739937bc95d011876a3f23c7ef78207a5995f80310477d7263f3"
+    },
+    "templates/emails/cancelled-subscription.php": {
+      "md5": "61992bab004f1fc6ca66617f66520250",
+      "sha256": "e8ba4512b43a635b29f7fd0eec774e46d540d8bb79a63c9fa6481f7e8b7f2696"
+    },
+    "templates/emails/customer-completed-renewal-order.php": {
+      "md5": "4839aec1fb5f87c701d91f47d379ba9d",
+      "sha256": "bfb894624b3eb2c016acb29d0c26a8e304368401cfda30353d1e8c752b14b40a"
+    },
+    "templates/emails/customer-completed-switch-order.php": {
+      "md5": "c12f0d3086986bed5ccb82dbe5a8f343",
+      "sha256": "36af46475062604d96453580147c25995c722b6c72c4940b66d8028632307e65"
+    },
+    "templates/emails/customer-notification-auto-renewal.php": {
+      "md5": "9e9c2f5794957c4484dcabd396c9bb24",
+      "sha256": "29f7424e0f8f2c743dc87765a4df28bb03587652d552b9da0e9c7b8ac11e0111"
+    },
+    "templates/emails/customer-notification-auto-trial-ending.php": {
+      "md5": "c9dc0d80921e45ace94d891dcc1716bc",
+      "sha256": "1dc975c054659bdf6b3f7611266d05bf79c1d0eb6b5086d729492a93eb142bea"
+    },
+    "templates/emails/customer-notification-expiring-subscription.php": {
+      "md5": "aa0d9a8fa383d74336e99081ef22cefd",
+      "sha256": "a45188f9cc6a5206ae8bb040e93620150a47a06655a9719bd7c752b9f007221c"
+    },
+    "templates/emails/customer-notification-manual-renewal.php": {
+      "md5": "35fac4dc444515599c369537d6872a63",
+      "sha256": "ffdc9c9961b1323d39c5b47b0dfe2514015d4eae7199cba4377e908f9dd5165d"
+    },
+    "templates/emails/customer-notification-manual-trial-ending.php": {
+      "md5": "f027c40b7e0af07212210b2e607b3963",
+      "sha256": "f9c9a08e789784977399b1c3089b404ee3150c87d40b1b081d7aeb122fb80e09"
+    },
+    "templates/emails/customer-on-hold-renewal-order.php": {
+      "md5": "f4bc9d72d2476cf5e28853226aabbe62",
+      "sha256": "f993e5fb004401099d7a8f06f18c3393062921bd1b40dc27338e729b4ae2fcc6"
+    },
+    "templates/emails/customer-payment-retry.php": {
+      "md5": "c2fa9711711c46530c4d61e51aed9895",
+      "sha256": "a2fd51fbfb59bf7b19e354d983bd5fffcf634f00e8acebc6652b4076f27e2392"
+    },
+    "templates/emails/customer-processing-renewal-order.php": {
+      "md5": "eb6fdd236e5e42622305e6d5b83b2aa5",
+      "sha256": "e70db46e0e049c6f14b8ee98aca5e7b1eeee2e9c3aadcc0d61c078504d2e615d"
+    },
+    "templates/emails/customer-renewal-invoice.php": {
+      "md5": "cfe9de93af536b4c46d6597ebebf6faf",
+      "sha256": "2e695919efc73457ab53479d7c546161b991ab7c52fd0edc8cc41aa9c9187db3"
+    },
+    "templates/emails/email-order-details.php": {
+      "md5": "a75a87b6ee36d29b61dedbac457f0112",
+      "sha256": "29570a62b434caf57951c5b4293cea313aec3e88a9a0653efc8f1eeda74eae39"
+    },
+    "templates/emails/expired-subscription.php": {
+      "md5": "5e65f95f20f1037aeb69b2beb70c08de",
+      "sha256": "5a414dbab66c808a9ea0638ae63ad39bd1ad44c0e317c1b32044bd16597c357e"
+    },
+    "templates/emails/on-hold-subscription.php": {
+      "md5": "ac1926a51229029184357df0d5696c57",
+      "sha256": "404d8c28924066ffe9529d01ec86e94c966d218bb1156ee67f1ed61e823ca485"
+    },
+    "templates/emails/subscription-info.php": {
+      "md5": "3e0974170f6e82599c62ab78b5817215",
+      "sha256": "cf01db0740f5fa65a107c19d4badb7df268d12242a9aa59d54c7b16efeb5b36b"
+    },
+    "templates/emails/plain/admin-new-renewal-order.php": {
+      "md5": "b24fc29cc65e2418b68e57d8ba84d203",
+      "sha256": "57ee15697ea9bc6f897bf1bbeeb0242300364b36cf9578f13819a23eb9626c89"
+    },
+    "templates/emails/plain/admin-new-switch-order.php": {
+      "md5": "aa87bf29ccad3c900b7df8183a046f43",
+      "sha256": "2143433b2594fcc6765a41d327947a033862a5b4362a870b19c5c0d6bd7f10a9"
+    },
+    "templates/emails/plain/admin-payment-retry.php": {
+      "md5": "865280dabb4bf9e8b6667122609e1456",
+      "sha256": "78d52d4e79ffb2c04c9d5515a1d24f3f201c4bef306a1aaa497f1f9ebc34a6c2"
+    },
+    "templates/emails/plain/cancelled-subscription.php": {
+      "md5": "f1130e8ea4538077172521bec3d143fa",
+      "sha256": "ef764b9c78352434d0e9a53dea0c6bd0d663a00ace61d0ce00496b7d2a9f237d"
+    },
+    "templates/emails/plain/customer-completed-renewal-order.php": {
+      "md5": "a4d6c69754b18a1b1b8f7c509b5e5e27",
+      "sha256": "0250d0683b16afa995fa71fd97f4fa6f6211861c083203d46623f2f6891b980f"
+    },
+    "templates/emails/plain/customer-completed-switch-order.php": {
+      "md5": "55460ff8f2ef2537b39f1ad641cdc7ce",
+      "sha256": "db57a30a6562ea409f3521a2f2748b097077bd64eef70b823f984c9936f0752d"
+    },
+    "templates/emails/plain/customer-notification-auto-renewal.php": {
+      "md5": "3a7e4b3046fa30380ab1a1666c408bbe",
+      "sha256": "c6417677746b4c01a7a0eb7d3caa3eef7d29bde0e52722e8bbbd50664e7fb1a4"
+    },
+    "templates/emails/plain/customer-notification-auto-trial-ending.php": {
+      "md5": "e940b3a3704060b17213008f4028e84a",
+      "sha256": "7abef509e37368684f5f607cb19ca8b9f8abc1893e37d2ae858a5390b34ebd45"
+    },
+    "templates/emails/plain/customer-notification-expiring-subscription.php": {
+      "md5": "2f7932591f3e8a01355626f50b82c205",
+      "sha256": "02eb071581eb993fa4aaabecbd4bcb6c0821457118f021841f444d8825629f21"
+    },
+    "templates/emails/plain/customer-notification-manual-renewal.php": {
+      "md5": "029df064828f6e0da4eebca129be6935",
+      "sha256": "c2a679877bf16a38dce3b2534ea6276237e11ec5cc3b16eea3a2808477f512f8"
+    },
+    "templates/emails/plain/customer-notification-manual-trial-ending.php": {
+      "md5": "f6cfface3506cd4370a6f2e807f527ff",
+      "sha256": "bb6bcaa8d88e1c098d8cd35fd9bdfbe045ca6a9d9442426b1de3100a7826d0b3"
+    },
+    "templates/emails/plain/customer-on-hold-renewal-order.php": {
+      "md5": "fd6c95b854f58353839f4a5f7a77e16d",
+      "sha256": "1658772ea9621d53d3a1533a2e6ca7a10712d687a9451b574bb55b2a79d946f3"
+    },
+    "templates/emails/plain/customer-payment-retry.php": {
+      "md5": "c7b55c94117697ec761a8796f032636e",
+      "sha256": "a35e7bc0950deb0a4ee772c980b4765d37fe3b57616a2c5df2c1c47ec614fcd1"
+    },
+    "templates/emails/plain/customer-processing-renewal-order.php": {
+      "md5": "085211f59a2525f3700212309d62eee5",
+      "sha256": "b6c19d4e437fefd6f4d8ec4f3bbaea736ddce45dcce1c80639f056a55830e49a"
+    },
+    "templates/emails/plain/customer-renewal-invoice.php": {
+      "md5": "280c26d03b6ea88e8b46563a4a6d915e",
+      "sha256": "f919f8e76ab52226c585df752907f95981160135db4f6463844df2b4d1e020a4"
+    },
+    "templates/emails/plain/email-order-details.php": {
+      "md5": "af36d4f91f937a9c26b289c9538e58ba",
+      "sha256": "900baee47ffb8ba371f8109b60d5e74d2e9cc49818c8004d7cf371989d9701f7"
+    },
+    "templates/emails/plain/expired-subscription.php": {
+      "md5": "228f2b7ac07bcab2bac0808081481b6e",
+      "sha256": "d96602c14eb4d76f65af8d3d1b0172f91de058837941c675cde44820896962f1"
+    },
+    "templates/emails/plain/on-hold-subscription.php": {
+      "md5": "7e8b7fd2a126c87999544e9c58d54d6d",
+      "sha256": "fc377c12671ecf0a97d368b0dca44261ed889b363e16373a1c1b3b61d9c2ea59"
+    },
+    "templates/emails/plain/subscription-info.php": {
+      "md5": "9f1c85a41eda1e36a4ec3129f3b47b0c",
+      "sha256": "c30b5135aec2a405b8cfdf510da2915a76d716a109fd00a4431827ce0b509cf8"
+    },
+    "templates/gifting/html-add-recipient.php": {
+      "md5": "ff815fa741deed8fe36d23c86eaf466b",
+      "sha256": "bb29226ec2c5041ef59cae3f6a71123988ef42c4bd2838d81c718601de1c392b"
+    },
+    "templates/gifting/html-flat-gifting-recipient-details.php": {
+      "md5": "a064bdae713b17f85d2eff0e0ff2d064",
+      "sha256": "263e41b401b051fffafecf050845a5d601294fc8ad88d30e6cebcaa0fc143f87"
+    },
+    "templates/gifting/html-view-subscription-gifting-information.php": {
+      "md5": "1765b95564b7e049479ff0d16d57ec97",
+      "sha256": "05c355ffc253619090d8882033071c7b44e4c0509918d431578c117c94f6b942"
+    },
+    "templates/gifting/new-recipient-account.php": {
+      "md5": "427708730f0d2b707bcd5d6b76a999d9",
+      "sha256": "996dcab2d55b24810e92b8cf28aed30e08f907b35366148584399a72deabde39"
+    },
+    "templates/gifting/order-details-customer.php": {
+      "md5": "d9e75aeb8eba6599c7c02680b73e7175",
+      "sha256": "65bf78458e22230aff1906736d53ad532bf08bff62fbcbd1a4ab003c39fad3e1"
+    },
+    "templates/gifting/recipient-details-my-account.php": {
+      "md5": "ce62155f6dc45ac513055ee6aa4670d1",
+      "sha256": "41a712636cf8fb82eb889a62a970bd1d7b91b5d103d861cc5f4abf4ce94da031"
+    },
+    "templates/gifting/related-orders.php": {
+      "md5": "23bc4845243870d0b6f983a3c5136315",
+      "sha256": "dedd02a0da841086cf8e52888189036fa546fd966cd7719afc434e45bbe876fe"
+    },
+    "templates/gifting/subscription-totals.php": {
+      "md5": "bb6e710a78d1bac5c97065ff6557e8d6",
+      "sha256": "9dabbb3f3b4422b3234babad0744be34b348b9ca4be665c54685c9e1043c1068"
+    },
+    "templates/gifting/admin/status.php": {
+      "md5": "8013d0ef2ca048dc1b92c80a76a14022",
+      "sha256": "c948484a31c9e620e97049f687597b92ab47923e21fdb4779ea2c15a3640d616"
+    },
+    "templates/gifting/emails/new-recipient-customer.php": {
+      "md5": "3279e8b126d1369ea57a44c1dd11189f",
+      "sha256": "5fe9461d7d0779838746f23525ceb0d53fe5e27526bd108867c3887e35b4e3f8"
+    },
+    "templates/gifting/emails/recipient-completed-renewal-order.php": {
+      "md5": "1775d8bbb87852d465ff7ba2f8dcff8d",
+      "sha256": "980a1804d9dcf83a24561c0d7810bd0f05ee0f555b2aee2d7fa908eb10e08d45"
+    },
+    "templates/gifting/emails/recipient-email-address-table.php": {
+      "md5": "7f8374efc99081086a058ea06d6a1479",
+      "sha256": "509ff6061b5e24ba24674d63271a72cfc9196f2f8100f9b005c1dc3f046c0d87"
+    },
+    "templates/gifting/emails/recipient-email-order-details.php": {
+      "md5": "690ab4b6469c8558d2138f633a518e88",
+      "sha256": "39e42af9b223ab061829cb163664e28f596031792f2bb13266572831b9dbeac0"
+    },
+    "templates/gifting/emails/recipient-email-order-items.php": {
+      "md5": "46f91696911fd1d7d9685969fd9e0872",
+      "sha256": "559bd6a863de45caa6a3146e4b521e26d5ee18be3b67c805b75e87eb8e86acf7"
+    },
+    "templates/gifting/emails/recipient-email-subscriptions-table.php": {
+      "md5": "046ed367e6b71ffecbeea43bdd929151",
+      "sha256": "814d33a6f7e5ee6b6cd1038cf195b73f983ba45999dbc02980c9f14508ab51cb"
+    },
+    "templates/gifting/emails/recipient-new-initial-order.php": {
+      "md5": "3d0dfbd98396ab71db45861c895f58e0",
+      "sha256": "67fcea31e206c0b072aa393c6ba85aa89e0e23de68005e318cd64823dd8118aa"
+    },
+    "templates/gifting/emails/recipient-processing-renewal-order.php": {
+      "md5": "91815afa7a052f75e2ef299c4e11a604",
+      "sha256": "3e7e15dea21e7fdff2692d1cc68eae8d0745d2206247a20812900ff29f8d6bba"
+    },
+    "templates/gifting/emails/plain/new-recipient-customer.php": {
+      "md5": "a9a5e9dc78415965d8052092b6d2d1d7",
+      "sha256": "21be69241709cb3ebf447122bcea0d322dc5313d9030aaf142e5c18c9c0982d5"
+    },
+    "templates/gifting/emails/plain/recipient-completed-renewal-order.php": {
+      "md5": "5a1e6ae93ace2b385d0f11f05b745f18",
+      "sha256": "31a3cdebfa24147d3a49f3a0a5f316b1148b9a948649c73254f3a5efdc68b3b1"
+    },
+    "templates/gifting/emails/plain/recipient-email-address-table.php": {
+      "md5": "a667b7cf93d669fb81b2c1817e312f40",
+      "sha256": "c93a2343ab57dba5a81c308f7cd910cbf852ff1c83e22b642b24a1a23427d453"
+    },
+    "templates/gifting/emails/plain/recipient-email-order-details.php": {
+      "md5": "8d17fc443a7fd0aea84eab813c63323c",
+      "sha256": "0ded7086110a0aa397babb45b5336290a3032fbaae3968acd13ff8c7583371fb"
+    },
+    "templates/gifting/emails/plain/recipient-email-order-items.php": {
+      "md5": "1dbe2fd51740ab4e37575f07e3d53e70",
+      "sha256": "74fc2d638c4e64b7d391c027238988fe9455e78d362ba719d36ece6b94aae62e"
+    },
+    "templates/gifting/emails/plain/recipient-email-subscriptions-table.php": {
+      "md5": "26102aad01a58c97f62633d2c1ca1a88",
+      "sha256": "98cc9aaaea5973d3922a9735ac48e8a077c0acf0e2929944592e66b40eaf0b5c"
+    },
+    "templates/gifting/emails/plain/recipient-new-initial-order.php": {
+      "md5": "3a0ddc8019dcb0e7c31b1b0d1577d86f",
+      "sha256": "63ae908454189278b57fa79a58f65b706dbb40be35e7bbcb65165487ebd45ead"
+    },
+    "templates/gifting/emails/plain/recipient-processing-renewal-order.php": {
+      "md5": "3224629c65e5c56273fde1748e0def00",
+      "sha256": "73697c8f91aa7e5fd225cd487008ce3f9925b8d2170794342b8b4d4165319628"
+    },
+    "templates/myaccount/my-subscriptions.php": {
+      "md5": "59eee1a6aede97e3b2255291c883f154",
+      "sha256": "c2cbadaeaeb17708c87d16208bc9ccb66025ece56812b6d146dddd763a501303"
+    },
+    "templates/myaccount/related-orders-pagination.php": {
+      "md5": "788e6f89d96a28c61471eab000be28a3",
+      "sha256": "2bdd93cabcde67188e0727bfed9da20dde3e76e32f0ba272c09e0e8266ff0abb"
+    },
+    "templates/myaccount/related-orders.php": {
+      "md5": "0a37e97800271511815ea1634d584517",
+      "sha256": "26af313ec8766552e834d852e6caa4f212bf410ccceb2909374f89e49e5c4588"
+    },
+    "templates/myaccount/related-subscriptions.php": {
+      "md5": "4820496c40e179e914d5cf2451cc7b4d",
+      "sha256": "33a8b9eeac578b277ebd4962528e7aa3ecec0ab1a7749db97034d909c2b0bef2"
+    },
+    "templates/myaccount/subscription-details.php": {
+      "md5": "de0faa87ca822b4c4ed5d6238fcec5b3",
+      "sha256": "16e58816b7c2ddbb437e463b94430fa810468f2ade63bd99c1ba4d6c43eb2945"
+    },
+    "templates/myaccount/subscription-totals-table.php": {
+      "md5": "5012124413baf4c5a21f359c08d8b375",
+      "sha256": "fb715d1be5958ae8da939f3d9ff96322396180e78f7517f4f16f5c14749c0f47"
+    },
+    "templates/myaccount/subscription-totals.php": {
+      "md5": "c88293916c1af0c0a838776c3cdb77fd",
+      "sha256": "4132b86ea8cc7f36881b3524b4e18551b1a567abc4c58ea67a632d7d0577fe4a"
+    },
+    "templates/myaccount/subscriptions.php": {
+      "md5": "225cfe9125d00349b0c8cb9ac44271ff",
+      "sha256": "9004845ae71037aed6b02809857ae7b26ab40072d219810385dfa3f9d6b57abb"
+    },
+    "templates/myaccount/view-subscription.php": {
+      "md5": "01a109bf1ca8193f35992bd5edbaa044",
+      "sha256": "29e2eeb42a4c4697df9e7ccd4ba4d24cf1bc95ea6cab6d17e938fe77a537195b"
+    },
+    "templates/single-product/add-to-cart/subscription.php": {
+      "md5": "0528e0ed701d20a29868cfa1192b7d9e",
+      "sha256": "c3726c95b1465106028bb7559898fe09b019120f524ba23804873d97c5fe5264"
+    },
+    "templates/single-product/add-to-cart/variable-subscription.php": {
+      "md5": "bcd8ab1358a58a01eeff7e35bcb36004",
+      "sha256": "5ba286985719a3e6622c6130a7008d406e12723284757cafbdb3c75137584c8d"
+    },
+    "vendor/autoload.php": {
+      "md5": "86b6fcd60a9a02f73638603ed01daed8",
+      "sha256": "9ca73662fd971e2b021fe330ea3168c4424ee6a5a223731f8b24d252874e75a7"
+    },
+    "vendor/automattic/jetpack-constants/CHANGELOG.md": {
+      "md5": "3b6c9e678bd2435443fca74920696446",
+      "sha256": "8a30be3b2d110150905dfa22af14258062d47f46deef8696a439d3b761fafebe"
+    },
+    "vendor/automattic/jetpack-constants/composer.json": {
+      "md5": "b279f55263b21252003517c44696b7e8",
+      "sha256": "364ac5b1b38bc581261b8732ccea8025bcee94528b38993d063664c4cd212d09"
+    },
+    "vendor/automattic/jetpack-constants/LICENSE.txt": {
+      "md5": "07b6f86da467d9d95366b630cc61664b",
+      "sha256": "e5d670958f34eae710b8ce670c396e346e834f4bfd3ca3c826935683549daca0"
+    },
+    "vendor/automattic/jetpack-constants/README.md": {
+      "md5": "64571710e6f57f39dbf8e8c05fbc0fcb",
+      "sha256": "755459f0920ca0c1733eb62dacc45b4b191e6525a6132f627e369e29bf3650de"
+    },
+    "vendor/automattic/jetpack-constants/SECURITY.md": {
+      "md5": "e86db7da79a99aef78871f8c828a6135",
+      "sha256": "802588f198dacd67346a80af4cd6388cd24889c1010106225f36abffb206c5bb"
+    },
+    "vendor/automattic/jetpack-constants/src/class-constants.php": {
+      "md5": "c4c2f889cce824da28cb1cb4b3b22e10",
+      "sha256": "0e58b5ce00502598426d70b4de9887a948c144304caae59fd08819b4ac872b17"
+    },
+    "vendor/composer/autoload_classmap.php": {
+      "md5": "a94f48e32b29a5dee2df4f2460601824",
+      "sha256": "4738bb845550ec2f3395f46553b20bb84fd0db5d58dd4fb901bdbab57ac86946"
+    },
+    "vendor/composer/autoload_namespaces.php": {
+      "md5": "224007c97efb82c7b45b0e92f240af41",
+      "sha256": "ede505407590638a435137f4e060136f1008de79fc169b3de9793423b0cea38c"
+    },
+    "vendor/composer/autoload_psr4.php": {
+      "md5": "36d21a6ed1571c8ed2e1b892532d7c04",
+      "sha256": "4f5615a2fd82edb6f5cb2c93f60644d2359f2f4966c1b3bef44b6381abbcbbe6"
+    },
+    "vendor/composer/autoload_real.php": {
+      "md5": "392d184f6a953df929f1540a634f3ffa",
+      "sha256": "b39a66882c640a3369f16cfb722726d9c3a02f2241c719afcc363b3fbcf8210d"
+    },
+    "vendor/composer/autoload_static.php": {
+      "md5": "65043dcbdb6b0f036c24995c3801ca86",
+      "sha256": "5962991faea0f04ca9ea40a49a62d559ceb070fe4776c5cf04de09f59b5a4f0b"
+    },
+    "vendor/composer/ClassLoader.php": {
+      "md5": "c02be6d96671f88d28aad3ffa134c8ae",
+      "sha256": "d4b2313e562edf942838ec316d983c1a3459ca67da3e5658e861200b0b3693c2"
+    },
+    "vendor/composer/installed.json": {
+      "md5": "3be4ff2464802a1b07554dd74fa1bd39",
+      "sha256": "fdedfccc6eccfb0ef6c07e58cdd1e8b4183c3186dfeb6d62560e48ce0bc32ea9"
+    },
+    "vendor/composer/installed.php": {
+      "md5": "3ce52904909c18af37484f1758f58166",
+      "sha256": "8c919f9c181398d97c6c49474c25ded24475cc6b64c94febdcf1454cee3fcdc0"
+    },
+    "vendor/composer/InstalledVersions.php": {
+      "md5": "7baf73014351c49ea0fef617dae7019b",
+      "sha256": "1e4525198301d1ed1f87ac3df2a8555a6f139f8df30a703d0b775a61963c96e4"
+    },
+    "vendor/composer/LICENSE": {
+      "md5": "955d5fe58c231244f6b49000f383b5e2",
+      "sha256": "c8cce4b6b9729f264ffdf9296d505d63432497feeed1f586d1902b942197e024"
+    },
+    "vendor/composer/platform_check.php": {
+      "md5": "09f51ef7bbbd5d53bac04401d179bdd2",
+      "sha256": "7e45b3c76b536e2d7f7fedde5b65473e9841c2a33a43127a02fe653e44db3791"
+    },
+    "vendor/composer/installers/composer.json": {
+      "md5": "fe2afc5eae6eb4a33f2300d3f6ee0b81",
+      "sha256": "741c79ef9e30cbc0bf7268f8fb643f39fccb0d6e48484afea5b94055d3ac044f"
+    },
+    "vendor/composer/installers/LICENSE": {
+      "md5": "043117d4dcbc27195a9479a30b7befcf",
+      "sha256": "8d64f2fa4cb25b8dd0050f31f08c4d721d65754029bd470294c5583d2ecd3149"
+    },
+    "vendor/composer/installers/.github/workflows/continuous-integration.yml": {
+      "md5": "e83436e60df17dedadea7bcb2583c9c2",
+      "sha256": "2a5ae371bcd04c223a5d59718740cdae6ad5b3c04f5acfe1db2a7c411d6bb5c4"
+    },
+    "vendor/composer/installers/.github/workflows/lint.yml": {
+      "md5": "1d3751c6fe60d950f5cf087e39d2eadf",
+      "sha256": "d36773e8fedac08033fc52e49ea148d6e2b4152e08f7c3504216b4dbc9bc0a22"
+    },
+    "vendor/composer/installers/.github/workflows/phpstan.yml": {
+      "md5": "65db7b93d49861f58b5e054d0da801b6",
+      "sha256": "abaac5ba7545c3faf06efb040bfedcca8dd258a03ac7a15fbf151e4841f4058d"
+    },
+    "vendor/composer/installers/src/bootstrap.php": {
+      "md5": "aba1efb305de35cadafc914b4456eb52",
+      "sha256": "dba168545bf5638cb06dacb0b543a2d71ce55e766cac326b6fd2d265a4f16cf7"
+    },
+    "vendor/composer/installers/src/Composer/Installers/AglInstaller.php": {
+      "md5": "7ef5b54fd29c23dca26c2a9edf0dd98c",
+      "sha256": "5db521af6b73393af748bdb1c4f691425e9e700805f761da1c493de6672d0884"
+    },
+    "vendor/composer/installers/src/Composer/Installers/AkauntingInstaller.php": {
+      "md5": "55a1a83b0b08b68e9f691ab804bac655",
+      "sha256": "457e4c8ee75b3793ac95c8ab691ab0439cc0b7d842cb6c98f4a4609056745447"
+    },
+    "vendor/composer/installers/src/Composer/Installers/AnnotateCmsInstaller.php": {
+      "md5": "a0acfbe237e70df48b1d39b2134591e1",
+      "sha256": "028b8221834ac80a7fe826ba0e3030340e7433de258e686de8e3edd69ce1f50d"
+    },
+    "vendor/composer/installers/src/Composer/Installers/AsgardInstaller.php": {
+      "md5": "59ec1f226f508f3c0029b817bae249dc",
+      "sha256": "6bb772968b9cd0d8c4a04fc1dd1fa92cbf736deed8ed11e585913b5c7a6d78f7"
+    },
+    "vendor/composer/installers/src/Composer/Installers/AttogramInstaller.php": {
+      "md5": "02b5b078e1068e8c60bae2818c7c5a7c",
+      "sha256": "de0f37e40a9c71f899c97001698f90259ca9dd8b01b9b45254d46411dc444e34"
+    },
+    "vendor/composer/installers/src/Composer/Installers/BaseInstaller.php": {
+      "md5": "3efa44d2ed2d09891c26502bee4d2041",
+      "sha256": "216e773daf98f801d1bbb83623f17fb3af29ac547ecb058d572086d0185eff6f"
+    },
+    "vendor/composer/installers/src/Composer/Installers/BitrixInstaller.php": {
+      "md5": "038b1d6a3ca8f85655b13c724de17893",
+      "sha256": "61b02c8328cdc86f566181186c479ef78fb1d9581c90387edd4693a1b4891b58"
+    },
+    "vendor/composer/installers/src/Composer/Installers/BonefishInstaller.php": {
+      "md5": "901d5100c34e37abad4db6f5ccddd6be",
+      "sha256": "b330f87e7c2ba04a060288c1bcbe213ef395719b59a476dcf5629c5b3b7caf8b"
+    },
+    "vendor/composer/installers/src/Composer/Installers/BotbleInstaller.php": {
+      "md5": "764be7e6583b85754f8b90f31fcef6d8",
+      "sha256": "1d129d1282279d32c6cfc1bf50eaa47493d379cd27ae35419b44863ba27255bd"
+    },
+    "vendor/composer/installers/src/Composer/Installers/CakePHPInstaller.php": {
+      "md5": "458749bd8b9b7db438ccdbccd762ff42",
+      "sha256": "94cfabd60f1f0dc1fd41e2f6e078b6d1852b1124941671032d7c2b5d7997ee6e"
+    },
+    "vendor/composer/installers/src/Composer/Installers/ChefInstaller.php": {
+      "md5": "9bec3e8f76ab85198e631e8f76acedc6",
+      "sha256": "972a8bf79bbfbdc7c90c9bfb0ef170805dd627713a1af7fbc6f96a93089d1b23"
+    },
+    "vendor/composer/installers/src/Composer/Installers/CiviCrmInstaller.php": {
+      "md5": "c0e62c7e90085945021c217b17dca62a",
+      "sha256": "afb9a0751505148d694a66ca30075ba146cc0b35c06de0c312182dfb0f58003a"
+    },
+    "vendor/composer/installers/src/Composer/Installers/ClanCatsFrameworkInstaller.php": {
+      "md5": "44ea2e8f2962ac33861a42b1958468fa",
+      "sha256": "a707b4b542fc0cb1dd1eb64f9592dcd071645bc6c7b254bc2b9268ac4fe901f3"
+    },
+    "vendor/composer/installers/src/Composer/Installers/CockpitInstaller.php": {
+      "md5": "2205ea68c83a241425d30857ff870381",
+      "sha256": "e6f410a4f1863796c151d7bc8ac52bbd41b34a409b594e33a4db04b51a6cc1e1"
+    },
+    "vendor/composer/installers/src/Composer/Installers/CodeIgniterInstaller.php": {
+      "md5": "2f5f06f0e05412f991ce0145affd9040",
+      "sha256": "fa5e59ff4d71ec71636dea40cb3f15bf80e07131e55e486429d726d02226a7fe"
+    },
+    "vendor/composer/installers/src/Composer/Installers/Concrete5Installer.php": {
+      "md5": "2ade12f60cb229b8c2061265ab21e604",
+      "sha256": "19bc7029994919c05f729bf1861305d2be665f8d386e8d4e0ea52016412a6797"
+    },
+    "vendor/composer/installers/src/Composer/Installers/ConcreteCMSInstaller.php": {
+      "md5": "e6358da20623eb9247f676776bf55d16",
+      "sha256": "85075596c1c9901aab10cc6ffaabb5aba2947189b9fd9a40226ee9f12250237f"
+    },
+    "vendor/composer/installers/src/Composer/Installers/CroogoInstaller.php": {
+      "md5": "b0ef7a4dd9812b5a677d93aa776a919e",
+      "sha256": "6e490d8a9eb386a694da472b0788dc1ae62041e995682f196468778f4b6f7eda"
+    },
+    "vendor/composer/installers/src/Composer/Installers/DecibelInstaller.php": {
+      "md5": "4785020d54d8b12a5ada7ba0e5eefaae",
+      "sha256": "0f6232c0137ea7e32cfa5286c0e220c2131a0b9c743759c613ba5b0da61f2a37"
+    },
+    "vendor/composer/installers/src/Composer/Installers/DframeInstaller.php": {
+      "md5": "7b79bb18402bf99dc369c2b9e40f0163",
+      "sha256": "f08f14e02634c0effc69631f446577ee20995be4ba0d53b2e81ede4df05df861"
+    },
+    "vendor/composer/installers/src/Composer/Installers/DokuWikiInstaller.php": {
+      "md5": "322782f78a4f3d19fee4ad81f47a509d",
+      "sha256": "9e46aa9c3ab908f0ce800a905bdc368427f07b8d8f44132ce9bda9614c138ac0"
+    },
+    "vendor/composer/installers/src/Composer/Installers/DolibarrInstaller.php": {
+      "md5": "786056075e29ff136c3ba94fc21b1e10",
+      "sha256": "b5ec4560092c818fbb79f19a6b24eb37f07ee73fd10910afbfd93c187440d935"
+    },
+    "vendor/composer/installers/src/Composer/Installers/DrupalInstaller.php": {
+      "md5": "467b62635336dea57d858375b2781c2f",
+      "sha256": "baff56f283bf768e2763af7ccc1c7303d38b9bc6eaf846f35b248f700c70fd6c"
+    },
+    "vendor/composer/installers/src/Composer/Installers/ElggInstaller.php": {
+      "md5": "65150ff8057f12a490e0c37de7442045",
+      "sha256": "70526b367c8d9dcf3264c34ec52d29e89671e1c6e6648f27a532fecb22dde27f"
+    },
+    "vendor/composer/installers/src/Composer/Installers/EliasisInstaller.php": {
+      "md5": "2d1ed184e05ba31d28f7a356ccdd288d",
+      "sha256": "5dd5e231ed6aa689651a07b98f9ccc95e40f8e038370b694ac7b2515dff3f1ab"
+    },
+    "vendor/composer/installers/src/Composer/Installers/ExpressionEngineInstaller.php": {
+      "md5": "7aae6bc6e0b3d4f5edfa5ff475c36732",
+      "sha256": "6af0d3ce80113bb539e7d5e3ce5722ad1a89530cce2b0552f3a291ee0a089c71"
+    },
+    "vendor/composer/installers/src/Composer/Installers/EzPlatformInstaller.php": {
+      "md5": "b6c57fb10c4b95c4b488b416a1c86d4d",
+      "sha256": "2ed6af6af5b54fb3eb0c6347c9436f7126cef205183fe536842453d9670fef14"
+    },
+    "vendor/composer/installers/src/Composer/Installers/ForkCMSInstaller.php": {
+      "md5": "be40353ac3f993d5cbf653ff2945e3a5",
+      "sha256": "5936088b3c645198f4219101d74c502ad0a711168378d7292f4d50642f661866"
+    },
+    "vendor/composer/installers/src/Composer/Installers/FuelInstaller.php": {
+      "md5": "d85a7c612b415ad9d259dfb3d809fa89",
+      "sha256": "f0277b871506b085c57e2b4989e926affc42df7b8695388d5dd29c8160ab622b"
+    },
+    "vendor/composer/installers/src/Composer/Installers/FuelphpInstaller.php": {
+      "md5": "80defbb3f58c53612a1af0cffe9e55e3",
+      "sha256": "6e775952b236a151e56ffad03cf161c3135d2d47cf0b64d614b2f147dfcab6ca"
+    },
+    "vendor/composer/installers/src/Composer/Installers/GravInstaller.php": {
+      "md5": "11ffdaf6c760dbe6a079f90de9bdac41",
+      "sha256": "ded501087b5506ee047015b4ab72550c4837af814193c2abae1b1c92b22dfcd8"
+    },
+    "vendor/composer/installers/src/Composer/Installers/HuradInstaller.php": {
+      "md5": "ef1be3497301d39e9c1ada955bfb7e88",
+      "sha256": "dd9d3c31685d8144088ef562c2817911858aa234edc4464421497b90bdfaf54b"
+    },
+    "vendor/composer/installers/src/Composer/Installers/ImageCMSInstaller.php": {
+      "md5": "9d0b508824cbb6e7913d4795dfdef4a6",
+      "sha256": "1cd7354264dd13beb724d89f9b912a8870558607c6baec0f02974e3889dfa359"
+    },
+    "vendor/composer/installers/src/Composer/Installers/Installer.php": {
+      "md5": "eabf89c19860cfd5f84207c6d4be2591",
+      "sha256": "75c925a23258c64577be2b7b6b8f34cdad263e18476b7e3675ebb12a608f68da"
+    },
+    "vendor/composer/installers/src/Composer/Installers/ItopInstaller.php": {
+      "md5": "be985c070b36566601fcee7ac7b002ee",
+      "sha256": "34eeeb0ef2928f02a7b35d19b6b417b5f2d18cdc13aebc75b69faa742641d398"
+    },
+    "vendor/composer/installers/src/Composer/Installers/KanboardInstaller.php": {
+      "md5": "c06c54cfcbd3740d573cc443388b99d3",
+      "sha256": "cc040bfec999fbb1b992a0a6a72de5d7a6d5372339db8f3b8c1b09983037ca6a"
+    },
+    "vendor/composer/installers/src/Composer/Installers/KnownInstaller.php": {
+      "md5": "21e94742113f4950cd05baa77573bed9",
+      "sha256": "2c422d5c1d4e0bd242c7bdc3cc85bf5a451ffb9f442dac46c65b08130367876c"
+    },
+    "vendor/composer/installers/src/Composer/Installers/KodiCMSInstaller.php": {
+      "md5": "d2ec18b37976916ebe33339bb36eea08",
+      "sha256": "67cd650eeb1b46f17219adaaaca925d915115b4166897dcfb19e4b4ab9adac49"
+    },
+    "vendor/composer/installers/src/Composer/Installers/KohanaInstaller.php": {
+      "md5": "6737a1e0cf81e677745a16d2e8d415f3",
+      "sha256": "3309e6eaf9fc1f92c856d4208192940a826ae2e581b288e5448eeca72823270b"
+    },
+    "vendor/composer/installers/src/Composer/Installers/LanManagementSystemInstaller.php": {
+      "md5": "08996e774d7485f8ffc83738d43515bb",
+      "sha256": "af50086806526ebbabaad1afde46eb614367169f46769171a5a1fac22c2c0d56"
+    },
+    "vendor/composer/installers/src/Composer/Installers/LaravelInstaller.php": {
+      "md5": "a7b24e9110069b9bb05803e8234f5471",
+      "sha256": "7350709202c220ddb516879c331d5c9b30c38b4d96b687ac2707bbab54283be2"
+    },
+    "vendor/composer/installers/src/Composer/Installers/LavaLiteInstaller.php": {
+      "md5": "bbaed90a7f2cef279f13b67a65540bca",
+      "sha256": "8bc4aa8181459834359ed96edd8e2ea7895437969b006eb748a79c03637d763a"
+    },
+    "vendor/composer/installers/src/Composer/Installers/LithiumInstaller.php": {
+      "md5": "00bc599b6d6cc04bfe83049291842632",
+      "sha256": "7a7e380db378745b175c821e1be9de0ec5aa4967b07b65cb7307c3fb12b02544"
+    },
+    "vendor/composer/installers/src/Composer/Installers/MagentoInstaller.php": {
+      "md5": "c21634640ca425cfeb1a266505a6de1e",
+      "sha256": "232dfb5fb8f0595b7e5845059c4f68593caeb5b90baa42bbd0afa286ad192c3f"
+    },
+    "vendor/composer/installers/src/Composer/Installers/MajimaInstaller.php": {
+      "md5": "73dfe3cc1b96071c578ebf4795490c44",
+      "sha256": "a95f81a4a0a54e1cc8f7c229b8bf37ff06791ca6f595ff311766034778655bce"
+    },
+    "vendor/composer/installers/src/Composer/Installers/MakoInstaller.php": {
+      "md5": "af11fed9df3fe07c6a460f52a9da7012",
+      "sha256": "1700cf0eb8a8ad99ca13e4eb68dff88a41dbe70f317ea743db92c15e8465041f"
+    },
+    "vendor/composer/installers/src/Composer/Installers/MantisBTInstaller.php": {
+      "md5": "c84baaee66226e1a349f681c2149bfa5",
+      "sha256": "0304d23d2f4db4899afe27c210f48334920810bfb4e460534eac714bfb40b76c"
+    },
+    "vendor/composer/installers/src/Composer/Installers/MatomoInstaller.php": {
+      "md5": "855e3ab071235d1d310ec5aa9d270d9d",
+      "sha256": "551ee2183ab950f7801fbb4565c626d64fa49daf3328567acd5a22fefd6d8b21"
+    },
+    "vendor/composer/installers/src/Composer/Installers/MauticInstaller.php": {
+      "md5": "fc5b83b2f016f3c2c9cf2f946460160e",
+      "sha256": "d434522c2557703f22ac464415ea2a2e7f86a443879c0d9da40ebd181edafce1"
+    },
+    "vendor/composer/installers/src/Composer/Installers/MayaInstaller.php": {
+      "md5": "ee3e35fb879610207922ed717ebc3b5a",
+      "sha256": "f216af44f3843997a9d23a09ba6524608d2b913c42088eccbe1ea8ab451dee3c"
+    },
+    "vendor/composer/installers/src/Composer/Installers/MediaWikiInstaller.php": {
+      "md5": "b8ba7bcf938c24cc0f2a0bf5ad76ef76",
+      "sha256": "2bc6cdce8d08fa5a22d50cbaa65854c60544ca04844a961a05e4fad7d521f258"
+    },
+    "vendor/composer/installers/src/Composer/Installers/MiaoxingInstaller.php": {
+      "md5": "c41f1aec9c44a1a591a33e5ed52e252d",
+      "sha256": "5152e44b2220d77743f96b2d8895c2cd61bacdcfafc301f1e3e7cfd021119a16"
+    },
+    "vendor/composer/installers/src/Composer/Installers/MicroweberInstaller.php": {
+      "md5": "6a8420fff7979ee74d76741dbf264abd",
+      "sha256": "e46584abd1bdd71fee7077ea5c32810858cd1c6bf485b4b97dff40115e6be8dc"
+    },
+    "vendor/composer/installers/src/Composer/Installers/MODULEWorkInstaller.php": {
+      "md5": "e32298ed6a1b0064ffe3b74b6c740111",
+      "sha256": "1d906a2971db80af3c0ffb2d4f38c0bca3d46b09071c9cc76f041128c33a16a1"
+    },
+    "vendor/composer/installers/src/Composer/Installers/MODXEvoInstaller.php": {
+      "md5": "2eba9935892ed57bbaf4f5b3661ebfb4",
+      "sha256": "cb9c2c0fc1b46e09357bb47b550488141c8af1d481012008e5e68dc05647efd4"
+    },
+    "vendor/composer/installers/src/Composer/Installers/ModxInstaller.php": {
+      "md5": "e9b1f8c76a38b020b033bd671d63fcd5",
+      "sha256": "c824e28d78ed32236f940807065fb818dbcb723d7da266d9123dc40fae672a4c"
+    },
+    "vendor/composer/installers/src/Composer/Installers/MoodleInstaller.php": {
+      "md5": "beb3e484504fd99d33fcb3028a4289a9",
+      "sha256": "c0b61033a8c1bb02d39451efe5a90dc70ad70b0c22203803d035eb0109ee3b34"
+    },
+    "vendor/composer/installers/src/Composer/Installers/OctoberInstaller.php": {
+      "md5": "9d5df3c941981471871006942653c060",
+      "sha256": "e780126acb9e5462d9b17b29b5e088cc893148c5557f20f8925ccd2bd925bb04"
+    },
+    "vendor/composer/installers/src/Composer/Installers/OntoWikiInstaller.php": {
+      "md5": "e9fae5306daa9a8c15a3dd514332ae29",
+      "sha256": "55fba897efa5d173e7238c18c2065eeb8baf003e9a5fc13f4eabdc2fcb49c201"
+    },
+    "vendor/composer/installers/src/Composer/Installers/OsclassInstaller.php": {
+      "md5": "df8d228e2bed1a8bd1ebac475abbc3dc",
+      "sha256": "123a73418adfb0a28c6ed815dccb93b1cf654d12e836f886b57e860e32f24175"
+    },
+    "vendor/composer/installers/src/Composer/Installers/OxidInstaller.php": {
+      "md5": "e49aba886f8ca9e9c5c69aeb8c219999",
+      "sha256": "017b60adcdbf4ad61cbac075099614b86b5ccd3f03e044eabfd2da2a3f0e57d7"
+    },
+    "vendor/composer/installers/src/Composer/Installers/PantheonInstaller.php": {
+      "md5": "09ceb4d1b533f86cee5dd80da5fc45ef",
+      "sha256": "6618fac3c475711a7d3e2c2ccd03a58e1b56e4a0aa68b3676fdb1979fe0f40b8"
+    },
+    "vendor/composer/installers/src/Composer/Installers/PhiftyInstaller.php": {
+      "md5": "8a5d28badff1c1c0a1029534937a3a87",
+      "sha256": "2370554cd4b557dcf8dd128c8f0729ae3034105f7fd54f9485c638e1cb1d95ec"
+    },
+    "vendor/composer/installers/src/Composer/Installers/PhpBBInstaller.php": {
+      "md5": "44929245683aaa086744b9b0c006a3f7",
+      "sha256": "1f64c64262735c4756d129256ab34ac3651012ee3657897f47f6d6f95cb01191"
+    },
+    "vendor/composer/installers/src/Composer/Installers/PiwikInstaller.php": {
+      "md5": "da42810b5219620f681211d878704c36",
+      "sha256": "e93aa1f905564debeb1aca242f5a4585431fb1319d309ae8c79592e57e70c5ec"
+    },
+    "vendor/composer/installers/src/Composer/Installers/PlentymarketsInstaller.php": {
+      "md5": "325f2ee376f16df5c6faf049e88d1a10",
+      "sha256": "c265f51e0f69fb345d82606adf8192e53c0e6c6906536b732711b820043b56cb"
+    },
+    "vendor/composer/installers/src/Composer/Installers/Plugin.php": {
+      "md5": "f949b2d74b80ac301635a8f3c6896e0c",
+      "sha256": "afbf3280c23b0ca81834b6f9ee830c23fed074ef8a6a598d8fa975e1663a5cb1"
+    },
+    "vendor/composer/installers/src/Composer/Installers/PortoInstaller.php": {
+      "md5": "8803e3c343616a1aa1b51420a5545505",
+      "sha256": "82ef29e1adf23f5abb37071ba3a970808840dfc3084c3b580d08d98c3116173c"
+    },
+    "vendor/composer/installers/src/Composer/Installers/PPIInstaller.php": {
+      "md5": "2034ac998c10c399a27e46d0c8341758",
+      "sha256": "9c30449d94ee45b87885a13f92322ace8ca595007c4550c4fdc3532db978c58d"
+    },
+    "vendor/composer/installers/src/Composer/Installers/PrestashopInstaller.php": {
+      "md5": "f7826d8498c0f3a41c648f5a5b3f731f",
+      "sha256": "c878507c09118c0c67e215ca9e09a49b26ce2473601839f8c2946d291bb2ada6"
+    },
+    "vendor/composer/installers/src/Composer/Installers/ProcessWireInstaller.php": {
+      "md5": "74ef99879f6fa1142511e46adba65bdf",
+      "sha256": "63a4a85f74617f8afb558a75fd8ee9c00de5811441afd8f787b8f388f8936faf"
+    },
+    "vendor/composer/installers/src/Composer/Installers/PuppetInstaller.php": {
+      "md5": "c1f5d42fa94a4c6085bbaf2454a737d3",
+      "sha256": "6d552a808a39319d10b5b353f834ddec02f52ebdda074cd8f54b782c7c0c884b"
+    },
+    "vendor/composer/installers/src/Composer/Installers/PxcmsInstaller.php": {
+      "md5": "166072e16edb8e58ea4313afde09c154",
+      "sha256": "720a6070b75e7f9eb25f0ae11954f69ecfb3e2c2532f0ddfffa11343f117975b"
+    },
+    "vendor/composer/installers/src/Composer/Installers/RadPHPInstaller.php": {
+      "md5": "e0262a16203bb0f1a6996da251168f1d",
+      "sha256": "79ea277e083d9f30a8342ffe4301c622fe7252cb9a09d15a7b1c1fb2d4362c5e"
+    },
+    "vendor/composer/installers/src/Composer/Installers/Redaxo5Installer.php": {
+      "md5": "648b2552c3cfae8942b5f729e9931d88",
+      "sha256": "104d11002996f762dfde477a99b7312339b7561d55983c1be5df2a21e5931a98"
+    },
+    "vendor/composer/installers/src/Composer/Installers/RedaxoInstaller.php": {
+      "md5": "dcd647d5e0adb39b61a223c7d90aa221",
+      "sha256": "6cf18c260e8fff588270699a40bffc6d42b93a85cb513e75ec8d3765c091824e"
+    },
+    "vendor/composer/installers/src/Composer/Installers/ReIndexInstaller.php": {
+      "md5": "5bc1d8b339f0367e00ba817c069d8071",
+      "sha256": "6d37928f457f680e47ae621171d69498164106ae6c7282f7c6aec9b48d9a4428"
+    },
+    "vendor/composer/installers/src/Composer/Installers/RoundcubeInstaller.php": {
+      "md5": "020edd6683ca01f8e03a69a487fc8cfc",
+      "sha256": "79f08d2c19b14e491115fd9735e336abc002ef15a13af2e152ada3854e0c0a5c"
+    },
+    "vendor/composer/installers/src/Composer/Installers/ShopwareInstaller.php": {
+      "md5": "2d6d77df6d7bd174475386c34a33cd52",
+      "sha256": "8228179074b49f5adb0625f9b0bd07427b186102c63cae45161dd95507a29842"
+    },
+    "vendor/composer/installers/src/Composer/Installers/SilverStripeInstaller.php": {
+      "md5": "7e09c4a2e0f860abf6a82dd6a88b3ac3",
+      "sha256": "e6179c1ed010dff81d99c3384299ac894e9be06dd80d1ee4403bc2f6a5e8612f"
+    },
+    "vendor/composer/installers/src/Composer/Installers/SiteDirectInstaller.php": {
+      "md5": "5df14c17a99b5037c971b1f55c9d861a",
+      "sha256": "b3dccab27a21c05af087a804b533f8a68ad9b35aa7ee580f7760e77883980785"
+    },
+    "vendor/composer/installers/src/Composer/Installers/SMFInstaller.php": {
+      "md5": "c4571eb4c8e255a001e8a7bb8e9a8949",
+      "sha256": "11a02946a0a5a488ef424d4514b0dd04bbff97cbda8e9919601d6d5e7fa3be62"
+    },
+    "vendor/composer/installers/src/Composer/Installers/StarbugInstaller.php": {
+      "md5": "ce07f9fcaabf1227a0da76f6a2720244",
+      "sha256": "7ea36ec04458527812edbde861f5dc52b75df947afced027fddca7c587e5e181"
+    },
+    "vendor/composer/installers/src/Composer/Installers/SyDESInstaller.php": {
+      "md5": "f725d4962cf6943dba266303ab3ec4d8",
+      "sha256": "4043df1f87a1117e966c74c689a2d2cf6082820743edee830647a1e0e7fb84a0"
+    },
+    "vendor/composer/installers/src/Composer/Installers/SyliusInstaller.php": {
+      "md5": "958949540fecddc01fa82ee679405942",
+      "sha256": "a7265536a4911a67a3f4f4fae3dee81002c0ac757fab63cc1499eec3281bb43f"
+    },
+    "vendor/composer/installers/src/Composer/Installers/TaoInstaller.php": {
+      "md5": "3d89a66f5f427308e90a9db3de958aa6",
+      "sha256": "b9f8352ca667182a075f2ce9e966ff640fb73d8d5d4ff0aae3047faf89a76ec6"
+    },
+    "vendor/composer/installers/src/Composer/Installers/TastyIgniterInstaller.php": {
+      "md5": "c480b5b7622414d93c4a45f422387f42",
+      "sha256": "3ff4767c038ff0e713e0135c30649defeadb571b6cfa3e9fbe204be4bbc003be"
+    },
+    "vendor/composer/installers/src/Composer/Installers/TheliaInstaller.php": {
+      "md5": "6a6cfbdbdb807741fd185f39dfc16168",
+      "sha256": "59e1d8259c7a11d15d983c86457b627de963cb1224593ec171d259f6fd0e3551"
+    },
+    "vendor/composer/installers/src/Composer/Installers/TuskInstaller.php": {
+      "md5": "b18f2185ef4b8b1acaf2fdd3a1433f9e",
+      "sha256": "43fd5aa13082271edc79a73f408166c63dbddaacb3b63c03833614e19c7c1cc0"
+    },
+    "vendor/composer/installers/src/Composer/Installers/UserFrostingInstaller.php": {
+      "md5": "13063ed5386691b25d4b1607c8cadf64",
+      "sha256": "989aa5247e3e69452bea790f21a31a417ae93739e1de1e4cee461add5ba64790"
+    },
+    "vendor/composer/installers/src/Composer/Installers/VanillaInstaller.php": {
+      "md5": "6b138fa4385739199fd09c942f001322",
+      "sha256": "c60681361e886924fc61bba5718c7c72ec69345363717df5ddf7758263fe88a8"
+    },
+    "vendor/composer/installers/src/Composer/Installers/VgmcpInstaller.php": {
+      "md5": "94f4d06525b6d886a1026bbe4ba3e1c3",
+      "sha256": "1041e2a09de07d4080852612a26a98dcd7c9e5db8891c05a38677642f6c82b52"
+    },
+    "vendor/composer/installers/src/Composer/Installers/WHMCSInstaller.php": {
+      "md5": "e85a71dd1ca2467b9096ff50446d8b7b",
+      "sha256": "0a3de9ad2a080fb68020dc52a587d1738cb9fbeb8c142c0c39d81e18787795ef"
+    },
+    "vendor/composer/installers/src/Composer/Installers/WinterInstaller.php": {
+      "md5": "c4bdf3e8ffe7fddcf4fdcf835e63508e",
+      "sha256": "a59d59599f75a71b0db16a9548a02258ad8e64f49f13359dfc5f823beb4ff0b1"
+    },
+    "vendor/composer/installers/src/Composer/Installers/WolfCMSInstaller.php": {
+      "md5": "cca8191d670d7065cb66407e812a49db",
+      "sha256": "58a3611854034160ec531da91f926df8d9ec1dffa656c15e95fb9ba37c46eb0d"
+    },
+    "vendor/composer/installers/src/Composer/Installers/WordPressInstaller.php": {
+      "md5": "b730ced09698ebaaa4e2f14050e18ca9",
+      "sha256": "7ab8831f385b1501d8c2851424156e927c2ebaa4ce2c3dc02ca4e9b77560383e"
+    },
+    "vendor/composer/installers/src/Composer/Installers/YawikInstaller.php": {
+      "md5": "f3a992606b9255d34b651395518c9e7e",
+      "sha256": "37122ec3cf2ee4743d033e9ddcf4a1a5d49001bdb674a64b3c41a92bdc670108"
+    },
+    "vendor/composer/installers/src/Composer/Installers/ZendInstaller.php": {
+      "md5": "4e41f4feb518549070472d416ead219c",
+      "sha256": "1b31a38be8b83b86ef33802d4d0cd66137112d26444eeeb80942bf29f9e0fedc"
+    },
+    "vendor/composer/installers/src/Composer/Installers/ZikulaInstaller.php": {
+      "md5": "ef5c60785cc296f1266dda5f95e9689a",
+      "sha256": "e7c3f108ca24fb41bdd82af1d48803526b8968f9216589311dfadae5c1ac6d3f"
+    }
+  }
+}

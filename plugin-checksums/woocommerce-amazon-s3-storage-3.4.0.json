@@ -1,0 +1,422 @@
+{
+  "plugin": "woocommerce-amazon-s3-storage",
+  "version": "3.4.0",
+  "files": {
+    "amazon-s3-api.php": {
+      "md5": "f9fb04faaca931ec81ee6e66eca5870b",
+      "sha256": "de43c6b9258b8cb21f264930b61509077972d06cf2a414637cbea2835381a518"
+    },
+    "amazon-s3-storage-ajax.php": {
+      "md5": "018e0747a22d17c749fceef865ada793",
+      "sha256": "b5ab02de60863af3a21f68615bc3d0f0e535aba6a69bfa7cdf60749d10bdaa5a"
+    },
+    "amazon-s3-storage.php": {
+      "md5": "67a1cc986e72919948ea416976208901",
+      "sha256": "3a3c2122248f86546790ee04f68bc98b4fb4ee81e8859577753eab2fc2b96d14"
+    },
+    "changelog.txt": {
+      "md5": "a4663644eb32100ebbcc8940a0bdad08",
+      "sha256": "591e9ae9425346f6ef1f3e7705d9bff1c8a9fbb8cd6fa7d81e1d6b2f66d502dc"
+    },
+    "woocommerce-amazon-s3-storage.php": {
+      "md5": "c9ce9aa163fde811063283e67c756162",
+      "sha256": "fe12abb0f73c04cd271b7d1c9e3e3b750e842385973c52416c828ca38fc4af63"
+    },
+    "amazon_sdk/sdk.class.php": {
+      "md5": "cb79b188821d84cb1ab85313d70f0e5e",
+      "sha256": "afffe9f6cb2d1bc015abdf17b6509e0ef31d5c8c8e08d212d2d7711f1f917980"
+    },
+    "amazon_sdk/lib/requestcore/cacert.pem": {
+      "md5": "b78517772ef2c63a849568b66cf31d4d",
+      "sha256": "ee5391206fecc5c177964eaa992c9fd6abdd81b9a9a042c7ba7ab0fa0480a9bf"
+    },
+    "amazon_sdk/lib/requestcore/LICENSE": {
+      "md5": "70f142181074f83b33d258164c008cd9",
+      "sha256": "3194a0218e91f95b392e240be42e9d21ec4d7b0f9d8676757cf72cb8a96bb0e5"
+    },
+    "amazon_sdk/lib/requestcore/requestcore.class.php": {
+      "md5": "73bb11d5f5bccfe61c3f52d755aaf768",
+      "sha256": "8240297ee0f0293d7dc9dc4e1909648f66fb6c1e1a230a5d1373d8b2f90e0271"
+    },
+    "amazon_sdk/lib/requestcore/_tests/AllTests.php": {
+      "md5": "b967961f53854ea43e7b603c0539a894",
+      "sha256": "e357e9003fbe719c96dfca96ad88668296934a316bb7fe947c426b8cb7ab475b"
+    },
+    "amazon_sdk/lib/requestcore/_tests/examples.yml": {
+      "md5": "1d3beff371b714e6837bca6883d7b178",
+      "sha256": "be11e97407aaa50218882563ee937896b9e92f81ea562d0308e54bbcd9d3590f"
+    },
+    "amazon_sdk/lib/requestcore/_tests/HTTP_DELETE.phpt": {
+      "md5": "2601ede88b14a6bf6e74402a3ea24865",
+      "sha256": "99039e3f8216b23e36bbcd80cd24da84d3ed2164e41c75db8f47a6e11a21ca2f"
+    },
+    "amazon_sdk/lib/requestcore/_tests/HTTP_GET.phpt": {
+      "md5": "d875cbf70f78abfd22527a6706f3d84e",
+      "sha256": "49766841983bf48fe1f1bacf270fb309cfb0c5549b5b3cd8ae5cd2992019c69e"
+    },
+    "amazon_sdk/lib/requestcore/_tests/HTTP_HEAD.phpt": {
+      "md5": "860ba5b795a36fd2ad6c6d21121ca5fd",
+      "sha256": "c2bf74b7132a358aa4f27ed196be0d1ba489c6705003c2e2ae1879ea47d45803"
+    },
+    "amazon_sdk/lib/requestcore/_tests/HTTP_POST.phpt": {
+      "md5": "2933dd7f87f240727869a994dc19aa47",
+      "sha256": "aa282f34fa27f9e7757ee5516651a69fe1cd5570f6c7f59f6d12c7d028410196"
+    },
+    "amazon_sdk/lib/requestcore/_tests/HTTP_PUT.phpt": {
+      "md5": "740b03b421b628cbac7454c9210edb62",
+      "sha256": "b1b461a1140981ec8e158d71b73f02cf8cdff5ee4806fe344c868f9181c68634"
+    },
+    "amazon_sdk/lib/requestcore/_tests/method_add_header.phpt": {
+      "md5": "dc3c62032cbe981cd62670e062689dc6",
+      "sha256": "e6c07b927c5254b020287c96658001be2fada3b1d9c0c3ac8d01bda7f1e9a202"
+    },
+    "amazon_sdk/lib/requestcore/_tests/method_get_response_body.phpt": {
+      "md5": "958c592aefc6ada8774536164b85f8d9",
+      "sha256": "a2df0d18d3b5ff27ed85a3d9b10827ece6d4d4e6dafee99c3022b75d2c8378f7"
+    },
+    "amazon_sdk/lib/requestcore/_tests/method_get_response_code.phpt": {
+      "md5": "9cec7d39296c534794c601868b115a70",
+      "sha256": "339430cb8db98b2c26c1e113af0e3ffdcea12d81344c1c8a16fe1f0cf0caec48"
+    },
+    "amazon_sdk/lib/requestcore/_tests/method_get_response_header_content_type.phpt": {
+      "md5": "245c40614439148973be15be998d657a",
+      "sha256": "46ef84e2210ff1f5b4fb38a9ae5abbff2568aea14285836fd32902dbc0153a94"
+    },
+    "amazon_sdk/lib/requestcore/_tests/method_get_response_header_info_url.phpt": {
+      "md5": "67d98ec407040035279fdd2da2510080",
+      "sha256": "bf87f82b1397a570e5e73a5a95e0659882a1c96ee96b880e5d4404b685187f31"
+    },
+    "amazon_sdk/lib/requestcore/_tests/method_process_response.phpt": {
+      "md5": "38fde1d3114cd260209fb86becb03152",
+      "sha256": "6a13e4470f8a3ca1fa391cfcdd0657c3b6c1b71b249dfe6c6661f357d9cf3e41"
+    },
+    "amazon_sdk/lib/requestcore/_tests/method_remove_header.phpt": {
+      "md5": "d53b2d31ee5cf540eccabda4b585d49c",
+      "sha256": "9b8a07c521f226226862bb760cbdfed40ebba75acc1650750620fff78b20bfaa"
+    },
+    "amazon_sdk/lib/requestcore/_tests/method_responsecore_isok.phpt": {
+      "md5": "37ab669ec6626bccdb89bdd207e35f9a",
+      "sha256": "4595159f8dc36ebded11794184c3bd73c71133878d472f3ea107ecd4a82460a1"
+    },
+    "amazon_sdk/lib/requestcore/_tests/method_responsecore_isok_false.phpt": {
+      "md5": "7cde0911e181500e454447e5eaca9953",
+      "sha256": "9ff0614781529dcab7856c5a8de4cbba0c74880e5d6625d2754399953e344bf3"
+    },
+    "amazon_sdk/lib/requestcore/_tests/method_send_multi_request.phpt": {
+      "md5": "50dad7b5d2322559c8440e9c529aa728",
+      "sha256": "b41f13eed18f3f27aef3844f0fc82049f7b55cf098478caaa878f2b8dcdf12dc"
+    },
+    "amazon_sdk/lib/requestcore/_tests/method_send_multi_request_failed.phpt": {
+      "md5": "9f4934317ff53c5f18c6cbd50b91bc85",
+      "sha256": "595742edc06fd636c28df4f0bd1dca91a8d6c5c8c42493b571fbc2271e147bf3"
+    },
+    "amazon_sdk/lib/requestcore/_tests/method_send_multi_request_failed2.txt": {
+      "md5": "11478a6d3b414130a51b0064020c6978",
+      "sha256": "9e05833073c82e93bd708e054448c9e9e46fbeedf501512f6eca3ce4e9d993fb"
+    },
+    "amazon_sdk/lib/requestcore/_tests/method_send_request.phpt": {
+      "md5": "b3714284837c2377de6c698c7ce56b36",
+      "sha256": "357491c5ee3e851d31cbc38f8c498d9c7ad034ea11800c08bbbc444354ad4f69"
+    },
+    "amazon_sdk/lib/requestcore/_tests/method_send_request2.phpt": {
+      "md5": "565cb4688814e8303f6fdc21a3b7aba8",
+      "sha256": "f592d446a6115fddb57d7698c38728dd2c74804d3090e7d2d3da8bf21badbb06"
+    },
+    "amazon_sdk/lib/requestcore/_tests/method_send_request2_failed.phpt": {
+      "md5": "ae6cb58f3714bbba6b1a3d9d68904dec",
+      "sha256": "7e2c53dcffb9b2dbb3346b43bbb2f26f91263cd9b010bd1f319570cff72ffa2f"
+    },
+    "amazon_sdk/lib/requestcore/_tests/method_send_request_array.txt": {
+      "md5": "5533963fc24c6eac56710230029a0f0f",
+      "sha256": "a947523952d7ec4c864ac9f8ef3a66c2f160a62ec94f8afe519a6eb38de057fb"
+    },
+    "amazon_sdk/lib/requestcore/_tests/method_send_request_failed.phpt": {
+      "md5": "6dc1ed6fdc754b4df18e862b2f597db3",
+      "sha256": "33b9ac90c38b76c5fa51d32e136a231653152cf661b27001f86f9fcb5c46010d"
+    },
+    "amazon_sdk/lib/requestcore/_tests/method_send_request_head.phpt": {
+      "md5": "916daa6af690a6662edb6d725fb6e303",
+      "sha256": "6f5cb43b5aff4775e6fc1c6706bad8e098b2bfccb4a647b28e674ed58283187e"
+    },
+    "amazon_sdk/lib/requestcore/_tests/method_send_request_isok.phpt": {
+      "md5": "966b2854543cfbf83ef1504b301f32d7",
+      "sha256": "75fcee762bbddabfdfa3d4413941ffa97fc689bd002d91d986b62edf2e07c554"
+    },
+    "amazon_sdk/lib/requestcore/_tests/method_send_request_isok_200.phpt": {
+      "md5": "817ed267c927fc96f0dfcadea23ca633",
+      "sha256": "694f0747cb037307cff9b9010fccc8adada37f74a542e4ab759c3275f15e06a9"
+    },
+    "amazon_sdk/lib/requestcore/_tests/method_send_request_put.phpt": {
+      "md5": "eb3406a28d363d81a99e0a8982efa2c2",
+      "sha256": "82fd6298d512047b3abc264ea3f444d6bd6e1ccbffe14dc376a690b149dc8deb"
+    },
+    "amazon_sdk/lib/requestcore/_tests/method_set_credentials_pass.phpt": {
+      "md5": "85a0424081beee98ff45da273ddd9529",
+      "sha256": "9dbe7f83e3079d3a4880340107c2ec832eafae340a10299b61fd0ce2b15916e6"
+    },
+    "amazon_sdk/lib/requestcore/_tests/method_set_credentials_user.phpt": {
+      "md5": "2329a4f866bb27fc68fb22aeacb65cd8",
+      "sha256": "2a22a56779d31ff26de73f27e6127fa39d31b46bec3f989bad550564431772c7"
+    },
+    "amazon_sdk/lib/requestcore/_tests/method_set_proxy.phpt": {
+      "md5": "b965d22b5ac0eca693943e09968281ac",
+      "sha256": "e8c19573354dc3387f65a28ac0cf8b2f8643bd31e80894f946fbe1c2afc9f905"
+    },
+    "amazon_sdk/lib/requestcore/_tests/method_set_request_class.phpt": {
+      "md5": "e6d1ea1826cdb4eb55d9ec280b9ad368",
+      "sha256": "81daa90e188665dfa3d620f871bc84ccdf73802ad913e05c0f4b905655e7b2a9"
+    },
+    "amazon_sdk/lib/requestcore/_tests/method_set_request_url.phpt": {
+      "md5": "9cfc8e271b5555e97824d273387300f4",
+      "sha256": "7fbc492130cdef9920907a2323c7ff0c6cd8ae9752b3bd36ca14378efb0b11e8"
+    },
+    "amazon_sdk/lib/requestcore/_tests/method_set_response_class.phpt": {
+      "md5": "add93c9d60d9a5e46dc8c18e1b88bccb",
+      "sha256": "34b62b03fa03e6b00660ea5fdc2daafe61ce4b2f26e20f2496cbd14dc5084633"
+    },
+    "amazon_sdk/lib/requestcore/_tests/method_set_useragent.phpt": {
+      "md5": "dd4ebb9c1c2d130441be2634ecc4b3c0",
+      "sha256": "ed21d33a514874fb2dda1778a6f4f1b16298452763860ac3310f12cc568518a3"
+    },
+    "amazon_sdk/lib/requestcore/_tests/prop_curl_handle.phpt": {
+      "md5": "bf10a17ca643705cbdc06a972e763f7f",
+      "sha256": "320515f72f29a8e43394360708f6925c82c8005199812289740fe35149661776"
+    },
+    "amazon_sdk/lib/requestcore/_tests/prop_method.phpt": {
+      "md5": "677692f98d646e7dbf4c6ea78926a7ef",
+      "sha256": "dd793a2ee3854fe3777b062f6e75c14ed1a59af6cbf0545f660cc5cddd4f720c"
+    },
+    "amazon_sdk/lib/requestcore/_tests/prop_method_post.phpt": {
+      "md5": "1a92baf57298b74f06622cb327bd2c21",
+      "sha256": "7405138c6e98d49b11f13bb383ff3ea276623e15c251430e4b44b84f05736982"
+    },
+    "amazon_sdk/lib/requestcore/_tests/prop_proxy.phpt": {
+      "md5": "02d92e555492eb3021dc924ba6d4c73d",
+      "sha256": "6ddc0a9445b37708ba2c067d3a0dc22bf57dd78ac8a9c009952f23a7d9badf7b"
+    },
+    "amazon_sdk/lib/requestcore/_tests/prop_request_body.phpt": {
+      "md5": "bc4b35f888afde2049de54d47f4318b3",
+      "sha256": "862613b0a01d0caa3b869b88447949eec8564bad9086c8238ed9ed62d061267b"
+    },
+    "amazon_sdk/lib/requestcore/_tests/prop_request_class.phpt": {
+      "md5": "228563065753a463cc7d42a27004f1b6",
+      "sha256": "5d55b52ddb8214767fc942a3c36d7f0c3e21de0b2713ce400b24ab6bbdfbb915"
+    },
+    "amazon_sdk/lib/requestcore/_tests/prop_request_headers.phpt": {
+      "md5": "484b00938f39119db1ecde2b09be862f",
+      "sha256": "ad4b353b8ddd6c1bc0519a2b124d28b16914634b02de51b1e3183a811b9fab97"
+    },
+    "amazon_sdk/lib/requestcore/_tests/prop_request_url.phpt": {
+      "md5": "38a603fee85463f94e3520a8f559a270",
+      "sha256": "c5cbb68f08c47acb8db7001942fb50c79df80fbab1ae3b70da23544fe96db029"
+    },
+    "amazon_sdk/lib/requestcore/_tests/prop_responsecore_body.phpt": {
+      "md5": "76a6407148cb7c4040055a1ffb2ea43d",
+      "sha256": "d554b324fe05ad1f9ee9a3275b51cc386334874c698ab866ee72c56dea8337c5"
+    },
+    "amazon_sdk/lib/requestcore/_tests/prop_responsecore_header_content_type.phpt": {
+      "md5": "f0efc04ef91e1841f9ff68cd0c418e0a",
+      "sha256": "ede9b2b2d930692136d82a653ec16550bf5973249990b1dd15d1a2681ee009a2"
+    },
+    "amazon_sdk/lib/requestcore/_tests/prop_responsecore_status.phpt": {
+      "md5": "093dd72748a66dc890a7bd349c327c64",
+      "sha256": "fe7b80041ffd8f21840c4363b930fc5f7f4d93fe3fcb7289edf78731c3681b8b"
+    },
+    "amazon_sdk/lib/requestcore/_tests/prop_response_body.phpt": {
+      "md5": "42724fdb4312d1bfb267f0a3b19da3e9",
+      "sha256": "7e0037f7f86c8931316a6defe633b116d24de050962e7074b82919c05ff8c840"
+    },
+    "amazon_sdk/lib/requestcore/_tests/prop_response_class.phpt": {
+      "md5": "801626d45a07705b7813028a920019fb",
+      "sha256": "80f95b729634e3e862c8f16342dc71c4e017ec775cd12dab196f4cafce3619c6"
+    },
+    "amazon_sdk/lib/requestcore/_tests/prop_response_code.phpt": {
+      "md5": "7de3e04784ded94b71a1385467c52345",
+      "sha256": "d27265af5b715a62bfc6b2a83a592de802f757395af4012f2961841ecb21aba8"
+    },
+    "amazon_sdk/lib/requestcore/_tests/prop_response_info_content_type.phpt": {
+      "md5": "2fcaccd81e0cf9286882f4fc6e6004ee",
+      "sha256": "89aa21895e00358f1e4f93664c72f73ad6f948d3707b846b15a6b45adaaff0ee"
+    },
+    "amazon_sdk/lib/requestcore/_tests/prop_response_info_url.phpt": {
+      "md5": "2f6c3120b8eb8f9cfb1ea0315314bbe6",
+      "sha256": "364a717eca16153616b536d92bb1c4723d40cc0f0773b7b785f1370b644e2d38"
+    },
+    "amazon_sdk/lib/requestcore/_tests/prop_useragent.phpt": {
+      "md5": "50dc54e670417fa89109c81c6fd5f978",
+      "sha256": "152921d8a5ca15a7d8555c4f13911f6f44fb75f04c8fa69ca6017e73d70ddc15"
+    },
+    "amazon_sdk/lib/requestcore/_tests/RequestCore-class_exists.phpt": {
+      "md5": "68a7b64f7b18a09b3c7cc59e7164d769",
+      "sha256": "14ccb0fbb240f4a4efcd41a8dba1aababe9e56d99aeb7cdb8b5d0e7798155c9d"
+    },
+    "amazon_sdk/lib/requestcore/_tests/RequestCore-object_type.phpt": {
+      "md5": "7e16f036e0e04ad65abd10f46b50b30d",
+      "sha256": "cad97b291cc04a530b94954869239bce1a77c2909d8ff25dfbde4b27ab5d9086"
+    },
+    "amazon_sdk/lib/requestcore/_tests/RequestCore_Exception-class_exists.phpt": {
+      "md5": "140e58053963b349ec9973c8af9dea8c",
+      "sha256": "63283c3d4aac02df4f529cad532c6d432b7f48f1b5a3bf9dbb2e28f1a64fdc19"
+    },
+    "amazon_sdk/lib/requestcore/_tests/RequestCore_Exception-get_parent_class.phpt": {
+      "md5": "3e836c2309bc6b7da439001c5e51040e",
+      "sha256": "7f2d464af46b6e816d16ae7a81547fad194639e2e2ea304d40891f9cd8043723"
+    },
+    "amazon_sdk/lib/requestcore/_tests/test_request.txt": {
+      "md5": "44daf28deeecb35cbe53e6af784082e9",
+      "sha256": "7b1393a7cc8035b02fe17df2634b3e743263d4de759887e5b26ff20b4fa624c7"
+    },
+    "amazon_sdk/lib/requestcore/_tests/test_request2.txt": {
+      "md5": "5dc1551ce833aad0dc94a8706aa23a39",
+      "sha256": "22fd85f2f40378b2ade8f0b6e954f7502ca4c0e1a307648301742ed2ba581d23"
+    },
+    "amazon_sdk/lib/requestcore/_tests/_coverage_report/butter.png": {
+      "md5": "521e849d37d1f1e3b769ccc7138c69c1",
+      "sha256": "38e4455c3cbb9a06d5ad7c792560c18a8ec2153675ee09eeefda9414edc7fad1"
+    },
+    "amazon_sdk/lib/requestcore/_tests/_coverage_report/chameleon.png": {
+      "md5": "24abc354105ffce45a55cf5a0949527b",
+      "sha256": "71be133436fbfe8dbe47c01e9f6d3d37361897ad5709427a23a7301040f1d2ce"
+    },
+    "amazon_sdk/lib/requestcore/_tests/_coverage_report/close12_1.gif": {
+      "md5": "770d9c592b4300457ae025448c4c6816",
+      "sha256": "29dc2ab6d98a02ae3f8828123267573cf6502526125cc785f4301d401ebaa87a"
+    },
+    "amazon_sdk/lib/requestcore/_tests/_coverage_report/container-min.js": {
+      "md5": "cac1924c31ce2ac5ec14a0a95583696f",
+      "sha256": "d219fe943e6b31c19cb47e2e9abd631b22d4f4d39505837b854bb67c946d58df"
+    },
+    "amazon_sdk/lib/requestcore/_tests/_coverage_report/container.css": {
+      "md5": "30d926224d525d460a79e393b2eac872",
+      "sha256": "32e13d8ea10fc90d8005a73b2e2af91fbc51d4f67aeff37b45862db866f4c8ac"
+    },
+    "amazon_sdk/lib/requestcore/_tests/_coverage_report/glass.png": {
+      "md5": "d0bcded9081d6a0efda48c495867da73",
+      "sha256": "936a969e16ba5de4db2c9bcacd197b22a276e3d636335ba7f347da4009fc9cc5"
+    },
+    "amazon_sdk/lib/requestcore/_tests/_coverage_report/index.html": {
+      "md5": "bb29e2d8035fdc4b02fca5cdb4269138",
+      "sha256": "e9b5143c97e48f8de6aadebeebd53964e52671a2172bb27aaa22bf09f149899e"
+    },
+    "amazon_sdk/lib/requestcore/_tests/_coverage_report/requestcore.class.php.html": {
+      "md5": "dbc51b98e9856f8badcd7d5509d4c8ca",
+      "sha256": "db544503f11fcf177949599d5c2b09a66c40fbc47ef571abe8fb5ffffb88135b"
+    },
+    "amazon_sdk/lib/requestcore/_tests/_coverage_report/scarlet_red.png": {
+      "md5": "e7e94dd89a3b37b6d8bae1cfc1c00be5",
+      "sha256": "a7f15e4742d35f1b85a669d7a45b5a302f13c731b88677cdd5375a157f248e5e"
+    },
+    "amazon_sdk/lib/requestcore/_tests/_coverage_report/snow.png": {
+      "md5": "3d0fcd32ed86be159672d1fe52f8d3cc",
+      "sha256": "53c50fc490fcf2ad290819b05f8033b1cbdad698e230bdcbac63564942c34723"
+    },
+    "amazon_sdk/lib/requestcore/_tests/_coverage_report/style.css": {
+      "md5": "5170c6342b0296fc8c744f74ffde7bf2",
+      "sha256": "ba8242641037fab0631ecb34a14a7d1fe81244d4ad679c63dfb0546b2104918f"
+    },
+    "amazon_sdk/lib/requestcore/_tests/_coverage_report/yahoo-dom-event.js": {
+      "md5": "3ae37167c141a29c1c11f254de0d7abf",
+      "sha256": "6366210ee3e98e8dbeb12ddb208aa5bf84a0e550b1ee7bc108154bed17d5fd86"
+    },
+    "amazon_sdk/services/s3.class.php": {
+      "md5": "f0297187aa8a0323682ad3ee4c00b02f",
+      "sha256": "84532d719e540b404222174924e0ee4145cc9ba2eb3f0895e0dabcfd74774fb3"
+    },
+    "amazon_sdk/utilities/array.class.php": {
+      "md5": "9841d72dc8e8ec5c8442beb4f8a8ba58",
+      "sha256": "55105117a64ccebf8d0733bb6691c1edff6e748db3dee8164e944152496eae40"
+    },
+    "amazon_sdk/utilities/batchrequest.class.php": {
+      "md5": "76500fa538d8d34e8f93f00576426916",
+      "sha256": "30ebe7127c7f9791a9c34de4ba0b3d9996b179c73d1a8ec858e57c005b030caa"
+    },
+    "amazon_sdk/utilities/complextype.class.php": {
+      "md5": "57442bdc6b0dc293ebad9d4957a232d3",
+      "sha256": "97daa453ad467b131d263953810c4cb63d398dca4225e924e9e3f3462b67cbdb"
+    },
+    "amazon_sdk/utilities/credential.class.php": {
+      "md5": "8079be3eaf46c53385a53c47035de0f5",
+      "sha256": "d785a49045deaa402e73c84ae3e3ffd086d83af79ab1b7ae2d5b4cca528c0c9f"
+    },
+    "amazon_sdk/utilities/credentials.class.php": {
+      "md5": "d10c40262876f79125a8c79ef78d1586",
+      "sha256": "2cb99564e9e56930c9cbdf1e021d972681e18df75b1f3028ca925153b7000437"
+    },
+    "amazon_sdk/utilities/gzipdecode.class.php": {
+      "md5": "72f04c67d939781212ba4a50b716b312",
+      "sha256": "5259b4b09f3ca92769068b62d7b9f980422860bc791e295f16c542d3bc69e11c"
+    },
+    "amazon_sdk/utilities/hadoopbase.class.php": {
+      "md5": "43161841adef1cefc998ae9e3adce095",
+      "sha256": "86293e104ade9cfcc92d8765e3c477f3fa0c34ef63aa83069038f0ca981fb816"
+    },
+    "amazon_sdk/utilities/hadoopbootstrap.class.php": {
+      "md5": "5fa848ecf85aba1732b19eaaa6eccfef",
+      "sha256": "74a83dfdf360f4c5e9f52735e0526342f9d54592c37436403aeeaec535aa2286"
+    },
+    "amazon_sdk/utilities/hadoopstep.class.php": {
+      "md5": "bcc439575d220bbff505aaf0f39d6a50",
+      "sha256": "eb09e11ccaeb22b794885b34a7ad01bf86e7dc0943af7474723a37f727506bd4"
+    },
+    "amazon_sdk/utilities/info.class.php": {
+      "md5": "5cb2ea67be42002a92a5c3df50a9074d",
+      "sha256": "5aa7ed25397923c033c8f8b18357ff49e5f489ee8b6d340cca1301a943eb7b3a"
+    },
+    "amazon_sdk/utilities/json.class.php": {
+      "md5": "5e7a5f04b72501490214197273735c40",
+      "sha256": "d684848e9786b7f0787763283c00743fecaf3e8a8446949f1f8b594767bcd8f9"
+    },
+    "amazon_sdk/utilities/manifest.class.php": {
+      "md5": "4e0ccf098687db506c730940bef460c0",
+      "sha256": "34988613c334c65511f495b183f0aa84a0dc010ae297e0a5004ff7986add02b6"
+    },
+    "amazon_sdk/utilities/mimetypes.class.php": {
+      "md5": "9a3e2f6c4f071ee835f695d5e698ba83",
+      "sha256": "9c1eb135dc812d581d02400854c6aef7e95d476d4c15ff415e0b49b8c340d28d"
+    },
+    "amazon_sdk/utilities/policy.class.php": {
+      "md5": "3636c183bfccbcd4cf6b23144cc49038",
+      "sha256": "5afb53b12ed61aef7bfcfc644d0d8622ec6b9843c3bca54df343cabdffa77e2f"
+    },
+    "amazon_sdk/utilities/request.class.php": {
+      "md5": "f226fd38a6219b584ffe1810071d6b57",
+      "sha256": "303876baab80d3521ab37831b8a57b9b5fcb6be05cc8ce895d86dee7df8bbd95"
+    },
+    "amazon_sdk/utilities/response.class.php": {
+      "md5": "7109d19f6a6de6056fc5db44d42d500b",
+      "sha256": "eb6b39c2056e419f8db6c79f6542d15b5d69c3b691b9f9ea80f51b05d0a6e2fc"
+    },
+    "amazon_sdk/utilities/simplexml.class.php": {
+      "md5": "73a743c3091d0c7233717ae6661a6178",
+      "sha256": "8385be3f76f467084ff16a8972dcf15b6eb1452a5504e28682f1c551eef659b6"
+    },
+    "amazon_sdk/utilities/stacktemplate.class.php": {
+      "md5": "496fac08955ffca1cd2fbba54a646b8b",
+      "sha256": "d2515169836ea12b515a738fe1a6da4264bca028ed9bbc44ce7e8c81cbb49509"
+    },
+    "amazon_sdk/utilities/stepconfig.class.php": {
+      "md5": "0c485483eb7b64c9441f6998f6045a4f",
+      "sha256": "ee9c34802530c385da00ac285fbb7d2b2b8f351e275bbcb0929f17c20218ad92"
+    },
+    "amazon_sdk/utilities/utilities.class.php": {
+      "md5": "18d7794013975183e3a95f3d772e4f02",
+      "sha256": "2e484687d6e47ee9f0bbcfd249b4e19129f9df479fc888aec0df4409cbd1fa3a"
+    },
+    "assets/img/refresh.png": {
+      "md5": "bafc24790249e20c2454c1d85af32716",
+      "sha256": "9018800d08f1a6e8208655adf2c89d4b8a46e161dc3b6c145b3f217d237dc261"
+    },
+    "templates/settings.php": {
+      "md5": "e9a75aa84f9e7ee0dca99176ba94a0b3",
+      "sha256": "a72f7c6c55b7152230d778d9cc7f9708086b36c5893e4107f1bcf9905f103879"
+    },
+    "woo-includes/class-wc-dependencies.php": {
+      "md5": "67d2641024525316b40a3b0eb81845f8",
+      "sha256": "e93946955658c5e0c36e92a739f67030d62e1f7ba7e83d1d59180c86641798da"
+    },
+    "woo-includes/woo-functions.php": {
+      "md5": "f67046c60deb5859d5168cddd022b13f",
+      "sha256": "bdb6fdb861e5972b52eb3c0a549a6a08326a838f51383b026c2b6d8bbca98692"
+    }
+  }
+}

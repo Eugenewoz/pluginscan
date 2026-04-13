@@ -1,0 +1,854 @@
+{
+  "plugin": "woo-discount-rules-pro",
+  "version": "2.6.7",
+  "files": {
+    "readme.txt": {
+      "md5": "86acb895edad2fc4541de699c24a673e",
+      "sha256": "258e9d7856250e8abc9f7dc86f3424ec5357d5176eae68de856b176ce5eaf3b2"
+    },
+    "woo-discount-rules-pro.php": {
+      "md5": "cdbb0c30555e5424d4d2f43c3d5f6e61",
+      "sha256": "e981de2a5d288b5f3f9727c6b32b68c1c254c453bba5d8767c2b1f62dca89a78"
+    },
+    "App/Conditions/BillingCity.php": {
+      "md5": "d10ad564756d8ae1fd6a6532e2a13919",
+      "sha256": "dd35bab1c3de972f45369c9e7af1b9d0daedf57afafd0443b17f1f0688cebf35"
+    },
+    "App/Conditions/CartCoupon.php": {
+      "md5": "62797159484c147dd00d3123f12dcf88",
+      "sha256": "74589b1e74db34f0990d00880601e3607141910b2eccd38b8430c2714d3b503f"
+    },
+    "App/Conditions/CartItemcategoryCombination.php": {
+      "md5": "06dcbe0a531cdd9f70b0748fc0a404f1",
+      "sha256": "e262a9959c23f7fc2f5093d763c3f811787e329258d87143b5be616114792375"
+    },
+    "App/Conditions/CartItemProductAttributes.php": {
+      "md5": "9226265b94a3dd845d8e6b0060215ce5",
+      "sha256": "fce622cf575bd3b4544551fa6fa768bf1353fe29cb9fd7829ead9b81da3ba980"
+    },
+    "App/Conditions/CartItemProductCategory.php": {
+      "md5": "3a5f4a8b74b339662206c9271c9078f3",
+      "sha256": "3a999c3f74666d524b21882a67deaad635fd9778f07637f9ec75e7876e66f45b"
+    },
+    "App/Conditions/CartItemProductCombination.php": {
+      "md5": "f8c553d27a2326b5fa22e2922ea602ef",
+      "sha256": "ad00d7269690f825c5361a4c5f8acea429964b283a45a373c3719e5d7cd51547"
+    },
+    "App/Conditions/CartItemProductOnsale.php": {
+      "md5": "6341c4381ccbe3da6f4e50f67505b1c2",
+      "sha256": "9198529b947aaadcf109c7c4e292f105add131266934dc947bdb065c57ec2c58"
+    },
+    "App/Conditions/CartItemProducts.php": {
+      "md5": "b8cb493cf58c60790adddcf8832cbf2b",
+      "sha256": "74195e24d24c6e3234fc4a4baf03faaab3fc38c65e4a17598ac59c3053516815"
+    },
+    "App/Conditions/CartItemProductSku.php": {
+      "md5": "26d15e258eded97bab97a55a0b55cd02",
+      "sha256": "d9613ce056f43151c795d4709701643339d4223d2591403d08e9c4288bb9f14b"
+    },
+    "App/Conditions/CartItemProductsTaxonomy.php": {
+      "md5": "fdac440155fd56dbb3795fcaef9d1a88",
+      "sha256": "531043c15a9905a002ce40e8e4410811b3d796e91c5994d6d94ff0f02810d8d2"
+    },
+    "App/Conditions/CartItemProductTags.php": {
+      "md5": "00611940a5d09aa9317ec16bd6427921",
+      "sha256": "1df8464dc5e9f482d12df2fc2880d145af648b1d55c65f0ae9ba7f6483718c78"
+    },
+    "App/Conditions/CartItemsQuantity.php": {
+      "md5": "1eaaca8010cf5bedd60289022a41e7d2",
+      "sha256": "9ee2a27a596926d9c3be37462950a58d7d942b6044e0e6f17d72109a85375cd1"
+    },
+    "App/Conditions/CartItemsWeight.php": {
+      "md5": "ed7aff7794666a4836f6645a53183ca5",
+      "sha256": "b0787c6fe1cc9f644940e8e30a73fa8f8a340c3ddb498f389331db78eaebc531"
+    },
+    "App/Conditions/CartPaymentMethod.php": {
+      "md5": "907c494fe8825b885567b4fa6f60dc44",
+      "sha256": "dfd7e92b77af4439b028f92185986d94e2e13dee7322705bfe0ca366f9ac3847"
+    },
+    "App/Conditions/OrderDate.php": {
+      "md5": "179d533210f5c101e9c02161efaf8764",
+      "sha256": "30aaa6e1e5e65f1b0e55ad13936ceebd772137f0a8a71b2eb12b490d1016c31f"
+    },
+    "App/Conditions/OrderDateAndTime.php": {
+      "md5": "3f695ee209a6ac66f4a6081d437d489d",
+      "sha256": "01f669c281d8f98eaf353bbf36e8b36096d197f942aa8d6c02646b870f87dab5"
+    },
+    "App/Conditions/OrderDays.php": {
+      "md5": "19da0f813859082154165bb0e4e18fa0",
+      "sha256": "33d970337aaf3881ab854324ecc8b458c611aaf7a5365a49b1312f1485bc4ce7"
+    },
+    "App/Conditions/OrderTime.php": {
+      "md5": "9d8157f79664f9d55e671b27cca6b4bd",
+      "sha256": "faeffc45704d6f53b76ecb5f4328871b15845fda53765bd93d8a502bfbd9f6e8"
+    },
+    "App/Conditions/PurchaseFirstOrder.php": {
+      "md5": "6a2c70ee1aef2bf71d6fbf45b5768e56",
+      "sha256": "4c323c4da4df1ace2bf72fbd9a4ada1e281e653d748423a82dcd226ae1ebba28"
+    },
+    "App/Conditions/PurchaseLastOrder.php": {
+      "md5": "e3a6f31bd1184ae1dfd89f00e20c7294",
+      "sha256": "b9971b8f32668445d9dd13b2bfb218f029830a9e56e02e2184fbf4e2602cc76e"
+    },
+    "App/Conditions/PurchaseLastOrderAmount.php": {
+      "md5": "3ff93b7723a52092ca8cbb4372d9993d",
+      "sha256": "2043e6261a07e8759ef27aceb2956e7abf9c1654ef302db8ea8e28153ad6fe5b"
+    },
+    "App/Conditions/PurchasePreviousOrders.php": {
+      "md5": "094c4bdfcc6159b8f2d08d28b49b9643",
+      "sha256": "8c13e4d20ef3c3828c7e5941d07af21d1024177dee0d0e0907f0b119a9a1899d"
+    },
+    "App/Conditions/PurchasePreviousOrdersForSpecificProduct.php": {
+      "md5": "9413eb83c912ac41a5efb4cbc4848ec7",
+      "sha256": "6cf05da265d53d600cbf2cde3f98afeff6e52b4ae114b7977b01f27893cfbbd6"
+    },
+    "App/Conditions/PurchaseQuantitiesForSpecificProduct.php": {
+      "md5": "08e1d807274ad5430340c2c1e6cdfbe0",
+      "sha256": "7da28b59dd9323351e036f7eb81fbbe0ac1d77b4552290bd82396aa821a09ecc"
+    },
+    "App/Conditions/PurchaseSpent.php": {
+      "md5": "11c381570ddf334ceef9390868635bd2",
+      "sha256": "0080aa72af57dcc61fc762d05e7e1977ce4f516da051e6ff86bc28caa34f651d"
+    },
+    "App/Conditions/ShippingCity.php": {
+      "md5": "db1627ed09fb598b8f5f6d6ef1e79862",
+      "sha256": "47e7fb250c45afdc9da18cb6d0a00aba4a7239ebb3336259c16579651edb4837"
+    },
+    "App/Conditions/ShippingCountry.php": {
+      "md5": "c8cc5dba67ee808a363ee2fef8b71d58",
+      "sha256": "e1493048530f6f71ed038a8de95a32bcf57867f98f0304a04e3b61c73e13e056"
+    },
+    "App/Conditions/ShippingState.php": {
+      "md5": "36d40bee06c43e46ffb48176bafe24d6",
+      "sha256": "61646d8cf00a902a161e7d2447fad73d3442f32070abb6bd8f2d5c7664094181"
+    },
+    "App/Conditions/ShippingZipCode.php": {
+      "md5": "1314d307a85d4e5d9d42b71ae3d174cf",
+      "sha256": "8d96f588c636c5394d637f68d7136346ec210f3ddf2b6029d0083245aa6d36d3"
+    },
+    "App/Conditions/UserEmail.php": {
+      "md5": "3a5cc883434a9ebda65452370f9d6866",
+      "sha256": "bf6a32d6897f2de75457d029bade45bdcc2a16ff2d7620131add479056b7a602"
+    },
+    "App/Conditions/UserList.php": {
+      "md5": "44f7952d6cc3178c7139a8aa5abb9910",
+      "sha256": "8e8eb3d7b0471b85588c17c4c4efcc1b1c6e5eaff8bf659897cefa073c5f7a71"
+    },
+    "App/Conditions/UserLoggedIn.php": {
+      "md5": "b935a52677012b5af51243297443577b",
+      "sha256": "fac6b6690fbc6ed8ab9e3fad468210c028b8b4fb5633a2e8f46bdc3a45d13393"
+    },
+    "App/Conditions/UserRole.php": {
+      "md5": "05a12173ec8f05ca2ed926f8c44ac0fe",
+      "sha256": "dcc7755050380db6ca05dffc7aa417e6ef14fbb2eeb4eb845dbcfcc65f92033d"
+    },
+    "App/Controllers/FrontEndGeneralHooks.php": {
+      "md5": "1bc5212ad3f8141b9ac2356d69460897",
+      "sha256": "e3239abf6b86681e63e40bea2cc407321e3cd0a6c29fea8580dc5d7d684132a7"
+    },
+    "App/Controllers/Admin/BuyXGetX.php": {
+      "md5": "4315e5773ea4247fe3368b5b74da7d90",
+      "sha256": "77a4abe419f2d69eaf8f5c5cdb43677381ce9e80269b37b5ccd7a0086fd52a23"
+    },
+    "App/Controllers/Admin/BuyXGetY.php": {
+      "md5": "a763cb9412948e460c9970c36ae77662",
+      "sha256": "c8315bf8bd7c3c22ff0903aea379b4a8c74974c989f858a13067c509b1c2027d"
+    },
+    "App/Controllers/Admin/Conditions.php": {
+      "md5": "fae2d3cd888e28f3a63933c2464b0303",
+      "sha256": "8129f22432d50fb8c97f41ae4059948e6f2baccef5193627fab707cfb1a32a09"
+    },
+    "App/Controllers/Admin/Filters.php": {
+      "md5": "88f5d02522abe65780c3818ca2badf63",
+      "sha256": "40b889ca72d2e29209065007bc42647a844ea0c08de425ca0467d2a8604dfce7"
+    },
+    "App/Controllers/Admin/FreeShipping.php": {
+      "md5": "a376bfb5ce0c6317c56b4e5b27b4ea5e",
+      "sha256": "27601f31bcd82d4c247395589f0b0a47af259bbace91dd1719bcfa73f9c71674"
+    },
+    "App/Controllers/Admin/GeneralHooks.php": {
+      "md5": "9324555d83ca2dc9f4ec490375177d9d",
+      "sha256": "4381ca5a295202087621f3442d83f4012568a660c9de0ce0f6e2b235b90cd5d4"
+    },
+    "App/Controllers/Admin/Set.php": {
+      "md5": "e91e8ef1c41ae92f9b7338b29d8ca5c9",
+      "sha256": "73edaeab74b94bbadca1d81c668ee46c24d92c6da3b8204b47bf27181e3a1500"
+    },
+    "App/Controllers/Admin/Settings.php": {
+      "md5": "0f101fc6b901f5bb201046c3743077f8",
+      "sha256": "ae1a018c19fef9550dabf47ee2b20ab96c5615e8d4f1f504a6c1ca81f709e85a"
+    },
+    "App/Controllers/Admin/UpdateHandler.php": {
+      "md5": "9dde2a8fd83867d5574be10eeeff39de",
+      "sha256": "b1edbf4f9610f4d397d27696d584939601e49baf089641194ec3a3d06899c863"
+    },
+    "App/Helpers/CoreMethodCheck.php": {
+      "md5": "4074a3e1efe6f0acd195454cb921ed30",
+      "sha256": "f581fa337a4aafaf12c4a54dec345180fe8fa55db3f8949aea46c002c3223ca3"
+    },
+    "App/Helpers/FreeShippingMethod.php": {
+      "md5": "b1733f80b0df508ff090e5c82c18ec53",
+      "sha256": "623ff2f6a9e7e25f56ea12462761db38acc5ee1b2883b06421e24479a6ca5c96"
+    },
+    "App/Models/Rules.php": {
+      "md5": "f2c9ab9867d102862c12bd56d1b5db19",
+      "sha256": "fe715dd0e8c3bd2a30c1f07b487ca50f005a5ff160fecb381b53535cd2d8dbc3"
+    },
+    "App/Rules/BOGO.php": {
+      "md5": "5b40d97819ad9a0363b43696965241cc",
+      "sha256": "f5941281176a3f1e59b39c6d7c0c9b3df144f3d6f2eaf831f2d921580b689440"
+    },
+    "App/Rules/BuyXGetX.php": {
+      "md5": "9fbc4d4e85831b64ed3ddd0c1a5360f9",
+      "sha256": "977b5f0a0e6a75b1a6aa60e2560fb3b3032531e73297f0f78609cc95bc237180"
+    },
+    "App/Rules/BuyXGetY.php": {
+      "md5": "572f5d828586a803b5ab909e357d5de3",
+      "sha256": "2cd7e2441fc6af5cfef8cc4b6707a98d429d7f5c3846e0fe14032847965c76fa"
+    },
+    "App/Rules/BuyXGetYCheapestFromCategories.php": {
+      "md5": "2566a6ceeb6414e2fcf0a298994ea4fa",
+      "sha256": "0084db80c0139f1bef19e5e2b214b5ac9b4efdad1eac6e28ec0e25d2600028be"
+    },
+    "App/Rules/BuyXGetYCheapestFromProducts.php": {
+      "md5": "b1f56529128eafe2e0ff197529e0949d",
+      "sha256": "b4e073fb622b83d1710065211a022614a15e36faf4f73301cdecb1e5031239e0"
+    },
+    "App/Rules/BuyXGetYCheapestInCart.php": {
+      "md5": "a89bcb5827c92ff3e2a389c72026a412",
+      "sha256": "70bf8edb7c3e5023a86fac18f7b21fbf8bada3cca7ec55a622fbf452d46c66e9"
+    },
+    "App/Rules/BXGYAutoAdd.php": {
+      "md5": "3ada0bfb5a977b599d31e00ca14ab98e",
+      "sha256": "c5c4ed8e714d1e9871dc1950c5cbe88a7f4d47354f78857273066a5722b5e67e"
+    },
+    "App/Rules/Cheapest.php": {
+      "md5": "53ab012456a6ba211a37f26c241945ef",
+      "sha256": "2f68a585d406915e5bbcd2bc53544647c578a6a5dbaebebd45953eef26e6014f"
+    },
+    "App/Rules/CheapestCommon.php": {
+      "md5": "b8e5054fccb268285faa0c1a3e2971b6",
+      "sha256": "30be258271f55147e6300c8c67e92fdea5fce826925c2df53b117cf348caec13"
+    },
+    "App/Rules/FreeShipping.php": {
+      "md5": "2fcf5c6a8e10eeeee6c1e3e419b0fddd",
+      "sha256": "288c06c752906e42ceb99a9bf79f2ef0fb3f24f89029d1f57fb05779c2e98a84"
+    },
+    "App/Rules/Set.php": {
+      "md5": "49e9882711868d3f9a194d76a03e4d3f",
+      "sha256": "1b73a58a3da39ee7e4368f51d9fb5926c0171eecd873f28180a081012491d79f"
+    },
+    "App/Views/Admin/Conditions/Billing/city.php": {
+      "md5": "dcd1a534d51631ddd9a7e9d8e0800c26",
+      "sha256": "f51bc1d75c186fdf826630d20a7316fdac6fd726cc03ebb16952b691f0e2102e"
+    },
+    "App/Views/Admin/Conditions/Cart/cart-quantity.php": {
+      "md5": "b1a47e7ecbc3e76457cd7e6ac3a2870f",
+      "sha256": "8d66a94cf84a9f5d4a6968096fa7df6140efa4ec7d69d79621e456adff9224f6"
+    },
+    "App/Views/Admin/Conditions/Cart/coupon.php": {
+      "md5": "03ca8074d60eac5c0ee71ef8987c8b5b",
+      "sha256": "f79799e49daf3fe64401c7f9fc8bbd8aff95edcb09bdd9928150587d2432cfbe"
+    },
+    "App/Views/Admin/Conditions/Cart/payment-method.php": {
+      "md5": "3839cf11ff0271db7c53bd1a3a793cb6",
+      "sha256": "e3bdb4517e4acf6457ff38a1681f3de1fd8025ef6831917ca9cf331d5fe6617d"
+    },
+    "App/Views/Admin/Conditions/Cart/weight.php": {
+      "md5": "5d2eece741f04c49b46b917aac6d3210",
+      "sha256": "0faae8bfc40299b18d246545fe7aab78ab74e0f1f01d7a7b6aa3fcb8f13a9908"
+    },
+    "App/Views/Admin/Conditions/Customer/is-logged-in.php": {
+      "md5": "28613ecb6e05f881aea54a78d970f3bb",
+      "sha256": "e43f9a7492635b120234b8be470fc90b7ea66ee47dbc3d3b84793b6ac49adb47"
+    },
+    "App/Views/Admin/Conditions/Customer/user-email.php": {
+      "md5": "232a60bc7567bc6a0193d11a0046e055",
+      "sha256": "468f311a885fa30ab61b85135ec294fa2760ae3cc8ac24fe7aaa5e8eaa32e4fb"
+    },
+    "App/Views/Admin/Conditions/Customer/user-role.php": {
+      "md5": "d866cd7ccd4475508401ccfdd1fef325",
+      "sha256": "f484c9d8c7285414d6f3823a8cda8ce69def2e65c75efb075e8211f84438798e"
+    },
+    "App/Views/Admin/Conditions/Customer/user.php": {
+      "md5": "baf4528226c1bfcefb0d61147097cc84",
+      "sha256": "0b7b4a6c1e007d168737b3672094930961d035617a54bb6f7ab1197096d6c049"
+    },
+    "App/Views/Admin/Conditions/DateTime/date-and-time.php": {
+      "md5": "613c2b450112654b25eeb123d58c8dcc",
+      "sha256": "05a65fcfe8535c6be25e5f3b2569eb9ada9e9e9b552a546497d044cd6cfa738f"
+    },
+    "App/Views/Admin/Conditions/DateTime/date.php": {
+      "md5": "516b04237b75675124d97f74a405114b",
+      "sha256": "ffe494c1e1a445585e2503148ea37778e54cb8e3c9fbcf1bdf700e7cb1d76d8f"
+    },
+    "App/Views/Admin/Conditions/DateTime/days.php": {
+      "md5": "0951a21a2f7dd45b9d0e333e46b8a534",
+      "sha256": "f0a094b1bb2a9e55731a394c108e8ae3a78e3f36755eb981294778b0e2bf96c1"
+    },
+    "App/Views/Admin/Conditions/DateTime/time.php": {
+      "md5": "9246065988f75efa100a8cf08225a06c",
+      "sha256": "9f4ffe77a8d601f8965659ea20f335ac6bec7587e9f0a889c7876f6d3c28acae"
+    },
+    "App/Views/Admin/Conditions/Products/category-combination.php": {
+      "md5": "956a88ece811fa4cc310d651343e0310",
+      "sha256": "b644c1400308fb080b7f48ecb647a7a2d2a752964a728a871ee5ea70ab7616f9"
+    },
+    "App/Views/Admin/Conditions/Products/product-attributes.php": {
+      "md5": "572ed0fae13680a498c07b717c998d3c",
+      "sha256": "eea1ef57b8fbb7f091b05406cf05ec1b109e55f7a4be739638e9e58d7bcb0afa"
+    },
+    "App/Views/Admin/Conditions/Products/product-categories.php": {
+      "md5": "c8a17c8f9240c2822c2bdc012140429f",
+      "sha256": "96ebd2842eda0d7a7098390c2a543966556702141c670b9c297ea1e9108066cc"
+    },
+    "App/Views/Admin/Conditions/Products/product-combination.php": {
+      "md5": "491bdc6eda3a8ff14c82ebffada1376d",
+      "sha256": "6a963296746c90fb2e2ebc47cc82e1fc58c190450f988867f3695f487a80e31f"
+    },
+    "App/Views/Admin/Conditions/Products/product-onsale.php": {
+      "md5": "15caeded8e79b9cd65a11a5b6b56848e",
+      "sha256": "5ca2be2c443be4d97150917297b06fdc89b8ab72ff46fd13e2a7c5e48f7e605a"
+    },
+    "App/Views/Admin/Conditions/Products/product-sku.php": {
+      "md5": "2a6c5e465144931e65a0a4026c4d7023",
+      "sha256": "113666aec07535e0dd0b038d09cc871fe0d730048d6f1a472bbf778a05c68d81"
+    },
+    "App/Views/Admin/Conditions/Products/product-tags.php": {
+      "md5": "5d5ca65ca598923becd252fcb02cc31d",
+      "sha256": "38753bc2fb815507dab7ba20c15b763e61cb3fe3d5d9e1ae0bfa16601a3d9ae4"
+    },
+    "App/Views/Admin/Conditions/Products/product-taxonomy.php": {
+      "md5": "4cb92579fff30e0adb2566da02668c6b",
+      "sha256": "45cd7d1758b0e928d4075638cb763cf50bfbdcb207352573e50cec438c4bb872"
+    },
+    "App/Views/Admin/Conditions/Products/products.php": {
+      "md5": "bac55dc133a25fbfbc902773aea23b32",
+      "sha256": "4fd8fe08e6f2ee585e940f1ebf4294d3a330006f7910ef57b2029d4ad2474951"
+    },
+    "App/Views/Admin/Conditions/PurchaseHistory/first-order.php": {
+      "md5": "4b893f81465ef3c6234a8e1c6c9222f9",
+      "sha256": "f07f9a2628888754bec7f14113624011507c8c3267b4e7a6d658322c81d9bb81"
+    },
+    "App/Views/Admin/Conditions/PurchaseHistory/last-order-amount.php": {
+      "md5": "e9e185f8abc22c152265039d5f50fa68",
+      "sha256": "0025a6c4b0e63bfb1e51ca966ef3d2548cafc12632e6940aa5ab81d52288f4a7"
+    },
+    "App/Views/Admin/Conditions/PurchaseHistory/last-order.php": {
+      "md5": "dbb1ccc7adbc8cb89b412c9c2ec820e7",
+      "sha256": "6f83637bee079cd9992903514a97f2d422526f21a02f550cc3f7604b64ba32b8"
+    },
+    "App/Views/Admin/Conditions/PurchaseHistory/previous-order-against-product.php": {
+      "md5": "698d3679efe24a5d6cf42a36b1dd98d7",
+      "sha256": "eaa98b2ca807f644d2ddedf5ed7ef1b1d6b8b2e1d118d0ccda40f42f647551b1"
+    },
+    "App/Views/Admin/Conditions/PurchaseHistory/previous-order-quantities-against-product.php": {
+      "md5": "bb5511ce9b6d75e9c43946bccad682c8",
+      "sha256": "ac32fabdace984b8ae3adb6c210f7d2fb07c6857eacb2d3e4074dde43030e6c1"
+    },
+    "App/Views/Admin/Conditions/PurchaseHistory/previous-order.php": {
+      "md5": "4f36d7a2cd97ee49087be6bcc5b7f504",
+      "sha256": "a26e594bef3d37315d5c1d3e65645df4b15218fa4ab1bcb6f9cec52dc39a465e"
+    },
+    "App/Views/Admin/Conditions/PurchaseHistory/spent.php": {
+      "md5": "1254df2791c27b8451d5a8ae7690d1f2",
+      "sha256": "4bc28e5b32e3a4fe786ef1ff899fc44c9a7ac8a8bca0845deaa8269610a58c03"
+    },
+    "App/Views/Admin/Conditions/Shipping/city.php": {
+      "md5": "76771ab47893f8c71323a0fd7f69e193",
+      "sha256": "fc449b4f1e1b22732abee966d07fde4bb62bc20caf476562b0b38b0dbdc11c30"
+    },
+    "App/Views/Admin/Conditions/Shipping/country.php": {
+      "md5": "46878dbd3f34f0e1b3ac6c412bfa60fe",
+      "sha256": "ea31b1d63eca385abe68a29991ef24c398ad8426b081b3fdc7de25c12d7d9da7"
+    },
+    "App/Views/Admin/Conditions/Shipping/state.php": {
+      "md5": "a69c630a637026cee5043b2cfd23d033",
+      "sha256": "543a0f75d12c683e8ad7a6617e0371047180759d64c797a2ad9d752ef49c2f8f"
+    },
+    "App/Views/Admin/Conditions/Shipping/zip-code.php": {
+      "md5": "8c2eb1280ba29c320a84b3192e60e0fe",
+      "sha256": "c6727130a24b5554bb8253311a4bdf05e558077fa7bb843d4f6ba49d9b65c3ce"
+    },
+    "App/Views/Admin/Discounts/buy-x-get-x-range.php": {
+      "md5": "951caa254856ac8aea58bc35a143f150",
+      "sha256": "3b025446ddef00ef666f39825a31d323cb0f44d2ec161813bae5b7f21e48bb88"
+    },
+    "App/Views/Admin/Discounts/buy-x-get-x.php": {
+      "md5": "8adfe9c42b362ba6d6efba22e583f065",
+      "sha256": "22918ff251e95125d81314fb2d61e283e3fc73ae788f3c7c284e0ce1dc539cc2"
+    },
+    "App/Views/Admin/Discounts/buy-x-get-y-range.php": {
+      "md5": "71422c9faa4b22fa7bfc08dd2a0c3f80",
+      "sha256": "8fbb41bab4b09a169b5808ab446007d19347964c9c065992fe1075961e77d7e9"
+    },
+    "App/Views/Admin/Discounts/buy-x-get-y.php": {
+      "md5": "227745fa09e72ce12d6147ecce5558b3",
+      "sha256": "db023dde87b25ef0dbf80d8970039aa21a2c8898700eeefbbd27df75632a048b"
+    },
+    "App/Views/Admin/Discounts/set-range.php": {
+      "md5": "ea49bbef498fd39d92789b7b4e63c976",
+      "sha256": "e83cc1b2c248552a977260384fca643e017b1c916e6bb84e4d2a9d9005cc7538"
+    },
+    "App/Views/Admin/Discounts/set.php": {
+      "md5": "c9d997e392f67ca76a3c31336d7fa470",
+      "sha256": "783e7b448298f6be34388a689af29ed4fc3d6402bc7caeccfe9e284adf7a0daf"
+    },
+    "App/Views/Admin/Filters/attributes.php": {
+      "md5": "cc5899c173c10610ecbf838775891d59",
+      "sha256": "c887580ba375c2d6595b09a076e598986abc0ccafb3763960700015e7be4b308"
+    },
+    "App/Views/Admin/Filters/category.php": {
+      "md5": "593568fb8411ed36329a06579d78d7de",
+      "sha256": "7fa075024ca9a7e797b30f54e4708b59c91072b43f17822fb6db983dac430794"
+    },
+    "App/Views/Admin/Filters/common_edit.php": {
+      "md5": "84b679fa37ff6252070bed716695a9c0",
+      "sha256": "51f37bd958fdf35cf725f7d5fefd84a05d30acf9cd238de65cfc066c9a0e947b"
+    },
+    "App/Views/Admin/Filters/on-sale.php": {
+      "md5": "4fa3c9ad854442c11e621edc737939af",
+      "sha256": "19b1a0bb9d5bd31b22b88866e23253e862f757795ca4af47bdf7d44a272a3c16"
+    },
+    "App/Views/Admin/Filters/sku.php": {
+      "md5": "31b36d9e5e4103fbed9f09f9c828e683",
+      "sha256": "739bf3a22220020aad19dd79c4544b1142b1280a6fd971b0f063a072717e5cec"
+    },
+    "App/Views/Admin/Filters/tags.php": {
+      "md5": "3fb602054fc2867b87b3a75dccff3ff9",
+      "sha256": "45dceb929b5e37cdb2e7442b90e2a417585fa7faaf9c1b736b927e48f8f71233"
+    },
+    "App/Views/Admin/Filters/taxonomies.php": {
+      "md5": "8b4e24909354cd9be6808956acabc104",
+      "sha256": "77fb4e99d9e8274227ea09a0052b3dda8c6daf6a005659b25d24d7e610c8fa86"
+    },
+    "App/Views/Admin/Settings/cart.php": {
+      "md5": "a65625f7274948a91ff6429ba98c6e03",
+      "sha256": "a55de167c753dd8c456396bb31efb79e9b8fd6faa209eb8f43e6b6c95bbed41d"
+    },
+    "App/Views/Admin/Settings/general.php": {
+      "md5": "befa55d11c756737f889f02eb27a18df",
+      "sha256": "ba3d92ead0c2b4f299771b84840f316d1e73127111fae45c9c516636ad74e84a"
+    },
+    "App/Views/Admin/Settings/promotion.php": {
+      "md5": "807047cdd84086e9a222db142854ab09",
+      "sha256": "c7dd5f0de995b527ee33473b8d9d1838dc749724f00d7b8ba759a70653105cf5"
+    },
+    "App/Views/Templates/buy-x-get-y-select-auto-add-variant.php": {
+      "md5": "ced81ead79f183cf1750e4a6554dd696",
+      "sha256": "49d842ff7d3acc0ccb1a36d85896922a3e007980c2129062912fffc6458239bb"
+    },
+    "App/Views/Templates/cross-sells.php": {
+      "md5": "4870421b30e1d760e04dbe7cf9cca333",
+      "sha256": "6d03a85f900e2d965e3f08f1c170eb57362aafaa9bd107189358180af1e44757"
+    },
+    "Assets/Css/admin_style.css": {
+      "md5": "fbc97ed212b2c1fed29342a423ebaaa6",
+      "sha256": "fd9dd7ecb28960f9c2f41e05df81aad6c04f5ba174f956f3ec98d047839698a9"
+    },
+    "Assets/Css/admin_style.min.css": {
+      "md5": "779e5400a4ca8606bd6e322c0569bd1c",
+      "sha256": "c5d7d0ed94b7d8d4dc72772265f70aa3a82465d926389b999ec85ec5d9ff03c2"
+    },
+    "Assets/Css/awdr_style.css": {
+      "md5": "b0af44348a08900199107155048211b9",
+      "sha256": "86298a871666c6f4e59411b98f48f91043aeb724a584f92ef4248da454955b43"
+    },
+    "Assets/Css/awdr_style.min.css": {
+      "md5": "2ae8c176a7cdb8b2881f0919d11d123c",
+      "sha256": "65f975f2b32c9fa03c75a441764ecfd5a0fb7013a9e5c6919c4d1f3cd649af06"
+    },
+    "Assets/Js/awdr_pro.js": {
+      "md5": "f4b3cfd8a8ae7bc745695971004bd432",
+      "sha256": "ce62b634712417bd24f7b23da37d2ee5a291ed7452eb9e47384d4f15537f03e7"
+    },
+    "Assets/Js/awdr_pro.min.js": {
+      "md5": "1762062e29e3633019b193fba39120c0",
+      "sha256": "a75a870b4b21272dfaeab28fb09146ce5f3c46664ecf5d1e85ac6dd2b2d75d0b"
+    },
+    "Assets/Js/wdr_pro_admin.js": {
+      "md5": "dce73a66b0833c6ff8c7c72c6d08a4ea",
+      "sha256": "3793adad52eb9818519538599bc1c3bc494c70770e1a26114eff69e8b84bd673"
+    },
+    "Assets/Js/wdr_pro_admin.min.js": {
+      "md5": "e40bbee73791850b1649517892ad21bf",
+      "sha256": "417f389379023cf08707f7d21807b4e167820684041256b4d6f14da94976f30c"
+    },
+    "i18n/languages/woo-discount-rules-pro.pot": {
+      "md5": "11e17755df2c1850715a16c3b60dd1b5",
+      "sha256": "7c183b32ae4ca2e40bd92701e41008b8b41b7fd7cd948aebd0f113f86dc132c9"
+    },
+    "vendor/autoload.php": {
+      "md5": "5d32a6a889059737903d9723a92a9e3e",
+      "sha256": "f376c8dc08921fb115543fb748d12e0af99c1a06574ded970b546697c4f9785a"
+    },
+    "vendor/composer/autoload_classmap.php": {
+      "md5": "19b09a79c57450ba3e5261ad53f4402d",
+      "sha256": "74dcf24a738537227f9b40fa55bfc26ae77341b765914d4e8f518d5ec9eccb43"
+    },
+    "vendor/composer/autoload_files.php": {
+      "md5": "3d873006b6c271a16fb83ecf4384fd5c",
+      "sha256": "39079532d265fe583a88e5572b8453ede09834e977b10c36c4df8520487e5e51"
+    },
+    "vendor/composer/autoload_namespaces.php": {
+      "md5": "35e12c7d76c4a81633bcf547c0e229a9",
+      "sha256": "6d1b582b311799934568f00d45e01de7a04f8a1865a8a72c7841904ad4dac3a7"
+    },
+    "vendor/composer/autoload_psr4.php": {
+      "md5": "ed15b92d1f8b173ca113ac6c8bc8e257",
+      "sha256": "03d2b30302e4910e21d23ea8a4c23b01f69bc1ab097a2cfa877990545bcb0099"
+    },
+    "vendor/composer/autoload_real.php": {
+      "md5": "1fdc8f46d73f586ca22f974e97fda8e0",
+      "sha256": "b0a77330e712607bc6533254c97dc44a5b4f9db1521e164199a91401bcfde3f8"
+    },
+    "vendor/composer/autoload_static.php": {
+      "md5": "a5a7794243537eddd1927bd02f809fea",
+      "sha256": "829cbc9b094af7c5c2df464afae7c3652eeaf15a64eb0afc51afd3d94725a3da"
+    },
+    "vendor/composer/ClassLoader.php": {
+      "md5": "80e3127bb630c512c42cfb51366ec09c",
+      "sha256": "c944c4b1228ef6bef01b0029205c562c96536f8e550052d753b57723d520e69a"
+    },
+    "vendor/composer/installed.json": {
+      "md5": "354fac7ea01e610314a7f37ad9a4f44a",
+      "sha256": "736c11a298d29d6a800ccb9a59a70a9cc2602a2284c49ef437795c33b205f629"
+    },
+    "vendor/composer/installed.php": {
+      "md5": "f8fd2af9387a5a684e383cfdd0ec87e2",
+      "sha256": "222784c134c6186a28b322bccef87e4bfca0b43031d1a4baef29119475a06c28"
+    },
+    "vendor/composer/InstalledVersions.php": {
+      "md5": "5b31bc04d0ca70b81ad50bdf0f40e0fe",
+      "sha256": "088972c331f038f11d51d487a5c9aae424cdc882d7298dd201ae32f54b296252"
+    },
+    "vendor/composer/LICENSE": {
+      "md5": "955d5fe58c231244f6b49000f383b5e2",
+      "sha256": "c8cce4b6b9729f264ffdf9296d505d63432497feeed1f586d1902b942197e024"
+    },
+    "vendor/composer/platform_check.php": {
+      "md5": "c77cb2923acd357e64b41317cafb6acd",
+      "sha256": "a4e99d53f130ddbdba9e211dbb71a2f3f96f081ee07e4227b07f1fc6ad4ca5c5"
+    },
+    "vendor/yahnis-elsts/plugin-update-checker/.editorconfig": {
+      "md5": "843b85012943957eb3a10a756d02ab77",
+      "sha256": "2fedc5b5e61e7a41ceaebd219f655fff60de7f2b3e6666f90c909ea1a0f6ddcb"
+    },
+    "vendor/yahnis-elsts/plugin-update-checker/composer.json": {
+      "md5": "030e8eee049208fdeaae5d0fe766296d",
+      "sha256": "d3cd8854751bb913a815a0a244aed23155d92202fa37964dc9d7dbba76b2a358"
+    },
+    "vendor/yahnis-elsts/plugin-update-checker/license.txt": {
+      "md5": "1f96a4f9f4bb8463d1a05caa005df940",
+      "sha256": "12b5a42bf773da1539c5cb156640993113ccce568ee15d938cde6d19329204d6"
+    },
+    "vendor/yahnis-elsts/plugin-update-checker/load-v4p9.php": {
+      "md5": "da47ab3c3e6e8f3ca171c89422f88326",
+      "sha256": "0443d05aa09c4791a3be8d77c3d5b828f40e40380fc487df957b2ecc55d1a079"
+    },
+    "vendor/yahnis-elsts/plugin-update-checker/plugin-update-checker.php": {
+      "md5": "31f2a66b2fbdf2946dcdee1552385007",
+      "sha256": "20c80a980ed0deefc55e6f6d0e518b94248825304a6866a954880c6fe85b744a"
+    },
+    "vendor/yahnis-elsts/plugin-update-checker/README.md": {
+      "md5": "bab937b1889a159c68816f40d95ab2f7",
+      "sha256": "929829f04e3ebeef3bd21b78c27aa4ab7f48418613277a278362ffa8cafb8a1d"
+    },
+    "vendor/yahnis-elsts/plugin-update-checker/css/puc-debug-bar.css": {
+      "md5": "5c288df67d2e88bbce4048e52552b02c",
+      "sha256": "4ccc6c12b3e51cf8ccff30a9c3d25438db00b69bdd500f7c27f2fce5f8f51842"
+    },
+    "vendor/yahnis-elsts/plugin-update-checker/examples/plugin.json": {
+      "md5": "14e6e5d7e397b16639189fb3ef03698e",
+      "sha256": "a331a1765cc6d3e73836405c2d4fc06690b66dd7536a1c160f652870aaccc139"
+    },
+    "vendor/yahnis-elsts/plugin-update-checker/examples/theme.json": {
+      "md5": "af25082f9c95734ce0743115e4eafbd2",
+      "sha256": "865b2388607cc3037beaf80e1a9e220192cadbcaa80dd9a3e02a1a9e3ad489c1"
+    },
+    "vendor/yahnis-elsts/plugin-update-checker/js/debug-bar.js": {
+      "md5": "ae7a55c3dd6bde8154a0c0398ef4c3c6",
+      "sha256": "ee0268227bb029d0409fb3af537b704f202f381b3372c7d80839ac5762315bf3"
+    },
+    "vendor/yahnis-elsts/plugin-update-checker/languages/plugin-update-checker-ca.mo": {
+      "md5": "503aaaabff043ced4940200e22d07730",
+      "sha256": "d3bdbf4488d742cf79d90387ac4b98bb165e1fc8d3218f191601e2d93f4205d1"
+    },
+    "vendor/yahnis-elsts/plugin-update-checker/languages/plugin-update-checker-ca.po": {
+      "md5": "94f4e071479e108113b54baa9d121e3f",
+      "sha256": "f967523044964f3c47f1f5de5ae4b5d6ce4b80b60972a238367712bf4a7f26a8"
+    },
+    "vendor/yahnis-elsts/plugin-update-checker/languages/plugin-update-checker-cs_CZ.mo": {
+      "md5": "89e67728eeec046aa57d16b9c0b43ec9",
+      "sha256": "fdc548b5c9f66e3aa651db0e81b9a83b1d854d10596252f5c1fb4b9b61d46adc"
+    },
+    "vendor/yahnis-elsts/plugin-update-checker/languages/plugin-update-checker-cs_CZ.po": {
+      "md5": "3f9618b2537261fd54b149c97f74efff",
+      "sha256": "db06bffba172b1a8225cc91b5119a0913ea0ffe2de998c3ce0770471e4ef5d8e"
+    },
+    "vendor/yahnis-elsts/plugin-update-checker/languages/plugin-update-checker-da_DK.mo": {
+      "md5": "e943a1f7313a3a0d85f848ea2966a710",
+      "sha256": "cd1d3fddd8d247e535eb5d1995fe8cfd0efc5ba5de12758ce1d10bd822927103"
+    },
+    "vendor/yahnis-elsts/plugin-update-checker/languages/plugin-update-checker-da_DK.po": {
+      "md5": "27358e3dc6a2e7f18e2e8e2459daba75",
+      "sha256": "5da591d57ec30288512ce3fd8d5cd80c9b385e2933b890359012a5cb1990b304"
+    },
+    "vendor/yahnis-elsts/plugin-update-checker/languages/plugin-update-checker-de_DE.mo": {
+      "md5": "b4e8460b9a6a98d914da867009b07ade",
+      "sha256": "9d88faa650197369f6b7f557173153601ba06c7a1854447e1faac279c528deab"
+    },
+    "vendor/yahnis-elsts/plugin-update-checker/languages/plugin-update-checker-de_DE.po": {
+      "md5": "6b8a9a1975d9ae025b1b74133a9252fe",
+      "sha256": "84e203e147a1c3c21a1ba4d29753f67f68f858ed39e9f5c19062e81fd112e20b"
+    },
+    "vendor/yahnis-elsts/plugin-update-checker/languages/plugin-update-checker-es_ES.mo": {
+      "md5": "f4ccfe5f987bea70c7056983478c7c97",
+      "sha256": "f91e8d447947739fcbbbbe377e6e2664319272c74c633e1902ef4ea76fb34544"
+    },
+    "vendor/yahnis-elsts/plugin-update-checker/languages/plugin-update-checker-es_ES.po": {
+      "md5": "8632780b4ee0f17da7a64c44a7cd1d57",
+      "sha256": "ce2ff30267e840f9a2f180efd1d7543c7f6eecc99cbc8f6df33a415764eeafd3"
+    },
+    "vendor/yahnis-elsts/plugin-update-checker/languages/plugin-update-checker-fa_IR.mo": {
+      "md5": "4954c51a4714a6b0796568ae7c042b4e",
+      "sha256": "cd8d9c1c3acc03ee49a829c55fad4cb58585abfd86f18c7b23d3a37ab7366c47"
+    },
+    "vendor/yahnis-elsts/plugin-update-checker/languages/plugin-update-checker-fa_IR.po": {
+      "md5": "b1365ff298b34819be54ca995afb5655",
+      "sha256": "f83c259aa3674fc1d2d4dbd890fe12082d8d931d830c01619d42f55c7a5fa53b"
+    },
+    "vendor/yahnis-elsts/plugin-update-checker/languages/plugin-update-checker-fr_CA.mo": {
+      "md5": "be17ad0e5c0ee98fbe9a598ac042bbb2",
+      "sha256": "79b918f71844e4738008b9e37d6465996407fbf4a2cff7edf9b5911c0cbe220e"
+    },
+    "vendor/yahnis-elsts/plugin-update-checker/languages/plugin-update-checker-fr_CA.po": {
+      "md5": "94b42cab9d16500a7060745f220a1864",
+      "sha256": "44e61fc8d58705ef7f80aaf793705234cea07eb4a7938f17b59ba982b0453119"
+    },
+    "vendor/yahnis-elsts/plugin-update-checker/languages/plugin-update-checker-fr_FR.mo": {
+      "md5": "429d4322d1c08420edb845a47f63a364",
+      "sha256": "c934f43879e1eb7ccb44f80fe4acd3c53544552138547e4a2970940d33140d17"
+    },
+    "vendor/yahnis-elsts/plugin-update-checker/languages/plugin-update-checker-fr_FR.po": {
+      "md5": "b6708b9ab5e89e010c21aaabdb4e7e70",
+      "sha256": "17f2fc9a590e6f994a7c6cc9533f0c8c848d63710ba4de9af4958e48a1777f92"
+    },
+    "vendor/yahnis-elsts/plugin-update-checker/languages/plugin-update-checker-hu_HU.mo": {
+      "md5": "929777c4d416a70b9ada511905798c2e",
+      "sha256": "164f463e17f7c8a1bf6cb1a8192287aed183474fb0ce34311f63f4ac62159b60"
+    },
+    "vendor/yahnis-elsts/plugin-update-checker/languages/plugin-update-checker-hu_HU.po": {
+      "md5": "2047c0a90d2437d9f989edd63f05706d",
+      "sha256": "61c972e7b26467a8e728a471b34495eda185de4182875cce8048f781a4329e76"
+    },
+    "vendor/yahnis-elsts/plugin-update-checker/languages/plugin-update-checker-it_IT.mo": {
+      "md5": "3d174e9e911ac4e02f7bdf8a47c0d699",
+      "sha256": "74f563d288cc12cd567ea1490eb4646a42d1be2b9b8aa694479ba1f0a1848106"
+    },
+    "vendor/yahnis-elsts/plugin-update-checker/languages/plugin-update-checker-it_IT.po": {
+      "md5": "7d8d0e00364914bed192c6b2546867bb",
+      "sha256": "0b855fefde6e8e4180c365b46939757c872bc59da44d623c9ac7e53ecc2f5fc3"
+    },
+    "vendor/yahnis-elsts/plugin-update-checker/languages/plugin-update-checker-ja.mo": {
+      "md5": "1e5add282a1c8fa2f712e7ae73cc760a",
+      "sha256": "edb9e5b2a8cac7d31b16508996ca85e82b41b040a92fbdae889d5c55c9d8937a"
+    },
+    "vendor/yahnis-elsts/plugin-update-checker/languages/plugin-update-checker-ja.po": {
+      "md5": "ba7bd1e8d06de8cc0bdf7d68251fb6d4",
+      "sha256": "35cf74cbd5b96d592a34da1be67ded1072b3c6a6841658416e4ba02753768d04"
+    },
+    "vendor/yahnis-elsts/plugin-update-checker/languages/plugin-update-checker-nl_BE.mo": {
+      "md5": "821cb4de0d1c676fe2e96055ddaea945",
+      "sha256": "c585812d909631cb62eb36ff65d830321efd39de6cf2d7a9e2cbdaadfc87a228"
+    },
+    "vendor/yahnis-elsts/plugin-update-checker/languages/plugin-update-checker-nl_BE.po": {
+      "md5": "92998f8bfe846d7b3d47acca21a97633",
+      "sha256": "e858775e90be042f3382714cb332c7c19fe58235952409856238c650d5b1b398"
+    },
+    "vendor/yahnis-elsts/plugin-update-checker/languages/plugin-update-checker-nl_NL.mo": {
+      "md5": "fba37b5fed15282bff1556c1185b61d4",
+      "sha256": "63c4d497c807ecc1dcbe29305fc5fc0896844610a140429c7caedf0eea5215f0"
+    },
+    "vendor/yahnis-elsts/plugin-update-checker/languages/plugin-update-checker-nl_NL.po": {
+      "md5": "7c0ca83604e9ca558ace147b9a830fc8",
+      "sha256": "b5676badf0f4dc304f7b8021c23a90678f1c05daf6ee06f85f9204ec35114585"
+    },
+    "vendor/yahnis-elsts/plugin-update-checker/languages/plugin-update-checker-pt_BR.mo": {
+      "md5": "4c5713438e5f06eac04373a3f8820c87",
+      "sha256": "66a74d4e28a6cff6797cced4454b9648cf565c05a6d011edfcf9111befe8647d"
+    },
+    "vendor/yahnis-elsts/plugin-update-checker/languages/plugin-update-checker-pt_BR.po": {
+      "md5": "67f66b1eaffd2536406dcbad7b79945f",
+      "sha256": "7edf19531984101f16317c71393f8602da80b416b2fbd51d632658f29d7106d0"
+    },
+    "vendor/yahnis-elsts/plugin-update-checker/languages/plugin-update-checker-sl_SI.mo": {
+      "md5": "d79e37b2bf6edc6cd214b9012b469e91",
+      "sha256": "3f61f54cc44dd781a9aec9d71b841ad7fce361bc18aafd44c295ce15a63c0d51"
+    },
+    "vendor/yahnis-elsts/plugin-update-checker/languages/plugin-update-checker-sl_SI.po": {
+      "md5": "e1033f35b995437cef1d7f8a67e99f62",
+      "sha256": "027e6a4f8bc47d6a0c917b167063f0a9cc3989f53325e8d771697114417ea86c"
+    },
+    "vendor/yahnis-elsts/plugin-update-checker/languages/plugin-update-checker-sv_SE.mo": {
+      "md5": "42b3a00a38e7fb3c9e5f48c7fec51f37",
+      "sha256": "4d70a56814fd99c35e4f5965b87456c0d81d76f4f15fcb36b5acd08669bbbbde"
+    },
+    "vendor/yahnis-elsts/plugin-update-checker/languages/plugin-update-checker-sv_SE.po": {
+      "md5": "6e735e72ef07f98f19cb6ba565e49b7f",
+      "sha256": "cae5b34dee156a44e9dba6d80312cb46fec5ab9f403465d8b44557fbe0dd45c8"
+    },
+    "vendor/yahnis-elsts/plugin-update-checker/languages/plugin-update-checker.pot": {
+      "md5": "749fd1fa140e274d36a23e4b5fc74f4b",
+      "sha256": "ae4d8e1c8c7fe89d0fc7bc83d3ccaed13443f953b3079bcc45772142df07f23a"
+    },
+    "vendor/yahnis-elsts/plugin-update-checker/Puc/v4/Factory.php": {
+      "md5": "d708ee350d884d1a23215af54540cccb",
+      "sha256": "0dab6fed96aaca3626e170e901b11cc89bea7938622978f4f6ff34dd6720caf0"
+    },
+    "vendor/yahnis-elsts/plugin-update-checker/Puc/v4p9/Autoloader.php": {
+      "md5": "e290864881228da1dcc0c5aa5e1bf273",
+      "sha256": "5aa18326797b750a6ffa9ff3e93c6187a59296cb64310266342b43c1c1e8bb0e"
+    },
+    "vendor/yahnis-elsts/plugin-update-checker/Puc/v4p9/Factory.php": {
+      "md5": "0ee2321ff543b411c467201720678420",
+      "sha256": "4c912b06f9c4ea81b9a00a4ca4a2c5a09f667f19233b05865dd43ff723f2c520"
+    },
+    "vendor/yahnis-elsts/plugin-update-checker/Puc/v4p9/InstalledPackage.php": {
+      "md5": "0f166b67f87b99c159ff628507951197",
+      "sha256": "8469d5892df09a47f92d49860b6b7ed8a174f15c0e52ce3f59ff8b2dc7e905fe"
+    },
+    "vendor/yahnis-elsts/plugin-update-checker/Puc/v4p9/Metadata.php": {
+      "md5": "e9a5a3f00ae8594bfa2b8d33aeb4270b",
+      "sha256": "ec70392958c14aa877bef6ce0fe4a7e6ede1f4badb11774b11009e598445ac4b"
+    },
+    "vendor/yahnis-elsts/plugin-update-checker/Puc/v4p9/OAuthSignature.php": {
+      "md5": "be56ea9321cdf9b52d2d78451ec68f49",
+      "sha256": "979d33879b40f1124d496071dd765e6be90a762177ad2982907709cdacb83566"
+    },
+    "vendor/yahnis-elsts/plugin-update-checker/Puc/v4p9/Scheduler.php": {
+      "md5": "c6d8c8d02767631a1f77d20eae88e410",
+      "sha256": "477163b28708f04c78fd298ef7e93cf65a078d24e7edb5724590fffd9f2aeb67"
+    },
+    "vendor/yahnis-elsts/plugin-update-checker/Puc/v4p9/StateStore.php": {
+      "md5": "8ba5c6473f532d82a1396b94cb80b3fb",
+      "sha256": "16d29eb46e92bfe07b57b712e123297bc4bc043742afa53770df516db07d3797"
+    },
+    "vendor/yahnis-elsts/plugin-update-checker/Puc/v4p9/Update.php": {
+      "md5": "3a4e699273e9ad37f87358235c4164bb",
+      "sha256": "cd5cfb1d4d9d9d5b8b96981e41a2de9cac2cbbd447045949a33d11b0ba82f9c0"
+    },
+    "vendor/yahnis-elsts/plugin-update-checker/Puc/v4p9/UpdateChecker.php": {
+      "md5": "c6f8ee5efa0b8604002d9a20d34c906d",
+      "sha256": "09c1fe1393604c515f24aaaf2d927594a4af46d38b41c15bc32214bb428577e5"
+    },
+    "vendor/yahnis-elsts/plugin-update-checker/Puc/v4p9/UpgraderStatus.php": {
+      "md5": "fa1686afe25d56ccbf38403fac2f209b",
+      "sha256": "1cfbede24ab83d27058add0ce8f41c841e6a161cb4ecece0db2f641c44087661"
+    },
+    "vendor/yahnis-elsts/plugin-update-checker/Puc/v4p9/Utils.php": {
+      "md5": "d02f0cd9320c66b33e8e1789ddc04928",
+      "sha256": "7b866c0c72dcfb8178458e9b54d9dddb915021c103264a5f1dfaac308aab54c7"
+    },
+    "vendor/yahnis-elsts/plugin-update-checker/Puc/v4p9/DebugBar/Extension.php": {
+      "md5": "40e50d19126a53cec9ef2e5156234ea6",
+      "sha256": "1a59fe8e0db300e4895200c478bf8cdaead8afe9d2ef203e01905ee3dd583336"
+    },
+    "vendor/yahnis-elsts/plugin-update-checker/Puc/v4p9/DebugBar/Panel.php": {
+      "md5": "416aa941e3a4539d29eebe8a3bdd1346",
+      "sha256": "e161fb94ffd13e010dd2314a8a8a72b3755a22c41df56e3e0613cda5b0c4d143"
+    },
+    "vendor/yahnis-elsts/plugin-update-checker/Puc/v4p9/DebugBar/PluginExtension.php": {
+      "md5": "70201ef1259510c929fd8f703e0fd94c",
+      "sha256": "b90fceb208ea68584a575b5823fec2932e21d52b12761200a61d4aac9a0734bd"
+    },
+    "vendor/yahnis-elsts/plugin-update-checker/Puc/v4p9/DebugBar/PluginPanel.php": {
+      "md5": "c7bb0dd6d6fc5364f6654bec0e72ab5a",
+      "sha256": "6673177dbdd2b4a36c971961e622d8c5f17bf0f8a815e812e788553891ba0348"
+    },
+    "vendor/yahnis-elsts/plugin-update-checker/Puc/v4p9/DebugBar/ThemePanel.php": {
+      "md5": "4381d4056ced7df7d10c48de721390db",
+      "sha256": "b39bd064eb0e9a2caa3bb4c7458b899e1e7165b69ed891341e02c8f927f218a7"
+    },
+    "vendor/yahnis-elsts/plugin-update-checker/Puc/v4p9/Plugin/Info.php": {
+      "md5": "895a9295b9381f18f8e0178b4223a5f9",
+      "sha256": "32d174575e3adc77803fa1ae7686708a95ec9ec945d4eb043f44ed22230dfba6"
+    },
+    "vendor/yahnis-elsts/plugin-update-checker/Puc/v4p9/Plugin/Package.php": {
+      "md5": "4874c3ac48f01d205903b55e6c6d3b78",
+      "sha256": "9de208fea1e5db21a28c3bfb7fa350dd860f07d27d55679a4cd8290e3db127da"
+    },
+    "vendor/yahnis-elsts/plugin-update-checker/Puc/v4p9/Plugin/Ui.php": {
+      "md5": "1229d16126d85a1c619fc105cfd78418",
+      "sha256": "527d35e851d14473347dcaee6be72420c988a4dbc72631949207d69b25c2ef0e"
+    },
+    "vendor/yahnis-elsts/plugin-update-checker/Puc/v4p9/Plugin/Update.php": {
+      "md5": "c460a7c642ccee71bfd759cae80a367f",
+      "sha256": "cb03dd917d52dd51ab7fede7589b4804a42515d64a37aa5e1eff75ac204454d6"
+    },
+    "vendor/yahnis-elsts/plugin-update-checker/Puc/v4p9/Plugin/UpdateChecker.php": {
+      "md5": "198a08b5c771a8eb878ac4a57f35fa55",
+      "sha256": "1a2fdec751c244f2eee0e596aa75a0568b2c4ff12392fd17983582b2a5cc70a5"
+    },
+    "vendor/yahnis-elsts/plugin-update-checker/Puc/v4p9/Theme/Package.php": {
+      "md5": "7d43770eea399bf2ead6236241c94e63",
+      "sha256": "388b8445f7b217ece199ebbb1d4c76d3e22f6f0ac57ffbbf03db713631bbfdb6"
+    },
+    "vendor/yahnis-elsts/plugin-update-checker/Puc/v4p9/Theme/Update.php": {
+      "md5": "2a1dd595493935f5098db96900685e19",
+      "sha256": "1d385f03d550c366920342727bd8c968602d3d6da668aa63557bb8f595b88947"
+    },
+    "vendor/yahnis-elsts/plugin-update-checker/Puc/v4p9/Theme/UpdateChecker.php": {
+      "md5": "502a52023d356fc5a838544ee8b366e4",
+      "sha256": "10d216da39f87efc4e85ebf5d61688abf2903ca6123e9acfdc366c75f77cd3c6"
+    },
+    "vendor/yahnis-elsts/plugin-update-checker/Puc/v4p9/Vcs/Api.php": {
+      "md5": "ae435038d6d216652772dd33aaf38d5c",
+      "sha256": "6cb20d58da72675144a0f6580656611fb5d90f7b83c680835e323c7170fa5270"
+    },
+    "vendor/yahnis-elsts/plugin-update-checker/Puc/v4p9/Vcs/BaseChecker.php": {
+      "md5": "57136b4e0f15f81d4f528595d9b00832",
+      "sha256": "e84bf21dd1520a42e6f2b01ef7dc84a59fbadd00e02a259ae4aaf2e1af8297b0"
+    },
+    "vendor/yahnis-elsts/plugin-update-checker/Puc/v4p9/Vcs/BitBucketApi.php": {
+      "md5": "41d67e3af511617be874f14e19bbcf5d",
+      "sha256": "bb1852cf86b1ce1c0406c03f3e56cbfd9051287e091eacb665299ea9a94b0ef1"
+    },
+    "vendor/yahnis-elsts/plugin-update-checker/Puc/v4p9/Vcs/GitHubApi.php": {
+      "md5": "d109cae52bed766e424b6623a0dda69d",
+      "sha256": "3c0325f6e0263539a1a6ede1f8deed56dd19255334b61c85b39b7063af96d57e"
+    },
+    "vendor/yahnis-elsts/plugin-update-checker/Puc/v4p9/Vcs/GitLabApi.php": {
+      "md5": "d1f4edbb5ef545376cb5db1ce17c8d80",
+      "sha256": "2ed93ef90084cd3d3c76e6cea2af58e63028338f144942d9c1070e33af582ed2"
+    },
+    "vendor/yahnis-elsts/plugin-update-checker/Puc/v4p9/Vcs/PluginUpdateChecker.php": {
+      "md5": "431dd51c50be6bf6b2ea5e39892a941b",
+      "sha256": "2966f532d5ccead4d1157459d59ab4f58ecd1802096ad577b8c006a7bd4b26f0"
+    },
+    "vendor/yahnis-elsts/plugin-update-checker/Puc/v4p9/Vcs/Reference.php": {
+      "md5": "0d2f64141af5e3cebb6101e45d174d5b",
+      "sha256": "72428ae03f095665fdd2e27a7750edb271abf5b80bfe56435096cf4b0e016e53"
+    },
+    "vendor/yahnis-elsts/plugin-update-checker/Puc/v4p9/Vcs/ThemeUpdateChecker.php": {
+      "md5": "9329ee43357144195682797c6fb2eeb1",
+      "sha256": "e4c9283965eaa6c337c74b1e152d325f1292b55aca9c1816d62ef222e5c4bcf9"
+    },
+    "vendor/yahnis-elsts/plugin-update-checker/vendor/Parsedown.php": {
+      "md5": "218498a75de7b11e42998a32b47e2366",
+      "sha256": "88584edc642082828e41d75da40863f4b4ab7bea884fb3baa253bcc89d37f577"
+    },
+    "vendor/yahnis-elsts/plugin-update-checker/vendor/ParsedownLegacy.php": {
+      "md5": "60d0851d16b88ce50ba91793111d7083",
+      "sha256": "b6538399a732ea15259a490d2cd9911d8ac11a761531a0e72fe4693973dfa540"
+    },
+    "vendor/yahnis-elsts/plugin-update-checker/vendor/ParsedownModern.php": {
+      "md5": "1414abc46f0db1fa3ce00987e9c39941",
+      "sha256": "ee52d7d0bafc76b46189758b8e5abd58775ec1ad6eda10ae7cba0c80b9da667c"
+    },
+    "vendor/yahnis-elsts/plugin-update-checker/vendor/PucReadmeParser.php": {
+      "md5": "82d883adc47e2ba82953cdecd59e7d78",
+      "sha256": "d6bc68195c273b25fc088a549a5cafe37e3e6fd881fc2745af57366e48ac539a"
+    }
+  }
+}

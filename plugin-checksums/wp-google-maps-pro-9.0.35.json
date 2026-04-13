@@ -1,0 +1,1694 @@
+{
+  "plugin": "wp-google-maps-pro",
+  "version": "9.0.35",
+  "files": {
+    "changelog.txt": {
+      "md5": "8319a93134aed20db1372fc39239db53",
+      "sha256": "b175c0f185e2eb5cd1bca1ecbf1f5b4741dcec817eae8cce358fd7a83e25fc2e"
+    },
+    "constants.php": {
+      "md5": "a4a7e099c4c1a1114807f21a17200502",
+      "sha256": "d411a8f0cbb6fe70e9bf7a28f34ce9d198bc6d13a9b320ed934d488437c11e92"
+    },
+    "dummy.js": {
+      "md5": "8195aab366fd49ce0d06ca5ff88230a8",
+      "sha256": "d4af70e952332b3389e2f201626a02b76c870afdd8c2b31232c95964a256152f"
+    },
+    "legacy-core.php": {
+      "md5": "f283950a1c6d195be30b0c1f2865fdea",
+      "sha256": "c0deadc9d6b6f91c0fa4a4ecee60192bbb67bf08f34065619f60658d8c95833c"
+    },
+    "README.md": {
+      "md5": "0810f8174f3c4110b6f1629d1320bc57",
+      "sha256": "39355abee468bc8e67b1db0192d6ea818302e05fb261e2af44e3c4526cbd4cc9"
+    },
+    "wp-google-maps-pro.php": {
+      "md5": "af241354c93778dd5f058d2dfd6f9d5e",
+      "sha256": "867e752bbd3aeec8cb3fb4bbd33128eff01fe606d690feb615131e326bfd0b67"
+    },
+    "css/ajax-loader.gif": {
+      "md5": "01000918725acebd286de3787fca4ee0",
+      "sha256": "0218fcc589e40339afb0fb6c42d25980d9bdca4660fa51f122b46663ea59d948"
+    },
+    "css/carousel_black.css": {
+      "md5": "ac8a7b163707c558c31aad8e8cd516d5",
+      "sha256": "50f72372453e5eb7621360eecf3ecd430e19a8f1c812d4cebceaeb540e76c0bd"
+    },
+    "css/carousel_earth.css": {
+      "md5": "b5dfb186a8d9f28c004fce06521df549",
+      "sha256": "c41aad8b63084ab6a1dffe6178a0c0e773db4377e0f313b06f71c7022d6cdc23"
+    },
+    "css/carousel_monotone.css": {
+      "md5": "f881f93f0dd665738e614b7695ccc682",
+      "sha256": "8bbe23a293201699bf19692e8d6b2452404244025a7e508038c241d8a209ac14"
+    },
+    "css/carousel_pinkpurple.css": {
+      "md5": "aa5fb39ae5fb1b732b7dd52b4943f8f1",
+      "sha256": "b26e70bd61d22d72224a55b167540481823219d3ce29105f6991ed1ad4200627"
+    },
+    "css/carousel_sky.css": {
+      "md5": "ea7bbe6f78b06037e10d205ff310fc3e",
+      "sha256": "f06b978fae3957c19008ee716af34b9e2c812dff619d627e6f596198f407cc5c"
+    },
+    "css/carousel_sun.css": {
+      "md5": "84a79223b7a0c3bb6d4359012af41300",
+      "sha256": "7d2a35528de3f4eefbaba0472aa525b8a8b203fb4e42fc01083f7d3bcabcba89"
+    },
+    "css/carousel_white.css": {
+      "md5": "cf5484f6b53adcbba1d054af961e3cbb",
+      "sha256": "35e06e8a343adfd5fcdcd3c2c74127f29cefcde1d56c6b5c4ff65ac066e5a5af"
+    },
+    "css/data_table_front.css": {
+      "md5": "75423eff0cbac7d0b860ba462c9b409b",
+      "sha256": "49e47deac970a939ea70d26012572343a963c3de3f34c89f14cec8687a27d46f"
+    },
+    "css/font-awesome.min.css": {
+      "md5": "cd8d830e47a979e1511f0c71e4f95be7",
+      "sha256": "086bbd2f49ab1cb57f1b8984b0e826402b64faea0ac89aca94dde1bb9060cbfd"
+    },
+    "css/jquery.dataTables.css": {
+      "md5": "d2903cdc6517dfb5c1ac7e4a7cc0ded9",
+      "sha256": "6e94550598ac1eb446410ad833b51b67631b7f9272245acb3ced7315e3d43cd0"
+    },
+    "css/jquery.dataTables.min.css": {
+      "md5": "5cecec1acd530be6c6d1bc91197e28c1",
+      "sha256": "f28027225a34c1b2c8f5df06161c53aaebcb8978ddaf9cf6ec4352ad0bc5826b"
+    },
+    "css/marker-library-dialog.css": {
+      "md5": "0cfdfff33d89336d6bcceaf38d5d5cc8",
+      "sha256": "7ac7c10fc70a538551eb1a286c620a98254b4a199c9a49dd90d477988b346dc2"
+    },
+    "css/owl.carousel.css": {
+      "md5": "1f05e0c6be3220ebd438f66a8747a57c",
+      "sha256": "a6ec95e8e115ea83fd87e9fb1283493aff6831ed5833755573a9dc02193a1762"
+    },
+    "css/owl.carousel.min.css": {
+      "md5": "b9755c9c2613c455154caf065bd1a94d",
+      "sha256": "062368677bcefd9495e8b320e0cf22c4faca9f1bc04666efeb9cd5307cd591a4"
+    },
+    "css/owl.theme.css": {
+      "md5": "51abb9f24b99add4201b0e92e0a8164c",
+      "sha256": "e46184a677dd9534e0329ae6a7f07967bc28446b313219b58f7d52f38d9267cf"
+    },
+    "css/owl.theme.default.css": {
+      "md5": "bebc9cc2cbdd546d76bbe2b79346f5ba",
+      "sha256": "8db15cfabcab9b7b19231ea65a96a8fd0ae110498111a518d5046b24610f5ad2"
+    },
+    "css/owl.theme.default.min.css": {
+      "md5": "884f2375d217bd05c67fcd80f393cb9e",
+      "sha256": "505fff817f37d43899275853aa6d6f4f3644b6abe2c420ad9cd6caab1ef147cb"
+    },
+    "css/owl.theme.green.css": {
+      "md5": "b71ff66b6e6faad6f54116c29e8531d5",
+      "sha256": "bcb295efabaef9d31b27503f8206312a982396d51e68f0bab4ebd4fb07f61318"
+    },
+    "css/owl.theme.green.min.css": {
+      "md5": "dc395546d064abdde51e36416d8c5115",
+      "sha256": "4ef761427601f25989a31303feef9b509178fb78320bad5a7078d3248130093e"
+    },
+    "css/owl.transitions.css": {
+      "md5": "c2d6c2845cb1147fd99ffa05682cb4b8",
+      "sha256": "46c63e19392696c9ccbce249541b5b7edeb46ca35679a5f91ed4f6779c0dfdbc"
+    },
+    "css/owl.video.play.png": {
+      "md5": "4a37f8008959c75f619bf0a3a4e2d7a2",
+      "sha256": "0436045686fddf10ccbbe2568e0cbffb457e7de7d43d1115c0056e81e97149ff"
+    },
+    "css/wpgmaps-admin.css": {
+      "md5": "4542d4fe18e2ddea3c9b9aff81fa9e4b",
+      "sha256": "2e1fecc7cec4554200242d09b00f8f5f2e7137efc3d51365d1bb83942b756a03"
+    },
+    "css/wpgmza_style_pro.css": {
+      "md5": "e6b530eddf73a426d20aa11b0511e698",
+      "sha256": "f68a4196510713028d43bcaa211db5f78fe2b2e92c67aa3065d753bd5bef0306"
+    },
+    "css/wpgmza_style_pro_modern_base.css": {
+      "md5": "52b5f1332fe2290b630f199537486562",
+      "sha256": "35aad8d4b568a945a3762a55f0dc82b245f21d8d2667fd36aad686785489cf0c"
+    },
+    "css/wpgmza_style_pro_modern_circular.css": {
+      "md5": "8cf71c4b3f041631b5362fbedf895ec9",
+      "sha256": "f4d6a9997fcaa676def15efa61bdfc2cc2a6586518521466420e37774663b272"
+    },
+    "css/wpgmza_style_pro_modern_plus.css": {
+      "md5": "ec68b4d702d47f542b5956f076599d73",
+      "sha256": "b1022ce14ae7bf34f6deca0d23d0c69684ca756d50d2fc289cf68e98742e42f5"
+    },
+    "css/atlas-novus/components.css": {
+      "md5": "d047aa437a5b91444a7e2bd02ea5d4e9",
+      "sha256": "f9fa4ab5afb6895de34356f13ddcbf928ef974167e79bdd01d8ee2ffa55a463e"
+    },
+    "css/styles/legacy-modern.css": {
+      "md5": "087b22a4d663c6fe97a7a0dc83cfd96f",
+      "sha256": "bca50a5d79b3a77f91b9a22cc77c4b0753dbdbae6cbd32f3a93d00a558b31d58"
+    },
+    "fonts/fontawesome-webfont.woff": {
+      "md5": "c8ddf1e5e5bf3682bc7bebf30f394148",
+      "sha256": "adbc4f95eb6d7f2738959cf0ecbc374672fce47e856050a8e9791f457623ac2c"
+    },
+    "fonts/fontawesome-webfont.woff2": {
+      "md5": "e6cf7c6ec7c2d6f670ae9d762604cb0b",
+      "sha256": "7dacf83f51179de8d7980a513e67ab3a08f2c6272bb5946df8fd77c0d1763b73"
+    },
+    "html/add-map-dialog.html.php": {
+      "md5": "fb0508c2a5b07efab5d3c5fd84e64c07",
+      "sha256": "f683371e1167869628ee3f27c92b691dd5e2a31b061ddd5ea1c9d492359b12f3"
+    },
+    "html/category-table-empty.html.php": {
+      "md5": "264a710fb9719d6662ca5365acc03d10",
+      "sha256": "5034eb74e627e7330d41ca0e3c1e313cd31bf41c003d0c2a840682d5d49e0235"
+    },
+    "html/category-table.html.php": {
+      "md5": "0a02a912235939a9dc345b5eb1759ef4",
+      "sha256": "d0661eb0b8ea28f15487f75c10c831798b900623dccefad24533eb4f5342b340"
+    },
+    "html/directions-box-settings.html.php": {
+      "md5": "eeca3be97683f6c14077ea8a0561978f",
+      "sha256": "6a09780992787665bd76a539c4f8038dcab09882ac1f6624ef0d214afd06b355"
+    },
+    "html/directions-box.html.php": {
+      "md5": "28c73a736e7d58152a599ba1a3c76a0f",
+      "sha256": "63c9f217ba0618ab6bf0611b062a417876610da754254e00e17855e27826461f"
+    },
+    "html/google-maps-api-settings.html.php": {
+      "md5": "ebeebb8d086ffa8acba77cc4f5e5e387",
+      "sha256": "495bd3408bd6326fda7b9ff31c6114abdd0b6a670298d93e11b835c9ef52aca0"
+    },
+    "html/license-manager-panel.html.php": {
+      "md5": "44a1c73b685e98fe3f20e2816184cd2c",
+      "sha256": "f760b0712f75de529d2034bcea7dfa0448f2fc2f82b689ecf536f16032f19077"
+    },
+    "html/marker-filtering-tab.html.php": {
+      "md5": "fd9b0b8e115757472468f54660eae09e",
+      "sha256": "9ca616349b22e2143abd5e4a69dbd06d1d982907b84121ed886223747625b0d1"
+    },
+    "html/marker-icon-editor.html.php": {
+      "md5": "5ea0a9090d0773f4ba59d948066cb010",
+      "sha256": "348cd5dbadb79ad5b65eaf04308afebd4833d1ab4541b28843ac213e452de0bd"
+    },
+    "html/marker-icon-picker.html.php": {
+      "md5": "6434cda881e7c7f6dcebdf77a72c43e3",
+      "sha256": "f2b80b608115c34ba1928acc3c3782c401d5441af5018e7e5fa18bb579fa3cca"
+    },
+    "html/marker-rating-settings.html.php": {
+      "md5": "637a0bdf00576ab69ae5a7d5fa90bdb5",
+      "sha256": "1bcafbd4c7428f52b8d6edb1cea311b67bcea84a6b87be4d166f4b2f88df25db"
+    },
+    "html/pro-store-locator.html.php": {
+      "md5": "421fb9f8386f013a76361640de744342",
+      "sha256": "d0d2137328c1e49b03bcb4ec8b21872d62c5a49ff81123b1cf76fdf003efbf40"
+    },
+    "html/atlas-novus/advanced-page.html.php": {
+      "md5": "38ba7eb5b9f457b7f2417b1d24af4f79",
+      "sha256": "853f78cba56e760e15da05e141c1ed89a42a5ab047b6de6d450868e6aa95066e"
+    },
+    "html/atlas-novus/category-table.html.php": {
+      "md5": "4a596128bbc4aebf7204e040afc9ea5d",
+      "sha256": "2851105e52159be8fc07a184ae05700566605a0d8f30bbff5c7248ccdba6e6d7"
+    },
+    "html/atlas-novus/directions-box-settings.html.php": {
+      "md5": "4d1bb68ec1f370888f106e5e3240de64",
+      "sha256": "cf66a038ce9361e9c849f4398f1aca0749aa9fcfaec08e3562af4c5c37d09d6a"
+    },
+    "html/atlas-novus/directions-box.html.php": {
+      "md5": "01a17eb50a38621664117a60517ab8e1",
+      "sha256": "31477b25d2e126c0e3a556804c8fcdc671d556616d4461efb063cc72cd45e4cc"
+    },
+    "html/atlas-novus/license-manager-panel.html.php": {
+      "md5": "a97d24704368e207929bbb758cf301c9",
+      "sha256": "7e2791bacb628be8a1e5c96eff0d6637157b71b134d72bca2d26cdafb850752f"
+    },
+    "html/atlas-novus/marker-filtering-tab.html.php": {
+      "md5": "17c62da60dfda962170e4ea5fce6c680",
+      "sha256": "f75a987985b2b6ea54790248e5824d4206d2ac4bfb69fcd4e7f4f945ff603c43"
+    },
+    "html/atlas-novus/marker-icon-picker.html.php": {
+      "md5": "b49d588c90b2c5dcd885d9efd7795f39",
+      "sha256": "6bb735fac37c26b0f1f3627f22a62e1eaafa201b06e6a7ec50dd5bbae186638c"
+    },
+    "html/atlas-novus/pro-store-locator.html.php": {
+      "md5": "b91c7290b174d181d782ca4b1ec8169b",
+      "sha256": "748eeed6ddd2e78289e7f4ec1e673f09a9f9043c17cd13678615856acfa3ee96"
+    },
+    "html/atlas-novus/wizard-page.html.php": {
+      "md5": "9c20f392a6268b5df43768dd9bcf9130",
+      "sha256": "317376d9dfbf1ce6e1d00695ce11eae4fc4962cf4903f00c10095e4229c45f93"
+    },
+    "html/atlas-novus/category-page/categories-list.html.php": {
+      "md5": "6ce484f539f3c4cbaeed7313060af0f7",
+      "sha256": "5295c1d4ffbbf1746856099c8cc79efa091447f8e6632810f4104eb149186b92"
+    },
+    "html/atlas-novus/category-page/category-add.html.php": {
+      "md5": "016f9a856780cbb72e12257c75209938",
+      "sha256": "101f272c7341abc9ffe1c90babd9609a3cbb0ba08dc4bdcd51b0d6ed64835360"
+    },
+    "html/atlas-novus/category-page/category-edit.html.php": {
+      "md5": "f93eb14a0ea758d3bf0d3b8d994b3f5c",
+      "sha256": "78f1407cefaa9a3490d3477780053f6d2985a9b2f77d3d71472f13faf322c65d"
+    },
+    "html/atlas-novus/custom-fields-page/field-list.html.php": {
+      "md5": "f67f2754bfccbd6e5d617efeb49d3f9d",
+      "sha256": "516597ce4d7f65b6fb1877e86a90f4251cfe7e55d88e02b7c0e394cd926e388f"
+    },
+    "html/atlas-novus/custom-fields-page/field-row.html.php": {
+      "md5": "6643e6789bb77071eb0ef784e3079455",
+      "sha256": "874667f7a321b92aacb0425dcf103f9f96eb9a757e35f38612d92cd9b89e4210"
+    },
+    "html/atlas-novus/import-export/import-export.html.php": {
+      "md5": "b2f0bd7c507395f64fa89dbda483e61d",
+      "sha256": "317af05c532a7987606dde879d2f2be6487ebf98bd956519f5e28b40ec41fa90"
+    },
+    "html/atlas-novus/info-window/panel.html.php": {
+      "md5": "ffd1ed741bcb62c1cc248a352b27acaa",
+      "sha256": "8aebbc46e5d6fc68c7cd74f4f0189a41ffcae02c648e92c2b5360d27d045609b"
+    },
+    "html/atlas-novus/marker-listings/panel-item.html.php": {
+      "md5": "ec7814221fe12a8db82249a2fa9a0e29",
+      "sha256": "3c4d71b8780a1d750fbfccb9db9538e1d4d0f9e816a9696730b48fcdd87b38bf"
+    },
+    "html/import-export/backup-item.html.php": {
+      "md5": "cafca6606821505cf9eb28359ae5e8b7",
+      "sha256": "3067039cb035636e8d2e0abf80e14034c840672533dd23ba1fd193b92869f685"
+    },
+    "html/import-export/import-csv-options.html.php": {
+      "md5": "a97dd8e34bf9bc639e26ac6d898ec20f",
+      "sha256": "c4a7fa257f246d7e445acbfef8fcb8fd12fa8bbdd31516f3559aac2b3184fc40"
+    },
+    "html/import-export/import-export.html.php": {
+      "md5": "0c9817958a07d6f5006e680824bdfd17",
+      "sha256": "21377c91dc41fedcfd6b02b38f330818a13ddf5becdd289e0789084ab4b62371"
+    },
+    "html/import-export/import-source-panel.html.php": {
+      "md5": "1c3a185c777acb45a24949fb29400716",
+      "sha256": "8445724056541170fb5f9f950f2ae3d5a45a978d4879d936b30eb5e9f47d352a"
+    },
+    "html/import-export/integration-import-options-panel.html.php": {
+      "md5": "de49a5efdfdcb602b5ca7bb3ce8ca3ba",
+      "sha256": "b5512c324a08eb4a335d31881f8c5ff0d72e177d17d487a39928063bf2335552"
+    },
+    "html/map-edit-page/marker-listing-options.html.php": {
+      "md5": "fd5854b059f3817b191507ac2734823c",
+      "sha256": "9303a151332f1aa926817bc11d19b85e719b89de03308fd32f9f82f7beb48ae7"
+    },
+    "html/marker-listings/legacy/basic-list-item.html.php": {
+      "md5": "1aac9d370123f157382961f86cc186e3",
+      "sha256": "2551f76bc3158b1e8cc36ade189c48fd9b4692c9f8267d81248d27ab7c764c94"
+    },
+    "html/marker-listings/legacy/basic-table-item.html.php": {
+      "md5": "e269cc777086bac509a6b884922ee95d",
+      "sha256": "8a9fa8ce136a1ef9a071cfca20dd6942540238965bae85f05a210ad7790d4a12"
+    },
+    "html/marker-listings/legacy/carousel-item.html.php": {
+      "md5": "ac31e8473fbde46ae0c68f98ba785170",
+      "sha256": "94f81482248826c362102ec9b76901239777fda548ebfaf5177ef1204873ec1e"
+    },
+    "html/marker-listings/legacy/grid-item.html.php": {
+      "md5": "52a1d4d4b4ee56638f9ac3bdda50f865",
+      "sha256": "ad581b073f13c80c7dd050b8c51149208578e1331d1395f37e169c52a62cfd86"
+    },
+    "html/marker-listings/legacy/modern.html.php": {
+      "md5": "d90f190dffa5f7ba68f972e0f663050c",
+      "sha256": "aad6772e2ece04e8bca504245173a46e7c887f9123772c2f52b74d7067789f99"
+    },
+    "images/AjaxLoader.gif": {
+      "md5": "5b8b06c052cac80413d62e5c45f9f37b",
+      "sha256": "e1da1b5e724cd444319ab4c55e7637b99034b448955ddbe56150b24200a61cde"
+    },
+    "images/back_disabled.png": {
+      "md5": "e781d800b694c8f2a73cf57384600c6f",
+      "sha256": "b1d70ecc1f64da377077027884dd3d25d93926ac958d1034b85eed70ab07b4fc"
+    },
+    "images/back_enabled.png": {
+      "md5": "5494a70a9d90b559710f1b2667f0c429",
+      "sha256": "a893ce83643d940aea5ba91decb0d47bf0ddeddb5a10e8b7220124e8931cdd65"
+    },
+    "images/back_enabled_hover.png": {
+      "md5": "fdf50aed68ecbf5d7eacb0cc6c4271a6",
+      "sha256": "d9692accc3001f214912e6f82639a2c5a512331bdf83255033bff03df8974849"
+    },
+    "images/forward_disabled.png": {
+      "md5": "3852d0a511e68bc8d7d99907def31295",
+      "sha256": "4de9e6b9fc26ae4694e2f4bf0fbec53d9eff9d31d767efa3b149d52529cd0e2e"
+    },
+    "images/forward_enabled.png": {
+      "md5": "d47405ef544b312756219e9bab94c4de",
+      "sha256": "5dafa3df33ca6272b8d300773cd6c77700b21d4f7595af32ae01658e6640ee7e"
+    },
+    "images/forward_enabled_hover.png": {
+      "md5": "1c6abf0c640a5109092acc5de1ff085d",
+      "sha256": "6e24e9ffadae97ce254bb8eefe9a92abe7e0052a6aa6389c4b95a7f1aa48da28"
+    },
+    "images/grabbing.png": {
+      "md5": "d817e1dba5bd5d891d0504bf1715807b",
+      "sha256": "1d2314051fac5fdc37afc9cc275e5840dba27c3a94c207a37ba882e466393970"
+    },
+    "images/heatmap-point.png": {
+      "md5": "ee1386c1be4556bbbd1b6ccaf46c23f9",
+      "sha256": "000c14c3b37e07885a1bb5c5b84ca5f6a192896a880a5620e53fe837657bf3f2"
+    },
+    "images/marker_iw_type_inherit.png": {
+      "md5": "6a1256e714edce8b0a6d5b8608bda3a2",
+      "sha256": "d49b27a6847a0efcf5b0540e0bc686560d6a517bf94fc9e3f754336972577592"
+    },
+    "images/mylocation.png": {
+      "md5": "0a9fca7669ac5cc21b2d4e147f62d542",
+      "sha256": "374bdaa67d5af73c306f9290e90e6f59667e1c65d78070105d45c3ef2d2b6a5d"
+    },
+    "images/no-image.jpg": {
+      "md5": "47c89ea6076117bf9ea44d17401e4476",
+      "sha256": "ddfac324195322695fbbc25b30518f41fb6cd231db699cfd6304179084e8e46f"
+    },
+    "images/pegman.png": {
+      "md5": "a932a04b3d3a2b1a8795bc89ca807e61",
+      "sha256": "094a1173cb27950da1f4514bcf6578ec859490973203ec22f22fd4c9844d06e0"
+    },
+    "images/sort_asc.png": {
+      "md5": "9326ad44ae4bebdedd141e7a53c2a730",
+      "sha256": "595704c3f3cf4cb65c7d9c8508a99e7480e150095473faed31a07c21b13389b8"
+    },
+    "images/sort_asc_disabled.png": {
+      "md5": "d7dc10c78f23615d328581aebcd805eb",
+      "sha256": "a65b8f4f84d6427a81c360282fc5394d51bf99dada5f159e6aa0fce3c396825c"
+    },
+    "images/sort_both.png": {
+      "md5": "9a6486086d09bb38cf66a57cc559ade3",
+      "sha256": "3e016c23ae51417382b640ae2d19eb48047532c37ad53894bd185586559ccffb"
+    },
+    "images/sort_desc.png": {
+      "md5": "1fc418e33fd5a687290258b23fac4e98",
+      "sha256": "d08ed0e21f187dd309030d465224da8085119a15a17d616ba0e477bb50c6f10d"
+    },
+    "images/sort_desc_disabled.png": {
+      "md5": "bda51e15154a18257b4f955a222fd66f",
+      "sha256": "6c0f0c1b21ef6807057afc8ddc1a925d1dbd21cb11e9270ec84ff4ac40d9a3fa"
+    },
+    "images/Spinner-1s-200px.gif": {
+      "md5": "d816869d9a31f13582586fb26309e6d2",
+      "sha256": "94f6b73bdd863cc6fe8dd796da622753ec074c53726ac5028a706f706e62764a"
+    },
+    "images/Spinner-1s-48px.gif": {
+      "md5": "7104932aa7594fd958a927d274be3737",
+      "sha256": "b4c87c949dbe6a69fb35c1b9defac03ef7353493ed05f33f5124b59bd5f80145"
+    },
+    "images/icons/circle.png": {
+      "md5": "2a56ee5bcc58b6ca62bfff5e8117ff02",
+      "sha256": "a1a01cbbb838ef02f56f0f9185c8ed589f18d89d1460eac048fa248fdfaa9e6d"
+    },
+    "images/icons/directions_bike.png": {
+      "md5": "0201819a1033df94d7921beef43a5f53",
+      "sha256": "f1d403b8a2f0d079992169b3e80e35e01614d1af2d8ed3dd152ad19f77f158ff"
+    },
+    "images/icons/directions_car.png": {
+      "md5": "50acb7c84ac3ee675c2acab91a03877f",
+      "sha256": "1db2c29f4095b023cc032d43c7d192e0e011949aded3ab5051574e7b3d972387"
+    },
+    "images/icons/directions_transit.png": {
+      "md5": "54bce32c26694325a65cae6dcdaa4327",
+      "sha256": "828b9e3c4e869e42f0910852441ef2f3d877375254b11f3f3903550d7ed9a926"
+    },
+    "images/icons/directions_walking.png": {
+      "md5": "3a0c3d59b9a55b4d440625ef55b9ed7a",
+      "sha256": "4cb545295f8637a4bad37f7c75a2c0e2c2f38cddd88a4be0c3c287bf9326431e"
+    },
+    "images/icons/plus_circle.png": {
+      "md5": "eaf3a69a24fdb41b2f688ca04dfe2886",
+      "sha256": "25983694a716242297ccafbcec279f3fc453595d6c3c10c12d523a25c9ad43d3"
+    },
+    "images/markers/classic.png": {
+      "md5": "76256b0ca51dc14cdac8599e4bf89adc",
+      "sha256": "0832a4af5b276331a2e9674f25ae35b1431903099a20f7c7dba055e1a93b3547"
+    },
+    "images/markers/classic_alt.png": {
+      "md5": "21812f500a92f6584da7e0c44648f249",
+      "sha256": "ae0e757c1b73544e2be10d21924ce5fc9ef32d73baeb0628eed1f1c13ff1ca01"
+    },
+    "images/markers/mascot_empty.png": {
+      "md5": "b5fa756f4fa2ada58e258774e05cd2bd",
+      "sha256": "492ddb4c6058a7c1fc34e2c9ffc4721dbac879f4b60bf01a3716ed67ae0d4393"
+    },
+    "images/markers/mascot_empty_flat.png": {
+      "md5": "7612a18a04286187d3778b33b37bed68",
+      "sha256": "c16f47419ab8cf6b4d9aedaf126c907920095f2514bc35786e0a8811810af42e"
+    },
+    "images/markers/round_border_alt_m.png": {
+      "md5": "39d2a18c9258d72a5f47467215c1abd4",
+      "sha256": "387d7789dec1b768b975c52f9ab371b6d2f68d774979eb32ea4fdef21b1f43f5"
+    },
+    "images/markers/round_border_m.png": {
+      "md5": "b7deb3ec97355cd0f4e895e47fbc6eb8",
+      "sha256": "b7e92eee6a4f63f02d31c80b29fade58323e213c14c8154de54fe300a9aa56de"
+    },
+    "images/markers/round_m.png": {
+      "md5": "297b5ba89c7894365587bdca4c2415d5",
+      "sha256": "115d320b050cd13a56178d1fa73f42e75e93baf02c9d974433f656fbbf3bd881"
+    },
+    "images/markers/square_border_alt_m.png": {
+      "md5": "e2976d2605eeffd764b427ab9f4520d3",
+      "sha256": "5d2dc2434f21afb2653a9f1bd3cbf80d22246f690eb4404a5c4d21c198f1cc8f"
+    },
+    "images/markers/square_border_m.png": {
+      "md5": "ebbb3eb30c225f42ff5ce88832784097",
+      "sha256": "f2f5de621258704ee4af2c9c625745c2910a269ca01c9b3096329bf4b90fe7b4"
+    },
+    "images/markers/square_m.png": {
+      "md5": "320a262108445ff235cc38da50b09d39",
+      "sha256": "a2f967d649b3366bbf521b0aa93f4d6b1b870c7e5496d2a85fb5ed060a6ca368"
+    },
+    "images/markers/template-classic-flat.png": {
+      "md5": "4ee331d1013636f4d85d4b5eafe4d667",
+      "sha256": "8fd81342905ba2f117ffdad67eea140ddc1d6eb36dd952d2bc183ce3983b4e8f"
+    },
+    "images/markers/template-classic-stroke.png": {
+      "md5": "ed602d78009caebd20061bb714538c13",
+      "sha256": "02b40da6847132329dd90494c73bb6f2ea27ca4ebca67a3b2689e31f040b4814"
+    },
+    "images/markers/template-pin-flat.png": {
+      "md5": "85f0c65cc898a7330d76415aebf2ce60",
+      "sha256": "ec7d32074a0edfd51ee74c7b2ab263c838619c416e6cdf8c37d1fe1c1c07d1e3"
+    },
+    "images/markers/template-pin-round-lifted.png": {
+      "md5": "660b495cb69f3abd3e64124ca80df0f8",
+      "sha256": "c256ba440d9f8e4baae08475b8dfa0ab3a52cbe2750814d8d9819bba03ceebcd"
+    },
+    "images/markers/template-pin-thin-alt.png": {
+      "md5": "5f442fe51e83ed5a6335cdf2c13b50ab",
+      "sha256": "e796f580c788713ec69a27fc476262530d5d707f8d22de6ecf32e4eedf9ace72"
+    },
+    "images/markers/template-pin-thin.png": {
+      "md5": "12b9f65c50014042879e6e9f94381837",
+      "sha256": "7108fbfd62ebe5448e3f08f5afce030b7503580053ad98845b6b7f6f7436df11"
+    },
+    "images/markers/template-square-flat.png": {
+      "md5": "803f614f6f5ba77c2cf2966488435f15",
+      "sha256": "8408d8f5f356e09f30d5ac09d690ca7cf13e84974844c35162a59a60397f7b81"
+    },
+    "images/markers/template-square-pin-lifted.png": {
+      "md5": "b3ef6df2ea94c859ce94c6d16a4b595d",
+      "sha256": "474e47a9e53be1ed1554b1ebca014e0ba324037545b56cf9767ff4215c1048ba"
+    },
+    "images/markers/template-square-pin.png": {
+      "md5": "7e910e98ad4e958e26308b375e23ae5a",
+      "sha256": "e50bb2038e24b0fc62824cb6d663cd275d4dbb1ac04fb418ffd54cc9a49f8c51"
+    },
+    "images/markers/template-square-stroke.png": {
+      "md5": "7c8671d53335a60f18ead76d1d5a950e",
+      "sha256": "154941407e1038ec0205a2e93447d6bac06e5f9e9ea7c6235387b9d5904eff1c"
+    },
+    "images/markers/templates/template-classic-flat.json": {
+      "md5": "3660d168991d50829369bfbeab957ba9",
+      "sha256": "78208cf9491759bd2d966dcdc71edf017732abfd4accdd7c0fa9b11021719f1b"
+    },
+    "images/markers/templates/template-classic-stroke.json": {
+      "md5": "436196fb70185e8259d65363ba1d52b0",
+      "sha256": "73810e855b437f9d5bd5b4b948b11f9bcac27947d893196a8ef531719337048a"
+    },
+    "images/markers/templates/template-pin-flat.json": {
+      "md5": "d54705ecd4ecd73d3d93a298f744e74f",
+      "sha256": "69087dd5ce6ba9c7a40953d295a1465ed6ca57751858bc2c11c5786131098776"
+    },
+    "images/markers/templates/template-pin-round-lifted.json": {
+      "md5": "095a92b15eb361550e28488f525db528",
+      "sha256": "2d8aa9c56f5aba15decf618d17541b3051d0d5849dd6191797bc65399f9ea55e"
+    },
+    "images/markers/templates/template-pin-thin-alt.json": {
+      "md5": "99d9fc2671ae6fee106188004728dfcb",
+      "sha256": "59fb19c221daad3bb92ec5a7862f901174ee7379dcb38150f346bbd446656d1d"
+    },
+    "images/markers/templates/template-pin-thin.json": {
+      "md5": "1f048ff953a302ec97eac38b2161bd2a",
+      "sha256": "905bbe25e492745c7af02529f2ab2f4da291c38b0ce91eeec89f4d9fe92b9a85"
+    },
+    "images/markers/templates/template-square-flat.json": {
+      "md5": "81aa7f999c132c6085e6dc4a310cacb5",
+      "sha256": "3371b3081a5a6c76004f820e810dabc275e8ecb7ad9142444a0c20ba4e428c2c"
+    },
+    "images/markers/templates/template-square-pin-lifted.json": {
+      "md5": "2ca980d272941ac033a99543a95df2de",
+      "sha256": "10d4d55712acbee57cbf0055c39686c3879d0c9c246987e3293aa90b94182318"
+    },
+    "images/markers/templates/template-square-pin.json": {
+      "md5": "214f3a187bd7d3e34e161c701ab9f884",
+      "sha256": "b48fbee494248f2fdf41eafd8dee0174ddb30202dea22d9fe7c59ecc07871cac"
+    },
+    "images/markers/templates/template-square-stroke.json": {
+      "md5": "f497498be379644c6857149b9fb036de",
+      "sha256": "e07f33588d2f43fc698b773978c3639c390b8dc050fc9d67788edf62b68025c8"
+    },
+    "images/road-signs/enter-roundabout.png": {
+      "md5": "0bd981573625b0561f69a653bad0ff9f",
+      "sha256": "463ad3ab2e278757a73acf4563a0a32ba31b744eeedb41e89950ee15b036f425"
+    },
+    "images/road-signs/keep-left.png": {
+      "md5": "f6fd623d61b01268457bb0ee1ce5c3d7",
+      "sha256": "4b0054555affebb0b0399224e12cdf7badcd035b6063c6e6d65aae9ec9eb5981"
+    },
+    "images/road-signs/keep-right.png": {
+      "md5": "f75fd517e9436635a3d5436f2f6f84c3",
+      "sha256": "3f634c87a79f2962a229b5b7ab9b4c1d7ce49e37bddfc75770edf682bf04646c"
+    },
+    "images/road-signs/left-ahead.png": {
+      "md5": "43b33ba4503bd979b70bcb295d8d9475",
+      "sha256": "20e5478675f414804803c0e72b35b5e6368846f82694301f5c50e87f4d60acdb"
+    },
+    "images/road-signs/left.png": {
+      "md5": "848af108b8d93697c27e4882a16abb98",
+      "sha256": "b190da2756bf5ab7b656dffd28eb113a7d037efcbba78bd6ea73efe3a2b81a82"
+    },
+    "images/road-signs/right-ahead.png": {
+      "md5": "38dfdda9f5c60f3b7071e913e2c983a3",
+      "sha256": "500bf095a6a2f230602f865ba8ceb1c18e04c85959369dabe152c8dbc9147eda"
+    },
+    "images/road-signs/right.png": {
+      "md5": "fd980efa75c29a614b2d3ffc5c7e7abb",
+      "sha256": "dbdb7025b80bd1f478e473511fadaaae5397222f7adf7ce9f0dce750d8a5519a"
+    },
+    "images/road-signs/straight.png": {
+      "md5": "31073ad9d5d870e248b2f798c56a2301",
+      "sha256": "15172d1fed17927b83fa7c29b29cd6753ab439ddecc409cdf2e84fb93445fb85"
+    },
+    "includes/class.add-map-dialog.php": {
+      "md5": "d5e040fc1fbc739254e345af0016b52a",
+      "sha256": "c6c187e1b447434a5f66289c2cb04c7a661477b827f6d3d67b3227ae957a5592"
+    },
+    "includes/class.advanced-page.php": {
+      "md5": "8dda393c0a8797614ab23ad8784e3548",
+      "sha256": "680d8c0aa4f7edce84cf77ba22239108fc54d23f385aad3fbe4da798366b483e"
+    },
+    "includes/class.batched-operation.php": {
+      "md5": "49fdfbc89b84a2a7412ad830473a8576",
+      "sha256": "7b59e393965e2b15a309e509d8fc490f166957319908bedf20370c96240ddce2"
+    },
+    "includes/class.categories.php": {
+      "md5": "c48b12e68d1eb998057c95c1c574d381",
+      "sha256": "8cca0671b138b41c06cbea33bc03276b16d98c884524273da131438628321c2a"
+    },
+    "includes/class.category-legends.php": {
+      "md5": "a1ce414418ab41407ceb249147fe5163",
+      "sha256": "6c181760ea42c9e59d0b1272f4c7dcaa4007abc4a7dc96cb023c889d2dfa2ab8"
+    },
+    "includes/class.category-page.php": {
+      "md5": "0f927f6d5ac725760f46b94617b76905",
+      "sha256": "7bab19ab363ef01a445e7b2bc3636c71c63903a1973da298ceb47080cd93efd2"
+    },
+    "includes/class.category-picker.php": {
+      "md5": "f8dd9276bfb7f70a1c277f764a11e909",
+      "sha256": "8e3c0ee13a6921b08a47362187f483beb3c94bc3da296c07a7eeaaf29bfe1e4d"
+    },
+    "includes/class.category-table.php": {
+      "md5": "98868b9b3db278aa42ea20e9da432fcc",
+      "sha256": "bb9dcba0527a04065dd3ea80879317a2ec99ea004d930bd3d5dae865af067d4a"
+    },
+    "includes/class.category-tree-native.php": {
+      "md5": "ea00cc1e7ed6ed071fc638d14906672d",
+      "sha256": "88e052d2af1641498f18bf48466f4b5986670a9fffba47f486620dfee280ca9b"
+    },
+    "includes/class.category-tree-node.php": {
+      "md5": "6dd5bee96d9b37245908fcff33077a8d",
+      "sha256": "04a6ac0cffaf61217148d573fe495fde797780b0ae0eca57c804feaca5252f5f"
+    },
+    "includes/class.category-tree-woocommerce.php": {
+      "md5": "fd424afe2c0a44301c4d448a150d4a9f",
+      "sha256": "e3aef9cc3fb10e6092499087cce23e9430940aca10fefbc60ff974a19e1a8a59"
+    },
+    "includes/class.category-tree-wordpress.php": {
+      "md5": "9a3c6bbc1da8e481b2d9a2ecdaa95ca8",
+      "sha256": "ca2d0fccd7a203ccaec0c5f4f935d2264002159868b2bd06ff72b1e67e45abf8"
+    },
+    "includes/class.category-tree.php": {
+      "md5": "6fc3ba2671979c841be5fc3625e6b794",
+      "sha256": "22295f4961d0f9b2ec00ff7b308958b4d86eefb06d508a5dd52dbeeee094019a"
+    },
+    "includes/class.category.php": {
+      "md5": "674c2a141cc22f20a725e79cabf67832",
+      "sha256": "10336bef22ed161112823d2a0bd913ec96410c23b644431477d03980ea1c03e5"
+    },
+    "includes/class.content-editor-map-button.php": {
+      "md5": "d5e040fc1fbc739254e345af0016b52a",
+      "sha256": "c6c187e1b447434a5f66289c2cb04c7a661477b827f6d3d67b3227ae957a5592"
+    },
+    "includes/class.directions-box.php": {
+      "md5": "a57c71a2b013110f25a55e1fc16810f0",
+      "sha256": "d5a59f21465ba595507d16e547a06ea1fb36a7b359efef978cde029ea111d431"
+    },
+    "includes/class.fontawesome-icon-picker.php": {
+      "md5": "393d8183a56a40de16e7f6ac4cc90f8f",
+      "sha256": "86b903a7d077be37eaeac4bd7080cb917fa0a6c39a16d8b9bb2a560bbd32db48"
+    },
+    "includes/class.heatmap.php": {
+      "md5": "64f1745f05a46df5af5c413d8d32bd1f",
+      "sha256": "9d3324b2169a5a5864edb9c8fdc07b4444e468fca9fc230387ac3b8e5e87be02"
+    },
+    "includes/class.imageoverlay.php": {
+      "md5": "2fd6b793da5a0524e5437c5d4e35212b",
+      "sha256": "703326e3abe72a7b747ecdbce9b5b03448cc670c08f08af25a1cb69270c00005"
+    },
+    "includes/class.legacy-marker-listing.php": {
+      "md5": "d2173a3098aecbef8466279564724cae",
+      "sha256": "d7c72320baf547e4773f3802bb4ad8d3ec60a6a0985f89bdac92b70d71a60e01"
+    },
+    "includes/class.license-manager.php": {
+      "md5": "b61691a7eabf7f68a9eb9ac1a2550ed0",
+      "sha256": "9fa46323b8dcc79c9ffad2f26be025968311c92569812ca6823690348c9b537f"
+    },
+    "includes/class.map-select.php": {
+      "md5": "b0d36057e80898a64d452b57cab251b1",
+      "sha256": "24bfa5a2f2f0b46e7daf0dfe24c034f2a16e18b07ee1b15775c33dc9e5453663"
+    },
+    "includes/class.marker-filtering-tab.php": {
+      "md5": "0980842d02588c13de779bcbc4677f2c",
+      "sha256": "9574b780d929128e0ec413c6935eaad196b688e962002e8361d7827b75edccb4"
+    },
+    "includes/class.marker-gallery-item.php": {
+      "md5": "6d723e1b983030979a2dd6695bf22d90",
+      "sha256": "573b2c7df24705598b5094a098a361468e7b88ed3bb580073c3fbd108b5e57c8"
+    },
+    "includes/class.marker-gallery.php": {
+      "md5": "ae89f13d10be704bba437ec4cf960587",
+      "sha256": "bde615091fa2f920133854feebeba6f4b2ea0668144df7c5e916b011cc27805b"
+    },
+    "includes/class.marker-icon-editor.php": {
+      "md5": "78bbc86fedf1759fc1620c6cc1706e3f",
+      "sha256": "bb3f115f64e7d970dbf10e0fbb8e2a44197c3e80f940d3649e1fd2a19a9400ef"
+    },
+    "includes/class.marker-icon-picker.php": {
+      "md5": "c49bb8c3508882ab378cec52f3359925",
+      "sha256": "64c8f48460d669bf1ff2b54e167b958a3e8779df319f18b164172c83515a48cd"
+    },
+    "includes/class.marker-icon.php": {
+      "md5": "c7f6f48573baa70a71a08fe37f57b9d9",
+      "sha256": "4a0ed3dd59dc40d8c82d6a1ccb12ec196bbe22161d84054a996ba1f1d6159322"
+    },
+    "includes/class.marker-library-dialog.php": {
+      "md5": "479efccee76e7d6e8b7bc3e52f58c0cf",
+      "sha256": "9815693847679b9cd89d1a30f29438c386a88cce5fa8a273679069f254445d24"
+    },
+    "includes/class.marker-listing.php": {
+      "md5": "04fb0e1ea0273845c70eff9bc16350e9",
+      "sha256": "250a878ddee1e983529c02c52b33fbdc7fa617ebdfee2f9be1ec2ba833235977"
+    },
+    "includes/class.pro-admin-ui.php": {
+      "md5": "85358123745417ecbc50560fb8e32bb6",
+      "sha256": "775ac4db8f99a14171b84064937a027e8b4de1ba11ed9d5e471ba488daaa598a"
+    },
+    "includes/class.pro-database.php": {
+      "md5": "d9c84a4d817f5877cccc5823dad0d23e",
+      "sha256": "265dc82b721c4dd8f297c59a2eb03f79464aea2e82816e5893b1300140347a05"
+    },
+    "includes/class.pro-feature.php": {
+      "md5": "877d33030dbb1b0ffddcad7ae63184a3",
+      "sha256": "d2bbe2976d3e904969a59ce4e8599bfb28ad8d4c35569aa0730df19b0ab97064"
+    },
+    "includes/class.pro-map.php": {
+      "md5": "861c31c4b513c1614ad4a45f01e3e743",
+      "sha256": "bc59c817c921c54a9050eab3bada73e4c8600de416f5cd8d5a187977e9c8725f"
+    },
+    "includes/class.pro-marker-filter.php": {
+      "md5": "5e8c159afce91726c6c8630916ac9c9c",
+      "sha256": "9a6858b44d2a2aa7ce9200885b2130bbd15e8ad6a1c13135ab18068ca906bf0a"
+    },
+    "includes/class.pro-marker.php": {
+      "md5": "83e560e1415ea285159deadd67e317ac",
+      "sha256": "354653f7a98f9f658cf9457540fd2853a4f389d60a4226c41f255e65adec18e4"
+    },
+    "includes/class.pro-page.php": {
+      "md5": "11120d15144cb5aba0ca8bf82de5e0ac",
+      "sha256": "3289b366e6f95789ecaad5053113174ddcd590af03f3369f9c9245b1cb444471"
+    },
+    "includes/class.pro-plugin.php": {
+      "md5": "d1eeab03aa362fe9370f9919f2595ca1",
+      "sha256": "bdfa31159670655c0d83e6882e0d678a25467b8ef1f235fb49468ae672014f4d"
+    },
+    "includes/class.pro-rest-api.php": {
+      "md5": "4a0b625a46ff99ae8bf8f02491921c01",
+      "sha256": "0b774b5be2bb8df31317ae4b0ae46db34e22cbac6ae70a6b922045a295a7fa83"
+    },
+    "includes/class.pro-settings-migrator.php": {
+      "md5": "25f4f805808884f74276b5aedc650b60",
+      "sha256": "999b9b48ff09d381c1741127e9f2198cadce6ceaf6802d1c9737eb63d329598d"
+    },
+    "includes/class.pro-settings-page.php": {
+      "md5": "7a872c46889449f927c04e56367d9b2a",
+      "sha256": "6c35ddb3e114daaa062e0b521fb3d685b3710772c330df65c17a3f1599747f3c"
+    },
+    "includes/class.pro-shortcodes.php": {
+      "md5": "232a34d874f1a5cc04594978eb9949af",
+      "sha256": "8675e23622a9cb29b8646dce88f6df6e41ba0212ee0f8586f58a8b0d75cb3041"
+    },
+    "includes/class.pro-store-locator.php": {
+      "md5": "f5a1342fba128da64a151be9876fc090",
+      "sha256": "dfb3912a6c606eff63fb272083578593b2391452f1c28b64347bc83bd58b614c"
+    },
+    "includes/class.wizard-page.php": {
+      "md5": "d4aaec505e735fbb1b31b713b939d517",
+      "sha256": "fc6767f8188e4fe17d825522939c52dc331dda3016b459f645d7f7bc96be7f5c"
+    },
+    "includes/page.categories.php": {
+      "md5": "935ad594bae65ba8a5963a604ac7e7fb",
+      "sha256": "062a721b91819d286c5af23d37152fe4d4df1c992ac7d834a9c620cca7ca4d65"
+    },
+    "includes/page.edit-polygon.php": {
+      "md5": "73845ac2f408847fcb54b732c0d7244c",
+      "sha256": "ac78612c970bfc1267163457fff21eafbe6937bac3edd8030a740328258c8fc3"
+    },
+    "includes/page.edit-polyline.php": {
+      "md5": "5d37794cf0c0d6ee9c14282c628aacd1",
+      "sha256": "6c7b60ef1691bc7fc5bd2bce5c25dd7043871a86f08a47f33977c08bda39e82f"
+    },
+    "includes/page.wizard.php": {
+      "md5": "850e59c7d28d21c987f86aece7b13573",
+      "sha256": "616d18c6ade360d9851ba00ee8014ffb185066e8b86b3c9d02f9ee2026a1471d"
+    },
+    "includes/3rd-party-integration/class.acf.php": {
+      "md5": "98b9dc83de03845f9cfcf7db6b1e756c",
+      "sha256": "9a1e65206cd09977260bb2dc097baaec913a6b34074e92c28dfe85256dfcca10"
+    },
+    "includes/3rd-party-integration/class.marker-source.php": {
+      "md5": "3fa48ad14be937390c8f67eae5afcace",
+      "sha256": "5ecc02789415cc5df9185a249c9084b1f5470146ffe54d0e097bc4f487723e07"
+    },
+    "includes/3rd-party-integration/class.pro-gutenberg-extended.php": {
+      "md5": "6050bf07a7ccfe3babd10bc037ba85d7",
+      "sha256": "06b5d74cd4243a368f82e25c546de3d0c9e4958973c3fee64530f94310ed2e4c"
+    },
+    "includes/3rd-party-integration/class.pro-gutenberg.php": {
+      "md5": "0b50b63a161b245c854ad1d9b3e6bcc4",
+      "sha256": "49f2cfcb0eec97ddcfaf78b1a9b3f61837d5f927f4c84bd89b3fab0697336818"
+    },
+    "includes/3rd-party-integration/class.toolset-woocommerce.php": {
+      "md5": "167538cd7350c09d1b032a7f17d7377e",
+      "sha256": "c568e8d0d88429832b5e2c91f05a8ef744ceaa6baa264675bc47d6af095d1ad0"
+    },
+    "includes/3rd-party-integration/class.woocommerce-checkout.php": {
+      "md5": "17f00c233262269181d62d764caf50f6",
+      "sha256": "d9f3e07c8a96d9fa5521b4c46bb55ed4a3b2b070343bf8edba609e6d05dfa84b"
+    },
+    "includes/3rd-party-integration/class.woocommerce-products.php": {
+      "md5": "b5a57ed711f7d60a1e08c705672b3926",
+      "sha256": "aea1cb785964e50c71e304665a66df3406a3fe6e61acee8aa58f181c9186cdc3"
+    },
+    "includes/3rd-party-integration/class.wp-migrate-db-integration.php": {
+      "md5": "86944072f17c5b4eafbaa5b8a9b4fa14",
+      "sha256": "ecfbddd354e80974ef06fc0c27cb38c69465fd40527322cb5348e05979c22c37"
+    },
+    "includes/category-filter-widgets/class.category-filter-widget.php": {
+      "md5": "cbaaac36e254d157a0f44a87e35943a8",
+      "sha256": "28b92cc4bc4be3a9b5218cd5fdc02fe4ff1c605ef22a391ec0e24dc0d653ded9"
+    },
+    "includes/category-filter-widgets/class.checkboxes.php": {
+      "md5": "0d11b812983c43d2b645475a38d319f9",
+      "sha256": "8d71030cdcd135cb2e19a71510533ce6b4ba49698daeb9910135b579f9a080ab"
+    },
+    "includes/category-filter-widgets/class.dropdown.php": {
+      "md5": "917f8a1b17a92c7cf3aa947cee59dcfc",
+      "sha256": "7eea11429106e0412464859e271e0e8330747b39f34090a18b785189299ef0a8"
+    },
+    "includes/compatibility/functions.legacy-pro.php": {
+      "md5": "f09873dcf1cdfadd339f9bd9c46355ee",
+      "sha256": "54b59f5398c2398c5c053c2081e876c38cf0b93ac4fe0ad5ad581777976fa0d9"
+    },
+    "includes/custom-field-filter-widgets/class.checkboxes.php": {
+      "md5": "b1cb8784bb918331fea585f5f98f4850",
+      "sha256": "963e73c8635da2f7b8e03eea912c2e04001cd8134f705389a41d3fc382de8212"
+    },
+    "includes/custom-field-filter-widgets/class.date.php": {
+      "md5": "14612a147e1e8eef08bece94a1f6f5f2",
+      "sha256": "98c53a07bd4752f1f21a4d08a4a6189d79ae04c7d0b8712d45c8a04a2473715a"
+    },
+    "includes/custom-field-filter-widgets/class.dropdown.php": {
+      "md5": "ee8999a93bdabcd7cbf2497b6caeefc3",
+      "sha256": "d589e34e21f79ea093d9fd678a51a977385bf8f5a0f17f7b4f7dc9b75ca78c7c"
+    },
+    "includes/custom-field-filter-widgets/class.text.php": {
+      "md5": "b24396336481f5b2ba7c437db552e844",
+      "sha256": "d1230b61b12ead2429615f1554cc66b393ae2d4213a9020ed4c2a5cb52bb16d0"
+    },
+    "includes/custom-field-filter-widgets/class.time.php": {
+      "md5": "d4cec579175b4a9e66a151db1ed3fda3",
+      "sha256": "cac29cc9badb6defe9c6d28e77be3e0ce9e2556188ed333cf5c447a079059511"
+    },
+    "includes/custom-fields/class.custom-field-filter-controller.php": {
+      "md5": "62fb839705b5fa8b277be884e93dc142",
+      "sha256": "2cbb7119a14ee6b375181fd7e744b51a811e710df914e58b4851e51e067ce007"
+    },
+    "includes/custom-fields/class.custom-field-filter-widget.php": {
+      "md5": "ee08d60db7302f0d860a286c4ce13fbc",
+      "sha256": "75b979fe92ce99d3efd1ee5a553db3c0011905d61925c44860cb444bc47b0f79"
+    },
+    "includes/custom-fields/class.custom-field-filter.php": {
+      "md5": "6516f92599e4697d61d077f27dca84b6",
+      "sha256": "c332223d8bb4bf3415c822dfc9a8edad481d58530780c7779599695808176e27"
+    },
+    "includes/custom-fields/class.custom-fields-page.php": {
+      "md5": "a523d2bf05634e3bdc09066d96eb8a0a",
+      "sha256": "27d225adef7eb9d9d667775f72940cb045351bab9740b4ba41e6d6e33e1e24f5"
+    },
+    "includes/custom-fields/class.custom-fields.php": {
+      "md5": "b2fdb1cafacb02b7df814ba7805cb4b1",
+      "sha256": "db0d631924d17bcbda352ea84c3a60a1377d620b319dc9612f4c110fd033d980"
+    },
+    "includes/custom-fields/class.custom-map-object-fields.php": {
+      "md5": "d9a5735616a32826b8678bb13585472e",
+      "sha256": "901bd6ab4fa8c16b2c2833d7a13e392d8d84ba34f4e9f33af60ca6d39e917a8c"
+    },
+    "includes/custom-fields/class.custom-marker-fields.php": {
+      "md5": "5fca93263131868c2e11af91bfb71e12",
+      "sha256": "d5ed1c2e14f632205125235ab7a473dfdc91b43199582a3c73e92dc9f687afde"
+    },
+    "includes/custom-fields/page.custom-fields.php": {
+      "md5": "b25686ca9f9f67a67ef0b5e0dd6df981",
+      "sha256": "de722eb3f54cfdd0be31fb4626677fc548093680bb921aa9ea1880c896cb4fbe"
+    },
+    "includes/google-maps/class.cloud-api.php": {
+      "md5": "beca28cac402cfeb031e69c6ca70b710",
+      "sha256": "d46d51eac34f6b3b69eb6fb902f68ffd563e7309c0ae878ad16eb73eb845c580"
+    },
+    "includes/google-maps/class.google-pro-maps-loader.php": {
+      "md5": "56f19bf8a757d0065c94619683948ffd",
+      "sha256": "3c43d7e852b30ad60254297a174452c52e06972d4a5d61e34c5ab0acd915f839"
+    },
+    "includes/import/class.batched-import.php": {
+      "md5": "3f0987132ee0ae0507b9b810643f07df",
+      "sha256": "6dde056aef906ab033300f118fd611417ca5617192d72e983884e1e2137b9c0f"
+    },
+    "includes/import/class.csv.php": {
+      "md5": "661cf7e8e18f5ea871bfe0677bd4a6e0",
+      "sha256": "25752c20bb9936c07da7783d6a3b7c787d3e2e5ab2a004b74a408263f4fd6b8d"
+    },
+    "includes/import/class.json.php": {
+      "md5": "aeab06a269192d2374827f34ae42a71a",
+      "sha256": "55cd2018380f9f22d3a1d79fe66d76aa531b1cb0e812916048e50b796fe79dd6"
+    },
+    "includes/import-export/class.backup.php": {
+      "md5": "44e5642b74f479b7a29a8756c34a7e29",
+      "sha256": "fbb4101f6fe28b000a0ac4fddbadd20ad9de0d421a6fe1110301498bbcb33f0a"
+    },
+    "includes/import-export/class.export-csv.php": {
+      "md5": "e5871468dc5a42162f12557cd912841f",
+      "sha256": "99620360cf1dd50504787ca15e751a36dce79c65cadcf8712fc92aca71405e16"
+    },
+    "includes/import-export/class.export-json.php": {
+      "md5": "aeb23de5c40e22aee88dd31952ee54da",
+      "sha256": "e0cfd4a945e71c41bcc120b1423a1e10a610f43e176f9c2e04b6fb8d86002890"
+    },
+    "includes/import-export/class.export-kml.php": {
+      "md5": "c84b02fef9d06a05771d6fada209be57",
+      "sha256": "9a02330fba06d4a34f575b7422afaa853b1bb94b7dff47f692a2500a632f46bd"
+    },
+    "includes/import-export/class.export-settings.php": {
+      "md5": "38edaba3f39c7aa9462e0e71003dc234",
+      "sha256": "6dddc489fc241ff0af8d21f3341a2a0e02995eecb337aae4a580f22b1d04461b"
+    },
+    "includes/import-export/class.export.php": {
+      "md5": "eb1f33e377c5a823ed6ffd166b4bd77a",
+      "sha256": "f44f647e1a88866733f4e5ef58070642d3672b1212b3c5b7cd15e5f1674ee617"
+    },
+    "includes/import-export/class.import-airtables.php": {
+      "md5": "505ca11e9ad109cff774a43ac29ee696",
+      "sha256": "80cb244bc9051cb6b17c3f843e72e62b2eeb86585cd25cadd85658f3b2eebd30"
+    },
+    "includes/import-export/class.import-csv.php": {
+      "md5": "d7c00da2aa2ee70977cc98586129f125",
+      "sha256": "0771ea555fc908cb2c1fe20adb3afdb934a50a36effa42dc951ff8c0cebe28c8"
+    },
+    "includes/import-export/class.import-geojson.php": {
+      "md5": "43cc6a1d0b4cb7b76342490938831e0c",
+      "sha256": "0425f5f23ca226f65657b5ddbd38d2ffb33739fd009a3c1bbbcdd79a9f34df56"
+    },
+    "includes/import-export/class.import-gpx.php": {
+      "md5": "6590ca8d1438380efc5b7fe0d239b8c5",
+      "sha256": "3982dbdf28479b4de0ff3a566dc7482c7f03686fd0dd6d385768d3c82f0888e1"
+    },
+    "includes/import-export/class.import-integration.php": {
+      "md5": "f6fc8a8a3585958c195bf32bd3b2bb73",
+      "sha256": "b3a7616ab9bb3769b58100b6783128f46ed5ebefca801bf444eb365ba2d664c9"
+    },
+    "includes/import-export/class.import-json.php": {
+      "md5": "72de86c6781fc6089fa31c4915e99152",
+      "sha256": "aaeb6739b510632ab91349689b75a0fa62098841151c37ab02b0282cf144a896"
+    },
+    "includes/import-export/class.import-kml.php": {
+      "md5": "734b6a4770514fa20ead30704dd1a04d",
+      "sha256": "84188768ac9a14a35231a1d341b96eaa5d33d6a0a5f17efe8b40d872ad06da72"
+    },
+    "includes/import-export/class.import-settings.php": {
+      "md5": "9f7097c6f41513eea35b2546f6cfae72",
+      "sha256": "9cd6fb00a813d48662e41fd39888f0fbfff028ed1da3110c6a95c3766bd91b6b"
+    },
+    "includes/import-export/class.import.php": {
+      "md5": "8b873a81d87d69f1be25b7b18efe4e15",
+      "sha256": "e131e8f4779aeaa36183acd259591b038705233cd3117bfee4297e0ba8270467"
+    },
+    "includes/import-export/page.import-export.php": {
+      "md5": "9b2dc11f572dc266cd1c4a1a2de1599a",
+      "sha256": "bd4520ce2babe6907bec38541244514c4c8aa2115b3658a6a6c4b53e2ad7fb19"
+    },
+    "includes/import-export/legacy/class.import-csv-legacy.php": {
+      "md5": "c89470e3d0826b710cab64573bffb469",
+      "sha256": "30a1207ce0d5644e29777f70facc063e6c2807649b534ff068d7b7922abbce6d"
+    },
+    "includes/legacy/page.legacy-import-export.php": {
+      "md5": "374f99200fc1ab3f4195404b19473c9f",
+      "sha256": "5e0203f4af3be32bb7743bb2d27482ca269ea66d17f4ce9758d233c8197551e9"
+    },
+    "includes/map-edit-page/class.directions-box-settings-panel.php": {
+      "md5": "9966fe02513d100bece8daf2fc53b5a6",
+      "sha256": "5ca8570c7fe14bdd2c577c8d905e221c1bcc98b666e5fc5315ac97621612d051"
+    },
+    "includes/map-edit-page/class.pro-bulk-marker-editor-dialog.php": {
+      "md5": "dbd4556ad22e2c01feddd4d68315b715",
+      "sha256": "0bc72e9e148c5b78d1744b98000e780e6532fc040cacaa07190cc23ead43d729"
+    },
+    "includes/map-edit-page/class.pro-map-edit-page.php": {
+      "md5": "494ceec889359fe7d3f794e0e8a5b5d7",
+      "sha256": "e36869a9fffdeee5829cb3a51c8ede064baa45940647eedc0ca422c7568e72cc"
+    },
+    "includes/map-edit-page/class.pro-marker-panel.php": {
+      "md5": "a58e4243c16f4b0e32ef58f584333e75",
+      "sha256": "2951a928a5c4fe867b28eea6cec59b5afca4ff8c4d54247a2e03aae092805283"
+    },
+    "includes/marker-listings/class.advanced-table.php": {
+      "md5": "84a2a50b373412fb53c2176769dcbe41",
+      "sha256": "45b2185300d9fef9c7f503b0ae1328ec78ea9d69a211f5e5d9801094f86c13b3"
+    },
+    "includes/marker-listings/class.basic-list.php": {
+      "md5": "377cd55dd2032df11c3051860ff9ae64",
+      "sha256": "69fb566106bb5f3a1359c9787f405869a3fd5c03a3ec127ab9cb04f628941642"
+    },
+    "includes/marker-listings/class.basic-table.php": {
+      "md5": "b9725d010e1872266f5b464c3fd470a2",
+      "sha256": "e22f8fd553d9d29a32e34655e321370eaf94422a226ff6c544f1097e70052950"
+    },
+    "includes/marker-listings/class.carousel.php": {
+      "md5": "486943c96403754a12ad0e31e233498d",
+      "sha256": "27799695f678757ec8d646a3bc3067c8d816c9b317419e32cb0c066e142f3852"
+    },
+    "includes/marker-listings/class.grid.php": {
+      "md5": "c780926e48dcf7d3de976490ab9fce13",
+      "sha256": "08c0fd2db81496fdf0c5c3c48426872ea2dabb3666bcf0ae768d3a63fdbfab8d"
+    },
+    "includes/marker-listings/class.marker-listing.php": {
+      "md5": "0b6e4572ccb1f1ba80c74eb9ec460222",
+      "sha256": "cb38ffc1972d00928fcd533ba2c554b4f6181be97f10b33318e51c6a007f4251"
+    },
+    "includes/marker-listings/class.modern.php": {
+      "md5": "87cbd8895ce3857c03ce812eb7b02c48",
+      "sha256": "4add89a6376f305627918ab5654b82de020de81be120778a34a926389be54798"
+    },
+    "includes/marker-listings/class.panel.php": {
+      "md5": "da623a6ffd8a0e9927b2078d79d97a00",
+      "sha256": "1b01961b4caf4c103b5d5bd7b8575be94e63734459c21abeae99965699821d43"
+    },
+    "includes/open-layers/class.ol-pro-loader.php": {
+      "md5": "ccc14a0ad1fc8ac80a30194ce3b0e823",
+      "sha256": "102cfa778f679ff0704791f9ed6c5a61420b7ea533909f2405b9f4583f54ecff"
+    },
+    "includes/tables/class.pro-admin-marker-datatable.php": {
+      "md5": "45f7a784d9ddf4651900229b44362f68",
+      "sha256": "5174a0eb1546ae125c5f377008a1de15ce8ad45b70085d3b6e8e832e82f87b19"
+    },
+    "js/admin_category.js": {
+      "md5": "6533892880040fd828a3fc6a2ce6a7f1",
+      "sha256": "45df4d5b8d41fb2f216deb087e898c7761310d1af45d13a72bfa6920d5a7b37e"
+    },
+    "js/category_media.js": {
+      "md5": "eb54cdace70e4dd29157ab67895941df",
+      "sha256": "befede545c5a8467895b1b9ce97a5dab3ebed5aca2e381bc946ac83f5501cd17"
+    },
+    "js/core.js": {
+      "md5": "5e0ee6241429ae02c314066025d177b2",
+      "sha256": "a34cd473201b48973f336708016433eed6e810e45c1959d19e795bf006ca7624"
+    },
+    "js/core.jsinspect.txt": {
+      "md5": "5e0ee6241429ae02c314066025d177b2",
+      "sha256": "a34cd473201b48973f336708016433eed6e810e45c1959d19e795bf006ca7624"
+    },
+    "js/core.min.js": {
+      "md5": "5e0ee6241429ae02c314066025d177b2",
+      "sha256": "a34cd473201b48973f336708016433eed6e810e45c1959d19e795bf006ca7624"
+    },
+    "js/custom-fields-page.js": {
+      "md5": "291bca23d9148e691721eea30549b6ed",
+      "sha256": "6a21c418d91f70522e4657a4d91a0980922da4ed7f55b3f1e0b5e3011b73d111"
+    },
+    "js/dataTables.responsive.js": {
+      "md5": "4cc32207b81e1416c8c878adfaee3663",
+      "sha256": "6e296281f4943dd1e5c1431baca2991c94a7265413f4c184e60171f83c035ee4"
+    },
+    "js/dataTables.responsive.min.js": {
+      "md5": "4cc32207b81e1416c8c878adfaee3663",
+      "sha256": "6e296281f4943dd1e5c1431baca2991c94a7265413f4c184e60171f83c035ee4"
+    },
+    "js/import-csv.js": {
+      "md5": "5e0ee6241429ae02c314066025d177b2",
+      "sha256": "a34cd473201b48973f336708016433eed6e810e45c1959d19e795bf006ca7624"
+    },
+    "js/import-export-page.js": {
+      "md5": "a5904a903085179b2d6d6b5770cd9dbb",
+      "sha256": "09f25eb1c201860d45430a18fdbdd5f810e0968748fca55450b666e786086209"
+    },
+    "js/jquery.dataTables.js": {
+      "md5": "5013fbd39bc9d26fbfd5493c8c5ce0eb",
+      "sha256": "f4fc18ddcb55b8edea778b3042075bd34377bd37d00ba5ce44e6ac7cedaeae6c"
+    },
+    "js/jquery.dataTables.min.js": {
+      "md5": "52fa5a4835ce8d9cf91aa104e058a240",
+      "sha256": "1651bbe7924988f5722c18880178c2c376057480bd08397838a4065b68ca5f3c"
+    },
+    "js/legacy-map-edit-page.js": {
+      "md5": "5e0ee6241429ae02c314066025d177b2",
+      "sha256": "a34cd473201b48973f336708016433eed6e810e45c1959d19e795bf006ca7624"
+    },
+    "js/newjavascript.js": {
+      "md5": "5e0ee6241429ae02c314066025d177b2",
+      "sha256": "a34cd473201b48973f336708016433eed6e810e45c1959d19e795bf006ca7624"
+    },
+    "js/owl.carousel.js": {
+      "md5": "ab1913b72d995879532b8d7c6542e822",
+      "sha256": "f2d4c7d3776402e7a27dff77784d4a59cde337c8da39a794d88e9d197e43d570"
+    },
+    "js/owl.carousel.min.js": {
+      "md5": "47c357c05cb99cedbac2874840319818",
+      "sha256": "4e0781bdd2cbb5db04da3b5e059eeca34e325fabb893bee7457b5babf5b7c029"
+    },
+    "js/wp-google-maps-full-screen-map.js": {
+      "md5": "5e0ee6241429ae02c314066025d177b2",
+      "sha256": "a34cd473201b48973f336708016433eed6e810e45c1959d19e795bf006ca7624"
+    },
+    "js/wpgmaps-admin.js": {
+      "md5": "c3863fe0b07407768a1eb5ed9aaad21b",
+      "sha256": "44ad391d9d565e0f78ecfc8021266ff7f068c4728d0f52689ebdce006393c06e"
+    },
+    "js/v8/admin-map-datatable.js": {
+      "md5": "ffb567c4ca3ccecec4ca946965d32027",
+      "sha256": "bd5a53600fadae5a06259ab01b391e68744f9acd015c4f5c3170af958a3a5ba8"
+    },
+    "js/v8/advanced-page.js": {
+      "md5": "1f7b66c68ee9f74b1dd0731f1a917e5c",
+      "sha256": "aa4de3f5240b4b7bfd57fc2713432734314188044c2fd353f16984e9ed04106d"
+    },
+    "js/v8/categories-page.js": {
+      "md5": "2a58cba4be38bad2775648faf06e4373",
+      "sha256": "3d4ec2d6163be3ff3375d14ac8f6cf22b56822590bc0b605b7daf3ae7475407e"
+    },
+    "js/v8/category-picker.js": {
+      "md5": "aefaaa6ccb5abd1effdf6c2e8dccfd81",
+      "sha256": "ba61fe6b843117379c57f652fe59285eab3d71b20945778f27c81e8d0ed0e46a"
+    },
+    "js/v8/category-tree-node.js": {
+      "md5": "4e03cdfdffb1a0ed58f3ec4efc9b61c6",
+      "sha256": "3e0aa272f2cdad76f26d95abe835584b9da3bef3eabd18257bf69feb65fe5976"
+    },
+    "js/v8/category-tree.js": {
+      "md5": "9efe05416ba61eae53ba0671473cb10e",
+      "sha256": "f8576ae1c309a023299301a3487cb9fdc115ba9783d76f3ad996ba7726bb54ed"
+    },
+    "js/v8/content-editor-map-button.js": {
+      "md5": "d28cad8454eb514f1592cbe0d6afa3f5",
+      "sha256": "de634de20ddf1ef495f376f8fe1ae75fc72f2a1b730621f84bd3e903440ba809"
+    },
+    "js/v8/custom-field-filter-controller.js": {
+      "md5": "19e58d831a153ca0150493b824050502",
+      "sha256": "57e61c07266cd72e045556bdf54d6b28e8639f26ab64c401f89b066c2169a1bc"
+    },
+    "js/v8/custom-field-filter-widget.js": {
+      "md5": "f1e91301f351a7dcb79136e7c416b2bd",
+      "sha256": "255e35e658692c0c0c6b0819a1400cd8fc33257e5ee2e769759b52b8f38e77bd"
+    },
+    "js/v8/directions-box.js": {
+      "md5": "c70a23ef80102cca71b6a92271b0b6fe",
+      "sha256": "04d3a22cf3b2fc6c387db6c08bf1e8ea2b01497ad74d62781bccf286fc80530d"
+    },
+    "js/v8/directions-renderer.js": {
+      "md5": "aecf50f0436587fdaf729d60147da26f",
+      "sha256": "5b18b93ec840a9a61e7f482f30e20161f013d86d5cec60d63c7352cdf33c66d1"
+    },
+    "js/v8/directions-service.js": {
+      "md5": "824f5afeb86b9459a654069dfdb2dd22",
+      "sha256": "36943a28b484e8991e57da2fcf3dc2bd5778aed59d4c9c41967d7487edb0c58a"
+    },
+    "js/v8/fa-icon-picker-field.js": {
+      "md5": "d8e82c677e63c8f85fb6cad301d08aa8",
+      "sha256": "48e9ce96e794e2847a9961d633dbace84ab8920a9f251307277e49b64253aabf"
+    },
+    "js/v8/gallery.js": {
+      "md5": "b81110a3b188a0f5f194ee367d14a123",
+      "sha256": "b232cd54f86a4c70380fb3804795207090c1168dc043003a3b33fa562d1975e5"
+    },
+    "js/v8/heatmap.js": {
+      "md5": "32810eb54dca25710c7e9b5ad9f32ef2",
+      "sha256": "10f1be998173f546e96d858dc179bb43f9086be28c7918ff183dd84166dd2049"
+    },
+    "js/v8/image-input-single.js": {
+      "md5": "b90fe273e0a06554d1f619ce2e44b3d1",
+      "sha256": "ec1bc0926a25a6db213e9711ca6e55a3d09a43668740bb0b76d60dfe45c0a19c"
+    },
+    "js/v8/imageoverlay.js": {
+      "md5": "78a0c2fedade90bb794ff29f3b710423",
+      "sha256": "e37446b001d10cbd0021c2346f7d7939412397379d8d55ec3e93a2714a64f9d3"
+    },
+    "js/v8/legacy-json-converter.js": {
+      "md5": "ce3aa6b39b8243e514ddc34061b51a74",
+      "sha256": "bd2a0fa39d977ffb2ad8ba04f44623fa15c3bd2f88f82772fc727a5499a45a13"
+    },
+    "js/v8/map-wizard.js": {
+      "md5": "e4e51b535dd670eb9efd6464d9928e5f",
+      "sha256": "7bcea8a76d7482f4581af8dc009def589153bc8cb054b67471b714b766c0d085"
+    },
+    "js/v8/marker-gallery-input.js": {
+      "md5": "8234ea06a98a62efb2be84457d73ff41",
+      "sha256": "bcf27fa9695a25a96707371d85dc2968974f200310a44858f0b48165b8e22326"
+    },
+    "js/v8/marker-gallery.js": {
+      "md5": "541b3fb2b0ad0db5af5d79440e4d23d2",
+      "sha256": "3918cfdad0acb6ebe59d6dd385603745f99b0311c8811b58947848da45d7dae8"
+    },
+    "js/v8/marker-icon-editor.js": {
+      "md5": "bad069da6d4f74cec33842e639f7693d",
+      "sha256": "ac58f30f98778971ea529525088ae569492610c89247a4759cdfc5c15d9f82d4"
+    },
+    "js/v8/marker-icon-picker.js": {
+      "md5": "56112d78360d57d77ef6b87e74454ae0",
+      "sha256": "2f071c5c17f5f2691b4131452a5ceea371476ca8b5890491f9df86ed4da07693"
+    },
+    "js/v8/marker-icon.js": {
+      "md5": "d7b68c1b690929e423077ce684c4916f",
+      "sha256": "b62ac80243c71572e39a7c3f133c1dafa9750dba3fd31028dd424a3a51ba29e8"
+    },
+    "js/v8/marker-library-dialog.js": {
+      "md5": "4ac6ffaf9b446a6c38a7b06a72cb243f",
+      "sha256": "d9f08c022d2392dd639e355d2c34afa0791681ecae8566e69ca1e43847817d59"
+    },
+    "js/v8/modern-directions-box.js": {
+      "md5": "889cba2decf55482d86291f801826cbe",
+      "sha256": "450bdfbbe9284e80d957875cbab2f0deae42b7bad6e988cdd12dd7f15f319b71"
+    },
+    "js/v8/modern-directions-result-box.js": {
+      "md5": "dedc67e6d9c5bebd351943d0436238e7",
+      "sha256": "4516708031438c4abf5fc39b36ebf1f9c93901245ea435c6176162433d09ecbe"
+    },
+    "js/v8/modern-marker-listing-marker-view.js": {
+      "md5": "ae125aa1c77cec48fb845887473d1e8e",
+      "sha256": "58158d7354a51b5eea0d498b126d6252664e064fd75a115454e141a74d6d2dff"
+    },
+    "js/v8/modern-marker-listing.js": {
+      "md5": "f1e41f42085bd0242ad005b2b1f8109a",
+      "sha256": "4db74e0cd87e6ec61c403e7fead025c17c779fa4ca850d9b7d981ec7cbd6c674"
+    },
+    "js/v8/pro-address-input.js": {
+      "md5": "06590e55834d4cefdadfde11db265c2f",
+      "sha256": "4f424ff9154f035c44ed5d3185725a00ab3ec0348051dba65f2d17e5d55467bb"
+    },
+    "js/v8/pro-capsule-modules.js": {
+      "md5": "c1d0dd5703a27f6a762947d188560e9b",
+      "sha256": "4195d821e4e8a108445e3e535a755bf55b549550481912ddf2475c47cc9b5bf1"
+    },
+    "js/v8/pro-circle.js": {
+      "md5": "3e941cbd56eeab14df0434e0ef254bad",
+      "sha256": "29920883df4a91b6810b8eb8057265a2bf5d1ccf38956dd9a8d34aa05e11e846"
+    },
+    "js/v8/pro-drawing-manager.js": {
+      "md5": "1c32465b25961c1a86fd87b80892cae3",
+      "sha256": "608f3d0aed2090a6fbb24770e3eb49ba71ae455953d8b9167275405bb1a80402"
+    },
+    "js/v8/pro-generic-modal.js": {
+      "md5": "ce612990ab2fea7eb33380a6d375d79b",
+      "sha256": "8630e5bf45354c3d8101f2371574d463ee711dfb4574dce79d00bb76191d068d"
+    },
+    "js/v8/pro-info-window.js": {
+      "md5": "ad4e7719526d6b3a7f085a3942b85775",
+      "sha256": "553050db0172a12dbbb949941a5b3e2139e54c3edfd53adc6293eb8e4d0058dd"
+    },
+    "js/v8/pro-latlng.js": {
+      "md5": "1fc7ae0c983696b6f91749e263919906",
+      "sha256": "4780c3021dde3aba80cc2f687b553ddadd720e405442fe5c755c61d9535cc101"
+    },
+    "js/v8/pro-map-edit-page.js": {
+      "md5": "b09db15267fca1838d56641cad770521",
+      "sha256": "24c449944d44079acb7a78ad541ff9ce2dfae16d95a3aa0bdf93c49144d0727a"
+    },
+    "js/v8/pro-map-list-page.js": {
+      "md5": "adcdb1be93cee756f431bd0c31521c2d",
+      "sha256": "9de4e746d5ac49083500413a1776af1fa9e56d2ecdef9df05a5a44ddcda02f86"
+    },
+    "js/v8/pro-map.js": {
+      "md5": "5b3f7768f1bb23bd66159d3b38ac765e",
+      "sha256": "c0505ea62e44a5b09eb6ef35d03d270aad7dbc5d02a9dbfd45dc84c1109a3626"
+    },
+    "js/v8/pro-marker-filter.js": {
+      "md5": "246ceb7d90131a9f011d60c8539bcc29",
+      "sha256": "7a05ecae96d992f6e5cd9e3001cd5f44c98f9e4cf18fe94889e1714b92b73a3e"
+    },
+    "js/v8/pro-marker.js": {
+      "md5": "c23b8e9698f41ec02a7c04cf26cb911a",
+      "sha256": "58616d54ec5061c9dd55b007e19b9e3852852ac54463e49e14bc41661c064430"
+    },
+    "js/v8/pro-pointlabel.js": {
+      "md5": "eafd15936a0d172a99799b05c772e38d",
+      "sha256": "ff61da9fa3feb1ee03fe4fa9898ed9915b26c0e44111edcc35f830014f57a1ec"
+    },
+    "js/v8/pro-polygon.js": {
+      "md5": "54d750af910c0aa18aba8b050e78b22e",
+      "sha256": "1a13fff03cfee6e4cad49769b77fd83683a55857e67c9c0582266c9c5e1766da"
+    },
+    "js/v8/pro-rectangle.js": {
+      "md5": "db213ae2acb435a1b8f99235607be28e",
+      "sha256": "a5afb9ccf08c3efce3a17ed674881d07b764c44dfb83d1de172f71608a9ef90f"
+    },
+    "js/v8/pro-scripts.json": {
+      "md5": "63670d2aef838f8db3ef9854ffd68b3f",
+      "sha256": "4ba043bcc79c1a3adbac676aa969c1ee252562418cc75ec8c67ef938a6453c94"
+    },
+    "js/v8/pro-shape.js": {
+      "md5": "cd25f3d74e5d76552b14287ea2ae9c86",
+      "sha256": "4a921ea7623b691de01e33d37056c1b1c4b10caa5ddb612211d7ff6674fb31b8"
+    },
+    "js/v8/pro-store-locator.js": {
+      "md5": "597e9a49f758961457d6ae35a0e2f899",
+      "sha256": "ea56cc44d74c5e8d229ed72c39e503cc6bc21fd5b532c277fdb675ce5021d5ef"
+    },
+    "js/v8/queue.js": {
+      "md5": "11507868e58d1b6082c81619f283c66c",
+      "sha256": "b9f06b92d06f9b160511a9722342c2c6481ab3a0dfa7cba164f4fdb2684f0873"
+    },
+    "js/v8/streetview-editor.js": {
+      "md5": "36082293260fd97e20a0b75591d330e7",
+      "sha256": "7a3251cec386241cddf69135317bdab2f6e83ba57fcd38a613e6b1e30235fb4f"
+    },
+    "js/v8/theme-editor.js": {
+      "md5": "e2b499766ed0971528f14def9c8a5742",
+      "sha256": "cb8986c3c94c3f73b4a4749c4713d9a6574df0b729b0aac653f5b7e7b0d609c6"
+    },
+    "js/v8/use-my-location-button.js": {
+      "md5": "4d0e255409c91d799187bcb2826a215c",
+      "sha256": "d295858803ade6af4f5478c1a10b38da75eeadaa2e1bb885a27264cfd826ba39"
+    },
+    "js/v8/viewport-grouping-panel.js": {
+      "md5": "f025acd569205ee914f663e189e9ea60",
+      "sha256": "45f0fbc3d1d4c8a029a936309de35e36ac2b97827abe9e845b9f3774def1a95f"
+    },
+    "js/v8/viewport-groupings.js": {
+      "md5": "6b781455be2118567e891a81aa0c91aa",
+      "sha256": "efacb280ac9adff48e93f071140511aa1e3ba0da4040385896f64c2bb7de5149"
+    },
+    "js/v8/wp-google-maps-pro.combined.js": {
+      "md5": "7c7a4ecb8d94cb678298269959b012c1",
+      "sha256": "bf68dbf89d1af77557af436d10c16689c153936df948f6314a52cac114182247"
+    },
+    "js/v8/wp-google-maps-pro.min.js": {
+      "md5": "1ded8f629f201a5383f7208a50dab6b4",
+      "sha256": "6f01828d978e6317ac304b3dd02884be9ab3eff47af30680965f29f2eead2bec"
+    },
+    "js/v8/wp-google-maps-pro.min.js.map": {
+      "md5": "79923410d7c14f1383a338dc72cc2260",
+      "sha256": "7cdc7219c0b4b73f2a06aaa66580b6abd5573b4a03e5ce0133590bfd0a3f708b"
+    },
+    "js/v8/3rd-party-integration/woocommerce-checkout.js": {
+      "md5": "638cd037993a07a77b095785a8eb3208",
+      "sha256": "a5e47c059271a8ba99c4ec74188a57940fe30bae419ad60174e26f39864ccda9"
+    },
+    "js/v8/3rd-party-integration/woocommerce-location-editor.js": {
+      "md5": "17c82b23fdb3afbdd04297f4a312e3e4",
+      "sha256": "08c56348522e3d5afc2b0cf58ae6e3a5ffabfcd472961ee70dcef6f9808dd3be"
+    },
+    "js/v8/3rd-party-integration/woocommerce-location-viewer.js": {
+      "md5": "4e2120fcc9f33f5319f7b07212472de9",
+      "sha256": "9d549fe0771477197cbee149ad6b6bf74ce69ddd0ea39b1bc08392b3f2a2c236"
+    },
+    "js/v8/3rd-party-integration/gutenberg/blocks/category-filter/block.js": {
+      "md5": "ebf07d2cdae913a35c3a601f577e3878",
+      "sha256": "5c63f0bb571177969adadaa78a4d89f389f8d0877f57349cf5657c80de1625a7"
+    },
+    "js/v8/3rd-party-integration/gutenberg/blocks/category-filter/block.json": {
+      "md5": "61b693dc3f605422ff8fa36b2702854c",
+      "sha256": "dc068fdaeea1a1ef6e3c70d60c5e56f6bd35e69cea03d3fc631d197b379f0470"
+    },
+    "js/v8/3rd-party-integration/gutenberg/blocks/category-legends/block.js": {
+      "md5": "f4e54d436d817a6ab234013cb3fed4a0",
+      "sha256": "b488136f4efd38e9af27576a1351aa92ef13894f2c296ed9268552bc9b054e5c"
+    },
+    "js/v8/3rd-party-integration/gutenberg/blocks/category-legends/block.json": {
+      "md5": "8ca56f7a8c77bf3899e4e835fddffdb1",
+      "sha256": "7b4f71a921745b8c8feff35897a1ee4386d013dbd9b21460e61e1b77ec90bbf9"
+    },
+    "js/v8/3rd-party-integration/gutenberg/blocks/directions/block.js": {
+      "md5": "98dd4126a8a296af0041e61845e41fe5",
+      "sha256": "18ebe75a6756b73252bf807a63e5834b5c8344b5401f77ac432df75a1b7d6463"
+    },
+    "js/v8/3rd-party-integration/gutenberg/blocks/directions/block.json": {
+      "md5": "6143c80c45b0b370106e44491123720a",
+      "sha256": "1b8a04d15f1a53fe956be19cd5388eb136fc598fc0e93abda1ce0dd1a4ab9342"
+    },
+    "js/v8/3rd-party-integration/gutenberg/blocks/infowindow/block.js": {
+      "md5": "4233dcf9cf069925dd3c0fb98d2e3519",
+      "sha256": "a18fb5ede0b28519678db0ec77c1cbe15670181684f9339a24a60796382137e8"
+    },
+    "js/v8/3rd-party-integration/gutenberg/blocks/infowindow/block.json": {
+      "md5": "f46aeec068bff457fbdd78c6f1b600cd",
+      "sha256": "084b95db6e601c72a1e64ea6f549a70c621fc2fc904e9624d735657f573a0530"
+    },
+    "js/v8/3rd-party-integration/gutenberg/blocks/marker-listing/block.js": {
+      "md5": "73eb4c950dfb9fc4edfbfb367a46ba00",
+      "sha256": "103f833cf4d3696b3642e5e5d97f4a7a0fc28d94e3efa2d28c6256821a5ce79d"
+    },
+    "js/v8/3rd-party-integration/gutenberg/blocks/marker-listing/block.json": {
+      "md5": "9c6035e4046a3d4c98ddca08ba1edb8f",
+      "sha256": "cb5ed7cf51b09fcd8c09adf5e6b07085883db3b5b55bb7353403f90aefd35fdc"
+    },
+    "js/v8/3rd-party-integration/gutenberg/blocks/pro-map/block.js": {
+      "md5": "7bfb9e8803f871eef440ffabc24e30f8",
+      "sha256": "9db4ca1346a3ca0217a966d91c37fca09fe30152ccc61eaefcd4928b43e12361"
+    },
+    "js/v8/3rd-party-integration/gutenberg/blocks/pro-store-locator/block.js": {
+      "md5": "e39f2689ff4d90c4077847bb53223735",
+      "sha256": "72cf0de1cac2e2d96037d314947f6af1fc860a86f71543db0fd4aef8b9e96c87"
+    },
+    "js/v8/3rd-party-integration/gutenberg/legacy/map/dist/pro-gutenberg.js": {
+      "md5": "f70e6882512734941f4137b1b58b34bd",
+      "sha256": "b5e0a10a5eafc87b7fdaa7d6641e0565fa7480b56d9bf8cacedd859a628ed3bc"
+    },
+    "js/v8/3rd-party-integration/gutenberg/legacy/map/src/pro-gutenberg.jsx": {
+      "md5": "39cb1db93168bae900b6ef832f01b80b",
+      "sha256": "bf066bdde3afc242ff24d6c6105dfbb5d130713d923eed53431569d87a0a6748"
+    },
+    "js/v8/custom-fields-page/custom-fields-page.js": {
+      "md5": "c1213b6e3207310dc88d8cbfa6bb639c",
+      "sha256": "82a98954bec56f57df53f803606f55a73724f858621be1554002b1dc7b954556"
+    },
+    "js/v8/google-maps/cloud-api.js": {
+      "md5": "5fdfe45e14dafb62332e1a7072df8bf2",
+      "sha256": "98b3eb4b83c6d9f881ff57358f7fbc5bd1fbd6262813a93e9fc489129091b9bd"
+    },
+    "js/v8/google-maps/cloud-autocomplete.js": {
+      "md5": "46c0ad49dc73057add9729b936f11274",
+      "sha256": "69f6dd6233be320102f4b39e50f69693e910d0bd28d31b2079faf8da71666f8c"
+    },
+    "js/v8/google-maps/cloud-directions-renderer.js": {
+      "md5": "380bfdea95090e0deeed076ecc1c67e3",
+      "sha256": "ec881625d8681d804a86452cb15639632388c30f07cb85b564bde877f32d7ae6"
+    },
+    "js/v8/google-maps/cloud-directions-service.js": {
+      "md5": "96f9820cf72ad049a853c3356b879eb6",
+      "sha256": "d94c1ca2dd015eab86cbd7acdb375a3fb10589eddc68e874b853ead9e7250a92"
+    },
+    "js/v8/google-maps/cloud-geocoder.js": {
+      "md5": "659d6f36ff940cbeb2bbb188e0b3e690",
+      "sha256": "fb251fde4369115ce7edef89b55283082f64bde679c80e880239f009850f4f35"
+    },
+    "js/v8/google-maps/google-directions-renderer.js": {
+      "md5": "2af9b74a0c0d634829ec9c723ab1dbf4",
+      "sha256": "90297c9aaaacbcc8d4a17229d77fff493db6e2c76b6acaf0d9b93dec52671528"
+    },
+    "js/v8/google-maps/google-directions-service.js": {
+      "md5": "7ffabde1610a4330b00f0f308b970cf1",
+      "sha256": "db042c6b5f1ecbd6d9f299488af13f5f04567140b0ed33602ecec0730d0eba40"
+    },
+    "js/v8/google-maps/google-heatmap.js": {
+      "md5": "00fbb918f7e52737d8a4f9a5548f93e0",
+      "sha256": "1e5b43d3ef6988eb02b729e43f82bc511f0668f4d18bba1f77b5bf41d00648b3"
+    },
+    "js/v8/google-maps/google-imageoverlay.js": {
+      "md5": "bfefb515d6daea3cdfb089a1d98a3033",
+      "sha256": "2fc58f1049845cb856e002efa22b349262f10a199af3147ff293e7a9f0913e6c"
+    },
+    "js/v8/google-maps/google-pro-circle.js": {
+      "md5": "6ac88e8b644186948ba4ebfd0e452432",
+      "sha256": "d1fa1f149cd962b8642ffda61cc3485c65e39bcf25b0e7ad26e08af66e233399"
+    },
+    "js/v8/google-maps/google-pro-drawing-manager.js": {
+      "md5": "463b6ecc839adcaaf5945d290cc39865",
+      "sha256": "2872b443b00dceccfdfcde1e4c10f5290fdc0991f5cd1a788d2b16c6bb017fba"
+    },
+    "js/v8/google-maps/google-pro-info-window.js": {
+      "md5": "8e05c6a4af79aa509b22df900a97b11d",
+      "sha256": "b679eaea22c11d966c9a9a671d471731a435131a34328ea89efdba74e4fec359"
+    },
+    "js/v8/google-maps/google-pro-map.js": {
+      "md5": "6c6cb3d5f25bbff23cf8675634c79ea6",
+      "sha256": "e8bf17ae65cfc283e866c5b622304cd41b982747d1f1a25e7d79ccaa0b279ccc"
+    },
+    "js/v8/google-maps/google-pro-marker.js": {
+      "md5": "f187c7b5f1c0f7e851d9cf3261724a43",
+      "sha256": "452d0285b042cd6e73e21bf11aacd3bfbfae08b53b4def5fbfba1b005a68341d"
+    },
+    "js/v8/google-maps/google-pro-pointlabel.js": {
+      "md5": "695e52fcb2c127f8cd1259235e077616",
+      "sha256": "3d51817c61f7ec60a091b088b95381fa355e9ccb9884625c3c817f44e0a9812e"
+    },
+    "js/v8/google-maps/google-pro-polygon.js": {
+      "md5": "5fe8f807e23872d15e399497736cc9db",
+      "sha256": "fcfcf62e168a9b9f0f919e581165589366e6c5ec70be6a92c5ed094653b0c346"
+    },
+    "js/v8/google-maps/google-pro-rectangle.js": {
+      "md5": "3249245f4b1c4618e69221242fba1db1",
+      "sha256": "6bd5d363a6f13f7f250cbca10abe900902ee0efe701be8ec3f8c74ff57e23826"
+    },
+    "js/v8/google-maps/google-route-api.js": {
+      "md5": "1bd46815e051900b7c8e5d758527627b",
+      "sha256": "80347d1b6fd23a608da87795d51737d0d4db7a18b3f7d51d13a22b6558856078"
+    },
+    "js/v8/google-maps/google-route-renderer.js": {
+      "md5": "9f8e01667bfb0832ab4d9b93930af7ba",
+      "sha256": "de29ad6f4944f1185671a3319ce1b6007908ef301f88a9b43ca3a91459bb5271"
+    },
+    "js/v8/map-edit-page/heatmap-panel.js": {
+      "md5": "49280f4887fb0f8d9cf6a881c58647f2",
+      "sha256": "6f06d0f268426a4adf28f7750a422272214cbb5f3a515c4f068e70759e4eae77"
+    },
+    "js/v8/map-edit-page/imageoverlay-panel.js": {
+      "md5": "be206fd368765edec7d17d81a74e66f6",
+      "sha256": "3df16e918f7a122e2c844f488391837115144013b6995a58e3dd84d1c5c3d4a1"
+    },
+    "js/v8/map-edit-page/pro-circle-panel.js": {
+      "md5": "ecf84dc9c5d4813223cf19255d11a64b",
+      "sha256": "af9c1912c97a7f21c354e814913c515275780eca3bec3e52dcc7a370ba3da44f"
+    },
+    "js/v8/map-edit-page/pro-marker-panel.js": {
+      "md5": "c29a8d894fabd8e0ee2617c5c41f295c",
+      "sha256": "4831af2d026319d3b582becb915ef9be7ea5854c063305e8cb32f1e83a84b726"
+    },
+    "js/v8/map-edit-page/pro-polygon-panel.js": {
+      "md5": "0705cd70c6988b0a6355329eaf8b5048",
+      "sha256": "9c30480ccf14b81f57af6c373b13de1269b9d9cad65a646c5b5767b45cf68cc0"
+    },
+    "js/v8/map-edit-page/pro-polyline-panel.js": {
+      "md5": "d79cf3650a1b894e66487a82fcfb45eb",
+      "sha256": "de406d1f208cf178a6d6bbfa02cb5aacedaeb48e3fa394033ceb048104c69ee4"
+    },
+    "js/v8/map-edit-page/pro-rectangle-panel.js": {
+      "md5": "e6c2ba9037d94184899c8761405155f3",
+      "sha256": "ab1fcd3b5d8e32845f6457fc84a66800bc96a774b7706b04bfcbc5594c6db448"
+    },
+    "js/v8/marker-listings/advanced-table-datatable.js": {
+      "md5": "542114d4142c88a0b02b20dd2efa45b7",
+      "sha256": "301f74f597679d8a2d45b4641d3e26665c0160b918818e5344d70e9ca19365fb"
+    },
+    "js/v8/marker-listings/advanced-table-marker-listing.js": {
+      "md5": "24ff89ce205adc96a3ba64dc1746be2b",
+      "sha256": "e9d5550c459f41e215f923aefdad6130c898c59494c95445df73dd2c09db819a"
+    },
+    "js/v8/marker-listings/carousel-marker-listing.js": {
+      "md5": "721d7e5ac7b8a1e78d3ce9e1e811733e",
+      "sha256": "41697467edf5b26d295d470db85e9a50a79f3f1e80295c75c3da5e388fdbd926"
+    },
+    "js/v8/marker-listings/marker-listing.js": {
+      "md5": "f06cbcba8be7180f2bf4b39b6bc466b8",
+      "sha256": "947fa3162dbfc1f4d0c5c7ad184ade04844321e5fb65714283b3a42e909f841f"
+    },
+    "js/v8/marker-listings/modern-marker-listing.js": {
+      "md5": "48a83d99ea2f002672f39b436e250873",
+      "sha256": "5854cfe0fa1fc5f3c95be45d0505a6a976566b19774499c0d20cc67c8bbc1bae"
+    },
+    "js/v8/open-layers/ol-directions-renderer.js": {
+      "md5": "751489e7ff344963133e8892b4ac9f12",
+      "sha256": "ab7aeeefabfc84cffbc38c1c421c4287a010aba34e53af3e63900907200b3a35"
+    },
+    "js/v8/open-layers/ol-directions-service.js": {
+      "md5": "4c59b691c1c6ee522bbd656600ce58c2",
+      "sha256": "3344b10c1d6b1e2e6a045f777786889f8ed4a82f5368eb64c2afb569a98b88c3"
+    },
+    "js/v8/open-layers/ol-heatmap.js": {
+      "md5": "d115e44f3bdf9261cbc5cf77b9c39090",
+      "sha256": "49ee4b83f7a9b72467856d18397ed736be5cdbd112c8def4169d7f6760a1127b"
+    },
+    "js/v8/open-layers/ol-imageoverlay.js": {
+      "md5": "1f312e1488be402b4b42ba233300f0b9",
+      "sha256": "5a1ca0953cc03ef3b3d9b8cf7865c8242ed764f37c2874f2651d48c09e74651f"
+    },
+    "js/v8/open-layers/ol-pro-circle.js": {
+      "md5": "5aedbf9226fe8ba2195d44330c3adcc1",
+      "sha256": "97f80ff5ec65d8121c7669f27c17322394d862353b100b8f44184f2fa95bf366"
+    },
+    "js/v8/open-layers/ol-pro-drawing-manager.js": {
+      "md5": "7cbc0253236b28d0a676a33c2b2017ba",
+      "sha256": "dbcd945a9995d71321a7e61e27a1a11bf8aa8d19f332b2a991165a31404c10ca"
+    },
+    "js/v8/open-layers/ol-pro-info-window.js": {
+      "md5": "3efd045ec1be82fd6489174cd8dd4f9b",
+      "sha256": "e17efe1ceb51ffae162f1dddcf0d12bad39c34b31a47c937ff324034e78a836c"
+    },
+    "js/v8/open-layers/ol-pro-map.js": {
+      "md5": "cd7830cd9d4894c14f5eb490f778e32b",
+      "sha256": "817950dbfb83ebfb535f68278692177a61b0499bcfe7bc14ca45ffc5f3220475"
+    },
+    "js/v8/open-layers/ol-pro-marker.js": {
+      "md5": "093f56fa8466977fd344a3209984fef6",
+      "sha256": "05187ff55ce4ca4c2c263081ca63f253a45a8a0eb09748b8d8fa059f5c95880b"
+    },
+    "js/v8/open-layers/ol-pro-pointlabel.js": {
+      "md5": "2ddce00a5efeb642611436b4decb7c32",
+      "sha256": "f55f10ef63a4443849d2ecfc428d04ac443db6278c09ab80b14737797b480268"
+    },
+    "js/v8/open-layers/ol-pro-polygon.js": {
+      "md5": "864c7265d53ff5049fd2738cb539c14e",
+      "sha256": "c3fdd59fd107e44e2332b32b3bf88ef01a4bebb0b9d38c3d989c022da53bcd43"
+    },
+    "js/v8/open-layers/ol-pro-rectangle.js": {
+      "md5": "2f7bc2b1fa9598a3a8a9938cd506e066",
+      "sha256": "99bf5c03f3600ac48c6d75eb5344a199eeef40fd0ff0c152c49495d3a308b578"
+    },
+    "lib/CanvasLayer.js": {
+      "md5": "4dd65575392cea9f0aed12129109d41f",
+      "sha256": "717be37bbc47017a7a0925b00c6a225253bc251bed286eac86001170849c1a18"
+    },
+    "lib/CanvasLayerOptions.js": {
+      "md5": "cf58ad19e8a37ae91d4c1d40ecfdd726",
+      "sha256": "36d913dfc2defa846220520d5189179c699fa96d3101c08790121951711c5f27"
+    },
+    "lib/dataTables.responsive.css": {
+      "md5": "871f82a645abbd2c6776b26101901ed0",
+      "sha256": "adbcf93f460e02581e591fbf8ccf3fd8d15813dc4cc1c6010d3f98319a241a6c"
+    },
+    "lib/exif.js": {
+      "md5": "06d6a4e50a0976552a9b14197a7a52cb",
+      "sha256": "30aa94773fa7aa003e6d42e455610218d5ae2f6a8712808baf6929c3a0f18165"
+    },
+    "lib/featherlight.gallery.min.css": {
+      "md5": "ad3de3e96f99db01b24e926858524659",
+      "sha256": "041b46f2084569525824db04bedd88da73a9e67efc277b702a25c93dc392e887"
+    },
+    "lib/featherlight.gallery.min.js": {
+      "md5": "20979b655538720bf5a9134d553c8110",
+      "sha256": "6ae56cf5c31ad6023d9352dc8a0f9b58bc4da9d0bb058bd8def1dbab2eac5c64"
+    },
+    "lib/featherlight.min.css": {
+      "md5": "4bdc3d139320525c59d7b51452a1d2d6",
+      "sha256": "8d43afc3a11f3eec2acd3f6fd411eea2a9d0add009cff54cfc98c9a8b7c201e5"
+    },
+    "lib/featherlight.min.js": {
+      "md5": "04dc2bf9bfb45fc0101003e806fadb2e",
+      "sha256": "8652310e6a76e63a3bfe9bb45524ddcf52241a9b1a01cd7d557c597346b81f27"
+    },
+    "lib/jquery.ui.sortable-animation.js": {
+      "md5": "d404bc492f3f1266cbc3c18ccab35ea9",
+      "sha256": "a3fbc6e48264a65174ad338f9aedd89118151813e13f362f0d6a7f78452d0bbf"
+    },
+    "lib/jstree.js": {
+      "md5": "949f5d14c39e1af6c0d685e2cedc573a",
+      "sha256": "5126a747c3e4eae4d9437a9b80342ff5c4746ebc01c1237244c154221d517775"
+    },
+    "lib/jstree.min.js": {
+      "md5": "0b936399e04685fe6655bde1ce2d7337",
+      "sha256": "2f2f19442b2558c4998ccf21786f35dd4b44ba6343922703b0bda9eee8b4479d"
+    },
+    "lib/pagination-test-environment.html": {
+      "md5": "139432dac23729be71ab7487536c1a96",
+      "sha256": "6a1ed54a7a180f3f05de54a2f76982c47272f4d7f5fa2a67b9cccc0f30650c01"
+    },
+    "lib/pagination.css": {
+      "md5": "f2ea8686c2803c2e6f8023c33a5cc250",
+      "sha256": "7c5ab1449f6ae3cedb4133817e7e13f23909b7c20696b5734de6ae367b911d50"
+    },
+    "lib/pagination.js": {
+      "md5": "2239bdb6e7b584f973d8f102b9207543",
+      "sha256": "ead6c732ba7b9b3b0c3e8bafb2e820464d38524ac6ea4e1b2cc672f4180218c2"
+    },
+    "lib/pagination.min.js": {
+      "md5": "de3bc89c245cc22d8c7f93d433aab965",
+      "sha256": "9b8c65fc83fefd5636cdc0bc63467bb06e60b065961b04419765df4442e6e44a"
+    },
+    "lib/polylabel.js": {
+      "md5": "f9141743d5b0b55279725b69209eb4a3",
+      "sha256": "3443f33cc01f34d25f2838505b5686af7d6bb38ea87d7773f366cbbef3e26d17"
+    },
+    "lib/polyline.js": {
+      "md5": "edbdba7a0a0f7384d2ac866e51b5be9b",
+      "sha256": "422e1f859e7d38117be856dd4508916567820004e2391695d62763c9c2f37efa"
+    },
+    "lib/remodal-default-theme.css": {
+      "md5": "cf7b5ac4c1bc3ac7e6c2629cd193dcfe",
+      "sha256": "b0500877955e3f6e8f31722969371ec9e3fcd3255732a475ed2c488461378482"
+    },
+    "lib/remodal.css": {
+      "md5": "ce933c30fbdf07569fd7873074eb75c5",
+      "sha256": "eb63e5f795c700def698fa1ea99916067965c0a7ef9bac5e1886f782ff8da586"
+    },
+    "lib/remodal.min.js": {
+      "md5": "90ec26a35f735e46745dd1ae64e8ee93",
+      "sha256": "cab326ef144c8e6a9324a63e287c900827960cc08c2d9ec027d670a6bc1d4983"
+    },
+    "lib/fontawesome-iconpicker/css/fontawesome-iconpicker.css": {
+      "md5": "a1c26f6ddbe2b63d20bf2e5ea60f7ac7",
+      "sha256": "81ef02c105d5d9eaeea8eb9ec861bf7011759de1110c4ec21b03afbd9d805252"
+    },
+    "lib/fontawesome-iconpicker/css/fontawesome-iconpicker.min.css": {
+      "md5": "2393e0b1cb370cca2c7c0b94f0f47f5a",
+      "sha256": "846970dbaf4a559abf07192c574a1285c0476a70f66b8c4c864a391b37eaf26e"
+    },
+    "lib/fontawesome-iconpicker/js/fontawesome-iconpicker.js": {
+      "md5": "de2e3a149bf3fd985600665872928847",
+      "sha256": "1220052ccdf8b92504ae8507c102aaf28c770ea46e0127f7123fb56f852cc1e8"
+    },
+    "lib/fontawesome-iconpicker/js/fontawesome-iconpicker.min.js": {
+      "md5": "4473e25b233ffee3aa072d26ded2d3a3",
+      "sha256": "07e351c920fdf1e7bbb4bc1c0e5d0dde14b9a59b1df4dc9874c047d81b27c251"
+    },
+    "lib/fontawesome4-iconpicker/awesome4-iconpicker.min.css": {
+      "md5": "bcf58ce711b84397b465a4ed3423af99",
+      "sha256": "64f4b87b59768236f0aa3d4c80540a70bad9d4cfe860551d72a063d51d9c8d5b"
+    },
+    "lib/fontawesome4-iconpicker/awesome4-iconpicker.min.js": {
+      "md5": "c9acd196e20a3e2a05a3376df80bf11b",
+      "sha256": "4bcb965d6c5d654b2dd40ef75004e9093dd3fda2a65345c906e0340eeed1f55d"
+    },
+    "lib/themes/default/32px.png": {
+      "md5": "24806793015f983316cdcf4ba3eb64da",
+      "sha256": "26aefe9bbf5bb15b564f0928276da694ab92d800548bd2f44cb6c7b5ed3b3fce"
+    },
+    "lib/themes/default/40px.png": {
+      "md5": "c5a5bf697ebf99eab983e336b4e2057d",
+      "sha256": "8d7dd87a0c395ac714eec15adcda4f61a5e52f78b1875fb99fffc07104fbd6fe"
+    },
+    "lib/themes/default/style.css": {
+      "md5": "79d35050fcf58798261d8680860bdfb4",
+      "sha256": "bc1d982b4118f1c67f2472245520da5464f2e34da32445bfca83aa77edcaba62"
+    },
+    "lib/themes/default/style.min.css": {
+      "md5": "779fc4b400d1748ec2fb99685ad80550",
+      "sha256": "817f59e047affc40e0f556796089262904aa7001cbf2d493f74747bedbad8d38"
+    },
+    "lib/themes/default/throbber.gif": {
+      "md5": "5e55c38fe2e0190f5aaa9f6bc250e428",
+      "sha256": "8ba42d58eef879572d87eb2ba2de9361daeabbd1d6075bc7b80fb4411cbc2ec1"
+    },
+    "lib/themes/default-dark/32px.png": {
+      "md5": "37f0007202aee09e6e384929e1b1786b",
+      "sha256": "9e135484594b781912d5bc467ed0544e64a2899e986336ff76606af1d0f18194"
+    },
+    "lib/themes/default-dark/40px.png": {
+      "md5": "8ca4b8aa502255f3f5814751137cc548",
+      "sha256": "c35116764f24f932fee8e664c57f7c3d890d18ff4d0bb046a1d132087ae1ad3f"
+    },
+    "lib/themes/default-dark/style.css": {
+      "md5": "b7f20b7181f765090150fbc7e2566f2f",
+      "sha256": "fe3390af1737b3282031cf25f9917ccb8818c696466b75447acec779579dee1b"
+    },
+    "lib/themes/default-dark/style.min.css": {
+      "md5": "5af969c5031a532266f6fa40ff4a16f6",
+      "sha256": "da14e2236a786edd539c19c3b5b4c9f9430d0557739ad7794ddf3eeb9951d6dd"
+    },
+    "lib/themes/default-dark/throbber.gif": {
+      "md5": "86374b1963a5ef94a50d1cfbda0497b0",
+      "sha256": "f1842e0988ccde745f3c8ea7ee8ec5204c4f7187c3839011e1c2da97858b0712"
+    }
+  }
+}

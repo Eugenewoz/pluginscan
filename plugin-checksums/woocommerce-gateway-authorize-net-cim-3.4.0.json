@@ -1,0 +1,938 @@
+{
+  "plugin": "woocommerce-gateway-authorize-net-cim",
+  "version": "3.4.0",
+  "files": {
+    "changelog.txt": {
+      "md5": "95a8e23e24ed05dfcf7ad15960177552",
+      "sha256": "1f5fc524e54a8d9c343bd8687ce6676c0f8de78501603eac18f8e6a2ea3ffec2"
+    },
+    "class-wc-authorize-net-cim.php": {
+      "md5": "8371786d16bf89823f82cc17a7ebf97d",
+      "sha256": "790b7250e78f1690448d8f25dfb03a56ead9e7d577d46bfc2b65579e29d50973"
+    },
+    "readme.txt": {
+      "md5": "73fd1f06e7467ca0304a73c742e0dcf5",
+      "sha256": "e7b267cd0f0043904de245b38a4b4fce250c5913e4aa60bd1b42235bc5e9de29"
+    },
+    "woocommerce-gateway-authorize-net-cim.php": {
+      "md5": "c5b7c5606c9ad8f2bc380bd69e67fdf4",
+      "sha256": "fe7702e2c68ba19e155267599891ebf28c60bf53b891cc3a2bb6c67cc1993c95"
+    },
+    "assets/js/frontend/iframe-communicator.html": {
+      "md5": "96a95c54b3967d4cd8a9576ba7d64d5f",
+      "sha256": "36865f3920e0214ff33568326e3ed51c51699600aff8600e6ea4b28a4555cc7a"
+    },
+    "assets/js/frontend/wc-authorize-net-accept-hosted.min.js": {
+      "md5": "cf51ab7204129eb87b490579f96915ea",
+      "sha256": "486882dfe5e9f83301df847ed6971807071bb2d8c95c9b77a4cbdeacc40b0584"
+    },
+    "assets/js/frontend/wc-authorize-net-apple-pay.js": {
+      "md5": "4beb6278e05dffcaca7b75da620b7815",
+      "sha256": "60ea5950d51a54b713ea3c468f9365bad1ffeeddb8d22c0958e082b5a2c478a0"
+    },
+    "assets/js/frontend/wc-authorize-net-apple-pay.min.js": {
+      "md5": "aeccb4104ff656a359c27bf3bae68245",
+      "sha256": "73bccb0962f7e1963c1c9c836146cb5a582fc86da93183a388078eb3f7cbdde7"
+    },
+    "assets/js/frontend/wc-authorize-net-cim.min.js": {
+      "md5": "731da5798556fbcd2d46be3b25f5f135",
+      "sha256": "523f797cf7bed412b24734df3d93bc306ba519981937655ca85da8bc4a448703"
+    },
+    "assets/js/frontend/wc-authorize-net-my-payment-methods.js": {
+      "md5": "672cbf7fbfff7697b0b4b93b93dc6fa0",
+      "sha256": "ea47507c292c40283e3b056a7142ab6f05947e911038c9b8beb1c7b6cfc1ec68"
+    },
+    "assets/js/frontend/wc-authorize-net-my-payment-methods.min.js": {
+      "md5": "6d4062a39b03e559827aa844e71670d5",
+      "sha256": "9fac8c736b541769a74bf7db2b522e7b762742b5ae5bc6d57e363b0bb01287ea"
+    },
+    "i18n/languages/woocommerce-gateway-authorize-net-cim.pot": {
+      "md5": "7baec4fbba794669585b91293665ec4f",
+      "sha256": "bbb457e5e49ebcd51e1c84a2c0912d65ad2101355eaa051984c58bc3aec0d066"
+    },
+    "includes/Apple_Pay.php": {
+      "md5": "9e305bc95f0b766c794bf7531b0289ec",
+      "sha256": "461e5c7a81a376892ff5f82f49eaa35549e507485271d5d543b43d5b71e5576a"
+    },
+    "includes/class-wc-authorize-net-cim-payment-profile-editor.php": {
+      "md5": "ac656e71fcf7b379af16eb4ed1f90a98",
+      "sha256": "198e0e8eded5bf387b5c42f294b41bc46a6e9dfc28aa3b974f75167f9625de58"
+    },
+    "includes/class-wc-authorize-net-cim-payment-profile-handler.php": {
+      "md5": "610c9bb586621484183d05d36ebbef24",
+      "sha256": "e1e117afa22b5e98e453cb3173afa1ab0b9209066f800b6ffda57186f14234e7"
+    },
+    "includes/class-wc-authorize-net-cim-payment-profile.php": {
+      "md5": "b697f38bed1c006b4c9661f7c3a49c02",
+      "sha256": "01618841c47dd1d0a9c70206ee865a5e398956737ec183ed96516ab9de86e3df"
+    },
+    "includes/class-wc-authorize-net-cim-shipping-address.php": {
+      "md5": "f259761681b28567cdfe65bfe106d3c8",
+      "sha256": "8f55009d9556f6441595ffd413d44851b9df88e156ddca0386d57ada5411af62"
+    },
+    "includes/class-wc-gateway-authorize-net-cim-credit-card.php": {
+      "md5": "014f93f17460595627f7f0236094e35b",
+      "sha256": "d664e547b19631650d8c3cefe3fd9f02710bdf65e08465f678a2c4ee5be35611"
+    },
+    "includes/class-wc-gateway-authorize-net-cim-echeck.php": {
+      "md5": "79d7806e89a89047be22364a45f096fe",
+      "sha256": "21f62da6e7c501c3ae8849c7b8e875fe7ddc0cc4480c3ccf0d18cad3a0b8d0e0"
+    },
+    "includes/class-wc-gateway-authorize-net-cim.php": {
+      "md5": "3b547a4b7143e268dc2e5663c8443f4b",
+      "sha256": "8af845208cdd35f1358e0e469ea3eeafc19b9bcba779db29503500fbfe82a7e4"
+    },
+    "includes/Lifecycle.php": {
+      "md5": "943642bb3d4bde076f04488f154c4d22",
+      "sha256": "241a0745cd3371df71c7164e6a17b65dc878c8a95a2aab897a2391065f42f31a"
+    },
+    "includes/My_Payment_Methods.php": {
+      "md5": "1297ba26eb02c17ff218fe025aa13a98",
+      "sha256": "8f40effc96160e88e37b88e97af5ee31f666dc869403af09c89cde7360585ad3"
+    },
+    "includes/Payment_Form.php": {
+      "md5": "85c71dfcd4142e3683c958e9ca697832",
+      "sha256": "6b2602251ae74c45e9280483077d22c72cca1a1ee4b6b4d2ed5c5335f1c4d57e"
+    },
+    "includes/api/abstract-wc-authorize-net-cim-api-request.php": {
+      "md5": "232714dc61aa5208b5c3f9a825cdbc52",
+      "sha256": "c21287ae8fb5c5c29da0bc25d5b005b212acacb06e4b76c76b7a04feb8c41a19"
+    },
+    "includes/api/abstract-wc-authorize-net-cim-api-response.php": {
+      "md5": "0a11be1dcbe2ceac16a56f32dd6f2b55",
+      "sha256": "cdb7b56aa8e48ac6d329041c88ee91e247fa5dcfca33ae990f5c7f5978f876de"
+    },
+    "includes/api/class-wc-authorize-net-cim-api-response-message-helper.php": {
+      "md5": "e7907c76af79d1ac05127d9aa3c7fc44",
+      "sha256": "f3d284c7f6fd3156ef71937bf373e4150d394ad7a3c8431f074f07a131220a9f"
+    },
+    "includes/api/class-wc-authorize-net-cim-api.php": {
+      "md5": "622e3e36524d29b1b3c0118973578d75",
+      "sha256": "10f3e61fb51a13dbb07b55c51466069fe6d7b8efa00f21ef4c0f12e0c2765c13"
+    },
+    "includes/api/Merchant_Details_Request.php": {
+      "md5": "3533e36af7bb491168096db3a2bc5442",
+      "sha256": "ca3211905e0cc5dfe67ffaf0fe68dccf50e0d8841f80a055ee48e32e24212328"
+    },
+    "includes/api/Merchant_Details_Response.php": {
+      "md5": "27ac16766ce1e47c6449738f6725fba7",
+      "sha256": "8ee060165468ff51bae9601692477b60ccef3a3c544c99c9d8e04fb38c6bc49e"
+    },
+    "includes/api/Hosted/Abstract_Payment_Response.php": {
+      "md5": "25cff87f3546c75f7089d43d57599257",
+      "sha256": "6ff0cd7deaed45c6126c0afeb06d764db4149caa72e15dc9eb66a6e4b10faea3"
+    },
+    "includes/api/Hosted/eCheck_Payment_Response.php": {
+      "md5": "4b6054efd67ec17fdc96409caee319ea",
+      "sha256": "03193057b458900c5eec169c631b4b333fd8757b79722feee1683c48287e4750"
+    },
+    "includes/api/Hosted/Payment_Form_Request.php": {
+      "md5": "be3d4acd15227b065020f8d92a7abb78",
+      "sha256": "359f8b76faae3e735b0a1d0745bdc4e0312cee5e6ecabd59dc3fd0fde10fc9de"
+    },
+    "includes/api/Hosted/Payment_Form_Response.php": {
+      "md5": "905f9e53263c646f91ec002f3960aa24",
+      "sha256": "d70f46d159794c1b2a61247ea98436054d85b1e9770a21e122bdcfe0335d70d6"
+    },
+    "includes/api/profile/class-wc-authorize-net-cim-api-customer-profile-request.php": {
+      "md5": "fadf6f7f116e6d7cc5922e49de112d31",
+      "sha256": "3e4f14c30b190c050a3170b4da0cf9975a0e5cd98203a23aa2a14316c120085a"
+    },
+    "includes/api/profile/class-wc-authorize-net-cim-api-customer-profile-response.php": {
+      "md5": "1cb2b9ff2834d2ccb74ecb27fea179a1",
+      "sha256": "2257ec77ecbcf6f12f812737d458f814fff853f68ee43c02d2ca7ce917251e7b"
+    },
+    "includes/api/profile/class-wc-authorize-net-cim-api-payment-profile-request.php": {
+      "md5": "7ace35ef9e6a3bdc5a3b43a511d717e4",
+      "sha256": "6e27f0eabe71f9aa9048b6af7cf2bd7806ddae47298fa333a153993db54e6528"
+    },
+    "includes/api/profile/class-wc-authorize-net-cim-api-payment-profile-response.php": {
+      "md5": "733cae3c0eb3b5594b8fc104c88d2b36",
+      "sha256": "c21186dffb4af47f53b49c088e36faee012369a77e515032d16153e419d79f81"
+    },
+    "includes/api/profile/class-wc-authorize-net-cim-api-profile-request.php": {
+      "md5": "6bd3c0c240ed051213dc92d2534e3852",
+      "sha256": "223ce842291602a515b1cb9660c629745c32523f6d056fd325a2dbfda40c8508"
+    },
+    "includes/api/profile/class-wc-authorize-net-cim-api-profile-response.php": {
+      "md5": "636351ad928842eee0579bc13a2a04bb",
+      "sha256": "ff2b22744ac923e7622848865ca430c67f536d19785c30355034f42505b8d3f9"
+    },
+    "includes/api/profile/class-wc-authorize-net-cim-api-shipping-address-request.php": {
+      "md5": "49387069e82f9baeac66461bf70d01d0",
+      "sha256": "6fe02efc75e24c697d2535ed9e8ed8db67e119cd672eac84f2c49ca28294c917"
+    },
+    "includes/api/profile/class-wc-authorize-net-cim-api-shipping-address-response.php": {
+      "md5": "3c4f86974022ac8ca97582cb9d708e25",
+      "sha256": "70f59dd107ee9783d31ca57295382802ac92e2967d27f63eb1f9ffdf0e967657"
+    },
+    "includes/api/profile-page/class-wc-authorize-net-cim-api-hosted-profile-page-request.php": {
+      "md5": "b9913698dd647838e6869965c8ee45b7",
+      "sha256": "6c18097c3f0d8e8df9b6fe0445e460bf54095c585f3e53f25802fa059d40a77b"
+    },
+    "includes/api/profile-page/class-wc-authorize-net-cim-api-hosted-profile-page-response.php": {
+      "md5": "0c884c11925bc168bc0a7d5c1149dd36",
+      "sha256": "62615b8af2c05edc5c77c67787b756f04555d9f29d0d3483ba0d92b8209163c4"
+    },
+    "includes/api/transaction/abstract-wc-authorize-net-cim-api-transaction-request.php": {
+      "md5": "9f06f9a8210c8487b120cd76aaf47961",
+      "sha256": "54a27d3a5aba399e8c2e85ed5a584f6cf275aaa9e7741b601dcf7b7846354f2e"
+    },
+    "includes/api/transaction/abstract-wc-authorize-net-cim-api-transaction-response.php": {
+      "md5": "68f5ac70e23d89543813e95ed277b9b5",
+      "sha256": "d52dc2725276bd74e4bca8c200445e95cbb907b845d5be6e09857c72621da9ab"
+    },
+    "includes/api/transaction/class-wc-authorize-net-cim-api-non-profile-transaction-request.php": {
+      "md5": "e2d2e8ba09fb3535e31a46c7d15f61ec",
+      "sha256": "a9d26667e00d1a87fdee6919f533631180526a9c60b03abd365a680ef80b183f"
+    },
+    "includes/api/transaction/class-wc-authorize-net-cim-api-non-profile-transaction-response.php": {
+      "md5": "b88056b270236d88be3f5a1544a8dd22",
+      "sha256": "c5cb240b15b3dc4775b2786a75e1bf54d3f03fc6f9046b8e565305a00547e2dc"
+    },
+    "includes/api/transaction/class-wc-authorize-net-cim-api-profile-transaction-request.php": {
+      "md5": "1cb4f3a94d87b8eea38d8cd6c3ccd367",
+      "sha256": "7171900ffa2dcd255e59cfb18cb0c244ce415443b9747b3bd46f9185ef0d29ff"
+    },
+    "includes/api/transaction/class-wc-authorize-net-cim-api-profile-transaction-response.php": {
+      "md5": "17e2dba7994a9605010a5c728207c128",
+      "sha256": "6681b3dd69ae1a8309a7b2d0417bdde544ed10c02cc0935665c9f7510057d98a"
+    },
+    "includes/api/transaction/class-wc-authorize-net-cim-api-transaction-details-request.php": {
+      "md5": "e57cb6eb19136b0840125425d620a96b",
+      "sha256": "e020c022b2f2bde0f3d1de239181526e8f3845dadd465f87b4424c40317b07ba"
+    },
+    "includes/api/transaction/class-wc-authorize-net-cim-api-transaction-details-response.php": {
+      "md5": "66d960836d533e9626c811657bd42dad",
+      "sha256": "14df073cfa6c4ded50c291cc9c35bdb84b4747a85b5f9279aa76ec2feaca3aca"
+    },
+    "includes/api/webhooks/class-wc-authorize-net-cim-api-webhook-request.php": {
+      "md5": "609eba7dc6528aa759ddb67af45599f2",
+      "sha256": "dd383b9f42e5316be5ce991d6f5f5702a7203b937e4d84b76ca1ed640139cc19"
+    },
+    "includes/api/webhooks/class-wc-authorize-net-cim-api-webhook-response.php": {
+      "md5": "85410b02f5bd300382dccd478e311a03",
+      "sha256": "a1d99ac36bf6bdcc7e3bda7a6ad40db10214dfdab4c6e174a4e5a8bcd9a2a1bb"
+    },
+    "includes/Apple_Pay/Frontend.php": {
+      "md5": "55e54be803539a3520a7d41e63980e2b",
+      "sha256": "ed3cd22f0096b0286190e5864b1a6354beffe758b47d1fd960fd60fde65b8305"
+    },
+    "includes/Emulation/API.php": {
+      "md5": "037c08b3155668ebf0503a0a395979c3",
+      "sha256": "1840120230edf9d6215d5299830628f17c07b292daffa4e93232fd4a789657b9"
+    },
+    "includes/Emulation/Credit_Card.php": {
+      "md5": "47c5ec160f4161a71984239ed0c95374",
+      "sha256": "96e4a4be8a1f95f67eec9249ffc77dd2ea3c58e7e1c90a9e5171ffbd1eb030e9"
+    },
+    "includes/Emulation/API/Request.php": {
+      "md5": "71c287cdfd8365ef12e32beb8c50bf71",
+      "sha256": "cf5b4acf318d16b44b9709edb0e38b98e8986e4c50856e31a6717bc7e57471c2"
+    },
+    "includes/Emulation/API/Response.php": {
+      "md5": "36f13bf100a1b550171f97016a587158",
+      "sha256": "51f79a8620c790f860d0cb4b259f4da005cb0b61c9b8b31b5a85ed109eac1253"
+    },
+    "includes/Handlers/Capture.php": {
+      "md5": "25e0c17251349caf1465d3436e47f79d",
+      "sha256": "935f09451260f66c3428caafb8c567774dae97cde5c7664fcb8dcb66d0aa0898"
+    },
+    "includes/Handlers/Hosted_Payment_Handler.php": {
+      "md5": "61c214aee6eccc463bc659609ffb70a4",
+      "sha256": "2acfe88692a03121a1c3d50b0c8f392f0bb60a29d3ebebb197732a01358c2ba6"
+    },
+    "includes/Handlers/REST_API.php": {
+      "md5": "e1090883da996c6a35a44500414f9a9d",
+      "sha256": "05d38dd207d52e9a880cbf7d47d6bb0c1ac3b8193e508b5aedb0e5abed6cd711"
+    },
+    "includes/webhooks/abstract-wc-authorize-net-cim-customer-webhook.php": {
+      "md5": "6b83c3c04e1dbfaf2b54dcbb25b83a24",
+      "sha256": "9772b4db859661018714a428f09d1ece63dbb16c8b03139f50facd269cb5bf62"
+    },
+    "includes/webhooks/abstract-wc-authorize-net-cim-webhook.php": {
+      "md5": "b9284a88f1b793a92de5401035cd6a57",
+      "sha256": "8bf5dd404f8f234bac84ffad49e98be6ec5e71f3cc1b8d7b57689f3bdb467e57"
+    },
+    "includes/webhooks/class-wc-authorize-net-cim-customer-payment-profile-webhook.php": {
+      "md5": "4ab5c5f1c9d93ba50a2c2e5b7507646f",
+      "sha256": "3b149dbb22e3fc10948e2127dc14723cf71779d68a8c093df02fde5e5af6e627"
+    },
+    "includes/webhooks/class-wc-authorize-net-cim-customer-profile-webhook.php": {
+      "md5": "e159997f8a785894f67028cd0f734c01",
+      "sha256": "811b4008656cfae47c63f77b2a669b97b8633bc8e7b0208a0f21807d288ab6ae"
+    },
+    "includes/webhooks/class-wc-authorize-net-cim-webhooks.php": {
+      "md5": "cf55cf7cf71a8b2b280d466290e030f8",
+      "sha256": "f12df15b334c7775e4912137494190ba3c25ae7a21e5b58218a06a0acbb4f531"
+    },
+    "vendor/skyverge/wc-plugin-framework/license.txt": {
+      "md5": "60a19575fc075929d33f90bc7280fac0",
+      "sha256": "26627590b3bc5664cb64baf9e6e81f98e6810be5a38b126593448b3c6ba87a8f"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/changelog.txt": {
+      "md5": "df63e197939affeb2bff27c4289abec6",
+      "sha256": "430d20e37d232a5451275e8aeaa8632e9ce51d1287ced9c07e1a6a56215391de"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/class-sv-wc-admin-notice-handler.php": {
+      "md5": "972a4ead986b999dd1564ef68a974c23",
+      "sha256": "dff0b76c84c0d45bffedd6993e41e7dea5b1d17080933d4743478d2ce78a8cb1"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/class-sv-wc-framework-bootstrap.php": {
+      "md5": "3ac55904cd62bcbbe96663a7f78b251e",
+      "sha256": "931614282c6d5ddab48351a7535dc1754692240741716177df569dd23e517b00"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/class-sv-wc-helper.php": {
+      "md5": "167da66f90ba0e6917e7641bac3ecb76",
+      "sha256": "76a7c0ea73f72a89aefe508ba5a53271c276f3b10bc0c536735054449f15ef7e"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/class-sv-wc-hook-deprecator.php": {
+      "md5": "16a4c5f6e14667ba933f46164a032193",
+      "sha256": "f1313ea235a9a3dbbfa1256b1b703c4c669c640e93e728c28debe4552e5e5af4"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/class-sv-wc-plugin-compatibility.php": {
+      "md5": "fcca32c9b30eb08e987e78c0bea7ca34",
+      "sha256": "0885a347a2e8025222087ee6b3736af7c5aeb766a70ab3ace968ae19bd27e11f"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/class-sv-wc-plugin-dependencies.php": {
+      "md5": "7ea2a0505ccf5ec69c5a6b53e1cb9ac7",
+      "sha256": "e290f7ccadb8fde07efd35accec8f5c75e7c4b916d3ada5c467bd034d2375da0"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/class-sv-wc-plugin-exception.php": {
+      "md5": "d2dc9653500c43235a514000fe883cc8",
+      "sha256": "8d7af926319372d3c3dd82a558e4ec674b6301e0a2504df00bf3624e61ee42e2"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/class-sv-wc-plugin.php": {
+      "md5": "b2a28a836d9e02f695fcbc69553c8491",
+      "sha256": "6c5daeabe796b7c2222d04c6d78abf842c20ead6988fce235d6b0ce716e9f63c"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/class-sv-wp-admin-message-handler.php": {
+      "md5": "67aae208c8ff8a14a72fd8f82b15e992",
+      "sha256": "2deea095ff0f588ac3ad3adcf243218484beab7f3e964bfc8c5f41ea6ea2b061"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/Country_Helper.php": {
+      "md5": "70e00226713bb391d954b94ff8b9740d",
+      "sha256": "cb3360588ee29a4b8344fb814d4d05d2232e9fb7647a5f468b8b50070e9f970f"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/index.php": {
+      "md5": "7d7473767b672828f525a0b537e4f570",
+      "sha256": "aacce94946d5075e7631881556af2ca86899075e32e46f5495272f6edd3e4b2d"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/Lifecycle.php": {
+      "md5": "fe639315e96aebebe5bf743f19dd211f",
+      "sha256": "aa1bba9e19226d9699c951805600c6d0127ab6eef9152398f25719ab07cadf74"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/Addresses/Address.php": {
+      "md5": "988e32f6238e441ba2527bca05b41622",
+      "sha256": "8804248246b6347501ebaeed0d4e6ac436f3f5b5e34303412157686bfb40bc50"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/Addresses/Customer_Address.php": {
+      "md5": "ee515c1d6f054cfb39c0546c8d0cf3a8",
+      "sha256": "57bd3c13fc118802b716a553d0c30dcd590f4e1fa7a19191d397a3b8060956e6"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/admin/abstract-sv-wc-plugin-admin-setup-wizard.php": {
+      "md5": "4dacf097d4eba273e590d39c80793153",
+      "sha256": "f5a3ece4e7950ba5be66ea6ead48aef3b40f35fc9fa99de8ffbdc4dc80542f86"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/admin/Notes_Helper.php": {
+      "md5": "31a6b11799c4ddae39f466f29eccbb5e",
+      "sha256": "6151e6660518940af3c4a31ea55c7f5d53aa381cb8770140ba34f950f89b9adf"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/api/abstract-sv-wc-api-json-request.php": {
+      "md5": "7dce624a367260b9bb465331a2fbaf59",
+      "sha256": "634ced2759a43d6201d5fe2ccbb129a5e063b9e6bb1c1e9ddd149f09aa3e2814"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/api/abstract-sv-wc-api-json-response.php": {
+      "md5": "8171e67549c06299e53c518bed61eb2a",
+      "sha256": "20d128f5efed0ed510f3194df8e8e1293357544e1a46c7c3d8cb53503e87e7de"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/api/abstract-sv-wc-api-xml-request.php": {
+      "md5": "3138ac3a7feedb70270946f84ce16099",
+      "sha256": "9e3e69d11cd7939106bfa3ac6e84633e87ccc7cd7d7da29a7dbe1bdbf68bdaa9"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/api/abstract-sv-wc-api-xml-response.php": {
+      "md5": "34c679cdc8d85a5b73faee196549bbd5",
+      "sha256": "67daa655746a2d143e6b6e1eee7382eb7da5106fd29a248aa02bf659a221563b"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/api/class-sv-wc-api-base.php": {
+      "md5": "674af5b40cdb66ce2c9e608100f791ae",
+      "sha256": "47adb11b9065c40e4e2496d1afb2241bf89f6ebd3dcfb5ac3817c3dc81176cb8"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/api/class-sv-wc-api-exception.php": {
+      "md5": "b1a64c63e521d01d7060dea2b2fbe57f",
+      "sha256": "9470db2b95354791453378d8d0b6daa807ed9b3ead2fbd181fc84f177eaf0279"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/api/interface-sv-wc-api-request.php": {
+      "md5": "b6dfb887ba99f0b38b1b2b65b308af50",
+      "sha256": "c7041c493d8d366e75110ec24795294ea526e626bbd8320fe496a343dee37cc6"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/api/interface-sv-wc-api-response.php": {
+      "md5": "be043e283eaabbf588133039cb5fa210",
+      "sha256": "e201e1f12b586f41f40cf3c6f3250bb4e25dac38eb40a65e715547ed15d9cc0b"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/assets/css/admin/sv-wc-plugin-admin-setup-wizard.min.css": {
+      "md5": "0081b8423ce05d566165c2f6d57b2a25",
+      "sha256": "35e1cf098217d27e30357ab6d40d021eb84ee7817bcd2581101e7db7be5d145b"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/assets/images/ajax-loader.gif": {
+      "md5": "f0d00eb0a7d4f978624a133142e1ed77",
+      "sha256": "565c2293ea773fd3a76669718b8cca757bcf4d836f0ee53dba1eadd098bcd3d3"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/assets/js/admin/sv-wc-plugin-admin-setup-wizard.min.js": {
+      "md5": "b826940944d1c81adca5f41522b41cf8",
+      "sha256": "a7f194b0fbd38c5f6415f77cfaf1d5df639b772bb1ea6567293b059ab71b09c2"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/assets/js/admin/sv-wp-admin-job-batch-handler.min.js": {
+      "md5": "5b450983dff0ddef211008b1d5f68d3b",
+      "sha256": "9f789df46096b782cef4618bf4074ebced1b1a03e94cb99b51410595aaa500ce"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/compatibility/abstract-sv-wc-data-compatibility.php": {
+      "md5": "9a01a98cabecb0296986762d30b0e95f",
+      "sha256": "262b5266f1d20b7ccb8e1bee19f2ba4944ea085f7a1394e7a6133e695f1dfad9"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/compatibility/class-sv-wc-datetime.php": {
+      "md5": "d6c42d267ae33d743eadc59ca0f0d40a",
+      "sha256": "9dc43f77526cf5ecc6766137bc07e68c60832290c25915b42a497194d06bf7b1"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/compatibility/class-sv-wc-order-compatibility.php": {
+      "md5": "b427029a76c0466673e1d675c31384e5",
+      "sha256": "652a55f14070b3e43699ac60e92ef2bdb74081972def229e50b1a7ddba605371"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/compatibility/class-sv-wc-product-compatibility.php": {
+      "md5": "66c476d013c2a11928af4ab30368349b",
+      "sha256": "57f5497a20d9424fb60bc3e8cecd5e7d3d5599228c8a325fe6d1fb8be9c577b7"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/Handlers/Script_Handler.php": {
+      "md5": "71d111c75da4f033624332d1a3b2d079",
+      "sha256": "e47534cd5f2b5e151c5982a0e33794b3cf8cb99559b100142a8758a7a2e6f4bf"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/i18n/languages/woocommerce-plugin-framework-et.mo": {
+      "md5": "def6baa63886f21d7e419e0562cdc813",
+      "sha256": "5aaa006272b6215af463cece2ccca7874018d0ae94755197aa2b8bc934a7a934"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/i18n/languages/woocommerce-plugin-framework-et.po": {
+      "md5": "e70733614af2c6d98fdd65fe50cc2eb2",
+      "sha256": "6b698e197a7d479030837a40bcb4f75d5df792b5e30955f285c5fec9b4278bd6"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/i18n/languages/woocommerce-plugin-framework.pot": {
+      "md5": "25984f5be40380e7fa72526f9ed48e0e",
+      "sha256": "84cae18592a262a5946d5ff98f92128abe06918ce6ab5a6d663288bb837f8a82"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/payment-gateway/class-sv-wc-payment-gateway-direct.php": {
+      "md5": "bc3061eee6e0d6eef9a55eb40db4f375",
+      "sha256": "fa051fd2ae2ed8ffab236a4e0d1529c99748f4879c76f7329e29b4fede088ead"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/payment-gateway/class-sv-wc-payment-gateway-helper.php": {
+      "md5": "d2080e4699dbfef81dd31cff1bab5152",
+      "sha256": "e9c67e9f0fdf6407129dd012f21d7f3a381642a805e5e12b6a12c0ec40fee5c8"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/payment-gateway/class-sv-wc-payment-gateway-hosted.php": {
+      "md5": "bfc2a2f4a1fc667941463d4ded5bc9cd",
+      "sha256": "1ab11b728386d82289ba6c5eb78a0e6c552280fc822447be9dd0d701ef87058f"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/payment-gateway/class-sv-wc-payment-gateway-my-payment-methods.php": {
+      "md5": "5dbc9b2457b1c9a4af3235b87aa05cfe",
+      "sha256": "15a8cefd798c8ab3f7ed3d4ef38a07b609fbe7c6c301e6e75dae314750c81c9a"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/payment-gateway/class-sv-wc-payment-gateway-payment-form.php": {
+      "md5": "3842ecab5396a6a201532aa70ab937d7",
+      "sha256": "cdd67e193d82b50d7807da2083bc79adedc4aa11023f483b94521962a7224629"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/payment-gateway/class-sv-wc-payment-gateway-plugin.php": {
+      "md5": "82f662a34d47c1132ba41aaefef80bbc",
+      "sha256": "60e1e6c63fcebbf1de28821a25332a79e1578ad5b1c3ee10358e9fd77d2a9b87"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/payment-gateway/class-sv-wc-payment-gateway-privacy.php": {
+      "md5": "7382c6a8d68441b48c0ac75e0d6229fa",
+      "sha256": "26c6650ee8e101cd2c8f020e281f9bd6bbc92a4ed10df70824a23e75a688a97d"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/payment-gateway/class-sv-wc-payment-gateway.php": {
+      "md5": "1b926a8bb83edce0aee45e3aee3b573a",
+      "sha256": "42e71efe856d643d139e6319a9fbaf73e089b1e60e0f4a451fd4ff057327557c"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/payment-gateway/admin/abstract-sv-wc-payment-gateway-plugin-admin-setup-wizard.php": {
+      "md5": "bcf5244319fcf76f5cc38a47a082c3cc",
+      "sha256": "cd49bf9936b8ebb4b3032abdbf45035bf69ade209447ee52a561191d1deb3864"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/payment-gateway/admin/class-sv-wc-payment-gateway-admin-order.php": {
+      "md5": "44722e106c030677755b65f191abfbc2",
+      "sha256": "489934bbcdff60c4e1e3f0f2d09a5fa9e43c3cd174b266fc2505f8913ffefdd1"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/payment-gateway/admin/class-sv-wc-payment-gateway-admin-payment-token-editor.php": {
+      "md5": "ddbb3c2a814077ecca547d932eb126d7",
+      "sha256": "e6ede85aad4370dd88e84aba4da5cb8016440f221d6a47e7a823f9e64705ef18"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/payment-gateway/admin/class-sv-wc-payment-gateway-admin-user-handler.php": {
+      "md5": "a51dc366957417976221f13919ba7ff1",
+      "sha256": "1b6e62843060f5ef2d9fbeca891d1287c97a3daf916140783c7d90b70c71515f"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/payment-gateway/admin/views/html-admin-gateway-status.php": {
+      "md5": "685af1089d824d4c2c9b7663629db69d",
+      "sha256": "a08a0615e1fac22acd2b470d8d41f58eaa70ef3e549498add0eeae6886398d5a"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/payment-gateway/admin/views/html-order-partial-capture.php": {
+      "md5": "6173ca23c4b3dd88af124fdd744f4e67",
+      "sha256": "214013941087ab25a87fd2938f079eb45b965409a5625aff1580519c5befad3c"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/payment-gateway/admin/views/html-user-payment-token-editor-token.php": {
+      "md5": "bde3b9b6011cc7f41483d14a862801d9",
+      "sha256": "9a211416934759fb6c48d417328e42d588e9b197c988c52e5b4e1db00ba97866"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/payment-gateway/admin/views/html-user-payment-token-editor.php": {
+      "md5": "527f6101eba945031a5f9b9ae921c5d3",
+      "sha256": "fc2fc034fe741d6acca74552a8d0fdb1c3753e56616e4fc92244076149689c31"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/payment-gateway/admin/views/html-user-profile-field-customer-id.php": {
+      "md5": "b29b0173e5c5eefcc9cc813a6659c609",
+      "sha256": "a152cbfc1b3e2f7c3625906b0a2565995547df500950278969035505ab206cef"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/payment-gateway/admin/views/html-user-profile-section.php": {
+      "md5": "d55f7624aad87d67f7ae957bf79321cf",
+      "sha256": "6fbc12af1db17d66a27af40e8313c510178f9157521c9628c2aad53783e45f9f"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/payment-gateway/api/class-sv-wc-payment-gateway-api-response-message-helper.php": {
+      "md5": "bb9d37c7161564c253e9e22f1ea00dcf",
+      "sha256": "b34e1a5bff2c0df66ddd318301f2163ab29889745d65e2afa51706f4beac26d0"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/payment-gateway/api/interface-sv-wc-payment-gateway-api-authorization-response.php": {
+      "md5": "f729982fef065314f89beadaaab4a598",
+      "sha256": "86b910e4d0db30438ce13848f1aeb4f01956d2ad2e3ccc4807a546bf9c90bd62"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/payment-gateway/api/interface-sv-wc-payment-gateway-api-create-payment-token-response.php": {
+      "md5": "8ad600c384b9ee6d9abb2d3e65d5dfb9",
+      "sha256": "2f023c452c62154d617bb40e4a078a1528b675960ec0c3deb8ecaa273b26fe53"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/payment-gateway/api/interface-sv-wc-payment-gateway-api-customer-response.php": {
+      "md5": "2c0032fd943769c8355544be543cd286",
+      "sha256": "9519ff7086f67e1f1832f03c9087d00f980d86f7a2ced509a6f107975633c94b"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/payment-gateway/api/interface-sv-wc-payment-gateway-api-get-tokenized-payment-methods-response.php": {
+      "md5": "9cc53c5252f0028b58d306e64ee61aca",
+      "sha256": "952ae57a67bb9d3629321cba440995db12caf7462ff39ea078e12afd5eac3057"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/payment-gateway/api/interface-sv-wc-payment-gateway-api-payment-notification-credit-card-response.php": {
+      "md5": "e4a6bcd48e25b0e3eb1231b01aa04500",
+      "sha256": "0c2456548b04dd53feb3135896e84c80053b9e2afea8070789857ed6d08f804c"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/payment-gateway/api/interface-sv-wc-payment-gateway-api-payment-notification-echeck-response.php": {
+      "md5": "2925b27a8e792c71a3d12f0bb2eb0ed7",
+      "sha256": "5ec93948f7c60b958f50585d802727d5ace6a5c2ee997615ba041e3798069566"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/payment-gateway/api/interface-sv-wc-payment-gateway-api-payment-notification-response.php": {
+      "md5": "2a7d7269b3875955f7c870c7e72ef1b5",
+      "sha256": "f46a330839dd68699a54337633fe5fc2926440fb700ad74236f8ec8ba8475293"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/payment-gateway/api/interface-sv-wc-payment-gateway-api-payment-notification-tokenization-response.php": {
+      "md5": "9829c03beed1bd6d70a38b00cbac4943",
+      "sha256": "cb66182be3335d0eec9def38aea73c009088c8f90b664551479b5e7993dc4180"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/payment-gateway/api/interface-sv-wc-payment-gateway-api-request.php": {
+      "md5": "40699dd65abb3072421f57dbd7ddf11b",
+      "sha256": "1919eed6d1895961aa970ed1032456f832a4cdedbbd897f9bba1ebf948df5b34"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/payment-gateway/api/interface-sv-wc-payment-gateway-api-response.php": {
+      "md5": "f727a3060c5e007a4462d78ba14aadab",
+      "sha256": "0269783c676ba410557e5317606bc67381891bb9f3d3836e1bfb22135362d015"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/payment-gateway/api/interface-sv-wc-payment-gateway-api.php": {
+      "md5": "305381253ce5e79027f555777219982c",
+      "sha256": "9fc0730b411679148c8b56f3692e5e3d457058dbceef0527366c79276a3b4731"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/payment-gateway/assets/css/admin/sv-wc-payment-gateway-admin-order.min.css": {
+      "md5": "0b05b2fe3d931d7c725135ae8b518fd0",
+      "sha256": "1affa3f3dd74e60bfab76be1b953a50e731e88dc5485f9a82fc419e4df5b7410"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/payment-gateway/assets/css/admin/sv-wc-payment-gateway-token-editor.min.css": {
+      "md5": "e86655767e8584b0c258f1113bd99a18",
+      "sha256": "dea0b7e1190e0ea186b34cee2a6e17bc3d38979d8d4d30d1869678fa058d8cfc"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/payment-gateway/assets/css/frontend/sv-wc-payment-gateway-apple-pay.css": {
+      "md5": "063b904f4167691bfa4852e9ddf51607",
+      "sha256": "79afe9ce1f73303429b6769c88d7d56f04597de2373a6ea517bcae76c4ec9f65"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/payment-gateway/assets/css/frontend/sv-wc-payment-gateway-external-checkout.css": {
+      "md5": "86a0d59feb68031f7bc4bb0b3a133c88",
+      "sha256": "cddb4e96bf271362c2d080d17aa49f427f0cfcd1fedc538cfea2236c5102d6ef"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/payment-gateway/assets/css/frontend/sv-wc-payment-gateway-my-payment-methods.min.css": {
+      "md5": "e4a13546fad2f63ee215dd37fbb8120c",
+      "sha256": "dded1905c383109ca9342c9076138ccbc7df62d4e60775b77d203fcf023d46e2"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/payment-gateway/assets/css/frontend/sv-wc-payment-gateway-payment-form.min.css": {
+      "md5": "aa71a8467db9f450de65627167f14a35",
+      "sha256": "6063e81c5a07865e6091bde60f6773998397a95ae98b438d96f2eb3a9c946fe7"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/payment-gateway/assets/dist/admin/sv-wc-payment-gateway-admin-order.js": {
+      "md5": "ed065f88bb79d680e8330febeca3aab2",
+      "sha256": "4c3035183aff12802c303b18778146c6255820732bd39580d03f056bbeef2e15"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/payment-gateway/assets/dist/admin/sv-wc-payment-gateway-admin-order.js.map": {
+      "md5": "45a9709070360134b4382cc2fafe34f8",
+      "sha256": "0412d2d871a144a99b511d961d18d976beaa0ac1867f106c04a1fa924d609f35"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/payment-gateway/assets/dist/admin/sv-wc-payment-gateway-token-editor.js": {
+      "md5": "c17ff593f510e3e0972aefd3947499b2",
+      "sha256": "635d768692219a2a8b2fabf2c8e6e5401018e1586a5b0b96fa8ff05adfebb493"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/payment-gateway/assets/dist/admin/sv-wc-payment-gateway-token-editor.js.map": {
+      "md5": "5351dd2bac39b6050960bb6e59fdcc22",
+      "sha256": "b1ae64a46fa292335a9c6c62123708574d62f9f275a938b8a9d3f4ade78456d0"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/payment-gateway/assets/dist/frontend/sv-wc-payment-gateway-apple-pay.js": {
+      "md5": "c3ae6e7450af0d550dfd9a2b884c415d",
+      "sha256": "b5c3d7f668f2d73899841d931fc4cd80eb85dee82b5e1a18fb6da31cbb0c01ff"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/payment-gateway/assets/dist/frontend/sv-wc-payment-gateway-apple-pay.js.map": {
+      "md5": "2b6548331bbbc5b87463484a6aadd9e7",
+      "sha256": "8bc340a1e07e867401d9d30ff3745756d7686d67bc5f850146e8fe0e0f7b1c22"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/payment-gateway/assets/dist/frontend/sv-wc-payment-gateway-google-pay.js": {
+      "md5": "8c9af43fd01740597892b62f7b9770d6",
+      "sha256": "450d881cfd9b634b19c746470148e96ea65c7aae67f38e4701726fbe65678da2"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/payment-gateway/assets/dist/frontend/sv-wc-payment-gateway-google-pay.js.map": {
+      "md5": "fe2f700a0a736f860037e89d4cca8149",
+      "sha256": "4c10259516f161b5aeba386d6258618f7a57ca6994a71aecfd6b9890bcb99cb7"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/payment-gateway/assets/dist/frontend/sv-wc-payment-gateway-my-payment-methods.js": {
+      "md5": "c809a8e0251717abdc06c93e7e9aa3a6",
+      "sha256": "e754cf7a738f9fb8c3f482d5e0c5f4bb764ffa6bea881eb0c851c4eca324d3db"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/payment-gateway/assets/dist/frontend/sv-wc-payment-gateway-my-payment-methods.js.map": {
+      "md5": "bb7e1772a851dec45759c53eef9c890b",
+      "sha256": "21796868c63c5c5c1444f88c2f0fb00f583255c0cc6d01d7c5b4a1ac21d74538"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/payment-gateway/assets/dist/frontend/sv-wc-payment-gateway-payment-form.js": {
+      "md5": "1259b125e6574b52b27e636fec758272",
+      "sha256": "0e928880098cb79a7478f3e9c797786a0f887009d263fd0f32e9d61b126e874d"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/payment-gateway/assets/dist/frontend/sv-wc-payment-gateway-payment-form.js.map": {
+      "md5": "921743c8e140c189c69c769480fdfa9e",
+      "sha256": "3f11315dcaf69404620aa1d29ae55b2d426f4d1e7bb7be4098c5598279fdda03"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/payment-gateway/assets/images/card-amazon.png": {
+      "md5": "b534b164e90c181a18b8a1fa597c295a",
+      "sha256": "26295b35566e2982880b2304750a55f508472e81379f4c6ae44719d965e392d4"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/payment-gateway/assets/images/card-amazon.svg": {
+      "md5": "e34e5dff16c89031b19d3a606a8f20d6",
+      "sha256": "6bc33f110ea6070d6a5defae3e47135c39ecb92632e1c558f8fa96df00541cc5"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/payment-gateway/assets/images/card-amex.png": {
+      "md5": "228f6136685cde2be953fcfeea5ac35c",
+      "sha256": "43afa9e06a92ee642eec09ae663d9c80c116d1dba046638a2550ce1c12f61c72"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/payment-gateway/assets/images/card-amex.svg": {
+      "md5": "c7d63c867774be319bdbac8cb71b4a72",
+      "sha256": "39b9888780366086c79d1da0e3d0ece0782f74c3f8cccb0ebce4d3b3764802ee"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/payment-gateway/assets/images/card-cartebleue.png": {
+      "md5": "53b989a77ef92a87b0add0cc51f8b21c",
+      "sha256": "a236f9edbf612cb2245e5df48faba9b3d25d15d2718f2c7f9c2256ac0be1b854"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/payment-gateway/assets/images/card-cartebleue.svg": {
+      "md5": "997c5ee39415eadf537b743a63dc2fcd",
+      "sha256": "4f6192ea4b29eb30a3b18e9c71ea548a0237ef249748c789ec7f8e378800a5af"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/payment-gateway/assets/images/card-cc-invalid.png": {
+      "md5": "fc674e9b4beb7744d645cd77f9d3354e",
+      "sha256": "a5b97370d1bdc19478755e021e14cae5de1acb203a7e6e606c3eaf26eac72a33"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/payment-gateway/assets/images/card-cc-invalid.svg": {
+      "md5": "d721494d17392d36568020d47db51221",
+      "sha256": "f1c66fa539e5c056f5134bb64d1037a45f99f2a23dac1ff1e7e47f36eb8b6eb2"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/payment-gateway/assets/images/card-cc-plain.png": {
+      "md5": "0190ba7ed7fea83a89e32b68faf67c68",
+      "sha256": "5567dfd53a894572828f78148e1377d301c71556842a803b636381a425a167c4"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/payment-gateway/assets/images/card-cc-plain.svg": {
+      "md5": "6847e97930c7dc47cf4566b2633f9884",
+      "sha256": "1d94d6b0561deb96416d3836ee837f7eab38eae13885276bddb1bffce913a725"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/payment-gateway/assets/images/card-cirrus.png": {
+      "md5": "72214472de6e51ccb7bdceb6e4b3535e",
+      "sha256": "66758d6d8791a815b2488f7271a0092d5b5d5068eaaed25da2026bfea8e0ae14"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/payment-gateway/assets/images/card-cirrus.svg": {
+      "md5": "bd2f0260b514a240a68d71bba8d3567a",
+      "sha256": "b3f8df4ef20468c9512334ba15b7e4d3c5785eaf5b853ebace0c1e002af95b01"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/payment-gateway/assets/images/card-dinersclub.png": {
+      "md5": "2a74b998d261d956fd56e89b7fed4532",
+      "sha256": "1c2877687672b5a5d2a3fe35f612a9b3bd17e91670b7050b3e58f8cf9fe7ab52"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/payment-gateway/assets/images/card-dinersclub.svg": {
+      "md5": "069d04315f2c24d38d849626d789cc03",
+      "sha256": "c18565e34f0443d2ea846d3f5613cb981c7efe04e6b94cea03080507289f64dc"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/payment-gateway/assets/images/card-discover.png": {
+      "md5": "c736a751753f12296957ae4976966258",
+      "sha256": "57d4052870768588ff538aece5f389aa7d3d8adf2cf4f5ca39fe4db21bf904cc"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/payment-gateway/assets/images/card-discover.svg": {
+      "md5": "f66c825cd93136c3cf2e4c8aaef5306d",
+      "sha256": "a3722b95b08a2c690503681fce7a45781f6f1393aae641d7b71f6df7132ea390"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/payment-gateway/assets/images/card-echeck.png": {
+      "md5": "47aa836bd401e59cd38373beb0cf879c",
+      "sha256": "7986b99036ae0ba0e42120a654599e294a804ec3f65fbca6049e74d189244f00"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/payment-gateway/assets/images/card-echeck.svg": {
+      "md5": "eb3f97605927e51ec9c5b415fbf1c81c",
+      "sha256": "e2510a5fb6f36b12ba14f92c5bf1944b9c693cfdb4d133fc33172b643d6d8794"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/payment-gateway/assets/images/card-google.png": {
+      "md5": "5f6e86154565725b89fb5331935b045a",
+      "sha256": "1397a08a6355e2e71e6cb4d8770f2f4b71cb60fba46af3bfab25decb71ae7ede"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/payment-gateway/assets/images/card-google.svg": {
+      "md5": "caea3400b456a6165b75c3de1867efbf",
+      "sha256": "771581fe1e8e744beefc217a2b195d9e1aaab93e6a0db43e4f436314dd606bf1"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/payment-gateway/assets/images/card-jcb.png": {
+      "md5": "7cdede99f09f1d0479149bff77ba3d1f",
+      "sha256": "557bf9457a76a551c2a930bfb0bd03e2dbead73cb02a4a59dd93a73d893acf47"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/payment-gateway/assets/images/card-jcb.svg": {
+      "md5": "b018a0479f4770d19c3c99b8f6a9e778",
+      "sha256": "81cf4560ef13612322303671475d52fd3c4b29b167dc278285c3133dcdfd6d03"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/payment-gateway/assets/images/card-laser.png": {
+      "md5": "cd86f9b55608783faacd58f788c9b897",
+      "sha256": "0b46816219892178a68499d29410c504b55d6c81883db4d1f4de5291c039e5e8"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/payment-gateway/assets/images/card-laser.svg": {
+      "md5": "d6a7426532c02976ff0abf6ea8984109",
+      "sha256": "85ba7433e95033f95a32d572eab1b6ff34bee0bf8df9d577817159c7122f39fb"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/payment-gateway/assets/images/card-maestro.png": {
+      "md5": "0d7ff39523e45e3cd0f577a66181565e",
+      "sha256": "cde693a8c583de441492c6d15c226bdf3e9e0b901a8fe2598aac397f014ab619"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/payment-gateway/assets/images/card-maestro.svg": {
+      "md5": "b9d0de9806662abe3246651fcea3afe3",
+      "sha256": "f87e348f23650b6faffaff471335c1d5360e7fb696a99700c6ac7e1b3c4944a9"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/payment-gateway/assets/images/card-mastercard.png": {
+      "md5": "390e5c9e24ea4d3da23557d391c9242a",
+      "sha256": "b694a43940a8737350963b532b654a60a56d118ab9d92ed4df45f53b256311c0"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/payment-gateway/assets/images/card-mastercard.svg": {
+      "md5": "10e7d688b518799ea74aba8e1705db30",
+      "sha256": "6c1566c4ba2196fd741a9bfc1a318bea602753883f97f9512a5fcc611795a534"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/payment-gateway/assets/images/card-moneybookers.png": {
+      "md5": "29708800a679ae44f129fd05056f9b60",
+      "sha256": "d901918564795f0f8b9cff1a5c4f1f278ea7344be08a0be9c522b0eabc139367"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/payment-gateway/assets/images/card-moneybookers.svg": {
+      "md5": "1e2e7699bace4ad2f119b93f3b02b5fa",
+      "sha256": "3465f7e7c7c96a47f20dc4b8fc6991e47103655d44bf8c6893fc4629c82b931d"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/payment-gateway/assets/images/card-paypal.png": {
+      "md5": "7e2234cd15d2e1241b9014e0d62cb45b",
+      "sha256": "e6f21fb518ef3853be4728df045c35e9245f728d13dd8fa8b358096ec29ac076"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/payment-gateway/assets/images/card-paypal.svg": {
+      "md5": "072d2bda7aebb72eed26a83b92ca9175",
+      "sha256": "aaf6cc3968b3ac3d7e879faba37ca912478d54a8d09a9f71ce2765d14cf4d120"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/payment-gateway/assets/images/card-solo.png": {
+      "md5": "870df90354fd25392b7da1d23e845d69",
+      "sha256": "cc9148e6c241abac6ca229cdcf40c43dedea28f266e71a8a18d1680f7a7f7740"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/payment-gateway/assets/images/card-solo.svg": {
+      "md5": "5657a3f8260bd18b1b428fee50616743",
+      "sha256": "8dcc15ac76727aac1fa09deb15238bf2cf5fae7ee33e6bc7432bdeb66403b428"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/payment-gateway/assets/images/card-switch.png": {
+      "md5": "7a656e507efd1742449aee1880601f7b",
+      "sha256": "fff647ff930d4e79c61a70e451d6e7d4d8432b5c0d0634e9753524a849bc6b14"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/payment-gateway/assets/images/card-switch.svg": {
+      "md5": "6621d363fc721dcf90fe37c543d58a45",
+      "sha256": "cbc0a567cf197c5a5a27e0b0bfad3392452fe9ca04b7da6cfd79b79b0cb7583c"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/payment-gateway/assets/images/card-visa-debit.png": {
+      "md5": "dd46f6cbc714872c195770bbc70592f9",
+      "sha256": "903152f4e5cd24c764299e0badd35041bc8be36b88fac00f182835cccd68777d"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/payment-gateway/assets/images/card-visa-debit.svg": {
+      "md5": "6aebd3f03fd75bec73d542528832e9d0",
+      "sha256": "d8014d8e8fd20eb603fcfb9464f3994583047b240d8c6f12081b5a3fdee6c2b4"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/payment-gateway/assets/images/card-visa-electron.png": {
+      "md5": "2bb6ec6c769a94a66e1ad22e07229c39",
+      "sha256": "039f2b5216349f20dc347206f2c953063c3ab780d166f4dd14665a80f4e14afb"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/payment-gateway/assets/images/card-visa-electron.svg": {
+      "md5": "d9d0015453ba7a8bf4a397008b17d960",
+      "sha256": "0c79993d15b5218584bb0e8a036f226b33d3ba8c34a41d29f87b2527e118d057"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/payment-gateway/assets/images/card-visa.png": {
+      "md5": "aca3da08f6731fc331ebe0d84eb97580",
+      "sha256": "169700b5623a6f26118cf65bae27af87184ad70191fa05f7a70b9700d1fd8641"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/payment-gateway/assets/images/card-visa.svg": {
+      "md5": "1aa62c86f149b3f8bfe2811fb67057f4",
+      "sha256": "fd63eb7a1cbe4abaa760d85d37ccb981fba288019e875b1673712069ff829ef2"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/payment-gateway/assets/images/license.txt": {
+      "md5": "041e9f9fb2d1433654491b52a8759b0f",
+      "sha256": "c161f30f208c9b1a76e7b48df7a0db2f71dbe07321d413cb7732217f6db20121"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/payment-gateway/assets/images/sample-check.png": {
+      "md5": "d48a7942c7cb621ae83247d1c98a5b59",
+      "sha256": "48ddb2e7ffc96dffe7e2cba158b8f52ec2a29229f31a24ec2ac2fad636e2e123"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/payment-gateway/assets/js/frontend/sv-wc-payment-gateway-google-pay.js": {
+      "md5": "7de54b97633a9b69c1e8ccb8aec4fd76",
+      "sha256": "1fd6fc8f0374df9d0dfd36b28352dba6ccc05551e7453883d19e41bf294400c3"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/payment-gateway/exceptions/class-sv-wc-payment-gateway-exception.php": {
+      "md5": "ae026f8c8654f514c4e6490ce1110cab",
+      "sha256": "65d2755acf7b5f4eb1980470f3647ab9d4da3c07089d9ea0e177437ab9b5e21f"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/payment-gateway/External_Checkout/Admin.php": {
+      "md5": "93fa404009f7936f279f2fbe44f5fe9c",
+      "sha256": "bf6ace7cbc7f3943f54c25de22780c94b494429aad9d97272418967a1c01f687"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/payment-gateway/External_Checkout/External_Checkout.php": {
+      "md5": "3ca18311d957412d0c8239472f4fbea4",
+      "sha256": "cc4d7fdccc92360f131b09fff18721cc8a28f2f12bca3557159dc5f98ede9b5e"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/payment-gateway/External_Checkout/Frontend.php": {
+      "md5": "8ca8826611d3b59b01298357d2ef278a",
+      "sha256": "5871355af8a319acb42ce9a30c2f481d20df82fd8b7ea644557067def1d025aa"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/payment-gateway/External_Checkout/Orders.php": {
+      "md5": "8971466be93cfa9e96093e02e63640f9",
+      "sha256": "07df0759ac2ca0abc5cab8d6b3a2dd49e8efefb83be606eda41c3f42f56942ec"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/payment-gateway/External_Checkout/apple-pay/class-sv-wc-payment-gateway-apple-pay-admin.php": {
+      "md5": "5406664b85255669a9f9c978a163b2b6",
+      "sha256": "1cfde7ab27f43fbf09facbbb012fc22116c2bb55c70cddbbfaa6811ce0c6b82f"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/payment-gateway/External_Checkout/apple-pay/class-sv-wc-payment-gateway-apple-pay-ajax.php": {
+      "md5": "3867eeec2d010c6b740aadbc6bdc349f",
+      "sha256": "246962c594e259c08832ea2020bb8b1a767aed0445c5cbd211957b3e203f3f3f"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/payment-gateway/External_Checkout/apple-pay/class-sv-wc-payment-gateway-apple-pay-frontend.php": {
+      "md5": "fdc293d84e7e0eb6af02784b2914594c",
+      "sha256": "830e1c40b21de2ad91d842cdd86c64b6c9087afd319a566e7ea9c4b07b0603c2"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/payment-gateway/External_Checkout/apple-pay/class-sv-wc-payment-gateway-apple-pay.php": {
+      "md5": "4aa18ad843f7124212e1f89cc5e73648",
+      "sha256": "7fdac8f80ff948a7e9ee5635bc8067e47ac9644569c22cd96a70240108edae76"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/payment-gateway/External_Checkout/apple-pay/api/class-sv-wc-payment-gateway-apple-pay-api-request.php": {
+      "md5": "bd702cd2185d0f147838f0346260f310",
+      "sha256": "de50844839d67bc5fb6a5898cfb9d2440cc213689de475d5262cd78726c92375"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/payment-gateway/External_Checkout/apple-pay/api/class-sv-wc-payment-gateway-apple-pay-api-response.php": {
+      "md5": "6133ebdb1d98b1bae2e0851341d22111",
+      "sha256": "026275fbfae280de348bf6fb8d6f967405cd4a3d3b7b93caf23993121cb92e16"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/payment-gateway/External_Checkout/apple-pay/api/class-sv-wc-payment-gateway-apple-pay-api.php": {
+      "md5": "e99fe438fd30e3d5e7d7fb1508f6324b",
+      "sha256": "d70d83ca3f965509a727a736ef027cf172855c63646264545ffd8d4b585df3dd"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/payment-gateway/External_Checkout/apple-pay/api/class-sv-wc-payment-gateway-apple-pay-payment-response.php": {
+      "md5": "bc919a804c6bd8b190fc8e8a35bd33ed",
+      "sha256": "eeed697d2d493253a63702dcb3fc94dd9403523ab4b70d3b214391ef7b1d63fa"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/payment-gateway/External_Checkout/Google_Pay/Admin.php": {
+      "md5": "b47914dd3514bf0013c3f18ac2035fa4",
+      "sha256": "c50e61c0cc7120fa1e11d51f76bd8ce78ce8258a3d15e9e5cb83110cd4a37500"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/payment-gateway/External_Checkout/Google_Pay/AJAX.php": {
+      "md5": "24c4dcee16381dd9b5e6f71727be4f66",
+      "sha256": "91cf37f69f0226eae0be40d2c9c010840a39550a6dfa7c10bdf53af890cc995f"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/payment-gateway/External_Checkout/Google_Pay/Frontend.php": {
+      "md5": "e647cca1c9181d11af7777cd54b582e4",
+      "sha256": "2aec6ce75fcc75038f94336a8fce782780f2b459a85cf5845d99d0b4c6c42f5f"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/payment-gateway/External_Checkout/Google_Pay/Google_Pay.php": {
+      "md5": "59d4dfccc7a14d603e168f1ca65e5e9d",
+      "sha256": "295f9700e94dd29f714c95b2108352b5894ea3557aebd7bc90c213d52c8c7e55"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/payment-gateway/Handlers/Abstract_Hosted_Payment_Handler.php": {
+      "md5": "b3325fe74d91752a9addccb470189458",
+      "sha256": "61ce18afaa300dcb01468c732f8cbe00d1aeca787a84ae99c881adfec3f4db6b"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/payment-gateway/Handlers/Abstract_Payment_Handler.php": {
+      "md5": "9a8a3d5454f18efc9560180a484dbbfe",
+      "sha256": "dc3e7518c41c946c47f913bb4ba84572d8daa59535bdb068e39ed8f3ad519971"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/payment-gateway/Handlers/Capture.php": {
+      "md5": "1219dc5eabb27fac1a39f8c687652fbc",
+      "sha256": "34ef63543521c63d6ced3e56da2bdaef29dba05f574054b9e47f9533477c86f0"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/payment-gateway/integrations/abstract-sv-wc-payment-gateway-integration.php": {
+      "md5": "455b94dbf4d5690b4eb29c1ea1bda22a",
+      "sha256": "852e8b56ebf12e81cd7435dd4760480e29f67b6349a0b8164355cdb555e41ac5"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/payment-gateway/integrations/class-sv-wc-payment-gateway-integration-pre-orders.php": {
+      "md5": "3fc6124fb80d0920fc4026d347719a04",
+      "sha256": "82cf96649e4a6a2e36ea16f8b3add0f528ed4c720826774816d1a01ef767e081"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/payment-gateway/integrations/class-sv-wc-payment-gateway-integration-subscriptions.php": {
+      "md5": "699e76b2cccfba8f5c5afc22aa3005cd",
+      "sha256": "7db3aec48d807d231c043f81f508d108803c28c07646775177adad1bc5045cb6"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/payment-gateway/payment-tokens/class-sv-wc-payment-gateway-payment-token.php": {
+      "md5": "77b59ac0bd520e830555256cf568e791",
+      "sha256": "45f0f4e3b0c0bc870e21fb6afce76a06dd21461b1104446bfad522b3b20da2cb"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/payment-gateway/payment-tokens/class-sv-wc-payment-gateway-payment-tokens-handler.php": {
+      "md5": "bff00c325f4ad6e1f69af11c553a037f",
+      "sha256": "f901e740ca7bc0b8688be6f6d0151d61b014077fb14f0f30ad983431bd442985"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/payment-gateway/rest-api/class-sv-wc-payment-gateway-plugin-rest-api.php": {
+      "md5": "52bbecf02b69250f9adeffb421798d53",
+      "sha256": "43e674a1c31c42e94c5902b44be0dfa9f0f3374f17b13236b925f740684b3149"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/rest-api/class-sv-wc-plugin-rest-api.php": {
+      "md5": "a15d175494470ff65b318ddccbbe5b1d",
+      "sha256": "a651b43872a2be87ced609c955d5bb4a3621260388ff273c0ec0fddb8460d44c"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/rest-api/Controllers/Settings.php": {
+      "md5": "3f4804e395d776f9f7dac0f122701bf8",
+      "sha256": "d5b3f3b6d9d7868a1c8e60bd11843822f2988ddc89a138636d558cc191631a9a"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/Settings_API/Abstract_Settings.php": {
+      "md5": "a3d618e603f3da732a6f6b101126c882",
+      "sha256": "77e9159f994a68824292300b238166c6e8e30ac4ae9c35c8f21016406a18a621"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/Settings_API/Control.php": {
+      "md5": "60dd9674ffb302bc96d1cba3d9726aa8",
+      "sha256": "a6b430fe66b3545e609f3e4f7e3431d9ad9e0eb0b5e4fd817ca7b291ba566ae9"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/Settings_API/Setting.php": {
+      "md5": "def244be5c8fa013ee7adc4616e2cdd9",
+      "sha256": "0fb1714e6557472e3d003ca4ee1e8a7501633121d214ee5162056bf4a2f0f8d6"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/utilities/class-sv-wp-async-request.php": {
+      "md5": "afea580b100637e916ebcc1db8fb2dc2",
+      "sha256": "4df8d02d2f18324e48639eef42883e524bb6ac69f08d025966554d6f8ebde083"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/utilities/class-sv-wp-background-job-handler.php": {
+      "md5": "daa6591ab977f23c6286cc2fcf68c65c",
+      "sha256": "bb3a575967f9c55c0597e53f31bac9ea5560d9f6a06e7282214498a1374c9b0a"
+    },
+    "vendor/skyverge/wc-plugin-framework/woocommerce/utilities/class-sv-wp-job-batch-handler.php": {
+      "md5": "04155d09088dff37f768b9dac7469c75",
+      "sha256": "737a5e53be2b06d7385d221536a7025b8c69d54f7217a71069c31a80d10e323b"
+    },
+    "woo-includes/class-wc-dependencies.php": {
+      "md5": "67d2641024525316b40a3b0eb81845f8",
+      "sha256": "e93946955658c5e0c36e92a739f67030d62e1f7ba7e83d1d59180c86641798da"
+    },
+    "woo-includes/woo-functions.php": {
+      "md5": "f67046c60deb5859d5168cddd022b13f",
+      "sha256": "bdb6fdb861e5972b52eb3c0a549a6a08326a838f51383b026c2b6d8bbca98692"
+    }
+  }
+}

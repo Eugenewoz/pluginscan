@@ -1,0 +1,934 @@
+{
+  "plugin": "woocommerce-smart-coupons",
+  "version": "9.70.0",
+  "files": {
+    "changelog.txt": {
+      "md5": "7716f5934f28559215a7af186bd9d665",
+      "sha256": "a902ea25bf2c10112e9ecf279a834259b398c3a48eec285a2d429e61cdcd0079"
+    },
+    "readme.txt": {
+      "md5": "3ae94074b790f222a9d829d856b7e4d1",
+      "sha256": "4c7fcd69c7f574ca082a4306aad1591709b65f6e2acf96e207b0b86acfcdf194"
+    },
+    "sample.csv": {
+      "md5": "16fe8647748b28f56f7362bad742e3b9",
+      "sha256": "2a2ae68af55f277c304c4022f43d7cd4201393d64505a31c8cfc57350d03dcf0"
+    },
+    "woocommerce-smart-coupons.php": {
+      "md5": "42f2abf580ddf77d8bee9dfde5ca1f1b",
+      "sha256": "791d34c7208836163d0aa35918b41546d9e7c32661c505fdf17b593b5ee59e63"
+    },
+    "wpml-config.xml": {
+      "md5": "10d32b6236722cc72f83fba6b7d366d0",
+      "sha256": "bb26c617f739f6aaf2761672ee48c838e36e9e3aadf23f89816b4ade0f168522"
+    },
+    "assets/MIT-license-jquery-ui-timepicker-addon.txt": {
+      "md5": "b8762e3ae9dd561140003de181dda380",
+      "sha256": "b39777db0dd83c4814a5bb4df9299f363c43456f4d5d5cd76dec2e72e9f96b3c"
+    },
+    "assets/MIT-license-shepherd-js.txt": {
+      "md5": "53ce5ac2b85e327d4f5ac05727a61338",
+      "sha256": "dcbcf97f89c93790441f440ec5de2dcbbff88810ab3537a7ef8819671301c514"
+    },
+    "assets/css/cbl-admin.css": {
+      "md5": "dcd66ad395bed8cf520cc47529df56b6",
+      "sha256": "a522951a8fe23a9ef24b89124ba38c228a7b50381382d32b5a7aaee0f4901b1c"
+    },
+    "assets/css/cbl-admin.min.css": {
+      "md5": "7970b9e53d8337688267568c77dfa1ae",
+      "sha256": "277540dd05f75c49372e348468b7443bc423522eced48b667d8f8865bb007346"
+    },
+    "assets/css/jquery-ui-timepicker-addon.css": {
+      "md5": "530ec23731c9c99320f9eccda86179ac",
+      "sha256": "78623bcab5f2c49d1b44ac501d7146864d818ab26158851ce0bd9ec2650f53bd"
+    },
+    "assets/css/jquery-ui-timepicker-addon.min.css": {
+      "md5": "16f11c88764467c0f5e719f71f9bac47",
+      "sha256": "9d64e27a7c7ca916d6b07aa41f1e70182571a3e9566d6412b005ba1b379a325b"
+    },
+    "assets/css/product-page-gift-form.css": {
+      "md5": "bb1d0fd2a22b4ebb559b45b1485a3ea2",
+      "sha256": "3b9d99dd23818b8593fb8cf0c7afcc153c8782620f9cf5687b7dc7067112bdc3"
+    },
+    "assets/css/product-page-gift-form.min.css": {
+      "md5": "927effa587cabd7cacc0199fca76b881",
+      "sha256": "ff640ed934815462352b972f7c1cfd354fe1bd2532538c6a918e661dabf01a9b"
+    },
+    "assets/css/shepherd.css": {
+      "md5": "8033904d8ff834d45f402b9ee8e5a779",
+      "sha256": "c006509678d493b1facf350e60e623f5555f757fe7b1454fd6776b96a8c846a5"
+    },
+    "assets/css/smart-coupon-designs.css": {
+      "md5": "aaf842eadc4260d9b907bbd3e7331823",
+      "sha256": "3e05833ed3314cd881bb8361d2715d7415da55adbe56ce9922ceb49cbed583e7"
+    },
+    "assets/css/smart-coupon.css": {
+      "md5": "811134fef4902d73e25b0ddd9914246c",
+      "sha256": "d8d69b37ae66b83b2b763076eee5a4f5d9447ff935f2fb9e3b91efa7bde6c505"
+    },
+    "assets/css/smart-coupon.min.css": {
+      "md5": "6fa550bcfd8d20d361e3337d2cc52255",
+      "sha256": "8d19e90432be6091948d179b9e9103f1f2b69c10aaa8b88b86936b401d94c132"
+    },
+    "assets/css/smart-coupons-admin.css": {
+      "md5": "3a454689b195c560717e646eff87ccd6",
+      "sha256": "2fe0bf9095d5cd39c97f72ab69a9f7f618df04712c91f11b68d625c80b2a905d"
+    },
+    "assets/css/smart-coupons-admin.min.css": {
+      "md5": "0aee8226b941f4318c86d76c0ab2d067",
+      "sha256": "1ad2d399924220ed8688406c27ad9f62ee7d2320e36aadd61a4c25d83eeeeb38"
+    },
+    "assets/css/wc-sc-style-email-coupon.css": {
+      "md5": "8dbeda0eb8646f8182f1c2b5dc90d3c8",
+      "sha256": "440370c2d447d77aad1d707b4736695c829fc9b254eaadfae8b3480e4f55ba44"
+    },
+    "assets/css/wc-sc-style-email-coupon.min.css": {
+      "md5": "8c86faa0d00dd7d078062f8266201bf5",
+      "sha256": "9a0e069fa720c41bc0563cdac7bdf53cb6f781c34db0c62a1bcfa5604047e12a"
+    },
+    "assets/css/wc-sc-tour.css": {
+      "md5": "067d33099b8596839644c50beea0f6b9",
+      "sha256": "4803a2c4b8d6f81bf6f0003a37c9159d52fcbc20fa759d18e36e5b810190dd43"
+    },
+    "assets/css/wc-sc-tour.min.css": {
+      "md5": "966e8d199d3df9d6d46881e0b8e26b8a",
+      "sha256": "fa90808fdd46e81a46973d5b10512cfcb6317295841eea61da7ce801f3c66c89"
+    },
+    "assets/images/balloons.png": {
+      "md5": "8bb909a93e741ce6c3a7aa9f88fc3b58",
+      "sha256": "ed5d24cad01657e7b681c93e6e1b7defe5137cde139e9fc783768d80417ebfe8"
+    },
+    "assets/images/black-box.gif": {
+      "md5": "7a759836e183c090bc793d8778129d0a",
+      "sha256": "9f073e40c8fe60071778387f204063eb505b8b2b5c24dc34b954716bc16b1781"
+    },
+    "assets/images/cart-discount-alt.svg": {
+      "md5": "059421f5a2ec320683a6665004df8998",
+      "sha256": "0fd10acb20087417d2ff320d96e4ea4ffdca63d655ce69d91d02443e4bde8dc6"
+    },
+    "assets/images/cart-discount.svg": {
+      "md5": "1217b5910fa31c6af6b9ed7f3064cddb",
+      "sha256": "5fb0e934ff5bf128c77a53184da22b5b0bb886b98c89af1abad089e5e76d24fb"
+    },
+    "assets/images/chosen-sprite.png": {
+      "md5": "4be78d5824505544ed3439c3577d9371",
+      "sha256": "382385c05f7138b3f81b33c2f9c8015fb8ad791b47d2abecaba438dc899c2ab9"
+    },
+    "assets/images/chosen-sprite@2x.png": {
+      "md5": "be3e1bd921f7a4d2546ceaaa02c256a9",
+      "sha256": "8e2cf6d46e0baafe09c8ee3b57cb536ff70547967e33dfdd79e6b2305ff80bf4"
+    },
+    "assets/images/christmas.png": {
+      "md5": "1a172a6a75b3a215d36c09b9ddd9c3ea",
+      "sha256": "6e55f32b55986ffa446ee3fd400014df8168ce3d4383d334bd6730bd5d889b99"
+    },
+    "assets/images/delivery-motorcyle.svg": {
+      "md5": "96896e269e192829f4d58bc5007c7829",
+      "sha256": "74d45f458e6028b12fb14e8666dad0fdf3869fb65edf2d86b83b1609c8d04db6"
+    },
+    "assets/images/discount-coupon.svg": {
+      "md5": "fed0bb3debf6e48756066c5f96710ee9",
+      "sha256": "f39dac5f39bf2aef6faa8e0b60334b4454e57e4a8424084e198ed4abd9d39210"
+    },
+    "assets/images/gift-card-alt.svg": {
+      "md5": "3902fcdb0ed877f7ef4e294a71e728ff",
+      "sha256": "ed25ac64690ea4799120f266d1ac17f617eb363d460a6a1c816414920d4651d4"
+    },
+    "assets/images/gift-voucher-credit-alt.svg": {
+      "md5": "469319856c675b390631f7fc843e256f",
+      "sha256": "2150954662f3cf7e932d5b35151a2139ae328bc14da2f64adcfd8e912cfb9303"
+    },
+    "assets/images/giftbox-color.svg": {
+      "md5": "46343c3b6ba63400043ed24106e790b7",
+      "sha256": "0fc5dfdf1684069aa75d3fe37f61030b8c78a5d2a8750dbec6dcfbb47c87a765"
+    },
+    "assets/images/megaphone-announce-color-alt.svg": {
+      "md5": "77276edc42c22f608be370d47400e326",
+      "sha256": "9f6eb645519875731935ef495ced24debc4a4b2592e4b15c5426b28d283e5fa9"
+    },
+    "assets/images/product-discount-alt.svg": {
+      "md5": "a40b5d3523849acf33787f6c03c2023c",
+      "sha256": "e409a5a031f354a070d67b608e9a61241f9608ac8ae35e13ca7922da5cc026c3"
+    },
+    "assets/images/product-package-box.svg": {
+      "md5": "9938f463cce5021fb4e0438ac75a918a",
+      "sha256": "2be03ec310893a6930e773aedb5846d669de6a132fc775573a911008b9a3c8a8"
+    },
+    "assets/images/sale-splash-tag.svg": {
+      "md5": "68043118c6d7baf02c2b82e195cecc63",
+      "sha256": "bda19af8f8d1fc62a02ef23583a32e594cfc1145f4729cfb665623e5fc5f3b45"
+    },
+    "assets/images/sprite.png": {
+      "md5": "fa0a2a6e0ee6fa6b998b4128c2298ff1",
+      "sha256": "df84219e179ad67d80965927d8c7d11cb95fceca8fadfb44f13ee0c7db3ea393"
+    },
+    "assets/images/subs-calendar-discount.svg": {
+      "md5": "607039382d57abc4c2c8000b36bca717",
+      "sha256": "3afa849b39c90b632aa794b9a6b0d746585c45ae3d9c17f08e9a009fdde17632"
+    },
+    "assets/images/subs-discount-voucher.svg": {
+      "md5": "9c9e1e0cfa5729b57bb51514493bc907",
+      "sha256": "dda5d7f452088e94bbef004c63ae53ceb59ed922aed6e819403ee30bf64a69f8"
+    },
+    "assets/images/giftcard/gift-card.jpg": {
+      "md5": "c7dd5d8b2a4a24a8574a2bd7edad91b8",
+      "sha256": "deabc6e68257eac685e7fea1447346d69d01af2a93b8416435e82b863db8f175"
+    },
+    "assets/images/store-notice-design/balloon.png": {
+      "md5": "ef01ac7dc878f7efb47b3dda9e957c65",
+      "sha256": "f337bcba025e27636b99dc34b0cdb15e359076f407cb1b4fb0c08a8e13ddeed2"
+    },
+    "assets/images/store-notice-design/christmas.png": {
+      "md5": "7b58d37e9b6b087120e9a34280802545",
+      "sha256": "f20700dcefc2ec2541abec2d750520800da6a93aa1f7dbe4f59ff7de89b64010"
+    },
+    "assets/images/store-notice-design/gift-box.png": {
+      "md5": "9dbf4a90a0d03631b83bb7e42e0073b4",
+      "sha256": "8d843800d23e66a2236bcdbf832c90d8d32669040144dd17ca090a9cb8ebd1c9"
+    },
+    "assets/images/store-notice-design/notification.png": {
+      "md5": "e8d8059cb1a8fbfcdf5a4fc7f353889a",
+      "sha256": "845f06f1cc75985cc29611e1e16246a5ce8b84a9c8e7aff6d4ed1b4e58660982"
+    },
+    "assets/js/gift-card-image.js": {
+      "md5": "e68993803d0ad8cf3c38e7ac5bbd23f9",
+      "sha256": "4e1df0741628d7c5bfc489d41bc1949404eb646bca578008572eb988b6eeb87d"
+    },
+    "assets/js/gift-card-image.min.js": {
+      "md5": "a8c915c4ad0e29014069312bffc6aeee",
+      "sha256": "c82f7b213a6d2b380f80121ab8b0f1412278a879e78499317060720b4b703a49"
+    },
+    "assets/js/jquery-ui-timepicker-addon.js": {
+      "md5": "3af3de9da2795a6facd07c9398608cab",
+      "sha256": "8ed564d0ee0142dd96eb1e0726c72b82c2d58734a85dbb4bb90b74a4bc416267"
+    },
+    "assets/js/jquery-ui-timepicker-addon.min.js": {
+      "md5": "e188a57083ecd9cd3ede88ac91e9ee77",
+      "sha256": "10ebff5e6da9519755cd5db284265fc0d64093f650b5654d5a8fcb3235cf8de0"
+    },
+    "assets/js/product-page-gift-form.js": {
+      "md5": "8d43c7812d0d31902308cab0b63f9169",
+      "sha256": "05ca515b135fe8542ebc1c6b92f11f7fbc03b4955fa470c7ee7875789bb46ed9"
+    },
+    "assets/js/product-page-gift-form.min.js": {
+      "md5": "1505b198bbbbdc25d326190de9d27d76",
+      "sha256": "470048572bcbec1fbd412ad4dc2d8c5bb22faa9f18d596a037b9acd3453dfa9e"
+    },
+    "assets/js/sc-add-restriction.js": {
+      "md5": "ea8e17d2973bc1add66c189d3d859dd8",
+      "sha256": "69a39ce6b14b6708152312259e8852931831efec80058f1c422d27721c36613d"
+    },
+    "assets/js/sc-countdown.js": {
+      "md5": "056a049f9463ae1726b702083570c769",
+      "sha256": "6610009b9559f1ca2663c8d1178f8199f0f2fc3d95c908abf836f4b60264f3a8"
+    },
+    "assets/js/sc-countdown.min.js": {
+      "md5": "b88873d759a165e7393fb3e16f08cdbe",
+      "sha256": "36a190798777aad48a0c95c38e7c701ebab9514526c21bf00ff19076ae77d8a3"
+    },
+    "assets/js/sc-shortcode.js": {
+      "md5": "1efa13f70b3679bb05fa8b400f07403b",
+      "sha256": "bfbf85ee2ce2c08ce67ac13bbda33e10a6bf699abab24ba06766ba1a6a476667"
+    },
+    "assets/js/shepherd.min.js": {
+      "md5": "b41da51b1ba19c6c1573c802a5803a7f",
+      "sha256": "74bbf4a4e20d366afc6477067a708962917bbedc005c2dcb16ab3b9c6d20f8cf"
+    },
+    "assets/js/blocks/store-credit-balance.js": {
+      "md5": "46d76e50b615dee4490b5c515671c0a4",
+      "sha256": "5be57d825b02c678a99bcdf4af15684a9a2da5592314ce666b725169d1d76398"
+    },
+    "assets/js/blocks/store-credit-balance.min.js": {
+      "md5": "6cd2ef6965b2bd5da612e4843be65425",
+      "sha256": "32a4fd2d090dde61cfbbe563986fbdb67e0cd287be9ae8cefa7699cb785127a1"
+    },
+    "assets/js/tours/tour-01.min.js": {
+      "md5": "f81f302bcec9ded968877a2f2fcd11c7",
+      "sha256": "9539d5515471bb737dc7e50279dd8f8b63ba5459ee4fc85b81383a51eb9fa86b"
+    },
+    "assets/js/tours/tour-02.min.js": {
+      "md5": "f21e6089f5f4dd268a43eafc238940fa",
+      "sha256": "8f9f848201e0d92c27ba42c2c3919ffd77c50294db129f74c98011d2ab7b9623"
+    },
+    "assets/js/tours/tour-09.min.js": {
+      "md5": "73d31f7c1968ccfee212da4d705be6d4",
+      "sha256": "7849417c60f97fa84c1201509dc9fb837294d94f3d9dc9c1c60c843b1e889f51"
+    },
+    "assets/js/tours/tour-11.min.js": {
+      "md5": "0e3e42303ad7d4c7f2580031afb6445b",
+      "sha256": "2d207c330330eed01408d5db0ed55dc23c9bed4d420cbc36a6c65e84e342ca6b"
+    },
+    "blocks/blocks.php": {
+      "md5": "be29b202f1132afd006d324eddc4a9b9",
+      "sha256": "fa71980f5e829b22ab51fa93dc106f2a654c2ee8f3ebfa14470e6ab40871c43f"
+    },
+    "blocks/class-sc-actiontab-extend-store-endpoint.php": {
+      "md5": "32ba39999fac308b4c5fd00ca51b4666",
+      "sha256": "6b4158e6421fa0f43c3986faa6139d7486150c504a3e5ce274cb0f2d627c5b10"
+    },
+    "blocks/class-wc-sc-blocks-integration.php": {
+      "md5": "42944767f64a5a34939a3426560c10a1",
+      "sha256": "302bea864467eb81d57ad87ad25aac61d18e759eb66bdf8dabcd9b6b1e8c8d26"
+    },
+    "blocks/class-wc-sc-extend-store-endpoint.php": {
+      "md5": "c4081fdec721e1c01f07ab857bbc8c3f",
+      "sha256": "de07c5181b73912d09433132ebc0253ce49f7a7d830931ee4ac7d12eeebd8c07"
+    },
+    "blocks/build/index.asset.php": {
+      "md5": "32a3eb2c914d3f48d827716633db61e0",
+      "sha256": "930d094e233de3009605bd18f290ec8baff6d1121fe9b85c23caf36b4c0c25eb"
+    },
+    "blocks/build/index.js": {
+      "md5": "92b6f9582be68be6f573c69807533ab6",
+      "sha256": "882a7c354c74104bfe89eec865c531d63c28d1d9402d806ca6c8016db7d31063"
+    },
+    "blocks/build/style-woocommerce-smart-coupons-action-tab-frontend.css": {
+      "md5": "161ecd252a97dd8e4c2633c0d7e275f9",
+      "sha256": "8e6ebe37be15123ec7f66eef5508268e2cc5a2dd66701f92f726f50d4228d94e"
+    },
+    "blocks/build/style-woocommerce-smart-coupons-available-coupons-block.css": {
+      "md5": "4b54990e67ac8f45e301c5bd00173c39",
+      "sha256": "e9f0ed1a35cfb038b98b47e32e69e7b8940f228858a6e985db59afe853c7a239"
+    },
+    "blocks/build/style-woocommerce-smart-coupons-send-coupon-form-block.css": {
+      "md5": "edd3be45bcea6b36448677c8cdce9ff8",
+      "sha256": "2937c589f7a1cd0c50cd4a157c3899073e5b3a9e89dacd15513790eaa283d581"
+    },
+    "blocks/build/woocommerce-smart-coupons-action-tab-frontend.asset.php": {
+      "md5": "fffdb8c7382fc8a9953d51098f6da72f",
+      "sha256": "635bfda0b0d2821879c336388bd271100f5ab95aea4927e756f15581e933cae1"
+    },
+    "blocks/build/woocommerce-smart-coupons-action-tab-frontend.js": {
+      "md5": "ff67632b436c116fba04b3cb3d18444a",
+      "sha256": "7251db9e094d9551b8e374f295991e32192d2b16cc9778d7a92a1af5b2678aa5"
+    },
+    "blocks/build/woocommerce-smart-coupons-available-coupons-block-frontend.asset.php": {
+      "md5": "083ea9b829600f3183a57743da9fe84a",
+      "sha256": "4a5313ebe678373e740fdde6b233a2024ef9d2696b4789913d48c87e8663b353"
+    },
+    "blocks/build/woocommerce-smart-coupons-available-coupons-block-frontend.js": {
+      "md5": "23f1986cf7dbc4f9751403e7a095d33e",
+      "sha256": "d48ede11f3d24e04a9fde232f582c0a8aa09b21361a9c37b222aa084f639f829"
+    },
+    "blocks/build/woocommerce-smart-coupons-available-coupons-block.asset.php": {
+      "md5": "743b677d7d3ce9b6857a4a81b58d4837",
+      "sha256": "67603cedbbe806603c9f7f4aff80e4d58121084aa4cbd7fe4663b049f64a8f8b"
+    },
+    "blocks/build/woocommerce-smart-coupons-available-coupons-block.js": {
+      "md5": "3f75765a64739d4d8e8c042a168e4068",
+      "sha256": "42f5e24c15fd0f31da8ae98f1e41e049cfb435af5e2ff29d1e333753b16e1c5d"
+    },
+    "blocks/build/woocommerce-smart-coupons-send-coupon-form-block-frontend.asset.php": {
+      "md5": "1001b25352eb534d1602c859774ffbe4",
+      "sha256": "406097359879c0dde698520d253c4d191b714a80821a8e7fa0a8cf7fdd0d9ede"
+    },
+    "blocks/build/woocommerce-smart-coupons-send-coupon-form-block-frontend.js": {
+      "md5": "90cb14e4ee000dba88edd31beae8bb11",
+      "sha256": "9d197e34f4ac9fba23b12f84d062bf2faf80b94bd8ad63880307821aa59f89b6"
+    },
+    "blocks/build/woocommerce-smart-coupons-send-coupon-form-block.asset.php": {
+      "md5": "6de3b57aa2c2aa847344bf85bfdabeae",
+      "sha256": "a48d6221e6fa36e92d6e66f2192be3a3608034cd9020c94033f165bee583fa02"
+    },
+    "blocks/build/woocommerce-smart-coupons-send-coupon-form-block.js": {
+      "md5": "2f53a5607a395a3e4ea55d7d368f547c",
+      "sha256": "d9eb7b5c69a787328ffb3f81c51ac79fe2755b7215a3a385ed3f11ce62f67c03"
+    },
+    "blocks/build/js/available-coupons/block.json": {
+      "md5": "33e21b9f88b192baf670530d9ed565fb",
+      "sha256": "0396daaeedeb4ad23d285b7ae22784a0275308d49c5b8293ebdae7efc626ab35"
+    },
+    "blocks/build/js/send-coupon-form/block.json": {
+      "md5": "ad1e4aa41355c7a9bea88f5efd8c82de",
+      "sha256": "a0104cba63635a45ff6dfc3ae2dd53f35b4da3d6b7f932ea55655c70d9aabb73"
+    },
+    "includes/class-wc-sc-act-deact.php": {
+      "md5": "139ee3bcfb10565439b08e8222807b96",
+      "sha256": "69c62d3bde989753e1a4ce932e77c6078ddc7c61c180f75a0fd9c30f0a4eceb2"
+    },
+    "includes/class-wc-sc-admin-coupons-dashboard-actions.php": {
+      "md5": "520d142d35f6a041c7d8ca85b6dc460a",
+      "sha256": "598d2c477a48c6a61025e8dacbcd06bdc79bed552c07c4da4237a3951fee7027"
+    },
+    "includes/class-wc-sc-admin-notifications.php": {
+      "md5": "540b9c854c0b2a396d541c878d38a029",
+      "sha256": "d9da231ebb8c1c499d3aab387a31b273690188e158fb56d08c5583e99accc5f8"
+    },
+    "includes/class-wc-sc-admin-pages.php": {
+      "md5": "f94358470f4836eeb9281b82590b874f",
+      "sha256": "25bbb68146f6115ae1a3951821d3f7870dab02b06bc0ae66b86af3ce806f77d0"
+    },
+    "includes/class-wc-sc-admin-welcome.php": {
+      "md5": "6fb7de41aa86f02c04319e440597189f",
+      "sha256": "d17bdb17d15688982ff4b42c4545f4acd97949c4df84dfc7eac0c21cb31aee1b"
+    },
+    "includes/class-wc-sc-ajax.php": {
+      "md5": "afa53cabe43d9217328d5cb5fa843725",
+      "sha256": "0baba290cc1d1277928e9d8352eb84bf8ea09746ff991661ad29580be3b10e51"
+    },
+    "includes/class-wc-sc-apply-before-tax.php": {
+      "md5": "e7ec54a5e2faa5a9639ef6c41759515e",
+      "sha256": "26de52e2c4b445bc9d34cb3a8bf1606bfe3bd66a72139d8a4ed1122b11fab7e3"
+    },
+    "includes/class-wc-sc-auto-apply-coupon.php": {
+      "md5": "c0099cc613141a1c7a0f0298bd693af9",
+      "sha256": "aa585261817250511ddbc712df6cf0addfeb2513dcec0c0dd501f1eebc458f51"
+    },
+    "includes/class-wc-sc-background-coupon-importer.php": {
+      "md5": "fad2eedb76b3af503e7c682167a8de55",
+      "sha256": "1341b248e44f58b463dc9c49f1825d1b7781c4d4aa61e8aa5fb212d9c61225d5"
+    },
+    "includes/class-wc-sc-background-upgrade.php": {
+      "md5": "f00cc589deb96ae66a6ab6ba69053ad6",
+      "sha256": "6ab6631117e334df25a5a9a6981d447525426b5eb1835704209ffd65c83ddb49"
+    },
+    "includes/class-wc-sc-cart-notices.php": {
+      "md5": "b7c4172db731ee9ef6c9a134cc81b367",
+      "sha256": "5781968e56aab325ad0df5150eaead8163729bacfbfa4de736f67cd2bda83ed5"
+    },
+    "includes/class-wc-sc-cashback-rewards.php": {
+      "md5": "54cf842a8b66d044be91a75f5e46427a",
+      "sha256": "6bcb0e41f523c9d7a2d1a511fa756afd5dcca45d6ce9a6200bad74d273dd2173"
+    },
+    "includes/class-wc-sc-cheapest-costliest-items.php": {
+      "md5": "802c919aa1305dd3d853ef5e7dd5a41e",
+      "sha256": "2c777d14b8b4bef2d81749dcc2645549c12ad60d52c74cd214c0a8992c828c09"
+    },
+    "includes/class-wc-sc-combo-coupons.php": {
+      "md5": "c61c0e1998c91d5c966bad25804d7910",
+      "sha256": "2b7ab0a3b2709a8bdefd35f32a43921a034d112160f895d2b321cfe012f4ef62"
+    },
+    "includes/class-wc-sc-coupon-actions.php": {
+      "md5": "375646201179e041d39b6fee3b099d36",
+      "sha256": "88d010a342b24789a08fbab12c1e2684b1b53f0d3ff5717008da44f513edcb5b"
+    },
+    "includes/class-wc-sc-coupon-categories.php": {
+      "md5": "38b20ddd0f7ff0fc7c4ac53f42e096f4",
+      "sha256": "bfb5c048c847222f090c309dda6488423535bf6305a527a63a67184b220a739e"
+    },
+    "includes/class-wc-sc-coupon-columns.php": {
+      "md5": "6cf7ada845157ae01f3978d56bc88bd1",
+      "sha256": "0cdc07014749bbc4e5a9f4161868518a0c0ca6b25747ac368590883f0243cacc"
+    },
+    "includes/class-wc-sc-coupon-data-store.php": {
+      "md5": "3139940a7b07373339590450b7552e89",
+      "sha256": "8d456ef1c78c1224452e4e6967d8a45e320d672aefda83291669cd50d91e5bd2"
+    },
+    "includes/class-wc-sc-coupon-expiry-reminder.php": {
+      "md5": "11819d7f7170ad70725a2670dffa2dab",
+      "sha256": "eca4b5c7e74787cee4b7caa35e838675a05eac2474702628bd3154abd56d15e7"
+    },
+    "includes/class-wc-sc-coupon-fields.php": {
+      "md5": "d7acb82e07f73632c2137b4bb784dc28",
+      "sha256": "9c159dfc26b04eb8473b28497c0ed0c9d1f258089bb26e75f45bb6ca03804ffe"
+    },
+    "includes/class-wc-sc-coupon-import.php": {
+      "md5": "1c1b4f653bcd86916b9e78d7abd6bf70",
+      "sha256": "73ef92c420759d550d0fb34bf56dfd7940f64e7dd73f56ae9d3e52f00a6e9597"
+    },
+    "includes/class-wc-sc-coupon-message.php": {
+      "md5": "d2801c271d8490cdbfe19f7894e63e41",
+      "sha256": "58686e295f3c5ac7cf4cedbb8ca9dea0c50ead4ab993701c03d30d2e8fe4c551"
+    },
+    "includes/class-wc-sc-coupon-parser.php": {
+      "md5": "f82651c71dc01c2b5a410f8d26add4b1",
+      "sha256": "db9e60bd6e25c285cd6a5ed7ed8baa3099bafe8cff438afa729cbc1990d7b9a6"
+    },
+    "includes/class-wc-sc-coupon-process.php": {
+      "md5": "fcf582f56b2d79472e30b89b9b6c351c",
+      "sha256": "d4e007a6fb1b0d1ccec42a9984e405fb0d4a2107661b9159c0b56d76b6eeab85"
+    },
+    "includes/class-wc-sc-coupon-refund-process.php": {
+      "md5": "7e7d8674b25e024c78cacea1675d45dc",
+      "sha256": "1e7ff96ef1f2688fbdc07827a8a778e5e406d4d8d15b9ba745da437ec4dd892d"
+    },
+    "includes/class-wc-sc-coupon-unused-reminder.php": {
+      "md5": "3b1eb60164f9111abfa9c37bb1aebd27",
+      "sha256": "3439e5f9a9301254e03d8cef4f78f8b5c3fe56d20b12eefdd30fd44cd1129120"
+    },
+    "includes/class-wc-sc-coupons-by-excluded-email.php": {
+      "md5": "47b9656e7ad7d60084af0525e1ddd6bd",
+      "sha256": "0bd22984b3440fcc26c7cfc60fc3eaafd6ccd4c7d0d427283a28c19a0cd4b833"
+    },
+    "includes/class-wc-sc-coupons-by-location.php": {
+      "md5": "300c0a421227a6250f31cff93849e0b1",
+      "sha256": "aaf19067606e20b2679e8a0b75e9b6ee5200fa9b27b94160898081e3365ca309"
+    },
+    "includes/class-wc-sc-coupons-by-order-count.php": {
+      "md5": "49da5ccd1749e59f64cc96d2025a2e56",
+      "sha256": "ad6d74e0794843403733a30f46ac1574aa6e0f1c2c28da19dc6b80b047651401"
+    },
+    "includes/class-wc-sc-coupons-by-payment-method.php": {
+      "md5": "08e59d4543dfa8fb00a15b083e39f6ae",
+      "sha256": "e32de30935069aa82328247b65f2f9ff62f2db4089cb09d89bd59966758897a2"
+    },
+    "includes/class-wc-sc-coupons-by-product-attribute.php": {
+      "md5": "98b7ed98b783275488806c8d67bb8e9d",
+      "sha256": "4672ba8824296b6cb127f4de985f109aec2deeeea48c577dc667eb6bbe93fba0"
+    },
+    "includes/class-wc-sc-coupons-by-product-quantity.php": {
+      "md5": "45c4c6a2837f29198610afc72f0e6e74",
+      "sha256": "e0ec22bfbe3abaa0f4f90fd2e9106cdf5ecaef02284a13237b62457767cd1316"
+    },
+    "includes/class-wc-sc-coupons-by-shipping-method.php": {
+      "md5": "62da52e1316358a2f87e95feb0d6ece3",
+      "sha256": "129852896d35c17aaf51ecc977d923b862e1f1c94c491e9e7843c12b4faf1e89"
+    },
+    "includes/class-wc-sc-coupons-by-taxonomy.php": {
+      "md5": "72ec03018dc41d374d9bdde9cac0ee16",
+      "sha256": "582399a0570365d0627067dc364ecf2f5f62d4bd01afea833429489f6ccfe114"
+    },
+    "includes/class-wc-sc-coupons-by-user-role.php": {
+      "md5": "5e13bdc6e829e79eb07f5e8c0d13ff26",
+      "sha256": "5cb65bf102d506c22c88ac839d83e3567c2532a9898ce00bb1da09c96ab05745"
+    },
+    "includes/class-wc-sc-display-coupons.php": {
+      "md5": "969acfbdae9290214bc2b560e21344fc",
+      "sha256": "5569348e6ae1fd3332fe35eca079da7dc3a71bd542f22380668e60d402600648"
+    },
+    "includes/class-wc-sc-display-discounted-price.php": {
+      "md5": "df4c6daddfa09329aa3e49a4a53114ce",
+      "sha256": "cd6210112b98d460d74d3915ea9fc48dc6729616b4bf84cead35c32237d41298"
+    },
+    "includes/class-wc-sc-email-preview.php": {
+      "md5": "14c259b027132f3faa0aa8ae528a961e",
+      "sha256": "cd7a2a60556b79860496844ad6873c61e044bbdcf4d20fc78edca04d46be8489"
+    },
+    "includes/class-wc-sc-gift-card-image.php": {
+      "md5": "d4bc805a8a9d74eab8c9825781c83407",
+      "sha256": "8a3404fabeed7e191a878a0531478ce0bd19decb85d2b8388553d075e690fad0"
+    },
+    "includes/class-wc-sc-global-coupons.php": {
+      "md5": "49559563427c756ff021fd47465e53de",
+      "sha256": "3fcd5860cd6b33e57a8443a8e60811c647106bd58195683511b703e0d990512f"
+    },
+    "includes/class-wc-sc-order-fields.php": {
+      "md5": "dbcdf7ff64f631037965aecf1a86d45b",
+      "sha256": "e67da988ca310b5cde195cd8a94efd91d7fa784ff5c7c4e57051c9b19746b488"
+    },
+    "includes/class-wc-sc-order-stats.php": {
+      "md5": "c62b13ff17533ffa67e79afc6d187a5d",
+      "sha256": "939b93bf78cfc72270d2ee22fc2a6bd48086e893d96d848c57d10357ceb59e90"
+    },
+    "includes/class-wc-sc-print-coupon.php": {
+      "md5": "076ba0829f50b5589900272d788dae9e",
+      "sha256": "c931cda92102193aa85da03de1ebae8ac384a0c053b13297dd69e09a36215ae7"
+    },
+    "includes/class-wc-sc-privacy.php": {
+      "md5": "9485c710712293fc1050e07e771f3c5f",
+      "sha256": "cdabdc65de56e36821ce684e3235d2b3d8c4b430fd9bd0033d47ed44d6e18eaa"
+    },
+    "includes/class-wc-sc-product-columns.php": {
+      "md5": "08cac81396e51f5d0b466edacf4fff09",
+      "sha256": "86ce22fcbc53367e930f8d8da2fbe2a172c9e05799cb33ce3ca4a1f733e310bc"
+    },
+    "includes/class-wc-sc-product-fields.php": {
+      "md5": "2b0f2ad128f111605722bb1613c5a94d",
+      "sha256": "66a3a56c47941a0c00e1a1865e70ab08d41d5006ab410a618f467cb3c393e260"
+    },
+    "includes/class-wc-sc-purchase-credit.php": {
+      "md5": "1b00e200553b6235fb60256395ed8ea3",
+      "sha256": "a04c073e1c419d6a56db890c9b35562dbfd3cc142dbe690b0424c16b1965c6a2"
+    },
+    "includes/class-wc-sc-rest-coupons-controller.php": {
+      "md5": "e32b02fa4c80c76d00a4045ceacd8c22",
+      "sha256": "bae2d0e5bde557f26bde2ea6759222ea44bef317208f6f0ab55af952e87f3520"
+    },
+    "includes/class-wc-sc-settings.php": {
+      "md5": "25eebfcf00f5d9981e0585aa42d61ed8",
+      "sha256": "b6c346ec8edf97bdaec0f85f1edaaf6b47bb017d9c5c8fb813f7a64199a11137"
+    },
+    "includes/class-wc-sc-shortcode.php": {
+      "md5": "19b4f49183d0bd1a2d6742c150ba109d",
+      "sha256": "05eb0e9665685f2632266f76edea8ab153b67405d5bf4c1495c291d312d2d7ed"
+    },
+    "includes/class-wc-sc-store-credit-balance.php": {
+      "md5": "c9a7b6b6841076c1a2f9cc19dbc257ec",
+      "sha256": "dd47d9bed1459904b7b9bd1edda55efaaa79ab0ad5e499d0a4b537bd04327588"
+    },
+    "includes/class-wc-sc-tours.php": {
+      "md5": "81f0e512a9c09cb12f3280a06d717990",
+      "sha256": "6f240d94c461f0724dcde90190e2316648bf812f7a76738e3b10d7a0a0f4080d"
+    },
+    "includes/class-wc-sc-url-coupon.php": {
+      "md5": "a6c4ee989ff0dc8b0e64166527e3f42f",
+      "sha256": "eeb8949419f867782891a983b25e57a166493711c994de9886fd5a77d849e461"
+    },
+    "includes/class-wc-smart-coupons.php": {
+      "md5": "a5d7d15b6a2b13e8a4c86fc0e27b1ed4",
+      "sha256": "4f1eecb8742babd490c7690825343963b13548883a7be784d42fbfc6c531aa3b"
+    },
+    "includes/abstracts/class-wc-sc-background-process.php": {
+      "md5": "91ad043df2564077298a6dc8bb2ee672",
+      "sha256": "881e3091ae0b4c6cf530b0794acdb134f612105c695cac8bb05dbb736a2d39fb"
+    },
+    "includes/batches/class-wc-sc-coupon-table.php": {
+      "md5": "982a701f46e0f013b2ec40c5b44b575b",
+      "sha256": "2f9a0532278867caa333a67ca626376cbb6d4fed5a075443c261a55aef129466"
+    },
+    "includes/batches/class-wc-sc-coupons-expiry-reminder-scheduler.php": {
+      "md5": "afc860709fd750e3493ac90b950d9e25",
+      "sha256": "ddede04f10a885d897b345494bfe67ea408fe8fcb0300914b3dcc9944c985a9b"
+    },
+    "includes/batches/class-wc-sc-coupons-unused-reminder-scheduler.php": {
+      "md5": "25967518c66e88f4835ba08213b095a9",
+      "sha256": "42b38e106b480ff8775ea9f5a57ab0f3806658e2acf6216b9102a13af759667c"
+    },
+    "includes/batches/class-wc-sc-order-stats-negative-net-total-fix.php": {
+      "md5": "4e3e5aff17674fa5015973a8aaefbb10",
+      "sha256": "2f5210a1f15a3d2380603b1ed64412639fdf4bb9b06ba0e9ce629eaac75b814c"
+    },
+    "includes/blocks/class-wc-sc-gutenberg-coupon-block.php": {
+      "md5": "2b4b8ecd943cb168378aad9df0659b0e",
+      "sha256": "718f69de63593621e4af877d01703cdd46ac5ea1f78e86eb2d7a19a93f7e5c8f"
+    },
+    "includes/blocks/sc-gutenberg-block.js": {
+      "md5": "f79f9e70cd942c4eaa3715f03ce05442",
+      "sha256": "c326a8900a1f0f68879b9a0c19c7af4e104400d99da7d299dfd54a732e0074d4"
+    },
+    "includes/compat/class-sa-wc-sc-compatibility.php": {
+      "md5": "67ee93873e2539cbbcbc0684501c477d",
+      "sha256": "e543dc02f36efcdc3c87b3398fdb10f99de6887c11ef9331d67869c35305c06b"
+    },
+    "includes/compat/class-wc-sc-aelia-cs-compatibility.php": {
+      "md5": "78fcec63512cf9a0df46e6ccf15c2be2",
+      "sha256": "451abf27b43e7fa29f4935d28ea67f2b19533599d239725ecd980adb826ae76e"
+    },
+    "includes/compat/class-wc-sc-cfw-compatibility.php": {
+      "md5": "a6e9a6ce66e9f13b35ca5bd1fc0feee5",
+      "sha256": "c1d324c899ef8bda48666dbf2bfb406c7b5fc1e52489764167703e8e6fdf6cac"
+    },
+    "includes/compat/class-wc-sc-fkcart-compatibility.php": {
+      "md5": "92be00b97c1e8d2311ec32247e772469",
+      "sha256": "2e66a60acf6d5a661cfcfdf94e83d56bbbd52b3ddbfc65f148346d684844d8e1"
+    },
+    "includes/compat/class-wc-sc-kco-compatibility.php": {
+      "md5": "efa30fbd71e3e8808fc5aece70dc1d7e",
+      "sha256": "7381463a668204a39817cc45fa4be7114f77437c427c21ad44792f7d858734ca"
+    },
+    "includes/compat/class-wc-sc-pnr-compatibility.php": {
+      "md5": "179d0a6371cb2d5f88413ce98c1126e4",
+      "sha256": "1155e7fba02ca9896b63a248847360834433cd87dacf4d1f4473e266e9db3b96"
+    },
+    "includes/compat/class-wc-sc-polylang-compatibility.php": {
+      "md5": "b489d17dd541cd899efaa2dab890fb5c",
+      "sha256": "908731d178501a4507889e2f2fab5cf8203efa831ce51cf4d904b5a20e3473e3"
+    },
+    "includes/compat/class-wc-sc-wmc-compatibility.php": {
+      "md5": "6916dc60bbaf39bad6178ab46e1a9587",
+      "sha256": "615766b59299c0d0e07636415035040a9d12b8c0f296cd2aec44993e4cbe12d4"
+    },
+    "includes/compat/class-wc-sc-woopayments-compatibility.php": {
+      "md5": "bfc41f27f1ffc0656e463860a4ee8cc3",
+      "sha256": "d7087d7378197b3efa0d275f4bf1c2e7d53d186de5cfea60b777964f1131c202"
+    },
+    "includes/compat/class-wc-sc-wpml-compatibility.php": {
+      "md5": "5f4f3428e2572979421b95e5c9c3b3ac",
+      "sha256": "f9dac2038741fad3252f3a8eea380527c298226b756bd2ad555743d2f1772dd0"
+    },
+    "includes/compat/class-wc-sc-wscp-compatibility.php": {
+      "md5": "b12b4c861f84d24fc77144ef9950e3ef",
+      "sha256": "14ed6269baae36c78ad44488d152a26b43c7b140e93e2875e72a5cc5635c9a1b"
+    },
+    "includes/compat/class-wcopc-sc-compatibility.php": {
+      "md5": "014b912388295b3a465ddcfaf937d927",
+      "sha256": "729832cd70490cfbdf07c094b4f61b031f7a4ffc812496a4bf4361d84fd4fe4e"
+    },
+    "includes/compat/class-wcs-sc-compatibility.php": {
+      "md5": "d02372c6d0ce8128d8bafbbe8c597c8f",
+      "sha256": "6f70140265f264ec6e52a4d8b5508fa5eecaad9999204bb72649b089492fc084"
+    },
+    "includes/compat/class-wpbp-compatibility.php": {
+      "md5": "81fa1ea1eb7c64cc96811efee94b6af6",
+      "sha256": "e4c4472aba2db7ba6d4d6fd9c3e9f9f2db7007ec70b11f794d07cf5d1c404994"
+    },
+    "includes/emails/class-wc-sc-acknowledgement-email.php": {
+      "md5": "9446c89535f641cd0c90519afe035f08",
+      "sha256": "4314b05ccb7192e3bfb3e98240d962af36c8845faa5504e65e7257f03e32da22"
+    },
+    "includes/emails/class-wc-sc-combined-email-coupon.php": {
+      "md5": "4d51b30c55ae8a1d64c0e30bf59db476",
+      "sha256": "9c61a89cee109b59faedafee3c1129a35961a41434de95ab3bb017dffd456afa"
+    },
+    "includes/emails/class-wc-sc-email-coupon-image.php": {
+      "md5": "7de25fbd7447449a1a43db564387ebeb",
+      "sha256": "fe7ca4103f0c4cc16abeb30b7b169d6d24c9ef7912baf85cc7e099b315cba4b8"
+    },
+    "includes/emails/class-wc-sc-email-coupon.php": {
+      "md5": "82c7769222deb475ab71562a74329511",
+      "sha256": "d130d7626a5839db5f9b76e7f4fdc620d34317ddec5083e35f02e036ab645cbd"
+    },
+    "includes/emails/class-wc-sc-email.php": {
+      "md5": "e36908ca1025660755f839209bdfbf94",
+      "sha256": "5509ef34cc94c65debdccf5b6e95ce228fcadaac4da9c2be2ddba5c90388bb07"
+    },
+    "includes/emails/class-wc-sc-expiry-reminder-email.php": {
+      "md5": "37be93317f7592827c4b0f3bbd709aad",
+      "sha256": "41f8cd5b321f275ab19ab1fd2b2b5cfca541c44fd566c9183d036f0c7fed1741"
+    },
+    "includes/emails/class-wc-sc-unused-reminder-email.php": {
+      "md5": "7581dc54ce0447e2d545f116a48cab86",
+      "sha256": "345b1b6e4da7c05a2bc22f2adbb0a93848cee339d32c8f5b271bb99f7cf38c5b"
+    },
+    "languages/woocommerce-smart-coupons-ar.mo": {
+      "md5": "54b9c04e4664867c7782f76dd286a224",
+      "sha256": "29986db6d332627b5da8ca99ccee45e4fefdc96b2b8d045ac9a45cdce47d53dd"
+    },
+    "languages/woocommerce-smart-coupons-ar.po": {
+      "md5": "6c8d0ba23ad379c947df4ee706f46617",
+      "sha256": "1d895dc94b0729bc03cbc8bb03ab5299370361ed1fc539ef2a185ec945b0e5cb"
+    },
+    "languages/woocommerce-smart-coupons-da_DK.mo": {
+      "md5": "084ffe8fbda25938ccf3da65c8c00902",
+      "sha256": "ed79829392eb641f21876ac5cfb0dd009f2478c1ccd34193361747a2e01e810c"
+    },
+    "languages/woocommerce-smart-coupons-da_DK.po": {
+      "md5": "856f077f078a605b44049a10026931b6",
+      "sha256": "2223e3d829c2ef32d2dcf683983de4972d7232e3ae06c5082beb7e9a69fc2cfd"
+    },
+    "languages/woocommerce-smart-coupons-de_DE.mo": {
+      "md5": "4c958f8208ba6f96eef4fd98775336b2",
+      "sha256": "fd3a188015fd7fda314f2677f0bef00313fede9db815c0bcb71d4906fc4d2f15"
+    },
+    "languages/woocommerce-smart-coupons-de_DE.po": {
+      "md5": "d85b8b75867db2f4872f106981b51240",
+      "sha256": "3adac0a2fcd9d05c6d42fe0e8813cdc73cf9cb44797fa2af10d6829119dfc183"
+    },
+    "languages/woocommerce-smart-coupons-es_ES.mo": {
+      "md5": "2add2a79a239bc4b6c4a2931ca7b6161",
+      "sha256": "82e3663878ce1a8e125c5b634cc0278be2cbbd22772b3642527861e69b858350"
+    },
+    "languages/woocommerce-smart-coupons-es_ES.po": {
+      "md5": "18122e51decfc2943d0d017bd9416a37",
+      "sha256": "65cfeff87b9e4312a6b8d3e9d028824c67a3148c74ac8c6d859138f6c4a47504"
+    },
+    "languages/woocommerce-smart-coupons-fr_FR.mo": {
+      "md5": "00cafa18a7f0ce5aff502edcf7ae1071",
+      "sha256": "7779a58e9fec8556cbe950096c091f19879880ababb35bbcf129e4391d2fd0ed"
+    },
+    "languages/woocommerce-smart-coupons-fr_FR.po": {
+      "md5": "812224412fe61977d71a38024af708c7",
+      "sha256": "5b60b582c0f4f2332ed5df98fb6db3933826793d562d27a9bfdf20845fad2c66"
+    },
+    "languages/woocommerce-smart-coupons-it_IT.mo": {
+      "md5": "055dc1955a4390c55e14a2ec6a23d539",
+      "sha256": "d0248083ee8d53ed02e269b2cc8692d2f4db7ec9595033f70d8cf4ec850db2e4"
+    },
+    "languages/woocommerce-smart-coupons-it_IT.po": {
+      "md5": "8a08e3b547f22703d3c0bd4292189c03",
+      "sha256": "96a8b4ea36a94382a3b87b7bbfc14b8e44c6614f80f010155036efb9927f476a"
+    },
+    "languages/woocommerce-smart-coupons-ja.mo": {
+      "md5": "18f35cb5af6c19e5b0df16517c142fcf",
+      "sha256": "8f1d4c436d47515ee3df6145bc2b5bcae6f80f8cf91bce3a3c0f037cc169ce1a"
+    },
+    "languages/woocommerce-smart-coupons-ja.po": {
+      "md5": "6ab1a3eb9556f8a87f303693437861c2",
+      "sha256": "6360c815d29c3ec9225e16f359ce2e4070dd44aff90d4fdf1b1f3607d75072e4"
+    },
+    "languages/woocommerce-smart-coupons-ko_KR.mo": {
+      "md5": "b0618feeb5de6b4e397a8873834a24f7",
+      "sha256": "6664af6e0516c45695bea088d9b5acf94a64c66e18a8b2434d928b3b694c9a8f"
+    },
+    "languages/woocommerce-smart-coupons-ko_KR.po": {
+      "md5": "f67a72efe8a7d66269bbdef7ee32744e",
+      "sha256": "abea03fb4f538d88b82b3fc444a5d66bd05b894c08a6824b6c319c9847f4228a"
+    },
+    "languages/woocommerce-smart-coupons-nl_NL.mo": {
+      "md5": "6d7fecb4b87edc8905b277430ae476fb",
+      "sha256": "4a9ef8570b37d3827c3459751e53f46059b682bbfaba080b292b1e82a98344c8"
+    },
+    "languages/woocommerce-smart-coupons-nl_NL.po": {
+      "md5": "b9c01ddc2def2322883a8625307de42a",
+      "sha256": "59c0e12486409677bcc096c85105b968e07b86b45f270dba01e5b57a16e99bb9"
+    },
+    "languages/woocommerce-smart-coupons-pl_PL.mo": {
+      "md5": "bc7b1fb86d46d16767d37fc6a3534337",
+      "sha256": "5262068ef1fab5ad3660283c1c698b27cc1057add1150ec3a4c40813b2ce3e26"
+    },
+    "languages/woocommerce-smart-coupons-pl_PL.po": {
+      "md5": "605e24b414793fc48c92cde44b4e528a",
+      "sha256": "d687d343e0d165e65fc7eb8f78046cd700d3e88360f1ff50f19ee38ebf8a86c1"
+    },
+    "languages/woocommerce-smart-coupons-pt_BR.mo": {
+      "md5": "9b645f0e3359b00a3bb88878d057ff2d",
+      "sha256": "40fef90ac3403e92ddbce955b3a7470a27432d4a64028ef2ca063c71572184a9"
+    },
+    "languages/woocommerce-smart-coupons-pt_BR.po": {
+      "md5": "5e3f1bf9b03056edbbbcd01681a69512",
+      "sha256": "fcd18523197fb6fe8297ed9ec0c8631b24649b4386cf01d3825e59ca7fccc9ce"
+    },
+    "languages/woocommerce-smart-coupons-pt_PT.mo": {
+      "md5": "8df33218e04b96402524fa8c3f910132",
+      "sha256": "e94acab83039142d38e5d9efa159fd826aaaa6d3c0acbd2628a69ce302c2b7d8"
+    },
+    "languages/woocommerce-smart-coupons-pt_PT.po": {
+      "md5": "fd61ea3f8255b492d9363e46cd335fbd",
+      "sha256": "ee7612f5633f4fc7ac7d0f00c0e7fdd59631be99d920311bc46737a6cd41ab70"
+    },
+    "languages/woocommerce-smart-coupons-ru_RU.mo": {
+      "md5": "4a6f70f671e39b7872ff7867e60affbc",
+      "sha256": "036a2c2bd7d8b648808130c870b189cfad8e0189776c76e2e1aa1e4755f64ab8"
+    },
+    "languages/woocommerce-smart-coupons-ru_RU.po": {
+      "md5": "177128e512d2c77d16d3b8780a9e4dd1",
+      "sha256": "d7afc988a5f2a04a356816ab0af2672e84289f8a4644205f0218ffcfde2a2d13"
+    },
+    "languages/woocommerce-smart-coupons-sv_SE.mo": {
+      "md5": "27cd73512aa1c6bf3350ec9e1b57dfc4",
+      "sha256": "a40ed39e25d01435a47262165d296752f0a2256468e8cdcacc7bac2a6a6a5214"
+    },
+    "languages/woocommerce-smart-coupons-sv_SE.po": {
+      "md5": "568841d927acc310afc0e6977ede1e85",
+      "sha256": "ca9141b4d1384c9993ea5664b1a2ced33de5a83fc9588d65b504d95be0c5d614"
+    },
+    "languages/woocommerce-smart-coupons-tr_TR.mo": {
+      "md5": "2d8853bdf0e87e44b05458da7c5e844a",
+      "sha256": "34c76fa686f0ea852fce71a95f2f68e111416767c61e608b600b6598343a619b"
+    },
+    "languages/woocommerce-smart-coupons-tr_TR.po": {
+      "md5": "0810009c6c76202ac1c52eecc94e2aa0",
+      "sha256": "888b1f491469a42a33abf1bf1034ee84a57edbb1efc285209b20f31d4a6c5cd1"
+    },
+    "languages/woocommerce-smart-coupons-zh_CN.mo": {
+      "md5": "0c4ce697758146a53c017a5c7d92c65c",
+      "sha256": "b1ce0fb491ee9015add7d87c66fdb8d710ce156a7c638bd8a83ceb018326a296"
+    },
+    "languages/woocommerce-smart-coupons-zh_CN.po": {
+      "md5": "fb218666dbd91445076a6d674e93af46",
+      "sha256": "2b86657a4a70ac50c5f8f400a4ced2bd0801eaa5d9ddbca70315cf79c0f1803b"
+    },
+    "languages/woocommerce-smart-coupons.pot": {
+      "md5": "2ee71da7ab8ea37882d5ce1c9d334149",
+      "sha256": "3badc35db4a7242645e1623d2d832dd5b47089a4546430ac64e7bb773274cdf2"
+    },
+    "templates/acknowledgement-email.php": {
+      "md5": "ae380b36d70250ab3668f35dc9154881",
+      "sha256": "9922ea0cabc742e8d7997fb94d73bb41d3adcdcd2b5542192b40aa51b1b4ec39"
+    },
+    "templates/call-for-credit-form.php": {
+      "md5": "3b80a15dc8e2873ef577ccd6522eaf1f",
+      "sha256": "6c9074ae5eb1c67759f57cf673e16043ce8ef82c854ef5d146e94bf5032efa6d"
+    },
+    "templates/combined-email.php": {
+      "md5": "cef304ae77799d5910cd734d7e288992",
+      "sha256": "8df138f145ba4939d93257d54bc8387060a3fcea4196a6378f8b1c31a6245b36"
+    },
+    "templates/email.php": {
+      "md5": "f8b234822e47658c8084fb0a72ce157e",
+      "sha256": "4fd1ff19e2b6168313a58f021934e05b33f8b82d210657f40652dae332f2817d"
+    },
+    "templates/expiry-reminder-email.php": {
+      "md5": "fa8864e0016ebf520c75c6ab2904093e",
+      "sha256": "d29965f9826316cc41aac79433e71f4957c94df97c65e72c23229f82d19dd031"
+    },
+    "templates/gift-card-email.php": {
+      "md5": "7adf716f73f9f78b08cb4968d929ea03",
+      "sha256": "a3a14c3196985d20d4970c02b9a869bf7a9cb19b7eee412b2d4b44801c6745e5"
+    },
+    "templates/print-coupons-default.php": {
+      "md5": "ffb914a683717b0bfd72eb60920ad4e8",
+      "sha256": "a0e432cab9a132dcf137117669694d94c99065aa4c04c02b06570f39460a9888"
+    },
+    "templates/product-threshold-message.php": {
+      "md5": "9b63a1e85f25bafa3b177a4c32800eb5",
+      "sha256": "eaced5673df7d47b87589cfb253bd987813955ee97780b03db9e363fe4e1a129"
+    },
+    "templates/unused-coupon-reminder.php": {
+      "md5": "994806a990863fc94b497808d11d7933",
+      "sha256": "f7cbad20c2461c136e48429d9477602c06f33c0c894182adccd2f47fa3162ce6"
+    },
+    "templates/coupon-design/basic.php": {
+      "md5": "61fb803f1ba2018ed819b6e4b42d58d4",
+      "sha256": "0a3f76651263bee424359ef137e49908f71530ce9e6f8d937c7d70f9df0571df"
+    },
+    "templates/coupon-design/clipper.php": {
+      "md5": "196e2dda484f318608ad0b0b6010eb13",
+      "sha256": "5e92c00f9aa80a97e817480685b985278924a557c333930f84c1c3396093add5"
+    },
+    "templates/coupon-design/custom-design.php": {
+      "md5": "a8addf5ead6e2f5f9e4a842ae9629f84",
+      "sha256": "e87dfee887ec1e99e64ad8b708455d4811252cc4e936986cda0fb9d8472c2fe4"
+    },
+    "templates/coupon-design/cutout.php": {
+      "md5": "3e0cc5a93a3db8a0abadbcd00cbb7a9b",
+      "sha256": "bb3052483caec1f530a18415f1d516ae9084636688e3269317fb22b1b1f9027f"
+    },
+    "templates/coupon-design/deal.php": {
+      "md5": "097bad5abc3b38bd28fdd6d755710f63",
+      "sha256": "47d7b05a81566e0eca496c42600f86a1dce307138d2695db4282d1a240dc9f8a"
+    },
+    "templates/coupon-design/deliver.php": {
+      "md5": "d04eae481370451103ba1538ef9b9493",
+      "sha256": "e1757e6d9e2d8b86b913255b806f465debf57f75bf10e019f3e489e4923693f5"
+    },
+    "templates/coupon-design/email-coupon.php": {
+      "md5": "9e1b60877ce96903a13931cc79e7c444",
+      "sha256": "c8d4160b918cba7897568443ab62fad1c6c9d4a42bf26511f02d3fa286a4200b"
+    },
+    "templates/coupon-design/festive.php": {
+      "md5": "69f9fe35a4aac1220e7a5baaf930cb86",
+      "sha256": "7626a75675c3b3342fbba1b682d1bf187758f63368dbdc5f581e019263f8ec08"
+    },
+    "templates/coupon-design/flat.php": {
+      "md5": "e70c2b8b32c9508cee4fc6d13ab40d97",
+      "sha256": "4bbc629c2a9be223c533f8e727faa41e6e2c1761f9fab92ec85bf80b8ca43f8d"
+    },
+    "templates/coupon-design/promotion.php": {
+      "md5": "058fb793132aedaa419ec6ad687b72d0",
+      "sha256": "eb14faa76d53ce9aed6f07d8e0a87cf87aa08a5670266b4707b3f31a7ed3dc54"
+    },
+    "templates/coupon-design/shipment.php": {
+      "md5": "748e6de0cb8a0c3b5a1a7c4541591517",
+      "sha256": "3443fa7d63d128e8b89759ecd6a8028d421b5672fe0e377620f6e9ff44cd9d84"
+    },
+    "templates/coupon-design/special.php": {
+      "md5": "2f571d7c4b72751f79d8657b12d3fc31",
+      "sha256": "e147a29be5b93da6f9771be3974d2b75c6ab6c1d8b520677a9dcb77494391b30"
+    },
+    "templates/coupon-design/ticket.php": {
+      "md5": "07d901bbc5623484c1d8386c57b8e05b",
+      "sha256": "f2e49045431b7e2fb82b3a11762627de19f972013b6e7f043917466a9930b744"
+    },
+    "templates/plain/acknowledgement-email.php": {
+      "md5": "4c3b1785fa79a58c569c8a816e272bb5",
+      "sha256": "dfae4e86116507649964ec73928b16c882e1618e01f9518df2355aeae32dec11"
+    },
+    "templates/plain/combined-email.php": {
+      "md5": "28f6ed9a888262fc5da6e8a964270150",
+      "sha256": "acab227eed455e4fbe7a457cd7e0b56618fe12823cc562788ae66969be063282"
+    },
+    "templates/plain/email.php": {
+      "md5": "a99638a0b0a1edf88b0e6c4f14b6a39b",
+      "sha256": "ba370fb0f783b2afe8330335765195980bea72aa8c9956d1d9506e2040683443"
+    },
+    "templates/plain/expiry-reminder-email.php": {
+      "md5": "104a26728213b0d871d87e378320e89c",
+      "sha256": "f5a1e53e56823a74f5053ccf7906f6e660ffa4802ef30d8d038052a27d0e406c"
+    },
+    "templates/plain/gift-card-email.php": {
+      "md5": "e12747ae66b45f30c4286273547ffe03",
+      "sha256": "db453ae71b782633d63763ee2be373383f213c61d9fb63687ea0fdfb8f2b771b"
+    },
+    "templates/plain/unused-coupon-reminder.php": {
+      "md5": "7e8bd25d7e2ac42c8097c3515712ea2d",
+      "sha256": "c32297f361a152c302435411b043244f0741dcb0263c86f136c7662f5dff25fc"
+    },
+    "templates/store-notice-design/balloon.php": {
+      "md5": "6cbc5c0480880f99677d3795f30106c9",
+      "sha256": "830d3d8170c7cf8e7a46c8e8af75c512b374c7e28479fa006a60432b499993dc"
+    },
+    "templates/store-notice-design/christmas.php": {
+      "md5": "973f89eea39c9d08e94669ddd7ca75e7",
+      "sha256": "f734b1504cee7f3c52ae73e5b60e44cbe148d66c5f5c526fda92bcd172c55c22"
+    },
+    "templates/store-notice-design/gift-box.php": {
+      "md5": "8ed5bbb2ff63e16bcee65846a7b7699b",
+      "sha256": "87fba9ad00b36cc0f85b754fc7b3b6384955f062ee1a038433dc07618000dd1e"
+    },
+    "templates/store-notice-design/notification.php": {
+      "md5": "b52e57413c9f9637dc2f8f6e988e5f39",
+      "sha256": "223d2c5f6e0f4e5519a15fa380840c7c8e5ca9910e0c0adf7a0b0d91fba26912"
+    }
+  }
+}

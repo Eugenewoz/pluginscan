@@ -1,0 +1,562 @@
+{
+  "plugin": "wp-seo-multilingual",
+  "version": "2.1.0.1",
+  "files": {
+    "license.txt": {
+      "md5": "d32239bcb673463ab874e80d47fae504",
+      "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903"
+    },
+    "plugin.php": {
+      "md5": "a1790c23476435263e47acc059b69c33",
+      "sha256": "ca036d48e074eaaec5c532fbcfd08bde4397043ace8bc64a904352086f00bfd3"
+    },
+    "readme.txt": {
+      "md5": "c6bb34866cba58bd62ef5c916beb7a6f",
+      "sha256": "a33cb788773aca3ae09e2c9431e9dc7c5384958f46c76653ff2cb0cc6ff5bd72"
+    },
+    "wpml-config.xml": {
+      "md5": "8c7331586f0bd81ffce37510c2c112de",
+      "sha256": "c685766ddf9021b75a3f4250f759f49b32742128df5866f8514f7bb6d82073e1"
+    },
+    "wpml-dependencies.json": {
+      "md5": "3967121e55edbbdc0395fbae81753b3c",
+      "sha256": "c4abc5c3ea3395805c8b06db56328fe71a58dc21c7fe13f51821c5637d67754b"
+    },
+    "classes/class-wpml-wpseo-categories.php": {
+      "md5": "c8e0cd95d26c2c9ed59645205020e153",
+      "sha256": "b39352a2340c8980ef7bd216285b3f9d00f3ea7b59584c92f6da4e52f35cf657"
+    },
+    "classes/class-wpml-wpseo-filters.php": {
+      "md5": "bae7e09c2ae00114a94679a350498aae",
+      "sha256": "c0b48ddd3aa93d8d5b1459c45646966d3e854a3aeb5ba539e69faee334733b80"
+    },
+    "classes/class-wpml-wpseo-main-factory.php": {
+      "md5": "eb9c7a839089e4a6e7aef0d7ad3d98c4",
+      "sha256": "06a7e68b5b1270624b150d923f282e2013f306084e9b086e9e4904a56f6721a4"
+    },
+    "classes/class-wpml-wpseo-metabox-hooks.php": {
+      "md5": "9d854b876b93e1e7af1e9bf2412d5d34",
+      "sha256": "abefa9de676be663d87aa8f768653d5d830073e3240816431ee3c26b6e4d0fb1"
+    },
+    "classes/class-wpml-wpseo-redirection.php": {
+      "md5": "0f32002fdc819b6d1146c73e0e85a17f",
+      "sha256": "6450f8a104cda0305f291361c659c2d8ccd56cb72f912eeecbce08b384aed9ea"
+    },
+    "classes/class-wpml-wpseo-should-create-redirect.php": {
+      "md5": "dfdcf5d6fc5b95c68fbe637d3555ee41",
+      "sha256": "c8c38d2958dd4d80b2bc3bf0cf4dcddbcb97c9e94f9b9c69badad8adf3a32971"
+    },
+    "classes/class-wpml-wpseo-xml-sitemaps-filter.php": {
+      "md5": "74f2aa6d47170dc3de8eddda8055069b",
+      "sha256": "196cb80b782ad252a614d73bc32872670ed8ecf01978d6a2bd656e225a1ba8a8"
+    },
+    "classes/Loaders.php": {
+      "md5": "a81d13ffe1827a628eb16338a0f78615",
+      "sha256": "929d1ef1190e896aa8a0f54f49ae8082fc8478b8f1984682e087f182906921b7"
+    },
+    "classes/Utils.php": {
+      "md5": "2a5b7a8180303fe7828555192bc1726d",
+      "sha256": "efacbb52f4387103b44f09ff196fed4af8add2d047e794ddf3f36d1229cc13b2"
+    },
+    "classes/Meta/SocialHooks.php": {
+      "md5": "1d0a610a5c7e081b08908365c369072a",
+      "sha256": "df5b5c18d01da8157170d3c797e86cb5222f8cf844cf0abafaad440c5a18e2a2"
+    },
+    "classes/Presentation/Hooks.php": {
+      "md5": "cfdf13e3bcc1023a336969da9c323568",
+      "sha256": "e3699a9db76a044d2f339b9644a3b4b57db650c5b4a64b94031a33d23d965dea"
+    },
+    "classes/PrimaryCategory/Hooks.php": {
+      "md5": "ea2015324d5c27d772c32e6d7fd40a3e",
+      "sha256": "b0590da8ec25c23a365bdb3a4e56d7f47053c57ee531cb3b52ff7e90e6f2bbd2"
+    },
+    "classes/RankMathSEO/Loaders.php": {
+      "md5": "05670927f02b5956c5d97680343aca10",
+      "sha256": "6f78256fafa9e969c2494862c3b418072b0566ee2a50a4b1336059a3b9a102eb"
+    },
+    "classes/RankMathSEO/Compatibility/WooCommerce/Hooks.php": {
+      "md5": "bd35d976f3d895f52fdf5d5ca3aef545",
+      "sha256": "6c5f43b4453329a35686fc8293a02a31120dc9671b8ddad5ce523a786abfdecc"
+    },
+    "classes/RankMathSEO/Sitemap/Hooks.php": {
+      "md5": "6095c4d63e902f49329c15def265be2a",
+      "sha256": "a684963ae53f84b52dbefdcfbf12dd439bc1608808bc30259816eb16e11cd8c9"
+    },
+    "classes/RankMathSEO/Sitemap/LangMode/DirectoryHooks.php": {
+      "md5": "17a4bd0751a714e851a1fc4e58af6029",
+      "sha256": "5841081384618594f8a37876c2cd319bddeb01371155e0d5af481ebf03097f26"
+    },
+    "classes/SlugTranslation/Hooks.php": {
+      "md5": "615732e34a50699390399e238d7637f2",
+      "sha256": "c8c4514a2e4d39d8820b647d5db0c304663ce016bd7ad7868eaf09b136f9bf9c"
+    },
+    "classes/Terms/AdminHooks.php": {
+      "md5": "530395b53c098e2f2225e6b13ea087c5",
+      "sha256": "a84e628ddb33e29e4d2510cc18d2ddbd2bb81129d9207d68bb10013faaac6e2a"
+    },
+    "vendor/autoload.php": {
+      "md5": "4a74b388e93864c25a5d4d7afb7b3428",
+      "sha256": "e64734a73bc3f04d90004c7f2ee8e99eb3f526958e4502f6cb1935b36af58ec3"
+    },
+    "vendor/composer/autoload_classmap.php": {
+      "md5": "e71a037aaf8821b00d2bd9f86a517725",
+      "sha256": "b30e47241ae411a0e82df9f4c02712b567f88d0acc960534e4b60290a6e3ce16"
+    },
+    "vendor/composer/autoload_namespaces.php": {
+      "md5": "35e12c7d76c4a81633bcf547c0e229a9",
+      "sha256": "6d1b582b311799934568f00d45e01de7a04f8a1865a8a72c7841904ad4dac3a7"
+    },
+    "vendor/composer/autoload_psr4.php": {
+      "md5": "dd3a00f0d13eb29781edd8c77d4c5100",
+      "sha256": "9ead7763dcdb921731a7b7395385bf61dc6481899ae21d76aef52a659d21fccd"
+    },
+    "vendor/composer/autoload_real.php": {
+      "md5": "4e02d847839529f07c04bea267a8b165",
+      "sha256": "02647990a889f2fefc69c5b46bd610fdd3bfddb658143465fc5a230e78887b89"
+    },
+    "vendor/composer/autoload_static.php": {
+      "md5": "c6fd6136d94c0c66fd24f0dfa6f956bc",
+      "sha256": "a9a6469809f7d61ddca888825983ffbbf84dc726f2a7f71fab841e8e4d1d3798"
+    },
+    "vendor/composer/ClassLoader.php": {
+      "md5": "80e3127bb630c512c42cfb51366ec09c",
+      "sha256": "c944c4b1228ef6bef01b0029205c562c96536f8e550052d753b57723d520e69a"
+    },
+    "vendor/composer/installed.php": {
+      "md5": "7e5b343a9145719c3a217d677316d2a9",
+      "sha256": "2e9087dc8a79ac28fb118c39bc2e7b28c03d8334dbe88465caecfa502e776991"
+    },
+    "vendor/composer/InstalledVersions.php": {
+      "md5": "13e6e46602b746a98d692a8c1b663e3c",
+      "sha256": "c13545b80c74150db8ef2e6e6ae614ca5bab5d02eb0a2e90e20123177fdc330b"
+    },
+    "vendor/composer/LICENSE": {
+      "md5": "955d5fe58c231244f6b49000f383b5e2",
+      "sha256": "c8cce4b6b9729f264ffdf9296d505d63432497feeed1f586d1902b942197e024"
+    },
+    "vendor/composer/platform_check.php": {
+      "md5": "15e1efff88933be3dd5740e3c9530478",
+      "sha256": "a35a93ad352c7c414cd970603b92d1b8f0e01c96108d2e0febfbdc7c9558f1fa"
+    },
+    "vendor/otgs/icons/icons-overview.html": {
+      "md5": "c89b37e5e78c0dcb7e735fc7c107941d",
+      "sha256": "abd4d4ba3a929b9e3dbcc397d55496e5a0b69db11eb7e229fc356e4f04a7bb84"
+    },
+    "vendor/otgs/icons/loader.php": {
+      "md5": "41d47a85c463f99d919ed8f4811976e7",
+      "sha256": "dc3395a839605fa35c1a452734619395f1e3025dd1ea38643132ecb9efc3f426"
+    },
+    "vendor/otgs/icons/otgs-icons.php": {
+      "md5": "f2cc5f33b9c3fa28ce4149de574d288a",
+      "sha256": "6aeb03315fa61c8e4e81d698c14cab9baf6b4921e2f89e59859aae945565b7b6"
+    },
+    "vendor/otgs/icons/README.md": {
+      "md5": "afefb76e765d821e04fa1d38c84ea228",
+      "sha256": "ac11deb6a35ed0b1d79e5501a5030edb1a24ccfc4152dfc98c17f29be200aa86"
+    },
+    "vendor/otgs/icons/register.php": {
+      "md5": "51ae4d5735915c3d4e15b11eb81f23fe",
+      "sha256": "cd62a5590260b92781a6b6b3e3898c3fb80b608052de91d5a566915ec1803437"
+    },
+    "vendor/otgs/icons/css/otgs-icons.css": {
+      "md5": "0cad6c98bdcfe239f65d59cf038bc6ab",
+      "sha256": "f9f59aaa6d4a8ee020f8fa4d7ff8816997900846a531e65b333df2a4d9672dda"
+    },
+    "vendor/otgs/icons/fonts/otgs-icons.eot": {
+      "md5": "5ed50a9e6bea7fe2cb086bb62fb3fe85",
+      "sha256": "ed32feb6f64992855a030538822e36a525b5ac38ce4adeb783058d0fd825c6d8"
+    },
+    "vendor/otgs/icons/fonts/otgs-icons.svg": {
+      "md5": "0e4716e01fc7247cc44bfc33c810406b",
+      "sha256": "6d3c089f7bbdc9b85e53ee482ee94020f2dc9a78b6ca83a0c3a8fc9700d7c900"
+    },
+    "vendor/otgs/icons/fonts/otgs-icons.ttf": {
+      "md5": "78ae0601336fb292224d16bd3570a1ff",
+      "sha256": "465e4a1e0098f2bc72e5f4ca50efdbc366c21b59f0e8efbb49af85343357ae71"
+    },
+    "vendor/otgs/icons/fonts/otgs-icons.woff": {
+      "md5": "aca9bbfc30e590d87a20c7dc60d92c25",
+      "sha256": "d88a3007f6d4f1d7fcb23b9aa113d18d671f37130f68613ab9767211d8c50043"
+    },
+    "vendor/otgs/icons/fonts/otgs-icons.woff2": {
+      "md5": "37baadf98b81a83771a450f671336734",
+      "sha256": "57273dcaaada9b8d1a3cea04d015ab8c22aea2a6b366281d7505d0741de2cfc1"
+    },
+    "vendor/otgs/icons/plugin-icons/toolset/access/icon-128x128.png": {
+      "md5": "e9597b498da7a59cd0320ff5352eb5f9",
+      "sha256": "997ffaea590b700b081a6735b6e6bfd431c2e38c2b0df1353ef3431202693b01"
+    },
+    "vendor/otgs/icons/plugin-icons/toolset/access/icon-256x256.png": {
+      "md5": "66e308c4ac7cfe6c343451c6c0129d5c",
+      "sha256": "0b5a9ec00103a4eb7ec6d724c119e9e31739c8465d31be8aaf2dadc1da227c54"
+    },
+    "vendor/otgs/icons/plugin-icons/toolset/access/icon.svg": {
+      "md5": "43bea3895c3d8079a11aea5271989c76",
+      "sha256": "5a166320db7e08d53d3afbddd624c3ff51dfe9033f80f9fbb314af1136ff7481"
+    },
+    "vendor/otgs/icons/plugin-icons/toolset/blocks/icon-128.png": {
+      "md5": "2eb3a45f4531e1a6a85b14e3f95a39fc",
+      "sha256": "aed1be439255487b4f8cb3cb81d7950d50341173df6824d01dbf10e633fb79cb"
+    },
+    "vendor/otgs/icons/plugin-icons/toolset/blocks/icon-256.png": {
+      "md5": "b779d14835222edeeaf36836e15f4d3f",
+      "sha256": "ab55f91fe1f620957c342824ec4f5ddbf42609102a1fe787af6cd25ac5111f32"
+    },
+    "vendor/otgs/icons/plugin-icons/toolset/blocks/icon.svg": {
+      "md5": "1a3fedd31dcf9bd4acf6b3802ac31448",
+      "sha256": "5e33815f09e51d72fc00687f5d3dabd2fb5a98e16fd1cfc7a83ead1fd5e7d3ec"
+    },
+    "vendor/otgs/icons/plugin-icons/toolset/bootstrap/icon-128x128.png": {
+      "md5": "f52605f27890ad4e1893c6388ed9ef9f",
+      "sha256": "3ba19495ab937c35223bb4ae4c04ce393ae7750602940631fdd4570098283a08"
+    },
+    "vendor/otgs/icons/plugin-icons/toolset/bootstrap/icon-256x256.png": {
+      "md5": "24b188c43e5771cfa2cf9647e91c15a0",
+      "sha256": "7859553e6a708e034c67787b83180646ab4b1d421635027a057b8c01b101a9ba"
+    },
+    "vendor/otgs/icons/plugin-icons/toolset/bootstrap/icon.svg": {
+      "md5": "c10842f5f816075f6561fc408fadbe81",
+      "sha256": "531170f03a97f7c826fc17a26f27ac9b1d8fa0080d59e3d1e73cc8fe4938da8a"
+    },
+    "vendor/otgs/icons/plugin-icons/toolset/cred/icon-128x128.png": {
+      "md5": "ad69f1cebd620912ca957dc2d0c594af",
+      "sha256": "dae67946443d81faf76797c2c9fed6a77bc93d7c5ffc6fb1be97067420ca8ab9"
+    },
+    "vendor/otgs/icons/plugin-icons/toolset/cred/icon-256x256.png": {
+      "md5": "b5805945fbf70e3a18d79054e0131c19",
+      "sha256": "f42caab2432a56ef9b4875e849935ccf7f4cd938d3fc879f27c10628b20b10e4"
+    },
+    "vendor/otgs/icons/plugin-icons/toolset/cred/icon.svg": {
+      "md5": "e20c106c6d6a00d44d1c7e74140bba85",
+      "sha256": "97c028880d841357f8e946d42a38d7c6d3e0e57ba14543a6e1abf2a67dc5d4f4"
+    },
+    "vendor/otgs/icons/plugin-icons/toolset/installer/icon-128.png": {
+      "md5": "99c70d611b74399e169f4e77f62bad4c",
+      "sha256": "f8c90615ab9a9e0d87558504ff49802bf4bab1701a59930932c830d867d3376c"
+    },
+    "vendor/otgs/icons/plugin-icons/toolset/installer/icon-256.png": {
+      "md5": "8dae964a6112898712f95ae9906d86fd",
+      "sha256": "1db84ecc4bf0e8b513431cc7404cf3cbe8888f6e53976215efebdf851142fcfd"
+    },
+    "vendor/otgs/icons/plugin-icons/toolset/installer/icon.svg": {
+      "md5": "b3e9b137ee4f18f7c16df849626c1a66",
+      "sha256": "740a06e9758836b17d0f9a3d2b9185db390d119e08f37423495ad8fc92d10e4c"
+    },
+    "vendor/otgs/icons/plugin-icons/toolset/layouts/icon-128x128.png": {
+      "md5": "6bee1879a5a1621af810296a255e9c79",
+      "sha256": "0891e3d2e6dd9f65d547b9594db22088e8ac843d7e42f581e3a85c1d7ef078b7"
+    },
+    "vendor/otgs/icons/plugin-icons/toolset/layouts/icon-256x256.png": {
+      "md5": "83e467e0b1501dbb5abb36082f070a87",
+      "sha256": "0a5348d46815277955d8a655bffdc20f1ec6deb76f86bd7061adabcf13b50298"
+    },
+    "vendor/otgs/icons/plugin-icons/toolset/layouts/icon.svg": {
+      "md5": "d7191d71f0b53d17749d84e8025b94a3",
+      "sha256": "44a965a3d9e637f7c325543c0905222edd68b8cf437f1f9ae5f633258e69ce93"
+    },
+    "vendor/otgs/icons/plugin-icons/toolset/maps/icon-128.png": {
+      "md5": "e519026eb2fe70f3ff1dda10ba33c396",
+      "sha256": "0b6bd6a08ae200503a68ab043e93b84caf6c5e46af9812e9cca305830785645b"
+    },
+    "vendor/otgs/icons/plugin-icons/toolset/maps/icon-256.png": {
+      "md5": "44bdcc00d0a4d37cbf83fcdb2fbf12fb",
+      "sha256": "ed8f4243c299339b1ee65c6bcf1ea96086bfa3af0b27694842ecf6c4bffa25aa"
+    },
+    "vendor/otgs/icons/plugin-icons/toolset/maps/icon.svg": {
+      "md5": "9e78b145b9761452ab39c5cde2a111ff",
+      "sha256": "0f0dd899278984e4ce8115c38389bef84465369607fe1bf0177a9afd1952ad93"
+    },
+    "vendor/otgs/icons/plugin-icons/toolset/module-manager/icon-128x128.png": {
+      "md5": "355534ebc2304aedf99817a61fcadcc8",
+      "sha256": "0079f2d191fa87a0ede0b54f015d38f158c183f8dc9cdbcc90598620a6b7e3e9"
+    },
+    "vendor/otgs/icons/plugin-icons/toolset/module-manager/icon-256x256.png": {
+      "md5": "671cde02bc88c2fa5b159078eb9b3dce",
+      "sha256": "271b88112c5151fcccd08bb82cf57e7740779b833bff82750bbca542484c84ca"
+    },
+    "vendor/otgs/icons/plugin-icons/toolset/module-manager/icon.svg": {
+      "md5": "cd655e68fe33eacc95ff57daed996ab9",
+      "sha256": "13dfd6d277ee1e2bc41d78d10d6e35bd8201bc08e02de61b2676a43165e90812"
+    },
+    "vendor/otgs/icons/plugin-icons/toolset/packager/icon-128x128.png": {
+      "md5": "ef3d8c8e606c8875976b76b86931747b",
+      "sha256": "47c499619a8ae522892c7908d00f98a4794f02ae7c5085c8ab7429960c417882"
+    },
+    "vendor/otgs/icons/plugin-icons/toolset/packager/icon-256x256.png": {
+      "md5": "2536676f305a7368df8309c4200dd9f8",
+      "sha256": "a8e8725ae7110300e60a1b3470552669af52029704a54d320a174ba190528c6f"
+    },
+    "vendor/otgs/icons/plugin-icons/toolset/packager/icon.svg": {
+      "md5": "de42378aed6319cd259c7354037f259d",
+      "sha256": "cb0a607d0775c1b3a68058ccc06fc1e9604294d8c76e7135679cc54aa73b9929"
+    },
+    "vendor/otgs/icons/plugin-icons/toolset/ref-sites/icon-128x128.png": {
+      "md5": "dbc24e4ef478c083cca0cc696c6cd3c9",
+      "sha256": "01945c55183664ebad636d903444f9b915aade483ba68e1228b4a48d42845343"
+    },
+    "vendor/otgs/icons/plugin-icons/toolset/ref-sites/icon-256x256.png": {
+      "md5": "e7f0c9de7352183b9d27176133191b8d",
+      "sha256": "30ac17248f2829920c610adf45c0078dd6113f8c5dd54e31ea0de3f2444c122a"
+    },
+    "vendor/otgs/icons/plugin-icons/toolset/ref-sites/icon.svg": {
+      "md5": "2398a3507909bd090a6b683fd8162f6d",
+      "sha256": "81afd5a32e574f093b83507c29fb8c12e1e39928dec4547615ac15fabe557ce6"
+    },
+    "vendor/otgs/icons/plugin-icons/toolset/support/icon-128x128.png": {
+      "md5": "0a6fd5907d6db80ecf037fbcd037cf00",
+      "sha256": "aab9b25d55fe62a71500a873b9b2dfe20fe1f8bfd9dac925011f97fc5ba31090"
+    },
+    "vendor/otgs/icons/plugin-icons/toolset/support/icon-256x256.png": {
+      "md5": "6a78c71216f3385c05c77f75df9b3bb8",
+      "sha256": "77ed3d6f345db6c516bad216d7b85ce77a957033070fa9bd8c2b403824951672"
+    },
+    "vendor/otgs/icons/plugin-icons/toolset/support/icon.svg": {
+      "md5": "a0982780aa8659bc4237771ecfe34962",
+      "sha256": "03242b78f711fce5eb2761f08f2c28fbbcb087b31ed603f9d7751a12a2ee896f"
+    },
+    "vendor/otgs/icons/plugin-icons/toolset/toolset-core/icon-128x128.png": {
+      "md5": "7ded635d134aaf013013f4982e6e19f2",
+      "sha256": "453619a9c67c2a2535d94c44b472a3b777ade7c43ce772f30fc6049edba22d93"
+    },
+    "vendor/otgs/icons/plugin-icons/toolset/toolset-core/icon-256x256.png": {
+      "md5": "7863f7340c49649a3d11a73424fd8552",
+      "sha256": "8ef11d00a6f606505dbef67287038e09d3938092ac5f4dc9cd611bb46df1479f"
+    },
+    "vendor/otgs/icons/plugin-icons/toolset/toolset-core/icon.svg": {
+      "md5": "83763772751fe759ac0dc3b795d770c7",
+      "sha256": "f3203de0d1f3337eed1792012ce355487d74ea3739f5d5007ab13cb77b1a9ff3"
+    },
+    "vendor/otgs/icons/plugin-icons/toolset/types/icon-128x128.png": {
+      "md5": "1d03017ad5e4daff2999b07594d64c06",
+      "sha256": "cf41a56e2e34dc6258812387e87f9a106c1b80f78be6bf16bee82abe4a9ea1d5"
+    },
+    "vendor/otgs/icons/plugin-icons/toolset/types/icon-256x256.png": {
+      "md5": "bbb8521afdcafd121fd8566acad37522",
+      "sha256": "1a1bf2803c7b4e6d373005fc169351fd02c39b9d20a2eaf4ef14738846a733fa"
+    },
+    "vendor/otgs/icons/plugin-icons/toolset/types/icon.svg": {
+      "md5": "81b9b24d910df2ef12b4d0badff6bb2f",
+      "sha256": "3bdbb2229d2b36f0e705ab13dd499a613f7211db44113e0d90f5a249b5d521dc"
+    },
+    "vendor/otgs/icons/plugin-icons/toolset/views/icon-128x128.png": {
+      "md5": "6e287914507ce474d66056fb6ba19222",
+      "sha256": "eb0055d5aa9a0929b73023a4d1df753ec561290a70600aceae7c30945de5d553"
+    },
+    "vendor/otgs/icons/plugin-icons/toolset/views/icon-256x256.png": {
+      "md5": "3974447f89c0b45394373de4bee6bc5c",
+      "sha256": "882c3e1f77c1061cb1047e1391b41c792c16692e12e1cfd207bc29ccf097ec57"
+    },
+    "vendor/otgs/icons/plugin-icons/toolset/views/icon.svg": {
+      "md5": "43acde2ea2441f490b18182d5b738949",
+      "sha256": "48b192c2399a7265407906411be58be879c735305404507b94c6b5b7ffd424b7"
+    },
+    "vendor/otgs/icons/plugin-icons/wpml/acfml/icon-128.x128.png": {
+      "md5": "c148542dfcbedda2a457a91934b775cb",
+      "sha256": "dd3984c209385abf6b886a484474f8637e4fd4c590f19bfad16af478063518da"
+    },
+    "vendor/otgs/icons/plugin-icons/wpml/acfml/icon-256x256.png": {
+      "md5": "74fad7aac9386cea497abaf34c8d0b89",
+      "sha256": "6646c8381eaa4907d5df62c20d338c3db905bd855bb96eb22a6a7a1306c29f09"
+    },
+    "vendor/otgs/icons/plugin-icons/wpml/acfml/icon.svg": {
+      "md5": "d61b552d371e9ed8df140d3f66bc19ce",
+      "sha256": "46e462def162cc300c3d9d3d8c0b2e316d7ea29937e70d0853de8e2cbb1833a0"
+    },
+    "vendor/otgs/icons/plugin-icons/wpml/bpml/icon-128x128.png": {
+      "md5": "ebc152771c04fafddc426f86dc53d56c",
+      "sha256": "067fbcd59a601c8f690063b7b79b36348f49cb6d801960374214d872337e0618"
+    },
+    "vendor/otgs/icons/plugin-icons/wpml/bpml/icon-256x256.png": {
+      "md5": "a5aeac7b5b63b8d7cfeb4dec08be6556",
+      "sha256": "a90f6c51e363c4e26aa4c23be2ccfba90c93d31218dcf76fe14a1bc64d89e815"
+    },
+    "vendor/otgs/icons/plugin-icons/wpml/bpml/icon.svg": {
+      "md5": "ded2f917448e4ed8df0ac8f413f3c2de",
+      "sha256": "349fdf868d17dd919c51b2b0287ee4aa8cf48fe354d147acaf9558e16c471935"
+    },
+    "vendor/otgs/icons/plugin-icons/wpml/gfml/icon-128x128.png": {
+      "md5": "6e0e5b73eac520ac78c5ac5703b68852",
+      "sha256": "ca9ebb424ad8b6d8c1ef63203db2df94e7c0ab8117e116af0ba86a258ca93cd9"
+    },
+    "vendor/otgs/icons/plugin-icons/wpml/gfml/icon-256x256.png": {
+      "md5": "24ea95b9e52ac6e352d965cbc99a509a",
+      "sha256": "ec197f125f31a8add2ce2f32fd4af9b31da97b4516bc2480d9a7dcf725615b1a"
+    },
+    "vendor/otgs/icons/plugin-icons/wpml/gfml/icon.svg": {
+      "md5": "a663cbaf9b9036e52e8c7a3ba0b5ca3d",
+      "sha256": "ef40be798837c274dfff9d6c9d016ba9fadf2642c1435596347e7951e48aef39"
+    },
+    "vendor/otgs/icons/plugin-icons/wpml/wcml/icon-128x128.png": {
+      "md5": "b8586731aec7a72556cfb099f03c7e1e",
+      "sha256": "e118ef19ef1cfba3cb52549b97f8611adb8098155eb095e31c1bb65370f9e213"
+    },
+    "vendor/otgs/icons/plugin-icons/wpml/wcml/icon-256x256.png": {
+      "md5": "15bca763df39794e106f32ee0fed0ce2",
+      "sha256": "d77ed226879b0b824ef413327f753b668e6ca5eabcc7c9150d850fbebf14e08a"
+    },
+    "vendor/otgs/icons/plugin-icons/wpml/wcml/icon.svg": {
+      "md5": "5566d20e3dfe289fa3fa9382a200be66",
+      "sha256": "0d84df3c9025f16763476627c16409f14e880b4c2e3a880319e80c63907184c4"
+    },
+    "vendor/otgs/icons/plugin-icons/wpml/wpml-all-import/icon-128.x128.png": {
+      "md5": "92f7579318b297ab5b22144c1bdba51c",
+      "sha256": "9fb2d064829175e59f66b3116b3ff5191cda0aab75cfae90555445c0b7394edb"
+    },
+    "vendor/otgs/icons/plugin-icons/wpml/wpml-all-import/icon-256x256.png": {
+      "md5": "c15cd5d154fd682f705ad9054a09a29b",
+      "sha256": "eddff68627b0b812242aee3aeb72c4f4a83d961d3ab05c3b049115f5b7d83147"
+    },
+    "vendor/otgs/icons/plugin-icons/wpml/wpml-all-import/icon.svg": {
+      "md5": "29a0916e87755d7d4f64d1e7e41e6952",
+      "sha256": "60d71eb5e2c0889eae3ed98d3b5f55d7a9c198dde08670449e7d35c723bfec88"
+    },
+    "vendor/otgs/icons/plugin-icons/wpml/wpml-cms-nav/icon-128x128.png": {
+      "md5": "feca402d88bad0f5dc5968744faae6d1",
+      "sha256": "f4c2a7ac3bab3e7864d505f109f30677f19512da5aaab509cb534a4522f20939"
+    },
+    "vendor/otgs/icons/plugin-icons/wpml/wpml-cms-nav/icon-256x256.png": {
+      "md5": "b94cc5397395f17081a157ae564ed832",
+      "sha256": "c28dc6484a8dd4f699d20b3390a8d0d7bb6a162f69dbea5cfba30f2b0076225d"
+    },
+    "vendor/otgs/icons/plugin-icons/wpml/wpml-cms-nav/icon.svg": {
+      "md5": "34020cf046c16c4e2d9d1b7b5facc087",
+      "sha256": "ee7ed7c801931b90be9122e22bef3d61e6549060483284e424a099b40fce1a9c"
+    },
+    "vendor/otgs/icons/plugin-icons/wpml/wpml-core/icon-128x128.png": {
+      "md5": "533e369eeb030ffc8d312b3135cd62f2",
+      "sha256": "73986f9a96e4866bc272de749724825174b14799030413d9573f01f9c559d154"
+    },
+    "vendor/otgs/icons/plugin-icons/wpml/wpml-core/icon-256x256.png": {
+      "md5": "82c80abf4186e3787cb9583999b5e54d",
+      "sha256": "5a18534e133bb6e5e6863ca7eceec90dd4bded8353b1ceee9ff80f053af4387e"
+    },
+    "vendor/otgs/icons/plugin-icons/wpml/wpml-core/icon.svg": {
+      "md5": "9676cd349b82a3f8ca2bde4dcf20c174",
+      "sha256": "e38933e7329f38e11b6bfe85a41541db6168690bedb113ff0c975f929ce23e4d"
+    },
+    "vendor/otgs/icons/plugin-icons/wpml/wpml-media/icon-128x128.png": {
+      "md5": "fc42e01b8d51d3f58251a61bc0cf53fa",
+      "sha256": "5b06fed956ecaf69b43ed898ddb342b4663f9d38942ada7e48548c9086617696"
+    },
+    "vendor/otgs/icons/plugin-icons/wpml/wpml-media/icon-256x256.png": {
+      "md5": "4b2a8b404e2c242e1de924624d5a98a6",
+      "sha256": "e4907e1f5c35a63e813f15e1b20b343d71456bc3a21f94e818f64d5bc971920d"
+    },
+    "vendor/otgs/icons/plugin-icons/wpml/wpml-media/icon.svg": {
+      "md5": "94dc6ed510031101b3f2d634a8435730",
+      "sha256": "0ce2ea34c5cd131aa35c0aa78c017104c81fe3fa62fefda4b9dc53a9536dbf3f"
+    },
+    "vendor/otgs/icons/plugin-icons/wpml/wpml-sl/icon-128x128.png": {
+      "md5": "5cd66fb7e1149c5a164a0f66ad03041f",
+      "sha256": "d37fd75ae0def1df9cda0ffd05aac34df25c1b031625678702123585ebc18bd7"
+    },
+    "vendor/otgs/icons/plugin-icons/wpml/wpml-sl/icon-256x256.png": {
+      "md5": "a5b796c435e3e87bde286f97516e2422",
+      "sha256": "f1432e14e51610cdc606bbc5a41c7eadf1e4a538a25f50f1ecffb7229373280e"
+    },
+    "vendor/otgs/icons/plugin-icons/wpml/wpml-sl/icon.svg": {
+      "md5": "67b23f53e0e9bbd31df51febc953d3cd",
+      "sha256": "55c945b664fba5a2f86eef8fec0a4abd50296bf32e6cf3afe1fd964049df08e3"
+    },
+    "vendor/otgs/icons/plugin-icons/wpml/wpml-st/icon-128x128.png": {
+      "md5": "b58b84d39f5d00c63ea59e8ebb30d2c5",
+      "sha256": "fc6307698965dfb310463200346d641808b2e5209133e7c1bc8ed23fdee615fd"
+    },
+    "vendor/otgs/icons/plugin-icons/wpml/wpml-st/icon-256x256.png": {
+      "md5": "1df68b668bc1ca897e3c314804a5f750",
+      "sha256": "ed0ce48241143d4d28d4c3ffa8f3ab716efe40c72ddb7cf4d53e7110e459651d"
+    },
+    "vendor/otgs/icons/plugin-icons/wpml/wpml-st/icon.svg": {
+      "md5": "137e27aedb64f16bdbcd0b831211b64d",
+      "sha256": "bd42caeed326f19ecf852c4213df935f72403433ce9b1497efa60238315fe66f"
+    },
+    "vendor/otgs/icons/plugin-icons/wpml/wpml-tm/icon-128x128.png": {
+      "md5": "1a5641b42e18f11a35d5ecb8bb23833e",
+      "sha256": "69d3b10c860b4448f5695a0bfa7f23ce0335da371446898724c81a8f4dba1862"
+    },
+    "vendor/otgs/icons/plugin-icons/wpml/wpml-tm/icon-256x256.png": {
+      "md5": "7c905ac6797f7201010e829415dcf1ad",
+      "sha256": "2e42940db1951ecc3852479d693b2444aae39a4380e873826612b94ada280036"
+    },
+    "vendor/otgs/icons/plugin-icons/wpml/wpml-tm/icon.svg": {
+      "md5": "f75832852ad9121f0f09b5b082c64497",
+      "sha256": "ba2921fa01742bdb991b46b1a4b908593dbd20019de2d28799eae86ae991525e"
+    },
+    "vendor/otgs/ui/loader.php": {
+      "md5": "7ec56bf89ea12f9d9d01328fdba8af2e",
+      "sha256": "d418f8cc3e28e085bc55eab1668f0def65d06f73da2dc1ceda7eb2c9b8e2fdb8"
+    },
+    "vendor/otgs/ui/Makefile": {
+      "md5": "8fcc89111b5694023a1cc5b7183a9c5c",
+      "sha256": "6c3589e041e025de6d6fa52aac431b53980b8b664754bff6f7218553b8da583f"
+    },
+    "vendor/otgs/ui/webpack.config.js": {
+      "md5": "1e9243f503e99024697ffa6081d2d766",
+      "sha256": "8792f36c786e66ed2a2900c9a2254def3273e3fddfad1b523ff047c602eacb84"
+    },
+    "vendor/otgs/ui/dist/assets.json": {
+      "md5": "6f051f3e00816e5a7fe4fbb541e72da9",
+      "sha256": "cef05c7b28fd7b1f6d48f34a1a77e1ea0ebacad81d7ea314420844dbebf1c9f1"
+    },
+    "vendor/otgs/ui/dist/css/otgsPopoverTooltip.css": {
+      "md5": "a4f0675828b1ad566024a50bcdfa2b98",
+      "sha256": "1b445aadb80d972efe5af5eac59217da2f4da788163145715af8d8d418070e1d"
+    },
+    "vendor/otgs/ui/dist/css/otgsSwitcher.css": {
+      "md5": "b35fecb885e935c7c725f68aba248541",
+      "sha256": "a7059ac6f8f79c4815904752eefb63c0dc42822f42c622df46e7a3aa9c8444ce"
+    },
+    "vendor/otgs/ui/dist/js/otgsPopoverTooltip.js": {
+      "md5": "c5846d5668daff81a56fe94a9884ec18",
+      "sha256": "703c5f25d9d06a5c806bf7431a399afec006c48232d79fded60bfbb4b057412d"
+    },
+    "vendor/otgs/ui/dist/js/otgsSwitcher.js": {
+      "md5": "afd312c69835ff8ad155bd9fffc49b5e",
+      "sha256": "fd2d082d2c235599fe2733da16af07df5b5f0ea6cacb6f03a497877f5b0a0cb3"
+    },
+    "vendor/otgs/ui/dist/js/otgsTableStickyHeader.js": {
+      "md5": "13aafbeaf011d279ec810ebd651b214a",
+      "sha256": "0364c328632ef494192725ddc08f6cd77ef4478075f1ebd66cbcfebe1f90c4af"
+    },
+    "vendor/otgs/ui/src/js/otgsPopoverTooltip.js": {
+      "md5": "f32bebb6c057bd11e88505914ccf459a",
+      "sha256": "c87b4edf8ba3b9e624dd05a7ab76414614ee7f4510db66c7966cadc0a5469e88"
+    },
+    "vendor/otgs/ui/src/js/otgsSwitcher.js": {
+      "md5": "60012e2143361f61584aea8ff1e34f60",
+      "sha256": "6f080b290c58a0450cf979adffebc47b04ff0bda4ffa5bb0387511cbf0f7e862"
+    },
+    "vendor/otgs/ui/src/js/otgsTableStickyHeader.js": {
+      "md5": "18a3787cd8d6e46d7ecf63ce47815e8a",
+      "sha256": "47dc5e3f37ba48b762c3bcf00734bd161a89daec373ca85b8adb8df42524e584"
+    },
+    "vendor/otgs/ui/src/php/OTGS_Assets_Handles.php": {
+      "md5": "49ee966d0e563c35975cf6c934a3b1a3",
+      "sha256": "b8b69274f50b8c6620de62aa52bc8e8818e5076983c09484a469ac156751075a"
+    },
+    "vendor/otgs/ui/src/php/OTGS_Assets_Store.php": {
+      "md5": "d0c187e2988498cc4a276f77e2457829",
+      "sha256": "cd5de71ac83c32964c96fd4a7b4fad8ae952e447373fab5496feb434d23073fb"
+    },
+    "vendor/otgs/ui/src/php/OTGS_UI_Assets.php": {
+      "md5": "14cf9e1ef2b39af47eac1452bbcdbdd7",
+      "sha256": "154e49ff524931a8742c90e6e68d8773cb527100d8e19ba7a1d1a3680a265ab4"
+    },
+    "vendor/otgs/ui/src/php/OTGS_UI_Loader.php": {
+      "md5": "56142a42f611bab50b5267eb3e63be8f",
+      "sha256": "8d75bbc0413894062f9a585dac220bb9c61673da9594862ab9c6bfe7b7edb491"
+    },
+    "vendor/wpml-shared/wpml-lib-dependencies/src/dependencies/class-wpml-core-version-check.php": {
+      "md5": "626a8aa3c35dd12300099568d975dbcb",
+      "sha256": "577b790a8fb3dc52f3204630a45515ca5e2a136fb82538591a2f2695795da259"
+    },
+    "vendor/wpml-shared/wpml-lib-dependencies/src/dependencies/class-wpml-dependencies.php": {
+      "md5": "68d7af933f969351b940a5778bd0bec7",
+      "sha256": "6c8152eccf80fd6fb7de48503545ae6e6c0472600d99d57b9ae46fec8840e2bc"
+    },
+    "vendor/wpml-shared/wpml-lib-dependencies/src/dependencies/class-wpml-php-version-check.php": {
+      "md5": "d78dab5309469ce714b1bfde665a3d87",
+      "sha256": "b127b605a01abc82c0d146bbe8a08aaa72e91f0ae99769b7e70ddcae5b70ecd5"
+    }
+  }
+}

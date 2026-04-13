@@ -1,0 +1,726 @@
+{
+  "plugin": "woocommerce-product-bundles",
+  "version": "8.5.5",
+  "files": {
+    "changelog.txt": {
+      "md5": "c1edd10daa879320f531c9ce8b952ed9",
+      "sha256": "a5a0571de0d01188936bc85071db4a8fbb0d6ef4f8bf6899e3f8c3cdd7b82004"
+    },
+    "phpunit.xml.dist": {
+      "md5": "b2309ed6bea701b40a41dd1f179991f9",
+      "sha256": "41e5b5c210ee49db091909ae7b41071a23d339baff04002ed0d3ce38b4f96790"
+    },
+    "readme.txt": {
+      "md5": "98e0b0f09f9acb0b01de81c0ca42f698",
+      "sha256": "044e6f56e976f89c8c4f8dbfb4f8fb2c4b9bcc198a34740123b8271b749ba6be"
+    },
+    "woocommerce-product-bundles.php": {
+      "md5": "5308000ebe19fe9f2cb925231afadd62",
+      "sha256": "3140012edeacdc2abae4334223b082a3cf337556be837530993598646532f0b5"
+    },
+    "assets/css/admin/admin-rtl.css": {
+      "md5": "a12b80509dff45960895a78f0b748aee",
+      "sha256": "720d0aa95a25700ae7658fcb4f5b66a7b2f77d4c91525c906dfe30f08ac42554"
+    },
+    "assets/css/admin/admin.css": {
+      "md5": "4980dd3b4904ffc7ba93c47fc0e65421",
+      "sha256": "86e9595ebcc3edd0df19b5aa85f5da59207c7075fc89b85817cc40feb60339d2"
+    },
+    "assets/css/admin/meta-boxes-order-rtl.css": {
+      "md5": "6783b93f4e3816adaf367aa926dd22a9",
+      "sha256": "7846b88d0c4eb18ccb8129b10e38083647b316cb020c6c40a0f641fe43839149"
+    },
+    "assets/css/admin/meta-boxes-order.css": {
+      "md5": "fa4ff1171f57bc74d8d369acfd4af247",
+      "sha256": "5bf377fbd9b53606a625a5df4d43f910757676930e837adbc405727d780180a5"
+    },
+    "assets/css/admin/meta-boxes-product-rtl.css": {
+      "md5": "89d278073b196b3bc1a73642511d158f",
+      "sha256": "327504f3ed2111ba1e6f31d006fb629fa18b2d25356d03d95ca18b6d61986207"
+    },
+    "assets/css/admin/meta-boxes-product.css": {
+      "md5": "4787e9eb7774da9c6f2b032e22e9c3cc",
+      "sha256": "c84240d76d7661930836128b8415bc851222b0116fd1928533dc076e81971db7"
+    },
+    "assets/css/admin/select2-rtl.css": {
+      "md5": "8c941ea5f9c4780744ba111c602a8e35",
+      "sha256": "8f609638c1a2d95120ed38bd0846a5cb77f4d8b655b09dcbedf14e436028d006"
+    },
+    "assets/css/admin/select2.css": {
+      "md5": "43876f7d2720043a03feae55a13626cf",
+      "sha256": "3995bafe72d939b2c4722b00f81b1e96c6da012e492bdd90e82f7eafd85372c3"
+    },
+    "assets/css/frontend/blocktheme-rtl.css": {
+      "md5": "f4e82406f70efa6c4049352c5d52daa0",
+      "sha256": "95420c340279591c3d9d03644119cbdd0289485941eab2977f5fd2f504e772fb"
+    },
+    "assets/css/frontend/blocktheme.css": {
+      "md5": "81b3291ac40c329bbc5e49826760a426",
+      "sha256": "765134fc09a57fb5839bc5ed4926e417e5492e3506dc6a96d0acd52d28fafded"
+    },
+    "assets/css/frontend/checkout-blocks-rtl.css": {
+      "md5": "bbfce97264a4d8b3484e0e8ddcd77c31",
+      "sha256": "22c28e2ecb4854c76f3f5b7435ffe166209e4a552c9d8f82107273315e2e5ffe"
+    },
+    "assets/css/frontend/checkout-blocks.css": {
+      "md5": "1a32a464403bfbbf0912fbeefd53ebfc",
+      "sha256": "563d7234aa65be659b23fcba23d76fb09fe2762b826bc13b91863dc29ddb24e1"
+    },
+    "assets/css/frontend/single-product-rtl.css": {
+      "md5": "809364a17bcffce96882e6ba0161ed07",
+      "sha256": "0b6ce589da0c53b67a405a94a4d00e2e55d3eb2d3e9f4a3ab4ff10a805114a53"
+    },
+    "assets/css/frontend/single-product.css": {
+      "md5": "1e45aae179582414d86f0d624be730b3",
+      "sha256": "6671273d4367471aefa902b9d36248fe850c3d84aaaa6f7192535b92ac7207a4"
+    },
+    "assets/css/frontend/woocommerce-rtl.css": {
+      "md5": "ac80a37d754ac9d7a12843dab36bbe3f",
+      "sha256": "66ef2ae5e6a0ade3df8bc83da132ad3517f5fc37d9936c8b5265e34b66b49c52"
+    },
+    "assets/css/frontend/woocommerce.css": {
+      "md5": "b0bc7145db4ff6f1fb814f157136a332",
+      "sha256": "8306295d5d592cc59f149c442ada992ae7de8e660e456d282886bcecd3bee46f"
+    },
+    "assets/dist/admin/analytics.asset.php": {
+      "md5": "5e15d4b81ad4455a61843fe7ea247ede",
+      "sha256": "5401554effd8c807ded78eb4b2e3bb6bfc96f63952f076af384e6163dfb07718"
+    },
+    "assets/dist/admin/analytics.js": {
+      "md5": "dfb37b933e6214a79cd2a6d0d70acced",
+      "sha256": "cce34927c1b18cafca34b16953f332105e37fa6eaa573468b28af73be100092c"
+    },
+    "assets/dist/admin/analytics.min.js": {
+      "md5": "08c624414a7b8e958dfa0d2a12a938c5",
+      "sha256": "25511337dd96283753e8f2445e19143c80d8529233ceb364f7de34e68b108572"
+    },
+    "assets/dist/admin/onboarding-task-product-type.asset.php": {
+      "md5": "89c1386e275638a3df8f88e1bb4bbcc1",
+      "sha256": "1281726296428f69d6ab1b6817458fd96c4e919f1d9cfba32ac1c709ddde7b8f"
+    },
+    "assets/dist/admin/onboarding-task-product-type.js": {
+      "md5": "80b918304bb85075c61560cd0a69a8be",
+      "sha256": "09fb997a182db84b37ffcda6065cf179e70b1e1fea83a16ea7a0b30032284700"
+    },
+    "assets/dist/admin/onboarding-task-product-type.min.js": {
+      "md5": "3ffca3d3e4c4f400cd70e99e553b9c9c",
+      "sha256": "c94bd72f7459eb888fe0b30ba7e05cb7dc2eac9d71f0d6a99b4ac84fe1316bec"
+    },
+    "assets/dist/admin/product-tutorial.asset.php": {
+      "md5": "25b59cca379178ac9d4f2a9863048d5b",
+      "sha256": "a046dfdeaac49659c65447a207138557a753a9b1812c694f62f9f0b4346ec269"
+    },
+    "assets/dist/admin/product-tutorial.js": {
+      "md5": "902b7c500b5788fc6c3052e18a5f82f7",
+      "sha256": "d9f442d8b794463fe2f82804edfce866aa1a19636fd99f7ec3ab8700c1fe776b"
+    },
+    "assets/dist/admin/product-tutorial.min.js": {
+      "md5": "998c46d552833bb56ef51e2059099688",
+      "sha256": "e02a514775ec18dea5f1a5cceb5100d8f57f5062668c5c2684e5486397e03dd5"
+    },
+    "assets/dist/frontend/checkout-blocks.asset.php": {
+      "md5": "aad6d0369547cad197f6646f0937e714",
+      "sha256": "57aa6c5b648d846d0fd3c2c165dc523bacba3bb391f5352937a3ae49b6a5239d"
+    },
+    "assets/dist/frontend/checkout-blocks.js": {
+      "md5": "b145c4a8172c5e10ac4694d8939409d9",
+      "sha256": "98bac9dab121d603377ca3d870486ef3b1423da28f839ab7e44d34a9f3178fbe"
+    },
+    "assets/dist/frontend/checkout-blocks.min.js": {
+      "md5": "73caa01ff669154bcddfca3757937d47",
+      "sha256": "7a832f630fa28047c274327d53bfcf35b80bb3d15711e6fac8ffdd8aab5e54aa"
+    },
+    "assets/fonts/fa-pb-615.eot": {
+      "md5": "69181bd3a33873f1e0299f5689f63065",
+      "sha256": "cfbf1fa19f193b3fc997821f52ead2fb622ea9bb53435498ab7d47f68febaeee"
+    },
+    "assets/fonts/fa-pb-615.svg": {
+      "md5": "2fd112801cb24ff0511dad9acc88ec73",
+      "sha256": "5dacc08092cbb27f31792ecd058fec31520c060ff19eaa17f7597d6343796fcb"
+    },
+    "assets/fonts/fa-pb-615.ttf": {
+      "md5": "8442a1692f7434cca41d57828f663f8a",
+      "sha256": "bcb85fec683ec2c58f4596cc769ec43a4bdcd65af7903582dd660f04b9ba7501"
+    },
+    "assets/fonts/fa-pb-615.woff": {
+      "md5": "10b233df2ed0d4a6823a01d4efcd122f",
+      "sha256": "e96cd29be846d67404ee60e2cc28ed92affd26fb5ec0f1114954564e2e7b1ebe"
+    },
+    "assets/fonts/fa-pb-615.woff2": {
+      "md5": "55c00a135def7daca8f6bfc0e0fb5200",
+      "sha256": "1378f35023271434ce1fd73d3cb6e96ff81c79efda6885e06f36915be033dfb7"
+    },
+    "assets/js/admin/meta-boxes-order.js": {
+      "md5": "7df290bcb2761e99ed69cc6cff561a96",
+      "sha256": "f4c61fb3b3c2655aa4cedc88bb3cd9c2649858d837e1d5daa3f21fa1fd27c96f"
+    },
+    "assets/js/admin/meta-boxes-order.min.js": {
+      "md5": "3c90ec6a758115caf9a390e35a169d71",
+      "sha256": "f803b571e03278cb00db27e66e0baebea160c71b61df71a5cc7c46fa90f9c864"
+    },
+    "assets/js/admin/meta-boxes-product.js": {
+      "md5": "6b4a61bfa76bbeac26c2ab76ca75ad24",
+      "sha256": "f4814a0dbe7d71dcbbf10d93955dd7caac5ab750772cc15f9e35eb62a7547076"
+    },
+    "assets/js/admin/meta-boxes-product.min.js": {
+      "md5": "05f0689db0d973f2e096ec71ad803c51",
+      "sha256": "39c0a62a507f4650596838a0ccb1036d970e12380fb7fd63c3c663ef8bbb2b05"
+    },
+    "assets/js/admin/select2-init.js": {
+      "md5": "0607b5ef2bf87ec3d5b309c59d1805b7",
+      "sha256": "7b55b140289cf233401f2c13af3831cd71c8dbbdbea4f3fcc34cae38be57f2a1"
+    },
+    "assets/js/admin/select2-init.min.js": {
+      "md5": "b25f2e5dd380c80f0097502e1b8770a2",
+      "sha256": "5a1c57aad765ecc32f58cefd3933d41da09d4b3d331130c0993e1a421993957f"
+    },
+    "assets/js/admin/select2.js": {
+      "md5": "4bbfd02acc1b03f5cad6c2e655c208cf",
+      "sha256": "17f2c4a318404a1d9bd47c6614f7676624badd64393e3c1685bba8d1922b900a"
+    },
+    "assets/js/admin/select2.min.js": {
+      "md5": "e83eb6005cbf698aac3098998e6c1dc3",
+      "sha256": "9ccea7ee05feb1d98e3cc4b2d4a3043dba8c576a53370878fcdf61f13a8e0814"
+    },
+    "assets/js/frontend/add-to-cart-bundle-min-max-items.js": {
+      "md5": "876a374aec34b2e5a8b82f0392bd830e",
+      "sha256": "845e4a2f66b6e5f0c3e3be6bcf846bb455d900431ae1bf2079a550b76b5f2efb"
+    },
+    "assets/js/frontend/add-to-cart-bundle-min-max-items.min.js": {
+      "md5": "7159d15cc7a95da160a399a2bce52473",
+      "sha256": "d7d92a3f515107fe3056c97ea8502ad75b06730a1dacf8d4d1ed025bdb7462be"
+    },
+    "assets/js/frontend/add-to-cart-bundle.js": {
+      "md5": "8792420e343e069ed3276006db2141a1",
+      "sha256": "4ab6de4ba748c5d32554ea0d5e8b652c088f45d16dd1c92fc5199483950aa7ab"
+    },
+    "assets/js/frontend/add-to-cart-bundle.min.js": {
+      "md5": "73ddb52ec95eb9ed12ad33a4e5e6ae05",
+      "sha256": "721a6a6b389d19bdecc75b7d89a9a376787321cf56b89949cdae8c42d39e2044"
+    },
+    "assets/js/frontend/integrations/bundle-flatsome-quickview.js": {
+      "md5": "c555e48ace3a7b59abbee41f5dd79c40",
+      "sha256": "9cc18036f25650adfd90c514935d03d61746eb7d944f91a101ada04c5cdd720f"
+    },
+    "assets/js/frontend/integrations/bundle-flatsome-quickview.min.js": {
+      "md5": "56fcfac804b265224507c95d9d659a32",
+      "sha256": "173214c601211f7d6e315ae717a035acf6f44bfd51b9f39cfd558e18e580489a"
+    },
+    "includes/class-wc-bundled-item.php": {
+      "md5": "442c36c844354de4b2667c7321592a4c",
+      "sha256": "6ee6baac2a5c3038c729aff6edb856f3223579c79cf643904773d371732e5ae6"
+    },
+    "includes/class-wc-pb-ajax.php": {
+      "md5": "dbc5aaad307caa581669a2f6444be476",
+      "sha256": "12e3706e076b6e2204a6405de7a4e9ab2dccbd483eef4c7862fbed1b904a0cc6"
+    },
+    "includes/class-wc-pb-async-request.php": {
+      "md5": "cf7cafbfa07f4d455739cc3e1d61bd44",
+      "sha256": "1a21d0d292ab168b697e8658a70c3e88bd0807493dbbc73aa4cac3c5b283492a"
+    },
+    "includes/class-wc-pb-background-process.php": {
+      "md5": "5cb9b92b626efb95309986d4c759f57c",
+      "sha256": "146217e0ea9d692ec7ddd2ce0ad92672faf931dd6b4a6f25fdc4647cde98705a"
+    },
+    "includes/class-wc-pb-background-updater.php": {
+      "md5": "d8217026133d1732f5ea1578ace8e93d",
+      "sha256": "2359b1392b8c9b2868f7416d97d024cdd1d40ecfedb02c1bb98093d605a6dfeb"
+    },
+    "includes/class-wc-pb-cart.php": {
+      "md5": "0d7c8d6cd8833e2bcd0a570a3a5d90ea",
+      "sha256": "305eae3273f97c07178aa9828ea811a25d29b528f2fb9e1f507d9c5ed807fda8"
+    },
+    "includes/class-wc-pb-cli.php": {
+      "md5": "e4184a771c26e44f4b4f020a241b15cb",
+      "sha256": "be57d4a0602d7a0eef8efa329b5011dbfde46cc9c919cc2ceb0158c31263a701"
+    },
+    "includes/class-wc-pb-coupon.php": {
+      "md5": "f9d5fe53a004c898ec890f58423bee0c",
+      "sha256": "bdce7f50148a7e9a27bdbe4ab0bf986ed2c5a957dfdf9918a11c9a63aae760b5"
+    },
+    "includes/class-wc-pb-db-sync-task-runner.php": {
+      "md5": "a4dc7d8aefeafeccea8300f252f686ca",
+      "sha256": "aa13936c3653eb94ba2dc1626258c0b2794345fab2f40c9a952ec6b1f619c0ad"
+    },
+    "includes/class-wc-pb-db-sync.php": {
+      "md5": "c5c000789ad20566329b261f70b6de30",
+      "sha256": "0a707f41e906afeed0e8e4117d1f8aa2551fbb5e5d56aa29c3bdecd7365011d1"
+    },
+    "includes/class-wc-pb-display.php": {
+      "md5": "e6a5be2cf4543bb66c89fe58cef44494",
+      "sha256": "95ad78109f5ffa16a5d01d8a4ae0758b931567a50b938c90922a01a10598d03d"
+    },
+    "includes/class-wc-pb-helpers.php": {
+      "md5": "2a34e6b1182058360ae2b7115fd6c77c",
+      "sha256": "1e40bd4c8d90d890bcf31122c3f875096aababfb8ef13c777f85b05ef67c6869"
+    },
+    "includes/class-wc-pb-install.php": {
+      "md5": "00f4b25a45373941f6ecb6b807b10aa0",
+      "sha256": "574b6cacd3d44699553d6c0957f129c15413718f8a03bad43cf6d438354e7623"
+    },
+    "includes/class-wc-pb-notices.php": {
+      "md5": "9a04edcc363c28b75bd010c48df62728",
+      "sha256": "cd3af4a42c6c8ca6de3c05499aecc6d354228c77c9e275fd0f9cf7ff95463cf6"
+    },
+    "includes/class-wc-pb-order-again.php": {
+      "md5": "3583e119705030f77384eae845091ef0",
+      "sha256": "b21e20d6366974e32767b684f84ae9d0c2bf4f64339c2858e090d317716d1158"
+    },
+    "includes/class-wc-pb-order.php": {
+      "md5": "aae4748c831ca34a07b8435e0fadc2b0",
+      "sha256": "96a32fb40adf32148405c890682a8bf3c98b1d98d67820fc1ba9fb71d78f01dd"
+    },
+    "includes/class-wc-pb-product-data.php": {
+      "md5": "0c6cb2c30bbbd42426cf0c7c13fb43f0",
+      "sha256": "0c5f4254f341f3451b9c5eaf1cf5932e32f22f15786d4598fd6947013ad6cbf4"
+    },
+    "includes/class-wc-pb-product-prices.php": {
+      "md5": "412dff7b401ca259feaf67e96b8abf19",
+      "sha256": "d031dfabb32fdb145a417c77de23e2db3f3c9a870f7d97c83735bb68bfa7a133"
+    },
+    "includes/class-wc-pb-stock-manager-item.php": {
+      "md5": "be0caffd6cce3923a06a4cf11e39d9fb",
+      "sha256": "3ab1c06e18f11c45f8c446d5e504d3fae0f47e9b3a5832adfef5cb75d8d36fdf"
+    },
+    "includes/class-wc-pb-stock-manager.php": {
+      "md5": "ead23bb2786d31fe2cf59db2cf43c430",
+      "sha256": "364ffd8b65194b266f9420d7557221637f4f9cf5b677b3f64b427ee8ff55e950"
+    },
+    "includes/class-wc-pb-stock-notifications.php": {
+      "md5": "226fe5a0e62415fce40754d7bb89701e",
+      "sha256": "43a52d9f64289c5a61ead0c1f93f4edfa62d214414c5b6eb10fcaa6c451459f8"
+    },
+    "includes/class-wc-pb-tracker.php": {
+      "md5": "3c3eb7880e54adf84c290f3f44638fde",
+      "sha256": "f07b261a33859b8e0f8f62ae1841cb866b0292762eadbadfc62b17d3ee33161b"
+    },
+    "includes/class-wc-pb-tracks.php": {
+      "md5": "7bbc43d7c25b396bd37ea965ac5d6765",
+      "sha256": "4262e5a47bf2417b003e7e718027f872bf7b633fade8078b7a0800e490b656d3"
+    },
+    "includes/class-wc-product-bundle.php": {
+      "md5": "a456a67e8c115ba61a8dab674906bf44",
+      "sha256": "262c3f3af283d590cad02d60dd538d94b1d1e2d015bb0fe74a7ebc8eb0aaed8a"
+    },
+    "includes/wc-pb-functions.php": {
+      "md5": "e6a62130cae1b1e90ef03b86e374bcb9",
+      "sha256": "3cedf4fe7b597dfca7ada85e5a5685e843fe3f578bda498a5e9f681844254514"
+    },
+    "includes/wc-pb-template-functions.php": {
+      "md5": "2e06a94febf422ad63eaf6721ec840ba",
+      "sha256": "f4b90dedc1d0b6db6552bc64e292d9cdb12009000db0ef6d64caa15bc8ffc1c8"
+    },
+    "includes/wc-pb-template-hooks.php": {
+      "md5": "143301c7c45a723a2edc489a1064ff0b",
+      "sha256": "9a2b710701f2a8d5bc97f52b09e222f354d887710648800bfdc69772834fda61"
+    },
+    "includes/wc-pb-update-functions.php": {
+      "md5": "5ce5b1fedd9e1e29690b709264285dba",
+      "sha256": "b25860b63b52c9a103283dee9128590f047d0f3f8a36a103451d6a3421627855"
+    },
+    "includes/admin/class-wc-pb-admin-ajax.php": {
+      "md5": "61505e94913c1908a04b6a737180e281",
+      "sha256": "4131b7422e8329c5d19ab46f0ea4b7965ffe3921681be9ebf604fa2dc068a787"
+    },
+    "includes/admin/class-wc-pb-admin-notices.php": {
+      "md5": "8d779ec513893c1cf5104d177d040e99",
+      "sha256": "ad54f519108a33a0adc3843d87ffd7d1dabec6779b7ad7d4e102ee100ef219f4"
+    },
+    "includes/admin/class-wc-pb-admin-order.php": {
+      "md5": "55ce018c6e94f16af6f93e4b73e5474c",
+      "sha256": "27037f95623c1f44127e02e27c466272c6709946357c0efbd9c00e763b86d5cc"
+    },
+    "includes/admin/class-wc-pb-admin-post-types.php": {
+      "md5": "e7b4cd3c26cb6707c57057ca4ce9f3ec",
+      "sha256": "7cb2a2cbc9e191b065599b38949752a0202460abe16e1c1bb6d8c2db733be749"
+    },
+    "includes/admin/class-wc-pb-admin.php": {
+      "md5": "f18d1aea990c98e623d11255ee063365",
+      "sha256": "6962ee5581c6361501f13bce91d544bab1cbe2baf72ff3b8c2cd008da5484f06"
+    },
+    "includes/admin/analytics/class-wc-pb-admin-analytics-sync.php": {
+      "md5": "3d25b1863b579d7b40320464ccffff67",
+      "sha256": "9a3f4c442bbb78f9326bace5f2b8fabebb4f74dce8d6e13dbb0eadbdb220687c"
+    },
+    "includes/admin/analytics/class-wc-pb-admin-analytics.php": {
+      "md5": "4786c647176b724862706689baeb4eb0",
+      "sha256": "263ff42c74e398f104d4ed8aae8b3f1437b4935a11d9e643b69197a059de1b25"
+    },
+    "includes/admin/analytics/reports/class-wc-pb-analytics-data-store.php": {
+      "md5": "2ccb93319dd6a50670f6e0666e409c4d",
+      "sha256": "fda3c354d3602003c23c143e319ad7a4b3aac14cabd68a850d73ed3cd76959bd"
+    },
+    "includes/admin/analytics/reports/revenue/class-wc-pb-analytics-revenue-data-store.php": {
+      "md5": "53b250036e0befd77f6238ca32662b4b",
+      "sha256": "ddf61aecc2a60b04b44985ccdfa9d0266bba3ee2866f19f5288a430e1b1b9469"
+    },
+    "includes/admin/analytics/reports/revenue/class-wc-pb-analytics-revenue-query.php": {
+      "md5": "e4e72b5ec16f06aac890c59251453dae",
+      "sha256": "467bc0cf4acb2cbb622229ad5c3b8350a04dbfd4b306fe4442d3433954e7783f"
+    },
+    "includes/admin/analytics/reports/revenue/class-wc-pb-analytics-revenue-rest-controller.php": {
+      "md5": "77bebcf2174e17526015f22ddaab934e",
+      "sha256": "1e636a5fe3dff26b8c8494dc766cd058b1a9a3443c0191f296389b37081385c0"
+    },
+    "includes/admin/analytics/reports/revenue/stats/class-wc-pb-analytics-revenue-stats-data-store.php": {
+      "md5": "22f25bfaa913bc00008a04cc4af9e5a2",
+      "sha256": "ef6a160561448e30a3869f0506e33ea0050b3adf6c42bf4e235d1e79cfa79441"
+    },
+    "includes/admin/analytics/reports/revenue/stats/class-wc-pb-analytics-revenue-stats-query.php": {
+      "md5": "8ef50dedaf5f4b05f1c49e6b13fb1201",
+      "sha256": "85c424b3d9c6f325877fe6ee3de141d88bd8815bcc8e06c7fa5b57f991e09579"
+    },
+    "includes/admin/analytics/reports/revenue/stats/class-wc-pb-analytics-revenue-stats-rest-controller.php": {
+      "md5": "5baa1770089c730a16a615556d077efb",
+      "sha256": "1586953ac1101e372b1526007e12c587e3ff607186ea812902c0157de926ff84"
+    },
+    "includes/admin/analytics/reports/stock/class-wc-pb-analytics-stock-data-store.php": {
+      "md5": "c2febd240c6fd3f534393d9563173952",
+      "sha256": "49dcd62d7abaf0c32fe114c65203f4e5fe39f5fa9233ef46b13e861b7a8d412a"
+    },
+    "includes/admin/analytics/reports/stock/class-wc-pb-analytics-stock-query.php": {
+      "md5": "d1a97db07eb47ec533155540fd6efce5",
+      "sha256": "d1bd331c02d8ea23aefe649fc85670e61d684fba2048356fee66324affe4ae22"
+    },
+    "includes/admin/analytics/reports/stock/class-wc-pb-analytics-stock-rest-controller.php": {
+      "md5": "9c85d76849a944ac3369d579e7d60ef9",
+      "sha256": "fbb57c4482ebf39d04a82dbeb9d7cb89a80d211e4b52c53c32420f168d88d3d3"
+    },
+    "includes/admin/export/class-wc-pb-product-export.php": {
+      "md5": "557342824d03ad0234e3661f56fd2084",
+      "sha256": "e19e775f816910d8a4b147f45716fda0df66d9c520856e898a9e3ef6bfff3b3d"
+    },
+    "includes/admin/import/class-wc-pb-product-import.php": {
+      "md5": "7c101a2365cf97d13db1fdd2e9958449",
+      "sha256": "8f073287e8a206709495e95dc98f813019d73b7f589dd8cda06b7f71944fc862"
+    },
+    "includes/admin/meta-boxes/class-wc-pb-meta-box-product-data.php": {
+      "md5": "d9d6ffbcd406f96f0cb4b920958c267e",
+      "sha256": "642b60d298071fc8636607c6cfcd00786652bac09eca8d9f8a448aafd92677f4"
+    },
+    "includes/admin/meta-boxes/views/html-bundle-edit-form.php": {
+      "md5": "b47b1b284567c7c4a365188a74e74554",
+      "sha256": "62788d8af26a965cd0961e86c0cbd290fe2b8f2ec38bfa62c4be93d429d0ec76"
+    },
+    "includes/admin/meta-boxes/views/html-bundled-product.php": {
+      "md5": "80a5c01d633b31705efae88944ee7089",
+      "sha256": "3127af95719cb6d306b3637d2a0685654ee93f4b8a7e00f30174ac98a1a3ef5b"
+    },
+    "includes/admin/reports/class-wc-pb-report-insufficient-stock.php": {
+      "md5": "a8788beb8f074b5a9401c097888734cf",
+      "sha256": "4eb9fde3fb377e87f1fab02eca47d534775e9d6bab55c705295340d4de066259"
+    },
+    "includes/admin/views/html-admin-page-status-report.php": {
+      "md5": "c0145dc37b47247f2bf034a830c5b43f",
+      "sha256": "a69b5aa3bed0bab7034b147729567b74e73b4b236c7f5fc980cf131d9e6658d1"
+    },
+    "includes/api/class-wc-pb-rest-api.php": {
+      "md5": "c36a32d20836980fc2ce1339e8e29580",
+      "sha256": "1589514faff79df863e5c10eea62afe9079f13218f573158cd4e439a7bcc84d2"
+    },
+    "includes/api/class-wc-pb-store-api.php": {
+      "md5": "f029f84f189e7b4c7de598b463a06ccb",
+      "sha256": "5fbf5144423f48b9a6303f5c39c6abc19e72fcbbaae61447a789ac52b5132816"
+    },
+    "includes/api/templates/product-bundle-template.csv": {
+      "md5": "47b5fac9e0af16ead6bcebc7893677d7",
+      "sha256": "e6014b227265eb1ee04acd276f4930541bdca6f57c8f9386f8c1d37b77cfe4a0"
+    },
+    "includes/blocks/class-wc-pb-checkout-blocks-integration.php": {
+      "md5": "83e74c0565d5df3938022f28fc805600",
+      "sha256": "261d85d9f8b28a3c27fa47d5f02085cd27ff4e312a1ed1c39041dc9fb2181c19"
+    },
+    "includes/cli/class-wc-pb-cli-sync-stock.php": {
+      "md5": "3ccc106394a95406497c690fa404d14c",
+      "sha256": "217e98b8f5b35071654a5c8d1c9aa8d61251ce44f5607643ac0bdbbede3f59ce"
+    },
+    "includes/cli/class-wc-pb-cli-update.php": {
+      "md5": "6d91cffa98d032b7b8aa1ee9452e1b3e",
+      "sha256": "8b53945c43249ed09295e995d38b0b24477ea3a7efe62387e1eafef20f5bbd40"
+    },
+    "includes/compatibility/class-wc-pb-compatibility.php": {
+      "md5": "0608ecc588d4eb418b16eaccc17c6785",
+      "sha256": "3db0cf408d70b53121f9673fdae38236df95fc2d995ceccf9d596175ef3e45d7"
+    },
+    "includes/compatibility/core/class-wc-pb-core-compatibility.php": {
+      "md5": "33fb61739fb99dd38205839dba81a031",
+      "sha256": "c2a4212503c61be4504ef1e5f055124b8747296c2f4ec13f3a84094e2e8320be"
+    },
+    "includes/compatibility/modules/class-wc-pb-addons-compatibility.php": {
+      "md5": "6f087c9fb07343d7dfdc7dd6ec69a6af",
+      "sha256": "fb9f47b2644665d55bf8c62221909ce58c9d152af61eacae5a8976f1d2aea148"
+    },
+    "includes/compatibility/modules/class-wc-pb-automatewoo-compatibility.php": {
+      "md5": "f730c02f91d066d032ae60f53cab67f1",
+      "sha256": "97cfe9750127a5aaffd17cbf55dd174687c64f7e8e038f80c28a5e68a1573647"
+    },
+    "includes/compatibility/modules/class-wc-pb-blocks-compatibility.php": {
+      "md5": "d73a93166a14ce3cfb636d82de44e845",
+      "sha256": "f7308b9afc0ab45f64029a5ddeef59f9e45f41a8ef18dc4e68c7e7d8766eb478"
+    },
+    "includes/compatibility/modules/class-wc-pb-cog-compatibility.php": {
+      "md5": "fbf830e24178b1c3c16b59bc8fdcc798",
+      "sha256": "50c31ea35603276ef41b4d9e515df27997932d2d1e11aa1da4655d7f42af98f3"
+    },
+    "includes/compatibility/modules/class-wc-pb-cp-compatibility.php": {
+      "md5": "62f8afd6473c27a34cdd974917fa58a7",
+      "sha256": "ef72774051d99b4d87e6cda0620e33be6c39cab772747793834ca1c3af778c98"
+    },
+    "includes/compatibility/modules/class-wc-pb-elementor-compatibility.php": {
+      "md5": "4e3a98ee161be97e078b618d843dedd0",
+      "sha256": "b24f6a0be725e579a5c020ddc219b7c580212adbeb298818f9c618114159d92e"
+    },
+    "includes/compatibility/modules/class-wc-pb-et-compatibility.php": {
+      "md5": "476a384a3d6b758c7b0e550d268baa50",
+      "sha256": "5f4639e28ed36e6e1444a3f4ecd03ff87fedfb2549e08f4406529ecfeef0e9ad"
+    },
+    "includes/compatibility/modules/class-wc-pb-fs-compatibility.php": {
+      "md5": "b42b50d63a8fb2b4f0132687ee2e01da",
+      "sha256": "122accc12c93a4575d04826035db6828cc942d15c1d04224a91dc47135bf42bc"
+    },
+    "includes/compatibility/modules/class-wc-pb-give-products-compatibility.php": {
+      "md5": "924c5191fc09bd407b2e86f4e9916b0c",
+      "sha256": "ef0d8601fa5e8f04b06c0b0aa3f7bec1ecb8342ef4185390f88bc16a6caefd24"
+    },
+    "includes/compatibility/modules/class-wc-pb-members-compatibility.php": {
+      "md5": "6cc62cecbfad25b655cef45484ef92d2",
+      "sha256": "ce3a3fbed92645a72386e88963520550b5aff15ca8b986a73e86e43510424fdc"
+    },
+    "includes/compatibility/modules/class-wc-pb-min-max-compatibility.php": {
+      "md5": "2d216b5d4392458a033dc5e274d3661c",
+      "sha256": "facc4a6075e0efe42b901bcb3c6cfb9ec8453f16e28b635f6d7e0059e1c53ea0"
+    },
+    "includes/compatibility/modules/class-wc-pb-nyp-compatibility.php": {
+      "md5": "2878a1cc6915b4c6cd0554762e9f2327",
+      "sha256": "d533b445f83193e132e12bd0538b13a3a1599cd59c90a115c3b44d74d0089a5b"
+    },
+    "includes/compatibility/modules/class-wc-pb-opc-compatibility.php": {
+      "md5": "b909552183bda9e9a8104eac3d95c43a",
+      "sha256": "3a722f140e01986e0b0395c096d826c629ba97e135c81630bf9e616e4c903d13"
+    },
+    "includes/compatibility/modules/class-wc-pb-paypal-compatibility.php": {
+      "md5": "3cc1da7a22f01ab06f47684983d48f49",
+      "sha256": "2204652e5eafd6d3e1b036ebcd6c6522eff93bffe91849d83fadf6c565ab4c54"
+    },
+    "includes/compatibility/modules/class-wc-pb-pip-compatibility.php": {
+      "md5": "e56daa97544d5962efca2d3d905218c5",
+      "sha256": "8a39f47c1f5451f1a2e4ad315d53deda69733a57499c1bad1f7129f73b296262"
+    },
+    "includes/compatibility/modules/class-wc-pb-pnr-compatibility.php": {
+      "md5": "74c571e54e47d71d334fef2c675f1786",
+      "sha256": "c2dfe2b3bcd586313f9e9dd427bd1eb4a74167b4c251e5bbbb1cb297367e7518"
+    },
+    "includes/compatibility/modules/class-wc-pb-po-compatibility.php": {
+      "md5": "f1b996f02e25c8426a408270f3692241",
+      "sha256": "e140dda20b96e30cd97a064833e418d8ec84391c8585fa7bc94fd60bae060a41"
+    },
+    "includes/compatibility/modules/class-wc-pb-ppec-compatibility.php": {
+      "md5": "9f3c060b92410aa8ac6ace6aac8e38cb",
+      "sha256": "73f0ded3398bfc3ce57b590c3c76735a8d24e1ccee7dd5099f62db280ceaaabb"
+    },
+    "includes/compatibility/modules/class-wc-pb-qv-compatibility.php": {
+      "md5": "368796ff2b2dbe511b7a8a99310e68f3",
+      "sha256": "7e4cafc764cf0d8a1a2460a71212be0cca219f506b2b5f91025fa5a1cfe6bdef"
+    },
+    "includes/compatibility/modules/class-wc-pb-sf-compatibility.php": {
+      "md5": "4f33dbbfd10566b510762a9bd83eb01a",
+      "sha256": "8b080f87d258cdba12b14c875200f06d4047854f463aa64af57862d993375928"
+    },
+    "includes/compatibility/modules/class-wc-pb-shipstation-compatibility.php": {
+      "md5": "1b8c2cda69aff2838e6b821c5a7a15c3",
+      "sha256": "20c48d54543ba40b1d881a907d259d6cc920f2ec47dc78951013d491cb59f040"
+    },
+    "includes/compatibility/modules/class-wc-pb-shipwire-compatibility.php": {
+      "md5": "39324e4e44cd726be2d96ecf3165d0b4",
+      "sha256": "12478580ad381ed50a57890ab407e567501ad3df2875b77eda34354c176cbe2c"
+    },
+    "includes/compatibility/modules/class-wc-pb-stripe-compatibility.php": {
+      "md5": "34548c49f6abb8c4b83412437687aa2e",
+      "sha256": "25aaad553a45a5abab3ad289e91b30dfd57fd262cf99e2794a63fbee72295cae"
+    },
+    "includes/compatibility/modules/class-wc-pb-subscriptions-compatibility.php": {
+      "md5": "70787f1f4e463c21af450407b15d0de6",
+      "sha256": "f55fde8194ff5138842680a271d2be5fbc738a0d4e5654fc9641815fde8d3db3"
+    },
+    "includes/compatibility/modules/class-wc-pb-taws-variation-swatches-compatibility.php": {
+      "md5": "7621aa6ceb929df5ada609b4b26142c3",
+      "sha256": "411ca47512bfd11a6e66ef41013b8940696c203801f3c469d5fa8441cfb4c120"
+    },
+    "includes/compatibility/modules/class-wc-pb-wc-payments-compatibility.php": {
+      "md5": "780e793e1ff7e037eabcbcd98ad88d18",
+      "sha256": "885544c6047042e208e8ce28071718533ef74610634906a2b0b842efa10363a2"
+    },
+    "includes/compatibility/modules/class-wc-pb-wc-services-compatibility.php": {
+      "md5": "60f9d6fa607c7867875d66a534bc9a85",
+      "sha256": "110be801a87f49194feffc7f40f003ca97ccc1f3f81aafa5929669c58cb1af07"
+    },
+    "includes/compatibility/modules/class-wc-pb-wl-compatibility.php": {
+      "md5": "254b818e967708b343e187fa051d2fd4",
+      "sha256": "295416c25d4c95247dd15c75546e86c3012571081920ca2ad34db6a20abfcb43"
+    },
+    "includes/compatibility/modules/class-wc-pb-wp-ie-compatibility.php": {
+      "md5": "0bb39984fadd0a58b3cd430ad509d199",
+      "sha256": "ad9ee4361a0e13d32c11a63d796cce83a10c00623a1e2cc6c316bdf025f9e907"
+    },
+    "includes/data/class-wc-bundled-item-data.php": {
+      "md5": "4b3a668c9f20b7a9aa3e0f2e7eb070ee",
+      "sha256": "e5adba22bde191d2f342a29b20e0da53673be6b8dd2c631a70e699fcbb6e4680"
+    },
+    "includes/data/class-wc-pb-data.php": {
+      "md5": "883ed9bfc6022bd4fddb9a62d44611da",
+      "sha256": "1fc2cf3f2f9ecabedf540ee2596ff28e1e5c1e856976f74906c7aa29b441acc4"
+    },
+    "includes/data/class-wc-pb-db.php": {
+      "md5": "36646d83897621f70f461d4e6e4953a7",
+      "sha256": "d905ecb54e4a7d4d449fee92e47ef68c6d5853e24e85c31763d23f03cc8c54df"
+    },
+    "includes/data/class-wc-product-bundle-data-store-cpt.php": {
+      "md5": "6ce491453e09938ff304f40742b56d96",
+      "sha256": "e3c4ed5a5016c4b843bcb11c4638b9985a42476b3bfc47457cf280dda5fc9cd6"
+    },
+    "includes/modules/class-wc-pb-modules.php": {
+      "md5": "6e4ab3b2af1bb92df0e7d77df9064f0d",
+      "sha256": "0ce031ffed66b42382e67a15590532bd9682be0aa8c76c8c4f1ab1a01e8e5740"
+    },
+    "includes/modules/abstract/class-wc-pb-abstract-module.php": {
+      "md5": "2d5400373425821ac251f73d33adf366",
+      "sha256": "23cdc9aec924d2d8623bdb73374071cff12c9c2a2b590ae1e600aa7fbce99969"
+    },
+    "includes/modules/bundle-sells/class-wc-pb-bs-module.php": {
+      "md5": "129b621d4e4415ce14a8eb7b884e30f2",
+      "sha256": "61a3bdb76eb88d5d1c10d36d5a6540065eb926cd60597570465cfde1ec542f94"
+    },
+    "includes/modules/bundle-sells/includes/class-wc-pb-bs-cart.php": {
+      "md5": "e1803978f79fbb4a9cbac3fe3a5b9172",
+      "sha256": "49a8d556f9d914f6b69febc37d73b00761137cae1ddf65e129d4008f9e75d563"
+    },
+    "includes/modules/bundle-sells/includes/class-wc-pb-bs-display.php": {
+      "md5": "4d68d2112777e7fdca88d522d6be2995",
+      "sha256": "2780a18723a92d257774ec3f61a3c9b61f4a4d12cf42c64cab77d9bfad3e3ce1"
+    },
+    "includes/modules/bundle-sells/includes/class-wc-pb-bs-order.php": {
+      "md5": "fac44473cd821e2530c2f7002207b304",
+      "sha256": "b0f13c98419419bf0195fa4cc959417693c9873a50dd9d7dbd404d0ec98fd9f1"
+    },
+    "includes/modules/bundle-sells/includes/class-wc-pb-bs-product.php": {
+      "md5": "7e9a7bd950b2d8aa3946e054d8aa0fd6",
+      "sha256": "767acdaef5f97b13bfdca7ec1e9cac9d1aa9356fdfafb26f886c1d25b9ab03b3"
+    },
+    "includes/modules/bundle-sells/includes/class-wc-pb-bs-rest-api.php": {
+      "md5": "d88acef62f071df2d4f00ae812e3a1b0",
+      "sha256": "0a889c3dc5b8fd08f933fb4543078b097e687940ebe2283eab66592f60f38cfa"
+    },
+    "includes/modules/bundle-sells/includes/wc-pb-bs-functions.php": {
+      "md5": "e29907fcd9e07632947e0e2d36545020",
+      "sha256": "6f5bdc0ba00faada110f9419f1c2b3308d48c284806bbf633af4aa95cff60bfb"
+    },
+    "includes/modules/bundle-sells/includes/admin/class-wc-pb-bs-admin.php": {
+      "md5": "ebe1c818d73a692bd7d55c08af55c2cc",
+      "sha256": "1d42126ae0e043f70d2eff47727fa83d5d134856093d9eb1add039c82680f299"
+    },
+    "includes/modules/bundle-sells/templates/single-product/bundle-sell-quantity.php": {
+      "md5": "73940f786700a4ca0276e912767bd849",
+      "sha256": "c1233cc533ff1a58d4aba0ea1ba04933a1944af9df9b25648341c3dcf236f636"
+    },
+    "includes/modules/bundle-sells/templates/single-product/bundle-sells-section-title.php": {
+      "md5": "8125b6c333172eb919d47b4f0dcf6e1e",
+      "sha256": "3902a1552f572c70e4b891a423791a7588a27b73f7bd220f4a42a0ee56a52a63"
+    },
+    "includes/modules/min-max-items/class-wc-pb-mmi-module.php": {
+      "md5": "9e74328ba0ea39454871441cfc8fab5c",
+      "sha256": "6ef5520218349fa52d71f56b2a2b1182220c88fd23a48a00193b424788d44723"
+    },
+    "includes/modules/min-max-items/includes/class-wc-pb-mmi-cart.php": {
+      "md5": "b722bd475f32377c34d242ed9bcfd356",
+      "sha256": "3ca45a5e6fdf991720445e8196deb4fd5398bf74a4625581c22ca1c7d0557cac"
+    },
+    "includes/modules/min-max-items/includes/class-wc-pb-mmi-display.php": {
+      "md5": "782dfece51322498c87314ddeaf9e4b9",
+      "sha256": "6d2fb7ac3b1095f01e086a0e1e86759500fcefcafc104fb3456d851c8cabf950"
+    },
+    "includes/modules/min-max-items/includes/class-wc-pb-mmi-product.php": {
+      "md5": "2e0546bf12468a83c50138bde91bcba5",
+      "sha256": "06db0e0e167f05a029cdea13a191ae0d209f7e263c03ba28e1251f61d5a51c65"
+    },
+    "includes/modules/min-max-items/includes/admin/class-wc-pb-mmi-admin.php": {
+      "md5": "fe78add457fd0262e9437400628f68f2",
+      "sha256": "5fd1ef52cd68f663e9707f72f80df6006966ce45fad44a226d1a1b3f76aacf05"
+    },
+    "languages/woocommerce-product-bundles.pot": {
+      "md5": "5dde4422c8480f8c59a49fe086455d8a",
+      "sha256": "fb236338548dc57de25c6dbfc9d3e2aea72f1ff1b6c3329a9d9459e0a11b13f7"
+    },
+    "patches/@wordpress+env+10.17.0.patch": {
+      "md5": "be833e64155003d8b981c9e0f4cd8e79",
+      "sha256": "fb6d38799f8ccc0d557727aeadfb22cd728a3a52515aed8e3fa959cb54ee9030"
+    },
+    "templates/cart/bundle-container-item-data.php": {
+      "md5": "33d42fc421d5067690581ab3ece05e89",
+      "sha256": "8994af93a3d1533cabd146c8c6934de117e41b9c449ded941215e82c281f6e74"
+    },
+    "templates/composited-product/bundle-product.php": {
+      "md5": "c4e05ced312dbb86246c000262b683a6",
+      "sha256": "7a7762c691fe884cfd197c63734ee6cb2544fab93ae766f3e1e80e85d5733cfb"
+    },
+    "templates/single-product/bundled-item-attributes.php": {
+      "md5": "daf11426a6974aa061c8a57ffebc20e7",
+      "sha256": "48ad7c97be1beb104f593e48ced9984d6e1ac0f95434db7f16c70b9e67313726"
+    },
+    "templates/single-product/bundled-item-description.php": {
+      "md5": "0ccf9f9523a40a39c65234d3b1d60d85",
+      "sha256": "111566b66c54e1cc4bbbb90dfafe10edc311b8032c7827de0dd9cc7d9fa30ab9"
+    },
+    "templates/single-product/bundled-item-image.php": {
+      "md5": "b5f6d2dae3ac7f9c39af1d08641307ab",
+      "sha256": "3702e0f87ca182d58b6af64fa5f8989542edf4a4e6277c3819994d700445f165"
+    },
+    "templates/single-product/bundled-item-optional.php": {
+      "md5": "662ce5f3a60af8dc79fadcb8cdb8936b",
+      "sha256": "565533fb2fa036c2952744d6b12e307c07aeca1de7942aa9396740f0c0846fb2"
+    },
+    "templates/single-product/bundled-item-price.php": {
+      "md5": "a775b57789dece46897907a4288ad405",
+      "sha256": "4f66e4daf5c00638603ac7d0bb98395886d80e992d9b9117ac61b5f92516c544"
+    },
+    "templates/single-product/bundled-item-quantity.php": {
+      "md5": "09f647d7f5188a2bda57dd62e939ff40",
+      "sha256": "689aea9769b4587628acee6af949ca415b3dc61760050a250ce5e9f68cc784bb"
+    },
+    "templates/single-product/bundled-item-title.php": {
+      "md5": "5464cc0597d7ef57eb28bc419ff79ed7",
+      "sha256": "138a00c533c47dd68cab45d0f2c341e0e4d936d9cc8bb253cb8d126bedb14d74"
+    },
+    "templates/single-product/bundled-product-simple.php": {
+      "md5": "350cfda37337e3eea86a5be9c0e9ca08",
+      "sha256": "8510b1a5ff6683a02bc67a5dc8ec25628bdc2cc0f4eb6d03705be09c4daee3c3"
+    },
+    "templates/single-product/bundled-product-unavailable.php": {
+      "md5": "f328851891e199579362658be7c9094b",
+      "sha256": "0549ac49836cc8b07feed0bded2d6713cda3d7230d025ab3c70a69d5d4928e33"
+    },
+    "templates/single-product/bundled-product-variable.php": {
+      "md5": "75852327ef4309df9e75fa75d58f47c9",
+      "sha256": "8c334b972984221dfa3c56fb28b0709a44591440197b1f60e5efe7757f17bd62"
+    },
+    "templates/single-product/bundled-variation.php": {
+      "md5": "0d4c58f32253cf1cd1e803e49a765873",
+      "sha256": "737649a633a48631fd7911134e7b4bea858a094da0e4b2df521bc781a17685d9"
+    },
+    "templates/single-product/add-to-cart/bundle-add-to-cart-wrap.php": {
+      "md5": "94a7ae0534004e7542a6538cf9f2e5e4",
+      "sha256": "5159385fc013a328423758f83888db35ee9264fe1b25077ecf56f1b154e984d0"
+    },
+    "templates/single-product/add-to-cart/bundle-button.php": {
+      "md5": "965012019c23952888207eb317a6e828",
+      "sha256": "2757c8ab99170bafab7f881f9b8e2f2ebab0964601ec94504b627a908cedf301"
+    },
+    "templates/single-product/add-to-cart/bundle-quantity-input.php": {
+      "md5": "90981ea196465a3908eb2c2551a2e4bc",
+      "sha256": "934c69bb36d9a9aefc526fd4602b8541beb79902b723e581c00524dea7f20943"
+    },
+    "templates/single-product/add-to-cart/bundle.php": {
+      "md5": "df7237f54591b9849304ce57496a55ca",
+      "sha256": "69345558744d0cf684ab6bd4e1499ea2aa8bc93703b16ca1d25974e4a9e48af4"
+    }
+  }
+}
