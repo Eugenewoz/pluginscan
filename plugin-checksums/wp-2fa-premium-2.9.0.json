@@ -1,0 +1,2046 @@
+{
+  "plugin": "wp-2fa-premium",
+  "version": "2.9.0",
+  "files": {
+    ".DS_Store": {
+      "md5": "b51be047093fefd7f222e5fdb5b9f95d",
+      "sha256": "23b5b5816f2aa468c7d58d1cf5d14afea2d3c0d022c9adbf228a6e2939466ebc"
+    },
+    "index.php": {
+      "md5": "45d09bb48b4f308b8f63baab8f416733",
+      "sha256": "1d09d11fb08cadc1ff75dcf496251059a936ee143f7d7865eb5a2aa504ce2da2"
+    },
+    "license.txt": {
+      "md5": "f722455ce315dad7d69ee76b67f01aea",
+      "sha256": "e9373305c886726d089cb5db162a3808619c3070b0e035f8659ceb7e6fc877f8"
+    },
+    "readme.txt": {
+      "md5": "8662ef6ec2e22bb0a9da18b0c0332009",
+      "sha256": "cfd10b269b1d113f0e5e1336a9e5ac732067cc07611a1141cd6020624bb1ad62"
+    },
+    "wp-2fa.php": {
+      "md5": "6674225288e5b2eb63e38af89d7f82df",
+      "sha256": "af060bcc0f02a9b9c7ad73ec6918dc31da0289c9cce4209874cae5d2a91bae7a"
+    },
+    "dist/.DS_Store": {
+      "md5": "538e3ccc413a43352c17484d7796569a",
+      "sha256": "ca554f032eb9ec61a073cebdb0c1d67284dcf0c1d59dd7dd01830d3fb0e08f59"
+    },
+    "dist/css/admin-style.css": {
+      "md5": "c5c1ae20a71f7e16a748b93a4295685a",
+      "sha256": "fea2734557e01037a01ff30a441e13a709aec05e7f273f512a4c51698ff4efd3"
+    },
+    "dist/css/select2.min.css": {
+      "md5": "d44571114a90b9226cd654d3c7d9442c",
+      "sha256": "c493991dfa712d1fee861d41c18152e5f8663807484506a23ae97917f6fbbf7b"
+    },
+    "dist/css/setup-wizard.css": {
+      "md5": "d4f383a45a04a1727969d73935edc55f",
+      "sha256": "f475d00c7da544820cd3b441492f7cff1390740d5cc377400d6230054ddae43d"
+    },
+    "dist/css/styles.css": {
+      "md5": "34920066781bd7540e83e550de54c149",
+      "sha256": "c7330979dfd265f3a6be894819c4a89641c9386573fe2f7581e4af0482bf9ffb"
+    },
+    "dist/images/authy-logo.png": {
+      "md5": "298c1fb87c4680d995cb6b85affb875f",
+      "sha256": "1547dfc060d52c504af7234ffed140b6092e85471851950376475a9dd944734b"
+    },
+    "dist/images/duo-logo.png": {
+      "md5": "5ab69690e23ec1976f6ab02febd32f97",
+      "sha256": "40157e470c0f1904fcbc4e63fb24bc9f3ac3cc2e956c1bf26833464a6ca40ff7"
+    },
+    "dist/images/free-otp-logo.png": {
+      "md5": "80996f74ec376b85114406274ccea4e4",
+      "sha256": "b991b153e56c7dbd8d23b6d87c6a77aa89d9dd71a5d9cf7c04d03a8d2a42db54"
+    },
+    "dist/images/google-logo.png": {
+      "md5": "4d061c721e950fa7e19029280ef30dcd",
+      "sha256": "89745aea891ced9e465a08e7142182265fa2c64736bd50fe308fcfa5dfa013f8"
+    },
+    "dist/images/lastpass-logo.png": {
+      "md5": "6a2b23fe891a569a6a59ad0d97008b16",
+      "sha256": "5e552b4f6a47708575dfb4069dd7cb734674add072924e88a6631345ebbb89a3"
+    },
+    "dist/images/login-security.jpeg": {
+      "md5": "be926d8f5881f9f86c031716a2ee8e81",
+      "sha256": "53c9c725a827a6656c93462ddc99daa47ed2d86ab2420f03762b1b974b132e18"
+    },
+    "dist/images/melapress-role-editor-logo-full-colour-horiz-rgb.svg": {
+      "md5": "08f9900f037fe642839e3d5f717fb16d",
+      "sha256": "9ca5aacfab7633c2374730219181da638b90752f97ba5ce25f20b1159b042f1e"
+    },
+    "dist/images/microsoft-logo.png": {
+      "md5": "4d7c44fa9271a6d9de886e1eab96c8d8",
+      "sha256": "afcd444f0f59960bae9671c6f8c29964553a5ba4334165ddb1a16112ac6df5a2"
+    },
+    "dist/images/okta-logo.png": {
+      "md5": "ab140a44b4664f001d9977d588842cf1",
+      "sha256": "27b07f677a2ca1d51b69e260d7dd44e7428288d4b2b3afc15e38737b0070002d"
+    },
+    "dist/images/website-file-changes-monitor.png": {
+      "md5": "ec7931eea04420d55f38c861f60b373b",
+      "sha256": "19305b0c599c87e0486dc3d65e005fc820c750a06fe734635a0477e972de5c7e"
+    },
+    "dist/images/wizard-logo.png": {
+      "md5": "fb9c4db577bd9dd98fc4639da5d81759",
+      "sha256": "ee7ea3a0bc69865e8d5d9029585456063ad852d9a44ca0e1d247e8d21f991316"
+    },
+    "dist/images/wp-2fa-color_opt.png": {
+      "md5": "7364005551091819ed6daa1b98283c39",
+      "sha256": "3252c26749ad35e9b7cb93d9c652259d18b20349a430e8331ced9865f48510b9"
+    },
+    "dist/images/wp-2fa-square.png": {
+      "md5": "5c43de89133a68319d9ffb63ce7bfb66",
+      "sha256": "c7e0e677dfa5722d32a0371a7f12099f400566ee6942ef8bacdf8b082aa89efd"
+    },
+    "dist/images/wp-2fa-white-icon20x28.svg": {
+      "md5": "9f9044be2c1c5404ab0abe466f25332f",
+      "sha256": "774ad07de36d4f58decf13f8e42dbedda6a8e69b20705d5b389ba1d8b657d8cd"
+    },
+    "dist/images/wp-2fa-white.svg": {
+      "md5": "3651740d355f5840538fda12be0e5803",
+      "sha256": "ee8e268c0dae66b66996dbf3f79a01f2e6cd129e84775d4149827044e0b45468"
+    },
+    "dist/images/wp-activity-log.jpeg": {
+      "md5": "1e88bbc0908b7f848683d8eba709ee8e",
+      "sha256": "3b2b5621bf9111cca51aedf922584302fb4fbf14ca03917e02d0e7753e4055f4"
+    },
+    "dist/js/admin.js": {
+      "md5": "739adae240a0f5e882adfe7be408ec11",
+      "sha256": "c6e0b874be07207b7ccf1cf6158dcfa3f8709e6a9b070d5fb1355f10cc701f28"
+    },
+    "dist/js/micromodal.js": {
+      "md5": "cc8c7ad91966401004ffaf1618bbb3f7",
+      "sha256": "2df309e6a50cf43ebdd7fe3257df5abc15c52b05d721c256748190313bef2bdf"
+    },
+    "dist/js/select2.min.js": {
+      "md5": "e87ca4c3554f7b9e693605ce12d3a234",
+      "sha256": "fa659dfc6ebd4b8aad80fa304842c879502fefe16e2fcef55976a89605e7af04"
+    },
+    "dist/js/wp-2fa.js": {
+      "md5": "4cd1bb6e3ea62b43c397511b4e207a66",
+      "sha256": "c2039484bfacab6131a17eb4a82cba474b5a1df41003137e2fce9209977024aa"
+    },
+    "extensions/.DS_Store": {
+      "md5": "0b2bd4624f61b9398c2222ff2a70128d",
+      "sha256": "dbb58aee4134c234aef605757b6f85c772f8f31bd2840fb6f9b7f453fa595525"
+    },
+    "extensions/class-extensions-loader.php": {
+      "md5": "19cf1d8a7b925500c44886f40e89f622",
+      "sha256": "a82a453cf9768a463231867429efa4d3ba1f6653fac8915d634e0fc7d2e3694c"
+    },
+    "extensions/config.php": {
+      "md5": "53deabf44572aa10eb45cf7722b5a1a3",
+      "sha256": "a8270b05b9e5b4aeca005ec3a7b55aa7149d2c6b96dfc9c12bd9cf355cd48427"
+    },
+    "extensions/index.php": {
+      "md5": "45d09bb48b4f308b8f63baab8f416733",
+      "sha256": "1d09d11fb08cadc1ff75dcf496251059a936ee143f7d7865eb5a2aa504ce2da2"
+    },
+    "extensions/authy/class-authy-api.php": {
+      "md5": "c684fdf1269d80a68e53aab00e3cb16d",
+      "sha256": "d0aca26e117796635076cc95b3946f796dd6630200c3385ffdef9432477a2985"
+    },
+    "extensions/authy/class-authy-render.php": {
+      "md5": "339667998965d057446696c9ccc16634",
+      "sha256": "7facd4124ac011b812107efd1ef69535b0fa481ba1ef5de22469b10eac0cc2d4"
+    },
+    "extensions/authy/class-authy-user.php": {
+      "md5": "70b0fdb62dafc08899af0b59cf973774",
+      "sha256": "d99e9fa4ebac6440aab568ce1d91ea66a886898da221979f2ae31cc3b1f7494b"
+    },
+    "extensions/authy/class-authy-wizard-steps.php": {
+      "md5": "617fdb6c340c4ad37648f97742b04ecf",
+      "sha256": "5c0cd45f8d346878ba1a1e631fd0d9c86099b65cc3e3a834d66b879b572fab2e"
+    },
+    "extensions/authy/class-authy.php": {
+      "md5": "b38ebadb3f8ebd7ef0870421ab02f7f9",
+      "sha256": "d6d65777d5129427ec85c2ed30d147785eba7d5c80f16f887821844f3f73bb13"
+    },
+    "extensions/authy/index.php": {
+      "md5": "871d7c592df5e8bb9ae1fe4ffb7476e4",
+      "sha256": "a2fe5983adbfac053ff19a1cac38747d2e4e603e3c8f1415a109bc75f7a31ccc"
+    },
+    "extensions/authy/assets/css/phone-picker.css": {
+      "md5": "5f3d22140c0870d336c790606c15e4c8",
+      "sha256": "ccba0619e2df68e63a5ab632beb83b71fe1737a53d11ae2122bed94a04d38bc6"
+    },
+    "extensions/authy/assets/img/flags.png": {
+      "md5": "416250f60d785a2e02f17e054d2e4e44",
+      "sha256": "0a012cf808a24573168308916092d2d4bd3f2b4af8e16b59167013cc77acee55"
+    },
+    "extensions/authy/assets/img/flags@2x.png": {
+      "md5": "d429a5777afaf2fc349652e812e9bb11",
+      "sha256": "8ab4e961a71e2a404aab37e528b0312282c258015d58f5e0eb5dec6aa4ff63d2"
+    },
+    "extensions/authy/assets/img/icon.png": {
+      "md5": "9743c71fcbf666decaccdff93122d7ff",
+      "sha256": "cc9a72cb9b49e0637bac8db824c5fcbd7652d4c053e0b703e617812a49669e2b"
+    },
+    "extensions/authy/assets/js/authy.js": {
+      "md5": "40e15f79547631d60bac53f1eb554628",
+      "sha256": "16214866b988ce4fbb3c32ebb2fa4e93221fb37a1d5197a32f235ad22357fd2b"
+    },
+    "extensions/authy/assets/js/intlTelInput-jquery.js": {
+      "md5": "02cb5f2571ef3adcad85451ede9474b3",
+      "sha256": "19e50bb21a5fdd4bd432d188ff4724816bc9004d643763fecaac81bdcd522ce8"
+    },
+    "extensions/authy/assets/js/utils.js": {
+      "md5": "badf39299033bb934da6325eea28ce72",
+      "sha256": "2c70f3d32d8ed2924ff688ad77a9b8f65663a433b5b0e5f4ba38879956961652"
+    },
+    "extensions/clickatell/class-clickatell-api.php": {
+      "md5": "9f62ce5d1dc4ab5ad282526cac8c5b67",
+      "sha256": "3b642cd9f3bee257e61557c87b6343afe5da32de58a8186505c23b4104440740"
+    },
+    "extensions/clickatell/class-clickatell-render.php": {
+      "md5": "4e98e310e8f884103c32465db7a60679",
+      "sha256": "c3b6f8246b75fa6cf9bca744926e512c83830a6fa724ed8c125b8d47db56fcb8"
+    },
+    "extensions/clickatell/class-clickatell-user.php": {
+      "md5": "aae7c1b9824f95d23cbc4442f90f704e",
+      "sha256": "c1bbaf718c0aed083a5a58c92c69b41a91f75b594c287d0352459a3677b615bf"
+    },
+    "extensions/clickatell/class-clickatell-wizard-steps.php": {
+      "md5": "8f46e2e6e543617a8893b6d0f97e9795",
+      "sha256": "f3080d51c22970726d5edecd9951fe24755837f72cfdcdcd89bded895e1d7969"
+    },
+    "extensions/clickatell/class-clickatell.php": {
+      "md5": "ea0c4907ea5f6624095719b0b4869ee8",
+      "sha256": "5cc2f54f4aa27580ed41054b36788779229d923f674f5d9b758c7c4f62819d39"
+    },
+    "extensions/clickatell/index.php": {
+      "md5": "871d7c592df5e8bb9ae1fe4ffb7476e4",
+      "sha256": "a2fe5983adbfac053ff19a1cac38747d2e4e603e3c8f1415a109bc75f7a31ccc"
+    },
+    "extensions/clickatell/assets/css/phone-picker.css": {
+      "md5": "9df024794d4016d84e5c68edc84639c0",
+      "sha256": "ff53364a434fe66a80cb3a15c1406b34a3a9b11e818bc6dc46b85aeca2f9f323"
+    },
+    "extensions/clickatell/assets/img/flags.png": {
+      "md5": "416250f60d785a2e02f17e054d2e4e44",
+      "sha256": "0a012cf808a24573168308916092d2d4bd3f2b4af8e16b59167013cc77acee55"
+    },
+    "extensions/clickatell/assets/img/flags@2x.png": {
+      "md5": "d429a5777afaf2fc349652e812e9bb11",
+      "sha256": "8ab4e961a71e2a404aab37e528b0312282c258015d58f5e0eb5dec6aa4ff63d2"
+    },
+    "extensions/clickatell/assets/img/icon.png": {
+      "md5": "9743c71fcbf666decaccdff93122d7ff",
+      "sha256": "cc9a72cb9b49e0637bac8db824c5fcbd7652d4c053e0b703e617812a49669e2b"
+    },
+    "extensions/clickatell/assets/js/clickatell.js": {
+      "md5": "b5b22e50be1492c29880408c68703bbb",
+      "sha256": "2ee627ef22c6b0388411c56f04adcc311b01771e31d1492c724f61332125fcfa"
+    },
+    "extensions/clickatell/assets/js/intlTelInput-jquery.js": {
+      "md5": "02cb5f2571ef3adcad85451ede9474b3",
+      "sha256": "19e50bb21a5fdd4bd432d188ff4724816bc9004d643763fecaac81bdcd522ce8"
+    },
+    "extensions/clickatell/assets/js/utils.js": {
+      "md5": "badf39299033bb934da6325eea28ce72",
+      "sha256": "2c70f3d32d8ed2924ff688ad77a9b8f65663a433b5b0e5f4ba38879956961652"
+    },
+    "extensions/email-backup/class-email-backup-render.php": {
+      "md5": "ba07c21ea3508160a9c9f68639cba3c8",
+      "sha256": "368b247b7d05c507a850772b8a65b374f85ca63086efd080e0dd18ef47bb0cf2"
+    },
+    "extensions/email-backup/class-email-backup.php": {
+      "md5": "757744b78351458d1d0a2c6c82baea79",
+      "sha256": "b8c08bd52c7b929cdc754df362499b86f9533e25da575dc70b58b8643e2c1560"
+    },
+    "extensions/email-backup/index.php": {
+      "md5": "871d7c592df5e8bb9ae1fe4ffb7476e4",
+      "sha256": "a2fe5983adbfac053ff19a1cac38747d2e4e603e3c8f1415a109bc75f7a31ccc"
+    },
+    "extensions/integrations/class-wp2fa-integrations-render.php": {
+      "md5": "a4fd569b5a2a26fb8ef83ea912db5065",
+      "sha256": "79f5b37e4c711cf318b26012d684b23f6c8b9dd1fa5bb26fa34dabf643ce5a48"
+    },
+    "extensions/integrations/class-wp2fa-integrations.php": {
+      "md5": "ceadaf1eccd06f544a00db011a9d8a39",
+      "sha256": "17d04b31e7016ecaa75f0ed9cd2ecae2b21da08cfad90999374d19c300b9582a"
+    },
+    "extensions/integrations/index.php": {
+      "md5": "871d7c592df5e8bb9ae1fe4ffb7476e4",
+      "sha256": "a2fe5983adbfac053ff19a1cac38747d2e4e603e3c8f1415a109bc75f7a31ccc"
+    },
+    "extensions/integrations/plugins/class-integrations-plugins-base.php": {
+      "md5": "92a749f28ba54257c628bc6c1fd3d119",
+      "sha256": "c2a1af6f28484b5174d8457684f73a3647f28dfda794eca4f37e6c6b7e622dbc"
+    },
+    "extensions/integrations/plugins/class-woocommerce.php": {
+      "md5": "baa24eed74a2fd9035e92fd39e06a535",
+      "sha256": "fcee14189a877e608e52e44f683e348f96fc1d318be4e7e81d68f9cd8a48e7b6"
+    },
+    "extensions/integrations/plugins/index.php": {
+      "md5": "871d7c592df5e8bb9ae1fe4ffb7476e4",
+      "sha256": "a2fe5983adbfac053ff19a1cac38747d2e4e603e3c8f1415a109bc75f7a31ccc"
+    },
+    "extensions/out-of-band/class-oob-wizard-steps.php": {
+      "md5": "e2ba8b12a3321af5531134c1511f7cef",
+      "sha256": "1518311bf361d7c3d8c45c9f45f2d46521830757ab1a1fa2139cda3db715f1d0"
+    },
+    "extensions/out-of-band/class-out-of-band.php": {
+      "md5": "4fad1f356ffa38fcad03b6e0e23e4309",
+      "sha256": "0eefc56233505689763f5c656271b9c49e53e8e55859d2c590bedcb522cf0eaf"
+    },
+    "extensions/out-of-band/index.php": {
+      "md5": "871d7c592df5e8bb9ae1fe4ffb7476e4",
+      "sha256": "a2fe5983adbfac053ff19a1cac38747d2e4e603e3c8f1415a109bc75f7a31ccc"
+    },
+    "extensions/reporting/class-abstract-report.php": {
+      "md5": "da487c61d8a92efb2e4cb995936e7617",
+      "sha256": "082aa26f8b39734e28efc55c87ea6b95bbd52e68159a6e901c6d2ad33d405935"
+    },
+    "extensions/reporting/class-methods-report.php": {
+      "md5": "b36cf2d2084c1c95a9e45d4078f4f5a5",
+      "sha256": "fa3527cec6acbd8b4e60c21ea412ac93f60e769aabbbcb4fe1a368d19fbeb81a"
+    },
+    "extensions/reporting/class-reporting.php": {
+      "md5": "863af07bed83513da5f58f9b48c88904",
+      "sha256": "3abd0e28429fb258377407e605b325316f2297a871a7f528dd90125e56da61a6"
+    },
+    "extensions/reporting/class-user-status-report.php": {
+      "md5": "4b077b500f6d0b664cfb2ea8170f646a",
+      "sha256": "7a7678da47182ec1eb2cc142593248be74d934b8e8ef5aa1a099585acd685864"
+    },
+    "extensions/reporting/index.php": {
+      "md5": "871d7c592df5e8bb9ae1fe4ffb7476e4",
+      "sha256": "a2fe5983adbfac053ff19a1cac38747d2e4e603e3c8f1415a109bc75f7a31ccc"
+    },
+    "extensions/reporting/assets/css/reports.css": {
+      "md5": "e46352391e12e912b93fa60c87da2b6f",
+      "sha256": "d795c88786e87b3734590ef5b3e20b9ab9548060bff67bcefa0cc6879280fd04"
+    },
+    "extensions/role-settings/class-role-settings-controller.php": {
+      "md5": "d3dd3b68e91e89dea89984a397034dd5",
+      "sha256": "ca964986a677ded93d112c7bab4600a0dfde8ab0901bbeebf30aa53e4a59bf39"
+    },
+    "extensions/role-settings/class-role-settings-render.php": {
+      "md5": "ce59930d486fc2c50e83812dd6459425",
+      "sha256": "b49a5f8ae39e52ab166fd51815c03aac1841ea84506b9c4e84676f2c37f40eba"
+    },
+    "extensions/role-settings/index.php": {
+      "md5": "871d7c592df5e8bb9ae1fe4ffb7476e4",
+      "sha256": "a2fe5983adbfac053ff19a1cac38747d2e4e603e3c8f1415a109bc75f7a31ccc"
+    },
+    "extensions/settings-import-export/.DS_Store": {
+      "md5": "4de23523965723466b06f35ade460dc5",
+      "sha256": "0aa87825fb300f75039f7d77a66c1037eb2d827f1dfb6d6198ed9b59a166c1aa"
+    },
+    "extensions/settings-import-export/class-settings-import-export.php": {
+      "md5": "fa79eb0361735fb3e04993434b41b50a",
+      "sha256": "5df6a6b94b19ca191e6b1dc4c64c2b6435049c9648ef3f71688492193b1fbd0f"
+    },
+    "extensions/settings-import-export/class-settings-import-exporter.php": {
+      "md5": "ddcebb26fb9f1a4adeccd7f2c18824ed",
+      "sha256": "f96ad4c9aade3b23bde54fe973f2fff636c877c7c76ec773f524d3fa06ed25a5"
+    },
+    "extensions/settings-import-export/index.php": {
+      "md5": "871d7c592df5e8bb9ae1fe4ffb7476e4",
+      "sha256": "a2fe5983adbfac053ff19a1cac38747d2e4e603e3c8f1415a109bc75f7a31ccc"
+    },
+    "extensions/settings-import-export/css/style.css": {
+      "md5": "05e8aaa438611ce7d684e68871ae9b9a",
+      "sha256": "aab0ecd221fbaba3bbf4dde89efb7568fe8f5d60cfbbbe549dbafca4a8aec240"
+    },
+    "extensions/settings-import-export/js/settings-export.js": {
+      "md5": "1c5e69c966cb560db340f6bfc04cb11c",
+      "sha256": "8534badd7758f1520f7d59848b88f3eb40e19664c7e381fdc3c56ca01f774147"
+    },
+    "extensions/settings-import-export/languages/import-export-settings-sk_SK.mo": {
+      "md5": "5d80319a006c727200e5c3b414926005",
+      "sha256": "e546b50ba8d5718462ad573ab6928e98d703c68a3066c7af7b64fd29cb0e9bb8"
+    },
+    "extensions/settings-import-export/languages/import-export-settings-sk_SK.po": {
+      "md5": "4265f6a79658dd0f48dcbbf5efc0d809",
+      "sha256": "58f7ddad4d6d91b35e9c6fe80e80e0d4a915d8936f3360516d171b201b28feb3"
+    },
+    "extensions/settings-import-export/languages/import-export-settings.pot": {
+      "md5": "3963e5dc1f54f52c09af2dcb364c3824",
+      "sha256": "b48a90f6d269eea44375440689784662b532c73846aae85387bbc9c687c2890c"
+    },
+    "extensions/status-filter/class-status-filter.php": {
+      "md5": "ee20f1d75d4f32dcee9fcb0996068bcb",
+      "sha256": "96775276459b65ae9b04e3f9e8c636a354e8dea167af8f0ed927cb9856469afb"
+    },
+    "extensions/status-filter/index.php": {
+      "md5": "871d7c592df5e8bb9ae1fe4ffb7476e4",
+      "sha256": "a2fe5983adbfac053ff19a1cac38747d2e4e603e3c8f1415a109bc75f7a31ccc"
+    },
+    "extensions/status-filter/assets/js/user-list.js": {
+      "md5": "70698200670a9c1715a94631a879d71d",
+      "sha256": "15e4821d502194815b1f53f1bd276fb38090028f6bffa6f5dfb0d2cddebda010"
+    },
+    "extensions/trusted-devices/class-core.php": {
+      "md5": "de9ee8157c88cae251ee13bb7c8aff79",
+      "sha256": "ec7002dc48291b7827e5ba1b0688f1f62e152142e67fb427113e28cd56efd619"
+    },
+    "extensions/trusted-devices/class-cron.php": {
+      "md5": "91a2dbc9377f9f71691a9866b472e206",
+      "sha256": "ccb05a6617579ba6ce9984b88e469a651383c36affb7f847241db707757a5edb"
+    },
+    "extensions/trusted-devices/class-settings.php": {
+      "md5": "30e516e09e9e588e0f90b2cb33fbf4f1",
+      "sha256": "c06a1d0240bd680b5ee1dd2e0473ec6473c58be6a0db2ce9556a96cb61d95bfd"
+    },
+    "extensions/trusted-devices/index.php": {
+      "md5": "871d7c592df5e8bb9ae1fe4ffb7476e4",
+      "sha256": "a2fe5983adbfac053ff19a1cac38747d2e4e603e3c8f1415a109bc75f7a31ccc"
+    },
+    "extensions/twilio/class-twilio-api.php": {
+      "md5": "1c04ed3f5357c296b9c117bdc84392b6",
+      "sha256": "c66b2ff3c8299adb7f3df0baefaa1192f3ba326e04b28b49dcf16677369bca4b"
+    },
+    "extensions/twilio/class-twilio-render.php": {
+      "md5": "0ad8a181f9f1ceabf21aef01cdf55f26",
+      "sha256": "0668d4e7f03b0eb983c1590c87d981bc75e1c6a1f7bca9de4d5d1efe445b6f9a"
+    },
+    "extensions/twilio/class-twilio-user.php": {
+      "md5": "bb1d651ed93399b3627ab457f8354660",
+      "sha256": "cc09e57510a24c7dee4da018d6dd684a31fb9a5a0ce397b420feda7dd9e2093a"
+    },
+    "extensions/twilio/class-twilio-wizard-steps.php": {
+      "md5": "6bae7d515c1f88d670a775f4c0bba41f",
+      "sha256": "e0295c117281d228b6b0e736744aeb77a50012b3f5a6fee95064412eb11bb685"
+    },
+    "extensions/twilio/class-twilio.php": {
+      "md5": "abacea81bc5dc6ab2fe5ad65cffe1df3",
+      "sha256": "cbd4ef1ac3fd9a8366f94ac80d6197a45b5bf6808debca04b20ebdf94784b420"
+    },
+    "extensions/twilio/index.php": {
+      "md5": "871d7c592df5e8bb9ae1fe4ffb7476e4",
+      "sha256": "a2fe5983adbfac053ff19a1cac38747d2e4e603e3c8f1415a109bc75f7a31ccc"
+    },
+    "extensions/twilio/assets/css/phone-picker.css": {
+      "md5": "564c3b3419b56da65fd11a2c44676a07",
+      "sha256": "9410d7ab96f38fe15c05dd27735435197b0b0042d00a0cca56ac01a2b94f7de7"
+    },
+    "extensions/twilio/assets/img/flags.png": {
+      "md5": "416250f60d785a2e02f17e054d2e4e44",
+      "sha256": "0a012cf808a24573168308916092d2d4bd3f2b4af8e16b59167013cc77acee55"
+    },
+    "extensions/twilio/assets/img/flags@2x.png": {
+      "md5": "d429a5777afaf2fc349652e812e9bb11",
+      "sha256": "8ab4e961a71e2a404aab37e528b0312282c258015d58f5e0eb5dec6aa4ff63d2"
+    },
+    "extensions/twilio/assets/img/icon.png": {
+      "md5": "9743c71fcbf666decaccdff93122d7ff",
+      "sha256": "cc9a72cb9b49e0637bac8db824c5fcbd7652d4c053e0b703e617812a49669e2b"
+    },
+    "extensions/twilio/assets/js/intlTelInput-jquery.js": {
+      "md5": "02cb5f2571ef3adcad85451ede9474b3",
+      "sha256": "19e50bb21a5fdd4bd432d188ff4724816bc9004d643763fecaac81bdcd522ce8"
+    },
+    "extensions/twilio/assets/js/twilio.js": {
+      "md5": "61602c1760f22eb9b96dc1eeb2083d0d",
+      "sha256": "5b01e994826319549c86107b38c1fff2149e4a855f826cb63e8d09a60e15ef22"
+    },
+    "extensions/twilio/assets/js/utils.js": {
+      "md5": "badf39299033bb934da6325eea28ce72",
+      "sha256": "2c70f3d32d8ed2924ff688ad77a9b8f65663a433b5b0e5f4ba38879956961652"
+    },
+    "extensions/user-licensing/class-wp2fa-user-licensing-render.php": {
+      "md5": "2151d680586442c2b909457b1ff65e0b",
+      "sha256": "0ec023cb6797b9f6e4f4864663b62773212eeda8acc16d8b69d9ca834c745354"
+    },
+    "extensions/user-licensing/class-wp2fa-user-licensing.php": {
+      "md5": "3eee36dc20620a6df53c7ab33f16628a",
+      "sha256": "c0a474eb070612154a96658139842db91360810ce3de1952c37e9573f982a230"
+    },
+    "extensions/user-licensing/index.php": {
+      "md5": "871d7c592df5e8bb9ae1fe4ffb7476e4",
+      "sha256": "a2fe5983adbfac053ff19a1cac38747d2e4e603e3c8f1415a109bc75f7a31ccc"
+    },
+    "extensions/white-labeling/class-white-labeling-render.php": {
+      "md5": "59979c988ec7cfbca20a88ad65fb73cb",
+      "sha256": "c4c1c54112f4145c7d010d2438ce263bf23ad01a0f08f5a03eb1bfd7dc604934"
+    },
+    "extensions/white-labeling/class-white-labeling.php": {
+      "md5": "de9967169823b3d6a1f5ba03124c2d94",
+      "sha256": "e2bdb64ea319bd130e35c436f23d59e2889d809f41801d0838cf4f6ed68b83e3"
+    },
+    "extensions/white-labeling/index.php": {
+      "md5": "871d7c592df5e8bb9ae1fe4ffb7476e4",
+      "sha256": "a2fe5983adbfac053ff19a1cac38747d2e4e603e3c8f1415a109bc75f7a31ccc"
+    },
+    "extensions/white-labeling/white-label-script.js": {
+      "md5": "9569b7e4d36fa4781516f4d699905da0",
+      "sha256": "5e28ca8cea9c65f336aec974874dc064461b5fecbada89e55e02d5a5dbe22ab1"
+    },
+    "extensions/white-labeling/white-label.css": {
+      "md5": "3873715a322a90eb76dc4ff6dc521800",
+      "sha256": "f262cadd316017e59739eaffeb48b97e11773445bfa5ed8e5f2e201f9ca9cfd9"
+    },
+    "extensions/white-labeling/images/delete.png": {
+      "md5": "31d029bd2aaebe2a6f6e485caa521d76",
+      "sha256": "6fad691a3f1c115b37525de7d5784f65467ad5b7946a9f52087689751bb687db"
+    },
+    "extensions/yubico/class-yubico-api.php": {
+      "md5": "5a2e6d8f8fd5d84da68944bab1d40d9b",
+      "sha256": "d49410a536db4a31bbb07d8eac34a27249406e207a9f678767d5e9ca1c7c1117"
+    },
+    "extensions/yubico/class-yubico-render.php": {
+      "md5": "757c1640c74950cd237709508b31b199",
+      "sha256": "36218cbc04df92140038d52deaa4a41b8a8bd702b5aa3d346044801e940c7ebf"
+    },
+    "extensions/yubico/class-yubico-user.php": {
+      "md5": "7c10b42401c4de9c66fb0bf0357db051",
+      "sha256": "c4bf6bf1cd769cfe3e1e817c2a8f032901042dab5c1c54986ce9c0a6a25e35ab"
+    },
+    "extensions/yubico/class-yubico-wizard-steps.php": {
+      "md5": "663b452952b2d00a597dc4bf9687250e",
+      "sha256": "09a4ce6ca70f10c4c68d75ea4234b176261ccff4cdab6bc89a19a2baa9cbffbb"
+    },
+    "extensions/yubico/class-yubico.php": {
+      "md5": "ec6a92b0297c75555fb4a2da9368869f",
+      "sha256": "3e5962f5f32b5adc335e856848e8201e974b1da5679462c080fc8e99747cf461"
+    },
+    "extensions/yubico/index.php": {
+      "md5": "871d7c592df5e8bb9ae1fe4ffb7476e4",
+      "sha256": "a2fe5983adbfac053ff19a1cac38747d2e4e603e3c8f1415a109bc75f7a31ccc"
+    },
+    "extensions/yubico/assets/css/yubico.css": {
+      "md5": "6d13761904e654f1e87ddc44df061bd2",
+      "sha256": "0aa7ede9711ad3bff1444d659aa59f453fde57b400ac585d88789666ac680c11"
+    },
+    "extensions/yubico/assets/js/yubico.js": {
+      "md5": "668eb66591dbf563fe7010b59614445e",
+      "sha256": "ea353c11779f39991fa419f481b260212a88723fae8b7de3ee240784fcbab97c"
+    },
+    "freemius/boot.php": {
+      "md5": "9e6573edbc99a8d26ab0c4945e7c43bb",
+      "sha256": "23f6b929bc18420301279f485340c5cb7a04865ab23d1d829f7d7ecd7805c948"
+    },
+    "freemius/class-freemius-helper.php": {
+      "md5": "e1ede1bd8e0dce6f8effccf86e2075d9",
+      "sha256": "9fe2e5b6b38b2d733a7f63bdd2cd89a4e7e529cc2975fba7fbf5fa84cd0c9f48"
+    },
+    "freemius/class-user-licensing.php": {
+      "md5": "b71443c60bc490bafa3ae4f47f10d443",
+      "sha256": "5c5f89b82cd41264519ebcdad65fef30cf7a08b2536e282689bb04512f02efee"
+    },
+    "includes/.DS_Store": {
+      "md5": "2c0a257da06246f3c17701e195e5f6f2",
+      "sha256": "b18fafec634869d05fa6067f06ed2f017b07b4a91862aec25149e464f9b5e8b0"
+    },
+    "includes/index.php": {
+      "md5": "7e9b2ba04092e0eb034bdff9818f5db6",
+      "sha256": "11d844bdbb24f4dfb0d8d15a7e772ea5feec3ac79fa743291bf4105322ede1ad"
+    },
+    "includes/classes/.DS_Store": {
+      "md5": "ea01a468b1128cfd14213155a2cc01b1",
+      "sha256": "07615e9731d3c7e1e4c025f4f728318389b40f30e2e2d8966947672fcb6bfbf8"
+    },
+    "includes/classes/class-email-template.php": {
+      "md5": "95bdea4e3f40073166b9f56a5db61def",
+      "sha256": "28667fb8bc6255f2ee15d013df220b585269e6966b4623c0bbbc1ee70d49b755"
+    },
+    "includes/classes/class-wp2fa.php": {
+      "md5": "6215d925f80b6d4bff6552353d8c2c61",
+      "sha256": "36fb73d79c332636b78419157d9812740c64e905d48904dfb11513f55ff626ac"
+    },
+    "includes/classes/index.php": {
+      "md5": "7e9b2ba04092e0eb034bdff9818f5db6",
+      "sha256": "11d844bdbb24f4dfb0d8d15a7e772ea5feec3ac79fa743291bf4105322ede1ad"
+    },
+    "includes/classes/Admin/class-help-contact-us.php": {
+      "md5": "2231d6d3ff3f086ddd3bad6c102de231",
+      "sha256": "618741bf7bfa1547f24d3aa4238c407be2ccd58a57f45de5b17f20f961395f34"
+    },
+    "includes/classes/Admin/class-plugin-updated-notice.php": {
+      "md5": "feaa0734597f4134278707395928011b",
+      "sha256": "7606ecbb013f0acee6afc191dd94f438498a7d3aaa2290993f95d4d236c8525a"
+    },
+    "includes/classes/Admin/class-premium-features.php": {
+      "md5": "20e9de067e0c01a68bc4fe3bc8054dc3",
+      "sha256": "859553b37c005c3671213c72f8b50329faec8a7954f7b378864c101e4bac1d8f"
+    },
+    "includes/classes/Admin/class-settings-page.php": {
+      "md5": "876083cf380ee225d21d5127cd323bf8",
+      "sha256": "eda7388650cf36873c8eb38d6a3e5799d9044624e2f4b9f52264700f7ad3545e"
+    },
+    "includes/classes/Admin/class-setup-wizard.php": {
+      "md5": "78d3db35396c388c8bd9e9e0c4273ec6",
+      "sha256": "8d9f586ae3e513d10dee415fbbc593cfd716bc23695d023d639fadd877b3aafd"
+    },
+    "includes/classes/Admin/class-user-listing.php": {
+      "md5": "ea9492a72b7d3a7171a35f809b87d54a",
+      "sha256": "baa02f628f3743ff3c1f2edeb7f01fb98e671b83c675308ca35851607a78de41"
+    },
+    "includes/classes/Admin/class-user-notices.php": {
+      "md5": "ace8d6bd06fd6de07668342c4916a1dd",
+      "sha256": "b742c082eaddc89f2b676080daa72bad1b6ab3b2f427cdcd7528ed061a586236"
+    },
+    "includes/classes/Admin/class-user-profile.php": {
+      "md5": "b15a2972520b1e7f9d7dfc19fd2a33a5",
+      "sha256": "b64f4124cfdf6ee08783bf8acdf24809d712a8c834bb1f62a19aa3d3f7cc9c78"
+    },
+    "includes/classes/Admin/class-user-registered.php": {
+      "md5": "b91cfd4da46ef8440a25bdcaba9c3c16",
+      "sha256": "58a0bcc456fefba5d87485d660094780edba6880298be0333dd25c879430e2e6"
+    },
+    "includes/classes/Admin/index.php": {
+      "md5": "7e9b2ba04092e0eb034bdff9818f5db6",
+      "sha256": "11d844bdbb24f4dfb0d8d15a7e772ea5feec3ac79fa743291bf4105322ede1ad"
+    },
+    "includes/classes/Admin/Controllers/class-api-login.php": {
+      "md5": "f6d8465147aafd591d8ad982b67f2472",
+      "sha256": "61054caaf4519ae573752698dd42ca55137fea5cd2dd1688f84edde91eade515"
+    },
+    "includes/classes/Admin/Controllers/class-endpoints.php": {
+      "md5": "4917fea4b075a625a89c544b6535d3a5",
+      "sha256": "b55ff568622a1a57f055fc008f5cdcdce925875626ee5f9835b1429f9cb798dc"
+    },
+    "includes/classes/Admin/Controllers/class-methods.php": {
+      "md5": "351af22e8bb736657ed6026f71de44fd",
+      "sha256": "9250e47309a62ac42927c5a89a393d84e2e28c51329121ebaca7d1da175def69"
+    },
+    "includes/classes/Admin/Controllers/class-settings.php": {
+      "md5": "18f9e3e840e12b6c252663f94adadf81",
+      "sha256": "ec10640466648ae1bbd43445730a45afc71127ab44953915266a991d802aaae8"
+    },
+    "includes/classes/Admin/Controllers/index.php": {
+      "md5": "45d09bb48b4f308b8f63baab8f416733",
+      "sha256": "1d09d11fb08cadc1ff75dcf496251059a936ee143f7d7865eb5a2aa504ce2da2"
+    },
+    "includes/classes/Admin/Fly-Out/class-flyout.php": {
+      "md5": "2442acf42d30f69e37aac319ad72ffe8",
+      "sha256": "7c0af62e55690e7dd1ea9d735b091b889964fcd9aa3c6614e59ec02108076168"
+    },
+    "includes/classes/Admin/Fly-Out/index.php": {
+      "md5": "45d09bb48b4f308b8f63baab8f416733",
+      "sha256": "1d09d11fb08cadc1ff75dcf496251059a936ee143f7d7865eb5a2aa504ce2da2"
+    },
+    "includes/classes/Admin/Fly-Out/assets/css/flyout.css": {
+      "md5": "c0a2645611d28741e2e0607d8aab0207",
+      "sha256": "c680021fef38ab1d95aae388973ba923e7e834e66351ecf7f1887dbe14cb13e5"
+    },
+    "includes/classes/Admin/Fly-Out/assets/js/flyout.js": {
+      "md5": "4a680018ed4bc5999082baba5d10b5ea",
+      "sha256": "5bee62014d9a2230d1dc5b5b8d016cf0fc907899faec7ac295b1c408b9b54e04"
+    },
+    "includes/classes/Admin/Helpers/class-ajax-helper.php": {
+      "md5": "0df096c77e792bee7165aeb5eedbd02c",
+      "sha256": "7ea7629f031f50759bec8e78c4a5e9b517dad74d3c3ab0b8d0ab932ddc9ded5d"
+    },
+    "includes/classes/Admin/Helpers/class-classes-helper.php": {
+      "md5": "f038563c3138a24cea08fce815f2fc4a",
+      "sha256": "004fb0b1372d95f8afa6aeac9942049755d3435b852a3ff56e95ac10484dac04"
+    },
+    "includes/classes/Admin/Helpers/class-file-writer.php": {
+      "md5": "33575a40c74e5dcca88c5f024f5a4406",
+      "sha256": "96afbc1d64b802285c49271829e887a8ed5f7003a1ac6eabd60dde8a10cec34b"
+    },
+    "includes/classes/Admin/Helpers/class-methods-helper.php": {
+      "md5": "45aa0301775edb7ae680d38508a6a7a7",
+      "sha256": "c9ed514b524b74ae48a3d7e5d5e91f1a5105cac4cd4cb67fec0b36de799ef2b6"
+    },
+    "includes/classes/Admin/Helpers/class-php-helper.php": {
+      "md5": "91843c71b2e4721ee0b52c9df4325ba5",
+      "sha256": "a334b8b3eee8143e46b8fdd6bd6d9eaa1f8cfb49b516b0ab468915ab939c8d5e"
+    },
+    "includes/classes/Admin/Helpers/class-user-helper.php": {
+      "md5": "fa293998f2054724046387b76dc74b60",
+      "sha256": "21722201d2fa994d8823c3f697761f4e6e5ee1b71aa043653901b3fc929f950b"
+    },
+    "includes/classes/Admin/Helpers/class-wp-helper.php": {
+      "md5": "4c18fd56db49740a4bec178f31e9ee82",
+      "sha256": "6b3f3571c4a8d6137a1ab39227c220f11463464205f8f75b41d57b957a2a571b"
+    },
+    "includes/classes/Admin/Helpers/index.php": {
+      "md5": "45d09bb48b4f308b8f63baab8f416733",
+      "sha256": "1d09d11fb08cadc1ff75dcf496251059a936ee143f7d7865eb5a2aa504ce2da2"
+    },
+    "includes/classes/Admin/Methods/class-backup-codes.php": {
+      "md5": "f39e73e37ca7a962c90a6eb8a2ade93e",
+      "sha256": "46c9266ea7b29febe114f79e9c3052881beed4bb5afc3ae8db605b8259f8d395"
+    },
+    "includes/classes/Admin/Methods/class-email-wizard-steps.php": {
+      "md5": "fe2d937ae3c32cecc695763af26dfa13",
+      "sha256": "5722178fb9061d750ef03d0bb7f02e4bdfcd1f2cab53c7ebd0cb9aa96892d03d"
+    },
+    "includes/classes/Admin/Methods/class-email.php": {
+      "md5": "cd388f4896767d73ef7f768aaf2d0f0f",
+      "sha256": "f750a302a43b40834a24ffc43f6ea4a86cd63ce8446e6cdb044f9fa1930490b7"
+    },
+    "includes/classes/Admin/Methods/class-totp-wizard-steps.php": {
+      "md5": "c25a52a9b416e1561fcbdbf605cb4921",
+      "sha256": "f92ffb64534a92b0df77e975d772ad08af024e69621443919d66e7166a03d61b"
+    },
+    "includes/classes/Admin/Methods/class-totp.php": {
+      "md5": "80b29aba63f5660ea09990fd128edbad",
+      "sha256": "aa5c9d7edff229a72905b55f98d0d85f71f7abbe8a3a8b58c7c84041f484b486"
+    },
+    "includes/classes/Admin/Methods/index.php": {
+      "md5": "7e9b2ba04092e0eb034bdff9818f5db6",
+      "sha256": "11d844bdbb24f4dfb0d8d15a7e772ea5feec3ac79fa743291bf4105322ede1ad"
+    },
+    "includes/classes/Admin/Methods/Traits/class-login-attempts.php": {
+      "md5": "3512584a4f0838ac2769ec2116e97ffc",
+      "sha256": "fc17464490e5f709ad90cb3c79ccc9526465b786e8993bf4a5fbb2323e71828b"
+    },
+    "includes/classes/Admin/Methods/Traits/class-methods-wizards-trait.php": {
+      "md5": "3b5d9e11bf4ac4e45dbe64e9a69af6c3",
+      "sha256": "9a700b24dbc5e135f2523068a474be3c5d8eb52d357bb63b8bc9e2e839fb62a1"
+    },
+    "includes/classes/Admin/Methods/Traits/index.php": {
+      "md5": "7e9b2ba04092e0eb034bdff9818f5db6",
+      "sha256": "11d844bdbb24f4dfb0d8d15a7e772ea5feec3ac79fa743291bf4105322ede1ad"
+    },
+    "includes/classes/Admin/SettingsPages/class-settings-page-email.php": {
+      "md5": "a3a5f64748580e0acd29f957ff8e471f",
+      "sha256": "4f0300b43b5c7f44c120a0783be9fb3665328eeba2c0e4fc1d75dbca220d14ba"
+    },
+    "includes/classes/Admin/SettingsPages/class-settings-page-general.php": {
+      "md5": "edc5125f18f6df1ba78b916e113f2785",
+      "sha256": "454504f4238e7d3d791636a000f941618e693fd614a60df04efd11bb023d5ce3"
+    },
+    "includes/classes/Admin/SettingsPages/class-settings-page-policies.php": {
+      "md5": "926b68a039211fbf3a756627c975fca1",
+      "sha256": "0e3c1f77cb3de68d42d7884f2ae858b9e338e7e19778f9c7ae4c1da34af9fce4"
+    },
+    "includes/classes/Admin/SettingsPages/class-settings-page-render.php": {
+      "md5": "0f91533036e83652e172fd47524c91e0",
+      "sha256": "ab2c0177ca0842839389f0256b23d0d29dc7683e8063cd171f686fd85dba8df9"
+    },
+    "includes/classes/Admin/SettingsPages/class-settings-page-white-label.php": {
+      "md5": "1f7fe81f6d1558744882f197d4f6e81e",
+      "sha256": "8e192db52bdf8831b0b82efbcec4ac3666ba6ce36a2e286a6a9ecb2fdac6818d"
+    },
+    "includes/classes/Admin/SettingsPages/index.php": {
+      "md5": "7e9b2ba04092e0eb034bdff9818f5db6",
+      "sha256": "11d844bdbb24f4dfb0d8d15a7e772ea5feec3ac79fa743291bf4105322ede1ad"
+    },
+    "includes/classes/Admin/Views/class-first-time-wizard-steps.php": {
+      "md5": "f700dd1e3abc1f290d4ace71e4bb674b",
+      "sha256": "327914e2e5d66cb426b30cc73ddfe32731e63384b1ad365d3e96d55997b34d72"
+    },
+    "includes/classes/Admin/Views/class-grace-period-notifications.php": {
+      "md5": "73d3dc4b2bea0c32b8b1f304a7c94a20",
+      "sha256": "7eb970f7e76d062674593a7d5a132b26b997614be0ea0dd6605c29d2589b5773"
+    },
+    "includes/classes/Admin/Views/class-passord-reset-2fa.php": {
+      "md5": "f48ed0f25e12197661775eb77a2367fd",
+      "sha256": "0657060348d054e8660e6ad02cf769d5c41739ed24d90f2a0be3c4bde6e59143"
+    },
+    "includes/classes/Admin/Views/class-re-login-2fa.php": {
+      "md5": "b4e0e5870c377639d556ac6581c0de56",
+      "sha256": "40a02d174665ae1dba9aebc634f29718daab31f34d3618b3b4803b934c9dfb19"
+    },
+    "includes/classes/Admin/Views/class-wizard-steps.php": {
+      "md5": "728c3dab4f914f046df55f23a86383ed",
+      "sha256": "126983ce73b339ac8e73ddf32b5de86d809d2f8e9c975581cd9ef382a590bc3a"
+    },
+    "includes/classes/Admin/Views/index.php": {
+      "md5": "7e9b2ba04092e0eb034bdff9818f5db6",
+      "sha256": "11d844bdbb24f4dfb0d8d15a7e772ea5feec3ac79fa743291bf4105322ede1ad"
+    },
+    "includes/classes/App/index.php": {
+      "md5": "7e9b2ba04092e0eb034bdff9818f5db6",
+      "sha256": "11d844bdbb24f4dfb0d8d15a7e772ea5feec3ac79fa743291bf4105322ede1ad"
+    },
+    "includes/classes/App/grace-period/class-grace-period.php": {
+      "md5": "e603e8e85059e1b49d7ca92f66a8e2dd",
+      "sha256": "3ae80430516bdc1df1e8bd3b0a89d91796915e8ebffc16b3fdb6a0924a9f8d8a"
+    },
+    "includes/classes/App/grace-period/index.php": {
+      "md5": "7e9b2ba04092e0eb034bdff9818f5db6",
+      "sha256": "11d844bdbb24f4dfb0d8d15a7e772ea5feec3ac79fa743291bf4105322ede1ad"
+    },
+    "includes/classes/Authenticator/class-authentication.php": {
+      "md5": "6f82a1507a97d08f008a2faaa269c390",
+      "sha256": "9a873162f98853ba302e748e97c94d4d8d696862939398c7f12990446fce02a3"
+    },
+    "includes/classes/Authenticator/class-login.php": {
+      "md5": "ba652a3e4dc15fa4a46fe955c6ea69d3",
+      "sha256": "8fcde13260aed0d94c5940be224d2bba6f25c4af2bedc74fa54b9614a6cec4f2"
+    },
+    "includes/classes/Authenticator/class-open-ssl.php": {
+      "md5": "efe6d2886f07f049a7216e117fe75260",
+      "sha256": "d592e55a69610b5df1fe62b618125afb2f52e3a4bb7a82888357368a01c5b3e3"
+    },
+    "includes/classes/Authenticator/class-reset-password.php": {
+      "md5": "dfcb62fcfd1fc1ee77a77735bed4e1ac",
+      "sha256": "12a76b12fad0a479a7897702139de3e6d05f9a0748560fcda40ccb810a2fd718"
+    },
+    "includes/classes/Authenticator/index.php": {
+      "md5": "7e9b2ba04092e0eb034bdff9818f5db6",
+      "sha256": "11d844bdbb24f4dfb0d8d15a7e772ea5feec3ac79fa743291bf4105322ede1ad"
+    },
+    "includes/classes/Authenticator/assets/user-login.js": {
+      "md5": "1abffd84f15b37eb22fcf2e98cd2be04",
+      "sha256": "e0c82565538961559b52deb21841b9c8f572b3c2a939ff2a024e869daa5fd5e5"
+    },
+    "includes/classes/bacon/bacon-qr-code/src/Writer.php": {
+      "md5": "8a2c899c431f529c22845f98e721de96",
+      "sha256": "43a6e267e3c7d0a85ff7ff2cc50c9a24a44717faea1844095175ede1ad14f7e5"
+    },
+    "includes/classes/bacon/bacon-qr-code/src/Common/BitArray.php": {
+      "md5": "04572d6b1ad8c031d124e99e4a8aeab2",
+      "sha256": "d698fa6da628063cca2f25b188cbb243c31a1bcaae3b3b8339e80906530adf41"
+    },
+    "includes/classes/bacon/bacon-qr-code/src/Common/BitMatrix.php": {
+      "md5": "2a09d1985dd7da2734253b608198e3f9",
+      "sha256": "436de8bce700070a0239e720bbbcc6cf68c928dd8074603c8a9c88658491d150"
+    },
+    "includes/classes/bacon/bacon-qr-code/src/Common/BitUtils.php": {
+      "md5": "a1b5e1c28c45ccfff9547514fc97c8e1",
+      "sha256": "f726bee098d406cf7c652b6d1b805c2398098631dd761e90944cf28ad1591b20"
+    },
+    "includes/classes/bacon/bacon-qr-code/src/Common/CharacterSetEci.php": {
+      "md5": "e08435591a7f96a45f9e5f0682899b05",
+      "sha256": "5c7eb04116ad0d093f8ad1b7bb48a5ef34c4cdda426cdbf11fbef8b25827e27a"
+    },
+    "includes/classes/bacon/bacon-qr-code/src/Common/EcBlock.php": {
+      "md5": "268b40c4e0768db5d81dc3ab4486c18d",
+      "sha256": "d6833988298de2f223eb9d2194b0293fdb77d7f7a11190f6e1601a23aec965d3"
+    },
+    "includes/classes/bacon/bacon-qr-code/src/Common/EcBlocks.php": {
+      "md5": "154a1a2dad93c294baf71495ab033beb",
+      "sha256": "aed656cdff4e3748ed640a8507a56b44cc91ece3f1cdf92295d83647c7fb6447"
+    },
+    "includes/classes/bacon/bacon-qr-code/src/Common/ErrorCorrectionLevel.php": {
+      "md5": "7ddb56064cd8835ab0770c6222608dbe",
+      "sha256": "3d2e3204641ae6cc10d225251bed5d04d7787987bd8fd26a93173f806cb0dfe0"
+    },
+    "includes/classes/bacon/bacon-qr-code/src/Common/FormatInformation.php": {
+      "md5": "8a9c5520c4be833db0444b7c46011ef1",
+      "sha256": "ac1356bb33afaaec3eee34db689c012154a8c8d766b70e5a62f8ed3c5efebe25"
+    },
+    "includes/classes/bacon/bacon-qr-code/src/Common/Mode.php": {
+      "md5": "b6d1957b29ab9d0cc5349e4b65e32479",
+      "sha256": "d1b9fe522b96cbd7218191181f6e9df2f7992b187bb64dc25e3565bb816ffa9a"
+    },
+    "includes/classes/bacon/bacon-qr-code/src/Common/ReedSolomonCodec.php": {
+      "md5": "d0ebc936acc15633bd36ed84742d10c1",
+      "sha256": "1e5860d05298462139193362effb95bf6cd0d3fbbb2fad3d5ef05e18faf42933"
+    },
+    "includes/classes/bacon/bacon-qr-code/src/Common/Version.php": {
+      "md5": "7be3397ab39378877e4057ae0c117d14",
+      "sha256": "138cdefc1552fb9036f6bb96a86472e017084e5d0b9cf788b2821a6ce6c8ca4f"
+    },
+    "includes/classes/bacon/bacon-qr-code/src/Encoder/BlockPair.php": {
+      "md5": "719a267b1b5350d300f260b73a225750",
+      "sha256": "85d2592af9d69c6ed88dbba6b65116f97d9ef82b2654758c66b85d868ee9b869"
+    },
+    "includes/classes/bacon/bacon-qr-code/src/Encoder/ByteMatrix.php": {
+      "md5": "b080e3b49aa6d273b3df2340f2fe4ab9",
+      "sha256": "2c2fb64c87eeced1dc4ed34c5c2adb29f88c0cfdb44e6f4ceebe67cf91112084"
+    },
+    "includes/classes/bacon/bacon-qr-code/src/Encoder/Encoder.php": {
+      "md5": "a7944aa6e28935876cae6adb29ba130e",
+      "sha256": "d5b0f8a0f573b10dcd58e01d41fe5274dc0fb1f5767a97a5abcf42d7a5e1adf4"
+    },
+    "includes/classes/bacon/bacon-qr-code/src/Encoder/MaskUtil.php": {
+      "md5": "a0d5dd53c112b516aa9737591068cbd3",
+      "sha256": "a0f1ef192535ccb082ac9f55fd6efbd20c842bccbbfd71f547cf3cb4284aa2f1"
+    },
+    "includes/classes/bacon/bacon-qr-code/src/Encoder/MatrixUtil.php": {
+      "md5": "d97e398bb9f204e8c7061fb1e8adf812",
+      "sha256": "42718c0e0fd52b06d64cf699fa0c9f80983b4ac80f9b5b865453b2d160cdf612"
+    },
+    "includes/classes/bacon/bacon-qr-code/src/Encoder/QrCode.php": {
+      "md5": "73aea1306a3a0f5a15148a37790a6aaa",
+      "sha256": "ca757aa322795c0eeec4418072e7105b75f9fa30f4a5abfb92acb794262f981c"
+    },
+    "includes/classes/bacon/bacon-qr-code/src/Exception/ExceptionInterface.php": {
+      "md5": "2ac3e4bdca7b7160bd55cef2acd6f4ff",
+      "sha256": "8d9822b4858d7a70537fe8da6b2ea7b6fb34fe215856db1eba684ecf80c34142"
+    },
+    "includes/classes/bacon/bacon-qr-code/src/Exception/InvalidArgumentException.php": {
+      "md5": "0f9f3bda3d464c2aa9a477636fe2771e",
+      "sha256": "8968a8e8429b8d5d0a16b8fb7f335c3c11bf0916ff0ffd56aab03a2509444ff2"
+    },
+    "includes/classes/bacon/bacon-qr-code/src/Exception/OutOfBoundsException.php": {
+      "md5": "6e8577151c9219124071a1ae2a3ba411",
+      "sha256": "3e4a4ef4c1091ca496f7e9d29f41edc90bdb9833c6869027885cc5cbca5cafbb"
+    },
+    "includes/classes/bacon/bacon-qr-code/src/Exception/RuntimeException.php": {
+      "md5": "89e10abd7648ceef324d419de1380d7b",
+      "sha256": "82c75c44a95c22acfa081d293d68328b2f531f08d43832e9c46e5ecb7b4bb85a"
+    },
+    "includes/classes/bacon/bacon-qr-code/src/Exception/UnexpectedValueException.php": {
+      "md5": "eacff08fc7a12c6134df6e67794a6739",
+      "sha256": "fbc3641bf1c5fd4734d69a297b7625b5270b214a1e4a98726cc26916964dc7cc"
+    },
+    "includes/classes/bacon/bacon-qr-code/src/Exception/WriterException.php": {
+      "md5": "a361a9d6b89a003d8113e4fc792aa23f",
+      "sha256": "69aaf22902460ec1c7c7b641fa9d77cd3a91bce3f0d3017888f82af91f4a1fa8"
+    },
+    "includes/classes/bacon/bacon-qr-code/src/Renderer/ImageRenderer.php": {
+      "md5": "3b6fd23577c4fc718b6902a8d9b178a4",
+      "sha256": "b473f75f1ae74751a20291ed921f8263b12859e4a3966849ca5969197ed306ee"
+    },
+    "includes/classes/bacon/bacon-qr-code/src/Renderer/PlainTextRenderer.php": {
+      "md5": "34d70cc94e42eea2b723b66f890438cc",
+      "sha256": "b60ebdaacb0594b5f069981ce87a06fbd0e7a1b2ff0091311b50b4004befa0cf"
+    },
+    "includes/classes/bacon/bacon-qr-code/src/Renderer/RendererInterface.php": {
+      "md5": "64c4737688556fd758cbd3fd52de0a26",
+      "sha256": "3aa79eb62226a2b4dd0bf0cff6d3a9207b5c01fee6162040eb85c6cf17454e41"
+    },
+    "includes/classes/bacon/bacon-qr-code/src/Renderer/Color/Alpha.php": {
+      "md5": "3093e94f415cb56661b8262ac7cd1e63",
+      "sha256": "84e0b4a8f87a9e3c28c191eed7af5fe69c3e7b136688727bd383f58f050d5416"
+    },
+    "includes/classes/bacon/bacon-qr-code/src/Renderer/Color/Cmyk.php": {
+      "md5": "31a6e3d28e3a01aadd628905a36ea1fc",
+      "sha256": "5291fbbd5fe17a5e88a1cba1444409766bc86718d5e23dc516d627e6b238c7b0"
+    },
+    "includes/classes/bacon/bacon-qr-code/src/Renderer/Color/ColorInterface.php": {
+      "md5": "7901d44127b1038107eee5d984628ecc",
+      "sha256": "e3777fcee77249c8c2c7f6eef98dc26c5e3ef0a7a6c48cb1f352ddee84139dba"
+    },
+    "includes/classes/bacon/bacon-qr-code/src/Renderer/Color/Gray.php": {
+      "md5": "a67ee52400abd71d7822fe55abf7d85a",
+      "sha256": "c58f4531797c3e19a109dc57a136fb43acbb4f24550418cb45441324de4c2d83"
+    },
+    "includes/classes/bacon/bacon-qr-code/src/Renderer/Color/Rgb.php": {
+      "md5": "4c8eb16bed5adc494a81eb7d9f7bbad8",
+      "sha256": "f6d9ec8fae0c0a9946692cfc3070266037dcad4db3c43311e284fd55d85fbc55"
+    },
+    "includes/classes/bacon/bacon-qr-code/src/Renderer/Eye/CompositeEye.php": {
+      "md5": "16184f5707ea07ad6f20a95ebc44dada",
+      "sha256": "a01129d71f99cf51b1a3e75e7fcc0d6f5ffd0789026e1608a7627e35f0e9f17e"
+    },
+    "includes/classes/bacon/bacon-qr-code/src/Renderer/Eye/EyeInterface.php": {
+      "md5": "ddb63342bf935a0ae74cf06a184a976c",
+      "sha256": "4b4577ca9d6226ed2eecf91951287ebca0916ec2101cbed33b0140bfce878aa2"
+    },
+    "includes/classes/bacon/bacon-qr-code/src/Renderer/Eye/ModuleEye.php": {
+      "md5": "3ece45f63b2f9f880a29def4b2494f4a",
+      "sha256": "9aae61799f308793173fdf7e53de0d6fb4501ab87434c7953b94a9e0732f3bb3"
+    },
+    "includes/classes/bacon/bacon-qr-code/src/Renderer/Eye/SimpleCircleEye.php": {
+      "md5": "a44e2f51a4e2161d53803a55a443b4d8",
+      "sha256": "88829f3a7c9d7d72909d34ee6fac04fdd8d7f566a43e2cb5e00472bde29b0cfc"
+    },
+    "includes/classes/bacon/bacon-qr-code/src/Renderer/Eye/SquareEye.php": {
+      "md5": "d6b3b2ca8a3a789c5bd8da1f895a194c",
+      "sha256": "0635f74df261026f4d5c7c5dfe3bb31742229ff45d7619802ad96f1d7e2a02b9"
+    },
+    "includes/classes/bacon/bacon-qr-code/src/Renderer/Image/EpsImageBackEnd.php": {
+      "md5": "c0c927aa23f210f2ab9c59024ee953c5",
+      "sha256": "93aeeb262d65a8a12b6cc1a141320d6c42f2f9bc958df12ed8943b6f5bde1796"
+    },
+    "includes/classes/bacon/bacon-qr-code/src/Renderer/Image/ImageBackEndInterface.php": {
+      "md5": "f4a98fe7c7b52b2098eb3ef1412a9c78",
+      "sha256": "8b8504d06124b6f51b5e9e63c67b5b8b3658603787d143fe5c236ad36325f54c"
+    },
+    "includes/classes/bacon/bacon-qr-code/src/Renderer/Image/ImagickImageBackEnd.php": {
+      "md5": "5d3464ac5b5941099a3c1f3571716455",
+      "sha256": "25322a627d2062dbe3d6588aa3eced04b95a0ecc03517516da1df74b9e87e2b1"
+    },
+    "includes/classes/bacon/bacon-qr-code/src/Renderer/Image/SvgImageBackEnd.php": {
+      "md5": "0e8dc46362770ef590f4e7dd46cdb880",
+      "sha256": "95e645a26f57a3dc4048e12ac81c18e971cf3e2a4589a087c037f25447cb58d0"
+    },
+    "includes/classes/bacon/bacon-qr-code/src/Renderer/Image/TransformationMatrix.php": {
+      "md5": "6cff8010797cdf07572bca5f2aea3d07",
+      "sha256": "1e64520bfaf6fa21e63c501cf84eb4c1d9232657ce67114ca1f2816643019e62"
+    },
+    "includes/classes/bacon/bacon-qr-code/src/Renderer/Module/DotsModule.php": {
+      "md5": "2946414a3ed1d67c94f273e5fefc1fd9",
+      "sha256": "09e3de481013c5fb53ce6aa2ee454c008f9b3eb5a6b198dce1b20d993563f1c9"
+    },
+    "includes/classes/bacon/bacon-qr-code/src/Renderer/Module/ModuleInterface.php": {
+      "md5": "bb69730b1270c52ce875e3e59ee0ccb6",
+      "sha256": "3d2a0941783cee215a6c04889d545f04be70fc22b40fdb14eb399a35c9f1d55c"
+    },
+    "includes/classes/bacon/bacon-qr-code/src/Renderer/Module/RoundnessModule.php": {
+      "md5": "5d3a02b2ec98c6b9abc8bf0dde111a5e",
+      "sha256": "21a7c27247cbd88663304d8aff9ae5b0aafa05c31ba9e187c163aac6e1268eb6"
+    },
+    "includes/classes/bacon/bacon-qr-code/src/Renderer/Module/SquareModule.php": {
+      "md5": "8bd94cde87d94183bc9e59ef66f05806",
+      "sha256": "b0ec94b9f5ce2d86eb38828db20f6aa203d008dda2052717fe7d6fa298b5e264"
+    },
+    "includes/classes/bacon/bacon-qr-code/src/Renderer/Module/EdgeIterator/Edge.php": {
+      "md5": "ede450980277547e3d0c767bd3db51d8",
+      "sha256": "cef084610388461135ef54a23e48bd1be7b9ce52304a9eba45d5c4ed518334c3"
+    },
+    "includes/classes/bacon/bacon-qr-code/src/Renderer/Module/EdgeIterator/EdgeIterator.php": {
+      "md5": "4e7c7cae153d5fc11865bbd9d7a84a7d",
+      "sha256": "8a929cba675c16809088b6b37852627e93bc55748c4431237cf71c9be80e5990"
+    },
+    "includes/classes/bacon/bacon-qr-code/src/Renderer/Path/Close.php": {
+      "md5": "030a45c6be1f601beb82a61d1be4d364",
+      "sha256": "0b9364618af2e85f06bf4829c9933d77d3c4a87c95bd31722c9238109530b995"
+    },
+    "includes/classes/bacon/bacon-qr-code/src/Renderer/Path/Curve.php": {
+      "md5": "f68537302658881320db45ad5423cbc3",
+      "sha256": "3a3f417896168f2f201f40d8ada3e8df3549936a5db1a24832e37b2f6d423e66"
+    },
+    "includes/classes/bacon/bacon-qr-code/src/Renderer/Path/EllipticArc.php": {
+      "md5": "27778dbfa4c4570a5bd5d82a291fcb95",
+      "sha256": "218ff4dcf534dcaef640a2785b8ea785fac2bea37e95b3ff035e0c75b7546177"
+    },
+    "includes/classes/bacon/bacon-qr-code/src/Renderer/Path/Line.php": {
+      "md5": "826c346cc615eacee88e05d1abacbd7c",
+      "sha256": "62612e75baedb4d2e915649f26a8e58cf7d63dade82e57b37373f89638dd2149"
+    },
+    "includes/classes/bacon/bacon-qr-code/src/Renderer/Path/Move.php": {
+      "md5": "419340830663dfeac0400520fc216e80",
+      "sha256": "33558171119756f4d111c043a44071323f41a9ba4db3bf9f613db70651162973"
+    },
+    "includes/classes/bacon/bacon-qr-code/src/Renderer/Path/OperationInterface.php": {
+      "md5": "081f11026742dc041f25c00727502267",
+      "sha256": "20198ada93877e9fffeb0a7b1de6130700e505672260d376611c273b1dfc3b84"
+    },
+    "includes/classes/bacon/bacon-qr-code/src/Renderer/Path/Path.php": {
+      "md5": "73fefe5133de819b055ae143d017113d",
+      "sha256": "f76232f258672cc1340a61ec44d67a830bd3515a880677e662bd912db0a63ccc"
+    },
+    "includes/classes/bacon/bacon-qr-code/src/Renderer/RendererStyle/EyeFill.php": {
+      "md5": "d13d7a9b8a338a9f2b05a0d724d25fa1",
+      "sha256": "b3505a18f85f64b113aa734f10200716976cc2e660819cf005a134a653d3ef16"
+    },
+    "includes/classes/bacon/bacon-qr-code/src/Renderer/RendererStyle/Fill.php": {
+      "md5": "7ec2234cddfc2b98a3f82089da8f5e9f",
+      "sha256": "e70c69f2a1ea06211b007b0c6cd47b78cbb2064ed1dea2eab12482b1dca5227f"
+    },
+    "includes/classes/bacon/bacon-qr-code/src/Renderer/RendererStyle/Gradient.php": {
+      "md5": "8e32795e22d54fb7a0a023cadfd5b177",
+      "sha256": "aca91f3308e465ef750931bbdc90fc1fcfa344f53b919afb7715c9f8cf3a3f79"
+    },
+    "includes/classes/bacon/bacon-qr-code/src/Renderer/RendererStyle/GradientType.php": {
+      "md5": "44a6b92700ea47cf1ba32ee943d1e539",
+      "sha256": "9e4c575803096cd03363494b8dfa251362ea88a6cb728832a749c25e395aff4d"
+    },
+    "includes/classes/bacon/bacon-qr-code/src/Renderer/RendererStyle/RendererStyle.php": {
+      "md5": "1e54e3303db6649a109add1790514e40",
+      "sha256": "a31144f57462432308628dd8f73921184c4706bc54854c93d859758dd37fec16"
+    },
+    "includes/classes/dasprid/enum/src/AbstractEnum.php": {
+      "md5": "8abe8d85646824f8e5053e234ac81571",
+      "sha256": "23e2038dc67b11f1e5f40d6100fe54523fe91a1bb50b08ff555c91a46f3356cf"
+    },
+    "includes/classes/dasprid/enum/src/EnumMap.php": {
+      "md5": "864181c32636a395e60745a3964ac7ad",
+      "sha256": "50a9a184b36cfd26b3a448c5d9727541ebde37323b898063bef737a68f4d9992"
+    },
+    "includes/classes/dasprid/enum/src/NullValue.php": {
+      "md5": "084700aa19f9e9ab984ff860dddd3adf",
+      "sha256": "1caa384f09100c18b92a4fd891dbc187e47d4e1acc161172930a7cd14f1ef587"
+    },
+    "includes/classes/dasprid/enum/src/Exception/CloneNotSupportedException.php": {
+      "md5": "4436a5f5bf4d369dca8182ca761d7d30",
+      "sha256": "c5b1c5638c90bdf875ab1e7d65a2200583f5a24da4d211f66de88dd45d8a1242"
+    },
+    "includes/classes/dasprid/enum/src/Exception/ExceptionInterface.php": {
+      "md5": "4b20bd0d1cbc74c1cfc4201c54fe63c8",
+      "sha256": "79c4c1cfee868c1a82e2598229b502d3334e8e79eb1ac2c1dd9a9ac952ec7353"
+    },
+    "includes/classes/dasprid/enum/src/Exception/ExpectationException.php": {
+      "md5": "c72b22be3d8e62ee535bb041417edff1",
+      "sha256": "970f4b588f693ad406942d79c172d35118e230eace2dd3534bc6a7af3b1325a9"
+    },
+    "includes/classes/dasprid/enum/src/Exception/IllegalArgumentException.php": {
+      "md5": "ca8cd2cfc9cedf20afd83443c88ef335",
+      "sha256": "f641098c630cf12df845fb6bc52f77ebe56568ba61a1216faddcd0135e8b98cd"
+    },
+    "includes/classes/dasprid/enum/src/Exception/MismatchException.php": {
+      "md5": "a9f8713cac4a02fb5abb139dac6d9d18",
+      "sha256": "870148dc0eae509206d8cc10ee966d5124eae0f4531d1c89f601259c5727b44e"
+    },
+    "includes/classes/dasprid/enum/src/Exception/SerializeNotSupportedException.php": {
+      "md5": "bb643759050df776ea37cb22dabde3d3",
+      "sha256": "b494a80a7a153c0af2d6eb8df7a11ce556f0366bcea9f589e8ddbb11f4803004"
+    },
+    "includes/classes/dasprid/enum/src/Exception/UnserializeNotSupportedException.php": {
+      "md5": "e8dbe51af9e39fe5244b670dd12a8442",
+      "sha256": "1e97d42dc8d8e0f24ed60112956e2cf1e4928c61739905c37b4f2a564252efc5"
+    },
+    "includes/classes/Shortcodes/class-shortcodes.php": {
+      "md5": "3a1594efd2a7819c6d9af96ee4d1fa1f",
+      "sha256": "a707364e510ac352d1aef2dd3ce01fd0ac46cc7deaf202956d8a57a07da3d95a"
+    },
+    "includes/classes/Shortcodes/index.php": {
+      "md5": "7e9b2ba04092e0eb034bdff9818f5db6",
+      "sha256": "11d844bdbb24f4dfb0d8d15a7e772ea5feec3ac79fa743291bf4105322ede1ad"
+    },
+    "includes/classes/Utils/class-abstract-migration.php": {
+      "md5": "515cdc9f65d8fba5e51fbf12e681f83c",
+      "sha256": "59d469d5de72668e49a517f2391f7312a1d4873a6fef886550979733c79561d3"
+    },
+    "includes/classes/Utils/class-date-time-utils.php": {
+      "md5": "e479b75e73c34bd2bc50b899ec7ac862",
+      "sha256": "c8b08997f1eff24f54f72e1d8b7aa50b54fc8d3b87e0c2dd4a231ee702b87c9f"
+    },
+    "includes/classes/Utils/class-debugging.php": {
+      "md5": "b20322ee573d61de9c2d6b31d7e9c896",
+      "sha256": "4b19bbacba12e2097e470f16dc9e46ffd0d2b05687d0b89b81cdd16d012b1486"
+    },
+    "includes/classes/Utils/class-generate-modal.php": {
+      "md5": "56bc9a6e22a4fb56a5dad31ea27c3870",
+      "sha256": "26272dd39604c64058f57ca9036e2adb655b41deb03cd3a28c12969dbf413d4b"
+    },
+    "includes/classes/Utils/class-migration.php": {
+      "md5": "9e29036bb390d42e713e4fec655ddca3",
+      "sha256": "bc49cfa82bab5361271c0ea755c11711c319e5de3d22407630994c22b09dc5b3"
+    },
+    "includes/classes/Utils/class-request-utils.php": {
+      "md5": "375aa95245b04dc0b43c7a1cc7449839",
+      "sha256": "56888df8570292c50877ff6646b02e2de5ab64492b9c32a20ed930b942f47ab3"
+    },
+    "includes/classes/Utils/class-settings-utils.php": {
+      "md5": "a24f8b64b5bb88a74fd2957e767e9c36",
+      "sha256": "dc9bd00d6c77e0ec14f93c35c5c50e38a9af2a40cd544043f550e00135308d05"
+    },
+    "includes/classes/Utils/class-user-utils.php": {
+      "md5": "c368b8c30a5985f55958564036300262",
+      "sha256": "ef641bfe6ff1aef1b2e9cee5b89ea5de0478424b427f92abe5f71f485eb1fc25"
+    },
+    "includes/classes/Utils/class-validator.php": {
+      "md5": "bf8429026682b6723dcf2ea90d1f2e52",
+      "sha256": "79565b948eb2f5c3520400f28a28abedd8dec665b7cb67c99445dff8b0735b0c"
+    },
+    "includes/classes/Utils/class-white-label.php": {
+      "md5": "8796e56638389f0445e094776fea81a6",
+      "sha256": "6b845ef1a441ccf605861bfb87abedb11ab6b8e7a89d1d584a8a7fbaad8ff2b8"
+    },
+    "includes/classes/Utils/index.php": {
+      "md5": "7e9b2ba04092e0eb034bdff9818f5db6",
+      "sha256": "11d844bdbb24f4dfb0d8d15a7e772ea5feec3ac79fa743291bf4105322ede1ad"
+    },
+    "includes/functions/core.php": {
+      "md5": "c8f2383169102896698a20c44efe39fd",
+      "sha256": "365e0d1e63b953940c585ee7f2b636106edc13c66fc56f3f2c5671ef53e72ac4"
+    },
+    "includes/functions/index.php": {
+      "md5": "7e9b2ba04092e0eb034bdff9818f5db6",
+      "sha256": "11d844bdbb24f4dfb0d8d15a7e772ea5feec3ac79fa743291bf4105322ede1ad"
+    },
+    "includes/functions/login-header.php": {
+      "md5": "08043ed12bf2c5623653e722376deab1",
+      "sha256": "ce7128bb45745d528aeba80be509afe5fdcbff121889dae1000065331d43057d"
+    },
+    "languages/index.php": {
+      "md5": "7e9b2ba04092e0eb034bdff9818f5db6",
+      "sha256": "11d844bdbb24f4dfb0d8d15a7e772ea5feec3ac79fa743291bf4105322ede1ad"
+    },
+    "languages/wp-2fa-de_DE.mo": {
+      "md5": "b108b04401e3b3ebd15260289b8927ce",
+      "sha256": "6fd7cbf374d92b3fcb532bea8922b3256450a6702a16528406e84ac668770942"
+    },
+    "languages/wp-2fa.pot": {
+      "md5": "9eb0264066da185d3ada11ce0896c2f1",
+      "sha256": "e867687a140569dfb0d940d3bfb32d1e1658ff63589f2a4361f1bf9dcb80f3eb"
+    },
+    "third-party/.DS_Store": {
+      "md5": "319ca5e2580591b61aded39fa4347526",
+      "sha256": "c7ab7e360efba10c4a69459be063ada940e6659650bb402c43f2b9cfd37fba2f"
+    },
+    "third-party/freemius/wordpress-sdk/config.php": {
+      "md5": "9a03d22d609265d8439aacbca90aba3c",
+      "sha256": "e1cf62bd406c03814192eb6bcad544ee5268799c4a28fc247df7d4db2f4ddcdf"
+    },
+    "third-party/freemius/wordpress-sdk/index.php": {
+      "md5": "3de0a4b8bbe2931c74daebd9674537e2",
+      "sha256": "da7d4679fdd1fc7ed156fe4e91d467fde87970e2f6f914e13fc4362e8a3e4915"
+    },
+    "third-party/freemius/wordpress-sdk/require.php": {
+      "md5": "aa22efa9bdca6ad8d516fdd2be536ab9",
+      "sha256": "1232083a74bf250706ed1cf559f0383bd7d29ca08c2420af4e9d4ea7d23cb5bc"
+    },
+    "third-party/freemius/wordpress-sdk/start.php": {
+      "md5": "aa203d3f4fda87225f8709a9653a52fb",
+      "sha256": "67a8b6daddc5c53f94fe83a063894a8cf6bb33f7efd5af8d5b062b8abf396d06"
+    },
+    "third-party/freemius/wordpress-sdk/assets/index.php": {
+      "md5": "3de0a4b8bbe2931c74daebd9674537e2",
+      "sha256": "da7d4679fdd1fc7ed156fe4e91d467fde87970e2f6f914e13fc4362e8a3e4915"
+    },
+    "third-party/freemius/wordpress-sdk/assets/css/customizer.css": {
+      "md5": "c8eebb9d7caf4bdad12a24d8fb7f5e0c",
+      "sha256": "6d50c83cb1d1e89566a9f385326fc48470d113493d93024ab59e8c41865cd4bf"
+    },
+    "third-party/freemius/wordpress-sdk/assets/css/index.php": {
+      "md5": "3de0a4b8bbe2931c74daebd9674537e2",
+      "sha256": "da7d4679fdd1fc7ed156fe4e91d467fde87970e2f6f914e13fc4362e8a3e4915"
+    },
+    "third-party/freemius/wordpress-sdk/assets/css/admin/account.css": {
+      "md5": "3f7da27d65bf401b124f0006e09a905c",
+      "sha256": "5c4526c1133f65985ecb6983ade88cab2930d17c9b3b9184b767d800949266a3"
+    },
+    "third-party/freemius/wordpress-sdk/assets/css/admin/add-ons.css": {
+      "md5": "12936463339e79deea33d46a6c4246ff",
+      "sha256": "3b6d0cbd5a34d88a4366db952805693ae98a757e988d69baf4b74ec7a205170a"
+    },
+    "third-party/freemius/wordpress-sdk/assets/css/admin/affiliation.css": {
+      "md5": "51a5458f44322435e69a7a7f5fdaa20b",
+      "sha256": "a2400ddbf61395cbc600d76a2f20716c8e21b22eae2f4d30964bca2a5ef1e711"
+    },
+    "third-party/freemius/wordpress-sdk/assets/css/admin/checkout.css": {
+      "md5": "f72db0687b77f96bd6451721a3b2bdc3",
+      "sha256": "ea7cb8cf22163969a3bfcd83f65855a2733e23becbbb85f58e1eb093271a75f9"
+    },
+    "third-party/freemius/wordpress-sdk/assets/css/admin/clone-resolution.css": {
+      "md5": "f114e6c8e281728b1e4287f173e5dc76",
+      "sha256": "e8c52d4bc80cb1bcaa5b4ee8cceccb102ab01acf78b465b37787c6de0932e045"
+    },
+    "third-party/freemius/wordpress-sdk/assets/css/admin/common.css": {
+      "md5": "2a163860b4d87a1a9d2375fc48776a9e",
+      "sha256": "917bff808892dc8b5b41a834c0126a3dde8737ae87d42426c12552298ce8ce2b"
+    },
+    "third-party/freemius/wordpress-sdk/assets/css/admin/connect.css": {
+      "md5": "c40f0599be6fd683e00a06ebc73f619c",
+      "sha256": "1a4da29a4913a6614349d9a7355fa4a0f16af22a4495b33106395b4754b6a065"
+    },
+    "third-party/freemius/wordpress-sdk/assets/css/admin/debug.css": {
+      "md5": "38b49352207e38f5834087ec778a040c",
+      "sha256": "e95a4b0f57b178d0abc9aa1798fec362e9e094e63596f0de45fe0bc2a3dfc48c"
+    },
+    "third-party/freemius/wordpress-sdk/assets/css/admin/dialog-boxes.css": {
+      "md5": "a5e01a75fd4c93b21eb1aaab1da37927",
+      "sha256": "a2da42bd20ed34e8ebaeee08764c16b616adffff29e61d54d88c9e4da5b6dd20"
+    },
+    "third-party/freemius/wordpress-sdk/assets/css/admin/gdpr-optin-notice.css": {
+      "md5": "6632b1968932ea3d7ef7d0d4622d6622",
+      "sha256": "fcd2aa4d5ec263e11cfa34492f7caf0f870ffc514c3de61a5ee2c085ae23b408"
+    },
+    "third-party/freemius/wordpress-sdk/assets/css/admin/index.php": {
+      "md5": "3de0a4b8bbe2931c74daebd9674537e2",
+      "sha256": "da7d4679fdd1fc7ed156fe4e91d467fde87970e2f6f914e13fc4362e8a3e4915"
+    },
+    "third-party/freemius/wordpress-sdk/assets/css/admin/optout.css": {
+      "md5": "d803b245820e01959fb6c2048464301f",
+      "sha256": "2fbaed4f483c0afae4ddd6ac1e51ad0007261b32003651aaed95a6f032debac9"
+    },
+    "third-party/freemius/wordpress-sdk/assets/css/admin/plugins.css": {
+      "md5": "51e3657988e6493917b46ac61673856b",
+      "sha256": "54018a96f5c384996ca0958b49c00d0b151db2d899b78c4ad16b5064eba3e04a"
+    },
+    "third-party/freemius/wordpress-sdk/assets/img/index.php": {
+      "md5": "3de0a4b8bbe2931c74daebd9674537e2",
+      "sha256": "da7d4679fdd1fc7ed156fe4e91d467fde87970e2f6f914e13fc4362e8a3e4915"
+    },
+    "third-party/freemius/wordpress-sdk/assets/img/plugin-icon.png": {
+      "md5": "c38d022fe0b2df0a6bc31404e90a38be",
+      "sha256": "1cf3bc9425ecb132013b8a33f9d39e22cd1cc2bec8e4d263fe9c5a3fd867a44d"
+    },
+    "third-party/freemius/wordpress-sdk/assets/img/theme-icon.png": {
+      "md5": "8cb315f4fef1d533eca11ba28e6f9521",
+      "sha256": "c85767ca365172ef9c0b3cf9db30c923c48af455b6b4886017b117256dcb25c1"
+    },
+    "third-party/freemius/wordpress-sdk/assets/js/index.php": {
+      "md5": "3de0a4b8bbe2931c74daebd9674537e2",
+      "sha256": "da7d4679fdd1fc7ed156fe4e91d467fde87970e2f6f914e13fc4362e8a3e4915"
+    },
+    "third-party/freemius/wordpress-sdk/assets/js/jquery.form.js": {
+      "md5": "a35a729d405c44710f89383c6c5758f6",
+      "sha256": "7a57dbbb21b1984a356ea4c6280a18abc607264f56fd6e827f68346b4f2314c5"
+    },
+    "third-party/freemius/wordpress-sdk/assets/js/nojquery.ba-postmessage.js": {
+      "md5": "c30179977ac34c397bed831fdc50bf92",
+      "sha256": "350027618efd7650fd8b586892923b17e2397d57e7ceaa3858086154efbcd647"
+    },
+    "third-party/freemius/wordpress-sdk/assets/js/postmessage.js": {
+      "md5": "50e6c244350c5cef3d8e49c3612337ba",
+      "sha256": "377b8d2b001acfedf72f5cc43c812b20b672921e3fdecbac285d9410039e3e23"
+    },
+    "third-party/freemius/wordpress-sdk/assets/js/pricing/14fb1bd5b7c41648488b06147f50a0dc.svg": {
+      "md5": "9eab3d7d43117b358e101aaf0de920cc",
+      "sha256": "c70b4fa1de91a42923e8eca1d2290b277f54eafe30a343899e82037f99355f06"
+    },
+    "third-party/freemius/wordpress-sdk/assets/js/pricing/178afa6030e76635dbe835e111d2c507.png": {
+      "md5": "8d6f527daf7550f05f466e02895f8878",
+      "sha256": "53fd46bf1fcdd46aa7e57bcbcdfcc088679671bcad52fdcb56f16eafb1627098"
+    },
+    "third-party/freemius/wordpress-sdk/assets/js/pricing/27b5a722a5553d9de0170325267fccec.png": {
+      "md5": "85ccbec16d42629e3550cd853f994ac5",
+      "sha256": "11e2ba99b662bb51c2bd594c34f0d45e2ef1fed2c8f0dc5ddf9c00d2ce6cafcc"
+    },
+    "third-party/freemius/wordpress-sdk/assets/js/pricing/4375c4a3ddc6f637c2ab9a2d7220f91e.png": {
+      "md5": "c38d022fe0b2df0a6bc31404e90a38be",
+      "sha256": "1cf3bc9425ecb132013b8a33f9d39e22cd1cc2bec8e4d263fe9c5a3fd867a44d"
+    },
+    "third-party/freemius/wordpress-sdk/assets/js/pricing/4529cac82a2d1f300d3c4702b7b5e8f3.svg": {
+      "md5": "19560d3568a8b0837cf8dfd8aba5a95a",
+      "sha256": "96031e69ed82ebb3aad5e272891a64a7350e0906a2ae7f07b6c5a1df73f1cb48"
+    },
+    "third-party/freemius/wordpress-sdk/assets/js/pricing/5480ed23b199531a8cbc05924f26952b.png": {
+      "md5": "afba5c2c00e941dc077e7dfa36b58aa0",
+      "sha256": "639341654010415e19114031c4986c8dc07e99b01950016915011707fa5e9063"
+    },
+    "third-party/freemius/wordpress-sdk/assets/js/pricing/b4f3b958f4a019862d81b15f3f8eee3a.svg": {
+      "md5": "62819f5b4f2552b5a1863806de25198f",
+      "sha256": "a1c74ba8af30fc08b2f6f0a7911a5cf2a960d9caa3d40ef8ecd661844ee87380"
+    },
+    "third-party/freemius/wordpress-sdk/assets/js/pricing/c03f665db27af43971565560adfba594.png": {
+      "md5": "041c8aeca79979bd0717ca11fe626323",
+      "sha256": "3ec45009437a0e95af2c9991952097a271753e4f643034243c15920cf03f51fa"
+    },
+    "third-party/freemius/wordpress-sdk/assets/js/pricing/cb5fc4f6ec7ada72e986f6e7dde365bf.png": {
+      "md5": "77918a96cac334066ef6edb2ab754c6a",
+      "sha256": "91075802d981a3feaf8b046b4ed2ddbd45602183b928f42d5b81ff28be34386e"
+    },
+    "third-party/freemius/wordpress-sdk/assets/js/pricing/dd89563360f0272635c8f0ab7d7f1402.png": {
+      "md5": "5cfbcca7da107dcd337f385907a49475",
+      "sha256": "76decd3b5dd643eafb77de1a4ec088ea4c1f58f361505249a5ef3b247c3e62c4"
+    },
+    "third-party/freemius/wordpress-sdk/assets/js/pricing/e366d70661d8ad2493bd6afbd779f125.png": {
+      "md5": "ecf3ad27e2b884ec96f1e9c8a6223432",
+      "sha256": "4e6b7ff3dc830e4cc2c14d9195148d8df9fca45df4276d26b660180a289dcde6"
+    },
+    "third-party/freemius/wordpress-sdk/assets/js/pricing/f18006f6535a1a6e9c6bfbffafe6f18a.svg": {
+      "md5": "4141b705f8ee3cb816fbe66a5685e627",
+      "sha256": "350d0c582696b91f938ca45cf8ae8a86733a72ccc494279169354bfeb19629f1"
+    },
+    "third-party/freemius/wordpress-sdk/assets/js/pricing/f3aac72a8e63997d6bb888f816457e9b.png": {
+      "md5": "d4bc07c78bdcacf776186687f09b76a2",
+      "sha256": "b5e1e045d204cad514f471c00a7c83e813cb5128b817a78282873887a546d16e"
+    },
+    "third-party/freemius/wordpress-sdk/assets/js/pricing/f928f1be99776af83e8e6be4baf8ffe7.svg": {
+      "md5": "4141b705f8ee3cb816fbe66a5685e627",
+      "sha256": "350d0c582696b91f938ca45cf8ae8a86733a72ccc494279169354bfeb19629f1"
+    },
+    "third-party/freemius/wordpress-sdk/assets/js/pricing/fde48e4609a6ddc11d639fc2421f2afd.png": {
+      "md5": "8cb315f4fef1d533eca11ba28e6f9521",
+      "sha256": "c85767ca365172ef9c0b3cf9db30c923c48af455b6b4886017b117256dcb25c1"
+    },
+    "third-party/freemius/wordpress-sdk/assets/js/pricing/freemius-pricing.js": {
+      "md5": "a836f239f2dafb0121b4df48a814d9bb",
+      "sha256": "7cc6edd2972a385236a4571f87f74327104a873c034cfcb7706b33c9ecafdbd8"
+    },
+    "third-party/freemius/wordpress-sdk/assets/js/pricing/freemius-pricing.js.LICENSE.txt": {
+      "md5": "8abd1841d682271d592cfbd1abde774c",
+      "sha256": "835a7cc046d6f6caf917bc803e812d2ac2eaeb6a71aad23b90224ff98b3685ea"
+    },
+    "third-party/freemius/wordpress-sdk/includes/class-freemius-abstract.php": {
+      "md5": "ed02e19bdc78d956a24ca488b5bf727f",
+      "sha256": "7419cf4a382b04fe8b49572e101830a6985821bb5bd1aef443054c3f4083be32"
+    },
+    "third-party/freemius/wordpress-sdk/includes/class-freemius.php": {
+      "md5": "35cb30004cba417771d23ce09acf5fb3",
+      "sha256": "761dbc61d320dba5e9ab433ecb9befec9bea1f251e728daae345535ca09ca696"
+    },
+    "third-party/freemius/wordpress-sdk/includes/class-fs-admin-notices.php": {
+      "md5": "1439565cce9f4a905d711c2350543238",
+      "sha256": "25e11373d368bb35d6624fb5b1cea36999cc3225a0558c505d550b65c2f6b533"
+    },
+    "third-party/freemius/wordpress-sdk/includes/class-fs-api.php": {
+      "md5": "00c35bdd366575872e6350b5e30c189e",
+      "sha256": "4f99778e4e4a86e1de1379e880eff967cc5a9d604887dff553180a9785422d63"
+    },
+    "third-party/freemius/wordpress-sdk/includes/class-fs-garbage-collector.php": {
+      "md5": "96e598629e8ff2f45a45bab09b93344f",
+      "sha256": "9f37edea83a9c166213f5e7b3888ee2f3affba672cc2588c26d2429fe2803765"
+    },
+    "third-party/freemius/wordpress-sdk/includes/class-fs-lock.php": {
+      "md5": "7319dac04190186b89e9cd7d5e801192",
+      "sha256": "aa1576f8c1e31f94c4ae2efbeb2bb9d9778c62104a597f19524eee4409c4babd"
+    },
+    "third-party/freemius/wordpress-sdk/includes/class-fs-logger.php": {
+      "md5": "283e83f946fa36a6e184ed92427d5f13",
+      "sha256": "a9bfa21e6c0aa8cdba7c8fd4b724524b2658cbf215966616c1d35c48f28f365c"
+    },
+    "third-party/freemius/wordpress-sdk/includes/class-fs-options.php": {
+      "md5": "fd471a1252456b26d56db26691a3c576",
+      "sha256": "b502fc036e2b6a84ff7b49f7eb52d27c223fad28ff5fa76f64f9c0a4cd99a78a"
+    },
+    "third-party/freemius/wordpress-sdk/includes/class-fs-plugin-updater.php": {
+      "md5": "0bb4be21d1f3b4390d1a0322c0e49b2c",
+      "sha256": "7bf1345c0cf1b577a33fca95bdc0a725b47fda1b43ba94ec9bac1f823e86873b"
+    },
+    "third-party/freemius/wordpress-sdk/includes/class-fs-security.php": {
+      "md5": "5427c43b54b7e42e0522e52e0f16b7b4",
+      "sha256": "8692b7b76fc8ce4c64644a398583db0651fbdc89d5043d0c1be32455498d9da4"
+    },
+    "third-party/freemius/wordpress-sdk/includes/class-fs-storage.php": {
+      "md5": "1779c893afee8281eb008e7afda1b59b",
+      "sha256": "dbee5c01bec9bae18eebd7b7c08c1b88abcb5d208e80c6ee5ad213259aa0545d"
+    },
+    "third-party/freemius/wordpress-sdk/includes/class-fs-user-lock.php": {
+      "md5": "4fc1182f504e23fba253b9977ac36dd9",
+      "sha256": "bc7a341375284146f83636a1ef9eabd45f7ffe68b60e8fdc6dacf9f716ba301c"
+    },
+    "third-party/freemius/wordpress-sdk/includes/fs-core-functions.php": {
+      "md5": "de3a77bd1bf5bfb4a3ceda5de8ec9e5f",
+      "sha256": "eb5d87fbe692006ca2f6c3a30211169100704ed1dce1ed339a03531e844c4b9c"
+    },
+    "third-party/freemius/wordpress-sdk/includes/fs-essential-functions.php": {
+      "md5": "1883984ee832a22617d2111b389b58a1",
+      "sha256": "34246b7ecf9441489beaf3210a718bbbaad9d2f43e30c115aa3d45f1c28a75c3"
+    },
+    "third-party/freemius/wordpress-sdk/includes/fs-html-escaping-functions.php": {
+      "md5": "fd8d3f84d4ab1c58a3c76ab7d6320c5c",
+      "sha256": "348faa4daa7982aea42b8fdfcaaf866b16ff8c02c538cee0edea53a8b0d441c1"
+    },
+    "third-party/freemius/wordpress-sdk/includes/fs-plugin-info-dialog.php": {
+      "md5": "b99d88148fab4842ab95aa15ad085e74",
+      "sha256": "cfba99ae71305cb0decac134e9e81cf7645cc77875c57a6a01586596061f8e32"
+    },
+    "third-party/freemius/wordpress-sdk/includes/index.php": {
+      "md5": "3de0a4b8bbe2931c74daebd9674537e2",
+      "sha256": "da7d4679fdd1fc7ed156fe4e91d467fde87970e2f6f914e13fc4362e8a3e4915"
+    },
+    "third-party/freemius/wordpress-sdk/includes/l10n.php": {
+      "md5": "6078da2e038117e0ff00a9b375f35b27",
+      "sha256": "e4e6555be7898eeee72aed3c5410d3c4beccfc9e0c339e205fbac421d970ee4b"
+    },
+    "third-party/freemius/wordpress-sdk/includes/customizer/class-fs-customizer-support-section.php": {
+      "md5": "b178f215153c2c45d763e19a270314f4",
+      "sha256": "061256a4960417b0bed8ae41297836118cee48bc1a8cb3ddcc06fdfbf4e00281"
+    },
+    "third-party/freemius/wordpress-sdk/includes/customizer/class-fs-customizer-upsell-control.php": {
+      "md5": "36d868b5c8065eb6e4d99c135d24e5a3",
+      "sha256": "71388aa44b181d3d0ff573a1620eb71056c841ff2ad9d077c941d914d35c34ae"
+    },
+    "third-party/freemius/wordpress-sdk/includes/customizer/index.php": {
+      "md5": "3de0a4b8bbe2931c74daebd9674537e2",
+      "sha256": "da7d4679fdd1fc7ed156fe4e91d467fde87970e2f6f914e13fc4362e8a3e4915"
+    },
+    "third-party/freemius/wordpress-sdk/includes/debug/class-fs-debug-bar-panel.php": {
+      "md5": "034c4a22f9a14e3c9573e4fbad973174",
+      "sha256": "470c1047cfff98395ad8a44bf153b46ce92c0d75fc4b9c59066a875fbfffe96b"
+    },
+    "third-party/freemius/wordpress-sdk/includes/debug/debug-bar-start.php": {
+      "md5": "5fa116c8b2bd8686d9c7b230c87e9222",
+      "sha256": "13df3aac107fb25dde83b6abc55ef048231306706b0088c55576f4e1c491011c"
+    },
+    "third-party/freemius/wordpress-sdk/includes/debug/index.php": {
+      "md5": "3de0a4b8bbe2931c74daebd9674537e2",
+      "sha256": "da7d4679fdd1fc7ed156fe4e91d467fde87970e2f6f914e13fc4362e8a3e4915"
+    },
+    "third-party/freemius/wordpress-sdk/includes/entities/class-fs-affiliate-terms.php": {
+      "md5": "f3d290880b522fa319bedbcdc696d098",
+      "sha256": "c9c1da9898b77786fa05c0f272775b69be7218439689c8bbb5f3c3aa684769a0"
+    },
+    "third-party/freemius/wordpress-sdk/includes/entities/class-fs-affiliate.php": {
+      "md5": "1858bb266130901469b975c74658f556",
+      "sha256": "812574db8b9a1ebf08cf14b9b49aaa90bfa2ef4ebc5cd42b87fb8dca21e6d217"
+    },
+    "third-party/freemius/wordpress-sdk/includes/entities/class-fs-billing.php": {
+      "md5": "63c904e144d4bbb827c3e4e4748cc8d1",
+      "sha256": "a562123e5f9953e69b51b90298521d9f3d8a135bfeff7386717b3ff30e1a7228"
+    },
+    "third-party/freemius/wordpress-sdk/includes/entities/class-fs-entity.php": {
+      "md5": "180e841a99553c201c55e5ca148edf9c",
+      "sha256": "fcc21f43851ca73b64895ea398cafe734352a960058c1a3735e7b52083e48dd0"
+    },
+    "third-party/freemius/wordpress-sdk/includes/entities/class-fs-payment.php": {
+      "md5": "2c0bd63573ae6b32c65fcc3274b4d73d",
+      "sha256": "79062793e6e30a4088e1d3e6e058de2b7182b945f786e80b0db16317df8ca2ae"
+    },
+    "third-party/freemius/wordpress-sdk/includes/entities/class-fs-plugin-info.php": {
+      "md5": "411694b5b5c0af56d3a5d9b5dcd1b969",
+      "sha256": "cec2d43965b7baad7dff3316ebac43745d329b72408c0da7ec38f09129c98837"
+    },
+    "third-party/freemius/wordpress-sdk/includes/entities/class-fs-plugin-license.php": {
+      "md5": "d61d0e9f5d600f1463f9531e7855359d",
+      "sha256": "a074b9233b03d11f85a7fecfe6e3d8e3e511be1a2fffffe2b097abfa09ec458e"
+    },
+    "third-party/freemius/wordpress-sdk/includes/entities/class-fs-plugin-plan.php": {
+      "md5": "7476e05d4f0fd2971054d88591bca69b",
+      "sha256": "37e7af9a0f43d36751395dda65fdfccd4e625af4f2fb9a5c15b5706013905766"
+    },
+    "third-party/freemius/wordpress-sdk/includes/entities/class-fs-plugin-tag.php": {
+      "md5": "80dd43056004d6647615303db1fac145",
+      "sha256": "44bd699a657dcceaaef1585b539d13028177a222d4b2a5631d07025f6b8f2e8a"
+    },
+    "third-party/freemius/wordpress-sdk/includes/entities/class-fs-plugin.php": {
+      "md5": "372e3a124921e8571c301aa63a771a65",
+      "sha256": "e7b921a00bbb7662bc2fc73ae6c5ffd072289c3a1cad68f05c52c99fc545c28d"
+    },
+    "third-party/freemius/wordpress-sdk/includes/entities/class-fs-pricing.php": {
+      "md5": "32a00dfc115966fb950a4f9a053717fe",
+      "sha256": "350749fb2517c0a07187152bb9f0122092697f42dee8775eeddfe66e148bb044"
+    },
+    "third-party/freemius/wordpress-sdk/includes/entities/class-fs-scope-entity.php": {
+      "md5": "0acd7da3ef93baaaf43a4b6598c3d80b",
+      "sha256": "7aeea54684fa99eac3cba01d24834172efc95da23004eb719d9d36a2db77578e"
+    },
+    "third-party/freemius/wordpress-sdk/includes/entities/class-fs-site.php": {
+      "md5": "d4a4725a46b7731d38bf81bf148c29a8",
+      "sha256": "c7c099591d4a9cf8db8188813eff0098d66ea9ba4948c28948bb7dc128b7138c"
+    },
+    "third-party/freemius/wordpress-sdk/includes/entities/class-fs-subscription.php": {
+      "md5": "1e809e6c59323606692699a19368e02a",
+      "sha256": "44fe2b29845d09f48223f7fadf4ea03df59866084c5a1d4693beac132edb1f48"
+    },
+    "third-party/freemius/wordpress-sdk/includes/entities/class-fs-user.php": {
+      "md5": "086b488003831ca540b349ca87049c0a",
+      "sha256": "f99968b1c46ed92d7f928c2c2857f5de237eb2f8931088853a61334fc7f4eaef"
+    },
+    "third-party/freemius/wordpress-sdk/includes/entities/index.php": {
+      "md5": "3de0a4b8bbe2931c74daebd9674537e2",
+      "sha256": "da7d4679fdd1fc7ed156fe4e91d467fde87970e2f6f914e13fc4362e8a3e4915"
+    },
+    "third-party/freemius/wordpress-sdk/includes/managers/class-fs-admin-menu-manager.php": {
+      "md5": "33591bf86edd06699155dae39066247f",
+      "sha256": "4a09301c1dadf7a3c85602db9617277e7cb4a9562c677e0e79d651e5af75acc8"
+    },
+    "third-party/freemius/wordpress-sdk/includes/managers/class-fs-admin-notice-manager.php": {
+      "md5": "15ec9ce6a3e9d9c4f48e84481b03fc63",
+      "sha256": "ca7ec01d9459238daec6390c7a6fe269f6182d66c5f80de0abf6ce4ded461e8e"
+    },
+    "third-party/freemius/wordpress-sdk/includes/managers/class-fs-cache-manager.php": {
+      "md5": "4adf1c301d685f2bacba65531634f876",
+      "sha256": "987dccc66cdfc994bbe9fd01b0ab4a124628988abc9cda2edd3f3e7460a02822"
+    },
+    "third-party/freemius/wordpress-sdk/includes/managers/class-fs-checkout-manager.php": {
+      "md5": "8050f58fdb5c8f6eddd122d76a43ae7e",
+      "sha256": "9cb5af4da6fe38dd3ea06536a1880a69b474db0ed9199a5e2c76b0ba5496effa"
+    },
+    "third-party/freemius/wordpress-sdk/includes/managers/class-fs-clone-manager.php": {
+      "md5": "5eec4f4247f6f63239c3ccfb195fe219",
+      "sha256": "0935c6c4df00ac86d13f509a1eeea347d91e29159d43b31cf87ca6f189d00ee5"
+    },
+    "third-party/freemius/wordpress-sdk/includes/managers/class-fs-contact-form-manager.php": {
+      "md5": "68d588e2bf031c97f99ae32d7d097a4c",
+      "sha256": "a142286f17a4212ec4150aa2a9d48da4e3eac73ade854a756f30af59e13a3f1f"
+    },
+    "third-party/freemius/wordpress-sdk/includes/managers/class-fs-debug-manager.php": {
+      "md5": "c087b043b752f211a9ba9bed5da1ca39",
+      "sha256": "61b89f5ff6f80d9caa951010788ada13f6166553b2da9bcea655aaec6055f087"
+    },
+    "third-party/freemius/wordpress-sdk/includes/managers/class-fs-gdpr-manager.php": {
+      "md5": "b754dc9ae3710c4bb52c4434eb321847",
+      "sha256": "0ea1b5b101eee60d473037ebcde976295ecd2f2320ec58b281cec7fb4d039267"
+    },
+    "third-party/freemius/wordpress-sdk/includes/managers/class-fs-key-value-storage.php": {
+      "md5": "4cc6b5354a58bb403ae471f66301b14d",
+      "sha256": "35085167afb4ce50bfaa79aea7ce5de69f6a45497c2eadfa09b358116cc1673e"
+    },
+    "third-party/freemius/wordpress-sdk/includes/managers/class-fs-license-manager.php": {
+      "md5": "a82f3ccac892e76e9efc785b0a462138",
+      "sha256": "231c87ac14f90bba6bc6fef94dca34886eda51010fe2b48b7421e61584b83b32"
+    },
+    "third-party/freemius/wordpress-sdk/includes/managers/class-fs-option-manager.php": {
+      "md5": "036f345076a5a0f33d484792b5836b64",
+      "sha256": "8a4dd11fdb6269d7e9a151ff8cdcb0712a07234dd8ef33a76ca40ac081f95577"
+    },
+    "third-party/freemius/wordpress-sdk/includes/managers/class-fs-permission-manager.php": {
+      "md5": "ca04cfc08987579d3011c1c166f66b52",
+      "sha256": "89bfb4016794750cdfb815e917bfbe2706d985f0c5b924c3a5f17381314ea881"
+    },
+    "third-party/freemius/wordpress-sdk/includes/managers/class-fs-plan-manager.php": {
+      "md5": "b72dcea60a55fff98335c0b0cb0aa424",
+      "sha256": "1de54d4f19696e6fc0f222d6c6dc5313b1d96f1200fc1a7c1349a2b0afa8553b"
+    },
+    "third-party/freemius/wordpress-sdk/includes/managers/class-fs-plugin-manager.php": {
+      "md5": "1aed9b0d0e4385246a7bc7c0558111bf",
+      "sha256": "b1fecdd18d47026628b05031e400b0547f64d1205647401c0e633791a903d63b"
+    },
+    "third-party/freemius/wordpress-sdk/includes/managers/index.php": {
+      "md5": "3de0a4b8bbe2931c74daebd9674537e2",
+      "sha256": "da7d4679fdd1fc7ed156fe4e91d467fde87970e2f6f914e13fc4362e8a3e4915"
+    },
+    "third-party/freemius/wordpress-sdk/includes/sdk/FreemiusBase.php": {
+      "md5": "82593181e605ddd2a8a9ca62acf5c979",
+      "sha256": "b646cc13505e3d9487d4f57fe393e932ce332060ddba5c18bc4a82362484e5fe"
+    },
+    "third-party/freemius/wordpress-sdk/includes/sdk/FreemiusWordPress.php": {
+      "md5": "6b3734f5200ad1acf6ba0b4adc7c7b0f",
+      "sha256": "9a207f1e54b65c217d49e892a3cb0066dd786afa3d12dcb9ff049ec99396d921"
+    },
+    "third-party/freemius/wordpress-sdk/includes/sdk/index.php": {
+      "md5": "3de0a4b8bbe2931c74daebd9674537e2",
+      "sha256": "da7d4679fdd1fc7ed156fe4e91d467fde87970e2f6f914e13fc4362e8a3e4915"
+    },
+    "third-party/freemius/wordpress-sdk/includes/sdk/Exceptions/ArgumentNotExistException.php": {
+      "md5": "a26e9de0558a2a5740639013ccc3bcdb",
+      "sha256": "7d85e5563775698c91a7bc7d1dd1bdfa27b714683a976bf6cf823d5924740e6c"
+    },
+    "third-party/freemius/wordpress-sdk/includes/sdk/Exceptions/EmptyArgumentException.php": {
+      "md5": "3fdff31aa810ab0bc9ec45b42df4842e",
+      "sha256": "10be60aacb55c44012fec5fb16b9ece47e1012389b53589f2a418d4f88fa5676"
+    },
+    "third-party/freemius/wordpress-sdk/includes/sdk/Exceptions/Exception.php": {
+      "md5": "48ee9aeb771de9c236a881606ec12c58",
+      "sha256": "d2042caa8f8f5cc3577b59bba9fcd298a5bd93295a01ff50f44272361b10e3f8"
+    },
+    "third-party/freemius/wordpress-sdk/includes/sdk/Exceptions/index.php": {
+      "md5": "3de0a4b8bbe2931c74daebd9674537e2",
+      "sha256": "da7d4679fdd1fc7ed156fe4e91d467fde87970e2f6f914e13fc4362e8a3e4915"
+    },
+    "third-party/freemius/wordpress-sdk/includes/sdk/Exceptions/InvalidArgumentException.php": {
+      "md5": "3b97b4528161e41242629212f5aa8482",
+      "sha256": "b6e25a1b6bf4b58769d93ea1b3dd9a2dea852edf49c8959aa648ef2fa98a4f46"
+    },
+    "third-party/freemius/wordpress-sdk/includes/sdk/Exceptions/OAuthException.php": {
+      "md5": "0b22627669dd8e0adb89504b88f471e8",
+      "sha256": "8a5b7b90b617306c7b751f5753cf670f33022616c3b2f31b48ac6988d7cd896e"
+    },
+    "third-party/freemius/wordpress-sdk/includes/supplements/fs-essential-functions-1.1.7.1.php": {
+      "md5": "50b0491b43ad944b2c38090b29f0eb75",
+      "sha256": "4c73b0e449e92442ec5a88094c55d7be71a2963108b145371aa993cfd349da54"
+    },
+    "third-party/freemius/wordpress-sdk/includes/supplements/fs-essential-functions-2.2.1.php": {
+      "md5": "d3bb1dfb1d90ded04ba231c6909a102b",
+      "sha256": "f385daaa07ff9eded5176401434d21291a3bb9305dcc7891773e501d50f93a30"
+    },
+    "third-party/freemius/wordpress-sdk/includes/supplements/fs-migration-2.5.1.php": {
+      "md5": "4accb7573f7f0144e5009d91e5c01ccf",
+      "sha256": "36f0c5831b95ae20f37d965ffde3d713e37caac3d8672f87ab25419603bed125"
+    },
+    "third-party/freemius/wordpress-sdk/includes/supplements/index.php": {
+      "md5": "3de0a4b8bbe2931c74daebd9674537e2",
+      "sha256": "da7d4679fdd1fc7ed156fe4e91d467fde87970e2f6f914e13fc4362e8a3e4915"
+    },
+    "third-party/freemius/wordpress-sdk/languages/freemius-cs_CZ.mo": {
+      "md5": "77ea0a2d2ffe1081eb2c3ebd0c648a33",
+      "sha256": "8a32667440c341bbf57a2c479b07c4dda3418f51ccdc2023f2174f7f52e9d685"
+    },
+    "third-party/freemius/wordpress-sdk/languages/freemius-da_DK.mo": {
+      "md5": "42abd27578932d9f82d7099f9aefdcd6",
+      "sha256": "8a17c612443e168fea40c662345c93e7ba93d45bc47aae8759c4ec12b7deb422"
+    },
+    "third-party/freemius/wordpress-sdk/languages/freemius-de_DE.mo": {
+      "md5": "5ad41c788cb22de05e1487b049076221",
+      "sha256": "530231190b0cd98544093a103209e87fcacf6a66b6037299ae4c5e082334e099"
+    },
+    "third-party/freemius/wordpress-sdk/languages/freemius-es_ES.mo": {
+      "md5": "b2a83f94291a6db0a171e0189a3f95df",
+      "sha256": "8786c2324557e2f4b5c3b921d33bc4b2407d2d2f75517dcf67c251c27b9f2f6d"
+    },
+    "third-party/freemius/wordpress-sdk/languages/freemius-fr_FR.mo": {
+      "md5": "87c3a4dfe023f110185a9b1f27e7ef79",
+      "sha256": "0e17fdb573fcb873d6a75aaa77b6f171545268cf2b73cce7c9f28f386c403024"
+    },
+    "third-party/freemius/wordpress-sdk/languages/freemius-he_IL.mo": {
+      "md5": "f18293d90b1da667598375c9590040d7",
+      "sha256": "15de5ced2d57519e6381dab2172296702ef105ba63441b4f6afb9d8bc3c02d5c"
+    },
+    "third-party/freemius/wordpress-sdk/languages/freemius-hu_HU.mo": {
+      "md5": "cd865be0822a030faa1a0e7cd99db2e2",
+      "sha256": "3446d5e07fd546b7d1c4cf4b26960a7fd6e93f8e9eed663cbb32c0291ce91b33"
+    },
+    "third-party/freemius/wordpress-sdk/languages/freemius-it_IT.mo": {
+      "md5": "926758654fc402b3698f896c4bd332c5",
+      "sha256": "5907b71cd113021941e4bb5cc9ed1a7921fd8a384c568ccb8f05e528517894f5"
+    },
+    "third-party/freemius/wordpress-sdk/languages/freemius-ja.mo": {
+      "md5": "df5553019125b28399b90f6efd5a52f2",
+      "sha256": "02d824cf52224c62b65e9cc6813c0ffecfc1f678a61100b7227d17c7be711756"
+    },
+    "third-party/freemius/wordpress-sdk/languages/freemius-nl_NL.mo": {
+      "md5": "c45278e749d7ccca850f1f0e029d4725",
+      "sha256": "8bcc62a3f201ead3704a35731ab6266cd07ef83478eeee9128a748c706ed35ee"
+    },
+    "third-party/freemius/wordpress-sdk/languages/freemius-ru_RU.mo": {
+      "md5": "be72099ca3eb3a673a7f8f9f9636f18d",
+      "sha256": "178b5e206cd2a01564266334faa6b1a63463042bfdeec71bb8ed2ad5bf081111"
+    },
+    "third-party/freemius/wordpress-sdk/languages/freemius-ta.mo": {
+      "md5": "02038875484f65b3cc17a79cef1ec026",
+      "sha256": "23e0f9f9525204e2a586844eda98b2653d9756d7a8e5edaa3312f8731552b3fb"
+    },
+    "third-party/freemius/wordpress-sdk/languages/freemius-zh_CN.mo": {
+      "md5": "5a41b9681455d27f896ca5870178ba78",
+      "sha256": "7de9f880e88423f743c7da5510cdb353061ca99c7b60115efa3c37b43ad397e5"
+    },
+    "third-party/freemius/wordpress-sdk/languages/freemius.pot": {
+      "md5": "09a8ddd7614b00d7de8df520e0d1b889",
+      "sha256": "3010d1f96c60b9a8a735742dc06773905b06ac5355f8834b8cf2e4935b9f3362"
+    },
+    "third-party/freemius/wordpress-sdk/languages/index.php": {
+      "md5": "3de0a4b8bbe2931c74daebd9674537e2",
+      "sha256": "da7d4679fdd1fc7ed156fe4e91d467fde87970e2f6f914e13fc4362e8a3e4915"
+    },
+    "third-party/freemius/wordpress-sdk/templates/account.php": {
+      "md5": "ed98c02c78ec85dc8837348b99ee6d03",
+      "sha256": "b6f3dc7bb9bc3a4a43eb8e463d7ff32a5a07de9a2b503385e76d68552d785100"
+    },
+    "third-party/freemius/wordpress-sdk/templates/add-ons.php": {
+      "md5": "c42861c28a31d36c83c6bba7a74771a3",
+      "sha256": "f2061448c473b1d9a6cddb2551adf57b91ebd93353dc7b93576ec857a7b9c876"
+    },
+    "third-party/freemius/wordpress-sdk/templates/add-trial-to-pricing.php": {
+      "md5": "35d6b7d7a847328cbc9de994c97f7200",
+      "sha256": "9e8025201e7c8d08560c20e0e3654ef915ec05903960ec1a9e9577eade023c0b"
+    },
+    "third-party/freemius/wordpress-sdk/templates/admin-notice.php": {
+      "md5": "79b1cee4e36e7c64642d8c119d01e9f5",
+      "sha256": "745627875e2338058cc03c733debac934cc50131132c9ea88cea320e52ad4d06"
+    },
+    "third-party/freemius/wordpress-sdk/templates/ajax-loader.php": {
+      "md5": "00e151cb955091aaf55f247730171b88",
+      "sha256": "8dc4887d9b97b282dc08ec6aedada447bbabb42cacc82b93f81264362c42383b"
+    },
+    "third-party/freemius/wordpress-sdk/templates/api-connectivity-message-js.php": {
+      "md5": "0198a8f32e2014d6b226d98ec23ceebc",
+      "sha256": "697ab706e6cc4f13c846f3a9f768e72a1aa62aa645f1f62d77a41f35e4e9b1e9"
+    },
+    "third-party/freemius/wordpress-sdk/templates/auto-installation.php": {
+      "md5": "6733148877b90ce6cc85efaedaad7c8a",
+      "sha256": "e1c4de12807e39bb607e849e72734e52fd53605ec9be6ec12799fe541a67ac71"
+    },
+    "third-party/freemius/wordpress-sdk/templates/checkout.php": {
+      "md5": "9d8346447ba2648387ff0dde5f141fdf",
+      "sha256": "866d87003757e4e209d284e5449bec63aa993f0aa19d858998220607ede2ae6b"
+    },
+    "third-party/freemius/wordpress-sdk/templates/clone-resolution-js.php": {
+      "md5": "62b294e43d0ca6e98b65cf1497f02132",
+      "sha256": "f38e917d5d66ff813bb4daaa0c5830671e48bbcdb8f9e59fb42ea53831b73603"
+    },
+    "third-party/freemius/wordpress-sdk/templates/connect.php": {
+      "md5": "03aa3672706f9820959b6cc1f75b715c",
+      "sha256": "027e67eb905681fac97adbc37c8dc5642f4feb49199ebcc556048e784d5987a8"
+    },
+    "third-party/freemius/wordpress-sdk/templates/contact.php": {
+      "md5": "339b42785fb32d4050746c43e671d401",
+      "sha256": "fb02d6a81917bdfd0d7e74bb699329cf619571e1a071efd05015a525fb0d4ca9"
+    },
+    "third-party/freemius/wordpress-sdk/templates/debug.php": {
+      "md5": "ea6939b8e2727f6ff9107bf8825f9f81",
+      "sha256": "903a44afc64fff4827bec7abd5c848459a2c98547596f72c719851a2b5945635"
+    },
+    "third-party/freemius/wordpress-sdk/templates/email.php": {
+      "md5": "eed07bb337e9fe7196f0e7ddd5422698",
+      "sha256": "db149f416aad88b58cf718d54818d87c26865ed2442a0482858720c0a700c2b1"
+    },
+    "third-party/freemius/wordpress-sdk/templates/gdpr-optin-js.php": {
+      "md5": "29bb502789208de8b091a52d1c72f520",
+      "sha256": "271f0655b6d2135329dd1da29517e5122ce6661e6faeb20833ebd47789a9a605"
+    },
+    "third-party/freemius/wordpress-sdk/templates/index.php": {
+      "md5": "3de0a4b8bbe2931c74daebd9674537e2",
+      "sha256": "da7d4679fdd1fc7ed156fe4e91d467fde87970e2f6f914e13fc4362e8a3e4915"
+    },
+    "third-party/freemius/wordpress-sdk/templates/plugin-icon.php": {
+      "md5": "071e797ab53c0d4128f832847a652c09",
+      "sha256": "b5794c503ac93125c564fe4a30af25ab0ad4c37b1520c476886a50959b8fe04e"
+    },
+    "third-party/freemius/wordpress-sdk/templates/pricing.php": {
+      "md5": "7c3f84161fa3a637ea0d6e3e3dc1121e",
+      "sha256": "3be633fc380ad8587fc91c5aa1ee1e7157129a460817ec93bedc057b3fbb9ea2"
+    },
+    "third-party/freemius/wordpress-sdk/templates/secure-https-header.php": {
+      "md5": "182bd581a7024c6c332c0ee244e9fee3",
+      "sha256": "d6a5020e8b0b5fcae901cabeeb54bfe3cbed8f19d79918872cfa106f51e67d8e"
+    },
+    "third-party/freemius/wordpress-sdk/templates/sticky-admin-notice-js.php": {
+      "md5": "31fe4caed322e32242e5a2cfbe64d4ad",
+      "sha256": "d0dabcf01eefb89c29a655cda333e493e1c2136d1fee20dc26a1d3fc69f20228"
+    },
+    "third-party/freemius/wordpress-sdk/templates/tabs-capture-js.php": {
+      "md5": "d4bfd4ede6de7ab19ffa05b06680847f",
+      "sha256": "6ad031764f84bd4f3ea59ed69b5db3037e5c171aab2ec0a0686095b597a5e7d7"
+    },
+    "third-party/freemius/wordpress-sdk/templates/tabs.php": {
+      "md5": "5ed22e5f66526103e895edcd23a2c3ac",
+      "sha256": "e7890df020fbf02c9dbf25433e5f1754b9d21ceec8c6e3736e465ddff10dcdc1"
+    },
+    "third-party/freemius/wordpress-sdk/templates/account/billing.php": {
+      "md5": "a4d01e92aa59d731ec4bc2763664e744",
+      "sha256": "775224edc2fe0698ade58c2928079c227061cc703d7c74f8472097f5e2b04c14"
+    },
+    "third-party/freemius/wordpress-sdk/templates/account/index.php": {
+      "md5": "3de0a4b8bbe2931c74daebd9674537e2",
+      "sha256": "da7d4679fdd1fc7ed156fe4e91d467fde87970e2f6f914e13fc4362e8a3e4915"
+    },
+    "third-party/freemius/wordpress-sdk/templates/account/payments.php": {
+      "md5": "7e789cb2f1d6bcd45d6138f9f8aff95b",
+      "sha256": "e89a2d27688aec9402b6d85276304b25ce33a21cc7d7b4767000e83a4554f409"
+    },
+    "third-party/freemius/wordpress-sdk/templates/account/partials/activate-license-button.php": {
+      "md5": "6b659d5545c3843958fde1fc1b0c2f55",
+      "sha256": "ac9b5306c54cb7a71958090725c9bd8cc58add7568d68c1b21a45f0fc32d7e11"
+    },
+    "third-party/freemius/wordpress-sdk/templates/account/partials/addon.php": {
+      "md5": "fdfbae43c40c35b201011634cf5ef64d",
+      "sha256": "e7b334bf5256fc7cbc0431c2f53fc48f52f9e1ff4f1b6979a2dbdcb8a3155819"
+    },
+    "third-party/freemius/wordpress-sdk/templates/account/partials/deactivate-license-button.php": {
+      "md5": "5d15cd05dbdee1ff72dfe3b3813168cc",
+      "sha256": "135ba523ed912477d263101cd374645d691898dd91547c0719ddae66a20119d6"
+    },
+    "third-party/freemius/wordpress-sdk/templates/account/partials/disconnect-button.php": {
+      "md5": "d895fe41cb09f782e2259ac1a1b577a8",
+      "sha256": "de8b13a4dec945c7e3863158c1faf30e3ab2609f175c960ca47f36b6eb584710"
+    },
+    "third-party/freemius/wordpress-sdk/templates/account/partials/index.php": {
+      "md5": "3de0a4b8bbe2931c74daebd9674537e2",
+      "sha256": "da7d4679fdd1fc7ed156fe4e91d467fde87970e2f6f914e13fc4362e8a3e4915"
+    },
+    "third-party/freemius/wordpress-sdk/templates/account/partials/site.php": {
+      "md5": "0aafc97785586c8ec9c2362ca0cfb82c",
+      "sha256": "8fcc660030340086b80aa0bd1bdb1a80b90efb7d676c83859999c9c5d346f440"
+    },
+    "third-party/freemius/wordpress-sdk/templates/checkout/frame.php": {
+      "md5": "5ca64f449eeac8b46c6f7e10375ee775",
+      "sha256": "2b9f244ffae477e19291ce0b55a6ae4cc7e7c6e6e2d524a8a7214071fb869223"
+    },
+    "third-party/freemius/wordpress-sdk/templates/checkout/process-redirect.php": {
+      "md5": "4aeaf0223f6803683eeadaa06b4534cf",
+      "sha256": "09c14e27d6bd4d012a5a5a9e47bc03c475f9e4e81049b131330c2be2286d3768"
+    },
+    "third-party/freemius/wordpress-sdk/templates/checkout/redirect.php": {
+      "md5": "fbd5e8b9b0afdacc52858e093384e742",
+      "sha256": "7ce09ed1ca3bd788689c99d019c29b8d3118a37df5d75a533208464ea0796ab7"
+    },
+    "third-party/freemius/wordpress-sdk/templates/connect/index.php": {
+      "md5": "3de0a4b8bbe2931c74daebd9674537e2",
+      "sha256": "da7d4679fdd1fc7ed156fe4e91d467fde87970e2f6f914e13fc4362e8a3e4915"
+    },
+    "third-party/freemius/wordpress-sdk/templates/connect/permission.php": {
+      "md5": "3e9bbcd3f6c25267b3797cf22fd6041d",
+      "sha256": "939c77c080e0fd288f56d0ea15b9150f24735533199c6d28897f95c23883a0ee"
+    },
+    "third-party/freemius/wordpress-sdk/templates/connect/permissions-group.php": {
+      "md5": "52fc8e3d76ddb4c7c2ce5d04a3a35473",
+      "sha256": "30395f64ecbc1cf3f6015f85a31c433df046ac4a462d091b56ccd7d2881653f2"
+    },
+    "third-party/freemius/wordpress-sdk/templates/debug/api-calls.php": {
+      "md5": "ec00c2fe627810c9f8dbc3759c41fce7",
+      "sha256": "cb5c314edf9b0b4c3a305131e47fa2fb55d36acdb32030cf1084f77f5ba99b8e"
+    },
+    "third-party/freemius/wordpress-sdk/templates/debug/index.php": {
+      "md5": "3de0a4b8bbe2931c74daebd9674537e2",
+      "sha256": "da7d4679fdd1fc7ed156fe4e91d467fde87970e2f6f914e13fc4362e8a3e4915"
+    },
+    "third-party/freemius/wordpress-sdk/templates/debug/logger.php": {
+      "md5": "cd9f0b12d29c47977df3c5b4856d87a4",
+      "sha256": "184255d2e440955ec388714df54396b4974c1a83a64dd8540e77314b665084ef"
+    },
+    "third-party/freemius/wordpress-sdk/templates/debug/plugins-themes-sync.php": {
+      "md5": "8101243f4fa8fd786bc6a9794fc8808c",
+      "sha256": "327b965d38e8708dfafc50817664f79902b0938ee37a27131630833bb8b3e77c"
+    },
+    "third-party/freemius/wordpress-sdk/templates/debug/scheduled-crons.php": {
+      "md5": "8a8699dd63b9bf585c89dc01aa94e475",
+      "sha256": "7aa11607b9d269d974384aa48fb511d0e8d41e5fa8d19ec0350e3f471108ce5d"
+    },
+    "third-party/freemius/wordpress-sdk/templates/forms/affiliation.php": {
+      "md5": "b17a6db8d7314004f106ef9276b5698c",
+      "sha256": "6d44de4faec98545797ee735b92344bc1fdacf4a4ee1210b35fc20b2708b140a"
+    },
+    "third-party/freemius/wordpress-sdk/templates/forms/data-debug-mode.php": {
+      "md5": "f40ab50817700bf186001641243bdf68",
+      "sha256": "cd6f724cb47a09e67916b1a688526170aabe9d333a0efe5aab940619e2e93982"
+    },
+    "third-party/freemius/wordpress-sdk/templates/forms/email-address-update.php": {
+      "md5": "95b4eaf5348b8a060584f132f36a440b",
+      "sha256": "9b1e8165be2945731dfb739f41fadb1b92858ffc9f559062f872bf9ff9020ea2"
+    },
+    "third-party/freemius/wordpress-sdk/templates/forms/index.php": {
+      "md5": "3de0a4b8bbe2931c74daebd9674537e2",
+      "sha256": "da7d4679fdd1fc7ed156fe4e91d467fde87970e2f6f914e13fc4362e8a3e4915"
+    },
+    "third-party/freemius/wordpress-sdk/templates/forms/license-activation.php": {
+      "md5": "4920938e6368657aac4c9c91a7177648",
+      "sha256": "019c9b305fe1ea66e33c80c75b1797e6a1b8be0d608ce36150c381d6b592bb0f"
+    },
+    "third-party/freemius/wordpress-sdk/templates/forms/optout.php": {
+      "md5": "27849af477f58b4aae150b996f6b7147",
+      "sha256": "72a3d44a294e1f5c44932ce76907226ce6ea00278b643bc5ffca5df6eded00e3"
+    },
+    "third-party/freemius/wordpress-sdk/templates/forms/premium-versions-upgrade-handler.php": {
+      "md5": "e3ab1d9a9863996b1db21cea5f9011bc",
+      "sha256": "2a7860fde009d83a64a5686df351074ba130de0899095ddf08ffffc834f23f06"
+    },
+    "third-party/freemius/wordpress-sdk/templates/forms/premium-versions-upgrade-metadata.php": {
+      "md5": "5ac9f56655fa3f640185c332bd3988db",
+      "sha256": "a5fa5a3dbe131feb8665352f1afee2ea1eb14d59240833c09707dff9da08527e"
+    },
+    "third-party/freemius/wordpress-sdk/templates/forms/resend-key.php": {
+      "md5": "348e97790177011a7af8f49b2103ffe8",
+      "sha256": "b3f60cd9c09ffe26c58786edb38c95320ddf706531e05e7d4ee4d7d57ddef592"
+    },
+    "third-party/freemius/wordpress-sdk/templates/forms/subscription-cancellation.php": {
+      "md5": "8f122425b56cc2633191ec737fb78e86",
+      "sha256": "b329b9fa6945b1fd1b0c824068dd19d1e76ef0dfac7cc9c76e601e831c0e5272"
+    },
+    "third-party/freemius/wordpress-sdk/templates/forms/trial-start.php": {
+      "md5": "0a4a72160704e8282d1f11a73c02c596",
+      "sha256": "f66c0509e068406fe33ed69ec127b2ec9970c9cf43d19ac71e55627e7be78562"
+    },
+    "third-party/freemius/wordpress-sdk/templates/forms/user-change.php": {
+      "md5": "b6386fc81e7f5c5f877d8d33c7d102c5",
+      "sha256": "117cc9749c54ea81c09f09ac3d6329810afca69c5cdc3a3634a430e867caa4f0"
+    },
+    "third-party/freemius/wordpress-sdk/templates/forms/deactivation/contact.php": {
+      "md5": "0316bd6eb7a05968d63c94a589e74b08",
+      "sha256": "73e1f8eeebed312f5bbdf51d1ef9abd12841d9fa5b0315fa6a7f6198afc3fc6a"
+    },
+    "third-party/freemius/wordpress-sdk/templates/forms/deactivation/form.php": {
+      "md5": "5af0ab2b12cfb34f8250d9f3feba512e",
+      "sha256": "59a915e739ef481341691007800d7f35ae3037711e51cb054b3d79a999eb4764"
+    },
+    "third-party/freemius/wordpress-sdk/templates/forms/deactivation/index.php": {
+      "md5": "3de0a4b8bbe2931c74daebd9674537e2",
+      "sha256": "da7d4679fdd1fc7ed156fe4e91d467fde87970e2f6f914e13fc4362e8a3e4915"
+    },
+    "third-party/freemius/wordpress-sdk/templates/forms/deactivation/retry-skip.php": {
+      "md5": "86a52fe656b05f6b0bb3f75848ef4cf2",
+      "sha256": "7092c1389fadc05d13b059463732bab910b05e04c9c9aa59fa0fac8e1e2ccd99"
+    },
+    "third-party/freemius/wordpress-sdk/templates/js/index.php": {
+      "md5": "3de0a4b8bbe2931c74daebd9674537e2",
+      "sha256": "da7d4679fdd1fc7ed156fe4e91d467fde87970e2f6f914e13fc4362e8a3e4915"
+    },
+    "third-party/freemius/wordpress-sdk/templates/js/jquery.content-change.php": {
+      "md5": "a92f903645a3f6ab4494cea538e44813",
+      "sha256": "650f29e9c6937d1b2898d0df393773bd7634c9d32a355b2c41f41235447ff106"
+    },
+    "third-party/freemius/wordpress-sdk/templates/js/open-license-activation.php": {
+      "md5": "37e7758f3ccbe08033d97c445889f40a",
+      "sha256": "df4efb41f5af8da05bd270223b2e4eb7718c4fbbd43fe4cbacb62caa23ff957f"
+    },
+    "third-party/freemius/wordpress-sdk/templates/js/permissions.php": {
+      "md5": "96491c1d8632f7b7df00e36d2b58babd",
+      "sha256": "8e3240058642cd98e39a16ac5b2739e7c365f4c5b9a8a9dc7ebc988a92a5d2e3"
+    },
+    "third-party/freemius/wordpress-sdk/templates/js/style-premium-theme.php": {
+      "md5": "a606d4bc81f73725a0cc315f82d78ee3",
+      "sha256": "fbc9e876bc48a000abab3f137f08e1fdf6159ad35f5a6b73023c4df639d74d4e"
+    },
+    "third-party/freemius/wordpress-sdk/templates/partials/index.php": {
+      "md5": "e426c81042e85fbe726c134a270a1f29",
+      "sha256": "3b6be3bb5fc5bfa96414255f0579828e5985ef7a0a89a4004c3f01c9afd9a7f3"
+    },
+    "third-party/freemius/wordpress-sdk/templates/partials/network-activation.php": {
+      "md5": "972465bb410af2584efdb9abedc11c3e",
+      "sha256": "6a1a00a5ecdf6195fe56db207048e59eb31ddc00bdfd367e63725ab9f381cb61"
+    },
+    "third-party/freemius/wordpress-sdk/templates/plugin-info/description.php": {
+      "md5": "a41791486f89b48c73b070043a7e4098",
+      "sha256": "e3334f3c34bd383148f8ed6d7e7cc9da10c426ce2bbcd195fb784edb27742436"
+    },
+    "third-party/freemius/wordpress-sdk/templates/plugin-info/features.php": {
+      "md5": "442e01556230b8d3029c9038dd9d1713",
+      "sha256": "a043b0c7e1ade84b4256c37907fe034dde731460929879cededdd9a159dac169"
+    },
+    "third-party/freemius/wordpress-sdk/templates/plugin-info/index.php": {
+      "md5": "3de0a4b8bbe2931c74daebd9674537e2",
+      "sha256": "da7d4679fdd1fc7ed156fe4e91d467fde87970e2f6f914e13fc4362e8a3e4915"
+    },
+    "third-party/freemius/wordpress-sdk/templates/plugin-info/screenshots.php": {
+      "md5": "1ec96683f3834b8b1397939e8ec4f88c",
+      "sha256": "a5fe64b639b78c6c282852ec2fef8ee772b8c4420916ffa61e33629403872e2e"
+    },
+    "third-party/vendor/autoload.php": {
+      "md5": "f1050db9a45709dfb28fea65ad56b198",
+      "sha256": "53dcb476ba35aaf188e5baaa5d55487d5dc4bba1f87b31a8284b0f62474afbab"
+    },
+    "third-party/vendor/composer/autoload_classmap.php": {
+      "md5": "71978fd4d5d7887c73e3d85003a765a1",
+      "sha256": "e442cc33b627d8be67af2e777ffdd82ac86e9abfea5c68efcace90b7a90ed1b3"
+    },
+    "third-party/vendor/composer/autoload_namespaces.php": {
+      "md5": "224007c97efb82c7b45b0e92f240af41",
+      "sha256": "ede505407590638a435137f4e060136f1008de79fc169b3de9793423b0cea38c"
+    },
+    "third-party/vendor/composer/autoload_psr4.php": {
+      "md5": "f18b7628c41c9809f0fdcbeb2d2391a1",
+      "sha256": "fba9cc51f6d20bb405fd41d8496349a28151206e4e81f0cd4d7395adfab54e0a"
+    },
+    "third-party/vendor/composer/autoload_real.php": {
+      "md5": "517ede57b082a35b8b46053ebd84a7cb",
+      "sha256": "a5b4846d2d8e9a02cb2012df70a618d0dcc70529797025cfbd2c1eb6778c876d"
+    },
+    "third-party/vendor/composer/autoload_static.php": {
+      "md5": "0e58cb4087547ec174fe06343c94561a",
+      "sha256": "a50062778b87da410ef03d1928376dc3c5b825cc81dba154bf56e772324fe233"
+    },
+    "third-party/vendor/composer/ClassLoader.php": {
+      "md5": "c02be6d96671f88d28aad3ffa134c8ae",
+      "sha256": "d4b2313e562edf942838ec316d983c1a3459ca67da3e5658e861200b0b3693c2"
+    },
+    "third-party/vendor/composer/installed.php": {
+      "md5": "0c5c2d67ad0b5f00153876227ba6aed8",
+      "sha256": "5d4f569cd22d5f4fbf12db9d90f0ed18913f78e0eac1443b8e0af5326e041d20"
+    },
+    "third-party/vendor/composer/InstalledVersions.php": {
+      "md5": "7baf73014351c49ea0fef617dae7019b",
+      "sha256": "1e4525198301d1ed1f87ac3df2a8555a6f139f8df30a703d0b775a61963c96e4"
+    },
+    "third-party/vendor/composer/LICENSE": {
+      "md5": "955d5fe58c231244f6b49000f383b5e2",
+      "sha256": "c8cce4b6b9729f264ffdf9296d505d63432497feeed1f586d1902b942197e024"
+    },
+    "vendor/.DS_Store": {
+      "md5": "8220dbceb8744fdf704a295275650817",
+      "sha256": "1c7c0b6fbb45237b9cc82d1239a445ca247c5cb3192976d7a41f5991f763302c"
+    },
+    "vendor/autoload.php": {
+      "md5": "baf5337189956500fb9b29f152be54f2",
+      "sha256": "2f8fd94f373c0a508a0acbc828b3214b7d7f3b781209f1c7cc8bc6fbcad581b9"
+    },
+    "vendor/scoper.inc.php": {
+      "md5": "d091666b5d973c49888c2825402fd9fa",
+      "sha256": "caa2c32aa467cfd3c4161fc0610874b4904933b457b9c5dc78e4db23cd15d8c2"
+    },
+    "vendor/arcturial/clickatell/src/ClickatellException.php": {
+      "md5": "0896cc4554602b81ff5477995c6cc6c6",
+      "sha256": "8d44b8314b7cb812b46403430ec9d8b0bd6fd1cd08bf8d9cb44bff67e4ca9160"
+    },
+    "vendor/arcturial/clickatell/src/Rest.php": {
+      "md5": "f1922eaae49ced979e611993cbbe673f",
+      "sha256": "c01b0f6c86e808b443b385d73eb526e3cd8dfa01666ec43ec081daa4b69d90c3"
+    },
+    "vendor/composer/autoload_classmap.php": {
+      "md5": "a2bf013b5cbf84ea99f070ab8c6daf91",
+      "sha256": "590ba0d1818ce3a020ae399d431610caab7e73f80319f7ec20c6142a7ccf046c"
+    },
+    "vendor/composer/autoload_namespaces.php": {
+      "md5": "224007c97efb82c7b45b0e92f240af41",
+      "sha256": "ede505407590638a435137f4e060136f1008de79fc169b3de9793423b0cea38c"
+    },
+    "vendor/composer/autoload_psr4.php": {
+      "md5": "cd0d4ffba817e238cc6e69d128572f33",
+      "sha256": "81dee53f8a89a312819ca237ef21d7c70d8be40da2fceabb5f4abbf905039bd4"
+    },
+    "vendor/composer/autoload_real.php": {
+      "md5": "94ce37068868490b448753faeb7ac07a",
+      "sha256": "addfaec4e4a611fb42b59efe08bff19db57f4ab383c5e6f85943b504010e3dc3"
+    },
+    "vendor/composer/autoload_static.php": {
+      "md5": "305d4809152e75e2667ed1943e2a9695",
+      "sha256": "72bde2f91b50c51c07b40c60f6980f03a03adf997f7935df31bfb584d567545a"
+    },
+    "vendor/composer/ClassLoader.php": {
+      "md5": "c02be6d96671f88d28aad3ffa134c8ae",
+      "sha256": "d4b2313e562edf942838ec316d983c1a3459ca67da3e5658e861200b0b3693c2"
+    },
+    "vendor/composer/installed.json": {
+      "md5": "04d92e4613367dd17ca61534946f8b0b",
+      "sha256": "237e556ca973d2af2d92731293b508ea5fd9d70347338590149645d2224fb963"
+    },
+    "vendor/composer/installed.php": {
+      "md5": "ffb83f59201914d1b16d2ee3fdcbcd44",
+      "sha256": "4f5aefb53229ca1004f5a55c866aa90cc7e9b2d85bd0cea323bc03582e8108a3"
+    },
+    "vendor/composer/InstalledVersions.php": {
+      "md5": "512866121059073f5654142e6a4b7a84",
+      "sha256": "cb148cfe1482f4bc78ba91c7ed9698d7071a178043c3719e9f22f58b75f2b126"
+    },
+    "vendor/composer/LICENSE": {
+      "md5": "955d5fe58c231244f6b49000f383b5e2",
+      "sha256": "c8cce4b6b9729f264ffdf9296d505d63432497feeed1f586d1902b942197e024"
+    },
+    "vendor/composer/platform_check.php": {
+      "md5": "f3aa60e94ab1f27ada6ee4c37ec41cd0",
+      "sha256": "09bf21fd3d36cece041141c0d9bf37fdb4a5a8344cb4d6859b0e89a4bf585de0"
+    },
+    "vendor/firebase/php-jwt/src/BeforeValidException.php": {
+      "md5": "30fd887a551c7d11058b1dacecf88204",
+      "sha256": "64546e8ee0f5b45499e2c1ff31ab0278b871e8457e7c66fe6f91606cd41a45c5"
+    },
+    "vendor/firebase/php-jwt/src/ExpiredException.php": {
+      "md5": "21cedbd68b6a62012d60c8515382e8bb",
+      "sha256": "8421a98c02f4ecddd410e9173ac21e8a37fcacbfcbd47e69fca027161e358ef4"
+    },
+    "vendor/firebase/php-jwt/src/JWK.php": {
+      "md5": "b058a9f78a624209801a9289d2b15a75",
+      "sha256": "989424cf1992eb724e12df704e47c8168d7da973bf609957d8589b629944e5b5"
+    },
+    "vendor/firebase/php-jwt/src/JWT.php": {
+      "md5": "381c1e9f9f08e5e07d501a4002418772",
+      "sha256": "ced7ac594e05bcfc1c77da06816eaa7114d790eb96d0594a41e5e65df6ff1078"
+    },
+    "vendor/firebase/php-jwt/src/Key.php": {
+      "md5": "0cb5510abbead58b3d956fc2ac3d5989",
+      "sha256": "64b442bfac1fe0b1ae379e3e58dc8eb17b79fbf9b3be88cb9d54e7597957f5ab"
+    },
+    "vendor/firebase/php-jwt/src/SignatureInvalidException.php": {
+      "md5": "f7e3e68938654c2cbac01a6ffb0f4d52",
+      "sha256": "5a4401a98c6c0c3554dcca6a4cf5fa14a25daa1173c91ab575f62cff42b4e0ce"
+    }
+  }
+}

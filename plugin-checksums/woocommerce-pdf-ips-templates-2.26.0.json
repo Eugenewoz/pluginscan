@@ -1,0 +1,526 @@
+{
+  "plugin": "woocommerce-pdf-ips-templates",
+  "version": "2.26.0",
+  "files": {
+    "changelog.txt": {
+      "md5": "8d3c9784d06093a0b11c0f44372538c6",
+      "sha256": "2e2c770b9857cb57ed6d9ad419bd171affe11eae8339222219a0678e9ae93928"
+    },
+    "woocommerce-pdf-ips-templates.php": {
+      "md5": "a6903badeae2ef61f79b9f76d1b25498",
+      "sha256": "61274f6168078dc5d60a417a9cbbb9a0268baf540f24359265ee9b67e4d13b2a"
+    },
+    "assets/css/editor.css": {
+      "md5": "ff64d461d9bd285ae589c7475e2557cf",
+      "sha256": "6d679dbe1b74ee8d5a3b1b7b91d4cff3fa240045cf492d8e9b5b765f6d110a91"
+    },
+    "assets/js/editor.js": {
+      "md5": "34cd4f4bd7b966577a8420c4e8eaca99",
+      "sha256": "baa75cd6e37e0b1a442f377c909e22097c80a117be6ef615b2f2c6a75941aef9"
+    },
+    "includes/class-wcpdf-templates-dependencies.php": {
+      "md5": "386a03cded468cb94f7eb247795b44e6",
+      "sha256": "109597afdcaf41c7ffeddb8c7f723b738a5be83961eb1494b16efcadfb989e1d"
+    },
+    "includes/class-wcpdf-templates-main.php": {
+      "md5": "40fd93fc69c344d4cee6be696e90dd64",
+      "sha256": "78997282d9023a25802a13631a0a05ec53adb22127ff1d1d801e8128081968a7"
+    },
+    "includes/class-wcpdf-templates-settings.php": {
+      "md5": "a7275fd89e012808ce9cf06d82aabb03",
+      "sha256": "fb0536af14e7dacbf387109fcb4aae00cf3d08e314e77300c3c21b943b8c504d"
+    },
+    "includes/wcpdf-templates-functions.php": {
+      "md5": "4cd6e37562ef49817d486bd8a6779378",
+      "sha256": "fee75cd0548225c5eb44f814ffe39e7bd0cb072d20e68fd9c558e868ecd268f0"
+    },
+    "includes/compatibility/class-third-party-compatibility.php": {
+      "md5": "15c3a1ef010e1d3d0acd76aab62602ca",
+      "sha256": "1fc72a26a6680299b84594612087f500861ada5599174b7648349df566be5c72"
+    },
+    "includes/legacy/class-wcpdf-templates-legacy.php": {
+      "md5": "52169162aeb181f519af31e93d0ff44e",
+      "sha256": "b76059d18e69397ccd019e39a6e5853e9a3b1dd43ab330286aec2fb2a0e17c3f"
+    },
+    "languages/wpo_wcpdf_templates-de_DE.mo": {
+      "md5": "56e06170113c20eb51df4825e90e7e36",
+      "sha256": "b093a30b802073f60e50c0b266d49ad7773c6dfa9b6776afad189d4a25bea947"
+    },
+    "languages/wpo_wcpdf_templates-de_DE.po": {
+      "md5": "9cf0a57346a085b7f8202bdde5a96547",
+      "sha256": "2575c5e7be3e64f04d6cca46e20ad704e66a814366154c28936b183bab200cdd"
+    },
+    "languages/wpo_wcpdf_templates-de_DE_formal.mo": {
+      "md5": "c18b599e708bcf11d09b9ed8aa169ef9",
+      "sha256": "36d45369d3e467d885e0c26076a776ea73a7145c1f1eabc345aeb7a1d3fdc0b2"
+    },
+    "languages/wpo_wcpdf_templates-de_DE_formal.po": {
+      "md5": "d94d21d3478eb616301dc1738d1ee2a3",
+      "sha256": "a4d7961225ee5115dc5d583d48074670507e7500155cb3a14d4d79db82e990a9"
+    },
+    "languages/wpo_wcpdf_templates-es_AR.mo": {
+      "md5": "1b9685e5f52d5a148c4b30458e357ef0",
+      "sha256": "7e689abc328afee497237a3e5326cb4b377dee4342a2de2f3e011ec9cfc27c01"
+    },
+    "languages/wpo_wcpdf_templates-es_AR.po": {
+      "md5": "82b9f0244efc110cfd867a6864e0dde6",
+      "sha256": "6b5c1347fddae7fd986f3ce7e628cc1396933452c328a8efd61334667801beeb"
+    },
+    "languages/wpo_wcpdf_templates-es_CL.mo": {
+      "md5": "e72249dabf849ff74fefad25e3ed0c33",
+      "sha256": "f726750d7c16ba816b9c9517441b40047747ad3a430e4d07992bc22217d3671a"
+    },
+    "languages/wpo_wcpdf_templates-es_CL.po": {
+      "md5": "dc522177e1c6d4fa3b3574216fc7ddc0",
+      "sha256": "20d393b58eea8d124ccd37a6bd6899b345c787edbca4f5ddfabc760422157ae9"
+    },
+    "languages/wpo_wcpdf_templates-es_CO.mo": {
+      "md5": "6b47a19121fcef80ea6ea5ec08fad4ba",
+      "sha256": "10b75d9d93b4a6966c07a9e6892d4f1f4250e27aee3330966567483170f48551"
+    },
+    "languages/wpo_wcpdf_templates-es_CO.po": {
+      "md5": "38a302c61fd7b605104ae3479b152dbd",
+      "sha256": "ac884478ca59b53eb9d824efb0a436324b14ce9e20bd88c116fcf27b9eba8dc2"
+    },
+    "languages/wpo_wcpdf_templates-es_CR.mo": {
+      "md5": "0842d7814fef7a8a9adc5fbbb9ad548a",
+      "sha256": "684e5d877db6249a07ff5e4e868efa02394fa3158904f594d59ebbbdf955f968"
+    },
+    "languages/wpo_wcpdf_templates-es_CR.po": {
+      "md5": "1f74354b202bdb68340ae3a51801e89f",
+      "sha256": "0cac21d4e799928f22004149375d2adb4d49a93c6783d9ac98c55a42f8b34271"
+    },
+    "languages/wpo_wcpdf_templates-es_EC.mo": {
+      "md5": "0fccffa42079fc60cfcabc84a4c51b17",
+      "sha256": "ad37629d64f1f72051432f70f2e12bcb6f99f9803175264a16ee20d7d36b0902"
+    },
+    "languages/wpo_wcpdf_templates-es_EC.po": {
+      "md5": "86d730569865a0e1ab7317d03fe0a0a0",
+      "sha256": "46c04df4e6a0d3b4795c63ad61f3529b666621f8fcd6fa4ed06ff5d7d492902b"
+    },
+    "languages/wpo_wcpdf_templates-es_ES.mo": {
+      "md5": "b72836e41b1119dfe890e834d31fb32a",
+      "sha256": "a4fa2bce1bd9262ab1bb6791a1011a6996208a69ad648147396461cf3d08ce28"
+    },
+    "languages/wpo_wcpdf_templates-es_ES.po": {
+      "md5": "4b7d7091d66f97073d47760de1d45400",
+      "sha256": "d1840f01ce149172cc6a771ac8390565c77d2ba86b331aae2f3a64b9411404b0"
+    },
+    "languages/wpo_wcpdf_templates-es_MX.mo": {
+      "md5": "ba44027af9bcbf4efeeccdb1e86041db",
+      "sha256": "2e0b7e1ebc95cad19af58948656095187e5fff898a70c080ccfb6bbca10737c7"
+    },
+    "languages/wpo_wcpdf_templates-es_MX.po": {
+      "md5": "9f8aa4c65ebe278708bc0ec6acf36499",
+      "sha256": "b0858a9801340b1faaabadec2964c89c69c5bab4c27784678055aa978ae949cc"
+    },
+    "languages/wpo_wcpdf_templates-es_PE.mo": {
+      "md5": "3ed96c13b76066c2ff77a3a06e5d01fb",
+      "sha256": "91d3f634448b93ee13546e96db9d0983ada28ed0deeb501a14d87004312d8014"
+    },
+    "languages/wpo_wcpdf_templates-es_PE.po": {
+      "md5": "a2e08930a803378017e76d241b77150a",
+      "sha256": "dad7d9f5e926bab3139e893b4a80727afd57286c23bbcfb56553e2913408ffd9"
+    },
+    "languages/wpo_wcpdf_templates-es_VE.mo": {
+      "md5": "a966edcb3eb7b1febad220d747ecc3cf",
+      "sha256": "06b3f1c94b139a5abb4ca35adbe6e99e7d348d52b21e82f045acec690ebffdb5"
+    },
+    "languages/wpo_wcpdf_templates-es_VE.po": {
+      "md5": "ce25f79e3e9190481ef037de471fb0c4",
+      "sha256": "53a4a66d1a21efb2f36215c16a0b3ae56fc791c0796aa54b24b680bf14f8f4c2"
+    },
+    "languages/wpo_wcpdf_templates-fr_FR.mo": {
+      "md5": "1dec70dcdd20919beb528e943c681824",
+      "sha256": "4d0018ab4cc73c1e323934192d26a525565679b89ed63fab8bed2ff7b621bc3f"
+    },
+    "languages/wpo_wcpdf_templates-fr_FR.po": {
+      "md5": "dbf5eb67221bb18071b5c72f612ca051",
+      "sha256": "a8f83c3b8aa6a1280fdef58ff88967419b47279249f8d788e9b071bc0b701dc8"
+    },
+    "languages/wpo_wcpdf_templates-it_IT.mo": {
+      "md5": "dcf2b067e1c30312a48842a8e4ef0ed0",
+      "sha256": "e767422d9326cde9b2f351757e2f5342deec6735006c166d60e81c30594bddb5"
+    },
+    "languages/wpo_wcpdf_templates-it_IT.po": {
+      "md5": "9e0e80219c6fb5c859586692c624497e",
+      "sha256": "b177ec6add085f90e1de75511a057203f76fd8213cc960861bb55fc82e457496"
+    },
+    "languages/wpo_wcpdf_templates-nb_NO.mo": {
+      "md5": "0c95b118fc36ef3077ff09f8b520322f",
+      "sha256": "f16492d3a6c7790bb9bc9099f0e2e115ac2024107de33e1773b67123685556d3"
+    },
+    "languages/wpo_wcpdf_templates-nb_NO.po": {
+      "md5": "aceab282a207538e777ea0e663f13ee2",
+      "sha256": "f953dc34815722778e0cfe596bfdfc27b7424496306d6509e2a9eed5989357d9"
+    },
+    "languages/wpo_wcpdf_templates-nl_BE.mo": {
+      "md5": "f7b3ed85786cd91b1261912e6129428e",
+      "sha256": "c891cb5d324935767108d0721e33ef131ac1fa600ce2d757529ec66ab60b2db4"
+    },
+    "languages/wpo_wcpdf_templates-nl_BE.po": {
+      "md5": "49f7c3b1bf28f2c167e12ec70fa8d84b",
+      "sha256": "8531815e2695e6f163434a0e0ec1e62e1e7c127374d6c40b8a7bdf7ac03366dc"
+    },
+    "languages/wpo_wcpdf_templates-nl_NL.mo": {
+      "md5": "60acacbb101f89d12a6ba115d9adf4d5",
+      "sha256": "ef2e9edab960e8c6ca2c06a4094bfe539761ce8c3c92bf3d7d0691d4e0aef92c"
+    },
+    "languages/wpo_wcpdf_templates-nl_NL.po": {
+      "md5": "ccefa46a87caf293c3bfb5949b2a4a62",
+      "sha256": "8c016053a7a82c45e16557451c997ee7c4da36d4ae85aeafd09724fd17779ee5"
+    },
+    "languages/wpo_wcpdf_templates-nl_NL_formal.mo": {
+      "md5": "66ac37aa36160848b9e2d6cd7ff37473",
+      "sha256": "e2424346eb84d9ca7ebc38a54be6ed5880bbe92a01ccb5f58b90ac35e001a23e"
+    },
+    "languages/wpo_wcpdf_templates-nl_NL_formal.po": {
+      "md5": "c99d831d34e695d37c9b7561ea9914d7",
+      "sha256": "72288391873aeceaf56b85ffb3677e28dc66ae3c6c758dd1f9ca29372ae0516b"
+    },
+    "languages/wpo_wcpdf_templates-pt_BR.mo": {
+      "md5": "ee9d853ebb8c6d9c635332443c9187b2",
+      "sha256": "fdd68f2e8279ead71da35a3aa1811a8c216f8677780dc077a71c41e27da5f969"
+    },
+    "languages/wpo_wcpdf_templates-pt_BR.po": {
+      "md5": "b2b8716a85fa52e63b0e5a7a2c6c526e",
+      "sha256": "56e749d9a07d8263401424ba2f9388c370b0e609f71942b843123c0ac3ae788e"
+    },
+    "languages/wpo_wcpdf_templates-pt_PT.mo": {
+      "md5": "43a083f7a8ca339bbbe365c0114660cb",
+      "sha256": "79ca6397ac46102fb8a19c34c713be1a7f831d9ecf8f915342bb09ec02272bf1"
+    },
+    "languages/wpo_wcpdf_templates-pt_PT.po": {
+      "md5": "f28ad356fc81156430d18f8239b1d22b",
+      "sha256": "3cb85cf7182545995c0fe6b775acb8af91d50a16969571b3cebb871792d6ff7d"
+    },
+    "languages/wpo_wcpdf_templates-sk_SK.mo": {
+      "md5": "c2c13ed02cf9baedd1b7b012906c9ecd",
+      "sha256": "64c8df7c121ba34f49f6733490d7910f9112eed8294f91a8bc0e10562fe69984"
+    },
+    "languages/wpo_wcpdf_templates-sk_SK.po": {
+      "md5": "06c325218bce828d653a1c11f51682b7",
+      "sha256": "0fa5c642ce932090a8eacaae6088006a4cf97e3bae6c53c8fb44c2a610979333"
+    },
+    "languages/wpo_wcpdf_templates.pot": {
+      "md5": "7ee4c9810a9b7513708924783b9ab424",
+      "sha256": "95d51da35c436c9ae2938c193e94b22c4fd0ac3a2658ff54e1bc6d74fcca1d84"
+    },
+    "templates/Business/credit-note.php": {
+      "md5": "5df65911af923be751c7e8cf9f2657d6",
+      "sha256": "8042af974c9393c0cfab2e9dc99c9e933097c18ac9b022d7bc372c2137c97ea6"
+    },
+    "templates/Business/html-document-wrapper.php": {
+      "md5": "43ef1836e8bb284668969b95d8b1374b",
+      "sha256": "162fe5985bac116c229c73828a8bf38f6220be627c0ffa2ecb520be0eaffa901"
+    },
+    "templates/Business/invoice.php": {
+      "md5": "67478429df03356d431f8d31237d3440",
+      "sha256": "56b15cdfde3732f26935516d6cdaa364a05103de701b7a4f7f1f523371351f49"
+    },
+    "templates/Business/packing-slip.php": {
+      "md5": "2b19bbfea96e47dd7a1a46a74256e495",
+      "sha256": "846d03bd88f5317ab4e2e9e58db84605c79b366a6a856991099d6ac61f399821"
+    },
+    "templates/Business/proforma.php": {
+      "md5": "a9092cdcb167ef5708056a43739479e3",
+      "sha256": "05c5d3d099cf97844da80aa6803a819123d3d9974b08c29c9f824ab2f0b13be3"
+    },
+    "templates/Business/receipt.php": {
+      "md5": "d19aa7de21f3ce8914258c330bc92cae",
+      "sha256": "858d2ba161087075f10fee658d336e870f1a7e6d9e27f92759fdb5b252b1542f"
+    },
+    "templates/Business/style.css": {
+      "md5": "706280ca0223c6a6ddaf03d1a5f193f0",
+      "sha256": "19867bf4ad847a609c8973c3ccddf92051806400d4472a9dec3ee4f42b3abf31"
+    },
+    "templates/Business/template-functions.php": {
+      "md5": "33240bce9fe9d7e52c879a9956a8c6f7",
+      "sha256": "5a80b8117e588cca13500134bdc67239c63de71005d48d6432ed9d1d9d9448dd"
+    },
+    "templates/Business/fonts/Roboto-BoldItalic.ttf": {
+      "md5": "1eb7a893589ddce89d81cdb22a356660",
+      "sha256": "a4bcac14f419a97de0917198a4bc51c3ed4fc4a3db9f68a5102f23664ee01354"
+    },
+    "templates/Business/fonts/Roboto-Italic.ttf": {
+      "md5": "42bbe4eefcde1297b11dc4b6491e9746",
+      "sha256": "5fce8b6f8ba9f4d19f0d535e241d56a2b8e72bb07e7df711d968d092ef7f9fca"
+    },
+    "templates/Business/fonts/RobotoSlab-Bold.ttf": {
+      "md5": "1ec06eed11bbcb1ee510b8f3522adea8",
+      "sha256": "13aa5f54c6f2fa2e388fe0e675cdbcc6a81f6270a8bf9c03a5df8af9cb022810"
+    },
+    "templates/Business/fonts/RobotoSlab-Normal.ttf": {
+      "md5": "79754934891c17dd798ca5e7eb5fa9a9",
+      "sha256": "153bf5b428d5cd0b27a63f9a36941cd7d6c7523a7afd59c76a12f798e4c33127"
+    },
+    "templates/Modern/credit-note.php": {
+      "md5": "972628ef1ffda636e4dcc286930e707d",
+      "sha256": "dcfb8fdc885c77cb982c7d1cc6f8b8a7302d156ce63bedffcfb114e5c233e336"
+    },
+    "templates/Modern/html-document-wrapper.php": {
+      "md5": "43ef1836e8bb284668969b95d8b1374b",
+      "sha256": "162fe5985bac116c229c73828a8bf38f6220be627c0ffa2ecb520be0eaffa901"
+    },
+    "templates/Modern/invoice.php": {
+      "md5": "2bc8b514c623fb80f2cd2ae287d2ea9f",
+      "sha256": "6d2ef9bff06ecac8e884620a77dc2a39d7a7da367552401e7d5673455af46857"
+    },
+    "templates/Modern/packing-slip.php": {
+      "md5": "a878bfd7ae96d60fba4785e8b720bdf4",
+      "sha256": "b3fe7bf191595896e72c38993d27c058611af78a9304a24ff7f1c51437367767"
+    },
+    "templates/Modern/proforma.php": {
+      "md5": "6cefe5708fa0fc7d0dc9ce6ee732ade7",
+      "sha256": "f8b6302fef2b250a5df42df05d07f75da45bd050eac5324308a346e4d169991c"
+    },
+    "templates/Modern/receipt.php": {
+      "md5": "9eeaa737f9cd1faf0b8370ceff91a60a",
+      "sha256": "68357d484dcbc0bd4a2297c0b9d1c6aa8acce9d7486dd0e35119dd7c85a50b2d"
+    },
+    "templates/Modern/style.css": {
+      "md5": "fb491364d2951ae1fb3c5324b0c7fc39",
+      "sha256": "757264935539af38dde8a3855c0b108c17aa7d619d0b960ebefe047bfd8e1dde"
+    },
+    "templates/Modern/template-functions.php": {
+      "md5": "31341fe604e19f4c385b28ac18d1f456",
+      "sha256": "9e52ed0c73dc8b7bf9862c39c5a430dbe0964f549279baeeca3f5b2ae424d420"
+    },
+    "templates/Modern/fonts/segoeuil.ttf": {
+      "md5": "11fd79bcf7943677aa0a7217a8e19470",
+      "sha256": "aadc9f00a88979f35354ae936644efff47581b666a8c12352f4f48b65ab14d7c"
+    },
+    "templates/Modern/fonts/seguili.ttf": {
+      "md5": "d6a449664f4fcbec971dc5b92ff7801d",
+      "sha256": "67e2c30f90d96ed45998917eb8c3c7577fa70dd468fae54c13d1771961fa0b8e"
+    },
+    "templates/Modern/fonts/seguisb.ttf": {
+      "md5": "5040e8da248eedac256a765b697e6735",
+      "sha256": "8b2d0233b1827c47ce945a858582be4cbc8fa4c166ddac2ca56686acaae4c4a4"
+    },
+    "templates/Modern/fonts/seguisbi.ttf": {
+      "md5": "1770fbba68d5afa129c8243ed92b0c1c",
+      "sha256": "b637e1d88370f6c166384e84b83decd875189db296aa5b5f9454a0af289ff9ea"
+    },
+    "templates/Simple Premium/credit-note.php": {
+      "md5": "8f4e9daeb72268a5d10ad36e49c3c1a2",
+      "sha256": "9d570bbaf8e5c4d8b8bfdd5915721884a47b93d1d87de79f093af8b05af673f5"
+    },
+    "templates/Simple Premium/html-document-wrapper.php": {
+      "md5": "43ef1836e8bb284668969b95d8b1374b",
+      "sha256": "162fe5985bac116c229c73828a8bf38f6220be627c0ffa2ecb520be0eaffa901"
+    },
+    "templates/Simple Premium/invoice.php": {
+      "md5": "14d56e5782a5a3c8b34620a7f11cab68",
+      "sha256": "e6549ea54b379ef63e93328e0156ead08e93c74cd19f8c35288e045a44a947a4"
+    },
+    "templates/Simple Premium/packing-slip.php": {
+      "md5": "4126127bfd497e1fbe1f9b6dbc521a50",
+      "sha256": "9bb431d97fa1d6b9185adba7b32127bd106b784297c1ae126e2d1f9674e62207"
+    },
+    "templates/Simple Premium/proforma.php": {
+      "md5": "1748af619d71f673c8d647cd5a1fe41f",
+      "sha256": "aa30e5ea6bdf24a29127111b572d663073ae6bc6e582a60d6f76bb7e3ba772fc"
+    },
+    "templates/Simple Premium/receipt.php": {
+      "md5": "c44949bd352df69b114ce46189724ab1",
+      "sha256": "f1514b6bc77bda2b57046fab318e159591b42466ee1b982720aaa3d49cc5738f"
+    },
+    "templates/Simple Premium/style.css": {
+      "md5": "668fb8170894677bc8dab8e938cde227",
+      "sha256": "91db65ac4fa0e11933077db55667ec2cd49629b08b4a8179a1bea520cfffaf1e"
+    },
+    "templates/Simple Premium/template-functions.php": {
+      "md5": "52d5543df5dc1228e3ea6759ddae58c0",
+      "sha256": "c735dfd0cba01b9de9d8c330cecc543b37af29a5bec63f0e3bcc060ce237710c"
+    },
+    "updater/EDD_SL_Plugin_Updater.php": {
+      "md5": "a183c3eb2d92c6b050ea06e48eed4dad",
+      "sha256": "ec1435c7bfe5f03c759f3b203f5f487ad98da9fc8ffacbca4f0a7c8d28226a69"
+    },
+    "updater/index.php": {
+      "md5": "67442c5615eba73d105c0715c6620850",
+      "sha256": "bd48c24ce4500e60d2524571756787283f0d3fbfa50b116331309c09773f0cd1"
+    },
+    "updater/update-helper.php": {
+      "md5": "fe865411e378867617fec3b160cd3f0a",
+      "sha256": "0d3363789f83a0738721efd9bc473cfd409fda949eed047509a1cd7ca40c04df"
+    },
+    "updater/assets/script.js": {
+      "md5": "8a6d0ea4a2567c2f7a9ac3434cb453e7",
+      "sha256": "f334279e702acec48f05ae68b7f06ee85324badeef845a06cb399c5b0f206ea0"
+    },
+    "updater/assets/style.css": {
+      "md5": "f0ccffe9fe38994f1a97f7fe8b6d7c2f",
+      "sha256": "b7f0547d00b71988d927766e15198602b13861c43fb848ed6affa0cae32b6c12"
+    },
+    "updater/languages/wpo-updater-es_AR.mo": {
+      "md5": "d9a06bb1aa2ecbef4f5242720520331e",
+      "sha256": "69fd599415b153ceb2117921f4e4ce2dac9d87ea736b026bf9a9979d9e17c60a"
+    },
+    "updater/languages/wpo-updater-es_AR.po": {
+      "md5": "7fba6b4f0df5c46d7a43d2eef3ed5234",
+      "sha256": "e15aa26bef3105637128426169bb76e4908b5f91502a1b5af6bbec8be3689c85"
+    },
+    "updater/languages/wpo-updater-es_CL.mo": {
+      "md5": "2e338152d8fa8a5c63c3f25fd4abc190",
+      "sha256": "b95fe5fd458ac20b633ff273af4a31bb47cc676c3635ba39eacbdcb58117a53f"
+    },
+    "updater/languages/wpo-updater-es_CL.po": {
+      "md5": "fc1d4f0e5b1223eae7fdd7002ad4a409",
+      "sha256": "78bd6062b92b8a65c03524de1bad0eaed452496ac08998311271a5c72c8df8ee"
+    },
+    "updater/languages/wpo-updater-es_CO.mo": {
+      "md5": "4d6f2727d8f75abcd43c90fb5c381a3e",
+      "sha256": "0702994fd39c474bdfef4be346fd5e21ade171786529bff098dc1a7ef98be83f"
+    },
+    "updater/languages/wpo-updater-es_CO.po": {
+      "md5": "70267ab28f8d80010262cbf6bf482147",
+      "sha256": "2388d9c26526703357bbcf2767e3670d04e18b9fadc1231e781feed6205f3e56"
+    },
+    "updater/languages/wpo-updater-es_CR.mo": {
+      "md5": "5cfa3fd1c7562dd864db5fe63dcf5687",
+      "sha256": "0c1851a9a91851b9b3b4ee4d40f96c83f636d529e4dd197dc15ab33a424cd27f"
+    },
+    "updater/languages/wpo-updater-es_CR.po": {
+      "md5": "72017faf43deb420e91599ce8b803abd",
+      "sha256": "d391689f3c6b644e29c74beea60f55862776f101cbe5163affbe5c735adce1ae"
+    },
+    "updater/languages/wpo-updater-es_EC.mo": {
+      "md5": "f1203f9bddf2517adc734c7675665d81",
+      "sha256": "7d95c1dec41addb6154b6cd6e0a58fc071c7f78178ea6bae80a539030a3e35f1"
+    },
+    "updater/languages/wpo-updater-es_EC.po": {
+      "md5": "da7527cc11143b5649a405e3c80a1321",
+      "sha256": "94120e62c8813763978158a7741bf1616c0e8010dc43a053ea94455394effd0b"
+    },
+    "updater/languages/wpo-updater-es_ES.mo": {
+      "md5": "27d04e03728d35880d8abb5efee14157",
+      "sha256": "6406ba2430edeeb9e00d197f5b1038e37f49e93d8a19b8fb75602a5b1a62fedf"
+    },
+    "updater/languages/wpo-updater-es_ES.po": {
+      "md5": "ef516fc57c65dc92b90faaadcc46eaba",
+      "sha256": "87d89e8358649338e4598b078c7c5d35884601b6c13e166e620294e003dfa746"
+    },
+    "updater/languages/wpo-updater-es_MX.mo": {
+      "md5": "306d06118645152153a11a75cadb2254",
+      "sha256": "89dcf02f6dd9adc2f65cf8d6182a956b2d2d707398871470334404fe2047c2d3"
+    },
+    "updater/languages/wpo-updater-es_MX.po": {
+      "md5": "b91dfa66de74f5a9c941734281642055",
+      "sha256": "27d33258f00961ab0d3be42752ac991282c056acc5bb0291e208b60e3f0622d6"
+    },
+    "updater/languages/wpo-updater-es_PE.mo": {
+      "md5": "c8057bb2b3be7e2edf8a42904b481092",
+      "sha256": "9f3fcf08eedb71d469ca30f5444a29756aa56e5389b438f348298467309d6842"
+    },
+    "updater/languages/wpo-updater-es_PE.po": {
+      "md5": "4f811566e6c54aef636741f8f1a75b17",
+      "sha256": "7d912fcda20cdd22f2a80a3e0b966123d62f68a424f8bddb8761e6dd3cc3a961"
+    },
+    "updater/languages/wpo-updater-es_VE.mo": {
+      "md5": "c8057bb2b3be7e2edf8a42904b481092",
+      "sha256": "9f3fcf08eedb71d469ca30f5444a29756aa56e5389b438f348298467309d6842"
+    },
+    "updater/languages/wpo-updater-es_VE.po": {
+      "md5": "4f811566e6c54aef636741f8f1a75b17",
+      "sha256": "7d912fcda20cdd22f2a80a3e0b966123d62f68a424f8bddb8761e6dd3cc3a961"
+    },
+    "updater/languages/wpo-updater-fr_FR.mo": {
+      "md5": "d638131e5ed4057342fff898499e1593",
+      "sha256": "1fcbe76b44363de1267bf6621ce7e8228b9080228dbfd2bea6a521e78083c7dc"
+    },
+    "updater/languages/wpo-updater-fr_FR.po": {
+      "md5": "85775e1506de3e4c829594b13b2e840c",
+      "sha256": "558699ca428686af110213f619262cf0f8869e5321fb2e1ffa59e12e0e141fc5"
+    },
+    "updater/languages/wpo-updater-nl_BE.mo": {
+      "md5": "949e901ac2230a0577d6fe82560b17df",
+      "sha256": "b14400c414689cb9ce737bf887c77097e40f92ca7c3069cff2c3250cf333377a"
+    },
+    "updater/languages/wpo-updater-nl_BE.po": {
+      "md5": "fca1ff3761a44db0ebfa091a085e9d0d",
+      "sha256": "4cfce8024772758e81ca638c63fc68e04e2c5d6d03f45ef29a825dd642a5c4ba"
+    },
+    "updater/languages/wpo-updater-nl_NL.mo": {
+      "md5": "361705411c6963215f1f474fc692c9aa",
+      "sha256": "d531b2d13de7ff2a299d3bd86c87301cd3dae038a772f9a08b2bf85efb9ca5fc"
+    },
+    "updater/languages/wpo-updater-nl_NL.po": {
+      "md5": "b345e3c830d5584f03327eb45854dd16",
+      "sha256": "3e7505b03482de9eae25ef5e47b2df128518ffde5eb90b06ea88db3db56fc0ba"
+    },
+    "updater/languages/wpo-updater-nl_NL_formal.mo": {
+      "md5": "60fa390fc3c286bc1e2778aed0f5a33d",
+      "sha256": "5dc61122d05165f1c13ae4098c0a9da92199b38a633baf31a2977e972f9d2a0d"
+    },
+    "updater/languages/wpo-updater-nl_NL_formal.po": {
+      "md5": "354072f6d379afcdf2da2866387c9632",
+      "sha256": "5ee82e395c8b49fb33e094dbfc3484ad3bf3735d74f2e9d516da234108293917"
+    },
+    "updater/languages/wpo-updater-pt_BR.mo": {
+      "md5": "cba283cfbeb02049e18f73f111ecbd7c",
+      "sha256": "ffcfd93a225aeb95a0565b381cd85e7c5edf7e2aeb3de2fa4caf912d9bddc1b6"
+    },
+    "updater/languages/wpo-updater-pt_BR.po": {
+      "md5": "c1e10bccb5d7d02e3613e3855adc984e",
+      "sha256": "2a1fa568dbdae1f5dd07caa38d70e48bc8392b071aa11536f414b7b3e4b5f988"
+    },
+    "updater/languages/wpo-updater-pt_PT.mo": {
+      "md5": "537074e33c9b970f77bd67fd16967775",
+      "sha256": "5a53458bab1b29459f9edcc0164caa51b30b7f7e080e5f485961ecee367b09b6"
+    },
+    "updater/languages/wpo-updater-pt_PT.po": {
+      "md5": "949a155a58c948006cb374d3f9f987d3",
+      "sha256": "ee530e2d5eb508e971f92a3146f92ad27652901d68de6bfd20c05ed6fd5f4275"
+    },
+    "updater/languages/wpo-updater.pot": {
+      "md5": "55079cf53e0c06c666972a5efb066165",
+      "sha256": "c56cbe24d53d06f9da5660bea819dc2511f3bc9577771f69aedcd020f8c3e3af"
+    },
+    "vendor/autoload.php": {
+      "md5": "79507f8d72bad2b6e30cccd3e0ab9087",
+      "sha256": "8cf4f62b0b552588c0488f55c97a107093bbf23f48525db8e89d521631bed13d"
+    },
+    "vendor/composer/autoload_classmap.php": {
+      "md5": "766a408ac0472126ee4c540ccc11b6a8",
+      "sha256": "6b0cac390c19e5eab6c8b7b80c74435bc62928dff2b1507146cb9a556163bf8f"
+    },
+    "vendor/composer/autoload_namespaces.php": {
+      "md5": "224007c97efb82c7b45b0e92f240af41",
+      "sha256": "ede505407590638a435137f4e060136f1008de79fc169b3de9793423b0cea38c"
+    },
+    "vendor/composer/autoload_psr4.php": {
+      "md5": "93af80b06190b7017756531358769461",
+      "sha256": "a999eb24d0a18b01d22bfefa2e23fc3b1316a158a289a850f9e6df03647957c2"
+    },
+    "vendor/composer/autoload_real.php": {
+      "md5": "ecb5f2feb9be87e401a76b6ba5100d23",
+      "sha256": "25eb0068e540e3e5bafc868846f377306fe232a28213f6a9cc7e2e01653d98cf"
+    },
+    "vendor/composer/autoload_static.php": {
+      "md5": "cd7037de5e7f1772b0ee88cb8c3e757d",
+      "sha256": "02c1dae57fa93a37e9696b7e29949e254bb6c555d5cf0f02faee060ce4fcfced"
+    },
+    "vendor/composer/ClassLoader.php": {
+      "md5": "5d45ecd9753b384fd1d36531ccf01f8e",
+      "sha256": "42b8c5525dbc133045f47f4275f017071c82144a34acb9396d955ca10729cb2e"
+    },
+    "vendor/composer/installed.json": {
+      "md5": "8948689ddd6765cb530a40c2b32b5e40",
+      "sha256": "3c75d0ea6f7dcfd7ac6324985f1c87f9227ccc5b36bc2fa7b7eb66a32d2f9c71"
+    },
+    "vendor/composer/installed.php": {
+      "md5": "73b0d17d7f3d4ae39ef851b726300523",
+      "sha256": "f9a30099cfed3812833d052abe4131b2007cc8cddad2f81c5e49a692c473fd48"
+    },
+    "vendor/composer/InstalledVersions.php": {
+      "md5": "7f268aa312bb8a6a105ce33351d9961c",
+      "sha256": "3343ca2bf56e8116e7c9a87f9139fad37412f55a18e296a94dd52943332a8bbe"
+    },
+    "vendor/composer/LICENSE": {
+      "md5": "955d5fe58c231244f6b49000f383b5e2",
+      "sha256": "c8cce4b6b9729f264ffdf9296d505d63432497feeed1f586d1902b942197e024"
+    }
+  }
+}

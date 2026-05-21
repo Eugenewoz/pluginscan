@@ -1,0 +1,570 @@
+{
+  "plugin": "woocommerce-shipping-fedex",
+  "version": "4.5.5",
+  "files": {
+    "changelog.txt": {
+      "md5": "0eed76a6f73f9ddeed4bee577d9ec5f7",
+      "sha256": "70e155ac151031b6836da60703fe9aa5a39ac60eca7326b68e4016af5b98e092"
+    },
+    "woocommerce-shipping-fedex.php": {
+      "md5": "21896aaecf4de3985e3b06cb67343a9f",
+      "sha256": "48b4ba36861410e316241f4aab5279907ea8e8b7e507a05e77686da9095e3a99"
+    },
+    "assets/css/admin.css": {
+      "md5": "504601e993d3ad128e0ec43a9fffd006",
+      "sha256": "8198b2f65bc8cb2ac250bf23c23f88feac500707490c19e4c75357170bdf70f4"
+    },
+    "assets/js/admin-instance.js": {
+      "md5": "c912f2962005e9cffb278f9cc4798a5b",
+      "sha256": "9b708f866164c3bded315bd484fa26f87be9f2e9c23db540ae5241f2b322a065"
+    },
+    "assets/js/admin.js": {
+      "md5": "f4334f72995b5f16762c0b732ebf0a62",
+      "sha256": "43c81d405b48ea8ec183549fca330e9457641b7acbd37e69baf079a4b79f8451"
+    },
+    "assets/js/fedex-cart.js": {
+      "md5": "d0b0cc1cf4eae57d5f4937f7aa8f58fc",
+      "sha256": "4842f57cdd042fd4a38e8c371fa09bef5e560104c3b20c9add556cd8e4d7ec80"
+    },
+    "assets/js/fedex-debug.js": {
+      "md5": "bfd41ff0526494ee6fdee971a9442f61",
+      "sha256": "ca1dd70c019eff31935a7de858d78e058cf0a9a4e371673f8837a96bf34149ca"
+    },
+    "includes/class-logger.php": {
+      "md5": "ade0e697d1a3de5ea3574a813c80dca7",
+      "sha256": "2c91c306b0eada804bd345d77bbbf9112c906ad6d904bb407d80d8e101fbf0ce"
+    },
+    "includes/class-product-editor.php": {
+      "md5": "eee729608eb389d9df65bf4b43b565be",
+      "sha256": "335c7c14a0dbef61df259ce649c8bd39cefd3519f4cf73ac59fd18ce8dc8ffa2"
+    },
+    "includes/class-wc-fedex-freight-mapping.php": {
+      "md5": "abed7685f09c4bcdc3724d9091d74c42",
+      "sha256": "1a3b950912168c17aa9caf270e391de7a4c0f938e9a0b0529eb4259fcbe644be"
+    },
+    "includes/class-wc-fedex-privacy.php": {
+      "md5": "5bfbcfdb4d0b721c109d6ef8acfde2f3",
+      "sha256": "92c5489124c489016a6f438f6b988e2620050281e57bdeb3058205a8532cf6b0"
+    },
+    "includes/class-wc-shipping-fedex-admin.php": {
+      "md5": "20ba3a522ed4f5884c624b8b2fd0aecd",
+      "sha256": "b3ebc461c9f03f389d3c0079d46f6ad92a25e753a81ce9cf0d92dbda88695a4f"
+    },
+    "includes/class-wc-shipping-fedex-init.php": {
+      "md5": "daa0bb68cb036de71384883937d79199",
+      "sha256": "c8aaa8a1ba27ea11a4c4c0d93ece8e03d73ae46770652079af5736437a76135a"
+    },
+    "includes/class-wc-shipping-fedex.php": {
+      "md5": "27973d0fa932f395ac9988a856c54fbb",
+      "sha256": "e0e6e08869d068c97f010e12388e5233cb80dae6ad0780d85a4e00ed1c3fbe1b"
+    },
+    "includes/trait-util.php": {
+      "md5": "dc57601a29e3165aeb121803eae77bd5",
+      "sha256": "16663b0d7be0c414b994348b407ec03fcb434ecfb2cbd44bbed56d7600f52535"
+    },
+    "includes/api/abstract/class-abstract-fedex-api.php": {
+      "md5": "830d1718a2259fc25fcc32679d913489",
+      "sha256": "8f72cd86851b4a6e0eeb41ef0697a82983c45263d8225901d95a4e3a1aea77de"
+    },
+    "includes/api/legacy/class-fedex-legacy-api.php": {
+      "md5": "d7c832e6d84739cd07324dbf85dd9587",
+      "sha256": "3331451b2ef2cf6af8b4dbe0155498aa2712c236fa5a566ed0a2b9c39573d325"
+    },
+    "includes/api/legacy/production/AddressValidationService_v2.wsdl": {
+      "md5": "7a1e7c18ce50e6b890b09169b3acb789",
+      "sha256": "7eda882f21d60cc5a9fc9f049eb0cf716acb4c246563e0cc2ee09e5268e39bc9"
+    },
+    "includes/api/legacy/production/AddressValidationService_v4.wsdl": {
+      "md5": "0b57fc9a88115b9240a82340b2a496d5",
+      "sha256": "0265f7827d6ebb299c7c7f3dee1c075a8048cc73972f8db80b2951cee62e9ba0"
+    },
+    "includes/api/legacy/production/RateService_v13.wsdl": {
+      "md5": "04b747ebca748f139786c0bc24719b7d",
+      "sha256": "d9d362bb3456b31a99769303427d5387467f070340b58229f8fa005ab41918aa"
+    },
+    "includes/api/legacy/production/RateService_v16.wsdl": {
+      "md5": "f2948484ad0f3775d256ce4d7911ada7",
+      "sha256": "5ba56c23a0eb35b5767867c2002349776608f98bc74af0e883feb6ef685f1dea"
+    },
+    "includes/api/legacy/production/RateService_v31.wsdl": {
+      "md5": "a382f302f5d0eb96f13c06bb6d680c27",
+      "sha256": "57b8e1f1ff1fe160f24df063462736ec326ae6c71cb3f84bd7903f45c2f9b6cc"
+    },
+    "includes/api/legacy/test/AddressValidationService_v4.wsdl": {
+      "md5": "1d7ef8d59171424e5b08803420648fa4",
+      "sha256": "3f7386a27a0e89073988195f157da3d83b5e6795a6151621ca5f5dab8beb92f0"
+    },
+    "includes/api/legacy/test/RateService_v13.wsdl": {
+      "md5": "1fbc798f0fc0c7a7e9cc92100ec9e0b5",
+      "sha256": "f087590b9dcdb9892d82a8b62df833f72fc2d47f1507374ff262d6938c962c4e"
+    },
+    "includes/api/legacy/test/RateService_v16.wsdl": {
+      "md5": "7c252e95b0aebe4aa77999a7b6eba5a9",
+      "sha256": "6fdaa49a69cea3f24045f437b9916bd2c18d58ee10b832f0d8e76883e6e694a0"
+    },
+    "includes/api/legacy/test/RateService_v31.wsdl": {
+      "md5": "eddd845078b22a080e4cb2bb3b07a3a1",
+      "sha256": "353d1366f44b58e9f7b63793b290381bc59386752bab4b01ae18b5f64b3bedc2"
+    },
+    "includes/api/rest/class-fedex-oauth.php": {
+      "md5": "c99a205fc896b80dae86146f4b22e449",
+      "sha256": "b45e95344700b0c5990fe4b9a8f0f451bf1ab8db0309cb85e86af6f14dffa838"
+    },
+    "includes/api/rest/class-fedex-rest-api.php": {
+      "md5": "eef4f06b4a1c21822cc10c800dc09cf8",
+      "sha256": "3adf9c22dec2ab29bf8e6900a6edf20b228ae593e161e4aa7d1ee2023c54ac6d"
+    },
+    "includes/data/data-box-sizes.php": {
+      "md5": "782d06d6ca03fd13818344fbed6ed284",
+      "sha256": "2cd03ab283188ad38bfb6c9f192cf3023e5ed66cb9dca5e2c91e64306c37f531"
+    },
+    "includes/data/data-freight-classes.php": {
+      "md5": "3e554cd549a2917f9e984e83bd5c5970",
+      "sha256": "42b740710153a7444f69c76433206a0c56b51b3012e6523a32a0b0b5609cd02f"
+    },
+    "includes/data/data-freight-services.php": {
+      "md5": "e03ddd0b0c32a5f88a2e4f90c67ac1d8",
+      "sha256": "b3ba98ce2256e78030ceff3cee30d77b385d1d169c9ceae3e288d8402e0f9895"
+    },
+    "includes/data/data-ground-services.php": {
+      "md5": "a30a25fe268bf6c53afff96dfd0a1f31",
+      "sha256": "ea4e14d6a36ffaed2ac3d789cf59b6fcfa45938f0a6705c938a424d42f90d576"
+    },
+    "includes/data/data-service-codes.php": {
+      "md5": "56bbbc3f3d5dd23686617b37a49f9fa2",
+      "sha256": "607430d47e0e1b773eaf27e92d28d06be96ff3f3ff5865adc55ed2cd39994efd"
+    },
+    "includes/data/data-settings.php": {
+      "md5": "67baa233565c48788128fe6f79f94078",
+      "sha256": "baff6a1b16771923d52266e557eb1e0ac61d6510f1d1ee7f27cb559e21033923"
+    },
+    "includes/data/data-smartpost-hubs.php": {
+      "md5": "d71f54b4f0640deb9728b8f4d52e8647",
+      "sha256": "71bea1485c3e684052d083c7e5f2ee20a7a61dd67bfaaba92b580a98c0532eb5"
+    },
+    "includes/data/data-smartpost-services.php": {
+      "md5": "2145128e38d73c59b8908798e688c770",
+      "sha256": "b2c69741178dda38280ba279ea79b94d6d1c99c4f02f2b783ac896178844cde8"
+    },
+    "includes/views/html-box-packing.php": {
+      "md5": "1137b2b5e2cb36608a526935af76be7f",
+      "sha256": "b7d319ba2d64a42d9a9fc1051d7131c363ee7c11657e7c7ccccbae7118455a25"
+    },
+    "includes/views/html-oauth-status.php": {
+      "md5": "0f6a2ead3d486fe588058d0680c00d73",
+      "sha256": "6ae87232cc2e7bcfeb735a030eb869be2b85743f00f3623fa8995e6ae60648f2"
+    },
+    "includes/views/html-services.php": {
+      "md5": "8f3c2a7583104e12c8454f0b5b14a862",
+      "sha256": "7506777b64d77007d5484fc9ab8f18dd37bc4b96dace8bd1bc0d225f93376969"
+    },
+    "languages/woocommerce-shipping-fedex.pot": {
+      "md5": "4cd3dd6e1c8335cbbcba5d2a40d65dd2",
+      "sha256": "490da3b877f3e8a5ab51930b5f36fe47ff58290a93e1473fa931185414699fda"
+    },
+    "vendor/autoload.php": {
+      "md5": "7b4b454fb394d7c09ba648b7c536679d",
+      "sha256": "0e8ee82f0443f63935a48c046416b30d90a217ab877932a8b4afcd9dcff0d851"
+    },
+    "vendor/autoload_packages.php": {
+      "md5": "e355cf545dcba1180516599e03c44f90",
+      "sha256": "8550ed57807505c0700f0ed9450c92af1c17d9d1dffad273d3df0dff205c2eac"
+    },
+    "vendor/automattic/jetpack-autoloader/CHANGELOG.md": {
+      "md5": "d7e4434ef86f302b66873329b8e53ea5",
+      "sha256": "b093f15f449b754131dd3489e94ad294317814c6b7dccaa5d86ba8a929324380"
+    },
+    "vendor/automattic/jetpack-autoloader/LICENSE.txt": {
+      "md5": "07b6f86da467d9d95366b630cc61664b",
+      "sha256": "e5d670958f34eae710b8ce670c396e346e834f4bfd3ca3c826935683549daca0"
+    },
+    "vendor/automattic/jetpack-autoloader/SECURITY.md": {
+      "md5": "e86db7da79a99aef78871f8c828a6135",
+      "sha256": "802588f198dacd67346a80af4cd6388cd24889c1010106225f36abffb206c5bb"
+    },
+    "vendor/automattic/jetpack-autoloader/src/autoload.php": {
+      "md5": "f726be565ea2c7ddd8f023b436a4e504",
+      "sha256": "fc279a1153a4e473d01e8f286df0b8697184c12664888edbe5f2ecb78349a5ff"
+    },
+    "vendor/automattic/jetpack-autoloader/src/AutoloadFileWriter.php": {
+      "md5": "6daa0b949c3a798ec0eab7efa0cb5df8",
+      "sha256": "17f62edadef9a22f0a0a80446e8ffa5fbdacf221ab7114b78dfc03ced9199096"
+    },
+    "vendor/automattic/jetpack-autoloader/src/AutoloadGenerator.php": {
+      "md5": "5261a9fb3553a56848b3bf1f530259ed",
+      "sha256": "07f0ad0c567735d9baf3ddec78c7725425c0c65c5bc6b84116e8824774533e88"
+    },
+    "vendor/automattic/jetpack-autoloader/src/AutoloadProcessor.php": {
+      "md5": "5aaca8fc9ae41b5a7466a3eb7ede1162",
+      "sha256": "771a12c96c68885419270dd9f3d6955ea8a0cc022a7eb0563838388835f4bc18"
+    },
+    "vendor/automattic/jetpack-autoloader/src/class-autoloader-handler.php": {
+      "md5": "d2c0559747fecabc4c056871be49a212",
+      "sha256": "47408ccbc55e5bee98d736a0b0ff0548fbe15c3096773f2028c8a18baae43561"
+    },
+    "vendor/automattic/jetpack-autoloader/src/class-autoloader-locator.php": {
+      "md5": "3194ae7ea9d247031efb76b563fcc613",
+      "sha256": "4e4ef4bf4f4195edbac002acf50153dea04d094daa48f06dcd6db85719beee44"
+    },
+    "vendor/automattic/jetpack-autoloader/src/class-autoloader.php": {
+      "md5": "7b3853334619997091cdd48925af6ddc",
+      "sha256": "6263a006874c83507e1406d88bb2a67a74d1509c5fa1830996854f3f33db6708"
+    },
+    "vendor/automattic/jetpack-autoloader/src/class-container.php": {
+      "md5": "7842f1e9ca1fc38351227dcd35fafc80",
+      "sha256": "8a49cbfabc69ec1bcf73f64573799d2bdf14dcbc633c7c980a3faf27f8e0fd81"
+    },
+    "vendor/automattic/jetpack-autoloader/src/class-hook-manager.php": {
+      "md5": "f14b881eb7cef8cc55d2970806d787ba",
+      "sha256": "9a01ec1509779411e27624de854a8f5e4f8a10fa73987bb8eb84355ddda7a712"
+    },
+    "vendor/automattic/jetpack-autoloader/src/class-latest-autoloader-guard.php": {
+      "md5": "c1a7514424c2b2cd1f129a072238b195",
+      "sha256": "c6830f6d87c74c2cebf0042f562f81a2c859a70d081977a056034df67f11fced"
+    },
+    "vendor/automattic/jetpack-autoloader/src/class-manifest-reader.php": {
+      "md5": "4303729849a697761d9377baa36ab1d5",
+      "sha256": "a0289c0e9a0074a74444d49520e3982efe3b7a28162cb0c898131a6bdb432c60"
+    },
+    "vendor/automattic/jetpack-autoloader/src/class-path-processor.php": {
+      "md5": "b3460c56c33959acb4c43b42394e7313",
+      "sha256": "80d509da412497727a0abf69f125ec89fbe4c3102ae860d53c2e5c1065acd40c"
+    },
+    "vendor/automattic/jetpack-autoloader/src/class-php-autoloader.php": {
+      "md5": "69a4ee8352c9401332fafa5826d94dfb",
+      "sha256": "0c2076a8c3354e77ae21696e6cb0c69c5f373442ef3b2995500799eb1834f858"
+    },
+    "vendor/automattic/jetpack-autoloader/src/class-plugin-locator.php": {
+      "md5": "7d481b2f10dd1dba6069c14163983600",
+      "sha256": "4c562a1342dd166070ff370ce8f991c7dade98668daddc4944321baf8d403dc4"
+    },
+    "vendor/automattic/jetpack-autoloader/src/class-plugins-handler.php": {
+      "md5": "201061e6f87ea115d13a4bfdad8748fa",
+      "sha256": "062218eb649418e9b1358f3a6dfdc19236e3179137488b3af8531a2593f070d2"
+    },
+    "vendor/automattic/jetpack-autoloader/src/class-shutdown-handler.php": {
+      "md5": "4b77fa393b0d522b2285fb4ea7ebf385",
+      "sha256": "6f8f2a0dc96997d8e8e2d0625c45ea5ced17fe4e4d7e580a3792b32b738a4ece"
+    },
+    "vendor/automattic/jetpack-autoloader/src/class-version-loader.php": {
+      "md5": "d2dd025576cfb180a95949fe8ad7aec4",
+      "sha256": "b2e4fa106557a688d22bc7ffaca5161737221cb4808c6fd7f74f6421c4100770"
+    },
+    "vendor/automattic/jetpack-autoloader/src/class-version-selector.php": {
+      "md5": "a28e8064e087fb21acc96d699283bc12",
+      "sha256": "4c8bedcc76465a7946afcb9a3b52242e2d2cbcb70ce9597db2275d2f9669e71d"
+    },
+    "vendor/automattic/jetpack-autoloader/src/CustomAutoloaderPlugin.php": {
+      "md5": "d6549607472ad1cbbc358fa54bb1c571",
+      "sha256": "10e37c231348880d9b3032bc877953d289ddf05f81b02dc3a0b3457c098b5743"
+    },
+    "vendor/automattic/jetpack-autoloader/src/ManifestGenerator.php": {
+      "md5": "407af2bffae9e0a6a7f3dbca27eb4ec4",
+      "sha256": "537231b2274a4863ef7ad553cf7bfe6f7a4410eed04de233e6ffa250cc87c1d7"
+    },
+    "vendor/composer/autoload_classmap.php": {
+      "md5": "a0588ff6aab4a298b7ec62af15217b72",
+      "sha256": "95694f408b946b09d456756ea09a594401760dcdc5a35473b0b04fc7549537c5"
+    },
+    "vendor/composer/autoload_namespaces.php": {
+      "md5": "224007c97efb82c7b45b0e92f240af41",
+      "sha256": "ede505407590638a435137f4e060136f1008de79fc169b3de9793423b0cea38c"
+    },
+    "vendor/composer/autoload_psr4.php": {
+      "md5": "57bca3b811b20a26c6ffdcf56eb3fe3a",
+      "sha256": "fd2017d42f0944e2a59ef7bab3e02b337983348535d67ce017521a98cdd5ed60"
+    },
+    "vendor/composer/autoload_real.php": {
+      "md5": "11fb5a25d9471b7b752994e4d6020b06",
+      "sha256": "e539ef193e167dd8b32a9853ca8728035caf460c2fd777e41d806c4522655833"
+    },
+    "vendor/composer/autoload_static.php": {
+      "md5": "3e0b56d6a350f14c02ef17410c645901",
+      "sha256": "fdaeb5f071a50d2c2cc094a5c30537173ba7732d48305846a26158856585fc58"
+    },
+    "vendor/composer/ClassLoader.php": {
+      "md5": "c02be6d96671f88d28aad3ffa134c8ae",
+      "sha256": "d4b2313e562edf942838ec316d983c1a3459ca67da3e5658e861200b0b3693c2"
+    },
+    "vendor/composer/installed.json": {
+      "md5": "ccfa9fec081fb8fa68315201e99e2252",
+      "sha256": "2c14f3c343631ddd431e210b1a2b680c01932cc5b072af8584f559def52d6cc9"
+    },
+    "vendor/composer/installed.php": {
+      "md5": "25aca568dd546ce2243487d2c4eddccc",
+      "sha256": "f06849fead12f7abb2151b946ef7282c9e839d3d81769b1d3cc3dd24668556bf"
+    },
+    "vendor/composer/InstalledVersions.php": {
+      "md5": "7baf73014351c49ea0fef617dae7019b",
+      "sha256": "1e4525198301d1ed1f87ac3df2a8555a6f139f8df30a703d0b775a61963c96e4"
+    },
+    "vendor/composer/jetpack_autoload_classmap.php": {
+      "md5": "c9d5b42210a0f56ffd27b174d78b0f07",
+      "sha256": "774d9ce0da4242155eb5450d9be981d17ae72fdba73432fa830dea00db937a86"
+    },
+    "vendor/composer/LICENSE": {
+      "md5": "955d5fe58c231244f6b49000f383b5e2",
+      "sha256": "c8cce4b6b9729f264ffdf9296d505d63432497feeed1f586d1902b942197e024"
+    },
+    "vendor/composer/platform_check.php": {
+      "md5": "f3aa60e94ab1f27ada6ee4c37ec41cd0",
+      "sha256": "09bf21fd3d36cece041141c0d9bf37fdb4a5a8344cb4d6859b0e89a4bf585de0"
+    },
+    "vendor/dvdoug/boxpacker/features/bootstrap/InfalliblePackerContext.php": {
+      "md5": "0d17bc885536debd51607c63ca6a0a62",
+      "sha256": "4b77b41419d93aa5a422d71b8f59db661c785cd54a65d85a1d3abca7080223c6"
+    },
+    "vendor/dvdoug/boxpacker/features/bootstrap/PackerContext.php": {
+      "md5": "540cbf449552b5989cb16d3fdb3eedb9",
+      "sha256": "04b7e69ffc3ca0f77dc0cbb10447a498d1addb06666aef0e39ea9a71245b54b5"
+    },
+    "vendor/dvdoug/boxpacker/src/Box.php": {
+      "md5": "b0010772601c3c4291508bb713f8f6fb",
+      "sha256": "5a7c97dbbb846ac3165fd4f12b7b24c56c1b868a0edeec64cd100e36151513f6"
+    },
+    "vendor/dvdoug/boxpacker/src/BoxList.php": {
+      "md5": "94fb5102bb41a9b24f000fcd7fa27cce",
+      "sha256": "19088e70ecbaedbba9d18e613d367359971a48154ae8dc3a3e75a15f2ee7ce3f"
+    },
+    "vendor/dvdoug/boxpacker/src/ConstrainedItem.php": {
+      "md5": "c54d99807e3d949bfa7626399583c2d9",
+      "sha256": "ee23bdb78039eb00fd5e2a0683ec4ca6f010b69886423d223903018d975f6bdc"
+    },
+    "vendor/dvdoug/boxpacker/src/ConstrainedPlacementItem.php": {
+      "md5": "97b6a47d888153a96cf8e105a899b8cd",
+      "sha256": "c014c4907bdeae4f69f207f122a66882b2f4978a774cebfe5145d073b65d411c"
+    },
+    "vendor/dvdoug/boxpacker/src/InfalliblePacker.php": {
+      "md5": "fdd74d058f31766647c76a0ddf86091b",
+      "sha256": "8c4aa971c925ece8b90dd2a6802a3dea5f5ed37db9bc1f2f54f129a668345bd9"
+    },
+    "vendor/dvdoug/boxpacker/src/Item.php": {
+      "md5": "6a04139d6c7cc3c6eb5a2120bdddd6a6",
+      "sha256": "9f962975b0873dd025db198c6b526bb155cb87a57515e48ad46ca5bc48480e24"
+    },
+    "vendor/dvdoug/boxpacker/src/ItemList.php": {
+      "md5": "669b7b60ee6d79f0015184796771d856",
+      "sha256": "e3f1d64c41cd6ea349f5428e8e18192468831536a9c95f2a84f36148fd8a1673"
+    },
+    "vendor/dvdoug/boxpacker/src/ItemTooLargeException.php": {
+      "md5": "a4abb308700f8f12d085c5dc23a31e15",
+      "sha256": "5823c0f1dbc7a6606e68e740ea679aaddb40f7b7d4cf699f812323e3776d00d8"
+    },
+    "vendor/dvdoug/boxpacker/src/LayerPacker.php": {
+      "md5": "e8e052e4ac0bcd826eb97f5ec2c72283",
+      "sha256": "4a28f64ec247c216e3ae9b89c3f5a3a61ffdf5ca00f4eaf59016d56823f16db0"
+    },
+    "vendor/dvdoug/boxpacker/src/LayerStabiliser.php": {
+      "md5": "7cdbefe48a31b2e5622dd2b2378f76e9",
+      "sha256": "700a956979886b2340306bb8ca9ead6dd1095853dd4ef86d154c74421ceb4bd3"
+    },
+    "vendor/dvdoug/boxpacker/src/LimitedSupplyBox.php": {
+      "md5": "e85a03ecee21d9aea6bcb69e7f64d786",
+      "sha256": "73b9491638650bb492434ac7ca6dab67f75111ca80694cf075d2951f32527998"
+    },
+    "vendor/dvdoug/boxpacker/src/NoBoxesAvailableException.php": {
+      "md5": "efba0404f5e05ccc2be5fac583eb2355",
+      "sha256": "9f9dbfdf3ab5ef2f4767a0f288336af3c8632663718c7cf1bff547f4e924b4d4"
+    },
+    "vendor/dvdoug/boxpacker/src/OrientatedItem.php": {
+      "md5": "2bd40688922b5b3094b78be4f372a49d",
+      "sha256": "c7188a3bb804f1742b983cf501a2db9430028a333321be410189619fb49d112c"
+    },
+    "vendor/dvdoug/boxpacker/src/OrientatedItemFactory.php": {
+      "md5": "7833bac6b17e2f40a072ec776326acbc",
+      "sha256": "8d8fb2239fa14cfeac79fa1261a6cce1ca2f6a710f332530aca0f5ebff7a9393"
+    },
+    "vendor/dvdoug/boxpacker/src/OrientatedItemSorter.php": {
+      "md5": "550574634e5c1b0033fe795d57fd326c",
+      "sha256": "336024347b961ea46807867b840fdfb9da6680b9fbbef095d9ea2395bc4d4b8c"
+    },
+    "vendor/dvdoug/boxpacker/src/PackedBox.php": {
+      "md5": "4d50d4212b612f3b9a2fbbbdd369d78d",
+      "sha256": "0a9f19a4b8aebbce22777a84d7f7f55d84a543dba37eec014ba6574748ea90e1"
+    },
+    "vendor/dvdoug/boxpacker/src/PackedBoxList.php": {
+      "md5": "58abbf6de827de9efc27c2ee02d2d5f2",
+      "sha256": "1ef11400a1fb9853d63dd4d63add7e1acbba7c77550ffc0c6eb0f80f557699ab"
+    },
+    "vendor/dvdoug/boxpacker/src/PackedItem.php": {
+      "md5": "b4bc71dff0dfa67ea162aa61198261d3",
+      "sha256": "42ef0f2024a1a12248e1da19bee2c72bca448ed883378bb51a8596451f0b0004"
+    },
+    "vendor/dvdoug/boxpacker/src/PackedItemList.php": {
+      "md5": "757e42798aa516003f6c5f9b62e21ebf",
+      "sha256": "314737b6cce191a8098cbad8c8e62193270e64b6d89621205701d8990f11bfb5"
+    },
+    "vendor/dvdoug/boxpacker/src/PackedLayer.php": {
+      "md5": "1da659419a010e99fbea29d77ea98d52",
+      "sha256": "8ca5560d8aa0e47d8d38d01de3ff3667cf65dfd8aaafc09c8bf477a39f39fd4b"
+    },
+    "vendor/dvdoug/boxpacker/src/Packer.php": {
+      "md5": "2bb97bcf19fe1e21e7cad6c6302a45b7",
+      "sha256": "0eac75aea6dcd83de0eb8e8aa5908873e0073d6f1a85582fc64fb9f164bc83fd"
+    },
+    "vendor/dvdoug/boxpacker/src/VolumePacker.php": {
+      "md5": "dee266bb29e23e5a520058daaedc0e3a",
+      "sha256": "e26d84c364f7299768246c0bcc579106319604da5011ca7bd03f54e84efa646a"
+    },
+    "vendor/dvdoug/boxpacker/src/WeightRedistributor.php": {
+      "md5": "c210acd743af65a5d2ece9c7b7938308",
+      "sha256": "f7d9e1ff206d6a5a8bda0c0e10b59d0b14bf2694ca9e275d8a32a60399df547e"
+    },
+    "vendor/dvdoug/boxpacker/src/WorkingVolume.php": {
+      "md5": "737dad9345c905b3d17541ff3632b43d",
+      "sha256": "551861278b6452a443771ef14fdbd6c635514eec70c140237c84b4c3cad40c93"
+    },
+    "vendor/jetpack-autoloader/class-autoloader-handler.php": {
+      "md5": "14fdf8b28760ba4adf990141035a27ad",
+      "sha256": "3a00cd8dbe44f75ec544c78dcb31df7c4e36d3665366e390054c6a1ea971a01a"
+    },
+    "vendor/jetpack-autoloader/class-autoloader-locator.php": {
+      "md5": "7d1bd81eae861cc7a15d4c3f29014e0d",
+      "sha256": "5473e9f12cbe96a54d98ebab390cba9821e763cbb04b9852db44f7749bcabd6e"
+    },
+    "vendor/jetpack-autoloader/class-autoloader.php": {
+      "md5": "5307193015a5525f8c253fe32016f3c7",
+      "sha256": "c99c67ab2e038c33ee928d486e77014e104463b108f7e87efc6fe8bc76c12292"
+    },
+    "vendor/jetpack-autoloader/class-container.php": {
+      "md5": "f91f32aacb37ff96670d3aaf70917806",
+      "sha256": "34e177f818f7574b99d77383e64693d43d5e1ff178d0c92e72519c59ca4afe5a"
+    },
+    "vendor/jetpack-autoloader/class-hook-manager.php": {
+      "md5": "15d698da6f2c2b261557ce4eddde3369",
+      "sha256": "9a34379beb7f8dfa99ae1bde6218906caae4ec86177a1561575dbd6f1c1a1542"
+    },
+    "vendor/jetpack-autoloader/class-latest-autoloader-guard.php": {
+      "md5": "099b9aa004df56efda5da8c07a7609d9",
+      "sha256": "83dc7726e693fe1fdabfd646c3dd63c0d07da58cc912477cd0b261e422aac5e9"
+    },
+    "vendor/jetpack-autoloader/class-manifest-reader.php": {
+      "md5": "63f972fa418cb5c92e5d1df93e508697",
+      "sha256": "f650e7c27bbf1a9d52f36e168cfe987c6dae66cbeae15b287850783ebe61a6ee"
+    },
+    "vendor/jetpack-autoloader/class-path-processor.php": {
+      "md5": "c1cc7b693e355bcb004017c8ca545357",
+      "sha256": "b6d8d23fc9de8792c25690b854fdc0a435b9569a59a89fb42b597747dc4b66fa"
+    },
+    "vendor/jetpack-autoloader/class-php-autoloader.php": {
+      "md5": "07f99e612a6c5d3fabd63fd75679e707",
+      "sha256": "285cc83bd032ad75241c85972a4e581777ec5e25ba4b0a432979c1dea4a64e6d"
+    },
+    "vendor/jetpack-autoloader/class-plugin-locator.php": {
+      "md5": "b21fbffc0d822fbf091ffe2c3a991c53",
+      "sha256": "3991b9a7985e18d110b16375962bc5b38711b100301fc68a1387796f42d6e1fc"
+    },
+    "vendor/jetpack-autoloader/class-plugins-handler.php": {
+      "md5": "a14bc40865119d2bfe6a9af77cdc8e9d",
+      "sha256": "b4943bb581d74d41d7d8c6333af655d9f9bda5dd68a75735b985230685d215a7"
+    },
+    "vendor/jetpack-autoloader/class-shutdown-handler.php": {
+      "md5": "c8662a827f573ac7f2d4587dd0eabb36",
+      "sha256": "46057e8f0fbeec6866d1682c37a763b857dc7937bfdd5547a448eb4598a5769c"
+    },
+    "vendor/jetpack-autoloader/class-version-loader.php": {
+      "md5": "31fe555284dfaa377ecaa973b9ed5d5d",
+      "sha256": "34c747362d2374833ca83cdf466ba92b9cea7234c50becca486ab8f004332d5a"
+    },
+    "vendor/jetpack-autoloader/class-version-selector.php": {
+      "md5": "1c6e193ec43a222c3c2e093449f30997",
+      "sha256": "7e307ae29b8336f026c9bd44f96d8d0c4fe861e46ea1adac550037288277f302"
+    },
+    "vendor/psr/log/LICENSE": {
+      "md5": "1a74629072fd794937be394ab689327e",
+      "sha256": "6e944907067bae93c00a9f2ad51032243820b22df34b77c77690d46cb2e98e24"
+    },
+    "vendor/psr/log/Psr/Log/AbstractLogger.php": {
+      "md5": "ae4ceaec6a65c2a29bdb08ebce30d111",
+      "sha256": "944c4d428eba1c613220121ecaa695e9189a42be883218f2fb0074ceca9bbec9"
+    },
+    "vendor/psr/log/Psr/Log/InvalidArgumentException.php": {
+      "md5": "7d2f0bd1583524d739fff12f0507de65",
+      "sha256": "403c6def4d4199a12cb4a54e804c7d29405968871366500f72d6f3ea401bfc64"
+    },
+    "vendor/psr/log/Psr/Log/LoggerAwareInterface.php": {
+      "md5": "cfac6d4dc3ebf2c7f0e49f74d1bcd44a",
+      "sha256": "c32ef350fe969788d0de3996e33c4b6a25308c7ceee1f7e87286f491b2bbf25a"
+    },
+    "vendor/psr/log/Psr/Log/LoggerAwareTrait.php": {
+      "md5": "38c6f36342995b7aa96b30aedb9eca1e",
+      "sha256": "1e001b7d76293cffc829ae97c9bc255ccdaff25c9ebcb6710f2d1a7d3e19a579"
+    },
+    "vendor/psr/log/Psr/Log/LoggerInterface.php": {
+      "md5": "460689f292a11ebce586ef066313dd5d",
+      "sha256": "863e63678ee771916f10f0aa8f454d34b25694a61373c0ab67bba038fd1c162d"
+    },
+    "vendor/psr/log/Psr/Log/LoggerTrait.php": {
+      "md5": "80438cede9b432c45cd59838fc3080af",
+      "sha256": "358842b431c3bdbab0587fd1a58185b59c41f66e735b4ef1026380a219d8a9b3"
+    },
+    "vendor/psr/log/Psr/Log/LogLevel.php": {
+      "md5": "cc226142fd5d390d030b39c61cf97843",
+      "sha256": "9f2520b22945ce1599c4fedba0a4c75985f172ca86cdf386766ebb8b2363768c"
+    },
+    "vendor/psr/log/Psr/Log/NullLogger.php": {
+      "md5": "0cfdfa8d81e5b22c24c96ae7014213c0",
+      "sha256": "e969c5da49ac031373b4b1e0cb9013f2daa87260e1aaaae8e413edddc4d7dcf5"
+    },
+    "vendor/psr/log/Psr/Log/Test/DummyTest.php": {
+      "md5": "52cb71ea2645f556b4e1e519d1c78a76",
+      "sha256": "bade54d76f112de0e63fca81b9712ba19352702340f7fb9a186190aadc009274"
+    },
+    "vendor/psr/log/Psr/Log/Test/LoggerInterfaceTest.php": {
+      "md5": "a653a140fb81bf4c37da14a60c2ad1d7",
+      "sha256": "4721a32c6397a3de0f2ff61ba29a798efdad3e2f00fb3ec401a6722705a25b5f"
+    },
+    "vendor/psr/log/Psr/Log/Test/TestLogger.php": {
+      "md5": "885f63b13ecb1ab70b3da51573770ef4",
+      "sha256": "07508c479f934ca3d935391f4ebca8ad22c024678b695741cb30e45a6de315ad"
+    },
+    "vendor/woocommerce/box-packer/src/class-abstract-item.php": {
+      "md5": "c83a9dde6266626bf2348e67fb923818",
+      "sha256": "2c4dd346e898c7855883f002078ba0ecc6de23f7e01e40fc9caba656493b2daa"
+    },
+    "vendor/woocommerce/box-packer/src/class-abstract-packer.php": {
+      "md5": "ce4bf174b80238ab3547842bc9eb5b2e",
+      "sha256": "91a422a96aab3956be05566c00e324c5072b00aa1037d158c71318facdcc9a0b"
+    },
+    "vendor/woocommerce/box-packer/src/class-package.php": {
+      "md5": "b41620856991e961eb4ac4abf640a5dd",
+      "sha256": "716cba43a4bc7647c93d69c9f92b5a25cc0728414900d9390c69f998a2e0481d"
+    },
+    "vendor/woocommerce/box-packer/src/class-wc-boxpack.php": {
+      "md5": "ef5b4963271b0768b5b476b1b4f47ede",
+      "sha256": "c6d83ded0213c2c84e64233e8487a8447c7309301d30c9cac450c0eaef101dff"
+    },
+    "vendor/woocommerce/box-packer/src/interface-box.php": {
+      "md5": "fb9442dfe4de0227a02eafb1794d4afe",
+      "sha256": "488b14c31fac26a377210d78fe509e354ef709c82a61c44fc5681e227874b3a8"
+    },
+    "vendor/woocommerce/box-packer/src/dvdoug/class-box.php": {
+      "md5": "fac5ae0ca195912c933b6722ac863ed1",
+      "sha256": "759b96a4e26e8dcd276a917022614410a5facff38fe7d3cb60b36a0f4f7c291a"
+    },
+    "vendor/woocommerce/box-packer/src/dvdoug/class-item.php": {
+      "md5": "508a543fd202efd6f39aedb864f929ff",
+      "sha256": "96b1b46cbae5f43a603206e43f7d8af6747cb3b9b140237dc0e7c99b611db604"
+    },
+    "vendor/woocommerce/box-packer/src/dvdoug/class-packer.php": {
+      "md5": "5ab016e1eb933d5b97c816e696066852",
+      "sha256": "5d577232edfed03e9aee4062d43f0940fc8331c87599d086184217b9dfca9cf1"
+    },
+    "vendor/woocommerce/box-packer/src/dvdoug/trait-util.php": {
+      "md5": "c9eb7b757eb5fa5fe93dd4a92ed091b7",
+      "sha256": "7287e27b1527c0d5ebe5f8cb4acb3b581e8c9a442922f922f762490804db9f9e"
+    },
+    "vendor/woocommerce/box-packer/src/original/class-box.php": {
+      "md5": "2c1b1502be294960911fc36b9665b3bc",
+      "sha256": "a22d779e85079b0805c38552a8a9b0d10f3b6c36d9522bed72cce0c96732c997"
+    },
+    "vendor/woocommerce/box-packer/src/original/class-item.php": {
+      "md5": "3bc160e31e5a9ede81dcd22deb939895",
+      "sha256": "53353a375f84af3c28c296ddd59301447d822618070f578e4cc987b4fdefec7f"
+    },
+    "vendor/woocommerce/box-packer/src/original/class-packer.php": {
+      "md5": "0c7c3ebe8e1a292f8855db772c0c1c9f",
+      "sha256": "377ab831521970655929c3c0422407f5a434f0517eb50c923e5d3c4c45f658b5"
+    }
+  }
+}
