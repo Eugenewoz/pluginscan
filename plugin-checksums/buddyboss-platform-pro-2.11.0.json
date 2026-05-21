@@ -1,0 +1,3402 @@
+{
+  "plugin": "buddyboss-platform-pro",
+  "version": "2.11.0",
+  "files": {
+    "buddyboss-platform-pro.php": {
+      "md5": "3906add6268325efe980341f8d730970",
+      "sha256": "e29aca749ee37b46738f9bc339e09dff5e71aa2fbc34f562af48210be48d131f"
+    },
+    "class-bb-platform-pro.php": {
+      "md5": "fe68b3e5ef28f73e1a95faf0a68b8969",
+      "sha256": "1700f270fd04202e15788d299b99138c4e2d926d18e0d475858baf3f2af27b9f"
+    },
+    "license.txt": {
+      "md5": "5227710bacbec5d119cf3991fe4135bb",
+      "sha256": "c300c4e9adeb407cea62db8603e620fbd4fb6deab1bfdba49607fe7d29842a01"
+    },
+    "phpcs.xml": {
+      "md5": "dda25fcd54509a426330dc405fd62c07",
+      "sha256": "494be16243621b726bab7b11db73f2a99df2e8908ccee974e5fa810b46a52f6d"
+    },
+    "readme.txt": {
+      "md5": "d8d5658b605ec9321a171d13bc9bbe1e",
+      "sha256": "1e3db207eca60dc4a670c73771307c2f3a9c20369bd17e0cdefdde7b8ff3b950"
+    },
+    "assets/css/hello-rtl.css": {
+      "md5": "e7add7547c501e0445f01f547b3f7662",
+      "sha256": "ec5fc445f9399e320742ae9f30bbc0617d0300fe95faf20f5b58a5cf9f0c9025"
+    },
+    "assets/css/hello-rtl.min.css": {
+      "md5": "76f15d773af4614eae2d16bca3743d60",
+      "sha256": "71d6ef1e7b24ea736e038880e7969503f3f30891accf1711c3a40aca93d1c040"
+    },
+    "assets/css/hello.css": {
+      "md5": "73dea4abc9d09c1209ed232d0c5fa4c4",
+      "sha256": "5003b770b10c6e78aee6bff2d04cf73a96e24a2cf7ef1b6700e0e8aa53da7262"
+    },
+    "assets/css/hello.min.css": {
+      "md5": "a7bfbe041c13b1bfa6743781959d1064",
+      "sha256": "57afffed2d29ab06e9c74f725dde1f525b84e77fa1ab0601601eff90b3f66dca"
+    },
+    "assets/css/index-rtl.css": {
+      "md5": "f57766cbbb448657a61f1b840d1c774e",
+      "sha256": "d97a021263b2beca122700c7f608115bb5e80032016b77c43c5121a6fd9ab82d"
+    },
+    "assets/css/index-rtl.min.css": {
+      "md5": "3f25063cd146ade87cd5cda072d6944c",
+      "sha256": "4deeea514569c3d2b989b80736f646ce76a4738abb6487da6b4440a93b04bc09"
+    },
+    "assets/css/index.css": {
+      "md5": "c0a340073b21bb32e885eda6fdeb1153",
+      "sha256": "f2c7e3ed74684599ff51d7c713caf81be37b8bd8c80fb8df918d60c58716eec0"
+    },
+    "assets/css/index.min.css": {
+      "md5": "b13d218100c04b6ce0737d01ab11e364",
+      "sha256": "52caf5cfee6d1ddb089e0790ca0faa4c299e192b777422aa3b0fcff8970f4a11"
+    },
+    "assets/js/bb-countdown.js": {
+      "md5": "2d47d2cdece4fa416b6b4f0f86a1338b",
+      "sha256": "e40622eb08593fda8c33b6879047211b708210bb72965d9fe4b4da7eb5ff9f8a"
+    },
+    "assets/js/bb-countdown.min.js": {
+      "md5": "718438c8ddff18ee5ee71b47dab1426f",
+      "sha256": "f2492b6d7b43f60c111e926d150eef646b54a1eb1b3c7b14198cf1cc9de23b76"
+    },
+    "assets/js/bb-pro-admin.js": {
+      "md5": "a4b3b9b6f1570d065b94071bcdb23351",
+      "sha256": "769715204738694af55958e5986b2523426356b4305eabfd4a81a28f0bb03dbf"
+    },
+    "assets/js/bb-pro-admin.min.js": {
+      "md5": "7c37c43564e58b0c83bd893cc1999ba4",
+      "sha256": "abf7ae7418385333d9da57f858bdc98528ea2e5bfc31fdca74df3590244bfdc6"
+    },
+    "assets/js/hello.js": {
+      "md5": "2b1c44cb3115bb577f3bfe3bef3348dc",
+      "sha256": "38ecb5e98759dfc01eabcb5882319c179463c0d27cdab659b60b252944ae18c3"
+    },
+    "assets/js/hello.min.js": {
+      "md5": "3d0a5f70ec2a27b6eaf481b63d3ce6ce",
+      "sha256": "9906aa49da35fd30017710e199b487533b737f73660fbafb898f72fecef68137"
+    },
+    "assets/js/vendor/jquery-deparam.js": {
+      "md5": "4fdf1c21e206cc752f32e97271ca0dbb",
+      "sha256": "f3b35225ef0c53053a29647b735fd0ec13d5559496ee5086c170d094b4f425c1"
+    },
+    "assets/js/vendor/jquery.mask.js": {
+      "md5": "24992f1ed62baf9393609f3c6c2ad20e",
+      "sha256": "a199620fe981df00a825f78761d3f7c8870f8117daa4a890e08018dec386dae8"
+    },
+    "includes/bb-pro-core-actions.php": {
+      "md5": "9a095a59bcb924f9843b7c31b406a750",
+      "sha256": "6bec20694d0eaf18658f217d2351e344f051e1f8478d4db045d35c35385cf25a"
+    },
+    "includes/bb-pro-core-functions.php": {
+      "md5": "ae61d2ac759938982c845acee81b0f1e",
+      "sha256": "7d1ebf3ad05f90829adf98965d201f37468e76f2312e254d7536befceb8e395c"
+    },
+    "includes/bb-pro-core-loader.php": {
+      "md5": "ee74bed193a9da112950848313a7c137",
+      "sha256": "b998769bb6b71756d43b2b05ed4cb7c227a733040f7ea653d839d40aac29407f"
+    },
+    "includes/bb-pro-core-update.php": {
+      "md5": "55c6815b705bb67c9deb6768efc37bd9",
+      "sha256": "b177954c1efe59b1194f9fc731b7d0270050233f8c7e62f2f319232bd902f6bc"
+    },
+    "includes/bb-pro-update-buddyboss.php": {
+      "md5": "ed4cdeea092325bcea5aebe8abcafc12",
+      "sha256": "85b59ef8286e46629f21391b4e8a148a8ca896bbe3a2449e639d5c1b3f859f36"
+    },
+    "includes/access-control/bb-access-control-cache.php": {
+      "md5": "bcdbaf4fa50e1dc061ed5e61b8ec8558",
+      "sha256": "d5233ea813ecdd0ed60535a9b76c8e36239f0b9c0ec333d9ea7cae9dce8ac091"
+    },
+    "includes/access-control/bb-access-control-filters.php": {
+      "md5": "7d7810b55e53fc0557ef0257627e2525",
+      "sha256": "8227a984c084c0bafccaba402185eca182ee03f5995e6980a024b6d9d232dcf6"
+    },
+    "includes/access-control/bb-access-control-functions.php": {
+      "md5": "ab2bfb6a8641f8c79aecb12e87bc0a6d",
+      "sha256": "57928d6633353ce7997d1d5bbc5dda67bd8e34a10d631cf0ca8aca75c5abd677"
+    },
+    "includes/access-control/bb-access-control-loader.php": {
+      "md5": "c8666621ae265f28a4db3e4d56f87dfc",
+      "sha256": "6a3a0e766c0b7b74445b3ac884e7b28ff5150ee4b216bc7d36a1320b8158f3c4"
+    },
+    "includes/access-control/bb-access-control-rest-filters.php": {
+      "md5": "1d922887ea7cdb05d95f4f742fa51944",
+      "sha256": "5656639c9bcf8418a4fc5877f1b6dea191d3abea68d251705824b96520e1fdb2"
+    },
+    "includes/access-control/bb-access-control-template.php": {
+      "md5": "8eb9014be140946fa614b0287a327ecc",
+      "sha256": "dd2166932e7621352ff5b3e8d5b7fb42ae83d708b29bc99fda29183cb0e81dd2"
+    },
+    "includes/access-control/assets/css/bb-access-control-admin-rtl.css": {
+      "md5": "3e89fdc0490f40e7df03520dfa5221e5",
+      "sha256": "12834e91a10ca29fe699f405dcbdd54398310730f5d075501c1370e25bf6504e"
+    },
+    "includes/access-control/assets/css/bb-access-control-admin-rtl.min.css": {
+      "md5": "cf976edada6f247a834fa65e9a6c2587",
+      "sha256": "e4c55c7f4b3fa8dd55d42c53681e9e9d2eb6c7b67139f14b0a4b5b78726513f9"
+    },
+    "includes/access-control/assets/css/bb-access-control-admin.css": {
+      "md5": "1482e4031675662ef2e2240c88e5f0ff",
+      "sha256": "454afec4c44b6babdc42b5bd1f6889415cb2e2d6bce1a23582c8e245a3bac17a"
+    },
+    "includes/access-control/assets/css/bb-access-control-admin.min.css": {
+      "md5": "e308f0e58f8c4b9aae79d74ab231a51c",
+      "sha256": "6c09c14fe351039fea9db64ae0b49ddb8c3daba79f9e724c0fda99700400baa0"
+    },
+    "includes/access-control/assets/css/bb-access-control-rtl.css": {
+      "md5": "8cd96787db439abecbbe514f4fa9b283",
+      "sha256": "fd5280a443841d49e1a5f791543437e83f4a83c0c87ab4f43870874889f62c79"
+    },
+    "includes/access-control/assets/css/bb-access-control-rtl.min.css": {
+      "md5": "089744754a7f41d3975abf58326477a1",
+      "sha256": "a6f884ecc776ebd86901df2ed08da6ee70dd7c6029b37aafa1fe96b01e19ab9e"
+    },
+    "includes/access-control/assets/css/bb-access-control.css": {
+      "md5": "8cd96787db439abecbbe514f4fa9b283",
+      "sha256": "fd5280a443841d49e1a5f791543437e83f4a83c0c87ab4f43870874889f62c79"
+    },
+    "includes/access-control/assets/css/bb-access-control.min.css": {
+      "md5": "089744754a7f41d3975abf58326477a1",
+      "sha256": "a6f884ecc776ebd86901df2ed08da6ee70dd7c6029b37aafa1fe96b01e19ab9e"
+    },
+    "includes/access-control/assets/js/bb-access-control-admin.js": {
+      "md5": "1f739f72733088acd2a40cc395714bed",
+      "sha256": "45741fd6509a4b2ee7ebbd0bf1b67b11a54ff17158016a13d3972b65e730121a"
+    },
+    "includes/access-control/assets/js/bb-access-control-admin.min.js": {
+      "md5": "ee23fbef744684ad003c3ad274945a39",
+      "sha256": "f6537c3342740aa18c85f7bbac009f6ba12c950e1edc1cf9b05339bb1cd11468"
+    },
+    "includes/access-control/includes/class-bb-access-control-abstract.php": {
+      "md5": "05b850f82037544aa6682b73ffff2e30",
+      "sha256": "5a0f40491d7a90617838d72a0cc89b7b002a35f6cd0085cbed25f33248b9bb20"
+    },
+    "includes/access-control/includes/class-bb-access-control-access-control.php": {
+      "md5": "e69601af1fb2b2b5dc120a24bc653abf",
+      "sha256": "6c65e8b04d00e88e6c91f172b201240529000e1ae404cab2d9a8f28f8a3f7736"
+    },
+    "includes/access-control/includes/class-bb-access-control-gamipress-achievement.php": {
+      "md5": "9428ceca3dd43e12e131d5b12a797b5e",
+      "sha256": "6c511444de6ea3754a3a610395ba5663cbc0ed443c390b2edfc57fe384aa109f"
+    },
+    "includes/access-control/includes/class-bb-access-control-gamipress-points.php": {
+      "md5": "799a88435c42b6b5b09df7c6e81cb8dd",
+      "sha256": "4ba434869b6e198643932a725c4e30537b1a1eef916e88fa6fbca7274cde8211"
+    },
+    "includes/access-control/includes/class-bb-access-control-gamipress-rank.php": {
+      "md5": "4c8fe262d3ad063dde6fca925c73f522",
+      "sha256": "f15983456ff42c0545bc97910729822635f5acd73e79c90c05537faf02701127"
+    },
+    "includes/access-control/includes/class-bb-access-control-gamipress.php": {
+      "md5": "791eab855dc525a6c7b0675875760945",
+      "sha256": "643b38188dca5eca560b615fcf8d02bfa44cd89a5c9a918e23867ddff09106d6"
+    },
+    "includes/access-control/includes/class-bb-access-control-gender.php": {
+      "md5": "e1fb9e5b4cd3471a3d830ee02054566f",
+      "sha256": "7bbebabbbbac0b3b4b651abb6069dd5a03d8962f27be74e13e009ebc4316209f"
+    },
+    "includes/access-control/includes/class-bb-access-control-learndash-membership.php": {
+      "md5": "2d3b0332aed05add0b323200d88a5f0d",
+      "sha256": "2c616ffd4ff4272ada33b90a1165ac501fba7c50d790f114855df2391fb32d00"
+    },
+    "includes/access-control/includes/class-bb-access-control-lifter-membership.php": {
+      "md5": "b8e8cbe0a187237979517bcfc3f02e7d",
+      "sha256": "26ea05ef8b78be612a7142caf0d80ffc034689e00cf95bed89aaa130dd972da3"
+    },
+    "includes/access-control/includes/class-bb-access-control-member-press.php": {
+      "md5": "bf5b23ae3e51ae3d764003c40b6e5b57",
+      "sha256": "a3242aed8bb6e1d587f2b407b1bfa4bde608b4424011610df556e38812bbcc0a"
+    },
+    "includes/access-control/includes/class-bb-access-control-member-type.php": {
+      "md5": "86db3bb3bf98cc3072f5e49da0558629",
+      "sha256": "0f7441d4edd5ccb94060a817606caeee888508e58573fcfdb621a84cbd30164c"
+    },
+    "includes/access-control/includes/class-bb-access-control-memberium.php": {
+      "md5": "a8a84458d4f6c0e7420f4e19e593323c",
+      "sha256": "48d04e25fad1404960a32e22f9cff29a2dceb65bb8a85a55731e4e0b6e7659c6"
+    },
+    "includes/access-control/includes/class-bb-access-control-paid-memberships-pro-memberships.php": {
+      "md5": "5820afd2288a7dbfa60b5ef944880ff6",
+      "sha256": "9ea2c7b20b092f6b6a187e23488ab144a169084957bdcfc4fc41ec63e89ff3fd"
+    },
+    "includes/access-control/includes/class-bb-access-control-restrict-content-pro-memberships.php": {
+      "md5": "f9a4687997cfecdc2fe00749280260da",
+      "sha256": "c40f722e81c770da8ce6b5aabbd391e6c12dfc54234ac83cb75d71accd1a9544"
+    },
+    "includes/access-control/includes/class-bb-access-control-s2-member.php": {
+      "md5": "3dbb14be9edfefba99e05ee48060d357",
+      "sha256": "477d63d0e21b4b13ba6a1395718e746c2339d57595af517f778adcda25975c55"
+    },
+    "includes/access-control/includes/class-bb-access-control-wishlist-member.php": {
+      "md5": "c23b55dbb7b1b8de3047f56c03a663ac",
+      "sha256": "fbcac25ab968b976e376e9d6442c118874a26e39332778ad1562f01b65de2a8c"
+    },
+    "includes/access-control/includes/class-bb-access-control-woo-membership.php": {
+      "md5": "7fda2f40df2e5642d0a4d08fce290646",
+      "sha256": "c0ce56ed2acb49548fa8f0351458fa3da4f67a2fdc6e345849a2dacd4c8bf902"
+    },
+    "includes/access-control/includes/class-bb-access-control-wordpress-role.php": {
+      "md5": "4108df495a5b71f75b08d5e87da6649d",
+      "sha256": "d0b72cb99dc72d1d90027087fda8c6b5edcb279908e28a5b4579ad3c412a220b"
+    },
+    "includes/access-control/includes/class-bb-access-control.php": {
+      "md5": "95caab5fe4f7abe406a7cd3d625edfe3",
+      "sha256": "c85696e99195fc7c127ae4cc2efa09de7f375fc45086e78ca90514bed501b81d"
+    },
+    "includes/access-control/templates/checkboxes-selected.php": {
+      "md5": "fe27bcb0e9f6f75a25319b4322665937",
+      "sha256": "fef86dd224bb5ed74b1c3c39b8b238e5a055e2ff48ddbbf59e042593634c7012"
+    },
+    "includes/access-control/templates/core-options.php": {
+      "md5": "3ab7d540d9fd8cb5913f67e6ad542554",
+      "sha256": "cd1ed38df491786faad31b7f22c721760f034ba4594476ff7f9961486a78d112"
+    },
+    "includes/access-control/templates/gamipress-options.php": {
+      "md5": "fe02e2416928f141e619da7afbe5ee9b",
+      "sha256": "1cd48f9f150023286da618af55813becf1674e28929c3cabb67229f536bb78c0"
+    },
+    "includes/access-control/templates/multiple-options.php": {
+      "md5": "382023a12aadd37d19c6149db9d52bb8",
+      "sha256": "0fe352fa1a5775babdd9c057d1b166c07b5765cb753b93470159f24ba5e80702"
+    },
+    "includes/access-control/templates/plugin-options.php": {
+      "md5": "f4a0cb6e5f5b65ae9cf01dbeaf287a5d",
+      "sha256": "eb9bb0a260b7fa4d90de55f0e70d4a89c9b90ec6be3d0ce6a2760825172027a6"
+    },
+    "includes/access-control/templates/single-options.php": {
+      "md5": "9222b60add4643a6144b3a4660037573",
+      "sha256": "f682d1243e72ec483a8f969ec07065d20632ebb2d703a380fe3a9148ffc39764"
+    },
+    "includes/classes/class-bb-platform-pro-core.php": {
+      "md5": "d92492c8c4c8fca1931e2a8e94d3715b",
+      "sha256": "6ddec1beef288160dc3ee103b3e5fcd73fbc85e27f608d84ddbfbba151ed45fa"
+    },
+    "includes/integrations/meprlms/bb-meprlms-actions.php": {
+      "md5": "110c3a32b729cc020c77cef388b4e04c",
+      "sha256": "d214986eab6c8655b05817f4841f2dfcbb528f73a823d5cf014901e15979c30b"
+    },
+    "includes/integrations/meprlms/bb-meprlms-cache.php": {
+      "md5": "0b3175695b53d24c8040173b5fd85518",
+      "sha256": "739dd5a51251fa1716e53933160f1bb36f6d2ed25a3293d67fb798f3d72c183e"
+    },
+    "includes/integrations/meprlms/bb-meprlms-filters.php": {
+      "md5": "411a0d1bbaf1bcd9483c98e0d72dadcf",
+      "sha256": "879aea6758d0dcdd360a67c7abf21db623d390a5435b65ef08448cfa93d6fa22"
+    },
+    "includes/integrations/meprlms/bb-meprlms-functions.php": {
+      "md5": "0f0dd6d90779b9bb65612e6ed33421a1",
+      "sha256": "a6dcfb6a6413c8e060602b25fa78a09baab9321d3da79f1e41555b9ee2fa80c7"
+    },
+    "includes/integrations/meprlms/bb-meprlms-group-functions.php": {
+      "md5": "c67f3d7334e7b6fae58b75d6bae12bab",
+      "sha256": "677c45219598693add81c1d127a96574a5a9efceab3478b0bf65031a9ac92adc"
+    },
+    "includes/integrations/meprlms/bb-meprlms-loader.php": {
+      "md5": "7c7c5977afb900c74d86e2aec39920a9",
+      "sha256": "b0d632457771f2ffdcb316e34392e114238d5544ce7718b08a5b0efdcf5c9a01"
+    },
+    "includes/integrations/meprlms/assets/css/bb-meprlms-admin-rtl.css": {
+      "md5": "997b10d618e104970f097f49ab749f6c",
+      "sha256": "f2df96dd8cacf08367c31d888721416866d9b5e4d13d9019f619fe0493742bf1"
+    },
+    "includes/integrations/meprlms/assets/css/bb-meprlms-admin-rtl.min.css": {
+      "md5": "644295ab13fb4939503ca1bb3d4e0329",
+      "sha256": "95eda578cf958054e33d981ac65715a1e51371b1bfb5b32b9dc6f93a9948209c"
+    },
+    "includes/integrations/meprlms/assets/css/bb-meprlms-admin.css": {
+      "md5": "abadd64ed9a0a240b1770586b61498d9",
+      "sha256": "0b83b002ddd502f1fe42cf07117f21f4859361ceedef736825515fef616f3ea2"
+    },
+    "includes/integrations/meprlms/assets/css/bb-meprlms-admin.min.css": {
+      "md5": "ab73673e50b7a105e7294ac1c7b7bfe1",
+      "sha256": "820e36a3a895ce895f508a33fca2c9b45980785644df802e45e43009662349fb"
+    },
+    "includes/integrations/meprlms/assets/css/meprlms-frontend-rtl.css": {
+      "md5": "7fae927db7cd4dc9890cefb2500eac0e",
+      "sha256": "71cade2693a6992f10c858f9b8a7c2604fb355d99be9d4dfb2d1e1f7d02c00fc"
+    },
+    "includes/integrations/meprlms/assets/css/meprlms-frontend-rtl.min.css": {
+      "md5": "f798666b8ae729bc943633391914d8ec",
+      "sha256": "2e1b625e64ed528a79a50f8143f09c2546d9560c3a5ea28797821507e870a808"
+    },
+    "includes/integrations/meprlms/assets/css/meprlms-frontend.css": {
+      "md5": "4adfb020e1ca1538bb057ba14b90bb12",
+      "sha256": "52ba337d665fc4879c9e4fea05f128c76aab6b295859e31562b1712c0f723add"
+    },
+    "includes/integrations/meprlms/assets/css/meprlms-frontend.min.css": {
+      "md5": "d7fd2302b947a2b193e13ec85d6413ab",
+      "sha256": "5cbc1d9ac728e728c10daf63f787bb75f0244ded2519ce7a843f018defba4e2b"
+    },
+    "includes/integrations/meprlms/assets/images/course-placeholder.jpg": {
+      "md5": "60430391cb6ce23fee1fbf728e6d8364",
+      "sha256": "c8c87cb4a3f77bfab4a0475b641483eb5151967a96e650b968b80175370eb8bf"
+    },
+    "includes/integrations/meprlms/assets/images/placeholder_cover_image.jpeg": {
+      "md5": "dbf4d5f19fcdc7ebbe98f676dd18837c",
+      "sha256": "941dd3cc4d0a9721e84df622af471289799f8868821208dd458b254fcc86ca61"
+    },
+    "includes/integrations/meprlms/assets/js/bb-meprlms-admin.js": {
+      "md5": "b4acebb41735e77251e27272f4f40b49",
+      "sha256": "64573a241be085661ae24d25ca2642893deacd59bfbae4927572ec91c03504ed"
+    },
+    "includes/integrations/meprlms/assets/js/bb-meprlms-admin.min.js": {
+      "md5": "238f5ce86988cd48371517478088c314",
+      "sha256": "165be683fe9d74c5bb0f642576d9df41cc440c84bea7acb36efd0f48047a8782"
+    },
+    "includes/integrations/meprlms/assets/js/bb-meprlms-frontend.js": {
+      "md5": "f8ce7ea5c9d7bd7bfd4b46b3afc942a8",
+      "sha256": "513f38bf9d77eb59df4ce3572474172209b46880488a94c836a235cdf16c2b84"
+    },
+    "includes/integrations/meprlms/assets/js/bb-meprlms-frontend.min.js": {
+      "md5": "5ca85789b1fa514f9e3a3d398b5275fa",
+      "sha256": "c59dd3216d99ce08ada1a7cf21427905422d41c9551a9bbc46e1f97d4484cce3"
+    },
+    "includes/integrations/meprlms/includes/class-bb-meprlms-group-settings.php": {
+      "md5": "1009d0d4d3bc045c73ef5f1730bfeb4a",
+      "sha256": "0b936eac350288104230466c5b7697fbc277c835c0ab2e927c5d8d97b9b56ff6"
+    },
+    "includes/integrations/meprlms/includes/class-bb-meprlms-groups.php": {
+      "md5": "5ea5290ef1c27a7dc307adbb7dda8b6a",
+      "sha256": "57e9b91f25216601f9608e429ba35787f9a88f4960309bc6d09c37ecbc886db3"
+    },
+    "includes/integrations/meprlms/includes/class-bb-meprlms-integration.php": {
+      "md5": "6eeca5db4f5df8264931ce406479bf4f",
+      "sha256": "f5e9c643154a856d388d765abd95634b70e7302e87c9ffe76ee440cd32bec0d0"
+    },
+    "includes/integrations/meprlms/includes/class-bb-meprlms-profile.php": {
+      "md5": "1edd3f79f0decb565bfc1d03daa2f2ad",
+      "sha256": "f0f7a02b1f1b2518c1dba44da4aac7190f5376b9476be7e824c888d29ed662ed"
+    },
+    "includes/integrations/meprlms/includes/class-bb-meprlms-rest.php": {
+      "md5": "9e2a2527b7a91f53d626fb0c20b16169",
+      "sha256": "11d7e47c6d45853378ca4cd2bb76f760d25f202951174f70df220b6df8f1dcfe"
+    },
+    "includes/integrations/meprlms/includes/admin/class-bb-meprlms-admin-integration-tab.php": {
+      "md5": "31001f0978f4640eedcded8cad07cb28",
+      "sha256": "4f6489918f0d5a2ff79135fad69567acf129a7aa848a54613b29245c1953bfe5"
+    },
+    "includes/integrations/meprlms/templates/admin/integration-tab-intro.php": {
+      "md5": "aeeb9b89d722f187de10e511f2680a47",
+      "sha256": "9b5abcef920fac0ecabcc1293af469e6bf5fc47c1e8ace422da69a5033c7f7ac"
+    },
+    "includes/integrations/meprlms/templates/buddypress/groups/single/courses.php": {
+      "md5": "0b6663736e11b4ebc9536041e4430b3e",
+      "sha256": "d86fb46d968c06e7972011a735c1e0564803dd4aa7c9b7412b06ee704e79c48c"
+    },
+    "includes/integrations/meprlms/templates/buddypress/groups/single/admin/edit-courses.php": {
+      "md5": "8242aa680b28913616e9890aba51099b",
+      "sha256": "ffcedec1c4d5417328030e61e5e56fcaa9d71b8cb8a0bdde96c5be81db2d02f5"
+    },
+    "includes/integrations/meprlms/templates/buddypress/members/single/courses.php": {
+      "md5": "a5fa7a8ca1812ff9d158660c86bacc37",
+      "sha256": "20f951d9bcc4baf8c0356c8ff447bfeeb9e2e7d2d353f0f3392a0ff0844a8de2"
+    },
+    "includes/integrations/meprlms/templates/memberpress/assignments/section_assignment_row.php": {
+      "md5": "5fb1309d28812f5b44bcbea99d94bb08",
+      "sha256": "dbdc4581866ef0f1d08cbe7a5e291ac49e6bbaaae34c4b81109641bafcefa1c2"
+    },
+    "includes/integrations/meprlms/templates/memberpress/assignments/single-mpcs-assignment.php": {
+      "md5": "1a7468b18070f2d7c47308410909aeec",
+      "sha256": "c1c24f8510ab31cabb25de871db57a7e8ea85b79cd892f06af76aa7ebe0140eb"
+    },
+    "includes/integrations/meprlms/templates/memberpress/courses/archive-mpcs-courses.php": {
+      "md5": "548f24cfc64482e845630dbf86c04776",
+      "sha256": "7398d77b086d0e8c3b0f6deb111a52fc59b8c4d4b4fc5121459452ac51e6cd42"
+    },
+    "includes/integrations/meprlms/templates/memberpress/courses/course-resources.php": {
+      "md5": "e6e88d92b558b5a81f6d9767d9b15497",
+      "sha256": "bf1c0f39972180690228f33b4450c49f5d14bca76ea1261dd20b95b43acb99eb"
+    },
+    "includes/integrations/meprlms/templates/memberpress/courses/courses_bookmark.php": {
+      "md5": "975cc049f470918d9e73efdcbe18c8ed",
+      "sha256": "63e1a8c088eeb7a6c0c80f0c4a2fe3449226f78b2889917613aef882cba0c853"
+    },
+    "includes/integrations/meprlms/templates/memberpress/courses/courses_classroom_bookmark.php": {
+      "md5": "5937f75d93419e94d28f10bef2a97692",
+      "sha256": "217dcd7f235b8802647a3120ed4b6eb4bb9cd12541bf8fc41537c307b7fb34c5"
+    },
+    "includes/integrations/meprlms/templates/memberpress/courses/courses_classroom_section_lessons.php": {
+      "md5": "fda6db24663989399e752f5d6142a893",
+      "sha256": "027fbafcb4e1b75f7197d89793a1203483c98edfe06470457d6c42771616be4f"
+    },
+    "includes/integrations/meprlms/templates/memberpress/courses/courses_instructor.php": {
+      "md5": "4e146681e5ce72f9b54f49f3886e3c7b",
+      "sha256": "705ab6922e19b624734b4f4cfb121d7b6c7acefd4b45e82469f90a2ec33f4afa"
+    },
+    "includes/integrations/meprlms/templates/memberpress/courses/courses_section_lesson_list.php": {
+      "md5": "135c0b3be084b289cf00f9e2b51a02c4",
+      "sha256": "e179c728db998cec923a4bdbe3ca5ab31f86b828106b24bc4eb3e7827db7da10"
+    },
+    "includes/integrations/meprlms/templates/memberpress/courses/single-mpcs-course.php": {
+      "md5": "82635a40aeda8f559935906058da65e0",
+      "sha256": "47844525097ce3a2dd93196889ae999bbd6d54b4cb0f1eac17507c55bb6c6909"
+    },
+    "includes/integrations/meprlms/templates/memberpress/courses/single-mpcs-lesson.php": {
+      "md5": "04146149ea19774b8e5314eeaccd2a49",
+      "sha256": "a6f49c5bcc2588084d4e40324de76e7391ab263ded0f5cbc0f5c237eb9bc4540"
+    },
+    "includes/integrations/meprlms/templates/memberpress/quizzes/section_quiz_row.php": {
+      "md5": "2a3432b1dd35a08dcbe043b84a57faad",
+      "sha256": "4c0b5cfe4e9faa633199ec959e28a49e4ffea17b009ac406be104948b5977eac"
+    },
+    "includes/integrations/meprlms/templates/memberpress/quizzes/single-mpcs-quiz.php": {
+      "md5": "609d203f62b0400c05eb5bd5680a0d1a",
+      "sha256": "7aacb8f9231872929f5588b12e9923f616c6477957430cac832c19c61ad669c2"
+    },
+    "includes/integrations/meprlms/templates/readylaunch/groups/single/courses.php": {
+      "md5": "0b598fb0ca9b96f3656a0951d00705cb",
+      "sha256": "cfa1b10380df84ba5ea5e87b9c59930a26d6038a52cef23e269c6621823b581f"
+    },
+    "includes/integrations/meprlms/templates/readylaunch/groups/single/admin/edit-courses.php": {
+      "md5": "a0fbaf1b927e7bf8d0ef9d2c1c235a4f",
+      "sha256": "3742c857a9ea919b62ca9a1b6eebc55c6765561b3e28f80d784e2f9d79f584f5"
+    },
+    "includes/integrations/meprlms/templates/readylaunch/members/single/courses.php": {
+      "md5": "6c49b67ca1dc3359b4e353da0f440032",
+      "sha256": "f0a24113b1806e72d8fb269423bfb2d89b7f105713eebbcab8b0eabdff901a66"
+    },
+    "includes/integrations/onesignal/bb-onesignal-actions.php": {
+      "md5": "6ffcf046b5064dadc9deb07d320bdcd4",
+      "sha256": "94817bc6300f0b0603f98019c9c34d4871118e810e3fdd122a7c83e7813a4c25"
+    },
+    "includes/integrations/onesignal/bb-onesignal-admin-tab.php": {
+      "md5": "8c13d9f7dbcd9980ff97e4265735ab4b",
+      "sha256": "9d865221447593afc073840f64d3c703282dd6f43f70cccfc6a1f382584ff82a"
+    },
+    "includes/integrations/onesignal/bb-onesignal-cache.php": {
+      "md5": "2d67f1c60d85fab9041c1285933d851e",
+      "sha256": "fd31cc4a2423e271d6b3cc6a7dab04d3ce99dfb0e749e74786539dab9e6f1c03"
+    },
+    "includes/integrations/onesignal/bb-onesignal-filters.php": {
+      "md5": "860a339553f0812266d602c101dd1492",
+      "sha256": "ce46042197884e035ecc57328b24e67be849a41b92da003565a0996de0c46944"
+    },
+    "includes/integrations/onesignal/bb-onesignal-functions.php": {
+      "md5": "bfa383769c9e2522c4097c3a7f86a9b1",
+      "sha256": "addafa220b01ac45a42de87c8912f1fa2049b549d603428ec29fd9e9830f972a"
+    },
+    "includes/integrations/onesignal/bb-onesignal-integration.php": {
+      "md5": "99948673d03c9d1a3af77946238f36a6",
+      "sha256": "bba81d3b9d5bdfe0d391ea9a17d04dc88cf567491bb3ee33514bcf58dba32e1c"
+    },
+    "includes/integrations/onesignal/bb-onesignal-loader.php": {
+      "md5": "9a1fc46f19b0345acd024fcea7dcbf5d",
+      "sha256": "2664bb90a3f6b4c47e11906eb2a98e4b7857e26e5cc5167ff09cbe6a85276d5f"
+    },
+    "includes/integrations/onesignal/bb-onesignal-template.php": {
+      "md5": "41fa1f27a2ab2c73bb74b4fc796e919a",
+      "sha256": "3a199ff48d7b65390e066e0d532481c99257a38b44d2db2d0b4dfcfc7c5e3926"
+    },
+    "includes/integrations/onesignal/assets/css/bb-onesignal-admin-rtl.css": {
+      "md5": "1d2a18e984fb8464e5a5db2cc51fe89e",
+      "sha256": "c766670fd37bac13b3662be491e1b1129a95409f0cd2d987c1fcc3efc7d4f9dd"
+    },
+    "includes/integrations/onesignal/assets/css/bb-onesignal-admin-rtl.min.css": {
+      "md5": "8a89067185ec97059fa15422c23ec8ae",
+      "sha256": "a49a36a08aef779253d833c15fbc23ab53942e87b05712c6fcf580ac7df6445d"
+    },
+    "includes/integrations/onesignal/assets/css/bb-onesignal-admin.css": {
+      "md5": "9647cf4b3c8026280edd05861728227b",
+      "sha256": "84716294b681a1798f89087bd3a21d3b90f50fc717f85fbd52b449e2a81d224d"
+    },
+    "includes/integrations/onesignal/assets/css/bb-onesignal-admin.min.css": {
+      "md5": "b90ce27c99890ebc3a2709c6e1f36a61",
+      "sha256": "4ae0ef98e70b5ac845f5e1bb077634629ea0abd7b14fdd0161c5beeea73d4683"
+    },
+    "includes/integrations/onesignal/assets/css/bb-onesignal-rtl.css": {
+      "md5": "3c1b443f5c09170a31056db04de93d61",
+      "sha256": "5c2b423f6f1f3f377331443616afd0cda468c70bc5cc664bd585084cd824748e"
+    },
+    "includes/integrations/onesignal/assets/css/bb-onesignal-rtl.min.css": {
+      "md5": "993347e048d8759dbd41a48a2cf7d695",
+      "sha256": "11482d0d605cfc8d9f9650d708663031d8fc512506ecbd9b53ffad321010cb20"
+    },
+    "includes/integrations/onesignal/assets/css/bb-onesignal.css": {
+      "md5": "c0714dd205e8f5243375728dff706932",
+      "sha256": "44a4e9b25596db119068de914cedae52c1c0eacc5041d9bb0bd6075a4eb87dc0"
+    },
+    "includes/integrations/onesignal/assets/css/bb-onesignal.min.css": {
+      "md5": "516232f785336002528cff97e03ec3d8",
+      "sha256": "b4df50d8f6f17dd58bf1f820bb0d32af2ae8ab074599e88746ee9db774a17cab"
+    },
+    "includes/integrations/onesignal/assets/img/browsers-images/bb-icon.png": {
+      "md5": "cd3865dbd54c26e52438d1203291f334",
+      "sha256": "ed7ed404fc9b890a8aa05f451509d2fdd1a8b411b5a0a044342fbc87df17a7e9"
+    },
+    "includes/integrations/onesignal/assets/img/browsers-images/bb-icon.svg": {
+      "md5": "917b6adcbbbc3ba256db91dd649afc1a",
+      "sha256": "9e334da574b7a18d37685fbaf78de182a3929082f539a97d1b256e6cc532d498"
+    },
+    "includes/integrations/onesignal/assets/img/browsers-images/bbengage-default-push-icon.png": {
+      "md5": "3992e0272da3230c31b36f34184f09ca",
+      "sha256": "51d1578b3e96f990700b13ec042fae1ae02cb2b154909988642e6d487552e36c"
+    },
+    "includes/integrations/onesignal/assets/img/browsers-images/browser.jpg": {
+      "md5": "e7bdf9d4239d7f27f0a9f58d6ebce0ec",
+      "sha256": "a3d44d9ad405d0f761e25df30d8e8def0108bdf8668ad0b6aef5b6d587ecd51c"
+    },
+    "includes/integrations/onesignal/assets/img/browsers-images/chrome-logo.svg": {
+      "md5": "7341d52610fdc30cb0865b597d24f571",
+      "sha256": "44df5b9c92f3190e39351e0af4fad1ab91b82d4db4b9fd1d800c5cc3dd08f583"
+    },
+    "includes/integrations/onesignal/assets/img/browsers-images/custom.jpg": {
+      "md5": "cb3de426b2f54953eb8a679231d7f118",
+      "sha256": "1ff50e6d1497294ee3f9cda983dab565a517efc347c2cc2480d0ebfbc9082dff"
+    },
+    "includes/integrations/onesignal/assets/img/browsers-images/edge-browser-icon.svg": {
+      "md5": "2d8f2d162b4ee90f7f2b4373901bf89d",
+      "sha256": "f9040dd7fe1296328e788c25d475fe3093b35f08a2dffa27cbee5d3ca34ac557"
+    },
+    "includes/integrations/onesignal/assets/img/browsers-images/firefox-logo.svg": {
+      "md5": "eb1324e44442d41cc447bf257456d257",
+      "sha256": "f3dd297ee9ef486e0563beea279318cedc69980cb808747197cd42a311a2ba50"
+    },
+    "includes/integrations/onesignal/assets/img/browsers-images/opera-icon.svg": {
+      "md5": "67ababfc4dc2227251b040805d91ea3b",
+      "sha256": "9642c7d5b7ad8e43368d08f1f3c5ee2047ddf0cc2f15e8cb749994615df588d4"
+    },
+    "includes/integrations/onesignal/assets/img/browsers-images/safari-logo.svg": {
+      "md5": "3aba5b2de01a1da1ccb5c9a41345af33",
+      "sha256": "868ef28e7e76f9a814b39cba34f558cc48ff0b12086c9f440cf4d9f749652325"
+    },
+    "includes/integrations/onesignal/assets/img/icons/fontawesome/solid/bell.svg": {
+      "md5": "b35545afd5c4d0d0956b371a58296855",
+      "sha256": "60f993a7c0a164e10fd66959168d980f8e3bd23577710903a58568db2c750e09"
+    },
+    "includes/integrations/onesignal/assets/img/icons/fontawesome/solid/lock.svg": {
+      "md5": "b8ec74bffdba58e6bd3539a8afeb1646",
+      "sha256": "9f98b0c61ebf0d1b0f37d6618fbfa94ee3e1ace7a10becf6716d4311f024b881"
+    },
+    "includes/integrations/onesignal/assets/js/bb-onesignal-notification-settings.js": {
+      "md5": "e4acaac2ba89b332e408cf6679885225",
+      "sha256": "8f4124d8511f30ce79a99302a2413e9b896cba5094e25e091be1bf32630ac4ce"
+    },
+    "includes/integrations/onesignal/assets/js/bb-onesignal-notification-settings.min.js": {
+      "md5": "d36b7a062c3242864dc3cd6643af3335",
+      "sha256": "131105fcb854f169f24db1930c4cef04f897f0f849921b2c34e94381cc4d9761"
+    },
+    "includes/integrations/onesignal/assets/js/bb-onesignal.js": {
+      "md5": "6a07210889ffd751ab33dc87f59970cc",
+      "sha256": "b75bb36c99b690ff84df74bf504f495937eef8e1e662f71793f8982ff4305646"
+    },
+    "includes/integrations/onesignal/assets/js/bb-onesignal.min.js": {
+      "md5": "a801853b8b516803f4659e59020431ba",
+      "sha256": "ba50a243445ad8eb14b2907a7c859936b97bc435920d16a2a883574fe5a7713b"
+    },
+    "includes/integrations/onesignal/sdk_files/OneSignalSDKUpdaterWorker.js": {
+      "md5": "ebb63ca15bba16b550232b0b0f66c726",
+      "sha256": "93278405d5505910c8255bd16c10b3efdaed40ca4d076c48629b258597654d07"
+    },
+    "includes/integrations/onesignal/sdk_files/OneSignalSDKWorker.js": {
+      "md5": "ebb63ca15bba16b550232b0b0f66c726",
+      "sha256": "93278405d5505910c8255bd16c10b3efdaed40ca4d076c48629b258597654d07"
+    },
+    "includes/integrations/onesignal/templates/admin/integration-tab-intro.php": {
+      "md5": "2b2be1f1399ee701170541532f7e759f",
+      "sha256": "ad67e9bd55354d0f1b1cc5240c421234ba85023e1a44717056c044aa2e7fecab"
+    },
+    "includes/integrations/pusher/bb-pusher-actions.php": {
+      "md5": "a3d85654ddf3fb48f401d1162a593bea",
+      "sha256": "98f9703402f90984109dc5ab6272116dfc609955d40feeae736b7a115f753740"
+    },
+    "includes/integrations/pusher/bb-pusher-admin-tab.php": {
+      "md5": "ba751c5dd517ad60802851cae0c536ae",
+      "sha256": "2d532706a54a167e2a3b35a8a2a192adf1e4f9fb1c9534682cb4463335287d3c"
+    },
+    "includes/integrations/pusher/bb-pusher-filters.php": {
+      "md5": "c215f8881fc468a2201170107b7fc74d",
+      "sha256": "547502059d528e51d5364402351e61e7dc6b20eb07d07438bf467df251eae084"
+    },
+    "includes/integrations/pusher/bb-pusher-functions.php": {
+      "md5": "be09c920144fa5ef2c214b1891cf3b83",
+      "sha256": "b99302b6c014aedb49defc7f3445c94777713ac9e1797fc21933f3a5176c0733"
+    },
+    "includes/integrations/pusher/bb-pusher-integration.php": {
+      "md5": "a9d01c9ed01be3f74b0fcf9163ddbc72",
+      "sha256": "63e86d98ce5d100e514b3b3338edb7036914f3cd266627c1b394738eab405cce"
+    },
+    "includes/integrations/pusher/bb-pusher-loader.php": {
+      "md5": "82ab73af485a76223da6e332735901c8",
+      "sha256": "4a86ea9dcbf145fd8b66499297d55ba84f1cce44d0df44ceaaf221c090edcd09"
+    },
+    "includes/integrations/pusher/bb-pusher-template.php": {
+      "md5": "74ac6260d825b13c0355bdde867f4fd1",
+      "sha256": "eb8f7e9180485202e99b0baa2ee205cc3cce8ab5171fcf9189880f377bf929f8"
+    },
+    "includes/integrations/pusher/assets/css/bb-pusher-admin-rtl.css": {
+      "md5": "f40d33d5d7e7d608d021b00c1cc3bb89",
+      "sha256": "5a4e122afc35b92a055edf02e69a4ba44a8baf71c2f603489030a7bf919618bb"
+    },
+    "includes/integrations/pusher/assets/css/bb-pusher-admin-rtl.min.css": {
+      "md5": "97b41a9f183c57d48a5edd16a93e7c90",
+      "sha256": "cf3a6f9fd3665ca4e0bfcba9c9695c823208aea3f116beb1e1da4e169a2c9df2"
+    },
+    "includes/integrations/pusher/assets/css/bb-pusher-admin.css": {
+      "md5": "4df3835eb97aefdfb4b06a353824b5b5",
+      "sha256": "7a3ddec17976760e14f1a1b0b3611c643f066f89121f86eed9d478c2765848f6"
+    },
+    "includes/integrations/pusher/assets/css/bb-pusher-admin.min.css": {
+      "md5": "af1477d7bb1f8ec83fb56a579005e4b6",
+      "sha256": "06f835e271ff25282e0ab138e76beb5a22c61305649f87ead555d4778879e59a"
+    },
+    "includes/integrations/pusher/assets/js/bb-pro-core-pusher.js": {
+      "md5": "ce45c36be4d06acb4593a28f08d6d0bc",
+      "sha256": "b07a42eb44808adda5554b748dc8577451295055082c721df38355029f063038"
+    },
+    "includes/integrations/pusher/assets/js/bb-pro-core-pusher.min.js": {
+      "md5": "f52105cd2e236ad3259a02ac329dc1a3",
+      "sha256": "1ac756720da1b4c0320216bc9cf6906beab140e0f148dda7189cd77232e60ae8"
+    },
+    "includes/integrations/pusher/assets/js/bb-pro-shared-worker.js": {
+      "md5": "0142262674fa138e6643471772a1c030",
+      "sha256": "8de6f1797e598844f8e9d6bdb77d7a2391563352284492c018c9cb6143415e54"
+    },
+    "includes/integrations/pusher/assets/js/bb-pro-shared-worker.min.js": {
+      "md5": "8aaa103aaae4af0ca713aaa273545e7c",
+      "sha256": "879866ce8f15bb56f4e994d2330327fe746921065d5c619ae05c83c08b0879b7"
+    },
+    "includes/integrations/pusher/assets/js/bb-pusher-admin.js": {
+      "md5": "d7ab977ee3ad87825df74d3d9715e41e",
+      "sha256": "28f8725529895bbf137c832c7c4bbb8187406f5ebd677e6f960b9a7b4c90e4a5"
+    },
+    "includes/integrations/pusher/assets/js/bb-pusher-admin.min.js": {
+      "md5": "a0193fca5eac2b678947c61c2846ad28",
+      "sha256": "19bee302e664b6d90b1043618472e96e77db6f91c007b0530ba8f382b38de793"
+    },
+    "includes/integrations/pusher/assets/js/bb-shared-worker-wrapper.js": {
+      "md5": "89c9a877669ca5877d9906f56b46ea1d",
+      "sha256": "8c211ca940935d4e7c5058e250ea7d6060e94b1c96dcc4076a4495041d9f1c5c"
+    },
+    "includes/integrations/pusher/assets/js/bb-shared-worker-wrapper.min.js": {
+      "md5": "73d7a255ea691f5aaa72abef34c7a61e",
+      "sha256": "83a83d36318e703ca4ad556e8f155fadfa8175772dab23b883b3b3fea82bcc0b"
+    },
+    "includes/integrations/pusher/assets/js/pusher-auth.js": {
+      "md5": "610a257db75eeee169cdeef02c5b45d8",
+      "sha256": "9c9fc85cae42fb3764ff041a53eca392575ba6f100c25aebf68b6e7ed3956b98"
+    },
+    "includes/integrations/pusher/includes/class-bb-rest-pusher-endpoint.php": {
+      "md5": "9ff251af5df0656c9fd6abb51fd8cf43",
+      "sha256": "e32cb90c3e9a968d141eeab2a26a197a518d2b02f00927ae2b0a8c2fa507814f"
+    },
+    "includes/integrations/pusher/templates/admin/integration-tab-intro.php": {
+      "md5": "29663c91ba173a21abe6718b927db688",
+      "sha256": "3e45d07c52c3dcd16f322ec59878b99a87e6c5eb0804567574be9bc9f67c2c0d"
+    },
+    "includes/integrations/tutorlms/bb-tutorlms-actions.php": {
+      "md5": "e84a27e2ea2a67b644225eb01a9db2de",
+      "sha256": "1627e79042226cde14604ee55e2000f93b57bc8726208a3521734d05cd4b5142"
+    },
+    "includes/integrations/tutorlms/bb-tutorlms-admin-tab.php": {
+      "md5": "d63ca2595e65430aead430321435f5cb",
+      "sha256": "6ac25da89947b1a0974cceac396ab4039b9e57d1129b6a232922d5ebbb1fa8fc"
+    },
+    "includes/integrations/tutorlms/bb-tutorlms-cache.php": {
+      "md5": "16e46b5035069aa9fe93ed7ab590f41a",
+      "sha256": "defcffa325c07c509b47752029f01c36744431aaff955c5c6c6b4d1942b9de72"
+    },
+    "includes/integrations/tutorlms/bb-tutorlms-filters.php": {
+      "md5": "5d2b54ba47305baaec144deba1b812f4",
+      "sha256": "2cd3f828afd4d61444c58d5ffe0cde041ea14ca4f444d24dc8b59202450fc21b"
+    },
+    "includes/integrations/tutorlms/bb-tutorlms-functions.php": {
+      "md5": "b9141eb5fac3f41f86e7c4205cb8ab0b",
+      "sha256": "3209d1e6f9ebab38f56e7a36e20966d94e41a34247239af7a60574ce783beabb"
+    },
+    "includes/integrations/tutorlms/bb-tutorlms-group-functions.php": {
+      "md5": "b08631456ac296ed0415702c6931ae6c",
+      "sha256": "978bafa901becd8e096b397e7230ef0a6002bf207b732719059057d0ca136322"
+    },
+    "includes/integrations/tutorlms/bb-tutorlms-integration.php": {
+      "md5": "0009f9c21d9dd5c4a2aadf82e7d0c5b6",
+      "sha256": "7121094f5683f24019d32921f7c017137e69741fbab716f903b3ace272404ab4"
+    },
+    "includes/integrations/tutorlms/bb-tutorlms-loader.php": {
+      "md5": "f4bb442017613c9574d7ad99cddae0bb",
+      "sha256": "4fcb16739ef449c5c9c98651fab8db38e22b4e89eba40418fc6b958a5aa90fd5"
+    },
+    "includes/integrations/tutorlms/assets/css/bb-tutorlms-admin-rtl.css": {
+      "md5": "0aa472876eca48eae97b995b3f1a305c",
+      "sha256": "2cb9d980e562bccd79df907793968a67cd98689a7b2ab136016ab59822d47305"
+    },
+    "includes/integrations/tutorlms/assets/css/bb-tutorlms-admin-rtl.min.css": {
+      "md5": "ad185dfffc66cef2286cdeae7f72f413",
+      "sha256": "fc9b5eb8de5acba22b82971a2a58c28b056b2098770f802a6d5610bfc5dfe66f"
+    },
+    "includes/integrations/tutorlms/assets/css/bb-tutorlms-admin.css": {
+      "md5": "4f4a52b089888c5301a5315e6e176b39",
+      "sha256": "a17990ec38bac8d0d3819e6c8b8b59e849347bb3d892d855be0cf92300a8f9e4"
+    },
+    "includes/integrations/tutorlms/assets/css/bb-tutorlms-admin.min.css": {
+      "md5": "0cd5bd936e9e6f25e6f47bf270ea324b",
+      "sha256": "c0c1cf8389357f0b0973a0cd05bec8283a982c59d745ad4d04894c62e5f3f24d"
+    },
+    "includes/integrations/tutorlms/assets/js/bb-tutorlms-admin.js": {
+      "md5": "4455da02f07f4cb92cc0339867f21b07",
+      "sha256": "7181a6b845d583980f5d982360c94353ef9b918a595cbeca93556d139ade1ae3"
+    },
+    "includes/integrations/tutorlms/assets/js/bb-tutorlms-admin.min.js": {
+      "md5": "e4fe55c7030435691199e061778f8add",
+      "sha256": "b831402d1c75888253c67c8fdb8f7b07b1291bfe3bbf2472a071a17cb65cc633"
+    },
+    "includes/integrations/tutorlms/includes/class-bb-tutorlms-group-settings.php": {
+      "md5": "a5b3907bbdb9ce9f8d7497ae30cd6d30",
+      "sha256": "139d3c6fc5b96676c52a4d8b01fc1abe3223932cadaa94490ebd54b5ac4e21e1"
+    },
+    "includes/integrations/tutorlms/includes/class-bb-tutorlms-groups.php": {
+      "md5": "319ca18801c744f5f89bfaef514ec3e7",
+      "sha256": "49c609df6a7533e1386c8f88b50ce44a0f2c386122c534c67a2448cc37ea672e"
+    },
+    "includes/integrations/tutorlms/includes/class-bb-tutorlms-profile.php": {
+      "md5": "c734eb591027f384c674a1515c791163",
+      "sha256": "a52ae33ca9800f3d328922f18c98d581704a3b8220f7d36d5cac57a3a8d35093"
+    },
+    "includes/integrations/tutorlms/templates/admin/integration-tab-intro.php": {
+      "md5": "cca822010c3f29fc0b46f58506d0ad3f",
+      "sha256": "a4f3db0998611672e3591f748afcb94802a87c6a524256a913647f391d8d14b1"
+    },
+    "includes/integrations/tutorlms/templates/buddypress/groups/single/courses.php": {
+      "md5": "471046fd400ddf10629fb703b7ac64f3",
+      "sha256": "c80b947dd334433d0de8c80eb33fc76beb308e697f63b5d6d85cb3cc655c7c07"
+    },
+    "includes/integrations/tutorlms/templates/buddypress/groups/single/admin/edit-courses.php": {
+      "md5": "73092cc46872cf594e84403ca39b37df",
+      "sha256": "0177fb4e51dee0cd2b9a8d80692e4a1b80f5e73806cd88c3fb1ee1a43ac59f2d"
+    },
+    "includes/integrations/tutorlms/templates/buddypress/members/single/tutor/courses.php": {
+      "md5": "9e9340c166425ab36a0f2ec0b12ae5e6",
+      "sha256": "58288fde514594c50f9ed7a66f6590d38ae6e52f3575f55fd665b364c2fa166d"
+    },
+    "includes/integrations/zoom/bp-zoom-actions.php": {
+      "md5": "2bb4f5d644ee4b94a29a8173a6ee4a3f",
+      "sha256": "b72563dd300022e7b259b18ac3f2586a6b8c5be30fcfd1bbbd98fe199354d2a7"
+    },
+    "includes/integrations/zoom/bp-zoom-admin-tab.php": {
+      "md5": "010971b91326df6252adea4c1e3d27ae",
+      "sha256": "495563ef6a34b077789304dff7522297e731ef01641641212285a36160e37d17"
+    },
+    "includes/integrations/zoom/bp-zoom-cache.php": {
+      "md5": "947b8f241228d91532f44e866713b9d9",
+      "sha256": "b7f1772b3a2f293cf109874d4682b7d39620cebacc8a51f4348901d5efd1f294"
+    },
+    "includes/integrations/zoom/bp-zoom-filters.php": {
+      "md5": "41eab0cb6b101cb23fc599f6213a43a1",
+      "sha256": "1a91663950a01df2cd979f23c8dd53cd2641f59ef5c20f276b5226e6c9f70997"
+    },
+    "includes/integrations/zoom/bp-zoom-functions.php": {
+      "md5": "2ed64c65347ff1a3a64b30f38883c68c",
+      "sha256": "77d2ae88e72ece57074286871387ce23f960309e41e61c1b5d1f6ae4f1fe558d"
+    },
+    "includes/integrations/zoom/bp-zoom-group-functions.php": {
+      "md5": "7dd329866202f74a91bab83c87fad783",
+      "sha256": "2c256644782096e41d55347bed3ad2e9a42024e162a3e177db6a2134bd35d020"
+    },
+    "includes/integrations/zoom/bp-zoom-integration.php": {
+      "md5": "24268d54847055967cead94ac226935e",
+      "sha256": "4183347740c48d683e0485eaf06dc177709705d2b531b6136c881b53cca80688"
+    },
+    "includes/integrations/zoom/bp-zoom-loader.php": {
+      "md5": "58f39102f172171a3363b4f49e010954",
+      "sha256": "1ce0c7778211ffb7732fa42ef2dfa34f6640bb928cd7ae61b6bac3a5c1a3e622"
+    },
+    "includes/integrations/zoom/bp-zoom-recording-functions.php": {
+      "md5": "35579092729c4288c9b200197f4672b9",
+      "sha256": "4cece242792d2f8105cf2711d4c8d1da2cb451af5d082458e52dbab5ec158368"
+    },
+    "includes/integrations/zoom/bp-zoom-template.php": {
+      "md5": "2a850fe49715d80b4e4526be29874553",
+      "sha256": "7d4e273374bdc58062a78f2c928085132b6f446fc2fd931b2fd0ac92b3064735"
+    },
+    "includes/integrations/zoom/assets/css/bb-rl-zoom-rtl.css": {
+      "md5": "b0f644eeabfb4a2a2d392ab5dbcc4ded",
+      "sha256": "ae0069d0e3c7c4af8d23d5d48e602e054d3080d0732ae54b0a5df7c278f49089"
+    },
+    "includes/integrations/zoom/assets/css/bb-rl-zoom-rtl.min.css": {
+      "md5": "99a0b7de36ee353fa360110c572d4293",
+      "sha256": "a83574353abfc42e3dc01a47c5ca6e4a23b950a3f9b88f978d970036362b7e7e"
+    },
+    "includes/integrations/zoom/assets/css/bb-rl-zoom.css": {
+      "md5": "2ce88f410fbbefd907e9032c5e8c4b3f",
+      "sha256": "e40573afa159e5f5432cfd694162041a80ce814d307f94769c5b2b0ecf59f9a3"
+    },
+    "includes/integrations/zoom/assets/css/bb-rl-zoom.min.css": {
+      "md5": "84d88c69d3d9ae9feb77529896ae9123",
+      "sha256": "24e0527d1bbb790c62e83271a41182ac15575b0efe9bda698de6e7008f89bfca"
+    },
+    "includes/integrations/zoom/assets/css/bp-zoom-admin-rtl.css": {
+      "md5": "2dff4f4ded3857211a457710e17ea20c",
+      "sha256": "edfad63d5d53074f1ec3a9cf3a9069e5cb877c3af8fb7567aa8532d655e8461c"
+    },
+    "includes/integrations/zoom/assets/css/bp-zoom-admin-rtl.min.css": {
+      "md5": "271cb4a84ef8fab485a284cbb784e038",
+      "sha256": "2c605803a16e7a0904ce71995f41818330ef62c2d6fdc797698f4fc475b84b56"
+    },
+    "includes/integrations/zoom/assets/css/bp-zoom-admin.css": {
+      "md5": "7d0900115145bdbddc92ab8fe69efe1d",
+      "sha256": "28ffecf5c3c17d3d2ec4e3d2c3da15b464c409d44c18c58eaba91cbccb02828a"
+    },
+    "includes/integrations/zoom/assets/css/bp-zoom-admin.min.css": {
+      "md5": "291ed29751a53e76d8544c2084acab21",
+      "sha256": "adb04ff075a792982f28d979830e1e938db9bf6513131743503a6645711070bb"
+    },
+    "includes/integrations/zoom/assets/css/bp-zoom-block-rtl.css": {
+      "md5": "8600d33075cf3fe5a098a465cdb78c0c",
+      "sha256": "326ad6b079f5c36bc8489e71776c5d1c282db5e0d28e9ee6ef04cc365fa051b1"
+    },
+    "includes/integrations/zoom/assets/css/bp-zoom-block-rtl.min.css": {
+      "md5": "724d6943c7276cd22646599c399f677e",
+      "sha256": "f4968f2072ae774e89239fba841a710ce0b6e18ca01582beb5d19a322e542b65"
+    },
+    "includes/integrations/zoom/assets/css/bp-zoom-block.css": {
+      "md5": "d1a6ea5125d57fcb0531251a5fba9028",
+      "sha256": "f4b05761dc90aaaabf36362b2f25d527330c67feef1ea476846b7ed2f5c480ab"
+    },
+    "includes/integrations/zoom/assets/css/bp-zoom-block.min.css": {
+      "md5": "502f8f2783e7c9aad90decf80f63d60b",
+      "sha256": "da56e9db22ba286059ecd8a857abc726b0016ab2215da3fa96bd9a1f2f84c114"
+    },
+    "includes/integrations/zoom/assets/css/bp-zoom-rtl.css": {
+      "md5": "cb73c05d9b3a8588f24e3284c7d437bb",
+      "sha256": "98ba44c134d5846b01a172200c3c16f8c2cbf3adf0d057280597cf8e4a5e0278"
+    },
+    "includes/integrations/zoom/assets/css/bp-zoom-rtl.min.css": {
+      "md5": "2cb673693c7ef4ec8b852898bcc4898a",
+      "sha256": "48f52d58ca8838be5b5a1250768891b6de911e17e556de73fda61c2b30940c5f"
+    },
+    "includes/integrations/zoom/assets/css/bp-zoom.css": {
+      "md5": "0b00d92d3f356afa42cc7fb6e8d71a56",
+      "sha256": "51d6b9732b6b6b78dcbcd8e2cc5b9bda3cc940009d95ce12d36a9b201fba5220"
+    },
+    "includes/integrations/zoom/assets/css/bp-zoom.min.css": {
+      "md5": "42e644ca315fe80582ff825416547d4e",
+      "sha256": "b58ff060ee19dfc961be2a135e278763d77fe3998371f7c7cf522869281c0ace"
+    },
+    "includes/integrations/zoom/assets/images/arrow-down.svg": {
+      "md5": "03bc52095f5b6b9df4da1bdb9e929fa4",
+      "sha256": "a2c1567ef4178675f18922fd06ac1d54177520f9a2e81fb6497cb390d0564ec7"
+    },
+    "includes/integrations/zoom/assets/images/recording-audio-only.png": {
+      "md5": "c0b926d9dc9f50f3da4f7dadaeb530e2",
+      "sha256": "a0b89313a2470888c70f066d96e28d9a502597ccc0df1c434476c2c7974aea94"
+    },
+    "includes/integrations/zoom/assets/images/recording-audio-transcript.png": {
+      "md5": "012e9fb3e7113c46d158efc7d6df4614",
+      "sha256": "d6f4526215d7446fe0b27ed6b88aaef748d87af91eadc409d1e23a94869a1646"
+    },
+    "includes/integrations/zoom/assets/images/recording-chat-file.png": {
+      "md5": "8947300882cfd0e6d39ce5cf5d0cc5fd",
+      "sha256": "a479d52c2548718a9712cb32029adb63614ce671feb9af0ed49254783bc9ba5a"
+    },
+    "includes/integrations/zoom/assets/images/recording-timeline.png": {
+      "md5": "4e9f27308ac77ae7a89a3c8cb6324bd4",
+      "sha256": "0000e24fa0eda4b586ece2a861ca7c865598dc077e6f95d506db0fe870e8d0c5"
+    },
+    "includes/integrations/zoom/assets/images/recording-video.png": {
+      "md5": "05184a8f4ae8d0c452361a8fa93efb7d",
+      "sha256": "afb570f337b72597fa4a9c38be9edcb2ec6fa3326fe19fcb227857f5f92d46a5"
+    },
+    "includes/integrations/zoom/assets/images/video-thumb.svg": {
+      "md5": "0a4632c2efa24c27456c516e935f2827",
+      "sha256": "e03bd2ee01272c1e0e578b6fa770e626786d7d42876ad9fe7132db5ab1f459dd"
+    },
+    "includes/integrations/zoom/assets/images/wizard-activate.png": {
+      "md5": "d944262bfc2248d825596255668714d7",
+      "sha256": "cbeaa4beee81afcf699742a1d956079f25ce4f28fe0e8390a7b39966d5405705"
+    },
+    "includes/integrations/zoom/assets/images/wizard-activated.png": {
+      "md5": "a9f41d7ca02047f51c68627d4af74057",
+      "sha256": "ea7b38c1ea9aa0bfed6148e707342f99de15608320973cd4090291a40ce99c04"
+    },
+    "includes/integrations/zoom/assets/images/wizard-app_information.png": {
+      "md5": "6424f2f6cf7e2c4e48553b78e6761f9d",
+      "sha256": "5c297c1ddf8f17b32472b1188cdb341ff9ce3125354ffac47349ac46816eaa57"
+    },
+    "includes/integrations/zoom/assets/images/wizard-app_name.png": {
+      "md5": "45a647f710da5090672dcea9911dc8b5",
+      "sha256": "d830b0df251def25a02f0da74f25038d5307fe04f0d6078e176d891e30caa686"
+    },
+    "includes/integrations/zoom/assets/images/wizard-app_type.png": {
+      "md5": "0ba72ec992ee8d5654eab60761f50da2",
+      "sha256": "47ed9282478b4ea329a1511976ed015bb841b483253c24ac8d1e782ed1001b16"
+    },
+    "includes/integrations/zoom/assets/images/wizard-build_app.png": {
+      "md5": "b48f819143354d8141f64825b8dfa6bf",
+      "sha256": "71815a1bf436530bde638cbe42dc6c2384bc64376909842567420c58d787ab86"
+    },
+    "includes/integrations/zoom/assets/images/wizard-events.png": {
+      "md5": "98c4310814f87e9ad6abbb002d471bc3",
+      "sha256": "25f5ac0914a57d21f8f0a2150419e466942defac29470a23e673d0d9778f918d"
+    },
+    "includes/integrations/zoom/assets/images/wizard-events_meetings.png": {
+      "md5": "757cfdb05c7b19a3f648fdd3fc7fe18d",
+      "sha256": "b593c360a5eee87e09f594e456015545dc54d8e3a7c7ae294c18329653fca22b"
+    },
+    "includes/integrations/zoom/assets/images/wizard-events_recordings.png": {
+      "md5": "ac89d7bd93c03e5bf5a5ff40868c054c",
+      "sha256": "2f2baf904109bc1ec56f43e27c7945942b63d5f3690f053689e1745339f227c6"
+    },
+    "includes/integrations/zoom/assets/images/wizard-events_save.png": {
+      "md5": "6d84794e5299ee702b0f68067d6b1e6d",
+      "sha256": "a81516c3826a07bec02f034c2ceb1b6965e4285a44e1732c6f2611b3689b6cfc"
+    },
+    "includes/integrations/zoom/assets/images/wizard-events_webinars.png": {
+      "md5": "bc611af5287e739307ea4d5643d310d4",
+      "sha256": "b06b4005e8fcba7555c18df303e2196268c278ff02aea3cd797a9883ba9b75ae"
+    },
+    "includes/integrations/zoom/assets/images/wizard-event_notification.png": {
+      "md5": "09fc190404f660abc1d564637c23e80e",
+      "sha256": "854ce0838c36f14d3cfb54038a66ffcfff9d7512a1c38c5399e16947ca768be5"
+    },
+    "includes/integrations/zoom/assets/images/wizard-event_subscription.png": {
+      "md5": "f9d806706c79c5173bd249cdd908bcf3",
+      "sha256": "9872960048dcbecb33f7a13be6a4cab772e68b15a7f53966435c6ba508fa688f"
+    },
+    "includes/integrations/zoom/assets/images/wizard-scope.png": {
+      "md5": "f52b7140a2d60a52d6e4a00875d8e710",
+      "sha256": "bb5f6327ab5f5e22444ad79a9ebd4a9db6f9a68ed6c8e6afe1d617923a67c9d6"
+    },
+    "includes/integrations/zoom/assets/images/wizard-scope_meetings.png": {
+      "md5": "3c2d52ec335d37ad903d43d34a34c38e",
+      "sha256": "ed6becdb773d29d7dfdd6c11589afd2759f01a6be942aae22129dc0bf51fa052"
+    },
+    "includes/integrations/zoom/assets/images/wizard-scope_meetings_2.png": {
+      "md5": "df62a0e5b791d523aee69bc766ee9efe",
+      "sha256": "c6be2e0ba567d2f6d2d60e6a7f017396477d59c776bf0ff3d1ad11e2326985a5"
+    },
+    "includes/integrations/zoom/assets/images/wizard-scope_meetings_3.png": {
+      "md5": "b4c71640b1043348517bcef40b6388bc",
+      "sha256": "3d7954cf9bd97a4a09199457f1b7e16401291e5a9b3eca371059a3aa1b3de570"
+    },
+    "includes/integrations/zoom/assets/images/wizard-scope_meetings_4.png": {
+      "md5": "6c84d358a1e336e0c33e99f1c75fd728",
+      "sha256": "e329a12c1a870fe54eebbf3abaa4adf9a990d854f70c5f1e4c1ceb6ff5f42e6f"
+    },
+    "includes/integrations/zoom/assets/images/wizard-scope_meetings_5.png": {
+      "md5": "72ddff6e6fcb7eadeb5836776cc82a88",
+      "sha256": "908003841156695ef7b4de66c56be030a8e2ab9e05d34729568e437d418e268c"
+    },
+    "includes/integrations/zoom/assets/images/wizard-scope_recordings.png": {
+      "md5": "ac89d7bd93c03e5bf5a5ff40868c054c",
+      "sha256": "2f2baf904109bc1ec56f43e27c7945942b63d5f3690f053689e1745339f227c6"
+    },
+    "includes/integrations/zoom/assets/images/wizard-scope_reports.png": {
+      "md5": "0673ade20ed29ab21122711d7fd37a7e",
+      "sha256": "52a0afb89031435a78abd4bc0e74950adb01f073d1c57340888c9eee77b92dcf"
+    },
+    "includes/integrations/zoom/assets/images/wizard-scope_reports_2.png": {
+      "md5": "e00d4b617d0c6568a91e3032f2f99d92",
+      "sha256": "0c62ce0a00d8bfd71bdbd0f5bffe414946d67e0dc7a45af72f7024480536dbe1"
+    },
+    "includes/integrations/zoom/assets/images/wizard-scope_users.png": {
+      "md5": "a882805b69e763e39e7b3e58155750f7",
+      "sha256": "3e2d7a4856d2b97e8141b882ef64298b88b66d360991e9019639b80b3d971b06"
+    },
+    "includes/integrations/zoom/assets/images/wizard-scope_users_2.png": {
+      "md5": "05aa933f9d1c76cc203c69e306d82645",
+      "sha256": "140559add81e46a66c77e2add0e157a08b108a76b37a9dbf455d1a8521548226"
+    },
+    "includes/integrations/zoom/assets/images/wizard-scope_users_3.png": {
+      "md5": "badf44cf324e1c4a389244a80048ae68",
+      "sha256": "29315411cd89b97167cc2d4f3b34b2454c5808b986e322f418958bae486fcfdf"
+    },
+    "includes/integrations/zoom/assets/images/wizard-scope_users_4.png": {
+      "md5": "f630d587e1dec9a950ea17d75fea78fe",
+      "sha256": "bb453ce66e7626250a85792d7168fd73663b2bd2bd6d36cc4e5fbf151f56023d"
+    },
+    "includes/integrations/zoom/assets/images/wizard-scope_users_5.png": {
+      "md5": "eff911b002f7d2eb19f68cdea48af8b8",
+      "sha256": "6951b17863203be70a10e9a6bc9b91e5566ac0fce8108fab15e4174817b9a9c2"
+    },
+    "includes/integrations/zoom/assets/images/wizard-scope_webinars.png": {
+      "md5": "1bca2274e726e008f223e38179ef1ac8",
+      "sha256": "03d69b644c345c99e27afe160e5239e644f69e61adbe2bd9aac2e0829933cf69"
+    },
+    "includes/integrations/zoom/assets/images/wizard-scope_webinars_2.png": {
+      "md5": "b1dc01f0e32067bf788f824f16b33aa9",
+      "sha256": "e21a62e7f87c44dc20940b3368e59e5830d13443e85c727d508942dc7813fb5c"
+    },
+    "includes/integrations/zoom/assets/images/wizard-scope_webinars_3.png": {
+      "md5": "1e5ad69e618fd512a8892c3c00915cab",
+      "sha256": "655cf3dc80c230aa1e23bc7b89a3ea17fae04bc6fb2caebbea0a860878a65071"
+    },
+    "includes/integrations/zoom/assets/images/wizard-scope_webinars_4.png": {
+      "md5": "a501bf5ce271fd8509b60ca28b665ddd",
+      "sha256": "bdbc745fb1fcb6ccd4fed5dc777f2ed774de6047378bd5ab2fa70a40c876d7ce"
+    },
+    "includes/integrations/zoom/assets/images/wizard-scope_webinars_5.png": {
+      "md5": "b90bfeb252b7980ce39935867aa88afc",
+      "sha256": "e39d8250ba82555d0795de226c09fbc5088dfa7f94d8fa1b243aa7856edbf080"
+    },
+    "includes/integrations/zoom/assets/images/wizard-sign_in.png": {
+      "md5": "deec0588490010a399e00649f87d665a",
+      "sha256": "59bc8e2b11302dd6a1e520af03c4b9d5b20b7c85db310ac6dc6b47e88fcb4155"
+    },
+    "includes/integrations/zoom/assets/images/wizard-token.png": {
+      "md5": "dd78e4652eadf46fb26ba52b6d903b00",
+      "sha256": "046eedc343328e528c07ee444d90847a0916bc5eb5e9860f1734b545fbdff9ac"
+    },
+    "includes/integrations/zoom/assets/js/bb-rl-zoom.js": {
+      "md5": "96a17ce78a83cddee666ec8f8046649b",
+      "sha256": "af3866610377456a673e823492d0456eb58a509bc6efea7467f22ee93a629fd3"
+    },
+    "includes/integrations/zoom/assets/js/bb-rl-zoom.min.js": {
+      "md5": "e207ddb5120ea89fcb840d9f13240e75",
+      "sha256": "b5503504527ea4acad53d1647f1bc67505d91acc1462b0de358beddee85fa2b4"
+    },
+    "includes/integrations/zoom/assets/js/bp-zoom-meeting-common.js": {
+      "md5": "bdd5e6e73334db3e2a0a1700a53bcadc",
+      "sha256": "7a0c2830ddb3b69de814164748c4bc7bbb4fd5e7dcf6badcaf9ca350cb56cacc"
+    },
+    "includes/integrations/zoom/assets/js/bp-zoom-meeting-common.min.js": {
+      "md5": "263d81534f4770bf3e521c2f5c47834a",
+      "sha256": "7f7421ae0d41e27fc4d2f46981cb4c1686ac15fedf3130b9191a4aa1b71a43d6"
+    },
+    "includes/integrations/zoom/assets/js/bp-zoom.js": {
+      "md5": "8e896b8b6188c51725a1dc4dc0dae21d",
+      "sha256": "9858ca5a0947fe6c039c1d0c365f423a7acd624e31a854123048006a3d106a2a"
+    },
+    "includes/integrations/zoom/assets/js/bp-zoom.min.js": {
+      "md5": "3401e4b5070ad4646139b13bddd56963",
+      "sha256": "e25133cca6950f5ce60b1422c9c2a0286a32221c7c14bf07939eef825ffb74fd"
+    },
+    "includes/integrations/zoom/assets/js/blocks/bp-zoom-meeting-block.js": {
+      "md5": "c49591fc275e362c91c098e4478330cd",
+      "sha256": "07a812331650dccf8e963fa3470222fb109766b2c5b1649d65b9295cbaa0008a"
+    },
+    "includes/integrations/zoom/assets/js/blocks/request.js": {
+      "md5": "2a6ae749347ae7dd44d199110b346d74",
+      "sha256": "fe4a1e0535e4d78e90d13daa690fe3e3e4bfce4f9bf01c93395905b9cd244f69"
+    },
+    "includes/integrations/zoom/assets/js/blocks/SelectDropdown.js": {
+      "md5": "b2f0d9be7c6f9cfb97394a1d0224b6ef",
+      "sha256": "af281771a2897e3159383390205bd35b8975227b2b38dab777e6ed2a37029d86"
+    },
+    "includes/integrations/zoom/assets/js/blocks/build/bp-zoom-meeting-block.js": {
+      "md5": "140a82c495a8ee846165a29fc451a58f",
+      "sha256": "b23adcf3359a614e4f2963165c9ddcd78571d6ef4f7abb4563a7611ed1d516f9"
+    },
+    "includes/integrations/zoom/assets/js/fonts/glyphicons-halflings-regular.eot": {
+      "md5": "f4769f9bdb7466be65088239c12046d1",
+      "sha256": "13634da87d9e23f8c3ed9108ce1724d183a39ad072e73e1b3d8cbf646d2d0407"
+    },
+    "includes/integrations/zoom/assets/js/fonts/glyphicons-halflings-regular.svg": {
+      "md5": "32941d6330044744c02493835b799e90",
+      "sha256": "d168d50a88c730b4e6830dc0da2a2b51dae4658a77d9619943c27b8ecfc19d1a"
+    },
+    "includes/integrations/zoom/assets/js/fonts/glyphicons-halflings-regular.ttf": {
+      "md5": "e18bbf611f2a2e43afc071aa2f4e1512",
+      "sha256": "e395044093757d82afcb138957d06a1ea9361bdcf0b442d06a18a8051af57456"
+    },
+    "includes/integrations/zoom/assets/js/fonts/glyphicons-halflings-regular.woff": {
+      "md5": "448c34a56d699c29117adc64c43affeb",
+      "sha256": "fe185d11a49676890d47bb783312a0cda5a44c4039214094e7957b4c040ef11c"
+    },
+    "includes/integrations/zoom/assets/js/zoom-web-sdk/bootstrap.css": {
+      "md5": "652840c822eac7291e6ee73cd067c093",
+      "sha256": "1555ad02aef5eae528c18059a1d678efb32209bed835a7824b9f6bc86fbd07ae"
+    },
+    "includes/integrations/zoom/assets/js/zoom-web-sdk/jquery.min.js": {
+      "md5": "220afd743d9e9643852e31a135a9f3ae",
+      "sha256": "0925e8ad7bd971391a8b1e98be8e87a6971919eb5b60c196485941c3c1df089a"
+    },
+    "includes/integrations/zoom/assets/js/zoom-web-sdk/lodash.min.js": {
+      "md5": "9becc40fb1d85d21d0ca38e2f7069511",
+      "sha256": "a9705dfc47c0763380d851ab1801be6f76019f6b67e40e9b873f8b4a0603f7a9"
+    },
+    "includes/integrations/zoom/assets/js/zoom-web-sdk/react-dom.production.min.js": {
+      "md5": "64141792105ea4861f9f33294d65ab81",
+      "sha256": "21758ed084cd0e37e735722ee4f3957ea960628a29dfa6c3ce1a1d47a2d6e4f7"
+    },
+    "includes/integrations/zoom/assets/js/zoom-web-sdk/react-select.css": {
+      "md5": "5e935ae1c98a51231448a14f0b65913b",
+      "sha256": "b7934d7b6b4f24dbb7f808b374bcb1ead8ae6c2e2f699a2c78ad33507442c110"
+    },
+    "includes/integrations/zoom/assets/js/zoom-web-sdk/react.production.min.js": {
+      "md5": "d86dcdbfed4c273c4742744941259902",
+      "sha256": "4b4969fa4ef3594324da2c6d78ce8766fbbc2fd121fff395aedf997db0a99a06"
+    },
+    "includes/integrations/zoom/assets/js/zoom-web-sdk/redux-thunk.min.js": {
+      "md5": "764aa94781b116cf5c365c46f1db0949",
+      "sha256": "db1c393293dc76ef36fe7996d9743a22c7bd84ac7388b595d86ba9912f649eec"
+    },
+    "includes/integrations/zoom/assets/js/zoom-web-sdk/redux.min.js": {
+      "md5": "a754af1015a259c31ecf9c2498fec25f",
+      "sha256": "25902b7b3ca4c333c0678895b4afa4d83e2ac8841118268048d17ab911c9b411"
+    },
+    "includes/integrations/zoom/assets/js/zoom-web-sdk/zoom-meeting-3.9.2.min.js": {
+      "md5": "919eb7c55d5b82316ab12072efee2c14",
+      "sha256": "fbe41ca98dda3ff1b16bfcb5377a78c362935e08701abc228cef6ceadf244276"
+    },
+    "includes/integrations/zoom/includes/class-bp-zoom-ajax.php": {
+      "md5": "7bacc881814826330530960533e86831",
+      "sha256": "13c8959b64d9175494796468aff41a6b3e72d44b7966633196fd01462fdaa83e"
+    },
+    "includes/integrations/zoom/includes/class-bp-zoom-blocks.php": {
+      "md5": "d96c46c1d90904aa3760606ad4a56c7b",
+      "sha256": "c41c5c66396efeef5298c09b3c89e6a680a0e626cb43b47464fa847153220021"
+    },
+    "includes/integrations/zoom/includes/class-bp-zoom-conference-api.php": {
+      "md5": "f1478a9861273fa11a8d04417c0b0e6b",
+      "sha256": "dcaa0649a2e734507d6e0db744afd96c21c0d644d2c68e9c69771b8b2c8c5bee"
+    },
+    "includes/integrations/zoom/includes/class-bp-zoom-group.php": {
+      "md5": "bf0c03a90a497c93454681ae4b36ba37",
+      "sha256": "825acc8223726e58849afcb2ea1ea24b73da76d8ec5301066a7e2d0ef013e895"
+    },
+    "includes/integrations/zoom/includes/class-bp-zoom-groups-notification.php": {
+      "md5": "1655d0b69ce7cdfc71d543be77200e93",
+      "sha256": "48a3cb217283ea13b47eeb3b2540cb08c61e1f5971a8040d3aa4ff6b6796806c"
+    },
+    "includes/integrations/zoom/includes/class-bp-zoom-meeting-template.php": {
+      "md5": "2b4b1330eb93aef1c52c323471e11270",
+      "sha256": "8317a8a7d7cf99e417a9a34cd47ed357839fba3a4b5edfcc9fed163a115a66bb"
+    },
+    "includes/integrations/zoom/includes/class-bp-zoom-meeting.php": {
+      "md5": "4fb87d75831c9f4e606059aa2d55b12d",
+      "sha256": "411fe27f56101b158e8805b3fa83d552751d5f00a3aa2d0558399f45d32f15d8"
+    },
+    "includes/integrations/zoom/includes/class-bp-zoom-webinar-template.php": {
+      "md5": "3b41831b7a1e3281ddf943768f8e5fdf",
+      "sha256": "a0e8cb98e2e3fd70d7e727e5ed68e8e2d3f5d54030a10bd3bc95cdd3e261aebd"
+    },
+    "includes/integrations/zoom/includes/class-bp-zoom-webinar.php": {
+      "md5": "02aa2f60e7de8227e24a45f9f2d7e10e",
+      "sha256": "9f018d9994059e82623b5a09b37b9c122b47c875cba051508475ddad3fe0368e"
+    },
+    "includes/integrations/zoom/lib/firebase/php-jwt/composer.json": {
+      "md5": "4423f5a313bcb2a71b64aca3d6402d74",
+      "sha256": "f91fd09953f8cdd4276e548d7514568534ca6d23b53e4387f9785fe5d7c23122"
+    },
+    "includes/integrations/zoom/lib/firebase/php-jwt/LICENSE": {
+      "md5": "8179f9b01f8d9651ca7956d853e8ea24",
+      "sha256": "25af1a7912d5f01fea9c0060e2b186a1605ed23eaa8c904d1111ac64c59cb687"
+    },
+    "includes/integrations/zoom/lib/firebase/php-jwt/README.md": {
+      "md5": "2b2461f664c830376998f2e40a353823",
+      "sha256": "a07b4238362925075df6e445791ebda087945595cf1f6b82570f6a778e7f77aa"
+    },
+    "includes/integrations/zoom/lib/firebase/php-jwt/src/BeforeValidException.php": {
+      "md5": "dc809c9375cdac31b3ba786a2fe9ccd1",
+      "sha256": "e9da7cb2e5907e3cdf3e8473a2944d5459f4635131e534e855d3083c81c3962a"
+    },
+    "includes/integrations/zoom/lib/firebase/php-jwt/src/ExpiredException.php": {
+      "md5": "3774aa81f388acedd668e95cae727d7a",
+      "sha256": "b50d713889cb23bf7a76b54a363505d3dc5c7c2494821ac3c2706e013c2d386d"
+    },
+    "includes/integrations/zoom/lib/firebase/php-jwt/src/JWK.php": {
+      "md5": "5073a95130c85a6f2d93e2cd1171ef13",
+      "sha256": "18c568538f73b696a8fd91fe15bddfd39089c2d90b74a1a226414163991773f7"
+    },
+    "includes/integrations/zoom/lib/firebase/php-jwt/src/JWT.php": {
+      "md5": "799eaba88ae24089dc138057b1bf2930",
+      "sha256": "46be0b53c6875f94af2d1d32a489213d6cf2b79b47da151dba1b8f0537dfe0bc"
+    },
+    "includes/integrations/zoom/lib/firebase/php-jwt/src/SignatureInvalidException.php": {
+      "md5": "6744c0a54c05b9fb933932a9eaef54e1",
+      "sha256": "65945c861278e870c043f0857be79250857f7252fbce976e30d2bd4dfe2ac37b"
+    },
+    "includes/integrations/zoom/templates/admin/integration-tab-intro.php": {
+      "md5": "5c3bb9efb438b21cb5f78c3c54c41810",
+      "sha256": "e0b5317e3a206e324b9bf8b3a83f958318ec6430e3756216080b1ca52ea887e9"
+    },
+    "includes/integrations/zoom/templates/buddypress/groups/single/zoom-settings-edit.php": {
+      "md5": "b19a7508193f75c91975d310aca6c654",
+      "sha256": "45693bc80e779a4bc03f0a319498ac9c1ec1c8b02501d97bca07dd1fa8d9464b"
+    },
+    "includes/integrations/zoom/templates/buddypress/groups/single/zoom.php": {
+      "md5": "c4e3f615b0fcb83ae2043c3e9682a3f8",
+      "sha256": "9f920d222b41e32fc8e5f5519dceb6012ef2ed410e0f282c6048ea6e38aa6c9b"
+    },
+    "includes/integrations/zoom/templates/buddypress/groups/single/parts/zoom-subnav.php": {
+      "md5": "1c4505056dac6b96319ca1efec4c536b",
+      "sha256": "482301eb91695e368c9a0501688175d48e96ad84b68015bdeea72cd8bb0cb8af"
+    },
+    "includes/integrations/zoom/templates/buddypress/zoom/activity-meeting-entry.php": {
+      "md5": "2f09fcd15e457d6f006460188b43b363",
+      "sha256": "b66852f5cfc07721d974d1384731b063bb29a4452ffa19ebffdc08d4dc2f2f7f"
+    },
+    "includes/integrations/zoom/templates/buddypress/zoom/activity-webinar-entry.php": {
+      "md5": "7929ac82cb4313d7af3066b443fbbab8",
+      "sha256": "6e8867efd5648792082f6d78e55bdeba348fe6090a4eb7fa8aed4cf1dc877869"
+    },
+    "includes/integrations/zoom/templates/buddypress/zoom/create-meeting.php": {
+      "md5": "96bad99245d876912d89c58a04ed8d15",
+      "sha256": "cd420df1729a97d415156c3d7e2a989ee24b649e948bcc9052f59bedc0f72db0"
+    },
+    "includes/integrations/zoom/templates/buddypress/zoom/create-webinar.php": {
+      "md5": "2064c2e4d4ff12b134066e36f1bad0f8",
+      "sha256": "c7ef8d0d2255b552f47abe429d23a5af318e0b5fa7920f26f36837bf1aa5dab9"
+    },
+    "includes/integrations/zoom/templates/buddypress/zoom/edit-meeting.php": {
+      "md5": "924641c3e43d54ab892ff801a42c5efd",
+      "sha256": "ca36e5c02cbcac15f200a93dd99838364ecc43fc86cbd3d74bd96921dc6cf584"
+    },
+    "includes/integrations/zoom/templates/buddypress/zoom/edit-webinar.php": {
+      "md5": "affe57491b1fe17958ae067f610e2d7f",
+      "sha256": "3028867ed68e1bfea0fc4a19a7f5c3dafad9faa6ea2c25c35ee1aafc841f58e2"
+    },
+    "includes/integrations/zoom/templates/buddypress/zoom/loop-meeting.php": {
+      "md5": "b1a9a0bc490951112923ecf662bf31ce",
+      "sha256": "6a52adc2cd1c189a82436985fe8d85524b495f9587f136106e66a5e53f646d91"
+    },
+    "includes/integrations/zoom/templates/buddypress/zoom/loop-webinar.php": {
+      "md5": "c7d923b53f6b2249c174896bba78bbca",
+      "sha256": "9b4afb2fe14b4c4ee72fc5e86bf9e2bbe0d3ef75381e86a26a90cbe3e9befd25"
+    },
+    "includes/integrations/zoom/templates/buddypress/zoom/meetings.php": {
+      "md5": "fafda772ebc9916e82e9420cc05bdef9",
+      "sha256": "eb8e33e0ad9bb9fdaf0af41d76a05b6e8d9739fe6cae76edb7ffad3d4af6c280"
+    },
+    "includes/integrations/zoom/templates/buddypress/zoom/single-meeting-item.php": {
+      "md5": "62a428d12b3d740be901b5c0ed1ca2b4",
+      "sha256": "1dfe7a087782c4e153fd8dfc106957b27db7d283021f4aab9d22c1c08bcec1ca"
+    },
+    "includes/integrations/zoom/templates/buddypress/zoom/single-meeting.php": {
+      "md5": "d711d91f663cb663d62f317cd3e078df",
+      "sha256": "e30c8bcb4202f99a6e1e8612cf3a43d9daf6d1e13a638212c8bf6bdac4f37c16"
+    },
+    "includes/integrations/zoom/templates/buddypress/zoom/single-webinar-item.php": {
+      "md5": "318d3441a7039744c6816521d5e81b45",
+      "sha256": "328315db1e41e576dcf45b423d15cf888235d808b6994510acd16f6db0bf4420"
+    },
+    "includes/integrations/zoom/templates/buddypress/zoom/single-webinar.php": {
+      "md5": "a9ea49dbc90534c6f3a56f75bb3e011e",
+      "sha256": "f38ada575a1438bc65185dc8c351bcefd78d498f6d558a2da3b93f3ffc069d37"
+    },
+    "includes/integrations/zoom/templates/buddypress/zoom/webinars.php": {
+      "md5": "17875c2ec1ad7a8a676267f10e104eac",
+      "sha256": "746dc523ac8d13a6b14ff90dd30c3e16761fb293f19d82a81bb7495939676828"
+    },
+    "includes/integrations/zoom/templates/buddypress/zoom/blocks/meeting-block.php": {
+      "md5": "5a57b2cb14ba3be82b0c54913cfd0f63",
+      "sha256": "4668f2ace70ce4c41c0135c9e958561cd3596434bcb6f0dd30fb8621f4ce5499"
+    },
+    "includes/integrations/zoom/templates/buddypress/zoom/blocks/webinar-block.php": {
+      "md5": "90827c1f199aa1cc3c7887702bc25df4",
+      "sha256": "4a0e3e08a6c1e67254df47c19409b6d28fafb67e7f00019d20945d3984259adc"
+    },
+    "includes/integrations/zoom/templates/buddypress/zoom/meeting/recordings.php": {
+      "md5": "624328a477cb5f4124cd40afb9d11c99",
+      "sha256": "05055fbc6445e8ccdab4689380195fa85833aee8aa0ac6f87105ed5890f17a75"
+    },
+    "includes/integrations/zoom/templates/buddypress/zoom/webinar/recordings.php": {
+      "md5": "f04d989e0304c35da9fea499d1db36be",
+      "sha256": "90ae212408a43773bda9100e3cf1852c098da18843e9840e2fb1f6c655839868"
+    },
+    "includes/integrations/zoom/templates/readylaunch/groups/single/zoom-settings-edit.php": {
+      "md5": "f0326a3c37ea8b42eff62cebda4c944d",
+      "sha256": "1e4235287b0487de6a713aec3122d1817fe5ed898e0941222968cbfe40f73c8f"
+    },
+    "includes/integrations/zoom/templates/readylaunch/groups/single/zoom.php": {
+      "md5": "3d91b0481cf7a24b804c1b955ef15e89",
+      "sha256": "c5cd948c0b66556f206db1d7a5fbe29050582708c2ed7eb2fd8ffcee3aed7ef8"
+    },
+    "includes/integrations/zoom/templates/readylaunch/zoom/create-meeting.php": {
+      "md5": "cc8e6ffecdfe14e382233e842eee1f92",
+      "sha256": "a8b174dfe64d2d42bd1fd6774460d337a74c1d0dca61aa706857ebcf507f590c"
+    },
+    "includes/integrations/zoom/templates/readylaunch/zoom/create-webinar.php": {
+      "md5": "d88842816bdc06502a286a2b95e9939f",
+      "sha256": "87bccb98bb139b6becc96d8eb7e38312848d20461684144c4b168e424e32c8b1"
+    },
+    "includes/integrations/zoom/templates/readylaunch/zoom/edit-meeting.php": {
+      "md5": "f29a8a3418c4956996b40af0fad6ed8d",
+      "sha256": "8e3c7ebcff52e18aaed5182a9a2f0f991d1da777a69e2de49310791c3d40552f"
+    },
+    "includes/integrations/zoom/templates/readylaunch/zoom/edit-webinar.php": {
+      "md5": "1d08715e9616e3e6ebf70e4cf35070c5",
+      "sha256": "63670c2113894259392172fb9854cc9182fa57c692527a364a4c8d467588a3e4"
+    },
+    "includes/integrations/zoom/templates/readylaunch/zoom/loop-meeting.php": {
+      "md5": "b08bb9eecf4535099a6ea8383b251567",
+      "sha256": "037b02f197911a2fa272dc387f99adfdd448370a617126d5ffb8de05238fa7f0"
+    },
+    "includes/integrations/zoom/templates/readylaunch/zoom/loop-webinar.php": {
+      "md5": "cd75a277d81d648b065eb07217003459",
+      "sha256": "88afd1f7632b0281a0eb46c217f5d9a2b04fb62becd879e7c92ad0cfb251d36a"
+    },
+    "includes/integrations/zoom/templates/readylaunch/zoom/meetings.php": {
+      "md5": "abedbf06eca527af8c6425bb58f7dc40",
+      "sha256": "982a10777d0babdde98b93dabaac1995e703789cd010682c560045f0bafe0d3f"
+    },
+    "includes/integrations/zoom/templates/readylaunch/zoom/no-meetings.php": {
+      "md5": "6de12784bb4f6385ecac6cf037e1231b",
+      "sha256": "a536ad05907acc104263ae1912313886793e0d8cd12efac800a34089919f8ab5"
+    },
+    "includes/integrations/zoom/templates/readylaunch/zoom/no-webinars.php": {
+      "md5": "0d642da8cb555d83d95147e501846c48",
+      "sha256": "17ccd94c1aa10c4c207f8ee8a61be6ab6c5f409a18f4c0829b8c353c1ccd7023"
+    },
+    "includes/integrations/zoom/templates/readylaunch/zoom/single-meeting-item.php": {
+      "md5": "73f0cb1c0a0c2c21c17081778605ed17",
+      "sha256": "1a26fa893459787cc0543e59c2649de0d33ec30bdb3d36a8866e1e7410c3bc65"
+    },
+    "includes/integrations/zoom/templates/readylaunch/zoom/single-webinar-item.php": {
+      "md5": "61aa9364f83e65ea0bf72ca49fccb9dc",
+      "sha256": "f1911822f630b18480ffa78cf70b1e4daf76f57740b4ab25235915865d5f8f0b"
+    },
+    "includes/integrations/zoom/templates/readylaunch/zoom/webinars.php": {
+      "md5": "7bb276e0e1711cb7d605f9f6a5a96a2c",
+      "sha256": "1b485d316690eaf17db308a66708c7f4800ec8470451eb841b33a3809b36fadf"
+    },
+    "includes/integrations/zoom/templates/readylaunch/zoom/parts/zoom-subnav.php": {
+      "md5": "add491bdab7b8c009eb3edca5ab63da1",
+      "sha256": "a156cd68fd38e3ac0883cf242334151ab8662a35dc55fdf4f3db011f7620a4eb"
+    },
+    "includes/Library/composer.php": {
+      "md5": "21fbadd1660dd458a1bf67da418949e0",
+      "sha256": "924d73b8ed58f67d307717ea407764d77fbbfe3acc8f156396f3a4975cab2c96"
+    },
+    "includes/Library/Composer/Pusher.php": {
+      "md5": "c09d9f7f2ed3ed68c29bf0f2135e9f96",
+      "sha256": "0ab879b4a8c783cd81e5156bcdb9babc9c2e3fa90c77abc54debca1ce5b63efd"
+    },
+    "includes/Library/Composer/Src/Pusher.php": {
+      "md5": "68af259b4d73cbab264355914d248628",
+      "sha256": "6b9bab9fc73899e836fd766d431d2ad92b279c664ec021a0575f05a731ccfb72"
+    },
+    "includes/platform-settings/bp-platform-settings-loader.php": {
+      "md5": "1c031ebf9e8c1fe1da08e4c5ccb5ba3c",
+      "sha256": "855dba7ff41371b3a85e7cf2059862b9647018b38e497d28a8ef7f9275200255"
+    },
+    "includes/platform-settings/activity/bb-pro-activity-functions.php": {
+      "md5": "1256801e541caf6982f654a201bfea8b",
+      "sha256": "4ae48a9e7f220f050e82e8b15a16f92ca391eef07456e0b5af399983a0966d66"
+    },
+    "includes/platform-settings/activity/class-bb-pro-activity-settings.php": {
+      "md5": "2e5c5eb20d7794a8bb3064548025c51c",
+      "sha256": "1d70cabce6fd39e638fd56ea1fbf3d42417205f43d85d096ac085cd34251bebc"
+    },
+    "includes/platform-settings/activity/post-feature-image/class-bb-activity-post-feature-image-attachment-preview.php": {
+      "md5": "dbe0a4ba2d75ded9e0644f97aed76bbd",
+      "sha256": "e1fb398ea6bf1a8b0533faf1d38f8ca57bf7702e1c618f0e591ba63a85aaa86e"
+    },
+    "includes/platform-settings/activity/post-feature-image/class-bb-activity-post-feature-image-preview.php": {
+      "md5": "567adeacfcae9e86a594b2fb0a4fb708",
+      "sha256": "8be149ee63b42f190caf9f83a3daaca59a71da4e14cf3915b1705c0d1290ecfe"
+    },
+    "includes/platform-settings/activity/post-feature-image/class-bb-activity-post-feature-image-upload.php": {
+      "md5": "b383013fb1b07027ace0d16fa78bc5f6",
+      "sha256": "35d24845d2ec94a67682062582a3dfc630c685e0aef9c306a30829215a7e61df"
+    },
+    "includes/platform-settings/activity/post-feature-image/class-bb-activity-post-feature-image.php": {
+      "md5": "d627efd2b9775697fb7c85baae8deab6",
+      "sha256": "ca25d12a7c3a3de61e670951cb97d53f36129498eaa6cd167a5bb3a3acb2cf96"
+    },
+    "includes/platform-settings/activity/post-feature-image/class-bb-rest-activity-post-feature-image-endpoint.php": {
+      "md5": "08cd5d6233c1a4d85dfa7b505a02f075",
+      "sha256": "084858654c02b23fe582b50f3ff893700badd563f14a7cb043ee8359c35df1cf"
+    },
+    "includes/platform-settings/activity/post-feature-image/assets/css/bb-activity-post-feature-image-rtl.css": {
+      "md5": "46b845c35f9d68bd001a32816dd659eb",
+      "sha256": "11eb44e0ceb496b25c0a83bda1c03a634ddd45e0b51f3e5d0191118d73954f91"
+    },
+    "includes/platform-settings/activity/post-feature-image/assets/css/bb-activity-post-feature-image-rtl.min.css": {
+      "md5": "a6b04aef7f65aca6720393e1a26e4c52",
+      "sha256": "2c0c0d7e49a43b77514f5fa9df4237d83c3bc090281985245b55024c6db92824"
+    },
+    "includes/platform-settings/activity/post-feature-image/assets/css/bb-activity-post-feature-image.css": {
+      "md5": "5e2e306f13303d3f615107b252d7c692",
+      "sha256": "692e75d48e395bd730e469f8ee64046450d8de7b7ee0736d77f47a911af4e0f1"
+    },
+    "includes/platform-settings/activity/post-feature-image/assets/css/bb-activity-post-feature-image.min.css": {
+      "md5": "111f4b65fdda10b927b17a2a3f8b962f",
+      "sha256": "e6d102d946a5f14edefe773aaeb997997ee5769805e116cc3cfd9781b3dfe3e0"
+    },
+    "includes/platform-settings/activity/post-feature-image/assets/css/bb-rl-activity-post-feature-image-rtl.css": {
+      "md5": "6ecb9d48135f74c7c377779c149a3829",
+      "sha256": "0351380292c8b62ac6a6dab75b42f5ee4bec0bc6d138085bd1c9468a6c916f17"
+    },
+    "includes/platform-settings/activity/post-feature-image/assets/css/bb-rl-activity-post-feature-image-rtl.min.css": {
+      "md5": "8ea9799fad13847d1ad4eb56f0c8a2fd",
+      "sha256": "7d23882191bf9bd1aa816e6c871e5f345a831eedb65d9ed7940da0f4e2d67958"
+    },
+    "includes/platform-settings/activity/post-feature-image/assets/css/bb-rl-activity-post-feature-image.css": {
+      "md5": "17a6d9e272ff69deeeaae1dae6cec878",
+      "sha256": "848b8c1ad157b45af2faab12c05adcc58fb78d9a6f26991605b9e859a5543de7"
+    },
+    "includes/platform-settings/activity/post-feature-image/assets/css/bb-rl-activity-post-feature-image.min.css": {
+      "md5": "b58ab1037da575ef4a1ae4ccf6bf042a",
+      "sha256": "5328b103ccf88e128e5b09256df40786d5c5a6a5072dfbeb66b5cbe1ccfa24f1"
+    },
+    "includes/platform-settings/activity/post-feature-image/assets/js/bb-activity-post-feature-image.js": {
+      "md5": "33fe7dc60718d2fcbada1690dd9c409a",
+      "sha256": "f32f8a9b0894f0162f358f0cc63d55381958c6c9e6c05f565b5ba24a75e943fd"
+    },
+    "includes/platform-settings/activity/post-feature-image/assets/js/bb-activity-post-feature-image.min.js": {
+      "md5": "41b510a6213953a0f66c208b883c1281",
+      "sha256": "5591c2de6a4c77d46db1aaf99b8c0a8db138aeb381a9b16545b079380e01b2ca"
+    },
+    "includes/platform-settings/activity/post-feature-image/templates/buddypress/common/js-templates/activity/parts/bb-activity-post-feature-image-form.php": {
+      "md5": "32be881a41761aed3207999369b57bfe",
+      "sha256": "510b5a94bfe41193652d0246adb3dbe20ae620105e402c0e17c4ad6e7e6905ec"
+    },
+    "includes/platform-settings/activity/post-feature-image/templates/preview/attachment.php": {
+      "md5": "df76fc8969791c57e07d34d116274b87",
+      "sha256": "2f479e3def36eb0f6aa580804c45c9d8361097224965ce2094bf783e0ad2ea8e"
+    },
+    "includes/platform-settings/activity/post-feature-image/templates/preview/preview.php": {
+      "md5": "daed23047cef64f5ee7b78f84f14c467",
+      "sha256": "62436e6f1c96c6a2deafb78400438041ffdc41740411cf185ff1904fb05d397b"
+    },
+    "includes/platform-settings/activity/post-feature-image/templates/readylaunch/common/js-templates/activity/parts/bb-activity-post-feature-image-form.php": {
+      "md5": "bfad561da9c0f71c503f7e215e9883d5",
+      "sha256": "8993d7e504a81eb19ae178fbc6ce11df204d0db2e0fe7b0c8bc5e437b7d66bbe"
+    },
+    "includes/platform-settings/groups/bb-pro-groups-filters.php": {
+      "md5": "89eeee1fee2d64536379deee5c009e26",
+      "sha256": "2382e328134c94cf92774d71bca31610cfb4f6942d3a98daaf386b9724f3fb00"
+    },
+    "includes/platform-settings/groups/bb-pro-groups-functions.php": {
+      "md5": "616a909fb5eb1aceb30000e961cd5d3a",
+      "sha256": "ac42908fff792d2d4f2dfd346dfef6f4d50ca40e3abb360af78f4ce4d889a5d2"
+    },
+    "includes/platform-settings/groups/class-bb-pro-groups-settings.php": {
+      "md5": "aa1ec35db6143fd2ca53be30be77990f",
+      "sha256": "120f9d253ce72698268aa8d414be72ae5c9a839a80e76cd330222f36e8bcc710"
+    },
+    "includes/platform-settings/profiles/bb-pro-profiles-filters.php": {
+      "md5": "e0f664a41622f651ea2bb9ce316bc388",
+      "sha256": "e759e74520b71fa3d8c0ac6e46063a03388389cd64fff555913ca40fc2539039"
+    },
+    "includes/platform-settings/profiles/bb-pro-profiles-functions.php": {
+      "md5": "1811a7dd559c6c6d68d330c403d2675c",
+      "sha256": "01778cc284e851c547686c25c5b52b5ddf3c74ee0404e163a4034cee8bf4c33b"
+    },
+    "includes/platform-settings/profiles/class-bb-pro-profiles-settings.php": {
+      "md5": "a4b767d466854f24b6d1e409ea5ad0ea",
+      "sha256": "95ccc357d94210a00979fc699b0ccf62adb97c1a219f1d2b955842a1a5320b1d"
+    },
+    "includes/polls/bb-polls-actions.php": {
+      "md5": "a7310d16e65d7ee26a27fa481081e82c",
+      "sha256": "9f7ac2f473409ab2663a6942b5a0e6b07455c725c2b26415c047c4097a3874d3"
+    },
+    "includes/polls/bb-polls-cache.php": {
+      "md5": "6833a6cc1bf34f5c9a991dc53000136a",
+      "sha256": "ce14ee9a5ab0f19c351d6b7e2aad75783e899427d7300d1827cc55f8cc70db9a"
+    },
+    "includes/polls/bb-polls-filters.php": {
+      "md5": "87b588502f59b9df32cdba977156038c",
+      "sha256": "c73bc5aff1795de07554a2f6604cdddf0207331d0ab3c4ceabbbf54af0b56ce2"
+    },
+    "includes/polls/bb-polls-functions.php": {
+      "md5": "36295b4b81d65f5944b0ce1f0c143b85",
+      "sha256": "18c69237ec596df68fc11f75a034f6d818b8f77345a971ebaf86088609fbb81a"
+    },
+    "includes/polls/bb-polls-loader.php": {
+      "md5": "383abb3d83b283829bb9c7e81f83791f",
+      "sha256": "bf17f87976dee8e331d7a6a03e7ef7c8223afbd8faa1d5926715eb5325127a5e"
+    },
+    "includes/polls/assets/css/bb-polls-rtl.css": {
+      "md5": "5427a2a35a2b726d1e6f0f52bfb456a0",
+      "sha256": "ffab1effed6496b6b07efac10e29e0fc34d621c30e398e35c458ed9351d2d7ba"
+    },
+    "includes/polls/assets/css/bb-polls-rtl.min.css": {
+      "md5": "68bc6159f1b8c76f3974fc04cfc80b57",
+      "sha256": "d6cdf12525d7e420728aaad40e3feecf2bf1c2045b9cb38683a5e89a3a6e21c6"
+    },
+    "includes/polls/assets/css/bb-polls.css": {
+      "md5": "7a02a3089ef5659ed79c496b3c385964",
+      "sha256": "05efc5d4beecb16046d40127b8d8c027bc61b387a3e6d295473e94083b37a977"
+    },
+    "includes/polls/assets/css/bb-polls.min.css": {
+      "md5": "98d5108c1f232dd4d9f72fba5aff0651",
+      "sha256": "8e985d55a5cf64505f10faa21875cf78b07ddad614ca27bcbe2e2a80b67c7a27"
+    },
+    "includes/polls/assets/css/bb-rl-polls-rtl.css": {
+      "md5": "259b2b440b33e5bc8831df0f103b80e6",
+      "sha256": "6c5a9d2430123d8fe6687c045dffe51c9956300f33542dee68cf85de949282a1"
+    },
+    "includes/polls/assets/css/bb-rl-polls-rtl.min.css": {
+      "md5": "3eefeb4cd0ef69e018e922534902eb6e",
+      "sha256": "c8c8daf9e1c572538227a174f088cc317e6e4a49f24c4540378a55a6be458aff"
+    },
+    "includes/polls/assets/css/bb-rl-polls.css": {
+      "md5": "0c2ad2f19750062727bbce289c8820e2",
+      "sha256": "9bcdd53c5e8c0ada66d6b29a7c0e83a3582ab204f1bd5275aea8757b9efe1941"
+    },
+    "includes/polls/assets/css/bb-rl-polls.min.css": {
+      "md5": "14a12a44af07ae7cb873f1c9ae9d38c6",
+      "sha256": "d6cec387666e416da18f642f78b3cdd7fe67ecbbca054c028b744f078738b9e1"
+    },
+    "includes/polls/assets/images/poll-email-icon.png": {
+      "md5": "53b2de8ddbdd64e59fdba1e67e13cf6a",
+      "sha256": "7dac772aa4381bcc34c267ec776feda30d9048c022a7a4fe4df82302b83741fd"
+    },
+    "includes/polls/assets/js/bb-poll.js": {
+      "md5": "9b16eab7a826d1a60e117ab57f15a098",
+      "sha256": "b98e60d6d3ec95589d6b801bdf2083b10c5b36046a295a9b93160ae10ec7b999"
+    },
+    "includes/polls/assets/js/bb-poll.min.js": {
+      "md5": "5e615689bc5e5bf0c78adaa662a1b732",
+      "sha256": "25ed2063b727df95a377c032b9cd218f2fcca2838ef2b18745573758a0c344ac"
+    },
+    "includes/polls/includes/class-bb-polls.php": {
+      "md5": "fc0dd881c65abc5554c63567635c2418",
+      "sha256": "d6b3bf0c85c743491ebad9b79a8835da8929f9583fa245d3852fadb5d3a558b6"
+    },
+    "includes/polls/includes/class-bb-rest-poll-endpoint.php": {
+      "md5": "51d2ffe3321fe40f94a4c63737472926",
+      "sha256": "ba6472aeffa50875196a0e9195a0a7b22961eb429fec8283aa6b7d661d96be59"
+    },
+    "includes/polls/includes/class-bb-rest-poll-option-endpoint.php": {
+      "md5": "787e874637839185e696114ee4593426",
+      "sha256": "83a2b801576b4acc192e4f53f348d66f45444e0658f069f1717b2b1628405de2"
+    },
+    "includes/polls/includes/class-bb-rest-poll-option-vote-endpoint.php": {
+      "md5": "f5fabfbf54e772763aa354af7703a7e9",
+      "sha256": "6cab0ab26d9c963ce0d05ede18949485bc74e152d20d360a2987f25db832e891"
+    },
+    "includes/polls/templates/buddypress/activity/bb-activity-poll-view.php": {
+      "md5": "63fcefe97fe2d51fdb5501eb4bc71289",
+      "sha256": "df2d15b9fdc32e89864a3d4eaf0bf212b9179d153e5151f5f0a94a2dd81b4543"
+    },
+    "includes/polls/templates/buddypress/common/js-templates/activity/parts/bb-activity-poll-entry.php": {
+      "md5": "2ab4e5c1b38c85f09ac12af89fc6f60c",
+      "sha256": "ef55a3e4b03394b2c5e513d9c1a3656f832405e574dbd9b6607f80866ae5c1f8"
+    },
+    "includes/polls/templates/buddypress/common/js-templates/activity/parts/bb-activity-poll-form.php": {
+      "md5": "866510a662cc039f4aad9673b259f9f5",
+      "sha256": "beefdef98c23f20e27699481e6de8a5d1b5e07f29acdbdfe79c2887ec36014de"
+    },
+    "includes/polls/templates/buddypress/common/js-templates/activity/parts/bb-activity-poll-state.php": {
+      "md5": "8a79a771de7a8ab2181d30a24496436d",
+      "sha256": "a0600a63d7b1006d62ef6ada21f9077e3b2b8ab0b9434e592348b75c7836aefe"
+    },
+    "includes/polls/templates/buddypress/common/js-templates/activity/parts/bb-activity-poll-view.php": {
+      "md5": "a1134eccaea472e49f76e1ee7d8d163f",
+      "sha256": "6355c149df83f5f41248af8951b12d2bc7abfdbf543b142f958d62f2e1689c2b"
+    },
+    "includes/polls/templates/readylaunch/activity/bb-activity-poll-view.php": {
+      "md5": "1b6be85a11eef91510e2597ef4330fa5",
+      "sha256": "0ac0c82fcf6b1544552621c5782e4e3bf6216cbcb7b477a422eb3a2c20d9ec1e"
+    },
+    "includes/polls/templates/readylaunch/common/js-templates/activity/parts/bb-activity-poll-entry.php": {
+      "md5": "2aca986c2f4e46b5dea0378409345430",
+      "sha256": "9b6311dbf72e8effd62dbb5a4feae375d7f19c1fe05be9196c7bb3e699e777ed"
+    },
+    "includes/polls/templates/readylaunch/common/js-templates/activity/parts/bb-activity-poll-form.php": {
+      "md5": "42b15a0e8b1773bb1eb07e2778d48ad5",
+      "sha256": "e63a725dce3a917cf38e6fae00da238329b825d940ed72a248bb569266bfbcfb"
+    },
+    "includes/polls/templates/readylaunch/common/js-templates/activity/parts/bb-activity-poll-state.php": {
+      "md5": "55d8ad82798a2503c8c4bd2baeb727c3",
+      "sha256": "3cf0efccae4f07d8b1c985ddf85c9666050915faf44b06317774eafc21c56c10"
+    },
+    "includes/polls/templates/readylaunch/common/js-templates/activity/parts/bb-activity-poll-view.php": {
+      "md5": "87ef1695b084989c6103dcd8e2056fc6",
+      "sha256": "112cddc0891c0fd30b4d3a146e2e9e674d7ac9a40e37425379548ff7872876ba"
+    },
+    "includes/reactions/bb-reactions-actions.php": {
+      "md5": "738a15fd96911050bd58ec5d0f5d590a",
+      "sha256": "4cdb8b0be6bc148af762f472b2d78a3f5cd0216f8fe8017fc2d1f2ab480f6853"
+    },
+    "includes/reactions/bb-reactions-cache.php": {
+      "md5": "f0de9af655481b90390deea4b501da69",
+      "sha256": "e78953f072b605f750fe56210f6b3f9770eac32682168ac7159c52c2afc70159"
+    },
+    "includes/reactions/bb-reactions-filters.php": {
+      "md5": "f8f2f4ab8f192912c8548f4ed064ac4e",
+      "sha256": "e64ff9461641f79bd739c3a56bf9d9b364e5a69f9a783f44050f59c090b01e78"
+    },
+    "includes/reactions/bb-reactions-functions.php": {
+      "md5": "bcdbdb5c9bdf1d8115a72921a9dabf13",
+      "sha256": "2cf0390e379856be9acdf3f8a96f10af33270e448ced3d7797774c7bfcb5aaa6"
+    },
+    "includes/reactions/bb-reactions-loader.php": {
+      "md5": "96e718816e418ec674c67f7523ce2296",
+      "sha256": "9a3a71c5b6c882b6efe37cf1e8f2f7171a80b1bbbc75a04fa82f35a6e473d861"
+    },
+    "includes/reactions/assets/css/bb-reactions-admin-rtl.css": {
+      "md5": "0721f6ad242e593bd4660175ab010ada",
+      "sha256": "8259ad2f8057e5966b730b410988925d1e12700a8803c14997e645513c57f7d4"
+    },
+    "includes/reactions/assets/css/bb-reactions-admin-rtl.min.css": {
+      "md5": "65c0adfcdf25b9177b879eee3927ede4",
+      "sha256": "d7e20f0b7c7636e7870b5664d309bdccaa364cb602d77f543effd8238e42646f"
+    },
+    "includes/reactions/assets/css/bb-reactions-admin.css": {
+      "md5": "4a41cc28303431fcc01aedd2aceb6122",
+      "sha256": "cf2663f4e94dab03b2caad9ef0affd9f7ddb24baa83161e60a30b5bcaf5dc3b2"
+    },
+    "includes/reactions/assets/css/bb-reactions-admin.min.css": {
+      "md5": "0e56cb42aa23c090e9f2841b0c68ec1a",
+      "sha256": "9d57188f23cc3f2beacfbea26361c81a305716795207e0677c5daa7c5be2443a"
+    },
+    "includes/reactions/assets/icons/bb-icons/font-map.json": {
+      "md5": "d8c51c27d6495f6fef238f01563b3113",
+      "sha256": "9df20bda2916e9415eaa78d2ede54edc1e37e780d3cc1a05dfbad1137579080b"
+    },
+    "includes/reactions/assets/icons/bb-icons/font-map.php": {
+      "md5": "19ed424d0dc7725299a3345b4643d8e3",
+      "sha256": "c4f6060a20c5a2f625e4cee6c891b363102f9314939e0775f9747733c1563930"
+    },
+    "includes/reactions/assets/icons/emojis/emojis.json": {
+      "md5": "3240db3d0fd539fc8790eb8b8eb86353",
+      "sha256": "8ae80d1062469de221a4d84650c74b9cc1196ff61037a5199586183892e2d20c"
+    },
+    "includes/reactions/assets/js/bb-reaction.js": {
+      "md5": "c1735606c295a214c9f16e8e2109b990",
+      "sha256": "eb476592f6f588c12855a302fa6fd6feb93978631ac7eb13ed05b45173e798c1"
+    },
+    "includes/reactions/assets/js/bb-reaction.min.js": {
+      "md5": "d0c739caae61f6bc88eceb928ea53ad4",
+      "sha256": "ae1a5535dc4f84b91673df2f40e3ce232e3dc1ab494011588f2787e91132c42a"
+    },
+    "includes/reactions/assets/js/admin/bb-emotion-picker.js": {
+      "md5": "f224fb21cc4a95225fdfbfac3a62ac47",
+      "sha256": "d9d4e298abd32668e1b29a0b1f722b7ab4992256d4aad7c7f7c00e5af7ece9bb"
+    },
+    "includes/reactions/assets/js/admin/bb-emotion-picker.min.js": {
+      "md5": "2bff9c635fe5ca2169720eb550012389",
+      "sha256": "259b1752bb1a55850a6e1824363b667cb62a4161f2f0b70fe486dc065e0182fc"
+    },
+    "includes/reactions/assets/js/admin/bb-reaction-admin.js": {
+      "md5": "443198c0eb2b292b0a4b7f79dde15874",
+      "sha256": "41731dd99479eb075b3505b140014bc629a5b947d94db355c09b035b776f0157"
+    },
+    "includes/reactions/assets/js/admin/bb-reaction-admin.min.js": {
+      "md5": "d0761d65c902098eeaaf605452738715",
+      "sha256": "20def976fb41490c0b3a5ba6d75f41c3c7e4d62be43712878d0cd953c6633fe0"
+    },
+    "includes/reactions/assets/libs/croppie/croppie-rtl.css": {
+      "md5": "12386baedd8b6e7c327b203752f8d89f",
+      "sha256": "14438ed6d2f4472a4423882b68a6bdf14f79daada7d9fee813849628c4c696b7"
+    },
+    "includes/reactions/assets/libs/croppie/croppie-rtl.min.css": {
+      "md5": "e4018d0e0dc153cbe75f0ad4d3bd3487",
+      "sha256": "66be5989fb882cae1f026351484165bf786e3087ccf4e28ca4b278dcac44d767"
+    },
+    "includes/reactions/assets/libs/croppie/croppie.css": {
+      "md5": "37e447cb2af25dcf1a8abd89959523be",
+      "sha256": "33ca3dbaa9c05513815a8dffd991d22091be6476da41da658c92cbbdda5e29c2"
+    },
+    "includes/reactions/assets/libs/croppie/croppie.js": {
+      "md5": "601deada98445c574dd0306281d2e831",
+      "sha256": "327be9aa59ba12c8886553ff3f0527074823a7b37ac45383069e22cc7580ff63"
+    },
+    "includes/reactions/assets/libs/croppie/croppie.min.css": {
+      "md5": "415ea4fbd13b4a5b82fd147710709ae2",
+      "sha256": "afc4f80e5c7fb5dcba8cd7051e99566831ecee86ff63d6caa09823345958c58e"
+    },
+    "includes/reactions/assets/libs/croppie/croppie.min.js": {
+      "md5": "81f0a853d72f61ddfc46bb37a66c8f75",
+      "sha256": "6c92340b6e3c9147adc65ce53f56720a49b529b14a89fa720dfd2ea9350c27fc"
+    },
+    "includes/reactions/includes/class-bb-reactions-background-process.php": {
+      "md5": "fe1b8cba627c243b8a2908d8f5d5c8ce",
+      "sha256": "ab53d007eb36206940f51f22358b215946f472d84d9608efe799a5f4ae7c833e"
+    },
+    "includes/reactions/includes/class-bb-reactions-file.php": {
+      "md5": "7ed4e8c0c95c61be07719f3ec37d73d2",
+      "sha256": "86564a053ac8c9ce269b65ae8544b700188b6cca53a0ad8fb060bd61f1645397"
+    },
+    "includes/reactions/includes/class-bb-reactions-picker.php": {
+      "md5": "c78cd05375105b820e91d6a2cb1c2419",
+      "sha256": "de10de8476495defb4e6fdd0432c6d67f41d0f7bb4254afec715defe3a102c16"
+    },
+    "includes/reactions/includes/class-bb-reactions.php": {
+      "md5": "e034808fd9bcad8c107743a35825df42",
+      "sha256": "0e031e354888a446f1fe952e1aa8f96dce02b350932442bd1514dadec6f92c3c"
+    },
+    "includes/reactions/templates/admin/emotion-options.php": {
+      "md5": "d2d09ad4dbe774431b272f72f1970e7c",
+      "sha256": "0adf3fe75ba45f048ae8b2df4a91c689ce77bb7bf6cd756d3e77bda838850adc"
+    },
+    "includes/reactions/templates/admin/emotion-picker/bb-custom-settings.php": {
+      "md5": "223ce59cb7f2893a350801e8eda3da08",
+      "sha256": "9fb6c9a09947510921686880fdb376f9af2765d32883adf8e581f19604020db4"
+    },
+    "includes/reactions/templates/admin/emotion-picker/bb-custom.php": {
+      "md5": "6b4b8fc2091e5e7691b0a45e1375143c",
+      "sha256": "423574386866c63a42235991eeb4c6bd9288e9f591196f5293c8b5c906b4bc97"
+    },
+    "includes/reactions/templates/admin/emotion-picker/bb-emojis-settings.php": {
+      "md5": "f645186afece65570144f4e68ad60136",
+      "sha256": "0d649385096eeb27d8ba1998d14601f37500f52e18ad243f57ce51fe4fd79fbc"
+    },
+    "includes/reactions/templates/admin/emotion-picker/bb-emojis.php": {
+      "md5": "4e367a267023cbd1376b624ed4de281a",
+      "sha256": "9f9c29b2ecfe19806c64689ce74fef60582a41f3c876428d59966b4188e50945"
+    },
+    "includes/reactions/templates/admin/emotion-picker/bb-icons-settings.php": {
+      "md5": "fbd3c296a2fcaf3a0b5e92beda871eb2",
+      "sha256": "c6a489898604018e3c5a6cebce18af1a278ebd6b27bb513709105a887d06bc41"
+    },
+    "includes/reactions/templates/admin/emotion-picker/bb-icons.php": {
+      "md5": "6209a86103668e0173715a2e675076a0",
+      "sha256": "1eed7a28e1546816bba10167656316323501aa164b1c1b67f8b098378b3a90bc"
+    },
+    "includes/reactions/templates/admin/emotion-picker/render-emotion-icons.php": {
+      "md5": "bd966d267a3df6ba45523b75ef9ef2f3",
+      "sha256": "8b43eb9221c8040dafdb726354521e3e2f1c72a5b1534b1e3e6e820295b1182b"
+    },
+    "includes/schedule-posts/bb-schedule-posts-actions.php": {
+      "md5": "7a797125961d0ea2fbf2fec8869a53ee",
+      "sha256": "44bb057df1488c776c4af138d6247079de22f794ff6f85febe6bf88307073675"
+    },
+    "includes/schedule-posts/bb-schedule-posts-cache.php": {
+      "md5": "ff21ed8d12c471f276d506940dfa27d9",
+      "sha256": "0edfac51af90470100428780b7eda8e64d168ba939b272d17eb572611581e108"
+    },
+    "includes/schedule-posts/bb-schedule-posts-filters.php": {
+      "md5": "056aedaeec8571d0b7c2239daca48f40",
+      "sha256": "7ec6019c1cd2e4f3b5e4e4b0fd7445780ab77e29ac43e8726eb01f8cb5d4a89d"
+    },
+    "includes/schedule-posts/bb-schedule-posts-functions.php": {
+      "md5": "7f449ce0fcf649e6f8034bfdedc3eeda",
+      "sha256": "56fa18d51ec3f7f5913641a0e1974e191b48113e7a0883c795bf7145785c7d06"
+    },
+    "includes/schedule-posts/bb-schedule-posts-loader.php": {
+      "md5": "b9a9aab0d07db8a4b5db3fbf7361a2cc",
+      "sha256": "a9d2938b8ebe168ea4c4b1ab35c3fd92333f9f509d7a7b19ce6181010b014e6d"
+    },
+    "includes/schedule-posts/assets/css/bb-rl-schedule-posts-rtl.css": {
+      "md5": "676be15ff5ab7d1fef14dd93e1e242d5",
+      "sha256": "b5d5b0c67dca1a91faa5951c8d6c85515681705ce707d3378b5d642a26adaaee"
+    },
+    "includes/schedule-posts/assets/css/bb-rl-schedule-posts-rtl.min.css": {
+      "md5": "3ed1841a876e2a755bd9832b216292de",
+      "sha256": "0d0db8edfb80906b00ea52ab9b43cdb559bbd9cec3bb9cf0eeca1e877b7de42d"
+    },
+    "includes/schedule-posts/assets/css/bb-rl-schedule-posts.css": {
+      "md5": "8c6f65c64329c20265f866449cdde956",
+      "sha256": "c7548cea16d366d9e80ec85a2d470af1eb0122b6186a7586e5d5c68dc14b8136"
+    },
+    "includes/schedule-posts/assets/css/bb-rl-schedule-posts.min.css": {
+      "md5": "420164c012cc6ca1f775f2ded5dca3bb",
+      "sha256": "7d0134298a6f3749a2b74349b1fd835622dd24d6e9b1b3f72fa8997a9ede7325"
+    },
+    "includes/schedule-posts/assets/css/bb-schedule-posts-rtl.css": {
+      "md5": "eb32b0386d04e43f741a625f358fdda1",
+      "sha256": "e438c1a0025ced99f13a7656956190153481c569bceacd13543bac0c8dca8f02"
+    },
+    "includes/schedule-posts/assets/css/bb-schedule-posts-rtl.min.css": {
+      "md5": "589610bbf4fc5387524705ea3e9a0e8a",
+      "sha256": "ae3178db6cd06bf48f23c1c77171446056ca4d66ea7f966c4853b364583a4c44"
+    },
+    "includes/schedule-posts/assets/css/bb-schedule-posts.css": {
+      "md5": "9aae70f4c8cf13a17a553832fc2aca1d",
+      "sha256": "78dd9498a70c42e3e5df792cf14e644642c04adaeb1f6adce09158feadf0240a"
+    },
+    "includes/schedule-posts/assets/css/bb-schedule-posts.min.css": {
+      "md5": "22a2ea93a5fbbdb35643826915c5b4d0",
+      "sha256": "baeb4f6eb9fc80f3adbcbad39fa2e51d90c40219b87dbb3c74cc92f67e4056e4"
+    },
+    "includes/schedule-posts/assets/js/bb-schedule-posts.js": {
+      "md5": "25443237b1929e01dec1b7f182839777",
+      "sha256": "bffce0da56aa8c8b9a33f59e8cd8a6d21cc85ce070ce78003a1be295750436c0"
+    },
+    "includes/schedule-posts/assets/js/bb-schedule-posts.min.js": {
+      "md5": "1a5e36354e4e9c9ff21b37cf2235861c",
+      "sha256": "37bbb06332d6c416025bb89c564fbea1d984e84f07358a67a479569a36be14a0"
+    },
+    "includes/schedule-posts/includes/class-bb-schedule-posts.php": {
+      "md5": "c417f6123f57b4aa6b7fb2d488b3b05e",
+      "sha256": "5f2f40c643a4426eff0265b6df78d16cbd0f989e7a67b7f5fbb65c6dbfcf07e7"
+    },
+    "includes/schedule-posts/templates/buddypress/activity-schedule/activity-schedule-loop.php": {
+      "md5": "d24a8939aa734aa142133d556187d1dc",
+      "sha256": "ccb2a5c248390bf8108e2fe5d68670ea39fa4ac55213164eaa6b05b00233859d"
+    },
+    "includes/schedule-posts/templates/buddypress/activity-schedule/entry.php": {
+      "md5": "af60abd00dc8fe5bc0d82a08f4315a41",
+      "sha256": "7184b36b116fdcd3c0362b18afeb14f5a03847706d8d6f414d605ad9f145e055"
+    },
+    "includes/schedule-posts/templates/buddypress/common/js-templates/activity/parts/bb-activity-schedule-details.php": {
+      "md5": "bebf7154e594f28377ee30b5295fa767",
+      "sha256": "ae4fdfeafeba6cc46b294563f70879b183004f75e00c1632b225357c51e52258"
+    },
+    "includes/schedule-posts/templates/buddypress/common/js-templates/activity/parts/bb-activity-schedule-post.php": {
+      "md5": "c4039e5cfe0ad6d5b26c10eb25a09395",
+      "sha256": "c1192c92c677f7abe98efefc0f12588bf623c34f7e690fa35022eddddcb88ae3"
+    },
+    "includes/schedule-posts/templates/readylaunch/activity-schedule/activity-schedule-loop.php": {
+      "md5": "f859514afee1d1b647721cc6845648e1",
+      "sha256": "d6be85738f1e6866e992a310a4f2db4b6670d490b090bea1ed6ad33e12ad7a0c"
+    },
+    "includes/schedule-posts/templates/readylaunch/activity-schedule/entry.php": {
+      "md5": "bb3a4fee7e363dfbb0f361cb4f89e7f3",
+      "sha256": "5f1c870d4c9e9be17c672ae6ebe7455e9273417339f2f237705ae782f057f44c"
+    },
+    "includes/schedule-posts/templates/readylaunch/common/js-templates/activity/parts/bb-activity-schedule-details.php": {
+      "md5": "91dc52ab0ab0c737f4575a40bc942cbb",
+      "sha256": "41cdc1ec1aa56b511b37f13155e66796c2183149c1f4a8b96bdab15d79b98e39"
+    },
+    "includes/schedule-posts/templates/readylaunch/common/js-templates/activity/parts/bb-activity-schedule-post.php": {
+      "md5": "9c9b98525be246c90e123d65dcd6fd4f",
+      "sha256": "19509f2f3f9cf0bf89fea3dd0365b30d50e6b72c1dc34f2f70dc2a4597659be7"
+    },
+    "includes/sso/bb-sso-actions.php": {
+      "md5": "3dabad3ea16ca50348eb447ded6f363c",
+      "sha256": "f3581e6faeea5d30325e5ca6a84d9aa4d5c689574dff7873cf05b2aee81ca6ab"
+    },
+    "includes/sso/bb-sso-functions.php": {
+      "md5": "24565a6ef437b85cd3815e7557837c5a",
+      "sha256": "a928668e6789e5c26817bd9d7b5f54b8526371a3758c8f01ebfdb2a64c9b52f8"
+    },
+    "includes/sso/bb-sso-loader.php": {
+      "md5": "412b1a89e5b74a7b9407924b61349d1f",
+      "sha256": "bd25a6a3c6a19c278bdf8c6002566a8f06b824adcd2b685bd732f85301914e9e"
+    },
+    "includes/sso/admin/class-bb-social-login-admin.php": {
+      "md5": "a592d751d55b27b7c4cbfdb6b5ab58ee",
+      "sha256": "6371b2d5da0ebd23a39a04a72afbd6e989e5431b7f08d0868bb327a12d90c0da"
+    },
+    "includes/sso/admin/sso-fields.php": {
+      "md5": "1e9fe6e45816e416bbc1006c57bdf77e",
+      "sha256": "8f4663e839167d1d28b3c388b20ee47ab22c6b8f7301df945ac1afac074ac357"
+    },
+    "includes/sso/admin/templates/bb-sso-fields-html.php": {
+      "md5": "24007a88b12521b1a9240a697a8906a7",
+      "sha256": "6ea7daba5e5d62dffd5f3b9563e1eaf0f1bb8f360dfdd607e878e2b900880a2b"
+    },
+    "includes/sso/admin/templates/readylaunch/bb-sso-fields-html.php": {
+      "md5": "57298a05a77520d691ba92437a87ebee",
+      "sha256": "57675a66319fe4cff6ee9a302e9014b35fb9fb705dd3af25c0eb16e12296f220"
+    },
+    "includes/sso/assets/css/bb-rl-sso-login-rtl.css": {
+      "md5": "fea1e4f4200652ca9b09f87ce88532e0",
+      "sha256": "e28970d0aa9c38c9736aa04855dd9d33f0ef2342ae9ae9c8a63fabbae166bb83"
+    },
+    "includes/sso/assets/css/bb-rl-sso-login-rtl.min.css": {
+      "md5": "19959a6acb4440b2da7ebc676185c625",
+      "sha256": "86b33f64dc18020c1069c1d3100c44e70b6450ef905e95a5d821ad5438fdc4df"
+    },
+    "includes/sso/assets/css/bb-rl-sso-login.css": {
+      "md5": "87476a2e8f2bb517d9bc7bcf4752e99f",
+      "sha256": "2d3f099c6a713908bc9dd8d3abf7b8baa348b882dbcca11a2672c77980dd4c15"
+    },
+    "includes/sso/assets/css/bb-rl-sso-login.min.css": {
+      "md5": "7c445dd53a71d8bda7b32abb7dbd7e79",
+      "sha256": "c85f057046d401130e1bdc4c23b20da7f505b02a27c9df3065a20cef8d800582"
+    },
+    "includes/sso/assets/css/bb-sso-admin-rtl.css": {
+      "md5": "a76485d741a5de371ee2bcd2b0510a3f",
+      "sha256": "7467d2bd076533f0d04f7ff5a7b6538f37536200731c08bb0f7770db904f9ea2"
+    },
+    "includes/sso/assets/css/bb-sso-admin-rtl.min.css": {
+      "md5": "d819963dac7c72c657a66c2930a4815a",
+      "sha256": "2f85eeac260c8ed1530a37c125ccf3d1652c62dd9bc10bc7f9d75d2a72898eec"
+    },
+    "includes/sso/assets/css/bb-sso-admin.css": {
+      "md5": "9b89206cb413d8aeece56f0f42977db6",
+      "sha256": "6c6aed76a506d6ee1ff5a81c336bc1937f41145f11ac4e989f031f5ecf11941b"
+    },
+    "includes/sso/assets/css/bb-sso-admin.min.css": {
+      "md5": "882635cff44ba0dd3df6012e4e7d51f8",
+      "sha256": "26c6d9d6e3e7378bb98cf0bddd90350b74949041ea22e8c5c5017b1f6d529659"
+    },
+    "includes/sso/assets/css/bb-sso-login-rtl.css": {
+      "md5": "ac726c4c20186370cef5b198542e1de7",
+      "sha256": "5b281b61fe7f23d30e0ec6586cebefae00bc69c278038fb90e5b6693adde660d"
+    },
+    "includes/sso/assets/css/bb-sso-login-rtl.min.css": {
+      "md5": "e735349817e22daf8d8599d8e47f3a81",
+      "sha256": "129777ad5c3961996b423f01efb8cfe0448da038b2c2bb323b961d2862d52ac7"
+    },
+    "includes/sso/assets/css/bb-sso-login.css": {
+      "md5": "abd0a71757e2bc94474c249c0596f7c2",
+      "sha256": "a45ed6505c5fa1076db2ad34534806bc34f5dc80341ecf2811cb5a83e4d70d85"
+    },
+    "includes/sso/assets/css/bb-sso-login.min.css": {
+      "md5": "bb1c7dfa29993338e093c9f706b060c3",
+      "sha256": "4757b64c5a4132daa2ed02faa1ef3353a4d2706dc17b7259d68cbf73147ea108"
+    },
+    "includes/sso/assets/css/bb-sso-rtl.css": {
+      "md5": "d41d8cd98f00b204e9800998ecf8427e",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "includes/sso/assets/css/bb-sso-rtl.min.css": {
+      "md5": "d41d8cd98f00b204e9800998ecf8427e",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "includes/sso/assets/css/bb-sso.css": {
+      "md5": "d41d8cd98f00b204e9800998ecf8427e",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "includes/sso/assets/css/bb-sso.min.css": {
+      "md5": "d41d8cd98f00b204e9800998ecf8427e",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "includes/sso/assets/js/bb-sso-admin.js": {
+      "md5": "27d6444836c37908bb12cf4dc47c7db5",
+      "sha256": "f1a99ee9c6e9e0d6a8958004637a8c3d0d94ce15249a9be6213cc60392b6416d"
+    },
+    "includes/sso/assets/js/bb-sso-admin.min.js": {
+      "md5": "1b0e20b07bfda58c87e9c353cc9931db",
+      "sha256": "98986b85b4e4079c2b1c94b92192797fec735b1a6968e6afa022433b9614edb6"
+    },
+    "includes/sso/assets/js/bb-sso.js": {
+      "md5": "8084ec34792e924c58a40155affa7816",
+      "sha256": "7ab67b4150d92dee383780366d81214d8a6760a443d64eccec1e092317e76d21"
+    },
+    "includes/sso/assets/js/bb-sso.min.js": {
+      "md5": "1ab7915fc1985f7c3c3af852155cb918",
+      "sha256": "85a12888aabb11e14f39b73f0dc9d287b7ecc989e947376cf8bb9a11c5bdc1dd"
+    },
+    "includes/sso/includes/class-bb-social-login-settings.php": {
+      "md5": "622c78ed00d3ae91256cb44d6609a196",
+      "sha256": "533916a9d6d4243bfea1e2ff6131567ad6fd2dbfad875617dd52351d23180103"
+    },
+    "includes/sso/includes/class-bb-sso-auth.php": {
+      "md5": "161c0f378ae56d731ef58810d013be90",
+      "sha256": "c271c780d0bb66dc6d1d2f29b48d3820b9cf8ecfdaf798ba3af8c924c88c935e"
+    },
+    "includes/sso/includes/class-bb-sso-avatar.php": {
+      "md5": "75a292d1ffba942fe7f484536d984b3a",
+      "sha256": "1ad4aedcb559e1ffb8d2555957562680cc53ce9562d5f2d92a488ea26e9f4016"
+    },
+    "includes/sso/includes/class-bb-sso-exception.php": {
+      "md5": "9bb038c1885d9b2fdf57f18cb5f02312",
+      "sha256": "dcfc04275bf0c885aa7a7f8d16029af91377d24d5edfd5bbf7cafd3ceda04af1"
+    },
+    "includes/sso/includes/class-bb-sso-oauth2.php": {
+      "md5": "db051ccdde7403441d2a8f804a41acec",
+      "sha256": "539c4fa1099e0756d73ca670b667d5e6fc117e8d4d6a79ae474422abc1ec946f"
+    },
+    "includes/sso/includes/class-bb-sso-provider-admin.php": {
+      "md5": "269e6a8748a37316619294768998f6ce",
+      "sha256": "177f539ea6713a94f3c3936320d2863de47201f33f3681a51e8f43f44397e434"
+    },
+    "includes/sso/includes/class-bb-sso-provider-dummy.php": {
+      "md5": "2cad7fbf9bc381022adb7629666a0c10",
+      "sha256": "5936de788d558e632e81d6c103fe70eae128f3a6331e3c049bcba8cd3f14d4bf"
+    },
+    "includes/sso/includes/class-bb-sso-provider-oauth.php": {
+      "md5": "bd3aec700dcff04a3a019ea83683af1c",
+      "sha256": "856ca1df0503d6043534c57fefe54a30e95e658a212819e401d66e11443ebd65"
+    },
+    "includes/sso/includes/class-bb-sso-provider.php": {
+      "md5": "336fdfe1d817bc074cb22057220ec178",
+      "sha256": "87affc9b9201ab332c2ea704c717b10deabd5430cea8680f69c4423f536e8dcf"
+    },
+    "includes/sso/includes/class-bb-sso-user-data.php": {
+      "md5": "f9de63d83e288e75e38847476cb752d8",
+      "sha256": "f864bf048fd71daf4a0a9b1b114449d90e6af33adf2a6a4dfbbadfa8c8e5fe41"
+    },
+    "includes/sso/includes/class-bb-sso-user.php": {
+      "md5": "05fa3562974317298841c2d6ccc580b2",
+      "sha256": "4689da03b9d5f2fd5b5d5f8f0c44c4bb26eaa051955c6ea9f175469804372a43"
+    },
+    "includes/sso/includes/class-bb-sso.php": {
+      "md5": "0f18cb2e7d7172f194bbaa0d5e9a1798",
+      "sha256": "cac7d1639c6b03520969d570276dcae89a8e0c62c7137a422616bb67646f8fd5"
+    },
+    "includes/sso/lib/class-bb-sso-gdpr.php": {
+      "md5": "1536ed50309637df18291b7cb3975737",
+      "sha256": "a72eb33570176a5fbe895b88f92d16889252f55ea1fca6235e18b78c08276dfe"
+    },
+    "includes/sso/lib/class-bb-sso-notices.php": {
+      "md5": "2152092ecacbab7207bb6ecb44725a33",
+      "sha256": "5f0aa4bc2fcfaa3b97e58052a14b2ca8aec841aaa7f53735850f9d4bf11700c1"
+    },
+    "includes/sso/lib/class-bb-sso-rest.php": {
+      "md5": "6554f5c14025d9b38f1940433cd178e0",
+      "sha256": "454428dfb2f9be8dcb3edbc4a64d3dd01567cbd65d8e7216e8cc44b2510214fa"
+    },
+    "includes/sso/lib/Persistent/class-bb-sso-persistent.php": {
+      "md5": "d278efa1c556a8951c3dbf516da0313f",
+      "sha256": "08c0d95e44b2c7d2a3e4ed043199700d2c1c134babeca49cb6d32458c50aba69"
+    },
+    "includes/sso/lib/Persistent/Storage/class-bb-sso-storage-abstract.php": {
+      "md5": "e32997eb2f82431a7c8c04fb84340abc",
+      "sha256": "d3ecd300c07fcfc0df00238ee3b505ee42799738ad5733cb976fe08a078010ca"
+    },
+    "includes/sso/lib/Persistent/Storage/class-bb-sso-storage-session.php": {
+      "md5": "33f5eef6987da89bfa362b4520307d1f",
+      "sha256": "90d0ddc6560c99e3ae5cff503a8c6c94d3d45499ab34e7cf1800416e9648ce15"
+    },
+    "includes/sso/lib/Persistent/Storage/class-bb-sso-storage-transient.php": {
+      "md5": "3f099b83f917c108ada4fb85b34c0140",
+      "sha256": "6743cb503787df611e1743dedc854c1f1b15b6bce34691cd7391faa497b9c14e"
+    },
+    "includes/sso/lib/PKCE/class-bb-sso-pkce.php": {
+      "md5": "9ebb7ddd9ecc765f8b0ad83bcffe3783",
+      "sha256": "ec7d1884fdbac8d2af043d7b123277c3a32a1efdac74ee5808847548ed9103b5"
+    },
+    "includes/sso/providers/apple/apple.png": {
+      "md5": "104527f0829bd7eb8d433d95513d72e9",
+      "sha256": "aece6ac56133e3805d2c1780043719f4f21a1427daec3ed343a1430963547141"
+    },
+    "includes/sso/providers/apple/class-bb-social-provider-apple-client.php": {
+      "md5": "9856fe4f0efe2a7b9cf0a5a997e61b38",
+      "sha256": "feaa02f7c83b063d764cdfdb08fa743452ce9615f008f5e6e0e7a4fd4cc0ad7f"
+    },
+    "includes/sso/providers/apple/class-bb-social-provider-apple.php": {
+      "md5": "6f2a0ed9a1f2fb90c3e13ab6ea31aed8",
+      "sha256": "f5c93f82350f26ce8574b1d4e27b79ed196dff43d962b0be268dcb3aa40e09ce"
+    },
+    "includes/sso/providers/facebook/class-bb-social-provider-facebook-client.php": {
+      "md5": "37d2931d296e649e23cc8c668d506bb3",
+      "sha256": "e65ee3e149efa9d9abb788cc63c47c63b0b4b79eaab6f5f0c5391fc875cfd04d"
+    },
+    "includes/sso/providers/facebook/class-bb-social-provider-facebook.php": {
+      "md5": "087c85cc34922d123c0b94a813658409",
+      "sha256": "2f5b9b235c677a67e5fff477b08a5cf6e5c49ef48c4297541a7fb8767156f6b5"
+    },
+    "includes/sso/providers/facebook/facebook.png": {
+      "md5": "d0e4e7136988bd5231d30077a41579c9",
+      "sha256": "a2f71bf64e49ace91cbac6fec94c293e911568d7d1e5b81239314523c10e62d2"
+    },
+    "includes/sso/providers/google/class-bb-social-provider-google-client.php": {
+      "md5": "30eb64419691c59cc51d48c6291bc3b9",
+      "sha256": "3e5010d1ce7a19b334aa83a69b85d91d01005af4735b6d845b79d05fed002920"
+    },
+    "includes/sso/providers/google/class-bb-social-provider-google.php": {
+      "md5": "ea16fc3a34dad11bc3218ba1a81f810b",
+      "sha256": "50b6a42c3f36ea75eee8a6642f885ed230e34ca5fe2df0f469f4c1afd9e89f99"
+    },
+    "includes/sso/providers/google/google.png": {
+      "md5": "c01300c7e12b618c67106930698d13de",
+      "sha256": "0b31ef89da0792c5ec7afe2f973b5273609e766fb254ff5848fd5d6bc2139dad"
+    },
+    "includes/sso/providers/linkedin/class-bb-social-provider-linkedin-client.php": {
+      "md5": "e2a5c1328eb05c0743275660c03febfc",
+      "sha256": "659fe6039baf27d44e7569d0b6bafeabf4c036f52c6f5b097e18ca4dda700c0e"
+    },
+    "includes/sso/providers/linkedin/class-bb-social-provider-linkedin.php": {
+      "md5": "be7193f3b08edf708375ffc80da34c62",
+      "sha256": "f725aebc8bbf7a71c35c131399bc4aa214f14d77d3420a381756cde98e265d89"
+    },
+    "includes/sso/providers/linkedin/linkedin.png": {
+      "md5": "f28946669c0739bda96abcdc719ae1fa",
+      "sha256": "3ea8caea28386e0704fdc0d9ed1f9bd6ee57117568b546620be326ae06cc9077"
+    },
+    "includes/sso/providers/microsoft/class-bb-social-provider-microsoft-client.php": {
+      "md5": "c91a4add872e993f111ac88608038da4",
+      "sha256": "32b15e606aa8a9f5bbfa08c99cfba75d8e6b8218cedc71eab834f848f7dca04e"
+    },
+    "includes/sso/providers/microsoft/class-bb-social-provider-microsoft.php": {
+      "md5": "58706f083ae534786f7662483bad257e",
+      "sha256": "140538da7589bce774a0f7b427ee2fcda7927ecfdfe6cf4f2dc06e551f2c4a6b"
+    },
+    "includes/sso/providers/microsoft/microsoft.png": {
+      "md5": "d6d0d643a09ad3f29fcb63dd8e94aab2",
+      "sha256": "f7f14c0ffeabaa60d0df13631b5ee419ebf09330d1ccd64f3fb6351e23a27c2d"
+    },
+    "includes/sso/providers/twitter/class-bb-social-provider-twitter-client.php": {
+      "md5": "c01743fe2fa2806740439ff9d49dd109",
+      "sha256": "a4aadf468899e2fcd400f3fcb79935efe618793f06f36d0c040dfc18307351c4"
+    },
+    "includes/sso/providers/twitter/class-bb-social-provider-twitter.php": {
+      "md5": "583aae755c26a4ac22e3e46f970c8115",
+      "sha256": "09b4d12cb15f2bdbaff0455132d0d47fcfaa1afe59be618e5107f1b7dcf2604c"
+    },
+    "includes/sso/providers/twitter/twitter.png": {
+      "md5": "962e37a1e645c0421384f99eda411955",
+      "sha256": "1437141b6c2c916d93c0f4a380526c9a6af2bf31eb0ef5431726484399a2c34e"
+    },
+    "includes/sso/templates/buddypress/login/below-separator.php": {
+      "md5": "5b7c5244d2fd0f7e246515c9f60d3960",
+      "sha256": "a950546e290942268281ccb98b39d1d1951903cecc353f28fa54fe95d2de5d05"
+    },
+    "includes/sso/templates/buddypress/members/single/settings/sso-links.php": {
+      "md5": "aae8099b61965ed3441a08d465cbd81d",
+      "sha256": "23fd210bb3e33168a0cb10ef5949bc91a4e703d8b26b5b15330664fcc56056a9"
+    },
+    "includes/sso/templates/buddypress/register/above-separator.php": {
+      "md5": "1329b77961ea5b5952552d2798fc8ea2",
+      "sha256": "cecb5e52dc9994d1ad3a9f8072c613bb72cbf8c31e96ca290ba8524a678706fc"
+    },
+    "includes/sso/templates/readylaunch/members/single/settings/sso-links.php": {
+      "md5": "57f2fc2f1dad868c83f4177615c349c7",
+      "sha256": "3856fc1900128f9b94ea53d46e97c0b37a6a58b99f78a79973a2ad57db3818d4"
+    },
+    "includes/sso/vendor/autoloader.php": {
+      "md5": "2c28939dc3555f6eb4cc004f509dc2b3",
+      "sha256": "dc745ddd0f9d5e8262e59c74b7a2e2d296c364ec1bdb5f500d9490c4210486c5"
+    },
+    "includes/sso/vendor/JWT/BeforeValidException.php": {
+      "md5": "e4075b1eb9fe220a7a66af783c5c90f4",
+      "sha256": "ac880a915066d66cf6e19c4b711a384257d683fbb6cef475fce1f3cc6c5aa9cf"
+    },
+    "includes/sso/vendor/JWT/ExpiredException.php": {
+      "md5": "15c4dd4f97bd38d379d4c9e99b8ff4b6",
+      "sha256": "d25221c3a4a56244b2143c7538d24f23932355b5a1fc179c196eaf1b352b8fef"
+    },
+    "includes/sso/vendor/JWT/JWT.php": {
+      "md5": "726765b8043da07a5f46ab13cb4f7e78",
+      "sha256": "4e26af801be4ba3ce3a74fa6dff92085cbe1996379a70bf2c064a1ba4cf3379f"
+    },
+    "includes/sso/vendor/JWT/SignatureInvalidException.php": {
+      "md5": "ce69e93cc81ab6ae69f13ddda8f13e72",
+      "sha256": "1cccbdfcf6bf587d03a527bd17024ecb008395fcf31b106c4a6ce8c09b38b83f"
+    },
+    "includes/sso/vendor/LightOpenID/LightOpenID.php": {
+      "md5": "b470d5554e522430361a0e25c420f3fa",
+      "sha256": "936bd8b48c4f1a79473469b35c55b748002baaea33a5e8f103f9fcb78547540e"
+    },
+    "includes/topics/bb-topics-filters.php": {
+      "md5": "7e09e895a4944701f53baa969a1e88f0",
+      "sha256": "113094b0d114aa41b5f225e4268af08c3ac86b280b127ad03bdce3490caa1d8d"
+    },
+    "includes/topics/bb-topics-functions.php": {
+      "md5": "166d64ff446a88e53255fcc85d7f7270",
+      "sha256": "23ea7de4d50c962e4806f3cac07927c24d195958151f34672008c156178e3898"
+    },
+    "includes/topics/bb-topics-loader.php": {
+      "md5": "b4eb8817541c5b85edca9a77b2fd4f06",
+      "sha256": "cb60e69d84658d0bc71e1cc1d4010e27e111e10c831cef132a7fb1139fe4c2fb"
+    },
+    "includes/topics/assets/css/bb-topics-admin-rtl.css": {
+      "md5": "5573b652b79872cda715eab7eda69fe7",
+      "sha256": "9c8cf6a4bde1647f49fccf2242cb9cddab25596e694da010308320ed4f7a8eb3"
+    },
+    "includes/topics/assets/css/bb-topics-admin-rtl.min.css": {
+      "md5": "3d8d2372a4fc84ca7fbe308cc0990324",
+      "sha256": "b3be89fe3943f1717dfd53b763f333264207a3c5c9c055b9fbe1dc739ef8ea06"
+    },
+    "includes/topics/assets/css/bb-topics-admin.css": {
+      "md5": "a0a4c0c3a9d148a72716420e6183c72f",
+      "sha256": "d40fef82908428f5ff2c6e912825e86271cd02c42a09c578ad65ec35db22441c"
+    },
+    "includes/topics/assets/css/bb-topics-admin.min.css": {
+      "md5": "817cf24905915c8f83b50007481fc050",
+      "sha256": "2e127645afa03b20ef56c84f91e54902ad3ac85ad263e2af895228b46fee1c2a"
+    },
+    "includes/topics/assets/css/bb-topics-rtl.css": {
+      "md5": "68ef0c7a45c6908f0fb98ea3a2eacd20",
+      "sha256": "3d30c99facf3c9d4f575cfb7fa7a128104d6e027912a06144be580a3ad62f816"
+    },
+    "includes/topics/assets/css/bb-topics-rtl.min.css": {
+      "md5": "8429b036ccb9988a3fad2c01f5b294c7",
+      "sha256": "528f032184789595beb72a14aeab3bc4de370dc201bb21212c9789a34f981b9d"
+    },
+    "includes/topics/assets/css/bb-topics.css": {
+      "md5": "460d075f7389b997fb08ab4891db4e5e",
+      "sha256": "24597964da65d4376fb57ee4790e938bc49f8cbb70b526bef25faa56fd9c1608"
+    },
+    "includes/topics/assets/css/bb-topics.min.css": {
+      "md5": "9c49d6d327c7c54d97051dac249c4821",
+      "sha256": "fdcc5cecb79dbbda55d9bc09f79e2002be5114f670119ca6f7a8bf42e11bccfd"
+    },
+    "includes/topics/assets/js/bb-rl-topics.js": {
+      "md5": "1e319e3fc14ebb40b0ee199b5dc13021",
+      "sha256": "f6e87a5dcd14777228916621c2af7f171bd3c028112b0b442620c318e40a0e97"
+    },
+    "includes/topics/assets/js/bb-rl-topics.min.js": {
+      "md5": "eb3f0d9a1370fe570056d804416c81d4",
+      "sha256": "1848b80c84ca880283b4169bb9ee7f368d2828a4bca010be6601a38eab6090cd"
+    },
+    "includes/topics/assets/js/bb-topics.js": {
+      "md5": "8a5f3e63c7ba2a01cb9388f0eb9903c9",
+      "sha256": "32ea52eb8ffb839d948897a7fa1716ea8f0696df4faec107776c51290a9a3758"
+    },
+    "includes/topics/assets/js/bb-topics.min.js": {
+      "md5": "fa49c1e520139b4df7f167220e94c752",
+      "sha256": "9f9e922d7e501f5df2fd3251fa4dfdb77ef0ea9bb7f4e5e59a867f4f8bef6bb0"
+    },
+    "includes/topics/includes/class-bb-group-activity-topics-settings.php": {
+      "md5": "d2692d0172fda4d032bd0b0dc8716b70",
+      "sha256": "d6d68d1fd793b21cd5e38de5396931364520d484dd0b785cec6809a018597b2b"
+    },
+    "includes/topics/includes/class-bb-topics.php": {
+      "md5": "5f831afdc2f8c00a059962501496f28a",
+      "sha256": "71b0796ed613881f274e38d946dde54f38e3049aaac7d3212e2491ee8aad4097"
+    },
+    "includes/topics/templates/buddypress/groups/single/admin/activity-topics-delete-form.php": {
+      "md5": "137a8d062a1e110a2595490d7f3cdf42",
+      "sha256": "2c2e8c4331ed3dc76dd4cf1ac134e84d46582ad422e49faabaafa553a88c9322"
+    },
+    "includes/topics/templates/buddypress/groups/single/admin/activity-topics-form.php": {
+      "md5": "cdf2d855004c66f94c7bc500fa71bb08",
+      "sha256": "cbf4f4952a894374eba5c1b74af817682bed1d4ae965ae871e8a4f2761f8535b"
+    },
+    "includes/topics/templates/buddypress/groups/single/admin/activity-topics-list.php": {
+      "md5": "d090a75a5919a7e965f35376cb79811f",
+      "sha256": "2e849a316ef38ea46200997d99d2c74c0cb64aee12751a5b3ef81a51f5c2b642"
+    },
+    "includes/topics/templates/buddypress/groups/single/admin/activity-topics.php": {
+      "md5": "6a8a3a3afc0c769fc94883a3eac08d58",
+      "sha256": "f83f79157fb9b0f161d8a8a4b3ea7139ce3b067122a78d7e2469033d706ee21c"
+    },
+    "includes/topics/templates/readylaunch/groups/single/admin/activity-topics-delete-form.php": {
+      "md5": "65f6805819442fd00ef2e824c63a7cc3",
+      "sha256": "81de52a41b01f2da6a5b82dfd7a05180399cad310b4f4f12f5f4678bea5a282c"
+    },
+    "includes/topics/templates/readylaunch/groups/single/admin/activity-topics-form.php": {
+      "md5": "a2525d88f8f093ec0d519efc5a0b304b",
+      "sha256": "551b4afb7472b05b7735ec1f009a7e81d8f505c844b2b793828dec71ef67a4cb"
+    },
+    "includes/topics/templates/readylaunch/groups/single/admin/activity-topics-list.php": {
+      "md5": "ed812bf086ec18514614627fd253a6ef",
+      "sha256": "509e4a5f5726ba76d6203a58b2d2bc25461f843d0b8e3c77e55177dcaddd75cc"
+    },
+    "includes/topics/templates/readylaunch/groups/single/admin/activity-topics.php": {
+      "md5": "18ee7f316ff5bd6b1e5e64a0cfbcd9d8",
+      "sha256": "f5d4043f742e2a1dafa3aeefabadbe36add87c0fd827341ffa8eda95c983db19"
+    },
+    "languages/buddyboss-pro-de_DE_formal.mo": {
+      "md5": "53fa979e1cd743517a4e7776f04b81a1",
+      "sha256": "fc5693f74d62285c3f889d940fbb66542f693f8194ae7d87e55e1dd930e8fb62"
+    },
+    "languages/buddyboss-pro-de_DE_formal.po": {
+      "md5": "40b18186079fbcd9e0f804a1d5447d81",
+      "sha256": "2b13ac2d3b6deb82128cd74c9123a613510b7044b4b62714dcd921a4835bb715"
+    },
+    "languages/buddyboss-pro.pot": {
+      "md5": "cbac3a718e632213fbac554e3b33c607",
+      "sha256": "8292497637d9c06b106a719992aa7e22fdaae0c447c62b945021cb12481ac62e"
+    },
+    "vendor/autoload.php": {
+      "md5": "372c66ffe58251a59376f9e8170434fc",
+      "sha256": "e165f36d3a7e752b655d5f9535316d810c679acc1bfa7a3d260393669a828bba"
+    },
+    "vendor/manifest.json": {
+      "md5": "88d550449c956514f39831f1e67a58a9",
+      "sha256": "a55494ff86d501098b17a8bade3b549a181163bfe9f98f0087d8d42fa05be40c"
+    },
+    "vendor/scoper-autoload.php": {
+      "md5": "c357dae38e98ccb872e693b642d0a5d7",
+      "sha256": "4a4bfee149b44895895a56f91bb55e74c19d36f004b7a07f25d4807ec82a3660"
+    },
+    "vendor/composer/autoload_classmap.php": {
+      "md5": "96de93d58e5e6cfa1a02926b4a136c88",
+      "sha256": "119d16c7cfc8a5d0293f3358837f3b5ba014ba6434f85523e9d4c66307879d1e"
+    },
+    "vendor/composer/autoload_files.php": {
+      "md5": "5a262cd8ea0279a4c20d6ca809e67df0",
+      "sha256": "093bd3ffce3d42e603725b09ee95dacab4827d44c94d071627687c84ab0b9503"
+    },
+    "vendor/composer/autoload_namespaces.php": {
+      "md5": "224007c97efb82c7b45b0e92f240af41",
+      "sha256": "ede505407590638a435137f4e060136f1008de79fc169b3de9793423b0cea38c"
+    },
+    "vendor/composer/autoload_psr4.php": {
+      "md5": "78ea53c47fb8d0cda17d539079f9e7b0",
+      "sha256": "213089cf8eb475c18b82fa43efa21d10706107ce3fd597d77e195b3d890125af"
+    },
+    "vendor/composer/autoload_real.php": {
+      "md5": "3b5d290cbea4a2038ddb78bcc5ddfc06",
+      "sha256": "e938220d253e7fc016383bf9efab5b6ac1feb5d53d9705fd3b61a4245f08f0ed"
+    },
+    "vendor/composer/autoload_static.php": {
+      "md5": "5c8646a5040dc680e9d6c24c69d0d6e7",
+      "sha256": "fdefdc2416632efb823fb3e36bd2c92b2eb4aaceb1640f06d05e05943071c4c6"
+    },
+    "vendor/composer/ClassLoader.php": {
+      "md5": "c02be6d96671f88d28aad3ffa134c8ae",
+      "sha256": "d4b2313e562edf942838ec316d983c1a3459ca67da3e5658e861200b0b3693c2"
+    },
+    "vendor/composer/installed.json": {
+      "md5": "feaca2aa0691f739e98f54e8e30b312f",
+      "sha256": "620f2d7236cfd4280250c8ff9c5b6e269628bdd0cc3ebebe6f64835ff9b550a4"
+    },
+    "vendor/composer/installed.php": {
+      "md5": "7c2ad7c0de71b06a015941ecbcb4a43a",
+      "sha256": "b9ad9ef50811ef19210dcada2a60e2f4808cf298dea16a1e9ba95cf7b74344e0"
+    },
+    "vendor/composer/InstalledVersions.php": {
+      "md5": "512866121059073f5654142e6a4b7a84",
+      "sha256": "cb148cfe1482f4bc78ba91c7ed9698d7071a178043c3719e9f22f58b75f2b126"
+    },
+    "vendor/composer/LICENSE": {
+      "md5": "955d5fe58c231244f6b49000f383b5e2",
+      "sha256": "c8cce4b6b9729f264ffdf9296d505d63432497feeed1f586d1902b942197e024"
+    },
+    "vendor/composer/platform_check.php": {
+      "md5": "e6ff66fa32a39cf2741244312176d86a",
+      "sha256": "c5d285103496df9f42a76b7932fb858ae44fcc1c0ed6321278f11d12b8dde634"
+    },
+    "vendor/guzzlehttp/guzzle/CHANGELOG.md": {
+      "md5": "28ba9d20692cbb27bf2ad1a94cf79d8b",
+      "sha256": "6be8f886100ba272b31103324c9fc5a4fa218c9a9be6bb217b944e61edef2765"
+    },
+    "vendor/guzzlehttp/guzzle/composer.json": {
+      "md5": "d44f1db6ce785018023d6b7944a844ea",
+      "sha256": "5d4f4f2bf4eb616b7a936e839ac70bb1faa7c763dfba3eca0f4ccf745baf19d0"
+    },
+    "vendor/guzzlehttp/guzzle/LICENSE": {
+      "md5": "9a8eefeec4fee45cb835a0f7054073fe",
+      "sha256": "1090e16630dfd10d5f79be2fb68c4f2f0b168cc34fae57eca7150f735078332d"
+    },
+    "vendor/guzzlehttp/guzzle/README.md": {
+      "md5": "3d777b98f9d914f42d6f6a948f658355",
+      "sha256": "7f8356056a5fdc56b20f961480ac36079a89df676a878d3333d732e6448eaaaf"
+    },
+    "vendor/guzzlehttp/guzzle/UPGRADING.md": {
+      "md5": "016caae3c6995f95d27de28b932c478a",
+      "sha256": "e450925d04e35df5f2b763d5755a968c5e4e9e759fa47e9d51d350c4d69c71f6"
+    },
+    "vendor/guzzlehttp/guzzle/src/BodySummarizer.php": {
+      "md5": "90df0536b15dfee82141599351414a44",
+      "sha256": "22a2e452b6fe6aff6a8748533483b71e53be3570b55bcf5a1d3a013f98ab19a5"
+    },
+    "vendor/guzzlehttp/guzzle/src/BodySummarizerInterface.php": {
+      "md5": "9bdd7157e2b034c09f7b2497e39ca282",
+      "sha256": "c54dd1785c17153c1157a890f1029952aee03b56d212d287d991c89b97f87e07"
+    },
+    "vendor/guzzlehttp/guzzle/src/Client.php": {
+      "md5": "8937262a4edd384df6892ade17a1875e",
+      "sha256": "bcdd9a3f3fa7858d0884db2186c7f790a39862d33daafa34861f1134539d36f1"
+    },
+    "vendor/guzzlehttp/guzzle/src/ClientInterface.php": {
+      "md5": "87dde887764677302e652ecb4569a01d",
+      "sha256": "09635aedcf17e3ab335a7c95d79637d625e2556444742eb9f5fff3158022518c"
+    },
+    "vendor/guzzlehttp/guzzle/src/ClientTrait.php": {
+      "md5": "021537358a5710da63ebb555682749e2",
+      "sha256": "7cb8ec144cffb627f51a68e91a5b58b0cc5c8a0e76fc960640b9b825b3d5d3b7"
+    },
+    "vendor/guzzlehttp/guzzle/src/functions.php": {
+      "md5": "73f4680b6c1639df1d53621cb6b42d18",
+      "sha256": "893b8db8eff8e36dcf3828277c9b8d6586ff5e72905f06813d51d6c19fd3c911"
+    },
+    "vendor/guzzlehttp/guzzle/src/functions_include.php": {
+      "md5": "820a182cab97095acb650477a249d45a",
+      "sha256": "2df9976893667b9c8b7184f7a8475b6c45d560d72884489068ad8f9fc3abb71e"
+    },
+    "vendor/guzzlehttp/guzzle/src/HandlerStack.php": {
+      "md5": "8a7186bf19dba7fc9d883461d208193f",
+      "sha256": "3b6e67a7aadcd8eb4459f82e4e375ac4e0a0b4f14568322c6849f52ec8e1727b"
+    },
+    "vendor/guzzlehttp/guzzle/src/MessageFormatter.php": {
+      "md5": "63c69f27299f41ac19164cad4801e403",
+      "sha256": "3d1c5ea32f4be985de6ffc9bb2afc8ed6bb006b346c37bd8428cc933c3871b2c"
+    },
+    "vendor/guzzlehttp/guzzle/src/MessageFormatterInterface.php": {
+      "md5": "ba9c3e1d54b32334478f63ee5dd5786a",
+      "sha256": "b3855117e8237441789088f9604d876f6abfe27878f88987519417aa75913c44"
+    },
+    "vendor/guzzlehttp/guzzle/src/Middleware.php": {
+      "md5": "f7d2e1aba4984a7b5919d5d3036ee825",
+      "sha256": "143527aedb4c98a49f365b85363a6cc769baf1c26d25a3158eb9604d4af52c0e"
+    },
+    "vendor/guzzlehttp/guzzle/src/Pool.php": {
+      "md5": "8339cac787bcef77d5df88fdf12537cf",
+      "sha256": "992143ebe9d98e25e4e8f69c43b57912957b8ef5eb8b2e1b13ede47ca24a6b6a"
+    },
+    "vendor/guzzlehttp/guzzle/src/PrepareBodyMiddleware.php": {
+      "md5": "dce5a7c7ebc7bf3a2787b8344c456275",
+      "sha256": "fb6a13e522b10c5d5daa1cff535c4b42da7a68085972ecbe24747793396b5c62"
+    },
+    "vendor/guzzlehttp/guzzle/src/RedirectMiddleware.php": {
+      "md5": "bf8f132764ea960e67dc51bb08fc3c03",
+      "sha256": "e26cffdc987ee4c00a66d85280fbe58883b97a054ff32ad96f60e6f2623049fa"
+    },
+    "vendor/guzzlehttp/guzzle/src/RequestOptions.php": {
+      "md5": "53a3604afab89332c63c9d3d85fdadcc",
+      "sha256": "3612baa136e735e6a48d988ca440c1520af79f4e0269195fcf988486c5c7f82f"
+    },
+    "vendor/guzzlehttp/guzzle/src/RetryMiddleware.php": {
+      "md5": "00284e405d01ffabfa347b34d5f5b9a8",
+      "sha256": "1db406153e802fe431b5f65c4ce8c7073661014f5ebabf229c7be01c2f794e01"
+    },
+    "vendor/guzzlehttp/guzzle/src/TransferStats.php": {
+      "md5": "333705f1dc7e7887bb5e138da7a47acc",
+      "sha256": "e38a1f7beb5edc3d42c3555c253f02134a749ae23d8eaf3e867c35aa953ac953"
+    },
+    "vendor/guzzlehttp/guzzle/src/Utils.php": {
+      "md5": "c58736e58c5dbcc38111877cb8148599",
+      "sha256": "110ee1a8ec2039372e7f900a66f5e2de1d6c47b6ee002bee831bed88e4497a78"
+    },
+    "vendor/guzzlehttp/guzzle/src/Cookie/CookieJar.php": {
+      "md5": "5128ab1eb2037571d3494153392f6e0a",
+      "sha256": "9fed30a88a9146870dfc8a566292e47de28f0511b676318f4260a0d20b0519f1"
+    },
+    "vendor/guzzlehttp/guzzle/src/Cookie/CookieJarInterface.php": {
+      "md5": "9dc5dc2f92d586f92ffd938e8f98b728",
+      "sha256": "5b98c8fdd230df10ae0b752a04fb900a22ae5029e57977e90c44a32191d1075b"
+    },
+    "vendor/guzzlehttp/guzzle/src/Cookie/FileCookieJar.php": {
+      "md5": "cc42cf712eba879c1f51307a656ad030",
+      "sha256": "354ab9bf75c8b16e2f6e7030255c5c9d0b8cc6aaee00b25e7e5956140067a048"
+    },
+    "vendor/guzzlehttp/guzzle/src/Cookie/SessionCookieJar.php": {
+      "md5": "9e55d90be1dca28a269e5c2183fffb02",
+      "sha256": "d072db8ee011ce328ffda7442a25081daaebc370727b605898a744d50adade01"
+    },
+    "vendor/guzzlehttp/guzzle/src/Cookie/SetCookie.php": {
+      "md5": "b19e101a7e4aa7b4b1c430b43139d18c",
+      "sha256": "238ce79e4fa949dc4140938e999537d5da7f4990c73b8dc01bb9e5c76776966a"
+    },
+    "vendor/guzzlehttp/guzzle/src/Exception/BadResponseException.php": {
+      "md5": "0ea4d47fc77ce8b379ac3de6569c3f6a",
+      "sha256": "8c0477253bcfcbd9fed56d7ed4169270cc5593d3ce6bcfcc5b91a708c1363d4a"
+    },
+    "vendor/guzzlehttp/guzzle/src/Exception/ClientException.php": {
+      "md5": "57894ece49179c1b45a83640de25338a",
+      "sha256": "68734711d5fecccc6ee3f9e4b93111634b366efcc80bca9053ae2151f48f2528"
+    },
+    "vendor/guzzlehttp/guzzle/src/Exception/ConnectException.php": {
+      "md5": "7d763050eb1837ba3c219e9d41abfcf2",
+      "sha256": "7698689cc36d56a36cedd57422bfecb8d8215bc6220bc3a60bf0edfa62c31191"
+    },
+    "vendor/guzzlehttp/guzzle/src/Exception/GuzzleException.php": {
+      "md5": "da1cb80b630b2cd5a1d3501633483cdf",
+      "sha256": "1fd8c1ae6c92077e59f785b1d97d5956239e2baa27c9cc3e4cc56e579e5a3900"
+    },
+    "vendor/guzzlehttp/guzzle/src/Exception/InvalidArgumentException.php": {
+      "md5": "c7c1230595e4f6309210e6dbee74cc60",
+      "sha256": "8a35b1f83794dac094f471d576950e6f396058f5f61842d587676fd88506edc7"
+    },
+    "vendor/guzzlehttp/guzzle/src/Exception/RequestException.php": {
+      "md5": "a6821922c5ec1fa0163cac413e4917c0",
+      "sha256": "a10f8b6f4a2c05c5b380a82773f0c6618fb30c780fa1808e20be81181c83c5a2"
+    },
+    "vendor/guzzlehttp/guzzle/src/Exception/ServerException.php": {
+      "md5": "9f86e1b935119b717ec8bfb7867c7aaf",
+      "sha256": "d28db7f96a327dd3c98b19c327144f204c999cc1b067e8cf3dcf9fc070b8c06d"
+    },
+    "vendor/guzzlehttp/guzzle/src/Exception/TooManyRedirectsException.php": {
+      "md5": "0986b29f192007eb45246f1925305845",
+      "sha256": "6fae14d89522b324b0f9ba8609cd34ac9a03028fd1b70db6c70dc807a52990a6"
+    },
+    "vendor/guzzlehttp/guzzle/src/Exception/TransferException.php": {
+      "md5": "223882a70dfde124a4f5dd00df92388b",
+      "sha256": "e7f038cefbeae1264df18a8911315a8fcb896077a7a0a2efcf137111c5ca33f1"
+    },
+    "vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php": {
+      "md5": "dfc122fe07a4795dac6cd5394135e309",
+      "sha256": "379fdf9ca26416a61f70ead455eff6b5e1257a45c71a5b9aace8c29850a8f686"
+    },
+    "vendor/guzzlehttp/guzzle/src/Handler/CurlFactoryInterface.php": {
+      "md5": "24644cb2927e68c3470f5f0198bf80a2",
+      "sha256": "d6f7b9c2e12d0900173cde438e9e9ee848b700a4716dc54a154eb1ba55ad1ad6"
+    },
+    "vendor/guzzlehttp/guzzle/src/Handler/CurlHandler.php": {
+      "md5": "4e22ec16190b6baadcf87f74ebe2c7e6",
+      "sha256": "85f470801341f51357b2b2f42ca644b0e47837b89190c1ddf0a53da586dc9a4f"
+    },
+    "vendor/guzzlehttp/guzzle/src/Handler/CurlMultiHandler.php": {
+      "md5": "1d862befdd89eaf2216f6f2d3ecfce4d",
+      "sha256": "a28d8f001a20cd93124eb55050f69089e6f398921d45697e9bdc602338ef295d"
+    },
+    "vendor/guzzlehttp/guzzle/src/Handler/EasyHandle.php": {
+      "md5": "18a7d44d9c3e95f32b99c3a37304a89d",
+      "sha256": "2b9f11117a3b28b93092c1b1afce0065b43a05fc832f7797c83026f7073a2ee9"
+    },
+    "vendor/guzzlehttp/guzzle/src/Handler/HeaderProcessor.php": {
+      "md5": "04408bcc69e644633b20c434213af900",
+      "sha256": "4918704b8cd6e9f0c6bbb41c688bad9f01251c821ce41f2e12f90e903dbaf2a3"
+    },
+    "vendor/guzzlehttp/guzzle/src/Handler/MockHandler.php": {
+      "md5": "f86bd016c70a021602f8300d76d9f7b4",
+      "sha256": "079dd9e9e71c2dc5c3d8f4554ab378e4f8585a869911d90bae2d64db798cddc7"
+    },
+    "vendor/guzzlehttp/guzzle/src/Handler/Proxy.php": {
+      "md5": "cf2e43e62637b1fcbd95c619482dd034",
+      "sha256": "f2bfb772593971c5dfca2924dbddd2da1c6af5389f7b591b420290fee1c98655"
+    },
+    "vendor/guzzlehttp/guzzle/src/Handler/StreamHandler.php": {
+      "md5": "31fac953fc03bb10d0a258792280f1e8",
+      "sha256": "209d1240b5883d782e6c313a10a6fefc83fe0f30887e97d58f87357307a18385"
+    },
+    "vendor/guzzlehttp/promises/CHANGELOG.md": {
+      "md5": "0f88ff4c8b3dd3aaa52f985a6a834738",
+      "sha256": "33d21e4e943afc6d02bbb41c9536521b15f5df5ede2b38b50a098d42df69eeaf"
+    },
+    "vendor/guzzlehttp/promises/composer.json": {
+      "md5": "7cb989f16f54e62776b960dbaa261444",
+      "sha256": "ca7cb0cba9f491eef4feb1e2e7897e8f7f6a3c7823f6b08fcff6733111b8adbc"
+    },
+    "vendor/guzzlehttp/promises/LICENSE": {
+      "md5": "8035eaaec6b3b562c1aed15adc8b908a",
+      "sha256": "098313b3908e2a799731aa3816386fe33af0bef21dbe6acc75e7c98958ec89ed"
+    },
+    "vendor/guzzlehttp/promises/README.md": {
+      "md5": "e3586b5ead9e3fcf1d64f45707397f2e",
+      "sha256": "da747bed2e704c6e20150a845f101e67cf47e49f15e1999804ae58c7f1c56818"
+    },
+    "vendor/guzzlehttp/promises/src/AggregateException.php": {
+      "md5": "ccbd3f1b0a703841b2beacf1c1dc5961",
+      "sha256": "1daf37e55f396b40c6f09c4bef34f5e1da17354f0c074422ff437703484ff04a"
+    },
+    "vendor/guzzlehttp/promises/src/CancellationException.php": {
+      "md5": "36cf91efeba78df90621f43f1704e56d",
+      "sha256": "f6d23a0e82f6cbba8282f7a725f0d8e8d544e7a5a340a1df6c95e7d0848246be"
+    },
+    "vendor/guzzlehttp/promises/src/Coroutine.php": {
+      "md5": "707e9d17b6cfd6aed7e49a09ec04dc23",
+      "sha256": "3c0c469c20968b1db3f5854b8e810f8f69d137f57d4e510f04de3a22589fe64a"
+    },
+    "vendor/guzzlehttp/promises/src/Create.php": {
+      "md5": "0d9522bcee696eaaf6fe0bfe85b10b03",
+      "sha256": "52a273903d0ea667492f8a169c6d0d5d3973fa3f0036c3a2e5e8c53388310a54"
+    },
+    "vendor/guzzlehttp/promises/src/Each.php": {
+      "md5": "e0270486ce61b74da20c3994695e3fdf",
+      "sha256": "fe317935ed3785cbe6b34071748db2d6b5758869c763adbb5b826e1a8da26fa3"
+    },
+    "vendor/guzzlehttp/promises/src/EachPromise.php": {
+      "md5": "605f248d490239befaa658555318eddd",
+      "sha256": "c1b3e87606f80c4e4deaecba185b69a69610a5c696f0e0da216673691fd4529c"
+    },
+    "vendor/guzzlehttp/promises/src/FulfilledPromise.php": {
+      "md5": "5c2d7e4a268658ba96d0be6b56c143c1",
+      "sha256": "b5b8427ad1562ff33a3db6f704875d418292ef2a9ea86414d769ce62961ecf05"
+    },
+    "vendor/guzzlehttp/promises/src/functions.php": {
+      "md5": "25e157bd53cfcacdce1634d722120c9e",
+      "sha256": "4ca290a8e13886793475009d173672e6f6b0f40c2289683718ab7599ee0efa64"
+    },
+    "vendor/guzzlehttp/promises/src/functions_include.php": {
+      "md5": "3544720d15b0c141ff5b8c1f8ce80c58",
+      "sha256": "78f53c98b83078424684310f7d9a82bbd7f04497f25f3f276fed424562f8f7bf"
+    },
+    "vendor/guzzlehttp/promises/src/Is.php": {
+      "md5": "9fbd3ce55d7d5fbe176b0911083ba54e",
+      "sha256": "e82c23f9b6b320588e7ecb12b0a4f09f414621f67e3311b4db29a0a8784721d9"
+    },
+    "vendor/guzzlehttp/promises/src/Promise.php": {
+      "md5": "d2762dcd97ab154338aa3100d67e984d",
+      "sha256": "69a2e10fb14d261b1c26dc2a64c9ae3b3a83cc77aaba00af5dabc7bd39649c05"
+    },
+    "vendor/guzzlehttp/promises/src/PromiseInterface.php": {
+      "md5": "f466e414cf76ec58feb5763205fdcd0a",
+      "sha256": "17e0f0113a457d2b04490ce5f35f58294b04e246c4234f722058ac61b07f7e5c"
+    },
+    "vendor/guzzlehttp/promises/src/PromisorInterface.php": {
+      "md5": "19f28778f6be1f176e0ff110f9714653",
+      "sha256": "8fb43308c357f210d1bce9bd5243d5b9fd376473439194602d3935938e1218a7"
+    },
+    "vendor/guzzlehttp/promises/src/RejectedPromise.php": {
+      "md5": "6f76da802e19fcc75867c1a51a933f1c",
+      "sha256": "3d63909a34bb03be67e81b4ee0c44a91942e2e4d610576f2597eb069526d5ba6"
+    },
+    "vendor/guzzlehttp/promises/src/RejectionException.php": {
+      "md5": "9dcb10f1d1dab8299b794aa34cd366b5",
+      "sha256": "d5ec8a8dda04fe880b4f0ff2d62cb6e752b75d7ca1011b40b9deb1891b45da64"
+    },
+    "vendor/guzzlehttp/promises/src/TaskQueue.php": {
+      "md5": "fc43ae9621005b66d5b0b247fb1e3427",
+      "sha256": "3624e2e6f76bc3e6219c190a4b5038bd0cfae5a0342336228d1d7701e79003eb"
+    },
+    "vendor/guzzlehttp/promises/src/TaskQueueInterface.php": {
+      "md5": "cfcde353e6f35c2361beab01852d1c3c",
+      "sha256": "816d68bd71ea0ff77ad8680da57e699ee9b344ec4165b48d07393141f2171c13"
+    },
+    "vendor/guzzlehttp/promises/src/Utils.php": {
+      "md5": "249c9710d87a14ce3de267db4f7ab43c",
+      "sha256": "ada9678a8e438004219e6b7c14db263f06092ba40d83ff873ae5dd7041b12a78"
+    },
+    "vendor/guzzlehttp/psr7/CHANGELOG.md": {
+      "md5": "07173af9e16766b0c584eb8ed423a71d",
+      "sha256": "de0f91e85fa188a8c7d11f6a582c0cc45adce4dbf3c0c309722075eba150ef13"
+    },
+    "vendor/guzzlehttp/psr7/composer.json": {
+      "md5": "4dfae26da5bc0e715b1d1144df4f3a3a",
+      "sha256": "aa4eceabe2be115ce8cbfbcc1950adf54cc6aaab7d7c712dfec020255a5838ef"
+    },
+    "vendor/guzzlehttp/psr7/LICENSE": {
+      "md5": "db7096d1ec87ffcdc25c249bcf336120",
+      "sha256": "709437fdecfeb9f22f71d0c144eb4d11938b99a7665f650e6f49fb9dcbfcce84"
+    },
+    "vendor/guzzlehttp/psr7/README.md": {
+      "md5": "87e0fb61bb33b4ec8327dbbd6b62ec3e",
+      "sha256": "6b3b51d08a1447cf42a9e0bad2b0e4c5c14ae844cfa44ac305078aeb40d2e4cc"
+    },
+    "vendor/guzzlehttp/psr7/src/AppendStream.php": {
+      "md5": "c352ec13bbf9dd446d2e85378155f99f",
+      "sha256": "f704dbd89324fb3018c9fbcc64331f1ae1f1502dbbdec34147b7712e7b1a940f"
+    },
+    "vendor/guzzlehttp/psr7/src/BufferStream.php": {
+      "md5": "2bd4aad2c193b34ce5742c5d025802b2",
+      "sha256": "fad33cc918bb1cf8d6eebb1c4d9d65537902cbd96f1cc6f7b745dc02cb1f6e2e"
+    },
+    "vendor/guzzlehttp/psr7/src/CachingStream.php": {
+      "md5": "e6a0e2c28c7676d13c1702f780dd3df3",
+      "sha256": "3eda27513d21d78fe3452e5e53aca5bb321400c3d35318ee5f25629c31095008"
+    },
+    "vendor/guzzlehttp/psr7/src/DroppingStream.php": {
+      "md5": "228bd0a4e536f4a1de1abb875686dd10",
+      "sha256": "6fbd87632c88198ceea7de145d220c625b5d85f9b2c9967c41dc9a2e96c93e99"
+    },
+    "vendor/guzzlehttp/psr7/src/FnStream.php": {
+      "md5": "48a1fb5a91cdebd59abba501c5a9ac1e",
+      "sha256": "bd789a3be52cd2f8f96966fa840432f9aa0dfc31b29990df6c10a80c99bd8ded"
+    },
+    "vendor/guzzlehttp/psr7/src/Header.php": {
+      "md5": "82b4688047dbd046f56f709b2a987016",
+      "sha256": "2d7b9f8b728504ed65010df9d2b929b71c47068fcf7613bdec658778c5788975"
+    },
+    "vendor/guzzlehttp/psr7/src/HttpFactory.php": {
+      "md5": "40b283c1354eae822d20eb3e68ea433a",
+      "sha256": "bc9ec764c76717a1f1063cd93e560af7aeaa6a5b5487b00169179704b2bf2899"
+    },
+    "vendor/guzzlehttp/psr7/src/InflateStream.php": {
+      "md5": "cafde03e868a3268aae9a0ec1c242d40",
+      "sha256": "e67696bcdac9239ad2cdde1fa19ab97fe57217e4bc8071ebb93df4ae6fd48001"
+    },
+    "vendor/guzzlehttp/psr7/src/LazyOpenStream.php": {
+      "md5": "2f5774deaeba21aba19b6bb8b2714d0c",
+      "sha256": "ee1d1e15757d64f4736a1beafde54cb1a72c7e9760eb10e1be58e2a76e6f3ebd"
+    },
+    "vendor/guzzlehttp/psr7/src/LimitStream.php": {
+      "md5": "0d481cc7804d9c62256d8b7b6283f64c",
+      "sha256": "651f7dd5c1cdaf1754a161ef8520462e2b62e2eb566a11d705dfa48b9cf67c70"
+    },
+    "vendor/guzzlehttp/psr7/src/Message.php": {
+      "md5": "cf2347b84c53d1e3e579064bde070079",
+      "sha256": "36b30094d9a6a9b30f3bde8a9216c34d6c80610407ed601c9fa50ea6145c87b6"
+    },
+    "vendor/guzzlehttp/psr7/src/MessageTrait.php": {
+      "md5": "9e2a7261f5683e8509ec4a5b31f9a2e3",
+      "sha256": "fb63cf0807b46a53878165e6ee4f390cbfed391f9b186cf6996c448a20d304e4"
+    },
+    "vendor/guzzlehttp/psr7/src/MimeType.php": {
+      "md5": "009b7f578253888ed6e0ba2f0b26d491",
+      "sha256": "609d59749c59d7d15c228b30d441416724b486312a17a6a5bb1209bf365632b4"
+    },
+    "vendor/guzzlehttp/psr7/src/MultipartStream.php": {
+      "md5": "d53c7f25a7174ca1ae242b2800bafe86",
+      "sha256": "8d40fe6e5d033a5b6800f6f52785e171509d86e96f8bdf3c6e7cc6d0bf33d28f"
+    },
+    "vendor/guzzlehttp/psr7/src/NoSeekStream.php": {
+      "md5": "8fb281aab481ec596860c64e4cdb3e0c",
+      "sha256": "9e346b546a0d32097190abd73c012cf59a601de946a0b0218acbe1159c78705a"
+    },
+    "vendor/guzzlehttp/psr7/src/PumpStream.php": {
+      "md5": "9eb69ba2b63da983ad75d5c9813526ec",
+      "sha256": "a800036a89e6e357fbf23168a5bc67540fdf1de43e95fe2f54d6f7b0b72b7695"
+    },
+    "vendor/guzzlehttp/psr7/src/Query.php": {
+      "md5": "5a8c68381f8f1e35fdacb991154fab0b",
+      "sha256": "186754341616cb48d115cc7ba83f2590f5afb78ce77fb80eea1ae7f3aa8a8df8"
+    },
+    "vendor/guzzlehttp/psr7/src/Request.php": {
+      "md5": "2c65af8a5c64dcdc112f5f6fc8810a85",
+      "sha256": "3dcee67a8c85d96b32a3107fe1052f005dd19a1d003bce5a73435556f2902bab"
+    },
+    "vendor/guzzlehttp/psr7/src/Response.php": {
+      "md5": "36394b0b15e1cfd8ddf497ba532d6746",
+      "sha256": "22e8bad7e64481c20eb347ecc87ed2e946c717b74097adef4b615b4b3241fef9"
+    },
+    "vendor/guzzlehttp/psr7/src/Rfc7230.php": {
+      "md5": "8f172d6aa0fe9c55ba7e798fb76153a6",
+      "sha256": "da076faef8cbf403f6ec0b4e9aeb699a5e6e35d320963499f1a7e918ea5557a6"
+    },
+    "vendor/guzzlehttp/psr7/src/ServerRequest.php": {
+      "md5": "455454687b4141e3c580ef1f2bc7cb5a",
+      "sha256": "fe67c9104720f6ce9035715176774e1b37b9182737d48067209ce44622ab3d2d"
+    },
+    "vendor/guzzlehttp/psr7/src/Stream.php": {
+      "md5": "c2e8aff45fcaacb50d766ed141b4405f",
+      "sha256": "9846179a0a0a39336dc9cd906f904ff4ae2d9db9a9f1a7b635f248abf76e1846"
+    },
+    "vendor/guzzlehttp/psr7/src/StreamDecoratorTrait.php": {
+      "md5": "17ef1f27e8b1f7fb3479ab4e53e34038",
+      "sha256": "2003c964275efd80caab4b895fdc33c2406e6c748facbe27e81175a5a4e50d26"
+    },
+    "vendor/guzzlehttp/psr7/src/StreamWrapper.php": {
+      "md5": "9f83cb4a34113d26c0fda371448c7572",
+      "sha256": "ec7c2cb0ae23698e0fb5741312caef6a46b31f668d1007f5d6cb4a22af9ec550"
+    },
+    "vendor/guzzlehttp/psr7/src/UploadedFile.php": {
+      "md5": "782f738a8142fd2a3b0eeb4005dae31c",
+      "sha256": "15ff201ea9e7e17eb3d5363295cfe3c24e18e5bb748d1033b79bf61e1ba0463f"
+    },
+    "vendor/guzzlehttp/psr7/src/Uri.php": {
+      "md5": "766bd5091679b2607e7f9248d5417951",
+      "sha256": "d59ba6b97133a3ab69512177ef2412ae2e43645f102547350a03caab425c121c"
+    },
+    "vendor/guzzlehttp/psr7/src/UriComparator.php": {
+      "md5": "03878974d2c004cf064ebfd72945aacb",
+      "sha256": "e3e2b7cba4f1174fcb96f895106604989bec4a968a8fd516dca05b485492b04c"
+    },
+    "vendor/guzzlehttp/psr7/src/UriNormalizer.php": {
+      "md5": "42b2ce9d702eb815829a6464a23ec7ab",
+      "sha256": "d3574ca841ca17ec4cf32fae43934bbdd32aa2316dd855fe3de280d4acc5ccec"
+    },
+    "vendor/guzzlehttp/psr7/src/UriResolver.php": {
+      "md5": "e542ea77d42200450751e0dca5259a03",
+      "sha256": "ea231b63f07f596c04b922457a277d511d1a59296dd9c252600b8e34f75dd724"
+    },
+    "vendor/guzzlehttp/psr7/src/Utils.php": {
+      "md5": "dbd449bcc9ce9d54f1a25e18b7b5cad1",
+      "sha256": "878f359e530b07b88066125bdbaf37cf6ec00d9eb2a213409130a4d1afec9656"
+    },
+    "vendor/guzzlehttp/psr7/src/Exception/MalformedUriException.php": {
+      "md5": "a9538da368a49ab69669f401cba2d7a0",
+      "sha256": "34e33b1c5a9caeae0f39ba6b45ffe8119c669e1667741884d42ffdf497d8bfc6"
+    },
+    "vendor/paragonie/random_compat/build-phar.sh": {
+      "md5": "8eb7e9dc637fb48d8bddfb470e370f42",
+      "sha256": "c32f3ec40fbc05c1b301e6fd4de5c067ba31c70f4ad4b3f6f4798743235edc28"
+    },
+    "vendor/paragonie/random_compat/composer.json": {
+      "md5": "6c534bddd61730e7c422ddcde8604eda",
+      "sha256": "22a061d4e7d24ecc59a8d5c61ab0eedff5526f0317c2037622c70bbdfd0106c1"
+    },
+    "vendor/paragonie/random_compat/LICENSE": {
+      "md5": "5c1048c9d62123819aa63e62e1578be6",
+      "sha256": "e79a4c7d03c72850c60b2d5c41c2f92d33448ed2b243bd4686cfa7674e15e3ba"
+    },
+    "vendor/paragonie/random_compat/psalm-autoload.php": {
+      "md5": "6a46249f6d764cd92b1acec8bde828b2",
+      "sha256": "1074d48785e2539a9e0e1caa9ad16949adea05ca83135f410e9ce1a067d219c4"
+    },
+    "vendor/paragonie/random_compat/psalm.xml": {
+      "md5": "473b1cfcc838b577dc9c9e08680e6704",
+      "sha256": "e4095e243d790a5001df8f469382c2d97ae069943bd42dee0f5e613dd958cd4e"
+    },
+    "vendor/paragonie/random_compat/dist/random_compat.phar.pubkey": {
+      "md5": "36dae3cf3fd10ae5093aaec29b7b5125",
+      "sha256": "8a02cf9db52b09b0afe04f3e812785c2a9854951bec0c31568a13b82d4870005"
+    },
+    "vendor/paragonie/random_compat/dist/random_compat.phar.pubkey.asc": {
+      "md5": "3ec788adbb0519a92243e569789cfcb9",
+      "sha256": "3c55e651398d15479bcb279fba8e30d8c43155834cfdb5fecb62e61c9fd79f33"
+    },
+    "vendor/paragonie/random_compat/lib/random.php": {
+      "md5": "0d5ef0b41157f45f902a755b6e66704c",
+      "sha256": "089d77f4cb88d6c6a8e421ae73a04e08d54a28e60a7311cd5938fc7cb5ce532a"
+    },
+    "vendor/paragonie/random_compat/other/build_phar.php": {
+      "md5": "319b8a74c8c88ebe8a74b1b66ab038fd",
+      "sha256": "884aa10d0f224ba4a08cfbee0f2e4b4fd31ec28d46da5d46217d24921c731b8c"
+    },
+    "vendor/paragonie/sodium_compat/autoload-php7.php": {
+      "md5": "18dd130b2ab6214635da1d9375ef44f7",
+      "sha256": "6aa8e97e4df9d92bbf68f079aeadaf124d4c92f9c77f740ede463c9d7de92e9b"
+    },
+    "vendor/paragonie/sodium_compat/autoload.php": {
+      "md5": "8ed295c2736e056983bdeed75b9b366f",
+      "sha256": "66b537f2d59eccd09d0eef8e2765ecb3940000aecddde2fb304ad384b7311b35"
+    },
+    "vendor/paragonie/sodium_compat/composer-php52.json": {
+      "md5": "796c688dca14779e255265afe7110586",
+      "sha256": "0d0817652921d0db24316057e183b2d8e74794a5d589c5f251598b2e1366052f"
+    },
+    "vendor/paragonie/sodium_compat/composer.json": {
+      "md5": "a3ba533e460f832721760abce8934bcc",
+      "sha256": "8767814ce3c77f941220c50da8b340b50c49005157b1b4ccb88dffd895afeed9"
+    },
+    "vendor/paragonie/sodium_compat/LICENSE": {
+      "md5": "26d22370177df94e30dabf4179142822",
+      "sha256": "1e1b3e1caf7fc6ea293814d4a75a4d6c4e4650f22c027524e516badcdce9edac"
+    },
+    "vendor/paragonie/sodium_compat/README.md": {
+      "md5": "de8b980e4c567f4cd8a4d95612b5f192",
+      "sha256": "9508ca5ecb12485981bc54ca3948fdd3715d04d08c86e29f8453728fbb13a18b"
+    },
+    "vendor/paragonie/sodium_compat/lib/constants.php": {
+      "md5": "1e90ace5e4eb35fc2919233158f80ec8",
+      "sha256": "d59ed367dc4c58eb49d2d301ecd3d9d6af243bbc9bb911c6200beee42ca6dbd1"
+    },
+    "vendor/paragonie/sodium_compat/lib/namespaced.php": {
+      "md5": "ac9716c5db13e783586b116d30f2a21b",
+      "sha256": "0af9d2e182f606ae56a648568f934b7689ee722c8d99fb845ab799a84350a265"
+    },
+    "vendor/paragonie/sodium_compat/lib/php72compat.php": {
+      "md5": "5ab8ea835c7f7c8c1d491c64495d4360",
+      "sha256": "6978cab013ff411d83cbeaccd351beaed71de067ff286e5f35cd2476c2c2e0d3"
+    },
+    "vendor/paragonie/sodium_compat/lib/php72compat_const.php": {
+      "md5": "6fde16186457f7018fae348921732be8",
+      "sha256": "a282a03ddb6f311479afdf9419adc055f6c66fbe0b5befe8296f5959fae5c765"
+    },
+    "vendor/paragonie/sodium_compat/lib/ristretto255.php": {
+      "md5": "174933fe65c1ed60de1c2fa568a9c779",
+      "sha256": "599415953068243449a00ae98aea5e389599b3c1bfb7f1afc92e14049388364c"
+    },
+    "vendor/paragonie/sodium_compat/lib/sodium_compat.php": {
+      "md5": "6f5cc0724e2a1a041094a28608049703",
+      "sha256": "53a4180f61228f8539d08b4eb8363fd60d14c329ccadfb5e2e6d8d43c5ec68cd"
+    },
+    "vendor/paragonie/sodium_compat/lib/stream-xchacha20.php": {
+      "md5": "b1e0ceedc943df37430889ece8c89a10",
+      "sha256": "50a735e652131423278afa3d60f7ee45f2731d410885f453068d25b2f42ee38b"
+    },
+    "vendor/paragonie/sodium_compat/namespaced/Compat.php": {
+      "md5": "f660789362bcacf684fbb8cb9397a8b1",
+      "sha256": "d15e805cb6901bb4b96aa9e7e757b15bcfd4ac822981a7bbe009fdabd702b818"
+    },
+    "vendor/paragonie/sodium_compat/namespaced/Crypto.php": {
+      "md5": "f0cf859fc436ce68a68e9b2ac3fca94c",
+      "sha256": "a08c74b25cff79906b455fcbb142d4ebe9be6b9a1655106c15004d64d534b4b9"
+    },
+    "vendor/paragonie/sodium_compat/namespaced/File.php": {
+      "md5": "08f23aaa88bb9b6184408f1f1734d4af",
+      "sha256": "579e79430072852a53b13499d404964dc5a4914e5a5aef68f069bbb7b0ade677"
+    },
+    "vendor/paragonie/sodium_compat/namespaced/Core/BLAKE2b.php": {
+      "md5": "bb6cd84befa49d3cacb8a2b00f7e9d0a",
+      "sha256": "e814e84344d135cb65158a81e89ee7ed7f01ecbf6a2b558ad4b5f4298db56d01"
+    },
+    "vendor/paragonie/sodium_compat/namespaced/Core/ChaCha20.php": {
+      "md5": "d61f9e71ec0de9b83e55797c645bd242",
+      "sha256": "4bea4ccdbd5915002fbbb00a321e4f06ace8a668e64a9cc41b9dbf92fe1f88c4"
+    },
+    "vendor/paragonie/sodium_compat/namespaced/Core/Curve25519.php": {
+      "md5": "bccdd5b94e2d37424c58a1920d3344ec",
+      "sha256": "ea5848f34d4046cef0863372aa32b816cea4b193738de8e45a28e41da8dca926"
+    },
+    "vendor/paragonie/sodium_compat/namespaced/Core/Ed25519.php": {
+      "md5": "418ba82c39f48c7cc482001993aa2e8e",
+      "sha256": "05a5ccfc4f352d1bfe6812859abe0a0dc03bbaa755689f2db9edc577be7fae67"
+    },
+    "vendor/paragonie/sodium_compat/namespaced/Core/HChaCha20.php": {
+      "md5": "7fd283c961c7fb549999035d4c876c19",
+      "sha256": "b0fece3a576d985bf12f2271abe22ddae2a1eef23aedc70ed296379e0736b558"
+    },
+    "vendor/paragonie/sodium_compat/namespaced/Core/HSalsa20.php": {
+      "md5": "789f24c6e4ce09b527023484551259c0",
+      "sha256": "12ec7ef218868b0673ae60e13373b5201fe871aa514fa2d59ee62a0ca79336ee"
+    },
+    "vendor/paragonie/sodium_compat/namespaced/Core/Poly1305.php": {
+      "md5": "b70345ffbb5d0e141428cadf65d3d1c3",
+      "sha256": "be43675a0a69a217e7a45a2bea4ebf0f9f25fe6ff18f667edde3a2b3869923cb"
+    },
+    "vendor/paragonie/sodium_compat/namespaced/Core/Salsa20.php": {
+      "md5": "fca24cb9f01e078b9a47a71de43819df",
+      "sha256": "87e6c0650980211946152706cd03e585f1220425372487cd0decbf1dd4349e13"
+    },
+    "vendor/paragonie/sodium_compat/namespaced/Core/SipHash.php": {
+      "md5": "18c2ff5ea8135bc9ed2e8c57d67414f8",
+      "sha256": "7000bd66e113b4014aa9623436b5965011acc59137a2927b977c7bbd6fd838fb"
+    },
+    "vendor/paragonie/sodium_compat/namespaced/Core/Util.php": {
+      "md5": "148874ff72dbaf43ff97adeb73b25b1a",
+      "sha256": "65971cf4329bfb2e85cf43100171dae0ed1427f878d594d08c5896e4e4fea0b0"
+    },
+    "vendor/paragonie/sodium_compat/namespaced/Core/X25519.php": {
+      "md5": "66063d4c25b079291613d54f9aff77d4",
+      "sha256": "cc6dcfd85a64af33d7e2db7049e6a3f913aeb60a231c3491f318c72737cf8c58"
+    },
+    "vendor/paragonie/sodium_compat/namespaced/Core/XChaCha20.php": {
+      "md5": "3d57bb15fc73e476fa0b6863acfc5688",
+      "sha256": "112c1496b3f8e795d9121accfc3ec4085e8a3559f0faeb2566e6100a49f2253b"
+    },
+    "vendor/paragonie/sodium_compat/namespaced/Core/Xsalsa20.php": {
+      "md5": "a73dbe450519afa86747459fc4d7c458",
+      "sha256": "8aac276dea50290fca73c7c738971a1faea2d404e21660516d3e4b0b3399bde9"
+    },
+    "vendor/paragonie/sodium_compat/namespaced/Core/ChaCha20/Ctx.php": {
+      "md5": "cce0bea0a025ed076e7abf282f949765",
+      "sha256": "f5a37e259cbaed5a92aa94deedca22ffc2b603c3236025dc326d672e92ff63da"
+    },
+    "vendor/paragonie/sodium_compat/namespaced/Core/ChaCha20/IetfCtx.php": {
+      "md5": "d64fd0774702381d6b0de0ad35cf89e0",
+      "sha256": "964f22e23aa2ff009ef2fd474259b78edadaa7b5461dbd9c383102271e21dcf3"
+    },
+    "vendor/paragonie/sodium_compat/namespaced/Core/Curve25519/Fe.php": {
+      "md5": "f6dfef3936818221e4f63a325b763c70",
+      "sha256": "5d9315b703e1e3a28366ba8738fd107f6573b5894dbd72eb744711539914caf3"
+    },
+    "vendor/paragonie/sodium_compat/namespaced/Core/Curve25519/H.php": {
+      "md5": "92cebcf37c36e61210142eec0ed8d7d1",
+      "sha256": "739a2676f034b6a4b8efca02f5429bbcd81b041501202e270d0e96247beeb5e9"
+    },
+    "vendor/paragonie/sodium_compat/namespaced/Core/Curve25519/Ge/Cached.php": {
+      "md5": "cfa61a8e9b560759af849a480bbefa7b",
+      "sha256": "e762b63b6e86a474a5af5822a489061b657edc6c1820bd1eeb7ad1d9ff92f2fb"
+    },
+    "vendor/paragonie/sodium_compat/namespaced/Core/Curve25519/Ge/P1p1.php": {
+      "md5": "0c600ceadf14cd0d1deeb2736a18633a",
+      "sha256": "5b6f26cd1f1d173bb8cb629c0874015346c04aaac2893d16a6519dec9af16249"
+    },
+    "vendor/paragonie/sodium_compat/namespaced/Core/Curve25519/Ge/P2.php": {
+      "md5": "d824fede9496339444be1cd9ddd5277f",
+      "sha256": "b4e1d8bc5a2ea6b1f125d69cc05b9a6e6086c3c844a6a1c6b41022faabf34c23"
+    },
+    "vendor/paragonie/sodium_compat/namespaced/Core/Curve25519/Ge/P3.php": {
+      "md5": "8d3ac52f0842b3ba595620c560510f59",
+      "sha256": "c25238401a2392768a00f9e6853ed34f3df1655ea3e93c503f7bdd6be6057d9c"
+    },
+    "vendor/paragonie/sodium_compat/namespaced/Core/Curve25519/Ge/Precomp.php": {
+      "md5": "7cf45244b2b8020c95e4c0fcdb806e04",
+      "sha256": "ca3ceee229d496e8a895161502793126f371956337008449b58cf16e85cb7f24"
+    },
+    "vendor/paragonie/sodium_compat/namespaced/Core/Poly1305/State.php": {
+      "md5": "ac2f8a9f9933db62420898c00e33bfdf",
+      "sha256": "659b9a9f9453ce43fd9e53c438dc39f77a4bf6f4e9138b37fbfc1f61f775afd6"
+    },
+    "vendor/paragonie/sodium_compat/src/Compat.php": {
+      "md5": "669ccbe4343aab91201e84f07506b527",
+      "sha256": "7bfccaf489ee941ceb8a7873d62c67a389c96c0abd7e2e1e18249abbd2b5c539"
+    },
+    "vendor/paragonie/sodium_compat/src/Crypto.php": {
+      "md5": "8bcdcc61960d2a5b2ed7ee4bf722c0aa",
+      "sha256": "e274eaefd46badedfba6b290be07ba6bdccef2242d9197945cf9877d0c25eaf4"
+    },
+    "vendor/paragonie/sodium_compat/src/Crypto32.php": {
+      "md5": "470ef73b6208176a3abd9c4f3c0c127c",
+      "sha256": "8611081f792a31d45f796db22ccd17f4fb66364b9510cb4cd6029f1a35296d06"
+    },
+    "vendor/paragonie/sodium_compat/src/File.php": {
+      "md5": "089b4a6d469f85bbf7ceaffde4bab1ff",
+      "sha256": "f5a37ea524ae49853564d73faaffb14b1b007d5699b13021494dfd263b9f9ddf"
+    },
+    "vendor/paragonie/sodium_compat/src/SodiumException.php": {
+      "md5": "1f192b25dd66728de9204410c85992c1",
+      "sha256": "13cc65362f49e9f6834fb09db621c70924671f85aa9b7b3b91fda88f396292cd"
+    },
+    "vendor/paragonie/sodium_compat/src/Core/BLAKE2b.php": {
+      "md5": "0945925a9ad987ef326ec78d6f1d0684",
+      "sha256": "0afdc9b2557922a5ef78d13541e00627c7e2fe0fad4c1db5e79355cf458d18b1"
+    },
+    "vendor/paragonie/sodium_compat/src/Core/ChaCha20.php": {
+      "md5": "f93ea93130f09fb3a68834a4f4d378bb",
+      "sha256": "31d45568c6677e9d1942c1b129792706641909c6147184854b85aef8cb8b974e"
+    },
+    "vendor/paragonie/sodium_compat/src/Core/Curve25519.php": {
+      "md5": "983b415ee5c574a7481e49b05360bf6e",
+      "sha256": "451310dd3122aea063a9da14b158700f2435b3035d33cf7f8a236706c0f3ff30"
+    },
+    "vendor/paragonie/sodium_compat/src/Core/Ed25519.php": {
+      "md5": "048a0a60dac875d7df9b155a5ecd76bc",
+      "sha256": "0f5d653443f5b026063199c0f3c1b74b9dfb0cca83fbf6b2883fe1b02dc3aaaf"
+    },
+    "vendor/paragonie/sodium_compat/src/Core/HChaCha20.php": {
+      "md5": "c11456f2f78f397ac05f379f83e46da1",
+      "sha256": "c4cdd4a7026bc8f895cc02dd953562d55f0a06a146346198f215446627f14fd4"
+    },
+    "vendor/paragonie/sodium_compat/src/Core/HSalsa20.php": {
+      "md5": "25fb8f65406a84697a69f3e2ae2ec70d",
+      "sha256": "5f0c8d6f7d0523b29bd1a07526450bbb533aa202cb27439c9347347a7e8b8219"
+    },
+    "vendor/paragonie/sodium_compat/src/Core/Poly1305.php": {
+      "md5": "cce5e836a82eb4580561d67f344ed916",
+      "sha256": "29c5e0a77a2d3ec91005579b5a4a451b363702a9fb0e80b5d140e9388dde7f65"
+    },
+    "vendor/paragonie/sodium_compat/src/Core/Ristretto255.php": {
+      "md5": "a6ca5906287c1d167a562c4e69825249",
+      "sha256": "4a30a069dec12e2fbb9e19bfe753f9ee0e3d487eb19bae0f3d3ecc8da1dc8dd8"
+    },
+    "vendor/paragonie/sodium_compat/src/Core/Salsa20.php": {
+      "md5": "d63731919812adf22ce20ff18079e3f3",
+      "sha256": "8be8c66b378c285ae7479849106fe7c3976fe0a5bed0cc4aa8d25307c4e11963"
+    },
+    "vendor/paragonie/sodium_compat/src/Core/SipHash.php": {
+      "md5": "be5f8332fafde94caaba42bebea25f63",
+      "sha256": "63172a64ce431f96aaf3294ea0a824e3f786b03a9be0ef78633da3d9d15bcaac"
+    },
+    "vendor/paragonie/sodium_compat/src/Core/Util.php": {
+      "md5": "f9828e35e82bb1b6e14dcd5ebfcaa995",
+      "sha256": "13e2d698733379743e3ef373e24d392fe4de0b1fc23cd4be43ab438bd7cbf05a"
+    },
+    "vendor/paragonie/sodium_compat/src/Core/X25519.php": {
+      "md5": "45b444beb88cbe36d66ed198c0f5eb47",
+      "sha256": "72ff670665c81a8f70fa80e6043fe5d63cb784da90ff3c2c0c26c05ef2561fa3"
+    },
+    "vendor/paragonie/sodium_compat/src/Core/XChaCha20.php": {
+      "md5": "f850945db1efbfeeeda23c3736309742",
+      "sha256": "ce25c46c7d6ba602d50a88d0de368783cfa2fe53757b0f0311215beace476635"
+    },
+    "vendor/paragonie/sodium_compat/src/Core/XSalsa20.php": {
+      "md5": "233cafea8ce6f7c1bfaa7086a77560c1",
+      "sha256": "b57453456560d5956cb1fd4bb6ccffef5ad2dec155908190e46315d407c30e67"
+    },
+    "vendor/paragonie/sodium_compat/src/Core/Base64/Original.php": {
+      "md5": "13981f667296c0d63ecffe4c115a5237",
+      "sha256": "3906c3481b5f08b05429ed1088866a0233c9d6a18b6e19fa022ada4849c9c615"
+    },
+    "vendor/paragonie/sodium_compat/src/Core/Base64/UrlSafe.php": {
+      "md5": "469ec62f8fe7e3ca0f5c31ef45ec5600",
+      "sha256": "7a56b84ecd09bc2b8f48804ab4bd9a28586e83db08d30050cc48323e65e72b7c"
+    },
+    "vendor/paragonie/sodium_compat/src/Core/ChaCha20/Ctx.php": {
+      "md5": "0ff38a282b10ca3359f0212927c10760",
+      "sha256": "cf1d7bf64943b2a5b1f4cccb99498deba1b0ca4a54144c0c8d15cf9de0551926"
+    },
+    "vendor/paragonie/sodium_compat/src/Core/ChaCha20/IetfCtx.php": {
+      "md5": "9aeb66fa8bae59c1e11d186023420744",
+      "sha256": "1e34a688c749168ae9898f513d133f53572b3968f12f427912aa3420be38bec9"
+    },
+    "vendor/paragonie/sodium_compat/src/Core/Curve25519/Fe.php": {
+      "md5": "bb71388532e380325e4e447b21337de8",
+      "sha256": "36957a0aac13fa6b7ed78d0be6aedf575a1b0ab24579b7dac0f3ea803ac6c7a3"
+    },
+    "vendor/paragonie/sodium_compat/src/Core/Curve25519/H.php": {
+      "md5": "8866fe2c775b463ba53652c8a9a2ffc2",
+      "sha256": "6fb6987287205e4ccb613481411024d4ca38ad9ac02dafdbe98c3e0d01328e7b"
+    },
+    "vendor/paragonie/sodium_compat/src/Core/Curve25519/README.md": {
+      "md5": "1659a2aacf9bd1767f6a9fd70ac085cf",
+      "sha256": "2d8c95220c42f648c8bf10146f77997f4a23cf619ab4e5e0e76713f8cc79f7f6"
+    },
+    "vendor/paragonie/sodium_compat/src/Core/Curve25519/Ge/Cached.php": {
+      "md5": "674dd34de2bad56ebf79a1bdd9dd040c",
+      "sha256": "ff379296877696a307e98468ffd639c5f6d668090669fa9fce39b8da9bb178e1"
+    },
+    "vendor/paragonie/sodium_compat/src/Core/Curve25519/Ge/P1p1.php": {
+      "md5": "79fe574fd739cf52ebe13864877e6a0c",
+      "sha256": "8f1eadd49ab9f309d50ca97878a4cb73461f90a2a86266bcb9daa31d1bcb146e"
+    },
+    "vendor/paragonie/sodium_compat/src/Core/Curve25519/Ge/P2.php": {
+      "md5": "0e8a6c036fcf8e958762bbf8384b2f6f",
+      "sha256": "54050897ac21a3c43ef6de6519344f5e6346cc50cef59c1f271d99316216545d"
+    },
+    "vendor/paragonie/sodium_compat/src/Core/Curve25519/Ge/P3.php": {
+      "md5": "fe74ecfca0ee38771db7dcf1c18ba0eb",
+      "sha256": "42d42eb0e920875f6a42bc3cefbc929ee56a4bcded506a3cfdd00d1eebceb79b"
+    },
+    "vendor/paragonie/sodium_compat/src/Core/Curve25519/Ge/Precomp.php": {
+      "md5": "4fb59b53401035ab7aa9111f337fc7bc",
+      "sha256": "9498e6bf15fc38cb99bdaf612b14a38611a9407d49e3e2571d5571a9e2c30f44"
+    },
+    "vendor/paragonie/sodium_compat/src/Core/Poly1305/State.php": {
+      "md5": "9e755125b6bd343fabff5f713ed6292c",
+      "sha256": "a7e802a6f89ecb27128839d6c3d9cb1b29cc7df1a779d81b29660649984ca8eb"
+    },
+    "vendor/paragonie/sodium_compat/src/Core/SecretStream/State.php": {
+      "md5": "bb68394c91ed79bfb3bfea070c63a4e8",
+      "sha256": "465bec8f0a19a85698dbf3b07eb2c3eceb0067e80d579b5e63bcab68d19b0e33"
+    },
+    "vendor/paragonie/sodium_compat/src/Core32/BLAKE2b.php": {
+      "md5": "c63196f52240f0cd1f267f5a65dfbfdd",
+      "sha256": "83d43cd1c137ead86218b56fc74cc5604690f03615ba0c710c97a279ff18293c"
+    },
+    "vendor/paragonie/sodium_compat/src/Core32/ChaCha20.php": {
+      "md5": "06e2b8841ae228d1cbc24c3c11083186",
+      "sha256": "3e7fd11e740b752a7322afaa6ca124a2e5295b2a77b21b1e0119a26e84fefed0"
+    },
+    "vendor/paragonie/sodium_compat/src/Core32/Curve25519.php": {
+      "md5": "1236f5f3417135e36a466e5e9a6f14fa",
+      "sha256": "2d14aeaba65e04a3b7c3e7cc4c617944ece9aa8980139ad5543bacbe658b6ef6"
+    },
+    "vendor/paragonie/sodium_compat/src/Core32/Ed25519.php": {
+      "md5": "f1c4d634a0ab0b469765f335efb171fa",
+      "sha256": "83a263f2fbbfc5d544e053d87bd2bd55897e25aa6c72c2a8cb2e2ca2d7cfc91f"
+    },
+    "vendor/paragonie/sodium_compat/src/Core32/HChaCha20.php": {
+      "md5": "7f48323d1d309ee121e729f50047f305",
+      "sha256": "143f415f3f2fdd022f1c200e2b19175efbf19d9530ad38b4cf6eb69de7c62770"
+    },
+    "vendor/paragonie/sodium_compat/src/Core32/HSalsa20.php": {
+      "md5": "d329cd0ee9eb09e98183b333de7d6213",
+      "sha256": "9986ae5a65f794ca4296a846c09a986d8672c657504c01421a6e7421ba98c97f"
+    },
+    "vendor/paragonie/sodium_compat/src/Core32/Int32.php": {
+      "md5": "d2814c1dd9fd24fdad7e66fd8473675e",
+      "sha256": "1ed8cc1d804ef75d10d9f17144bce4920e3b72aefd8aa9dc745da1bc9f789276"
+    },
+    "vendor/paragonie/sodium_compat/src/Core32/Int64.php": {
+      "md5": "47c0ed6d7c5d19eb0b61d8df78882392",
+      "sha256": "eaedea802c794812d73259174e315294504fb2275af41a7aff0f60b8f7e3e8b2"
+    },
+    "vendor/paragonie/sodium_compat/src/Core32/Poly1305.php": {
+      "md5": "c32f03cdd96a65312653e22dded25502",
+      "sha256": "6e5a05f3b8f1bb1d21898fdabd6af0efd9fbef9388b7bf04de712d3a02185659"
+    },
+    "vendor/paragonie/sodium_compat/src/Core32/Salsa20.php": {
+      "md5": "1f93de20c98540a88bc8e8ed472483eb",
+      "sha256": "09d5acfcaf3bd4380f9ac6979464a561a63271da6726c75033dbb8244b445738"
+    },
+    "vendor/paragonie/sodium_compat/src/Core32/SipHash.php": {
+      "md5": "010cae95ce5e00f8424aa5297a7af1a0",
+      "sha256": "18a664a47c56660ecc2eaf683ea3389c6873b0427b8b4fb446b222c611eeb78f"
+    },
+    "vendor/paragonie/sodium_compat/src/Core32/Util.php": {
+      "md5": "96282caff5a2797d2a14beedd2274bc9",
+      "sha256": "dcaa89e6c73f2c23142864e7ea170aaab877829f6031b6e43fcbcb10899b6a6e"
+    },
+    "vendor/paragonie/sodium_compat/src/Core32/X25519.php": {
+      "md5": "328be18b5f4f8dd09b20b5b4895c40c7",
+      "sha256": "037d0178eae4d454d14d817e0f9d187ec00801b80536cc2bc93a1dae4345d582"
+    },
+    "vendor/paragonie/sodium_compat/src/Core32/XChaCha20.php": {
+      "md5": "8acd933133ae6f4aa47a9352a144f3a8",
+      "sha256": "fb8d00b09e0952fb97e9ce1146ae90e099c356363aa33ffac8b809d58fdeb48e"
+    },
+    "vendor/paragonie/sodium_compat/src/Core32/XSalsa20.php": {
+      "md5": "25ac2b6a27612ce10f136b8f6891364f",
+      "sha256": "2a251d1da97790d65b15d48d47f7369b47b897d91dc7f9094f97f9d8085ff911"
+    },
+    "vendor/paragonie/sodium_compat/src/Core32/ChaCha20/Ctx.php": {
+      "md5": "77b44daf8030349a2770fd396309a0b3",
+      "sha256": "c47a64f36f6bd6ede66a05922e3f623763c01327d5fe9d48671e8480b56ab848"
+    },
+    "vendor/paragonie/sodium_compat/src/Core32/ChaCha20/IetfCtx.php": {
+      "md5": "992a991169f12283c05ab0bbd0ce7445",
+      "sha256": "687adc3107e83ae7559256edfcb49610240068d1b5a5c5b5fde1921a72652b54"
+    },
+    "vendor/paragonie/sodium_compat/src/Core32/Curve25519/Fe.php": {
+      "md5": "720a6fff649da57bc53e432596ce7bdc",
+      "sha256": "fe3be5b74d3c6ee49e06843b3f1124ba682a0240ec41eba8deebaf704eef6bfc"
+    },
+    "vendor/paragonie/sodium_compat/src/Core32/Curve25519/H.php": {
+      "md5": "f3a6a85176da57557eef2d1c8e1be0c4",
+      "sha256": "1e1c6a4e757df164b3d2280c066efa3494683cb37fb6ea6bb17285247a80b0c2"
+    },
+    "vendor/paragonie/sodium_compat/src/Core32/Curve25519/README.md": {
+      "md5": "1659a2aacf9bd1767f6a9fd70ac085cf",
+      "sha256": "2d8c95220c42f648c8bf10146f77997f4a23cf619ab4e5e0e76713f8cc79f7f6"
+    },
+    "vendor/paragonie/sodium_compat/src/Core32/Curve25519/Ge/Cached.php": {
+      "md5": "28b983d844993c6320dc7902e31e00d2",
+      "sha256": "e61bf9a3fd950fad17407dae216790f475a101276e4a64e7e8ca547059e7f1a5"
+    },
+    "vendor/paragonie/sodium_compat/src/Core32/Curve25519/Ge/P1p1.php": {
+      "md5": "80044ff077a8cba960b3d60cd4837642",
+      "sha256": "1b8eea5afa3b5eb44d5eb8fb8729b07cab6cd0a861e884e038aaf6a2bd5a326c"
+    },
+    "vendor/paragonie/sodium_compat/src/Core32/Curve25519/Ge/P2.php": {
+      "md5": "556cd23bed69386a410a496015bda952",
+      "sha256": "71e201791bde89528e248b4856400618f7d1ecca7ae105efbbd1892551f0b238"
+    },
+    "vendor/paragonie/sodium_compat/src/Core32/Curve25519/Ge/P3.php": {
+      "md5": "24283fe1f9e8cfdba1d66c8074809399",
+      "sha256": "b70f8a330de425ee10c979255f429d598efd0e0d28c3ad94ce158368c111208a"
+    },
+    "vendor/paragonie/sodium_compat/src/Core32/Curve25519/Ge/Precomp.php": {
+      "md5": "996024a051882cfaed2201af4f5a79a2",
+      "sha256": "309d886d8d47c40cf0979cd1673bb97aa017e6d574b8fda6b559916f052bc0bf"
+    },
+    "vendor/paragonie/sodium_compat/src/Core32/Poly1305/State.php": {
+      "md5": "42ee4592d2d4020c168ab0ea84656f02",
+      "sha256": "b2649f7d40fcab262134c73930221194e59169ab06e182aa0cb9d52680fe991e"
+    },
+    "vendor/paragonie/sodium_compat/src/Core32/SecretStream/State.php": {
+      "md5": "aa90f257e9672ed31fcb6a962f86c12e",
+      "sha256": "57d82d593f6b73c4be4fb3bdf6e98d7a9842f4cd1262c23cf0cb6e1424016bd3"
+    },
+    "vendor/paragonie/sodium_compat/src/PHP52/SplFixedArray.php": {
+      "md5": "504ea06b7593273a4640113efa0dd9b5",
+      "sha256": "8abf86abeafd5282da3f914362ade69f062f802d20ba369dde416af4e24d48bc"
+    },
+    "vendor/psr/http-client/CHANGELOG.md": {
+      "md5": "8a7194cb3860ed298299314817e9a274",
+      "sha256": "5f47d263a5b3946cb2bbd912b99de35ec965de1bd51509eeffe6377c52aff58a"
+    },
+    "vendor/psr/http-client/composer.json": {
+      "md5": "0ee82479c07989578f5c73735b3a16f1",
+      "sha256": "098bb4f655cfb7a0c2a1b942e652b5a44ab6a920393a0440f9acaabf17ce23b3"
+    },
+    "vendor/psr/http-client/LICENSE": {
+      "md5": "70cd1d4d5bb26324a567dd5c3c412cca",
+      "sha256": "ea5ec78820494a5256b0ccbecef9212bc7b93b797273ab08cc2eaa34e0ab3e50"
+    },
+    "vendor/psr/http-client/README.md": {
+      "md5": "46767ef17931a456cf9afb21b2fd12c5",
+      "sha256": "2864b8d922627a18701f9f2730d1506a81ef28544d630cda0f682a94440c2b2d"
+    },
+    "vendor/psr/http-client/src/ClientExceptionInterface.php": {
+      "md5": "ac15530a0b8566b46cda2e80cde77389",
+      "sha256": "93ae7f966f514ba6f594d5bf26eaf8a228e3a9a23cec8aae78cb6e745bca5069"
+    },
+    "vendor/psr/http-client/src/ClientInterface.php": {
+      "md5": "b5ce7c7cddcad6e1c2e4ed85c620e8b4",
+      "sha256": "1c732e44eaaae4956658f3396cc5d62e37f10479f0536057f09fd003b21df56b"
+    },
+    "vendor/psr/http-client/src/NetworkExceptionInterface.php": {
+      "md5": "56f1128bd8c2307539bfa021065cd72f",
+      "sha256": "9543f95fd265b12ec5898d2ecb2acf552b620c3f518ea3fbc53b78b734288651"
+    },
+    "vendor/psr/http-client/src/RequestExceptionInterface.php": {
+      "md5": "dd61457ead4ff21c1f5000e3ee8db5ed",
+      "sha256": "a8d5178749c7042f4abfbc65549c4db766ddfe823ae4738d78f8c53b8db4dbdb"
+    },
+    "vendor/psr/http-factory/composer.json": {
+      "md5": "9017b973485ac73902291f50acfef005",
+      "sha256": "217dd3aa6db5fe7ca11fd022b2b243c7238118faeea12fcc3aa7c7836afd27a8"
+    },
+    "vendor/psr/http-factory/LICENSE": {
+      "md5": "881e228f5e6e60e07b9475850cdc2884",
+      "sha256": "d2e70341a9667b93ad542e4842b0b7022d302aa7c2d2a909b156b8f1e3c4cca8"
+    },
+    "vendor/psr/http-factory/README.md": {
+      "md5": "3ade754262691e8d62476c98553c3822",
+      "sha256": "d80b63e2a8c4f80af830e5307683fc73718d15e71db3c5af56e15b56b2a47d63"
+    },
+    "vendor/psr/http-factory/src/RequestFactoryInterface.php": {
+      "md5": "c00798cb8f3d30dd02ed92bbd7cde7f2",
+      "sha256": "84a6c82441604d826e674409983e184577ea9c185613eff232c2e09c30864b92"
+    },
+    "vendor/psr/http-factory/src/ResponseFactoryInterface.php": {
+      "md5": "014971c51a704e371b415bbcf99b056c",
+      "sha256": "729d2dd7378dabe2e1026e1d8d4cc5ad87fbf1f35f42cc9e66bb5725b3740708"
+    },
+    "vendor/psr/http-factory/src/ServerRequestFactoryInterface.php": {
+      "md5": "7c3f13b8bc5bf0e0b33bead97050e6a7",
+      "sha256": "5adc70e24702cde5199e1411dec3b1028e5b7aa5959b19ff87d684e051727cdb"
+    },
+    "vendor/psr/http-factory/src/StreamFactoryInterface.php": {
+      "md5": "3f6000f2a8ec5aa8d382acb50b89ec65",
+      "sha256": "af9a4e93fa1e042c7b75071e4f6c1fa60eff91ed15499310fed1c0658d1add00"
+    },
+    "vendor/psr/http-factory/src/UploadedFileFactoryInterface.php": {
+      "md5": "9d59c4a03f1c1625685380cf3941edf2",
+      "sha256": "d4f3730e0eab64853d368872701f4f3436f0754c48b323ce67684f29b46e59b0"
+    },
+    "vendor/psr/http-factory/src/UriFactoryInterface.php": {
+      "md5": "9c86de5749cffd2fc33c1baa76820ab7",
+      "sha256": "1ea86f179bc27bc414b18d48e1103aa47043b3c2c4e3f0e2b28ad8c991f16ac7"
+    },
+    "vendor/psr/http-message/CHANGELOG.md": {
+      "md5": "c5bb41d4c198d17245a30bc77121ef63",
+      "sha256": "0e0a6a6166edde635031315c05f880d4e792f2cdd493618f5bac0b09bd9a11a7"
+    },
+    "vendor/psr/http-message/composer.json": {
+      "md5": "8f8a4487c994167ae39dfd2ea6f332ae",
+      "sha256": "d3dfd93bb540decbb1d0e1b95c18241b7ee084a6da559274b54ddc419c81fe95"
+    },
+    "vendor/psr/http-message/LICENSE": {
+      "md5": "1b0b156bcf7972a5f131e1e461e84b30",
+      "sha256": "8d36e938943b04ef01994bb148793c971685b746d0ced31da03a97594a47ee62"
+    },
+    "vendor/psr/http-message/README.md": {
+      "md5": "fb10210ca1963c9e7f1431a3e82cfe1b",
+      "sha256": "4cd6339fa85e7a903f2117b081de8446cd45229b9b761539dd8f440ccd2eb288"
+    },
+    "vendor/psr/http-message/docs/PSR7-Interfaces.md": {
+      "md5": "e835c770527ccb0dfebf2713576aec43",
+      "sha256": "255d8acfecf55b477403a49775c907b4a9c833237ca9a856b96d8a71b545ea30"
+    },
+    "vendor/psr/http-message/docs/PSR7-Usage.md": {
+      "md5": "1f5b6ef62d4b6031c426700cf5ca5f1d",
+      "sha256": "49daf54cea1064dc256357ae684b42bac35ccb6df930a2f4cb3f05fa0226e9a6"
+    },
+    "vendor/psr/http-message/src/MessageInterface.php": {
+      "md5": "b765f95efc608f6722481ce504265ead",
+      "sha256": "717381d21eb54003c0f900253aa1c9f21929aae61a8746f481194947695f1be8"
+    },
+    "vendor/psr/http-message/src/RequestInterface.php": {
+      "md5": "054f1033f19314d7584394d652ea5009",
+      "sha256": "f75ef26ef8f95237b3d41da69429d8eeb76fdd6b67c9da2eb7c264628e853530"
+    },
+    "vendor/psr/http-message/src/ResponseInterface.php": {
+      "md5": "aec2c9246573af81c6c763f777c248fd",
+      "sha256": "eb5bedea971f0cf1de9a14f3fb1685e3744e392b349eaf2d37f0e8bda3743956"
+    },
+    "vendor/psr/http-message/src/ServerRequestInterface.php": {
+      "md5": "a458d37098202e42041fdb15392d205b",
+      "sha256": "afddb2a4c4d9c7a534d5c099020b3cb4708018ab78972f75569bcb8e3038afa5"
+    },
+    "vendor/psr/http-message/src/StreamInterface.php": {
+      "md5": "25b8f69cbb02ab64943e74941c7e5dac",
+      "sha256": "f3e8f9c98aab7fdcdf47b01bf2460619eaee121d66d8aac77010889cec352e52"
+    },
+    "vendor/psr/http-message/src/UploadedFileInterface.php": {
+      "md5": "1bc30badd4dae8949a7257e4bb1c447b",
+      "sha256": "f3219f1f8417ae86959cba0045d5a000963386daa1a03b406b358704b925f6d7"
+    },
+    "vendor/psr/http-message/src/UriInterface.php": {
+      "md5": "4bbfa6f065f1fa7f182d713c30dda9b0",
+      "sha256": "a9dcd087d3eff9aa0d1ce8881401a262cd12f23dcccc40aa09b9faa87ff46594"
+    },
+    "vendor/psr/log/composer.json": {
+      "md5": "6cab7f4defbf6a49395bdc4fb1e7e9bc",
+      "sha256": "ab40cdc4d60710ba736e58865f7d76e2cd18c3fd4c30b2b872d2f19b580cc2a6"
+    },
+    "vendor/psr/log/LICENSE": {
+      "md5": "1a74629072fd794937be394ab689327e",
+      "sha256": "6e944907067bae93c00a9f2ad51032243820b22df34b77c77690d46cb2e98e24"
+    },
+    "vendor/psr/log/README.md": {
+      "md5": "0073e95256311bd375ebe2ed5fbc95e8",
+      "sha256": "4f2bc231e87cda248b1fa2aef7a930045f3e95f89ee46ff579188d2489372954"
+    },
+    "vendor/psr/log/Psr/Log/AbstractLogger.php": {
+      "md5": "daefd7278e2a87b15cc4325b68bde278",
+      "sha256": "bfe6bdb0eaca79f344342b468b2947a67dd86d4922985340e237466f612fbe16"
+    },
+    "vendor/psr/log/Psr/Log/InvalidArgumentException.php": {
+      "md5": "aa7a008268bdd48d3de5dc4f01e90850",
+      "sha256": "5e1b6cc108abdde071ee47baba74640f636ae57bbb933b7a1cd9035d572cb776"
+    },
+    "vendor/psr/log/Psr/Log/LoggerAwareInterface.php": {
+      "md5": "2db1137bb058ee81fb46aecc429d9328",
+      "sha256": "fd6c6e07812815d1c00cb07ed9d8c9319fc223b476375279da2f64f6cd726a14"
+    },
+    "vendor/psr/log/Psr/Log/LoggerAwareTrait.php": {
+      "md5": "b3d4aa14120c3e0068ebd39f88ef3452",
+      "sha256": "b9864956824f97b27e616d02d29f33fff96fccd02637320e3f6ac1cc2976c118"
+    },
+    "vendor/psr/log/Psr/Log/LoggerInterface.php": {
+      "md5": "e3486736368c603d203e9d20571379a6",
+      "sha256": "f9474bd67079b90d978d72d6292cd6367977dfdfc866cebc1822f67676af93b9"
+    },
+    "vendor/psr/log/Psr/Log/LoggerTrait.php": {
+      "md5": "cc77c941a9b30fb8b1cf43bad4eb4afe",
+      "sha256": "f5c057cda2bdca9f2d6a933b0412faff3fe9fdd1669f5c1bf54c76b6199a9719"
+    },
+    "vendor/psr/log/Psr/Log/LogLevel.php": {
+      "md5": "2cf3b59d03a59774f1454e66adccf79d",
+      "sha256": "db1137b941a53fcdc7d185e105d242e06bd2cb2e762ed64072753442677ec15b"
+    },
+    "vendor/psr/log/Psr/Log/NullLogger.php": {
+      "md5": "aaa39d2f6a789749ae0d032e97587cfd",
+      "sha256": "4058e0f2fb6cffe116aae17cf07531f3a34a1356873a8e162fdfc181aa210025"
+    },
+    "vendor/psr/log/Psr/Log/Test/DummyTest.php": {
+      "md5": "ae5ef4351aadab497b810364e79cc41b",
+      "sha256": "40ab92e87bb9d7ecd6e32266415966fe90e447c23f11b81bdc6ca005f6825575"
+    },
+    "vendor/psr/log/Psr/Log/Test/LoggerInterfaceTest.php": {
+      "md5": "aac8ec0be0d1dcf9cfb09d9b3ea564d5",
+      "sha256": "ebdc7c35dfe63878c408b8723041affe43f948b1ee765920af90bdfbbed106e7"
+    },
+    "vendor/psr/log/Psr/Log/Test/TestLogger.php": {
+      "md5": "d6f99a732bafa7becc9b014eb4c81865",
+      "sha256": "00377b143516b2a2b8ac9b25173f3e29c1b0393acace864a37cc6199d26ce21c"
+    },
+    "vendor/pusher/pusher-php-server/CHANGELOG.md": {
+      "md5": "1db5bb7294d170969c1794cd826d3631",
+      "sha256": "8f2674c607f2bc9349d358a8d635b717e57d275763301038a7bed4fe40c9ee97"
+    },
+    "vendor/pusher/pusher-php-server/composer.json": {
+      "md5": "29981e2eee5d80ec3dcb9282b91c19e1",
+      "sha256": "d1b6be187896f65e5ca0962d6e240fcbee01cd4e3608f9dc154527556d09d799"
+    },
+    "vendor/pusher/pusher-php-server/src/ApiErrorException.php": {
+      "md5": "4942fd828e5c5289f593c9b57863ab59",
+      "sha256": "f37d63b5ab32598b460118d80a257bdd8648fcb375a4507dd21d6dd4f38d160b"
+    },
+    "vendor/pusher/pusher-php-server/src/Pusher.php": {
+      "md5": "a8d7df34302b48275830f59320eeb848",
+      "sha256": "675ccfb7c8b68fea226c5bf15ff2832ac0911bcb68ce3e4c1b1f6fab6d87c17e"
+    },
+    "vendor/pusher/pusher-php-server/src/PusherCrypto.php": {
+      "md5": "8184ec00d73959c6930392a045c5b9e3",
+      "sha256": "732ae26d5e3aa0be5dfa52b527583a1b88bec17f39dc20767dd8e55ed6736ec2"
+    },
+    "vendor/pusher/pusher-php-server/src/PusherException.php": {
+      "md5": "348807cd702ff37cd3ed0f17c99fa93d",
+      "sha256": "00555f4f38fb3470f310699c77f75cfc56295a0bb71a7f9aa8d39aca444d6da0"
+    },
+    "vendor/pusher/pusher-php-server/src/PusherInstance.php": {
+      "md5": "5e0c4bf5ca7a5bab82a885276f4d25f9",
+      "sha256": "55f4d9913b08da9d52e7dd217798fd294cf2482cdbabf828f3ff184cebe83510"
+    },
+    "vendor/pusher/pusher-php-server/src/PusherInterface.php": {
+      "md5": "73c99c2ee28af9ad9ad4880dc2d92d1f",
+      "sha256": "74097bc2358830b806347a394a1e45dffe3145cc0396d30affee2a8d61dca1d4"
+    },
+    "vendor/pusher/pusher-php-server/src/Webhook.php": {
+      "md5": "2fdd62aafa67daed3a42612e96011e3c",
+      "sha256": "e42079884a10f7217a8acc015c898d2839854046564143ab8694296bb3c2546f"
+    },
+    "vendor/ralouphie/getallheaders/composer.json": {
+      "md5": "236df8b9367e4eef9ee009a9f07738f5",
+      "sha256": "7176645068f7d6cf7c917bb413c166e476709561abc3445096140da52f37eae7"
+    },
+    "vendor/ralouphie/getallheaders/LICENSE": {
+      "md5": "f7786f46efa7706a39adcd5b5e1ec2c3",
+      "sha256": "e97490769229e08f0a017f5c6fd5d8aa1669672110c6df5ebd0506f23ec91087"
+    },
+    "vendor/ralouphie/getallheaders/README.md": {
+      "md5": "94653dfef8ea30f7a1e0b51684e5b565",
+      "sha256": "a5a015ade842a81fb04d692c9a342fa17446f778110c4e9ba4c8d178f65a8478"
+    },
+    "vendor/ralouphie/getallheaders/src/getallheaders.php": {
+      "md5": "1cb51fd805873583204bf0a6f5d28ec1",
+      "sha256": "6dac62a434954daf7900716e0b97e7205dd424ffb9767c18de9b22872f77b9d6"
+    },
+    "vendor/symfony/deprecation-contracts/CHANGELOG.md": {
+      "md5": "50c1fd11855692df34e685dae46979b3",
+      "sha256": "73122a1fa6a74b5d5235721839bef8f2756e0c0927feeeea36b141417bcea164"
+    },
+    "vendor/symfony/deprecation-contracts/composer.json": {
+      "md5": "6d4dab1e5fd9a7f1ba817ac235cae826",
+      "sha256": "4f9aef56ea2ab6196768941f40805b3f86bb6c748c08bce2a23107e8eb9ff640"
+    },
+    "vendor/symfony/deprecation-contracts/function.php": {
+      "md5": "21d3364dec28dc4de9650cdca45a5e2f",
+      "sha256": "d8e5d4a7787568d9770dd65e6413a8e4eb3ff5208527b43d9ef460562849eb54"
+    },
+    "vendor/symfony/deprecation-contracts/LICENSE": {
+      "md5": "387cab27a978d6e1004972f7727567d6",
+      "sha256": "b4dd7e49bb2ed062da4dc3cc2cd733377d38fcc702c55b4bef20f94b543b3042"
+    },
+    "vendor/symfony/deprecation-contracts/README.md": {
+      "md5": "f0d6af0aa30caf065334e518dbdba9f4",
+      "sha256": "41780bacb2348c6e8bfac5ef843cfab5ca8e3d0c0ceae23090173072dc459880"
+    }
+  }
+}

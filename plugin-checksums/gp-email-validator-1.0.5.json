@@ -1,0 +1,614 @@
+{
+  "plugin": "gp-email-validator",
+  "version": "1.0.5",
+  "files": {
+    "changelog.txt": {
+      "md5": "dd9e32db98f1052e7966eb597a534b14",
+      "sha256": "dd7faf4075b09bd2b7fc94547bb55d9c6617d98e8fc0676422a66596abb79d6c"
+    },
+    "class-gp-email-validator.php": {
+      "md5": "1de7f644ab1a7391b4090ac1e2212529",
+      "sha256": "2d40cde6cae4c3e68c9ee3bda2a8aa42c70dbfc02b859361bb0196befacd7b4e"
+    },
+    "gp-email-validator.php": {
+      "md5": "aeb580c7154c9944e3870c0d1450e349",
+      "sha256": "246527d28c08f2a9e86558d5e5573923ebfb7b93d8f478d36daf71d0392460da"
+    },
+    "assets/css/admin.css": {
+      "md5": "c433b73936cec9a026d71be3abd90f12",
+      "sha256": "275a6bf5fc4287f70912c1605448fe1b9653d9a1ea4fcc44ba9bb79212ce7ed3"
+    },
+    "assets/css/admin.css.map": {
+      "md5": "15b07300f6711841b76aad3f20cd2dbb",
+      "sha256": "d55371ef8c32bdd54ede92cea413f7d8f276d1e41b10616d0643f6520170b01a"
+    },
+    "assets/css/admin.min.css": {
+      "md5": "30668cd735901191b3a41d2079985662",
+      "sha256": "9b85a968a52e0e15c8854663a8be028aa509eb4f8595befa31a626e6d2f37e0c"
+    },
+    "assets/css/frontend.css": {
+      "md5": "b89fadf3726884a06f979842ab38a1b3",
+      "sha256": "c3017795dd43aefa6f6395bc2919c7ca01ebed09aad4ca9b21cd290cde163b22"
+    },
+    "assets/css/frontend.css.map": {
+      "md5": "ae0697eec0518613f2c19e5489e32198",
+      "sha256": "d15becb5185749259a5711d0a88c5ebe9b809716e3610d202b376fbcb6f7c1cb"
+    },
+    "assets/css/frontend.min.css": {
+      "md5": "1e70ef73e476cbc63660f32d69fbf120",
+      "sha256": "dc20573607b3efec360841d5674423e83c17c5b13c7e0deabf74d60123fc5ddd"
+    },
+    "assets/images/icon.svg": {
+      "md5": "9fb561bd4dc9b72df9f23150fff223b8",
+      "sha256": "36ab87f86bab7e8b3d7c4c6aa4e27f5760abe99c5d29090c0ea00a8b0bb56027"
+    },
+    "includes/class-gp-bootstrap.php": {
+      "md5": "e701e47e500aa1dc6a2deeb87498f47d",
+      "sha256": "42c32181cfc745b8b7c2b487877257b50782f53fe4eae40fcdfc7b0ec9b9e77c"
+    },
+    "includes/results/class-basic-validation-result.php": {
+      "md5": "cb8cdf45b331d6f8bf798cf59c6bd44f",
+      "sha256": "4248c4d55d91ab7ca5c5fe56e6667d5ad8ead20d77da0909553499090ad16dc1"
+    },
+    "includes/results/class-domain-validation-result.php": {
+      "md5": "b6ec9bfb056c4330897f170a6d0c20f1",
+      "sha256": "67e2075327e3c4608809ee7e5c1c709c238edb50831b106fae8f820f12e87f95"
+    },
+    "includes/results/class-error-validation-result.php": {
+      "md5": "39376c469d6c007f64583428cca6b8ae",
+      "sha256": "98a8c491ab507df79c822b1cef7533ff4e3564c3e19ff7dffd5edd9c11de580b"
+    },
+    "includes/results/class-kickbox-validation-result.php": {
+      "md5": "41092c247b966b127376ac514d28a07e",
+      "sha256": "b49e624e187c998d5925b3075803d4f7f81ec67ad889fcf0a84b1a1ad725179d"
+    },
+    "includes/results/class-validation-result.php": {
+      "md5": "4f503a9b638fdd841de5deb03c871af8",
+      "sha256": "5aa60a1efd4ae4e4d5e70376e1da3c05cfc83f45c9ea97b3d272145fbbed1665"
+    },
+    "includes/results/class-zerobounce-validation-result.php": {
+      "md5": "c2764b63f28b84d8b8804f88d266ef50",
+      "sha256": "af183af09f953c1f7967604a73508e038a121929972c69f238324781ea5d1971"
+    },
+    "includes/validators/class-abstract-validator.php": {
+      "md5": "f2c3bac0b1f092fdb55b9dc17eb7f575",
+      "sha256": "61e8455f55fdb6827eb6336d709dbcc9b5762cb4d90e6003fdc92cd7c405cc5c"
+    },
+    "includes/validators/class-basic-validator.php": {
+      "md5": "da99ef59a9ea9ee9fd2e9f26e0e17de0",
+      "sha256": "485a5a9083acf182b4a0b3e2a20ba1db886e2163ed49c520deb622a1e31c2a4e"
+    },
+    "includes/validators/class-kickbox-validator.php": {
+      "md5": "2562cfb16cde92d8b4bc9b963a82d553",
+      "sha256": "e5432f7bec9753056d7c368006a820ea66e66fe6a21b77be89cc64ebceda9ddb"
+    },
+    "includes/validators/class-zerobounce-validator.php": {
+      "md5": "70fabfa1be94d1357dbfa91513d3396c",
+      "sha256": "db6572a82ba85e106cec75d41c47e42b288d3ca920c1d864bafa28c02e078035"
+    },
+    "js/built/gp-email-validator-admin.js": {
+      "md5": "bb7dbef07adba1b71b5b97b592f81604",
+      "sha256": "6f2e6abcf25aea6287ef46b42c2713b277b79354419cf869e00aa62066bb889d"
+    },
+    "js/built/gp-email-validator-admin.js.map": {
+      "md5": "4ca2b4d393fe5f1986c032534ef1647b",
+      "sha256": "982444b7d7da05fff1efd984280833ff641bab3424e7b702f2a081502d37447c"
+    },
+    "js/built/gp-email-validator.js": {
+      "md5": "05d96faaf7ee93547cf4f33250c3b829",
+      "sha256": "134d2c5161c28ed8e1be92cd4003f387beecc3b687e8e000972a35ecad18324d"
+    },
+    "js/built/gp-email-validator.js.map": {
+      "md5": "5f26a32a6218ad11efe899cf282fe713",
+      "sha256": "7ac6c55ae8514da4119a377160060f842e6f3aaa42dec77fb12c01b66c2dc94e"
+    },
+    "js/src/admin.ts": {
+      "md5": "c3e945aae22e92ac91f1584fba22f942",
+      "sha256": "1905542736229afa6f10a028e6f071213b55a6bfff2aa39fb768ea65256a4a7b"
+    },
+    "js/src/frontend.ts": {
+      "md5": "25996bd553ec64fb2aef628375d58305",
+      "sha256": "27a0184e5fba592cb7bc0db6a3450840701cd5663a4cfb177f5799e4e834ead6"
+    },
+    "js/src/typings/window.d.ts": {
+      "md5": "2c85c82e636131efacf4d9586c17a7fb",
+      "sha256": "690eedbf1d426ca3e08fe0d2b9f76448297a10ea043f1c6a6023e467d1fe9433"
+    },
+    "languages/gp-email-validator.pot": {
+      "md5": "904ccf4d0d1893ec475242f9375dec88",
+      "sha256": "24fdef5b777fecc43b19833e15c9df6d09d5546faeedb7b7831352c414fa0333"
+    },
+    "vendor/autoload.php": {
+      "md5": "654a8c1c9dd5a590db369434736fe7b7",
+      "sha256": "de97dc9fd6349a4181c7c6e12c491eab183753a874c691d5350b233e86c59dc0"
+    },
+    "vendor/autoload_packages.php": {
+      "md5": "036839e1e3841632a72f202fe2acf8db",
+      "sha256": "078d7872d87f598897f71391221fbad3464cfdc638badc251fc7b65f80111958"
+    },
+    "vendor/automattic/jetpack-autoloader/.gitignore": {
+      "md5": "a41c81c45d0c08e1b1bb429bf468afb1",
+      "sha256": "658dbecec0ba842e8033a9feb01be4c58514095ebb10887488b958c0b2088f2c"
+    },
+    "vendor/automattic/jetpack-autoloader/.phpcs.dir.phpcompatibility.xml": {
+      "md5": "1090cbde4ded1e2c47ecd35c412c4002",
+      "sha256": "8cbcb2f58db8d04c44f01bf9cbe0c28d58223fe6d0b9b06af311fd2d3fadf2c5"
+    },
+    "vendor/automattic/jetpack-autoloader/.phpcs.dir.xml": {
+      "md5": "760ae86a01d3007a942b74314d079892",
+      "sha256": "eb4c6e836ede239b4fc86310ec0675e81e3aabae67307b70036f02ca9a2b43e8"
+    },
+    "vendor/automattic/jetpack-autoloader/CHANGELOG.md": {
+      "md5": "d7e4434ef86f302b66873329b8e53ea5",
+      "sha256": "b093f15f449b754131dd3489e94ad294317814c6b7dccaa5d86ba8a929324380"
+    },
+    "vendor/automattic/jetpack-autoloader/composer.json": {
+      "md5": "c3529eca98019fe306c98e9a1f4e857d",
+      "sha256": "6f6d793f482de6db56a2828adaca5c7551ba173cd7c02615fe7819c72e1406ff"
+    },
+    "vendor/automattic/jetpack-autoloader/LICENSE.txt": {
+      "md5": "07b6f86da467d9d95366b630cc61664b",
+      "sha256": "e5d670958f34eae710b8ce670c396e346e834f4bfd3ca3c826935683549daca0"
+    },
+    "vendor/automattic/jetpack-autoloader/README.md": {
+      "md5": "200639bca8bb88e125b62f1a34e039df",
+      "sha256": "468274aeff99f6f925bfcb2b95c2034e1fd9fd58eab72cd22dfd3c870ea488d4"
+    },
+    "vendor/automattic/jetpack-autoloader/SECURITY.md": {
+      "md5": "e86db7da79a99aef78871f8c828a6135",
+      "sha256": "802588f198dacd67346a80af4cd6388cd24889c1010106225f36abffb206c5bb"
+    },
+    "vendor/automattic/jetpack-autoloader/src/autoload.php": {
+      "md5": "f726be565ea2c7ddd8f023b436a4e504",
+      "sha256": "fc279a1153a4e473d01e8f286df0b8697184c12664888edbe5f2ecb78349a5ff"
+    },
+    "vendor/automattic/jetpack-autoloader/src/AutoloadFileWriter.php": {
+      "md5": "6daa0b949c3a798ec0eab7efa0cb5df8",
+      "sha256": "17f62edadef9a22f0a0a80446e8ffa5fbdacf221ab7114b78dfc03ced9199096"
+    },
+    "vendor/automattic/jetpack-autoloader/src/AutoloadGenerator.php": {
+      "md5": "5261a9fb3553a56848b3bf1f530259ed",
+      "sha256": "07f0ad0c567735d9baf3ddec78c7725425c0c65c5bc6b84116e8824774533e88"
+    },
+    "vendor/automattic/jetpack-autoloader/src/AutoloadProcessor.php": {
+      "md5": "5aaca8fc9ae41b5a7466a3eb7ede1162",
+      "sha256": "771a12c96c68885419270dd9f3d6955ea8a0cc022a7eb0563838388835f4bc18"
+    },
+    "vendor/automattic/jetpack-autoloader/src/class-autoloader-handler.php": {
+      "md5": "d2c0559747fecabc4c056871be49a212",
+      "sha256": "47408ccbc55e5bee98d736a0b0ff0548fbe15c3096773f2028c8a18baae43561"
+    },
+    "vendor/automattic/jetpack-autoloader/src/class-autoloader-locator.php": {
+      "md5": "3194ae7ea9d247031efb76b563fcc613",
+      "sha256": "4e4ef4bf4f4195edbac002acf50153dea04d094daa48f06dcd6db85719beee44"
+    },
+    "vendor/automattic/jetpack-autoloader/src/class-autoloader.php": {
+      "md5": "7b3853334619997091cdd48925af6ddc",
+      "sha256": "6263a006874c83507e1406d88bb2a67a74d1509c5fa1830996854f3f33db6708"
+    },
+    "vendor/automattic/jetpack-autoloader/src/class-container.php": {
+      "md5": "7842f1e9ca1fc38351227dcd35fafc80",
+      "sha256": "8a49cbfabc69ec1bcf73f64573799d2bdf14dcbc633c7c980a3faf27f8e0fd81"
+    },
+    "vendor/automattic/jetpack-autoloader/src/class-hook-manager.php": {
+      "md5": "f14b881eb7cef8cc55d2970806d787ba",
+      "sha256": "9a01ec1509779411e27624de854a8f5e4f8a10fa73987bb8eb84355ddda7a712"
+    },
+    "vendor/automattic/jetpack-autoloader/src/class-latest-autoloader-guard.php": {
+      "md5": "c1a7514424c2b2cd1f129a072238b195",
+      "sha256": "c6830f6d87c74c2cebf0042f562f81a2c859a70d081977a056034df67f11fced"
+    },
+    "vendor/automattic/jetpack-autoloader/src/class-manifest-reader.php": {
+      "md5": "4303729849a697761d9377baa36ab1d5",
+      "sha256": "a0289c0e9a0074a74444d49520e3982efe3b7a28162cb0c898131a6bdb432c60"
+    },
+    "vendor/automattic/jetpack-autoloader/src/class-path-processor.php": {
+      "md5": "b3460c56c33959acb4c43b42394e7313",
+      "sha256": "80d509da412497727a0abf69f125ec89fbe4c3102ae860d53c2e5c1065acd40c"
+    },
+    "vendor/automattic/jetpack-autoloader/src/class-php-autoloader.php": {
+      "md5": "69a4ee8352c9401332fafa5826d94dfb",
+      "sha256": "0c2076a8c3354e77ae21696e6cb0c69c5f373442ef3b2995500799eb1834f858"
+    },
+    "vendor/automattic/jetpack-autoloader/src/class-plugin-locator.php": {
+      "md5": "7d481b2f10dd1dba6069c14163983600",
+      "sha256": "4c562a1342dd166070ff370ce8f991c7dade98668daddc4944321baf8d403dc4"
+    },
+    "vendor/automattic/jetpack-autoloader/src/class-plugins-handler.php": {
+      "md5": "201061e6f87ea115d13a4bfdad8748fa",
+      "sha256": "062218eb649418e9b1358f3a6dfdc19236e3179137488b3af8531a2593f070d2"
+    },
+    "vendor/automattic/jetpack-autoloader/src/class-shutdown-handler.php": {
+      "md5": "4b77fa393b0d522b2285fb4ea7ebf385",
+      "sha256": "6f8f2a0dc96997d8e8e2d0625c45ea5ced17fe4e4d7e580a3792b32b738a4ece"
+    },
+    "vendor/automattic/jetpack-autoloader/src/class-version-loader.php": {
+      "md5": "d2dd025576cfb180a95949fe8ad7aec4",
+      "sha256": "b2e4fa106557a688d22bc7ffaca5161737221cb4808c6fd7f74f6421c4100770"
+    },
+    "vendor/automattic/jetpack-autoloader/src/class-version-selector.php": {
+      "md5": "a28e8064e087fb21acc96d699283bc12",
+      "sha256": "4c8bedcc76465a7946afcb9a3b52242e2d2cbcb70ce9597db2275d2f9669e71d"
+    },
+    "vendor/automattic/jetpack-autoloader/src/CustomAutoloaderPlugin.php": {
+      "md5": "d6549607472ad1cbbc358fa54bb1c571",
+      "sha256": "10e37c231348880d9b3032bc877953d289ddf05f81b02dc3a0b3457c098b5743"
+    },
+    "vendor/automattic/jetpack-autoloader/src/ManifestGenerator.php": {
+      "md5": "407af2bffae9e0a6a7f3dbca27eb4ec4",
+      "sha256": "537231b2274a4863ef7ad553cf7bfe6f7a4410eed04de233e6ffa250cc87c1d7"
+    },
+    "vendor/composer/autoload_classmap.php": {
+      "md5": "48a2465706e0c3141ba965b8e281e196",
+      "sha256": "7f7c73a63246b5add5006807b21b0d0bc43c32014b9ff13bcba252a5b6e180d1"
+    },
+    "vendor/composer/autoload_files.php": {
+      "md5": "dd998870426e412443a54f5a5d71573c",
+      "sha256": "7ffefe1ab219e9658163bba64954e8f2e283b5fdfa1ca35ec91580bc4dcdc275"
+    },
+    "vendor/composer/autoload_namespaces.php": {
+      "md5": "224007c97efb82c7b45b0e92f240af41",
+      "sha256": "ede505407590638a435137f4e060136f1008de79fc169b3de9793423b0cea38c"
+    },
+    "vendor/composer/autoload_psr4.php": {
+      "md5": "389b6df94f217cb301094bdebf1e0259",
+      "sha256": "601d86a55841ae88e757dd7da4d1c9a5076f1bfd56442b52b4766be462fe592e"
+    },
+    "vendor/composer/autoload_real.php": {
+      "md5": "d1f33fe765568fca83fd7dfd751a5db6",
+      "sha256": "e40ff3f2a6a1d033b4be0445563c15669b80686337e11e4edfb9c4c771c5d37a"
+    },
+    "vendor/composer/autoload_static.php": {
+      "md5": "50b79d3cd41d3d2aaa44fe9a3eeba56b",
+      "sha256": "30cad5a30cef13680d21351e89032f1a640d19f0a7a6da02be806c4fd3266e2b"
+    },
+    "vendor/composer/ClassLoader.php": {
+      "md5": "c02be6d96671f88d28aad3ffa134c8ae",
+      "sha256": "d4b2313e562edf942838ec316d983c1a3459ca67da3e5658e861200b0b3693c2"
+    },
+    "vendor/composer/installed.json": {
+      "md5": "9e8609118707099f923d2acd160b769a",
+      "sha256": "709d7206693db775b1bfaba093d85d75d31afd32106cf41d9c26067e75a11461"
+    },
+    "vendor/composer/installed.php": {
+      "md5": "f600538643ae59bab0c4cea4ba242a79",
+      "sha256": "bfaa6dde022c961baee772884fdae526c8d58a4a56152b54c03540ab713c88f8"
+    },
+    "vendor/composer/InstalledVersions.php": {
+      "md5": "7baf73014351c49ea0fef617dae7019b",
+      "sha256": "1e4525198301d1ed1f87ac3df2a8555a6f139f8df30a703d0b775a61963c96e4"
+    },
+    "vendor/composer/jetpack_autoload_classmap.php": {
+      "md5": "111d2bab2bab6327662b0f8b7609fb91",
+      "sha256": "cdf93f881b55f07f3bc82792e96ebeb6d0f66e0eb1fff9350b5d888a44e76d53"
+    },
+    "vendor/composer/jetpack_autoload_filemap.php": {
+      "md5": "b8515ee820b714a681678cae9901519e",
+      "sha256": "2087f921bf14984edef8bd53095384d39242f0d78a9bb49a4750a0aac8bb8ab3"
+    },
+    "vendor/composer/jetpack_autoload_psr4.php": {
+      "md5": "41e98f03bdb425a2cceeaba9811cd6d4",
+      "sha256": "1a0835fbd3b35295b309a0d7787a36aa3db7c58ae37487225df15bd4123fc0d4"
+    },
+    "vendor/composer/LICENSE": {
+      "md5": "955d5fe58c231244f6b49000f383b5e2",
+      "sha256": "c8cce4b6b9729f264ffdf9296d505d63432497feeed1f586d1902b942197e024"
+    },
+    "vendor/jetpack-autoloader/class-autoloader-handler.php": {
+      "md5": "77b3cc51c056b5bc1ef6933a053ad81b",
+      "sha256": "5a264d64318e33358f818361763f6d80964ae51b9023b4a93be4c8cd78856dc6"
+    },
+    "vendor/jetpack-autoloader/class-autoloader-locator.php": {
+      "md5": "85595bb06828c920edddb28435dda553",
+      "sha256": "1ca6e1eae6040b9495d9e5e8cf8c7e6572743a073f635fc349c5b2e075752914"
+    },
+    "vendor/jetpack-autoloader/class-autoloader.php": {
+      "md5": "81885f1d91f910fe47a32eef6c681664",
+      "sha256": "428136609a87a07d0662d1c27b6a4f2c605346efc1b13b666411b7b35df5bcca"
+    },
+    "vendor/jetpack-autoloader/class-container.php": {
+      "md5": "902e5c453bc77f0ff7f6099612b21929",
+      "sha256": "fe46b53e5331a06302587df932d253d6fc68e6fb0b9ac37f4840dc66478e2e84"
+    },
+    "vendor/jetpack-autoloader/class-hook-manager.php": {
+      "md5": "65cbb180873a93e5b43e468848549750",
+      "sha256": "cab07ac6d35135099d2d60968e2fbf6a1c24b6f3baf786312791c111fba3f6c2"
+    },
+    "vendor/jetpack-autoloader/class-latest-autoloader-guard.php": {
+      "md5": "503573ff79120b87efc68bcac72f0e5b",
+      "sha256": "f6df8df0d36a241d3383eb60ad3341ed11a9cdc89cef5aa2c869e45b297a420b"
+    },
+    "vendor/jetpack-autoloader/class-manifest-reader.php": {
+      "md5": "e4f8987a25436221e5443965c5bff712",
+      "sha256": "9ef9e68fa866a10b2a996f79e7cbba6bb659d12b3ba005ee978da1a74aec84dc"
+    },
+    "vendor/jetpack-autoloader/class-path-processor.php": {
+      "md5": "83e8f9de8e80377252d7bbfe9e02fd34",
+      "sha256": "a6add22bc117092cdd2b8f2c8d1c7f9c85a7276e9b2d79f2b0fd8aef0c7d80bb"
+    },
+    "vendor/jetpack-autoloader/class-php-autoloader.php": {
+      "md5": "cc3e1e8fd40f3769eb6186aed862a295",
+      "sha256": "010f6b8b1a8c5c4c284dad37656251ba1542f9c458f5a7881679a0ae8706847e"
+    },
+    "vendor/jetpack-autoloader/class-plugin-locator.php": {
+      "md5": "002fba767c89b2ffc3127497107ca86b",
+      "sha256": "dc3686d83daa0d3c63c7077c7dc7c0d5471d21d31077e6165cf3c8b488f952ec"
+    },
+    "vendor/jetpack-autoloader/class-plugins-handler.php": {
+      "md5": "e9794605b4ca9feab806f0e473196b6c",
+      "sha256": "78b7913f2038258d8e8cd6f2ae97bf817c227e444cfc6798ad452e7e584247ba"
+    },
+    "vendor/jetpack-autoloader/class-shutdown-handler.php": {
+      "md5": "fe645a1c3c604dc5eeb57a237c3d8645",
+      "sha256": "aa840924fe7db57164b397512c6748ef73e4bd5dcca329c80c5532da88e594c2"
+    },
+    "vendor/jetpack-autoloader/class-version-loader.php": {
+      "md5": "21203103d8f29d4ec58d71a378890604",
+      "sha256": "b1f23d95375f19d09094c7d478c0242be5dd4651c9d9688c22c13097a2b20383"
+    },
+    "vendor/jetpack-autoloader/class-version-selector.php": {
+      "md5": "934002d1b24c62b0cddbb6b346640d27",
+      "sha256": "e6d86f106b6d2a39e4253c1beba3ec4e38630f34fca4c9bf89f003bbe2c8679b"
+    },
+    "vendor/stymiee/email-validator/.editorconfig": {
+      "md5": "9062d37faa52e08c864f545872dc833c",
+      "sha256": "fc6192430a293979809b3c2d9dbccae93498153d36cb3e06943be1025ae09e28"
+    },
+    "vendor/stymiee/email-validator/CHANGELOG.md": {
+      "md5": "69bf6408b3f0b1c1dc52835b81538010",
+      "sha256": "40b2f60c940baef50609d8a2118e9e586ddaab58d43d4c5158c94cf5a12aade1"
+    },
+    "vendor/stymiee/email-validator/composer.json": {
+      "md5": "01a2e0da41ccab703ce8c305cb6bfe00",
+      "sha256": "5df291ea50de0033cbfb4c99f29cf4266c229683afeb1b7bb0cbdea9785afb30"
+    },
+    "vendor/stymiee/email-validator/CONTRIBUTING.md": {
+      "md5": "561e9d37d8af2aa4bece2a7cd0c78ff1",
+      "sha256": "c821733451e67f007f94ec35993ad7db528484e052a5bb53f992d7fe05bbe363"
+    },
+    "vendor/stymiee/email-validator/HELP.md": {
+      "md5": "3071b8463165219e7780ac9046745c77",
+      "sha256": "cea62f5b508b3cafa7c0e159ad6607b33a22e9233a372e5164306b97b50725d4"
+    },
+    "vendor/stymiee/email-validator/license.txt": {
+      "md5": "1ca83328ef0ee3d04dd8a32016a98a80",
+      "sha256": "3760a0dba24568a5b4a4e41e8aabe5e5e23d81422f26e7623c8ba5cf13ef6c05"
+    },
+    "vendor/stymiee/email-validator/phpunit.xml": {
+      "md5": "74d64df2ebf4fcc1ee247bc0981d89ba",
+      "sha256": "b558b7f5c60c16428de26ff2f5e76abe99af96108d13bb2777d5d1165069efda"
+    },
+    "vendor/stymiee/email-validator/README.md": {
+      "md5": "fef02a720a71eccd4e51ed46203bc12d",
+      "sha256": "1d290e2231dd8639ee1275e54c035cf2f0383dc0c2c40fc94a5ed482e13526dc"
+    },
+    "vendor/stymiee/email-validator/SECURITY.md": {
+      "md5": "d1de8e8d3e1cb160af86884d1c5ed529",
+      "sha256": "fcdd3bafa914249e80764b28edbf18d2da0370b67340f06e3ab7ff1600cfc6b6"
+    },
+    "vendor/stymiee/email-validator/.github/workflows/php.yml": {
+      "md5": "97fdfcefe8c601b83727b1d2439c83dc",
+      "sha256": "56acb39572d6ac4475f459ce784b5c03c5b4457bb1c5bc1ed5e69fc27ae00ce1"
+    },
+    "vendor/stymiee/email-validator/build/coverage/.keep": {
+      "md5": "d41d8cd98f00b204e9800998ecf8427e",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "vendor/stymiee/email-validator/build/insights/.keep": {
+      "md5": "d41d8cd98f00b204e9800998ecf8427e",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "vendor/stymiee/email-validator/build/phpcs/.keep": {
+      "md5": "d41d8cd98f00b204e9800998ecf8427e",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "vendor/stymiee/email-validator/build/phpmd/.keep": {
+      "md5": "d41d8cd98f00b204e9800998ecf8427e",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "vendor/stymiee/email-validator/examples/disposableEmailList.php": {
+      "md5": "7ecf2f3ff851ea7f3741a29a42d5d729",
+      "sha256": "10522d347e5a09bd004df8880ee520dd8a9cddc700c7646c48931313c3092131"
+    },
+    "vendor/stymiee/email-validator/examples/disposableEmailListWithCustomDomains.php": {
+      "md5": "f8d55a893112229b7246159e96a7f110",
+      "sha256": "9b3a5bf04134fadad63995c4857f964eb1f91fa7377651943cc1b90ecba3155f"
+    },
+    "vendor/stymiee/email-validator/examples/fullValidation.php": {
+      "md5": "021a37bb2e0c771022b6810469d7db0a",
+      "sha256": "f74f8afd0ef1e3d1fb73649b7ecf8b2a4b96bed91b76fdbdf60b9433405aef3c"
+    },
+    "vendor/stymiee/email-validator/examples/getDisposableEmailList.php": {
+      "md5": "86b86d477d45fbe1894b9d27b086e56e",
+      "sha256": "b7395f7f72d09dc9b6f9d5c74f127e39e99b7d9c09388d9bdc815eae7a6ddd3a"
+    },
+    "vendor/stymiee/email-validator/src/EmailValidator/EmailAddress.php": {
+      "md5": "89272af8e008e4a6d9a8e789cccff540",
+      "sha256": "26f8fca8003d13f97a93f30d91d9aa77bfd3999c300c001e2792b6f9badd08f1"
+    },
+    "vendor/stymiee/email-validator/src/EmailValidator/EmailValidator.php": {
+      "md5": "323093f66602467545073e4a2caec172",
+      "sha256": "92cf90581a5b25ded923c8b479e8b6333b4caad0f0e199c645e1957a65bb1f93"
+    },
+    "vendor/stymiee/email-validator/src/EmailValidator/Policy.php": {
+      "md5": "de3b1cd9f854c904010011e9d196c194",
+      "sha256": "59b912fb0ccbed9728f27e1e69b3aaabe3396d807bea157583810e71a848e8ea"
+    },
+    "vendor/stymiee/email-validator/src/EmailValidator/Validator/AProviderValidator.php": {
+      "md5": "688363dadad1f6e281425ad9def6c562",
+      "sha256": "5de276fed0d0dd485f5f3f5c618a74a761d4da309b5c7149b80b497c0cf14313"
+    },
+    "vendor/stymiee/email-validator/src/EmailValidator/Validator/AValidator.php": {
+      "md5": "b86298b7d0e7086812eb638862bc4296",
+      "sha256": "79f949627134c3375738ed306c38619034c6a2abd12862146a30d8002f659f10"
+    },
+    "vendor/stymiee/email-validator/src/EmailValidator/Validator/BannedListValidator.php": {
+      "md5": "7ccb163499dc1c8d394d29da9af58ab9",
+      "sha256": "520ab8b7784f23e7209eb76a95f83018a7d986008a4c40e233359918fd075df2"
+    },
+    "vendor/stymiee/email-validator/src/EmailValidator/Validator/BasicValidator.php": {
+      "md5": "7ef743690c331dfa9e69e3e4a0ad932b",
+      "sha256": "4648859dc973a41b71a72eeccfb89536c3b326e8fc58153b7f68d4ed5e031782"
+    },
+    "vendor/stymiee/email-validator/src/EmailValidator/Validator/DisposableEmailValidator.php": {
+      "md5": "a979258e8dce631a5f64cd156dafcc43",
+      "sha256": "21a96dbe10968e46f26505ab0930c5362774f3fa5d9d083a141aa38484379753"
+    },
+    "vendor/stymiee/email-validator/src/EmailValidator/Validator/FreeEmailValidator.php": {
+      "md5": "5ba86062da757f17c9c9da1f6ddaaba0",
+      "sha256": "d52e951e0e1421985bd70ee6b6be6a1be0a67f3fb5e0d0c96a8116d9d3934a2a"
+    },
+    "vendor/stymiee/email-validator/src/EmailValidator/Validator/IValidator.php": {
+      "md5": "ed161b1f1882d15b28e9c59db1e30300",
+      "sha256": "28833e4204885ea768ec40f6df4f34067af4323856b24e9aa6ba4a4e8f3f8b3d"
+    },
+    "vendor/stymiee/email-validator/src/EmailValidator/Validator/MxValidator.php": {
+      "md5": "78b9465fabc3195566ae703fb89a8cef",
+      "sha256": "8a048e03a0cac3acbdbc6870e24a8c29d3de86dea7963a85361e8fae79b87cc5"
+    },
+    "vendor/stymiee/email-validator/tests/EmailValidator/EmailAddressTest.php": {
+      "md5": "5aa16fdc8bf5bbc9e3d2241122bd0bc7",
+      "sha256": "ab56f25b722005114b391088bcfd59a8870638942c732b5a1ebc201cf7c26eb6"
+    },
+    "vendor/stymiee/email-validator/tests/EmailValidator/EmailValidatorTest.php": {
+      "md5": "9b170ddb2bbed853b1651b55f22229dc",
+      "sha256": "b6d95b3b8f7bc082115735820165062a2af4b42bbfeed4539cb5e9aa260f46f6"
+    },
+    "vendor/stymiee/email-validator/tests/EmailValidator/PolicyTest.php": {
+      "md5": "1833ff1b98c2361d20b8d12d13a1d00d",
+      "sha256": "2e47f1faf0bdbf1515ddd9293da3b56b40d6d197eda4c178b13a514aff3a0269"
+    },
+    "vendor/stymiee/email-validator/tests/EmailValidator/Validator/BannedListValidatorTest.php": {
+      "md5": "fd52179a0c5859f6ea73bc8fb15230de",
+      "sha256": "cca62061163bac45f3af59e6e7e863a58044096d469c62561ff333aa30f0ff35"
+    },
+    "vendor/stymiee/email-validator/tests/EmailValidator/Validator/BasicValidatorTest.php": {
+      "md5": "7e500583621fa906eb568f8d5f6b6d1d",
+      "sha256": "dc5aed4e089f86f3c05bfa24ae2438b048c4c40b49d737fb9fc48f1a2ac3cd2e"
+    },
+    "vendor/stymiee/email-validator/tests/EmailValidator/Validator/DisposableEmailValidatorTest.php": {
+      "md5": "3459fc70fbef42ca00755715e3b2af6e",
+      "sha256": "8f38ef0b61f43053636c6fc6880ba959e486441c9ca50e4fae3101bd77041c68"
+    },
+    "vendor/stymiee/email-validator/tests/EmailValidator/Validator/FreeEmailValidatorTest.php": {
+      "md5": "318caa9fcbc195b4c53c811ef16ec831",
+      "sha256": "35d1167f8f330dd9c1555c68111c68a3a2a8cf202d58f717c0965ef3fb72595a"
+    },
+    "vendor/stymiee/email-validator/tests/EmailValidator/Validator/MxValidatorTest.php": {
+      "md5": "0cdba50d420941a9ddd42003221226e6",
+      "sha256": "2f9ed12a2909d46b4e457353036bf031a850ff37cba768a0db19e9a5be2c937a"
+    },
+    "vendor/stymiee/email-validator/tests/EmailValidator/Validator/ProviderValidatorTest.php": {
+      "md5": "05e872a873080783ad80d5eb34ebef8c",
+      "sha256": "d4448aee4433d705163f561a83606105e8b9bda0fe861bcfcf92f5a2f174a287"
+    },
+    "vendor/symfony/polyfill-intl-idn/bootstrap.php": {
+      "md5": "3afba89087d4111338ccc8c287147595",
+      "sha256": "d1c848be8e40cd932b4c417062a06e344aebe6beefebaf627f4990a05e651653"
+    },
+    "vendor/symfony/polyfill-intl-idn/bootstrap80.php": {
+      "md5": "eb467e3c760d841e33c948882859011a",
+      "sha256": "235b2ec58965606763d4939d9adecf447064056589ccf14840a8401685a89a85"
+    },
+    "vendor/symfony/polyfill-intl-idn/composer.json": {
+      "md5": "bd60d7c70ad84b7d56ae19a6c7e7dad1",
+      "sha256": "c2501e5b48040b81b9fb6e024e61f4d75ad67055340b694ca5575a1a4a83f2dc"
+    },
+    "vendor/symfony/polyfill-intl-idn/Idn.php": {
+      "md5": "d8b39d6a9d7cf931e796501212813f40",
+      "sha256": "25e27d41f03bcadfe29596b64496df888161e4e02cb0703de12bbfd272275946"
+    },
+    "vendor/symfony/polyfill-intl-idn/Info.php": {
+      "md5": "3d4427dcf757a6158a6a2a3caf33f843",
+      "sha256": "92bb7f4240fbec226637cee39f4895184fef4f4c4e7bef7f35c1bb5c6497c095"
+    },
+    "vendor/symfony/polyfill-intl-idn/LICENSE": {
+      "md5": "2bb261119d59edc81d60aee48b55c673",
+      "sha256": "718d02a093edb2e5e3f6bd9ddf16417b27b66c4af62bee7b8aba64ebebfa6da0"
+    },
+    "vendor/symfony/polyfill-intl-idn/README.md": {
+      "md5": "3600e13115146792b636688dd2bedc9b",
+      "sha256": "25df08ccce19fd0b088bf049ec068c49fcb1342bda15236eaee49f68d0a348eb"
+    },
+    "vendor/symfony/polyfill-intl-idn/Resources/unidata/deviation.php": {
+      "md5": "a4e02f7d44f01d7f050dfcb9a16d2860",
+      "sha256": "99a5e49efead1d6ee1780af3023d1f5fef26c7febb693e1ff9531c40c9dd63a3"
+    },
+    "vendor/symfony/polyfill-intl-idn/Resources/unidata/disallowed.php": {
+      "md5": "184f89105e74e2bd898da70a69549a62",
+      "sha256": "1fd2115a03d5cf31fed318fffb19a0a41e0caff9526a7f0b6d73037ecc1393d6"
+    },
+    "vendor/symfony/polyfill-intl-idn/Resources/unidata/DisallowedRanges.php": {
+      "md5": "4e7d6fe12772b713affab1713fede99f",
+      "sha256": "d51ac53504a05cb8a3f0d559e9651b7dd217305f0dc726aa790884cdaa966331"
+    },
+    "vendor/symfony/polyfill-intl-idn/Resources/unidata/disallowed_STD3_mapped.php": {
+      "md5": "993b7afe17ba863308008f19d7f1a986",
+      "sha256": "4b0c8682d28c96a7c9d7543d7f2177569d66cb2a47749090ac67ad48359111d3"
+    },
+    "vendor/symfony/polyfill-intl-idn/Resources/unidata/disallowed_STD3_valid.php": {
+      "md5": "45cd86f06bdf40f4fd3e10528deabfb7",
+      "sha256": "7afc76f69129190acdd6a5ea0e74520fd99159cd5c8c152388a733307848bfdd"
+    },
+    "vendor/symfony/polyfill-intl-idn/Resources/unidata/ignored.php": {
+      "md5": "0ecde91671b99dca93d3a7f6fd0b638d",
+      "sha256": "a8feb976e2b2275eefbc5d25fb9d52970bd5a966a88cf1d27395cdd70f2ab78a"
+    },
+    "vendor/symfony/polyfill-intl-idn/Resources/unidata/mapped.php": {
+      "md5": "33b6ecf382da39a7a208e9686e0bb357",
+      "sha256": "8bac58f0d71c7d30ff9f9400b281647ae114a52eedc9588b7f3a8d0622744a4b"
+    },
+    "vendor/symfony/polyfill-intl-idn/Resources/unidata/Regex.php": {
+      "md5": "99551347bc2b2a1ebc763bc038e0ba8c",
+      "sha256": "bca6a982cc8596c922a6a5040f8a9612320c06282138ec98d5e7bc853065f6da"
+    },
+    "vendor/symfony/polyfill-intl-idn/Resources/unidata/virama.php": {
+      "md5": "6aa0539ca2d85e4de6122212c7f1eacb",
+      "sha256": "136c161169ba3bba05298cc751b98d4481143c875b5ae0af31ea09ff3e5878d7"
+    },
+    "vendor/symfony/polyfill-intl-normalizer/bootstrap.php": {
+      "md5": "636cc3653f8532fa8e8afb3e5968ddf1",
+      "sha256": "4219b370aff1cd30ad3cd3814899094e63449adf26972217ab348fb384fd7715"
+    },
+    "vendor/symfony/polyfill-intl-normalizer/bootstrap80.php": {
+      "md5": "0ec1b381f7278c676330e2104a76f5ee",
+      "sha256": "e9ef95e5d4206ccea56469cb9e73d7723779f945e46a338bcc1b2b131c914fe1"
+    },
+    "vendor/symfony/polyfill-intl-normalizer/composer.json": {
+      "md5": "3d20f35429cef7350a526d13d5fd1df3",
+      "sha256": "55e6d5615cae9bb4b83413fd669f8889cf206a94c7efacae6c4ddddc9d0c5ca5"
+    },
+    "vendor/symfony/polyfill-intl-normalizer/LICENSE": {
+      "md5": "5eabb89a3d6f34e80f6d7e8de48f7f60",
+      "sha256": "eaa5d6e59ff1d5322ae36d3ab9124460df72d2d0c8af60a99222e8a90dcbdf31"
+    },
+    "vendor/symfony/polyfill-intl-normalizer/Normalizer.php": {
+      "md5": "53fab6b96b87d97eea876791882169cc",
+      "sha256": "e7bcb7d13e17e4efad1d337b9ad9f72f025ae23aa8ea051f18d074e027c769fc"
+    },
+    "vendor/symfony/polyfill-intl-normalizer/README.md": {
+      "md5": "f6926d73c53dd76c759ea1f9221d25c4",
+      "sha256": "e88d64931fb6459ae33c4c35213323d5c0621c5ec2f921d00e8ec7011c46eb2c"
+    },
+    "vendor/symfony/polyfill-intl-normalizer/Resources/stubs/Normalizer.php": {
+      "md5": "c9116409c08d6783e2b342abb86b42e9",
+      "sha256": "f98e9fe75a0e2008e4e16ca369aa132a45408d4034b668e4afea9fcddca69964"
+    },
+    "vendor/symfony/polyfill-intl-normalizer/Resources/unidata/canonicalComposition.php": {
+      "md5": "67c4f994a005e6d5b48f33b4d83dad02",
+      "sha256": "d05e3b74aebcb4331dfed345c77d096a7036a6d7360f0ff8da288890fa7397f5"
+    },
+    "vendor/symfony/polyfill-intl-normalizer/Resources/unidata/canonicalDecomposition.php": {
+      "md5": "7ab34951ee88347f8e22dadcc3d931d0",
+      "sha256": "1bc87057e04a900531aed8819fb59e7aa8321a9ac62a38b1672759f6464ecc62"
+    },
+    "vendor/symfony/polyfill-intl-normalizer/Resources/unidata/combiningClass.php": {
+      "md5": "997a75b1c4dd9aa34b625e08d61d4377",
+      "sha256": "f98aaf043ea59c470359e1fef1792f95ed34a2111fd7781744df926ceea8f2d7"
+    },
+    "vendor/symfony/polyfill-intl-normalizer/Resources/unidata/compatibilityDecomposition.php": {
+      "md5": "55fe2932daa439c5df97966a14567217",
+      "sha256": "8fdf5cb56ec0a8021db5b090b981fff9250ced89dc2c8bfbaee0fe80b5b644a8"
+    }
+  }
+}
